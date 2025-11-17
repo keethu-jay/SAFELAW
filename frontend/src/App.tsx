@@ -5,14 +5,15 @@ import Login from './pages/Login';
 import Writer from './pages/Writer';
 import Reader from './pages/Reader';
 import Profile from './pages/Profile';
-import Layout from './components/layout.tsx'; // If using a layout component
+import Layout from './components/layout.tsx';
 
 function App() {
     return (
         <Routes>
+            <Route path="/login" element={<Login />} />
             <Route element={<Layout />}>
+                <Route index element={<Home />} />
                 <Route path="/" element={<Home />} />
-                <Route path="/login" element={<Login />} />
                 <Route path="/writer" element={<Writer />} />
                 <Route path="/reader" element={<Reader />} />
                 <Route path="/profile" element={<Profile />} />

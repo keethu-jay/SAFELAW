@@ -5,22 +5,57 @@ import GavelRoundedIcon from '@mui/icons-material/GavelRounded';
 const isLoggedIn = false; // TODO: integrate with auth state
 
 const Header = () => (
-    <header className="border-b border-white/10 bg-[#0b1726]/90 shadow-lg backdrop-blur">
-        <Box className="flex w-full flex-wrap items-center justify-between gap-4 px-4 py-5 sm:flex-nowrap sm:px-10 lg:px-16">
-            <div className="flex items-center gap-3">
-                <Link to="/" className="flex items-center gap-2 text-lg font-semibold tracking-[0.6em] uppercase text-white hover:text-emerald-200 transition-colors">
-                    <GavelRoundedIcon sx={{ fontSize: 24 }} />
+    <header style={{ borderBottom: '1px solid var(--color-text-inactive)', background: 'rgba(28,42,61,0.95)', boxShadow: '0 2px 12px rgba(9,19,37,0.10)', backdropFilter: 'blur(8px)' }}>
+        <Box style={{ display: 'flex', width: '100%', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', padding: '1.25rem 2.5rem', fontFamily: 'var(--font-family-base)' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                <Link
+                    to="/"
+                    style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.5rem',
+                        fontFamily: 'var(--font-role-logo)',
+                        fontWeight: 300,
+                        letterSpacing: '0.6em',
+                        textTransform: 'uppercase',
+                        color: 'white',
+                        fontSize: '1.3rem',
+                        textDecoration: 'none',
+                        position: 'relative',
+                    }}
+                >
+                    <GavelRoundedIcon sx={{ fontSize: 24, color: 'var(--color-accent-secondary)' }} />
                     SafeLaw
                 </Link>
             </div>
 
-            <nav className="flex flex-1 items-center justify-end gap-3">
-                <NavLink to="/writer" className="safelaw-cta safelaw-cta--primary">
+            <nav style={{ display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'flex-end', gap: '1rem' }}>
+                <NavLink to="/writer" style={{
+                    background: 'var(--color-accent-primary)',
+                    color: 'var(--color-bg-page)',
+                    border: 'none',
+                    borderRadius: '9999px',
+                    padding: '0.75rem 1.5rem',
+                    fontWeight: 400,
+                    fontFamily: 'var(--font-family-base)',
+                    textDecoration: 'none',
+                    transition: 'all 0.2s',
+                }}>
                     Workspace
                 </NavLink>
                 <NavLink
                     to={isLoggedIn ? '/profile' : '/login'}
-                    className="safelaw-cta safelaw-cta--ghost"
+                    style={{
+                        background: 'transparent',
+                        color: 'var(--color-accent-primary)',
+                        border: '1px solid var(--color-accent-primary)',
+                        borderRadius: '9999px',
+                        padding: '0.75rem 1.5rem',
+                        fontWeight: 400,
+                        fontFamily: 'var(--font-family-base)',
+                        textDecoration: 'none',
+                        transition: 'all 0.2s',
+                    }}
                 >
                     {isLoggedIn ? 'Profile' : 'Login'}
                 </NavLink>

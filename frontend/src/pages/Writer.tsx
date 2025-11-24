@@ -21,9 +21,9 @@ const suggestionItems = [
 ];
 
 const Writer = () => (
-    <div className="space-y-6 text-white">
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <div className="safelaw-subnav">
+    <div style={{ color: 'var(--color-text-light)', fontFamily: 'var(--font-family-base)' }}>
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', marginBottom: '2rem' }}>
+            <div style={{ background: 'var(--color-bg-card)', borderRadius: '999px', padding: '0.35rem' }}>
                 {[
                     { label: 'Writing', href: '/writer' },
                     { label: 'Reading', href: '/reader' },
@@ -31,30 +31,44 @@ const Writer = () => (
                     <NavLink
                         key={tab.href}
                         to={tab.href}
-                        className={({ isActive }) => (isActive ? 'active' : undefined)}
+                        style={({ isActive }) => ({
+                            background: isActive ? 'var(--color-accent-primary)' : 'transparent',
+                            color: isActive ? 'var(--color-bg-page)' : 'var(--color-text-inactive)',
+                            borderRadius: '999px',
+                            padding: '0.55rem 1.6rem',
+                            fontSize: '1rem',
+                            fontWeight: 600,
+                            margin: '0 0.2rem',
+                            border: 'none',
+                            transition: 'all 0.2s',
+                        })}
                     >
                         {tab.label}
                     </NavLink>
                 ))}
             </div>
-         
         </div>
 
-        <div className="grid gap-8 grid-cols-[minmax(0,1.7fr)_minmax(0,1fr)] max-sm:flex max-sm:flex-col">
+
+        <div style={{ display: 'grid', gap: '2rem', gridTemplateColumns: 'minmax(0,1.7fr) minmax(0,1fr)' }}>
             <Paper
                 elevation={8}
-                className="border border-white/5 bg-gradient-to-br from-[#0f172a] via-[#101f31] to-[#0b1424]"
-                sx={{ borderRadius: '30px', padding: { xs: '24px', md: '40px' } }}
+                style={{
+                    borderRadius: '2rem',
+                    background: 'linear-gradient(135deg, #1C2A3D 0%, #091325 100%)',
+                    padding: '2.5rem',
+                    color: 'var(--color-text-light)',
+                }}
             >
                 <Stack spacing={4}>
                     <div>
-                        <p className="text-sm uppercase tracking-[0.4em] text-emerald-300">Draft Legal Brief</p>
-                        <Typography variant="h4" className="font-semibold text-white">
+                        <p style={{ textTransform: 'uppercase', letterSpacing: '0.4em', color: 'var(--color-accent-primary)', fontSize: '1rem', marginBottom: '1rem' }}>Draft Legal Brief</p>
+                        <Typography variant="h4" style={{ fontFamily: 'var(--font-role-heading)', fontWeight: 700, color: 'var(--color-text-light)' }}>
                             Case of John Doe v. Acme Corp.
                         </Typography>
                     </div>
 
-                    <Divider className="border-white/10" />
+                    <Divider style={{ borderColor: 'var(--color-text-inactive)' }} />
 
                     <Stack direction="row" spacing={1}>
                         {['B', 'I', 'U'].map((icon) => (
@@ -62,12 +76,13 @@ const Writer = () => (
                                 key={icon}
                                 variant="outlined"
                                 size="small"
-                                sx={{
-                                    color: '#a7b9d6',
-                                    borderColor: 'rgba(255,255,255,0.15)',
+                                style={{
+                                    color: 'var(--color-text-inactive)',
+                                    borderColor: 'var(--color-text-inactive)',
                                     minWidth: '44px',
                                     borderRadius: '12px',
-                                    fontWeight: 700,
+                                    fontWeight: 300,
+                                    fontFamily: 'var(--font-family-base)',
                                 }}
                             >
                                 {icon}
@@ -78,36 +93,49 @@ const Writer = () => (
                     <Box
                         component="textarea"
                         defaultValue={`WHEREAS, the Plaintiff, John Doe, asserts a claim for breach of contract against the Defendant, Acme Corporation, stemming from a purported failure to deliver services as outlined in the agreement dated January 15, 2023...`}
-                        className="min-h-[360px] w-full resize-none rounded-3xl bg-[#050d18]/80 p-6 text-base leading-relaxed text-slate-200 outline-none ring-1 ring-inset ring-white/5 focus:ring-2 focus:ring-emerald-400"
+                        style={{
+                            minHeight: '360px',
+                            width: '100%',
+                            resize: 'none',
+                            borderRadius: '1.5rem',
+                            background: 'rgba(9,19,37,0.8)',
+                            padding: '1.5rem',
+                            fontSize: '1.1rem',
+                            color: 'var(--color-text-light)',
+                            fontFamily: 'var(--font-family-base)',
+                            outline: 'none',
+                            border: '1px solid var(--color-text-inactive)',
+                        }}
                     />
 
                     <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="flex-end">
                         <Button
                             variant="outlined"
-                            className="border-emerald-400/60 text-emerald-300"
-                            sx={{
+                            style={{
                                 borderRadius: '999px',
-                                px: 4,
-                                py: 1.5,
+                                padding: '0.75rem 1.5rem',
                                 borderWidth: 2,
                                 textTransform: 'none',
-                                fontWeight: 600,
+                                fontWeight: 300,
+                                color: 'var(--color-accent-primary)',
+                                borderColor: 'var(--color-accent-primary)',
+                                background: 'transparent',
+                                fontFamily: 'var(--font-family-base)',
                             }}
                         >
                             Save Draft
                         </Button>
                         <Button
                             variant="contained"
-                            className="bg-emerald-400"
-                            sx={{
+                            style={{
                                 borderRadius: '999px',
-                                px: 4,
-                                py: 1.5,
-                                fontWeight: 700,
+                                padding: '0.75rem 1.5rem',
+                                fontWeight: 300,
                                 textTransform: 'none',
-                                backgroundColor: '#2dd4bf',
-                                color: '#042f2e',
-                                '&:hover': { backgroundColor: '#14b8a6' },
+                                background: 'var(--color-accent-primary)',
+                                color: 'var(--color-bg-page)',
+                                boxShadow: '0 4px 15px rgba(0, 217, 237, 0.4)',
+                                fontFamily: 'var(--font-family-base)',
                             }}
                         >
                             Export Document
@@ -118,37 +146,71 @@ const Writer = () => (
 
             <Paper
                 elevation={8}
-                className="border border-white/5 bg-[#0d1726]"
-                sx={{ borderRadius: '30px', padding: { xs: '24px', md: '32px' } }}
+                style={{
+                    borderRadius: '2rem',
+                    background: 'var(--color-bg-card)',
+                    padding: '2.5rem',
+                    color: 'var(--color-text-light)',
+                }}
             >
-                <Typography variant="h6" className="text-white">
+                <Typography variant="h6" style={{ color: 'var(--color-text-light)', fontFamily: 'var(--font-role-heading)', fontWeight: 700 }}>
                     SafeLaw Suggestions
                 </Typography>
-                <Divider className="my-4 border-white/10" />
+                <Divider style={{ margin: '1.5rem 0', borderColor: 'var(--color-text-inactive)' }} />
                 <Stack spacing={3}>
                     {suggestionItems.map((suggestion) => (
                         <Box
                             key={suggestion.title}
-                            className="rounded-2xl border border-white/10 bg-white/5 p-4 text-sm leading-relaxed text-slate-200"
+                            style={{ borderRadius: '1rem', border: '1px solid var(--color-accent-secondary)', background: 'rgba(255,255,255,0.05)', padding: '1.25rem', fontSize: '1rem', color: 'var(--color-text-light)' }}
                         >
-                            <Typography className="text-base text-white">{suggestion.title}</Typography>
+                            <Typography style={{ color: 'var(--color-text-light)', fontSize: '1.1rem' }}>{suggestion.title}</Typography>
                             <Stack
                                 direction="row"
                                 alignItems="center"
                                 justifyContent="space-between"
-                                className="mt-4 text-xs uppercase tracking-[0.3em] text-slate-400"
+                                style={{ marginTop: '1rem', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.2em', color: 'var(--color-text-inactive)' }}
                             >
                                 <Stack direction="row" spacing={1.5}>
                                     {['Source', 'Insert'].map((action) => (
                                         <Button
                                             key={action}
                                             variant="text"
-                                            sx={{
-                                                color: '#6ee7b7',
-                                                fontWeight: 700,
-                                                letterSpacing: '0.25em',
+                                            style={{
+                                                color: 'var(--color-accent-secondary)',
+                                                fontWeight: 300,
+                                                letterSpacing: '0.15em',
                                                 textTransform: 'uppercase',
-                                                paddingX: 0,
+                                                padding: '0.45em 1.2em',
+                                                fontFamily: 'var(--font-family-base)',
+                                                borderRadius: '999px',
+                                                transition: 'all 0.2s',
+                                                position: 'relative',
+                                                background: 'none',
+                                                border: 'none',
+                                            }}
+                                            onMouseOver={e => {
+                                                e.currentTarget.style.color = 'var(--color-accent-secondary-hover)';
+                                                e.currentTarget.style.background = 'rgba(255, 140, 71, 0.18)';
+                                                e.currentTarget.style.boxShadow = '0 0 12px 2px rgba(255, 140, 71, 0.25)';
+                                                e.currentTarget.style.border = '1.5px solid #23272f';
+                                            }}
+                                            onFocus={e => {
+                                                e.currentTarget.style.color = 'var(--color-accent-secondary-hover)';
+                                                e.currentTarget.style.background = 'rgba(255, 140, 71, 0.18)';
+                                                e.currentTarget.style.boxShadow = '0 0 12px 2px rgba(255, 140, 71, 0.25)';
+                                                e.currentTarget.style.border = '1.5px solid #23272f';
+                                            }}
+                                            onMouseOut={e => {
+                                                e.currentTarget.style.color = 'var(--color-accent-secondary)';
+                                                e.currentTarget.style.background = 'none';
+                                                e.currentTarget.style.boxShadow = 'none';
+                                                e.currentTarget.style.border = 'none';
+                                            }}
+                                            onBlur={e => {
+                                                e.currentTarget.style.color = 'var(--color-accent-secondary)';
+                                                e.currentTarget.style.background = 'none';
+                                                e.currentTarget.style.boxShadow = 'none';
+                                                e.currentTarget.style.border = 'none';
                                             }}
                                         >
                                             {action}
@@ -158,11 +220,11 @@ const Writer = () => (
                                 <Chip
                                     label={suggestion.tag}
                                     size="small"
-                                    sx={{
-                                        backgroundColor: 'rgba(16, 185, 129, 0.15)',
-                                        color: '#6ee7b7',
+                                    style={{
+                                        backgroundColor: 'rgba(0, 140, 153, 0.15)',
+                                        color: 'var(--color-accent-primary)',
                                         fontWeight: 600,
-                                        letterSpacing: '0.2em',
+                                        letterSpacing: '0.1em',
                                         textTransform: 'uppercase',
                                     }}
                                 />

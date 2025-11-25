@@ -1,0 +1,18 @@
+
+# Maps US/General terms to specific UK Legal System equivalents since the embedding library is based on US law
+# need to expand on this later and actually research problematic word meaning difference, this is just an example
+
+mappings:
+  # People / Roles
+  "attorney": ["solicitor", "barrister", "counsel"]
+  "lawyer": ["solicitor", "barrister", "counsel"]
+  "district attorney": ["crown prosecutor", "CPS", "prosecution counsel"]
+  "da": ["crown prosecutor", "CPS"]
+  "public defender": ["legal aid", "defence counsel"]
+
+  # Court Concepts
+  "opinion": ["judgment", "speech"]
+  "motion to dismiss": ["application to strike out", "summary judgment"]
+  "plaintiff": ["claimant"]  # UK switched from Plaintiff to Claimant in 1999 (CPR)
+  "alimony": ["spousal maintenance"]
+  "void": ["quashed", "set aside"]

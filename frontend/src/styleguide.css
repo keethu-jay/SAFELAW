@@ -104,4 +104,63 @@ h1, h2, h3, h4 {
 }
 
 
+/* -------------------------------------------------------------------------- */
+/* SIMILARITY SCALE                                                          */
+/* -------------------------------------------------------------------------- */
+
+:root {
+    --color-sim-low-text: #E53935;
+    --color-sim-low-bg: rgba(229, 57, 53, 0.15);
+    --color-sim-midlow-text: #FF9800;
+    --color-sim-midlow-bg: rgba(255, 152, 0, 0.15);
+    --color-sim-moderate-text: #FFCA28;
+    --color-sim-moderate-bg: rgba(255, 202, 40, 0.15);
+    --color-sim-midhigh-text: #9CCC65;
+    --color-sim-midhigh-bg: rgba(156, 204, 101, 0.15);
+    --color-sim-high-text: #43A047;
+    --color-sim-high-bg: rgba(67, 160, 71, 0.15);
+}
+
+.similarity-pill {
+    border-radius: 9999px;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.similarity-pill.very-low {
+    color: var(--color-sim-low-text);
+    background-color: var(--color-sim-low-bg);
+    border-color: rgba(229, 57, 53, 0.45);
+}
+
+.similarity-pill.low {
+    color: var(--color-sim-midlow-text);
+    background-color: var(--color-sim-midlow-bg);
+    border-color: rgba(255, 152, 0, 0.45);
+}
+
+.similarity-pill.moderate {
+    color: var(--color-sim-moderate-text);
+    background-color: var(--color-sim-moderate-bg);
+    border-color: rgba(255, 202, 40, 0.45);
+}
+
+.similarity-pill.high {
+    color: var(--color-sim-midhigh-text);
+    background-color: var(--color-sim-midhigh-bg);
+    border-color: rgba(156, 204, 101, 0.45);
+}
+
+.similarity-pill.very-high {
+    color: var(--color-sim-high-text);
+    background-color: var(--color-sim-high-bg);
+    border-color: rgba(67, 160, 71, 0.45);
+}
 

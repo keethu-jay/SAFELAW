@@ -1,0 +1,27 @@
+
+
+project_settings:
+  country_code: "USA"
+  embedding_model: "voyage-law-2"   # US-specific legal model
+  citation_style: "reporter"        # Uses Page numbers
+
+courts:
+  - name: "US Supreme Court"
+    db_code: "SCOTUS"
+    structure_type: "unitary"       # US Opinions are usually "Opinion of the Court"
+    identification_regex: "\d+\s+U\.S\.\s+\d+"
+
+parsing_rules:
+  # US Judges use "JUSTICE NAME"
+  judge_header_regex: "^JUSTICE\s+[A-Z]+\s+delivered the opinion"
+
+  # US opinions split by *Pages*
+  paragraph_split_regex: "\n\s*[*]+\s*(\d+)\s*[*]+\s*" # e.g. *45*
+
+keywords:
+  facts_section_headers:
+    - "Statement of Facts"
+    - "I." # US/Roman Numeral convention
+  dissent_indicators:
+    - "I respectfully dissent"
+    - "joined by JUSTICE"

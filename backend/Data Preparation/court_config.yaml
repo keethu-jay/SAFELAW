@@ -1,0 +1,40 @@
+# written for UK Version system
+
+project_settings:
+  country_code: "UK"
+  embedding_model: "voyage-3-lite"  # Change to a multilingual model for non-English countries
+  citation_style: "neutral"         # "neutral" (Paragraphs) or "reporter" (Pages)
+
+# 1. Court Mapping: Maps raw text patterns to database
+courts:
+  - name: "Supreme Court"
+    db_code: "UKSC"
+    structure_type: "seriatim"      # Multiple judges write separate opinions
+    identification_regex: "\[\d{4}\]\s+UKSC"
+
+  - name: "Employment Appeal Tribunal"
+    db_code: "EAT"
+    structure_type: "unitary"       # Single "Opinion of the Court" (Panel)
+    identification_regex: "\[\d{4}\]\s+EAT"
+
+# 2. Parsing Rules: The regex logic for chunking
+parsing_rules:
+  # How to find a new speaker/judge
+  judge_header_regex: "^(LORD|LADY)\s+[A-Z\-]+(?:\s+and\s+(?:LORD|LADY)\s+[A-Z\-]+)?:"
+
+  # How to split paragraphs (e.g., "45. Text...")
+  paragraph_split_regex: "\n\s*(\d+)\.\s+"
+
+  # Catches neutral citations (e.g., [2024] UKSC 24) and Law Reports (e.g., [1996] AC 1)
+  citation_regex: "\[\d{4}\]\s+(?:UKSC|UKHL|EAT|UKEAT|EWCA|AC|WLR|All ER)\s+(?:\w+\s+)?\d+"
+
+section_patterns:
+  facts:
+    - "(?i)^.*?background.*?$"
+    - "(?i)^.*?facts.*?$"
+    - "(?i)^.*?procedural history.*?$"
+    - "(?i)^.*?introduction.*?$"
+  dissent_indicators:
+    - "(?i)i respectfully disagree"
+    - "(?i)i would dismiss the appeal"
+    - "(?i)i dissent"

@@ -1,6 +1,9 @@
 import React from 'react';
-import { Box, Paper, Stack, Typography, Divider } from '@mui/material';
+import { Box, Paper, Stack, Typography, Divider, Button } from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
+import LogoutIcon from '@mui/icons-material/Logout';
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 
 // Hardcoded example data
 const lastEdits = [
@@ -26,6 +29,14 @@ const collaborativeDocs = [
 ];
 
 const Profile: React.FC = () => {
+    const { logout } = useAuth();
+    const navigate = useNavigate();
+
+    const handleLogout = async () => {
+        await logout();
+        navigate('/');
+    };
+
     return (
         <div style={{ color: 'var(--color-text-light)', fontFamily: 'var(--font-family-base)' }}>
             <div style={{ display: 'grid', gap: '2rem', gridTemplateColumns: 'minmax(0,1fr) minmax(0,0.8fr)', marginBottom: '2rem' }}>
@@ -471,6 +482,37 @@ const Profile: React.FC = () => {
                             </Typography>
                         </div>
                     </Stack>
+                    <Divider style={{ borderColor: 'rgba(255,255,255,0.1)', marginTop: '1.5rem', marginBottom: '1.5rem' }} />
+                    <Button
+                        variant="outlined"
+                        onClick={handleLogout}
+                        startIcon={<LogoutIcon />}
+                        style={{
+                            width: '100%',
+                            borderRadius: '999px',
+                            padding: '0.75rem 1.5rem',
+                            borderWidth: 2,
+                            textTransform: 'none',
+                            fontWeight: 400,
+                            color: 'var(--color-accent-secondary)',
+                            borderColor: 'var(--color-accent-secondary)',
+                            background: 'transparent',
+                            fontFamily: 'var(--font-family-base)',
+                            transition: 'all 0.2s',
+                        }}
+                        onMouseOver={(e) => {
+                            e.currentTarget.style.background = 'rgba(196, 98, 60, 0.1)';
+                            e.currentTarget.style.borderColor = 'var(--color-accent-secondary-hover)';
+                            e.currentTarget.style.color = 'var(--color-accent-secondary-hover)';
+                        }}
+                        onMouseOut={(e) => {
+                            e.currentTarget.style.background = 'transparent';
+                            e.currentTarget.style.borderColor = 'var(--color-accent-secondary)';
+                            e.currentTarget.style.color = 'var(--color-accent-secondary)';
+                        }}
+                    >
+                        Sign Out
+                    </Button>
                 </Paper>
             </div>
         </div>

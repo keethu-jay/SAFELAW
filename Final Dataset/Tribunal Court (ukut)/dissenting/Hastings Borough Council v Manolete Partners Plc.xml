@@ -1,0 +1,741 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2016/50"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2016/50"/>
+	  <FRBRdate date="2016-07-27" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="50"/>
+	  <FRBRname value="Hastings Borough Council v Manolete Partners Plc"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2016/50"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2016/50"/>
+	  <FRBRdate date="2016-07-27" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2016/50/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2016/50/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:15:14" name="transform"/>
+	  <FRBRdate date="2025-08-18T19:53:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2016-07-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="hastings-borough-council" href="" showAs="Hastings Borough Council"/>
+	<TLCPerson eId="manolete-partners-plc" href="" showAs="Manolete Partners Plc"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2016</uk:year>
+	<uk:number>50</uk:number>
+	<uk:cite>[2016] UKSC 50</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>050f6a19d107b0a238d0be8532e9850f6da988b3b65edf0490cdd99e3a55727d</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-style: italic; font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1.00in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.00in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.50in; margin-right: 0.50in; font-size: 13pt; }
+#judgment .NewSpeech { font-style: normal; font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-size: 13pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p><img src="image1.png" style="width:1.3756944444444446in;height:1.3756944444444446in;"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Trinity Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2016] UKSC 50</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2014] EWCA Civ 562</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p class="Title1" style="margin-left:0.06in"><party as="#appellant" refersTo="#hastings-borough-council" style="font-size:20pt">Hastings Borough Council</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#respondent" refersTo="#manolete-partners-plc" style="font-size:20pt">Manolete Partners Plc</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Hale, Deputy President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Kerr</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Carnwath</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Toulson</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hodge</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2016-07-27" refersTo="#judgment" style="font-weight:bold;font-size:18pt">27 July 2016</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-left:4.00in;text-indent:-4.00in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 23 June 2016</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 1.97in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Appellant</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Respondent</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Steven Gasztowicz QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Martin Bowdery QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Jack Parker</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span>&#8194;&#8194;&#8194;&#8194;&#8194;</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">(Instructed by Legal Services, Hastings Borough Council)</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Gaby Hardwicke Solicitors)</p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD CARNWATH: (<span style="text-transform:none">with whom Lady Hale, Lord Kerr, Lord Toulson and Lord Hodge agree)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The council appeals against the decision that it is liable to pay compensation under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="1984 c. 55 s. 106" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">Building Act 1984</ref>, for loss to a business on Hastings Pier arising from its closure during 2006 under the council&#8217;s emergency powers. The respondent (&#8220;Manolete&#8221;) pursued the claim as assignee of Stylus Sports Ltd (&#8220;Stylus&#8221;), which owned and operated the business at the relevant time, but went into liquidation in late 2011. The only issue in the appeal is whether Stylus was itself &#8220;in default&#8221; within the meaning of that section, so precluding it from making a claim.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The statutory provisions</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As explained more fully by Jackson LJ in the Court of Appeal (<ref href="#" uk:canonical="[2014] 1 WLR 4030" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 4030</ref>, <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/562" uk:canonical="[2014] EWCA Civ 562" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 562</ref>, 46 paras 46ff), <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> is one of a sequence of public health statutes, going back to the 19th century, which among other matters have dealt with the regulation of new buildings and the control of dangerous structures. <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">The 1984 Act</ref> draws together a number of such provisions, including building regulations (Part I), supervision of construction work other than by local authorities (Part II), and &#8220;Other provisions about buildings&#8221; (Part III). Within Part III, and relevant to this case, are section 77 (&#8220;Dangerous building&#8221;) and 78 (&#8220;Dangerous building - emergency measures&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Section 77 enables the council to apply to the magistrates&#8217; court in relation to a building or structure which &#8220;is in such a condition, or is used to carry such loads, as to be dangerous&#8221;. Under subsection (1), the court may either (a) where danger arises from the condition of the building or structure, order the owner to execute work necessary to obviate the danger or to demolish it, or -</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(b) where danger arises from overloading of the building or structure, make an order restricting its use until a magistrates&#8217; court, being satisfied that any necessary works have been executed, withdraws or modifies the restriction.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">By section 77(2)(b) if the person against whom an order is made under subsection (1)(a) above fails to comply with the order within the time specified, the local authority may execute the order and -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(b) recover the expenses reasonably incurred by them in doing so from the person in default.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Under section 78 (directly relevant to this case), where it appears to the authority that a building or structure or part of it is in such a state, or is used to carry such loads, as to be dangerous, and that &#8220;immediate action should be taken to remove the danger&#8221;, they may take &#8220;such steps as may be necessary for that purpose&#8221;, having given notice if reasonably practicable to the owner and occupiers.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Compensation is governed by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> (in Part IV of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the Act</ref>):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(1) A local authority shall make full compensation to a person who has sustained damage by reason of the exercise by the authority, <span style="font-style:italic">in relation to a matter as to which he has not himself been in default</span>, of any of their powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">this Act</ref>.&#8221; (emphasis added)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">By <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(2)</ref> any dispute arising &#8220;as to the fact of damage, or as to the amount of compensation&#8221; is to be determined by arbitration.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the context of a claim resulting from emergency action under section 78, <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> must be read with section 78(7):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(7)<marker name="tab"/>Where in consequence of the exercise of the powers conferred by this section the owner or occupier of any premises sustains damage, but <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(1)</ref> below does not apply because the owner or occupier has been in default -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>the owner or occupier may apply to a magistrates&#8217; court to determine whether the local authority were justified in exercising their powers under this section so as to occasion the damage sustained, and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>if the court determines that the local authority were not so justified, the owner or occupier is entitled to compensation, and <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(2)</ref> and (3) below applies in relation to any dispute as regards compensation arising under this subsection.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The &#8220;default&#8221; on which the council relies includes alleged breaches (actual or prospective) of the duties imposed by the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/5-6/31" uk:canonical="1957 (5 &amp; 6 Eliz. 2) c. 31" uk:origin="TNA" uk:type="legislation">Occupiers&#8217; Liability Act 1957</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">Health and Safety at Work etc Act 1974</ref>. In short the former (by <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37/section/2" uk:canonical="1974 c. 37 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref>) imposes on occupiers of premises the &#8220;common duty of care&#8221;; that is -</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;a duty to take such care as in all the circumstances of the case is reasonable to see that the visitor will be reasonably safe in using the premises for the purposes for which he is invited or permitted by the occupier to be there.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">The latter, by <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37/section/2" uk:canonical="1974 c. 37 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref>, imposes on an employer the duty to &#8220;ensure, so far as is reasonably practicable, the health, safety and welfare at work of all his employees&#8221;, and in particular to maintain any place of work (including means of access and egress) in a condition that is safe and without risks to their health.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The facts</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The history of the pier structure is described in the report by engineers for the council (&#8220;the Gifford report&#8221;) in June 2006, which led directly to their decision to close the pier:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The original Hastings Pier was opened in 1872. It was built to a length of 277m with its timber deck bearing on wrought iron lattice trusses, all supported on three rows of cast-iron screw piles via cast-iron columns; the columns were braced with wrought iron ties secured with cast-iron clamps. The width varied from 13.6m at the Central Section to 60m at Head and 39.6m at the landward end. Repairs utilising steel trusses and steel columns have been undertaken at various times since following a fire in 1917 to the Pier Head, partial demolition (sectioning) and actual bomb damage during the 1939-45 war, and widening to both sides of the Pier &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">They commented on the general state of the pier:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in;margin-right:0.31in">&#8220;Experience has shown the typical life of Victorian piers to be approximately 100 years; during this time continual maintenance would have been required, including the replacement [of] some critical elements. After this time, major reconstruction works would be required if continued use of the pier were to be viable. The general condition of Hastings Pier fits this pattern.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In recent years the freehold of the pier was owned by Ravenclaw Investments Incorporated (&#8220;Ravenclaw&#8221;), a company registered in Panama, and managed on their behalf by Boss Management UK Ltd (&#8220;Boss&#8221;). Stylus occupied two units, C2 and C15, close to the entrance to the pier at the northern (town) end. They operated a bingo hall in unit C2 and an amusement arcade in unit C15. The units were held respectively under leases from Ravenclaw dated 14 August 2001 and 10 October 2001. The &#8220;premises&#8221; as so leased were confined generally to the internal non-structural walls, and internal surfaces, and specifically excluded &#8220;any main structural parts of the premises or of the building &#8230;&#8221; (Schedule 1). Ravenclaw as landlord was responsible for repair and when necessary renewal of the structure including the support structure of the pier.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In 2004 Stylus became concerned about the structural integrity of the pier. They commissioned a full structural engineering survey of the pier by Hamill Davies Limited. The report (&#8220;the HDL report&#8221;), produced in September 2004, was provided both to Ravenclaw and in January 2005 to the council. It advised that urgent work was required to repair piles at the far end of the pier (some distance beyond the Stylus units). This should be done &#8220;ideally&#8221; within the next two months &#8220;to avoid the worst of the winter weather&#8221;; and the deck area supported by these piles &#8220;should be closed to the public until this work is completed&#8221;. They also advised that future work should be carried out to the structure of the pier in the area of the Stylus units. Of this they said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;With regard to the remaining work it is understood that this cannot be undertaken immediately. However this work should be completed within one year, with regular monitoring of the defective areas until this can be achieved. Unless this is carried out we judge there to be an unacceptable risk to the public.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">There is no evidence of action by Ravenclaw or the council to remedy the structural defects in response to this report, other than some limited work by Ravenclaw in the winter of 2005-2006. Meanwhile the public continued to use the pier, and the pier facilities (including the bingo hall and the amusement arcade) remained open for business.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In early April 2006 a council officer inspected the underside of the pier, when a section of tension cord fell from the pier. The council commissioned Gifford to report on the structural stability of the pier. Their brief included appraisal of its structural integrity and any potential risks to the public. The areas chosen were &#8220;those that would be subjected to the greatest crowd loading in the event of mass evacuation of the buildings, ie the designated escape routes&#8221; (report para 1.3). In May 2006 the council tried without success to compel Ravenclaw to commission a full structural assessment of the Pier. On 15 June 2006 they asked Boss, as agents for Ravenclaw, to close off the pier beyond the front facade, but that request was not complied with.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Gifford report, received by the council on 16 June 2006, identified serious structural defects, and recommended a full structural survey as a matter of urgency. It recommended by way of &#8220;immediate restrictions&#8221;</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;a)<marker name="tab"/>Access resulting in the potential for crowd loading on the Central Section and beyond should be prohibited until either, as a minimum, the presently identified defects in the area of the Central Section bounded by Columns 197-216-211-200 have been rectified or alternative safe access routes have been provided.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">b)<marker name="tab"/>Access by shop tenants or others for the purpose of maintenance need not be restricted.&#8221; (para 6.1)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">The columns there identified were beneath the Stylus premises.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 16 June the Council exercised its emergency powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> to close the pier to the public from the front facade onwards. A barrier was erected across the frontage with a notice saying &#8220;danger keep out&#8221;. A letter was delivered on the same day to tenants of units on the pier stating that the pier was being closed from the main entrance building onwards, including the Bingo Hall and Amusement arcade. The letter indicated that the council had had concerns about the pier for some time and had served notice on the owners requiring them to carry out a survey of the structure. It continued:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in;margin-right:0.26in">&#8220;In recent days the council has become aware that major events were still being booked for the Pier ballroom; two of these have been booked for July and one in August. As a result of its concerns over the Pier structure the Council commissioned consulting engineers Gifford of Southampton to look at a specific area of concern under the main covered walkway around the main facade entrance.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">This inspection was carried out yesterday. It has been established that at least five trusses have &#8216;failed&#8217; in this area. Our consultant is of the opinion that it is unsafe to allow large numbers of people onto the Pier.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">This area provides the only method of access onto and off the Pier. Any emergency affecting the rest of Pier, including the ballroom, requiring evacuation would mean crowds of people walking over the area where we have been specifically advised that crowds are unsafe.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">As a result the council has had no option other than to use its emergency powers to close much of the Pier immediately.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">The letter noted that, despite previous attempts to resolve the situation, the &#8220;Pier management&#8221; were continuing to plan for large events.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On the same day the council applied to Hastings Magistrates Court under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/77/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 77(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. The initial hearing at the Magistrates&#8217; Court took place on 21 June 2006. A representative of Stylus attended and asked to be included in the proceedings. After adjournments, at the substantive hearing on 12 September the court made an order under that section prohibiting public access to the pier until the necessary remedial works had been carried out.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Meanwhile, in July 2006 Stylus instructed HDL to undertake an inspection of the area beneath its units. It also instituted proceedings against Ravenclaw to require them to carry out the works of repair under the lease, and obtained summary judgment, but that was not complied with by Ravenclaw. In May 2007 Stylus began itself to carry out the necessary remedial works under its own premises. Those having been completed, the magistrates&#8217; court on 4 July 2007 varied its order so as to permit public access to its premises.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 8 November 2006 Stylus had notified the council of its intention to claim compensation under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>, for losses allegedly suffered as a result of the closure of the pier between 16 June and 12 September 2006. In late 2011 Stylus went into liquidation, and in January 2012 the liquidator of Stylus assigned Stylus&#8217; claim against the Council to Manolete, the present respondents. The present proceedings in the Technology and Construction Court (begun under CPR Part 8, on the basis that there would be no substantial dispute of fact) sought a declaration that the council were liable to pay compensation: <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/tcc/2013/842" uk:canonical="[2013] EWHC 842 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 842 (TCC)</ref>; <ref href="#" uk:canonical="[2013] 2 EGLR 17" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 2 EGLR 17</ref>.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The proceedings below</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Before Ramsey J the council raised a number of defences including the one now in issue, which he summarised:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;That the Council is not liable under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> because the claimant was &#8216;in default&#8217; for the purposes of that section because of the breach of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/5-6/31/section/2" uk:canonical="1957 (5 &amp; 6 Eliz. 2) c. 31 s. 2" uk:origin="TNA" uk:type="legislation">section 2</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/5-6/31" uk:canonical="1957 (5 &amp; 6 Eliz. 2) c. 31" uk:origin="TNA" uk:type="legislation">Occupiers Liability Act 1957</ref> and/or because it took a lease of the Pier past the end of its design life from a company registered outside the jurisdiction and was aware by the very latest in 2004 that there were serious problems with the structure of the Pier but took no adequate steps to ensure the Pier was repaired or the public excluded.&#8221; (para 14)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">He noted that in submissions the council had relied also on the duties under the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">Health and Safety at Work etc Act 1974</ref>. He rejected the defence, holding that the reference to &#8220;default&#8221; should be read as default in respect of obligations imposed by <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> itself. In support he cited authorities under previous statutes using the same expression, in particular <span style="font-style:italic">Neath Rural District Council v Williams</span><ref href="#" uk:canonical="[1951] 1 KB 115" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1951">[1951] 1 KB 115</ref>. He added:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;If that is not so and if it were necessary to see whether a party was in breach of any provision of other statutes, as is submitted here, then the scope of enquiry would be large and would require investigation of further factual matters to determine whether there was a default in terms of those statutes.&#8221; (para 46)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">He also rejected a separate defence that, absent <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref>, Stylus would have had no action in tort in any event. That is no longer in issue.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the Court of Appeal <ref href="#" uk:canonical="[2014] 1 WLR 4030" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 4030</ref> Jackson LJ agreed that default was limited to default under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. He reviewed at length the legislative history, dating from the Metropolitan Buildings Act 1844. He noted that compensation provisions, substantially in the same form as <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref>, had appeared in the Public Health Acts of 1875 and 1936. He referred to <span style="font-style:italic">Hobbs v Winchester Corpn </span><ref href="#" uk:canonical="[1910] 2 KB 471" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1910">[1910] 2 KB 471</ref>, which he read as treating the words &#8220;in default&#8221; as directed to default under <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1875. However, he accepted the submission of counsel for the authority that in both the 1875 and 1936 Act it should be read as extending also to &#8220;related&#8221; statutes:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;He points out that in many instances a building owner would be in breach of local Building Acts and Improvement Acts. If the local authority intervened in order to protect public safety, it would be absurd if the building owner could recover compensation under section 308. I accept that submission. In my view the default proviso in the 1875 Act was referring to a default under the 1875 Act <span style="font-style:italic">or related Acts</span>.&#8221; (para 52 emphasis added)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">However, the same extension was not required under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>, because -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;There are no local byelaws or parallel statutes directed to the same subject matter as <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">The 1984 Act</ref> and the Regulations made under it are comprehensive.&#8221; (para 76)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">A narrow construction was supported also by looking at the statute &#8220;as a whole&#8221;:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Where the same phrase occurs more than once it should generally be construed in the same way on each occasion &#8230; The phrase &#8216;in default&#8217; occurs in three significant places in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>, namely in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/77/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 77(2)</ref>(b), <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78(7)</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(1)</ref>. In both <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/77/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 77(2)</ref>(b) and <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 78(7)</ref> &#8216;default&#8217; has a narrow meaning. It clearly refers to a failure to perform obligations under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. </p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">This circumstance is a pointer towards construing &#8216;default&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> narrowly, namely as meaning breach of an obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>.&#8221; (paras 74-75)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">In agreement with the judge he concluded:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The phrase &#8216;in default&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> means in breach of an obligation arising under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. The provision does not require the court or the arbitrator to conduct a wide-ranging review of other legislation and the common law in order to see whether the claimant is in breach of any duties arising outside <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>.&#8221; (para 79)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The court had some sympathy for the argument that the council should not be obliged to compensate Stylus for being prevented from admitting the public to dangerous premises. But, given that the &#8220;true culprit&#8221; Ravenclaw was beyond the reach of enforcement procedures, the court was faced with the familiar problem of deciding which of the surviving parties should bear the loss, the answer to which depended on the statutory scheme. He added:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;[Stylus] has acted responsibly at all stages. It did its utmost to compel the landlord to carry out remedial works. Ultimately it stepped into the breach and did the works itself. If the local authority had wished to avoid liability to pay compensation under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref>, it could have brought proceedings under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/77" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 77</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> sooner and thereby avoided the need to take emergency action under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Finally, on this point, [the council&#8217;s] general arguments will still be available at the quantum hearing before the arbitrator. The local authority will be entitled to argue that even if it had not fenced off the pier, [Stylus] could have made little use of its two units.&#8221; (paras 81-82)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Finally he considered and rejected a separate argument on behalf of the council that the claim was precluded by the <span style="font-style:italic">ex turpi causa </span>principle, on the basis that to admit the public would have been contrary to its statutory responsibilities:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the motivation for the local authority&#8217;s closure of the pier to the public on 16 June 2006 was the likelihood of large crowds accessing the pier on and after 17 June for reasons unconnected with [Stylus&#8217;] business.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">As at 16 June 2006 [Stylus] had not incurred liability to any member of the public for breach of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/5-6/31" uk:canonical="1957 (5 &amp; 6 Eliz. 2) c. 31" uk:origin="TNA" uk:type="legislation">Occupiers&#8217; Liability Act 1957</ref>. Nor can I see any basis for saying that [Stylus] had committed any breach of the statutory duties which it owed to its employees under the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">Health and Safety at Work etc Act 1974</ref> ...&#8221; (paras 91-92)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">In his view, the default proviso was the &#8220;control mechanism which eliminates claims that are unacceptable on grounds of public policy&#8221;. It left no room for the application of the <span style="font-style:italic">ex turpi causa </span>rule (para 94). He added:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;95.<marker name="tab"/>Having said that, I do accept that the structural condition of the pier will be relevant to the quantum of the claim. The local authority will be entitled to argue in the arbitration due to be held under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(2)</ref> that the loss of profit caused by the local authority&#8217;s conduct must be substantially reduced by reason of the structural condition of the pier. Indeed the local authority would be entitled to argue that the quantum is reduced to nil, although on the evidence which I have seen that outcome seems unlikely.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">The submissions in summary</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In this court Mr Gasztowicz QC for the council submits that the courts were wrong to treat the word &#8220;default&#8221; as confined to default under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. That is supported both by ordinary meaning of the word and by the legislative history. The authorities referred to by the judge and the Court of Appeal do not lead to a different conclusion. Stylus was in default in the relevant sense because it was in breach of its obligations under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/5-6/31" uk:canonical="1957 (5 &amp; 6 Eliz. 2) c. 31" uk:origin="TNA" uk:type="legislation">the 1957 Act</ref> and 1974 Acts -</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;in relation to the very matter in relation to which the statutory power was exercised, namely the admission of the public to premises which when they were admitted were dangerous (to them and employees)&#8221; (printed case p 30)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He relies in particular on Stylus&#8217; own evidence which showed that:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.25in">It had received the September 2004 HDL report showing that urgent repairs were necessary &#8220;to protect the public&#8221;, including work in the Stylus area of the pier, which if not carried out within at most a year from September 2004 would mean there would be &#8220;an unacceptable risk to the public&#8221;;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">No further report had been obtained giving a different assessment on the state of the Pier in this area two years on;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.50in">Notwithstanding the contents of the report the necessary work was not done prior to closure.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">Although the primary responsibility for repair lay with the freeholders, Stylus had the ability to carry them out in default (<span style="font-style:italic">Granada Theatres Ltd v Freehold Investment (Leytonstone) Ltd</span> <ref href="#" uk:canonical="[1959] 1 Ch 592" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1959">[1959] 1 Ch 592</ref>, 608), as indeed it did following the court order. By continuing to invite the public to its premises it was causing loading by the public resulting in them and its employees being made subject (in the words of the HDL report) to &#8220;unacceptable risk&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For Manolete, Mr Bowdery QC (who did not appear below) supports the view of the courts below on the interpretation of the word &#8220;default&#8221;, but submits also that the appeal fails on the facts. As the Court of Appeal held, the council was unable to show that Stylus was in default of any legal obligation under either of the statutes relied on or otherwise. Furthermore, there was nothing to show that the council had ever regarded Stylus&#8217;s use of its own premises as dangerous to the public or its employees, following its receipt of the HDL report in early 2005. As the correspondence showed, and the Court of Appeal found, the motivation for the use of emergency powers was the prospect of large crowds at events unconnected with the use of the Stylus premises.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-weight:bold">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">With respect to the courts below, while recognising the somewhat different emphasis of the arguments in this court, there is a danger of over-complication. If one takes the words of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(1)</ref> at face value, they do not appear to pose any great difficulty either of interpretation or of application to the facts of this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The section gives a right to compensation to a person who has sustained damage by reason of the exercise of any of the authority&#8217;s powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref> &#8220;in relation to a matter as to which he has not himself been in default&#8221;. This raises two questions:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.25in">What was the &#8220;matter&#8221; in relation to which the authority has exercised its powers?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">Is that a matter &#8220;as to which&#8221; the claimant has been in default?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is important to keep in mind that the relevant power is the power to take emergency action under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref>. The claim is for loss resulting from that emergency action, not from the order of the magistrates&#8217; court, which itself carries no right to compensation. That is why the claim is limited to the period from the date of closure until the order made on 12 September. This point gains emphasis from <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78(7)</ref>. Even a claimant in &#8220;default&#8221; (in the relevant sense) is not precluded from seeking compensation, if the court determines that the authority were not justified in using their emergency power, rather than first seeking an order from the magistrates under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/77" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 77</ref>. The right to compensation provides an important check on the unbridled use of that emergency power under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref>, in respect of which (unlike <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/77" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 77</ref>) there is no right of objection or recourse to the court.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The council&#8217;s decision to act under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref> in this case is not itself in issue. But it is necessary to identify the matter which led it to take such emergency action, rather than applying first to the magistrates&#8217; court. That is clearly identified by the evidence, in particular the letter sent to the tenants at the time. It was not the general state of the pier, nor even the specific repairs identified in the HDL report on which Mr Gasztowicz relies. The council had been aware of those matters at least since the receipt of that report in 2005, but had not thought it necessary to close the pier, nor to take any legal action against Stylus at that stage. If they had wished to do so, there appears no reason why they could not have applied to the court for the appropriate order, giving Stylus the opportunity to make representations. No issue of compensation would have then arisen.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As is clear from the council&#8217;s letter to tenants, the matter which triggered the action in June 2006 was the state of the pier combined with fear of possible collapse from crowd-loading during the events planned for that month, particularly the risk of overloading in an emergency evacuation. Stylus was not legally responsible for the state of the pier, nor was it responsible for the events which triggered the council&#8217;s action. Whatever may have been its position as respects its clients and employees, it was not &#8220;in default&#8221; as to the matter which led to the council&#8217;s use of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref>. On this simple basis, in my view, the company is entitled to succeed.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">That conclusion makes it strictly unnecessary to address the view of the courts below that &#8220;default&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> referred only to default under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> itself. However, the council, no doubt supported by others with like responsibilities, is understandably concerned as to the potential implications of this limitation for future cases. There seem to have been four main points leading to this conclusion: (i) the legislative history, (ii) other references to &#8220;default&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>, (iii) the wide scope of the factual inquiry implicit in the alternative approach, and (iv) various authorities under the predecessor statutes. None of these considerations in my view supports the conclusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The first three points can be dealt with shortly. The legislative history tends if anything to support the opposite view. The use over more than 100 years of the same formula in statutes which, though covering the same general subject-matter, included a varying range of powers, makes it unlikely that it was linked specifically to the particular provisions of each statute. Jackson LJ was forced to accept that the similar formula in the Public Health Acts 1875 (section 308) and 1936 (section 278) must be read as extending to default under &#8220;related Acts&#8221;, such as local Building Acts and Improvement Acts (paras 52, 55). I agree, but &#8220;related&#8221; is an imprecise term, not supported by anything in the wording of the section itself. Once that extension is accepted, it is difficult to understand why it should not extend to other forms of legal default. Secondly, the other references to &#8220;default&#8221; referred to by Jackson LJ do not assist. In <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/77/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 77(2)</ref>(b), the default in question is specified by the section itself, that is failure to comply with the magistrate court&#8217;s order. That throws no light on its meaning where it is not so limited. <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 78(7)</ref> is related directly to <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> and poses the same issue as is now before us. Thirdly, the court&#8217;s concern as to the wide-ranging nature of the factual inquiry implied by the authority&#8217;s suggested approach is understandable, but it does not arise if the inquiry is limited in the way I have suggested above.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As to the authorities, the only one referred to by the Court of Appeal was <span style="font-style:italic">Hobbs v Winchester Corpn </span><ref href="#" uk:canonical="[1910] 2 KB 471" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1910">[1910] 2 KB 471</ref>, which related to the equivalent compensation provision in the 1875 Act (section 308). Meat had been seized under section 116 of the 1875 Act as unfit for human consumption. Although the butcher was acquitted of any offence under <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37/section/117" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 117</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">that Act</ref>, on the grounds that he was unaware that it was unfit for consumption, it was found that he was nonetheless &#8220;in default&#8221; for the purpose of section 308, so that his claim for compensation failed. Since the only default relied on by the authority was default under the 1875 Act, that case throws no light on the nature of the default which might be relevant in other cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Bowdery relies also on <span style="font-style:italic">Place v Rawtenstall Corpn </span>(1916) 86 LJKB 90, under a provision in a local Act giving the authority a defence from civil liability for damage caused in exercise of their statutory powers &#8220;in <span style="font-style:italic">default</span> &#8230; of the owner &#8230; or other person required to do such work&#8221;, and in the absence of negligence: section 257 of the Rawtenstall Corporation Act 1907 (emphasis added). The authority had served notice under <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">that Act</ref> requiring the claimant to convert a pail closet on his premises into a water closet and to connect it to a sewer. He failed to comply, and the authority carried out the work themselves, but did so by carrying out a larger project serving some other houses. In doing so, they used pipes larger than would have been needed by the claimant, thus causing subsidence to his property. It was held that the authority could not rely on his &#8220;default&#8221; to defeat his claim for damages. The judgment confirmed the &#8220;essential principle&#8221; that statutes interfering with common law rights should be strictly construed, and that it was for the authority to establish &#8220;that the work which they have done &#8230; is strictly work done &#8216;in default of &#8230; the owner&#8217;&#8221;. The problem for the authority was that the work was not limited to the work the owner would have done to carry out the work for his own house, but &#8220;comprised much more&#8221;. There was no finding that the damage was &#8220;only caused by the work which Mr Place was required to do&#8221; (pp 92-94 per Scrutton J). That seems to me a decision turning on its own particular facts, which throws no light on the meaning of the word &#8220;default&#8221; in the present context.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I should also mention two authorities referred to in argument on the word &#8220;default&#8221; in the provisions relating to statutory nuisances under the 1875 and 1936 Acts. <span style="font-style:italic">Clayton v Sale Urban District Council </span><ref href="#" uk:canonical="[1926] 1 KB 415" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1926">[1926] 1 KB 415</ref> concerned action by the authority in respect of an alleged statutory nuisance caused by flooding. Under section 94 of the 1875 Act they could serve an abatement notice on the person by whose &#8220;act default or sufferance&#8221; the nuisance had arisen. The authority argued that the nuisance had arisen by the &#8220;default&#8221; of the owner, in failing to repair the bank. It was argued that there could not be &#8220;default&#8221; by the owner within the meaning of the section unless there had been a breach of &#8220;an obligation arising independently of the section from an agreement or otherwise&#8221;, and that he was not under any &#8220;agreement or covenant or otherwise to construct or to repair the flood bank&#8221; (pp 423-424). This argument was rejected. Lord Hewart CJ said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In my opinion the act, default, or sufferance referred to in section 94 of the Public Health Act 1875, is an act, default, or sufferance related to the nuisance which it is sought to abate, and default no less than sufferance within the meaning of that section can occur without the breach of an obligation arising from contractual agreement.&#8221; (p 425)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">He referred to the &#8220;common law duty of the owner of a vacant piece of land to prevent that land from being a public nuisance&#8221; (citing <span style="font-style:italic">Attorney General v Tod Heatley </span><ref href="#" uk:canonical="[1897] 1 Ch 560" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1897">[1897] 1 Ch 560</ref>, 566). Contrary to Mr Bowdery&#8217;s submissions, that is to my mind clear authority at that level that the word &#8220;default&#8221; in a comparable context was not confined to default under the statute itself.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="font-style:italic">Neath Rural District Council v Williams </span><ref href="#" uk:canonical="[1951] 1 KB 115" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1951">[1951] 1 KB 115</ref> concerned the equivalent provision of the 1936 Act (section 93). A watercourse on the defendant&#8217;s land had become silted by natural causes and caused flooding. Section 259(1)(b), under which a watercourse in such a condition was a &#8220;statutory nuisance&#8221;, was subject to a proviso that no liability was imposed on any person &#8220;other than the person by whose act or default the nuisance arises or continues&#8221;. It was held that, absent any relevant legal duty on him under statute or at common law to take positive action to remove the nuisance, the defendant was not in &#8220;default&#8221;. In the words of the headnote:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; in the case of a natural stream a landowner had no duty at common law to keep the bed clear by removing obstructions which might arise from natural causes, and the proviso to (section 259(1)) was designed to prevent any additional duty from being cast on the landowner &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">Lord Goddard CJ expressed some doubt about the actual decision in <span style="font-style:italic">Clayton </span>but felt able to distinguish it on the basis that it was concerned with the words &#8220;act, default or sufferance&#8221; whereas the proviso to section 259(1)(b) referred only to &#8220;act or default&#8221; (p 126). However, he did not doubt the proposition that default could arise from breach of a duty outside <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref> itself.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Ramsey J, at para 43, referred to a passage in the judgment of Lord Goddard CJ, who said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;I do not think that in this case &#8216;default&#8217; could mean merely doing nothing, unless an obligation to do something <span style="font-style:italic">were imposed by <ref href="http://www.legislation.gov.uk/id/ukpga/1974/37" uk:canonical="1974 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref></span>. There was no act of the defendants which caused the obstruction either to arise or to continue &#8230; In the present case, on the facts found by the justices, there is nothing to show that the defendants did anything which caused this obstruction to arise or to continue; nor do I think that there is anything which can properly be called a default on their part &#8230;&#8221; (pp 126-127, emphasis added).</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">This passage cannot be taken as implying that only a duty under the 1936 Act itself was thought relevant. It must be read in the context of the judgment as a whole, in which the possibility of a common law duty had previously been discussed and dismissed (pp 120, 123).</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I conclude that there is nothing in the factors relied on in the courts below which requires the words &#8220;in default&#8221; to be limited to default under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>. They were right in my view to hold that the authority had no defence in principle to the claim for compensation, not because (as they held) there was no default under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>, but because it was not default by Stylus which led to the emergency action under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/78" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 78</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is important to emphasise that this conclusion does not limit in any way the issues which may be taken into account by the arbitrator in assessing compensation attributable to that action, including the statutory and common law responsibilities of Stylus to its clients and employees. As Jackson LJ indicated (para 95), it will be open to the authority to argue that the consequent loss of profit to the business must be substantially reduced due to the structural condition of the pier and the implications it would have had for the continuation of its business quite apart from the effects of the emergency notice. Mr Gasztowicz drew our attention to an earlier paragraph of Jackson LJ (para 79) which might suggest a more limited role for the arbitrator. Having agreed with the judge that the phrase &#8220;in default&#8221; means in breach of an obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>, he added:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The provision does not require the court <span style="font-style:italic">or the arbitrator</span> to conduct a wide-ranging review of other legislation and the common law in order to see whether the claimant is in breach of any duties arising outside <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref>.&#8221; (emphasis added)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.00in">I do not fully understand the inclusion in that passage of a reference to the arbitrator, as well as the court. In so far as it implies a limitation on the scope of the arbitrator&#8217;s function it is inconsistent with the later paragraph to which I have referred, and which in my view expresses the correct position.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For these reasons, albeit differing in some respects from those of the courts below, I would dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

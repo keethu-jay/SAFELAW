@@ -1,0 +1,701 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2024/20"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2024/20"/>
+	  <FRBRdate date="2024-01-03" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="20"/>
+	  <FRBRname value="Jacqueline Cross v NHS Somerset Clinical Commissioning Group"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2024/20"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2024/20"/>
+	  <FRBRdate date="2024-01-03" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2024/20/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2024/20/data.xml"/>
+	  <FRBRdate date="2024-03-08T15:36:58" name="transform"/>
+	  <FRBRdate date="2024-03-08T16:46:27" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-01-03" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ms-jacqueline-cross" href="" showAs="MS JACQUELINE CROSS"/>
+	<TLCPerson eId="nhs-somerset-clincal-commissioning-group" href="" showAs="NHS SOMERSET CLINCAL COMMISSIONING GROUP"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-ms-sarah-crowther-kc" href="/judge-ms-sarah-crowther-kc" showAs="MS SARAH CROWTHER KC"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>20</uk:number>
+	<uk:cite>[2024] EAT 20</uk:cite>
+	<uk:parser>0.23.1</uk:parser>
+	<uk:hash>3168bd91db097080c92e1d3c94c5d525e066f9533ad2d58d93c5ca2447e6abb2</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';color:#000000"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Cross v NHS Somerset Clinical Commissioning Group</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">[2024] EAT 20</neutralCitation></p>
+      <p class="CoverText" style="margin-left:0.3in">Case No: <docketNumber>EA-2022-001075-NLD</docketNumber></p>
+      <p class="CoverMain">IN THE EMPLOYMENT APPEAL TRIBUNAL</p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Date: </span><docDate date="2024-01-03" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">3 January 2024</docDate></p>
+      <p style="text-align:center;margin-left:0.2in"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center;margin-left:0.3in"><judge refersTo="#judge-ms-sarah-crowther-kc">MS SARAH CROWTHER KC</judge></p>
+      <p style="text-align:center;margin-left:0.2in">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center;margin-left:0.2in"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.45in 3.7in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#ms-jacqueline-cross" style="font-weight:bold">MS JACQUELINE CROSS</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Claimant /</role></p>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#nhs-somerset-clincal-commissioning-group" style="font-weight:bold">NHS SOMERSET CLINCAL COMMISSIONING GROUP</party></p>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center;margin-left:0.3in"><span style="font-weight:bold">MS L MILLIN </span>(through <span style="font-weight:bold">Direct Access) </span>for the <span style="font-weight:bold">Claimant / Appellant</span></p>
+      <p style="text-align:center;margin-left:0.3in"><span style="font-weight:bold">MS H WINSTONE </span>(instructed by <span style="font-weight:bold">Bevan Brittain) </span>for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center;margin-left:0.3in">Hearing date: 3 January 2024</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;color:#010302">JURISDICTIONAL/TIME POINTS, UNFAIR DISMISSAL</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt;color:#000000;margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">The Claimant, a litigant in person at the relevant times, genuinely but mistakenly believed, following a telephone conversation with an officer from ACAS, that she needed to await the outcome of her grievance before starting any tribunal proceedings. In fact, by the time the respondent provided its delayed grievance response, the conciliation certificate had expired and the claimant was out of time to present a tribunal claim for unfair dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt;color:#000000;margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">The Employment Judge erred in his consideration of whether the claimant&#8217;s mistaken belief was reasonable and therefore the Judge&#8217;s determination of whether it was reasonably practicable for the claimant to have brought her tribunal claim in time for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 111(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref> is set aside and remitted to a different Tribunal for consideration.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt;color:#000000;margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">The comments of Cavanagh J in </span><span style="font-style:italic">Cygnet Behavioural Health Limited v Britton </span><ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/108" uk:canonical="[2022] EAT 108" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 108</ref> do not change the principles of interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 111(2)</ref> as long established. Substantial numbers of the reported cases on this section are examples of applications of the established principles to the facts of the particular case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="font-weight:bold">MS SARAH CROWTHER KC:</span></p>
+	    <p class="ParaHeading"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_3">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question which arises on this appeal is whether the Employment Judge was entitled to find that the claimant's mistaken belief, which had led to her failing to issue her claim form in time, was a reasonable one or not.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I heard submissions in a hybrid hearing this morning, because Ms Winstone for the respondent was unable to attend due to extreme weather conditions which have prevented travel.  I am extremely grateful to everyone who has helped make the alternative arrangements at short notice to enable this hearing to go ahead. I indicated at the end of submissions that I would give an <span style="font-style:italic">extempore</span> judgment after the short adjournment, and this is that judgment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_6">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant Mrs Jacqueline Cross was employed by the respondent NHS Somerset Clinical Commissioning Group from 6 January 2014 as a nurse, initially at band 5 and later at band 6.  She was appointed to a band 8 role in 2016. Her case is that she was reluctant to take the role, as it involved leadership responsibilities, and she felt to a degree pressurised into it.  She makes complaint about the manner in which she was treated. Whether that complaint was justified or not, it is common ground that she found the work extremely difficult.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She was subsequently absent from work for reasons related to stress in the summers of both 2019 and 2020.  Eventually, in early 2021, she tendered her resignation on notice, and her employment terminated on 23 April 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That resignation letter was made with the benefit of advice from solicitors, and referred to intended claims for constructive / unfair dismissal, and detriments on grounds of protected disclosures.  The claimant indicated to the respondent that she also intended to raise a formal grievance, and in due course she did.  A meeting was held about the grievance on 7 May 2021.  At this stage the claimant no longer had legal advice, but she did have benefit of assistance of representatives from her union, the Royal College of Nursing, although these were not legally qualified individuals, and her case was passed between three different representatives.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 8 July 2021, the claimant emailed the respondent indicating that she intended to initiate pre-claim conciliation with ACAS, "In order to preserve my rights to bring a tribunal claim in due course, should that be necessary".  The early conciliation certificate shows that ACAS was notified that day, and the certificate was issued on 19 August 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the meantime, the claimant had spoken by telephone with an ACAS officer, Michael Henry.  She later said in an email to Mr Henry, dated 9 November 2021, "It has now been a few months since I had a call with you / ACAS.  I understood from my call that I could raise my matter with you any time after I had received a grievance outcome.  I have only just received the outcome, and would like advice on next steps please.  I am soon entering into a discussion with my ex-employer about the outcome, and need to be prepared to appeal if needed.  Please can we arrange a call".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The grievance outcome had been sent by the respondent to the claimant on 5 November 2021.  The claimant then had a conversation with someone (not Mr Henry) at ACAS, who told her that the certificate had only been valid for one month from issue.  The claimant said in her statement, "I remember thinking that something was wrong at this point, and I was feeling heightened anxiety.  I explained that I had been waiting for the grievance outcome for many months.  I had understood from my call with ACAS that I could raise my employment tribunal claim any time after I had received a grievance outcome".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant issued an ET1 on 10 November 2021.  In its ET3 dated 23 February 2022, the respondent asserted that the tribunal did not have jurisdiction because the claims for unfair dismissal were time-barred.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The tribunal hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">On 20 July 2022, Employment Judge LeGrys heard the time bar point by video hearing.  The claimant gave evidence and was cross-examined.  Both parties were represented by counsel, who have appeared before me today. I am extremely grateful to them both for all their helpful submissions, as well as for providing a note of the evidence which the claimant gave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In that evidence, the claimant stated that the legal aspects of a tribunal claim were all new to her, but that she found out about notifying ACAS, who tried to conciliate before a claim could be brought.  She stated that she had a call with an ACAS staff member, and she "believed (she) was safe in the ACAS system".  Her evidence, in line with her written statement and her email of 9 November 2021 to which I referred above, was that following her conversation with Mr Henry she understood that she had done everything she needed to do, and that she ought to await the grievance outcome before issuing any claim.  It was clarified in the course of the submissions to me today that she was not asked about the precise terms of that conversation.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Judgment of Employment Judge LeGrys</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge gave a determination on 25 July 2022.  Written reasons were then requested and provided on 15 August 2022, and sent  to the parties on 26 August 2022.  The Judge referred to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 111(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref> and noted that it was agreed between the parties that a claim ought to have been presented by 18 September 2021. The Judge recorded that it was common ground that the claimant had issued her claim within a reasonable time <span style="font-style:italic">after</span> her conversation with the second ACAS officer - so that the "sole issue" was therefore "whether it was reasonably practicable for the claim to have been presented in time".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 25 of the reasons, Judge LeGrys held that the claimant had, at the relevant time, a genuine belief that notifying ACAS of her claim was sufficient.  The Judge found that her evidence was credible and supported by her actions at the conclusion of the grievance process, including the contact with ACAS I have referred to as well as the fact that she submitted the ET1 promptly.  He rejected any suggestion that the stress and anxiety which the claimant was under had contributed anything to the delay in bringing her claim. These were findings the Judge was clearly entitled to make on the evidence and are not challenged before me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">14.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraphs 27 to 29 of the judgment, the Judge then considered whether the mistake was &#8216;reasonable&#8217;.  In concluding that it was not the Judge relied on the following factors, which I summarise here:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in">That the claimant had had the benefit of legal advice, and the assistance of her union throughout.  The Judge held that both could have been expected to advise the claimant of time limits.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in">That the claimant did not provide any reasons as to why the error was made, which appears to have been &#8216;entirely her own&#8217;.  He noted that the claimant was not suggesting that she had been misled by representatives or the respondent.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in">That the claimant knew that &#8216;time limits&#8217; were an issue, and the fact that she had contacted ACAS showed that she knew the process had to be followed notwithstanding the fact that the internal grievance procedure had to conclude.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in">That she was not seeking reinstatement as part of her internal grievance demands, and therefore there was no reason for her to await finalisation of that process before commencing her tribunal claim.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In light of these factors, the Judge held that it would have been possible for the claimant to ascertain the correct facts, and reasonable to expect this to have been done, (see paragraph 29 of the Judgment).  The Judge found that had she &#8216;checked&#8217;, the information about the time limits and the interaction with the early conciliation form would have been available to the claimant.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By notice of appeal dated 6 October 2022, the claimant submits that the employment judge fell into error in reaching those conclusions.  The paragraphs in the grounds of appeal are not numbered, so I have needed to summarise them myself and I apologise to Ms Mullins if I have not done justice to the way that they are presented:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>17.1</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">It was perverse to rely on the fact that the claimant had access to legal advice at an earlier stage of the process, in order to support a finding that it was later unreasonable to rely on what ACAS had told her.  The claimant&#8217;s reliance was not unreasonable in July 2021 when she did not have access to legal advice.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>17.2</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;text-indent:0.5in">That the finding that the error was &#8216;entirely her own&#8217; was unsupported by evidence, and stood in contradiction of the email of 9 November 2021.  The only finding open to the Judge was that the reason for delay was the claimant&#8217;s genuine (but wrong) belief that by starting the ACAS process, her claim was "in the system" and "safe", until the grievance outcome was received.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By its answer dated 28 June 2023, in submissions which were largely a repeat of the arguments made before the Judge, the respondent re-launched its attack on the credibility of the claimant, apparently seeking to go to some extent behind the (said to be unchallenged) findings of the Judge that the claimant had genuinely made a mistake, and that her evidence was credible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">However, the respondent has not sought permission for any cross-appeal and does not suggest that the Judge's findings about the credibility of claimant's evidence were not open to them, and therefore I will not say anything further about these points.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The essence of its answer to the appeal is contained at paragraph 11 of that document, which states, "The tribunal correctly asked itself whether the claimant's ignorance and/or reliance on ACAS advice was reasonable, and correctly permissibly answered in the negative".</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In submissions before me, Ms Millin on behalf of the claimant said that Mrs Cross was not asked in her evidence about why she considered that ACAS had told her that she did not need to issue a claim form, and it was unfair for her to be criticised in the judgment for failure to provide any reason.  There was a lack of clarity in the judgment about what the finding was regarding the claimant's belief. It had not been not open to the Judge to make a finding that the claimant had access to legal advice regarding the impact of ACAS conciliation on time limits as there was no evidence that she was in contact with any legally qualified person at that time. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She submitted that the Judge had failed to ask the right question when considering reasonableness: the behaviour of the claimant should have been compared with that of a reasonable person, in order to identify what she did that she ought not to have done, (or rather what she failed to do but ought to have done).  The claimant was never given opportunity to say why she took the steps she did, and why she considered that she was "safe" with ACAS.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Millin also told me that the claimant had given evidence that she had not undertaken any personal internet research about time limits, and submitted that was an entirely reasonable position for the claimant to take, given that the claimant believed she had informed herself of what she needed to have by speaking directly with ACAS.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She further submitted that the question of the claimant's precise knowledge regarding time limits had not been explored in evidence, and there was some confusion in the judgment as to the time at which advice was available, and the court ought to recognise that lay persons who do not have legal expertise would consider it perfectly reasonable to take the ACAS advice, and to accept that they needed to wait, and without question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She submitted that paragraph 28 of the judgment, which referred to there being no need to wait for the grievance process before issuing tribunal proceedings, and the lack of reinstatement claim, was inconsistent with the other findings in the judgment, where it had been held that the claimant genuinely believed that there was nothing further that she needed to do to start proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the circumstances, she submitted, it was wrong to say that the claimant was waiting for the substance of the outcome of the grievance.  She pointed out that there is no consideration by the Judge in terms of whether in fact it was reasonable to rely on what ACAS had told her or not, and no evidence was explored about what she had been told.  It was not open to the judge, she submitted, to make that finding and no reason was given.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In light of all of this, Ms Millin invited me to conclude that all the relevant evidential material was before me, and that I should find that the decision ought to be set aside, and there was only one outcome which I could reach, in favour of the claimant on the question of reasonableness of her belief.  Alternatively, she suggested that I could remit the matter to a different tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Winstone submitted on behalf of the respondent that the judgment, when read fairly and in the round, made a finding that was open to the tribunal, namely that the claimant's belief was not a reasonable one.  The approach that I need to take, she reminded me, is in accordance with long-established precedent as recently reiterated in the case of <span style="font-style:italic">Edwards v Everard</span> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2023/61" uk:canonical="[2023] EAT 61" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EAT 61</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In that case, the EAT was reminded that it is inappropriate to seek to construe the words of a judgment as if they were a statute. Therefore, the EAT must strive to read the judgment in the round, and base its assessment on overall findings, without seeking to delve too deeply into the detail of particular passages.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Winstone also submitted that there was nothing glaringly contradictory in the judgment reasons, and the Judge clearly had in mind the fact that the claimant had at all times awareness of her right to claim, and also as to the time limits which applied.  The Judge had found that the claimant knew that there was a procedure that needed to be followed in respect of any tribunal claim, and had also been entitled to find that the claimant had access to sources of information and advice which would have provided the right answer to the time limits point, and corrected her mistaken belief, should she have sought to double-check it, namely her previous solicitors, or her union representatives, with whom she remained in contact, although they may not have been legally trained. She pointed out that there was also publicly available information such as on the internet and the RCN website, the Royal College of Nursing website, as well as the ACAS website.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She submitted that, properly understood, the judgment showed that the Judge had taken the view that the claimant ought to have been alive to a contradiction or at least a tension between her interpretation of what ACAS had told her, and what the claimant already knew from her previous solicitors and her union representatives, and that uncertainty ought to have rung some alarm bells, and at the very least given the reasonable person cause to question the ACAS information, and to double-check it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Winstone accepted that the note of the claimant's evidence was correct insofar as it revealed that the claimant had never been asked about the terms of the conversation she had had with ACAS or what the claimant believed was going to happen next, and when she needed to start her claim.  Ms Winstone submitted that the claimant's memory was hazy, and that she was a poor witness in cross-examination, because she was claiming that she was adversely affected by her emotional and mental health difficulties.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Winstone further said that the claimant's belief ought to have been jolted by presentation of the certificate of conciliation in August 2021, and that the finding of the judge in the last sentence at paragraph 27 of his judgment was to the effect that, because the claimant was aware that the grievance and conciliation processes were separate, that was something that the judge was entitled to place weight on when considering the reasonableness of the claimant's belief.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Winstone also made submissions regarding paragraph 28 of the judgment, and explained that really what the judge was doing was setting out an alternative or hypothetical scenario (in which the claimant might have been in with a better chance of being considered reasonable) if the facts had been different, for example, if she had been waiting for the substantive outcome of the grievance before issuing her tribunal proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">She pointed out that the judge had been entitled to find at paragraph 29 that it would have been reasonable for the claimant to ascertain the correct facts regarding the time limit, and possible for the claimant to do this over the internet.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Ms Winstone again warned me against the risk that an appeal tribunal faces of overstepping its powers, and seeking to substitute my own decision for that of the tribunal, which would be wholly impermissible.  She therefore invited me to dismiss the appeal but, strictly in the alternative, Ms Winstone suggested that the case, if the appeal were to be allowed, it could be referred to the tribunal under the <span style="font-style:italic">Burns/Barke</span> procedure, or that remission to the same employment judge would be proportionate. She reminded me that tribunal judges are consummate professionals, who are well used to revisiting previous judgments, and can be expected to do so fairly, and with an open mind.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 111(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref>, (the &#8216;ERA&#8217;), provides that: "An employment tribunal shall not consider a complaint under this section unless it is presented to the tribunal (a) before the end of the period of three months beginning with effective date of termination, or (b) within such further period as the tribunal considers reasonable in a case where it is satisfied that it was not reasonably practicable for the complaint to be presented before the end of the period of three months".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The primary limitation period has now been amended by section 207A of the ERA, which has the effect of discounting the period between the date when the claimant contacts ACAS for early conciliation and receipt of the certificate, from the calculation of the three-month period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">38.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Dedman v British Building and Engineering Appliances Limited</span> <ref href="#" uk:canonical="[1974] ICR 53" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1974">[1974] ICR 53</ref> the Court of Appeal had to address the issue of the correct interpretation of the word 'practicable' in the predecessor statute (which did not include the word 'reasonable').  As Lord Denning, Master of the Rolls, pointed out:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">"Strictly speaking it is nearly always practicable for a man to present his claim in time, barring significant illness and not having anyone to do it for him.  However, a more liberal interpretation is required, even though it is difficult to find a set of words in which to express a liberal interpretation".</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">39.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Denning felt that:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">"In every case the tribunal should enquire into the circumstances and ask themselves whether the man or his advisers were at fault in allowing the (time limit) to pass by without presenting the complaint.  If not, then it was not practicable for him to present it within that time."</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">40.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Scarman LJ at page 64 E to F sated that, in a case where the reasons (for delay) are ignorance of rights, then it was necessary to consider the course of events,</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.45in">&#8220;What were his opportunities for finding out that he had rights? Did he take them? If not, why not? Was he misled or deceived? Should there prove to be an acceptable explanation of his continuing ignorance of the existence of his rights, it would not be appropriate to disregard it, relying on the maxim, &#8220;ignorance of the law is no excuse&#8221;. The word &#8220;practicable&#8221; is there to moderate the severity of the maxim and to require an examination of the circumstances of his ignorance. But what, if, as here, a complainant knows he has rights, but does not know that there is a time limit? Ordinarily, I would not expect him to be able to rely on such ignorance as making it impracticable to present his complaint in time. Unless he can show a specific and acceptable explanation for not acting within four weeks, he will be out of court.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Porter v Bandridge Limited</span> <ref href="#" uk:canonical="[1978] ICR 943" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1978">[1978] ICR 943</ref>, Waller LJ held that the effect of the later amendments to the statute -  in what has now become <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 111(2)</ref> -  was to codify the approach of the majority of the Court of Appeal in <span style="font-style:italic">Dedman</span>, and that required a factual investigation of the circumstances of how the relevant matters of ignorance came about, in order to assess whether they were reasonable.  However, Waller LJ held there was no scope for taking any more &#8216;generous approach&#8217; to a claimant than had been put forward in <span style="font-style:italic">Dedman</span>, under the amended statute.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">42.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-style:italic">Walls Meat Company v Khan</span> <ref href="#" uk:canonical="[1979] ICR 52" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1979">[1979] ICR 52</ref>, the issue was slightly different.  It was not a case of ignorance of rights or of the time limit, but rather a mistaken belief that the claim had already been lodged, and was being processed before the tribunal: see Lord Denning, MR, at page 56E.  In that case it was held that the tribunal needed not only to find what the mistaken belief which led to delay was, but also to go on to consider whether the belief was reasonable.  In a much-cited passage Brandon LJ explained, </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.45in">&#8220;With regard to ignorance operating as a similar impediment, I should have thought that, if in any particular case an employee was reasonably ignorant of either (a) his right to make a complaint of unfair dismissal at all, or (b) how to make it, or (c) that it was necessary for him to make it within a period of three months from the date of dismissal, an industrial tribunal could and should be satisfied that it was not reasonably practicable for his complaint to be presented within the period concerned.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.45in">For this purpose I do not see any difference, provided always that the ignorance in each case is reasonable, between ignorance of (a) the existence of the right, or (b) the proper way to exercise it, or (c) the proper time within which to exercise the right, is concerned, I do not see how it can justly be said to be reasonably practicable for a person to comply with a time limit of which he is reasonably ignorant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.98in;margin-right:0.45in">While I do not, as I have said, see any difference in principle in the effect of reasonable ignorance as between the three cases to which I have referred, I do see a great deal of difference in practice in the ease or difficulty with which a finding that the relevant ignorance is reasonable may be made. Thus, where a person is reasonably ignorant of the existence of the right at all, he can hardly be found to have been acting unreasonably in not making inquiries as to how, and within what period, he should exercise it. By contrast, if he does know of the existence of the right, it may in many cases at least, though not necessarily all, be difficult for him to satisfy an industrial tribunal that he behaved reasonably in not making such inquiries.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">43.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Consideration of reasonable practicability is well established as being effectively one of fact for the tribunal to determine on the evidence.  In refusing to set aside (what might by some to be seen to be an extremely generous) finding by the tribunal in favour of the respondents in the case of <span style="font-style:italic">Stewart v Cleveland Guest (Engineering) Limited</span> <ref href="#" uk:canonical="[1996] ICR 535" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] ICR 535</ref>, at 542 to 543, Mummery LJ, sitting in the EAT, reinforced the fact that in order to overturn factual findings it is necessary for an error of law to exist:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">" ... this Tribunal must be extremely cautious not to conclude that the decision of the Industrial Tribunal is flawed because the Appeal Tribunal would have reached a different conclusion on the evidence or thinks that another Industrial Tribunal would have reached a different conclusion on the evidence.  An appeal should not be allowed on this ground simply because the Employment Appeal Tribunal disagrees with the Industrial Tribunal as to the justice of the result, the merits of the case or the interpretation of the facts.  This Tribunal should only interfere with the decision of the Industrial Tribunal where the conclusion of that Tribunal on the evidence before it is 'irrational', 'offends reason', 'is certainly wrong' or 'is very clearly wrong' or 'must be wrong' or 'is plainly wrong' or 'is not a permissible option' or 'is fundamentally wrong' or 'is outrageous' or 'makes absolutely no sense' or 'flies in the face of properly informed logic'."</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">44.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I was also helpfully referred to the relevant passages of <span style="font-style:italic">Yeboah v Crofton</span> <ref href="#" uk:canonical="[2002] IRLR 634" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] IRLR 634</ref> at paragraphs 92, 95, an authority with which this tribunal is well familiar, and in which warnings were given again not to allow appeal hearings to turn into reviews or rehearings of the evidence:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">"It is only under circumstances where a tribunal is showed to have erred by misunderstanding the evidence, making a finding of fact unsupported by evidence, or contrary to uncontradicted evidence, that an appeal can succeed."</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">45.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Before I move on to deal with my judgment as to the application of these principles in this case, I make one further observation of law arising out of the <span style="font-style:italic">Walls Meat</span> case in 1978.  At the conclusion of his judgment Lord Denning, MR, said this, at 56G:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1in;margin-right:0.5in">"I must say that I regret the volume of case law which has accumulated about the time limit for unfair dismissal.  There are other statutes in which the courts are given a discretion to extend a time limit, and they operate successfully without attracting long arguments on facts or on law.  I would like to suggest that some limit be placed on the reporting of these cases.  They all turn very much on their own facts.  If we are not careful, we shall find the industrial tribunals bent under the weight of the law books or, what is worse, asleep under them.  Let principles be reported, but not particular instances."</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is against that background that I note that although there were various instances of application of the principles cited to me in the helpful authorities bundle that I was provided with, I have not felt the need to include them in this, what is already a relatively lengthy judgment, and I hope I can be forgiven for doing so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">There remains one point, with which I feel I must deal, because it was specifically subject of argument, about the case of <span style="font-style:italic">Cygnet Behavioural Health Limited v Britton </span><ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/108" uk:canonical="[2022] EAT 108" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 108</ref>, in which Cavanagh J made comments about the "liberal interpretation" phrase, adopted from the <span style="font-style:italic">Dedman</span> case as I have cited above, which appears to have become a term of fairly common usage in this field.  At paragraph 27 of that judgment Cavanagh J states that, "<ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 111(2)</ref> has not been interpreted in this way in more recent cases".</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Dispute arose in submissions about whether this phrase was in some way doubting the authority of <span style="font-style:italic">Dedman</span>. It has not been necessary for me to determine exactly what Cavanagh J may or may not have meant by this comment for the purposes of this appeal, because the case does not in my judgment turn on the interpretation of the statute, rather whether it was correctly applied on the facts of this case. However, I will observe that, if by this comment, Cavanagh J was indicating that there is no general duty on a tribunal to be liberal in its application of the principles of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 111(2)</ref> to claimants generally and at large, I can only agree.  Time limits are strict in the employment tribunal, and exceptions have to be properly construed and applied by reference to the evidence, and without reference to more general considerations of fairness or equity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For myself, I do not take him to be meaning any more than that.  However, I can see that the passage is open to more than one interpretation and, if I am wrong, and Cavanagh J was suggesting that a different statutory interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 111(2)</ref> now prevails, for my own part, and with the greatest of respect, the interpretation of the section itself, as set out in the authorities which I have addressed above, in my judgement remains unaltered, and the recent cases have done nothing to change that.  In the course of this appeal, I have not been made aware of any authority which would suggest there has been any change of principle in approach to interpretation of the statute.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have reached the conclusion that there are fundamental errors of fairness and reasoning in the part of the judgment which addresses whether the claimant's belief was reasonable, and that therefore this appeal must be allowed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In some respects, I have found the reasoning of the Judge difficult to understand.  Although the judgment follows a standard format, setting out various matters under a heading, "Facts", (between paragraphs 6 to 15), I have struggled to identify precisely what findings the Judge made, particularly in relation to the claimant's specific mistaken belief. The Judge does not make any clear findings as to the claimant&#8217;s understanding about her claim following the conversation with the ACAS conciliation officer on 9 July 2021 or how that understanding arose. Whilst (at paragraph 15) the Judge records the evidence the claimant gave, the Judge does not express whether he accepts that evidence or not.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge sets out the claimant's witness statement, saying, "It was her belief that once ACAS had been notified within three months, her case was 'safe in the system'." It is true that at paragraph 25, the Judge goes onto hold that the claimant was a credible witness, and that her belief that notifying ACAS of her claim was &#8216;sufficient&#8217; was genuine. The Judge finds further at paragraph 26 that she was under considerable stress at the time, and genuinely did not realise she had to do anything further. However, the ambit of the Judge&#8217;s finding as to the nature of the claimant&#8217;s mistaken belief was not clear to me.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Bearing this in mind, I heard submissions and in the event it was common ground before me that the mistaken belief that the Judge had found was that following the conversation with the ACAS conciliation officer the claimant had thought she had complied with everything she needed to do to bring her tribunal claim in time pending the outcome of her grievance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I understand that reasoning in judgments from busy tribunals is sometimes compressed. However, it would have been extremely helpful to have express findings from the judge as to what the claimant&#8217;s mistaken belief was, and how it came about.  If nothing else, it would have helped focus the enquiry as to whether the belief was reasonable more concretely on the correct evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgement the lack of clarity led to irrelevant considerations being taken into account on the question of reasonableness of the mistaken belief.  The Judge relied on the fact that the grievance did not seek reinstatement when assessing whether the claimant&#8217;s mistaken belief was reasonable. For myself, I cannot see how the absence of a claim for reinstatement in her grievance could possibly have been relevant to the question of reasonableness of the claimant's actual belief about time limits as the Judge had found it to be.  Ms Winstone told me in submissions that this issue was one which appeared to concern the Judge at the hearing and was not a matter which had been advanced in submissions by either side.  It can be seen from the reasons that the Judge clearly attached weight to the fact that the claimant had not been seeking reinstatement in her grievance when considering whether her reliance on ACAS advice was reasonable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This approach is hard to follow as a matter of logic.  The claimant was not seeking reinstatement in her tribunal claim either.  I accept the submission of Ms Mullins that the substance of the grievance was not what the claimant was awaiting &#8211; on the Judge&#8217;s own findings as to her mistaken belief, she was waiting for the outcome as a procedural step. The issue was whether the claimant's belief that her claim was &#8216;safe&#8217; and &#8216;in the system&#8217; and that she had taken the steps necessary to bring a tribunal claim in time, should she need to, was reasonable or not, and the substance of the grievance was a feature that he ought not to have taken into account.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Furthermore, the Judge&#8217;s finding (at paragraph 27 of the judgment) that the claimant did not provide any reasons as to why the error was made, which appears to have been &#8216;entirely her own&#8217;, was not in my judgement a fair criticism of the claimant on the evidence.  Ms Winstone did not cross-examine the claimant on the content of her conversation with ACAS, or why she came away with the belief that she had taken the steps needed to protect any future claim, and the Judge did not ask those questions either.  I therefore consider it fundamentally unfair for the Judge to rely on the absence of explanation in criticism of the claimant, as she had been effectively deprived of any opportunity to explain herself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was suggested to me in argument that such cross-examination would have been fruitless, because the claimant lacked recall. But, even if the claimant would not have been in a position reliably to recall the words of the conversation, it did not change the fact that the available evidence <span style="font-style:italic">did</span> provide some explanation of how the claimant had got hold of the mistaken belief that her case was safe in the system.  It was as a result of her conversation with the ACAS officer on 9 July. It could not therefore be said that there was &#8216;no reason&#8217; given by the claimant or that the mistake was &#8216;effectively her own&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In my judgement it was incumbent on the tribunal as a starting point of a proper enquiry to explore at least in outline how that situation had arisen. In its assessment of the claimant's interpretation of those events as reasonable or otherwise, it needed to be able to say how the state of affairs had come about and whether a reasonable person in the claimant&#8217;s position would have had any uncertainty about the interplay between the conciliation process, the ongoing grievance and time limits for any tribunal claim, or at what point the delay would have given rise to the need for further enquiries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Thereafter, I consider that the Judge further fell into error by taking account of access to legal advice in writing the letter of resignation in January 2021.  There was no evidence before the Judge that the claimant had received any advice at that time regarding time limits, much less that she had specifically been told of the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/207" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 207</ref>A <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">ERA 1996</ref> at that point.  Nor was there any evidence that the claimant had been given advice by her union representatives about the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/207" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 207</ref>A either generally or specifically in relation to her case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge also seems to have concluded that tribunal proceedings were in the claimant&#8217;s mind from the time of her resignation (so that she ought to have sought all the relevant time limits advice at that stage), but, with respect to the Judge, I cannot see any evidence to support that contention.  Indeed, as quoted at paragraph 11 of the facts section of the judgment, the claimant was expressly seeking to reserve her rights to claim only in the event that that "should&#8230;be necessary". In my judgement, the evidence only supported a finding that, (at least at the stage when she had legal advice), the claimant was open to negotiation with the respondent through the conciliation process. There was no evidence that the claimant was determined to bring tribunal proceedings from the outset. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is correct that as a matter of obvious fact the claimant <span style="font-style:italic">could</span> have researched the internet and may have discovered thereby that her understanding of what ACAS had told her was incorrect or incomplete.  It is also correct that the claimant <span style="font-style:italic">could</span> have contacted her union representatives or former solicitors, and those might have been sources for correcting her mistake, but the question that the judge needed to, but did not, answer was whether it was reasonable for her not to have done so in circumstances where she thought she had all the information she needed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The Judge&#8217;s finding that the claimant ought to have appreciated some contradiction between what ACAS told her and what she previously knew is not supported by any evidence about the claimant&#8217;s knowledge.  It appears that the Judge considered it sufficient that, "Both legal and union representatives can reasonably be expected to know about time limits and to advise accordingly", (paragraph 27 of the judgment) to impute to the claimant sufficient knowledge that there might be a discrepancy or mistake to give rise to the need for further enquiries.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">With respect, that is not enough.  The Judge needed to address what the claimant's state of mind was, and what she knew, and whether her state of mind was reasonable by reference to either what she actually knew or ought to have known.  There was no evidence before the Judge and no analysis in the judgment that the claimant had or ought to have had advice about the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/207" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 207</ref>A on the time limits for her claim or that she ought to have appreciated that what she had been told by ACAS was incorrect or inconsistent with other information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It follows that I am unable to accept that on a fair and proper reading of the judgment as a whole, that the judge approached the task of assessing the reasonableness of the claimant's belief on a fair or full basis.  The Judge took into account irrelevant considerations, made findings which were unsupported by the evidence, and criticised the claimant for a failure to provide an explanation which she had never been given opportunity to set out.  The appeal must therefore be allowed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:12pt;margin-left:0.5in;text-indent:-0.5in">66.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I have decided that the matter will be remitted to a differently constituted tribunal to rehear on the merits.  It is clear to me that the question of whether the claimant's belief was a reasonable one is one on the merits, which could be decided either way.  But it would be inappropriate to impose that task on the previous employment judge.  Whilst I have every faith that he would approach any rehearing with an open mind, and full professionalism, the appearance would still nevertheless remain that there is a possibility that the claimant would not have a fair rehearing on the reissue. I confess that I make this order with some reluctance, given that the matter is now nearly three years old and, although of undoubted importance to the parties, of relatively modest value overall.  However, I feel I am left with no alternative, and in those circumstances the matter will need to be remitted.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="text-align:center;margin-left:0.5in">-----------------------------------</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

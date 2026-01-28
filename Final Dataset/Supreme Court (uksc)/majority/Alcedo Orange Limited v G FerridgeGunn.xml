@@ -1,0 +1,798 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/78"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/78"/>
+	  <FRBRdate date="2023-03-30" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="78"/>
+	  <FRBRname value="Alcedo Orange Limited v G Ferridge-Gunn"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/78"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/78"/>
+	  <FRBRdate date="2023-03-30" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/78/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/78/data.xml"/>
+	  <FRBRdate date="2024-11-09T22:33:59" name="transform"/>
+	  <FRBRdate date="2024-11-30T05:21:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-03-30" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="alcedo-orange-limited" href="" showAs="Alcedo orange lIMItEd"/>
+	<TLCPerson eId="mrs-g-ferridge-gunn" href="" showAs="MRS G FERRIDGE-GUNN"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-james-tayler" href="/judge-his-honour-judge-james-tayler" showAs="HIS HONOUR JUDGE JAMES TAYLER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>78</uk:number>
+	<uk:cite>[2023] EAT 78</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>062ad4ffc79157edb9d884f5c4ffbc5b3587d0ca7a27104bc655460dfd0288fa</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .text { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NormalWeb { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:6pt">Alcedo Orange Ltd v Mrs G Ferridge-Gunn</span></p>
+    </coverPage>
+    <header>
+      <p><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Neutral Citation Number: </span><neutralCitation style="font-family:'Times New Roman';font-size:12pt;color:#010302">[2023] EAT 78</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2022-000775-JOJ</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-03-30" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">30 March 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-james-tayler" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;text-transform:uppercase;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER </judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#alcedo-orange-limited"><span style="font-weight:bold;text-transform:uppercase;font-size:12pt">Alcedo orange lIMItEd</span></party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#mrs-g-ferridge-gunn" style="font-weight:bold;text-transform:uppercase;font-size:12pt">MRS G ferridge-gunn</party></p>
+      <p style="text-align:right"><role refersTo="#respondent"><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Ms Joanne Connolly </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Napthens LLP</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Armit Bachu </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 30 March 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MATERNITY RIGHTS</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The decision that the claimant was subject to discrimination because of her pregnancy was unsafe because the employment tribunal did not clearly determine who took the decision to dismiss the claimant and whether the person, or persons, who made the decision did so because of her pregnancy, in the sense that it was a material factor in the decision. The analysis required consideration of the decision of the Court of Appeal in</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, to which the employment tribunal was not referred. The matter was remitted to the same employment tribunal to re-determine the</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">pregnancy discrimination claim.</span></heading>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</span><span style="font-weight:bold;text-transform:uppercase;font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Introduction </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This case involves a scenario that many employment lawyers will have encountered at some point in their careers.  A woman tells her employer the good news that she is pregnant. A few days later she is told the bad news that she no longer has a job.  But one must be careful to avoid the fallacy commonly known by its Latin tag; post hoc ergo propter hoc.  Just because one thing follows another, it does not necessarily mean that the latter was caused by the former.  That said, the fact that a woman is dismissed shortly after telling her employer that she is pregnant often provides compelling support for an inference of discrimination to be drawn. The fact that the scenario may be familiar does not of itself assist in determining whether the inference should be drawn. Each case must be determined on its own facts, depending on the evidence about the reason for dismissal and, where appropriate, if the claim is brought under the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8221;), by application of the burden of proof provisions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This appeal raises issues about decision-makers and reasons.  To succeed in a claim of pregnancy discrimination of this type pursuant to the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> there must have been a discriminator or discriminators; a person or persons who decided to dismiss the claimant who were influenced by the claimant&#8217;s pregnancy.  The employment tribunal in this case had to answer the apparently simple question: why was the claimant dismissed?  Did the claimant's pregnancy have a material influence on the decision-maker or decision-makers?  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">There are often challenges for a claimant bringing a claim of this nature.  She might not know who made the decision to dismiss.  She may not know whether the decision was made by one person alone, uninfluenced by any others, or was made by a person who has been influenced by another, or others; or whether the decision was made jointly by a number of people.  The identity of the person or persons who made the decision to dismiss may emerge from the pleadings, during case management or at the hearing itself.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">There may even be cases in which the identity of the decision maker is never established, possibly because the employer seeks to obscure the decision making process, but it is still appropriate to draw the inference that whoever made the decision was motivated by the claimant&#8217;s pregnancy. But the employment tribunal should wherever possible set out clearly who made the decision to dismiss and, if more than one person was involved in the decision making process, what their roles were.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The decision of the employment tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This appeal is against the judgment of the employment tribunal sitting in Liverpool on 5, 6, 7 and 8 March 2022, Employment Judge Benson sitting with lay members. The decision was sent to the parties on 24 May 2022.  Judge Benson provided a succinct summary of what the case was about at paragraph 3 of the reasons:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">'In summary, the claimant contends that she was employed for one month, her probationary period was 12 weeks, and that when she announced she was pregnant on 19 February 2020 she was dismissed eight days later on 27 February 2020, having taken two days&#8217; leave because of morning sickness on 24 and 25 February 2020. The respondent&#8217;s case is that they dismissed the claimant because they were dissatisfied with her performance and that she did not meet the targets set for her. Furthermore, that the claimant was not receptive to advice and training and was not a good 'fit' for the respondent company. There is no dispute that the claimant was pregnant at the time of the dismissal, and that she later gave birth to a baby girl on 14 October 2020.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The starting point is to consider how the claim was pleaded.  The claimant was a litigant in person acting with the assistance of her husband.  The claim form attached to it a grievance that the claimant had submitted to her employer after her dismissal.  She told the story of the commencement of her employment, discovering that she was pregnant, suffering from morning sickness and having two days' absence from work. The claimant stated that Mrs Caunt, the Registered Manager, said when the claimant explained that she had morning sickness, words such as: ''is it a virus'', ''is it contagious?", ''how much time off are you going to need for this?", ''sorry to be unsympathetic, but I've never been pregnant before'' and ''stop faffing' and go home''.  The claimant said that the comments showed a lack of sympathy and understanding.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In its response to the claim, the respondent contended that the reason for the dismissal of the claimant related to her capability.  The respondent denied that the claimant had been dismissed by reason of, or for a reason connected with, her pregnancy.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The issues had been identified at a case management hearing.  They were slightly altered, but not to a material extent, when they were set out at paragraph 4 of the reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">The issues therefore for the Tribunal to determine at this hearing were:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Was the claimant dismissed by the respondent because of her pregnancy?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.59in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Was the claimant automatically unfairly dismissed for a reason connected with her pregnancy?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is worth noting at this stage that the reference was to dismissal by &#8220;the respondent&#8221;. The employee of the respondent who was said to have made the decision to dismiss the claimant was not identified.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraph 2 of the judgment, the employment tribunal noted the comments that Ms Caunt was alleged to have made and recorded that they were not relied upon as freestanding complaints.  They were said to be relied upon as background:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">At the outset of the hearing the Tribunal clarified with the claimant's representative whether the unfavourable treatment upon which the claimant relied in her claim of discrimination was solely the dismissal, or whether it related to any other aspects of her treatment. Mr Ferridge-Gunn confirmed that the other issues about which there was a complaint, being the comments made by Ms R Caunt in relation to the claimant's pregnancy, were not relied upon as individual acts of discrimination, but rather background and an indication as to how Ms Caunt felt about the claimant being pregnant</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That begged the question of how the comments of Ms Caunt could be background to the decision to dismiss the claimant.  I shall return to that issue later.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claims identified were of pregnancy discrimination pursuant to section 18 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and automatic unfair dismissal contrary to the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">ERA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221;).  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I shall take the facts from the findings set out by the employment tribunal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant has worked in health and social care since 2012.  Her roles prior to working for the respondent had been as a care manager, which involved a number of different duties, including some involvement in recruitment.  The claimant's role with the respondent was as a recruitment manager for staff for care homes.  Accordingly, it was a somewhat different job to those she had previously undertaken.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The claimant started work </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">with the respondent on 27&#160;January&#160;2020.  The claimant met with Mr Boardman, the managing director of the respondent, and Ms Caunt on 14&#160;February&#160;2020 to discuss Key Performance Indicators (&#8220;KPIs&#8221;) and how the claimant was performing.  The claimant received advice during the meeting about some areas of concern.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A second KPI meeting was held on 21&#160;February&#160;2020. It was thought that there had been a degree of improvement.  The tribunal recorded that Mr Boardman and his team had some issues with the claimant&#8217;s attitude to her job.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 19 February 2021, the claimant told Ms&#160;Caunt that she was pregnant.  The tribunal recorded that Ms Caunt offered congratulations. Mr Boardman was told of the claimant's pregnancy, so knew that she was pregnant when she was dismissed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was absent from work with morning sickness on 24 and 25 February 2020.  When she returned, she spoke with Ms Caunt.  The tribunal found as a fact that Ms Caunt used words such as: ''is it a virus'', ''is it contagious", ''how much time off are you going to need for this?", ''sorry to be unsympathetic, but I've never been pregnant before'' and ''stop faffing' and go home''.  The words had been asserted in the grievance letter attached to the claim form and had not specifically been denied.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment tribunal held that during the claimant's absence Ms Caunt found that certain documents including references, DBS checks and training certificates had not been uploaded to the respondent&#8217;s systems.  She told Mr Boardman that the claimant had misled him in saying that she had made progress at their previous meeting.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was asked to attend a meeting on 27 February 2020 with Mr Boardman and Ms Caunt.  She was told that her employment was being terminated because it was &#8220;not working out&#8221; and her performance was &#8220;below par&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant submitted a grievance on 28 February 2020.  On 2 March 2020, Mr Boardman responded.  In the penultimate paragraph he said:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">I raised concerns with your line manager Rosie Caunt about your performance and we concluded it was in the best interests of the company to give you notice in accordance with your contract.  In addition to your poor performance we did not feel that you were prepared to take onboard the help offered or listen to advice given. All of the people involved with your training have commented that you were reluctant to take advice, often cutting them off before they had finished a sentence saying that &#8216;you knew how to do it&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraph 34 of the decision, the tribunal recorded the evidence given by Mr Boardman as to his reason for dismissing the claimant:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Mr Boardman&#8217;s evidence before us was that the reason for the claimant's dismissal was her poor performance, her poor attitude and the attitude she showed towards her colleagues, who found her extremely rude, and that he had been misled on 21 February 2020. He was provided with the information concerning the claimant's assurances given on 21 February 2020 by Ms&#160;Caunt.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal directed itself as to the law at paragraph 37 by reference to section 18 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  The employment tribunal considered the burden of proof, the circumstances in which a tribunal may draw an inference of discrimination and when it may ask itself the &#8220;reason why&#8221; question.  The employment tribunal also considered the statutory framework for automatic unfair dismissal for pregnancy-related reasons.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In considering the EQA claim the tribunal did not refer to the decision of the Court of Appeal, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds v CLFIS (UK) Ltd</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="#" uk:canonical="[2015] ICR 1010" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] ICR 1010</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The representatives instructed by the respondent in this appeal are different to those instructed below, as is counsel now acting on behalf of the claimant.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The skeleton argument for the respondent that appears to have been produced on the last day of the hearing in the employment tribunal makes no reference to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  The respondent accepted that I should work on the assumption that the employment tribunal was not referred to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">. </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I consider that is a matter of significance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The employment tribunal </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">concluded that the claimant had been subject to pregnancy discrimination but had not been automatically unfairly dismissed at paragraphs 59 to 69 of its reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">The claimant brings two claims. Both relate to the claimant's dismissal, which she says was both automatically unfair and discriminatory because of her pregnancy. The claims are brought under section 18 of the EQA and section 99 of the ERA. The tests are different in each, but our findings below relate to both.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">60.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">We find that the claimant was not performing to the extent required by the respondent and was not engaging with its staff in the way that it expected and wished her to engage. The claimant had her own way of doing things, whereas it was reasonable for the respondent to expect her to follow its procedures and processes which had been developed to assist it in its business. The claimant was not following them at the pace and in the timely fashion that the respondent required. The respondent&#8217;s business model was focussed on getting as many candidates approached, short-listed, interviewed, certified, referenced and badged in as short as time as possible. This was not the way that the claimant had been used to operating, and she was taking some time to get up to speed and work to the urgency that the respondent required. This was a serious concern to the respondent, particularly as they had expected the claimant to be able to get up to speed as quickly as other staff had, including Ms Fitzsimmons.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">The respondent was also frustrated that the claimant did not engage when offered assistance and advice. This was particularly the position with other members of staff who found her difficult to engage with and not appreciative of their advice. The claimant was new and did not settle into the respondent&#8217;s culture quickly. She was not as outgoing as others in the office who were offering their advice and assistance. Her demeanour and independence caused the other members of staff to see her as rude and not someone who fitted in. We do not accept that she was rude, aggressive or had contempt for others, as alleged but we do accept that she was not developing good relationships with her colleagues who were seeking to assist her. The problem for the respondent was that she was working in a team and within a business that was reliant upon systems and processes that others could access, and it required speed and up-to-date entries which were essential to the fast paced recruitment of staff. The claimant was struggling to adapt to that environment and not at the stage required and expected by the respondent, nor do we think that she was likely to improve to the extent that it required.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">The reasons set out by Mr Boardman for the decision to dismiss the claimant were her poor performance, her poor attitude and the attitude she showed towards her colleagues, who found her extremely rude, and that he had been misled on 21 February 2020. We accept that they were all factors in the decision, but in relation to the meeting on 21 February 2020 and whether the claimant had misled Mr Boardman concerning the progress of her badging new staff, he relied upon information given to him by Ms Caunt. It was she who had reviewed the claimant's progress on 24 and 25 February 2020 when the claimant was absent through a pregnancy-related illness. What she had discovered was that the respondent&#8217;s systems were not up-to-date and there were administrative issues in the claimant not uploading documents and information to the system. We find that documents had been received and collated by the claimant, but as at the evening of 21 February 2020 had not been uploaded. This was something that the claimant has shown could and we consider would have been done had she been in the office for the full day of 24 and 25 February 2020 and indeed, as we have said, she proceeded to process and badge an employee on 24 February 2020 before she left and a further employee on 26 February 2020.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">We were not persuaded that the respondent has shown that the claimant misled Mr Boardman at the meeting on 21 February. We find that based upon the evidence we have seen, had she not been absent for a pregnancy-related illness and then dismissed, she would by 28 February 2020 have completed the badges that she indicated on 21 February 2020 that she would complete.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">64.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">On 26 February 2020 when Ms Caunt spoke to Mr Boardman and the decision to dismiss the claimant was made, the only thing that had changed since the meeting on 21 February 2020 when he was content with the progress that had been made by the claimant in recruiting employees, was the claimant&#8217;s absence on 24 and 25 February with a pregnancy related illness, the information which Ms Caunt had discovered when the claimant was absent, and further that she had attended an antenatal appointment on the afternoon of 26 February 2020.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">65.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">We consider that it is appropriate for us to draw inferences from comments made by Ms Caunt when the claimant told her that she was suffering from morning sickness, particularly the comments that she was not sympathetic and further her contacting the claimant on 25 February 2020 asking her to come in on 26 February 2020. Ms Caunt says that the context in which those comments were made were not as suggested by the claimant and that she was concerned about the claimant's health and as it was a care environment they were constantly concerned about diarrhoea, vomiting and other viral illnesses. We find that the comments, particularly that she was not sympathetic, were pointed and showed a lack of empathy, and we further draw an inference that Ms Caunt was influenced in her view of the claimant by the fact she was pregnant and having to leave work because she was unwell.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">66.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">When Ms Caunt spoke to Mr Boardman about the claimant, she advised him that the recruitment process was not working and having the claimant as a recruiter was unsustainable. In essence Ms Caunt was saying to Mr Boardman that the claimant could not continue in her role. In doing that when she did, we consider that the claimant&#8217;s pregnancy was a significant influence upon her view.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">67.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Mr Boardman, at that time, had none of the detailed information on the staff processed and badged during the week of 24 February, to which we have been referred at pages 68 and 69 of the bundle. At the meeting on 21 February 2020, he was content with the improved progress which the claimant was making in respect of recruitment but both he and Ms Caunt still had serious ongoing concerns about the claimant&#8217;s attitude and general performance. </span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">As owner of the business any final decision to dismiss was his, but in this case his decision to dismiss when he did on 27 February 2020 was following his call with Ms Caunt and their discussions and the claimant having been absent for two days with a pregnancy related illness. He had given the claimant until the end of the week, 28 February 2020, to achieve the target she had indicated in the meeting, however he did not wait. We find that he relied upon Ms&#160;Caunt&#8217;s incorrect views that he had been misled in the meeting.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">68.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">In respect of the claim of discrimination pursuant to section 18 of the EQA, </span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">the claimant has successfully shown facts from which it can be shown that the decision to dismiss her was because of her pregnancy or a pregnancy-related absence. The very timing of her notification to her employer, her absences for pregnancy-related reasons on 24 and 25 February 2020 and her attendance at an antenatal appointment the day before her dismissal are all sufficient to shift the burden of proof. It is then for the respondent to show that the pregnancy, or a pregnancy-related absence, was in no sense whatsoever the reason for the dismissal.</span><span style="font-family:'Times New Roman';color:#010302"> They failed to do that. On 21 February 2020 the claimant's performance had improved and essentially Mr Boardman was more satisfied with the way matters were progressing. </span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">It was the report and discussions with Ms Caunt which changed his view and for the reasons set out above they were significantly influenced by the claimant's pregnancy and her pregnancy related absence.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">69.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">In a claim of automatic unfair dismissal where the claimant has less than two years&#8217; service the burden is upon her to show that the reason or principal reason for her dismissal was connected with her pregnancy. We find that she has not shown that to be the case. Although it is not necessary for the respondent to shown their reason, we find from the evidence that we have heard that her general performance and a failure to comply with the respondent&#8217;s own processes and procedures, together with her attitude towards others who offered help, were the principal reasons for the claimant's dismissal. Although her pregnancy and her absence on 24 and 25 February was a significant influence, for the reasons we have stated above, it was not the principle reason. Despite the instruction which she had been provided with, the claimant continued to adopt her own process, which was to keep notes and records in paper format rather than using the system in real time and uploading them in real time. Although the claimant was an experienced Care Manager, recruitment was only a small part of her work previously and she was finding it difficult to cope with its systems and the fast paced and focussed environment of a recruitment business and would not take the advice offered. Mr Boardman and Ms Caunt could see this. This impacted upon her relationship with her colleagues. We find that the claimant has not shown that the pregnancy or a reason connected with the pregnancy was the principal reason for her dismissal. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-style:italic;font-size:12pt">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent has appealed against the decision that the claimant was subject to pregnancy discrimination.  Two elements of ground 1 of the original Notice of Appeal were permitted to proceed by Michael Ford KC sitting as a Deputy Judge of the High Court.  Ground 1 asserts that the employment tribunal misdirected itself as to section 18 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and/or misapplied section 18 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> in concluding that the claimant was dismissed because of her pregnancy by failing to separate the role of Mr Boardman, the decision-maker, from that of Ms Caunt, who provided information to the decision-maker.  That is split into two sub-grounds, namely (a) that there was a failure to consider or properly apply </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">and (b) that the tribunal failed properly to identify or consider the reason why Mr Boardman took the decision to dismiss.  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Sections 39 and 18 of the Equality Act provide so far as is relevant:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">39 Employees and applicants &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">(2)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="color:#010302">An employer (A) must not discriminate against an employee of A's (B)&#8212; &#8230;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="color:#010302">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="color:#010302">by dismissing B; &#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-size:12pt;color:#010302">18 Pregnancy and maternity discrimination: work cases</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="color:#010302">This section has effect for the purposes of the application of Part 5 (work) to the protected characteristic of pregnancy and maternity.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">(2)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="color:#010302">A person (A) discriminates against a woman if, in the protected period in relation to a pregnancy of hers, A treats her unfavourably &#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="color:#010302">because of the pregnancy, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="color:#010302">because of illness suffered by her as a result of it. &#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">(6)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="color:#010302">The protected period, in relation to a woman's pregnancy, begins when the pregnancy begins, and ends&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="color:#010302">if she has the right to ordinary and additional maternity leave, at the end of the additional maternity leave period or (if earlier) when she returns to work after the pregnancy;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="color:#010302">if she does not have that right, at the end of the period of 2 weeks beginning with the end of the pregnancy. &#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There are some forms of direct discrimination in which the discrimination is inherent in the treatment.  However, in the majority of cases the employment tribunal must consider the mental processes of a decision-maker or decision-makers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the different context of protected disclosure dismissals, I considered the possible scenarios in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">University Hospital of North Tees and Hartlepool NHS Foundation Trust v Ms L Fairhall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0150/20/VP:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302">33.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Most people are employed by an employer that is a legal person, such as a company, rather than by a natural person. In this case the claimant was employed by a  NHS Foundation Trust. Dismissal involves the termination of the contract between the employer and the employee. The decision to terminate the employment contract, to dismiss the employee, must be taken by a natural person, or persons; the decision maker or makers. In many cases there will be no difficulty in identifying the decision maker or makers. Just as Mummery LJ warned against an excessive fixation on the burden of proof, it is important not to get tied up in knots about reasoning processes if it is clear who took the decision to dismiss and why they did so.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">The paradigm is a hearing at which one person, acting independently, takes the decision to dismiss, so there is only that person&#8217;s reasoning process to be considered. A disciplinary hearing may be before a panel, in which case it may be necessary to consider the reasoning process of the panel, although often only the chair of the panel gives evidence, the employer presumably accepting the reasoning process of the chair properly evidences that of the panel. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">35.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">There may be circumstances in which people other than the decision maker are involved in the decision making process. Such other people might advise, or even be instrumental in persuading the decision maker to take the decision. If a person charged with taking a decision whether to dismiss (the dismissing officer) decides to dismiss at the behest of another person who wishes the employee to be dismissed for a prohibited reason, in circumstances in which the dismissing officer knows what they are doing, including that they are being asked to dismiss for the  prohibited reason, there is no conceptual difficulty in finding that the prohibited reason was adopted by the dismissing officer.  For example, if a manager tells the dismissing officer that an employee should be dismissed because she or he has made protected disclosures, and the dismissing officer does what they have been told, the making of the protected disclosures will be the reason why the dismissing officer decided to dismiss, in the sense of being the reason operating in his or her mind, notwithstanding that it may have be put there by someone else. There may be a number of people behind the scenes who have input as advisers or superiors who make it known to the decision maker that they want an employee to be dismissed because of the protected disclosures she or he has made; if the decision maker goes along with the plan the involvement of the instigators does not prevent a tribunal drawing a clear inference that, whatever its precise origin and development, the reason for dismissal operating in the mind of the decision maker was of a prohibited kind. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At the time of my decision in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Fairhall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, the issue of decisions, decision-makers and reasons was particularly current. In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Royal Mail Group Ltd v Jhuti</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2020] ICR 731" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] ICR 731</ref> the Supreme Court held that corrupted information provided to a decision-maker could, in certain specific circumstances, be attributed to that decision-maker when deciding whether the reason for dismissal was automatically unfair pursuant to section 103A </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">ERA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  However, that approach does not apply to discrimination claims.  That is a result of the decision in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, which was accepted in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jhuti</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to remain good law when considering discrimination claims.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> Underhill LJ held:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">We are accordingly concerned not with joint decision-making but with a different situation, namely one where an act which is detrimental to a claimant is done by an employee who is innocent of any discriminatory motivation but who has been influenced by information supplied, or views expressed, by another employee whose motivation is, or is said to have been, discriminatory. I will refer to this as a case of "tainted information" (treating "information" widely so as to cover also the expression of views). I agree with Singh J that tainted information cases may arise in a variety of different ways, but I will for the purpose of discussion take as an example a case of the kind with which we are concerned here &#8211; that is, one where a manager has decided to dismiss an employee on the basis of an adverse report about her from another employee who is motivated by her age. I will refer to the employer as E, the claimant as C, the decision-maker as X and the informant as Y.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">35.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">I agree with Singh J that it would plainly be unjust if in such a situation C had no remedy against E; and that was in fact common ground before us. But the parties differed as to the legal basis on which a remedy should be available. Mr Pitt-Payne's submission was that Y's discriminatory motivation could be treated as the ground, or part of the ground, for C's dismissal, albeit that the actual decision-maker was X; and it seems, though his reasoning was not perhaps quite explicit, that that was also the approach of Singh J. I will refer to this as "the composite approach", because it involves bringing together X's act with Y's motivation. Mr Tatton-Brown submitted that that was illegitimate and that the right approach was to treat Y's report as a discrete discriminatory act, for which E was liable (provided it was done in the course of Y's employment, and subject to the "reasonable steps" defence) by virtue of regulation 25, with C being able to recover for the losses caused by her dismissal as a consequence of that act rather than because the dismissal itself was unlawful. I will refer to this as "the separate acts approach". Mr Pitt-Payne accepted that that was a possible analysis, but he submitted that it was unnecessary and over-complicated and that if it were the only route that would have various unsatisfactory consequences to which I will return below.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">36.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">In my view the composite approach is unacceptable in principle. I believe that it is fundamental to the scheme of the legislation that liability can only attach to an employer where an individual employee or agent for whose act he is responsible has done an act which satisfies the definition of discrimination. That means that the individual employee who did the act complained of must himself have been motivated by the protected characteristic. I see no basis on which his act can be said to be discriminatory on the basis of someone else's motivation. If it were otherwise very unfair consequences would follow. I can see the attraction, even if it is rather rough-and-ready, of putting X's act and Y's motivation together for the purpose of rendering E liable: after all, he is the employer of both. But the trouble is that, because of the way the Regulations work, rendering E liable would make X liable too: see the analysis at para. 13 above. To spell it out:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">E would be liable for X's act of dismissing C because X did the act in the course of his employment and &#8211; assuming we are applying the composite approach &#8211; that act was influenced by Y's discriminatorily-motivated report.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">X would be an employee for whose discriminatory act E was liable under regulation 25 and would accordingly be deemed by regulation 26 (2) to have aided the doing of that act and would be personally liable.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">It would be quite unjust for X to be liable to C where he personally was innocent of any discriminatory motivation.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">I do not believe that that conclusion is undermined by either of the authorities referred to by Singh J (see paras. 24 and 25 above). The passage from Lord Nicholls' speech in Nagarajan was not directed at the present question at all. As for Igen v Wong, in my view the burden of proof provisions do not advance the argument on this particular point. What they are concerned with is how the claimant can prove the elements of his or her claim, but they have no bearing on what those elements are. (I have something more to say about the burden of proof provisions in a different context at para. 51 below.)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">38.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">I would add, in the light of Singh J's reference to Nagarajan, that there is in fact a later passage in Lord Nicholls' speech which comes somewhat closer to the issue with which we are concerned. Mr Nagarajan's claim was brought under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/4/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4 (1)</ref> (a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74" uk:canonical="1976 c. 74" uk:origin="TNA" uk:type="legislation">Race Relations Act 1976</ref>, which rendered it unlawful for a person to discriminate "in the arrangements he makes" for (to paraphrase) recruiting new employees. His case was that he had not been offered a job because the interviewing panel was influenced by the fact that he had previously brought a discrimination claim against an associated company of LRT. One of the issues was whether the panel members could be said to have "made the arrangements" for determining whether the applicant should be recruited. That to some extent depended on the meaning of that particular phrase, but Lord Nicholls' analysis went wider. He referred not only to <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> but also to section 32, which was the equivalent of regulation 25 of the 2006 Regulations. He said, at p. 514 B-C:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">&#8216;When these provisions are put together, the effect is that on a complaint against an employer under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/4/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(1)</ref>(a) it matters not that different employees were involved at different stages, one employee acting in a racially discriminatory or victimising fashion and the other not. The acts of both are treated as done by the respondent employer. So if the employee who operated the employer's interviewing arrangements did so in a discriminatory manner, either racially or by way of victimisation, <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/4/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(1)</ref>(a) is satisfied even though the employee who set up the arrangements acted in a wholly non-discriminatory fashion. The effect of treating the acts of the discriminatory employee as the acts of the employer is that the employer unlawfully discriminated in the arrangements he made for the purpose of determining who should be offered employment by him. Hence in the Brennan case [Brennan v J.H. Dewhurst Ltd. <ref href="#" uk:canonical="[1984] ICR 52" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] ICR 52</ref>] the employer unlawfully discriminated against women by reason of the discriminatory way the branch manager Mr. French conducted interviews as part of the arrangements made without any discriminatory intent by the district manager Mr. Billing.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">That is not on all fours with the present case, because the language of the relevant provision is different. But it is nevertheless noteworthy that Lord Nicholls held the employer liable on the basis of its responsibility for the acts of the specific individuals who had a discriminatory motivation rather than by creating some notional composite responsibility.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">39.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">By contrast, the separate acts approach conforms entirely to the scheme of the legislation. To spell it out:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="color:#010302">(1)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">By making an adverse report about C, Y subjects her to a detriment within the meaning of regulation 7 (2) (d).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(2)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">If in making the report Y was motivated by C's age his act constitutes discrimination within the meaning of regulation 3 (1) (a).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(3)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">If that discriminatory act was done in the course of Y's employment, as in practice it would be, then by virtue of regulation 25 (1) it would be treated as E's act; and accordingly E would be liable (unless he could rely on the "reasonable steps" defence).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(4)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">Y would also be liable for his own act by virtue of regulation 26 (1) and (2).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(5)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">The losses caused to C by her dismissal could be claimed for as part of the compensation for Y's discriminatory act, since they would have been caused or contributed to by that act and would not (at least normally) be too remote.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">As I have said, Mr Pitt-Payne advanced a number of criticisms of the separate acts approach. I consider them in turn.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">First, he said that a focus on Y's prior act ignored the reality of C's complaint, which was about the actual act which caused her loss &#8211; namely, in our example, her dismissal. But the legal analysis must depend on which act was in fact discriminatory, not on which most immediately caused the loss. If, for example, C had been dismissed as a result of a (covertly) discriminatory report from a third party &#8211; say, a regulator &#8211; no-one would think of arguing that the report-writer's discriminatory motivation could be attributed to X, or E, simply because it was the dismissal rather than the report which directly impacted on her.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Secondly, he submitted that the separate acts approach was inconsistent with the scheme of regulation 25. I mean no disrespect to Mr Pitt-Payne's characteristically thoughtful submissions when I say that I do not understand this. If anything, for the reasons given above, the boot would seem to be on the other foot.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Thirdly, he said that basing recovery only on Y's act might mean that C was not compensated, or not compensated in full, for the loss of her job, since there might be scope for E to take points about causation. I accept that that may be so, but I do not regard it as wrong in principle. In the standard case where the decision to dismiss was based squarely on the report any such argument would be hopeless on the facts. But if in a particular case it was indeed arguable I do not see why it should be objectionable for points on causation, or indeed remoteness, to be taken: E ought not to be liable for a loss which did not in fact flow from Y's discriminatory act, or which was not a sufficiently direct or foreseeable consequence of it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">Fourthly, he argued that the separate acts approach was over-analytical and would lead to unnecessary and undesirable complexity in the preparation and presentation of discrimination claims. A claimant will typically only be aware of the particular act or omission which directly impacts on her &#8211; such as, in our example, her dismissal &#8211; but the tainted information may have been generated several stages back: it might be, for example, that Y's report was itself innocently based on information supplied by fellow employees or third parties who were discriminatorily motivated.[3] If the possibility that the actual discriminator was someone further back in the process only becomes apparent at a late stage &#8211; possibly even at the hearing &#8211; and if she switches her fire to the prior acts at that point, will she not be told that she is too late ? Or must she from the start cast her forensic net so wide as to cover everyone who might possibly have contributed to the final decision?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">45.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">This last point is instinctively attractive, and I take it seriously. Over-complicated analysis is a real problem in the discrimination field and Ockham's razor should be applied so far as possible. But, quite apart from the difficulties of principle, I do not in fact believe that Mr Pitt-Payne's objections are as serious as they may appear at first sight. I would make the following points:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="color:#010302">(1)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">Usually a claim of direct discrimination will stand or fall on the motivation of the person doing the act which immediately impacts on the claimant [4]. Tainted information cases, while they no doubt occur, are less typical.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(2)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">Even in cases where the motivation of people involved in the earlier history is potentially relevant to the claim it will by no means always be the case that the claimant is unaware of that history. Where, for example, she has been dismissed following a disciplinary process, she will typically be well aware of the information or views on the basis of which the decision-maker acted. She will in such a case be in a position from the start to decide whether her case is that X or Y, or both, had a discriminatory motivation &#8211; or whether she is not sure and wishes to cover all alternatives &#8211; and to plead her case accordingly. It is not unknown to see cases pleaded along the lines of "my manager was misled into dismissing me by racist colleagues who gave false evidence against me".</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(3)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">Even in cases where a claimant is genuinely not in a position to know the relevant history, it should only be rarely that she is (reasonably) in the dark about the involvement of the true discriminators until so late in the day as to cause real case management problems. In principle, if E's case is "X had no discriminatory motivation: he relied on Y's report, which he had no reason to believe had anything to do with C's age", that should be apparent from the response to the claim form; and C will then be able, if she chooses, to make it clear that she challenges Y's motivation as well as, or instead of, X's. Issues of this kind should emerge in any well-conducted preliminary hearing, if not before.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#010302">(4)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.79in;text-indent:0.22in"><span style="font-family:'Times New Roman';color:#010302">I accept that, even so, there will occasionally be cases where C justifiably only appreciates at a late stage &#8211; perhaps as a result of disclosure or exchange of witness statements or even in the course of the hearing itself &#8211; that the true discriminator may have been not X but Y. In such a case the tribunal may indeed be faced with difficult case management decisions, including whether an adjournment is necessary. But this is not a consequence of adopting the separate acts approach: on the contrary, such a situation is equally liable to arise whichever approach is followed. The difference between the two approaches is ultimately formal rather than substantial, since even on the composite approach C has to prove Y's discriminatory motivation as part of her challenge to X's act; accordingly just the same problems of evidence and case management will arise if she only becomes aware of the need to do so at the last minute. The only potential significance of the formal difference is that on the separate acts approach a late challenge to Y's act would be out of time, whereas on the composite approach it would not be (since the "act complained of" would still be X's act). But the employment tribunal's powers to extend time are ample to enable it to do justice in a case where C has a good excuse for the belated late discovery of the proper target of her claim.[5]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">I accordingly believe that the correct approach in a tainted information case is to treat the conduct of the person supplying the information as a separate act from that of the person who acts on it.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is understandable that a person who is dismissed may consider themselves to have been  dismissed by their employer, usually a company, and will see the decision of those involved in the process as being those of the employer, in the sense of having been made on behalf of the employer.  That gave rise to the concept of the &#8220;composite approach&#8221; where the reasoning of a number of individuals is combined.  That approach was robustly rejected in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Discrimination claims are extremely important for those who bring them.  Their fair determination is vital in a pluralistic society.  They are also very important for those accused of discrimination. Being found to have subjected another person to unlawful discrimination should be treated as an extremely serious matter.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">What emerges from  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">is that may be necessary to consider a number of stages in a process that results in dismissal and determine whether the person or persons who took a decision in that process were motivated to some extent by the protected characteristic of the claimant.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ratio of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">was very clearly summarised by Kerr&#160;J in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Commissioner of Police of the Metropolis v Denby</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0314/16 at paragraph 52:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';color:#010302">The ratio of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#010302">CLFIS</span><span style="font-style:italic;font-family:'Times New Roman';color:#010302"/><span style="font-family:'Times New Roman';color:#010302">is simple: where the case is not one of inherently discriminatory treatment or of joint decision making by more than one person acting with discriminatory motivation, only a participant in the decision acting with discriminatory motivation is liable; an innocent agent acting without discriminatory motivation is not. Thus, where the innocent agent acts on 'tainted information' (per Underhill LJ at paragraph 34), i.e. 'information supplied, or views expressed, by another employee whose motivation is, or is said to have been, discriminatory', the discrimination is the supplying of the tainted information, not the acting upon it by its innocent recipient.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Accordingly, the legal analysis to be applied to those who make decisions that are asserted to be discriminatory is well settled.  But it was recognised both in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Denby</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">that the application of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> principle can potentially be problematic. As I mentioned above, a claimant may not know who the decision maker or makers were. Who made the decision and their respective roles may only come out during the course of the proceedings or at the hearing.   That is a point that Underhill LJ considered at paragraph 44(4) of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, where he noted that case management problems can arise that may require applications to amend and might require an adjournment.  A similar point was made in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Denby</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">at paragraph 53, where Kerr J said,</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">I agree that the CLFIS principle needs careful handling, but tribunals can avoid unfairness by permitting appropriate amendments (as in this case) and allowing employees to target alternative decision makers where appropriate (again, as in this case).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I was referred to a number of authorities about the approach that an employment tribunal should take when dealing with a litigant in person where such issues arise.  The overriding objective must be applied, to ensure that cases are dealt with justly.  One aspect of the overriding objective is the requirement that, so far as possible, the parties are put on an equal footing.  The overriding objective in the CPR has been amended to add a component that dealing with a case justly includes, so far as is practicable, ensuring that parties and witnesses can give their best evidence. I consider that is an inherent component of the general overriding objective as applied in the employment tribunal including ensuring that parties are on an equal footing. The employment tribunal should generally seek to ensure that a party has a fair opportunity to put forward their case, provided it does not create an unfair disadvantage to the other party.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent relied on the decision of Langstaff J in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Dundee City Council v Malcolm</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">UKEATS/0019/15/SN in which he stated:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">A second principle is that it is not for a tribunal to make a case for a litigant. However much a tribunal feels that a litigant is not making the best case that litigant could, given the facts as they appear to the tribunal, it cannot step into the shoes of the litigant and make for itself any case which it appears could have been advanced successfully in the light of that material. To do so would be to enter the arena. It would be to abandon impartiality. It would run counter to the very essence of the accusatorial procedure. Although litigants who are not lawyers might not know what precise legal label might categorise their cases, they will know what it is that they are complaining about. The line between making a case which is not being advanced by a party, on the one hand, and helping that party to articulate clearly that which they are complaining about on the other may be fine, but it is critical. A tribunal's duty to be fair to both sides means it cannot enter the contest on behalf of either one. It must listen to the cases made for each, and must not substitute a case of its own. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant relied on the judgment of Bean LJ in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Mervyn v BW Controls Ltd</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/393" uk:canonical="[2020] EWCA Civ 393" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 393</ref>. The claimant, in another scenario that is not uncommon in the employment tribunal, asserted treatment that was said to be discriminatory and culminated in a decision to resign. The claimant did not expressly plead constructive dismissal.  Bean LJ referred to the judgment of HHJ Auerbach, against which the appeal was brought, who had said it was a case in which the issue of constructive dismissal &#8220;shouted out&#8221; from the contents of the Particulars of Claim. Bean LJ accepted that the issue of constructive dismissal should have been clarified by the employment tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">What emerges from the authorities is that deciding whether an issue should be clarified with a litigant in person is a matter for the tribunal to determine, considering the balance of justice or injustice of raising the issue if it appears that a party is making an assertion that gives rise to a claim of a type that has not been correctly labelled.  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Analysis</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I consider that t</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">he then representatives of the respondent should have raised </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">with the employment tribunal, either at the outset of the hearing or at a later stage.  The claimant was a litigant in person.  The claimant asserted that the comments made by Ms Caunt were background that could shed light on the decision that had eventually been taken to dismiss her. The claimant was understandably focused on the claim in respect of her dismissal; but it is clear that she was asserting that Ms Caunt had a significant influence in the eventual decision to dismiss.  In such circumstances the case did cry out for an analysis of whether this was a decision by a sole decision-maker or a decision by a sole decision-maker influenced by others, or whether it was a joint decision made by Ms Caunt and Mr Boardman.  Certainly, by the stage of closing submissions, the issue should have been considered and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">should have been brought to the attention of the employment tribunal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I consider that the ground of appeal gives this point away. It is hard to see how it can be said that it should have been obvious to the employment tribunal that it had to consider </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">if it was not obvious that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> should be brought to the attention of the tribunal.  There may be reasons why this was not done.  It may have been inadvertence.  It may have been that the representative was not aware of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  But it was an authority that the employment tribunal needed to consider.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent contends that it is clear that the tribunal concluded that Mr Boardman was a sole decision-maker unknowingly influenced by Ms Caunt, who was the only person who had any discriminatory motivation.  By contrast, the claimant contends it is clear that this was a joint decision between Mr Boardman and Ms Caunt, or that Mr Boardman was knowingly influenced by Ms Caunt so that the discrimination finding should be upheld.  I do not accept either of those submissions.  When one reads the key paragraphs of the judgment they point in different directions, which is unsurprising because the employment judge and tribunal members had not been</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">referred to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">and so had not grappled with how it should affect their decision-making.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At paragraph 62 the employment tribunal referred to the reasons given by Mr Boardman but the tribunal then went on to say that he had relied on information given by Ms Caunt.  At paragraph 64 there was analysis of the change that had occurred when Ms Caunt spoke to Mr Boardman.  It was said the only thing that had changed since the meeting on 21 February 2020 was the progress that had been made by the claimant in recruiting employees, her absence on 24 and 25 February 2020 with pregnancy-related illness, the information which Ms Caunt had discovered when the claimant was absent and the attendance of an antenatal appointment.  On one view that suggests that those were factors that may have been taken into account by both Ms Caunt and Mr Boardman.  But it is not clear.  What is clear is that there was a finding that Ms Caunt was influenced by the claimant's pregnancy in providing information suggesting that the claimant had misled Mr Boardman, which certainly was a significant factor in the decision to dismiss; see paragraph 63.  But at paragraph 67, there is reference to the final decision being that of Mr Boardman because he was the owner of the business, but then the tribunal says, ''but in this case his decision to dismiss when he did on 27 February 2020 was following his call with Ms Caunt and their discussions and the claimant having been absent for two days with a pregnancy related illness''.  Again, it is unclear whether it is said he relied merely on the discussion and what Ms Caunt had said about him being misled by the claimant or whether the discussion also involved the pregnancy-related illness.  The final sentence of the paragraph suggests it was merely the alleged misleading, but I do not consider it is clear. At paragraph 68 there is reference in the last sentence to a report and discussions.  It is then said that &#8220;they&#8221; were significantly influenced by the claimant's pregnancy.  This could refer to the discussions,  which could include discussions about the claimant's absence for a pregnancy-related reason.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I consider the decision of the employment tribunal is unsafe because it did not analyse the case in accordance with the principles set out in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The decision is not sufficient for Mr Boardman to know whether or, if so, why he was found to have discriminated against the claimant because of her pregnancy. Accordingly, I consider the appeal should be allowed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not consider that this is a case in which I can say that there could only be one possible outcome.  I consider that the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> claim must be remitted to the employment tribunal.  I consider it should be remitted to the same employment tribunal.  The employment tribunal made careful findings of fact.  It did not analyse </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> because it was not referred to it.  I consider it will be a matter for the employment tribunal to manage the way in which it now determines the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> claim.  It will be a matter for the employment tribunal to assess whether it needs to hear any further evidence or is able to determine the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> claim on the basis of the evidence that it has already heard and further submissions based on </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Reynolds</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  In addition, it will be open to the claimant to apply to the employment tribunal for permission to amend her claim to bring a separate complaint in respect of the actions of Ms Caunt in telling Mr Boardman that he had been misled by the claimant, and contend that those actions had a significant influence on her eventual dismissal, so that it might be asserted that the losses resulting from dismissal flowed from that detrimental treatment by Ms Caunt.  If such an application is made, it will be a matter for the employment tribunal to determine whether an amendment should be permitted to allow the claimant to raise a complaint about the information provided by Mrs Caunt to Mr Boardman.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,474 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/361"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/361"/>
+	  <FRBRdate date="2025-10-24" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="361"/>
+	  <FRBRname value="Barry Maguire &amp; Anor v Sathita Phanphet &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/361"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/361"/>
+	  <FRBRdate date="2025-10-24" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/361/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/361/data.xml"/>
+	  <FRBRdate date="2025-10-28T11:40:28" name="transform"/>
+	  <FRBRdate date="2025-10-28T12:19:25" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-10-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="barry-maguire" href="" showAs="BARRY MAGUIRE"/>
+	<TLCPerson eId="kelly-allen" href="" showAs="KELLY ALLEN"/>
+	<TLCPerson eId="sathita-phanphet" href="" showAs="SATHITA PHANPHET"/>
+	<TLCPerson eId="liam-phelan" href="" showAs="LIAM PHELAN"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>361</uk:number>
+	<uk:cite>[2025] UKUT 361 (LC)</uk:cite>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>d665072e8d41689853e679cccfc8c7da20f370c4a114ec0fdee70b16efc1353f</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Paranumbering { margin-left: 0in; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; font-size: 11pt; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .cofootnotenode { }
+#judgment .ParanumberingChar { font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.jpg" style="width:108.61pt;height:88.41pt"/></p>
+      <p><span style="font-weight:bold">Neutral Citation Number: </span><neutralCitation style="font-weight:bold">[2025] UKUT 361 (LC)</neutralCitation><span style="font-weight:bold"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Case No: LC-2025-213</span></p>
+      <p><courtType refersTo="#ukut-lc" style="font-weight:bold">IN THE UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p><span style="font-weight:bold">AN APPEAL AGAINST A DECISION OF THE FIRST-TIER TRIBUNAL (PROPERTY CHAMBER)</span></p>
+      <p><span style="font-weight:bold">Ref: CAM/00KF/LBC/2023/0010</span></p>
+      <p style="text-align:right"><span style="font-weight:bold">Royal Courts of Justice, Strand, London, WC2A 2LL</span></p>
+      <p style="text-align:right"><span style="font-weight:bold">24 October 2025</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p><span style="font-style:italic;font-weight:bold">LANDLORD AND TENANT &#8211; BREACH OF COVENANT &#8211; removal of landlord&#8217;s fixtures &#8211; insurance &#8211; nuisance &#8211; whether covenants had been breached</span></p>
+      <p><span style="font-weight:bold">BETWEEN:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#barry-maguire" style="font-weight:bold">        BARRY MAGUIRE (1)</party></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#kelly-allen" style="font-weight:bold">        KELLY ALLEN (2)</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">     -and-</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#sathita-phanphet" style="font-weight:bold">            SATHITA PHANPHET (1)</party></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#liam-phelan" style="font-weight:bold">            LIAM PHELAN (2)</party></p>
+      <p style="text-align:right;text-indent:-0.88in"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">25A Ronald Park Avenue,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Westcliff-On-Sea,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Essex, SS0 9QS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">    Upper Tribunal Judge Elizabeth Cooke</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">     14 October 2025</span></p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold">&#169; CROWN COPYRIGHT 2025</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">This is an appeal brought by Mr Maguire and Ms Allen as landlords of 25A Ronald Park Avenue, Westcliffe-on-Sea, against the decision of the First-tier Tribunal on their application under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/168" uk:canonical="2002 c. 15 s. 168" uk:origin="TNA" uk:type="legislation">section 168</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">Commonhold and Leasehold Reform Act 2002</ref>. Neither party has been legally represented before the FTT or in the appeal; the respondents informed the Tribunal some weeks ago that they would not be attending the appeal hearing. I am grateful to Mr Maguire for his skeleton argument and his explanation of what has happened.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Background: the property and the lease</span></heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">As the FTT explained, 25 Ronald Park Avenue is a Victorian House converted into two flats, number 25 on the ground floor and 25A on the first floor. The respondents hold a long lease of number 25A. The appellants are the freeholder, and also hold a long lease of the ground floor flat granted in 1986, so they are the respondents&#8217; downstairs neighbour as well as their landlord. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The respondents bought their flat in September 2022, and for some months after their purchase they undertook a comprehensive refurbishment of the flat which the FTT described as comprising &#8220;plumbing, heating, wiring, lighting, flooring, cupboards and fittings, and general decoration. The radiators were all replaced and the bathroom and kitchen furniture were all replaced.&#8221; The respondents&#8217; lease contains the following covenants on their part:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Clause 2:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(c)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">not to make any structural alterations or structural additions to the Demised Premises nor to erect any new buildings thereon or remove any of the Lessor&#8217;s fixtures without the previous consent in writing of the Lessor.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Clause 4:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(c)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">not to do or permit to be done any act or thing which may render void or voidable the policy or policies of Insurance on the Building or any policy or policies of Insurance in respect of the contents of the other flat comprised in the said Building or which may cause any increased premium to be payable in respect of any such policy.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(f)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">observe and procure than any person deriving title under him observes the restrictions set forth in the Fourth Schedule.&#8221;.</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The Fourth Schedule:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;1.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">not to use the Demised premises nor permit the same to be used for any other purpose whatsoever than as a private dwelling house in the occupation of one family only or for any purpose from which a nuisance can arise to the owner&#8217;s lessees or occupiers of the flats comprised in the building or in the neighbourhood or for any illegal or immoral [use].</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>2.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">not to do or permit to be done any act or thing which may render void or voidable the policy or policies of insurance on any flat in the Building which may cause any increased premium to be payable in respect thereof.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in">3 The Lessee shall not:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">make or suffer to be made any unreasonable noise in the premises by way of piano gramophone instrument vacuum cleaner singing or otherwise at any time whatsoever nor</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">play or permit to be played nor use or permit to be used the said things or any of them in any manner whatsoever nor sing or allow any singing nor make any noise of any kind whatsoever between the hours of midnight and 7 a.m. on all days.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The appellants were unhappy about the conduct of the works; they protested to the respondents about the noise and disruption whilst it was going on, and complained of physical damage to their flat &#8211; in particular, one of the contractors put his foot through their kitchen ceiling. In August 2023 they applied to the FTT for a determination under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/168" uk:canonical="2002 c. 15 s. 168" uk:origin="TNA" uk:type="legislation">section 168</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">Commonhold and Leasehold Reform Act 2002</ref>. I need not set out the terms of that section here: its substance is that the landlord cannot serve a notice under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/146" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 146" uk:origin="TNA" uk:type="legislation">section 146</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref> on his tenants in respect of a breach of covenant, in order to commence the process of forfeiture, unless either the breach of covenant is admitted or a court has determined that it has occurred, or the FTT has determined under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/168" uk:canonical="2002 c. 15 s. 168" uk:origin="TNA" uk:type="legislation">section 168</ref> that it has occurred.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The appellant alleged numerous breaches of covenant. The FTT found that the respondents had broken the covenant in clause 2 not to remove the landlord&#8217;s fixtures by removing part of an internal, non-structural wall. But the FTT found that the respondents had not removed any other fixtures, had not broken the covenants relating to insurance in clause 4 or in the Fourth Schedule, and were not in breach of any covenant not to cause a nuisance. The appellants have permission from this tribunal to appeal those three determinations, and I deal with them in turn.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_1">
+	    <num style="font-weight:bold">(1)</num>
+	    <content>
+	      <p style="text-indent:0.38in"><span style="font-weight:bold">Removal of fixtures</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The applicants&#8217; case before the FTT about the removal of fixtures was not set out in the decision; the FTT said that they &#8220;relied upon a surveyors report as to what fixtures had been removed (largely kitchen and bathroom furniture) although they conceded that they had been replaced with new items. They conceded that there was no list of what fixtures were present in 1986.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The FTT agreed that fixtures had been removed and replaced, without consent. It observed that it could not determine what fixtures had been present when the lease was granted in 1986. It referred to the lessees&#8217; obligation to keep the flat in good and tenantable repair and condition, and expressed the view that that might require some fixtures to be improved and upgraded. It said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;To the extent that this [repairing obligation] conflicts with any duty not to remove fixtures, the Tribunal finds that a duty not to remove refers to a permanent removal and does not extend to mere replacement. There were no items which were removed and not replaced, hence the Tribunal determined that clause 2(c) of the Lease was not breached in respect of the obligation not to (permanently) remove the freeholders&#8217; fixtures.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The appellants disagree with the FTT&#8217;s construction of the lease, and say that the covenant was breached simply because fixtures were removed; replacement is irrelevant. The respondents in their statement of case argue that that is an over-rigid interpretation, but I agree with the appellants. The lease means what it says: if the landlord&#8217;s fixtures have been removed without consent, even if new ones have been substituted there is a breach of the lease. I make no comment on the respondents&#8217; observation that no damage has been done and that the property has been improved by their work; that will be relevant in other contexts if a decision has to be made about the consequences of the breach of covenant, but it is not here because the FTT&#8217;s task was simply to decide whether and how the covenant had been broken.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The FTT did not list the fixtures which it found had been removed and replaced, although it mentioned &#8220;kitchen and bathroom furniture&#8221;. The appellants relied on a surveyor&#8217;s report to detail the fixtures they said had been removed, but it is not possible to extract a list from that report. The appellants say that the FTT did have a list of fixtures, on the lease plan itself. The lease plan is a bit unusual; it depicts the two floors of the property and indicates work that is going to be done in order to convert them into two flats. It appears to show an existing kitchen and bathroom on the first floor. But it does not provide a comprehensive list of fixtures that were eventually installed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">This ground of appeal has to succeed because the FTT misconstrued the covenant; but it is not proportionate to remit the matter to the FTT to make more detailed findings of fact. Instead, I rely the respondents&#8217; own account of what they had removed, set out in a letter from their solicitor to the appellants on 2 March 2023 in which they listed what they had done and asked for retrospective consent. The list of what they had done includes the removal and replacement of a number of items which were certainly fixtures:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Five internal doors</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Skirting boards</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Kitchen (I take it that that means the entire kitchen had been replaced)</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Bathroom (Again, I take it that the entire bathroom was replaced)</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I therefore set aside the FTT&#8217;s decision that no landlord&#8217;s fixtures were removed other than the stud wall, and substitute the Tribunal&#8217;s decision that in addition to the stud wall the items listed above were landlord&#8217;s fixtures that the respondents removed in breach of their covenant in clause 2(c) of the lease.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_2">
+	    <num style="font-weight:bold">(2)</num>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.38in"><span style="font-weight:bold">the covenants relating to insurance</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The appellants&#8217; case before the FTT was that the activities undertaken by the respondents were such as to jeopardise the insurance policy for the building. In the appeal they have set out their concerns, including unconsented removal of fixtures, removal of a wall, electrical work &#8220;carried out by unknown persons, never certified&#8221;, &#8220;light switches shorted&#8221;, and the fact that the respondents refused to reveal their contractors&#8217; identities when the appellants asked who they were. And they said that their insurance premiums had gone up from &#163;450 per annum to &#163;520.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The FTT said this about insurance:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;On the issue of insurance, the Tribunal was not presented with any evidence of a breach, and cannot find one to have taken place. The applicants had not presented the respondents with any insurance documentation &#8230; There were no policy terms available for review. On the balance of probabilities, the modest increase in premium s likely attributable to natural market increases.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">In the appeal the appellants say that the FTT erred in failing to appreciate that the terms of the relevant covenants require the respondents not to do anything that &#8220;may&#8221; render void the insurance or increase the premiums. They did not produce the relevant policy, either to the FTT or in the appeal, but they have explained that they refer to the buildings insurance policy maintained by them as freeholders. Mr Maguire also expressed the view that the Insurance Act required the respondents to inform the insurer about the works before they commenced, because the works presented a risk that the insurer needs to know about.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2015/4" uk:canonical="2015 c. 4" uk:origin="TNA" uk:type="legislation">Insurance Act 2015</ref> does not require the respondent, or indeed any party to an insurance contact, to inform the insurer before carrying out work to a property. <ref href="http://www.legislation.gov.uk/id/ukpga/2015/4" uk:canonical="2015 c. 4" uk:origin="TNA" uk:type="legislation">The 2015 Act</ref> contains provisions about information to be provided by and insured before entering into a contract of insurance, and also about the effect of the breach of a term of the contract when a claim is made; none of its provisions is relevant to the present situation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I agree with the appellants that the covenants in clause 4(c) and in paragraph 2 of the Fourth Schedule to the lease are broken if the tenant does anything that &#8220;may&#8221; compromise the insurance; it is not necessary for the appellants to show that there has in fact been a breach of the terms  of the policy. But whilst I appreciate that the appellants were concerned about the effect of the respondents&#8217; activities upon the insurance I have to say that that concern is based on speculation. The appellants had provided no evidence to show that anything the respondents had done was, or could possibly be, of concern to the insurers. Such evidence would have had to come from the insurer itself, or from an expert witness. And as the FTT said there was nothing to link the rise in the premium to the respondents&#8217; work. Indeed, some of the appellants&#8217; concerns, however genuine, would not appear to be the sort of thing that an insurer would be concerned about, for example the respondents&#8217; perfectly reasonable refusal to disclose the identity of their contractors. The only thing that I agree might be a concern would be if, as the appellants assert, the flat had been left unoccupied for months; but since contractors were working there it is unlikely that that was a problem.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I suspect that it is quite hard to prove a breach of covenant of this nature, and specialist evidence would be required to do so. The appellants&#8217; opinion is not enough. The appeal on this ground must fail.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Nuisance</span></heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The appellants&#8217; case before the FTT was that there had been a great deal of noise and disruption while the work was going on. The respondents in the FTT agreed that there had been &#8220;some disruption&#8221;, but could not give direct evidence about it because they had not been present themselves.  The FTT said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in">&#8220;&#8230; the Tribunal accepts the evidence from both parties that there was some disruption, including noise and some damage to flat 25, in particular parts of the ceiling. The Respondents admitted that there has been some damage but the scope and value were not agreed between the parties. There also appeared to have been some confrontations between the contractors and the Applicants. It is not for the Tribunal to determine those issues (nor did it have the evidence to do so) only whether there has been a breach.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">As we have seen above, two provisions of the lease are potentially relevant to this complaint. One is paragraph 1 of the Fourth Schedule. The FTT found that it had not been breached, because there was no unreasonable use of the property; internal refurbishment works, the FTT said, are commonplace, and &#8220;whilst errors were made, this does not itself cross the threshold to unreasonableness on the part of the Respondents.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">I agree with the FTT that paragraph 1 of the Fourth Schedule is about the use of the property; it is to be used only as a private dwelling and not &#8220;for any purpose from which a nuisance can arise to the owner&#8217;s lessees or occupiers of the flats comprised in the building&#8221;. However disruptive the works were, the property was being used only as a private dwelling, albeit being refurbished as such a dwelling. The covenant is not aimed at disturbance in itself, only at disturbance arising from the way the property is used. I agree with the FTT that this covenant was not broken.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The other relevant covenant is paragraph 3 of the Fourth Schedule, which the FTT said &#8220;does not apply&#8221;, because it &#8220;covers the playing of instruments and the like and its wording or purpose does not extend to routine building works.&#8221; I repeat paragraph 3(a) of the Fourth Schedule here for ease of reference:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;3 The Lessee shall not:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">make or suffer to be made any unreasonable noise in the premises by way of piano gramophone instrument vacuum cleaner singing <span style="font-weight:bold">or otherwise</span> at any time whatsoever...&#8221; (emphasis added)</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The FTT took the view, I think, that the reference to music lessons and vacuuming mean that the words &#8220;or otherwise&#8221; in paragraph 3(a) have to refer to the same sorts of noise. I disagree. The covenant is not to make &#8220;unreasonable noise&#8221;, by way of the activities listed &#8220;or otherwise&#8221;, and it would be very strange if unreasonable piano playing was a breach of covenant but unreasonable noise from builders was not. If the respondents by themselves or their workmen caused &#8220;unreasonable noise&#8221; then they were in breach of that covenant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">But in order to find that the respondents were in breach of that covenant the FTT would have had to make findings of fact about what happened and the level of noise, and then to decide whether in the circumstances to decide whether that level of noise was unreasonable. The FTT did not make any findings of fact about the noise and disturbance, and said that the evidence was such that it could not do so. I understand that to be a finding that the evidence of the appellants &#8211; who of course had the burden of proof - was not sufficient to enable the FTT to prefer their evidence about the level of disturbance to that of the respondents. Ms Allen spoke eloquently at the appeal hearing about what she went through while the renovations were going on, but it is not possible to adduce fresh evidence in the appeal, nor for this Tribunal to make findings of fact.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">Accordingly whilst I disagree with the FTT&#8217;s view of the meaning of the covenant in paragraph 3 of the Fourth Schedule, the FTT&#8217;s decision on this point stands and this ground of appeal fails.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Conclusion</span></heading>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in">The appeal succeeds so far as removal of the landlord&#8217;s fixtures is concerned, but fails on the other two grounds.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_4_1">
+	    <content>
+	      <p style="text-align:right"><span style="font-weight:bold"/>Judge Elizabeth Cooke</p>
+	    </content>
+	  </level>
+	  <level eId="lvl_4_2">
+	    <content>
+	      <p style="text-align:right"><docDate date="2025-10-24" refersTo="#decision">24 October 2025</docDate></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_5">
+	  <content>
+	    <p><span style="font-weight:bold">Right of appeal&#160; </span></p>
+	    <p>Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

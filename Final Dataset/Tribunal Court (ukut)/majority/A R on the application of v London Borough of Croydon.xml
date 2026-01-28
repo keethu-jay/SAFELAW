@@ -1,0 +1,698 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/iac/2015/168"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/iac/2015/168"/>
+	  <FRBRdate date="2015-03-23" name="decision"/>
+	  <FRBRauthor href="#ukut-iac"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="168"/>
+	  <FRBRname value="A, R (on the application of) v London Borough of Croydon"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/iac/2015/168"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/iac/2015/168"/>
+	  <FRBRdate date="2015-03-23" name="decision"/>
+	  <FRBRauthor href="#ukut-iac"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/iac/2015/168/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/iac/2015/168/data.xml"/>
+	  <FRBRdate date="2022-03-07T22:16:19" name="transform"/>
+	  <FRBRdate date="2025-08-10T23:51:45" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-iac" href="https://www.gov.uk/courts-tribunals/upper-tribunal-immigration-and-asylum-chamber" showAs="United Kingdom Upper Tribunal (Immigration and Asylum Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCPerson eId="the-queen" href="" showAs="THE QUEEN"/>
+	<TLCPerson eId="on-the-application-of" href="" showAs="ON THE application OF"/>
+	<TLCPerson eId="a" href="" showAs="a"/>
+	<TLCPerson eId="london-borough-of-croydon" href="" showAs="LONDON BOROUGH OF CROYDON"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-IAC</uk:court>
+	<uk:year>2015</uk:year>
+	<uk:number>168</uk:number>
+	<uk:cite>[2015] UKUT 168 (IAC)</uk:cite>
+	<uk:hash>39fc89f0e52621e05d3c39137478515fffaf936a2950d4e67e8926f2b6148449</uk:hash>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListBullet { margin-left: 0.25in; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:117.75pt;height:89.25pt"/></p>
+      <p style="text-align:center"><courtType style="font-weight:bold;font-family:'Book Antiqua'">IN THE UPPER TRIBUNAL</courtType></p>
+      <p style="text-align:center"><courtType style="font-weight:bold;font-family:'Book Antiqua'">IMMIGRATION AND ASYLUM CHAMBER</courtType></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">R (on the application of A) v London Borough of Croydon IJR </span><neutralCitation style="font-family:'Book Antiqua'">[2015] UKUT 00168 (IAC)</neutralCitation></p>
+      <p style="text-align:right"><span style="text-transform:uppercase;font-family:'Book Antiqua';color:#000000">F</span><span style="font-family:'Book Antiqua';color:#000000">ield House</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua';color:#000000">London</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'">19 to 22 January,</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> 4 and 9 February</span><span style="text-transform:uppercase;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua'">2015</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">UPPER TRIBUNAL JUDGE PETER LANE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#applicant" refersTo="#the-queen" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">THE QUEEN</party></p>
+      <p style="text-align:center"><party as="#applicant" refersTo="#on-the-application-of" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000"> ON THE application OF</party></p>
+      <p style="text-align:center"><party as="#applicant" refersTo="#a" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">a</party></p>
+      <p style="text-align:right"><role refersTo="#applicant" style="font-family:'Book Antiqua'">Applicant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#london-borough-of-croydon" style="font-weight:bold;font-family:'Book Antiqua'">LONDON BOROUGH OF CROYDON</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-family:'Book Antiqua'">Respondent</role></p>
+      <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation </span></p>
+      <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Ms S S Luh</span><span style="font-family:'Book Antiqua'">, instructed by Maxwell Gillott</span><span style="text-transform:uppercase;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">Solicitors </span><span style="font-family:'Book Antiqua'">appeared on behalf of the applicant.</span></p>
+      <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Mr J Cowen</span><span style="font-family:'Book Antiqua'">, instructed by the Solicitor, London Borough of Croydon</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level>
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">(1)</num>
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">A&#8217;s account</span></heading>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">1. A says she was born on the first day of the tenth month (Sene) of 1989 in the Ethiopian calendar, which converts to 8 June 1997 in the Gregorian calendar. In Ethiopia in the spring of 2007 she was on her way to school with some friends, when she was offered a lift by men in a vehicle. A never reached her school. She was taken to a compound, held with other girls, photographed (for the purposes of producing a passport photograph) and trafficked as a domestic worker to Bahrain. There she worked for some six years for Mr Aqeel. On one occasion, she was returned to Ethiopia for several weeks, where she was housed in the same compound to which she had been taken immediately following her abduction, and made to work there, before being required to return to Bahrain. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">2.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">In 2013 A was transferred by Mr Aqeel to the family of FM and his wife RH, for whom she also worked unpaid, under duress. FM and RH brought A to the United Kingdom in July 2013 as a domestic worker, primarily to look after their children, one of whom was to receive medical treatment in London. After some weeks, A was able to escape from FM but fell into the hands of a stranger, Sarah, whom A had asked for help. Sarah held A for several weeks, until she was able to escape and present herself to the United Kingdom authorities.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">3.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">On 14 August 2014 the Home Office wrote to the Metropolitan Police to say that the Home Office was &#8220;able to confirm that we conclusively accept that [A] is a victim of trafficking.&#8221; FM and RH are on police bail, in connection with the allegation that they trafficked A into the United Kingdom. </span></p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">(2)</num>
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">The respondent&#8217;s case</span></heading>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">4.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The primary case for the respondent, as advanced by Mr Cowen, is that A is a thoroughly dishonest individual. Far from being only around 10 years old when she first left Ethiopia for Bahrain, the respondent contends that A&#8217;s date of birth is as set out in her Ethiopian passport: 25 September 1986. She was, thus, 20 years old when she arrived in Bahrain in 2007. She was not trafficked but went voluntarily as a domestic worker for Mr Aqeel, and, subsequently, FM and RH. According to Mr Cowen (relying on the written evidence of Mr Aqeel) A was the &#8220;mastermind&#8221; of the arrangement whereby she went to work for FM, specifically so A could reach the United Kingdom. At no time was A trafficked or held against her will. Photographic evidence, obtained by FM&#8216;s United Kingdom criminal defence team, shows A happy and relaxed with FM and/ or members of his family, at Alton Towers Amusement Park, the Trocadero, Piccadilly and a children&#8217;s playground in London. A voluntarily left FM and RH (possibly having stolen some of their jewellery) before going to ground for several weeks in order to concoct her story; in particular, a &#8220;timeline&#8221; that would make her at all material times a child and, thus, entitled to the support which the United Kingdom provides for children in A&#8217;s position.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">5.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Although that is the respondent's primary case, both of the age assessments that are the subject of these proceedings assessed A as being over 18, without ascribing to her a particular date of birth. The respondent's secondary position accordingly appears to be that, even if A is younger than the date of birth given on her Ethiopian passport, she was at all material times over the age of 18.</span></p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">(3)</num>
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">The proceedings</span></heading>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">6.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The first age assessment was undertaken in January 2014. An application for judicial review in respect of it was filed in February 2014. On 21 February 2014 Lang J transferred the application to the Upper Tribunal. A second age assessment, undertaken by the respondent in March 2014, is also challenged in the present proceedings. On 28 March 2014, the Upper Tribunal granted certain interim relief following a contested hearing and on 28 May 2014, permission to bring judicial review proceedings was granted by consent and listing directions made. In conjunction with Counsel, in August 2014, the substantive hearing was listed to begin on 19 January 2015. </span></p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">(4)</num>
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Applications to adjourn</span><span style="font-family:'Book Antiqua'"/></heading>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">7.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">On 8 January 2015 the respondent applied for the hearing to be adjourned. An oral hearing of that application was convened before me in the late afternoon of 14 January. Having heard Mr Cowen and Ms Luh, I refused the application. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">8.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">My reasons for refusing to adjourn were given orally on 14 January. Mr Cowen submitted that an adjournment was necessary because Ms Luh&#8217;s skeleton argument had been received some nine days late. Mr Cowen complained that he had not had time fully to consider it, notwithstanding that (as I pointed out) a significant proportion of the skeleton argument dealt with matters of which Mr Cowen would already be fully aware, such as issues concerning the burden and standard of proof.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">9.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The respondent had very recently written to A&#8217;s solicitors to propose that A should be dentally examined by Professor Roberts, a well known specialist in the field of assessing likely age by reference to dentition. A&#8217;s solicitors had responded by refusing the invitation. Mr Cowen submitted that, rather than proceed to the substantive hearing, I should confine myself to hearing evidence and submissions on the preliminary issue of whether A&#8217;s refusal to see Professor Roberts was reasonable. If I concluded that it was not, then I would issue a preliminary decision to that effect, thereby giving A an opportunity to reconsider her position on this issue. The respondent had offered to be bound by whatever Professor Roberts concluded. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">10.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Ms Luh reiterated A&#8217;s opposition to being examined. I was also presented with written material contending, variously, for the usefulness of dental x-ray evidence in a case of the present kind; and that such evidence is lacking in material value. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">11.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">As stated in my oral reasons on 14 January, this Tribunal cannot compel A to undergo a dental examination involving, in particular, the taking of x-rays. So far as the &#8220;preliminary issue&#8221; submission was concerned, I considered this to be, in the circumstances, incompatible with the overriding objective in rule 2 of the Tribunal Procedure (Upper Tribunal) Rules 2008. A&#8217;s stance was such that it was highly unlikely she would change her mind, even if faced with a preliminary decision that her refusal should be treated as unreasonable. Given that it was common ground that credibility lies at the heart of the proceedings, I considered that the appropriate course was to hear submissions on the dental issue, as part of the substantive proceedings, so that if I found A's refusal to be without justification, I could treat that finding as bearing adversely on her credibility, as part of a holistic assessment of the evidence.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">12.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The third basic ground for the adjournment was, Mr Cowen submitted, that new evidence was emerging from FM and RH&#8217;s criminal defence team. This meant it would be premature to make findings in the judicial review proceedings.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">13.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I was unpersuaded by that submission also. Given the length of time the judicial review proceedings had been ongoing and the speculative nature as to what (if anything) might emerge from the criminal investigations (not to mention the absence of any information as to a timetable for resolving these), I was, again, unpersuaded that the overriding objective necessitated an adjournment; quite the opposite. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">14.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">At the commencement of the hearing on 19 January 2015, Mr Cowen made a further application to adjourn, essentially for the same reasons as he had advanced five days earlier. He also made reference to certain telephone records, which he said had come to light in connection with the criminal proceedings, which were said to show that A may have been telephoning someone in Ethiopia, while she was with FM and RH. FM and RH had also supplied further photographic evidence. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">15.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Ms Luh informed me that A was willing to go ahead with the substantive hearing, on the basis of the evidence before the Tribunal (including that very recently filed by the respondent). A was still unwilling to submit herself for examination by Professor Roberts.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">16.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I refused Mr Cowen&#8217;s adjournment application. I considered that my reasons given on 14 January essentially held good. I decided that it was in accordance with overriding objective to proceed. In doing so, I had regard to the fact that Mr Ambat, the social worker who had been in charge of the second age assessment, had been unwell for a significant period of time in 2014, which had meant that he and Mr Cowen had met in consultation in connection with these proceedings later than might otherwise have been the case. I also took into account what Mr Cowen told me on 19 January; namely, that the respondent thought A might, in fact, have had a dental x-ray in connection with dental treatment given to her whilst in the United Kingdom. The respondent, accordingly, wished to give A the opportunity of providing the results of any such x-ray to Professor Roberts. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">17.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr Ambat&#8217;s illness has not been shown to have any material bearing on any of the reasons advanced for adjourning the substantive proceedings, save for the late proposal by the respondent that the matter be effectively adjudicated by Professor Roberts. But, as I have already explained, that proposal - having been met with rejection by A - was not a good reason to adjourn the substantive proceedings or to convert them into a preliminary issue hearing. To do either of those things would not only keep A in a state of uncertainty but also divert the Tribunal&#8217;s resources from the hearing of other cases. Neither of those outcomes was warranted.</span></p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">(5)</num>
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">The hearing</span></heading>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">18.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I heard oral evidence from the following individuals: -</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">The applicant</span><span style="font-family:'Book Antiqua'">: A spoke to her witness statement.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Vesna Hall:</span><span style="font-family:'Book Antiqua'"> Ms Hall is Trafficked Girls and Young Women&#8217;s Advisor with the Refugee Council. She acted as the &#8220;appropriate adult&#8221; in two of the sessions involving A and the social workers, leading to the first assessment, and also at the sessions leading to the second age assessment. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Claire Macmaster</span><span style="font-family:'Book Antiqua'">:</span><span style="font-weight:bold;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">Mrs Macmaster worked with A, whilst in her role as a support worker at the Poppy Project, a body which helps young trafficked women aged 16 to 24 years of age. Mrs Macmaster spent some 56 hours with A, going through A&#8217;s history and also assisting A with travel and other matters. She then spent some seven further hours with A, including at meetings with the Metropolitan Police. Mrs Macmaster is now a Legal and Research Officer at the Migrant Children and Refugee Legal Unit with Islington Law Centre.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Joe Jakes:</span><span style="font-family:'Book Antiqua'"> Mr Jakes is Education and Youth Activities Coordinator with the Refugee Council, Children's Section. Mr Jakes sees A normally around two to three times a week at the Refugee Council, including at social evenings with other young people. He also accompanied A on four residential trips; in May, June, August and December 2014. The trips were for 15 to 17 year olds.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Marta Poeta</span><span style="font-family:'Book Antiqua'">: Ms Poeta works with the Children Section of the Refugee Council. She acted as &#8220;appropriate adult&#8221; at A&#8217;s interview with the Home Office in November 2013. Later, she encountered A at Refugee Council social programmes for young people. She accompanied A on three residential trips to Kent. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Akiko Kobayashi</span><span style="font-family:'Book Antiqua'">: Ms Kobayashi works with the Baobab Centre for Young Survivors in Exile. She is a qualified counsellor and member of the British Association of Counsellors and Psychotherapists. The Baobob Centre provides a specialised resource for young asylum seekers and refugees. Amongst the criteria for referral is that the persons concerned must have arrived in the United Kingdom under the age of 18 and not be over 23 at the time of referral. Ms Kobayashi saw A on a fortnightly basis for a total of nine sessions, as at 20 August 2014, and has continued to see her fortnightly thereafter. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Kenneth Ambat</span><span style="font-family:'Book Antiqua'">: Mr Ambat is a qualified social worker, currently with the London Borough of Croydon. He has been involved in several hundred age assessments and has worked with women from sub-Saharan Africa, including women of Ethiopian descent. Mr Ambat was in charge of the second age assessment of A, undertaken in March 2014, by which time certain material, including copies of passports relating to A had been supplied to the respondent by FM, including the one used by A to travel from Ethiopia to Bahrain in 2007. FM had also provided the respondent with a photograph of A taken at a &#8220;local park&#8221; and another, taken with FM&#8217;s family, which was then understood to show A at Thorpe Park, but which is now known to be Alton Towers.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Susan Akingbeme</span><span style="font-family:'Book Antiqua'">: Ms Akingbeme is a Senior Social Worker for the London Borough of Croydon, holding an MSc degree in social work. She was present with Mr Ambat at the session leading to the second age assessment. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Paul James</span><span style="font-family:'Book Antiqua'">: Paul James holds a diploma in social work. He is employed by the London Borough of Croydon Children's Service, in which capacity he produced the first age assessment of A. He paid a visit to the London residence of FM and RH, in order to obtain material relating to A and also had telephone and email communication with them. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Sheila Johnson</span><span style="font-family:'Book Antiqua'">: Ms Johnson is a qualified social worker, working for the London Borough of Croydon, in which capacity she assisted Mr James in carrying out the first age assessment of A.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Lucy Mukasa</span><span style="font-family:'Book Antiqua'">: Ms Mukasa is a Senior Social Worker in the Unaccompanied Minors' Team of the London Borough of Croydon. She visits A at the latter&#8217;s home and writes reports as to how A is seen as faring. </span></p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">(6)</num>
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion</span></heading>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">19.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">My task is to decide, as a matter of fact, the age of A, ascribing to her a date of birth. No one bears a burden of proof. The standard of proof is the balance of probabilities. At the risk of sounding trite, it is necessary to emphasise that standard of proof, given that there is at least the possibility of criminal proceedings involving FM and RH, where the standard of proof and the rules of evidence are markedly different.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">20. In reaching my decision, I have had regard to all the evidence, both oral and written (whether or not specifically mentioned in this judgment) and of the oral and written submissions of counsel. Although my assessment of the evidence has been made holistically, in setting it out, I have to start somewhere (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">S v Secretary of State for the Home Department</span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/1153" uk:canonical="[2006] EWCA Civ 1153" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWCA Civ 1153</ref>). The best place seems to be:</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(a) How A knows her age</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">21.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">A told the social workers at the second assessment that her family told her each year what her age was. She told the assessors at the first age assessment she was 9 years old at the last birthday she had celebrated with her family, before her abduction. She also told those assessors that she was abducted two months before her 10</span><span style="vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua'"> birthday, in the year 1999, according to the Ethiopian calendar. The handwritten notes of Ms Hall make this plain. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">22.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Ms Akingbeme&#8217;s first witness statement asserted that A had expressly said she was born in the Ethiopian month of Yakatit, which would be February; rather than Sene, which equates with June. Mr Ambat was more equivocal, although he felt sure in his oral evidence that Ms Akingbeme&#8217;s recollection would be vindicated by disclosure of Ms Hall's handwritten notes of the relevant meeting. In fact, Ms Hall&#8217;s notes of the meeting (5 March 2014) record A&#8217;s correction of the matter, through the interpreter: &#8220;I said Sene&#8221;. This is borne out by the assessor&#8217;s notes, which record a claimed date of birth in the western calendar of 8 June 1997, which could not be right if A had referred to Yakatit.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">23.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Both Ms Akingbeme and Mr Ambat appeared to accept, under cross-examination, that they might have misunderstood A&#8217;s evidence, as given at the assessment meeting. In any event, the significance lies in the fact that A&#8217;s consistency on this issue has been demonstrated. In this regard, I also note that in the record made by the respondent of a home visit on 31 March 2014, A corrected the social worker&#8217;s record that her date of birth was 1 June 1996, saying that it should be 1997, her date of birth being 1/10/1989 in the Ethiopian calendar.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(b) Family, home and school</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">24.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The respondent attacks A&#8217;s credibility on the ground that she has given little detail regarding her background in Ethiopia. Mr Ambat noted that A&#8217;s passport describes her place of birth as &#8220;Gunchre&#8221;. Mr James had similar criticisms. However, when he was taken to the record of the questioning in the first age assessment, Mr James accepted that there was a higher degree of detail than he had perhaps suggested. In any event, I find that there is considerable detail of what A said. She named her mother, father, sister and uncles. Whilst I agree with the respondent that it is somewhat odd that A did not appear to think the actual settlement the family lived in had a name, she described it as being in the Gurage zone. She attended a school at Indebir, stating it took her an hour to walk to school. She was able to give the name of the teacher. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">25.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">It is also significant that Mrs Macmaster told me that A had been willing to let Mrs Macmaster make enquiries through the Red Cross as to where A&#8217;s parents might be but that A had changed her mind when told that the Red Cross would relay whatever information came to hand, even if this meant informing A that her parents were dead. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">26.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">In conclusion, I do not consider that the evidence shows A as more likely than not to be deliberately obfuscating on the issue of her background in Ethiopia. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(c) Trafficked to Bahrain?</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">27.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The respondent points to background evidence indicating that it would be unlikely for a child younger than 13 to be trafficked from Ethiopia. The more general evidence on trafficking, however, to which Mrs Macmaster points, indicates that children as young as 10 can be its victims. Certainly Mrs Macmaster, whose knowledge of trafficking was plainly extensive, did not regard it as incredible that A would have been trafficked, at the age of 10. Plainly, if a trafficker considers that a particular child of that age has an economic value, as a domestic servant, for instance, then he is likely to be take the opportunity to traffic her. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">28.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Whilst I agree with the respondent that the decision of the Home Office, as competent authority, to issue a &#8220;conclusive grounds&#8221; decision on the issue of A&#8217;s trafficking, is not binding on me (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">R (PM) v Hertfordshire CC</span><span style="font-family:'Book Antiqua'">)[</span><span style="font-weight:bold;font-family:'Book Antiqua'">2</span><span style="font-family:'Book Antiqua'">010] EWHC 2056 (Admin)), it is at the very least highly material, so far as it proceeds on the same or a similar evidential basis as that in the present proceedings. Of course, the Home Office decision was not made by reference to a matter upon which Mr Cowen places considerable significance; namely, A&#8217;s inconsistent account of her time in the United Kingdom and the photographs of her taken at Alton Towers and elsewhere. Nevertheless, the Home Office&#8217;s conclusive grounds decision of 14 August 2014 appears to have involved taking the view that a 10 year old girl could credibly be trafficked from Ethiopia to Bahrain, since that was a key aspect of A&#8217;s account. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(d) The 2007 passport </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">29.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">This leads to a central matter in the respondent's decision that A is an adult; namely, the passport on which she entered Bahrain from Ethiopia in 2007 and, in particular, the photograph of A in that passport. It is clear from their evidence that Mr Ambat and Ms Akingbeme, who had a copy of the 2007 passport photograph during the questioning of A in connection with the second age assessment, were strongly of the view that the person in that photograph could not have been 10 years old. Although the social workers concerned with the first age assessment did not see the photograph at the time of their decision, having now seen it, they are also of the same opinion. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">30.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I am firmly of the view that Mr Ambat and Ms Akingbeme placed excessive weight upon the issue of the 2007 passport photograph and allowed this to colour their approach to the assessment of A&#8217;s credibility, beyond what is appropriate. The person shown in the photograph could, rationally, be a child of 10. None of the witnesses for A has changed his or her view of A&#8217;s age as a result of seeing the photograph. Furthermore, Ms Johnson said in oral evidence that the photograph could be of a girl in her teens, possibly 13, thereby seriously contradicting the evidence of Mr Ambat and Ms Akingbeme, in particular. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">31.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">It is also of significance that the Metropolitan Police, who have been in possession of copies of the passport since March 2014, could write on 30 July 2014 that they continued to regard A &#8220;as a child as defined by the Palermo Protocol&#8221;.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">32.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Overall, the respondent&#8217;s concentration on this photograph is a reminder of the perils of excessive reliance on physical appearance, given its often unreliable nature: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">R (NA) v London Borough of Croydon</span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2011/2357" uk:canonical="[2011] EWHC 2357 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWHC 2357 (Admin)</ref>; </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">AM v Solihull MBC</span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/iac/2012/00118" uk:canonical="[2012] UKUT 00118 (IAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 00118 (IAC)</ref>. In the present case, the matter is compounded by the fact that the respondent&#8217;s reliance on this photographic evidence has tended to obscure the respondent's consideration of the issue of trafficking. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">33.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">As well as the 2007 photograph, the respondent has a copy of A&#8217;s 2012 Ethiopian passport, which contains a photograph showing the development in A&#8217;s facial features, as between that and the earlier photograph. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">34.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The legal team acting for FM and RH in the United Kingdom visited the Ethiopian Embassy and showed Embassy officials the 2007 passport. The officials indicated that the document appeared genuine. This is said to cast doubt on A&#8217;s assertion that she was trafficked as a 10 year old. It appears that the documentation supplied to the officials was in the form of a copy. In any event, the background evidence, including the US State Department&#8217;s Trafficking in Persons Report 2014, highlights the level of corruption in Ethiopia with regard to the issuing of identification documentation which, although emanating from official sources, contains false information. Given the undoubted scale of human trafficking itself, I find it highly plausible that A and her trafficked companions would have had their photographs taken and affixed to passports obtained in Ethiopia by corrupt means. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">35.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Much was made by Mr Cowen of the incredibility of A, as a 10 year old, being able to pass through passport controls in Ethiopia and Bahrain. However, once one takes account of the widespread nature of the practice of trafficking between Ethiopia and Bahrain, where on some estimates 90% of domestic workers are the victims of trafficking, Mr Cowen&#8217;s point effectively dissolves. For trafficking on such a scale to take place, a significant level of official corruption is a prerequisite. In making this finding, I am aware of the evidence that Bahrain is making some efforts to tackle the problem of trafficking; or, at least, is making efforts to be seen to be doing so. Thus, Bahrain law states that a person entering a country as a domestic worker must be 20 years old. This would account for the date of birth in A&#8217;s passport. It does not, however, in my view, follow that passport officials at the airport in Bahrain would have been scrupulous in identifying A as a person who could not possibly be that age. I also accept what Ms Luh says regarding the fact that, on A&#8217;s account, she was one of a number of girls entering Bahrain together, which would have been likely to dilute official scrutiny of A as an individual. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(e) Return to Ethiopia</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">36.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I have already described A&#8217;s account of how she came to return to Ethiopia. The respondent says this account is wholly unbelievable. Mr Cowen disputes A&#8217;s story of being taken to the airport in Bahrain, being met in Ethiopia; and vice versa, on the return journey. In any event, Mr Cowen contends that A was unsupervised on the flight and could have made known her plight to airline personnel. Mr Cowen further contends that it does not make sense for the Aqeel family, who were allegedly exploiting A in Bahrain, to send her to a compound in Ethiopia for several weeks, only to have her returned to them. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">37.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I agree it looks strange. The return to Ethiopia is one of a number of problematic aspects with A&#8217;s account. I find, however, that it is not destructive of A's credibility, either on its own or in combination with the other negative factors, to which I shall turn in due course. In so concluding, I have had regard to the evidence of Mrs Macmaster, who was a highly impressive and helpful witness. Mrs Macmaster considered that, after several years of interaction with A, the Aqeel family could well have been sufficiently confident that A would return to them. When asked by Mr Cowen whether Mrs Macmaster had ever known of a trafficker who had done something similar, she replied in the affirmative. She knew of a Nigerian trafficker who had decided to send a trafficked child on her own to Italy, via the UK (where she was identified as a trafficking victim). </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">38.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mrs Macmaster hypothesised that the Aqeel family might have wished to go on holiday and had no need for A during that period. Mr Cowen criticised that response as indicative of Mrs Macmaster&#8217;s wish to support the case of A at all costs. I disagree. There is nothing inherently incredible in assuming that traffickers may choose to take calculated risks, particularly once they have had time to assess a victim.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">39.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">As well as holding A&#8217;s passports, FM also had a number of cash receipts, recorded on their face as having been issued to A, in connection with her travel to Ethiopia and, later, (it seems) her journey to the United Kingdom. Mr Cowen submitted that it was highly unlikely these documents would have been forged. I agree; but this does not necessarily point to A&#8217;s having obtained them personally, rather than under the auspices of others. I agree with Mrs Macmaster that a person who has been trafficked may, after several years with the same family, become trusted with money. The cash receipts are, in short, of no material significance in determining credibility. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(f) Life in Bahrain</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">40.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">A&#8217;s written evidence stated that, during her time in Bahrain (when she worked for the Aqeel family) she was not allowed to leave the home. However, elsewhere in her statement A said that she &#8220;was sometimes taken by Mr Aqeel's wife to clean the mother&#8217;s house and then brought back&#8221;. In oral evidence, A said that this last statement was false and that she had never visited (what seems to be) Mr Aqeel&#8217;s mother-in-law&#8217;s premises, in order to clean there.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">41.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I have already made reference to the statement of Mr Aqeel. It is now necessary to look at it in more detail. It is dated 12 January 2015. It describes what is, in effect, a commercial arrangement between A and Mr Aqeel, whereby A was paid according to agreed terms of service. In addition:-</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Book Antiqua';font-size:11pt">&#8220;She was granted approx. 1 month&#8217;s paid leave and return Air Ticket for every two years of service. [A] entertained her entitlements [sic] and travelled to Ethiopia to see her family at least Twice (i.e. copy of the Certificate of Movement issued by Bahrain Immigration&#8221;. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">42.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">It is common ground that this assertion of multiple travel by A to Ethiopia is simply false. The Certificate of Movement attached to the witness statement shows as much. According to that certificate, A went to Ethiopia from Bahrain only once, in September 2011, returning in November. That has been A&#8217;s consistent position, to which she has held firm, including during robust questioning by social workers during her age assessment. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">43.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr Aqeel&#8217;s statement describes A as being considered part of the Aqeel family, being treated &#8220;with kindness and full respect&#8221; and being beloved by his family. A, by contrast, contends that she was not well treated, in particular by the children, who would insult her. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">44.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr Aqeel's statement says that throughout A&#8217;s years with him &#8220;she was in close contact with her family back in Ethiopia whom she called from time to time by phone and other social media tools&#8221;. A denies this. In particular, she states that she was unable to use a computer. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">45.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr Cowen categorised A&#8217;s change of testimony regarding visits to the mother-in-law&#8217;s home as indicative of her deception. I consider that A&#8217;s account of her life in Bahrain is more likely than not to be exaggerated. In particular, it is difficult to understand how the Aqeels would be willing to see A return to Ethiopia, especially in the circumstances described by her, if she had hitherto always been effectively a prisoner in their home. But such a finding in no sense compels the conclusion that Mr Aqeel is a truthful witness and that A was not trafficked to Bahrain in the circumstances she describes. As I have already said (and as historical accounts of slavery from ancient to modern times attest) a relationship between a slave/trafficked person and her &#8220;employer&#8221; may well develop to the point where she is trusted to go out and about, whether or not on the employer&#8217;s business. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">46.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The statement of Mr Aqeel is, in any event, highly problematic. I deal with some of these problems under the next heading. For the moment, however, the entirely false contention regarding A&#8217;s trips to Ethiopia means that it would be quite wrong to accept his version of events at face value. Mr Cowen asked me to treat Mr Aqeel's statement in that regard as merely a mistake, given that it was contradicted on its face by the Certificate of Movement, attached to the statement. In all the circumstances, including those to which I will turn in due course, I decline to do so. The frequency of travel to Ethiopia is inextricably bound up with the rest of the statement, asserting an almost idyllic relationship with A, which is at odds with the background evidence regarding the prevalence of trafficking in Bahrain but which also on its own terms lacks the ring of truth. Mr Aqeel's statement, for the purposes of these proceedings, carries little weight. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(g) The handover</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">47.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr Aqeel&#8217;s statement claims that A asked him for a better-paying job, which Mr Aqeel could not provide. A&#8217;s contacts with the Ethiopian community led to FM contacting Mr Aqeel in May 2013. FM was looking for a person to help look after his family, whilst in London. Mr Aqeel was concerned that if A left his employ she would be obliged to compensate Mr Aqeel &#8220;for all admin and other costs pertaining to the work and resident [sic] permits etc incurred for bringing the worker from his/her sending country&#8221;. Accordingly, an alternative arrangement was devised, in discussion with A whereby A would give up her claim to end of service entitlements and FM agreed to cover all admin fees and other costs pertaining to the issue of a new work and residence permit for A &#8220;as well as the costs of her return airfare to Ethiopia&#8221;.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">48.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">At this point, according to Mr Aqeel, A suggested that she be given a back-dated employment contract of service from FM, so as to indicate that she had been working for him since June 2011, thus obliging FM to cover her travel costs to Ethiopia at the end of the first two years of the backdated contract. According to Mr Aqeel, although FM &#8220;was not fully comfortable with above arrangements, it was agreed with [A] that the above contract document should be treated as a private/internal document between her and [FM]&#8221;.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">49.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Even on its own terms, none of this strikes me as remotely credible. Even assuming A were (i) older than she claims; and (ii) had no background of being trafficked, it is still unlikely that she would have been able to persuade FM, said to be a person of considerable standing in Bahrain, to engage in back-dating a contract, so as to make it look as if she had been working for him for far longer than was true. The more obvious course would have been simply for FM to have agreed to pay for A&#8217;s expenses, including an early air ticket to Ethiopia.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">50.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">In any case, given the undoubted untruth about the number of trips A had made to Ethiopia, it is not possible to believe Mr Aqeel on this matter. It is also relevant to note that the Bahraini residence permits in A&#8217;s passport show that A worked for the Aqeels until 2013. Importantly, this is a matter about which A has always been consistent, including during questioning by the respondent&#8217;s social workers, who had been told by FM that A had worked for him for two years before coming to the United Kingdom in 2013. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">51.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr James&#8217;s &#8220;detailed notes&#8221; of a conversation between him and FM on 25 February 2014 are highly significant. In the conversation, FM:</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.38in"><span style="font-family:'Book Antiqua';font-size:11pt">&#8220;confirmed that [A] had worked for him, in Bahrain, for two years before being employed with a couple of other maids from her country ... He said that he did not have much information about her background, in Ethiopia, and that she had [worked] for another family in Bahrain for four years prior to working for his family. He confirmed that [A] stole jewellery from his family ... [FM] confirmed that it was a very difficult process to get a visa for [A] to come to the UK. He said that she had lengthy interviews scheduled at the embassy and she had also attended with one of his aides while being interviewed, on at least one occasion. He also said it was an expensive process, costing over 200 dinars. He said that information came to light during the process which suggested that she was married and that she had not passed on this information during her employment and that she was very secretive about her life in Ethiopia ... [FM] said that the family still have [A&#8217;s] passport and said they also have her old passport. He informed me that [A] has travelled to Ethiopia at least three or four times during the time she has worked for his family. He said that she was very secretive about telling anything about her background and that he did not know details about her family as she never spoke about them&#8221;. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">52.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">By the time of this conversation, A had left FM and his family and presented herself to the United Kingdom authorities. If the arrangement described by Mr Aqeel for backdating A&#8217;s contract with FM had been arranged solely for the purposes described by Mr Aqeel, it would make no sense for FM to assert to Mr James that A had worked for FM for two years. That fiction was then compounded by FM&#8217;s telling Mr James that A had travelled to Ethiopia at least three or four times during the time she had worked for his family. As can be seen, that is completely untrue. A could not possibly have returned to Ethiopia three times during the fifteen days she worked for FM in Bahrain. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(h) The visa</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">53.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">There is, I find, a much better reason to explain the falsification of A&#8217;s employment history with FM. In order to comply with the Immigration Rules relating to domestic servants, FM needed to show that A had been working for him in his household for at least one year. Otherwise, FM would be unable to obtain for A entry clearance to the United Kingdom, so that she could accompany FM and his family. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">54.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Ms Luh correctly submits that the respondent's case, drawing upon the evidence of Mr Aqeel and that emanating from FM, was that A, in her role as mastermind of the plan for her to come to the United Kingdom, had provided all the information in the visa application and had prepared the documentation, as well as paying the requisite fee. It was put to A in cross-examination that she had submitted the application in person. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">55.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The reality, I find, is very different. The visa application itself shows that it was &#8220;SUBMITTED ON LINE&#8221; and that the &#8220;delivery&#8221; was &#8220;Web Application&#8221;. The documentation also reveals that the payment for the application was made on line in advance. All of this coincides with the answers A gave to the social workers, when she said that she did sign a document in connection with the visa application &#8220;but not at the embassy, at home&#8221;. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">56.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">A&#8217;s account is consistent with the process set out in the evidence drawn from the Home Office's official site and the VFS Global site (VFS being the &#8220;official partner&#8221; of UKVI for visa processing in Bahrain). An application is filled out on line and then submitted in person at an appointment date at the offices of VFS Global. I have already noted that A said she was unable to use a computer. That aspect of her evidence was not specifically challenged. It is, accordingly, difficult in the extreme to see how she would have been the person who compiled the application. In fact, everything points to FM being that person. His email address is the one given in the application and both the landline and mobile numbers contained in the application also belong to FM. The application contains the untruth that A began work for FM on 23 June 2011. As I have already said, her consistent case is that this was not so. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">57.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">FM would plainly have had a strong motive for pretending that A had worked for him for at least a year since otherwise FM would not have had the benefit of A&#8217;s looking after the family (particularly the children) in the United Kingdom. On 2 February 2015 FM provided a short written statement for the Tribunal. It is silent on the issue of the untruth contained in the visa application.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">58.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">One of the answers in the application form concerns wages paid to A. It reads: &#8220;My family keep the money I send to them and use it as investment to buy seed for farming etc and keep the proceed [sic] from me with them.&#8221; Whilst this might point to A having had some involvement in the visa application, the answer is plainly at variance with A&#8217;s consistent account of lack of contact with her family in Ethiopia. It is also at variance with what Mr James recorded FM as saying in Mr James&#8217;s &#8220;detailed notes&#8221; (paragraph 51 above). Given the problems with FM&#8217;s evidence, compared with A&#8217;s consistency regarding the visa application process, I conclude it is more likely than not that FM was wholly responsible for the visa application. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">59.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I have already mentioned records concerning cash receipts in connection with the move from Bahrain to the United Kingdom. In all the circumstances, I do not consider that the existence of these has any material bearing on the issue in these proceedings. Similarly, I do not consider that a medical certificate, dated 20 June 2013, relating to any examination of A in connection with her journey to the United Kingdom, casts any adverse light on her claim. A described in evidence being taken to a medical centre in order to be examined. The statement in the report that &#8220;This report is issued upon her request&#8221; is plainly in the nature of a formal statement. It in no sense indicates that A instigated her visit to the clinic.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(i) In the United Kingdom with FM and his family </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">60.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Here we reach a high point of the respondent's case. A has undoubtedly changed her evidence, in response to the piecemeal emergence of photographic evidence showing her with FM and/or members of his family during an excursion to Alton Towers, Staffordshire; as well as at the Trocadero Centre in Piccadilly, London and in an unnamed children&#8217;s playground, somewhere in London. A's response to the filing of a photograph of her in what appears to be a playhouse in a children&#8217;s playground was that she was not posing but, rather, had been taken unawares by one of their friend's children photographing her. I agree with Mr Cowen that this assertion is unlikely to represent the truth. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">61.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Similarly, the photographs taken at Alton Towers show A smiling, for the camera, standing next to FM and members of his family. She is wearing a sweatshirt bearing the legend &#8220;I [&#9829;] MINNIE&#8221; [Mouse] (of which more later). A appears relaxed in the company of FM and his family. A said in oral evidence that she was not smiling &#8220;with her heart&#8221;.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">62.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr Cowen submits that all this is so destructive of A's credibility that I can properly place no weight upon the evidence of Vesna Hall, Claire Macmaster, Joe Jakes, Marta Poeta, Akiko Kobayashi or anyone else (including DC Granville of the Metropolitan Police and Julie Allen of the Home Office) who considers A to be the age she asserts. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">63.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">On the totality of the evidence, I do not consider that it would be right to accede to that submission. I am in no doubt that, just as with her account of her time in Bahrain with the Aqeel family, A has sought, in effect, to present her relationship with FM and his family in Manichean terms, whereby they are portrayed as cruel exploiters and she as a helpless slave. But, as I have already sought to explain (and as Ms Luh in my view correctly submits), to read the evidence (in particular, the photographs) in the way contended for by the respondent is to ignore the complex power dynamics, which the background evidence discloses may often be at work where there has been trafficking. The truth of the matter is, I find, that the relationship was more complex than either A or FM has chosen to say. In all the circumstances, I do not, however, consider that this requires me to find that A is lying about everything. In particular, I have concluded that A&#8217;s presentation in a photograph taken at Alton Towers in 2013 does not have any determinative bearing upon whether A was originally trafficked from Ethiopia to Bahrain in 2007 in the way (and at the age) she asserts. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">64.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Amongst the material most recently filed is a list of telephone calls made from FM&#8217;s landline and mobile phone in London. This issue was not developed at the hearing. Insofar as it is one of the matters in respect of which Mr Cowen unsuccessfully tried to persuade me to adjourn - that the criminal defence investigations might in due course reveal further evidence &#8211; I reiterate the point already made: it was not appropriate to wait indefinitely, just to see what might emerge in this regard. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">65.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">FM told Mr James that A had stolen RH&#8217;s jewellery, when she left. Although the police were said to have been informed, FM and RH decided to take no further action; it seems, somewhat to the disappointment of the respondent. This allegation of theft has to be read in the light of the undoubted lies that FM told the respondent, regarding A&#8217;s length of employment and return visits to Ethiopia. In this regard, one of the case studies in the CEOP Report, </span><span style="font-style:italic;font-family:'Book Antiqua'">Hidden Children: the trafficking and exploitation of children within the home</span><span style="font-family:'Book Antiqua'"> [2011] describes a Pakistani girl who was brought to the United Kingdom on a domestic worker's visa but who was subsequently identified as a child victim of trafficking. When the child ran away, her employer reported her as missing to the police, as well as making a complaint that she had stolen jewellery and cash from the family. The employer and his wife, upon being arrested, asserted that the victim had wanted to come to the United Kingdom to work for them. Although this case study is described in the report as atypical, it is, in the circumstances, noteworthy. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(j) Abducted by Sarah?</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">66.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">A says that, after she managed to leave the household of FM, she asked for help from a Sudanese stranger she met, called Sarah. Although Sarah promised to help A, she in fact held A against her will for about a month, at a location that A was unable to identify.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">67.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I agree with Mr Cowen that the coincidence of A&#8217;s meeting an individual who also decided to exploit her is too great to be credible. However, Mr Cowen&#8217;s contention that, during this time, it was likely A was with members of the Ethiopian community in London, constructing a timeline that would make her a child (with all that that entails) was somewhat undermined by the evidence of Mr Ambat. He said that in his experience asylum seekers often contrived to secure a &#8220;period of reflection&#8221; before coming forward to the authorities. Mr Ambat&#8217;s view of what A was probably doing during this time was described by him as &#8220;resting and worrying&#8221;. That view, coming from an experienced professional, is more likely to represent reality. In so finding, I bear in mind that it is one thing to construct and try to learn a complex timeline; quite another to keep to it as consistently as A has largely done, both under questioning from different agencies and in her interactions with caseworkers and others. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(k) The age assessments</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">68.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">It is not the purpose of these proceedings to determine whether there are flaws in the respondent's age assessments. Nevertheless, any problems identified in the respondent's assessment process, may prove instructive to a Tribunal tasked with establishing a person&#8217;s true age. In the present case, Ms Luh exposed weaknesses in the assessments, particularly in the notoriously challenging area of appearance and demeanour. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">69.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Somewhat oddly, both Mr James and Ms Johnson were of the view that A&#8217;s small stature meant that she &#8220;can be viewed as an adult&#8221;. Eventually, both had to concede that someone with a small stature can be either an adult or a child. It is possible that what Mr James and Ms Johnson were endeavouring to say is that adult Ethiopians (or Ethiopian women) are more likely than their western counterparts to be of small stature, so as to present as children. However, neither actually said so and there is, in any event, a dearth of evidence before me to make good any such assertion. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">70.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr James told me that A went from appearing unconfident, during one assessment session, to appearing to &#8220;have an attitude&#8221; in another. He considered this indicative of A being an adult but, when asked why, could say no more than that A had challenged the assessors. Mr James eventually accepted that, from his own experience, 15 to 17 year olds tended to challenge adults, just as A had done. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">71.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">It is clear from the materials relating to the second age assessment that Mr Ambat considered A had engaged in some sort of ploy by wearing a sweatshirt bearing the legend &#8220;I [&#9829;] MINNIE&#8221; [Mouse] at both her interviews. Mr Ambat considered this to be a pretence by A to appear younger than she was. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">72.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">However, by the time at least of the second meeting, Mr Ambat had seen one of the photographs taken at Alton Towers in 2013, where A is wearing that same sweatshirt. Unfortunately, this did not result in Mr Ambat resiling from what he should have realised was an incorrect assumption.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">73.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I have already touched on what I consider to be the more significant problem with the respondent's assessments; namely, that the respondent's social workers were ready to take at face value everything they had been told by FM and were overly reliant upon the 2007 passport photograph of A. Under cross-examination, Mr Ambat, with admirable candour, acknowledged these shortcomings when he said that he considered in retrospect that he and his colleagues may have &#8220;gone too far&#8221; with the issues relating to documentation emanating from FM.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">74.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Mr Ambat assessed A as 19+ at the second age assessment in March 2014. In oral evidence, he was unwilling to put a more specific age forward. The consequence of this is that A could have been as young as 11 at the time of her 2007 passport photograph, according to Mr Ambat. Ms Johnson, asked to look at the photograph during oral evidence, said that it could show a person in her teens, possibly 13.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">75.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">These considered views not only mean that the opinions expressed by A&#8217;s witnesses as to A&#8217;s age gain force; they also undermine the coherence of the respondent's case, based on the contention that the 2007 passport is, in all respects, genuine, including as to A&#8217;s stated age. Once the possibility is accepted that the age in that passport may well be false, the case becomes stronger for believing that A was telling the truth about being trafficked. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(l) A&#8217;s witnesses</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">76.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I have already stated my positive view of Mrs Macmaster's evidence. I believe her assertion that she would not continue to support A&#8217;s case, were she of the view that A is lying about her age. Mrs Macmaster has had ample opportunity to observe A in a variety of different situations.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">77.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">So too has Ms Hall. She took notes of the meetings she attended in the course of the respondent's age assessments. Her notes of those meetings were demonstrated, during the hearing, to be reliable; more so in general than those produced by the respondent. Ms Hall&#8217;s concern that the social workers were, on certain occasions at least, suggesting their minds were made up, particularly on the basis of what had been received from FM, strikes me as in general well-founded and coincides with the considered view of Mr Ambat (see paragraph 73 above). Ms Poeta and Mr Jakes have had frequent opportunities to observe A, including during residential trips. The same is true of Ms Kobayashi. Overall, I regard the evidence of these witnesses as revealing a more profound acquaintance with A than that demonstrated by the respondent's witnesses. That includes Ms Mukasa. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">78.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I heard considerable cross-examination of Ms Mukasa by Ms Luh about the difference in view between Ms Mukasa and A&#8217;s current key worker, a lady named Maz, who is employed by AG Social Care. Maz did not give oral evidence but has written to say that she believes A is the age she claims to be, based on Maz&#8217;s observations. The fact that AG Social Care may have written to say that Maz is exceeding her brief by making these comments is, for present purposes, immaterial. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">79.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">A consistent strand of evidence from A&#8217;s witnesses is that A has not been seen to have friends that are older than her peer group, assuming she is 17 years old. That evidence was not successfully challenged.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">80.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Overall, I accept the evidence of A&#8217;s witnesses and give it weight. That evidence is, perhaps, most graphically summarised by Mrs Macmaster, who said in oral evidence that if A were lying about her age, then she deserved to win an Oscar [for her acting ability]. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(m) Dental examination</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">81.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">This issue has already arisen in connection with the adjournment applications made by Mr Cowen. In particular, I have explained why, in the circumstances, I did not consider it appropriate to abandon the substantive hearing, which had been fixed months earlier, and hold instead a preliminary issue hearing that was &#8211; given A&#8217;s categorical stance as expressed through her legal team &#8211; unlikely to lead to any different position than the one the parties and the Tribunal had already reached. That is to say, I must decide whether the refusal of A to undertake an x-ray examination by Professor Roberts (and to disclose any x-rays she may have had in the United Kingdom) is, in the circumstances, unreasonable and, if it is, what inferences should be drawn. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">82.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Nothing daunted, Mr Cowen, in his closing oral and written submissions (after five days of evidence) reiterated the &#8220;preliminary issue&#8221; submission. This came after A had appeared to accept, under cross-examination, that she might have had an x-ray in the United Kingdom and might be willing to undergo a further such examination; but also came after Ms Luh had categorically informed me, after taking A&#8217;s instructions, that A was in fact still irrevocably opposed to doing these things.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">83.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I have read the parties&#8217; respective written submissions on the issue of the relevance of x-ray examination to determining A&#8217;s age. I am unpersuaded that A and her legal team have put forward any good reason for declining to provide dental x-ray evidence. So far as the danger of a dental x-ray is concerned, I accept Professor Roberts&#8217;s evidence that a dental x-ray delivers no more radiation than one might expect to receive in a single long-haul aircraft journey and that fear of radiation poisoning is not, in general, a good reason to decline such an x-ray. As for the likely relevance of the x-ray evidence, particularly as regards the development of third molars, the case law, in particular, shows that such evidence may well, in general, be useful, even highly probative. A has not shown that, in the particular circumstances of her case, it can at this stage be said that there is bound or even likely to be no point in x-ray evidence of A&#8217;s teeth. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">84.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Accordingly, as I said I would (if I so found), I regard A&#8217;s refusal to undertake dental x-ray examination as unreasonable. In the circumstances, I can only conclude that her refusal is because she fears that such an examination may result in evidence tending to show that she is older than she claims. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">85.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The crucial question, of course, is how much weight to place on this issue. Significant though it is, I have decided it would be wrong to assume that, just because A declines to be dentally examined, this means she must be lying about her age and that, for this reason, she was born on 25 September 1986. We simply do not know what the x-ray would reveal or how it might be interpreted by relevant dental experts. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(n) Decision</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">86.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The refusal to undergo a dental x-ray and the other undoubtedly problematic features of A&#8217;s evidence (in particular, the photographs) combine to make it a reasonable possibility that A&#8217;s claim to be born on 8 June 1997 is false. However, standing back and looking at the totality of the evidence, both for and against A, I have come to the conclusion that it is more likely than not A is telling the truth about her age. The positive aspects of her case outweigh the negative aspects. The positive aspects include, in particular, the level of detail about her home and schooling in Ethiopia and the account of her abduction; her consistency in putting forward that evidence; the compatibility of her account with the background evidence regarding trafficking from Ethiopia and the use of trafficked persons in Bahrain; and the strength of the evidence given by her witnesses. Importantly, A held fast to her account of working for FM for only a short period, before coming to the United Kingdom, rather than the two years which FM was falsely asserting to the respondent. Mr Cowen was unable to advance any reason why A might feel the need to maintain her stance in this regard, in the face of a strong challenge from Mr Ambat during the age assessment questioning. A was also shown to have been telling the truth about her single return to Ethiopia in 2011, again, in the face of untruths from FM. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">87.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Whilst A has chosen not to be frank about the complex nature of her relationship with the Aqeels and, later, FM and his family, this does not strike at the heart of her claim to have been trafficked from Ethiopia in 2007, aged nearly ten. </span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">88.</span><marker name="tab"/><span style="font-family:'Book Antiqua'">I find that A was more likely than not to have been born on 8 June 1997. I shall hear Counsel if the form of any orders cannot be agreed.</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:right"><span style="font-family:'Book Antiqua'">Upper Tribunal Judge Peter Lane</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p style="text-align:right"><docDate date="2015-03-23" style="font-family:'Book Antiqua'">23 March 2015</docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

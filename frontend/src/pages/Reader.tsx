@@ -1,10 +1,26 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Box } from '@mui/material';
+import { useAuth } from '../context/AuthContext';
 
 const Reader = () => {
     const [isDragging, setIsDragging] = useState(false);
     const [droppedFiles, setDroppedFiles] = useState<File[]>([]);
+    const [textContent, setTextContent] = useState('');
+    const [selectedText, setSelectedText] = useState('');
+    const [selectionStart, setSelectionStart] = useState<number | null>(null);
+    const [selectionEnd, setSelectionEnd] = useState<number | null>(null);
+    const [summarizations, setSummarizations] = useState<Array<{
+        start: number;
+        end: number;
+        originalText: string;
+        summarizedText: string;
+    }>>([]);
+    const [isSummarizing, setIsSummarizing] = useState(false);
+    const [editMode, setEditMode] = useState(true);
+    const textareaRef = useRef<HTMLTextAreaElement>(null);
+    const contentEditableRef = useRef<HTMLDivElement>(null);
+    const { user } = useAuth();
 
     const handleDragOver = useCallback((e: React.DragEvent) => {
         e.preventDefault();
@@ -41,6 +57,207 @@ const Reader = () => {
     const getFileExtension = (filename: string) => {
         const ext = filename.split('.').pop()?.toUpperCase();
         return ext || 'FILE';
+    };
+
+    const handleTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+        setTextContent(e.target.value);
+        // Clear selection when text changes
+        setSelectedText('');
+        setSelectionStart(null);
+        setSelectionEnd(null);
+        // Clear summarizations when text changes significantly
+        if (summarizations.length > 0) {
+            setSummarizations([]);
+            setEditMode(true);
+        }
+    };
+
+    const handleTextSelect = () => {
+        const textarea = textareaRef.current;
+        if (!textarea) return;
+
+        const start = textarea.selectionStart;
+        const end = textarea.selectionEnd;
+        const selected = textarea.value.substring(start, end);
+
+        if (selected.length > 0) {
+            setSelectionStart(start);
+            setSelectionEnd(end);
+            setSelectedText(selected);
+        } else {
+            setSelectionStart(null);
+            setSelectionEnd(null);
+            setSelectedText('');
+        }
+    };
+
+    const handleContentEditableSelect = () => {
+        const selection = window.getSelection();
+        if (!selection || selection.rangeCount === 0) {
+            setSelectedText('');
+            setSelectionStart(null);
+            setSelectionEnd(null);
+            return;
+        }
+
+        const range = selection.getRangeAt(0);
+        const selectedText_ = range.toString();
+        
+        if (selectedText_.length > 0) {
+            // Calculate start and end positions in the original text
+            const preRange = range.cloneRange();
+            preRange.selectNodeContents(contentEditableRef.current!);
+            preRange.setEnd(range.startContainer, range.startOffset);
+            const start = preRange.toString().length;
+            const end = start + selectedText_.length;
+
+            setSelectionStart(start);
+            setSelectionEnd(end);
+            setSelectedText(selectedText_);
+        } else {
+            setSelectionStart(null);
+            setSelectionEnd(null);
+            setSelectedText('');
+        }
+    };
+
+    // Helper function to find highlighted word positions
+    const findHighlightedWords = (originalText: string, summarizedText: string): Array<{ start: number; end: number }> => {
+        const highlights: Array<{ start: number; end: number }> = [];
+        
+        // Extract words from both texts (handling punctuation)
+        const wordRegex = /\b\w+\b/g;
+        const originalMatches = [...originalText.matchAll(wordRegex)];
+        const summarizedMatches = [...summarizedText.matchAll(wordRegex)];
+        
+        // Create a set of summarized words (lowercase for comparison)
+        const summarizedWords = new Set(summarizedMatches.map(m => m[0].toLowerCase()));
+        
+        // Find which original words are in the summarized version
+        originalMatches.forEach((match) => {
+            const word = match[0];
+            const wordLower = word.toLowerCase();
+            
+            // Check if this word is in the summarized text
+            if (summarizedWords.has(wordLower)) {
+                highlights.push({
+                    start: match.index!,
+                    end: match.index! + word.length,
+                });
+            }
+        });
+        
+        return highlights;
+    };
+
+    const handleSummarize = async () => {
+        if (!selectedText || !user) {
+            alert('Please select text to summarize and ensure you are logged in.');
+            return;
+        }
+
+        setIsSummarizing(true);
+        try {
+            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+            const response = await fetch(`${API_URL}/api/summarize-highlight`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    text: selectedText,
+                    user_id: user.id,
+                    original_text: textContent,
+                }),
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({ detail: 'Unknown error' }));
+                throw new Error(errorData.detail || `Server error: ${response.status}`);
+            }
+
+            const data = await response.json();
+            
+            // Find which words from the summarized text should be highlighted
+            const highlightRanges = findHighlightedWords(selectedText, data.summarization);
+            
+            // Store highlights for each identified word
+            if (selectionStart !== null && selectionEnd !== null) {
+                // Adjust highlight positions to be relative to the full text
+                highlightRanges.forEach((range) => {
+                    setSummarizations((prev) => [
+                        ...prev,
+                        {
+                            start: selectionStart + range.start,
+                            end: selectionStart + range.end,
+                            originalText: selectedText.substring(range.start, range.end),
+                            summarizedText: data.summarization,
+                        },
+                    ]);
+                });
+                // Switch to view mode to see highlights
+                setEditMode(false);
+            }
+
+            // Clear selection after summarization
+            setSelectedText('');
+            setSelectionStart(null);
+            setSelectionEnd(null);
+        } catch (error) {
+            console.error('Error summarizing text:', error);
+            const errorMessage = error instanceof Error ? error.message : 'Failed to summarize text. Please check that the backend server is running and the database table exists.';
+            alert(`Error: ${errorMessage}`);
+        } finally {
+            setIsSummarizing(false);
+        }
+    };
+
+    // Render text with highlights
+    const renderTextWithHighlights = () => {
+        if (!textContent) return null;
+
+        // Sort summarizations by start position
+        const sortedSummarizations = [...summarizations].sort((a, b) => a.start - b.start);
+        
+        // Create array of text segments with their highlight status
+        const segments: Array<{ text: string; isHighlighted: boolean }> = [];
+        let lastIndex = 0;
+
+        sortedSummarizations.forEach((summ) => {
+            // Add text before highlight
+            if (summ.start > lastIndex) {
+                segments.push({
+                    text: textContent.substring(lastIndex, summ.start),
+                    isHighlighted: false,
+                });
+            }
+            // Add highlighted text
+            segments.push({
+                text: textContent.substring(summ.start, summ.end),
+                isHighlighted: true,
+            });
+            lastIndex = summ.end;
+        });
+
+        // Add remaining text
+        if (lastIndex < textContent.length) {
+            segments.push({
+                text: textContent.substring(lastIndex),
+                isHighlighted: false,
+            });
+        }
+
+        return segments.map((segment, index) => (
+            <span
+                key={index}
+                style={{
+                    backgroundColor: segment.isHighlighted ? '#FF8C42' : 'transparent',
+                    color: segment.isHighlighted ? '#000' : 'inherit',
+                }}
+            >
+                {segment.text}
+            </span>
+        ));
     };
 
     return (
@@ -303,6 +520,244 @@ const Reader = () => {
                                     </Box>
                                 </Box>
                             ))}
+                        </Box>
+                    </Box>
+                )}
+            </Box>
+
+            {/* Text Input and Highlighting Section */}
+            <Box
+                component="section"
+                sx={{
+                    background: 'var(--color-bg-card)',
+                    borderRadius: '2rem',
+                    padding: '2.5rem',
+                    marginTop: '1.5rem',
+                }}
+            >
+                <Box
+                    component="h2"
+                    sx={{
+                        fontFamily: 'var(--font-role-heading)',
+                        fontWeight: 600,
+                        fontSize: '1.25rem',
+                        marginBottom: '1.25rem',
+                    }}
+                >
+                    Text Summarization
+                </Box>
+
+                <Box
+                    component="p"
+                    sx={{
+                        color: 'var(--color-text-inactive)',
+                        fontSize: '0.875rem',
+                        marginBottom: '1.5rem',
+                    }}
+                >
+                    Paste your text below, highlight the text you want to summarize, and click the summarize button.
+                    Summarized text will appear highlighted in orange.
+                </Box>
+
+                {/* Mode Toggle */}
+                {summarizations.length > 0 && (
+                    <Box sx={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
+                        <Box
+                            component="button"
+                            onClick={() => setEditMode(true)}
+                            sx={{
+                                padding: '0.5rem 1rem',
+                                background: editMode ? 'var(--color-accent-primary)' : 'rgba(255, 255, 255, 0.1)',
+                                color: editMode ? 'var(--color-bg-page)' : 'var(--color-text-light)',
+                                border: 'none',
+                                borderRadius: '0.5rem',
+                                cursor: 'pointer',
+                                fontSize: '0.875rem',
+                                fontWeight: 600,
+                            }}
+                        >
+                            Edit Mode
+                        </Box>
+                        <Box
+                            component="button"
+                            onClick={() => setEditMode(false)}
+                            sx={{
+                                padding: '0.5rem 1rem',
+                                background: !editMode ? 'var(--color-accent-primary)' : 'rgba(255, 255, 255, 0.1)',
+                                color: !editMode ? 'var(--color-bg-page)' : 'var(--color-text-light)',
+                                border: 'none',
+                                borderRadius: '0.5rem',
+                                cursor: 'pointer',
+                                fontSize: '0.875rem',
+                                fontWeight: 600,
+                            }}
+                        >
+                            View Highlights
+                        </Box>
+                    </Box>
+                )}
+
+                {/* Text Display Area with Highlights */}
+                <Box
+                    sx={{
+                        position: 'relative',
+                        marginBottom: '1rem',
+                    }}
+                >
+                    {/* View Mode: ContentEditable with highlights */}
+                    {!editMode && summarizations.length > 0 ? (
+                        <Box
+                            component="div"
+                            ref={contentEditableRef}
+                            contentEditable={false}
+                            onMouseUp={handleContentEditableSelect}
+                            onKeyUp={handleContentEditableSelect}
+                            suppressContentEditableWarning
+                            sx={{
+                                minHeight: '200px',
+                                maxHeight: '400px',
+                                overflow: 'auto',
+                                padding: '1rem',
+                                background: 'rgba(255, 255, 255, 0.05)',
+                                borderRadius: '0.5rem',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                whiteSpace: 'pre-wrap',
+                                wordWrap: 'break-word',
+                                fontFamily: 'monospace',
+                                fontSize: '0.875rem',
+                                lineHeight: 1.6,
+                                color: 'var(--color-text-light)',
+                                cursor: 'text',
+                                '&::selection': {
+                                    backgroundColor: 'rgba(100, 100, 100, 0.5)',
+                                    color: 'var(--color-text-light)',
+                                },
+                            }}
+                        >
+                            {renderTextWithHighlights()}
+                        </Box>
+                    ) : (
+                        /* Edit Mode: Textarea for input and selection */
+                        <Box
+                            component="textarea"
+                            ref={textareaRef}
+                            value={textContent}
+                            onChange={handleTextChange}
+                            onSelect={handleTextSelect}
+                            onMouseUp={handleTextSelect}
+                            onKeyUp={handleTextSelect}
+                            placeholder="Paste or type your text here, then highlight the text you want to summarize..."
+                            sx={{
+                                width: '100%',
+                                minHeight: '200px',
+                                maxHeight: '400px',
+                                padding: '1rem',
+                                background: 'rgba(255, 255, 255, 0.05)',
+                                borderRadius: '0.5rem',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                color: 'var(--color-text-light)',
+                                fontFamily: 'monospace',
+                                fontSize: '0.875rem',
+                                lineHeight: 1.6,
+                                resize: 'vertical',
+                                outline: 'none',
+                                '&::selection': {
+                                    backgroundColor: 'rgba(100, 100, 100, 0.5)', // Darker grey for selection
+                                    color: 'var(--color-text-light)',
+                                },
+                                '&:focus': {
+                                    borderColor: 'var(--color-accent-primary)',
+                                },
+                            }}
+                        />
+                    )}
+                </Box>
+
+                {/* Selection Info and Summarize Button */}
+                {selectedText && (
+                    <Box
+                        sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '1rem',
+                            marginBottom: '1rem',
+                            padding: '1rem',
+                            background: 'rgba(255, 255, 255, 0.03)',
+                            borderRadius: '0.5rem',
+                        }}
+                    >
+                        <Box sx={{ flex: 1 }}>
+                            <Box
+                                component="p"
+                                sx={{
+                                    fontSize: '0.875rem',
+                                    color: 'var(--color-text-inactive)',
+                                    marginBottom: '0.25rem',
+                                }}
+                            >
+                                Selected text ({selectedText.length} characters):
+                            </Box>
+                            <Box
+                                component="p"
+                                sx={{
+                                    fontSize: '0.75rem',
+                                    color: 'var(--color-text-light)',
+                                    fontStyle: 'italic',
+                                    maxHeight: '3rem',
+                                    overflow: 'hidden',
+                                    textOverflow: 'ellipsis',
+                                }}
+                            >
+                                "{selectedText.substring(0, 100)}{selectedText.length > 100 ? '...' : ''}"
+                            </Box>
+                        </Box>
+                        <Box
+                            component="button"
+                            onClick={handleSummarize}
+                            disabled={isSummarizing || !selectedText}
+                            sx={{
+                                background: isSummarizing || !selectedText 
+                                    ? 'rgba(196, 98, 60, 0.5)' 
+                                    : 'var(--color-accent-primary)',
+                                color: 'var(--color-bg-page)',
+                                border: 'none',
+                                borderRadius: '0.5rem',
+                                padding: '0.75rem 1.5rem',
+                                fontWeight: 600,
+                                fontSize: '0.875rem',
+                                cursor: isSummarizing || !selectedText ? 'not-allowed' : 'pointer',
+                                transition: 'opacity 0.2s',
+                                '&:hover': {
+                                    opacity: isSummarizing || !selectedText ? 1 : 0.9,
+                                },
+                            }}
+                        >
+                            {isSummarizing ? 'Summarizing...' : 'Summarize Highlighted Text'}
+                        </Box>
+                    </Box>
+                )}
+
+                {/* Instructions */}
+                {!selectedText && (
+                    <Box
+                        sx={{
+                            padding: '1rem',
+                            background: 'rgba(255, 255, 255, 0.02)',
+                            borderRadius: '0.5rem',
+                            border: '1px dashed rgba(255, 255, 255, 0.1)',
+                        }}
+                    >
+                        <Box
+                            component="p"
+                            sx={{
+                                fontSize: '0.875rem',
+                                color: 'var(--color-text-inactive)',
+                                margin: 0,
+                            }}
+                        >
+                            💡 Tip: Select text in the text area above to highlight it for summarization. 
+                            The selection will appear in a darker grey color.
                         </Box>
                     </Box>
                 )}

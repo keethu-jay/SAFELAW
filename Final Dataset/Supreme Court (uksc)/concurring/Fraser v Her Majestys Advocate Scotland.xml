@@ -1,0 +1,702 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2011/24"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2011/24"/>
+	  <FRBRdate date="2011-05-25" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="24"/>
+	  <FRBRname value="Fraser v Her Majesty&#8217;s Advocate (Scotland)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2011/24"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2011/24"/>
+	  <FRBRdate date="2011-05-25" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2011/24/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2011/24/data.xml"/>
+	  <FRBRdate date="2025-01-16T10:59:47" name="transform"/>
+	  <FRBRdate date="2025-01-16T12:20:24" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2011-05-25" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="fraser" href="" showAs="Fraser"/>
+	<TLCPerson eId="her-majestys-advocate" href="" showAs="Her Majesty&#8217;s Advocate"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2011</uk:year>
+	<uk:number>24</uk:number>
+	<uk:cite>[2011] UKSC 24</uk:cite>
+	<uk:parser>0.26.18</uk:parser>
+	<uk:hash>6bded3456b3870b86c0f063de73c4ab85cd53a178aba9e84ccfd31705290ec12</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.5in; font-size: 13pt; }
+#judgment .NewSpeech { text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .para { text-align: justify; margin-left: 0in; font-size: 13pt; }
+#judgment .paraleft { text-align: justify; font-size: 13pt; }
+#judgment .lawlord { text-align: justify; font-weight: bold; font-size: 13pt; }
+#judgment .qt { margin-left: 0.5in; margin-right: 0.5in; font-size: 13pt; }
+#judgment .hditl { font-style: italic; font-size: 13pt; }
+#judgment .mylords { font-size: 13pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .case { font-style: italic; }
+#judgment .case0 { }
+#judgment .dtref { font-family: 'Times New Roman'; }
+#judgment .ref { font-family: 'Times New Roman'; }
+#judgment .Strong { font-weight: bold; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:99.05pt;height:99.05pt"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Easter Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2011] UKSC 24</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2009] HCJAC 27</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#fraser" style="font-weight:bold;font-size:20pt">Fraser</party><span style="font-weight:bold;font-size:20pt"> (</span><role refersTo="#appellant" style="font-weight:bold;font-size:20pt">Appellant</role><span style="font-weight:bold;font-size:20pt">) </span><span style="font-style:italic;font-weight:bold;font-size:20pt">v </span><party as="#respondent" refersTo="#her-majestys-advocate" style="font-weight:bold;font-size:20pt">Her Majesty&#8217;s Advocate</party><span style="font-weight:bold;font-size:20pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:20pt">Respondent</role><span style="font-weight:bold;font-size:20pt">) (Scotland)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hope, Deputy President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Rodger</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Brown</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Kerr</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Dyson</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2011-05-25" refersTo="#judgment" style="font-weight:bold;font-size:18pt">25 May 2011</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-left:4in;text-indent:-4in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 21 and 22 March 2011</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="2.68in 0.59in 2.65in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Respondent</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">ME Scott QC</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Frank Mulholland QC</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Christopher Shead</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Gordon Balfour</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Martin Richardson</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by </span><span style="font-size:13pt;color:#000000">JP</span><span style="font-size:13pt"> Mowberry Limited)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by the Crown Agent, Crown Office)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold;text-transform:none">LORD HOPE: (with whom Lord Rodger, Lord Kerr and Lord Dyson agree)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The appellant is Nat Gordon Fraser who went to trial in January 2003 at the High Court of Justiciary in Edinburgh charged with the murder of his wife Arlene Fraser, who disappeared from her home at 2 Smith Street, New Elgin on 28 April 1998. On 29 January 2003 he was found guilty of her murder and sentenced to life imprisonment, with a punishment part of 25 years. By a note of appeal which was lodged on 18 December 2003 he appealed against his conviction and sentence. He was granted leave to appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The indictment on which the appellant went to trial included an allegation that, after the murder and with intent to defeat the ends of justice, he did</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">on 7 May 1998 at said 2 Smith Street, place a wedding ring, engagement ring and eternity ring belonging to said Arlene Fraser in said house.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Although the Advocate Depute withdrew this charge at the end of the Crown case, he relied on the evidence that the rings had been discovered in the house on 7 May 1998 as a crucial part of the circumstantial evidence against the appellant that he had arranged for his wife to be killed. In his address to the jury he said that the discovery of the rings was a most compelling piece of evidence. He invited the jury to conclude that eight or nine days after Arlene Fraser&#8217;s death the appellant had removed the rings from her dead body, taken them to the house and placed them in the bathroom to make it look as though she had decided to walk away from the life that she had had there. He described the return of the rings as the cornerstone of the case against the appellant, for which he had provided no explanation. The trial judge directed the jury that, if they reached the view that they were not prepared to hold that it was the appellant who placed the rings in the bathroom on 7 May, it would not be open to them to convict the appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The case was presented on the assumption, for which unchallenged evidence had been led, that the rings were not in the bathroom when Arlene Fraser disappeared. But it came to the notice of Crown Office after the appeal was lodged that, when he was precognosced by a Crown precognition officer on 3 July 2002, PC Neil Lynch had stated that he had visited the house on three occasions during the night of 28 and 29 April 1998 and that on the final visit he was accompanied by WPC Julie Clark. He said that on the night of 28 April and the morning of 29 April he had seen jewellery, including rings, in the house and that before the official search began he had thought he saw bracelets and rings in the bathroom which looked like a wedding ring, an engagement ring or an eternity ring. This information had not been recorded in PC Lynch&#8217;s notebook and it was not included in any statement provided by him prior to the trial. It was not provided prior to or during the trial to the Advocate Depute, nor was it provided to the appellant&#8217;s representatives. PC Lynch and WPC Clark had not been precognosced by the defence in the course of their preparations for the trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Inquiries were then instigated, in the course of which a further precognition was taken from PC Lynch and WPC Clark was also precognosced. When he was precognosced on 8 February 2006 PC Lynch said that he first attended the house with WPC Clark around 10.30 pm to 11.00 pm on 28 April 1998 and that during this visit he saw jewellery in the bathroom. His recollection was that there were two or three rings there and a chain necklace, or maybe two. The rings were wedding, engagement or eternity type rings. When she was precognosced on 2 March 2006 WPC Clark said that either on the night of 28 April or in the early hours of 29 April she saw jewellery in the bathroom. There were at least two finger rings and a chain, and one of the rings could have been a lady&#8217;s wedding ring or an eternity ring. This information had not been recorded in her notebook and it was not included in any statement provided by her before the trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The information which had been obtained on precognition from PC Lynch and WPC Clark was disclosed to the appellant on 8 March 2006. On 11 March 2006 a statement was issued by the Crown Office and Procurator Fiscal Service in which it was said that the Lord Advocate regarded it as a matter of serious concern that this evidence was not made available to the defence before the trial. The Area Procurator Fiscal for Glasgow, Catherine Dyer, and the Deputy Chief Constable of Strathclyde, Richard Gray, were asked to carry out a full investigation. They reported on 30 October 2006. In the course of their investigation they interviewed the Advocate Depute, now the Hon Lord Turnbull. He said that he thought at an early stage of his involvement in the case that the rings were the key piece of evidence, and that the information in PC Lynch&#8217;s precognition was so inconsistent with his thinking that if it had come to light during the trial it would have had to have been deserted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the light of the information disclosed by the Crown the appellant lodged additional grounds of appeal in May 2006. These were followed by revised additional grounds in February 2007, in which it was submitted that there had been a miscarriage of justice because the evidence of PC Lynch and WPC Clark was not heard at the trial and because the Crown had failed to disclose the information that PC Lynch had provided when he was precognosced on 3 July 2002. The appeal was set down for hearing by the Appeal Court (the Lord Justice Clerk (Lord Gill), Lord Osborne and Lord Johnston) in November 2007.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On 13 November 2007, which was the first day of the appeal hearing, the appellant moved the Appeal Court to allow an additional ground of appeal and a devolution minute, which was in similar terms, to be received. In the devolution minute it was stated that the appellant intended to raise a devolution issue on the following grounds:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;i.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">That the Crown was in possession of information from Police Constable Neil Lynch, regarding the presence of Arlene Fraser&#8217;s rings in the bathroom at the locus at the time of her disappearance, prior to and at the time of the trial of the minuter.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">ii.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">That said information was material evidence, which in the context of the trial, tended to undermine the Crown case and would have been of material assistance to the proper preparation or presentation of the minuter&#8217;s defence.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">iii.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">That the Crown was under a duty to disclose to the defence any information which undermined its case.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">iv.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">That, in breach of its duty, the Crown failed to disclose said information to the defence, thereby infringing the minuter&#8217;s rights under article 6(1) of the Convention.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">v.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">That, irrespective of its duty to disclose said information, the Crown was under a duty to present the case against the minuter on an accurate premise, and in a manner which was consistent with the minuter&#8217;s right to a fair trial. In making the cornerstone of its case the reappearance of Arlene Fraser&#8217;s rings on 7 May 1998 and incriminatory inferences to be drawn from that fact in circumstances where it knew or ought to have known of a body of evidence which would render the invitation to a jury to draw such inferences inappropriate, the Crown infringed the minuter&#8217;s rights in terms of article 6(1) of the Convention.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">vi.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">That accordingly the conviction should be quashed.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Appeal Court refused the motion for the additional ground of appeal and the devolution minute to be received. The reasons that it gave for this decision were that they came too late, that sufficient cause had not been shown and that the matters sought to be raised were adequately covered by the existing grounds of appeal. In the course of the hearing, which occupied a total of 13 days, the appellant&#8217;s counsel restricted his argument to the question whether there had been a miscarriage of justice on the ground of fresh evidence within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">Criminal Procedure (Scotland) Act 1995</ref>, and on the ground of non-disclosure which he accepted was in effect a duplication of the first ground. The non-disclosure ground of appeal was therefore treated in the same way as the fresh evidence appeal. On 6 May 2008 the Appeal Court refused the appeal against conviction and continued the appeal against sentence to a date to be afterwards fixed: [2008] HCJAC 26, 2008 SCCR 407. The appeal against sentence was subsequently abandoned. The appellant then sought leave of the Appeal Court to appeal to the Judicial Committee of the Privy Council against the Appeal Court&#8217;s refusal to allow the devolution minute to be received.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Having heard argument on 31 October 2008, the Appeal Court (the Lord Justice Clerk, Lord Osborne and Lord Wheatley) refused the application for leave to appeal on 24 March 2009 as incompetent: [2009] HCJAC 27, 2009 SCCR 500. Delivering the opinion of the court, Lord Osborne said in para 13 that the identification of the devolution issue depended on the content of the devolution minute which had been tendered and rejected on 13 November 2007.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;It follows from that that, in any appeal for which leave might be granted by us, the appellant would seek to canvass exactly the same issues as were canvassed in his appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref>, but this time before the Judicial Committee of the Privy Council. What decision they might or might not reach in any such appeal can only be a matter of conjecture at this stage. However, what is clear is that the allowance of leave for such an appeal as this would authorise a procedure under which the Judicial Committee, in the circumstances of this case, would, quite simply, review the merits of the decision reached by this court on 6 May 2008. Whatever was contemplated by Parliament in enacting paragraphs 1(c) and 13 of Schedule 6 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref>, we do not think that it was intended to achieve such a result as that. Had it been the intention of Parliament to introduce, for the first time, a right of appeal to the Privy Council against the merits of decisions by the High Court of Justiciary determining appeals to it under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref>, we are of the opinion that it would have made that intention clear. That has not been done.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The appellant then lodged a petition with the Judicial Committee of the Privy Council in which he sought special leave of the Judicial Committee under para 13 of Schedule 6 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref> to appeal against the determination by the Appeal Court of the devolution issue which he had raised in the devolution minute which he had tendered on 13 November 2007. Consideration of his petition for special leave was deferred pending the determination by the Supreme Court (which by now had inherited the jurisdiction of the Judicial Committee in relation to devolution issues under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4/section/40/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 40(4)</ref>(b) of and Schedule 9 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4" uk:canonical="2005 c. 4" uk:origin="TNA" uk:type="legislation">Constitutional Reform Act 2005</ref>) of the appeals in <span style="font-style:italic">Allison v HM Advocate </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/6" uk:canonical="[2010] UKSC 6" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 6</ref>, 2010 SLT 261 and <span style="font-style:italic">McInnes v HM Advocate </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/7" uk:canonical="[2010] UKSC 7" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 7</ref>, 2010 SLT 266. On 21 April 2010 the appellant lodged a supplementary submission in support of his application for special leave to appeal. On 20 May 2010 the Court granted his application for special leave.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The devolution issue</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As I recently sought to emphasise, this court must always be careful to bear in mind the fact that the High Court of Justiciary is the court of last resort in all criminal matters in Scotland: see <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/124/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 124(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">Criminal Procedure (Scotland) Act 1995</ref>; <span style="font-style:italic">McInnes v HM Advocate</span> 2010 SLT 266, para 5. Our appellate jurisdiction in relation to its decisions extends only to a consideration of a devolution issue which has been determined by two or more judges of that court: para 13 of Schedule 6 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref>. It goes no wider than that. If, therefore, the effect of the appellant&#8217;s application for special leave was that we were simply being asked to review the determination under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref> of his appeal by the Appeal Court, as Lord Osborne indicated at 2009 SCCR 500, para 13, we would have been bound to refuse the application for special leave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The appellant&#8217;s application for special leave was granted by this court for two reasons. The first was that the decision by the Appeal Court to refuse to allow the devolution issue to be received <span class="ref" style="font-family:'Times New Roman'">amounted to a determination of that issue for the purposes of para 13 of Schedule 6 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref></span>: see <span class="case">McDonald v HM Advocate</span><span class="case0"/><span class="dtref" style="font-family:'Times New Roman'">[2008] </span><span class="ref" style="font-family:'Times New Roman'">UKPC 46, 2009 SLT 993; </span><span class="ref" style="font-style:italic;font-family:'Times New Roman'">Allison v HM Advocate </span><span class="ref" style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/6" uk:canonical="[2010] UKSC 6" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 6</ref>, 2010 SLT 261, para 6 per Lord Rodger; </span><span class="ref" style="font-style:italic;font-family:'Times New Roman'">Cadder v HM Advocate </span><span class="ref" style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/43" uk:canonical="[2010] UKSC 43" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 43</ref>, 2010 SLT 1125, <ref href="#" uk:canonical="[2010] 1 WLR 2601" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 1 WLR 2601</ref>, para 11. </span>The second was that it appeared to this court, applying the tests set out in <span style="font-style:italic">McInnes v HM Advocate</span>, 2010 SLT 266, paras 19-20 and 28-30, that it was seriously arguable that material had been withheld from the appellant which ought to have been disclosed to him and his advisers with the consequence the appellant did not receive a fair trial and that the unfairness had not been remedied by the approach taken by the Appeal Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The tests set out in <span style="font-style:italic">McInnes</span> fall into two parts which, as I said in para 19, must be considered and applied separately. First, there is the test that is to be applied in order to decide whether the material which was withheld from the defence is material which ought to have been disclosed to it. The test here is whether the material might have materially weakened the Crown case or might materially have strengthened the case for the defence. As was explained in <span style="font-style:italic">HM Advocate v Murtagh</span> <ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2009/35" uk:canonical="[2009] UKPC 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] UKPC 35</ref>, 2010 SC (PC) 39, <ref href="#" uk:canonical="[2010] 3 WLR 816" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] 3 WLR 816</ref>, para 11, this test was identified by Lord Justice General Rodger in <span style="font-style:italic">McLeod v HM Advocate (No 2) </span>1998 JC 67. He said that the duty of disclosure was an aspect of the role of the Crown as it had been understood since <span style="font-style:italic">Slater v HM Advocate </span>1928 JC 94; see also <span style="font-style:italic">Downie v HM Advocate </span>1952 JC 37, p 40 per Lord Justice General Cooper; <span style="font-style:italic">Smith v HM Advocate</span> 1952 JC 66, p 72 per Lord Justice Clerk Thomson. As Lord Rodger said in <span style="font-style:italic">McLeod</span> at p 79F-G, our system of criminal procedure proceeds on the basis that the Crown have a duty at any time to disclose to the defence information in their possession which would tend to exculpate the accused. This test is well settled in Scots law and in the jurisprudence of this court: see <span style="font-style:italic">Sinclair v HM Advocate </span>2005 SC (PC) 28, para 33; <span style="font-style:italic">Allison v HM Advocate </span>2010 SLT 261, paras 25-28. There are, no doubt, various ways of expressing it. In his <span style="font-style:italic">Review of the Law and Practice of Disclosure in Criminal Proceedings in Scotland </span>(Scottish Government, Edinburgh, 2007), para 5.46 Lord Coulsfield recommended that it should be the duty of the prosecutor to disclose to the defence all material evidence or information which would tend to exculpate the accused whether by weakening the Crown case or providing a defence to it. But the way it was set out in <span style="font-style:italic">McInnes</span>, paras 19 and 28, can be taken to be the definitive way of expressing the test.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Then there is the test which is set out in <span style="font-style:italic">McInnes</span>, paras 20, 24 and 30. It is directed to the consequences of the violation. A failure by the Lord Advocate to disclose to the defence material which, applying the first test, ought to have been disclosed to it is incompatible with the accused&#8217;s article 6 Convention right to a fair trial: <span style="font-style:italic">Rowe and Davis v United Kingdom</span> <ref href="#" uk:canonical="(2000) 30 EHRR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">(2000) 30 EHRR 1</ref>, para 60; <span style="font-style:italic">Edwards v United Kingdom</span> <ref href="#" uk:canonical="(1992) 15 EHRR 417" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1992">(1992) 15 EHRR 417</ref>, para 36; <span style="font-style:italic">Dowsett v United Kingdom </span><ref href="#" uk:canonical="(2003) 38 EHRR 845" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">(2003) 38 EHRR 845</ref>, paras 42, 43. At this stage the significance and consequences of the violation must be assessed. The question is whether, given that there was a failure to disclose and having regard to what actually happened at the trial, the trial was nevertheless fair. It was in order to indicate more precisely what &#8220;fair&#8221; means in this context that the court went on to give this further guidance. The test that is to be applied to determine this issue is whether, taking all the circumstances of the trial into account, there is a real possibility that the jury would have arrived at a different verdict if the withheld material had been disclosed to the defence. The decision of the Appeal Court (Lady Paton, Lord Hardie and Lady Smith) in <span style="font-style:italic">Hay v HM Advocate </span>[2010] HCJAC 125, 2011 SLT 293 provides a good illustration of a case where the application of that test may lead to the refusal of an appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The question in this appeal, therefore, is whether the way the Appeal Court dealt with the non-disclosure aspects of the appeal satisfies the requirements of these two tests. This is not an easy question to answer as, having refused to entertain the appellant&#8217;s devolution minute, the Appeal Court dealt with all aspects of the appeal as a fresh evidence appeal which was regulated by <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref>: 2008 SCCR 407, para 131. The Lord Justice Clerk explained his approach in para 193 in this way:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Since there is no devolution issue in this appeal, I need not consider the points that the advocate depute raised about the test in appeals to the Privy Council. This appeal falls to be dealt with solely as an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> based on the contention that there has been a miscarriage of justice. If I am right, the test set by Lord Justice General Emslie in <span style="font-style:italic">Cameron v HM Advocate </span>[1991 JC 252, at 262], and followed by this court for over 20 years, applies to both grounds of appeal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The approach which the Appeal Court took requires this court to compare the tests set out in <span style="font-style:italic">McInnes </span>with those which are applied to appeals under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> in order to determine whether, having regard to the way the Appeal Court deal with the case, there is any difference between them. If we can be satisfied that there is no material difference between the tests that the Appeal Court actually applied and the <span style="font-style:italic">McInnes </span>tests, that will be an end to the case. That is because, as I said in <span style="font-style:italic">McInnes</span>, para 18, the jurisdiction of this court does not extend to the question whether, having identified the right tests, they were applied correctly by the Appeal Court. But we cannot avoid looking at what the Appeal Court did to see whether the tests that it applied were so similar to what the <span style="font-style:italic">McInnes </span>tests require that it made no difference whether the appeal was decided as a fresh evidence appeal or under the Convention.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 106</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">McInnes</span>, para 5, I said that it was not for this court to comment on the test applied by the Appeal Court in fresh evidence appeals which do not raise a devolution issue. This must be so, as this court has no jurisdiction in appeals of that kind. But in this case, as it is an appeal in which a devolution issue has been raised but which was determined by the Appeal Court solely by applying Lord Justice General Emslie&#8217;s test as if it were a fresh evidence appeal only, it is not possible to be so reticent. A comparison of the kind that is required in this case cannot be carried out without first analysing that test and the tests that <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 106(3)</ref> and (3A) of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref>, as substituted by <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/17" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 17</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1997/48" uk:canonical="1997 c. 48" uk:origin="TNA" uk:type="legislation">Crime and Punishment (Scotland) Act 1997</ref>, lay down. <ref href="http://www.legislation.gov.uk/id/ukpga/1997/48/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 106</ref> must, of course, be read and given effect in a way that is compatible with the Convention rights, so far as it is possible to do so: <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The relevant parts of the substituted <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(3)</ref> are in these terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">By an appeal under subsection (1) above a person may bring under review of the High Court any alleged miscarriage of justice, which may include such a miscarriage based on &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt;margin-left:1.38in">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.38in">subject to sub<ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections (3</ref>A) to (3D) below, the existence and significance of evidence which was not heard at the original proceedings; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt;margin-left:1.38in">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.38in">the jury&#8217;s having returned a verdict which no reasonable jury, properly directed, could have returned.</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:0.79in">(3A)<marker name="tab"/>Evidence such as is mentioned in sub<ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (3</ref>)(a) above may found an appeal only where there is a reasonable explanation of why it was not so heard.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Sub<ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (3</ref>B) allows the court to admit evidence which was inadmissible at the time of the trial but which has become admissible under the law that is current at the time of the appeal. Sub<ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections (3</ref>C) and (3D) deal with the situation where a witness who gave evidence at the trial wishes to change his story.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As the Appeal Court said at 2008 SCCR 407, para 193, the test to be applied to an appeal on the ground of fresh evidence was laid down by Lord Justice General Emslie in <span style="font-style:italic">Cameron v HM Advocate </span>1991 JC 252; see also <span style="font-style:italic">Williamson v HM Advocate </span>1988 SCCR 56 at p 59. It is first necessary for the court to find that the statutory tests set out in the amended <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> are satisfied: that the additional evidence was evidence that was not heard at the original proceedings, and that there is a reasonable explanation of why it was not so heard. If it so finds, the court must then direct its attention to the additional test which Lord Justice General Emslie laid down in<span style="font-style:italic"> Cameron</span>. He distinguished between cases where the court is satisfied that, if the original jury had heard the new evidence, its significance was such that the jury would have been bound to acquit and cases where the court cannot be so satisfied. It was with regard to cases of the latter kind that he said at p 262:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;&#8230;if the court is to find that a miscarriage of justice had occurred in an appeal such as this, it must be satisfied that the additional evidence is at least capable of being described as important and reliable evidence which would have been bound, or at least likely, to have had a material bearing upon, or a material part to play in, the jury&#8217;s determination of a critical issue at the trial. If the court is so satisfied, it will be open to it to hold that a conviction returned in ignorance of the existence of that evidence represents a miscarriage of justice and it may exercise its power to authorise the bringing of a new prosecution.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This test can, for the purposes of a comparison with the tests set out in <span style="font-style:italic">McInnes</span>, be divided into two parts. First, there is what may be described as the threshold test: assuming that this is evidence that satisfies the statutory requirement that it was not heard at the original proceedings and there is a reasonable explanation of why it was not so heard, &#8220;is it at least capable of being described as important and reliable evidence which would have been bound, or at least likely to have had a material bearing upon, or a material part to play in, the jury&#8217;s determination of a critical issue at the trial?&#8221; The comparison here is with the test for disclosure that is set out in <span style="font-style:italic">McInnes</span>, para 19. Then there is what may be described as the consequences test, introduced by the words &#8220;it will be open to it to hold&#8221;: &#8220;does a conviction returned in ignorance of the existence of that evidence represent a miscarriage of justice?&#8221; The comparison here is with the test as to whether the trial was fair that is set out in <span style="font-style:italic">McInnes</span>, para 20.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This analysis fits with the approach that was taken to the <span style="font-style:italic">Cameron </span>test by the Lord Justice Clerk at 2008 SCCR 407, paras 132 and 133. An alternative reading of it would be to read the words which I have quoted as setting out a threshold test which leads inevitably, if satisfied, to the conclusion that the verdict of the jury, reached in ignorance of the existence of the additional evidence, must be regarded as a miscarriage of justice. On that view it will be enough to show that the test set out in the preceding words has been met. In practice there may be little to choose between these two approaches. For present purposes, however, I think that it is preferable to follow the Lord Justice Clerk&#8217;s approach. It has the merit of giving weight to the words &#8220;it will be open to it to hold&#8221;, which suggest that the court should regard the reference to a &#8220;miscarriage of justice&#8221; in the concluding words of the <span style="font-style:italic">Cameron </span>test as raising a question that ought to be considered separately.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The tests compared</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I take first what I have called the threshold test. The context for its formulation by Lord Justice General Emslie, in the opinion which he delivered in <span style="font-style:italic">Cameron </span>on 23 October 1987, was the introduction of new statutory provisions governing appeals on indictment by <ref href="http://www.legislation.gov.uk/id/ukpga/1980/62/section/33" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 33</ref> of and Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/62" uk:canonical="1980 c. 62" uk:origin="TNA" uk:type="legislation">Criminal Justice (Scotland) Act 1980</ref>. In its original form <ref href="http://www.legislation.gov.uk/id/ukpga/1980/62/section/228" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 228</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1975/21" uk:canonical="1975 c. 21" uk:origin="TNA" uk:type="legislation">Criminal Procedure (Scotland) Act 1975</ref> provided simply that a person convicted might appeal to the High Court against his conviction on any ground of appeal which involved a question of law alone or, with the leave of the High Court or upon the certificate of the trial judge that it was a fit case for appeal, on any ground of appeal which involved a question of fact or on a question of mixed law and fact on any other ground which appeared to the High Court or the trial judge to be a sufficient ground of appeal. The statute did not refer to the possibility of relying on additional evidence, and the court had no power to allow a new trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Gallacher v HM Advocate </span>1951 JC 38 it was held that the question for the court in such an appeal was whether it was reasonably satisfied that, if the additional evidence was before the jury, it would not have convicted: see also <span style="font-style:italic">Elliott v HM Advocate </span>1995 JC 95, 104-105 where the history of the statutory provisions was reviewed. The 1980 amendments introduced for the first time a statutory test for an appeal based on additional evidence, and it also conferred on the court a power to set aside a verdict and to authorise a new prosecution. In the light of these amendments the test set out in <span style="font-style:italic">Gallacher</span> was no longer appropriate: <span style="font-style:italic">Green v HM Advocate </span>1983 SCCR 42; <span style="font-style:italic">Cameron v HM Advocate</span> 1991 JC 251, 260.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Lord Justice General Emslie&#8217;s threshold test, as he explained at 1991 JC 251, 262, was intended to define the approach which the court must take for all cases where the appellant sought to rely on additional evidence. He had already observed at p 262 that setting aside the verdict of a jury was no light matter: see also<span style="font-style:italic"> Megrahi v HM Advocate</span> 2002 JC 99, para 219 where Lord Justice General Cullen repeated this observation in his summary of the <span style="font-style:italic">Cameron </span>test. The availability of a right of appeal based on additional evidence was to be understood against that background. So Lord Justice General Emslie introduced an additional, and quite stringent, consequences test which was not to be found in the words of the statute. It remains the test which the High Court applies in these cases, as the Lord Justice Clerk explained in his opinion 2008 SCCR 407, para 193.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The threshold test as to whether the material on which the appellant seeks to rely in a non-disclosure case is admissible for the purposes of an appeal based on a violation of his article 6 Convention right is different from the threshold test which <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(3)</ref>(a) and sub<ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (3</ref>A) lay down for an appeal that is to be founded on additional evidence. It also differs from the additional threshold test set out in <span style="font-style:italic">Cameron </span>which was, of course, not designed for use in cases where the appellant&#8217;s ground of appeal is that there has been a violation of his article 6 Convention right to a fair trial because the Crown failed to disclose material which, applying the test in <span style="font-style:italic">McInnes</span>, para 19, ought to have been disclosed to the defence. The <span style="font-style:italic">Cameron</span> test asks whether the disclosed evidence would have been likely to have had a material bearing upon the jury&#8217;s determination of a <span style="font-style:italic">critical</span> issue at the trial. That is a more stringent and more narrowly defined test than the <span style="font-style:italic">McInnes</span> test, which asks whether the material <span style="font-style:italic">might </span>have materially weakened the Crown case or materially strengthened the case for the defence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Then there is what I have called the consequences test in <span style="font-style:italic">Cameron</span>: was the conviction which was returned in ignorance of the existence of the additional evidence &#8220;a miscarriage of justice&#8221;? Is this a different test from that set out in <span style="font-style:italic">McInnes</span>, para 20 of which asks whether, taking all the circumstances of the trial into account, &#8220;there is a real possibility that the jury would have arrived at a different verdict&#8221;? In answering this question we must bear in mind the rule as to interpretation that <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> lays down. The words are obviously quite different. But are the tests which they describe, in essence, the same test?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/106/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 106(3)</ref>, like its predecessors, uses the phrase &#8220;miscarriage of justice&#8221; to identify the test which all appeals against conviction must satisfy. But the statutory formula does not, and never has, provided a definition of what a miscarriage of justice is in law. In his commentary on the Appeal Court&#8217;s decision in 2008 SCCR 407, 465, para 4, Sir Gerald Gordon observed that just what is meant by a miscarriage of justice has always been a problem. In <span style="font-style:italic">R (Mullen) v Secretary of State for the Home Department</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2004/18" uk:canonical="[2004] UKHL 18" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] UKHL 18</ref>, <ref href="#" uk:canonical="[2005] 1 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 AC 1</ref>, para 9 Lord Bingham of Cornhill said that it is an expression which, although very familiar, has no settled meaning. So the statute leaves it to the court to adapt these words to the circumstances of each case. The formula that was used in <span style="font-style:italic">McInnes</span>, para 20, was designed to provide a test as to whether, in cases where it is alleged that there was a violation of the appellant&#8217;s article 6 Convention right, the trial was or was not fair. As was pointed out in that paragraph, in <span style="font-style:italic">Kelly v HM Advocate</span> [2005] HCJAC 126, 2006 SCCR 9, para 35 Lady Cosgrove said that, if the trial was found nevertheless to have been fair, there would in consequence have been no miscarriage of justice. The two expressions were seen by her to have, in essence, the same meaning. <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> supports this approach. <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/106/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 106(3)</ref> ought to be read and given effect in a way which is compatible with the article 6 Convention right to a fair trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Coubrough&#8217;s Executrix v HM Advocate </span>[2010] HCJAC 32, 2010 SLT 755, para 47 the Appeal Court (Lords Carloway, Bonomy and Nimmo Smith) said that, if it had had to be satisfied that a miscarriage of justice had occurred in consequence of a misdirection by the trial judge, the court would have applied the test set out in <span style="font-style:italic">McInnes</span>:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;In carrying out that exercise, it would have applied the test of whether there was a &#8216;real possibility&#8217; that, had the direction been faultless, a different verdict would have been returned. In this context, the court must look at whether a different verdict would have been returned by the particular jury that heard the case (<span style="font-style:italic">McInnes v HM Advocate</span>, Lord Hope at para 20 and para 24, Lord Brown at para 35, Lord Kerr concurring with both at para 41) rather than a hypothetical modern jury hearing all the evidence anew (Lord Rodger at para 30; cf Lord Walker who agreed with both Lord Hope and Lord Rodger).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">In <span style="font-style:italic">Black v HM Advocate </span>[2010] HCJAC 126, 2011 SLT 287 a differently constituted Appeal Court (Lords Osborne and Turnbull and Lady Clark of Calton) said that it had some difficulty in seeing what bearing the test in <span style="font-style:italic">McInnes</span> had on the matter, as that case was concerned with the consequences of non-disclosure rather than any question of misdirection, and that it had doubts as to the reliance on that test in <span style="font-style:italic">Coubrough&#8217;s Executrix</span>. Similar observations are to be found in the opinion which Lord Osborne delivered in this case: see para 220.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is, of course, exclusively a matter for the High Court of Justiciary to identify the test that is to be applied in appeals which do not raise a devolution issue: <span style="font-style:italic">McInnes</span>, para 5. I very much hope that it may find it possible to resolve the differences of view that have emerged as to the use that may be made of the <span style="font-style:italic">McInnes </span>test. We are, after all, both construing the same words in the same section of the same Act, and we are both required to read and give effect to those words in the way that <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> directs. But that is not a problem that this court can solve. Our concern is with the approach that must be taken to this case. Our position on the matter is clear. What the <span style="font-style:italic">McInnes </span>test does is to provide, for the assessment of whether or not there was a fair trial for the purposes of article 6, what was lacking in the <span style="font-style:italic">Cameron </span>test for appeals on the ground of additional evidence: a definition of what the expression &#8220;miscarriage of justice&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref> means in this context, by reading it in a way that is compatible with the Convention right.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The tests applied by the Appeal Court</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Lord Osborne and Lord Johnston delivered separate opinions, but they both agreed with the Lord Justice Clerk who delivered the leading opinion and examined the circumstances of the case, as Lord Johnston said, comprehensively. So I shall concentrate on what he said to see whether the tests that the Appeal Court applied were sufficiently similar to those that ought to be applied to an appeal on the ground that there had been a violation of the appellant&#8217;s convention rights.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The threshold test</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Lord Justice Clerk addressed himself first to the question whether the new evidence was important evidence of such a kind and quality that it was likely to have been found by a reasonable jury, under proper directions, to have been of material assistance in their consideration of a critical issue that emerged at the trial: the <span style="font-style:italic">Cameron </span>threshold test: para 132. In para 134 he said that he was not persuaded that the proposed new evidence, if available to the defence at the trial, would in fact have been led. In paras 139-144 he said that the appellant had failed to provide a reasonable explanation of why the evidence of PC Lynch and WPC Clark was not led at the trial, as their names were on the list of witnesses and the defence was not deprived of any opportunity to precognosce them thoroughly about the factual allegations in the indictment. In para 147 he said that he was not persuaded that the recollections of either of them on the point at issue could be regarded as reliable. In para 150 he rejected the argument that the evidence of PC Lynch and WPC Clark was incompatible with the cornerstone of the Crown case as having been based on an incomplete view of the case. If they had given evidence about the presence of the rings in the house on the night of 28-29 April, the advocate depute would not have committed himself to his theory about the cornerstone of the Crown case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It can be seen from this brief summary that it is impossible to reconcile the approach which the Appeal Court took to the threshold question that <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> raises with the test for cases of non-disclosure in <span style="font-style:italic">McInnes</span>, para 19. The Lord Justice Clerk&#8217;s acknowledgement at para 150 that, if the evidence of PC Lynch and WPC Clark had been led at the trial the advocate depute would not have committed himself to his theory, makes the point. It is plain that this was information which might materially have weakened the Crown case as presented at the trial, or might materially have strengthened the case for the defence. That was why the Crown, very properly, felt that it ought to have disclosed this material. The situation in this case is quite different from that which will normally arise where the court is presented with an appeal on the ground of fresh evidence. A fresh evidence case usually proceeds on the basis that, while there was nothing wrong with the trial as it was originally conducted, there was nevertheless something missing from it which ought now to be taken into account. Had the material that was missing from this case been disclosed, however, the conduct of the trial by both the Crown and the defence would have quite different. That is why the non-disclosure in this case goes to the root of the question whether the appellant received a fair trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is no answer to the point that the material ought to have been disclosed to say that the defence had the opportunity to precognosce these witnesses. The fact is that the Crown chose to present the case at the trial in a way that it would not have chosen to do if it had been aware at the time of the trial that there was evidence that the rings were in the house within hours of Arlene&#8217;s disappearance. Nor is it an answer to say that the obligation of disclosure does not extend to precognitions in the possession of the Crown: <span style="font-style:italic">Sinclair v HM Advocate </span><ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2005/3" uk:canonical="[2005] UKPC 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] UKPC 3</ref>; 2005 SC (PC) 28, para 28. This is because the evidence as to the presence of the rings in the house on that night had such an obvious bearing on a crucial part of the circumstantial case against the appellant. It does not matter where the material was to be found. It was information that ought to have been given to the defence, and the failure to do this was a breach of the appellant&#8217;s article 6 right. The Crown accepted that this was so when it decided to disclose this material, and in his address to this court the learned Solicitor General did not seek to argue otherwise.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As for the observation in para 147 that the recollections of PC Lynch and WPC Clark on the point could not be regarded as reliable, it has to borne in mind that disclosure of this material before or during the trial would have opened up lines of cross-examination that were never pursued by the defence. It would also have materially weakened the Crown&#8217;s attack on the appellant that he had no explanation to give for bringing the rings back to the house on 7 May and the theory that he had retrieved them from Arlene&#8217;s dead body. He would not have had to provide an explanation if, as the evidence of PC Lynch and WPC Clark suggested, the rings were in the house all along. Of course, the reliability of their evidence would have been called into question. But so too would the reliability of the evidence for the Crown, including the video that was taken during the police search of the bathroom.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It seems to me to be plain that the threshold test, as identified in <span style="font-style:italic">McInnes</span>, is met in this case. We must therefore consider the consequences.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The consequences test</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Lord Justice Clerk accepted at para 152 that the correct way to proceed was to consider the additional evidence. But, as he had already explained at para 150, he had already decided that this was not to be done by judging its effect on the way the Crown presented its case to the jury. At para 161 he concluded that the circumstantial evidence alone was sufficient to entitle the jury to convict. At para 164 he said that the evidence of Hector Dick, if the jury believed it, transformed the Crown case as it made it much more compelling by providing directly incriminating evidence. At para 166 he said that, on his interpretation of the evidence, it was not essential to a conviction that the jury should accept that the appellant left the rings in the bathroom. At para 167 he said that, on that view of the evidence and leaving aside the speech for the Crown and the directions by the trial judge, he could not see how the proposed new evidence could be of such significance as to require the verdict to be set aside. He acknowledged that, although his own view was that the evidence of the return of the rings was not crucial to the Crown case, the effect of the judge&#8217;s direction about the events of 7 May was to make it so. But he said that this direction had the result of enabling the court to conclude with certainty that the jury found that the appellant put the rings in the bathroom on that day.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This approach too cannot be reconciled with the consequences test in <span style="font-style:italic">McInnes</span>, paras 20 and 24. That test requires the court to assess the consequences of the non-disclosure in the light of what actually happened at the trial in order to determine whether what happened at the trial was unfair. The approach which the Appeal Court took when it was applying the <span style="font-style:italic">Cameron </span>test was to assess the consequences on the assumption that, had the undisclosed material been available, the trial would have been conducted differently. That, in itself, suggests that the trial that actually happened could be regarded as having been unfair because there was a real possibility that, taking all the circumstances of the trial into account, the jury would have arrived at a different verdict.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">One cannot, of course, avoid making some assumptions as how the trial might have been conducted if the material had been disclosed to the defence. It will always be a question of degree as to how far it is proper to go in carrying out that exercise. But the purpose of doing this is to assess the extent to which, having regard to the way the case was conducted by the Crown, the material would have weakened the Crown case or strengthened the case for the defence. It is on the case as presented at the trial that the court must concentrate, rather than the case as it might have been presented. It is not for us to speculate as to what the case might have been, much less how the jury would have reacted to it. What the Crown asks us to do, and what it persuaded the Appeal Court to do, was to consider the case on the basis that the discovery of the rings on 7 May was indicative of the appellant&#8217;s guilt for completely different reasons from those advanced at the trial. In effect we were being asked to deal with the case as if we were a new jury trying the case for the first time. This is not permissible. Our task is quite different but entirely clear. As the Appeal Court said in <span style="font-style:italic">McCreight v H M Advocate </span>[2009] HCJAC 69, 2009 SCCR 743, para 95, it is not the court&#8217;s task to decide what the outcome of the trial would have been if the trial had been conducted on an entirely different basis. We must ask ourselves whether, in the light of the undisclosed evidence, there is a real possibility that the jury at this trial would have arrived at a different verdict.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The proposition that the appellant had returned the rings to the bathroom on 7 May was, as the Advocate Depute said in his address to the jury, the cornerstone of the Crown&#8217;s case. It is clear, in view of the direction that was then given to them by the trial judge, that the jury must have concluded that the appellant put the rings in the bathroom on 7 May. This was the basis for the Crown&#8217;s theory that he had obtained the rings from the deceased&#8217;s dead body and had placed them in the bathroom to create the impression that she had left the matrimonial home with the intention of turning her back on the life that she had had there. This theory would have been undermined by the evidence of PC Lynch and WPC Clark. It would have been challenged by lines of cross-examination of the Crown witnesses that were never developed at the trial, and by questions that were never put to the appellant in chief or in re-examination. The point could have been made that it was improbable that, if the rings were in the bathroom on 28 and 29 April when the police visited the house, the appellant would have removed them and then chosen to return them on 7 May. The theory that he removed them from the dead body would, if the evidence of PC Lynch and WPC Clark were to be accepted, have been untenable. These and other arguments that the defence would have been able to develop would have struck at the heart of the case that the Crown presented. The trial would have been significantly different had the material that was not disclosed been available. There is a real possibility that this would have been sufficient to raise a reasonable doubt about the Crown&#8217;s case that the appellant returned the rings to the bathroom on 7 May. If that were so, the jury&#8217;s verdict would be bound in view of the trial judge&#8217;s direction to have been different.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Taking all the circumstances of the trial into account, and the extent to which the way the Crown chose to present the case would have been affected by the disclosure, the conclusion that the consequences test as identified in <span style="font-style:italic">McInnes</span> has been satisfied seems to me to be inescapable.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The question, as I have said, is whether the tests which the Appeal Court applied when it decided to dismiss this appeal as if it were a fresh evidence appeal were in essence the same as it would have had to have applied if it had entertained the argument that there had been a violation of the appellant&#8217;s article 6 Convention rights. For the reasons I have given, I think that this question must be answered in the negative. This then raises the question as to what this court should do in order to determine the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This case has come before us as an appeal under paragraph 13 of Schedule 6 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref>. Rule 29(1) of the Supreme Court Rules 2009 (SI 2009/1603) provides that, in relation to an appeal, the Supreme Court has all the powers of the court below and that it may, among other things, affirm, set aside or vary any order of judgment made or given by that court: see rule 29(1)(a). <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/118" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 118</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">Criminal Procedure (Scotland) Act 1995</ref> provides, among other things, that the High Court of Justiciary may dispose of a conviction by setting aside the verdict of the trial court and quashing the conviction and granting authority to bring a new prosecution in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/119" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 119</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the Act</ref>: see <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/118/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 118(1)</ref>(c). The effect of rule 29(1) is that these powers are available to this court too if, having considered the devolution issue, it is satisfied that the answer to it must be that there was a miscarriage of justice in the proceedings in which the appellant was convicted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons I have given I would hold, applying the <span style="font-style:italic">McInnes </span>test, that there was a miscarriage of justice at the appellant&#8217;s trial and that the appeal must be allowed. I would, however, remit the question whether authority should be granted to bring a new prosecution under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/119" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 119</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">Criminal Procedure (Scotland) Act 1995</ref> for determination by the High Court of Justiciary. As it is its practice not to quash a conviction until consideration has been given to the question whether there should be a retrial, I would remit the case to a differently constituted appeal court to determine that question and, having done so, to quash the conviction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I very much regret any further delay that this decision may lead to in the final disposal of the case. I regret too the distress that it will cause to Arlene Fraser&#8217;s relatives, who were present in court throughout the hearing of the appeal. But it has to be recognised that the appellant was entitled to a fair trial. Any unfairness at the trial may be put right at the stage of an appeal. But for that to be achieved the right tests must be applied, so that the appeal too is fair. The conclusion that I would reach as to what these tests lead to leaves us with no alternative but to make the orders which I have proposed.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold;text-transform:none">LORD BROWN:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I have read Lord Hope&#8217;s judgment and gratefully adopt his account of the facts and the particular circumstances in which this appeal arises. I recognise, of course, as Lord Hope more than once points out, that there is no appeal against the High Court of Justiciary in Scotland in respect of criminal matters and that this court&#8217;s jurisdiction is limited to consideration of devolution issues only. So far as devolution issues are concerned, however, we have no option but to exercise our jurisdiction and, as again Lord Hope points out, a devolution issue clearly does arise here. Really there can be no doubt that the prosecutor was under a duty to disclose to the defence PC Lynch&#8217;s precognition of 3 July 2002 (stating that he had seen the rings during the night of 28/29 April 1998) as, indeed, the Advocate Depute plainly would have done had he himself been aware of it. On any possible view of the facts, that precognition was material which &#8220;might have materially weakened the Crown case or materially strengthened the case of the defence&#8221; &#8211; see <span style="font-style:italic">McInnes v HM Advocate </span>2010 SLT 266 at paras 19, 28 (and 29) and 39. The accused&#8217;s article 6 Convention rights were therefore infringed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The critical question for the Appeal Court was therefore whether, in the result, the trial had been unfair. (It is, of course, clearly established on the cases that not every article 6 failure to disclose disclosable material automatically results in an unfair trial.) As to this, the test of such unfairness is that now authoritatively laid down by this Court in <span style="font-style:italic">McInnes</span> &#8211; in short whether, taking into account all the circumstances of the trial, there is a real possibility that the jury would have arrived at a different verdict had the undisclosed material in fact been disclosed to the defence &#8211; see particularly <span style="font-style:italic">McInnes</span> at paras 24, 30 and 35.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Is this the same test as the Appeal Court in fact applied here, treating the case as they did as a fresh evidence appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/106" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 106</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">Criminal Procedure (Scotland) Act 1995</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref>)? To this question there can only be one answer: clearly it is not, for all the reasons given by Lord Hope at paras 27-38 of his judgment. As Lord Hope observes at para 29, it is exclusively a matter for the High Court of Justiciary what test to apply in appeals which do not raise a devolution issue. As, however, that paragraph also suggests, it would be somewhat bizarre to apply different tests in deciding whether or not there has been a miscarriage of justice depending on whether the Appeal Court is concerned with undisclosed material which should have been disclosed (a devolution issue) or with fresh evidence (not a devolution issue). As I indicated in <span style="font-style:italic">McInnes</span> (at paras 36 and 37), the test, which is ultimately one for the Appeal Court, is logically the same for fresh evidence appeals as for those involving undisclosed statements. Lest it be suggested that undisclosed statements imply fault on the part of the prosecution (arguably, therefore, calling for a lower test to be applied to whether there has been a miscarriage of justice) whereas fresh evidence may not, I would point out that many fresh evidence cases operate at the very least to expose serious flaws in the prosecution evidence &#8211; take, for example, the lying main prosecution witness in <span style="font-style:italic">Dial v State of Trinidad and Tobago</span> <ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2005/4" uk:canonical="[2005] UKPC 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] UKPC 4</ref>; <ref href="#" uk:canonical="[2005] 1 WLR 1660" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 WLR 1660</ref> (referred to in para 37 of my judgment in <span style="font-style:italic">McInnes</span>) or, indeed, the egregiously deficient expert evidence revealed by the fresh evidence in <span style="font-style:italic">McCreight v HM Advocate </span>2009 SCCR 743 (a decision to which I shall shortly return). Of course, the route by which the court arrives at the question &#8220;has there been a miscarriage of justice?&#8221; differs depending on whether the appeal is brought on undisclosed material or on fresh evidence grounds. As explained in <span style="font-style:italic">McInnes</span>, the intermediate (article 6) issue arising in any undisclosed material case is: did the non-disclosure make the trial unfair? In a fresh evidence case, by contrast, the appellant must first establish not merely that the fresh evidence is important and reliable but also that there is a reasonable explanation for why it was not adduced at the original trial; only then does the question arise: without it, has there been a miscarriage of justice? Naturally, as Lord Hope points out at para 32, most fresh evidence cases involve no criticism of the original trial proceedings. But ultimately they raise the same question as is raised by the undisclosed material cases. So the <span style="font-style:italic">McInnes </span>test is, I suggest, equally applicable to both.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As I have observed, the <span style="font-style:italic">McInnes</span> test &#8211; whether the relevant fresh material, if adduced at trial, might reasonably have affected the decision of the trial jury &#8211; is one for the Appeal Court. That statement, however, needs this qualification: in certain rare cases the fresh evidence (or, as the case may be, undisclosed statement) will be of such overwhelming overall import as to make it inappropriate for the Appeal Court simply to add it to the original evidence and ask itself whether the jury might still reasonably have convicted. Instead, in such cases, the Appeal Court will have no alternative but to conclude that there has been a miscarriage of justice, and then decide simply whether or not to order a retrial. Such indeed was the conclusion of the Board in <span style="font-style:italic">Bain v The Queen</span> <ref href="https://caselaw.nationalarchives.gov.uk/jcpc/2007/33" uk:canonical="[2007] UKPC 33" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKPC 33</ref> (referred to at para 36 of my judgment in <span style="font-style:italic">McInnes</span>) given the dramatically different state of the evidence on all the key factual questions in the case at the conclusion of the appeal hearing compared to how they had been presented to the jury at trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Perhaps more directly relevant to the present case, however, this was precisely the decision reached by the Appeal Court in <span style="font-style:italic">McCreight</span> to which I have already briefly referred. <span style="font-style:italic">McCreight </span>concerned a murder appeal brought in the light of fresh expert evidence. The victim had died from chloroform and the appellant was convicted specifically on the basis that he had held a chloroformed rag over her face, her death having been caused by the inhalation, not the ingestion, of chloroform. The fresh evidence exposed a thousand-fold error in the reporting of one particular test originally relied upon and, put shortly, established that death by ingestion alone could no longer be excluded. The Appeal Court rejected the Crown&#8217;s case that it mattered not which way the chloroform entered the deceased&#8217;s body and held that, had the fresh evidence been known at the time, the whole trial would have been conducted entirely differently. In such circumstances, said the court: &#8220;It is not our task to decide what the outcome of the trial would have been: in a case such as this, that would involve fruitless speculation.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Amongst the authorities considered by the Appeal Court in <span style="font-style:italic">McCreight</span> was, it may be noted, that of the Lord Justice Clerk in the present case. For my part I found the commentary on the case (at p 777 of the report) of assistance:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;It might be thought that this report is more suitable for publication in a medical journal than in a set of law reports, but although its content is largely medical or scientific and it depends to a large extent on its rather special facts, it is of some legal interest as an example of what might be called a <span style="font-style:italic">Smith v HM Advocate</span> case, rather than a <span style="font-style:italic">Fraser v HM Advocate</span> one &#8230;. That is to say, the fresh evidence was such that the court could not simply add it to the original evidence and ask itself whether the jury would still have convicted. It was not even such that it could be said that if it had been led at the trial the approach of the Crown would have taken account of it, and that the evidence as a whole would still have led the jury to convict. The case does not depend on the terms of the advocate depute&#8217;s speech or even of the judge&#8217;s charge to the jury. It depends on the more fundamental consideration that the fresh evidence was so overwhelming that it would have affected the whole way in which the trial was conducted. The problem for the Crown was not the approach of the trial depute, but the terms of the indictment, which referred exclusively to inhalation &#8230;. The resultant miscarriage of justice might be described as the failure to provide the accused with a trial based on the true position, and in that situation it seems that the court will not consider what the result of such a trial might have been. That is an extreme situation unlikely to happen very often, and there are also very few cases in which the original expert evidence is so egregious &#8211; or at least one hopes so.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons given earlier, we have no alternative but to allow this appeal: the Appeal Court applied the wrong test. Left to myself, however, I should have been inclined to remit the whole matter to that court for reconsideration, leaving it to them to decide, first, whether, in the light of <span style="font-style:italic">McCreight</span>, PC Lynch&#8217;s statement is of such overwhelming significance and would have had so fundamental an impact on the whole course of the trial that it is simply not open to the Appeal Court to decide what the outcome of the trial might have been; secondly, assuming that the Appeal Court concluded that PC Lynch&#8217;s statement was not of such overwhelming significance as that, whether nonetheless, applying the <span style="font-style:italic">McInnes</span> test, there is a real possibility that the jury would have arrived at a different verdict if the withheld material had been disclosed to the defence. In saying that, I am influenced by what I regard as the great strength of the Crown&#8217;s evidence as a whole against the appellant. Indeed, there seems to me force in the Appeal Court&#8217;s own view that the Crown&#8217;s case is logically stronger still in the light of PC Lynch&#8217;s statement than without it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Given, however, the view of the majority of this court that the application of the <span style="font-style:italic">McInnes</span> test here leads &#8220;inescapably&#8221; to the conclusion that there was a real possibility that the jury might have arrived at a different verdict &#8211; ie that this would be the only rational view open to the Appeal Court &#8211; I shall not carry my own doubts to the point of dissent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the result, all that will be left for decision by the Appeal Court under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/118" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 118</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref> is the question whether authority should be granted to bring a new prosecution under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46/section/119" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 119</ref>. To this end I agree with Lord Hope that the case should be remitted to a different constitution of the Appeal Court to determine that question and having done so to quash the conviction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Needless to say, I share to the full the regret expressed by Lord Hope both as to the delay our decision is likely to cause in the final disposal of the case and as to the distress it will cause to the deceased&#8217;s grieving relatives.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

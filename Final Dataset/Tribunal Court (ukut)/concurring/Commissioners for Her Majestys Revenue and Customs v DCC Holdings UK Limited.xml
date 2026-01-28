@@ -1,0 +1,993 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2010/58"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2010/58"/>
+	  <FRBRdate date="2010-12-15" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="58"/>
+	  <FRBRname value="Commissioners for Her Majesty's Revenue and Customs v DCC Holdings (UK) Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2010/58"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2010/58"/>
+	  <FRBRdate date="2010-12-15" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2010/58/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2010/58/data.xml"/>
+	  <FRBRdate date="2025-01-27T12:15:58" name="transform"/>
+	  <FRBRdate date="2025-01-27T20:26:42" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2010-12-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="commissioners-for-her-majestys-revenue-and-customs" href="" showAs="Commissioners for Her Majesty&#8217;s Revenue and Customs"/>
+	<TLCPerson eId="dcc-holdings-uk-limited" href="" showAs="DCC Holdings (UK) Limited"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2010</uk:year>
+	<uk:number>58</uk:number>
+	<uk:cite>[2010] UKSC 58</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>bd356eecd4d11359361f820dea5c26bbe77988dcc78626bffdd107403cfdaa94</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.5in; font-size: 13pt; }
+#judgment .NewSpeech { text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:99.05pt;height:99.05pt"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Michaelmas Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2010] UKSC 58</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2009] EWCA Civ 1165,</span></p>
+      <p style="text-align:right"><span style="font-style:italic">[2008] EWHC 2429, [2007] UKSPC 0611</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#commissioners-for-her-majestys-revenue-and-customs" style="font-weight:bold;font-size:20pt">Commissioners for Her Majesty&#8217;s Revenue and Customs</party><span style="font-weight:bold;font-size:20pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:20pt">Respondent</role><span style="font-weight:bold;font-size:20pt">) </span><span style="font-style:italic;font-weight:bold;font-size:20pt">v </span><party as="#appellant" refersTo="#dcc-holdings-uk-limited" style="font-weight:bold;font-size:20pt">DCC Holdings (UK) Limited</party><span style="font-weight:bold;font-size:20pt"> (</span><role refersTo="#appellant" style="font-weight:bold;font-size:20pt">Appellant</role><span style="font-weight:bold;font-size:20pt">)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hope, Deputy President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Walker</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Collins</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Kerr</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Clarke</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2010-12-15" refersTo="#judgment" style="font-weight:bold;font-size:18pt">15 December 2010</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-left:4in;text-indent:-4in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 2, 3 and 4 November 2010</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="2.58in 0.89in 2.45in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Respondent</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">John Gardiner QC</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Michael Furness QC</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Philip Walford</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Michael Gibbon</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Reynolds Porter Chamberlain LLP)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Solicitor to Her Majesty&#8217;s Revenue and Customs)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold;text-transform:none">LORD WALKER: (with whom Lord Hope, Lord Collins, Lord Kerr and Lord Clarke agree)</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The legislative background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Both sides agree that the transactions before the Court on this appeal may give rise to taxable interest under three actual or notional loan transactions (the cautious &#8220;may&#8221; in the statement of facts and issues, paragraph 30, reflects the Revenue&#8217;s ultimate fall-back position that two of the transactions produce no debit or credit at all). The three loan transactions are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in">The actual loan transaction between the United Kingdom government and the holder of United Kingdom Government securities (&#8220;gilts&#8221;);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in">A loan transaction between DCC Holdings (UK) Ltd (&#8220;DCC&#8221;) as lender and Ulster Bank Ireland Ltd (&#8220;the Bank&#8221;) as borrower deemed to exist under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">Income and Corporation Taxes Act 1988</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>&#8221;); and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in">A loan transaction between the Bank as lender and DCC as borrower deemed to exist under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A(5) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97(2)</ref> and (4) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">Finance Act 1996</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>&#8221;).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Counsel on both sides put this analysis in the forefront of their written cases. The two sides have now been arguing for over six years about DCC&#8217;s tax return for the relevant period (1 April 2001 to 31 March 2002), and they are now extremely familiar with the arguments. For them the arena is already well-trodden. But for those who are less familiar with the arguments it is unhelpful to be confronted at once with these three abstract relationships, two of which are statutory constructs. It is more helpful to start with the general nature of the problems which Parliament was trying to address, first in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 730</ref>A and 737A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> and then in Part IV, Chapter II of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>, and the general nature of the solutions which Parliament adopted to deal with those problems.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">One source of taxable income is interest payable by a debtor to a creditor. Traditionally that was taxed under Schedule D, Case III under the simple rubric of &#8220;interest of money, whether yearly or otherwise.&#8221; The rule was that even though under the general law most interest accrues from day to day, that was not the right treatment for the purposes of Schedule D, Case III. The tax rule was (as the Special Commissioner observed in this case, echoing Rowlatt J in <span style="font-style:italic">Leigh v Inland Revenue Commissioners</span> <ref href="#" uk:canonical="[1928] 1 KB 73" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1928">[1928] 1 KB 73</ref>, 77 and Lord Hanworth MR in <span style="font-style:italic">Dewar v Inland Revenue Commissioners </span><ref href="#" uk:canonical="[1935] 2 KB 351" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1935">[1935] 2 KB 351</ref>, 366) that &#8220;&#8216;receivability&#8217; without receipt is nothing.&#8221; Apart from anti-avoidance provisions the Revenue could not charge income tax on a holder of gilts who, by a well-timed sale just before payment of a half-yearly instalment of interest, in effect turned accrued income into a capital gain (<span style="font-style:italic">Wigmore v Thomas Summerson &amp; Sons Ltd</span> <ref href="#" uk:canonical="[1926] 1 KB 131" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1926">[1926] 1 KB 131</ref>). Nor could a purchaser of short-dated gilts pregnant with interest escape liability to tax on the whole of the interest payment, even if he had paid an extra sum expressed to be for the accrued interest, as an aggrieved litigant in person discovered in <span style="font-style:italic">Schaffer v Cattermole</span> <ref href="#" uk:canonical="[1980] STC 650" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1980">[1980] STC 650</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The traditional rule opened up opportunities for tax avoidance. In <span style="font-style:italic">Wigmore v Thomas Summerson &amp; Sons Ltd</span> <ref href="#" uk:canonical="[1926] 1 KB 131" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1926">[1926] 1 KB 131</ref>, 145, Rowlatt J observed,</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;The result is that nobody on the super tax level, who has not more money than appreciation of income tax law, will ever buy a security that is full of dividend, because in doing so he is buying super tax; and that a man on the super tax level, if he wants to sell a security, had better sell when it is full of dividend, because then he is selling super tax.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Anti-avoidance provisions were in due course enacted. They were supplemented and elaborated at frequent intervals in response to the development of increasingly sophisticated avoidance schemes, some of which were popularly called &#8220;dividend stripping&#8221; and &#8220;bond washing.&#8221; When the law of income tax and corporation tax was consolidated in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>, Part XVII (headed &#8220;Tax Avoidance&#8221;) comprised 85 sections, and Part XVII, Chapter II (headed &#8220;Transfers of Securities&#8221;) contained 29 sections.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">That is the context of the first set of provisions with which this appeal is concerned, <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 730</ref>A and 737A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>. Those new sections were inserted into Part XVII, Chapter II by <ref href="http://www.legislation.gov.uk/id/ukpga/1995/4/section/80/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/4" uk:canonical="1995 c. 4" uk:origin="TNA" uk:type="legislation">Finance Act 1995</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1995/4/section/122" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 122</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1994/9" uk:canonical="1994 c. 9" uk:origin="TNA" uk:type="legislation">Finance Act 1994</ref> respectively, to apply (in each case) to transactions entered into on or after 1 May 1995. (It is a little surprising that <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A preceded <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A in its enactment, but the former provision was initially intended to apply to <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>, a more general provision than <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A.) It should also be mentioned in passing that section 736A, introducing Schedule 23A, was enacted by <ref href="http://www.legislation.gov.uk/id/ukpga/1991/31/section/58" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 58</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1991/31" uk:canonical="1991 c. 31" uk:origin="TNA" uk:type="legislation">Finance Act 1991</ref>. I draw attention to the different provenance of these provisions because it is relevant to the resolution of this appeal to see that it depends on the construction, not of a single set of statutory rules addressed to a single problem, but to a patchwork of legislation; and its difficulty lies not only in the language of particular sections, subsections and paragraphs, but in seeing how Parliament must be taken to have intended them to operate together. I respectfully disagree with the comment of Rix LJ <ref href="#" uk:canonical="[2010] STC 80" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] STC 80</ref>, para 94 that the statutory provisions were always seeking one goal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In this context, the special provisions about repos in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 730</ref>A, 730B, 737A, 737B and 737C can be seen as making a relatively modest extension in the existing battery of anti-avoidance provisions already contained in Part XVII, Chapter II of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>. They were also intended to make the tax treatment of repos correspond to their economic substance, so as to be more in line with modern accounting theory and practice as set out in FRS 4 and FRS 5. In legal form a repo is a preordained sale and purchase at prices fixed in advance, but in economic substance it is a short-term secured loan, as was explained in the written evidence of the only expert witness, Mr Holgate. These sections were in force in their original form for only about a year before the introduction of the new loan relationships code, for corporation tax purposes, by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>. With hindsight, it might have been better if Parliament had waited a year in order to produce a more integrated legislative scheme for the tax treatment of repos.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Part IV Chapter II of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref> effected a fundamental change in the taxation of loan interest for the purposes of corporation tax (but not for the purposes of income tax). The changes were aimed at bringing the tax treatment of all interest onto an authorised basis of accounting (in many cases, including this case an accruals basis), and went far beyond mere counteraction of tax avoidance. They involved a new head of charge for corporation tax purposes in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref>(3A) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>, as inserted by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/105" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 105</ref> of, and para 5 of Schedule 14 to, FA 1996:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;profits and gains which, as profits and gains arising from loan relationships, are to be treated as chargeable under this Case by virtue of Chapter II of Part IV of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">Finance Act 1996</ref>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">The provisions most relevant to this appeal are summarised below. But first it is necessary to give a brief account of repos and the way in which they were taxed under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 730</ref>A and 737A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Repo transactions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mr Holgate, a chartered accountant of the highest standing, gave written and oral evidence to the Special Commissioner. He was careful to distinguish between matters of accounting theory and practice on which he could speak as an expert, and matters of statutory interpretation which were questions of law beyond his competence as an expert.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In his written report dated 18 December 2006 Mr Holgate set out the basic definition of a repo in the Stock Lending and Repo Committee&#8217;s &#8216;Gilt Repo Code of Best Practice&#8217;:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;A transaction, carried out under an agreement, in which one party sells securities to another, and at the same time and as part of the same transaction, commits to repurchase equivalent securities on a specified future date, or at call, at a specified price.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">He then continued (paragraphs 4.3, 4.4 and part of 4.5):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;By using the term &#8216;fixed price repo&#8217;, I am referring to a sale and repurchase agreement, whereby one party (the &#8216;seller&#8217;) sells securities to another party (the &#8216;buyer&#8217;) for an agreed amount of cash and simultaneously agrees to repurchase the same or an identical security at a specified future date for a fixed amount of cash. Therefore, under such an arrangement, the cash flows and the timings of those cash flows are fixed in advance and hence the return under the arrangement for the repo buyer is fixed. Although legally a sale and subsequent repurchase of securities, the seller retains the risks and benefits of market price fluctuations of the securities, rather than passing them to the buyer. Hence, such arrangements are economically similar to a secured loan providing a fixed rate of return, with the security acting as collateral.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in"><span style="text-decoration-line:underline;text-decoration-style:solid">FRS 5</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">The relevant accounting standard under UK GAAP which was in force for the year ended 31 March 2002 is FRS 5 &#8216;Reporting the substance of transactions&#8217;, which was issued in April 1994. The key requirement of FRS 5 is given in paragraph 14 as follows:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">A reporting entity&#8217;s financial statements should report the substance of the transactions into which it has entered. In determining the substance of a transaction, all its aspects and implications should be identified and greater weight given to those more likely to have a commercial effect in practice. A group or series of transactions that achieves or is designed to achieve an overall commercial effect should be viewed as a whole.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">FRS 5 therefore tells us to account for the repo transaction in accordance with its substance, rather than its legal form, if the two do not accord.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In paragraph 4.8 Mr Holgate explained (without actually using those terms) a &#8220;gross paying repo&#8221; and &#8220;net paying repo&#8221;:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Under a fixed price repo, the seller has an unconditional commitment to repurchase the security from the buyer at the sale price plus interest, which represents a lender&#8217;s return. Furthermore, if during the term of the repo arrangement, a coupon or dividend is paid to the buyer (as the legal holder of the security) on the underlying security, then the buyer is often obliged to immediately pass an equivalent amount of cash back to the seller. Alternatively, if, under the arrangement, the buyer is able to retain the cash coupon or dividend received under the security, then instead the repurchase price is reduced, in effect passing the benefit of the coupon or dividend back to the seller. In either case, the substance of the repo transaction will be that of a secured loan, whereby the buyer lends cash to the seller. Although the buyer has legal ownership of the security for the repo term, the seller retains all significant benefits and risks relating to the security (ie movements in market price and the benefits of any coupon or dividend payments on the security) over the term of the repo.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In this case there were five separate repos, effected under a single master repurchase agreement and a master custody agreement to which The Northern Trust Co was a party. They were closely consecutive on each other, the purchase price on the second and subsequent transactions being set off against the repurchase sum receivable under the previous transaction. Each transaction involved a different issue of gilts, and in each case a half-yearly interest payment was made on the last day of the repo period (the longest period was 42 days, and the shortest 11 days). It was agreed that each of the repos would be a net paying repo. It is common ground that the transactions were arms&#8217; length transactions and that DCC entered into the transactions otherwise than for the purposes of a trade carried on by it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In argument below, and in this Court, counsel have used a simplified version of the facts which aggregates the sums paid on the respective sales and repurchases under the five consecutive transactions, aggregates the half-yearly payments of interest made on the last day of each repo period, and takes an average length of that period. This process produces figures, when rounded, of &#163;812.2m, &#163;785.2m, &#163;28.8m and 18&#189; days, and it is convenient to use those figures. It will be seen that if &#163;28.8m (the gilts interest retained by DCC) is added to &#163;785.2m (the repurchase sum paid to DCC) it exceeds &#163;812.2m (the sale price paid by DCC) by &#163;1.8m. That figure of &#163;1.8m is the only one agreed by both sides (and by the Special Commissioner and all the judges who have so far considered the matter) as an element in the tax computations.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 730</ref>A, 737A and 737C of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 730</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> (Treatment of price differential on sale and repurchase of securities) is the starting point in understanding the tax treatment of repos as it was in 2001-2002. <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 730</ref>A provided a self-sufficient code for the simple case in which either no coupon was paid during the repo period, or a coupon was paid and was &#8220;receivable&#8221; (the expression in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A(2)(a)) by the &#8220;original owner&#8221; (the expression used in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(1) for Mr Holgate&#8217;s &#8220;seller&#8221;). This might occur if the gilts were throughout registered in the name of a nominee. That is the simple case because it did not involve any &#8220;manufactured interest&#8221; or &#8220;deemed manufactured interest&#8221; (explained in para 16 below). In the simple case the operative provision was <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(2)(a):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;The difference between the sale price and the repurchase price shall be treated for the purposes of the Tax Acts - (a) where the repurchase price is more than the sale price, as a payment of interest made by the repurchaser on a deemed loan from the interim holder of an amount equal to the sale price; &#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">With any gross paying repo the repurchase price would naturally be higher than the original sale price, and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(2) operated, through <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(6) in its original form, to charge the interim holder (Mr Holgate&#8217;s &#8220;buyer&#8221;) with tax under Schedule D Case III on the difference. This corresponded to the economic reality, that the interim holder had made a secured loan, at interest, to the original owner.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In less simple cases <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A operated not as a self-sufficient code, but in conjunction with <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 737</ref>A and 737C. Parliament seems to have proceeded on the basis that when a coupon is paid during the repo period, there are three possible situations:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in">a gross paying repo under which the coupon goes to the original owner without reaching the interim holder at all (this is the simple case, already noted);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in">a gross paying repo where the coupon is received by the interim holder but is passed on, under a contractual obligation, to the original owner; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in">a net paying repo where the coupon is paid to and retained by the interim holder.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the second of these situations the payment on by the interim holder was termed &#8220;manufactured interest&#8221;. In the third situation there was no actual payment on by the interim holder, but the interim holder was treated for tax purposes as making a payment on, termed &#8220;deemed manufactured interest&#8221;. The rationale seems to be that the original owner had made use of the accruing coupon as part of the repo bargain, since by opting for a net paying repo he could negotiate a much lower repurchase price. His turning it to account in this way was treated for tax purposes as equivalent to an actual receipt of it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The relevant statutory provisions in relation to (actual) manufactured interest were principally section 736A of, and paragraph 3 of Schedule 23A to, <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>. They are not directly relevant to this appeal. Indeed, because of paragraph 3(12) (introduced by an amendment made in the <ref href="http://www.legislation.gov.uk/id/ukpga/1997/16" uk:canonical="1997 c. 16" uk:origin="TNA" uk:type="legislation">Finance Act 1997</ref>) they really do no more than explain the expression &#8220;manufactured interest&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The statutory provisions in relation to deemed manufactured interest, by contrast, are of central importance. They are <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A (Sale and repurchase of securities: deemed manufactured payments), subsections (7) and (9) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>C (Deemed manufactured payments: further provisions) and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(9). Most of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A needs to be set out in full:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;737A<marker name="tab"/>Sale and repurchase of securities: deemed manufactured payments</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This section applies where on or after the appointed day a person (the transferor) agrees to sell any securities, and under the same or any related agreement the transferor or another person connected with him &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">is required to buy back the securities, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">acquires an option, which he subsequently exercises, to buy back the securities;</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:0.79in">but this section does not apply unless the conditions set out in subsection (2) below are fulfilled.</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The conditions are that &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">as a result of the transaction, a dividend which becomes payable in respect of the securities is receivable otherwise than by the transferor,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">[repealed]</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">there is no requirement under any agreement mentioned in subsection (1) above for a person to pay to the transferor on or before the relevant date an amount representative of the dividend, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">it is reasonable to assume that, in arriving at the repurchase price of the securities, account was taken of the fact that the dividend is receivable otherwise than by the transferor.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">For the purposes of subsection (2) above the relevant date is the date when the repurchase price of the securities becomes due&#8230;.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(5)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Where this section applies, [words repealed] Schedule 23A and dividend manufacturing regulations shall apply as if &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">the relevant person were required, under the arrangements for the transfer of the securities, to pay to the transferor an amount representative of the dividend mentioned in subsection (2)(a) above,</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">a payment were made by that person to the transferor in discharge of that requirement, and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">the payment were made on the date when the repurchase price of the securities becomes due.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(6)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In subsection (5) above &#8216;the relevant person&#8217; means &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">where subsection (1)(a) above applies, the person from whom the transferor is required to buy back the securities;&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 737</ref>C(7) and (9) provided that the repurchase price for a gilts repo was to be increased by the gross amount of the deemed manufactured interest, and for good measure <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(9) was to just the same effect. I have already explained the legislative purpose, as I understand it, of these provisions for deemed manufactured interest.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">These provisions are not easy reading (and it has to be said that they are no more than the prologue to the difficult issues that have to be decided in this appeal). It may be helpful to give some simple examples by way of recapitulation of the legislation as it stood before the coming into force of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>. The examples assume a sale price of 1,000, a coupon of 35, and a repurchase price of 1,020 for a gross paying repo and 985 for a net paying repo.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">No coupon during repo period</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">interim holder </span>taxed on differential of 20 as interest</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">original owner </span>taxed on coupon of 35 (received later) and has trading or non-trading debit of 20</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Gross paying repo, coupon direct to original owner</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">interim holder </span>taxed on differential of 20 as interest</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">original owner</span> taxed on coupon of 35 and has debit as above</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Gross paying repo, interim holder receives coupon and makes representative payment-on </p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">interim holder </span>taxed on differential of 20, coupon netted off against manufactured interest</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">original owner </span>taxed on coupon of 35 (as manufactured interest) and has debit as above</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Net paying repo</p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">interim holder </span>taxed on differential of 20 (985+35-1,000), coupon netted off against deemed manufactured interest</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in"><span style="font-style:italic">original owner </span>taxed on coupon of 35 (as deemed manufactured interest) and has debit as above</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">In this way, cumbersome as it was, the provisions achieved the apparent legislative purpose of taxing every type of repo uniformly, and in line with its economic substance.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The change to an accruals basis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Part IV, Chapter II of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref> introduced for corporation tax purposes a new statutory source of income, profits and gains from loan relationships, with concomitant changes in the computations of debits and credits, so as to put them on an authorised basis of accounting. These represented an important development in tax law. They were presented by the Revenue as a simplification that would make life easier for companies:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Details of a simpler and more coherent tax regime for borrowers and lenders were announced today with the proposed repeal of a variety of complex rules for different types of bond and their replacement with a single set of rules covering all debts. This is a major deregulatory initiative which will simplify decisions for companies and lead to a substantial reduction in the amount of tax legislation on debt.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">That is from the Inland Revenue Budget Day release in 1996, quoted in a note on the Finance Bill in 1996 BTR 349, 356. The official claims were not groundless, but may nevertheless be regarded with some scepticism by those involved in this particular appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The opening sections of Chapter II are <ref href="http://www.legislation.gov.uk/id/ukpga/1995/4/section/80" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 80</ref> (Taxation of loan relationships), 81 (Meaning of &#8220;loan relationship&#8221; etc) and 82 (Method of bringing amounts into account). They are important machinery but it is not necessary to set out the text. Section 83 (Non-trading deficit on loan relationships) is technical and it is not necessary to set it out. It is however of crucial importance to DCC, which seeks to surrender a non-trading deficit (by way of relief) against profits earned by its subsidiaries of over &#163;28m (the precise figures of the original claim appear in form CT600 (2001) in Appendix Part IV and also at <ref href="#" uk:canonical="[2009] STC 77" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] STC 77</ref>, 122).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In Section 84 (Debits and credits brought into account) subsection (1) is of crucial importance to this appeal:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;The credits and debits to be brought into account in the case of any company in respect of its loan relationships shall be the sums which, in accordance with an authorised accounting method and when taken together, fairly represent, for the accounting period in question &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">all profits, gains and losses of the company, including those of a capital nature, which (disregarding interest and any charges or expenses) arise to the company from its loan relationships and related transactions; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">all interest under the company&#8217;s loan relationships and all charges and expenses incurred by the company under or for the purposes of its loan relationships and related transactions.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Subsection (5) defines &#8220;related transaction&#8221; as meaning, in relation to a loan relationship, any disposal or acquisition (in whole or in part) of rights or liabilities under that relationship. But paragraph 15 of Schedule 9 to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref> makes it unnecessary, as is common ground, to consider the &#8220;related transaction&#8221; provisions in this case. Paragraph 13 of Schedule 9 contains an anti-avoidance provision (loan relationships for unallowable purposes) which the Revenue has not invoked in this case, partly it seems because of doubts (since removed by an amendment) as to its efficacy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Section 85 (Authorised accounting methods) provides as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Subject to the following provisions of this Chapter, the alternative accounting methods that are authorised for the purposes of this Chapter are &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">an accruals basis of accounting; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">a mark to market basis of accounting under which any loan relationship to which that basis is applied is brought into account in each accounting period at a fair value.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">An accounting method applied in any case shall be treated as authorised for the purposes of this Chapter only if &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">it conforms (subject to paragraphs (b) and (c) below) to normal accountancy practice, as followed in cases where such practice allows the use of that method;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">it contains proper provision for allocating payments under a loan relationship to accounting periods; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">where it is an accruals basis of accounting, it does not contain any provision (other than provision comprised in authorised arrangements for bad debt) that gives debits by reference to the valuation at different times of any asset representing a loan relationship.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Subsection (3) contains further provisions as to accruals. The accruals basis is the only permitted method for computations under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>, that being the effect of the new subsection (6) inserted into <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A by section 104 of, and paragraph 37 of Schedule 14 to, <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 97</ref> (Manufactured interest) must be set out (as amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/1997/16" uk:canonical="1997 c. 16" uk:origin="TNA" uk:type="legislation">Finance Act 1997</ref>) in full:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">This section applies where &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">any amount (&#8216;manufactured interest&#8217;) is payable by or on behalf of, or to, any company under any contract or arrangements relating to the transfer of an asset representing a loan relationship; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">that amount is, or (when paid) will fall to be treated as, representative of interest under that relationship (&#8216;the real interest&#8217;).</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In relation to that company the manufactured interest shall be treated for the purposes of this Chapter &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">as if it were interest under a loan relationship to which the company is a party; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">where that company is the company to which the manufactured interest is payable, as if that relationship were the one under which the real interest is payable.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Any question whether debits or credits falling to be brought into account in the case of any company by virtue of this section &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">are to be brought into account under section 82(2) above, or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">are to be treated as non-trading debits or non-trading credits,</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:0.79in">shall be determined according to the extent (if any) to which the manufactured interest is paid for the purposes of a trade carried on by the company or is received in the course of activities forming an integral part of such a trade.</p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Where <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A(5) of [<ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>] (deemed manufactured payments) has effect in relation to a transaction relating to an asset representing a loan relationship so as, for the purposes of &#8230; Schedule 23A to &#8230; <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">that Act</ref>, to deem there to have been a payment representative of interest under that relationship, this section shall apply as it would have applied if such a representative payment had in fact been made.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The resolution of this appeal depends on the correct interpretation and inter-relation of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 730</ref>A(2) and 737A(5) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 84(1)</ref> and 97(2) and (4) of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>. Argument has focused, in particular, on whether and how far the words in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> &#8211;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;the sums which, in accordance with an authorised accounting method and when taken together, fairly represent &#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">can be stretched (or need to be stretched) in order to avoid the absurd result of DCC&#8217;s deemed income receipt in respect of the coupon being different from its deemed interest payment as a borrower which is party to a loan relationship under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A(5) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>. The absurdity of that asymmetrical result has been recognised in the Special Commissioner&#8217;s decision <ref href="#" uk:canonical="[2009] STC 77" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] STC 77</ref> (paras 164-166 and numerous other passages) and in the Court of Appeal <ref href="#" uk:canonical="[2010] STC 80" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] STC 80</ref>, especially by Rimer LJ at para 85 (&#8220;Moses LJ&#8217;s reasoning &#8230; clothes the relevant legislation with a garb of commercial sanity&#8221;) and Rix LJ at para 92 (&#8220;a most unfortunate, uncommercial, and no doubt unintended result&#8221;). Moses LJ referred at para 69 to the deemed income flow under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97(4)</ref> as retaining &#8220;its essential function, which is to cancel out, but not to exceed, the amount which it represents.&#8221; Norris J, by contrast, was scathing about the statutory drafting (para 22) and unwilling to make any presupposition about its intended effect (para 42).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In my opinion the need for a symmetrical solution lies at the heart of this appeal. The need for symmetry comes from the statutory purpose of the deemed income flows provided for in the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 730</ref>A, 737A and 737C of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>, which I have already analysed at tedious length. They are intended to have a cancelling effect so that DCC is taxed on the repo as if it had made a secured loan at interest, and the coupon is taxed as income of the Bank, whether it reaches the Bank directly, or in the form of a representative payment, or not at all.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Some sort of case can be made out for each of the three pairs of symmetrical answers: (1) credit &#163;28.8m, debit &#163;28.8m; (2) credit &#163;2.9m, debit &#163;2.9m; (3) credit nil, debit nil. The Special Commissioner (Mr Charles Hellier), in a long and closely-reasoned decision, concluded that credit nil, debit nil was the right answer. Neither side has treated this conclusion with any enthusiasm, but the Revenue have adopted it as their second and final fall-back position. Norris J reached the asymmetrical answer of credit &#163;2.9m, debit &#163;28.8m. Rimer LJ agreed with Norris J. Rix and Moses LJJ concluded that the correct answer was the symmetrical credit &#163;28.8m, debit &#163;28.8m.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Mr Holgate&#8217;s evidence as to the accruals basis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I have already summarised Mr Holgate&#8217;s evidence about the nature of repos and the proper accounting treatment which recognises their economic substance. I must also give a brief account of his evidence about the accruals basis. This part of his written evidence is in section 6 (My understanding of the legislative assumptions), section 7 (The exercise posed by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">Finance Act 1996</ref>) and <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 8</ref> (Conclusions). In section 6 he considers <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84</ref> at some length and concludes that the expression &#8220;fairly represent&#8221; is, from an accounting perspective, not significantly different from &#8220;giving a true and fair view&#8221;. He also states his assumptions as to the effects of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref> (paragraph 6.18) and of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> (paragraph 6.20).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Paragraph 7.11 is in the following terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Furthermore, in order to prepare financial statements that show a &#8216;true and fair view&#8217; of the transactions undertaken by the entity, full knowledge of the transactions and arrangements undertaken by an entity must first be understood, both from a legal and an economic perspective. Accordingly, accounting standards and GAAP are based on real, economic transactions and therefore determining the most appropriate accounting treatment without the full facts or based on transactions which do not make economic sense is difficult, if not impossible.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraphs 7.16 to 7.19 Mr Holgate set out his views on the issue of DCC&#8217;s credit. On one view (paragraph 7.16) it should be nil, since in substance DCC never had beneficial ownership of the gilts. The alternative view (paragraphs 7.18 and 7.19) was as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;DCC held the gilts at the coupon date and so was entitled to receive an interest payment from the government in respect of its investment. From an accounting perspective, applying the accruals basis (as defined in FRS 18 paragraph 27), it is appropriate to bring into account the interest accruing on the gilts only in respect of the period those gilts are held by DCC, ie the proportion of the interest received by DCC. This is because any other party holding the gilts before and after the term of the repo transaction would expect to be compensated by receiving the proportion of the coupon relating to their period of ownership of the gilts.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">Therefore under this assumption, in my opinion the sum which fairly represents the interest arising on the gilts held by DCC (ignoring any purchase and sale proceeds) is the accrued portion of the coupon for the period of the repo transaction. In accordance with an accruals basis of accounting, it could be no more; specifically, DCC could not recognise the receipt of the full interest coupon unless the gilts had been held for the full period to which the coupon relates. Coupons on gilts are typically paid every six months; accordingly, it would be appropriate to recognise as income the full amount of a coupon received only if the gilts in question had been held for the full six-month period.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraphs 7.22 and 7.23 Mr Holgate set out his views on the proper treatment of DCC&#8217;s debit in respect of deemed manufactured interest. I have emphasised a passage which takes a preliminary view on a point of statutory construction:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;From an accounting perspective it is not possible to determine the debits and credits to be brought into account in respect of any deemed cash payment that fairly represent the loan relationship, unless one has more information about the transaction. For example the premium on redemption of a deeply discounted bond would be taken into account in determining the interest accruing on such a bond for an accounting period. However, without knowing the full terms of the transaction, it is not possible to determine whether the deemed interest does fairly represent the interest accruing under the loan relationship and related transactions (if any) for the accounting period.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">However, if there is a legislative need to determine the debits to be brought into account on an accruals basis that fairly represents the loan relationship, then <span style="font-style:italic">I would understand the legislation may be making an assumption that the deemed interest, which is to be treated as paid by DCC under a loan relationship to which DCC is a party, was payable in respect of a period for which DCC was a party to that loan relationship</span>. If that is the case, then, from an accounting perspective, a debit for the whole amount relating to that period should be recognised in respect of that accrued interest payable.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In paragraph 8 Mr Holgate summarised his conclusions. Most relevantly for present purposes, he stated that DCC&#8217;s credit should be either nil or an apportioned amount of &#163;2.9m (paragraph 8.5) and that DCC&#8217;s debit should be the whole of the deemed interest payment, or could not be determined from accounting principles, on the basis of the information given (paragraph 8.9).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The judgments below</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I have already made some reference to the judgments below, and I do not think that it would be helpful to attempt to analyse them at length. But I would add a few more comments. I respectfully think that Norris J was wrong to criticise the Revenue&#8217;s case (as put by Mr Furness QC) as based on a presupposition. I would have said that it was based on a careful analysis of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 730</ref>A, 737A and 737C, to which Norris J seems to have been at least partly receptive at para 44 of his judgment. It was not an unreasonable presupposition, but a reasonable expectation, that Parliament intended to preserve, rather than to destroy, the essentials of those provisions when enacting Part IV, Chapter II of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>. As it was Norris J went along with the assumption put forward in paragraph 7.23 of the report, putting it like this (para 48):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;So far as the deemed manufactured interest is concerned this is treated as an interest payment made <span style="font-style:italic">by</span> DCC on the repurchase date. What sums under the accruals method will, when taken together fairly represent the gains or losses under this deemed loan relationship? The answer will not be found in any accounts because the transaction is entirely fictional. The answer seems to me to be &#163;28.8m. This is the amount of the deemed interest and it cannot relate to any period other than the period for which the relationship between DCC and [the Bank] existed under which the deemed interest is deemed to be paid ie the period of the repo transaction.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Rimer LJ agreed with Norris J on this point (indeed he seems to have agreed with him on all points, but reluctantly because he was more concerned about the lack of &#8220;commercial sanity&#8221;: para 85). Moses LJ also agreed (para 51: &#8220;[t]he deemed expense incurred as a result of the deemed manufactured payments could only be incurred by DCC and thus only accrued to DCC&#8221;). So did Rix LJ, although it is not clear whether his reasoning was precisely the same.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It may be significant that Moses LJ disposed of this issue of DCC&#8217;s debit before grappling with the issue of its credit, and he did not revisit it in the context of his observations on the cancelling function of the deemed income flows (which I regard as an important insight). I respectfully doubt Moses LJ&#8217;s analysis of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> as containing two criteria, one of which he required to yield to the other (para 71 &#8211; Moses LJ had put down markers about these criteria in paras 13, 22 and 34). I agree with the proposition (finally, I think, adopted by both sides in argument) that the crucial words in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> must be construed as a composite whole.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Statutory hypotheses</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As DCC&#8217;s printed case notes (paragraph 34), Parliament has now swept away the statutory provisions with which the Court is concerned in this appeal. There is a new code, introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/11" uk:canonical="2007 c. 11" uk:origin="TNA" uk:type="legislation">Finance Act 2007</ref> and now re-enacted as Part 6 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">Corporation Tax Act 2009</ref>. DCC&#8217;s printed case suggests that one of the reasons for the new code was to get away from &#8220;the almost inevitable problems arising from [statutory] fictions.&#8221; It is in fact the problems raised by statutory fictions that give this appeal such general importance as it has, despite the repeal of the legislation. It is therefore appropriate to refer to some well-known authorities on that topic.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the courts below Mr Furness cited several authorities on the construction of statutes, including the decisions of the Court of Appeal (1993) <ref href="#" uk:canonical="67 TC 56" uk:isNeutral="false" uk:origin="TNA" uk:type="case">67 TC 56</ref> and the House of Lords <ref href="#" uk:canonical="[1995] 1 AC 148" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 AC 148</ref> in <span style="font-style:italic">Marshall v Kerr</span>. That was a case about the effect of a deed of family arrangement varying (within two years of his death) the will of a testator who died domiciled and ordinarily resident overseas. <ref href="http://www.legislation.gov.uk/id/ukpga/1965/25/section/24/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 24(11)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1965/25" uk:canonical="1965 c. 25" uk:origin="TNA" uk:type="legislation">Finance Act 1965</ref> provided that in such a case the earlier provisions of the section should apply &#8220;as if the variations made by the deed . . . were effected by the deceased &#8230;&#8221; A settlement made by an overseas testator&#8217;s will would have had tax advantages, which the deed of variation was trying to obtain. In the Court of Appeal Peter Gibson J considered a number of authorities, including at p 76 some observations by Nourse J in <span style="font-style:italic">Inland Revenue Comrs v Metrolands (Property Finance) Ltd </span><ref href="#" uk:canonical="[1981] 1 WLR 637" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1981">[1981] 1 WLR 637</ref>, 646:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;When considering the extent to which a deeming provision should be applied, the court is entitled and bound to ascertain for what purposes and between what persons the statutory fiction is to be resorted to. It will not always be clear what those purposes are. If the application of the provision would lead to an unjust, anomalous or absurd result then, unless its application would clearly be within the purposes of the fiction, it should not be applied. If, on the other hand, its application would not lead to any such result then, unless that would clearly be outside the purposes of the fiction, it should be applied.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Peter Gibson J (with whom Balcombe and Simon Brown LJJ agreed) then stated this principle <ref href="#" uk:canonical="67 TC 56" uk:isNeutral="false" uk:origin="TNA" uk:type="case">67 TC 56</ref>, 79 (the same passage also appears at p 92 but with five words accidentally omitted):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;For my part, I take the correct approach in construing a deeming provision to be to give the words used their ordinary and natural meaning, consistent so far as possible with the policy of <ref href="http://www.legislation.gov.uk/id/ukpga/1965/25" uk:canonical="1965 c. 25" uk:origin="TNA" uk:type="legislation">the Act</ref> and the purposes of the provisions so far as such policy and purposes can be ascertained; but if such construction would lead to injustice or absurdity, the application of the statutory fiction should be limited to the extent needed to avoid such injustice or absurdity, unless such application would clearly be within the purposes of the fiction. I further bear in mind that, because one must treat as real that which is only deemed to be so, one must treat as real the consequences and incidents inevitably flowing from or accompanying that deemed state of affairs, unless prohibited from doing so.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">In the House of Lords (which reversed the Court of Appeal on a point not taken below) Lord Browne-Wilkinson approved this passage as the correct approach: <ref href="#" uk:canonical="[1995] 1 AC 148" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] 1 AC 148</ref>, 164.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Neuberger J developed this reasoning in a passage in <span style="font-style:italic">Jenks v Dickinson</span> <ref href="#" uk:canonical="[1997] STC 853" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] STC 853</ref>, 878 that I find helpful:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;It appears to me that the observations of Peter Gibson J, approved by Lord Browne-Wilkinson, in <span style="font-style:italic">Marshall</span> indicate that, when considering the extent to which one can &#8216;do some violence to the words&#8217; and whether one can &#8216;discard the ordinary meaning&#8217;, one can, indeed one should, take into account the fact that one is construing a deeming provision. This is not to say that normal principles of construction somehow cease to apply when one is concerned with interpreting a deeming provision; there is no basis in principle or authority for such a proposition. It is more that, by its very nature, a deeming provision involves artificial assumptions. It will frequently be difficult or unrealistic to expect the legislature to be able satisfactorily to [prescribe] the precise limit to the circumstances in which, or the extent to which, the artificial assumptions are to be made.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I must try to follow these principles in applying <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A(5) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 97(2)</ref> and (4) and 84(1) of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>. But it may be helpful to consider a less abstract example. If a 40-something woman says to her teenage daughter, &#8220;If you were my age you would see things differently&#8221;, you could not be sure that the mother was referring to anything more specific than the experience or disillusionment that is supposed to come with the advance of middle age. Of course, if she added something like &#8220;Because then you would have lived through the miners&#8217; strike&#8221; (or other words giving some real-life context) the hypothesis becomes more specific. But there would almost certainly be no contextual grounds for taking the mother&#8217;s hypothesis as implying that they would no longer be seeing things as mother and daughter (as they were hypothetically the same age) or alternatively that the mother herself must have been born a generation before her actual birth. Either implication would be taking the hypothesis further than was warranted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The language of an enactment may be expected to be considered more carefully than informal family exchanges. But the hypothesis in <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A(5), as applied by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97</ref>, is puzzling. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/737" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 737</ref>A(5) DCC is to be supposed to make a payment on the last day of the repo period &#8220;representative&#8221; of the coupon that has accrued during that period. <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 97(4)</ref> repeats the reference to &#8220;a payment representative of interest under [the gilts] relationship&#8221;, and in effect applies <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97(2)</ref>. It is therefore to be treated (under subsection (2)(a)) as interest under a new, hypothetical relationship (under which DCC is the debtor and the creditor is unidentified). That is all we can get from the statute. But Norris J and the Court of Appeal all seem to have supposed that the only possible conclusion, even if it made commercial nonsense, was to treat this hypothetical payment under a hypothetical relationship as accruing (in its entirety) during the repo period of 18 days (see especially Norris J at para 48 and Moses LJ at para 51, adopting Norris J). They seem to have overlooked that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8" uk:canonical="1996 c. 8" uk:origin="TNA" uk:type="legislation">FA 1996</ref>, as applied to deemed interest by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(6)(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1" uk:canonical="1988 c. 1" uk:origin="TNA" uk:type="legislation">ICTA 1988</ref>, requires the uniform application of an accruals basis, and on that basis only a small part of the coupon had accrued during the repo period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mr Holgate seems to have recognised that the result reached in the courts below was not inevitable. In paragraph 7.23 of his report he made it clear that his view was based on his understanding that &#8220;the legislation may be making an assumption that the deemed interest . . . was payable in respect of a period for which DCC was a party to that loan relationship.&#8221; That assumption may have been warranted, but it was unwarranted to assume that the hypothetical <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/97/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 97(2)</ref>(a) loan relationship lasted no longer than the repo period. What we do get from the statute is that the payment was representative of a gilts coupon, and what we get from the real world is that that coupon accrued during a period of six months, but that DCC&#8217;s interest in it, on an accruals basis, lasted (in the averaged model) for only 18&#189; days.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mr Gardiner QC submitted that para 51 of Moses LJ&#8217;s judgment was a complete answer to the Revenue&#8217;s reliance (as its first fall-back position) on DCC being treated, under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref>, as having a debit of an apportioned sum of &#163;2.9m. He submitted that this position was unacceptable because it involved &#163;25.9m (the balance of the deemed manufactured interest) as having simply vanished into the ether. I do not see that as a convincing argument. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> the concern is to identify the sums, whether credits or debits, in respect of all DCC&#8217;s loan relationships, actual or hypothetical, which &#8220;in accordance with an authorised accounting method [the accruals basis] and when taken together, fairly represent . . . (b) all interest under the company&#8217;s loan relationships &#8230;&#8221; If the credit from an actual relationship under which DCC is a creditor is a time-apportioned sum, the debit under a hypothetical relationship under which DCC is a debtor making a payment representative of interest must also be a time-apportioned sum, with the apportionment carried out in the same way. The language of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> is in my view amply wide enough to enable that to be done, and unless it is done, the subsection&#8217;s requirement of fair representation cannot be satisfied. The spare &#163;25.9m may vanish into the ether as a hypothetical sum, but &#163;25.9m is (or would be but for its non-residence) taxable in the hands of the Bank (see paragraphs 7.30 and 8.7 of Mr Holgate&#8217;s report).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In short, I consider that the majority of the Court of Appeal were right to see the overwhelming need for a symmetrical solution: that is the essential statutory function of the deemed flows of income referred to in paras 69 and 71 of the judgment of Moses LJ. If the statutory wording had been such that it was impossible to argue that DCC&#8217;s credit under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> was any sum other than &#163;28.8m, I might have been able to struggle to the same conclusion as Rix and Moses LJJ, although with a good deal more difficulty than they encountered. But it seems to me that the correct answer is that on the accruals basis mandated by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/8/section/84/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> (as affected by <ref href="http://www.legislation.gov.uk/id/ukpga/1988/1/section/730" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 730</ref>A(6)(b)), both the credit and the debit should be &#163;2.9m &#8211; the former by a simple process of time-apportionment of the coupon, the latter by a corresponding time-apportionment of DCC&#8217;s notional payment representative of the coupon, so that only 18&#189; days out of the 182&#189; days&#8217; deemed manufactured interest (very slightly more than one-tenth, producing the figure of &#163;2.9m as an apportioned part of &#163;28.8m) is brought into account as a debit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For these reasons I would dismiss the appeal and affirm the order of the Court of Appeal, although on different grounds.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

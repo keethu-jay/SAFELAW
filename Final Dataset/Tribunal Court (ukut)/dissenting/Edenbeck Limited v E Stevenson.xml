@@ -1,0 +1,993 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/128"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/128"/>
+	  <FRBRdate date="2023-09-07" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="128"/>
+	  <FRBRname value="Edenbeck Limited v E Stevenson"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/128"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/128"/>
+	  <FRBRdate date="2023-09-07" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/128/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/128/data.xml"/>
+	  <FRBRdate date="2024-11-10T01:06:56" name="transform"/>
+	  <FRBRdate date="2024-11-22T16:24:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-09-07" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>128</uk:number>
+	<uk:cite>[2023] EAT 128</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>a949d3719138f6236bc209ff2b518c573145f354d0703ccb0ff5b0712e7f005f</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Revision { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Edenbeck Ltd v Stevenson</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 128</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2021-000634-LA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL </courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-09-07" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">7 September 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><span style="font-size:12pt"/><span style="font-weight:bold;font-size:12pt">EDENBECK LIMITED</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">MS E STEVENSON</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Ms Imogen Egan </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by IBB Law LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Jonathan Davies </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Davis Law Associates) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 7 September 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Practice and Procedure &#8211; costs </span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">At a liability hearing the claimant&#8217;s complaints of direct sex discrimination in respect of a number of incidents and aspects of her treatment during the course of her employment succeeded.   Complaints of discrimination arising from disability also succeeded.  At a further hearing the tribunal made awards of compensation for injury to feelings, aggravated damages and interest in respect of the successful complaints.  It also made an award of costs in favour of the claimant.  The respondent appealed against those awards.</span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">The tribunal did not err in respect of its remedy award.</span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">In respect of costs, on a correct reading, the tribunal had found the costs threshold to have been crossed on account of a number of particular features of the respondent&#8217;s conduct of the litigation which it found to be unreasonable.  The tribunal erred in respect of one of those matters, as it could not properly be said to have been unreasonable conduct, as such, for the claimant to have been cross-examined on the respondent&#8217;s case, when it was not suggested that the cross-examination itself was unreasonably conducted.</span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">The tribunal also erred by failing, having determined that the costs threshold had been crossed, to take the next step of deciding, then, whether to make an award of costs, and if so, in what proportion or amount, taking account of the nature, gravity and effect of the unreasonable conduct found, and instead proceeding directly to decide that the claimant should be awarded 100% of her costs incurred in pursuing the successful complaints.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction &#8211; the Employment Tribunal&#8217;s Decisions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I will refer to the parties as they were in the employment tribunal, as claimant and respondent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Arising from a liability hearing, the claimant was successful in a number of her complaints brought under the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> and of constructive unfair dismissal.  There was then a further hearing, which led to a further decision, in which the tribunal made a remedy award and an award of costs in the claimant&#8217;s favour.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The respondent sought to appeal the liability decision, but did so out of time, so that appeal did not proceed.  The claimant does not appear to have sought to appeal those elements of the liability decision that went against her.  What I have heard today is the respondent&#8217;s appeal against the remedy and costs decisions.  To understand those decisions and the grounds of appeal, one needs to consider, first, what legal complaints were raised and how they were put, and the factual background as found by the tribunal and salient conclusions reached, all as addressed in the liability decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At the start of its reasons for that decision, after an overview, the tribunal set out the complaints and the issues.  There were issues as to when the claimant&#8217;s employment began, time-limits, and as to whether she was a disabled person at the relevant times, by way of PTSD.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Under a heading referring to: &#8220;Equality Act s.13 direct discrimination because of sex&#8221; the tribunal set out the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;5.4</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Has the respondent subjected the claimant to the following treatment?</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.1</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Not providing her with appraisals.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.2</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Not providing her with a performance review.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.3</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Not providing the claimant with an opportunity for personal progression.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.4</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Not offering the claimant training.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.5</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Not giving the claimant regular salary increases without requesting them.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.6</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Failing to deal with a grievance raised by the claimant in 2017 complaining of sex discrimination.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.7</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Leaving sexually explicit notes on the claimant&#8217;s computer.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.8</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Throwing items at the claimant.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.9</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Ordering the claimant to pick up dog faeces.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.10</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Swearing and shouting at the claimant.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.11</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Bullying the claimant on a regular basis.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.12</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Denying the claimant opportunities, wages, and perks.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">5.4.13</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Sending the claimant an email on 20 March 2019 informing her she was being considered for redundancy.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">5.5</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Was that treatment less favourable treatment, ie did the respondent treat the claimant as alleged less favourably than it treated, or would have treated others (comparators) in not materially different circumstances.  The claimant relies on the following comparators, namely other male employees.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;margin-left:0.84in;text-indent:-0.25in">5.6</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.84in;margin-right:0.59in;text-indent:0.12in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">If so, was this because of the claimant&#8217;s sex?&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal then set out the issues in relation to complaints under section 15 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">2010 Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> of discrimination arising from disability.  These related to the final months of her employment, a period during which she was off sick, and, on her case, had, at a certain point, become disabled.  The next heading referred to complaints under section 26 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">2010 Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> concerning harassment related to sex and/or disability.  Under this heading the claimant relied on the same conduct as was alleged in the sex and disability discrimination claims.  The final heading was &#8220;Constructive unfair dismissal&#8221;.  The claimant relied upon the implied duty of trust and confidence, and factually, once again, on the same conduct as was alleged in the sex and disability discrimination claims.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In its findings of fact, the tribunal found that, after an initial period as an agency worker, the claimant was employed by the respondent as a PA / office manager, from 13 June 2016 until her resignation on 4 June 2019.  She mainly worked for a director, Chris Mayall.  His father, Stuart Mayall, is the respondent&#8217;s Finance Director and a shareholder with ultimate control of it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal made findings that male members of staff were treated more favourably than female members of staff, including the claimant, with regard to appraisals, performance reviews, promotion and salary increases.  The tribunal went on to find that, contrary to the respondent&#8217;s case, the claimant had not been sent on training courses during her employment, apart from a first aid course.  There were eight dates, from 3 October 2016 to 7 January 2019, on which the respondent asserted that the claimant had attended training, and produced what purported to be certificates in support.  But the tribunal accepted the claimant&#8217;s case that she had not in fact done so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal went on to find that ten male members of staff went on a trip to Las Vegas in March 2017, at a cost to the respondent of about &#163;7000, as a reward for their work.  The female members of staff were not invited.  On 21 February 2017 a female employee wrote to the Messrs Mayall, in which she was supported by the claimant and another female colleague, Lauren Fox.  They complained about the treatment of some, or all, of them as women by their male colleagues, in relation to a range of matters, including the Las Vegas trip.  The female staff were subsequently offered &#163;3000 to go on a spa break in September, but the offer was not taken up.  The tribunal concluded that there was a failure to address the serious concerns that the female staff had expressed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Under the heading, &#8220;Sexist and aggressive behaviour&#8221;, the tribunal began:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;44.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">We further find that the work environment was male dominated with the use of blatantly sexist and offensive language.  The claimant was born on 25 May 1993 and was 23 years of age when she re-joined the respondent in June 2016.  She was comparatively young, and we find that she felt she had to put up with the behaviour of her male colleagues.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal went on to make findings about a number of matters.  The first concerned a video, in which a male manager wrestled the claimant to the ground, while another male colleague acted out the role of referee.  There were further findings about specific episodes of the claimant being subject to crude and offensive personal remarks by male colleagues, some of them overtly sexual or patently sexist.  Some remarks were verbal, some in writing.  There was other egregious conduct found.  In one instance, a sticker with a sexual swear word was put on the claimant&#8217;s computer monitor.  The claimant was also instructed to clean up after a dog that was brought into the office.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal then said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;61.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Most of the above-described behaviour was in 2016-2017 but the claimant told us that the atmosphere in the workplace did not change as she was still spoken to in the manner described.  The difficulty here was that we were not referred to any later behaviour of a rude, violent, and/or sexually offensive nature.  According to Mr Stuart Mayall, after the departure of Ms Springle everything had settled down on the workplace.  That may have been the position in terms of the female staff not exerting their rights, but there was still discriminatory behaviour because of sex, in that, the claimant was still not appraised; did not attend training courses; she only had one salary increase during her most recent employment with the respondent; had not been promoted; had been the subject of discreet redundancy discussions; and had been invited to a disciplinary hearing.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal went on to make findings about the following matters, which I have set out in summary form and in chronological order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In December 2018 the claimant was assaulted by two strangers when out in public, sustaining serious injuries to her face and head.  She received treatment and was then off sick.  She returned to work on 22 March 2019 but only worked half a day, before going off sick again.  On 23 March she received an email from Stuart Mayall, addressed to the respondent&#8217;s then advisors, indicating that they had decided to make the claimant redundant and seeking advice.  On 26 March she was diagnosed as suffering from PTSD.  In exchanges in early April, she remonstrated with Mr Mayall that she was still suffering from PTSD and that his response had been to decide to make her redundant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">There were then exchanges about whether the claimant&#8217;s ongoing absence was covered by a sick note, or notes.  She believed that she was covered on an ongoing basis by a note issued in April.  But the respondent&#8217;s position was that further notes were required.  At the end of May Mr&#160;Mayall required her to attend a disciplinary hearing, on the basis of unauthorised absence and other matters.  She was told that her sick pay would be stopped and asked to provide further sick notes.  On 3 June she was notified that the disciplinary hearing would go ahead on 11 June.  She resigned on 4 June.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In its conclusions in this decision the tribunal found that the claimant had the disability of PTSD from 26 March 2019 and that the respondent knew this at the time from her fit notes.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Under the heading: &#8220;Direct sex discrimination&#8221; the tribunal began in this way:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;136.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In relation to the direct discrimination claim because of sex, we have made findings of fact in relation to the acts complained of by the claimant.  We have found that she was not given appraisals or performance reviews; she was not given the opportunity of personal progression and regular wage increases; she had to argue for a wage increase and it was given to her once during her more recent employment; apart from First Aid training, no other training was offered to her; the collective grievance submitted on 21 February 2017, was not properly investigated; sending rude, offensive and sexually explicit messages and a note; being instructed to clean up dog faeces; throwing a dog&#8217;s hard ball at her; and moving her car and her keys.  This was in stark contrast to the way in which the respondent treated its male members of staff and the way in which the male members of staff treated the female staff, including the claimant.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">137.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Mr Munro invited the tribunal to accept that what occurred, particularly in relation to the video, was horseplay and in relation to the messages, work banter in an office environment.  He said that the claimant did not complain at the end of the video although she and Mr Day were physical with each other.  There was also a gap in time from the video recording and the collective complaint in February 2017 and with little evidence to prove that conduct continued thereafter.  She could have gone to either Stuart or Chris Mayall to complain but she did not do so, thereby depriving Stuart Mayall of the opportunity of addressing her concerns.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">138.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">We bear in mind that the behaviour of the male members of staff identified was not reciprocated in kind either by the claimant or by her female work colleagues, in particular, using gratuitously offensive language and sexually explicit words.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">139.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">What happened to the claimant was much more than banter, and in relation to the video recording, more than horseplay.  This was the respondent allowing its male employees to take advantage of the few female employees, in particular, the claimant.  As an example of the respondent&#8217;s attitude towards its female members of staff we need to look at the circumstances surrounding the trip to Las Vegas.  The female staff were neither consulted nor invited to go roughly, but about 10 males staff went to Las Vegas at the respondent&#8217;s expense.  Only &#163;3000 was offered to the female members of staff for a spa treatment.  They neither were consulted nor asked for the treatment.  It was not taken up and there the matter rest without further enquiry by the respondent.  It was a take it or leave it approach.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">140.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">It was clear to the tribunal, that how the respondent conducted itself evinced a clear dichotomy in the treatment between male and female members of staff.  We take into account the male members staff as the claimant&#8217;s comparators.  Her treatment continued during the time she was absent following the assault on her in December 2018.  She did not meet with either Chris or Stuart Mayall for a welfare update despite her loyalty and commitment to the respondent. All Mr Stuart Mayall required of her was that she should submit her fit notes and come to work for a meeting.  As a female member of staff, she was expendable because unbeknown to her, steps were taken to make her redundant.  She genuinely believed that her sick note covered her beyond May 2019.  The position was not accepted by Mr Stuart Mayall who invited her to a disciplinary hearing.  Her position was costing over &#163;300,000 each year, no similar approach was taken in relation to some of the male staff.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal went on to find that the direct sex discrimination claim was well founded, by reference to a hypothetical comparator. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Having found that in the relevant period the claimant was disabled by way of PTSD, the tribunal upheld the section 15 complaints, concerned with not providing her with support during that period, subjecting her to disciplinary process, and not paying her full company sick pay.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Under the heading: &#8220;Harassment related to sex&#8221; the tribunal said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;149.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In relation to harassment related to sex, the offensive messages and comments relating to the claimant&#8217;s private parts and her period, were in 2017.  Although the claimant said that the conduct continued, we were not referred to any later unwanted conduct related to sex, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Richmond Pharmacology v Dhaliwal</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">.  Mr&#160;Davis, solicitor for the claimant, in his very brief submissions to us, did not refer to evidence supportive of this claim.  We accept that in relation to lack of promotion, appraisals, salary increases, training, redundancy, and disciplinary proceedings, these continued but they are relevant to direct sex discrimination. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">150.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Accordingly, we have come to the conclusion that this claim is not well-founded and is dismissed.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In relation to harassment related to disability, the tribunal found that there was no evidence of separate unwanted conduct of that sort and dismissed that complaint.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal went on to uphold the complaint of constructive unfair dismissal.  The tribunal also held that the discrimination claims that it had upheld were all presented in time, as they formed part of continuing conduct.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I turn to the remedy and costs decision.  The tribunal heard evidence from the claimant and from Mr&#160;Stuart Mayall.  It made further findings of fact, which I will set out in full:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;6.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">The claimant told the tribunal and we do find as fact, that for over three years she had been subjected to verbal and physical abuse, bullying and physical assaults by her male work colleagues and managers.  It was her first major employment and had no standards by which she could judge the appropriateness or otherwise of the conduct meted out on her.  When she first joined the respondent, she was 21 years of age, comparatively young.  The sexual discriminatory treatment became so institutionalised, she thought it was normal behaviour.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">7.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">She suffered anxiety attacks even before the unprovoked assault on 16&#160;December 2018 by strangers outside of work.  She said that she was frightened to go into work on occasions because of her male work colleagues&#8217; offensive and demeaning conduct towards her but tried to do her best under the circumstances.  She became very upset when the collective complaint by her and her two female colleagues was not properly investigated, and action taken.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">8.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Contrary to what was put to her in cross-examination, namely that she did not complain about the incident recorded on video on 19 August 2016 because it was either not serious or she went along with it, she said that although she did not complain immediately she did raise complaints to Mr Stuart and Chris Mayall but no action was taken.  This was a reference to the unsolicited wrestling match with Mr James Day.  She felt that some male employees believed that they could do anything with or to her and this put her in constant fear of their behaviour being repeated or worse.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">9.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Further anguish and anxiety were caused when her car keys were hidden, and her car moved without her knowledge. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">10.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">At the time she felt trapped, unable to move on and believed that she was totally incapable of finding other employment after having so often been vilified and told that she "worthless" and "useless".  Her self-esteem was at its lowest.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">11.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">She still suffers from panic attacks and flashbacks after what had happened to her which have affected her confidence as she is reluctant to speak out, challenge ideas, or put herself in a conflict or debate situation.  She exemplified this by saying that in her current employment, during meetings, she would generally keep herself quiet purely out of fear of expecting either a colleague or a manager to be unpleasant and belittle her.  In order not to disappoint her work colleagues, she would constantly question her abilities, check every piece of work many times over, as she was fearful of an adverse reaction to a simple mistake, or a miscommunication.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">12.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In her personal life he struggles socially.  She used to be a confident and outgoing person but would now second-guess and assume that there is an ulterior motive behind most communications she receives.  She would replay conversations and exchanges she had in her head, convinced that she must have said or done something wrong.  She finds it difficult to relax when meeting new people and would panic believing that she was not coming across well when communicating with them or might feel that she had offended someone.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">13.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">She finds it hard to build relationships with men because of the sexual discrimination and abuse she suffered while working for the respondent, as she expects men whom she meets, to make offensive and vulgar comments about her, and she struggles to build trust with them.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">14.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">She would constantly ask herself the question, "Why me?"</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">15.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">She felt personally attacked when Mr Stuart Mayall, during the liability hearing, suggested that she had brought these proceedings for financial gain and she became distressed when he accused her of either manufacturing the training certificates or having stolen them from the respondent.  To her, this revealed that the respondent had not changed its attitude towards her, that it could make unsubstantiated allegations and fabricate evidence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">16.</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">She stated in paragraph 22 of her witness statement, the following: &#8211;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">&#8216;Overall I believe what I have experienced with the respondent will affect me for the rest of my life, both professionally and personally.  I have to put myself out of my comfort zone socially on an almost daily basis and even basic social interactions or simple professional tasks can be emotionally distressing for me.  I continue to challenge myself to not believe what I was told for so long that I was worthless, useless, ugly and deserving of verbal and physical abuse which causes me to confront my resulting insecurities and to hopefully overcome the past and build a successful career and positive relationships with colleagues and friends.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">17.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In relation to her treatment while working for the respondent the effects on her are to question her confidence and belief in herself. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">18.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Her new job is that of a Regional Accounts Manager, which she said she loves as she is able to relate to male site managers and other male work colleagues on a one-to-one level as they respect her.  She would be waiting for or expecting them to speak down to her or insult her intelligence and is shocked and surprised when these things do not happen.  Their positive attitude towards her has brought into sharp focus, how "terrible" the respondent&#8217;s employees&#8217; behaviour had been.  She finds herself feeling grateful for being treated with respect and politeness.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">19.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In relation to paragraph 22 of her witness statement in which she stated that what she experienced when working for the respondent would affect her for the rest of her life, it is what she believes rather than reliance on any psychological or psychiatric reports.  We, however, accept that the effects of her experiences will last for some time but are likely to diminish over time as she establishes new relationships and friendships.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">20.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">We further find that the effect of the assault on her in December 2018, which was outside of work, makes her fearful sometimes of people when they are walking towards her, as she believes that they are about to attack her.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal made findings about a document that had been tabled by Mr Stuart Mayall, who gave evidence at the remedy hearing.  This purported to be a certificate that the claimant had attended training, organised by an external provider, Mr Chris Bishop, on 17 July 2018, a date on which the tribunal had found, in its liability decision, the claimant did not attend such training but was in Corfu.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal found that what purported to be a photograph of the claimant on the certificate was a photograph of a well-known model.  It noted that this document had been supplied by Mr Bishop to Mr&#160;Mayall.  It accepted Mr&#160;Mayall&#8217;s evidence that, when he was given it, he had not looked at the picture; and he was not aware of its fraudulent nature until he was cross-examined about it.  But the tribunal also found that it had been produced in evidence to try to persuade the tribunal that the claimant had not attended the training and to put in question the credibility of the evidence she had given about training at the earlier liability hearing.  It found, at [26], that the production of the certificate was as an attempt to mislead the tribunal, which it took very seriously and deprecated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">After addressing the respondent&#8217;s means, referring to submissions and a self-direction as to the law, the tribunal began its conclusions in relation to injury to feelings with the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;52.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">We have taken into account our findings in relation to the evidence given by the claimant.  During the period of her employment with the respondent she had been the victim of sexually discriminatory treatment leading up to her dismissal.  This has had a deleterious effect on her as her confidence has been affected.  She felt isolated and humiliated.  The conduct began on 19 August 2016, within two months after she started employment and ended with her resignation in June 2019, nearly three years.  Currently, in a group setting, she rarely contributes to the discussions and in social settings she questions what has been said to her and would try to analyse whether there was an ulterior motive behind certain statements.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">53.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Treating her in a disparaging and disrespectful way continued during this hearing in relation to the certificate of training as that evidence was manufactured to discredit her.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">54.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Although she stated in paragraph 22 of the witness statement, that her experience is likely to affect her for the rest of her life, as we have already stated, we bear in mind that she is in a new job in which she is respected and valued.  She is learning that in a social setting not all men approaching her intend to insult or assault her.  She also has the tribunal judgment in her favour and should, to some extent, feel vindicated that she did the right thing in standing up for herself in pursuing most of her claims to a successful conclusion.  In the absence of medical evidence, we find, having observed her in evidence, that, over time, the impact of her treatment is likely to lessen in severity.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">55.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">We have come to the conclusion, having regard to the upgraded </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Vento</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000"> guidelines in the Joint Presidential Guidance, that the claimant&#8217;s treatment falls within the middle band and at the upper end of it.  This is the sum of &#163;24,000.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">56.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In addition, we have taken into account the manner of her treatment, in that it was sustained, degrading, and humiliating.  She was the only female to have been treated by the male employees in the ways we have described in the liability judgment.  The motive was her sex.  She was singled out because of her sex, she was physically weaker than her male colleagues, and did not have the support of management as demonstrated by the way in which the joint complaint was dealt.  The respondent subsequently sought to discredit her by asserting, falsely, that she had attended several training courses without calling the person who conducted the alleged training as a witness to be cross-examined.  Matters were compounded when the respondent further attempted to discredit her by producing the Certificate of Training in this remedy hearing in another attempt to discredit her and mislead the tribunal. These in our view, are aggravating features increasing the injury to feeling award following the judgment in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#000000">Shaw</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">, by 20% of &#163;24,000, namely &#163;4,800, giving a total of &#163;28,800.  We add interest at 8% from the date of the first discriminatory treatment, namely from the date Mr James Day was wrestling with her which was on 19 August 2016.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal then calculated interest as &#163;6,424.95.  Taking account of an award of &#163;4,506.10 in respect of constructive unfair dismissal, the total award made by the tribunal was &#163;39,731.05.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal&#8217;s conclusions as to costs were as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;60.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In relation to the issue of costs, we have concluded that the respondent did not act either vexatiously, disruptively, or abusively in the way in which proceedings have been conducted.  It did, however, acted unreasonably in its conduct of proceedings.  It had spent a considerable amount of time going through the various certificates to establish that the claimant did attend training courses and was not treated any differently compared with her male colleagues.  We found, in our liability judgement, that the certificates were produced to discredit the claimant.  The respondent also asserted that the claimant had produce the certificates in anticipation of legal proceedings.  There was not a shred of evidence as to when the claimant might have engaged in such a practice.  Furthermore, she must have had the foresight when she was in employment with the respondent in knowing that there was going to be employment tribunal proceedings.  We rejected that contention by the respondent.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">61.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Matters were compounded by the fact that Mr Bishop had given Mr Stuart Mayall another certificate purporting to show that the claimant had attended training on 17 July 2018.  However, on that day the claimant was in Corfu.  Mr&#160;Mayall produced the certificate to show that she had lied when she gave evidence during the liability hearing, that she did not attend training courses.  It was another attempt to discredit her. The certificate coming from Mr Bishop, is a forgery and was an attempt to mislead the tribunal.  Such conduct we take seriously.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">62.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">During the claimant&#8217;s cross-examination much time was spent on trying to show that she had acquiesced in the discriminatory treatment meted out to her which she repeatedly denied.  Our findings supported her account save for the harassment claims.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">63.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Another matter of concern was the attempt on the part of the respondent to produce a witness statement for Ms Lauren Fox for the liability hearing, purporting to challenge the evidence given by the claimant.  Ms Fox had not drafted that witness statement but was asked to sign it which she refused.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">64.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">We have come to the conclusion that the claimant has satisfied rule 76(1)(b) of the Employment Tribunals Rules of Procedure.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">65.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">There was no evidence adduced to show that the respondent would be unable to pay any sum in a costs order.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">66.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">The respondent was entitled to challenge the harassment claims and did so successfully.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">67.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">The claimant&#8217;s costs are in the sum of &#163;82,008.60. Mr Davies asked that the tribunal should order that costs should be assessed and, if that is not acceded to, costs should be in the sum of the limit of the tribunal&#8217;s jurisdiction, that being &#163;20,000.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">68.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">We have concluded, having regard rule 78(1)(b) Employment Tribunals Rules of Procedure, that the claimant&#8217;s costs should be the subject of detailed assessment by the County Court under the Civil Procedure Rules but not her costs in pursuing her harassment claims.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Grounds of Appeal and Summary of the Arguments</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The appeal before me relates to the remedy and costs decision.  At a rule 3(10) hearing, before me, Ms Egan tabled proposed amended grounds of appeal.  I permitted six grounds to proceed, wholly, or, as to ground 3, in part.  I turn now to the grounds of appeal and will summarise also what seem to me to have been the most significant strands of the arguments on each side, as the dust has settled on the skeleton arguments and oral argument that I heard this morning.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Grounds 1 and 2 relate to the remedy award in respect of the well-founded discrimination claims, and, in particular, sex discrimination.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 1 contends that the tribunal erred in calculating the award for injury to feelings.  Ms Egan clarified, in submissions, that her primary case is that the tribunal erred by characterising or treating in the remedy decision as harassment, conduct which it had found in the liability decision amounted to direct sex discrimination.  She submitted that mischaracterising the conduct led the tribunal to make a higher award than it otherwise would have.  Further, or alternatively, the award embraced conduct not covered by the complaints of direct discrimination that had been upheld.  The ground notes that the definition of &#8220;detriment&#8221; in section 212 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">2010 Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> means that conduct which amounts to unlawful harassment cannot also be detrimental treatment because of sex.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ground relies, in particular, on the following passages in the remedy decision: the reference at [6] to three years of &#8220;verbal and physical abuse, bullying and physical assaults&#8221;, and then, in the same paragraph, to &#8220;sexual discriminatory treatment&#8221;; the reference, at [13], to the &#8220;sexual discrimination and abuse&#8221; that the claimant suffered; the fact that [52] referred to treatment over the whole period of employment, without specifically excluding that which was found to amount to harassment; the reference, at [54], to the claimant &#8220;learning that in a social setting not all men approaching her intended to insult or assault her&#8221;; and the reference, at [56], to &#8220;taking into account the manner of her treatment, in that it was sustained, degrading, and humiliating&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ground contends, that, because of its error the tribunal made an award which was, at the time, on the cusp of the upper </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Vento</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> band.  Ms Egan relied on the observation in the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Vento</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> case itself <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/81" uk:canonical="[2002] EWCA Civ 81" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 81</ref>; <ref href="#" uk:canonical="[2003] ICR 318" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] ICR 318</ref> at [65], that the top band is normally reserved for the most serious cases, such as where there has been a&#160;lengthy campaign of discriminatory harassment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Davies submitted that this is a dressed up perversity ground, which does not meet the high threshold for such a challenge.  In the opening paragraph of the remedy decision, the tribunal had reminded itself of which complaints had succeeded and which had failed.  It then went on to make detailed findings of fact in that decision, about the effect that the conduct, in respect of which the complaints had succeeded, had had on the claimant.  It summed up its conclusions on injury to feelings, at [52], which referred specifically to &#8220;sexually discriminatory treatment&#8221;.  It should also not be forgotten that that award also covered the section 15 complaint, which was also upheld.  The tribunal properly placed its award in the middle </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Vento</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> band, at the upper end, prior to increasing it to take account of the aggravating features.  It was not perverse to do so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Davies also submitted that it was surprising that the respondent sought to rely upon references in the remedy decision to &#8220;sexually discriminatory behaviour&#8221; and &#8220;sexual discrimination&#8221;, as this language fairly described conduct found to be because of sex.  Other than the points raised in relation to [6] and [13], there was no challenge to any of the findings of fact about the impact of the respondent&#8217;s conduct on the claimant, made in the passage at [6] to [20].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It also needed to be kept in mind that this is not an appeal against the liability decision.  It was not open to the respondent to argue, as part of the challenge to the remedy decision, that conduct which the tribunal had characterised in the liability decision, as amounting to direct discrimination because of sex, should have been characterised by it as harassment related to sex or of a sexual nature.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the liability decision the tribunal had identified the conduct covered by the successful direct sex discrimination complaints, at [136], as including a wide range of matters, including &#8220;sending rude, offensive and sexually explicit messages and a&#160;note&#8221;.  At [137] it referred to the incident captured on video; at [138] to the fact that female staff had not, for their part, used &#8220;gratuitously offensive language and sexually explicit words&#8221;; at [139] again to the videoed incident and the Las Vegas trip, as well.  All of these matters were, therefore, properly covered by the injury to feelings award.  In setting the level of the award the tribunal had properly focussed on the effects which it had found as a fact that that conduct had on the claimant, not the label attaching to the conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 2 is expressly advanced as a perversity ground.  It is said that the tribunal made certain findings in the remedy decision which were contradicted by its other findings or the evidence before it.  The first is said to be the finding at [7] that the claimant &#8220;suffered anxiety attacks&#8221; even before the stranger assault in December 2018.  The second is the finding at [11], that &#8220;she still suffers from panic attacks and flashbacks after what had happened to her&#8221;, which must be taken to be a reference to the discrimination by the respondent, as opposed to the stranger assault.  The Tribunal refer there to the claimant being diagnosed on 26 May 2019 with PTSD, by Dr Watts, and to Dr Watts&#8217;s report, referring to the fact that, prior to the December 2018 assault, she had suffered anxiety since the death of a close friend and then had further symptoms of anxiety since the assault.  There is also said to be conflict with the findings in the liability decision, at [74], in particular, that in the aftermath of the December 2018 assault, the claimant &#8220;suffered panic attacks whenever she ventured out in public&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ms Egan submitted that the remedy findings were perverse, in particular, because the Dr&#160;Watts report made clear that, prior to the assault, it was the bereavement that had been sole source of the claimant&#8217;s anxiety.  The report, and the tribunal&#8217;s liability decision, then considered the additional anxiety and PTSD caused by the stranger assault.  The findings in the remedy decision were contrary to those earlier findings, as to the particular sources of her anxiety.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Davies noted that the basis for this challenge was strictly, and only, perversity, for which there is, of course, a very high threshold.  He submitted that the findings in the liability decision were not incompatible with, or contradictory of, the findings in the remedy decision.  The findings in the remedy decision were </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">additional </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">findings that the tribunal was entitled to make, drawing on the evidence given by the claimant to the remedy hearing, specifically about the effects of the respondent&#8217;s discriminatory treatment of her, as opposed to other things.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I turn to the grounds relating to the costs award.  It is convenient first to set out the strand of ground 3 that I permitted to proceed at the rule 3(10) hearing and one sub-strand of ground 4, together, as both relate to what the tribunal said at [63] of the remedy and costs decision.  Between them, they assert that the tribunal erred by regarding the conduct referred to there as unreasonable conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The respondent seeks by these grounds also to rely upon what is said to be new evidence, by way of text messages between Ms Fox and Stuart Mayall, that are said to undermine what the tribunal found at [63].  These messages are said to show that Ms Fox had, at one point, agreed to assist the respondent, provided her contact details to Mr&#160;Mayall, and, after she was sent a draft witness statement by him, was told by him that the respondent was happy for her to amend it if she wished.  This evidence is said to meet the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Ladd v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/1954/1" uk:canonical="[1954] EWCA Civ 1" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] EWCA Civ 1</ref>; <ref href="#" uk:canonical="[1954] 1 WLR 1489" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] 1 WLR 1489</ref> criteria.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In my bundle for this hearing is a copy of the claimant&#8217;s skeleton argument for the costs hearing, and Ms Egan accepts &#8211; as she must &#8211; that it specifically raised the subject of the Lauren Fox statement, at paragraph 11.  It is also clear that, as one would expect, this skeleton was sent to the respondent&#8217;s representatives in advance of that hearing, and that the tribunal also had a copy of it.  It refers in its decision to having had written submissions from both sides, as one would expect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ms Egan confirmed in oral argument that the premise of these grounds is that the conduct that the tribunal was referring to at [63] was the drafting of the witness statement for Ms Fox, which Mr&#160;Mayall had sent to her.  Ms&#160;Egan contended that it was not inherently wrong for a party to prepare a draft statement for a proposed witness to consider.  The tribunal erred by regarding that as unreasonable conduct.  The text messages supported the respondent&#8217;s case that Ms Fox had indicated, at one point, that she would be prepared to act as a witness for the respondent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr&#160;Davies noted that the respondent had made no application for reconsideration to the tribunal, based on what it said was new evidence.  The text messages, in any event, did not assist the respondent in the way contended.  They showed, for example, Mr Mayall chasing Ms Fox for a reply in respect of the draft statement, and in his final message stating that her silence was &#8220;deafening&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In any event, submitted Mr&#160;Davies, the tribunal&#8217;s concern at [63] was a different one.  It was with the respondent having sought to rely at the liability hearing on a witness statement which it had drafted, but which Ms Fox had not signed.  That was the issue that was raised in terms, in the claimant&#8217;s costs skeleton before the tribunal.  The tribunal was fully entitled to rely on that as misconduct, as part of its consideration of whether the costs threshold was crossed.  He added that not only were the text messages not new evidence, since they could have been produced at the tribunal hearing, but that, indeed, the respondent should have disclosed them on that occasion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 4 asserts that the tribunal erred in relying on three particular matters as unreasonable conduct: the first is Mr&#160;Mayall having produced, at the remedy and costs hearing, a training certificate which was a forgery, which the tribunal considered was an attempt by the respondent further to mislead it; the second was the respondent having spent much time during cross-examination in seeking to establish that the claimant had acquiesced in the discriminatory treatment; and the third was the Lauren Fox statement matter, where I have already set out the challenge advanced.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As to the first of the other matters, Ms&#160;Egan referred to the fact that the certificate had been supplied by an outside contractor and that the tribunal had accepted that Mr&#160;Mayall was not aware that it was fraudulent until he was cross-examined.  It was therefore wrong to treat this document as having been unreasonably relied upon by the respondent.  As to the second matter, it was wrong to hold that it was unreasonable for the respondent merely to advance its case by cross-examination, which it was entitled to do.  The fact that its case did not, in the event, succeed did not mean that it was unreasonable to have advanced it.  It was, for example, not obviously unreasonable to advance a case that the incident captured on video was what the respondent called &#8220;horseplay&#8221;, and the tribunal had, itself, found that the claimant could be seen, at one point, apparently laughing and playing along.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr&#160;Davies submitted that this was, in substance, another perversity challenge.  As to the training certificate, the tribunal had already found, in its liability decision, that there had been discrimination by failing to send the claimant to training events, which the respondent had wrongly claimed at that hearing that she did attend.  That had included this particular event.  Yet the respondent had been seeking to pursue this matter further at the remedy and costs hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal had also properly relied, as unreasonable conduct, upon the respondent&#8217;s earlier reliance on false certificates, and its having accused the claimant, at the liability hearing, of having fabricated the dates on those certificates, findings which, as such, were not challenged by this appeal.  It was entitled to view the attempt to rely on this document as culpable recklessness against the background described, and as amounting to an unreasonable attempt further to discredit the claimant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As to the point about cross-examination, Mr&#160;Davies noted that what was said at [62] was that much time was spent in &#8220;trying to show&#8221; that the claimant had acquiesced in the conduct of which she complained.  It was implicit, he submitted, that what the tribunal were saying was that this attempt unreasonably wasted time, because this challenge was misconceived.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The underlying primary challenge advanced by ground 5 is that the tribunal erred by making an award of the whole of the claimant&#8217;s costs incurred in respect of the successful complaints, because the award arose only from its conclusion that there had been unreasonable conduct of the litigation in certain particular respects.  It therefore needed, in accordance with the guidance in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Yerrakalva v Barnsley Metropolitan Council</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1255" uk:canonical="[2011] EWCA Civ 1255" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 1255</ref>; <ref href="#" uk:canonical="[2012] ICR 420" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] ICR 420</ref>, to give some consideration to the nature, gravity and effect of that particular conduct, when deciding whether to award costs, and, if so, what proportion of the costs occurred, albeit in the broad-brush way for which the guidance in that case allows.  It failed to do so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">An issue arose in submissions as to whether, on a correct reading, the tribunal had based its award on unreasonable conduct of the proceedings under rule 76(1)(a) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Employment Tribunals Rules of Procedure 2013</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, or on the defence of the claims which had succeeded having had no reasonable prospect of success, under rule&#160;76(1)(b).  Ms&#160;Egan argued that, even if it was the latter, the tribunal had erred by not specifically making such a finding and explaining the basis for it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr&#160;Davies submitted that the tribunal had not erred by failing to apply the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Yerrakalva</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> guidance.  That guidance specifically indicated that there did not have to be a precise correlation between the conduct and the apportionment of costs.  The EAT should be slow to intervene in such a decision.  The tribunal had made broad findings that the respondent had made a wide-ranging attempt to discredit the claimant and spent time on matters for which there was no evidence, such as the suggestion that the claimant had herself falsified the training certificates.  It had set out, he submitted, a sufficient basis for awarding 100% of the costs attributable to the complaints that had succeeded.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 6 asserts that the tribunal erred because it proceeded straight from its conclusion at [64], that the costs threshold had been crossed, to its consideration from [65] onwards, of the amount of the award that it was going to make.  It failed to address, first, whether, given that the threshold had been crossed, it should then exercise its power to make an award, or in what way.  As to that, Mr&#160;Davies submitted that it could be inferred from the substantive discussion at [60] to [63] that the tribunal had come to the view that this was a case where the discretion should indeed be exercised.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Discussion and Conclusions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I will take first grounds 1 and 2, relating to the remedy decision.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As is well known to lawyers, the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/1975/65" uk:canonical="1975 c. 65" uk:origin="TNA" uk:type="legislation">Sex Discrimination Act 1975</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> originally contained a concept of direct discrimination, but not one of harassment.  Nevertheless, in a number of authorities, some kinds of conduct, which in ordinary parlance might be described as &#8220;harassment&#8221;, were held to amount to direct discrimination.  However, the concept of harassment was introduced to address more squarely some types of conduct which might not easily fit within the concept of direct sex discrimination.  But it remains the case that there is much conduct which in its nature could properly be found to amount to either.  However, the effect of section 212 is that both cannot be found, and a successful claimant cannot be doubly compensated in respect of factually the identical treatment.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It is therefore unsurprising that, as is common, the claimant in this case identified the factual treatment which she said had occurred and of which she was complaining, and then complained both of direct discrimination and harassment in relation to it.  As Mr&#160;Davies has correctly submitted, it is not open to the respondent by way of this appeal to challenge the tribunal&#8217;s determination in the liability decision, of which conduct that it found did factually occur amounted in law to conduct by way of direct sex discrimination, rather than unlawful harassment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the liability decision, the tribunal found that there was behaviour because of sex throughout the claimant&#8217;s employment.  At [136] it found that behaviour which amounted to direct sex discrimination included &#8220;sending rude, offensive and sexually explicit messages and a note&#8221;, and at [138], that the female employees did not use &#8220;gratuitously offensive language and sexually explicit words&#8221;, which also indicates that this was conduct by male colleagues, which was covered by the findings of direct sex discrimination.  The references to the incident captured on video and to the Las Vegas trip, at [137] and [139], show that these matters were also covered by the complaints of direct discrimination which the tribunal upheld.  At [149] the tribunal, when referring to harassment related to sex, specifically referred to certain &#8220;offensive messages and comments&#8221; having happened in 2017.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Read as a whole, these passages suggest that the tribunal took an expansive view in the liability decision, of which aspects of the overall conduct that it found occurred from the outset amounted to direct sex discrimination, and a narrow view of which conduct amounted to harassment and which it apparently considered to be out of time.  While the claimant, for her part, did not challenge the decision that the complaints relating to the treatment which it regarded as harassment were out of time, to repeat, the respondent cannot challenge in an appeal against the remedy decision, the determination in the liability decision of what conduct amounted to direct sex discrimination.  Against that backcloth, I turn to the passages in the remedy decision on which this ground relies.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As to [6], the challenge of substance is that the tribunal has wrongly treated what it called three years of &#8220;verbal and physical abuse, bullying and physical assaults&#8221;, as covered by its earlier findings of direct sex discrimination.  [52] is similarly criticised.  But the tribunal had clearly found that conduct amounting to direct discrimination did occur throughout the employment.  It also seems to me that the descriptor used in [6] is apposite to cover conduct which the tribunal had, in the passages from the liability decision to which I have referred, found amounted to direct sex discrimination, the reference to physical assault, for example, covering the wrestling incident.  The reference to offensive and vulgar comments, at [13] of the remedy decision, also covers conduct which had been found to amount to direct sex discrimination, as do the references at [54] to the claimant having learned that not all men who approach her intend to insult or assault her.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ms&#160;Egan indicated that the primary basis of this challenge was that the tribunal had mischaracterised in the remedy decision, conduct which it had earlier found to amount to direct discrimination, as being in the nature of harassment.  This, she said, had wrongly led it to make a higher award than it otherwise would have.  However, the examples given in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Vento</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> are not a factual template or a straitjacket.  In any event, in every case, the tribunal needs to take care &#8211; as this tribunal did &#8211; to focus on the effect which the particular conduct has, in fact, had on this claimant in this case.  The nature of the conduct itself is not always a sure guide to, and should not be treated as a proxy for, the severity of the impact or effect which it in fact has had.  Even in relation to aggravating features, as the authorities establish, the point of enhancing the compensation is to reflect the additional distress which the tribunal finds those aggravating features in fact to have caused in the case before it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the present case, in the light of its findings of fact, this tribunal was fully entitled to situate the initial award within the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Vento</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> bands where it did, and then to uplift it to reflect the additional distress caused by the aggravating features that it properly identified and found.  The tribunal was entitled to form this view of the impact on this claimant of this particular conduct, which it had found to amount to direct discrimination in this case.  Accordingly, I conclude that ground 1 fails.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I turn to ground 2.  As Mr&#160;Davies correctly submitted, the challenge here is solely that the tribunal made findings that were perverse, having regard to earlier findings in the liability decision and evidence referred to.  As to that, true it is that Dr Watts&#8217; report referred to the claimant having, prior to the stranger assault, suffered anxiety since the death of a close friend, and having been prescribed medication for that.   True it is, that it did not refer to anxiety caused by treatment at work.  But the report did not state that it was describing the whole of the causes of her anxiety or that nothing else had caused her anxiety.  There may have been any number of reasons why it did not address any such matters arising in the work context.  Further, the tribunal&#8217;s discussion in the liability decision, of the particular impact of the stranger assault on the claimant, including that she suffered panic attacks when she went out in public, was in the context of whether she had, following that assault, at a certain point become a disabled person.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">There is nothing in the discussion in the liability decision to preclude a later finding about the distinct and additional anxiety caused to the claimant by her treatment by male colleagues in the workplace.  It is also unsurprising that at the remedy hearing, the claimant&#8217;s overall evidence included some description of the effects which the stranger assault had had on her.  The tribunal then had to sift the overall evidence and facts, in order to exclude from its award, anxiety attributable to that assault, and to ensure that the claimant was only compensated for the distress which it judged to be attributable to the respondent&#8217;s unlawful acts.  That is what it did at [7] and following, distinguishing the anxiety about going out and about, caused by the assault, from the fear of going into work, caused by her erstwhile male colleagues&#8217; treatment of her referred to in that passage.  Similarly, the discussion at [11] is specifically of the fear of speaking out and joining in debate </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">in the workplace</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal was entitled to make the findings that it did about the anxiety caused to the claimant, by the treatment for which she was entitled to be compensated.  These were clear findings, specifically, and in terms, about the impact of that treatment, and not of the earlier bereavement, nor of the stranger assault.  Neither the Dr Watts report, nor the earlier findings in the liability decision, precluded such conclusions.  The high threshold for a perversity challenge is not surpassed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Grounds 1 and 2 therefore both fail and the remedy awarded by the tribunal therefore stands.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I turn to the grounds which challenge the costs decision, and first I will consider ground&#160;3 and the related strand of ground 4, relating to the Ms Fox witness statement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the event, Ms Fox appeared as a witness for the claimant at the liability hearing.  But it is clear that the respondent had also earlier approached her to be a witness for it.  The old adage, that there is no property in a witness, is true; and had the tribunal been critical of the respondent merely for approaching her, as such, that would have been wrong.  Ms&#160;Egan also makes the point that it is not necessarily wrong for a party to prepare a draft statement for review and consideration by a proposed witness.  I agree with that, up to a point, as whether there was inappropriate conduct might depend on the basis on which the draft statement had been prepared.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">But in any event I think it clear that the tribunal&#8217;s concern at [63] was a different one.  The claimant&#8217;s skeleton argument for the remedy and costs hearing raised the following concern.  It referred to the fact that the respondent, &#8220;sought to rely upon an unsigned statement of Lauren Fox &#8230; Ms Fox had refused to sign it, or adopt its contents, and gave evidence which was entirely contrary to the contents of her purported statement. &#8230;this further illustrated the lengths to which the respondent was prepared to go, in order to undermine the Claimant&#8217;s case.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In my judgement, this was what the tribunal was plainly referring to at [63].  It did not refer to the respondent having produced the statement in the sense of having drafted it.  It referred to the &#8220;attempt to produce&#8221; it &#8220;for the liability&#8221; hearing.  &#8220;Produced&#8221; here means &#8220;bespeak, in order to rely upon&#8221;.  What concerned the tribunal was not the initial approach to Ms Fox, nor the original preparation of a draft statement for her to consider, as such, but the attempt at the liability hearing to rely upon that draft statement.  There could be another case, in which an opponent&#8217;s witness has given a prior inconsistent statement, and in which it would be entirely proper to challenge their evidence by reference to it.  But in this case, what concerned the tribunal was the attempt to rely on an unsigned statement, which the respondent knew Ms Fox had not drafted and had never agreed.  The tribunal was entitled to take that into account, when considering whether the costs threshold was crossed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Nor do I consider that the text messages met the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Ladd v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> criteria.  They were available at the time of the costs hearing.  There is a type of case, the authorities confirm, in which evidence which is not strictly new should nevertheless be admitted after the event, because it could not reasonably have been appreciated at the time of the hearing in question that it might be relevant and might need to be relied upon, and it meets the other </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Ladd v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> criteria.  But this case does not fall into that category, as the fact that the claimant was relying on this aspect was squarely raised in her skeleton for the costs hearing.  In any event, I am bound to say that I do not think that these messages materially assisted the respondent on the point which actually concerned the tribunal; and, if anything, they supported the tribunal&#8217;s concerns.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I turn to the remainder of ground 4, ground 5 and ground 6, which are interrelated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As to the further training certificate tabled at the remedy hearing, while the tribunal accepted that Mr&#160;Mayall had not realised it was a forgery until this was pointed out to him, it was, nevertheless, entitled to consider that the attempt to rely upon it was unreasonable conduct for costs purposes.  That was against a background in which there was a proper finding that the respondent had unreasonably relied upon a number of other falsified certificates, and had unreasonably accused the claimant herself of having falsified them, and in which the tribunal had already found, as a fact, that the claimant had not attended the course to which this purported new piece of evidence related.  That could all be reasonably viewed as something that ought to have put Mr&#160;Mayall under a duty to take particular care to consider with whether this latest purported certificate was, despite all of that, authentic. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As to cross-examination, in principle it would be wrong to treat as unreasonable conduct, the respondent merely having put its case to the claimant as a witness as such, merely because that case did not succeed or was unpalatable, or being cross-examined was inevitably distressing for the claimant.  There was no suggestion at all that the tribunal found the manner or conduct of the cross-examination itself to go beyond the bounds of what was professional.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:12pt">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr&#160;Davies submits that the tribunal&#8217;s point here, it can be inferred, was that the case that was being put had no reasonable prospect of success.  However, I am not persuaded of that, given that the tribunal chose specifically to refer to cross-examination; and having regard to what I am going to say about grounds 5 and 6.  The points raised by these grounds need to be considered together.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:12pt">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I start by observing that the costs rule, rule 76, and the strike-out rule, rule 37, though using similar concepts, are structured differently.  In rule 76(1)(a), the threshold grounds which permit, and require the tribunal to consider, making a costs order, are that a party, or their representative, has acted vexatiously, abusively, disruptively, or otherwise unreasonably, in the bringing of the proceedings or part, or the way that the proceedings or part have been conducted.  In (b), the reference is to any claim or response having had no reasonable prospect of success.  I note, also, that there is an element of potential factual overlap, as it may be unreasonable conduct to advance a case or defence, which the party concerned knows, or ought to know, has no reasonable prospect of success.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:12pt">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In this case, at paragraph 3 of the remedy reasons, the tribunal said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;3.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In relation to the claimant&#8217;s costs application, the issues are: whether she has established that the respondent had acted vexatiously, abusively, disruptively or otherwise unreasonably in the way proceedings have been conducted, rule 76(1)(a) Employment Tribunals (Constitution and Rules of Procedure) Regulations 2013, as amended; and whether the respondent&#8217;s responses to the claims had no reasonable prospect of success, rule 76(1)(a)?&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:12pt">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I think that, on a fair reading, the tribunal was saying that, in substance, the costs application was made on all of the substantive bases described there in the alternative, and that the final reference to rule 76(1)(a) for a second time was a typo and should have referred to rule 76(1)(b).  In its conclusions, at [64], the tribunal stated that the claimant had satisfied rule&#160;76(1)(b).  However, given the typo in [3], where the only typed references are to rule 76(1)(a), one is left uncertain as to whether the tribunal did mean, at this later point, to refer to rule&#160;76(1)(b).   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:12pt">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I might be unsure as to the position, were there no other material to draw upon.  But the substance of the discussion that begins at [60] begins by ruling out one limb of rule&#160;76(1)(a), being the respondent having acted in its conduct of the proceedings vexatiously, disruptively or abusively.  It goes on, in the next sentence, to say: &#8220;It did, however, acted unreasonably in its conduct of proceedings.&#8221;  This signals that what follows is a discussion of the respects in which the respondent so acted, and indeed, on the face of it, that is what the remainder of [60] to [63] describes.  Nowhere in this passage is there a specific consideration of whether the entire defence, in relation to the successful complaints, had no reasonable prospect of success from the outset, nor any specific conclusion that it did.  I conclude that the end of [64] likely </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">is</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> a typo, and that the tribunal founded its conclusion that the costs threshold had been crossed on rule 76(1)(a) and not on rule 76(1)(b).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:12pt">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">But even if I am wrong about that, and it did intend to rely on 76(1)(b), I agree with Ms&#160;Egan that in that case the tribunal would have needed to say more about that.  Even in a 76(1)(b) case, the issue of whether the respondent appreciated, or ought reasonably to have appreciated, that its defence had no reasonable prospect of success, would potentially come in at stage two, the consideration of whether to make a costs order.  This, potentially, brings into play the ground 6 point.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-size:12pt">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">On the primary analysis, however, which I think is correct, that the tribunal considered the threshold to be crossed by various aspects of the respondent&#8217;s conduct of the litigation itself, I agree with Ms&#160;Egan, that consideration needed to be given then to the nature, gravity and effect of that conduct, when deciding whether to proceed to make an award of costs, and, if so, on what basis, or what proportion of the costs that the claimant had incurred in prosecuting the successful complaints.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-size:12pt">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I do note that the tribunal did give itself a correct self-direction as to the law on the three stages of the process.  But Mr&#160;Davies, sensibly in this case, did not seek to rely upon that.  Whilst, in many cases, a correct self-direction of the law will mean that the EAT will be slow to find an error of law later in the decision, unless the tribunal has plainly not followed its own self-direction, the issue here is concerned with the specific requirements of the rule, which indicate that when the costs threshold is crossed, the tribunal then </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">may</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> make an order and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">shall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> consider whether to do so.  I observe also that this second stage is not mentioned in the tribunal&#8217;s initial summary of the issues.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-size:12pt">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The fact that, in the conclusions, the tribunal does not mention this second stage, but moves directly from the conclusion that the costs threshold has been crossed to the consideration of the respondent&#8217;s means and the amount to award, is therefore significant.  Nor do I think that the findings at [60] to [63], as such, can be relied upon to make good this deficiency.  The necessary order of business in principle is, first, to decide whether the threshold has been crossed.  That point was only reached at [64].  Then there needs to be consideration of whether to exercise the power to award costs and, if so, what proportion or amount to award.  The earlier conclusions on </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">why</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> the threshold has been crossed will, of course, be highly pertinent to that.  But nevertheless, this is a necessary discrete stage of the tribunal&#8217;s decision-making process, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">after</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> the threshold has been found to be crossed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-size:12pt">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Standing back, I conclude that the tribunal has not sufficiently considered whether it should, in light of its conclusion that the threshold had been crossed, award all, some, or none of the costs incurred by the claimant in relation to the successful claims, or, if it did, not sufficiently explained that conclusion.  If, as I think, its conclusion was based on its specific findings as to the conduct of the litigation, that required some consideration of the nature, gravity and effect of that conduct.  Although the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Yerrakalva</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> guidance indeed indicates that a broad brush may be wielded, the tribunal still needs to demonstrably engage discretely with that aspect of the decision-making process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-size:12pt">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As I have said, even if, contrary to my view, the tribunal&#8217;s decision to award costs was based on the view that the defences to the claims which succeeded had no reasonable prospect of success, the tribunal would still have needed to consider, at stage two, whether the respondent appreciated that, or ought reasonably to have appreciated that, which would potentially have been pertinent to whether to award some or all of the costs attributable to the successful claims or none at all.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-size:12pt">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I therefore uphold grounds 5 and 6, and also the strand of ground 4 relating to cross- examination.  </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

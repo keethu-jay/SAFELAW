@@ -1,0 +1,1181 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/23"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/23"/>
+	  <FRBRdate date="2024-07-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="23"/>
+	  <FRBRname value="Abbey Healthcare (Mill Hill) Ltd v Augusta 2008 LLP (formerly Simply Construct (UK) LLP)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/23"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/23"/>
+	  <FRBRdate date="2024-07-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/23/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/23/data.xml"/>
+	  <FRBRdate date="2024-07-09T09:48:17" name="transform"/>
+	  <FRBRdate date="2024-07-09T10:28:33" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-07-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="abbey-healthcare-mill-hill-ltd" href="" showAs="Abbey Healthcare (Mill Hill) Ltd"/>
+	<TLCPerson eId="augusta-2008-llp-formerly-simply-construct-uk-llp" href="" showAs="Augusta 2008 LLP (formerly Simply Construct (UK) LLP)"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+	<TLCPerson eId="judge-lord-richards" href="/judge-lord-richards" showAs="Lord Richards"/>
+	<TLCPerson eId="judge-lady-simler" href="/judge-lady-simler" showAs="Lady Simler"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>23</uk:number>
+	<uk:cite>[2024] UKSC 23</uk:cite>
+	<uk:parser>0.25.3</uk:parser>
+	<uk:hash>482c97549a358009f4d3160d63da65ee097e555694cad06de5bc2ea0565aaefc</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 13pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Footer { font-family: Univers; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 13pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 13pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .xmsonormal { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: CIDFont+F1; font-size: 12pt; color: #000000; }
+#judgment .fontstyle21 { font-style: normal; font-weight: normal; font-family: ArialMT; font-size: 12pt; color: #000000; }
+#judgment .fontstyle31 { font-style: italic; font-weight: normal; font-family: CIDFont+F4; font-size: 12pt; color: #000000; }
+#judgment .fontstyle11 { font-style: italic; font-weight: bold; font-family: CIDFont+F3; font-size: 12pt; color: #000000; }
+#judgment .fontstyle41 { font-style: normal; font-weight: normal; font-family: ArialMT; font-size: 12pt; color: #000000; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold;font-family:'Times New Roman'">Trinity Term</span><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2024] UKSC 23</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman'">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/823" style="font-style:italic;font-family:'Times New Roman'" uk:canonical="[2022] EWCA Civ 823" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2022] EWCA Civ 823</ref></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#respondent" refersTo="#abbey-healthcare-mill-hill-ltd" style="font-family:'Times New Roman';font-size:20pt">Abbey Healthcare (Mill Hill) Ltd</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt">Respondent</role><span style="font-family:'Times New Roman';font-size:20pt">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt">v</span><span style="font-family:'Times New Roman';font-size:20pt"/><party as="#appellant" refersTo="#augusta-2008-llp-formerly-simply-construct-uk-llp" style="font-family:'Times New Roman';font-size:20pt">Augusta 2008 LLP (formerly Simply Construct (UK) LLP)</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt">Appellant</role><span style="font-family:'Times New Roman';font-size:20pt">)</span><br/><br/><span style="font-weight:normal;font-family:'Times New Roman'">before</span><br/><br/><judge refersTo="#judge-lord-briggs" style="font-family:'Times New Roman'">Lord Briggs</judge><br/><judge refersTo="#judge-lord-hamblen" style="font-family:'Times New Roman'">Lord Hamblen</judge><br/><judge refersTo="#judge-lady-rose" style="font-family:'Times New Roman'">Lady Rose</judge><br/><judge refersTo="#judge-lord-richards" style="font-family:'Times New Roman'">Lord Richards</judge><br/><judge refersTo="#judge-lady-simler" style="font-family:'Times New Roman'">Lady Simler</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman'">JUDGMENT GIVEN ON</span><br/><docDate date="2024-07-09" refersTo="#judgment" style="font-family:'Times New Roman'">9 July 2024</docDate><br/><br/><span style="font-family:'Times New Roman'">Heard on 29 April 2024</span></p>
+      <p class="JudgmentDetail1"><span style="font-style:italic;font-weight:normal;font-family:'Times New Roman';font-size:12pt">Appellant</span><br/><span style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">Anneliese Day KC</span><br/><span style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">Michele De Gregorio</span><br/><span style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">(Instructed by DAC Beachcroft LLP (Bristol))</span></p>
+      <p class="JudgmentDetail1"><span style="font-style:italic;font-weight:normal;font-family:'Times New Roman';font-size:12pt">Respondent</span><br/><span style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">Alexander Nissen KC</span><br/><span style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">Tom Owen KC</span><br/><span style="font-weight:normal;font-family:'Times New Roman';font-size:12pt">(Instructed by Watson Farley &amp; Williams LLP (London))</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD Hamblen (<span style="text-transform:none">with whom Lord Briggs, Lady Rose, Lord Richards and Lady Simler agree</span>): </p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">Housing Grants, Construction and Regeneration Act 1996</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>&#8221;) there is a statutory right to refer to adjudication any disputes which arise under a &#8220;construction contract&#8221;.  Statutory adjudication is an expeditious and cost-effective dispute resolution procedure, typically before a trained adjudicator who is a specialist in construction related work. It results in legally enforceable decisions, which are binding on the parties unless and until there is a final determination by arbitration, litigation or agreement.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is common practice in the construction industry for &#8220;collateral warranties&#8221; to be provided to third parties, such as funders, purchasers and prospective tenants.  This practice originally arose as a result of the restriction on the rights of third parties to make tortious claims for economic loss consequent upon the House of Lords decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Murphy v Brentwood District Council</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1991] 1 AC 398" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] 1 AC 398</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Collateral warranties give third parties contractual rights against contractors should defects arise in respect of the works carried out by them.  The central issue on this appeal is whether the collateral warranty given by the appellant to the respondent is a &#8220;construction contract&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> so as to give rise to a right to adjudication and specifically whether it is an agreement &#8220;for &#8230; the carrying out of construction operations&#8221; under section 104(1)(a).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The appellant, Augusta 2008 LLP (Formerly Simply Construct (UK) LLP) (&#8220;Simply&#8221;), is the contractor under a JCT Design and Build Contract 2011, with bespoke amendments, dated 29 June 2015 (the &#8220;Building Contract&#8221;) by which it was engaged by the employer, Sapphire Building Services Ltd (&#8220;Sapphire&#8221;), to design and build a 65 bedroom care home at Holders Hill Road, Mill Hill, London (the &#8220;Property&#8221;).  The respondent, Abbey Healthcare (Mill Hill) Ltd (&#8220;Abbey&#8221;) is the tenant of the Property.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Building Contract included the following provisions:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Clause 2.1 required Simply to &#8220;carry out and complete the Works in a proper and workmanlike manner and in compliance with the Contract Documents&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Clause 2.35 required Simply to remedy defective work that appeared within the Rectification Period.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Under clause 7.1.3 Sapphire was entitled to novate the Building Contract to the owner of the Property, Toppan Holdings Ltd (&#8220;Toppan&#8221;).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Clause 7C obliged Simply, on notification by Toppan, to execute a collateral warranty for the benefit of a tenant or management company; and in favour of Toppan. There was an agreed form of warranty in Schedule 5 to the Building Contract.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Clause 9.2 contained express adjudication provisions.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Building Contract contained provisions in respect of warranties. Clause 1.1 defined &#8220;P&amp;T Rights&#8221; as the rights in favour of a &#8220;Purchaser&#8221; or &#8220;Tenant&#8221; set out in Schedule 5 in the form of a collateral warranty. Both Purchaser and Tenant were defined terms. In the event, Toppan became the Purchaser and Abbey became the Tenant. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Part 2 of the Contract Particulars identified Toppan and the &#8220;Management Company&#8221; as persons on whom P&amp;T Rights may be conferred by collateral warranty. Management Company was defined as any entity responsible for the operation and/or management of the site and/or nursing home. In the event, that was the role played by Abbey as the tenant of the care home at the Property.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Simply commenced the works at some point between March and May 2015. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 15 October 2015 Simply executed a collateral warranty in favour of Toppan.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 20 September 2016 Abbey was incorporated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 10 October 2016 the works were certified as practically complete.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 13 June 2017 Sapphire and Simply entered into a settlement agreement, by which they settled the final account and all claims under the Building Contract, save for latent defects. The settlement agreement also required the execution of a deed of novation in an agreed form by Simply, Sapphire and Toppan.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 14 June 2017 the Building Contract was novated from Sapphire to Toppan. Under the novation agreement, Sapphire transferred all its rights and obligations under the Building Contract to Toppan. In this way, Toppan became the &#8220;Substitute Employer&#8221;, as referred to in the settlement agreement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 12 August 2017 Toppan granted a 21-year lease of the Property to Abbey, which operates the care home business from the Property.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In August 2018 Toppan discovered alleged fire safety defects at the Property, in particular the internal plasterboard wall linings were alleged not to provide the required 60 minutes of fire resistance. Toppan contended that the discovery of the defects prevented the sale of the Property and the care home business to a prospective purchaser. Simply was notified of the defects and requested to rectify them. Simply did not do so. Toppan engaged a third party contractor to carry out remedial works, which commenced on or around 25 September 2019 and were practically complete by 14 February 2020. Abbey states it paid for the remedial works on behalf of Toppan.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 8 June 2020 Toppan requested that Simply provide a collateral warranty to Abbey. Simply did not respond to Toppan&#8217;s request. Toppan issued proceedings for specific performance. Thereafter, the parties entered into a collateral warranty (the &#8220;Abbey Collateral Warranty&#8221;), which was executed by Simply on 23 September 2020 and by Abbey and Toppan on 23 October 2020.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The Abbey Collateral Warranty</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">So far as material this provided as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">BACKGROUND</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(A)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Developer [Toppan] has the benefit of the Contract entered into with the Contractor [Simply].</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(B)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Beneficiary [Abbey] has a leasehold interest in the Site.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(C)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Contractor has agreed to enter into this agreement with the Beneficiary.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-weight:bold;font-family:'Times New Roman'">OPERATIVE PROVISIONS</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">1 DEFINITIONS&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">Contract</span><span style="font-family:'Times New Roman'">&#8221; means the contract in the form of a JCT Design and Build Contract dated 29 June 2015 entered into by Sapphire Building Services Ltd and the Contractor under which the Contractor is to carry out the Works and the design of the Works.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">Works</span><span style="font-family:'Times New Roman'">&#8221; means the construction of the development at the Site as more particularly described in the Contract.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">4 </span><span style="font-weight:bold;font-family:'Times New Roman'">SKILL AND CARE</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>4.1</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Contractor warrants that:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the Contractor has performed and will continue to perform diligently its obligations under the Contract;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">in carrying out and completing the Works the Contractor has exercised and will continue to exercise all the reasonable skill care and diligence to be expected of a properly qualified competent and experienced contractor experienced in carrying out and completing works of a similar nature value complexity and timescale to the Works;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">in carrying out and completing any design for the Works the Contractor has exercised and will continue to exercise all the reasonable skill care and diligence to be expected of a prudent, experienced competent and properly qualified architect or as the case may be other appropriate competent and qualified professional designer experienced in carrying out and completing the design for works of a similar nature value complexity and timescale to the Works.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>4.2</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Insofar as the Contractor has performed a part of its obligations under the Contract before the date of the Contract the obligations and liabilities of the Contractor under this agreement shall take effect in all respects as if the Contract had been dated prior to the performance of that part of its obligations by the Contractor.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>4.3</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Contractor shall owe no greater duties to the Beneficiary under the terms of this agreement than it would have owed to the Beneficiary had the Beneficiary been named as the employer under the Contract save that this agreement shall continue in full force and effect notwithstanding the determination of the Contract for any reason.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>4.4</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The obligations of the Contractor shall not be released or diminished by the appointment of any person by the Beneficiary to carry out any independent enquiry into any relevant matter.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>4.5</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Contractor further warrants that unless required by the Contract or unless otherwise authorised in writing by the Developer or the Developer's representative named in or appointed pursuant to the Contract (or where such authorisation is given orally, confirmed in writing by the Contractor to the Developer and/or the Developer's representative), it has not and will not use materials in the Works other than in accordance with the guidelines contained in the edition of the publication &#8216;Good Practice in Selection of Construction Materials&#8217; (published by the British Council for Offices) current at the date of the Building Contract.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Clause 3 provided that these warranties were made in consideration of a nominal payment of &#163;1 by Abbey to Simply.  Clause 5 provided for the maintenance of professional indemnity insurance by Simply.  Under Clause 6 Simply granted to Abbey a licence to use and copy Design Documents.  Clause 7 granted Abbey Step-In rights in the event of Toppan&#8217;s insolvency.  This entitled Abbey to require Simply to continue its obligations under the Building Contract in relation to the Works and for Abbey to assume all of Toppan&#8217;s obligations.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The adjudications</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Toppan and Abbey made claims against Simply arising out of the fire safety defects and the cost of remedial works. Simply refused the request that the disputes be dealt with in a single adjudication. On 11 December 2020 Toppan and Abbey each referred to adjudication a dispute regarding the alleged defects, seeking sums in excess of &#163;8.8m and &#163;5.5m respectively. Mr Peter Vinden was appointed as adjudicator (the &#8220;Adjudicator&#8221;) for both disputes.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the Abbey adjudication Simply challenged the jurisdiction of the Adjudicator on the grounds that the Abbey Collateral Warranty was not a &#8220;construction contract&#8221; within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>. On 26 February 2021 the Adjudicator gave a non-binding ruling on jurisdiction, rejecting Simply&#8217;s challenge. The Abbey adjudication proceeded with Simply reserving its rights in this regard.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Adjudicator issued his decisions on 30 April 2021 (the &#8220;Decisions&#8221;), finding for Toppan and Abbey on liability. The Adjudicator awarded Toppan damages of approximately &#163;1m, plus interest, in respect of the cost of the remedial works and rejected its claims relating to an aborted sale to a prospective purchaser.  In the Abbey adjudication, the Adjudicator awarded Abbey damages of &#163;869,500 in respect of its loss of profit resulting from the defects, plus interest.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Simply did not pay the sums due. On 12 May 2021, Toppan and Abbey issued proceedings in the Technology and Construction Court (&#8220;TCC&#8221;) to enforce the Decisions by way of summary judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 1 July 2021 the applications were heard by Mr Martin Bowdery QC (sitting as a Deputy High Court Judge) (the &#8220;Judge&#8221;). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 27 July 2021 the Judge handed down judgment: </span><span style="font-style:italic;font-family:'Times New Roman'">Toppan Holdings Ltd &amp; Abbey Healthcare (Mill Hill) Ltd v Simply Construct (UK) LLP </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/tcc/2021/2110" uk:canonical="[2021] EWHC 2110 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWHC 2110 (TCC)</ref>; <ref href="#" uk:canonical="[2021] Bus LR 1357" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] Bus LR 1357</ref>; (2021) 197 Con LR 241. In respect of Toppan, the Judge granted summary judgment. In respect of Abbey, the Judge dismissed the summary judgment application on the grounds that the Abbey Collateral Warranty was not a construction contract within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> and, therefore, the</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">Adjudicator lacked jurisdiction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 15 November 2021 the Court of Appeal (Coulson LJ) granted Abbey permission to appeal to the Court of Appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Court of Appeal heard the appeal on 16 March 2022.  The Court of Appeal handed down judgment on 21 June 2022 allowing the appeal by a majority (Peter Jackson  and Coulson LJJ; Stuart-Smith LJ dissenting): <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/823" uk:canonical="[2022] EWCA Civ 823" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 823</ref>; <ref href="#" uk:canonical="[2022] Bus LR 1079" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] Bus LR 1079</ref>; (2022) 203 Con LR 1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 21 December 2022 the Supreme Court (Lord Hodge, Lord Burrows and Lord </span><span style="font-family:'Times New Roman';color:#000000">Richards) granted Simply permission to appeal to the Supreme Court.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As explained by Coulson LJ in </span><span style="font-style:italic;font-family:'Times New Roman'">C Spencer Ltd v M W High Tech Projects UK Ltd</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/331" uk:canonical="[2020] EWCA Civ 331" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 331</ref>; <ref href="#" uk:canonical="[2020] 1 WLR 3426" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 3426</ref>:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The twin purposes of the [1996 Act] was to improve cashflow in the construction industry, and to streamline its dispute resolution process. The former aim was achieved through mandatory provisions relating to interim payments, payment notices and the like, and the latter through a new, compulsory scheme of construction adjudication.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A helpful summary of the background to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> and its success in meeting these twin purposes is set out in the judgment of Lord Briggs of Westbourne in</span><span style="font-style:italic;font-family:'Times New Roman'"> Michael J Lonsdale (Electrical) Ltd v Bresco Electrical Services Ltd </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2020/25" uk:canonical="[2020] UKSC 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKSC 25</ref>; <ref href="#" uk:canonical="[2020] Bus LR 1140" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] Bus LR 1140</ref>; <ref href="#" uk:canonical="[2021] 1 All ER 697" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 All ER 697</ref> at paras 11 to 14.  Important features of the procedure of adjudication are set out at paras 20 to 26. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 104</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> provides as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">104 Construction contracts.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In this Part a &#8216;construction contract&#8217; means an agreement with a person for any of the following&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the carrying out of construction operations;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">arranging for the carrying out of construction operations by others, whether under sub-contract to him or otherwise;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">providing his own labour, or the labour of others, for the carrying out of construction operations.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">References in this Part to a construction contract include an agreement&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">to do architectural, design, or surveying work, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">to provide advice on building, engineering, interior or exterior decoration or on the laying-out of landscape, </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">in relation to construction operations.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">References in this Part to a construction contract do not include a contract of employment (within the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref>)&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where an agreement relates to construction operations and other matters, this Part applies to it only so far as it relates to construction operations.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">An agreement relates to construction operations so far as it makes provision of any kind within subsection (1) or (2)&#8230; &#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Section 105 sets out a list of what is included within the definition of &#8220;construction operations&#8221;.  This includes the construction, alteration, repair, maintenance, extension, demolition or dismantling of buildings.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/108" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 108</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> gives &#8220;a party to a construction contract&#8230;the right to refer a dispute arising under the contract for adjudication&#8221;. <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/108/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 108(5)</ref> provides that, if the contract does not contain adjudication provisions, the adjudication provisions within the Scheme for Construction Contracts (England and Wales) Regulations 1998 (SI 1998/649), as amended (&#8220;the Scheme&#8221;) will apply. The Abbey Collateral Warranty contained no adjudication provisions. It follows that if it was a construction contract as defined in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>, the Scheme was implied into it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Sections 109 to 113 contain provisions dealing with payments under construction contracts, including as to entitlement to periodic payments (section 109), mechanisms for determining when payments become due and final dates for payment (section 110), payment notices (sections 110A and 110B), right to payment (section 111) and right to suspend performance for non-payment (section 112).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The judgments below</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Judge held that the Abbey Collateral Warranty should be construed against the background that at the time of its execution the works had been completed some four years previously, the remedial works to the disputed defects had been completed eight months previously, and neither Abbey nor Simply contemplated the possibility of any further construction operations being carried out.  So construed he concluded that it was not a construction contract for the carrying out of construction operations but rather a warranty as to events which had occurred years before.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the Court of Appeal it was accepted that if, properly construed, the Abbey Collateral Warranty was a construction contract then its timing could not be determinative.  Coulson LJ emphasised two reasons why this is so.  First, because it is retrospective in effect and secondly because it would be uncertain and unsatisfactory if the question of whether a collateral warranty was a construction contract turned on whether or not its date of execution was before or after practical completion (paras 69-76).  Peter Jackson LJ agreed that the date on which the Abbey Collateral Warranty was executed did not prevent it from being a construction contract (paras 164-165).  There is no appeal from this decision on the timing issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The other issues addressed by the Court of Appeal were (i) whether a collateral warranty can ever be a construction contract and (ii) if it can, whether the Abbey Collateral Warranty was such a contract.  All members of the Court were agreed that a collateral warranty could be a construction contract.  The disagreement was on issue (ii).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">Coulson LJ</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In arriving at his conclusion on issue (ii), Coulson LJ relied on his reasoning on issue (i) and in particular the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;30.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230;a warranty which provided a simple fixed promise or guarantee in respect of a past state of affairs may not be a contract for the carrying out of construction operations pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section104(1)</ref>. Something that said &#8216;We completed these works two years ago and we warrant that they were completed in all respects in accordance with the Building Regulations&#8217;, is a promise about the quality of something which has been completed. It does not recognise or regulate the ongoing carrying out of any future work. It may therefore not be a contract for the carrying out of construction operations. It is more akin to a product guarantee.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>31.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On the other hand, a warranty that the contractor was carrying out and would continue to carry out construction operations (to a specified standard) may well be &#8216;a contract for the carrying out of construction operations&#8217; in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>. That is because, unlike a product guarantee, it is a promise which regulates (at least in part) the ongoing carrying out of construction operations. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>58.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Drawing those various threads together, I conclude that:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The words in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> (&#8216;an agreement&#8230;for&#8230;the carrying out of construction operations&#8217;) is a broad expression and has regularly been construed as such: see in particular </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood</span><span style="font-family:'Times New Roman'">.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Traditional views about what comprises a building contract or a collateral warranty are of limited value. However, the importance of collateral warranties to the ultimate owners/occupiers who were not involved when the building contract was originally agreed is a relevant background factor.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The broad approach to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> is supported by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(5)</ref> and by one of the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>, namely to provide an effective dispute resolution system. It is in accordance with that purpose that the same factual disputes about the carrying out of the same construction operations can be dealt with by the same adjudicator, even where there are two different contracts.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There is no reason to limit the words of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> to refer only to the primary building contract in any situation. Neither is it necessary to construe the expression by reference to whether or not the contract contains detailed obligations on the part of the beneficiary to make payments direct to the contractor. Provided the contract or warranty in question complies with section 109, it can be a construction contract for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A collateral warranty may, therefore, be capable of being a construction contract for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>. What may be critical is whether the warranty is in respect of the ongoing carrying out of construction operations, on the one hand, or is in respect of a past and static state of affairs, on the other.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In concluding that the terms of the Abbey Collateral Warranty made it a construction contract Coulson LJ relied in particular on the wording of clause 4.1(a) that Simply &#8220;has performed and will continue to perform&#8221; its obligations under the Building Contract.  He considered that this is &#8220;a warranty of both past and future performance of the construction operations&#8221;.  He reasoned as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;62.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230;[Simply] were warranting that, not only have they carried out the construction operations in accordance with the building contract, but they will continue so to carry out the construction operations in the future. That is an ongoing promise for the future &#8230; It is not a warranty limited to the standard to be achieved; neither is it a warranty limited to a past or fixed situation. It is a warranty as to future performance. It is that that differentiates the Abbey Collateral Warranty from a product guarantee.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>63.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">That can be tested in this way. If [Simply] had failed to complete the construction operations, would they have been in breach of the Abbey Collateral Warranty? The answer must be Yes. They had agreed to carry out the construction operations to the standard set out in the building contract and they had stopped before they had been completed. That would have been in breach of both the building contract and the Abbey Collateral Warranty, because they could not perform their obligations under the Abbey Collateral Warranty unless they also performed their obligations under the building contract&#8230;. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>64.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The real issue here may be whether the provisions in clause 4 of the Abbey Collateral Warranty simply recognise the existence of [Simply&#8217;s] obligation to perform the construction operations under the building contract with Toppan without more, or whether they comprise separately actionable obligations on the part of [Simply]. For the reasons that I have given, I consider that they are separately actionable obligations. The fact that they do not bring with them all the myriad other rights and duties which an employer may have under a traditional building contract is irrelevant for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>.</span><span style="font-family:'Times New Roman';font-size:12pt">&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Coulson LJ also placed considerable reliance on the decision and the reasoning of Akenhead J in </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood Leisure Ltd v Laing O&#8217;Rourke Wales and West Ltd</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/tcc/2013/2665" uk:canonical="[2013] EWHC 2665 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 2665 (TCC)</ref>;</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">[2013] BLR 589 (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood&#8221;</span><span style="font-family:'Times New Roman'">).  This was the case which first decided that a collateral warranty could be a construction contract under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>.  As Coulson LJ observed at para 42, fn 1, some surprise at this decision was expressed at the time and articles critical of the decision were written in, for example, the </span><span style="font-style:italic;font-family:'Times New Roman'">Construction Law Journal</span><span style="font-family:'Times New Roman'">.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">Peter Jackson LJ</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In relation to the interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> Peter Jackson LJ said that, unlike Coulson LJ, he did not gain any help from <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(5)</ref> or from reliance on policy reasons.  He interpreted <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;152.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230;not every agreement that is related to construction operations will be a construction contract. The word &#8216;for&#8217; requires that the purpose or object of the agreement must be the </span><span style="font-style:italic;font-family:'Times New Roman'">carrying out </span><span style="font-family:'Times New Roman'">of construction operations. It is concerned with the </span><span style="font-style:italic;font-family:'Times New Roman'">performance </span><span style="font-family:'Times New Roman'">of construction operations and not with their </span><span style="font-style:italic;font-family:'Times New Roman'">consequences</span><span style="font-family:'Times New Roman'">. It is not enough that the agreement concerns the </span><span style="font-style:italic;font-family:'Times New Roman'">quality </span><span style="font-family:'Times New Roman'">of the work.&#8221; (emphasis in original)</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In relation to the interpretation of the Abbey Collateral Warranty, like Coulson LJ he principally relied upon the wording of clause 4.1(a), stating:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;158.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">So, [Simply] warrants to Abbey that it has performed and will continue to perform diligently its obligation to Sapphire/Toppan to carry out the construction works. Is that a promise to Abbey, or merely a promise to compensate Abbey if there is a default under the Contract? In my view it is the former. By the word &#8216;warrants&#8217; at the head of Clause 4.1, [Simply] promises that what follows is true and makes itself answerable to Abbey if it is not. The two sub-clauses that then follow straddle the line drawn by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104</ref>. Sub-clause (b) is a classic warranty (&#8216;in carrying out and completing the Works the Contractor has exercised and will continue to exercise all the reasonable skill care and diligence&#8217;). In contrast, sub-clause (a) contains a primary obligation (&#8216;</span><span style="font-style:italic;font-family:'Times New Roman'">has performed and will continue to perform </span><span style="font-family:'Times New Roman'">diligently its obligations under the Contract&#8217;) (emphasis added). Although the scope of the obligation is set with reference to the main contract, the promise to carry out the works arises under the [Abbey Collateral Warranty] itself and is a promise made directly to Abbey.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He also said that </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood </span><span style="font-family:'Times New Roman'">was correctly decided and its reasoning sound (para 160).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">Stuart-Smith LJ</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Stuart-Smith LJ stated that a construction contract is an agreement, the purpose or object of which is the carrying out of construction operations (or arranging for them to be carried out by others) or providing labour for carrying them out (para 93).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He observed that the word &#8220;for&#8221; in the context of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> indicates and is followed by the purpose of the agreement. It carries with it the implication that a party to a contract &#8220;for&#8221; the carrying out of construction operations (typically the contractor) undertakes a direct contractual obligation to the other party (typically the employer) to carry out the construction operations (para 91). He said that the word &#8220;for&#8221; typically functions to identify the primary obligations being undertaken by the parties that mark the purpose of the agreement (para 92). It is not sufficient if the contractor is merely warranting its performance of obligations owed to someone else (para 111).  Simply submitted that his interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> may be summarised as: an agreement is an agreement &#8220;for&#8230; the carrying out of construction operations&#8221; if the purpose or object of the agreement is the carrying out of construction operations and it is an agreement by which one party undertakes a direct contractual obligation to the other party to carry out the construction operations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Applying that interpretation to the wording of the Abbey Collateral Warranty Stuart-Smith LJ concluded that clauses 4.1(a)-(c) and 4.5 warrant Simply&#8217;s performance of obligations owed to the employer, Sapphire/Toppan. They are not clauses in which Simply undertakes a direct obligation to Abbey to carry out the construction operations. Accordingly, it is not a construction contract.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Stuart-Smith LJ agreed with the majority that a collateral warranty could be a construction contract and distinguished </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood </span><span style="font-family:'Times New Roman'">on the grounds that it concerned different wording in a different context.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaSubHeading1"><span style="font-weight:normal;font-family:'Times New Roman'">Parkwood</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The collateral warranty provided to the beneficiary, Parkwood,</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-family:'Times New Roman'">provided:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The contractor warrants, acknowledges and undertakes that:</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">it has carried out and shall carry out and complete the works in accordance with the contract&#8230;&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In concluding that the collateral warranty was a construction contract, Akenhead J placed reliance on the use of the word &#8220;undertakes&#8221;:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;27.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230; (d) Clause 1 contains express wording whereby [the contractor] &#8216;warrants, acknowledges and undertakes&#8217;. One should assume that the parties understood that these three verbs, whilst intended to be mutually complementary, have different meanings. A warranty often relates to a state of affairs (past or future); a warranty relating to a motor car will often be to the effect that it is fit for purpose. An acknowledgement usually seeks to confirm something. An undertaking often involves an obligation to do something&#8230;&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He also placed particular reliance on the wording of clause 1(1):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;27.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230; (f) [The contractor] is clearly in clause 1 (and in particular sub-clause 1) undertaking that it will carry out and complete the works in accordance with the contract between [the employer] and [the contractor]. That undertaking however is being given by [the contractor] to Parkwood. Thus, [the contractor] is undertaking to Parkwood that, in the execution and completion of the works, it will comply with that contract. Most obviously, that relates to the quality and completeness of the Works. The contract specifications and drawings will need to be complied with as will the Statutory Requirements (such as Building Regulations&#8230;) and the standards and scope described in the employer&#8217;s requirements and contractor&#8217;s proposals&#8230;&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'"> &#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>&#8220;(i)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Clause 1(1) is not merely warranting or guaranteeing a past state of affairs. It is providing an undertaking that [the contractor] will actually carry out and complete the works. Completion of the works is not only important so far as time is concerned; it is also important because [the contractor] is undertaking that the works will be completed to a standard, quality and state of completeness called for by the contract.&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>&#8220;(j)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Thus, this collateral warranty is clearly one &#8216;for the carrying out of construction operations by others&#8217;, namely by [the contractor].&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>&#8220;(k)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The remainder of clause 1 is consistent with and complementary of this view. Sub-clause 3 contains an important prospective element, ([the contractor] &#8216;will continue to exercise&#8217; care and skill). Similarly sub-clauses 4, 5, 6 and 7 have such an element.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Akenhead J recognised that not all collateral warranties would be construction contracts and provided the following guidance:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;28.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">&#8230;A very strong pointer to that end will be whether or not the relevant contractor is undertaking to the beneficiary of the warranty to carry out such operations. A pointer against may be that all the works are completed and that the contractor is simply warranting a past state of affairs as reaching a certain level, quality or standard.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Judge relied on this guidance in reaching his conclusion that the Abbey Collateral Warranty was not a construction contract in circumstances where all the works had been completed.  The decision of the Court of Appeal on the timing issue means, however, that this is no longer helpful guidance.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The parties&#8217; cases</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Simply&#8217;s case is that Stuart-Smith LJ reached the correct conclusions for the right reasons and that his dissenting judgment should be adopted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It was submitted that if the words &#8220;for &#8230; the carrying out of construction operations&#8221; are interpreted in the way that Stuart-Smith LJ said that they should be, the result is as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A collateral warranty will be an agreement &#8220;for &#8230; the carrying out of construction operations&#8221; if it is an agreement by which the contractor undertakes a direct contractual obligation to the beneficiary to carry out the construction operations in the building contract.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">However, a collateral warranty where the contractor is merely warranting its performance of obligations owed to someone else, namely the employer under the building contract, will not be an agreement &#8220;for&#8221; the carrying out of construction operations.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Subject to what is meant by the word &#8220;direct&#8221;, Abbey was content to adopt this formulation of the essential issue which arises for decision.  Abbey regarded &#8220;direct&#8221; as adding nothing of substance since any contractual obligation owed to a beneficiary under a collateral warranty to which it is a party would, necessarily, be a direct one.  The Abbey Collateral Warranty does contain direct obligations owed by Simply to Abbey. There is direct privity of contract between the parties through the execution of the Abbey Collateral Warranty. It is an instrument of primary liability. It is not an instrument of secondary liability, such as a guarantee.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the light of the parties&#8217; arguments at the hearing of the appeal the Court considered that the logic of Simply&#8217;s case raised the question of whether </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood </span><span style="font-family:'Times New Roman'">was correctly decided.&#160; The Court therefore invited the parties to provide written submissions on whether the correctness of that decision should be reviewed and, if so, what its outcome should be.  Having carefully considered those further submissions the Court did not consider it necessary to have further oral submissions, as Abbey requested.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The Issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It was agreed that the question to be to be decided on the appeal is whether or not the Abbey Collateral Warranty is a construction contract within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> and that this question raises two issues:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Statutory interpretation: what is the meaning of an agreement &#8220;for&#8230; the carrying out of construction operations&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Contractual interpretation: how should the Abbey Collateral Warranty be construed and, so construed, is it an agreement &#8220;for&#8230; the carrying out of construction operations&#8221;?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Issue (1): Statutory interpretation: what is the meaning of an agreement &#8220;for&#8230; the carrying out of construction operations&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Anneliese Day KC for Simply submitted that Coulson LJ had erred in his approach to the interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>.  In particular:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He wrongly considered that a &#8220;broad&#8221; approach to interpretation should be adopted (see para 58(c) and paras 23, 39, 43 and 59).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He placed misplaced reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(5)</ref> (see para 58(c) and para 40).  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">He wrongly concluded that a statutory purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> was that the same factual disputes about the carrying out of the same construction operations can be dealt with by the same adjudicator, even where there are two different contracts. He then treated that as a relevant factor in interpreting <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104</ref> (see para 41 and 58(c)).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(4)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This broad and purposive approach led him erroneously to treat the word &#8220;for&#8221; as meaning &#8220;in respect of&#8221; (see para 58(e)).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Notwithstanding Coulson LJ&#8217;s considerable experience and expertise in this area of the law, I consider that there is some force in these criticisms.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As to (1), while it may be correct that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> is expressed in broad terms there is no reason why its interpretation should be approached in a particular way, whether broadly or narrowly.  As Peter Jackson LJ said at para 148: &#8220;</span><span style="font-family:'Times New Roman';color:#000000">The process of statutory construction must &#8230; be approached in the normal way: what does the statute say and what is it seeking to achieve by what it says?&#8221;.  As Stuart-Smith LJ said at para 94: it is &#8220;unhelpful to adopt epithets such as &#8216;broad&#8217; when describing how [<ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>] is or should be interpreted. The question in every case will be whether an agreement under consideration falls within the ambit of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> as that may reasonably be understood.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As to (2), Coulson LJ considered that a &#8220;broader construction&#8221; of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> was supported by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(5)</ref> which deals with hybrid contracts and refers to an agreement which &#8220;relates to&#8221; construction operations.  He noted that the formula of an agreement &#8220;for&#8221; the carrying out of such operations was not repeated and that this demonstrates that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104</ref> &#8220;was intended to cast the net of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> as widely as possible&#8221; (para 40).  As Peter Jackson LJ pointed out, however, <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(5)</ref> &#8220;has a different function&#8221; (para 154).  Further, it states that &#8220;an agreement relates to construction operations so far as it makes provision of any kind within subsection (1) or (2)&#8221;.  It therefore takes one back to those subsections.  It does not expand them.  As Stuart-Smith LJ observed at para 101: &#8220;Far from expanding the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>, it reinforces its boundaries.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As to (3), Coulson LJ considered that a &#8220;broader construction&#8221; was also supported by the fact that a statutory purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> was that where the same factual disputes arise under a building contract and a collateral warranty they should both be referred to adjudication, thereby ensuring consistency of approach and outcome and a reduction in costs (para 41).  Whilst <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> undoubtedly recognises adjudication as being beneficial and promotes its use that does not assist in interpreting how it has drawn the boundaries of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>.  As Peter Jackson LJ observed, the advantages of adjudication &#8220;cannot justify the expansion of the statutory right to adjudication outside its proper province&#8221; (para 147).  As Stuart-Smith LJ stated: &#8220;The statutory scheme for adjudication is generally regarded as beneficial but the legislature has chosen to impose limits upon it&#8221; (para 102).  The question is simply what those limits are.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As to (4), in para 58(e) Coulson LJ expresses the critical question as being whether the warranty is &#8220;in respect of&#8221; the ongoing carrying out of construction operations.  In so far as, adopting a broad approach, he is treating &#8220;for&#8221; as being synonymous with &#8220;in respect of&#8221; he was wrong so to do.  The court&#8217;s task is to interpret the words of the statute not a more broadly expressed synonym.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The natural and ordinary meaning of &#8220;for&#8221; was recognised by Coulson LJ at para 37: &#8220;Dictionary definitions refer to it as a function word to indicate purpose, or to indicate the object of an activity. That purpose or object of the agreement is the carrying out of construction operations, as defined in section 105.&#8221;  This is similar to the approach of Stuart-Smith LJ at para 91 who considered that in this context it was a word &#8220;indicating and followed by the purpose of the agreement&#8221;.  Peter Jackson LJ similarly stated that &#8220;the word &#8216;for&#8217; requires that the purpose or object of the agreement must be the </span><span style="font-style:italic;font-family:'Times New Roman'">carrying out </span><span style="font-family:'Times New Roman'">of construction operations&#8221; (para 152, emphasis in original).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The question therefore is whether the object or purpose of the agreement is the carrying out of construction operations.  As Stuart-Smith LJ observes at para 92, typically this is identified by the primary obligations being undertaken under the agreement, such as a contract &#8220;for&#8221; the sale of goods or the sale of land.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As a generality, it is difficult to see how the object or purpose of a collateral warranty is the carrying out of construction operations.  The main object or purpose of such a warranty is to afford a right of action in respect of defectively carried out construction work, not the carrying out of such work.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Whether or not the carrying out of construction operations has to be the main object or purpose of the agreement, it must surely be necessary for the agreement to give rise to the carrying out of such operations.  A collateral warranty that merely promises to the beneficiary that the construction operations undertaken under the building contract will be performed does not do so.  In such a case, it is the building contract that gives rise to the carrying out of the construction operations; not the &#8220;collateral&#8221; warranty. Any obligation undertaken to the beneficiary to carry out construction operations derives from and mirrors the obligations already undertaken under the building contract.  Everything is referable to the building contract and replicates duties owed thereunder.  There is no distinct or separate obligation undertaken to the beneficiary.  There is no promise to carry out any construction operation for the beneficiary; merely a promise to the beneficiary that the construction operations to be carried out for someone else under the building contract will be performed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The disconnect between a collateral warranty which promises that the building contract will be performed and the carrying out of construction operations is highlighted by the fact that the beneficiary has no control over how those operations are performed.  The beneficiary is not entitled, for example, to instruct how the works are carried out, to order variations or to suspend or terminate the works.  The beneficiary &#8220;follows the fortunes&#8221; of the employer under the building contract but has no employment role or rights.  If the building contract is terminated by the employer the beneficiary has no right to require the contractor to continue the works unless step-in rights are exercised.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Indeed, if a beneficiary did have any right of control or intervention the practical consequences would, as Stuart-Smith LJ observed, be &#8220;daunting&#8221;.  In para 132 he gives the example of repudiation of the building contract by the contractor:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;It is not to be assumed that the employer, who is a party to the building contract, will see eye to eye with the beneficiary, who is not. It is entirely conceivable that the employer may not wish to try to compel the repudiating contractor to complete but wishes to engage someone else. And if intervention were to be entertained in a case of repudiation, it is by no means clear what happens if the contractor&#8217;s repudiation is not accepted by the employer; or what happens if the beneficiary considers the contractor&#8217;s conduct to be repudiatory but the employer and contractor do not.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In para 31 of his judgment Coulson LJ stated that an important indicator of whether there is an agreement for the carrying out of construction operations is whether there is a promise &#8220;which regulates (at least in part) the ongoing carrying out of construction operations&#8221;.  However, a promise to the beneficiary that the contractor will perform its obligations under the building contract does not give the beneficiary any right to &#8220;regulate&#8221; the construction operations thereunder.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For all these reasons, I consider that a collateral warranty will not be an agreement &#8220;for&#8221; the carrying out of construction operations for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> if it merely promises to perform obligations owed to someone else under the building contract.  There needs to be a separate or distinct obligation to carry out construction operations for the beneficiary; not one which is merely derivative and reflective of obligations owed under the building contract.  This is what I understand Stuart-Smith LJ to mean when he speaks throughout his judgment of the need for a &#8220;direct&#8221; contractual obligation.  This does not prevent the collateral warranty overcoming the difficulty arising from </span><span style="font-style:italic;font-family:'Times New Roman'">Murphy v Brentwood District Council </span><span style="font-family:'Times New Roman'">referred to earlier.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Issue (2): Contractual interpretation: how should the Abbey Collateral Warranty be</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="text-transform:none;font-family:'Times New Roman'">construed and, so construed, is it an agreement &#8220;for&#8230; the carrying out of construction operations&#8221;?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Stuart-Smith LJ placed considerable reliance on the use of the word &#8220;warrants&#8221; in clause 4.1.  He considered that &#8220;the normal meaning of the verb to warrant is to provide a promise about a fact, circumstance or outcome&#8221; (para 107).  That may indeed be how it is commonly used but its meaning depends on its context.  Here I agree with Alexander Nissen KC for Abbey, that it simply means promise.  As Devlin J stated in </span><span style="font-style:italic;font-family:'Times New Roman'">Compania Naviera Maropan SA v Bowaters Lloyd Pulp and Paper Mills Ltd </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1955] 2 QB 68" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1955">[1955] 2 QB 68</ref> at 76: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;A promise to deliver 1 lb. of first quality beans is just the same as a promise to deliver 1 lb. of beans, warranted first quality only. Likewise, an obligation to order a vessel to a safe port on the east coast of Newfoundland is just the same as an obligation to order a vessel to a port on the east coast of Newfoundland, warranted safe. There is no magic in the word &#8216;warranted&#8217;; every term in a contract is at heart a warranty.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Critical to the decision of the majority was their interpretation of clause 4.1(a) of the Abbey Collateral Warranty under which Simply promised to Abbey that it &#8220;has performed and will continue to perform&#8221; its obligations under the Building Contract.  I agree that this is, at least potentially, &#8220;a warranty as to future performance&#8221; (per Coulson LJ at para 62).  I also agree that it is a &#8220;promise to carry out the works&#8221; which is made to Abbey (per Peter Jackson LJ at para 158).  It is, however, an entirely derivative promise.  The contractor is not thereby promising anything that is not already promised to the employer under the Building Contract.  It does not in itself give rise to any construction operation.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On the approach of the majority any collateral warranty which contains a promise in materially similar terms to clause 4.1(a) will bring the agreement within <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref>.  This will be so even if, as in this case, all construction operations and remedial construction operations have already been performed at the time of the execution of the collateral warranty so that there is no issue as to future or continuing performance.  I do not consider that these few words can bear the significance which the majority place upon them.  A collateral warranty has to be expressed in such terms because it needs to cover all the contractor&#8217;s obligations under the building contract and it may well be given while the works are still being carried out.  It therefore needs to be drafted in terms which cover past and future performance.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As Stuart-Smith LJ explains at para 112:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;&#8230;given that the whole purpose of the warranty was to provide Abbey with a right of action in relation to [Simply&#8217;s] performance of its obligations under the building contract, it was necessary to make clear that [Simply&#8217;s] warranty covered all of those obligations, irrespective of whether they arose before or after the execution of the Abbey Collateral Warranty. Second, and related to the first, the wider context shows that the terms of the collateral warranty were fixed at a time when it was not known when the warranties would actually be given. It seems to me to be obvious that the collateral warranty provided for by Schedule 5 of the building contract must mean the same thing whenever it was executed &#8230; That being so, it was necessary to adopt a form of words which made clear that all of [Simply&#8217;s] performance of its obligations was warranted in the same terms and to the same effect whenever the warranty was executed.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The approach of the majority also means that whether or not a collateral warranty falls within <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/104/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 104(1)</ref> will always depend on the niceties of the language used and in particular on whether or not it contains language materially similar to clause 4.1(a).  This is likely to lead to fine distinctions being drawn and to disputes in relation both to the drafting of collateral warranties and to their proper interpretation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I agree with Ms Day for Simply that a far more principled and workable approach is for the dividing line to be between collateral warranties which merely replicate undertakings given in the building contract and those which give rise to separate or distinct undertakings for the carrying out of construction operations.  That is a distinction which can be easily understood and applied.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Adopting such an approach is likely to mean that most collateral warranties will not be construction contracts.  There are, however, good reasons for concluding that, in general, such warranties were not intended to fall within the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>.  In particular, aside from reasons already given above, it is notable how the various payment related provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1996/53/section/109" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 109</ref> to 113) are simply inapplicable to collateral warranties since the consideration provided by the beneficiary is typically nominal, such as the &#163;1 in this case.  Further, it follows that one of the twin purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>, improvement of cashflow, is not furthered by its application to collateral warranties.  Unless step-in rights are exercised the beneficiary has no construction related payment obligations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> It is also in the interests of certainty that there is a dividing line which means that collateral warranties are generally outside <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> rather than everything being dependent on the wording of the particular collateral warranty in issue.  That will assist those in the construction industry, and those advising them, to know where they stand.  Moreover, if it is wished to have a right to adjudication that can always be provided for.  Adjudication will, however, be voluntary rather than mandatory.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The difficulties which may otherwise arise are illustrated by the present case and the differing answers given by experienced judges to the issue raised.  </span><span style="font-family:'Times New Roman';color:#000000">Two of the judges concluded that the Abbey Collateral Warranty was a construction contract, whilst two of the judges concluded that it was not, and differing reasons and rationales were provided by all four of them</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For completeness, it should be noted that Abbey had a further argument, advanced orally by Tom Owen KC, that there were provisions in the Building Contract which supported its case that the Abbey Collateral Warranty was a construction contract, namely provisions making specific provision for beneficiary rights, such as to allow the beneficiary to carry out works (clause 2.6) and access to the Works on site (clause 3.1).  Whilst the Abbey Collateral Warranty may have entitled Abbey to enforce these rights, the rights do not involve or require the carrying out of construction operations by Simply and their existence cannot and does not transform that Warranty into a contract for the carrying out of such operations.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">The status of</span><span style="font-style:italic;text-transform:none;font-family:'Times New Roman'"> Parkwood</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I agree with the majority of the Court of Appeal that </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood </span><span style="font-family:'Times New Roman'">cannot be satisfactorily distinguished.  The fact that a warranty was given rather than a warranty and an undertaking makes no difference.  What matters is the substance of the promise made rather than its label.  Further, the substance of the promise made in clause 4.1(a) of the Abbey Collateral Warranty is the same as that given in clause 1(1) of the collateral warranty in </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood.  </span><span style="font-family:'Times New Roman'">Although clause 4.1(a) does not refer to &#8220;completing&#8221; the works, a promise by the contractor to perform its obligations under the building contract includes completion of the works.  Both the majority of the Court of Appeal and Akenhead J relied critically on the wording of these respective provisions.  All the reasons given above as to why it was inappropriate for the majority of the Court of Appeal to do so apply equally to the approach and conclusion of Akenhead J.  It follows that if, as I conclude, the decision of the majority of the Court of Appeal was wrong, so must be the decision of Akenhead J.  Despite the respect due to a decision of such an experienced TCC judge, and the fact that it was decided some years ago, I am therefore compelled to conclude that the decision should be overruled.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Prior to </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood </span><span style="font-family:'Times New Roman'">the general understanding in the construction industry appears to have been that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/53" uk:canonical="1996 c. 53" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> did not apply to collateral warranties and we have been shown no textbook or commentary at that time which suggested otherwise.  This is why the decision is said to have been a surprise.  The current release of the Manual of Construction Agreements summarises the position as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;A14[8D] The decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood Leisure </span><span style="font-family:'Times New Roman'">was received with dismay by some commentators, one of whom has described it as simply wrong, substantially on the grounds canvassed in earlier editions of this title, and on the ground that it mistakes a derivative obligation for a separate construction contract, which plainly, he said, it was not.&#8221; (Issue 43, May 2024)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Although Coulson LJ suggested that, despite that initial surprise, the construction industry may be taken to have broadly accepted that result, the litigation history of the present case suggests otherwise.  In any event, for the reasons set out above, there are both principled and practical grounds for overruling the decision and reverting to the position as it was generally understood to be before </span><span style="font-style:italic;font-family:'Times New Roman'">Parkwood.  </span><span style="font-family:'Times New Roman'">This allows parties to contract into the adjudication regime where this is seen as desirable but not to be fixed with an inability to contract out.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="ParaHeading1"><span style="text-transform:none;font-family:'Times New Roman'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I would answer what the parties agree to be the essential issues as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A collateral warranty will be an agreement &#8220;for &#8230; the carrying out of construction operations&#8221; if it is an agreement by which the contractor undertakes a contractual obligation to the beneficiary to carry out construction operations which is separate and distinct from the contractor&#8217;s obligation to do so under the building contract.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A collateral warranty where the contractor is merely warranting its performance of obligations owed to the employer under the building contract, will not be an agreement &#8220;for&#8221; the carrying out of construction operations.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I would therefore allow the appeal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

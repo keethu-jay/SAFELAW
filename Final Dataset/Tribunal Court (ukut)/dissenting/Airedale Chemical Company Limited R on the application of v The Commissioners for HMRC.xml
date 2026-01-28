@@ -1,0 +1,379 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/tcc/2025/65"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/tcc/2025/65"/>
+	  <FRBRdate date="2025-02-24" name="decision"/>
+	  <FRBRauthor href="#ukut-tcc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="65"/>
+	  <FRBRname value="Airedale Chemical Company Limited, R (on the application of) v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2025/65"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2025/65"/>
+	  <FRBRdate date="2025-02-24" name="decision"/>
+	  <FRBRauthor href="#ukut-tcc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2025/65/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2025/65/data.xml"/>
+	  <FRBRdate date="2025-02-24T11:25:23" name="transform"/>
+	  <FRBRdate date="2025-08-16T19:22:39" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-02-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-tcc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-tax-and-chancery-chamber" showAs="United Kingdom Upper Tribunal (Tax and Chancery Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="airedale-chemical-company-limited" href="" showAs="AIREDALE CHEMICAL COMPANY LIMITED"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="defendant" href="" showAs="Defendant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-TCC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>65</uk:number>
+	<uk:cite>[2025] UKUT 65 (TCC)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>e722525e2a475236934561c9d6d63e232faaaab2706241ce883cd5c377d6a58c</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1 { text-align: justify; font-size: 16pt; color: #2F5496; }
+#judgment .Heading2 { text-align: justify; font-size: 13pt; color: #2F5496; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { text-align: justify; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .Heading1Char { font-size: 16pt; color: #2F5496; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p>Neutral Citation Number <neutralCitation style="font-weight:bold;font-family:'Book Antiqua';color:#000000">[2025] UKUT 00065 (TCC)</neutralCitation></p>
+      <p><img src="image1.png" style="width:82.49pt;height:72pt"/></p>
+      <p style="text-align:right">                         Case Number: UT/2024/000066</p>
+      <p style="text-align:left"><courtType refersTo="#ukut-tcc" style="font-weight:bold">UPPER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-tcc" style="font-weight:bold">(Tax and Chancery Chamber)</courtType></p>
+      <p><span style="font-style:italic">JUDICIAL REVIEW &#8211; PROCEDURE &#8211; Claimants&#8217; application for disclosure&#8211; application refused</span></p>
+      <p style="text-align:right;margin-left:3.05in">Application determined on the papers</p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>20 February 2025</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">UPPER TRIBUNAL JUDGE SWAMI RAGHAVAN</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center;text-indent:0.5in"><span style="font-weight:bold">THE KING (on the application of)</span></p>
+      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in"><party as="#claimant" refersTo="#airedale-chemical-company-limited" style="font-weight:bold">AIREDALE CHEMICAL COMPANY LIMITED</party></p>
+      <p style="text-align:right"><role refersTo="#claimant" style="font-weight:bold">Claimants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#defendant" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#defendant" style="font-weight:bold">Defendants</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Claimant:<marker name="tab"/>PricewaterhouseCoopers LLP</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Defendants: <marker name="tab"/>Christopher Stone KC and Ishaani Shrivastava, counsel, instructed by the General Counsel and Solicitor to His Majesty&#8217;s Revenue and Customs</p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This decision, on the papers, concerns the claimant&#8217;s interim application for disclosure of documents for the purposes of its judicial review claim which is listed to be heard at a substantive hearing window beginning on 12 May 2025. For the reasons explained below, I refuse the disclosure application.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The parties&#8217; submissions, for which I am grateful, were contained in the claimants&#8217; application of 2 January 2024, HMRC&#8217;s response of 17 January 2025 and the claimants&#8217; reply of 24 January 2025.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The judicial review, in relation to which permission was granted by the Administrative Court and then transferred to the Upper Tribunal, is against the lawfulness of HMRC&#8217;s decision made by a letter of 22 June 2022 of HMRC&#8217;s officer, Samantha Fletcher. That decision refused the claimant&#8217;s requests for repayment under the Disguised Remuneration Repayment Scheme (&#8220;Repayment Scheme&#8221;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The claimant&#8217;s judicial review will be heard together with the judicial review of claims of Fluid Systems Technologies (Scotland) Limited and London Fluid System Technologies Limited (&#8220;the Fluid claimants&#8221;) which also concern refusal decisions under the Repayment Scheme.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">A more detailed summary of the background to the Repayment Scheme appears in <span style="font-style:italic">R (Sensor Solutions Ltd) v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2024/1119" uk:canonical="[2024] EWHC 1119 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWHC 1119 (Admin)</ref> (at [4]) but in outline the repayments sought related to sums previously settled by agreement with HMRC to avoid the application of the Loan Charge legislation (<ref href="http://www.legislation.gov.uk/id/ukpga/2017/32" uk:canonical="2017 c. 32" uk:origin="TNA" uk:type="legislation">Finance (No. 2) Act 2017</ref>). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Repayment Scheme was established pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">s20</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14" uk:canonical="2020 c. 14" uk:origin="TNA" uk:type="legislation">Finance Act 2020</ref> (&#8220;FA 2020&#8221;). One of the relevant criteria for repayment concerned whether there had been &#8220;reasonable disclosure&#8221; (defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">s20</ref>(5(a)-(d) FA 2020 and in particular, under <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20/5" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">s20(5)</ref>(d), whether certain information had been provided:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:0.79in"> &#8220;&#8230;as was sufficient for it to be apparent that a reasonable case could have made that the amount concerned was payable to the Commissioners&#8221;. </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">Legal test and claimant&#8217;s grounds</heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Upper Tribunal has summarised the relevant principles applying to disclosure and the duty of candour in judicial review cases in <span style="font-style:italic">R (on the application of Rettig Heating Group UK Ltd) v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/315" uk:canonical="[2024] UKUT 315 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 315 (TCC)</ref> at [17] and [18].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The test for disclosure is whether in the given case, "disclosure appears to be necessary in order to resolve the matter fairly and justly" (<span style="font-style:italic">Tweed v Northern Ireland Parades Commission</span> [2007] (HL(NI)) 1 AC 650 at [3]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The duty of candour as explained by the Court of Appeal in <span style="font-style:italic">Secretary of State for Foreign and Commonwealth Affairs v Quark Fishing Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/1409" uk:canonical="[2002] EWCA Civ 1409" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 1409</ref> (at [50]) is: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"> 3 </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">"... a very high duty on public authority respondents... to assist the court with full and accurate explanations of all the facts relevant to the issue the court must decide&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The judicial review grounds the claimant says are relevant to its application for disclosure application, are summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC misdirected itself in law. This concerns whether&#8220; reasonable disclosure&#8221; (as defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20/5" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">section 20(5)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14" uk:canonical="2020 c. 14" uk:origin="TNA" uk:type="legislation">Finance Act 2020</ref>) was made (Ground 1).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC acted unreasonably or irrationally in deciding in refusing repayment on the basis of a lack of &#8220;reasonable disclosure&#8221; (Ground 2).</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The claimant argues HMRC have not complied with the duty of candour and that in the circumstances specific disclosure is required for the fair and just resolution of the issues. Two discrete categories of disclosure are sought which I deal with in turn.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">Documents surrounding Operational Note</heading>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The first set of disclosure sought concerns documents which broadly go to the drafting and formulation of guidance set out in an HMRC &#8220;Operational Note&#8221;, a version of which is exhibited to Ms Flecher&#8217;s witness statement namely:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Taxquotation" style="margin-left:0.79in">&#8220;Documents that demonstrate how the operational note relied upon by Samantha Fletcher (to determine whether reasonable disclosure was made in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20/5" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">section 20(5)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14" uk:canonical="2020 c. 14" uk:origin="TNA" uk:type="legislation">Finance Act 2020</ref>) was drafted, including but not limited to: </p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt">i.</num>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">correspondence around the decisions to include certain examples in the operational note (i.e. why a certain piece of information was needed for it to be clear a reasonable disclosure could be made);</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">ii.</num>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">earlier drafts and comments on those drafts (given the document exhibited to Samantha Fletcher&#8217;s witness statement at SF1/40 contains tracked changes, we would expect correspondence in deliberation of the operational note and iterations of the Operation Note itself to exist); and </p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">iii.</num>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">correspondence of/between any policy team or any other relevant person regarding the content of the operational note.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The claimant points to multiple references in Ms Fletcher&#8217;s witness statement which show she applied the content of the Operational Note to determine whether the claimant had made reasonable disclosure. It goes on to submit however that no explanation as to the reasoning underpinning the approach adopted in the Operational Note and/or the reasons for the particular gloss which HMRC sought to apply to the legislative wording has been provided. It is submitted this is necessary to understand extent to which the policy Ms Fletcher applied was compliant with <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">s20</ref> FA 2020. As regards the approach to be taken to the question of whether HMRC had misdirected itself in law, the claimant highlights the approach the Upper Tribunal had indicated should be taken in a procedural application which had concerned the similar misdirection of law ground raised the Fluid claimants (published with reference <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/00322" uk:canonical="[2024] UKUT 00322 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 00322 (TCC)</ref>). In that decision the Upper Tribunal rejected HMRC&#8217;s argument to the effect that ground only concerned the correct legal interpretation of the relevant legislative provision and that there was no need to resolve what test the decision maker had in fact applied.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For the reasons regarding the irrelevance of the documents sought ,which HMRC explain in their response. I disagree however that the documents sought are necessary for the fair and just resolution of the issues in the case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">I can see how the Operational Note itself (which, as mentioned already, appears as an exhibit to Ms Fletcher&#8217;s statement), being a note that was relied on by Ms Fletcher in making her decision, is relevant to determining what test Ms Fletcher applied. Insofar as it is, it may then be relevant to consider the extent to which that Operational Note correctly reflected whatever the Upper Tribunal subsequently determines to be the correct interpretation of the relevant legal test. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">By contrast, the documents sought explaining how the Operational Note was drafted will be irrelevant. There is nothing in the witness statement indicating these extraneous materials had any impact on Ms Fletcher&#8217;s decision making. So, the documents would not be relevant to the question of what actual test she applied. Nor will such documents be relevant to the other aspect entailed in a misdirection allegation of establishing the correct legal interpretation of the relevant statutory provision. (Even the Operational Note, being guidance reflecting HMRC&#8217;s views would not be relevant to the determination of what that correct legal test is).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Contrary to the claimant&#8217;s application (at [18]) it does <span style="text-decoration-line:underline;text-decoration-style:solid">not</span> therefore follow from Ms Fletcher&#8217;s evidence (that she applied the Operational Note) that material relevant to <span style="font-style:italic">the creation</span> of the Operational Note is necessary to understand whether HMRC misdirected itself in law in the decision. Nor does it follow that it is necessary for that information to the disclosed to consider whether HMRC acted unreasonably or irrationally in the sense argued for in the claimant&#8217;s Ground 2. (As formulated this does not appear to concern the unreasonableness or irrationality in terms of HMRC&#8217;s decision making process but argues that on the basis of the relevant individual&#8217;s tax return information, HMRC&#8217;s conclusion that none of the statutory conditions were met, read in the light of the statutory definition, was a decision no reasonable authority could have come to).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Taxheading1">Documents relating to Employer Financed Retirement Benefit Schemes (EFRBS)</heading>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In summary, the second set of disclosure seeks disclosure of 1) HMRC&#8217;s policy/internal communications in respect of issuing Regulation 80 PAYE determinations, and s8 NICs decision notices where use of an EFRBS was suspected, and 2) evidence as to how the decision was made to issue such determinations, decisions and county recovery proceedings for NICs.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It is submitted that HMRC&#8217;s historical challenges to similar tax arrangements and the decisions in respect of PAYE, NICs liability and NICs recovery are a relevant factor in determining whether a disclosure provided sufficient information &#8220;&#8230;for it to be apparent that a reasonable case could have been made that an amount was payable to the Commissioners&#8221; (for the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20/5" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">s20(5)</ref>(d) FA 2020 (at [4] above). The claimant argues a summary of HMRC&#8217;s knowledge of EFRBS is required in order to under whether HMRC misdirected itself in law or acted unreasonably or irrationally in its decision making process.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In agreement with HMRC&#8217;s submissions however, information regarding the junctures when HMRC considered it appropriate to commence liability and recovery proceeding will not throw light on whether the information provided was sufficient &#8220;&#8230;for it to be apparent that a reasonable case could have been made&#8230;&#8221;. While evidence sought as to HMRC&#8217;s policy on the issue of decisions/determinations might indicate when it was that that <span style="font-style:italic">HMRC</span> considered it had a reasonable case, that would be besides the point on the issue of whether the information provided was sufficient from an objective point of view &#8220;&#8230;for it to be apparent&#8221;. Similarly, evidence as how such determinations, decisions and recovery proceedings were actually taken in respect of the claimant would not help on whether the relevant test was satisfied objectively.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> To approach the matter in the way the claimant suggests would lead to counter-intuitive result in the context of a provision concerning whether returns contained &#8220;reasonable disclosure&#8221;. Satisfaction of the &#8220;reasonable disclosure&#8221; requirement and resolution of whether information was sufficient &#8220;for it to be apparent&#8221; would depend on how stringent or lenient a  policy stance (perhaps known only to HMRC) HMRC happened to adopt in relation to what it considered was needed to show when the requisite reasonable case could have been made. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The claimant relies on a passage of Dias J&#8217;s judgment in <span style="font-style:italic">Sensor </span>(at [45] and underlined below) for the proposition that HMRC&#8217;s state of knowledge is relevant to whether the <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20/5" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">s20(5)</ref>(d) test is met, but that reliance is misplaced. In that paragraph, Dias J explained (in rejecting an HMRC submission that the <ref href="http://www.legislation.gov.uk/id/ukpga/2020/14/section/20/5" uk:canonical="2020 c. 14 s. 20" uk:origin="TNA" uk:type="legislation">s20(5)</ref>(d) test was not satisfied where a note (note 10) to accounts had expressly recorded the director&#8217;s belief that awards out of the scheme would not result in any PAYE/NIC liability):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:0.79in">&#8220;I would not have found against the Claimant on this point alone. If the quasi-loans had been disclosed by virtue of AAG1, then it seems to me that the information available would have been sufficient for HMRC reasonably to have concluded that tax was payable even though note 10 did not explicitly state that the avoidance of tax was because of the EFRBS. I accept [<span style="font-style:italic">the claimant&#8217;s</span>]submission that <span style="text-decoration-line:underline;text-decoration-style:solid">HMRC had consistently been challenging schemes of this nature and that the mere assertion of the taxpayer that there was no liability could not reasonably have been regarded as conclusive.</span>&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As HMRC&#8217;s submission point out, Dias J was rejecting HMRC&#8217;s argument that simply because the taxpayer had said no liability arose, that did not mean the information could not be sufficient. The reasoning (that matters of assertion were not conclusive) was not dependent on HMRC&#8217;s approach and the reference to HMRC&#8217;s history of challenge was merely illustrative. (Moreover the reasoning in any event appears obiter given the court&#8217;s earlier conclusions that there was no disclosure of the relevant loans).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Accordingly, I am not satisfied the evidence sought is required for the fair and just resolution of the issue of whether HMRC had misdirected itself in law (Ground 1). Evidence as to the policy on liability and recovery decisions and in relation to the particular decisions deployed in respect of the claimant are not necessary to determine what test Ms Fletcher in fact applied in fact. Nor, by definition, could evidence be necessary to determine the statutory interpretation issue of what the correct legal test was. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The evidence also does not assist on Ground 2. The issues of reasonableness and rationality raised by Ground 2 similarly concern the objective evaluation of information. For the reasons discussed that evaluation would not be impacted by HMRC&#8217;s policy on issue of liability and recovery or its decision making on such issue in respect of the claimant.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Taxheading1">Conclusion</heading>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Neither sets of disclosure sought are required in order to resolve the matters before the tribunal fairly and justly. Contrary to the claimant&#8217;s submission, for similar reasons concerning the lack of assistance the documents sought would provide to resolution of the issues, I disagree that HMRC have failed in their duty of candour in not providing such documents. Given my conclusion that disclosure is not necessary I do not deal with the further points raised by the parties regarding the breadth of request of disclosure sought and the time and costs issues for HMRC if they were ordered to comply with it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The claimant&#8217;s application for disclosure is dismissed.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_5_1">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">UPPER TRIBUNAL JUDGE SWAMI RAGHAVAN</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_5_2">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">Release date: </span><docDate date="2025-02-24" refersTo="#decision" style="font-weight:bold">24 February 2025</docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

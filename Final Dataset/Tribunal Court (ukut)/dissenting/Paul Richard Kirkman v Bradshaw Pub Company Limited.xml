@@ -1,0 +1,481 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/110"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/110"/>
+	  <FRBRdate date="2025-03-27" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="110"/>
+	  <FRBRname value="Paul Richard Kirkman v Bradshaw Pub Company Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/110"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/110"/>
+	  <FRBRdate date="2025-03-27" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/110/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/110/data.xml"/>
+	  <FRBRdate date="2025-04-01T10:19:52" name="transform"/>
+	  <FRBRdate date="2025-08-16T21:22:14" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-27" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="paul-richard-kirkman" href="" showAs="PAUL RICHARD KIRKMAN"/>
+	<TLCPerson eId="bradshaw-pub-company-limited" href="" showAs="BRADSHAW PUB COMPANY LIMITED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>110</uk:number>
+	<uk:cite>[2025] UKUT 110 (LC)</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>ec36d513a90fc1b6b46ee2e3e20dd3db0855bcb6da0946626047c1b42b6f2102</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Paranumbering { margin-left: 0in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; font-size: 11pt; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .cofootnotenode { }
+#judgment .ParanumberingChar { font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.jpg" style="width:108.61pt;height:88.41pt"/></p>
+      <p><span style="font-weight:bold">Neutral Citation Number: </span><neutralCitation style="font-weight:bold">[2025] UKUT 110 (LC)</neutralCitation><span style="font-weight:bold"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Case No: LC-2024-472</span></p>
+      <p><courtType refersTo="#ukut-lc" style="font-weight:bold">IN THE UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p><span style="font-weight:bold">APPEAL AGAINST A DECISION OF THE FIRST-TIER TRIBUNAL PROPERTY CHAMBER</span></p>
+      <p><span style="font-weight:bold">FTT Ref: 2022/0720</span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold">27 March 2025</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">   TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p><span style="font-style:italic;font-weight:bold">LAND REGISTRATION &#8211; ADVERSE POSSESSION &#8211; factual possession &#8211; narrow strip of unbuilt land between two buildings both secured by applicant &#8211; used for storage but not enclosed on one side &#8211; whether applicant had sufficient control of the whole to be in factual possession of the unbuilt land &#8211; appeal allowed</span></p>
+      <p><span style="font-weight:bold">BETWEEN:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#paul-richard-kirkman" style="font-weight:bold">PAUL RICHARD KIRKMAN</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+      <p style="text-align:center;margin-left:0.88in;text-indent:-0.88in"><party as="#respondent" refersTo="#bradshaw-pub-company-limited" style="font-weight:bold;text-transform:uppercase">BRADSHAW PUB COMPANY LIMITED</party></p>
+      <p style="text-align:right;text-indent:-0.88in"><role refersTo="#respondent" style="font-weight:bold">                                                                                                                       Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">   Land on the South Side of Well Heads,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Thornton, Bradford BD13 3SJ</span></p>
+      <p style="text-align:center"><span style="font-weight:bold"> Martin Rodger KC, </span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Deputy Chamber President</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Determination on written representations</span></p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold">&#169; CROWN COPYRIGHT 2025</span></p>
+      <p>The following cases are referred to in this decision:</p>
+      <p><span style="font-style:italic;font-size:11pt">J A Pye (Oxford) Ltd v Graham</span><span style="font-size:11pt"> [2003] UKHL 30, [2003] AC 419</span></p>
+      <p><span style="font-style:italic;font-size:11pt">Pilford v Greenmanor Ltd</span><span style="font-size:11pt"> [2012] EWCA Civ 756     </span></p>
+      <p><span style="font-style:italic">Powell v McFarlane</span> (1977) 38 P &amp; CR 6 452</p>
+      <p><span style="font-style:italic">Roberts v Swangrove Estates Ltd </span>[2007] EWHC 513 (Ch), [2007] 2 P &amp; CR 17</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">This appeal is against a decision of the First-tier Tribunal (Property Chamber) published on 15 May 2024 in which the Judge explained her reasons for directing the Chief Land Registrar to give effect, in part only, to an application by the appellant, Mr Kirkman, and his wife, Mrs Christine Kirkman, for first registration of land on the South side of Well Heads near Bradford on the basis of adverse possession.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Permission to appeal was granted by this Tribunal. Before the FTT the application for first registration was objected to by the respondent, Bradshaw Pub Company Ltd, but it has chosen not to participate in the appeal.  For that reason, and with the agreement of the appellant, the Tribunal directed that the appeal would be dealt with in writing. Submissions in support of the appeal have been provided by Mr Kirkman himself.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold">The application land</span></heading>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Well Heads, formerly known as Close Head Lane, is a country lane on the west side of Bradford.  For most of its length it passes through open farmland but about halfway between Keelham and Thornton a public house and a terrace of cottages stand on the north side of the lane.  There are about thirty cottages and a few larger houses between the pub at the eastern end of the hamlet and a stone barn at the western end.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The land with which these proceedings are concerned is on the south side of Well Heads, immediately opposite the row of cottages at its western end.  It comprises one of a pair of stone domestic outhouses, a narrow yard between the two buildings and former &#8220;Ashes Places&#8221; (areas for depositing ash from domestic coal fires) behind the smaller of the two.  The outhouses are now dilapidated structures which, together with the Ashes Places, are assumed to have been provided in the past for the convenience of the occupants of the cottages.  Their original purpose can be inferred from their names, the Privy and the Washhouse.  The whole area is show on the plan below.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">Looking at the outhouses from the north side of Well Heads, with one&#8217;s back to the cottages, the Washhouse is to the left, and the Privy (with the Ashes Places behind) is the smaller building to the right.  The Washhouse is shown edged in red on the plan.  It is a single storey stone building, with a window on the north side, and another on the west side.  The only entrance to the Washhouse is by a door also on the west side, close to road and facing the Privy.  According to Mr Kirkman, the dimensions of the Washhouse are 3.56 metres by 5.01 metres (approximately 11 feet 8 inches by 16 feet 5 inches).  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The Privy is shown edged in green on the plan.  It is a smaller building, again of stone, about 3.1 metres wide along its frontage to the road and a little more in depth.  It has a single window on the north side and is entered through an opening on the eastern side, opposite the entrance to the Washhouse.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The distance between the two buildings is 2.58 metres, or approximately 8 feet 6 inches, only slightly wider than a standard parking space (2.4 metres or approximately 7 feet 10 inches).  I will refer to the area between the buildings as the &#8220;outside area&#8221; to distinguish it from the Ashes Places, which are behind the Privy.  The outside area is not separated from the road by any fence or gate and leads only to the entrances to the two buildings and to the Ashes Places.  Other than opening on to the road, the whole of the outside area and the Ashes Places are enclosed by the walls of the two buildings and by a 2 metre high stone boundary wall also shown on the plan.  </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_1">
+	    <content>
+	      <p class="NormalWeb" style="text-align:center"><img src="image2.png" style="width:350.12pt;height:431.75pt"/></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold">The background facts</span></heading>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">It appears that, historically, the Privy, the Washhouse and the Ashes Places were facilities used by the residents of at least some of the properties opposite. What rights were enjoyed, and by which properties, is far from clear.  Title to the Privy is registered.  It was originally part of the same title as No.2 Well Heads which had rights recorded as having been granted in 1928 to use part of the Ashes Places.  When No. 3 was first registered in 1987 the Property Register stated that it had the benefit of rights to use the Ashes Places, Privy and Washhouse.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">In 1979 the owner of No. 3 Well Heads, Marjorie Lofthouse, purported to assign the benefit of the right to use the Ashes Places, Privy and Washhouse by deed to Roland and Marie Lofthouse who owned and lived at No. 6 Well Heads.  Similar deeds of assignment are also said to have been entered into by the then owners of Nos. 4 and 5 Well Heads.  At that time Mr Lofthouse operated a car servicing and repair business from Nos. 6 and 12, on which a garage then stood, and from the Washhouse.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">Mr Kirkman purchased the Privy, together with Nos. 6 and 12 Well Heads from Mr and Mrs Lofthouse in September 1988. He sold 6 Well Heads almost immediately. In 2022 the Privy and No. 12 were registered in the names of Mr and Mrs Kirkman. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">Mr Kirkman did not acquire title to the Washhouse, the outside area or the Ashes Places in 1988.  Mr and Mrs Lofthouse did not themselves have title and while they claimed to have been in adverse possession from at least 1979, that was not sufficient to enable them to claim possessory title.  When the Privy was sold to Mr Kirkman, Mr Lofthouse made a statutory declaration concerning his acquisition of rights to use the Washhouse and Ashes Places by various assignments and his use of the Washhouse and the outside area.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The respondent&#8217;s name suggests that it is a pub company, but it purchased 3 Well Heads in 2019 as a holiday rental property. When Mr and Mrs Kirkman applied for first registration on 21 April 2021 in respect of the whole of the parcel of land shaded yellow on the plan and comprising the Washhouse, the Ashes Places and the outside area (&#8220;the Disputed Land&#8221;) the respondent objected, on the basis that in its capacity as owner of No. 3 Well Heads it had rights to use the Disputed Land.  It did not claim to have any knowledge of the Disputed Land before its acquisition of No. 3, nor did it suggest that its predecessors had used it themselves.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Relevant legal principles</span></heading>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The relevant legal principles were not contentious before the FTT.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">To be entitled to first registration it was for Mr and Mrs Kirkman to demonstrate both factual possession of the Disputed Land, and an intention to possess it, for any 12 year period expiring prior to their application. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">In <span style="font-style:italic">Powell v McFarlane</span> (1977) 38 P &amp; CR 6 452 at 470-1, (cited with approval by Lord Browne-Wilkinson in <span style="font-style:italic">J A Pye (Oxford) Ltd v Graham</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2003/30" uk:canonical="[2003] UKHL 30" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] UKHL 30</ref>, at [41]) Slade J explained the first of these requirements, factual possession, in this way:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>"(3)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">Factual possession signifies an appropriate degree of physical control. &#8230; The question what acts constitute a sufficient degree of exclusive physical control must depend on the circumstances, in particular the nature of the land and the manner in which land of that nature is commonly used or enjoyed. &#8230;. Everything must depend on the particular circumstances, but broadly, I think what must be shown as constituting factual possession is that the alleged possessor has been dealing with the land in question as an occupying owner might have been expected to deal with it and that no-one else has done so."</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">As for the mental element of possession, the intention to possess, this requires an "intention, in one's own name and on one's own behalf, to exclude the world at large, including the owner with the paper title if he be not himself the possessor, so far as is reasonably practicable and so far as the processes of the law will allow" (Slade J in <span style="font-style:italic">Powell</span> at 471-2, cited with approval in <span style="font-style:italic">Pye, </span>at [43]<span style="font-style:italic"/>). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The evidence of factual possession will normally be sufficient to demonstrate the necessary intention to possess; the Judge said that this will &#8220;often&#8221; be the case but will not always be so. A sentence from Lord Hutton&#8217;s concurring speech in <span style="font-style:italic">Pye </span>was cited for that proposition; the full passage, which came after discussion of the use which owners of the disputed land might have been expected to make of it, was as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;76.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in">I consider that such use of land by a person who is occupying it will normally make it clear that he has the requisite intention to possess and that such conduct should be viewed by a court as establishing that intention, unless the claimant with the paper title can adduce other evidence which points to a contrary conclusion. Where the evidence establishes that the person claiming title under the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref> has occupied the land and made full use of it in the way in which an owner would, I consider that in the normal case he will not have to adduce additional evidence to establish that he had the intention to possess. It is in cases where the acts in relation to the land of a person claiming title by adverse possession are equivocal and are open to more than one interpretation that those acts will be insufficient to establish the intention to possess. But it is different if the actions of the occupier make it clear that he is using the land in the way in which a full owner would and in such a way that the owner is excluded.&#8221;  </p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">An intention to possess must be established by evidence in cases where the actions of the occupier relied as showing factual possession are equivocal, as Slade J explained in <span style="font-style:italic">Powell</span> at 472 (cited with approval by Lord Hutton in <span style="font-style:italic">Pye, </span>at [77]):</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in">"If his acts are open to more than one interpretation and he has not made it perfectly plain to the world at large by his actions or words that he has intended to exclude the owner as best he can, the courts will treat him as not having had the requisite&#160;<span style="font-style:italic">animus possidendi</span>&#160;[intention to possess] and consequently as not having dispossessed the owner."</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold">The FTT&#8217;s decision</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">Having concisely stated the relevant legal principles, the Judge reviewed the evidence on which Mr Kirkman relied (his own and that of a Ms Birkett, who resides at No. 2 Well Heads) before making findings of fact. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">In summary, the Judge accepted evidence that Mr Kirkman was given the key to a padlock which secured the Washhouse door when he purchased the Privy in 1988 and had used the same padlock to secure the door until 2024, when he replaced it.  He was not aware that anyone else had a key.  He had paid the electricity bill for the Washhouse since 1988 and used it to store building materials and equipment while he carried out works to No. 12 Well Heads between November 1988 and October 1990.  He had continued to use the Disputed Land for storage since completing work on his house in 1990.  He stored concrete blocks and wall stone on the Ashes Places since at least 1990 and had removed a number of them in five or six carloads in 2019.  Since 2007 he had permanently parked a trailer between the two buildings.  He had previously cut down brambles which grew between the buildings and prevented access to the Privy (which did not have a door) but had not done so since the pandemic lockdown. He had been observed by Ms Birkett placing and removing items in the Washhouse and removing concrete blocks from the outside area where she also confirmed he had parked a trailer for a considerable number of years.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The Judge was not prepared to place weight on the statutory declaration of Mr Lofthouse, as he had not given evidence in person.  She said that the real issue in the case was not whether Mr and Mrs Kirkman had made use of the Disputed Land, but whether their use amounted to adverse possession.  On that issue the Judge distinguished between the Washhouse and the remainder of the Disputed Land.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The Washhouse had been in Mr Kirkman&#8217;s control since 1988, and he had paid the electricity bill. He had thereby demonstrated both factual possession and an intention to possess the Washhouse.  By &#8220;locking it and controlling access, he has made perfectly plain to the world at large that he has intended to exclude the owner as best he can.&#8221;  He and Mrs Kirkman had therefore established 12 years adverse possession of the Washhouse.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">As for the remainder of the Disputed Land, the Judge said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in">&#8220;The use of this area comprises the storage of concrete blocks, the parking of a trailer, and dealing with brambles. This does not account for all of the land, some of which remains open/vacant. Crucially, the land is not enclosed along on its northern edge. Without enclosure, it is difficult to show an appropriate degree of physical control. I am not satisfied the Applicants can demonstrate the necessary factual possession.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p style="text-align:justify;margin-left:0.39in">It followed that Mr and Mrs Kirkman had not established adverse possession in relation to the outside area or the Ashes Places and their application was cancelled so far as it related to those parts of the Disputed Land.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The Judge directed the Chief Land Registrar to give effect to only part of the application for first registration based on adverse possession, so far as it related to the Washhouse alone.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold">The appeal</span></heading>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">With the permission of this Tribunal, Mr Kirkman appeals against the FTT&#8217;s decision.  Mrs Kirkman was not named as an appellant, but nothing turns on that.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">In his grounds of appeal, Mr Kirkman challenged the Judge&#8217;s conclusion, on the undisputed facts, that he had not had factual possession of the entirety of the Disputed Land, including the outside area and the Ashes Places.  The essence of his case is that the Judge wrongly applied the law to the facts as she found them.  He emphasised the very restricted character of the area and its small size and challenged the significance which the Judge had attributed to the absence of enclosure on one small part of the whole site.  He relied on the decision of the Court of Appeal in <span style="font-style:italic">Pilford v Greenmanor Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/756" uk:canonical="[2012] EWCA Civ 756" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 756</ref> dismissing an appeal against a finding by the trial judge that a squatter had factual possession of land, part of which was unenclosed.   The judgment of the Court was given by Etherton LJ and included this passage, at [27]:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in">&#8220;It was not necessary for the respondents to establish that the compound was enclosed in such a way and to such an extent that no one could gain access save with the permission of the respondents.  There is no such legal requirement for adverse possession, as Ms Stevens-Hoare accepted. The respondents only had to show that their acts were sufficient to amount to physical custody and control bearing in mind the nature of the land.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Discussion</span></heading>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The Judge had the advantage of a site visit, whereas I have only plans and photographs prepared for the proceedings, some of which were included in the Judge&#8217;s decision.  It would be inappropriate for me to interfere with her application of the law to the facts unless I am satisfied that her assessment was clearly flawed.  I am so satisfied.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">It appears to me that the way in which the Judge arrived at her conclusion involved two errors.  The first was that she divided the site into separate components which she considered independently of each other, without either considering the land of which Mr Kirkman claimed to have been in possession as a whole or considering the functional relationship between the areas she identified and how the degree of control demonstrated over each of them reflected on the control exercised over the remainder.  The second was that the Judge did not consider how an area of land having the characteristics of the outside area and the Ashes Places would or could be used by an occupying owner.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The application for registration was made for the whole of the Disputed Land, comprising the Washhouse, the outside area and the Ashes Places.  Additionally, Mr Kirkman was the registered proprietor of the Privy, of which he was in actual or constructive possession.  The two buildings, the outside area lying between them and the Ashes Places lying behind the Privy formed a single geographical unit enclosed within continuous stone walls and capable of being accessed from the road at a single point.  It is true that parts of the geographical unit comprised buildings and part was open, but the whole was a visual unity, almost fully enclosed, occupying a restricted space, isolated from other buildings; it was also a functional unity, having formerly met various needs of the occupants of the cottages and subsequently, since 1988, being used for storage.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">When considering the issue of factual possession and control the Judge did not consider the whole of the land of which she found Mr Kirkland to have been in occupation for more than thirty years.  Nor did she consider whether the control which satisfied her that there was factual possession of the Washhouse (whether alone or in conjunction with the possession of the Privy) was evidence of factual possession of the whole unit.  That possibility is well covered by authority, including<span style="font-style:italic"> Powell v McFarlane </span>from which the Judge for the most part took her summary of the legal principles.  A little later in the passage dealing with factual possession from which the Judge quoted, at 471, Slade J observed:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in">&#8220;Whether or not acts of possession done on parts of an area establish title to the whole area must, however, be a matter of degree.  It is impossible to generalise with any precision as to what acts will or will not suffice to evidence factual possession.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.37in">The authorities are fully discussed by S. Jourdan KC and Oliver Radley-Gardner KC in <span style="font-style:italic">Adverse Possession</span>, 2<span style="vertical-align:super;font-size:smaller">nd</span> edn., at paras 10.09 to 10.28, but it is sufficient to refer to the decision of Lindsay J in <span style="font-style:italic">Roberts v Swangrove Estates Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2007/513" uk:canonical="[2007] EWHC 513 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 513 (Ch)</ref>, at [63] where, after referring to many of them, he concluded:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in">&#8220;There is thus ample authority for the proposition that acts on one part of an area may be treated as constituting possession of the whole area provided that there is &#8220;such a common character of locality as would raise a reasonable inference&#8221; that, if a person were possessed of one part of it as owner then he would so possess the whole of it.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.37in">Had the Judge considered whether the whole unit had the same common character and whether possession of the buildings could be treated as evidence of possession of the narrow area between them she would surely have concluded that it could.  The Washhouse and the Privy were almost within touching distance of each other, and both were entered directly from the open area so that anyone using the Washhouse for storage would necessarily use the open area for access.  Padlocking the door of the Washhouse was not only the exercise of control over the building itself, it also reflected on control of the areas immediately outside the building and within its restricted curtilage for the storage of the trailer and building materials.  It was obvious not only that somebody had secured the Washhouse, but that somebody was using the rest of the land.  The natural inference would be that the same person was doing both as was the case in fact.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.37in">The other matter which was not considered in the Judge&#8217;s decision was how the open area and the Ashes Places could in practice be used and how one would expect an occupying owner to deal with them in the circumstances.  There is force in Mr Kirkman&#8217;s submission that the Judge had insufficient regard for the practicalities of possession of this small area.  She attributed great weight to the fact that the open area was not fenced or gated across the single opening on to the road (&#8220;crucially, the land is not enclosed along its northern edge. Without enclosure, it is difficult to show an appropriate degree of physical control&#8221;).  She did not fall into the error of regarding enclosure as essential, but in my judgment she overstated its importance in the circumstances of this case. If the characteristics of the land are such that an occupying owner would not have been expected to enclose it, the failure of the applicant to enclose it is unlikely to be crucial and may even simply be irrelevant.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.37in">The absence of a fence or gate might have been crucial to the issue of factual possession if the land in question had been open, or if enclosure would have served some practical purpose.  But where the area is already enclosed around almost the whole of its boundary, and is as small as this area, some assessment of what would be practical is surely required.  The opening on to the road was obviously intended as access, so a fence or wall would have been pointless.  A gate across the whole width of the opening, all 2.58 metres of it, would have had to swing inwards to avoid blocking the footway and the road.  If left open, such a gate would block the doorway to one or other of the buildings and would have interfered with the use of the open area for parking a vehicle, which is one use to which an occupying owner might have wished to put it.  Allowing for the swing of a gate, the presence of the trailer at the end of the open area would have prevented the use of the remainder for any practical purpose.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.37in">I therefore disagree with the proposition that the absence of an enclosure across the entrance to the open area made it difficult to show the degree of physical control appropriate to the use an occupying owner would make of the land.  In the context of Mr Kirkland&#8217;s possession and use of the two buildings which so closely hemmed in the open area, physical control was amply demonstrated by the permanent presence of the trailer for 14 years before the application, and by the storage of building materials for more than 30 years.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.37in">I do not regard the acts relied on by Mr Kirkland as equivocal.  He used the group of buildings openly and as an occupying owner would.  His intention to possess the whole can readily be inferred. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading><span style="font-weight:bold">Disposal</span></heading>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.37in">For these reasons I am satisfied that the Judge&#8217;s conclusion was wrong in part and I allow the appeal and set aside her decision so far as it relates to the open area and the Ashes Places.  I will substitute a direction to the Chief Land Registrar to give effect to the application for first registration of the whole of the Disputed Land.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:3.87in;text-indent:0.13in">Martin Rodger KC,</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:3.87in;text-indent:0.13in">Deputy Chamber President</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:3.87in;text-indent:0.13in"><docDate date="2025-03-27" refersTo="#decision">27 March 2025</docDate></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold">Right of appeal&#160; </span></p>
+	    <p style="text-align:justify">Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1586 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2024/191"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2024/191"/>
+	  <FRBRdate date="2024-12-10" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="191"/>
+	  <FRBRname value="London United Busways Limited v V De Marchi &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2024/191"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2024/191"/>
+	  <FRBRdate date="2024-12-10" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2024/191/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2024/191/data.xml"/>
+	  <FRBRdate date="2024-12-10T10:34:38" name="transform"/>
+	  <FRBRdate date="2025-07-19T06:22:59" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-12-10" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="london-united-busways-limited" href="" showAs="LONDON UNITED BUSWAYS LIMITED"/>
+	<TLCPerson eId="mr-v-de-marchi" href="" showAs="MR V DE MARCHI"/>
+	<TLCPerson eId="abellio-london-limited" href="" showAs="ABELLIO LONDON LIMITED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mrs-justice-ellenbogen-dbe" href="/judge-the-honourable-mrs-justice-ellenbogen-dbe" showAs="THE HONOURABLE MRS JUSTICE ELLENBOGEN DBE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>191</uk:number>
+	<uk:cite>[2024] EAT 191</uk:cite>
+	<uk:parser>0.26.15</uk:parser>
+	<uk:hash>04811235777b8cf6aeb9771568f33dc4a20ff54dbf6b97722f14b23c5e473de7</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 16pt; color: #365F91; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .Heading5 { font-size: 12pt; color: #365F91; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention1 { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .BalloonTextChar { font-size: 1pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .FootnoteTextChar { font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .Heading2Char { font-size: 16pt; color: #365F91; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .Heading5Char { font-size: 12pt; color: #365F91; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .IntenseEmphasis { font-style: italic; color: #365F91; }
+#judgment .IntenseQuoteChar { font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #365F91; }
+#judgment .PageNumber { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">London United Busways Ltd v (1) Mr V De Marchi (2) Abellio London Ltd</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">[2024] EAT 191</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>EA-2021-000718-NK</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#eat">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p class="CoverText">Rolls Building</p>
+      <p class="CoverText">Fetter Lane London, EC4A 1NL</p>
+      <p class="CoverText">Date: <docDate date="2024-12-10" refersTo="#judgment">10 December 2024</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mrs-justice-ellenbogen-dbe">THE HONOURABLE MRS JUSTICE ELLENBOGEN DBE</judge></p>
+      <p class="CoverMain" style="text-align:center">MR NICK AZIZ</p>
+      <p class="CoverMain" style="text-align:center">MR ANDREW MORRIS</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#london-united-busways-limited" style="font-weight:bold">LONDON UNITED BUSWAYS LIMITED</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+      <blockContainer>
+	<num style="font-weight:bold">(1)</num>
+	<p style="text-align:center;text-indent:0.5in"><party as="#respondent" refersTo="#mr-v-de-marchi" style="font-weight:bold">MR V DE MARCHI</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold">(2)</num>
+	<p style="text-align:center;text-indent:0.5in"><party as="#respondent" refersTo="#abellio-london-limited" style="font-weight:bold">ABELLIO LONDON LIMITED</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondents</role></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">MR EDWARD NUTTMAN</span> (Partner, <span style="font-weight:bold">Ward Hadaway Solicitors LLP</span>) appeared for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">MS LOUISE PRICE</span> of Counsel (instructed by <span style="font-weight:bold">RMT Legal Department</span>) appeared for the <span style="font-weight:bold">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">MS STEPHANIE CUMMINGS </span>of Counsel (instructed by <span style="font-weight:bold">Backhouse Jones Solicitors</span>) appeared for the <span style="font-weight:bold">Second Respondent</span></p>
+      <p style="text-align:center"><span style="color:#000000">Hearing date: 9 November 2023</span></p>
+      <p style="text-align:center"><span style="color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:18pt;color:#000000"> JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">SUMMARY</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold">TRANSFER OF UNDERTAKINGS</span></heading>
+	  <paragraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="color:#000000">Where a relevant transfer involves, or would involve, a substantial change in working conditions to the material detriment of a person whose contract of employment is, or would be, transferred under regulation 4(1) of the Transfer of Undertakings (Protection of Employment) Regulations 2006, regulation 4(9) confers on that person the right to treat the contract of employment as having been terminated. If he elects to exercise that right, he shall be treated for any purpose as having been dismissed by the employer, which, depending upon the circumstances, may be the transferor or the transferee. If he elects not to exercise that right, he transfers to the employment of the transferee, unless he has objected to so doing under regulation 4(7).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="color:#000000">Where he objects to becoming employed by the transferee under regulation 4(7) in circumstances in which regulation 4(9) applies, the effect of that objection is to preclude the transfer of his contract, and of any of the rights and obligations etc for which regulation 4(2) provides, to the transferee.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="color:#000000">In those circumstances, notwithstanding the employee&#8217;s election not to terminate the contract under regulation 4(9), regulation 4(8) operates so as to terminate the employee&#8217;s contract of employment with the transferor, by which entity he is treated as having been dismissed, and against which any remedy lies. He has no remedy against the transferee.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="color:#000000">Albeit for reasons which differ from those of the employment tribunal, the appeal and cross-appeal fail and are dismissed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">THE HONOURABLE MRS JUSTICE ELLENBOGEN DBE</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">MR NICK AZIZ</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">MR ANDREW MORRIS</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">In this judgment, we refer to the parties by their respective statuses before the London Central Employment Tribunal (Employment Judge Klimov, sitting alone), which, following a preliminary hearing, found that the Claimant had been dismissed by action of the First Respondent transferor, on 8 November 2019. The finding of dismissal is challenged by the First Respondent, on appeal, and by the Claimant, on cross-appeal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The central question of law which arises in the appeal is whether, by operation of the Transfer of Undertakings (Protection of Employment) Regulations 2006 (&#8216;the 2006 Regulations&#8217;), an employee who makes clear both that he objects to becoming employed by the transferee and that he wishes to continue in the employment of the transferor remains an employee of the transferor, post-transfer, until he is either dismissed or elects to treat the contract as having been terminated. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">So far as material to the appeal and cross-appeal, regulation 4 of the 2006 Regulations provides:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-size:11pt">&#8216;</span><span style="font-weight:bold;font-size:11pt">4.&#8212; Effect of relevant transfer on contracts of employment </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt;margin-left:1.28in;text-indent:-0.29in">(1)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:0.08in"><span style="font-size:11pt">Except where objection is made under paragraph (7), a relevant transfer shall not operate so as to terminate the contract of employment of any person employed by the transferor and assigned to the organised grouping of resources or employees that is subject to the relevant transfer, which would otherwise be terminated by the transfer, but any such contract shall have effect after the transfer as if originally made between the person so employed and the transferee.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt;margin-left:1.28in;text-indent:-0.29in">(2)</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:0.08in"><span style="font-size:11pt">Without prejudice to paragraph (1), but subject to &#8230;, on the completion of a relevant transfer &#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt;margin-left:1.53in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.53in;margin-right:0.56in;text-indent:0.12in"><span style="font-size:11pt">all the transferor&#8217;s rights, powers, duties and liabilities under or in connection with any such contract shall be transferred by virtue of this regulation to the transferee; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;margin-left:1.53in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.53in;margin-right:0.56in;text-indent:0.12in"><span style="font-size:11pt">any act or omission before the transfer is completed, of or in relation to the transferor in respect of that contract or a person assigned to that organised grouping of resources or employees, shall be deemed to have been an act or omission of or in relation to the transferee.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-size:11pt">...</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(7)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.28in;margin-right:0.56in"><span style="font-size:11pt">Paragraphs (1) and (2) shall not operate to transfer the contract of employment and the rights, powers, duties and liabilities under or in connection with it of an employee who informs the transferor or the transferee that he objects to becoming employed by the transferee. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(8)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.28in;margin-right:0.56in"><span style="font-size:11pt">Subject to paragraphs (9) and (11), where an employee so objects, the relevant transfer shall operate so as to terminate his contract of employment with the transferor but he shall not be treated, for any purpose, as having been dismissed by the transferor. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(9)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.28in;margin-right:0.56in"><span style="font-size:11pt">Subject to regulation 9, where a relevant transfer involves or would involve a substantial change in working conditions to the material detriment of a person whose contract of employment is or would be transferred under paragraph (1), such an employee may treat the contract of employment as having been terminated, and the employee shall be treated for any purpose as having been dismissed by the employer. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(10)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.28in;margin-right:0.56in"><span style="font-size:11pt">No damages shall be payable by an employer as a result of a dismissal falling within paragraph (9) in respect of any failure by the employer to pay wages to an employee in respect of a notice period which the employee has failed to work. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">(11)</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.28in;margin-right:0.56in"><span style="font-size:11pt">Paragraphs (1), (7), (8) and (9) are without prejudice to any right of an employee arising apart from these Regulations to terminate his contract of employment without notice in acceptance of a repudiatory breach of contract by his employer.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The issue identified above arises in the following circumstances, clearly set out in the Employment Tribunal&#8217;s findings of fact, at [40] to [89], which bear reciting in full:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:-0.39in"><span style="font-size:11pt">&#8216;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Findings of Fact</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The Claimant was employed as a bus driver by the First Respondent from 7 January 2003. He commenced his employment at the First Respondent&#8217;s Shepherds Bush garage, and in August 2003 moved to the Stamford Brook garage, which is approximately a 15-minute walk from his home. He walked to and from work. He does not own a car.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">41.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The Claimant&#8217;s contract of employment contained the following term in relation to his place of work (my emphasis):</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">16.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:1.15in;text-indent:0.33in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">You must be prepared to work at any of our garages</span><span style="font-size:11pt">. When you have passed your PCV driving test you will be allocated to work at a garage, the location of which depends upon our recruitment needs at that time. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">After a period of time you may apply for a transfer to a garage closer to your home. Such transfer requests are dealt with in order of receipt, and will usually be agreed if vacancies exist in the garage to which you wish to transfer and if you can be replaced in your own garage</span><span style="font-size:11pt">. On transferring you will be subject to the pay and conditions of the new garage and staff generally take up a position on the junior rota in the receiving garage.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The First Respondent operates 8 garages across London, some are [a] considerable distance away from the Stamford Brook garage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">For approximately the last 4 years of his employment with the First Respondent the Claimant drove a bus on the route 27. He worked 5 days a week, typically starting between 4.30pm and 5.15pm and finishing between 1.30am and 2am.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Transport for London (TfL) frequently re-tender bus routes. As a result of one of such re-tendering exercises in 2019, the First Respondent lost the contract for operating the route 27 to the Second Respondent. That was announced to all staff of the First Respondent on 25 March 2019.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">It was accepted by the First and the Second Respondent that the transfer of the cont[r]act would be &#8220;a relevant transfer&#8221; for the purposes of TUPE and that all drivers (53 day drivers and 6 night drivers) assigned to the route 27 would transfer under TUPE to the Second Respondent, unless they object[ed]. In preparing for the transfer, the First and the Second Respondent applied the TfL TUPE Guidelines of January 2016, which is a non-legally binding &#8220;best practice&#8221; guidance for transport operators on TUPE transfers.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">In July 2019, the First Respondent engaged in TUPE consultations with its recognised trade union, Unite the Union. I[t] appears that initially the union disputed that TUPE would apply, however, shortly thereafter accepted that it would.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">In or around June - July 2019, the Claimant learned that his route was going to transfer to the Second Respondent and would be operated out of the Second Respondent&#8217;s Battersea garage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">48.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">During August 2019, the First Respondent held &#8220;drop-in&#8221; meetings with affected drivers to discuss the transfer and explain options available to them. The options were:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt;margin-left:1.67in;text-indent:-0.3in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:0.56in;text-indent:0.08in"><span style="font-size:11pt">to transfer with the route to the Second Respondent, which would require moving from Stamford Brook to Battersea, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;margin-left:1.67in;text-indent:-0.3in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:0.56in;text-indent:0.2in"><span style="font-size:11pt">to object to the transfer and sign a new contract with the First Respondent, which would give them the option, subject to availability, to stay at Stamford Brook or move to another garage of the First Respondent (the drivers were requested to give their two preferred locations), but they had to agree to increase their maximum Time On Duty (&#8220;TOD&#8221;) from 9 hours to 10 hours, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;margin-left:1.67in;text-indent:-0.3in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:0.56in;text-indent:0.33in"><span style="font-size:11pt">if they did not wish to transfer or accept employment with the First Respondent on the new terms, they could resign.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The &#8220;drop-in&#8221; meetings were arranged for 12, 14, 19 and 21 August 2019, and the drivers were invited to attend the meetings alone or with a workplace colleague or a trade union representative.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 16 August 2019, the Claimant together with his union representative, Mr John Reid, attended a meeting with Ms Rahman. The meeting was arranged to discuss the Claimant&#8217;s grievance unconnected with the TUPE transfer. However, Ms Rahman used that opportunity to also tell the Claimant about the transfer and the three options available to him.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">At the meeting, having explained the three options, Ms Rahman asked the Claimant if he had any questions and he said that he did not. She gave him a letter explaining the three options and a preference form, which she asked the Claimant to fill in and return by 6 September 2019. The Claimant asked whether redundancy was an option and Ms Rahman said that it was not.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Mr Reid, being a representative of the RMT Trade Union, which the Claimant was a member of, but which was not recognised by the First Respondent for the purposes of collective bargaining or TUPE consultations, did not wish to discuss the options at the meeting. His view was that these matters [lay] outside his role at the meeting, and the meeting itself had been arranged to discuss the Claimant&#8217;s grievance and it was not a &#8220;drop-in&#8221; meeting to discuss the TUPE transfer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">53.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 19 August 2019, the Second Respondent wrote to the affected drivers explaining that with effect from 9 November 2019 their contracts would transfer to the Second Respondent under TUPE on the existing terms, including with its letter a FAQs document, which, inter alia, contained the following FAQs:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-weight:bold;font-size:11pt">Will I work in the same way as I do now for my current company?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">Your work activities will remain the same, however the individual duty times will differ and your new base will be the Battersea Depot. You will be given light running route training and a full depot induction.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-weight:bold;font-size:11pt">What will happen to my staff pass?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">You will continue to receive the benefits of the TfL staff pass. London United and Abellio will write to TfL to notify them of your transfer to Abellio and your pass will carry over with your transfer &#8212; the same will go for your nominee pass if you have one.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The Claimant saw the Second Respondent&#8217;s letter and the FAQs document on the announcement wall in the Stamford Brook garage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 21 August 2019, Ms Rahman wrote to the Claimant reminding him of the three options and asking him to return the preference form by 6 September 2019. The letter said that if the preference form were not received by that date, the First Respondent would assume that the Claimant wished to transfer to the Second Respondent with the route. The preference form, the First Respondent&#8217;s proposed new contract, with changes highlighted, the Second Respondent&#8217;s welcome letter and its &#8220;measures&#8221; letter were included with the letter.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 5 September 2019, the Claimant emailed his trade union representatives his draft response to the First Respondent on the three options. The essence of his position was that the transfer was not suitable for him because of the additional travel time to the Battersea garage, the proposed new contract was not in his interest to sign because of the increase in the TOD, no guarantee of a minimum work and a reduction in the paid meal break time, resignation was not an option either - &#8220;definitely no&#8221;. Therefore, his view was that the only option left for him was redundancy, which he wished to formally request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 6 September 2019, the Claimant sent an email to Ms Rahman essentially on the same terms as in his draft to his union representatives. The letter read (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">my emphasis</span><span style="font-size:11pt">):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">&#8220;Tupe option, going with the route 27 to Abellio and keeping my original contract. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">this is not an option for me because it will disrupt my life</span><span style="font-size:11pt">, over 1 hour longer traveling to work and an extra hour returning from work, this will add to fatigue and tiredness extending my working day by at least 2 hours, that is at least 10 hours per week, i have been at Stamford brook garage for 18 years and i live 15 minutes walk away, </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">the reason for my original application was for the locality of the job, there fore i reject this option of Tupe as unsuitable for me</span><span style="font-size:11pt">.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">...</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">not signing the contract does not mean I agree to Tupe, I do not agree to Tupe as stated above</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">after a lot of consideration the conclusion that i have come to is</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:11pt">1)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Tupe with the 27 route is not suitable for me.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">2)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">It is not in my best interests to sign the new contract.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">3)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">Resignation is not an option definitely no.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">4)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">I stand on my original contract there fore the only option left for me is redundancy.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">5)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">I Vittorino De Marchi hereby formally request redundancy.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 10 September 2019, Ms Rahman responded to the Claimant saying that she wanted to arrange a meeting with him to discuss his letter and asking if he wished his union representative to attend.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">There was some confusion with arranging a meeting because there were other meetings planned to discuss the Claimant&#8217;s grievance and his safety concerns related to a particular bus model he was required to drive. These were separate matters unconnected with the TUPE transfer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">60.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 4 October 2019, Ms Knight, HR Business Partner of the First Respondent, wrote to the Claimant explaining the three options available to him and reiterating that redundancy was not one of them because his job did &#8220;not cease to exist.&#8221; The letter went on to say (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">my emphasis</span><span style="font-size:11pt">):</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">If you do not wish to transfer to Abellio or accept alternative employment with RATP Dev London, </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">you can object to the transfer. This will have the effect of ending your employment with the company on 9 November 2019</span><span style="font-size:11pt">. You will not be treated as having been dismissed and will not be entitled to any payments in respect of notice pay or redundancy pay. The only payment you will be entitled to is in respect of accrued salary and accrued untaken holiday.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">I note that you had objected all the options available as you had assumed that redundancy applies. The company would therefore like to give you another opportunity to tell us what you prefer to do. Please can you put a written memo to your staff manager or General Manager by Wednesday 9 October 2019 confirming which option you prefer:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">You can retain your terms and conditions by transferring with the route to Abellio on 9 November 2019</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">Subject to vacancies available, you can accept alternative employment with London United on an understanding that this will require you to accept new terms and conditions (increase in TOD to 10 hours) but with preserved continuity of employment and pay. Please note alternative employment will be based on garage and rota availability.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">If you do not wish to transfer to Abellio or accept alternative employment with RATP Dev, you can formally object to the transfer and your employment will end on 9 November 2019.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">If we do not receive a written memo by this date we will assume that your employment ends with London United on 8 November 2019 by virtue of your previous objection</span><span style="font-size:11pt">.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 4 October 2019, the Claimant went on a self-certified sick leave until 6 October 2019 due to stress, which he says was caused by the First Respondent&#8217;s letter of 4 October 2019.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 8 October 2019, the Claimant emailed Ms Knight. His email was largely in relation to his grievance, safety concerns and what he perceived as the company ignoring his requests and not answering his questions. However, in that email he again stated that he could not accept the transfer (&#8220;</span><span style="font-style:italic;font-size:11pt">i gave you reasons that i can not except (sic) TUPE&#8221;</span><span style="font-size:11pt">).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">There were further attempts to arrange a meeting with the Claimant. On 11 October 2019, the Claimant emailed Ms Knight saying that he did not wish to have a meeting with Ms Rahman. There were further email exchanges with the Claimant to arrange a meeting with Ms Knight upon her return from holidays.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">64.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">In the course of that correspondence, on 23 October 2019, the Claimant wrote to Ms Knight and Mrs Biddle (the First Respondent&#8217;s Staff Manager) stating again that he had not accepted the TUPE transfer (&#8220;</span><span style="font-style:italic;font-size:11pt">also I would like to remind you that I have not excepted (sic) your proposal of Tupe and gave you the reasons why it's not suitable for me</span><span style="font-size:11pt">&#8221;) and that he did not wish to enter into the new contract with the First Respondent, but that should [not] be taken as him agreeing to transfer under TUPE to the Second Respondent (&#8220;not agreeing does not constitute agreeing to Tupe&#8221;). He said that in the circumstances he considered that redundancy was </span><span style="font-style:italic;font-size:11pt">&#8220;fair&#8221;</span><span style="font-size:11pt"> and that he would accept it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">65.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 5 November 2019, the Claimant eventually met with Ms Knight. He was accompanied by Mr Reid. At the meeting, the three options were discussed, and the Claimant was told again that redundancy was not available. On the same day, following the meeting, Ms Knight wrote to the Claimant confirming the discussion and the available options. The letter stated (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">my emphasis</span><span style="font-size:11pt">):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">&#8220;As you do not wish to accept the alternative employment or resign from your current employment, your employment will transfer with the route 27 to Abellio on 9 November 2019. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Please note that this means that 8 November 2019 will be your last day of employment with London United</span><span style="font-size:11pt">. Please note that Abellio will be informed that you will be transferring with the route.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">66.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 06 November 2019, the Claimant self-certified himself as being off sick from 7 November 201[9] due to anxiety.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">67.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 7 November 2019, Ms Knight sent the Claimant a further letter by email, in which she appears to have changed the First Respondent&#8217;s position on the Claimant&#8217;s employment status as follows (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">my emphasis</span><span style="font-size:11pt">):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">&#8220;You objected to transfer in writing on 6 September 2019 despite further correspondence and our meeting you[r] stance remains the same. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Under the TUPE Regulations to object to the transfer means that your employment will end on the transfer date by reason of your objection. You would not be treated to have been dismissed and would have no right to notice pay or redundancy pay. In effect, it is like an immediate resignation</span><span style="font-size:11pt">. I hope that this makes the position clear and I would like to take the opportunity to thank you for your service at the Company.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">68.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 8 November 2019, Mrs Biddle sent the Claimant a letter referring to Ms Knight&#8217;s email of 7 November 2019 and confirming that his employment would end on that day, 8 November 2019 by reason of his resignation (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">my emphasis</span><span style="font-size:11pt">).</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">&#8220;I write following the letter sent to you from Ngoma Knight, HR Business Partner dated 7th November regarding your employment with the company. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">I can confirm, as stated in the letter, that your employment will end today, 8th November 2019 by way of reason of immediate resignation.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">Your final payment will be made on Friday 15th November 2019. Your P45 will be sent to you in due course and you will be paid the following amounts:</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:11pt">(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">All pay up to and including the effective date of termination of your employment</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in;text-indent:0.42in"><span style="font-size:11pt">Accrued holiday pay of 2 days.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">69.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 8 November 2019 at 13:54, the Claimant replied to Ms Knight by email stating that he had not resigned and did not wish to resign. He also reiterated that TUPE was not suitable for him and that he did not wish to sign the new contract for the reasons he had stated before.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">70.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 8 November 2019 at 14:11, Ms Knight replied as follows (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">my emphasis</span><span style="font-size:11pt">):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-size:11pt">&#8220;Thank you for your email. I note that you have confirmed that you have not resigned and you do not wish to accept the alternative employment we have offered you. I have therefore informed Abellio that you will be transferring with the route tomorrow. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Please note that this now closes this matter</span><span style="font-size:11pt">.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">71.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 8 November 2019 at 15:24, the Claimant replied to Ms Knight&#8217;s email again stating that he had not resigned and would not sign the new contract and he would not transfer under TUPE with the route. He said that he was expecting redundancy and would not resign. He also said that he was on sick leave and was expecting to receive sick pay.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">72.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 9 November 2019, the drivers assigned to the route 27, and who had not objected to the transfer, transferred from the First Respondent to the Second Respondent under TUPE.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">73.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 11 November 2019, the Claimant was signed off sick by his GP for two weeks, until 24 November 2019, due to anxiety and depression. He sent the sickness certificate to the First Respondent, which Ms Knight forwarded to the Second Respondent, and by email of 12 November 2019 advised the Claimant to contact Ms Debbie McDonnell, HR Manager of the Second Respondent for any future correspondence. In that email she also wished the Claimant well with his </span><span style="font-style:italic;font-size:11pt">&#8220;employment with Abellio&#8221;</span><span style="font-size:11pt">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">74.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 13 November 2019, Ms McDonnell sent the Claimant a welcome letter, acknowledging that he was off sick and inviting him to contact his new manager to discuss return to work, induction, and any required training. She asked the Claimant to provide his bank account details to set up his payroll and process his sickness payments.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">75.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 22 November 2019, the Claimant telephoned Ms McDonnell and told her that he had objected to the TUPE transfer to the Second Respondent. On the same day he sent Ms McDonnell an email confirming that.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">76.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 25 November 2019, the Claimant&#8217;s sick leave was extended until 1 December 2019.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">77.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 27 November 2019, Ms McDonnell sent the Claimant a letter confirming that he had not transferred to the Second Respondent, enclosing his P45 showing his leaving date as 10 November 2019.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">78.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">That communication was followed by email exchanges between Ms McDonnell and Ms Knight regarding the employment status of the Claimant. The First Respondent&#8217;s position was the Claimant&#8217;s employment had transferred to the Second Respondent because he had refused to accept the new contract and had confirmed that he was not resigning, and therefore </span><span style="font-style:italic;font-size:11pt">&#8220;the default position&#8221;</span><span style="font-size:11pt"> was that his contract of employment had transferred to the Second Respondent under TUPE. The Second Respondent&#8217;s position was that because the Claimant had objected to the transfer of his employment to the Second Respondent, his employment did not transfer by operation of TUPE and the fact that he had refused to resign was irrelevant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">79.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 28 November 2019, the Claimant emailed his sickness certificates to the First Respondent asking for sick pay. Ms Knight replied saying that she was forwarding them to the Second Respondent as the Claimant&#8217;s employer and re-stating the First Respondent&#8217;s position in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-style:italic;font-size:11pt">&#8220;As you rejected our offer to stay with London United on alternative employment and also objected to the option of resigning rather than transferring via TUPE, your employment transferred via TUPE to Abellio with the route 27.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">80.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The Claimant replied, copying Ms Rahman, Mrs Biddle, his union representatives and Ms McDonnell, reiterating his position that he had rejected the TUPE transfer and the new contract.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">81.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 30 November 2019, Ms Knight emailed the Claimant setting out the First Respondent&#8217;s position that the Claimant&#8217;s employment had transferred to the Second Respondent under TUPE on 9 November 2019 and stating that the First Respondent would not correspond further on this matter.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">82.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 2 December 2019, Ms McDonnell emailed the Claimant telling him that the Second Respondent was still liaising with the First Respondent on his matter and asking the Claimant to provide some further documents. Having not received a reply, on 30 December 2019, Ms McDonnell sent a reminder. The Claimant did not reply. His evidence, which I accept, are that the reason for him not replying was because he did not consider himself employed by the Second Respondent.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">83.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">In early December 2019, the Claimant started to look for another job and attended job interviews for a bus driver position on 6 and 9 December 2019. The positions were at the Westbourne garage and in Willesden. He was unsuccessful.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">84.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 13 January 2020, Ms McDonnell sent the Claimant a letter inviting the Claimant to attend a meeting to discuss his employment. In her letter, Ms McDonnell explained that because redundancy was not an option offered by the First Respondent, </span><span style="font-style:italic;font-size:11pt">&#8220;the default position [was] that [the Claimant] [had] transferred employment to Abellio London bus automatically on 9 November 2019 with Route 27&#8221;</span><span style="font-size:11pt">. She asked the Claimant to attend a meeting on 28 January 2020 to discuss his return to work with his manager. The letter stated:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.95in"><span style="font-style:italic;font-size:11pt">&#8220;Please note, that should we not hear from you, or should you decide not attend the meeting, you will be considered absent without authorisation and we will write to you under these terms thereafter.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">85.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The Claimant did not reply to this letter. His evidence [is] that he did not receive that letter or the Second Respondent&#8217;s letter of 3 February 2020 because both had a wrong address: 21 Ellesmere Road, Chiswick, London W4 4QJ, and the Claimant&#8217;s correct address is: 21 Ellesmere Court, Ellesmere Road, Chiswick London W4 4QJ.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">86.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">I do not accept his evidence on that matter. He admitted receiving the Second Respondent&#8217;s letter of 13 November 2019 and P45. Both had the same &#8220;wrong address&#8221;. He also admitted receiving the First Respondent&#8217;s letters of 5, 7 and 8 November 2019, which all had the same &#8220;wrong address&#8221;. W4 4QJ is the correct post code for the Claimant&#8217;s &#8220;correct address&#8221;[.] 21 Ellesmere Road, Chiswick, London has a different post code &#8211; W4 3DU.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">87.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Therefore, on the balance of probabilities, I find that the Claimant did receive the Second Respondent&#8217;s letters of 13 January 2020 and 3 February 2020. I accept that he might have chosen not to open and read them.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">88.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">On 3 February 2020, the Second Respondent wrote to the Claimant stating that because he had failed to attend the meeting or otherwise engage with the company the decision had been taken to terminate the Claimant&#8217;s employment. The letter informed the Claimant that he had the right to appeal the decision. Applying &#8220;the ordinary course of post&#8221; rule, the letter should be deemed to have been received by the Claimant on the second business day &#8211; 5 February 2020. The Claimant did not reply to the letter.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Commuting distance between the Claimant&#8217;s home and the Battersea garage</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">89.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The Claimant&#8217;s average commute times from home to the Battersea garage and back, based on his usual work schedule (starting between 4.30pm and 5.15pm and finishing between 1.30am and 2am), would have been:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.77in;margin-right:0.56in"><span style="font-size:11pt">going to work &#8211; between 45 minutes and 1 hour 5 minutes. The fastest route would involve the Claimant walking to Chiswick train station (15 - 20 minutes), taking a train to Queenstown Road station (15 - 20 minutes) and then walking from Queenstown Road station to the Battersea garage (10 - 15 minutes).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.77in;margin-right:0.56in"><span style="font-size:11pt">returning home - approximately 1 hour 15 minutes, requiring the Claimant to travel on Night buses with one or two interchanges and to walk to and from bus stops for approximately 30 minutes.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Tribunal went on to find that the Claimant had objected to becoming employed by the putative transferee (recording that the parties had not contended otherwise). It concluded that such objection had engaged regulations 4(7) and 4(8) of TUPE, meaning that his contract of employment had terminated by operation of law and that he would not be treated for any purpose as having been dismissed by the First Respondent, unless Regulation 4(9) were to apply, i.e. that the transfer would have involved a substantial change in working conditions, to his material detriment. The parties agreed that the move from the Stamford Brook to the Battersea garage would have constituted a change to the Claimant&#8217;s working conditions, but disagreed as to whether such a change would have been substantial. The Tribunal found (at paragraphs [108] to [123]) that it would have been substantial; that it had been reasonable for the Claimant to have considered that the change in his workplace would be to his material detriment; and that it followed that regulation 4(9) was engaged. There is no appeal from those findings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Tribunal next considered whether the Claimant had treated his contract as having been terminated, holding:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:-0.39in"><span style="font-size:11pt">&#8216;128. </span><marker name="tab"/><span style="font-size:11pt">I agree with the Respondents&#8217; submissions. In my judgment, the Claimant was clear in his words and acts that he did not wish his contract to end, he did not terminate it himself and did not treat it as having been terminated. The fact that he did not attend work after the transfer, in my judgment, is not inconsistent with him not treating his contract as having been terminated. He was off sick until early December 2019. He, however, continued to submit his sick notes and demand sick pay from the First Respondent. I do not accept Ms Price[&#8217;s] argument that the Claimant&#8217;s &#8220;counter-offer&#8221; in any way shows that he treated the contract as having been terminated. On the contrary, he was trying to negotiate an acceptable termination of the contract while being at pains to keep it &#8220;alive&#8221;, because he knew or was so advised that by walking away from the contract, he would be significantly reducing his chances of getting redundancy. For these reasons, I find that he did not treat his contract as having been terminated.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Tribunal then addressed the consequence of the above finding, regarding which, it recorded, the parties had been unable to refer it to direct authority, concluding as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.56in;text-indent:-0.59in"><span style="font-size:11pt">&#8216;131. In my view, there are four possible answers to this question:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:0.56in"><span style="font-size:11pt">the Claimant&#8217;s extant objection to the transfer operates as him treating his contract of employment as having been terminated under Regulation 4(9) and him being treated as having been dismissed; or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:0.56in"><span style="font-size:11pt">the Claimant&#8217;s objection to the transfer must stand, however, having chosen not to treat his contract of employment as having been terminated he cannot be treated as having been dismissed under Regulation 4(9) and instead his extant objection has [the] effect of terminating his employment by operation of law under Regulation 4(8); or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:0.56in"><span style="font-size:11pt">the Claimant[&#8217;s] contract of employment transfers to the Second Respondent under Regulation 4(1) despite his objection by reason of the Claimant choosing not to treat his contract as having been terminated; or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.67in;margin-right:0.56in"><span style="font-size:11pt">the Claimant[&#8217;s]  contract of employment does not transfer to the Second Respondent under Regulation 4(1) by reason of his objection, and he remains employed by the First Respondent until his dismissal or until he elects to treat the contract as having been terminated under Regulation 4(9).</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">132.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Both Respondents argue that once the transfer had taken place, the Claimant&#8217;s employment ended by reason of Regulation 4(8), which shall be considered as &#8220;deemed resignation&#8221;, and it was legally impossible for the Claimant to object to the transfer and maintain his employment contract alive.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">133.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Mr Bailey, for the First Respondent, argues that an employee who objects to the transfer but fails to resign has no remedy, because a claim under Regulation 4(9) can only take place where the Claimant has treated the contract as having ended prior [to] it ending under Regulation 4(8).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">134.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Ms Cummings for the Second Respondent agrees and further submits that </span><span style="font-style:italic;font-size:11pt">&#8220;any conduct of the Claimant after 9th November 2019 on which the Claimant might seek to rely as demonstrating he treated his contract of employment with the First Respondent as having been terminated is irrelevant. By that stage, the Claimant&#8217;s employment had terminated by virtue of Reg 4(8</span><span style="font-size:11pt">)&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">135.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Ms Price, for the Claimant, argues that Regulation 4(9) give[s] the employee a choice to treat his contract as having been terminated or not, and if the employee choosing not to treat the contract as having been terminated has the effect of the employee losing the protection afforded by Regulation 4(9) that would undermine the whole purpose of the regulation.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">136.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">In my judgment, the answer (a) cannot be correct because it makes the words </span><span style="font-style:italic;font-size:11pt">&#8220;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">may</span><span style="font-style:italic;font-size:11pt"> treat the contract of employment as having been terminated&#8221;</span><span style="font-size:11pt"> devo[id] of any meaning (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">my emphasis</span><span style="font-size:11pt">). If the effect of the employee objecting to the transfer on the established grounds under Regulation 4(9) were to have the same effect, i.e. him being treated as having been dismissed, irrespective of whether he chooses to treat his contract as having been terminated or not, the words &#8220;</span><span style="font-style:italic;font-size:11pt">may treat the contract of employment as having been terminated</span><span style="font-size:11pt">&#8221; would be superfluous. I note that these words were not in the previous version of the TUPE regulations and were included in the 2006 version to bring it in line with the EU Acquired Rights Directive (No 2001/23) and the European Court of Justice judgment in </span><span style="font-style:italic;font-size:11pt">Merckx and anor v Ford Motors Co (Belgium)</span><span style="font-size:11pt"/><span style="font-style:italic;font-size:11pt">SA 1997 ICR 352, ECJ.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">137.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">I find that the answer (b) is ought to be wrong too. The operation of Regulation 4(8) is </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">&#8220;subject to&#8221;</span><span style="font-size:11pt"> Regulation 4(9) and 4(11), the aim of which is to preserve the employee&#8217;s right in relation to </span><span style="font-style:italic;font-size:11pt">&#8220;substantial change in working conditions to the material detriment&#8221; </span><span style="font-size:11pt">and</span><span style="font-style:italic;font-size:11pt"> &#8220;repudiatory breach&#8221;</span><span style="font-size:11pt"> by his employer. As in a situation where the employer commits a repudiatory breach, under Regulation 4(9) the employee is given a choice whether to accept the substantial change in working conditions as bringing the contract to an end, or not. In my judgment, the effect of not accepting the substantial change as having the contract terminated should be the same as electing not to treat the contract as at an end by reason of the employer&#8217;s repudiatory breach, meaning that the contract remains in force. There is nothing in Regulation 4(9) to suggest that despite the employee not treating the contract as having been terminated, he, nonetheless, must be regarded in law as having been dismissed, or that should have the effect of Regulation 4(8) coming back into play.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">138.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">In my judgment, it cannot be right that the very same objection that has brought the employee within scope of Regulation 4(9) can then operate to deprive him of the protection afforded by that regulation because the employee has chosen not to treat his contract as having been terminated, when the regulation specifically gives him that choice.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">139.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">However, this conclusion, in my view, does not mean that the employee completely loses his right to later rely on such substantial change in treating his contract as having been terminated, with such termination still being regarded as dismissal under Regulation 4(9). Of course, the longer the employee waits or if he acts in a way to show that he has accepted the substantial change he might be taken as having affirmed the change, thus losing his Regulation 4(9) protection.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">140.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Further, Regulation 4(1) has the effect of preserving the employment contract, </span><span style="font-style:italic;font-size:11pt">&#8220;except where objection is made under paragraph (7)&#8221;</span><span style="font-size:11pt">. Paragraph (7) states that paragraph (1) shall not operate to transfer the contract of employment of an employee who objects to becoming employed by the transferee. If a valid objection is made it appears there are three possible outcomes: (i) Regulation 4(8) &#8220;resignation&#8221;; (ii) Regulation 4(9) &#8220;dismissal&#8221;, and (iii) Regulation 4(9) employee choosing not to treat the contract as having been terminated. In any of the three scenarios the contract of employment does not transfer to the transferee by reason of the employee&#8217;s objection.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">141.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Such outcome might appear at odds with the purpose and operation of TUPE, namely &#8220;automatic transfer&#8221;. However, such &#8220;automatic transfer&#8221; is always subject to the employee&#8217;s right to object, and the employee cannot be forced to transfer his employment to the transferee despite his objection (see </span><span style="font-style:italic;font-size:11pt">Katsikas v Konstantinidis 1993 IRLR 179, ECJ</span><span style="font-size:11pt">).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">142.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">I find that, although the Claimant has chosen not to treat his contract as having been terminated, he never withdrew his objection. On the contrary, he kept repeating it. Accordingly, considering his clear and persistent objection to becoming employed by the Second Respondent, the Claimant choosing not to treat his contract of employment as having been terminated, in my judgment, cannot be taken as disapplying or overriding his objection. In my view, the answer (c) is also wrong.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">143.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The First Respondent was simply wrong in saying that the &#8220;default position&#8221; was that in the absence of the Claimant&#8217;s resignation his contract transferred to the [Second] Respondent. For these reasons, I find that his contract did not transfer to the Second Respondent.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">144.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Mr Bailey argues that the Claimant cannot avoid transferring to the Second Respondent and remain employed by the First Respondent. He submits that </span><span style="font-style:italic;font-size:11pt">&#8220;[t]he fallacy in that reasoning is that he either had to elect to treat his employment terminated prior to the transfer (taking his chance under Reg 4(9)) or to go along with the transfer and treat his employment as terminated after the transfer; again taking his chance under Reg 4(9)&#8221;</span><span style="font-size:11pt">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">145.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">I understand Mr Bailey&#8217;s argument as saying that it was not open to the Claimant to put himself into such &#8220;limbo&#8221;. He had to decide whether he &#8220;goes across&#8221; or he &#8220;goes away&#8221;, and &#8220;staying put&#8221; was not an option he could take.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">146.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">I disagree, because that ignores the choice of not treating his contract of employment has having been terminated, which, in my judgment, Regulation 4(9) gives to the Claimant. Further, I do not see why it must be the employee who should be </span><span style="font-style:italic;font-size:11pt">&#8220;taking his chance under Reg 4(9)&#8221;</span><span style="font-size:11pt">, and not the employer. It is the employer who makes a change to the employee&#8217;s working conditions, and if the employer considers such change not &#8220;substantial&#8221; and/or not &#8220;to the material detriment&#8221; of the employee, it would seem logical that the employer should be taking its chance by treating the employee&#8217;s contract as having been terminated by operation of law under Regulation 4(8), and the employee should not be force[d] to make &#8220;the first move&#8221; by resigning or otherwise treating his contract as having been terminated.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">147.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">If the employee chooses the option of not treating his contract as having been terminated under Regulation 4(9), while objecting to the transfer, in my judgment, it must follow that his contract remains with the transferor until such time as he is dismissed by the transferor or until he changes his mind and elects to treat his contract as having been terminated by reason of the substantial change under Regulation 4(9) (subject to the &#8220;affirmation&#8221; issue).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">148.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The Claimant&#8217;s objection under Regulation 4(7) set in motion the mechanism of Regulations 4(8) and 4(9). Having decided that the transfer would involve a substantial change in working conditions to his material detriment, the Claimant arrived at the junction where he had to decide whether or not to treat his contract as having been terminated and himself as being dismissed by the First Respondent. By making the decision not to treat his contract as having been terminated, in my judgment, he effectively kept his contract with the First Respondent alive, and by maintaining his objection to the transfer - he stopped it from transferring to the Second Respondent.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">149.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Mr Bailey submits that &#8220;[i]</span><span style="font-style:italic;font-size:11pt">t was legally impossible to achieve what [the Claimant] wanted which was to object but to continue to be employed by [the First Respondent] on his existing terms and conditions. The only way in which his employment could continue on the same terms and conditions was to transfer.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">150.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">I agree, however, in my judgment, what was not legally impossible for the Claimant is to continue to be employed by the First Respondent on the terms as varied by the &#8220;substantial change&#8221; until his dismissal by the First Respondent or his acceptance of the substantial change as terminating the contract. That is because, in my judgment, Regulation 4(9) gives the Claimant that option.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">151.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">It might be argued that from the practical point of view, the First Respondent simply could not perform the Claimant&#8217;s contract as varied by the &#8220;substantial change&#8221;. It did not have a garage in Battersea, nor could it operate the route 27 bus service after 9 November 2019. However, in those circumstances, it was open to the First Respondent to terminate the Claimant&#8217;s contract, as, I find, it has done (see below).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">152.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">For these reasons, I find that the correct position is the answer (d), and that in those circumstances the Claimant&#8217;s contract of employment could not and did not transfer to the Second Respondent on 9 November 2019.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">How and when has the Claimant&#8217;s employment ended?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">153.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">I find that the Claimant&#8217;s employment has ended on 8 November 2019 by reason of the First Respondent dismissing the Claimant by purporting to transfer his contract of employment to the Second Respondent despite the Claimant&#8217;s objection and by informing the Claimant that it no longer considered him to be its employee. The First Respondent made it clear in its letters of 5, 7 and 8 November 2019 (see paragraphs 65, 67 and 68 above) that it would treat the Claimant&#8217;s employment as at an end either by reason of his resignation or the TUPE transfer to the Second Respondent. The fact that the First Respondent was wrong in its legal assessment does not mean that it was not ending the contract by its words and conduct.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">154.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">In [her] email of 8 November 2019 at 14:11 Ms Knight made it clear to the Claimant that as far as the First Respondent was concerned the matter was closed and he was no longer in the First Respondent&#8217;s employment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">155.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The First Respondent informed the Second Respondent that the Claimant was their employee as from 9 November 2019, and refused to accept the Claimant&#8217;s sick pay requests, forwarding those to the Second Respondent, thus further evincing its position of treating the Claimant&#8217;s employment with it as at an end.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">156.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">The fact that the Second Respondent mistakenly thought that the Claimant had transferred to it and made several attempts to engage with him, and for a period of time treated him as its employee, in my judgment, is irrelevant. By that time, the Claimant&#8217;s contract had been terminated by the First Respondent, and therefore it did not transfer to the Second Respondent, and there was nothing for the Second Respondent to terminate as it purported to do on 22 November 2019 and again on 3 February 2020.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">157.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-size:11pt">Finally, it might appear that after all that &#8220;mental gymnastics&#8221;, I have arrived at the same result as it would have been if the Claimant&#8217;s extant objection had been taken as him treating the contract as having been terminated under Regulation 4(9) (see paragraph 131.a above). In my view, there is a difference, not least in relation to remedies, in particular the application of Regulation 4(10). However, these issues are yet to be explored in these proceedings, and at this stage I make no judgment on them.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">For the sake of completeness, though the finding itself is not the subject of this appeal or cross-appeal, the Tribunal further concluded that the First Respondent had not acted in repudiatory breach of the Claimant&#8217;s contract of employment, and that, in any event, the Claimant had not resigned in relation to the breach which he alleged.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">The grounds of appeal and cross-appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The First Respondent appeals on the grounds that the combined effect of Regulations 4(7) and 4(8) of the 2006 Regulations had been to terminate the Claimant&#8217;s employment, by reason of his objection to the transfer, without such termination being deemed a dismissal by the First Respondent, and that regulations 4(9) and (11) require that the employee treat the contract as having been terminated and could not apply in this case, as the Claimant had not exercised his rights thereunder. Accordingly, it is said, the Claimant&#8217;s employment and related liabilities transferred to the Second Respondent under regulation 4(1) of the 2006 Regulations and the Tribunal had erred in law in finding that an employee may object to a transfer whilst insisting that his employment by the transferor continue thereafter. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Claimant cross-appeals on the basis that the Tribunal had erred in its conclusion as to the way in which his employment had come to an end, contending that, on a proper analysis, he had treated the contract as having been terminated by the First Respondent by reason of redundancy, and that regulation 4(9) of the 2006 Regulations did not require that an employee resign.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">The parties&#8217; submissions</span></p>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic">The First Respondent</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The First Respondent submits that the starting point, under regulation 4(1) of the 2006 Regulations, is that employment and related liabilities automatically transfer, unless an objection is raised under regulation 4(7). By regulation 4(8), where an objection is raised, the employee is not to be treated, for any purpose, as having been dismissed by the transferor, subject to regulation 4(9), whereunder, if there is an objection, and the employee exercises a right to treat the employment as having terminated by reason of a substantial change in working conditions, he is treated as having been dismissed by the employer. It is said that, as with a claim of constructive unfair dismissal, an employee must treat the employment as at an end if s/he wishes to exercise the right conferred by regulation 4(9); s/he cannot seek to maintain the employment with the transferor. If that right is not exercised, regulation 4(8) applies. The First Respondent contends it to be significant that, at the hearing, the Claimant had asserted (as the Tribunal found) that his employment had terminated on the day prior to the relevant transfer and that the contemporaneous correspondence had shown that he had been seeking sick-pay in relation to employment continuing beyond the date of the relevant transfer. It is submitted that the Tribunal&#8217;s express finding of fact to the effect that the Claimant had not resigned means that regulations 4(9) and (11) could not apply. Accordingly, it is said, his employment and all related liabilities had transferred to the Second Respondent under regulation 4(1) of the 2006 Regulations. As to the cross-appeal, the Tribunal&#8217;s finding as to termination could not be said to have been perverse. The Claimant had led no direct evidence to the contrary in his witness statement before the Tribunal. It had been said, on his behalf, that the only ground relied upon for a claim of constructive unfair dismissal had been the change in his place of work and that that alleged repudiatory breach had been accepted as terminating his contract by e-mail dated 8 November 2019, sent at 15.24. That contention had been rejected by the Tribunal which (at [170]) had held that, &#8216;That email says quite the opposite: &#8220;<span style="font-style:italic">I have not resigned ... I will not resign</span>&#8221;.&#8217; The Claimant had simply been seeking a redundancy payment to which he had not been entitled.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic">The Claimant</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">In reply to the appeal, the Claimant submits that the 2006 Regulations were made under the powers conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/1972/68/section/2/2" uk:canonical="1972 c. 68 s. 2" uk:origin="TNA" uk:type="legislation">section 2(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/68" uk:canonical="1972 c. 68" uk:origin="TNA" uk:type="legislation">European Communities Act 1972</ref>, implementing Council Directive 2001/23/EC (the Acquired Rights Directive (No 2001/23)), on the approximation of the laws of the Member States relating to the safeguarding of employees' rights in the event of transfers of undertakings or businesses (explanatory memorandum para 2.1) &#8212; &#8216;the ARD&#8217;. Article 4(2) of the ARD provided that, <span style="font-style:italic">'if the contract of employment or the employment relationship is terminated because the transfer involves a substantial change in working conditions to the detriment of the employee, the employer shall be regarded as having been responsible for termination of the contract of employment or of the employment relationship'</span>. The finding that regulation 4(9) of the 2006 Regulations had been engaged on the facts of this case had not been the subject of appeal. The Tribunal had been right to conclude that, where an employee has gained the protection of regulation 4(9), because the transfer would involve a material detriment to his or her working conditions, if s/he does not elect to terminate the contract s/he does not revert to the position set out in regulation 4(8) i.e. that the contract is terminated in any event. Had that been Parliament&#8217;s intention, express provision would have been made within regulation 4. The use of the word &#8216;may&#8217;, in regulation 4(9), indicated that there was no need for an employee to treat the contract as having been terminated in order that s/he be deemed to have been dismissed by the employer. The First Respondent&#8217;s interpretation of regulation 4 fell outwith the purpose of the legislation and the ARD (being to safeguard employee rights) and would render the word &#8216;may&#8217; meaningless, as the contract would terminate where an objection to transfer had been raised, with the only live issue being whether termination would be by way of dismissal (per regulation 4(9)) or by operation of law (per regulation 4(8)). The employer should bear the risk that regulation 4(9) does not apply, rather than the employee having to elect and run the risk of a later finding that the transfer had not involved a substantial change in working conditions to his or her material detriment. An employee has no right to insist upon continued employment by the transferor and it would be open to the transferor to dismiss, albeit that dismissal could give rise to legal liability. Thus, the Tribunal  had not erred in its conclusion that it is open to an employee to object to a transfer and then to continue in the transferor&#8217;s employment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">As to the cross-appeal, the Claimant submits that the wording of regulation 4(9) imposes no requirement that the employee do anything specific to treat the contract as having been terminated. The Tribunal had been wrong to conclude that, as the Claimant had been &#8216;<span style="font-style:italic">clear in his words and his acts that he did not wish the contract to end&#8217;</span>, he had not treated it as having been terminated. The language of regulation 4(9) did not require that an employee communicate his election to his employer, nor that he take any specific action in order to be deemed to have treated his contract as having come to an end. Nevertheless, on the facts of this  case, it was clear that the Claimant had treated his contract as having terminated. Throughout the period running up to the transfer, he had expressed a desire to be made redundant and to be paid redundancy pay; he had not returned to work following the transfer &#8212; albeit that he had submitted sickness certificates to the First Respondent, covering a period of some weeks following the transfer, that had come to an end on 1 December 2019, at which stage it had been clear that he had considered his contract to have been terminated. The Tribunal&#8217;s finding to the contrary had been plainly wrong and at odds with its earlier conclusions (at [138] and [139]) that: (1) it could not be right that the very same objection which had brought the employee within scope of regulation 4(9) could then operate to deprive him of the protection afforded by that regulation, because he had chosen not to treat his contract as having been terminated, when the regulation specifically gave the employee that choice, but (2) that conclusion did not mean that the employee completely lost the right later to rely upon such substantial change when treating the contract as having been terminated, with such termination still being regarded as a dismissal under regulation 4(9).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic">The Second Respondent</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Second Respondent submits that, irrespective of the outcome of the appeal and cross-appeal, by virtue of the Claimant&#8217;s objection to his transfer within the meaning of regulation 4(7) neither his contract of employment nor the rights, powers, duties and liabilities under, or in connection with, it, transferred or were capable of transfer to the Second Respondent. In fact, however, the Tribunal had found that the Claimant had been dismissed by the First Respondent on the day before the relevant transfer had taken place, a finding which had not been appealed, albeit that the First Respondent had invited the EAT to substitute its own conclusion that the Claimant had not been dismissed. The Tribunal&#8217;s finding that the Claimant had objected to the transfer, and conclusions in connection with the alleged substantial change in working conditions to his material detriment, were not the subject of appeal. The only finding under appeal was its conclusion that the Claimant&#8217;s employment with the First Respondent would continue post-transfer, until he was either dismissed by the transferor, or himself elected to treat the contract as having been terminated. By his cross-appeal, the Claimant had contended that the Tribunal had been wrong to have concluded that he had not made such an election.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The Second Respondent does not resist the First Respondent&#8217;s position as to the requirements imposed by regulations 4(9) and 4(11) of the 2006 Regulations, but submits that, but for the Tribunal&#8217;s finding that the Claimant&#8217;s employment had been terminated on 8 November 2019, the Claimant&#8217;s objection to the transfer would have operated to have terminated his employment, without such termination having been deemed a dismissal, subject to regulations 4(9) and 4(11) of TUPE. The finding of a dismissal on 8 November 2019 meant that regulation 4(8) had not been engaged. It is further submitted that, in the event that the Claimant had treated his contract as having been terminated, and had not been dismissed on 8 November 2019 (in each case, contrary to the Tribunal&#8217;s finding), he would have been treated <span style="font-style:italic">&#8216;for any purpose as having been dismissed by the employer&#8217;</span>, being the First Respondent, against which any claim must be asserted; it could not be asserted against the Second Respondent transferee (see <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">University of Oxford v Humphreys <ref href="#" uk:canonical="[2000] ICR 405" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] ICR 405</ref>, CA</span> [39]). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in">The Second Respondent contends that, in the absence of the Claimant&#8217;s exercise of the rights conferred by regulations 4(9) and 4(11) of the 2006 Regulations, and of his dismissal on 8 November 2019, regulation 4(7) precluded both his contract and any liabilities connected with it from transferring to the Second Respondent &#8212; an employee who objects to the transfer but who is found not to have exercised his rights under regulations 4(9) and 4(11) is subject to regulation 4(8) and is not to be treated for any purpose as having been dismissed by the transferor. The Second Respondent does not resist the First Respondent&#8217;s contention that the Tribunal had erred in its conclusion that an employee may object to a transfer but insist on the continuation of his employment with the transferor, submitting that the natural meaning of the word &#8216;may&#8217;, in regulation 4(9), <span style="color:#000000">is that an employee who is subject to a relevant transfer which would involve a substantial change in working conditions to his material detriment has the option to treat his employment as having terminated. Equally, he may choose to treat it as not having terminated (as did the Claimant in this case). In that latter event, an objection within the meaning of regulation 4(7) would engage regulation 4(8). In the absence of an objection, the employee&#8217;s employment (and connected rights and liabilities etc) would transfer to the transferee irrespective of whether the transfer involved such a change.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">The Second Respondent advances no positive case on the cross-appeal, submitting that, irrespective of whether the latter succeeds, it (the Second Respondent) could not be liable for any claim arising.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-weight:bold;color:#000000">Discussion and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">It is convenient to begin with the first part of the cross-appeal, which challenges the Tribunal&#8217;s findings of fact. Such a challenge could succeed only on the basis of perversity, the high hurdle for which is long-established. We consider that the Claimant cannot surmount it. The Tribunal&#8217;s conclusions, at [128], were amply justified by the facts to which it referred, which meet each of the arguments advanced by the Claimant in his cross-appeal.  His attempts to negotiate a redundancy payment do not themselves establish the position for which he contends; his submission of sickness certificates and requests for sick pay run contrary to it, as does his e-mail of 8 November 2019, in which he stated that he had not resigned, and did not wish to do so. As the Tribunal later observed [170], it was that e-mail on which counsel representing him had relied as having constituted acceptance of an alleged repudiatory breach of contract by the First Respondent, notwithstanding the fact that, thereafter, the Claimant had continued to submit sickness certificates to the First Respondent, until 1 December 2019. The fact that no certificates had been submitted after that date cannot, without more, demonstrate that he had treated his contract as having been terminated. Indeed, it takes as its premise that which is not established, namely that he had remained unfit for work at that stage. But, in any event, in particular in light of the Claimant&#8217;s unequivocal earlier correspondence, and the absence of any positive evidence from him before the Tribunal to the effect of the case now advanced, it does not serve to demonstrate that the Tribunal&#8217;s conclusions were perverse. We reject the Claimant&#8217;s contention to the contrary.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">We shall address the proper construction and effect of regulation 4(9) of the 2006 Regulations when addressing the appeal, below.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-style:italic;color:#000000">Regulation 4 of the 2006 Regulations</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">Regulation 4(1) of the 2006 Regulations sets out the position which obtains except where objection is made under regulation 4(7), absent which the contract has effect after the transfer as if originally made between the relevant employee and the transferee. In this case, it is common ground that the Claimant had objected to becoming employed by the transferee under regulation 4(7). It is also common ground that his objection had engaged regulation 4(8), &#8216;</span><span style="font-style:italic;color:#000000">subject to regulations 4(9) and (11)&#8217;</span><span style="color:#000000">. It is the meaning of the italicised wording on which the effect of regulation 4(8) turns.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="margin-left:0.25in"><span style="font-style:italic;color:#000000">Regulation 4(9)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Tribunal found that the relevant transfer would involve a substantial change in working conditions to the Claimant&#8217;s material detriment, from which finding, as we have noted, there is no appeal. Thus, regulation 4(9) entitled, but did not oblige, the Claimant to treat the contract of employment as having been terminated. The Tribunal found as a fact that he had not exercised that right, a finding which the Claimant has not succeeded in overturning (see above). The primary question arising on the facts as found (be they unchallenged or unimpeachable) is whether an employee who objects to becoming employed by the transferee, but who does not treat his contract as having been terminated when entitled to do so in accordance with regulation 4(9), is nevertheless to be treated as having been dismissed by </span><span style="font-style:italic;color:#000000">&#8216;the</span><span style="color:#000000"/><span style="font-style:italic;color:#000000">employer&#8217;</span><span style="color:#000000">. A subsidiary question arises as to whether the Tribunal&#8217;s finding to the effect that the Claimant had been dismissed by the First Respondent on the day preceding the relevant transfer [153] renders that primary question academic in this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">We pause at this stage to observe that, in the circumstances for which it provides, it is open to an employee to elect to treat the contract of employment as having terminated in accordance with regulation 4(9) without first having objected to becoming employed by the transferee under regulation 4(7). Under the latter regulation, as its plain wording makes clear, an objection would preclude the transfer of his contract of employment etc, such that, were it to be a necessary pre-requisite to the exercise of an employee&#8217;s right under regulation 4(9), &#8216;the employer&#8217; in that latter regulation could only ever refer to the transferor. Yet the draftsman&#8217;s use of the term &#8216;employer&#8217; indicates that, in the circumstances to which regulation 4(9) relates, the entity which is deemed to have dismissed the employee may be the transferor or the transferee, according to whether the effective date of termination pre- or post-dates the relevant transfer. That is consistent with the dicta of Potter LJ in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Humphreys</span><span style="color:#000000"> [30] (a case to which we shall return in due course), when considering the proper construction of Article 4(2) of the Acquired Rights Directive (77/187/EEC) of 14 February 1977</span><authorialNote class="footnote" marker="1">
+		<p class="FootnoteText" style="text-align:justify"><span style="color:#000000">Article 4(2) of the 1977 ARD provided: </span><span style="font-style:italic;color:#000000">&#8216;If the contract of employment or the employment relationship is terminated because the transfer within the meaning of Article 1(1) involves a substantial change in working conditions to the detriment of the employee, the employer shall be regarded as having been responsible for the termination of the contract of employment or of the employment relationship.&#8217; </span><span style="color:#000000">The present iteration, in </span><span style="color:#000000">EU Acquired Rights Directive (No. 2001/23)</span><span style="color:#000000"> is materially identical, but t</span><span style="color:#000000">he wording of regulation 4(9) of TUPE 2006 differs from that of regulation 5(5) of the 1981 regulations (as amended). The latter had</span><span style="color:#000000">, in effect,</span><span style="color:#000000"> incorporated the right now enshrined in Regulation 4(11), whereas the 2006 Regulations separate the provision dealing with substantial changes to working conditions from the employee&#8217;s right </span><span style="font-style:italic;color:#000000">&#8216;arising apart from the Regulations&#8217;</span><span style="color:#000000"> to resign and claim constructive dismissal.</span></p>
+		<p class="FootnoteText" style="text-align:justify"/>
+	      </authorialNote><span style="color:#000000">, which the 1981 TUPE Regulations (&#8216;the 1981 Regulations&#8217;) had been made to implement: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;&#8230;In my view the phrase "employer" is there deliberately introduced so as to comprehend the transferor and/or transferee as potentially subject to suit in respect of the termination/constructive dismissal, according to the time at which, and the circumstances in which, the employee exercises his right to terminate.&#8217;  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">Thus, where it becomes apparent, in advance of a relevant transfer, that the latter </span><span style="font-style:italic;color:#000000">&#8216;would involve&#8217;</span><span style="color:#000000"> a substantial change in working conditions to the material detriment of a person whose contract of employment would be transferred, regulation 4(9) entitles that person to treat the contract as having been terminated at that stage and provides that he shall be treated for any purpose as having been dismissed by the transferor. Where that state of affairs is apparent or arises following transfer, the affected employee may adopt the same course at that stage, and, in that event, would be treated for any purpose as having been dismissed by the transferee. In our judgement, an employee who does not object to the transfer under regulation 4(7), and who does not exercise his right to treat the contract of employment as having been terminated under regulation 4(9), is not to be treated </span><span style="font-style:italic;color:#000000">&#8216;for any purpose as having been dismissed by the employer&#8217;</span><span style="color:#000000">. To construe regulation 4(9) in any other way would be nonsensical, in requiring that an employee who had decided not to object to the transfer and not to treat the contract as having been terminated would, nevertheless, be treated as having been dismissed by the employer. That is consistent with the right preserved by regulation 4(11), whereby an employee is entitled to resign in response to a repudiatory breach of contract by his employer (and, in that event, would be treated as having been dismissed), but is not obliged to do so. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">The nature of the protection which an employee enjoys under regulation 4(9) (absent objection under regulation 4(7)) lies in the choice which he is afforded as to whether to treat the contract as having been terminated, and in circumstances potentially far more extensive than those which would constitute a repudiatory breach of contract, with the consequence that he is treated as having been dismissed. That that is the nature of the protection conferred is clear from the judgment of Roch LJ at 432H-433D, in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Humphreys</span><span style="color:#000000"> (with emphasis added), when considering the 1981 Regulations, as amended, and the Directive which they had been made to implement:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;There are two questions. First, where a transfer of an undertaking will involve a substantial and detrimental change in an employee's terms and conditions of employment can that employee treat his contract of employment as terminated by the employer and seek compensation? Second, if the answer to the first question is &#8220;Yes,&#8221; against whom is the employee to obtain his remedy: is it the transferor of the undertaking or the transferee?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">The starting point for seeking answers to these questions is Council Directive (77/187/E.E.C.). </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">The purpose of that Directive is to protect the employee when his employer transfers the employer's business to another. The protection has to be that if the terms of engagement with the transferee will be significantly different from those which obtained with the transferor and the differences will be detrimental to the employee then the employee is to have the option of treating his employment as terminated and obtaining compensation. That, it seems to me, is the interpretation the Court of Justice has given to article 4(2) of the Directive in its decision in </span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Merckx v. Ford Motors Co. (Belgium) S.A.</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000"> (<ref href="#" uk:canonical="Case C-171/94" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-171/94</ref>) <ref href="#" uk:canonical="[1997] I.C.R. 352" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] I.C.R. 352</ref>.</span><span style="font-weight:bold;color:#000000"> Article 4(2) of Directive 77/187 provides:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.38in;margin-right:0.95in"><span style="font-weight:bold;color:#000000">&#8220;If the contract of employment or the employment relationship is terminated because the transfer within the meaning of article 1(1) involves a substantial change in working conditions to the detriment of the employee, the employer shall be regarded as having been responsible for the termination of the contract of employment or of the employment relationship.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8230;&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">There is nothing inherently contrary to the purpose of the 2006 Regulations, or otherwise objectionable, in an outcome which differs according to the choice which the employee makes. The fact that an employee who resigns under regulation 4(9) bears the risk that a tribunal may subsequently consider the relevant change in working conditions not to have been substantial and/or to his material detriment) is unobjectionable. First, it is an inevitable product of the fact that the election is his to make. Secondly, the same objection might be raised in relation to an employee who resigns in response to conduct which he considers to constitute a repudiatory breach of contract, which view a court or tribunal might later reject.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">That leaves open whether an employee must expressly communicate an election to treat the contract as having been terminated, under regulation 4(9), and, if so, at what stage.  As we have noted, in circumstances in which regulation 4(9) is engaged, and depending upon the facts, the employee may elect to treat the contract of employment as having been terminated either before or after the transfer. In either event, in our judgement, and consistent with the position for an employee who resigns in response to a repudiatory breach of contract, any such election must be communicated by some unequivocal and unambiguous overt act, which is inconsistent with the subsistence of the contract. In many, if not most, cases, that will take the form of an express statement by the employee to the effect that he is treating the contract of employment as having been terminated, but it need not invariably take that form. It will be a question of fact as to whether the statement or other act on which the employee relies unequivocally and unambiguously communicated his election, and, depending upon the point at which it is communicated, it will be a mixed question of fact and law as to whether he has, by then, affirmed the contract.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;color:#000000">The effect of an objection under regulation 4(7)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">The above analysis considers the effect of regulation 4(9) in the absence of any objection under regulation 4(7) of the 2006 Regulations. What, then, is the position for an employee who objects to becoming employed by the transferee under regulation 4(7) and who would be entitled to treat his contract as having been terminated under regulation 4(9) but who chooses not to exercise that right? </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">The Tribunal considered there to be four possible answers to that question ([131]). For the reasons which it gave (at [136]), we agree that the first such answer is incorrect; an employee&#8217;s objection to the transfer cannot itself operate to mean that he has treated the contract as having been terminated under regulation 4(9), where that regulation affords him a choice as to whether to do so in the circumstances for which it provides. Like the Tribunal, we also reject the third possible answer; to conclude otherwise is to ignore the plain and unequivocal meaning of regulation 4(7), which provides that regulation 4(1) shall not operate to transfer the contract etc. of an employee who informs the transferor or transferee that he objects to becoming employed by the latter. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">We differ, however, from the Tribunal&#8217;s conclusions in relation to the remaining possibilities which it identified, considering neither to be correct as a matter of law and that the correct answer to the primary question is that an employee&#8217;s objection to becoming employed by the transferee stands, and that, notwithstanding his election not to terminate the contract under regulation 4(9), the relevant transfer operates to terminate his contract of employment with the transferor, which is to be treated as having dismissed him. We so conclude for the reasons which follow.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">Regulation 4(8) provides for the consequences of an employee&#8217;s objection to becoming employed by the transferee. It is expressly subject to regulations 4(9) and (11). That is to say that, where the position set out in those regulations obtains, it qualifies the position for which regulation 4(8) would otherwise provide. The structure of regulation 4 makes clear that an employee&#8217;s objection to becoming employed by the transferee operates, first, to preclude a transfer of the contract of employment etc, and, then, to terminate the contract of employment one way or another, leaving simply the question of whether or not the employee is deemed to have been dismissed at all, and, if so, by which entity. It does not contemplate continued employment by the transferor following the relevant transfer of the organised grouping of resources or employees to which the affected employee is assigned. As explained by Moore-Bick J at p432F of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Humphreys</span><span style="color:#000000">:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;&#8230;the transfer of an undertaking operates to discharge the contract of employment both under the Regulations and at common law. &#8230;&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">Regulation 4(8) is </span><span style="font-style:italic;color:#000000">&#8216;subject to paragraphs (9) and (11)&#8217;</span><span style="color:#000000"> in so far as an employee who falls within either such paragraph may elect to treat the contract as having been terminated, with the result that he is treated as having been dismissed by his employer. In our judgement, it is also subject to those paragraphs in so far as the consequences of his objection under regulation 4(7) are concerned, for reasons which emerge from a careful consideration of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Humphreys</span><span style="color:#000000">.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;color:#000000">Humphreys</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Humphreys</span><span style="color:#000000">, the claimant had been employed by the defendant university to set, mark and moderate examinations for its Delegacy of Local Examinations. The university indicated its fixed intention to transfer his contract of employment upon a transfer of the work of the Delegacy to an examining board. In advance of that transfer, Mr Humphreys notified the university of his objection to becoming an employee of the board, under regulation 5(4A) of the 1981 TUPE Regulations, as amended. When the transfer occurred, he brought a claim against the university, asserting that the transfer constituted a wrongful dismissal. On the university&#8217;s application to strike out that claim, the judge rejected its contention that, under regulations 5(1) and (2), liability for any breach of contract had transferred to the board, granting leave to the claimant to join the board to proceedings. The university appealed, conceding, for the purposes of that appeal, that the transfer would have involved a substantial and detrimental change to Mr Humphreys&#8217; working conditions. The Court of Appeal held that: (1) the 1981 Regulations had to be construed so as to give effect to the Acquired Rights Directive (77/187/EEC) of 14 February 1977, to preserve an employee's rights on a transfer by enabling him to enjoy the same terms and conditions of employment as he had formerly enjoyed; (2) so construed, an objection by an employee, under regulation 5(4A), to becoming an employee of a transferee on the ground that the transfer would involve a substantial and detrimental change in his terms and conditions of employment for the purposes of regulation 5(5) prevented the statutory novation of his contract of employment for which regulation 5(1) provided from taking place on transfer; and (3) in those circumstances, regulation 5(5) preserved the objecting employee's right at common law to terminate his contract in respect of detrimental change in his working conditions and to sue and seek compensation for wrongful dismissal from the transferor. Potter LJ expressed that last conclusion in the following way [39]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;&#8230;it is clear that to the extent that the common law right of the employee to terminate and sue for constructive dismissal is preserved by paragraph (5), it is a right which exists and must be asserted against the transferor employer. The reason is twofold. First, it is the nature of the common law right and remedy that both exist in respect of the employer who wrongly terminates the employee's contract of employment and cannot be asserted against a proposed transferee. Second, it is because the introductory wording of paragraph (4A) excludes the statutory novation under paragraph (1) and the comprehensive transfer of rights and obligations under paragraph (2); thus the remedy against the transferor employer is not transferred.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">At the relevant time, regulation 5 of the 1981 Regulations had provided, in material part:&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="color:#000000">&#8216;(1)&#160;Except where objection is made under paragraph (4A) below,&#160;a relevant transfer shall not operate so as to terminate the contract of employment of any person employed by the transferor in the undertaking or part transferred but any such contract which would otherwise have been terminated by the transfer shall have effect after the transfer as if originally made between the person so employed and the transferee.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in;text-indent:0.02in"><span style="color:#000000">Without prejudice to paragraph (1) above,&#160;but subject to paragraph (4A) below, on the completion of a relevant transfer &#8212;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.28in;text-indent:-0.3in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:0.08in"><span style="color:#000000">all the transferor's rights, powers, duties and liabilities under or in connection with any such contract shall be transferred by virtue of this regulation to the transferee; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.28in;text-indent:-0.3in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in;margin-right:0.56in;text-indent:0.08in"><span style="color:#000000">anything done before the transfer is completed by or in relation to the transferor in respect of that contract or a person employed in that undertaking or part shall be deemed to have been done by or in relation to the transferee.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in;text-indent:0.02in"><span style="color:#000000">Any reference in paragraph (1) or (2) above to a person employed in an undertaking or part of one transferred by a relevant transfer is a reference to a person so employed immediately before the transfer&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="color:#000000">(4A)&#160;Paragraphs (1) and (2) above shall not operate to transfer his contract of employment and the rights, powers, duties and liabilities under or in connection with it if the employee informs the transferor or the transferee that he objects to becoming employed by the transferee.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="color:#000000">(4B) Where an employee so objects the transfer of the undertaking or part in which he is employed shall operate so as to terminate his contract of employment with the transferor but he shall not be treated, for any purpose, as having been dismissed by the transferor.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in;text-indent:0.02in"><span style="color:#000000">Paragraphs (1) and (4A) above are&#160;without prejudice to any right of an employee arising apart from these Regulations to terminate his contract of employment without notice if a substantial change is made in his working conditions to his detriment; but no such right shall arise by reason only that, under that paragraph, the identity of his employer changes unless the employee shows that, in all the circumstances, the change is a significant change and is to his detriment.&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">It will be apparent that regulation 5(5) of the 1981 Regulations materially differed from regulation 4(9) of the 2006 Regulations &#8212; albeit using the language of substantial change to an employee&#8217;s material detriment, it referred to any right </span><span style="font-style:italic;color:#000000">arising apart from these Regulations</span><span style="color:#000000"> and, in effect, therefore, referred to an employee&#8217;s common law right to resign and claim constructive dismissal, a right now preserved by regulation 4(11) of the 2006 Regulations. By contrast, regulation 4(9) of the 2006 Regulations created a separate right which had no free-standing basis in common law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">Nevertheless, the genesis of regulation 5 of the 1981 Regulations, to be found in the judgments of the European Court, as analysed in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Humphreys</span><span style="color:#000000">, is instructive for current purposes:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">a.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="color:#000000">At page 424A-G, Moore-Bick J (as he then was) summarised </span><span style="font-style:italic;color:#000000">Katsikas v. Konstantinidis </span><span style="color:#000000">(Cases C-132,138 and 139/91) [1992] ECR I-6577 in which the Court of Justice had held that an employee had the right to object to a transfer, notwithstanding the absence from the Directive of any provision therefor, and that, were he to exercise that right, the transfer would not result in his becoming employed by the transferee. Moore-Bick J cited paragraphs 30 to 36 of </span><span style="font-style:italic;color:#000000">Katsikas</span><span style="color:#000000">, including the following dicta:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;35. It follows that, in the event of the employee deciding of his own accord not to continue with the contract of employment or employment relationship with the transferee, the Directive does not require the member states to provide that the contract or relationship is to be maintained with the transferor. In such a case, it is for the member states to determine what the fate of the contract of employment or employment relationship should be.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold">36.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:0.12in"><span style="font-weight:bold;color:#000000">The member states may, in particular, provide that in such a case the contract of employment or employment relationship must be regarded as terminated either by the employee or by the employer. They may also provide that the contract or relationship should be maintained with the transferor.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">b.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:-0.03in"><span style="color:#000000">Moore-Bick J observed that, shortly after the judgment in </span><span style="font-style:italic;color:#000000">Katsikas</span><span style="color:#000000">, the 1981 Regulations had been amended to take account of that decision, to include within regulation 5 paragraphs (4A) and (4B) and to make certain consequential amendments. At page 425F-G, he noted:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;The language in which paragraphs (4A) and (4B) are cast indicates that when introducing these amendments Parliament intended to take advantage of the freedom allowed to member states by the court in the </span><span style="font-style:italic;font-weight:bold;color:#000000">Katsikas </span><span style="font-weight:bold;color:#000000">case to regard the contract of any employee who objected to its being transferred to the transferee as having been terminated by the employee himself. The consequence of that in the ordinary way would be that he would be regarded as having resigned from his employment rather than as having been dismissed by his employer. In those circumstances the inclusion of paragraph (4B) makes perfectly good sense.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">c.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:-0.03in"><span style="color:#000000">Moore-Bick J further noted (at pages 425H - 426A) that, as far as could be discerned from the report in </span><span style="font-style:italic;color:#000000">Katsikas</span><span style="color:#000000">, the employees&#8217; objection to working for the transferee business had been a personal one and that there had been nothing to suggest that it had been based upon an expectation that the transfer would produce any substantial detrimental change to their working conditions, or any other significant disadvantage to them. In </span><span style="font-style:italic;color:#000000">Merckx </span><span style="color:#000000">v. </span><span style="font-style:italic;color:#000000">Ford Motors Co. (Belgium) S.A. </span><span style="color:#000000">(Case C-171194)<ref href="#" uk:canonical="[1997] I.C.R. 352" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] I.C.R. 352</ref>, that additional factor had been present. Moore-Bick J then cited paragraphs 36 to 39 of the Court of Justice&#8217;s judgment in that case: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;36. The plaintiffs claimed, moreover, that in the case in point [the transferee] refused to guarantee to maintain their level of remuneration, which was calculated by reference, in particular, to the turnover achieved. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold">37.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:0.12in"><span style="font-weight:bold;color:#000000">In the light of that submission, it should be noted that article 4(2) provides that, if the contract of employment or employment relationship is terminated because the transfer within the meaning of article 1(1) involves a substantial change in working conditions to the detriment of the employee, the employer is to be regarded as having been responsible for the termination. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold">38.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:0.12in"><span style="font-weight:bold;color:#000000">A change in the level of remuneration awarded to an employee is a substantial change in working conditions within the meaning of that provision, even where the remuneration depends in particular on the turnover achieved. Where the contract of employment or the employment relationship is terminated because the transfer involves such a change, the employer must be regarded as having been responsible for the termination. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold">39.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:0.12in"><span style="font-weight:bold;color:#000000">Consequently, the answer to the second part of the question as reformulated must be that article 3(1) of Directive (77/187/E.E.C.) does not preclude an employee employed by the transferor at the date of the transfer of an undertaking from objecting to the transfer to the transferee of the contract of employment or the employment relationship. In such a case, it is for the member states to determine what the fate of the contract of employment or employment relationship with the transferor should be. However, where the contract of employment or employment relationship is terminated on account of a change in the level of remuneration awarded to the employee, article 4(2) of the Directive requires the member states to provide that the employer is to be regarded as having been responsible for the termination.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">d.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:-0.03in"><span style="color:#000000">At page 427D-G, he continued:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">&#8216;What, then, is one to make of paragraph 39 of the judgment and the last sentence in particular? I do not think that it can be read as merely a gratuitous reference to article 4(2) because it has been composed with the particular facts of the case in mind and it is clear from paragraph 15 that the court was seeking to formulate and answer questions which would be of assistance to the Belgian court. I also think it is clear that the paragraph must be read as a whole and that the last sentence is intended to be read as a qualification on what immediately precedes it. In other words, the court is confirming that an employee has a right to object to the transfer of his contract of employment and that member states can decide for themselves what the consequences for the existing contract shall be if he does so. However, it is also saying that if the contract is terminated in such circumstances because of some adverse change in conditions falling within the scope of article 4(2)&#8212;in that case a change in the level of remuneration&#8212;the employer must be regarded as having been responsible for the termination of the contract. I think the reference to "the employer" in that passage must mean the transferor because if an effective objection</span><span style="font-weight:bold"/><span style="font-weight:bold;font-family:Times">is made the employee never becomes employed by the transferee. Moreover, it seems to me that both the language of Directive 77/187 and the judgment of the court contemplate that a remedy will be available to the employee under domestic law in such a case.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.3in">e.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.79in;margin-right:-0.03in"><span style="font-family:Times">It was against that background which, in Moore-Bick J&#8217;s judgement, the 1981 Regulations, and regulation 5 in particular, fell to be construed. At page 429B &#8211; 430E, he held:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">&#8216;In the present case the university did not make any change in Mr. Humphreys's working conditions. All it did was to announce its intention to transfer its undertaking to another body which, we are bound to assume, would subsequently do so. In my judgment the intention of Parliament, in so far as it is to be collected simply from the language of the Regulations themselves, was to preclude an employee who objected to the transfer of his contract of employment from pursuing a claim for wrongful dismissal arising out of the termination of his contract, at any rate in circumstances such as those of the </span><span style="font-style:italic;font-weight:bold;font-family:Times">Katsikas </span><span style="font-weight:bold;font-family:Times">case &#8230;, where the objection is not based on the grounds that the transfer would inevitably bring about a change in working conditions to his detriment. That is to some extent reinforced by the statements made by ministers in both Houses during debates on the Trade Union Reform and Employment Rights Bill which we allowed the board to place before us under the principles laid down in </span><span style="font-style:italic;font-weight:bold;font-family:Times">Pepper </span><span style="font-weight:bold;font-family:Times">v. </span><span style="font-style:italic;font-weight:bold;font-family:Times">Hart </span><span style="font-weight:bold;font-family:Times"><ref href="#" uk:canonical="[1993] I.C.R. 291" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] I.C.R. 291</ref>. I think it is fair to say, however, that when making those statements ministers do not seem to have had in mind a situation of the kind which subsequently arose in the </span><span style="font-style:italic;font-weight:bold;font-family:Times">Merckx </span><span style="font-weight:bold;font-family:Times">case &#8230; and arises in the present case.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">It is not possible to confine oneself simply to the language of the Regulations, however, since, as I have already observed, the task of this court when faced with legislation passed to give effect to Council Directives is to adopt a purposive approach and so far as possible to construe it in such a way as will give effect to the Directive as it has been construed by the Court of Justice. &#8230;</span><span style="font-weight:bold;font-family:Times;font-size:11pt"> I</span><span style="font-weight:bold;font-family:Times">t is clear from the decisions in </span><span style="font-style:italic;font-weight:bold;font-family:Times">Katsikas </span><span style="font-weight:bold;font-family:Times">and </span><span style="font-style:italic;font-weight:bold;font-family:Times">Merckx </span><span style="font-weight:bold;font-family:Times">that member states are entitled to provide, as regulation 5(4A) does, that where an employee objects to the transfer of his contract of employment the transfer of the undertaking automatically terminates his contract. However I am also satisfied in the light of the decision in </span><span style="font-style:italic;font-weight:bold;font-family:Times">Merckx </span><span style="font-weight:bold;font-family:Times">that article 4(2) of Directive 77/187 is to be understood as meaning that, if the transfer of an employee's contract of employment would result in a substantial change in working conditions to his detriment and he objects to the transfer on those grounds, the contract is to be regarded as having been terminated because the transfer involves a substantial change in working conditions to the detriment of the employee. The fact that article 4(2) refers to "the employer" rather than "the transferee" means that it is capable of referring both to the transferee and the transferor as may be appropriate and is therefore consistent with that approach, and there are other indications to the same effect. Article 1(1) of the Directive identifies the type of transaction to which the subsequent articles relate; it is article 3(1) which contains the operative provisions. Accordingly, the expression "because the transfer within the meaning of article 1(1) involves a substantial change in working conditions" in article 4(2) must be interpreted as referring to a case where the contract is terminated at the instigation of the employee because the transfer of his contract would lead to a detrimental change in his working conditions. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">Article 4(2) of the Directive is carried into effect by regulation 5(5). The first question, therefore, is whether paragraph (5) is capable of being construed as covering the case where the employee exercises the right to treat himself as constructively dismissed because the proposed transfer to the new employer would necessarily result in a substantial change in working conditions to his detriment. As I have already said, I think that the language of paragraph (5) is more apt to refer to the situation in which a change in working conditions has actually been brought about than one in which such a change is simply foreseen. However, if the purpose of the Directive is to be fulfilled, paragraph (5) must be given a generous interpretation and I do not think that it is too difficult to construe it as applying to a case of that kind. At common law any transfer of the undertaking would entitle the employee to treat himself as discharged immediately: see </span><span style="font-style:italic;font-weight:bold;font-family:Times">Litster v. Forth Dry Dock &amp; Engineering Co. Ltd </span><span style="font-weight:bold;font-family:Times"><ref href="#" uk:canonical="[1989] I.C.R. 341" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] I.C.R. 341</ref>, </span><span style="font-style:italic;font-weight:bold;font-family:Times">per </span><span style="font-weight:bold;font-family:Times">Lord Oliver of Aylmerton, at pp. 362H&#8212;363B and </span><span style="font-style:italic;font-weight:bold;font-family:Times">Wilson v. St. Helens Borough Council </span><span style="font-weight:bold;font-family:Times"><ref href="#" uk:canonical="[1998] I.C.R. 1141" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] I.C.R. 1141</ref>, </span><span style="font-style:italic;font-weight:bold;font-family:Times">per </span><span style="font-weight:bold;font-family:Times">Lord Slynn of Hadley, at p. 1152; a fortiori if it is one which would adversely affect his working conditions. On the assumption, which we are bound to make for the purposes of this appeal, that the transfer of the undertaking from the university to the board would necessarily have that effect, Mr. Humphreys was entitled to treat it as discharging his contract with the university.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Times;margin-left:0.79in;text-indent:-0.3in">f.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.79in;margin-right:0.07in"><span style="font-family:Times">Having so held, Moore-Bick J went on to hold that Mr Humphreys was entitled to pursue a claim for wrongful dismissal and to consider which defendant was liable to Mr Humphreys, holding as follows, at pages 431C - 432G:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">&#8216;Paragraph (4A) of regulation 5 is quite explicit in its terms and indeed the whole concept of the employee's right to object to the transfer of his contract of employment points to the conclusion that the university is the party liable to him. Paragraphs (1) and (2) of regulation 5 which provide for the transfer of contracts of employment and the rights and liabilities under and in connection with them are expressly subject to paragraph (4A) which provides in terms that they shall not operate to transfer the contract of employment or the rights, powers, duties or liabilities under or in connection with it in the case of an employee who objects to such a transfer. In the face of that paragraph it is difficult to see what</span><span style="font-weight:bold;font-family:Times;font-size:11pt"/><span style="font-weight:bold;font-family:Times">could possibly be transferred to the transferee.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times;font-size:11pt">&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold">The purpose of the Directive, as the court emphasised in </span><span style="font-style:italic;font-weight:bold">Katsikas </span><span style="font-weight:bold">and </span><span style="font-style:italic;font-weight:bold">Merckx, </span><span style="font-weight:bold">is to safeguard the rights of employees by making it possible for them to continue to work for the new employer on the same conditions as those agreed with the transferor, but employees are not obliged to take advantage of that protection if they do not wish to. If the employee does not object to the transfer of the employment relationship, article 3(1) of the Directive automatically results</span><span style="font-style:italic;font-weight:bold"/><span style="font-weight:bold">in the transfer to the new employer of all rights and liabilities arising under the contract, whether the employee likes it or not: see </span><span style="font-style:italic;font-weight:bold">Katsikas </span><span style="font-weight:bold">&#8230;, paras. 22-24. That is consistent with the overall scheme of Directive 77/187. If the employee does object, however, I can see nothing in the Directive itself or in the judgments of the court in </span><span style="font-style:italic;font-weight:bold">Katsikas </span><span style="font-weight:bold">or </span><span style="font-style:italic;font-weight:bold">Merckx </span><span style="font-weight:bold">to suggest that the rights and liabilities under his contract are transferred to the new employer even though his employment relationship is not. As I have already indicated, I think that would be contrary to the scheme of the Directive. It would also be inconsistent with the principles which underlie the decisions in </span><span style="font-style:italic;font-weight:bold">Katsikas </span><span style="font-weight:bold">and </span><span style="font-style:italic;font-weight:bold">Merckx </span><span style="font-weight:bold">inasmuch as it would deprive the employee who objected to the transfer of his contract of the right to sue his original employer in respect of accrued claims. In my judgment the position under both the Directive 77/187 and the Regulations of 1981 is quite clear: if an employee objects to the transfer of his contract of employment, the transfer of the undertaking will not transfer to the transferee either the contract of employment or any of the rights or liabilities associated with it all of which remain with the transferor. &#8230; the transfer of an undertaking operates to discharge the contract of employment both under the Regulations and at common law, as the authorities to which I have already referred demonstrate. That being so, the employee who waits for the transfer to take effect can rely on his common law rights which arise quite apart from the Regulations. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold">That being so, if Mr. Humphreys has a right to recover in respect of the termination of his contract, he is entitled to do so against the university, not the board.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Times;margin-left:0.79in;text-indent:-0.3in">g.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.79in;margin-right:0.56in"><span style="font-family:Times">The dicta of Roch LJ, at pages 433G - 434G are also instructive:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">&#8216;To read article 4(2) of the Directive as meaning no more than that in the circumstances set out in that article the employer should be considered responsible for the termination of a contract of employment or the contract relationship without any resulting liability, would not, in my judgment, achieve the purpose of the Directive, namely to protect the employee. It is of some assistance that the Directive in the French language provides that in the circumstances contemplated in article 4(2) the ending of the contract of employment or the relationship of employment is to be considered as having been brought about by the act of the employer. The word "responsibility" does not appear. The answer to the first question is in dispute because it is arguable that regulation 5(5) of the Transfer of Undertakings (Protection of Employment) Regulations 1981 is subordinate to regulation 5(4B). That argument is based on the fact that regulation 5(5) does not refer expressly to paragraph (4B) of the regulation. Regulation 5(5) reads: </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NormalWeb" style="text-align:justify;margin-left:1.67in;margin-right:0.95in"><span style="font-weight:bold;font-family:Times">"Paragraphs (1) and (4A) above are without prejudice to any right of an employee arising apart from these Regulations to terminate his contract of employment without notice if a substantial change is made in his working conditions to his detriment; but no such right shall arise by reason only that, under that paragraph, the identity of his employer changes unless the employee shows that, in all the circumstances, the change is a significant change and is to his detriment." </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in;text-indent:-1.38in"><marker name="tab"/><span style="font-weight:bold;font-family:Times">It is convenient also to set out the terms of regulation 5(4A) and (4B): </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NormalWeb" style="text-align:justify;margin-left:1.77in;margin-right:0.95in"><span style="font-weight:bold;font-family:Times">"(4A) Paragraphs (1) and (2) above shall not operate to transfer his contract of employment and the rights, powers, duties and liabilities under or in connection with it if the employee informs the transferor or the transferee that he objects to becoming employed by the transferee. (4B) Where an employee so objects the transfer of the undertaking or part in which he is employed shall operate so as to terminate his contract of employment with the transferor but he shall</span><br/><span style="font-weight:bold;font-family:Times">not be treated, for any purpose, as having been dismissed by the transferor." </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">The question is whether paragraph (5) has to be read as being subject to paragraph (4B) or whether paragraph (4B) is without prejudice to any right of an employee arising apart from these Regulations. In my opinion the answer is that paragraph (4B) has no existence independent of paragraph (4A) as its opening words clearly demonstrate. There is only</span><br/><span style="font-weight:bold;font-family:Times">one "objection by the employee situation" namely that contemplated in paragraph (4A). If that situation arises, it prevents the statutory novation provided for in regulation 5(1) occurring. That is why in regulation 5(1) "paragraph (4A) below" is referred to and paragraph (4B) is not. Paragraph (4B) states the consequences of a paragraph (4A) objection; but it does no more than that. Consequently where paragraph (5) provides that paragraphs (1) and (4A) above are without prejudice to any right of an employee, that was all that it needed to say to convey to the reader that paragraph (5) was to override paragraph (4B). </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">That that is the correct reading &#8230; is concluded, in my judgment, by the requirement that the Regulations must be read in a way which gives effect to the Directive as interpreted by the Court of Justice.&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:Times;margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;margin-right:-0.03in"><span style="font-family:Times">As we have observed, in its current form, Article 4(2) of the ARD is in terms materially identical to its predecessor, considered in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Times">Humphreys</span><span style="font-family:Times">. Applying the ratio of that case to regulation 4 of the 2006 Regulations, if the employee objects to the transfer by reason of a substantial change in working conditions to his material detriment, the contract is to be regarded as having been terminated for that reason and the employee shall be treated as having been dismissed by the transferor, against which entity any remedy lies. That is also consistent with the European Court&#8217;s analysis of the meaning of Article 4(2) of the ARD in </span><span style="font-style:italic;font-family:Times">Mirja Juuri v Fazer Amica Oy (C-396/07), 27 November 2008</span><span style="font-family:Times"> [22]: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:1.38in;margin-right:0.56in"><span style="font-weight:bold;font-family:Times">&#8216;It is clear from the wording of Article 4(2) of Directive 2001/23 that it establishes a rule that the employer is to be regarded as responsible for the termination of a contract of employment or employment relationship, whichever party is technically responsible for the termination. However, that provision does not set out the legal consequences of that responsibility. Thus it does not impose on the Member States any obligation to guarantee employees a particular compensation scheme&#8230;&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:Times;margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;margin-right:-0.03in"><span style="color:#000000">In our judgement, the Tribunal&#8217;s conclusion (at [150] of its reasons) that </span><span style="font-style:italic;color:#000000">&#8216;</span><span style="font-style:italic">what was not legally impossible for the Claimant </span>[was]<span style="font-style:italic"> to continue to be employed by the First Respondent on the terms as varied by the &#8220;substantial change&#8221; until his dismissal by the First Respondent or his acceptance of the substantial change as terminating the contract&#8217;</span> failed to have regard to the position set out above and to the qualifying wording at the beginning of regulation 4(8) of the 2006 Regulations. <span style="font-family:Times">Where the employee objects under regulation 4(7), but does not himself invoke his right to treat the contract as terminated under regulation 4(9), to construe regulation 4(8) as requiring that he shall not be treated, for any purpose, as having been dismissed by the transferor, is to construe it in a way which does not give effect to Article 4(2) of the ARD.  It is for that reason, in our judgement, that regulation 4(8) is  expressly &#8216;subject to paragraphs (9) and (11)&#8217;. That proviso operates to disapply the position for which the second limb of regulation 4(8) would otherwise provide, namely that the employee shall not be treated for any purpose as having been dismissed by the transferor. That is because the employee&#8217;s objection under regulation 4(7) operates so as to terminate his contract with the transferor in circumstances in which Article 4(2) of the ARD requires that the employer be responsible for that termination and that there be a remedy under domestic legislation. Thus, neither his contract nor his accrued rights thereunder transfer, but he retains, as against the transferor, any right to recover in respect of the termination. That construction avoids the prospect by which the Tribunal was concerned &#8212; that an employee who objects to becoming employed by the transferee because the transfer would involve a substantial change in working conditions to his material detriment would be left without protection. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:Times;margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;margin-right:-0.03in"><span style="font-family:Times">Nevertheless, and as previously noted, that protection arises by virtue of the 2006 Regulations and not apart from them. It is subject to the remaining provisions of those regulations, including regulation 7, which provides for the consequences of an employee&#8217;s dismissal because of a relevant transfer, a matter which, in this case, the Tribunal has yet to consider and which we say no more about.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;color:#000000">The subsidiary question: is the primary question in this appeal academic?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="color:#000000">As we have noted, at [153], the Tribunal found that the Claimant had been dismissed by the First Respondent on 8 November 2019; the day preceding the relevant transfer. The framing of that finding is instructive and repeated below:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.56in"><span style="font-weight:bold;color:#000000">&#8216;&#8230;I find that the Claimant&#8217;s employment has ended on 8 November 2019 by reason of the First Respondent dismissing the Claimant by purporting to transfer his contract of employment to the Second Respondent despite the Claimant&#8217;s objection and by informing the Claimant that it no longer considered him to be its employee. </span><span style="font-weight:bold">The First Respondent made it clear in its letters of 5, 7 and 8 November 2019 (see paragraphs 65, 67 and 68 above) that it would treat the Claimant&#8217;s employment as at an end either by reason of his resignation or the TUPE transfer to the Second Respondent.</span><span style="font-weight:bold;color:#000000">&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">It is clear from the above paragraph, and from those to which it cross-referred (recited in full earlier in this judgment), that the First Respondent had communicated &#8212; we observe, correctly &#8212; that 8 November 2019 would constitute the Claimant&#8217;s last day in its employment by reason of the transfer. Albeit that the correspondence, including that to which paragraphs 70 and 71 of the Tribunal&#8217;s reasons referred, indicated a difference of understanding as to whether the Claimant was intending to resign or transfer, in her letter of 7 November 2019, Ms Knight had, to the following extent, correctly set out the effect in law of the Claimant&#8217;s objection absent any election by him under regulation 4(9) to treat the contract as having been terminated: </span><span style="font-style:italic;color:#000000">&#8216;Under the TUPE Regulations to object to the transfer means that your employment will end on the transfer date by reason of your objection...&#8217;</span><span style="color:#000000">  Furthermore, the Tribunal&#8217;s conclusion that the First Respondent had dismissed the Claimant by purporting to transfer his contract of employment to the Second Respondent, despite his objection, misconstrued the position in law &#8212; at the time of the purported transfer, regulation 4(8) had already operated to terminate his contract. The essence of the Tribunal&#8217;s finding is that the First Respondent would treat the Claimant&#8217;s employment as at an end, either by reason of his resignation or of the TUPE transfer (which, we observe, took effect on 9 November 2019) and that, accordingly, it had dismissed him. It follows that the primary issue in this case is not academic and that our conclusions relating to it are not </span><span style="font-style:italic;color:#000000">obiter dicta</span><span style="color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;color:#000000">Summary and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">For the reasons which we have set out, in our judgement:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="color:#000000">Where a relevant transfer involves, or would involve, a substantial change in working conditions to the material detriment of a person whose contract of employment is, or would be, transferred under regulation 4(1) of the 2006 Regulations, regulation 4(9) confers on that person the right to treat the contract of employment as having been terminated. If he elects to exercise that right, he shall be treated for any purpose as having been dismissed by the employer, which, depending upon the circumstances, may be the transferor or the transferee. If he elects not to exercise that right, he transfers to the employment of the transferee, unless he has objected to so doing under regulation 4(7).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="color:#000000">Where he objects to becoming employed by the transferee under regulation 4(7) in circumstances in which regulation 4(9) applies, the effect of that objection is to preclude the transfer of his contract, and of any of the rights and obligations etc for which regulation 4(2) provides, to the transferee.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="color:#000000">In those circumstances, notwithstanding the employee&#8217;s election not to terminate the contract under regulation 4(9), regulation 4(8) operates so as to terminate the employee&#8217;s contract of employment with the transferor, by which entity he is treated as having been dismissed, and against which any remedy lies. He has no remedy against the transferee.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">Thus:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="color:#000000">Whilst disagreeing with the route by which the Tribunal reached its conclusion at [152], and accepting no party&#8217;s submissions in their entirety, we agree that the Claimant&#8217;s contract of employment could not and did not transfer to the Second Respondent on 9 November 2019. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="color:#000000">The relevant transfer operated to terminate the Claimant&#8217;s employment with the First Respondent transferor by reason of his objection, itself based upon </span>the substantial change in working conditions to his material detriment which that transfer would (and has since been found to) involve.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">As the Tribunal found, albeit for different reasons, the Claimant is to be treated as having been dismissed by the First Respondent transferor, which is the only entity a<span style="color:#000000">gainst which any liability for that dismissal could lie.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;color:#000000">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="color:#000000">In the result, therefore, both the appeal and cross-appeal fail and are dismissed. The remaining issues for determination as between the Claimant and the First Respondent fall to be considered by the Tribunal in accordance with this judgment, and it is likely that both it and those parties will benefit from a prior case management hearing at which to consider the appropriate framing of the issues which survive.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

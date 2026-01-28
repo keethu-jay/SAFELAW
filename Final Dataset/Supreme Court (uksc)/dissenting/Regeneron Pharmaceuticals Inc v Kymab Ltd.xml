@@ -1,0 +1,1134 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2020/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2020/27"/>
+	  <FRBRdate date="2020-06-24" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="27"/>
+	  <FRBRname value="Regeneron Pharmaceuticals Inc v Kymab Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2020/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2020/27"/>
+	  <FRBRdate date="2020-06-24" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2020/27/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2020/27/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:47:21" name="transform"/>
+	  <FRBRdate date="2025-08-17T22:22:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2020-06-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="regeneron-pharmaceuticals-inc" href="" showAs="Regeneron Pharmaceuticals Inc"/>
+	<TLCPerson eId="kymab-ltd" href="" showAs="Kymab Ltd"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2020</uk:year>
+	<uk:number>27</uk:number>
+	<uk:cite>[2020] UKSC 27</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>895f6d1718f464a3b15b4468f53fe2fb7f60ecc00f854261ce199a30df2d5d6a</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-style: italic; font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1.00in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.00in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.50in; margin-right: 0.50in; font-size: 13pt; }
+#judgment .NewSpeech { font-style: normal; font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .QuoteChar { font-size: 13pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p><img src="image1.png" style="width:1.3756944444444446in;height:1.3756944444444446in;"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Trinity Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2020] UKSC 27</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2018] EWCA Civ 671</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p class="Title1" style="margin-left:0.06in"><party as="#respondent" refersTo="#regeneron-pharmaceuticals-inc" style="font-size:20pt">Regeneron Pharmaceuticals Inc</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#appellant" refersTo="#kymab-ltd" style="font-size:20pt">Kymab Ltd</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Reed, President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hodge</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Black</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Briggs</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Sales</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2020-06-24" refersTo="#judgment" style="font-weight:bold;font-size:18pt">24 June 2020</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-left:4.00in;text-indent:-4.00in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 11 and 12 February 2020</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 1.97in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Appellant</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Respondent</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Iain Purvis QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Lord Pannick QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Michael Tappin QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Adrian Speck QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Justin Turner QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">(Instructed by Powell Gilbert LLP (London))</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Kirkland &amp; Ellis International LLP (London))</p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD BRIGGS: <span style="text-transform:none">(with whom Lord Reed, Lord Hodge and Lord Sales agree)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">The Issue</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This appeal challenges the validity of two patents, which seek to confer a monopoly over the creation of a range of types of transgenic mouse. The subject matter, genetic engineering for medical purposes, is of great technical complexity, but the legal question which falls for determination in this court may be quite shortly stated.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is a general requirement of patent law both in this country and under the European Patent Convention (&#8220;EPC&#8221;) that, in order to patent an inventive product, the patentee must be able to demonstrate (if challenged) that a skilled person can make the product by the use of the teaching disclosed in the patent coupled with the common general knowledge which is already available at the time of the priority date, without having to undertake an undue experimental burden or apply any inventiveness of their own. This requirement is labelled sufficiency. It is said that the invention must be enabled by the teaching in the patent.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Patent protection is sometimes claimed for a single product, but sometimes for a range of products. Whether the patent claims one or the other is a question of construction of the claim (or claims) in the patent. In the latter case the sufficiency requirement has usually been expressed as meaning that the invention must be enabled over the whole of the range of products for which the claim is made. In the present case both the trial judge (the late Henry Carr J) and the Court of Appeal construed the relevant claim as extending to a range of products (transgenic mice) answering a certain description. The judge held that the teaching in the patent did not enable any type of mouse within the range to be made, let alone mice across the whole of the relevant range.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal held, to the contrary, that the teaching in the patent, coupled with the available common general knowledge as at the priority date, did enable some types of mouse within the range to be made, but not all types across the whole range. There is no appeal against that essentially factual finding. But they held that the sufficiency requirement was nonetheless satisfied, because the invention for which protection was claimed amounted to an inventive, indeed ground-breaking, general principle, such that every type of mouse with the specified characteristics would display the particular benefits which the invention was designed to achieve, benefits which would not be displayed by any types of mouse outside the specified range. The invention constituted by the specified characteristics was therefore sufficiently enabled across the whole scope of the claim, and matched the contribution which the disclosure of the invention made to the art.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The question for this court is therefore whether a product patent, the teaching of which enables the skilled person only to make some, but not all, of the types of product within the scope of the claim, passes the sufficiency test where the invention would contribute to the utility of all the products in the range, if and when they could be made. This is a pure question of law, but an understanding of its implications requires at least a bare summary of the technical context in which it arises. A full description of the technical context may be found in the judgments of the courts below.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">The Technical Background in Outline</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">By the priority date, which was 16 February 2001, it was well recognised that antibodies (also known as immunoglobulins) could be used for treatment of disease in humans, by way of augmentation of, or in substitution for, antibodies produced by the patients&#8217; own immune systems. Since the development of antibodies is a natural process shared by mammals generally, and since ethical constraints prevented the use of fellow humans as platforms for antibody development, mice had been identified as suitable platforms for the development of antibodies suitable for use in treatment of humans, and were already in use for that purpose by the priority date.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Two main problems inhibited the use of mice for that purpose. The first was that humans tend to reject murine antibodies. The second was that if human antibody genes are genetically implanted in mice, so that the mice then produce human antibodies coded from those genes, then the mice suffer from a reduced immune response, and therefore reduced development of suitable antibodies in response to antigens, which seriously impairs their efficiency as platforms for antibody development. In the jargon of this litigation, this rendered the mice immunologically sick. The solution, which is the innovative idea at the heart of this case, was to develop a hybrid (chimeric) antibody gene structure, consisting in part of human and in part of murine elements, created by insertion into the genome of the mouse.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mammalian antibodies are proteins which all share a characteristic structure consisting of four polypeptide chains, two identical &#8220;heavy chains&#8221; and two identical &#8220;light chains&#8221; bonded in a Y formation. Each chain has a constant region, so named because it does not vary in its segments, called C segments, and a variable region, in which the segments vary between different antibodies. In both mice and humans the variable regions consist, in the light chains, of V (variable) and J (joining) segments and, in the heavy chains, of V, D (diversity) and J segments. Production of antibodies is one of the major functions of B cells.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The natural development of specific antibodies in humans and mice involves a complex process of rearrangement among the segments in the variable regions, within the B cells which are created in the bone marrow. During this stage of development, each B cell acquires a B cell receptor on its surface. As a result of different combinations of the V, D and J segments, B cells are created with a variety of B cell receptors. As all the antibodies made by one B cell are identical, it is necessary to produce a diversity of B cells in order to have a diversity of antibodies. The degree of variety is important, because the body faces invasion by a wide variety of antigens associated with disease. The effectiveness of the body&#8217;s immunological response against a specific antigen depends upon the body producing a B cell whose receptor happens to be capable of binding to that antigen. The chances of that happening are increased the greater the number of different B cells (with different receptors) which the body produces. Repeated rearrangements of the V, D and J segments (known as somatic gene rearrangement or &#8220;V(D)J recombination&#8221;) through combinatorial use of a number of different gene segments coding for the polypeptide chains means that a huge variety of antibodies can be generated eventually. Where a B cell does encounter an antigen to which it binds, it is activated and induced to divide and differentiate. Repeated cell divisions give rise to sizeable clones that depend on antigen recognition for their survival. B cells that are unable to bind the antigen simply die. Those that do bind the antigen can be taken and subjected to other processes to produce antibodies in quantities which can be introduced into humans to combat or vaccinate against that particular antigen. It was generally understood, at least as at the priority date, that these processes of rearrangement were likely to be optimised, and the range of potential and effective antibodies increased, if the antibody genes implanted in the mice had as many as possible of the human V, D and J segments included within them.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A typical human heavy chain gene locus has around 125 V segments (each different from the others), 27 D segments and nine J segments in the variable region. If the V and J segments in the light chains gene loci are factored in as well, the number of possible combinations which may be made from the human antibody gene loci is about 1.5m.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The hybrid gene structure at the heart of the present dispute was designed to combine within one antibody gene structure the murine constant region and the whole of the human variable region. That was indeed what the patents in issue taught. But the judge found that the formidable difficulties in producing such a hybrid gene structure could not be surmounted at all by the combination of the existing common general knowledge and the disclosure in the patents. By contrast, the Court of Appeal found that it could be done, by a combination of the prior knowledge and the disclosure in the patents, but only so as to produce a hybrid gene structure with a small sub-set of the 125 human V segments in the variable region (on the appellant&#8217;s estimate between two and six V segments), and an unspecified number of human D and J segments. Transplantation of the whole of the human variable region into a hybrid gene structure has since been achieved but only with the benefit of further inventive processes not forming part of the disclosure of the patents or the prior art.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The name given to this type of hybrid gene structure, containing the murine constant region and all or part of the human variable region is the &#8220;Reverse Chimeric Locus&#8221;. Once created in the mouse genome, it operated as the code for the production of a variety of hybrid antibodies which, when the B cells which contain the relevant coding are isolated and removed, could then have the murine constant regions removed and replaced with human equivalents before mass production and use in humans for therapy.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">The Patents in Issue</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The foregoing bare outline of the technical background makes it possible to understand the relevant claims of the patents in issue, to the limited extent necessary for the resolution of the single issue of law before this court. The dispute relates to two patents obtained by the respondent, Regeneron Pharmaceuticals Inc, each with a priority date of 16 February 2001, and each with substantially the same disclosure for the purpose of justifying different claims. They are European Patent (UK) No 1 360 287 (&#8220;the 287 Patent&#8221;) and European Patent (UK) No 2 264 163 (&#8220;the 163 Patent&#8221;). The 163 Patent is a divisional of the 287 Patent. The challenge to validity arose because Regeneron alleged infringement by Kymab Ltd of claim 1 in the 163 Patent and claims 5 and 6 of the 287 Patent by the offer to the pharmaceutical industry of its own &#8220;Kymouse&#8221;, a transgenic mouse with a Reverse Chimeric Locus some of which included the whole of the human variable segments in both the heavy and the light chain loci. The judge found infringement proved, but that all three claims were invalid for insufficiency.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It was common ground before this court that the outcome for the validity of all three claims turns on the validity of claim 1 of the 163 Patent (&#8220;Claim 1&#8221;), which reads as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;A transgenic mouse that produces hybrid antibodies containing human variable regions and mouse constant regions, wherein said mouse comprises an <span style="font-style:italic">in situ</span> replacement of mouse VDJ regions with human VDJ regions at a murine chromosomal immunoglobulin heavy chain locus and an <span style="font-style:italic">in situ</span> replacement of mouse VJ regions with human VJ regions at a murine chromosomal immunoglobulin light chain locus.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This is of course a product claim, seeking a monopoly for the &#8220;making&#8221; (at first sight a strange but serviceable word to use of an animal) of a genetically engineered mouse having the characteristics described in the claim. The characteristics related both to what such a mouse does (namely produce the hybrid antibodies described) and to what is contained in its genome, namely the Reverse Chimeric Locus, achieved by a process of &#8220;<span style="font-style:italic">in situ </span>replacement&#8221; of the murine variable regions in both the light and heavy chain gene loci with the corresponding but of course different human variable regions. The claim seeks protection for the making and exploitation of any type of mouse having those characteristics. Since the description of what the mouse does is more loosely worded than the description of what lies within its genome, it is the latter description which mainly controls the breadth of the claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">All issues as to the construction of Claim 1, ie as to what it means, were resolved in the courts below, and none are subject to appeal in this court. There were, for example, issues as to the meaning of &#8220;<span style="font-style:italic">in situ</span> replacement&#8221;, which no longer matter. But there was a more important issue about whether Claim 1 described a single type of mouse or a range of types which the courts below also resolved, in favour of the range, arising from the meaning of the phrase &#8220;with human VDJ regions&#8221; in the heavy chain locus, and the phrase &#8220;with human VJ regions&#8221; in the light chain locus. Did this mean (only) all the segments in the VDJ and VJ regions, or did it include any of them? Looking at the V segments, did this capture only a mouse with all 125 human V segments, or also a mouse with only one such segment, and therefore mice with any number of V segments between one and 125?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Both the judge and the Court of Appeal concluded that the quoted phrase meant both all and any. It was this interpretation which led them both to conclude that Claim 1 extended to a range of qualifying types of mice, rather than to a single type. Taking the V segments in the heavy chain locus as the best example, the range was denominated by reference to the number, between one and 125, of the human V segments introduced into the mouse&#8217;s genome as part of the human variable region. The conclusion that Claim 1 sought to protect the making of a range of transgenic mice was not in dispute on this appeal, even though every type (or embodiment) within the range would necessarily have a form of Reverse Chimeric Locus as part of its genome. The fact that there is such a range is the foundation for the agreed identification of the legal issue before this court, since the question, as framed above, makes no sense if there is not a relevant range with different types or embodiments within it.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">There was nonetheless a sharp difference in this court between the parties&#8217; submissions on the relevance or otherwise of the existence of this range to the question of sufficiency. For the appellant it was submitted that the range was of the highest importance because of its effect upon the ability of a particular type of mouse to produce a wide variety of B cells, and hence its potential to deliver a broad stream of useful antibodies. A mouse fitted with only (say) four V segments from the human variable region gene locus would produce only a small fraction of the variety of B cells that would be produced by a mouse fitted with the entire 125 V segments in the human variable region gene locus. That at least (as the judge found) was the assumption made by the skilled person as at the priority date, even though research and development since 2001 have called into question to some extent the assumption that the full range of 125 V segments is necessary to optimise the desirable combinatorial possibilities needed for there to be a reasonable prospect of delivery of useful antibodies.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For the respondent it was submitted that the existence of this range was irrelevant, because the unique advantage conferred by the use of a Reverse Chimeric Locus, namely a cure for the immunological sickness of the recipient mouse, worked across the whole range, regardless of the amount of the human variable region DNA inserted into the murine genome, because it was the product of the retention in the hybrid gene structure of the murine constant region genes.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In a functional sense, both these submissions are to an extent literally true, on the facts found by the courts below. The amount of human variable region DNA inserted into the murine genome does substantially affect the usefulness of the mouse fitted with the Reverse Chimeric Locus as (to use the judge&#8217;s summary) a platform for therapeutic antibody discovery. More to the point that was the general understanding at the time of the priority date, and the patents in issue did not teach the contrary. But the ground-breaking invention encapsulated and disclosed in the Reverse Chimeric Locus would (and eventually did) deliver a solution to murine immunological sickness across the whole of the range captured by Claim 1, making all of them better platforms than mice which had (as previously) been fitted with fully human antibody gene structures.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">That analysis does not of itself lead to a conclusion that the range which is denominated by reference to the amount of human variable segments in the hybrid gene structure is irrelevant, for sufficiency purposes. One can imagine an obviously irrelevant range, such as mice which are large and small, of differing colours, or having tails of varying length. No-one would say that Claim 1 fails for insufficiency because it includes mice with very short tails (which it does) merely because it does not teach how to make such mice. The quality and diversity of the stream of antibodies which the mouse exists to produce is, so far as is known, wholly unaffected by the length of its tail.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The question whether the range denominated by the amount of human segments in the variable region within the Reverse Chimeric Locus is relevant for sufficiency purposes is best answered from the terms of Claim 1 itself. The claim is to mice which produce a stream of antibodies with human variable regions, and the disclosure more generally shows that this stream is for eventual use (after further engineering and mass production) in treating disease in humans. True it is that the particular ground-breaking contribution achieved by the invention of the Reverse Chimeric Locus is the delivery of a means of preventing (or greatly reducing) murine immunological sickness, to which the range of embedded human variable segments is irrelevant, but murine immunological health is not an end in itself. It is a means to a different end.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Sufficiency - the Basic Principle</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Sufficiency is one of the established tools by which is measured the correspondence, or lack of it, between the protection afforded by the claim and the technical contribution to the art made by the disclosure of the invention in the patent. The other main tools are novelty, inventive step and industrial application: see <span style="font-style:italic">Actavis Group PTC EHF v ICOS Corpn </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/15" uk:canonical="[2019] UKSC 15" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 15</ref>; <ref href="#" uk:canonical="[2019] Bus LR 1318" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] Bus LR 1318</ref>, para 57 per Lord Hodge. The essence of the bargain between the patentee and the public is that the patentee dedicates the invention to the public by making full disclosure of it, in return for a time-limited monopoly over its use. The benefit afforded to the public is not merely the disclosure, but the ability to &#8220;work the invention&#8221; after the expiry of the monopoly by the use of the disclosure. Where the invention enables patentees to make a particular product, and they seek a monopoly over the making and exploitation of the product (which is what a product claim does), they must disclose enough in the teaching of the patent to enable the public also to make the product. In that context &#8220;work the invention&#8221; means make the product: see <span style="font-style:italic">Generics (UK) Ltd v H Lundbeck A/S</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/311" uk:canonical="[2008] EWCA Civ 311" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 311</ref>; <ref href="#" uk:canonical="[2008] RPC 19" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] RPC 19</ref>, para 30 per Lord Hoffmann. If the patentee were able to obtain a product monopoly without disclosing how to make the product, the public would get nothing of substance in return for the grant of the monopoly. Furthermore, other inventors would be deterred from conducting the research and development in fact necessary to take advantage of the inventive idea for the benefit of society as a whole, since during the period of the monopoly they could derive no benefit from their own inventiveness. Similar basic principles apply to the patenting of processes, but such distinctions as there may be do not call for examination here.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Disclosure does not, of course, have to enable the product to be made by any member of the public, or solely by using the teaching in the patent. The law creates, distinctly for each patent under scrutiny, a notional skilled person or (as here) skilled team who must be enabled to make the product by the combination of the teaching in the patent, the general technical knowledge available at the priority date, and a reasonable (ie not burdensome) element of experimentation. But the skilled person is not expected to be inventive or even, as is sometimes said, imaginative: see <span style="font-style:italic">Rockwater Ltd v Technip France SA</span><ref href="#" uk:canonical="[2004] RPC 46" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] RPC 46</ref>, paras 7 and 10 per Jacob LJ.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Sufficiency - Enablement across the Range</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Starting to apply those basic principles to the question before the court, is disclosure &#8220;sufficient&#8221; if the teaching in the patent enables only some but not all of the products within the claimed range to be made? Subject to de minimis exceptions, the instinctive answer would be: surely not. If in principle the patentee should be entitled to a monopoly only over the making of a product which the teaching in the patent enables the skilled person to make, why should not the same principle apply to every product type within the relevant range for which a monopoly is sought? The essential patent bargain is not satisfied in relation to products in that part of the range which cannot be made, using the teaching in the patent.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This analysis may be tested by a simple example. Suppose that five types of product (types A to E) were all claimed to be more efficient or useful than their predecessors by the application to their manufacture of the same new invention. The patentee made separate claims in relation to each type, all supported by the same disclosure. Each claim would be subjected to the sufficiency test: could a product of that type be made by use of the teaching in the patent, coupled with the existing common general knowledge? Suppose that types A and B could but C, D and E could not. Then claims A and B would be valid, and the remainder invalid. But now suppose that all five types were covered by the more compendious wording of a single claim. Would this enable the patentee also to obtain a monopoly for the making of types C, D and E? Surely not.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal did not doubt this analysis as a general rule, but concluded that it would defeat the implementation of the essential patent bargain if applied to a case in which the invention amounted to a principle of general application, which would yield the relevant increase in efficiency or usefulness across a range of potential product types if they incorporated the invention, as and when they could be made, even if only a few could be made as at the priority date by using the teaching in the patent. In bare outline their reasoning was as follows. The patent bargain requires that the reward given to the patentee should be commensurate with the contribution which the invention makes to the art. An invention which consists of a new generally applicable principle may contribute to the art by its use, not only in products which can currently be made, but equally in products which will only be capable of being made in the future, after further inventive research and development. To limit the patentee strictly to a monopoly over the products which can immediately be made would be to deprive the patentee of any reward for the public benefit which will be derived from the use of that same invention in future types of product. In a fast-moving field, where new products quickly outperform their predecessors so as to render them obsolete, the reward of a monopoly limited to those immediately capable of being made would be short-lived and illusory. Accordingly the invention should be regarded as sufficiently enabled across the range if it can be seen that it will in due course benefit all products in the range, provided that, as at the priority date, the teaching in the patent enables at least one type to be made immediately. Since the Reverse Chimeric Locus would be likely to deal with murine immunological sickness in mice whose genomes were fitted with &#8220;all or any&#8221; amount of the human variable segments, up to and including the whole of the human variable region, its invention was one of those principles of general application which should be regarded as enabled across the whole range contemplated by Claim 1. A monopoly over the making and exploitation of the whole range would correspond with the contribution made by the Reverse Chimeric Locus to the art.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This is a sophisticated and internally logical process of reasoning, which certainly would tend to increase the rewards obtainable by inventors in a complex, rapidly developing field like genetic engineering for use in treatment of disease. The question is whether it is part of the law or, perhaps, a legitimate development of it.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The requirement for sufficiency is now enshrined in article 83 of the EPC as follows (in its English version):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The European patent application shall disclose the invention in a manner sufficiently clear and complete for it to be carried out by a person skilled in the art.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">This is replicated in <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/14/3" uk:canonical="1977 c. 37 s. 14" uk:origin="TNA" uk:type="legislation">section 14(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37" uk:canonical="1977 c. 37" uk:origin="TNA" uk:type="legislation">Patents Act 1977</ref> as follows:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="color:#3B4E60">&#8220;</span>The specification of an application shall disclose the invention in a manner which is clear enough and complete enough for the invention to be performed by a person skilled in the art.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Article 100(b) of the EPC makes it a ground of opposition that:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;the European patent does not disclose the invention in a manner sufficiently clear and complete for it to be carried out by a person skilled in the art;&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">This is reflected in <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/72/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 72(1)</ref>(c) of <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37" uk:canonical="1977 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref> which provides as a ground for revocation that:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;the specification of the patent does not disclose the invention clearly enough and completely enough for it to be performed by a person skilled in the art.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">By <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/130/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 130(7)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37" uk:canonical="1977 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref>, provisions including <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/72/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 72(1)</ref>:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;are so framed as to have, as nearly as practicable, the same effects in the United Kingdom as the corresponding provisions of the European Patent Convention, the Community Patent Convention and the Patent Co-operation Treaty have in the territories to which those Conventions apply.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Those terse statements of the sufficiency requirement in articles 83 and 100(b) of the EPC and in <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/14/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 14(3)</ref> and 72(1)(c) of <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37" uk:canonical="1977 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref> offer no particular illumination in the present debate. Rather the answer is to be found in the European and UK authorities on sufficiency, which were subjected to intensive review both by the Court of Appeal and in submissions to this court. The interpretative objective is to strive for consistency between European and UK patent law: see <span style="font-style:italic">Generics (UK) Ltd v H Lundbeck A/S </span><ref href="#" uk:canonical="[2009] RPC 13" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] RPC 13</ref>, para 86 per Lord Neuberger of Abbotsbury.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A chronological review of the relevant decisions of the Technical Board of Appeal of the European Patent Office (&#8220;EPO&#8221;) begins with <span style="font-style:italic">Unilever/Stable Bleaches</span> (T 226/85) ECLI:EP:BA:1987:T022685.19870317, decided in March 1987. The appeal included opposition on the ground of insufficiency. At para 2 the Board provided this general summary of the sufficiency requirement:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;An attack on the ground of insufficiency under article 100(b) EPC is, of course, based on article 83 EPC which requires that the disclosure of the invention must be &#8216;sufficiently clear and complete for it to be carried out by the person skilled in the art&#8217;. It is understood that this means that substantially any embodiment of the invention, as defined in the broadest claim, must be capable of being realised on the basis of the disclosure.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">That case was not specifically about a claim for a range of products, or an assertion that the invention disclosed a generally applicable principle. But such a claim and assertion were directly in issue in <span style="font-style:italic">Exxon/Fuel Oils</span> (T 409/91) EP:BA:1993:T040991.19930318, decided in<span style="font-style:italic"/>March 1993. This has come to be seen as the leading case on the subject of sufficiency across a range. In <span style="font-style:italic">Generics v Lundbeck </span>(supra) at para 21 Lord Walker of Gestingthorpe described the requirement that the invention be enabled across the whole of the claim as the <span style="font-style:italic">Exxon </span>principle. At certain temperatures, wax crystals suspended in diesel fuel tend to clog fuel filters in diesel engines. Exxon claimed a monopoly over fuel oils which, within specified temperatures, had wax crystals having an average particle size of less than 4,000 nm. This was challenged on the basis that the claimed range was from 1 nm to 3,999 nm, but the teaching in the patent did not enable fuel oil to be produced (by the insertion of additives) with a wax crystal size below 1,000 nm. This was a relevant range because the smaller the crystal the more easily it would pass through a filter.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The sufficiency challenge was eventually met by amending the claim to exclude crystal size below 1,000 nm (although it still failed for other reasons, under article 84 of the EPC). But Exxon sought to defend the claim by asserting that the invention embodied a general principle, applicable across the whole claimed range, that small crystals do not clog filters. Prior to amendment of the claim the sufficiency challenge was upheld, in these terms, at para 2:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In other words, in the present case there is absolutely no doubt that all these claims must be so construed as to relate to fuel oils containing wax crystals smaller than 1,000 nanometres. The appellant has admitted that no way of obtaining such fuel oils was disclosed or could be found in the body of relevant common general knowledge. However, in the Board&#8217;s judgment, in order to fulfil the requirement of article 83 EPC, the application as filed must contain sufficient information to allow a person skilled in the art, using his common general knowledge, to carry out the invention within the whole area that is claimed.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Later, at para 3.5, the sufficiency requirement was defined as meaning that:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;the disclosure of the claimed invention is only sufficient if it enables the skilled person to obtain substantially all embodiments falling within the ambit of the claims &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">At para 3.6 the Board directly addressed the submission that the invention disclosed a general principle, and decided that, even if it did, that made no difference. They said that the claim must fail:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;regardless of whether or not the alleged &#8216;principle&#8217; to avoid the so-called &#8216;cold filter plugging&#8217; (or clogging) by reducing the size of the wax crystals would be novel and inventive.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Despite the very different subject matter there is an obvious similarity between the claimed range in the <span style="font-style:italic">Exxon</span> case (wax crystals from 3,999 nm down to 1 nm) and the claimed range in the present case (from all the segments in the human variable region locus down to just one V, D and J segment in the heavy chain locus and one V and J segment in the light chain locus). Although the lower the better in <span style="font-style:italic">Exxon</span> contrasts with the higher the better in the present case, it is a feature of both cases that the invention was not enabled by the disclosure in the patent at the more beneficial end of the range.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is noteworthy that the descriptions of the sufficiency requirement in these EPO cases use the adverb &#8220;substantially&#8221; to qualify the strictness of the requirement, meaning that it is a requirement of substance, which may on a de minimis basis still be satisfied where there are or may be a tiny or inconsequential number of embodiments which are not enabled. But the enablement shortfall in the present case is, as already explained, much greater than anything which could be saved by that qualification.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;margin-right:-0.14in;text-indent:0.50in">In <span style="font-style:italic">Unilever/Detergents</span> (T 435/91) ECLI:EP:BA:2008, decided in March 1994, the Board described the requirement that the invention be enabled across the whole of the claim as a rule of general application to all inventions, as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In the Board&#8217;s judgment the criteria for determining the sufficiency of the disclosure are the same for all inventions, irrespective of the way in which they are defined, be it by way of structural terms of their technical features or by their function. In both cases the requirement of sufficient disclosure can only mean that the whole subject matter that is defined in the claims, and not only a part of it, must be capable of being carried out by the skilled person without the burden of an undue amount of experimentation or the application of inventive ingenuity.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Board shed some useful light on what the specification in a patent must do if it is to qualify as a general principle which enables an invention across a broad claim. It must disclose:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;a technical concept fit for generalisation which makes available to the skilled person the host of variants encompassed by the respective &#8216;functional&#8217; definition of the ... claim.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">A similar analysis of the contribution which a general concept may make to sufficiency across a range is to be found in <span style="font-style:italic">Mycogen/Modifying plant cells </span>(T 694/92) ECLI:EP:BA:1996, decided in May 1996, at p 19. The key for present purposes is that the general concept or principle must actually make the embodiments within the claim available. It is not enough for the general inventive concept or principle to make all those variants, if and when they become available, fit or better than their predecessors for beneficial or efficient use. Henry Carr J had this well in mind when he said in the present case (at para 257):</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;I do not accept that all embodiments within the claim are unified by a single principle of a reverse chimeric locus. This is not a principle that enables the method to be performed, rather it is the result of successfully carrying out the method.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">He was speaking mainly of process rather than product claims at that point, but the principle is the same for both. In relation to Claim 1 he could equally have said that the Reverse Chimeric Locus was not a principle that enables the products to be made, rather it is the result of successfully making the products.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Pannick QC, Adrian Speck QC and Justin Turner QC for the respondent relied on three EPO cases which, they submitted, supported the Court of Appeal&#8217;s analysis in the present case. The earliest, <span style="font-style:italic">Genentech I/Polypeptide expression</span> (T 292/85) ECLI:EP:BA:1988, was decided in January 1988. The Board upheld a patent claiming processes and resulting products which produced a uniform stream of specified polypeptides by the use as input components of a range of bacteria, plasmids and regulons, wide enough to embrace types which had yet to be made available under the then state of the art. The Examining Division had rejected the patent because, in its view, the specification did not enable embodiments containing such future input components to be made. The Board of Appeal stated, to the contrary:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;3.1.2<marker name="tab"/>There is, however, in the opinion of the Board, no such requirement in the European Patent Convention, nor is such principle established in normal patent practice within the Contracting States. The suggested features in the claims are essentially functional terms in this particular context, in spite of structural connotations, and may cover an unlimited number of possibilities. It follows that the features may generically embrace the use of unknown or not yet envisaged possibilities, including specific variants which might be provided or invented in the future.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The Board continued:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In appropriate cases, such as the present, it is only possible to define the invention (the matter for which protection is sought - article 84 EPC) in a way which gives a fair protection having regard to the nature of the invention which has been described, by using functional terminology in the claims.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">3.1.3<marker name="tab"/>What is also important in the present case is the irrelevancy of the particular choice of a variant within the functional terms &#8216;bacteria&#8217;, &#8216;regulon&#8217; or &#8216;plasmid&#8217;. It is not just that <span style="text-decoration-line:underline;text-decoration-style:solid">some</span> result within the range of polypeptides is obtained in each case but it is the <span style="text-decoration-line:underline;text-decoration-style:solid">same</span> polypeptide which is expressed, independent of the choice of these means ...</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">3.1.5<marker name="tab"/>&#8230; Unless variants of components are also embraced in the claims, which are, now or later on, equally suitable to achieve the same effect in a manner which could not have been envisaged without the invention, the protection provided by the patent would be ineffectual. Thus it is the view of the Board that an invention is sufficiently disclosed if at least one way is clearly indicated enabling the skilled person to carry out the invention.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">At first sight, and taken out of context, (for which see paras 42 and 53 below) the first and last of those quoted passages might appear to provide powerful support for the respondent&#8217;s case. But an attempt to rely upon them for a similar purpose was made and firmly rejected in <span style="font-style:italic">Unilever/Detergents</span> (T 435/91). At pp 10-11 the Board said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In particular, it is not adequate to take the finding in point 3.1.5 of Decision T 292/85 (OJ EPO 1989, 275) out of its context. It is not only stated there, as quoted by the respondent, that an &#8216;invention is sufficiently disclosed if at least one way of carrying out the invention is clearly indicated enabling the skilled person to carry out the invention&#8217;, but in the next sentence it is made clear that &#8216;any non-availability of some particular variants of a functionally defined component feature of the invention is immaterial to sufficiency as long as there are suitable variants known to the skilled person through the disclosure or common general knowledge which provide the same effect for the invention&#8217; ... Moreover, in respect of the &#8216;functional&#8217; expression &#8216;suitable bacterium&#8217; it was pointed out that the applicability of the claimed method to any kind or most species of bacteria has not been effectively challenged. ... Similar findings of fact concerned the remaining &#8216;functional&#8217; definitions in the considered claim &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="font-style:italic">Unilever/Detergents </span>was one of the EPO cases cited above where the requirement<span style="font-style:italic"/>that the specification should enable all embodiments across the whole range of the claim was firmly asserted. The Board plainly did not regard that requirement as necessitating any departure from the decision in the <span style="font-style:italic">Polypeptide </span>case although, if such a departure was the only way of reconciling them, the law ought now to be taken as laid down by the <span style="font-style:italic">Detergents</span> case and by the <span style="font-style:italic">Exxon </span>case which applied the requirement to facts closely allied with those of the present case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">But the <span style="font-style:italic">Polypeptide</span> and <span style="font-style:italic">Detergents</span> cases can be reconciled. In the former the claims were (necessarily in the Board&#8217;s view) framed by reference to function, and sought to protect products and processes which in fact achieved that function when applied to a broad range of input variables, none of which were themselves embodiments of the claim. In the <span style="font-style:italic">Detergents</span> case (as the headnote explains) the claim was again made by reference to function, but the patent failed to disclose any general technical principle by which the skilled person could achieve the desired result across the whole range of claimed embodiments. Furthermore the range of the input variables which could be used to work the invention in the <span style="font-style:italic">Polypeptide</span> case was held to be irrelevant. For reasons already explained, Claim 1 in the present case is of the kind which falls within the <span style="font-style:italic">Detergents</span> and <span style="font-style:italic">Exxon</span> line of EPO authority.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mention should briefly be made of two EPO decisions which followed and applied the <span style="font-style:italic">Polypeptide</span> case. The first, decided in June 1988, is <span style="font-style:italic">Nabisco/Micro-organisms</span> (T 361/87) ECLI:EP:BA:1988. A claim to protect a means of preparing fructose was challenged for sufficiency on the ground that a certain type of input variable falling within the claim only became available to persons skilled in the art after the priority date. The challenge was rejected in part by application of the cited passage in the <span style="font-style:italic">Polypeptide</span> case, but also because the description contained sufficient teaching to enable the invention to be used with that new input element, once available. The decision takes the matter no further for the purposes of the present case than does the <span style="font-style:italic">Polypeptide </span>case<span style="font-style:italic">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The second, more recent, case is <span style="font-style:italic">Novartis II/Transgenic plant</span> (G 1/98) ECLI:EP:BA:1999, decided by the Enlarged Board in December 1999. The decision makes brief reference to both the <span style="font-style:italic">Polypeptide </span>and<span style="font-style:italic"> Nabisco </span>cases as demonstrating that the requirement that the claim be enabled across the full range of the claim is &#8220;not without exception&#8221;. Save that it suggests that those earlier cases should not simply be regarded as having been overruled by the <span style="font-style:italic">Detergents</span> and <span style="font-style:italic">Exxon </span>line of EPO authority, it sheds little further light on the necessary distinction between the two.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Reference was also made to the decision of the German Federal Supreme Court in <span style="font-style:italic">Dipeptidyl-Peptidase-Inhibitoren </span>(X ZB 8/12). It was about a medical use patent, rather than a product claim. It sought to protect a method of using a range of known substances for lowering the blood glucose level in mammals, in a manner which would be simple, cost efficient and not too burdensome on the patient, by comparison with methods already known. As in the <span style="font-style:italic">Polypeptide</span> case it was held not to be fatal to the validity of the patent that it applied to a range of known input substances and extended to substances not yet available. Neither the outcome nor the language used by the court (at paras 19-20) takes the matter any further than either the <span style="font-style:italic">Polypeptide </span>or<span style="font-style:italic"> Nabisco</span> cases, when read in the context of a medical use claim.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is convenient at this point to explain why the present case falls on the <span style="font-style:italic">Detergents/Exxon </span>side of this line. The reason why Claim 1 fails to enable the skilled person to make mice with Reverse Chimeric Loci across the whole range of the human variable regions of the hybrid antibody gene structure is not because any of the V, D and J segments had yet to be discovered or &#8220;mapped&#8221; by the priority date, or even because any of them could not be inserted into mice. The whole of the human variable region gene locus had already been mapped. It could be (and had been) inserted into mice, but only when attached to the human constant region genes, thereby causing murine immunological sickness. The problem facing those skilled in the art at the priority date was that there was no known way, even using the teaching in the patents, to combine more than a very small part of the human variable region gene locus with the endogenous murine constant region gene locus, in the same hybrid gene structure. It took several years, and significant further inventive steps, before methods were developed sophisticated enough to accommodate the whole of the human variable and murine constant region genes in a single hybrid gene structure. Thus the inventive shortfall at the priority date lay not in the range of possible inputs to which the invention could be applied, but in the inability to create a Reverse Chimeric Locus involving the whole (or anything more than a very small part of) the human variable region. It was truly a shortcoming in the invention itself, which, as at the priority date, limited its use to only a small part of the relevant range within the scope of Claim 1.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In sharp contrast the inventions in the <span style="font-style:italic">Polypeptide</span> line of cases did disclose a sufficient general principle which, without any further inventive step, would enable the skilled person to work the relevant invention by using, as input elements, examples of those components described generally in the claims, which were unavailable as at the priority date, in order to make products across the scope of the claim. The fact that the claim permitted alternative examples of input elements, as yet unavailable at the priority date, is the exception to the requirement for enablement across the whole scope of the claim to which the Enlarged Board made brief reference in the <span style="font-style:italic">Novartis II</span> decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A study of the relevant UK cases reveals a similar approach to the existence and nature of this exception to the <span style="font-style:italic">Exxon </span>principle. The earliest, and perhaps best known, are the decisions of the Court of Appeal and the House of Lords in <span style="font-style:italic">Biogen Inc v Medeva plc</span><ref href="#" uk:canonical="[1995] RPC 25" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1995">[1995] RPC 25</ref> and <ref href="#" uk:canonical="[1997] RPC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] RPC 1</ref>. It was, like the present, a case about genetic engineering, but the claim sought to protect a genetic molecule rather than a whole mouse. The claim was that the molecule would, if inserted into a suitable host cell, cause the cell to make antigens of the Hepatitis B virus. Both the Court of Appeal and the House of Lords held that the claim failed, inter alia for insufficiency, but for different reasons. Apart from the holding that sufficiency is to be tested as at the priority date (a rule which is not in dispute in this appeal) the case is of importance for present purposes only because of the reliance placed by the parties on different dicta by Hobhouse LJ (in the Court of Appeal) and Lord Hoffmann (in the House of Lords) about the sufficiency requirement and the principles of UK law to be derived from the main EPO decisions cited above. It is, again, important not to take the dicta out of context.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the Court of Appeal Hobhouse LJ addressed the submission, accepted by the trial judge, that the sufficiency requirement was satisfied whenever the patentee demonstrated that the invention enabled one embodiment of the claimed range to be made. Having cited extensively from the <span style="font-style:italic">Exxon </span>case, and held that it correctly represented UK law, he continued, at pp 98-99:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The disclosure must be sufficient to enable the whole width of the claimed invention to be performed. What will suffice to satisfy this criterion will vary depending upon the nature of the claim that has been made. It is essential to apply the test having regard to the extent of the claim. It is not the law that the disclosure of a single embodiment will always satisfy the requirement regardless of the width of the claim.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Having noted counsel&#8217;s attempt to limit his submission to cases where the patent related to the invention of a principle, he continued:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The disclosure must be wide enough to enable the man skilled in the art to perform the claimed invention across its full width not just by reference to one type of antigen or one type of host. The plaintiff had a choice as to how widely it would draw its claim. If it chose to draw it widely, it must accept the co-relative obligation to make a correspondingly wide disclosure. If it is unable to make that disclosure, that shows that it is seeking to claim an invention to which it is not entitled.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the House of Lords Lord Hoffmann described the submission that enablement of a single embodiment was sufficient (rejected by Hobhouse LJ) as having originated from a misunderstanding of the meaning of the <span style="font-style:italic">Polypeptide </span>case by Aldous J (who was the trial judge in <span style="font-style:italic">Biogen</span>) in<span style="font-style:italic"> Chiron Corpn v Organon Teknika Ltd (No 3) </span><ref href="#" uk:canonical="[1994] FSR 202" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] FSR 202</ref>. At pp 48-49 he set out his own understanding of the <span style="font-style:italic">Polypeptide </span>case<span style="font-style:italic"/>as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In other words, the applicants had invented a general principle for enabling plasmids to control the expression of polypeptides in bacteria and there was no reason to believe that it would not work equally well with any plasmid, bacterium or polypeptide. The patent was therefore granted in general terms.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">He continued:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In fact the Board in <span style="font-style:italic">Genentech I/Polypeptide expression </span>was doing no more than apply a principle of patent law which has long been established in the United Kingdom, namely, that the specification must enable the invention to be performed to the full extent of the monopoly claimed. If the invention discloses a principle capable of general application, the claims may be in correspondingly general terms. The patentee need not show that he has proved its application in every individual instance. On the other hand, if the claims include a number of discrete methods or products, the patentee must enable the invention to be performed in respect of each of them.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Thus if the patentee has hit upon a new product which has a beneficial effect but cannot demonstrate that there is a common principle by which that effect will be shared by other products of the same class, he will be entitled to a patent for that product but not for the class, even though some may subsequently turn out to have the same beneficial effect: see <span style="font-style:italic">May &amp; Baker Ltd v Boots Pure Drug Co</span><span/><span style="font-style:italic">Ltd </span>(1950) 67 RPC 23, 50. On the other hand, if he has disclosed a beneficial property which is common to the class, he will be entitled to a patent for all products of that class (assuming them to be new) even though he has not himself made more than one or two of them.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">He continued by treating the <span style="font-style:italic">Exxon </span>case as reinforcing the<span style="font-style:italic"/>established principle of UK law which he had earlier described.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the event Lord Hoffmann decided that the patent failed for insufficiency because it disclosed only one method of working the invention, whereas there were other methods available to the skilled person. He did not disagree with Hobhouse LJ&#8217;s analysis of the law. At p 51 he concluded:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;This shows that there is more than one way in which the breadth of a claim may exceed the technical contribution to the art embodied in the invention. The patent may claim results which it does not enable, such as making a wide class of products when it enables only one of those products <span style="text-decoration-line:underline;text-decoration-style:solid">and discloses no principle which would enable others to be made</span>. Or it may claim every way of achieving a result when it enables only one way and it is possible to envisage other ways of achieving that result which make no use of the invention.&#8221; (my underlining)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Both the Court of Appeal and the respondent in the present case placed great emphasis on the reference by Lord Hoffmann to a common principle by which products in a class may share the same &#8220;beneficial effect&#8221;, as if this was separate and additional to the case of a general principle which enables a whole class of products to be made. He did so by reference to the <span style="font-style:italic">May &amp; Baker Ltd v Boots Pure Drug Co Ltd</span>(1950) 67 RPC 23 case, where a beneficial therapeutic effect was said to be of the essence of the claim. But the case before him and the submission with which he was dealing were all about the question whether the disclosure needed to enable all, or only some, of the embodiments of a claimed range to be made, as he acknowledged in the last of the passages quoted (and underlined) above.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Kirin-Amgen Inc v Hoechst Marion Roussel Ltd</span><ref href="#" uk:canonical="[2005] RPC 9" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] RPC 9</ref>, the trial judge had cited Lord Hoffmann&#8217;s concept of a general principle of beneficial effect in <span style="font-style:italic">Biogen</span>. Lord Hoffmann commented, at p 202 (para 112):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;This gave rise to a good deal of argument about what amounted to a &#8216;principle of general application&#8217;. In my opinion there is nothing difficult or mysterious about it. It simply means an element of the claim which is stated in general terms. Such a claim is sufficiently enabled if one can reasonably expect the invention to work with anything which falls within the general term. For example, in <span style="font-style:italic">Genentech I/Polypeptide expression</span> (T 292/85) [1989] OJ EPO 275, the patentee claimed in general terms a plasmid suitable for transforming a bacterial host which included an expression control sequence to enable the expression of exogenous DNA as a recoverable polypeptide. The patentee had obviously not tried the invention on every plasmid, every bacterial host or every sequence of exogenous DNA. But the Technical Board of Appeal found that the invention was fully enabled because it could reasonably be expected to work with any of them.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Hoffmann&#8217;s reference to the <span style="font-style:italic">Polypeptide</span> case as an example shows that he was not thinking in terms of general beneficial effect. By &#8220;reasonably expect the invention to work&#8221; in relation to a product claim he meant reasonably expect the product to be able to be made. This is clear from dicta of his, sitting in the Court of Appeal, in the third of the UK cases, <span style="font-style:italic">Generics (UK) Ltd v H Lundbeck A/S</span><ref href="#" uk:canonical="[2008] RPC 19" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] RPC 19</ref>. Two product claims were rejected by the trial judge for insufficiency, because the patent disclosed only one of a number of methods of making the products, following <span style="font-style:italic">Biogen</span>. Lord Hoffmann, with whom Jacob and Smith LJJ agreed, reversed him. At paras 29-30 he said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In order to decide whether the specification is sufficient, it is therefore first necessary to decide what the invention is. That must be found by reading and construing the claims, in which the inventor identifies what he claims to be his invention. As the Board of Appeal of the European Patent Office said in <span style="font-style:italic">Exxon/Fuel Oils</span> (T 409/91) [1994] OJ EPO 653, para 3.3, &#8216;It is the definition of the invention in the claims that needs support&#8217;.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/60/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 60(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37" uk:canonical="1977 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref> makes it clear that a claim may be either to a product or a process. In the case of a product claim, performing the invention for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/72/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 72(1)</ref>(c) means making or otherwise obtaining the product. In the case of a process claim, it means working the process. A product claim is therefore sufficiently enabled if the specification discloses how to make it. There is nothing to say that it must disclose more than one way.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">At paras 34-36 he continued:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Thus, as a matter of construction, the House of Lords interpreted the claim as being to a class of products which satisfied the specified conditions, one of which was that the molecule had been made by recombinant technology. That expression obviously includes a wide variety of possible processes. But the law of sufficiency, both in the United Kingdom and in the EPO, is that a class of products is enabled only if the skilled man can work the invention in respect of all members of the class. The specification might show that this has been empirically demonstrated or it might disclose a principle which can reasonably be expected to apply across the class: see T 292/85 <span style="font-style:italic">Polypeptide expression/Genentech</span>[1989] OJ EPO 275; T 409/91 <span style="font-style:italic">Exxon/Fuel Oils</span>[1994] OJ EPO 653; <span style="font-style:italic">Kirin-Amgen Inc v Hoechst Marion Roussel Ltd</span><ref href="#" uk:canonical="[2005] RPC 9" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] RPC 9</ref>, para 112. But the specification in <span style="font-style:italic">Biogen</span> described only one method of making the molecule by recombinant technology and disclosed no general principle. It was easy to contemplate other methods about which the specification said nothing and which would owe nothing to the matter disclosed.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">In my opinion, therefore, the decision in <span style="font-style:italic">Biogen</span> is limited to the form of claim which the House of Lords was there considering and cannot be extended to an ordinary product claim in which the product is not defined by a class of processes of manufacture. It is true that the House in <span style="font-style:italic">Biogen</span> endorsed the general principle stated by the Board of Appeal in <span style="font-style:italic">Exxon/Fuel Oils</span> (T 409/91) [1994] OJ EPO 653, that:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">&#8216;the extent of the patent monopoly, as defined by the claims, should correspond to the technical contribution to the art in order for it to be supported or justified.&#8217;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">The judge said that in holding claim 1 insufficient, he was applying this principle. But then he treated the relevant &#8216;technical contribution to the art&#8217; as being the inventive step, namely a way of making the enantiomer. That, I respectfully consider, was a mistake. When a product claim satisfies the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1977/37" uk:canonical="1977 c. 37" uk:origin="TNA" uk:type="legislation">the 1977 Act</ref>, the technical contribution to the art is the product and not the process by which it was made, even if that process was the only inventive step.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The House of Lords dismissed the appeal. Lord Walker placed emphatic reliance upon the <span style="font-style:italic">Exxon </span>case as the leading statement of the law on sufficiency in relation to a product claim. At para 20 he said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The disclosure must be such as to enable the invention to be performed (that is, to be carried out if it is a process, or to be made if it is a product) to the full extent of the claims.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Reflection upon those European and UK authorities yields the following principles:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.25in">The requirement of sufficiency imposed by article 83 of the EPC exists to ensure that the extent of the monopoly conferred by the patent corresponds with the extent of the contribution which it makes to the art.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">In the case of a product claim, the contribution to the art is the ability of the skilled person to make the product itself, rather than (if different) the invention.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.50in">Patentees are free to choose how widely to frame the range of products for which they claim protection. But they need to ensure that they make no broader claim than is enabled by their disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">iv)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The disclosure required of the patentee is such as will, coupled with the common general knowledge existing as at the priority date, be sufficient to enable the skilled person to make substantially all the types or embodiments of products within the scope of the claim. That is what, in the context of a product claim, enablement means.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">v)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.25in">A claim which seeks to protect products which cannot be made by the skilled person using the disclosure in the patent will, subject to de minimis or wholly irrelevant exceptions, be bound to exceed the contribution to the art made by the patent, measured as it must be at the priority date.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">vi)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">This does not mean that the patentee has to demonstrate in the disclosure that every embodiment within the scope of the claim has been tried, tested and proved to have been enabled to be made. Patentees may rely, if they can, upon a principle of general application if it would appear reasonably likely to enable the whole range of products within the scope of the claim to be made. But they take the risk, if challenged, that the supposed general principle will be proved at trial not in fact to enable a significant, relevant, part of the claimed range to be made, as at the priority date.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">vii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.50in">Nor will a claim which in substance passes the sufficiency test be defeated by dividing the product claim into a range denominated by some wholly irrelevant factor, such as the length of a mouse&#8217;s tail. The requirement to show enablement across the whole scope of the claim applies only across a relevant range. Put broadly, the range will be relevant if it is denominated by reference to a variable which significantly affects the value or utility of the product in achieving the purpose for which it is to be made.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">viii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.62in">Enablement across the scope of a product claim is not established merely by showing that all products within the relevant range will, if and when they can be made, deliver the same general benefit intended to be generated by the invention, regardless how valuable and ground-breaking that invention may prove to be.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Application of those principles to the facts of the present case shows clearly that Claim 1 fails for insufficiency. At the priority date the disclosure of the two patents, coupled with the common general knowledge, did not enable transgenic mice to be &#8220;made&#8221; with a Reverse Chimeric Locus containing more than a very small part of the human variable region gene locus. The extent to which that variable region of the human antibody gene structure could be included in the hybrid antibody gene structure was, at that date, understood to be a very important factor affecting the diversity of useful antibodies capable of being &#8220;discovered&#8221; by the use of transgenic mice, so that the range thus denominated was a relevant range for sufficiency purposes, even though it did not affect the immunological health of the transgenic mouse. Thus the claim to a monopoly over the whole of that range went far beyond the contribution which the product made to the art at the priority date, precisely because mice at the more valuable end of the range could not be made, using the disclosure in the patents.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A comparison between those principles and those applied by the Court of Appeal reveals that they did not correctly apply the law as it stands, for the following reasons. First, I cannot accept their summary of the essential patent bargain. In the case of a product claim, the contribution to the art is the product which is enabled to be made by the disclosure, not the invention itself. Patents are about products and processes, not pure ideas. Secondly, I do not accept their conclusion that an invention may be &#8220;enabled&#8221; in relation to a particular type of product falling within the scope of the claim even if it does not permit the skilled person to make it. They thought it was enough that the benefits which the invention unlocked (in terms of preventing murine immunological sickness) would in due course be realised over the whole range, if and when all embodiments within the range could be made. In practical terms they upheld a monopoly over that part of the range of products answering the broad description in Claim 1 which was likely to be of most benefit to medical genetic engineering, at a time when the disclosure in the patent only enabled the skilled person to make products over a very small part of the range, and at the least beneficial end of the range denominated by the amount of the human variable region gene locus incorporated in the hybrid gene structure. It is now known that the type of mouse fitted with a Reverse Chimeric Locus which actually does serve as the gold standard in the art has the whole of the human variable region gene locus as part of its hybrid antibody gene structure. Yet the Court of Appeal would have upheld a monopoly for its manufacture and exploitation when the disclosure in the patent, coupled with the common general knowledge, would not have enabled a skilled person to make such a mouse at all. The ability of both the appellant and the respondent to make such a mouse now depends upon further (and different) inventions separately made by each of them some years after the priority date.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Nor is the Court of Appeal&#8217;s analysis to be regarded as a legitimate development of the law. The sufficiency requirement, namely that the disclosure in the patent should enable substantially all products within the scope of a product claim to be made by the skilled person as at the priority date, is part of the bedrock of the law, worked out over time both in the UK and by the EPO, which is essential to prevent patentees obtaining a monopoly which exceeds their contribution to the art. To water down that requirement would tilt the careful balance thereby established in favour of patentees and against the public in a way which is not warranted by the EPC, and which would exceed by a wide margin the scope for the development of the law by judicial decision-making in a particular Convention state.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It may well be, as the Court of Appeal clearly thought, that the consequence of confining the patentee with a ground-breaking invention to protection only over a range of products which the invention currently enables to be made at the priority date will give the patentee scant and short-lived reward for their efforts and ingenuity, viewed in particular with the benefit of hindsight. The Court of Appeal put this point forcefully to counsel for Kymab at the hearing in October 2017, and the transcript discloses that little was said in response by way of mitigation. A little more was attempted in this court in the appellant&#8217;s reply, but it would not be a useful exercise to engage with it. What matters is that it is settled law, in relation to a product claim, that sufficiency requires substantially the whole of the range of products within the scope of the claim to be enabled to be made by means of the disclosure in the patent, and this both reflects and applies the principle that the contribution to the art is to be measured by the products which can thereby be made as at the priority date, not by the contribution which the invention may make to the value and utility of products, the ability to make which, if at all, lies in the future.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I would therefore allow the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">LADY BLACK: (dissenting)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I differ from the view of the majority and would have dismissed this appeal for reasons which I will set out shortly. I should first explain that, in what follows, in order to express myself as clearly as possible, I have at times consciously used simplified descriptions of the scientific concepts to which I need to refer.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The issue raised by the appeal</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Briggs says, at para 5, that the legal question that arises is &#8220;whether a product patent, the teaching of which enables the skilled person to make some, but not all, of the types of product within the scope of the claim, passes the sufficiency test where the invention would contribute to the utility of all the products in the range, if and when they could be made.&#8221; It is useful to bear in mind also how the issue was formulated by the parties in the Statement of Facts and Issues for this court, which was as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Is it a requirement for a valid patent under article 83 EPC that the description enables the skilled reader (at the date of the Patent) to make products across the whole scope of the claim, or is it enough that they could make products within only a limited part of that range, provided that all the products within the scope of the claim (if and when they could be made) would use the invention?&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The nature of the claims</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal described claim 1 of the 287 patent as a &#8220;method claim directed to the modification of an endogenous immunoglobulin heavy chain locus in a mouse ES cell such that murine V, D and J gene segments are replaced by human V, D and J segments and the locus produces hybrid antibodies containing human variable regions and mouse constant regions&#8221; (para 114), the method having four steps as described in para 115. Claims 5 and 6 of the 287 patent were described as &#8220;product by process claims&#8221; (para 121).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The issues in the appeal have been considered through the medium of claim 1 of the 163 patent, so it is worth setting that out again here. It is a claim to:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;A transgenic mouse that produces hybrid antibodies containing human variable regions and mouse constant regions, wherein said mouse comprises an <span style="font-style:italic">in situ</span> replacement of mouse VDJ regions with human VDJ regions at a murine chromosomal immunoglobulin heavy chain locus and an <span style="font-style:italic">in situ</span> replacement of mouse VJ regions with human VJ regions at a murine chromosomal immunoglobulin light chain locus.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal said of this claim that it &#8220;is directed to a transgenic mouse in which there has been in situ replacement of mouse V, D and J regions on the heavy chain by human V, D and J regions; and in which there has been in situ replacement of mouse V and J regions on the light chain by human V and J regions&#8221; (para 125). It then observed (para 126) that the claim &#8220;contains no requirement that any particular size of DNA fragment is inserted or replaced; nor is there any limit to the number of steps by which the claim requirements may be met. Further, the reference to V, D and J regions must mean one or more V, D and J segments respectively.&#8221; The Court of Appeal agreed with the judge that the claim was:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;not confined to a single product. It includes mice in which different amounts of mouse V, D and J regions (of the heavy chain) and mouse V and J regions (of the light chain) have been replaced with human V, D and J regions and V and J regions, respectively. So it includes, for example, a mouse in which one V, one D, and one J region (of the heavy chain) and one V and one J region (of the light chain) have been replaced and mice in which several such regions have been replaced.&#8221; (para 127(i))</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">and that it:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;extends to a mouse in which the entire murine variable gene locus has been replaced with the entire human variable gene locus.&#8221; (para 127(iv))</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Henry Carr J&#8217;s determination and how it fared in the Court of Appeal</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Henry Carr J made two key decisions which formed the foundation for the rest of his conclusions. First, he had to determine the proper construction of the claims in issue, in particular what was meant by &#8220;in situ replacement&#8221; in claim 1 of the 287 Patent. He accepted Regeneron&#8217;s proposed construction of the words, as did the Court of Appeal. No construction issue has been pursued before this court.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, Henry Carr J had to make findings as to the feasibility of putting the invention into practice, which he did focussing specifically on claim 1 of the 287 Patent. He rejected the approaches proposed, for varying reasons, concluding that the whole subject matter defined in the claim was not capable of being performed at the priority date without undue burden and without invention (para 257). He considered that the difficulty did not relate to some hypothetical puzzle at the edge of the claim, but rather to the central disclosure of the specification, and the amounts of genetic sequence of which it contemplates the deletion and insertion. None of the methods disclosed would have worked, and the task could not have been achieved, if it could be achieved at all at the priority date, without a great deal of creative thinking.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On appeal from the trial judge, Regeneron argued that it <span style="font-style:italic">was</span> in fact possible for a skilled team to have implemented the reverse chimeric locus without undue effort by means of minigenes. The Court of Appeal was persuaded that this was correct. It was satisfied that the use of minigenes was part of the common general knowledge, and said (para 200):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in;margin-right:0.45in">&#8220;In our judgment and given the idea of the reverse chimeric locus, it would have been obvious to the skilled team and technically feasible to produce a transgenic mouse that would produce hybrid antibodies containing human variable regions and mouse constant regions, and in which mouse V, D and J segments had been replaced with human V, D and J segments in the mouse immunoglobulin heavy chain gene locus, and mouse V and J segments had been replaced with human V and J segments in the immunoglobulin light chain gene locus.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Given that it differed from Henry Carr J in this respect, the Court of Appeal inevitably had a different starting point for its consideration of the central legal issue of whether the claim was enabled across its whole scope. As the Court of Appeal&#8217;s finding of technical feasibility has not been challenged before us, we share the Court of Appeal&#8217;s starting point. But it is nevertheless important to note the following observation that Henry Carr J made at para 257, and to which Lord Briggs refers at para 38, with approval:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;I do not accept that all embodiments within the claim are unified by a single principle of a reverse chimeric locus. This is not a principle that enables the method to be performed, rather it is the result of successfully carrying out the method.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The Court of Appeal&#8217;s determination of the enablement issue</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Having reviewed various decisions of the Technical Boards of Appeal of the EPO and of the domestic courts, the Court of Appeal turned at para 250 to the application of the law to the instant case. This involved, inter alia, a consideration of the nature and extent of the contribution to the art that the disclosure of the invention had made, which Regeneron submitted Henry Carr J had failed to appreciate properly.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal noted that the claim is drawn in general language and is of broad scope, but that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;each of the mice it encompasses has the reverse chimeric locus, that is to say, it is a mouse which produces hybrid antibodies containing human variable regions and mouse constant regions, and in which mouse V, D and J segments have been replaced with human V, D and J segments at a chromosomal immunoglobulin heavy chain locus, and mouse V and J segments have been replaced with human V and J segments at a chromosomal immunoglobulin light chain locus.&#8221; (para 254)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It observed that the disclosure of the reverse chimeric locus was &#8220;a major contribution to the art for it provided the answer to a significant problem which those working in the field had faced, namely that transgenic mice produced by conventional methods were immunologically sick [whereas those] with the reverse chimeric locus do not suffer from this deficiency&#8221; (para 255). It proceeded to characterise the invention as &#8220;a principle of general application&#8221;, supporting that conclusion as follows (para 256):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The character of this invention is therefore such that any transgenic mouse which falls within the scope of the claim and so produces hybrid antibodies containing the human variable regions and mouse constant regions will benefit from the technical contribution the disclosure of the 163 patent has made to the art, and will do so irrespective of the antigen which is used to challenge the mouse.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The court then noted, at paras 257 to 259, that it was satisfied that the ability of the skilled team to implement the teaching of the 163 patent had been established. It was also noted that the mice produced would have had only a subset of the human V gene segments, although they would have had an immunological response close to that of wild type mice. The court continued (para 260):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;These points, taken together, strongly suggest to us that the 163 patent does disclose the invention clearly enough and completely enough for it to be performed by a person skilled in the art. The character of the invention is one of general application. It applies to any mouse challenged with any antigen and the benefit it confers will be shared by every mouse falling within the scope of the claim. The skilled team would reasonably expect the invention to work across the scope of the claim and that expectation would be correct. What is more, there is nothing in the claim which could have been envisaged without the invention and, were protection to be limited to only those embodiments which could have been made at the priority date without undue effort, the protection provided by the patent would have rapidly become ineffectual.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A further passage is of importance, taken from the following paragraphs in which the court examines the implications of it not being possible to perform, precisely, elements of what was described in the examples. In explaining why this did not render the patent insufficient, the court recalled that the law does not require a patentee to enable each and every embodiment of a claimed invention, but recognises that a claim may encompass inventive improvements of what is described and that a specification is not insufficient merely because it does not enable the person skilled in the art to make every such invention. It then continued (para 265):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;It is important, however, that any such improvement is still a way of working the original invention. In this case we have no doubt that this is the case: there is no mouse falling within the scope of claim 1 of the 163 patent which does not embody the reverse chimeric locus and enjoy the benefits it brings.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Claim 1 of the 163 patent was therefore found not to exceed the contribution to the art which the disclosure of its specification made, the extent of the patent monopoly corresponding to the technical contribution and being adequately enabled across its scope (para 267).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The 287 patent was seen to be subject to very similar considerations. Here too, the invention was found to be one of general application, being a methodology of making the reverse chimeric locus in which successful integrations using LTVECs are detected by using the MOA assay (para 272). Claims 1, 5 and 6 of that patent were also adequately enabled across its scope (paras 273 and 274).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is useful to note particularly what the Court of Appeal said, at the end of its judgment, in summarising what it saw as the reasons why its conclusion was different from that of the very experienced first instance patent judge. It seems to me that this short summary reveals what is at the heart of the Court of Appeal&#8217;s reasoning. It said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; we are satisfied that, in assessing the sufficiency of the disclosure of the patents, [the judge] did not attach sufficient weight to the character of the invention as claimed in each of the claims in issue, the contribution that its disclosure made to the art and the need to confer a fair degree of protection on the patentee.&#8221; (para 275)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The approach of the majority in this court</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The majority in this court would allow the appeal, holding that the Court of Appeal failed to apply the law correctly and should have concluded that Regeneron&#8217;s claims failed for insufficiency. In essence, this is because the disclosure of the patents did not enable the making of a mouse which incorporated any more than a small part of the human variable region, yet claimed a monopoly including mice incorporating a far greater quantity of the human variable region. In the majority&#8217;s view, the claims therefore fail to satisfy the requirement that substantially the whole range of products within the scope of the claim be enabled.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Discussion</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is common ground between the parties, established in the authorities, and acknowledged in Lord Briggs&#8217; judgment (see for example para 56(vi)), that an invention may disclose a principle of general application. It is also common ground between the parties (and again see Lord Briggs&#8217; judgment at para 56(vi)) that there is no exception from the ordinary principles of enablement for such inventions; the invention must be enabled across its full scope, as with any other invention. It is when it comes to characterising this claim, determining what its scope is, and deciding whether it is enabled across that full scope that the argument arises.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The claim is framed in terms of the mouse, specifying what it does (produces the hybrid human/mouse antibodies), and what it has in it (the reverse chimeric locus). As the trial judge said, and the Court of Appeal reiterated, it is not confined to a single product in that it includes mice in which different amounts of the mouse variable regions have been replaced, extending to a mouse with the entire murine variable region replaced with the entire human variable gene locus. It is the existence of this range of mice that leads the majority of my colleagues to conclude that, as only a limited amount of replacement was possible at the priority date, the claim was insufficient. But this was not the view of the Court of Appeal, and it is important to attempt to isolate the point at which the two approaches diverge.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As I have already foreshadowed, it seems to me that there is little, if any, real disagreement with the Court of Appeal&#8217;s statement of the legal principles. It is in the application of them that the paths diverge. Lord Briggs says, at para 58, that the Court of Appeal did not correctly apply the law as it stands, having failed to recognise that &#8220;the contribution to the art is the product which is enabled to be made by the disclosure, not the invention itself&#8221;, and having erroneously concluded that it was enough that the benefits unlocked by the invention would in due course be realised over the whole range if and when all embodiments could be made.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal&#8217;s characterisation of the claim was informed by the principle that (to use the Board of Appeal&#8217;s formulation in <span style="font-style:italic">Unilever/Detergents</span> (T 435/91)) &#8220;the protection covered by a patent should correspond to the technical contribution to the art made by the disclosure of the invention described therein&#8221;. This principle, and the other principles that are relevant to determining sufficiency, can only be applied having close regard to the facts of the particular case, and the authorities make clear that an assessment of sufficiency does depend very much upon the nature of the individual invention and the facts of the particular case, see for example <span style="font-style:italic">Unilever/Detergents </span>(T 435/91), para 2.2.1.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal here recognised the general language used in the claim and its broad scope (Court of Appeal judgment, para 254), and we know that it had well in mind that it extended to a mouse with its entire variable gene locus replaced with the entire human variable gene locus (ibid, para 127). It focussed its analysis firmly on the reverse chimeric locus. The disclosure of the reverse chimeric locus was, it observed, &#8220;a major contribution to the art&#8221; because it solved the problem of immunological sickness (ibid, para 255). Every mouse encompassed in the claim will have the reverse chimeric locus, or, as the court put it at para 256 &#8220;will benefit from the technical contribution the disclosure of the 163 patent has made to the art&#8221;. Every such mouse will, in the terms of the issue stated by the parties in the Statement of Fact and Issues, &#8220;use the invention&#8221;. This is what led the court to characterise the claim as a principle of general application (ibid, para 256). For sufficiency, it was necessary for the skilled team to be able to produce transgenic mice incorporating the reverse chimeric locus and producing hybrid antibodies, and this they could do, producing mice which would have had a near wild type response (ibid, para 264). That the claim encompassed inventive improvements (more human variable region incorporated) did not make it insufficient as any such improvement was still a way of working the original invention (ibid, para 265).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Briggs, seeking to concentrate attention upon the fact that this is a product claim, and to emphasise that patents are about products and not about ideas, chooses terms which focus rather upon the mice containing the reverse chimeric locus (mice &#8220;fitted with a reverse chimeric locus&#8221; as Lord Briggs terms them at para 58). This difference of terminology is perhaps of less significance than the spotlight that he trains upon the range of the mice, extending from mice fitted with a reverse chimeric locus incorporating a subset of the human variable region (feasible at the time of the claim) to mice fitted with a reverse chimeric locus incorporating the whole human variable region (achievable now but not at the time of the claim). It is this focus on the quantum of replaced material in the reverse chimeric locus, rather than on the reverse chimeric locus as a general principle, that leads to a different conclusion about sufficiency from that reached by the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Given that I am alone in my disagreement with my colleagues, I can see little to be gained by a lengthy exegesis on the issues arising in the appeal. As I see it, and as perhaps appears from my exploration of the differences between the approach of this court and that of the Court of Appeal, the case turns upon how this particular claim is characterised, and how the law is applied to the particular facts of this case. I do not perceive the errors in the Court of Appeal&#8217;s approach that have been identified by the majority, and I would not have interfered with their conclusion that the claim here relates to a principle of general application. It still has to be enabled across its scope, but seen in this way, it is so enabled, being deployed in each mouse across the range, irrespective of the quantum of human material incorporated. Furthermore, it can also be said that protection across the range coincides with the technical contribution of the patents which was to solve the problem of immunological sickness, or putting it (loosely) another way, to facilitate the making of immunologically efficient mice.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

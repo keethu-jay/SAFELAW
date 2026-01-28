@@ -1,0 +1,693 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/79"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/79"/>
+	  <FRBRdate date="2021-09-07" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="79"/>
+	  <FRBRname value="A Thomas v St Mungo Housing Association"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/79"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/79"/>
+	  <FRBRdate date="2021-09-07" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/79/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/79/data.xml"/>
+	  <FRBRdate date="2024-08-05T20:00:39" name="transform"/>
+	  <FRBRdate date="2024-11-26T23:36:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-09-07" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>79</uk:number>
+	<uk:cite>[2022] EAT 79</uk:cite>
+	<uk:parser>0.25.5</uk:parser>
+	<uk:hash>ca0c50c4042041ad8b8a02bbdb22c8ff7368f44d70f175e1b74640afbf731ee5</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:6pt">Ms A Thomas v St Mungo Community Housing Association</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">: </span><neutralCitation style="font-family:'Times New Roman';font-size:12pt;color:#000000">[2022] EAT 79</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2020-000274-JOJ</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2021-09-07" refersTo="#judgment"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">7</span><span style="text-decoration-line:underline;text-decoration-style:solid;vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000"> September 2021</span></docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">GAVIN MANSFIELD QC, DEPUTY JUDGE OF THE HIGH COURT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">MS A</span><span style="font-size:12pt"/><span style="font-weight:bold;font-size:12pt">THOMAS</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">ST MUNGO HOUSING ASSOCIATION</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr O Onibokun </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr F McCombie </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Ashfords LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 7</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> September 2021</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">PRACTICE AND PROCEDURE</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">During the course of case management of a claim for unfair dismissal and disability discrimination, the Employment Tribunal considered applications to amend the claim to pursue claims for (a) unpaid annual leave under the WTR 1998; (b) unlawful deduction from wages and (c) breach of contract. </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Tribunal allowed the amendment in respect of the annual leave claim, subject to the Respondent&#8217;s right to argue the claim was out of time at the final hearing. The Claimant appealed on the basis that the claim was extant in the claim form, and the Employment Judge had erred in departing from an earlier case management decision, the effect of which was that the claim was extant and in time. </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Held, dismissing the appeal on this ground: Although the Claim Form made reference to the Working Time Regulations 1998 there was no reference to an annual leave claim; the only facts which could have supported a claim under the Regulations was a complaint of breach of the Claimant&#8217;s entitlement to daily rest. The Tribunal was entitled to treat the matter as requiring amendment: there was no extant claim for annual leave. To commence a particular claim, it is not enough simply to refer to a statute or set of regulations. Properly construed, the earlier case management decision made no ruling as to whether the claim was extant, or whether the claim was in time. </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Tribunal refused permission to amend to introduce the claims for unlawful deduction and breach of contract. The appeal challenged those decisions. </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Held, dismissing the appeal on these grounds: the Tribunal had identified the correct legal principles, summarised the facts, evaluated those facts and reached conclusions on balance having consideration to all the factors it addressed. The reasoning was clear and the decision in no way perverse. </span></p>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">GAVIN MANSFIELD QC, DEPUTY JUDGE OF THE HIGH COURT:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In this appeal, the Claimant appeals against a case management decision of Employment Judge Goodrich, sent to the parties on 10</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> March 2020, in which he determined certain applications to amend the claim.  The Appellant is the Claimant below and I will refer to the parties in this judgment as they were below as Claimant and Respondent.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Claimant was a project worker for the Respondent and employed by a company called Novas from 2002. She TUPE transferred to the Respondent in 2005.  Her employment was terminated on 21</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">st</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> January 2019, in circumstances which gave rise to her bringing a claim for unfair dismissal and disability discrimination, amongst other matters.  I will need to return to the other claims that were raised by the Claimant in addressing the Grounds of Appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Those claims, even the claims for unfair dismissal and disability discrimination, have not yet been determined.  A final hearing had been listed in August 2020 but that was adjourned, pending this appeal, and I am told this morning it is now listed for September 2022.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Notice of Appeal was presented on 21</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">st</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> April 2020 and was sifted by His Honour Judge Auerbach.  In his decision of 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> June 2020, he made a decision on Grounds 2 and 3 (those Grounds I will explain in due course) and ordered a preliminary hearing in respect of Ground 1.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">On 13</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> October 2020, Judge Keith, at the preliminary hearing, allowed all three Grounds through; that was on the determination of the preliminary hearing of Ground 1 and a Rule 3(10) application in relation to Grounds 2 and 3. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Appeal was set down for a full hearing on all three Grounds, and I have heard the appeal. Today. I have been considerably assisted by Mr Onibokun, solicitor for the Claimant, and Mr McCombie of Counsel, on behalf of the Respondent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The decision under challenge by EJ Goodrich addressed three claims raised by way of amendment.  The decision on each is subject to appeal.  I will outline them briefly, so it is more easy to understand the context of the matters I go on to address.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">First, the claim for unpaid annual leave owing on termination of employment.  That was said at the time of the hearing before EJ Goodrich to be 16 days of unpaid holiday pay, now said to be 24 hours, the claim valued at something under &#163;400.00.  EJ Goodrich allowed that amendment, subject to the Respondent&#8217;s right to bring any argument that the claim was out of time at a subsequent full hearing. The Claimant appeals that decision, in Ground 1 of this appeal, on the basis that the unpaid annual leave claim was already an extant claim, should not have been treated as an amendment and, therefore, a time point shouldn&#8217;t be open to the Respondent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The second claim was a claim for unlawful deduction from wages, which appears from the draft amended pleadings to comprise two components. First, a claim for a number of hours at an unsociable hours rate of pay. Second, 11 days of unpaid wages.  There is no further detail of the claim in the draft Amended Particulars of Complaint.  The claim is now said, from what EJ Goodrich has told us, to be under &#163;200.00.  The employment judge refused the amendment and Ground 2 of this appeal challenges that refusal on the grounds that EJ Goodrich gave inadequate reasons for his decision.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The third potential amendment was the claim for breach of contract.  It was alleged that the Claimant was obliged over a number of years to work more than her contractual hours without additional pay.  The claim went back some seven years prior to termination of employment.  The employment judge refused that amendment and Ground 3 of this appeal challenges that decision on perversity grounds.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I turn now to the claims and their history in the Employment Tribunal (&#8220;Tribunal&#8221;).  To understand EJ Goodrich&#8217;s decision on the Grounds of Appeal, I need to set out the history in a little more detail than might otherwise be necessary.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Claimant&#8217;s ET1 Form was presented on 15</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> June 2019.  At that time, she was representing herself.  She had completed the Claim Form and also added to it a lengthy rider setting out particulars of her claims.  I note the following: first, on the ET1 at section 8, she ticks the boxes for unfair dismissal, disability discrimination and religion or belief discrimination.  No other boxes are ticked, i.e. holiday pay, arrears of pay, other payments were unticked.  I note at this point that, although the claim for religion or belief was indicated at section 8, subsequently it was withdrawn and not pursued.  Box 9 sets out what the Claimant wants if the Claim is successful and that is described as compensation for unfair dismissal, reinstatement and certain recommendations arising from the discrimination allegations.  Box 15, additional information, explains that from 2016 to 2018 the Claimant lost significant flexi or TOIL (that is, time off in lieu) and her manager, Mr Michael Murray, refused to authorise the request.  She raised that with HR and Mr Murray&#8217;s manager and that led to what can be summarised as a campaign of allegations against the Claimant leading to her dismissal.  She says: &#8220;I was subjected to harassment or bullying, unlawful disability discrimination and unfairly dismissed.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The rider to the Claim Form sets out, over a number of pages, the history of the matter in more detail.  Before doing so, at para. 3 the Claimant identifies unfair dismissal and various heads of breach of the Equality Act, and then she states:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;Breach of employment contract working time regulation, breach of sickness and attendance policy and unlawful/wrongful dismissal.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the subsequent narrative, little or no flesh is put on those monetary claims, although she does refer to an incidence in February 2017 in which she was made to serve a client during a rest break, which she complains as being a matter in which she was denied entitlement to rest breaks.  At para. 13 she states: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;I lost almost all the flexi I owed between 2016 to 2018 due to line manager refused to authorise the request.&#8221;  </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Grounds of Resistance, 23</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">rd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> July 2019, defended all claims on the merits and alleged that the Claimant had been dismissed for gross misconduct and fairly so.  At para. 3.10 the Respondent contended that any treatment of the Claimant&#8217;s entitlement to time off in lieu was fair and correct and in accordance with the Respondent&#8217;s written policy.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Claim came before EJ Lewis at a preliminary hearing for case management on 23</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">rd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> September 2019.  The Claimant appeared in person and the Respondent was represented by a different legal representative from Mr McCombie of Counsel, who appears before me today.  EJ Lewis subsequently produced a Case Management Summary and orders arising from that hearing.  In para. 1 of that summary, she lists the claims in the Claim Form, including Working Time Regulations 1998 and unpaid wages.  However, the Summary of the case management hearing goes on to record that the Claimant&#8217;s Agenda (the agenda submitted for the purposes of the hearing) included claims that were not in the Claim Form and/or not in the Tribunal&#8217;s jurisdiction.  EJ Lewis explained she gave an adjournment for the parties to clarify and agree issues.  The Claimant formulated an amendment to her religious belief discrimination claim.  After that adjournment, however, there were still things that needed clarifying and no amendment had been formulated but, according to the summary of EJ Lewis, by that time, the Claimant was having difficulty concentrating and was in some pain.  EJ Lewis said: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;It was agreed the best way forward would be for me to set a timetable which would allow time for the Claimant to apply for any proposed amendment.  The Claimant would also be required to provide further clarifications of her claims with reference to disability point, following which the Parties are to attempt to agree a final list of issues.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge listed a further preliminary hearing (&#8220;PH&#8221;) to take place on 5</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2019, after those steps had been carried out.  The order then sets out various matters following from that in relation to directions for the application to amend; the parties were to attempt to agree a list of issues. The order listed of a PH, which is said to be to identify the issues, and set case management directions.  The employment judge said: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;The Claimant is required to reply to a request for further information, as set out in Schedule 1, and to provide information in relation to her disability in Schedule 2.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Schedule 1 included this request: when the Claimant &#8217;s employment came to an end, was she paid all of the compensation she was entitled to under Reg. 14 of the Working Time Regulations 1998?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 8</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October, the Claimant, still acting in person, submitted an application to amend which included an application relating to breach of employment contract (put in very generalised terms). It referred to several claims for unpaid wages, including: underpayment; unpaid unsocial hours entitlement; time off in lieu; time off entitlement.  She then claimed the deduction of unpaid wages was unlawful.  The Claimant says that was simply what had been required to be submitted by way of amendment and not the further information required in relation to the Working Time Regulations claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Respondent responded to that document 17</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October but on 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> November, the Claimant&#8217;s solicitor, Mr Onibokun, now newly on the record, wrote to the tribunal with a Draft Amended Particulars of Claim in substitution for the documents submitted by the Claimant.  That document, which runs to 28 pages, included the three monetary claims which subsequently became the subject of EJ Goodrich&#8217;s decision.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second PH provided for by EJ Lewis took place on 5</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2019 before EJ Goodrich.  He subsequently produced a summary of that hearing.  In that, he explained that, by the time the matter came before him, there was still no agreed list of issues and much of the preliminary hearing was taken up with identifying the issues.  Some issues were dismissed on withdrawal.  He states at para. 14:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;Having clarified the claims the Claimant is seeking to bring there was insufficient time to consider whether leave to amend would be required and whether it should be granted&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">He made case management orders.  The list of issues he described as &#8220;at this stage&#8221; was attached but it may need to be amended dependent on the outcome of consideration of applications to amend.  Those included the three claims I characterise as the monetary claims, for ease of reference, i.e. the historic breach of contract claim (I say &#8216;historic&#8217; in the sense that it went back seven years); the unpaid annual leave claim under Reg. 14; and the unlawful deductions claim in its two components.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In accordance with the employment judge&#8217;s directions, the parties put in written submissions: first, the Respondent and then the Claimant&#8217;s in reply.  The Respondent&#8217;s submissions of 20</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2019 objected to the amendment in respect of all three of the monetary claims, which it characterised as being &#8220;new&#8221; claims, not contained within the Claim Form.  The Claimant&#8217;s submissions (dated, on their face, 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> November but, I am told that, in fact they were produced on 10</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January) in response to the Respondent&#8217;s December submissions, argue that the holiday pay claim was not an amendment because it was already an extant claim within the Claim Form, as recognised by EJ Lewis.  It recognised that the breach of contract claim and unlawful deductions claim could possibly be construed as new complaints, but that amendments should be allowed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">EJ Goodrich then considered the amendment applications on those written submissions and sent out his Order and Reasons in a document sent to the Parties on 10</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> March 2020.  That is the decision that is the subject of this appeal.  The effect of EJ Goodrich&#8217;s Order was to allow the amendments to bring the Reg. 14 holiday pay claim, subject to the Respondent&#8217;s rights to argue limitation at the final hearing, and to refuse permission for amendment to introduce the breach of contract and unlawful deduction from wages claims.  He explains at the beginning of that decision the conduct of 5</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December hearing and that his decision was based on written submissions which he referred to and which he summarised at paras. 9 to 10 of his Reasons.  I will return in more detail to those reasons in respect of each of the three grounds.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">So, I turn now to the Grounds of Appeal.  There are three: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 1 relates to the annual leave claim.  It is alleged that the Tribunal misdirected itself in relation to its findings categorising the Claimant&#8217;s complaint of unpaid holiday pay as an amendment and it complains, therefore, that having found that it was a matter for amendment, the Tribunal gave permission to amend, indicating the Respondent would be able to oppose it on the basis of limitation at a final hearing.  That is said to be an error of law, both in the understanding of the Claim Form and in the effect of EJ Lewis&#8217;s decision;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 2 alleges that the Tribunal did not provide sufficient reasons in respect of its decision to refuse leave to amend to bring the claim of unlawful deduction from wages; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 3 alleges a misdirection by failure to consider matters in refusing to allow the application to amend the claim to introduce a claim for breach of contract.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge, at paras. 11 to 15 of the Reasons, correctly directed himself as to the overriding objective and as to the leading and very familiar case of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent Bus Co. Ltd v Moore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1996] IRLR 661" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] IRLR 661</ref> EAT, the well-known decision of Mr Justice Mummery (as he then was).  The employment judge correctly summarised the principles to be derived from that case.  In his conclusions (paras. 16 to 36 of the Reasons) he begins by stating that he has considered the guidance given in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and the application of that guidance to the facts. He goes on to consider the factors addressed in Mr Justice Mummery&#8217;s decision, those factors having  been the subject of the parties&#8217; submissions.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Determination of an application to amend is a case management matter and the exercise of a discretion by the tribunal.  I was referred, in the Claimant&#8217;s Skeleton Argument, to the recent decision of HHJ Tayler in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs G Vaughan v Modality Partnership</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2021] IRLR 97" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] IRLR 97</ref> EAT.  Paras. 3 to 11 of that judgment contain a convenient summary of the well-established principles regarding an appeal against a decision on an amendment application:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">&#8220;3.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mummery LJ noted in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Brent LBC v Fuller</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2011] ICR 806" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] ICR 806</ref> CA, at paragraph 30:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;Another teaching of experience is that, as with other tribunals and courts, there are occasions when a correct self-direction of law is stated by the tribunal, but then overlooked or misapplied at the point of decision. The tribunal judgment must be read carefully to see if it has in fact correctly applied the law which it said was applicable.&#8221; </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Determining applications to amend is a core component of case management. As with all case management decisions the Employment Judge has a broad discretion. The Employment Appeal Tribunal will not interfere with case management unless it is clear that the Employment Tribunal has made an error of law. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">5.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Applications to amend are frequently decided at case management hearings, along with a multitude of other issues, in limited time. As Mummery LJ noted in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Gayle v Sandwell and West Birmingham Hospitals NHS Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2011] IRLR 810" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] IRLR 810</ref>, at paragraph 21: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;If the ETs are firm and fair in their management of cases pre-hearing and in the conduct of the hearing the EAT and this court should, wherever legally possible, back up their case management decisions and rulings.&#8221; </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">6.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mummery J, as he then was, commented in the context of appeals against decisions refusing applications to amend in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent Bus Co Ltd v Moore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[1996] ICR 836" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] ICR 836</ref> at 843B: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;On an appeal from such a refusal, the appellant would have a heavy burden to discharge. He would have to convince the appeal tribunal that the industrial tribunal had erred in legal principle in the exercise of the discretion, or had failed to take into account relevant considerations or had taken irrelevant factors into account, or that no reasonable tribunal, properly directing itself, could have refused the amendment: see </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Adams v West Sussex County Council</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> [1990] ICR. 546.&#8221; </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It will be difficult for a party, especially if represented, to criticise an Employment Judge for failing to take account of a factor that was not raised in argument. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">8.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In considering reasons for case management decisions, which often, necessarily, will be brief, the Employment Appeal Tribunal must be astute to avoid an excessively minute analysis. Mummery LJ warned in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fuller</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> at paragraph 30:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;The reading of an employment tribunal decision must not, however, be so fussy that it produces pernickety critiques. Over-analysis of the reasoning process; being hypercritical of the way in which the decision is written; focusing too much on particular passages or turns of phrase to the neglect of the decision read in the round: those are all appellate weaknesses to avoid.&#8221; </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This passage is so often quoted that I have reminded myself that it is insufficient to quote it; I must think about it and avoid the pitfall of which Mummery LJ warns. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">10.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Nonetheless, if an Employment Judge has, on a fair reading of a judgment, failed to take account of a relevant matter or failed properly to apply the law, even if quoted in the judgment, it is necessary to interfere. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">11.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Sedley LJ succinctly stated at paragraph 26 of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Anya v University of Oxford</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2001] ICR 847" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] ICR 847</ref>: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;The courts have repeatedly told appellants that it is not acceptable to comb through a set of reasons for hints of error and fragments of mistake, and to try to assemble these into a case for oversetting the decision. No more is it acceptable to comb through a patently deficient decision for signs of the missing elements, and to try to amplify these by argument into an adequate set of reasons. Just as the courts will not interfere with a decision, whatever its incidental flaws, which has covered the correct ground and answered the right questions, so they should not uphold a decision which has failed in this basic task, whatever its other virtues.&#8221;&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I derive from that passage the following key points: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">There are occasions when, although a tribunal correctly states the law, it overlooks or misapplies that at the point of decision;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">ii)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">An application to amend is a case management matter for the tribunal. There is a high hurdle to be crossed in seeking to appeal, and I rely on and refer, in particular, to the extract in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> referred to by HHJ Tayler:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt">&#8220;6.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;On an appeal from such a refusal, the appellant would have a heavy burden to discharge. He would have to convince the appeal tribunal that the industrial tribunal had erred in legal principle in the exercise of the discretion, or had failed to take into account relevant considerations or had taken irrelevant factors into account, or that no reasonable tribunal, properly directing itself, could have refused the amendment &#8230;&#8221;&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">iii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Further, reasons for case management decisions, will often, necessarily, be brief and in those cases, in particular (more so, perhaps, than in other classes of case), the Employment Appeal Tribunal must be astute to avoid an excessively minute analysis of the reasons.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">With those principle in mind, I turn now to consider the Grounds each in turn.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">First, Ground 1.  As I have already indicated, EJ Goodrich allowed an amendment to permit the claim for unpaid annual leave to be pursued at a final hearing.  One might have thought that was a success for the Claimant, nonetheless, the Claimant appeals.  The reason the Claimant appeals the decision is because the employment judge said this at para. 34 of his Reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;As indicated in the guidance given in the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Galilee</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> case (&#8230;) I leave the issue as to the time limits for her holiday pay claim to the Employment Tribunal hearing the Claimant&#8217;s case.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The reference to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Galilee</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> is to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Galilee v Commissioner of Police for the Metropolis</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2018] ICR 634" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] ICR 634</ref>, which held that it is not always necessary to determine time points as part of an amendment application; granting an amendment does not automatically deprive a respondent of any limitation arguments it might have in relation to the newer claims.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">If the </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">employment judge was right to treat the matter as one requiring an amendment and to allow it, neither party in this case suggests that the Tribunal was wrong to refer to the approach in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Galilee</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">or in its understanding of it.  Indeed, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Galilee</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> itself is not even included in the bundle of authorities.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant&#8217;s argument is a different one; it is that the Tribunal erred in treating the holiday pay claim as requiring an amendment.  The Claimant&#8217;s position is that the Tribunal should have treated the claim as an extant claim about which the details in the Amended Particulars of Complaint were only providing further information as directed by EJ Lewis.  By treating it as an amendment, the Claimant complains that it is allowing the Respondent the opportunity of a limitation defence; whereas, if it was appreciated that the Claim was in the ET1 Form, that was not open to it.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Before analysing the substance of the ground, I should record that this Ground of Appeal seems largely pointless in practice and it is regrettable that the parties have not been able to resolve the position</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> on this ground of this claim without the detailed argument before the EAT.  I say that for two reasons. First, the Respondent doesn&#8217;t take a limitation defence to the holiday pay claim, even though EJ Goodrich had indicated that it could do.  That defence is not pleaded in the Grounds of Resistance and written submissions to the EAT for the Preliminary Hearing state (and it has been confirmed to me today) that the limitation point is not taken.  However, although Mr McCombie said that when I asked him, I did find in oral submissions his position to be, perhaps, surprisingly equivocal.  He pointed out, accurately, that the question of time is a jurisdictional one and that, in principle, it is possible that a party could seek to withdraw a concession at a full hearing.  He did not, however, say that it was the Respondent&#8217;s intention to do so; indeed, he indicated that its position is to the contrary.  I would have thought that there would be considerable difficulty (whatever the principle) in the Respondent&#8217;s seeking to resile the position of not taking the limitation point, given that: first, the point has not been taken to date; second, it has been expressly disavowed during this appeal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second point is this: that, as the matter has developed since the Preliminary Hearing, the Claimant no longer claims 16 days of holiday pay, but only 24 hours.  The value of that claim, as I have learnt, is &#163;371.00.  On any view, that is a small value of the claim, both to have required an appeal to the EAT and to have held up determination of the unfair dismissal and discrimination claims.  The Claimant was unable to identify any difference that the outcome of this ground makes to her ability to pursue this, beyond stating what I perceived to be a mistrust of the Respondent&#8217;s position.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Be that as it may, I turn to determine the point on its substance.  The Claimant argues as follows, in summary: first, the Working Time Regulations&#8217; claim is expressly raised on the Claim Form; second, the effect of EJ Lewis&#8217;s Order was to recognise that there was a line of claim under the Working Time Regulations and that that claim related to holiday pay.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Therefore, the claim for holiday pay is an extant claim, not subject to an argument about time.  EJ Lewis made her order, it is said, as part of the Tribunal&#8217;s duty to assist a litigant-in-person in identifying (or, as Mr Onibokun puts it, &#8220;teasing out&#8221;) the issues in the claim.  EJ Lewis required of the Claimant </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">not an amendment application (in contrast to the disability claim or the religion or belief claim) but further information as to the Reg. 14 claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> It is argued on behalf of the Claimant that EJ Goodrich should not have overturned or departed from EJ Lewis&#8217;s approach, but should have treated para. 133 of the Amended Particulars of Claim (that is the paragraph that sets out the 16 days holiday pay under Reg. 14) merely as further information related to the claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Respondent says that EJ Goodrich was not wrong to require an amendment to add the details of the holiday pay claim; that the </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">employment judge, in allowing the amendment, expressly considered the facts, first, that the ET1 referred to the </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Working Time Regulations; secondly, that the Respondent might have anticipated that that was about holiday pay;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Second, the Respondent says that this ground</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> assumes that EJ Lewis found that there was an extant unpaid holiday pay claim and it was in</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> time.  That was no part of EJ Lewis&#8217;s order;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Third, there was no order made by EJ Lewis that was capable of being overturned or departed from, therefore EJ Goodrich cannot have erred that way. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It seems to me it is necessary to consider the effect of both EJ Lewis&#8217;s Order and, ultimately, what the Claim Form means and what it contained.  Dealing with EJ Lewis&#8217;s Order first, I am not at all persuaded that the judge&#8217;s order bears the weight attached to it by the Claimant.  There is nothing in EJ Lewis&#8217;s case management summary that expressly refers to a holiday pay claim being raised; there is nothing that expressly adjudicates on the meaning of the Claim Form as to whether particular claims were live or within time.  The Claimant relies upon, first, the reference to the Working Time Regulations. Mr Onibokun quite sensibly accepts that the Working Time Regulations contain a range of different claims and that para. 1 of EJ Lewis&#8217;s case management summary does not identify which claims under those Regulations are being advanced. Second, the Claimant relies upon the distinction drawn by EJ Lewis between where she required the Claimant to provide a draft amendment and where she required further information.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The request for further information is relied upon by the Claimant as indicating that EJ Lewis must have understood that there was a holiday pay claim.  The request for further information is this:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;Unpaid annual leave - Working Time Regulations</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">1.6</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">When the claimant&#8217;s employment came to an end, was she paid all of the compensation she was entitled to under regulation 14 of the Working Time Regulations 1998?&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">From that scant material the Claimant seeks to suggest that it was implied that there was an extant holiday pay claim that was accepted and was accepted as being in time.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In my judgment, EJ Lewis&#8217;s decision does nothing of the sort.  First, there is no express ruling on the meaning of the Claim Form or any limitation issues; second, the only orders were case management orders.  Reliance is placed upon what one gets from the case management summary, not any judgment or order; third, it is clear from the case management summary that EJ Lewis did not conclude the definition of issues in the circumstances I outlined earlier in this judgment.  She put that over to another PH to conclude the exercise; fourth, although the Respondent&#8217;s counsel, Mr McCombie (who, I have indicated, wasn&#8217;t present at the hearing) has quite fairly accepted that it appears there may have been some discussion about </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Working Time Regulations and unpaid annual leave, it is far from clear to me that any specific claim had been articulated</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  Indeed, the terms of the request for further information suggest the contrary.  The question asked is: was the claimant paid all the compensation she was entitled to?  If the Claimant&#8217;s claim clearly advanced at the hearing was that she had not been paid the sum she was due under </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Reg. 14, then that question would not have needed to have been asked.  The question would have focussed on the amount of the claim, not whether there was a shortfall in payment or not. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">So, in my judgment, there was no ruling of EJ Lewis that EJ Goodrich can be taken as overturning, because there was nothing to overturn.  EJ Goodrich was entitled to consider it as a matter of case management.  All of the authorities to which I have been directed as to the circumstances in which a tribunal may depart from or vary the </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">case management</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> decision are, therefore, not in play.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In any event, ultimately, whether or not there is an extant claim for holiday pay is a matter of interpretation of the pleading, not a matter of what was said before an employment judge at a </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">case management hearing.  EJ Lewis recorded that there was a claim under the </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Working Time Regulations.  That derives from a single paragraph (para. 3) in the Details of Claim to which I have referred above.  That makes no mention of holiday pay; indeed, the Claim Form and the Particulars document make no reference to holiday pay whatsoever.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have indicated, there were complaints about time off in lieu and the denial of entitlement for working through rest breaks during her working time.  It is plainly right, in my judgment, that any introduction in the claim to annual leave owing under Reg. 14 would need to be introduced by amendment.  There is no way of telling from the Claim Form or Particulars that such a claim was there; nothing that was capable of response on the part of the Respondent.  It is not enough for a claimant simply to refer to a relevant piece of legislation and then later say &#8216;all I&#8217;ve got to do is provide particulars my claim will rely on&#8217;.  That would suggest that the point of referring to the Working Time Regulations all or any claims under the Working Time Regulations that could have been brought are effectively regarded as being live, subject only to revision of the particulars.  That, in my judgment, is not the correct approach.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">So, to treat this as a matter of amendment is something that the </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">employment judge was entitled to do and, in my judgment, was right to do.  There is no separate challenge to the judge&#8217;s exercise of discretion on the application to amend; nor could there be, given that he allowed the amendment and allowed the case to continue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">So, for those reasons, I dismiss Ground 1. In any event, as I have indicated, it turns out that the Respondent does not rely on </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">limitation and the case can proceed to a full hearing.  Given the small amount at stake, I very much hope the parties will try to resolve this element of the claim; the value being small - not insignificant, probably, for the Claimant, but small in terms of the cost of litigation to both parties, perhaps more particularly when measured against the live claims for unfair dismissal and discrimination which, in any event, will need to proceed to a full hearing.  So, that disposes of Ground 1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Grounds 2 and 3, although they are under separate heads of claim, I can deal with briefly together.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 2 is reasons-based: it is alleged that the reasons given by the Tribunal were not Meek-compliant; that the employment judge appears to have paid lip service to the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> principles and doesn&#8217;t explain how the balance of injustice and hardship exercise was applied.  Mr Onibokun says he and the Claimant cannot tell why she lost.  He further says that looking at the treatment and the various factors in the Reasons, it appears that the time point was taken as being determinative.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In determining this issue, it is necessary, therefore, for me to consider in a little more detail, the reasons given by EJ Goodrich.  I have already indicated that he set out at paras. 9 and 10 of the Reasons a summary of the respective submissions of the Parties on the amendment application.  It is not suggested to me that he had either mis-summarised or left out any particular factors from those submissions.  In the summary of the law, at paras. 11 to 15 (already referred to), it is not suggested that the summary of principles is in any way in error. In the conclusions section, as I have indicated, the employment judge starts by stating:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">&#8220;16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I have considered the application of the guidance given in the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">case&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">And he then goes through an analysis of the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> factors in relation to each of the three amendments.  He certainly does not deal with each of the amendments as all having the same matters applying to them.  It is clear he carries out some careful consideration of the distinctions between them.  At para. 24, for example, when considering whether the amendments are major or minor, he states his findings differ slightly in respect of how he sets his findings out for each amendment.  And, of course, as is apparent from my judgment, he allowed the amendment in relation to the leave claim whilst rejecting the other two.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Having dealt with each of the factors referred to in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> in turn, over the course of paras. 16 through to 32, he there states his conclusions very shortly at paras. 33 to 34.  At para. 33 he states: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;On balance, therefore, having in mind the considerations I have set out above, I grant the Claimant leave to amend her claims to bring her working time regulations complaint for holiday pay.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Before going on to para. 34, which I have already equated with </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Galilee</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, and then at para. 35:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;On balance, having in mind the considerations set out above, I refuse the Claimant leave to bring her breach of contract and unlawful deduction from wages complaints.&#8221; </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I see no deficiency in the reasons given by the Tribunal: it had summarised the submissions; correctly identified the law; set out the facts of the case by reference to each of the factors identified in the relevant legal authorities; and then reached a conclusion balancing all of those factors.  It is difficult to see what more the Tribunal could be expected to do.  Ultimately, as the Tribunal directed itself, the question is a multi-factoral one with no single factor being determinative.  There is no reason to doubt when the Tribunal says that in balancing and &#8220;having in mind the considerations&#8221;, that is exactly what it did: it balanced and considered factors in reaching his conclusion.  Any attempt to set out a more detailed analysis of the weight attached to each factor would, in my view, be: first, unnecessary; and second, pave the way to a different type of complaint, that one factor or another had been given precedence over others.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I reject the Claimant&#8217;s submission that time was treated as being a determinative factor; the employment judge expressly stated that he was not treating any factor as determinative in his analysis at all, and says that having in mind all of the considerations and balancing them, this was the conclusion he reached.  So, there is no deficiency, in my judgment, in the Reasons in relation to this matter and I reject the Appeal on Ground 2.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As with Ground 1, it is disappointing for the EAT  to see this matter being the subject of detailed argument on appeal, given that the value of the claim is now known to be somewhat less than &#163;200.00.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 3 is the breach of contract claim, alleged to be the requirement for the Claimant to have worked without extra pay 2 &#189; hours per week over a number of years.  That is now valued to be the rather more significant sum of &#163;5,000.00.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This appeal is one of perversity, in essence, and much of the argument is that undue weight was attached to various factors by the Tribunal.  I cannot interfere with the employment judge&#8217;s exercise of discretion in a case like this where it is not said that he missed out relevant factors or had taken into account irrelevant factors, nor said that he misdirected himself on legal principles.  Ultimately, the decision is only open to challenge on grounds of perversity and there is nothing in this decision that comes close, in my judgment, to establishing that the employment judge&#8217;s decision is perverse.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It is said by the Claimant that undue weight was attached to the Respondent&#8217;s contention that it may well be prejudiced by having to deal with a claim that went back several years.  It is said at the time there was inadequate evidence on this and that subsequent correspondence on that claim on a potential County Court claim has indicated absence of prejudice.  The submission that was made to EJ Goodrich, and is made now, is that the Respondent will have documentary records of its payroll, so there will be documents that will be determinative in the claim (at least, the Respondent will have the evidence it needs).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In my judgment, that is a rather unrealistic way of looking at it. First of all, the employment judge was entitled to have regard, in his experience as an employment judge, to the fact that any party faced with a late claim going back over a number of years (seven years, in this case) is liable to be put to prejudice and additional work in seeking to gather documents and witness evidence to deal with it. Second, experience tells us (a point I raised with the parties during the hearing) that claims of this nature (underpayment over a number of years) in conflict with a contract (in this case the contract dates from 2002) seldom turn simply upon payroll.  Arguments often arise in cases such as this, for example:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">i)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">as to whether the terms remained those that they were serveral years ago;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">ii)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">whether that which was inputted into the payroll system was in fact of what was done by the parties.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Inevitably, in my judgment, it is highly likely that there will be factors which will require further inquiry which the employment judge was entitled to regard as amounting to a prejudice to the Respondent to have to do that.  It is obvious to me that the employment judge was entitled to have regard to other factors: first, the claim being raised out of time; second, that it was a substantial new claim, not made in the Claim Form; third, that this was a claim that could be brought in the County Court.  The Claimant argues that, given that the claim could be brought in the County Court, (and I put it less elegantly than Mr Onibokun), the right thing to do would have been to save everyone the time and trouble of a claim and proceedings in the County Court and allow it to be determined in the tribunal.  The employment judge saw it in a different way: he had regard to the fact that, if he were to refuse permission to amend, then the claim could still be pursued (if the Claimant wished to do so) in another forum.  Consideration of that factor, consideration of all of the factors cannot, by any stretch of the imagination, be described as perverse or in any way an error.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">So, I dismiss Ground 3 for the reasons I have stated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">So, in conclusion, I dismiss this appeal on all three Grounds.  I would like to thank both Mr Onibokun and Mr McCombie for the considerable assistance they have given me in relation to this appeal.    </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

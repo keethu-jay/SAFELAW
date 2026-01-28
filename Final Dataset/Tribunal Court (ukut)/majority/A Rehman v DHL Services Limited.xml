@@ -1,0 +1,822 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/90"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/90"/>
+	  <FRBRdate date="2022-06-15" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="90"/>
+	  <FRBRname value="A Rehman v DHL Services Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/90"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/90"/>
+	  <FRBRdate date="2022-06-15" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/90/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/90/data.xml"/>
+	  <FRBRdate date="2024-11-09T02:41:13" name="transform"/>
+	  <FRBRdate date="2024-11-25T23:03:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-06-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-a-rehman" href="" showAs="MR A REHMAN"/>
+	<TLCPerson eId="dhl-services-limited" href="" showAs="DHL SERVICES LIMITED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>90</uk:number>
+	<uk:cite>[2022] EAT 90</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>6c5bde4d85b91ebc23bb409cb19e6014fa4ec3baf54088a8a80552d285240763</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Mr A Rehman v DHL Services Limited </span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">: </span><neutralCitation style="font-family:'Times New Roman';font-size:12pt;color:#000000">[2022] EAT 90</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2020-001069-BA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2022-06-15" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">15 June 2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p style="margin-left:0.5in"><marker name="tab"/><party as="#appellant" refersTo="#mr-a-rehman" style="font-weight:bold;font-size:12pt">MR A REHMAN</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#dhl-services-limited" style="font-weight:bold;font-size:12pt">DHL SERVICES LIMITED</party><marker name="tab"/><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">in person</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Ms V Brown </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by DAC Beachcroft LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 10 May 2022</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DISABILITY DISCRIMINATION</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">PRACTICE AND PROCEDURE</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At a preliminary hearing an employment judge determined that the claimant was not a disabled person with respect to any of three impairments. He concluded that the independent medical evidence was insufficient to support the claimant&#8217;s case, and that the claimant&#8217;s own evidence could not be relied upon. He drew, in reaching his conclusions, on his interpretation of a phrase in one of the medical reports before him, as signifying that the claimant had deliberately exaggerated the account which he had given to that expert. That was an erroneous reading of that phrase in that report, and it undermined the judge&#8217;s reasoning in relation to all three impairments. Although the judge had accepted, in a reconsideration decision, that he had misinterpreted that phrase, the reasoning in the reconsideration decision was not sufficient to repair the fundamental error in the original decision.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant&#8217;s appeal on the disability issue was therefore allowed and the matter was remitted for rehearing.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">A further ground of appeal against the judge&#8217;s decision to refuse an amendment application failed. The judge&#8217;s reasoning in that regard remained sound, notwithstanding the error in his decision as to whether the claimant was, by reference to mental ill health, a disabled person.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I will refer to the parties as they were in the employment tribunal, as claimant and respondent.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was engaged via an agency to work for the respondent from 9 June 2018 picking and packing parcels. In July 2019 he applied for a permanent position, but failed the written test.  His engagement then came to an end on 27 August 2019. He presented tribunal claims in August 2019 complaining of disability discrimination, in particular, discrimination arising from disability and victimisation. He also asked the respondent to permit him to retake the written test with certain adjustments being made. Whilst it did not accept that it had failed in any duty to the claimant, the respondent permitted him to do this.  The claimant again took the test in October 2019 but, although his score was higher than before, he again was failed on the basis of his score.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In his tribunal claims the claimant relied upon three impairments, being keratoconus, which is an eye condition, temporo-mandibular joint disfunction (&#8220;TJD&#8221;), which he said gave rise to chronic jaw pain, and mental impairment, compendiously described as stress/anxiety/depression. As the tribunal&#8217;s decision explains, the claimant injured his jaw in an accident in 2014. A plate, with screws, was inserted.  These were removed in June 2018.  In September 2018 he was involved in a road traffic accident, which he said had an impact on his mental health. He had also had bilateral keratoconus for more than 10 years and he told the tribunal that this was a lifelong condition.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In its grounds of resistance the respondent did not admit that any of the impairments relied upon amounted to a disability at the relevant time, and defended the complaints on their merits.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At a case management hearing in July 2020 the tribunal directed a preliminary hearing (&#8220;PH&#8221;) to determine the disabled status issue, and to decide whether the claimant should be permitted to amend his claim to add further complaints of disability discrimination by reference to a particulars document that he had tabled. He initially sought also to add a complaint under the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Agency Workers Regulations 2010</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, but later abandoned that.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">That PH was heard before EJ Perry on 14 October 2020.  The claimant was in person, and the respondent was represented by Ms Brown of counsel.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In a reserved decision promulgated in November 2020 the tribunal decided that the claimant was not disabled during the relevant time period by reference to any of the claimed disabilities. The judge went on in any event to consider the application to amend, which he refused. Accordingly, only the complaint of victimisation (which does not depend on the claimant being disabled) survived.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I will consider the reasoning in the decision in more detail later on. At this stage I note the following.  The judge identified that he had to decide whether the claimant was a disabled person in the period December 2018 to August 2019. The key issue, in relation to each impairment, was whether, during that period, it had a substantial and long-term adverse effect on the claimant&#8217;s ability to carry out normal day-to-day activities (</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> section 6(1)(b)), taking account, in relation to keratoconus, of the provision in schedule 1 paragraph 5 to the effect that, in the case of a visual impairment, a relevant consideration is the extent to which the impairment is correctable by the use of spectacles or contact lenses. The judge concluded that the evidence did not, in respect of any impairment, establish such a substantial adverse effect in the relevant period. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In relation to the amendment application, one of the factors identified by the judge was that the claimant had not raised any of the proposed new complaints in time.  The claimant contended that he had not included them in his original claim forms because of his mental ill health; but, for reasons he explained, the judge did not accept that.  Having considered all the relevant factors, the judge concluded that the balance of prejudice weighed against permitting the amendment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 27 November 2020 the claimant emailed the tribunal applying for a reconsideration. That was refused on paper in January 2021. The judge identified two errors in para [50] of his original decision, concerning the report of a consultant psychiatrist, Dr Whittington, but went on to state that these had no bearing on the core conclusion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 7 February 2021 the claimant made a second reconsideration application. The medical evidence that had been placed before the judge at the PH to determine disabled status had included a report of Dr Kavita Misra, a chartered clinical psychologist, dated 2 May 2020, arising from a video interview with the claimant in April. That report had been prepared for the purposes of a personal injury claim arising from the 2018 road traffic accident.  In his decision on the question of disabled status the judge had made a number of references to Dr Misra&#8217;s report.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant now attached to his second reconsideration application a letter from Dr Misra of 29 January 2021 in which she commented on a particular expression that she had used in her earlier report, being: &#8220;unconscious magnification of symptoms&#8221;. The claimant contended that this letter showed that the judge had erred in his understanding of what Dr Misra had meant by that expression.  In a decision sent in March 2021 that application was also refused. The judge considered that, even accepting what Dr Misra had said in that letter, about her use of that expression, having regard to the remainder of the judge&#8217;s reasoning, the original decision and outcome were not affected.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant made a third reconsideration application.  That was refused in April 2021.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In December 2020 the claimant instituted an appeal against the employment tribunal&#8217;s original decision arising from the October 2020 PH. He did not appeal any of the reconsideration decisions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The notice of appeal was considered on paper not to contain any arguable grounds. The claimant applied for a rule 3(10) hearing which came before HHJ Tayler. He had had access to an ELAAS representative, but, at the hearing, appeared in his own behalf. HHJ Tayler permitted two grounds to proceed, which he described in his reasons. In respect of the decision on disabled status the single ground was that the judge erred in treating Dr Misra&#8217;s reference to &#8220;unconscious magnification of symptoms&#8221; as &#8220;evidence that the claimant was deliberately exaggerating his symptoms, whereas it should have been treated as a possible component of his impairment.&#8221; </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to the amendment decision, HHJ Tayler noted that the claimant&#8217;s primary explanation for the delay in applying to amend was that it resulted from his disability. Accordingly he allowed a further ground to proceed, on the basis that &#8220;[i]f it were to be found that the employment judge incorrectly assessed the issue of disability I consider it is arguable that there was an error of law in the assessment of the application for permission to amend the claim.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At the hearing of this appeal the claimant again appeared in person, and the respondent was again represented by Ms Brown. The claimant was able to view and read from the documents on an electronic device, and confirmed at the start of the hearing that he did not require any particular adjustments to the hearing arrangements. I had the benefit of written skeleton arguments from both parties and heard very full oral argument over the course of a day</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Dr Misra&#8217;s 2020 Report</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is convenient at this point to consider Dr Misra&#8217;s 2020 report.  She described that following the 2018 road traffic accident the claimant developed symptoms of stress &#8211; which was partially attributable to the accident, travel anxiety &#8211; attributable to the accident, and mood disturbance &#8211; partially attributable to it.  She had not seen GP records, but, taking account of the claimant&#8217;s self-report, she considered that the accident had exacerbated a pre-existing low mood and anxiety disorder. Following the accident he had also reported neck and shoulder pain, whiplash injuries and headaches.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At the time when she spoke to him, one year and seven months after the accident, the claimant self-reported that he felt generally improved, but had some continuing symptoms. Dr Misra documented how his reported symptoms now compared with the time of the accident. In particular, in the immediate aftermath of the accident, he had reported neck and should pain from whiplash.  At para [9.8], under the heading &#8220;Chronic pain: the pain has improved&#8221;, Dr Misra now wrote:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;In all probability there was a link between his ongoing pain tolerance, level of behavioural activity and mood variability.  This may well contribute to unconscious magnification of symptoms.  However, this pain is not due to the index accident.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In a section headed: &#8220;Reliability and Validity of Findings&#8221; she wrote that the claimant had endorsed symptoms in a manner that was &#8220;highly consistent&#8221; with honest reporting, that she had &#8220;no reason to doubt his veracity&#8221;, and that there was &#8220;no evidence of conscious exaggeration.&#8221; In a section concerning treatment and prognosis she wrote that the claimant was &#8220;clinically depressed. Mood variability should continue to improve over the next 6 months.&#8221; On the subject of &#8220;Chronic Pain&#8221; she concluded: &#8220;In all probability, there is an interaction between his ongoing pain tolerance, level of behavioural activity and mood variability.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal&#8217;s Decision &#8211; Disabled Status </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I turn now to the judge&#8217;s reasoning and findings on the question of disabled status. In opening sections the judge identified the impairments relied upon, the issues, discussed the law, and noted the background in relation to the 2014 and 2018 accidents and aftermath. No issue is taken with the summary of the law, as such. The judge then summarised the evidence, being two impact statements on which the claimant was cross-examined, and a number of medical reports and letters, which he listed, noting that some appeared to have been prepared for the purposes of the personal injury claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In a section specifically considering keratoconus, the judge noted first, at [20], the respondent&#8217;s case that there was no substantial adverse effect, as there was none when the claimant wore contact lenses. At paragraphs [21] to [29] he reviewed the evidence on such matters as whether the claimant had difficulty with wearing a contact lens in his right eye, how long he was able to keep the lens or lenses in for, activities from which he said he abstained, or which he said he found difficult, because of his eye condition, whether he had difficulties with his vision at night, or reading without a magnifier in addition to the lens(es), and what the impact was or was not, on his ability to use public transport, or drive, whether by day or night.  The judge noted various differences in what the claimant had said on different occasions about some of these matters.  He also noted that there was no medical evidence to the effect that the claimant had been advised to refrain from various activities mentioned, as opposed to these being things that he had himself chosen to avoid or not do.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then, at [30] and [31], the judge said this.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;30.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">A wider point however the respondent makes concerns the claimant&#8217;s credibility and the weight I should give to his evidence. The minor differences in his account that I highlight above aside, within his impact statement the claimant states he finds it hard to drive at night. Despite it being in the claimant&#8217;s interests to give full account of the effects of any impairment in the various medical reports (given they were obtained to support a claim following the RTA) no mention of that is made in any despite his sight being discussed at length in those reports and indeed Dr Misra indicates the opposite (see (54)). </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">31.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">I return to the other inconsistency and credibility issues the respondent raises below.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge then turned to the TMJ.  Once again, he reviewed the evidence from the claimant and the clinical evidence, on various topics, focussing on the period following the removal of the plate and screws in 2018. These included whether the claimant had difficulty eating, experienced numbness in the face, was affected in his speech, and, in particular the issue of ongoing pain. As to that the judge contrasted the post-operative assessment of the oral and maxillofacial surgeon, Mr Speculand, that the ongoing potential for pain was minor or trivial, with the account of persisting chronic pain that the claimant had given to other clinicians. A reduced ability to open his mouth was attributed by Mr Speculand to poor dental hygiene, that could be addressed by various steps which, the respondent submitted, the claimant could reasonably be expected to take.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then, at paragraphs [41] and [42], the judge said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;41.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">In my judgment whilst some of the symptoms the claimant reports are supported by what the claimant told the various medical practitioners several I find are exaggerated (the effect on his speech, the characterisation of the pain as chronic when it was characterised as 2 on a scale of 1 to 5, the potential for pain as being assessed as minor or trivial and that the way the claimant described the pain was like pins and needles when present but that it came and went). That is supported by Dr Misra [183 9.3] who identified a probable link between the claimant&#8217;s pain tolerance, level of behavioural activity and mood variability and they may contribute to &#8216;unconscious magnification of symptoms&#8217;. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">42.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">I return to Dr Misra&#8217;s assessment below.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Turning to mental health, once again the judge reviewed, at [43] onwards, the various evidence, being that of the claimant, and of the accounts he had given to, and assessments made by, various clinicians at different points in time. This included noting that the claimant was referred to Birmingham Healthy Minds at latest by April 2019, that an independent consultant psychiatrist, Dr Middleton, had assessed him in February 2020 as having Mixed Anxiety and Depressive Disorder, and that Dr Misra had assessed him (on interview in April 2020) as being clinically depressed and recommended a course of CBT and/or EDMR.  The respondent submitted that the implication of Dr Middleton&#8217;s report was that the symptoms specifically arising from the 2018 accident had run their course by the end of 2019, and that there was a lack of clear evidence of substantial adverse effect before that.  Dr Misra made no mention of a number of impacts asserted by the claimant. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge then continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;55.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">Thus, again doubt is cast as to the claimant&#8217;s account generally on matters. It was in the claimant&#8217;s interest to relay the existence of adverse effects to the providers of the medical reports in the context of his personal injury claim. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">56.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">Dr Misra stated that she had no reason to doubt the claimant&#8217;s veracity and his account was consistent verbally and the symptoms and psychological problems were highly consistent and thus an honest report of his difficulties and there was no evidence of conscious exaggeration or other consistency factors [186 paragraph 13]. However, no GP or hospital records were provided to Dr Misra and the only other medical report she had was that of Dr Whittington [185 Section E]. I should also record that Dr Misra&#8217;s assessment was undertaken by videoconference. She thus did not have the other reports and claimant&#8217;s impact statements, nor has she heard the claimant&#8217;s account before me. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">57.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">For the reasons I give above there are inconsistencies in those accounts and I also note Dr Misra acknowledged (see (41)) an &#8216;unconscious magnification of symptoms&#8217; by the claimant. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">58.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">That consistency and credibility point is reinforced by another issue the respondent refers me to, namely that one of Case Number: 1306691/2019 - 15 - the principal adverse effects the claimant gives concerning his mental health impairments was the effect that has had on him socialising. In contrast Dr Misra indicated there was no significant disruption to the claimant&#8217;s life and socialisation was not affected [181 - 5.4.3]. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">59.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">Those matters collectively call into question the account the claimant has given to different practitioners and the Tribunal over time, concerning matters that go to the core of his complaints here, whether there was a substantial adverse effect on his ability to undertake day to day activities. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">60.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">They spread across the depth and breadth of his account and combined with the credibility points I refer to above lead me to conclude notwithstanding the assessment Dr Misra made as to the veracity of the claimant&#8217;s account (see (56)) that I should place no weight on the claimant&#8217;s account (unless supported elsewhere) and that includes that given to the various practitioners and thus the conclusions they reach as a result.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge then set out his conclusions on the disabled status issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [61] he said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">&#8220;As to Keratoconus I find there is no medical evidence to suggest that the adverse effects the claimant describes are firstly matters that cannot be corrected by wearing contact lenses (paragraph 5(3)(a)), secondly (albeit unconsciously) his account of the effects is to be given little weight by virtue of the other inconsistency and credibility points I make above (including but not limited to (60)) and are for the reasons I give (30) (as supported by Dr Misra, see (41)) unconsciously exaggerated.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [63] he said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;63.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;text-indent:0.41in"><span style="font-weight:bold">As to the jaw/TMJ for the reasons I give above the way the claimant categorised his pain (and speech) was at odds with the characterisation by the medical practitioners and the same credibility and exaggeration issues arise as I identify above. Whilst medication was prescribed within the material time, doubt is cast on the basis for that in my judgment for the reasons I give above concerning exaggeration and the medical opinions being based on the claimant&#8217;s account, to which little weight should be given. Further Dr Speculand indicated that any ongoing issue appeared to be as a result of poor dental hygiene. That in my judgement would appear to be a reasonable coping strategy in that the claimant was to be expected to do something he should have been undertaking in any event.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [65] to [67], he said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">&#8220;As to the Mental Health impairment in February 2020 Dr Whittington concluded that the mental symptoms the claimant exhibited were symptomatic of a psychiatric disorder known as Mixed Anxiety and Depressive Disorder whereas in April 2020 Dr Misra diagnosed that the claimant was clinically depressed.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to each of these conditions, viewed separately, he concluded that the claimant had not shown the requisite adverse effect at the material time.  He then added this at [69]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">&#8220;Some of the medical practitioners identified that some of the alleged impairments have impacted on others. As a result I have considered if viewed collectively the impairments mean the s.6 threshold is met. For the same reasons I give above (see for instance (67)) it is not.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Dr Misra&#8217;s 2021 letter and the second Reconsideration Decision </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In her letter of 29 January 2021, which the claimant provided to the employment tribunal with the second reconsideration application, Dr Misra wrote this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;With regards to unconscious magnification of symptoms &#8211; this refers to the potential impact of psychological distress on physical symptoms.  Specifically, it describes the maintaining and magnifying effect of increased psychological stress on pre-existing pain.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In his decision rejecting that second reconsideration application, the judge said, at [15]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;I accept the clarification Dr Misra provides is that her earlier comments do not support the finding I came to that Mr Rehman had exaggerated and was inconsistent.  I have thus reflected on my findings and leaving out of account the &#8216;unconscious magnification of symptoms&#8217; issue, the other credibility points I identified still remain (including the difference between the account the claimant gave concerning socialisation and Dr Misra&#8217;s view (see (58))).  As I indicated they stretched across the breadth and depth of Mr Rehman&#8217;s account and lead me to the same view I came to in (59) &amp; (60).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Disabled Status Issue &#8211; Arguments</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I will not set out every detail of the written and oral arguments.  I have considered them all. I will give a summary of what seem to me to be the most significant points made on each side.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Claimant </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant submitted that, at [41] of his original decision, the judge had interpreted Dr Misra&#8217;s reference to &#8220;unconscious magnification&#8221; as connoting intentional exaggeration. That reading was simply wrong. Dr Misra&#8217;s 2021 letter confirmed that. At [57] and [61], the judge had reached conclusions that he, the claimant, was not being truthful. The judge had wrongly relied on his misinterpretation of Dr Misra&#8217;s phrase in support of those conclusions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the second reconsideration decision the judge had accepted that Dr Misra&#8217;s letter indicated that her report did not support the conclusion that he had exaggerated or been inconsistent in his description of his symptoms. But despite this the judge had maintained the original decision.  However, applying a correct understanding of what Dr Misra meant by unconscious magnification of symptoms, impacted on the judge&#8217;s findings and analysis in a number of paragraphs of the original decision, in relation to all three impairments.  The original decision was therefore, in respect of all three impairments, fatally affected by an erroneous misreading of this part of the evidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant also submitted that the judge had not, in fact, when reaching his original decision, considered what the cumulative effect of the three impairments together might be.  The claimant relied on his use, at [69], of the expression: &#8220;if viewed collectively&#8221;. The claimant submitted that the word &#8220;if&#8221; signified that the judge was contemplating here an exercise which the tribunal might have carried out, but had not in fact carried out. He contrasted this with the judge&#8217;s use, in the second reconsideration decision, at [26], of the phrase &#8220;when I considered them collectively.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Claimant&#8217;s Application to Challenge the Reconsideration Decisions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have noted, the claimant only appealed the original decision arising from the October 2020 PH.  The only grounds of appeal that were permitted to proceed to a full appeal hearing were those identified by HHJ Tayler at the rule 3(10) hearing.  Nevertheless, at the hearing of this appeal, the claimant sought to be permitted to challenge aspects of the reconsideration decisions as well.  In brief summary the points he raised were as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to keratoconus the judge in his original decision at [22] had doubted that the claimant was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">unable </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">to wear a contact lens in his right eye. In his second reconsideration application the claimant had provided further supporting evidence by way of correspondence from his consultant ophthalmic surgeon, Mr McDonnell, about this. The claimant wished to argue that, despite that, the judge had wrongly failed to accept in his second reconsideration decision, that the effects of this impairment could not be fully mitigated by the use of contact lenses.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to TMJ the claimant submitted in his first reconsideration application that at [36] the judge had wrongly interpreted the assessment of Dr Speculand. He had also drawn attention in that application to passages in the report of Dr Whittington, indicating that his ongoing jaw problems following his operation in June 2018 aggravated his mental ill health. That cast his lack of attention to dental hygiene in a different light.  But whilst correcting, in his first reconsideration decision, what he had originally said about Dr Whittington&#8217;s evidence, the judge, wrongly, did not also revise his view of the ongoing effects of this impairment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to mental impairment, passages in Dr Whittington&#8217;s evidence highlighted in the first reconsideration application also supported the claimant&#8217;s case that his symptoms were more serious at the material time than the judge had found.  Read with various passages in Dr Misra&#8217;s report, this should have led the judge to revise his view of the effects of this impairment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant submitted that it would be in accordance with the overriding objective to permit him to rely on these points of challenge to the reconsideration decisions, as he was a litigant in person, bearing in mind his mental ill health, and because these points supported his case that the judge had wrongly viewed him as having deliberately exaggerated his symptoms at the relevant time.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Respondent </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In summary, Ms Brown&#8217;s main points were these. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Reading para [9.8] of Dr Misra&#8217;s 2020 report, in the context of that report as a whole, it was clear that her view was that she had no evidence that the claimant  had consciously or deliberately exaggerated in his account to her.  Her definition of &#8220;unconscious magnification&#8221; in her January 2021 letter was consistent with that.  Dr Misra had been instructed in relation to the personal injury claim. We did not have the letter of instruction that elicited that further letter, but in any event it did not comment upon, or refer to, the reasoning in the decision with which this appeal was concerned.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was plain that the judge had not, in fact, in his original decision, misunderstood Dr Misra&#8217;s view. From his citation at [41] of what she said, it was clear that he understood that her point was that psychological matters, such as depressed behavioural activity and mood, could impact on the claimant&#8217;s perception of pain from physical conditions. He also specifically referred at [56] to her concluding views on the claimant&#8217;s veracity and consistency, and again at [60] and [67]. But he properly noted the very limited evidence that she had had, compared with the evidence available to the tribunal at the PH; and he properly came to different conclusions on the evidence before him.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge&#8217;s reference to exaggeration should not be construed as meaning that the claimant had lied to him. It was not necessary, for the purposes of his decision, to form a view as to whether he had deliberately lied. What the judge relied upon was inconsistencies in the claimant&#8217;s accounts that were apparent in the evidence before him, but which would not have been apparent to Dr Misra, and which cast doubt on the claimant&#8217;s reliability and credibility, for example at [57] and [58]. That was why, at [60] and [67], he concluded that the claimant&#8217;s account could not be relied upon &#8220;notwithstanding&#8221; Dr Misra&#8217;s assessment. The judge properly concluded that, in the absence of independent corroborating medical evidence, he could not rely on the claimant&#8217;s account alone.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge was therefore, submitted Ms Brown, over-generous to the claimant in accepting that Dr Misra&#8217;s January 2021 letter demonstrated that her report did not supporting his findings that the claimant had exaggerated and was inconsistent.  He had not, in fact, relied upon it in that way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In any event, even if the judge had erred by misconstruing what Dr Misra meant by this expression, this was, as the judge correctly stated in his second reconsideration decision, not material to his original findings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In fact there were only three references in the whole original decision to this particular phrase in Dr Misra&#8217;s report (as opposed to references to other parts of that report). In relation to keratoconus the judge essentially found that this was not a disability in law, because its effects could be mitigated by the use of contact lenses. The judge did not rely on this particular passage in Dr Misra&#8217;s report in support of his assessment of the evidence relating to this impairment at [20] to [30]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to TMJ the judge identified the claimant&#8217;s case as to the adverse effects of that impairment, at [32]. In the succeeding paragraphs he reviewed whether the evidence supported that case, leading to the conclusion at the start of [41] that, while some of the claimed symptoms were supported by the evidence, several were exaggerated, being those that he identified in the first long sentence.  He then stated: &#8220;That is supported &#8230;&#8221; by Dr Misra&#8217;s reference to &#8220;unconscious magnification&#8221;. Accordingly, the finding had been reached based on the judge&#8217;s appraisal of the evidence before him.  It was not dependent on that passage in Dr Misra&#8217;s report, which merely lent support to the conclusion already reached.  If the reference to that passage was taken out, the conclusion still stood on the basis of the judge&#8217;s review of the evidence leading up to it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to mental impairment, again the judge conduct an extended review and appraisal of the various evidence before him, starting at [43]. He properly came to the conclusion that there were inconsistencies in the claimant&#8217;s various accounts, and other reasons to doubt the reliability of his evidence, including his failure to raise in the context of his personal injury claim, matters that he now referred to in his evidence to the employment tribunal. The judge then properly explained at [56] why he felt he could not rely on Dr Misra&#8217;s assessment, which was based on the very limited evidence that she had. He then began [57] by stating that &#8220;[f]or the reasons I give above there are inconsistencies in those accounts&#8221; &#8211; again showing that the conclusion had by that point been reached, based on the preceding appraisal of the evidence before the judge.  Only then did the judge &#8220;note&#8221; Dr Misra&#8217;s reference to &#8220;unconscious exaggeration of symptoms&#8221;. On a fair reading it was clear that his conclusions here also stood without the reliance on this passage from Dr Misra&#8217;s report.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The final reference to this phrase was in [61] where the judge came to his conclusion about keratoconus. But, as noted, his earlier review of the evidence relating to the impact of that impairment did not refer to it, and the opening part of this paragraph stated the conclusion which the judge drew from that earlier review. Once again, only then was this part of Dr Misra&#8217;s report (as cited by the judge earlier at [41]) then referred to as providing support for a conclusion already reached, the inessential nature of this addition being also highlighted by its appearance in brackets. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge also plainly did consider what might be the cumulative impact of the three impairments at [69]. &#8220;If viewed collectively&#8221; plainly and obviously meant &#8220;When viewed collectively&#8221;.  It would make no sense at all for the judge to have expressly recognised that it was the view of some of the practitioners that some impairments impacted on others, only, inexplicably, then nevertheless to decline to address the question. This paragraph also provided further confirmation that the judge appreciated that the point of Dr Misra&#8217;s expression at issue was that how the claimant experienced physical pain could be affected by a mental impairment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In summary, the decision relied, overwhelmingly, on separate and numerous findings of inconsistencies in the evidence which was before the employment judge, regarding the impact of all three impairments. As the judge stated in terms at [59] and [60], the matters calling into question the account the claimant had given to different practitioners went to the &#8220;core&#8221; of his complaints, and &#8220;spread across the depth and breadth of his account&#8221;. This conclusion was explicitly confirmed in the second reconsideration decision. Even if he had originally misunderstood Dr Misra&#8217;s expression, the judge had properly concluded that, discounting that expression, his conclusions still stood.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Brown did not accept that the claimant should be permitted at this hearing to introduce challenges to the reconsideration decisions. But in any event, she responded to his points. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Specifically, regarding keratoconus the claimant put a voluminous bundle before the judge at the PH. The judge, as recorded at [29], fairly asked him to identify any particular medical evidence he relied upon in support. The claimant did not take the judge to the letter from Mr McDonnell from 2012 stating that his right vision was quite poor because of scarring of the cornea associated with that condition, to which he now referred the EAT. Further, the additional letters provided in the reconsideration application dated from 2009 and showed Mr McDonnell referring the claimant for assessment for a right contact lens (in addition to the left eye lens he already had) following a complication of acute hydrops in the right eye having settled down. The claimant also referred to an entry in his clinical notes from 2010 in which he reported that he had not been wearing the right lens much because it was &#8220;uncomfy and xs movement&#8221;. But none of that evidence was sufficient to show that the judge was wrong not to change his assessment of the impact of the keratoconus, and his ability to use contact lenses to mitigate it, in 2018 &#8211; 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge had also, upon reconsideration, corrected what he had said about the light cast by the evidence of Dr Whittington on the claimant&#8217;s mental health during the relevant period. But that did not mean that he was bound thereupon to come to a different overall view in relation to the impact of either the TMJ or the claimant&#8217;s mental ill health during that period. In particular, in the passage highlighted by the claimant, Dr Whittington said that the evidence appeared to indicate that ongoing jaw problems following the June 2018 operation led to an aggravation of underlying mental health symptoms; but, in this regard, a number of particular symptoms were listed, and they did not include neglect of personal hygiene or grooming.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Reply</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant maintained that the overall sense of the original decision was that the judge considered that he had deliberately exaggerated his symptoms. The judge </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">had</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> wrongly relied on this phrase in Dr Misra&#8217;s report to bolster that view. In the second reconsideration decision he rightly acknowledged that he had been wrong to do so. But that meant that his discounting of Dr Misra&#8217;s conclusions as to the claimant&#8217;s overall veracity was also wrong, and in fact he should have regarded those conclusions as supportive of the claimant&#8217;s evidence to the tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Disabled Status &#8211; Discussion and Conclusions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I start with the claimant&#8217;s application to be permitted to introduce, at the appeal hearing, a challenge to the reconsideration decisions. This amounted to an application to be permitted to appeal those decisions long out of time.  Applying the well-established guidance in the authorities (summarised in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Green v Mears</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2019] ICR 771" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] ICR 771</ref>) I am not persuaded that the claimant has a sufficient excuse for not having appealed those decisions in time, or certainly long before this hearing, nor that there are exceptional circumstances. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The evidence certainly does not demonstrate that his mental health hitherto materially affected his ability to do so (applying the guidance in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">J v K</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2019] ICR 815" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] ICR 815</ref>).  He was able to prepare three lengthy and reasoned reconsideration applications. He was able to prepare and put in a reasoned notice of appeal against the original decision. In these various applications he cited legal authorities in relation to disability discrimination law, and the power to permit an amendment of a claim.  He was plainly able to do some research and there is no suggestion that he was misled or wrongly advised regarding his rights to appeal. The reconsideration decisions will have been accompanied by standard letters referring to the time limit for appealing (one of these was in my bundle). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further, for the purposes of the rule 3(10) hearing in September 2021 the claimant had access to an ELAAS representative. HHJ Tayler&#8217;s decision (for which the written reasons were sent in October 2021) noted in terms that he had not appealed the reconsideration decisions. The claimant told me that he thought that he could still raise challenges to them at this hearing, but he had, in my view, no reasonable basis to take that view. The authorities are also very clear that litigants in person are not entitled to particular indulgence in relation to late appeals as such.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In any event, I agree with Ms Brown that (putting to one side the issue relating to Dr Misra&#8217;s reference to &#8220;unconscious exaggeration of symptoms&#8221;) the reconsideration applications did not identify evidence that plainly undermined the judge&#8217;s assessment that the adverse impact of his keratoconus on his vision could not be sufficiently corrected by the use of contact lenses, or the judge&#8217;s view of the impact of his mental ill health in the relevant time window, or of the adverse impact of his jaw injury, following the surgery in 2018. The judge took on board the claimant&#8217;s points about Dr Whittington&#8217;s evidence. I do not think that the features of the further medical evidence highlighted by the claimant show that the judge&#8217;s appraisal in the original decision was, in relation to any of these impairments, in the legal sense, perverse.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Accordingly, the outcome of this part of the appeal turns on the single ground of challenge to the original decision that was permitted to proceed by HHJ Tayler.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I start by standing back and considering the overall sense of the original decision.  It seems to me that the judge considered that there were two overall problems with the evidence. The first was that the claimant was unable to point to sufficient independent medical evidence to establish the relevant adverse impacts in the period in question (and/or, that such adverse effects could not be mitigated by using contact lenses, or maintaining good oral hygiene); and the second was that the claimant&#8217;s own account, in his impact statement and evidence to the tribunal, was not to be believed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the first reconsideration decision, at [7], the judge himself summarised his conclusion on the second point in the following way:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;My conclusions were essentially that the claimant&#8217;s account was not to be believed on the basis he had given different accounts over time, including those to the various medical experts he was seen by and that despite it being in his interests to give a full account of the effects of any impairment to those medical experts, he had not done so (see (30)).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Brown is right to say that the judge does not, either in his original decision or in the reconsideration decisions, say anywhere expressly that he considered that the claimant deliberately or intentionally misstated his symptoms, or otherwise, expressly, that he lied.  But it is clear that the judge considered that there were very significant inconsistencies, in the sense of either differing accounts of some symptoms, or significant omissions, on such a scale, that they pointed to the overall conclusion that the claimant&#8217;s evidence was not to be believed, across the piece. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It appears to me that the judge used expressions such as &#8220;inconsistency and credibility issues&#8221; (at [31]), &#8220;inconsistently and credibility points&#8221; (at [61]) and &#8220;credibility and exaggeration issues&#8221; (at [61]), to refer interchangeably to what he regarded as this same general feature of the claimant&#8217;s evidence.  He was not </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">distinguishing between</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> inconsistency and credibility, or between exaggeration and credibility.  He was using the terms &#8220;inconsistency&#8221; and &#8220;exaggeration&#8221; to refer to his general view that the claimant had said different things on different occasions, and/or mentioned something on one occasion, but not on another, on such a significant scale, that these could not be regarded as innocuous discrepancies; and that his overall account was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">therefore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> not to be believed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge, it seems to me, plainly regarded Dr Misra&#8217;s reference to &#8220;unconscious magnification of symptoms&#8221; as supporting his own assessment, in this regard, of the claimant&#8217;s evidence in relation to all three impairments. That was, in terms, his expressly stated view in the course of his review of the evidence relating to the impact of the TMJ, at [41], and in relation to mental ill health at [57], and when reaching his conclusions in relation to keratoconus at [61].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Did that involve a misreading of this expression, as used by Dr Misra? Ms Brown submits not.  The judge noted at [61] the reference to &#8220;unconsciously&#8221; and acknowledged at various points Dr Misra&#8217;s own conclusions about the claimant&#8217;s veracity. However, Dr Misra was, in this paragraph, specifically referring to the claimant&#8217;s account, in April 2020, that the physical neck and shoulder pain reported in 2018 had improved, but not gone away. Her overall sense, it appears to me, was that the 2018 accident was not the physical source of the abiding pain reported in April 2020, but that, whatever its physical origin, the claimant&#8217;s mental ill health was &#8220;[i]n all probability&#8221; affecting his tolerance for pain, so causing him to experience it as being more severe than he otherwise would.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Properly understood, that paragraph was not, in my judgment, something that could be properly relied upon as supporting the judge&#8217;s own reasoning and conclusions that the claimant&#8217;s evidence in relation to the three impairments relied upon before him was not credible. That the judge had misunderstood and misapplied it, is confirmed by his own candid acknowledgment in the second reconsideration decision, at [15], that this passage did not support his finding that the claimant &#8220;had exaggerated and was inconsistent&#8221;; and his further reference there to &#8220;the other credibility points which I identified&#8221;, confirming that he </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">had</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> read Dr Misra&#8217;s observation as casting light on whether the claimant was credible.  I do not agree with Ms Brown that in so saying the judge was overgenerous to the claimant (and, by implication, wrongly critical of his own earlier decision).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Nor do I think, reading the original decision, that the references to this passage in Dr Misra&#8217;s report plainly formed no part of the judge&#8217;s own reasoning. His observation at [41] that his finding that some of the symptoms of TMJ were &#8220;exaggerated&#8221; is &#8220;supported&#8221; by that passage, forms part of his assessment of the evidence relating to this impairment, all of which feeds into the later conclusion in relation to it, which comes only at [63]. The judge does not come to that conclusion, at [63], and only thereafter add a remark to the effect that he is comforted or fortified by seeing that Dr Misra was also of the view that the claimant had exaggerated the matter with which she was concerned.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The same applies to the assessment of the impact of the mental impairment, where the reference to this part of Dr Misra&#8217;s report forms part of the review of the evidence, rather than being an afterthought following the conclusion that is reached later on. In relation to keratoconus, while the reference to this passage does not appear in the initial survey of the evidence, that appears to be because the judge left that survey initially incomplete, stating at [31] that he would return to the other inconsistency and credibility issues, and then, when he did return to them at [61], finding that this passage supported what he had said in the original survey at [30]. Once again, therefore, I conclude that the judge treated this passage as informing his appraisal of the claimant&#8217;s credibility.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That reading of the original decision, standing alone, appears to me, again, to be supported by the judge&#8217;s own observations in his second reconsideration decision at [15]. He does not say there that these references to this part of Dr Misra&#8217;s report formed no part of his original reasoning. Rather, he says that he has &#8220;reflected on my findings&#8221;, leaving this passage out of account.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This leads to Ms Brown&#8217;s final line of defence. This is that, even if the judge did misread Dr Misra&#8217;s observation, and that misreading did materially contribute to his own reasoning and conclusions (both of which I have now found did occur), nevertheless, as the judge observed in the discussion in the second reconsideration decision at [15], and then again, in his concluding summary of that decision, at [26], &#8220;the other credibility points I previously identified still remain and they stretched across the breadth and depth of Mr Rehman&#8217;s account.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:12pt">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, I do not consider that the outcome of the original decision can be safely upheld on that basis. In the second reconsideration decision at [15], when referring to the &#8220;other credibility points&#8221; in the original decision, the judge highlights, specifically, the claimant&#8217;s evidence about the impact of his mental ill health on his socialising, discussed in the original decision at [58]. Although the judge refers to the &#8220;other credibility points&#8221; as &#8220;including&#8221; this one, this one appears to have been highlighted because it came </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">after</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> paragraph [57], in which the judge had referred to his appraisal the &#8220;inconsistencies&#8221; discussed in earlier paragraphs, which he found at [57] to be &#8220;supported&#8221; by this passage from Dr Misra. The reconsideration decision does not suggest that his appraisal of the evidence discussed in those earlier paragraphs leading up to [57] held good without the support which he erroneously drew from Dr Misra. That this is not obviously the case is apparent from the thrust of the judge&#8217;s conclusions at [59] that the matters he reviewed &#8220;collectively&#8221; called into question his account and &#8220;spread across the depth and breadth of his account&#8221;. The judge plainly did not rely on the features discussed at [58] as alone, or even mainly, sufficient to his conclusion on the credibility of the claimant&#8217;s evidence about his mental health during the relevant period.  Rather, as he stated at the start of [58], he regarded it as something that &#8220;reinforced&#8221; the &#8220;credibility and consistency&#8221; point that he drew from the evidence reviewed in the earlier paragraphs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:12pt">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It therefore appears to me that the error in the original decision regarding this passage in Dr Misra&#8217;s report did materially influence the judge&#8217;s conclusion that there were significant inconsistencies in the claimant&#8217;s evidence in relation to the impact of his mental ill health during the relevant period, which in turn materially contributed to his conclusion that there were problems of credibility which collectively called into question the account he had given about that.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:12pt">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further, the conclusion that pervasive inconsistencies in relation to the impact of the claimant&#8217;s mental ill health affected his credibility on that subject, appears also to have contributed to the judge&#8217;s original assessment of the credibility of his evidence in relation to the other two impairments. At [60] they feed, &#8220;combined&#8221; with other credibility points, in to the conclusion that no weight should be placed on the claimant&#8217;s evidence unless supported elsewhere. This reads as an observation, in the final paragraph of the overall survey all of his evidence relating to all three impairments, as to what has emerged regarding the claimant&#8217;s credibility generally, prior to turning to the conclusions on the three strands of &#8220;the disability issue&#8221;. In any event, as I have discussed, the judge elsewhere (at [41] and [61]) draws on the Dr Misra observation when considering the claimant&#8217;s credibility in relation to issues concerning the other impairments.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:12pt">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I therefore conclude that the judge&#8217;s error in relation to this observation by Dr Misra did materially influence his reasoning and conclusion that, in relation to all three impairments, the claimant&#8217;s evidence and account was not to be believed; and that, whilst the judge properly acknowledged that in the second reconsideration decision, his further observations in that decision do not demonstrate that the original reasoning and conclusions remained sound despite that error.  Rather, the misreading of that passage significantly contributed to the judge&#8217;s conclusions that there were inconsistencies and exaggerations in his accounts relating to all three impairments, on a cumulative scale, which meant that his evidence across the board was not to be believed.  The respondent cannot rely upon the reasoning in the second reconsideration decision as adequate to put right the flaw in the reasoning in the original decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:12pt">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Accordingly, I will allow the appeal on ground one, in respect of all three impairments.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground Two &#8211; Refusal of the Application to Amend</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num style="font-size:12pt">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to the application to amend, the claimant had sought to add a number of further complaints, under sections 15, 19 and 20 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">2010 Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, in relation to the job requirements, the conduct of the test and the reason why he was not offered a permanent position. The judge took account of the fact that, when the application to amend was made, in July 2020, these would, as freestanding new claims, have been out of time. The claimant said that he had not raised them in his original claims because of the impact of his mental ill health. However, the judge noted that he had been able to research points of law, go through ACAS conciliation, had access to advice from various sources, and was able to raise the complaints that he in fact did in his original claim forms. The claimant had been unable to provide a cogent reason why his mental ill health meant that he had been unable also to include these proposed new complaints at the time. (See [84] &#8211; [87]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-size:12pt">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Brown submitted that this reasoning is unaffected by any possible error in the judge&#8217;s assessment for the purposes of determining his disabled status with respect to mental health. It remained the case that the judge had properly drawn on the evidence of what the claimant had been able to do when he put together his original claim forms, as undermining his case that his mental ill health affected his ability to raise the amendment complaints at the same time. This part of the decision made no reference to the issue of the claimant&#8217;s credibility and did not rely upon that issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-size:12pt">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant told me that, at the time when he put in his original claim forms he had been &#8220;panicked&#8221;. That, indeed, was why he had submitted two forms within a few days of each other. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-size:12pt">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ultimately, I am persuaded by Ms Brown&#8217;s submission on this point. The judge was entitled to take a view, on all the material and evidence before him, that the claimant was not so profoundly incapacitated by his mental ill health when he put in his original claim forms, as to be unable to include the amendment complaints alongside the original complaints. That was a properly-reasoned conclusion even though the judge erred in his determination of whether the mental ill health amounted in law at the relevant time to a disability. The ground of appeal before me is confined to this point. There is no wider challenge to the judge&#8217;s overall conduct of the balancing exercise, or his approach to the other factors that he weighed in the balance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-size:12pt">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground two is accordingly dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_86">
+	  <num style="font-size:12pt">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal against the judge&#8217;s decision that the claimant was not a disabled person by reference to each of the three claimed impairments is allowed. That is not an assessment that can be carried out by the EAT. Accordingly the matter must be remitted to the employment tribunal for a fresh hearing and decision, assuming that all three disabilities remain disputed.  Given the trenchant assessment that the judge made of the claimant&#8217;s credibility, it is appropriate to direct that the matter be reheard by any judge appointed by the REJ other than EJ Perry.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-size:12pt">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal in relation to the amendment decision is, however, dismissed.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1424 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/27"/>
+	  <FRBRdate date="2024-08-16" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="27"/>
+	  <FRBRname value="A1 Properties (Sunderland) Ltd v Tudor Studios RTM Company Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/27"/>
+	  <FRBRdate date="2024-08-16" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/27/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/27/data.xml"/>
+	  <FRBRdate date="2024-08-15T16:13:38" name="transform"/>
+	  <FRBRdate date="2024-08-16T08:53:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-08-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a1-properties-sunderland-ltd" href="" showAs="A1 Properties (Sunderland) Ltd"/>
+	<TLCPerson eId="tudor-studios-rtm-company-ltd" href="" showAs="Tudor Studios RTM Company Ltd"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>27</uk:number>
+	<uk:cite>[2024] UKSC 27</uk:cite>
+	<uk:parser>0.26.0</uk:parser>
+	<uk:hash>155b03e400dc7d812fcf21db971d8494445f2d982d05d3403db3d3aa2a25c6ab</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 13pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Footer { font-family: Univers; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 13pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 13pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: Times-Roman; font-size: 10pt; color: #3A3A3A; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-family:'Times New Roman'"/><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman'">[2024] UKSC 27</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman'">On appeal from: [2023] UKUT 27 (LC)</span></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman'">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#appellant" refersTo="#a1-properties-sunderland-ltd" style="font-family:'Times New Roman';font-size:20pt">A1 Properties (Sunderland) Ltd</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt">Appellant</role><span style="font-family:'Times New Roman';font-size:20pt">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt">v</span><span style="font-family:'Times New Roman';font-size:20pt"/><party as="#respondent" refersTo="#tudor-studios-rtm-company-ltd" style="font-family:'Times New Roman';font-size:20pt">Tudor Studios RTM Company Ltd</party><span style="font-family:'Times New Roman';font-size:20pt"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt">Respondent</role><span style="font-family:'Times New Roman';font-size:20pt">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal;font-family:'Times New Roman'">before</span><br/><br/><judge refersTo="#judge-lord-briggs" style="font-family:'Times New Roman'">Lord Briggs</judge><br/><judge refersTo="#judge-lord-sales" style="font-family:'Times New Roman'">Lord Sales</judge><br/><judge refersTo="#judge-lord-hamblen" style="font-family:'Times New Roman'">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-leggatt" style="font-family:'Times New Roman'">Lord Leggatt</judge><br/><judge refersTo="#judge-lord-stephens" style="font-family:'Times New Roman'">Lord Stephens</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman'">JUDGMENT GIVEN ON</span><br/><docDate date="2024-08-16" refersTo="#judgment" style="font-family:'Times New Roman'">16 August 2024</docDate><br/><br/><span style="font-family:'Times New Roman'">Heard on 8 February 2024</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Appellant</span><br/><span style="font-family:'Times New Roman'">Justin Bates KC</span><br/><span style="font-family:'Times New Roman'">Harley Ronan</span><br/><span style="font-family:'Times New Roman'">(Instructed by Brethertons LLP (Rugby))</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Respondent</span><br/><span style="font-family:'Times New Roman'">Winston Jacob</span><br/><span style="font-family:'Times New Roman'">(Instructed by the Respondent under the Public Access Scheme)</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman'">Intervener (Association of Leasehold Enfranchisement Practitioners Ltd)</span><br/><span style="font-family:'Times New Roman'">Philip Rainey KC</span><br/><span style="font-family:'Times New Roman'">Mark Loveday</span><br/><span style="font-family:'Times New Roman'">(Instructed by Bishop &amp; Sewell LLP (London))</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">Lord Briggs and Lord Sales (<span style="text-transform:none">with whom Lord Hamblen, Lord Leggatt and Lord Stephens agree</span>): </p>
+	  </content>
+	</level>
+	<level eId="lvl_1">
+	  <num style="font-weight:bold">(1)</num>
+	  <heading class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This appeal is concerned with the operation of the regime in the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">Commonhold and Leasehold Reform Act 2002</ref> (&#8220;the CLRA&#8221;) under which qualifying tenants may acquire the right to take over the management of their block of flats through the formation and interposition of a right to manage (&#8220;RTM&#8221;) company. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The acquisition process requires the RTM company to serve a notice of claim (which we will call a &#8220;claim notice&#8221;) to acquire the right to manage their block on, among others, each person who is a landlord under a lease of the whole or any part of the premises: section 79(6)(a). The period of such a lease may be short or long. There is no register of all leases covered by this provision nor any simple and conclusive way of checking who every such landlord might be. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Save in limited circumstances not applicable here the CLRA does not contain a provision which expressly stipulates what is to happen if a claim notice is served on some, but not all, landlords. In light of the absence of any simple means of checking who all the landlords are, there is a real chance that this situation could arise in a significant number of cases. Service on some landlords will trigger the acquisition process, but on the basis of a procedural defect. The question which arises is what is the effect of a failure to comply with section 79(6)(a). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <intro>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The issues on the appeal are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(1)</num>
+	      <content>
+		<p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">Whether a failure to serve a claim notice on a landlord as required by section 79(6)(a) will always invalidate the acquisition of the right to manage powers by the RTM company pursuant to the process purportedly commenced by service of the claim notice on other relevant landlords; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(2)</num>
+	      <content>
+		<p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">If not, whether nevertheless the failure to serve the claim notice in this case on all relevant landlords had the effect of invalidating the purported acquisition of the right to manage powers by the RTM company pursuant to the CLRA acquisition process. </p>
+	      </content>
+	    </subparagraph>
+	    <wrapUp>
+	      <p class="ParaNoNumber" style="text-align:justify">As well as submissions from the parties, the court was assisted by oral and written submissions from the Association of Leasehold Enfranchisement Practitioners Ltd, as intervener.</p>
+	    </wrapUp>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is Court of Appeal authority which gives a negative answer to the question posed under issue (1): <span style="font-style:italic">Elim Court RTM Co Ltd v Avon Freeholds Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/89" uk:canonical="[2017] EWCA Civ 89" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 89</ref>; <ref href="#" uk:canonical="[2018] QB 571" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] QB 571</ref> (&#8220;<span style="font-style:italic">Elim Court</span>&#8221;). The appellant landlord in this appeal invites this court to disapprove that ruling. The Upper Tribunal (Lands Chamber) (Judge Cooke) <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/27" uk:canonical="[2023] UKUT 27 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKUT 27 (LC)</ref> before which the present proceedings came considered itself bound by the ruling in <span style="font-style:italic">Elim Court </span>and has granted the appellant a &#8220;leapfrog&#8221; certificate to appeal directly to this court to allow it to raise the issue of whether <span style="font-style:italic">Elim Court </span>was correctly decided on this point.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">If the appeal fails on issue (1), issue (2) addresses the question whether the reasoning in <span style="font-style:italic">Elim Court </span>is confined to facts where a RTM company has attempted to serve the intermediate landlord in the position of the appellant but has been unsuccessful. In <span style="font-style:italic">Elim Court </span>an attempt at service was made, but it was unsuccessful because the claim notice was sent to the wrong address. In the present case, no attempt was made to serve the claim notice on the appellant.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <num style="font-weight:bold;text-transform:uppercase">(2)</num>
+	  <heading class="ParaHeading1" style="text-align:justify;text-indent:0.5in"><span style="text-transform:none">Factual background</span></heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The property which is the subject of these proceedings is student accommodation at 164 Tudor Road, Leicester (&#8220;the Property&#8221;). It contains 237 self-contained bedsit style flats (&#8220;the study studios&#8221;) and three larger flats (&#8220;the flats&#8221;). It also contains communal areas for use by the occupiers, including a common room, a communal laundry, a reception and lounge area and a gym (together, &#8220;the communal areas&#8221;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The freehold of the Property is held by a ground rent investment company, Premier Ground Rents No 3 Ltd (&#8220;the Freeholder&#8221;), which is not a party to these proceedings. The original freeholder and developer of the Property, Alpha Developments (Leicester) Ltd, let the study studios and the flats to investor tenants under 250-year leases commencing on 1 October 2015. The parties to those leases are now in each case the Freeholder, the investor tenant and a management company, Tudor Studios Management Company Ltd (&#8220;the Management Company&#8221;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Originally the investor tenants underlet the study studios and the flats to A1 Alpha Properties (Leicester) Ltd for ten years, but that company went into administration in 2019 and dropped out of the picture. The investor tenants have therefore let the study studios and the flats to students directly. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The communal areas are held by the appellant from the Freeholder pursuant to four leases made between 2015 and 2016. Each lease was for a term of 999 years at a peppercorn rent. The appellant underlet the communal areas to the Management Company in 2019 at market rents under leases which confer no management responsibilities on the appellant as landlord. The total sum payable to the appellant pursuant to the underleases is &#163;30,600 pa. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The respondent is a RTM company incorporated by tenants for the purpose of acquiring the right to manage the Property pursuant to the CLRA. On about 23 March 2020 the respondent served the claim notice under section 79 in respect of the Property on the Freeholder and the Management Company. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The respondent did not, however, serve a claim notice on the appellant, which was a landlord on whom section 79(6)(a) required a claim notice to be served. In these proceedings in the First-tier Tribunal (Property Chamber) (&#8220;the FTT&#8221;) the reason for this omission was examined and it was found to be inadvertent. In its statement of case in the FTT the appellant pointed out that it had not been served with the claim notice as required by the statute. The appellant did not distinctly plead that the respondent deliberately chose not to serve the claim notice on the appellant, in the sense that it knew about the appellant, knew that it was obliged under section 79(6)(a) to serve the claim notice on the appellant, and deliberately decided that it would proceed by ignoring this statutory requirement. In its statement in reply, the respondent set out four reasons why it was not required to serve the claim notice on the appellant, namely because (i) the leases to which the appellant was party were shams, or (ii) the leases were not lawful because they did not grant the appellant exclusive possession, or (iii) the leases were of no effect because as a matter of substance the appellant and Alpha Developments (Leicester) Ltd were the same entity, or (iv) because the leases were not intended to impose management rights or obligations on the appellant. The first three arguments were all dismissed by the FTT and do not require further examination on this appeal. In argument, counsel for the appellant invited the FTT to infer that the respondent&#8217;s failure to serve the claim notice on the appellant was deliberate, in the sense identified above. He did this in an effort to distinguish <span style="font-style:italic">Elim Court</span>. However, the FTT declined to draw that inference. The present case was heard as one of a group of cases where the RTM companies had a common agent for the purposes of their claims, and the facts showed that service of the claim notice on the intermediate landlord in the position of the appellant had been effected in some but not all those other cases, so it was possible that in this case either the respondent&#8217;s agent forgot to serve the respondent or did not appreciate at the time for service that the appellant was in fact an intermediate landlord. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Upper Tribunal, on the other hand, said that there was no evidential basis for the FTT&#8217;s finding that the failure to serve the appellant was &#8220;inadvertent&#8221; and that it was &#8220;an almost inescapable conclusion&#8221; from the respondent&#8217;s pleading that it was not. However, the tribunal said that this was not material to the conclusion it should reach, following the decision in <span style="font-style:italic">Elim Court</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The &#8220;relevant facts&#8221; section of the agreed statement of facts and issues for this appeal does not record that the respondent&#8217;s failure to serve the claim notice on the appellant was deliberate in the sense referred to above, nor is an issue identified as to what the legal effect of such a deliberate failure to operate the statutory machinery would be. The FTT found that there was no such deliberate failure. The Upper Tribunal was critical of the FTT&#8217;s reasoning but did not itself positively find that the respondent acted deliberately in this sense. Its use of the words &#8220;deliberate&#8221; and &#8220;not inadvertent&#8221;, as they appear in the context of its judgment, is not precise and cannot be taken, without more, to have the sense set out above. Nor, in our view, could the Upper Tribunal properly have made such a finding. If the appellant had wished to raise as an issue in the proceedings that the respondent had acted deliberately in that sense, it was incumbent on it to plead that fact (which it did not do). The respondent would then have been properly on notice of the case it had to meet in that regard and could have decided what evidence to call to rebut it. It is difficult to see how such a controversial conclusion could be arrived at without examination of relevant witnesses. We note that, in addition to the possibilities mentioned by the FTT, it is possible that the respondent simply had a subjective belief in the validity of the arguments it presented in answer to the appellant&#8217;s procedural objection, even though it transpired that those arguments were bad. But we speculate no further about this as we have not heard any evidence on the point and it is not the function of this court to resolve an issue of fact like this. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Accordingly, we address the issues on the appeal as they have been identified in the agreed statement of facts and issues, and not on the basis of any finding that the respondent acted deliberately in the sense identified above in order to defeat the due operation of the statutory procedure. We express no view about what the effect might be of such a finding regarding the outcome in a case like this. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">What may be of greater relevance is that this is not a case where the appellant is, or has ever been alleged to have been, a &#8220;person who cannot be found or whose identity cannot be ascertained&#8221; within the meaning of section 79(7) of the CLRA. If it had been, then section 79(6)(a) would not have required it to be given a claim notice. On the contrary, it is common ground that the appellant was required to be given a claim notice under section 79(6)(a). The implications of this agreed fact are examined below. We have to proceed upon the basis that the appellant was a landlord who could be found, and whose identity could be ascertained.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On about 4 May 2020, the Management Company served a counter-notice pursuant to section 84(1) of the CLRA. The Management Company raised a procedural objection to the claim, requiring the respondent to prove that the appellant had been given a claim notice. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On 22 July 2020 the respondent applied to the FTT pursuant to section 84(3) of the CLRA for a determination that it was entitled to acquire the right to manage the Property. At this stage the FTT joined the appellant as a party to the proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The FTT determined certain preliminary issues in its decision dated 9 June 2022, including the issue whether the respondent&#8217;s failure to serve the claim notice on the appellant in compliance with section 79(6)(a) invalidated the claim. The FTT held that the failure of the respondent to serve the claim notice on the appellant did not invalidate its claim. It regarded the reasoning in <span style="font-style:italic">Elim Court</span> as applicable, despite the absence of any attempt to serve the claim notice in the present case, on the basis that the appellant has no management functions in respect of the Property under either the superior or the intermediate lease.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant appealed to the Upper Tribunal. By a decision dated 31 January 2023 <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/27" uk:canonical="[2023] UKUT 27 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKUT 27 (LC)</ref> it dismissed the appeal. The tribunal held that the reason for the failure to serve a claim notice was not a relevant factor according to the reasoning in <span style="font-style:italic">Elim Court </span>and concluded that it was bound by that decision to dismiss the appeal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant now appeals to this court pursuant to the &#8220;leapfrog&#8221; procedure. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <num style="font-weight:bold;text-transform:uppercase">(3)</num>
+	  <heading class="ParaHeading1" style="text-align:justify;text-indent:0.5in"><span style="text-transform:none">The statutory regime in the CLRA</span></heading>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In November 1998, in the Residential Leasehold Reform consultation paper, the government consulted on a proposal for the introduction of a new right for a majority of the leaseholders in a block of flats to take over the right to manage their block from the landlord. This attracted a significant measure of support so it was decided to take it forward.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In November 1998 the government issued a consultation paper in relation to a range of possible reforms in respect of residential leaseholds. In the light of the responses received the government formulated its policy and a draft bill to implement it. In August 2000 the government published <span style="font-style:italic">Commonhold and Leasehold Reform, Draft Bill and Consultation Paper</span> (CM 4843) (&#8220;the Consultation Paper&#8221;). The Consultation Paper explained in Section 2.1 that it was proposed that, subject to certain qualifying conditions, residential long leaseholders of flats should be given a new right to take over the management of their building without having to prove shortcomings on the part of the landlord and without payment of compensation. This new right was to reflect the fact that such leaseholders normally have the greatest financial interest in their building, by comparison with the owner of the freehold reversion. The Consultation Paper explained (Section 1, para 3) that the proposals were &#8220;intended to redress the uneven balance between landlords and leaseholders, and give leaseholders a greater degree of control over the management of their homes which reflects the substantial investment they have made in them. They are also intended to prevent unreasonable or oppressive behaviour by unscrupulous landlords, and would provide flexibility to tackle any new forms of abuse that may arise in the future.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In Section 3 of the Consultation Paper it was explained that the current position was that normally control of the management, maintenance and insurance of the property remained in the hands of the landlord, with leaseholders being obliged under the terms of their leases to meet the landlord&#8217;s costs of providing these services whilst having little control over their quality, value for money or promptness of delivery. The existing methods of addressing this problem&#8212;by exercise by leaseholders of the right of collective enfranchisement to acquire the freehold; by application to a tribunal for the appointment of a manager under the <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">Landlord and Tenant Act 1987</ref>; or by challenging the reasonableness of a landlord&#8217;s service charges on a case-by-case basis&#8212;had serious difficulties associated with them and were judged to be inadequate. Therefore the proposals which were eventually enacted in the CLRA were brought forward.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Consultation Paper described the &#8220;overall objective of the proposals&#8221; in this way at para 10 of Section 3:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The main objective is to grant residential long leaseholders of flats the right to take over the management of their building collectively without having either to prove fault on the part of the landlord or to pay any compensation. The procedures should be as simple as possible to reduce the potential for challenge by an obstructive landlord. The allocation of responsibilities should be clear-cut, and the body through which the leaseholders take on management responsibility should enjoy all necessary powers to properly discharge its functions. At the same time, the legitimate interest of the landlord in the property should be properly recognised and safeguarded.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumber" style="text-align:justify">It is legitimate to have regard to this paragraph as a general statement of the purpose of the CLRA. The Consultation Paper stood as an explanation of the government&#8217;s policy to which the Bill which became the CLRA was to give effect, in a manner which made it functionally equivalent to a government white paper and other types of report proposing draft legislation, which are legitimate guides to the purpose of legislation adopted in the light of them: see <span style="font-style:italic">Black-Clawson International Ltd v Papierwerke Waldhof-Aschaffenburg AG</span> <ref href="#" uk:canonical="[1975] AC 591" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1975">[1975] AC 591</ref>, in particular p 647 per Lord Simon of Glaisdale; <span style="font-style:italic">Wilson v First County Trust Ltd (No 2) </span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2003/40" uk:canonical="[2003] UKHL 40" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] UKHL 40</ref>; <ref href="#" uk:canonical="[2004] 1 AC 816" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 AC 816</ref>, para 56; and <span style="font-style:italic">R (O) v Secretary of State for the Home Department; R (Project for the Registration of Children as British Citizens) v Secretary of State for the Home Department</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2022/3" uk:canonical="[2022] UKSC 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKSC 3</ref>; <ref href="#" uk:canonical="[2023] AC 255" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] AC 255</ref>, para 30.<span style="font-style:italic"/>The Explanatory Notes dated 20 December 2000 for the Bill which became the CLRA referred to the Consultation Paper as the relevant statement of government policy: for the relevance of Explanatory Notes for identification of the purpose of legislation, see <span style="font-style:italic">R (PACCAR Inc) v Competition Appeal Tribunal </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2023/28" uk:canonical="[2023] UKSC 28" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKSC 28</ref>; <ref href="#" uk:canonical="[2023] 1 WLR 2594" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 1 WLR 2594</ref>, para 42.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The right to manage regime is contained in elaborate detail in Chapter 1 of Part 2 of the CLRA. It is sufficient for present purposes to provide an outline and to focus on the provisions which are particularly relevant for the determination of the appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 71 explains that the Chapter makes provision for the acquisition and exercise by a RTM company of a right to manage premises. Section 72 sets out the premises to which the Chapter applies, being (in summary) a self-contained building or part of a building containing two or more flats held by qualifying tenants, where the total number of flats held by such tenants is not less than two-thirds of the total number of flats contained in the premises.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 112 sets out definitions. Subsections (2) and (3) provide:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(2)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In this Chapter &#8216;lease&#8217; and &#8216;tenancy&#8217; have the same meaning and both expressions include (where the context permits)&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">a sub-lease or sub-tenancy, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">an agreement for a lease or tenancy (or for a sub-lease or sub-tenancy), </span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">but do not include a tenancy at will or at sufferance.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The expressions &#8216;landlord&#8217; and &#8216;tenant&#8217;, and references to letting, to the grant of a lease or to covenants or the terms of a lease, shall be construed accordingly.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 73 specifies that a RTM company has to be a private company limited by guarantee whose articles of association state that its objects include the acquisition and exercise of the right to manage the premises. There can only be one RTM company in relation to premises: section 73(4).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The persons entitled to be members of a RTM company are qualifying tenants of flats contained in the premises and, from the date when it acquires the right to manage, landlords under leases of the whole or any part of the premises: section 74(1). The basic rule is that a person is the qualifying tenant of a flat if he or she is tenant of the flat under a long lease: section 75(2). Sections 76 and 77 make detailed provision regarding which leases count as long leases for these purposes. The basic rule is that a lease is a long lease if it is granted for a term exceeding 21 years: section 76(2)(a).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Before making a claim to acquire the right to manage any premises, a RTM company &#8220;must give notice to each person who at the time when the notice is given&#8212;(a) is the qualifying tenant of a flat contained in the premises, but (b) neither is nor has agreed to become a member of the RTM company&#8221; (section 78(1)) inviting them to become members of the company and providing certain particulars about the company and its membership (section 78(2)). Section 78(7) provides that &#8220;A notice of invitation to participate is not invalidated by any inaccuracy in any of the particulars required by or by virtue of this section&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 79 governs how a claim by a RTM company to acquire the right to manage is brought and is central to this appeal. It provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">79 Notice of claim to acquire right</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(1)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A claim to acquire the right to manage any premises is made by giving notice of the claim (referred to in this Chapter as a &#8216;claim notice&#8217;); and in this Chapter the &#8216;relevant date&#8217;, in relation to any claim to acquire the right to manage, means the date on which notice of the claim is given.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claim notice may not be given unless each person required to be given a notice of invitation to participate has been given such a notice at least 14 days before.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claim notice must be given by a RTM company which complies with subsection (4) or (5).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If on the relevant date there are only two qualifying tenants of flats contained in the premises, both must be members of the RTM company.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(5)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In any other case, the membership of the RTM company must on the relevant date include a number of qualifying tenants of flats contained in the premises which is not less than one-half of the total number of flats so contained.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claim notice must be given to each person who on the relevant date is&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">landlord under a lease of the whole or any part of the premises,</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">party to such a lease otherwise than as landlord or tenant, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">a manager appointed under Part 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">Landlord and Tenant Act 1987</ref> (c 31) (referred to in this Part as &#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref>&#8217;) to act in relation to the premises, or any premises containing or contained in the premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(7)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Subsection (6) does not require the claim notice to be given to a person who cannot be found or whose identity cannot be ascertained; but if this subsection means that the claim notice is not required to be given to anyone at all, section 85 applies.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(8)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A copy of the claim notice must be given to each person who on the relevant date is the qualifying tenant of a flat contained in the premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(9)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where a manager has been appointed under Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> to act in relation to the premises, or any premises containing or contained in the premises, a copy of the claim notice must also be given to the tribunal or court by which he was appointed.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Section 80 makes provision as to the contents of a claim notice, as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">80 Contents of claim notice</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(1)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claim notice must comply with the following requirements.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It must specify the premises and contain a statement of the grounds on which it is claimed that they are premises to which this Chapter applies.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It must state the full name of each person who is both&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the qualifying tenant of a flat contained in the premises, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">a member of the RTM company,</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">and the address of his flat.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">And it must contain, in relation to each such person, such particulars of his lease as are sufficient to identify it, including&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the date on which it was entered into,</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the term for which it was granted, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the date of the commencement of the term.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(5)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It must state the name and registered office of the RTM company.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It must specify a date, not earlier than one month after the relevant date, by which each person who was given the notice under section 79(6) may respond to it by giving a counter-notice under section 84.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(7)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It must specify a date, at least three months after that specified under subsection (6), on which the RTM company intends to acquire the right to manage the premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(8)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It must also contain such other particulars (if any) as may be required to be contained in claim notices by regulations made by the appropriate national authority.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(9)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">And it must comply with such requirements (if any) about the form of claim notices as may be prescribed by regulations so made.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 81 contains supplementary provisions regarding a claim notice. Subsection (3) provides that while a claim notice continues in force in relation to premises no other claim notice may be issued in relation to those premises, and subsection (4) stipulates when it is regarded as being in force. Subsections (1) and (2) state:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A claim notice is not invalidated by any inaccuracy in any of the particulars required by or by virtue of section 80.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where any of the members of the RTM company whose names are stated in the claim notice was not the qualifying tenant of a flat contained in the premises on the relevant date, the claim notice is not invalidated on that account, so long as a sufficient number of qualifying tenants of flats contained in the premises were members of the company on that date; and for this purpose a &#8216;sufficient number&#8217; is a number (greater than one) which is not less than one-half of the total number of flats contained in the premises on that date.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 82 confers on a RTM company a right to obtain information to assist it in bringing its claim. Subsection (1) provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A company which is a RTM company in relation to any premises may give to any person a notice requiring him to provide the company with any information&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">which is in his possession or control, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">which the company reasonably requires for ascertaining the particulars required by or by virtue of section 80 to be included in a claim notice for claiming to acquire the right to manage the premises.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 84 makes provision for counter-notices to be given. In relevant part it states:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">84 Counter-notices</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(I)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A person who is given a claim notice by a RTM company under section 79(6) may give a notice (referred to in this Chapter as a &#8216;counter-notice&#8217;) to the company no later than the date specified in the claim notice under section 80(6).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A counter-notice is a notice containing a statement either&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">admitting that the RTM company was on the relevant date entitled to acquire the right to manage the premises specified in the claim notice, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">alleging that, by reason of a specified provision of this Chapter, the RTM company was on that date not so entitled, and containing such other particulars (if any) as may be required to be contained in counter-notices, and complying with such requirements (if any) about the form of counter-notices, as may be prescribed by regulations made by the appropriate national authority.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where the RTM company has been given one or more counter-notices containing a statement such as is mentioned in subsection (2)(b), the company may apply to the appropriate tribunal for a determination that it was on the relevant date entitled to acquire the right to manage the premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">An application under subsection (3) must be made not later than the end of the period of two months beginning with the day on which the counter-notice (or, where more than one, the last of the counter-notices) was given.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(5)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where the RTM company has been given one or more counter-notices containing a statement such as is mentioned in subsection (2)(b), the RTM company does not acquire the right to manage the premises unless </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">on an application under subsection (3) it is finally determined that the company was on the relevant date entitled to acquire the right to manage the premises, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the person by whom the counter-notice was given agrees, or the persons by whom the counter-notices were given agree, in writing that the company was so entitled.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If on an application under subsection (3) it is finally determined that the company was not on the relevant date entitled to acquire the right to manage the premises, the claim notice ceases to have effect.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(7)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A determination on an application under subsection (3) becomes final&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">if not appealed against, at the end of the period for bringing an appeal, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">if appealed against, at the time when the appeal (or any further appeal) is disposed of.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(8)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">An appeal is disposed of&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">if it is determined and the period for bringing any further appeal has ended, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">if it is abandoned or otherwise ceases to have effect.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumberApproved">The appropriate tribunal in England is the First-tier Tribunal (Property Chamber).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Section 85 provides for situations where no landlords or other relevant stakeholders are traceable, as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">85 Landlords etc. not traceable</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(1)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This section applies where a RTM company wishing to acquire the right to manage premises&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">complies with subsection (4) or (5) of section 79, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">would not have been precluded from giving a valid notice under that section with respect to the premises, but cannot find, or ascertain the identity of, any of the persons to whom the claim notice would be required to be given by subsection (6) of that section.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The RTM company may apply to the appropriate tribunal for an order that the company is to acquire the right to manage the premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Such an order may be made only if the company has given notice of the application to each person who is the qualifying tenant of a flat contained in the premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Before an order is made the company may be required to take such further steps by way of advertisement or otherwise as is determined proper for the purpose of tracing the persons who are&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">landlords under leases of the whole or any part of the premises, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">parties to such leases otherwise than as landlord or tenant.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(5)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If any of those persons is traced&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">after an application for an order is made, but</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">before the making of an order,</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">no further proceedings shall be taken with a view to the making of an order.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where that happens&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the rights and obligations of all persons concerned shall be determined as if the company had, at the date of the application, duly given notice under section 79 of its claim to acquire</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">the right to manage the premises, and</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the tribunal may give such directions as it thinks fit as to the steps to be taken for giving effect to their rights and obligations, including directions modifying or dispensing with any of the requirements imposed by or by virtue of this Chapter.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(7)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">An application for an order may be withdrawn at any time before an order is made and, after it is withdrawn, subsection (6)(a) does not apply.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(8)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">But where any step is taken for the purpose of giving effect to subsection (6)(a) in the case of any application, the application shall not afterwards be withdrawn except&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">with the consent of the person or persons traced, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">by permission of the tribunal.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(9)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">And permission shall be given only where it appears just that it should be given by reason of matters coming to the knowledge of the RTM company in consequence of the tracing of the person or persons traced.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 86 states when a claim notice may be withdrawn. Section 87 sets out circumstances in which a claim notice is deemed to have been withdrawn. In particular, subsection (1) provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">If a RTM company has been given one or more counter-notices containing a statement such as is mentioned in subsection (2)(b) of section 84 but either&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">no application for a determination under subsection (3) of that section is made within the period specified in subsection (4) of that section, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">such an application is so made but is subsequently withdrawn, the claim notice is deemed to be withdrawn.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 88 provides, among other things, that a RTM company is liable for reasonable costs incurred by a person who is a landlord under a lease of the whole or any part of any premises in consequence of a claim notice given by the company in relation to the premises (subsection (1)(a)); but a RTM company is only liable for costs which such a person incurs as party to any proceedings before the tribunal if the tribunal dismisses an application by the company for a determination that it is entitled to acquire the right to manage the premises (subsection (3)). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 90 sets out when the RTM company acquires the right to manage premises:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">90 The acquisition date</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(1)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">This section makes provision about the date which is the acquisition date where a RTM company acquires the right to manage any premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where there is no dispute about entitlement, the acquisition date is the date specified in the claim notice under section 80(7).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(3)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">For the purposes of this Chapter there is no dispute about entitlement if&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">no counter-notice is given under section 84, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">the counter-notice given under that section, or (where more than one is so given) each of them, contains a statement such as is mentioned in subsection (2)(a) of that section.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(4)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where the right to manage the premises is acquired by the company by virtue of a determination under section 84(5)(a), the acquisition date is the date three months after the determination becomes final.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(5)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where the right to manage the premises is acquired by the company by virtue of subsection (5)(b) of section 84, the acquisition date is the date three months after the day on which the person (or the last person) by whom a counter-notice containing a statement such as is mentioned in subsection (2)(b) of that section was given agrees in writing that the company was on the relevant date entitled to acquire the right to manage the premises.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(6)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Where an order is made under section 85, the acquisition date is (subject to any appeal) the date specified in the order.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Sections 91 to 94 make provision for the transfer to the RTM company of existing management contracts in relation to the company. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Sections 96 to 103 apply where the right to manage premises has been acquired by a RTM company. Where a RTM company acquires the right to manage premises, it steps into the shoes of the landlord so far as management functions are concerned. Section 96(2) provides that &#8220;Management functions which a person who is landlord under a lease of the whole or any part of the premises has under the lease are instead functions of the RTM company&#8221;. Section 96(5) states that management functions &#8220;are functions with respect to services, repairs, maintenance, improvements, insurance and management&#8221;. Section 97(1) provides that &#8220;Any obligation owed by the RTM company by virtue of section 96 to a tenant under a lease of the whole or any part of the premises is also owed to each person who is landlord under the lease&#8221;; and section 97(2) provides that a landlord is not entitled to do anything which the RTM company is required or empowered to do. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 98(2)&#8211;(3) provides that where a landlord under a long lease of the whole or any part of the premises has functions in relation to the grant of approvals to a tenant under the lease, those functions become instead functions of the RTM company. Subsection (4) provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(4)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The RTM company must not grant an approval by virtue of subsection (2) without having given&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">in the case of an approval relating to assignment, underletting, charging, parting with possession, the making of structural alterations or improvements or alterations of use, 30 days&#8217; notice, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">in any other case, 14 days&#8217; notice, to the person who is, or each of the persons who are, landlord under the lease.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="ParaNoNumber" style="text-align:justify">Where such a notice is given, the recipient can object to the grant of approval and any dispute is to be determined by the tribunal: section 99.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Pursuant to section 100 the RTM company may enforce tenant covenants. Under section 102 and Schedule 7, various statutory functions become functions of the RTM company. These include functions such as in relation to defective premises, repairing obligations, provision of information to tenants. Para 10 of Schedule 7 (headed &#8220;variation of leases&#8221;) provides: &#8220;<span style="color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/1987/31/section/35" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 35</ref>, 36, 38 and 39 of <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">the 1987 Act</ref> (variation of long leases relating to flats) have effect as if references to a party to a long lease (apart from those in section 38(8)) included the RTM company&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 111 provides that any notice under the Chapter must be in writing and may be sent by post.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <num style="font-weight:bold">(4)</num>
+	  <heading class="ParaHeading1" style="text-align:justify;text-indent:0.5in"><span style="font-style:italic;text-transform:none">Elim Court</span></heading>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Elim Court </span><ref href="#" uk:canonical="[2018] QB 571" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] QB 571</ref>, so far as is relevant to the present case,<span style="font-style:italic"/>the claimant RTM company served a claim notice on the freeholder of a block of flats and the freeholder disputed the company&#8217;s entitlement to acquire the right to manage on various grounds, including that the claim notice had not been served on an intermediate landlord of one of the flats as required by section 79(6)(a). The first instance tribunal and the Upper Tribunal (<ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2014/397" uk:canonical="[2014] UKUT 397 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 397 (LC)</ref>) held that the claim notice was invalid on this ground. The claimant appealed to the Court of Appeal (Arden, Lewison LJJ, Proudman J), which allowed the appeal. Lewison LJ gave the main judgment, with which the other members of the court agreed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As Lewison LJ observed (para 1) &#8220;[i]t is a melancholy fact that whenever Parliament lays down a detailed procedure for exercising a statutory right, people get the procedure wrong&#8221;. Although the intention had been to make the procedures as simple as possible, he noted (para 8) that the scope for dispute had not been eliminated and quoted Martin Rodger QC, Deputy President, in <span style="font-style:italic">Triplerose Ltd v Mill House RTM Co Ltd </span>[2016] L&amp;TR 23 (&#8220;<span style="font-style:italic">Triplerose</span>&#8221;), para 25: &#8220;Small and apparently insignificant defects in notices, or failures of strict compliance, are relied on again and again by landlords seeking to stave off claims to acquire the right to manage and to avoid the resulting losses of control and of other benefits&#8221;. The CLRA does not stipulate in terms what the effect of non-compliance with section 79(6)(a) should be, so Parliament&#8217;s intention in that regard has to be inferred. Lewison LJ directed himself by reference to the judgment of Sir Terence Etherton C in <span style="font-style:italic">Osman v Natt </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1520" uk:canonical="[2014] EWCA Civ 1520" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1520</ref>; <ref href="#" uk:canonical="[2015] 1 WLR 1536" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 1536</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic">Osman v Natt </span>was concerned with the validity of a notice served pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28" uk:canonical="1993 c. 28" uk:origin="TNA" uk:type="legislation">Leasehold Reform, Housing and Urban Development Act 1993</ref> claiming the right to acquire the freehold of premises pursuant to the collective enfranchisement provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28" uk:canonical="1993 c. 28" uk:origin="TNA" uk:type="legislation">that Act</ref>. The notice failed to comply with <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> in that, among other points, it did not give the name of one of the qualifying tenants in the property. Sir Terence Etherton observed, paras 24&#8211;26, following guidance in <span style="font-style:italic">R v Soneji </span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2005/49" uk:canonical="[2005] UKHL 49" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] UKHL 49</ref>; <ref href="#" uk:canonical="[2006] 1 AC 340" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 AC 340</ref> (&#8220;<span style="font-style:italic">Soneji</span>&#8221;), that the relevant approach is not to ask whether a procedural requirement laid down in the statute is mandatory or directory, but rather whether it was a purpose of the legislation that an act done in breach of the provision should be invalid; and in determining the question of purpose, regard must be had to the language of the relevant provision and the scope and object of the whole statute (see the joint judgment of McHugh, Gummow, Kirby and Hayne JJ in the High Court of Australia in <span style="font-style:italic">Project Blue Sky Inc v Australian Broadcasting Authority</span> (1998) 194 CLR 355 (&#8220;<span style="font-style:italic">Project Blue Sky</span>&#8221;), para 93; endorsed in <span style="font-style:italic">Soneji</span>, para 21). The appellant claimants in <span style="font-style:italic">Osman v Natt</span> argued that, bearing in mind the insignificant consequences of the failure to comply with the procedural requirement in the case, that failure did not make the notice invalid because that could not have been the intention of Parliament. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Many authorities were cited to the court. Sir Terence Etherton sought to place them into two broad categories:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;28.</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The cases cover a very broad spectrum of legislative and factual situations. For the purposes of this appeal, a distinction may be made between two broad categories: (1) those cases in which the decision of a public body is challenged, often involving administrative or public law and judicial review, or which concern procedural requirements for challenging a decision whether by litigation or some other process, and (2) those cases in which the statute confers a property or similar right on a private person and the issue is whether non-compliance with the statutory requirement precludes that person from acquiring the right in question.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>29.</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Into the first category fall such cases as </span><span style="font-style:italic;font-family:'Times New Roman'">R v Secretary of State for the Home Department, Ex p Jeyeanthan</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2000] 1 WLR 354" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 354</ref>, </span><span style="font-style:italic;font-family:'Times New Roman'">R v Soneji</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2006] 1 AC 340" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 AC 340</ref>, </span><span style="font-style:italic;font-family:'Times New Roman'">R (M) v Hackney London Borough Council</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2011] 1 WLR 2873" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 1 WLR 2873</ref>, and </span><span style="font-style:italic;font-family:'Times New Roman'">R (Garland) v Secretary of State for Justice</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2012] 1 WLR 1879" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 WLR 1879</ref>. In those cases, in accordance with the more recent interpretative approach, the courts have asked whether the statutory requirement can be fulfilled by substantial compliance and, if so, whether on the facts there has been substantial compliance even if not strict compliance. &#8230;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>30.</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Into the second of the two categories I have mentioned &#8230; fall such cases as </span><span style="font-style:italic;font-family:'Times New Roman'">Cadogan v Morris</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1999] 1 EGLR 59" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 1 EGLR 59</ref> (right of tenant to an extended lease under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28" uk:canonical="1993 c. 28" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>), </span><span style="font-style:italic;font-family:'Times New Roman'">Keepers and Governors of John Lyon School v Secchi</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1999] 3 EGLR 49" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 3 EGLR 49</ref> (right of tenants to extended leases under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28" uk:canonical="1993 c. 28" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>), </span><span style="font-style:italic;font-family:'Times New Roman'">Speedwell Estates Ltd v Dalziel</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2002] 1 EGLR 55" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 EGLR 55</ref> (right of tenants to acquire freeholds under the <ref href="http://www.legislation.gov.uk/id/ukpga/1967/88" uk:canonical="1967 c. 88" uk:origin="TNA" uk:type="legislation">Leasehold Reform Act 1967</ref>), </span><span style="font-style:italic;font-family:'Times New Roman'">Burman v Mount Cook Land Ltd</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2002] Ch 256" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] Ch 256</ref> (acquisition of a new lease under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28" uk:canonical="1993 c. 28" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>), </span><span style="font-style:italic;font-family:'Times New Roman'">Tudor v M25 Group Ltd</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2004] 1 WLR 2319" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 WLR 2319</ref> (right of tenants to acquire the freehold under the <ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">Landlord and Tenant Act 1987</ref>), 7 </span><span style="font-style:italic;font-family:'Times New Roman'">Strathray Gardens Ltd v Pointstar Shipping &amp; Finance Ltd</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2005] 1 EGLR 53" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 EGLR 53</ref> (right to collective enfranchisement under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28" uk:canonical="1993 c. 28" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>), </span><span style="font-style:italic;font-family:'Times New Roman'">Cadogan v Strauss</span><span style="font-family:'Times New Roman'"> [2004] HLR 544 (right of tenant to acquire the freehold under the <ref href="http://www.legislation.gov.uk/id/ukpga/1967/88" uk:canonical="1967 c. 88" uk:origin="TNA" uk:type="legislation">Leasehold Reform Act 1967</ref>), </span><span style="font-style:italic;font-family:'Times New Roman'">9 Cornwall Crescent London Ltd v Kensington and Chelsea Royal London Borough Council</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2006] 1 WLR 1186" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 WLR 1186</ref> (right to collective enfranchisement under <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28" uk:canonical="1993 c. 28" uk:origin="TNA" uk:type="legislation">the 1993 Act</ref>).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>31.</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Those &#8230; Court of Appeal cases show a consistent approach in relation to statutory requirements to serve a notice as part of the process for a private person to acquire or resist the acquisition of property or similar rights conferred by the statute. In none of them has the court adopted the approach of &#8216;substantial compliance&#8217; as in the first category of cases. The court has interpreted the notice to see whether it actually complies with the strict requirements of the statute; if it does not, then the court has, as a matter of statutory interpretation, held the notice to be wholly valid or wholly invalid: see, for example, </span><span style="font-style:italic;font-family:'Times New Roman'">Burman&#8217;s</span><span style="font-family:'Times New Roman'"> case <ref href="#" uk:canonical="[2002] Ch 256" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] Ch 256</ref>, </span><span style="font-style:italic;font-family:'Times New Roman'">Newbold v Coal Authority</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[2014] 1 WLR 1288" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 1288</ref>, </span><span style="font-style:italic;font-family:'Times New Roman'">Keepers and</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">Governors of John Lyon School v Secchi</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1999] 3 EGLR 49" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 3 EGLR 49</ref>.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>32.</num>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On that approach, the outcome does not depend on the particular circumstances of the actual parties, such as the state of mind or knowledge of the recipient or the actual prejudice caused by non-compliance on the particular facts of the case: </span><span style="font-style:italic;font-family:'Times New Roman'">Tudor&#8217;s</span><span style="font-family:'Times New Roman'"> case, para 27, the </span><span style="font-style:italic;font-family:'Times New Roman'">Speedwell Estates </span><span style="font-family:'Times New Roman'">case, para 24. In so far as Chadwick LJ may have thought otherwise in obiter remarks in </span><span style="font-style:italic;font-family:'Times New Roman'">Cadogan v Strauss</span><span style="font-family:'Times New Roman'"> [2004] HLR 544, para 48, I respectfully do not agree. This is consistent with the policy of providing certainty in relation to the existence, acquisition and transfer of property interests. It is to be borne in mind in that connection that service of a <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> notice has important property consequences. &#8230;&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Sir Terence Etherton observed (<ref href="#" uk:canonical="[2015] 1 WLR 1536" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 1536</ref>, para 33) that the intention of the legislature as to the consequences of non-compliance with the statutory procedure was to be ascertained in the light of the statutory scheme as a whole, so that a procedure might be found to be invalid &#8220;where the notice or the information which is missing from it is of critical importance in the context of the scheme&#8221;. By contrast, he said (para 34), &#8220;the court has held in favour of validity where the information missing from the statutory notice is of secondary importance or merely ancillary&#8221;. In relation to the <ref href="http://www.legislation.gov.uk/id/ukpga/1993/28/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> notice in <span style="font-style:italic">Osman v Natt</span>, it was held that the statutory scheme pointed clearly to its invalidity: paras 35-38. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Elim Court</span>, Lewison LJ commented in relation to the second category (<ref href="#" uk:canonical="[2018] QB 571" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] QB 571</ref>, para 52):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;The outcome in such cases does not depend on the particular circumstances of the actual parties, such as the state of mind or knowledge of the recipient or the actual prejudice caused by non-compliance on the particular facts of the case: see para 32 [of </span><span style="font-style:italic;font-family:'Times New Roman'">Osman v</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">Nat</span><span style="font-family:'Times New Roman'">]. The intention of the legislature as to the consequences of non-compliance with the statutory procedures (where not expressly stated in the statute) is to be ascertained in the light of the statutory scheme as a whole: see para 33. Where the notice or the information which is missing from it is of critical importance in the context of the scheme the non-compliance with the statute will generally result in the invalidity of the notice. Where, on the other hand the information missing from the statutory notice is of secondary importance or merely ancillary, the notice may be held to have been valid: see para 34. One useful pointer is whether the information required is particularised in the statute as opposed to being required by general provisions of the statute. In the latter case the information is also likely to be viewed as of secondary importance. Another is whether the information is required by the statute itself or by subordinate legislation. In the latter case the information is likely to be viewed as of secondary importance. In this connection it must not be forgotten that while the substantive provisions of a bill may be debated clause by clause, a draft statutory instrument is not subject to any detailed Parliamentary scrutiny. It is either accepted or rejected as a whole. A third is whether the server of the notice may immediately serve another one if the impugned notice is invalid. If he can, that is a pointer towards invalidity.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lewison LJ considered (paras 53&#8211;56) that the claim notice service requirement under section 79(6) fell within the second category of case, as Martin Rodger QC had held in <span style="font-style:italic">Triplerose </span>at para 33. However, interpretation of the provision in light of its purpose and the scheme of the CLRA indicated that a failure to serve a claim notice on all those entitled to receive one would not, without more, invalidate that notice. Lewison LJ observed (para 56) that although the court should not inquire into the question whether prejudice had been caused on the facts of the actual case (following <span style="font-style:italic">Osman v Natt</span>, para 32), &#8220;that does not mean that prejudice in a generic sense is irrelevant&#8221;. At para 57 he referred to <span style="font-style:italic">Newbold v Coal Authority </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/584" uk:canonical="[2013] EWCA Civ 584" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 584</ref>; <ref href="#" uk:canonical="[2014] 1 WLR 1288" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 1288</ref>, treated as a category 2 case in <span style="font-style:italic">Osman v Natt</span>, and the statement by Sir Stanley Burnton at para 70:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Quote" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;Finally, it may be that even non-compliance with a requirement is not fatal. In all such cases, it is necessary to consider the words of the statute or contract, in the light of its subject matter, the background, the purpose of the requirement, if that is known or determined, and the actual or possible effect of non-compliance on the parties.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lewison LJ said (para 57) that nothing in <span style="font-style:italic">Osman v Natt </span>cast doubt on that approach. He regarded it as significant that in the present context the only persons entitled to object to the exercise of the right to manage are the landlord (or landlords), a party to a lease who is neither landlord nor tenant, or a court appointed manager; and in the majority of cases these are persons who are likely to have management responsibilities in the sense defined in section 96(5): para 73. Although landlords need certainty, where a dispute is resolved through the process laid down by the CLRA the outcome of the dispute will provide certainty: para 59. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lewison LJ noted (para 69) that even though a particular intermediate landlord may not have management functions of the relevant description, there would still be potentially important rights of which it might be divested if the RTM company acquired the right to manage, such as the right to give certain consents. He did not regard this as a decisive point. Such a landlord would retain the right to be consulted and also have the right to object and would retain the right to enforce covenants in the lease (including any rights of forfeiture); accordingly, in his judgment, &#8220;the transfer of an intermediate landlord&#8217;s non-management functions under an intermediate lease is &#8230; ancillary to the primary objective of the legislation which is to enable a RTM company, simply and cheaply, to acquire the right to manage; and to avoid both duplication of effort and administrative untidiness once it has been acquired&#8221;: para 73. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">He also considered (paras 70&#8211;71) what inferences should be drawn from section 79(7) and section 85 which apply where a landlord cannot be found or where their identity cannot be ascertained, and disapply the requirement to serve the claim notice in such cases. He observed that these provisions indicate that &#8220;the mere fact that a claim notice was not given to all those entitled to receive one would not invalidate the claim notice without more.&#8221; It could not therefore be said that giving a claim notice to everyone entitled to receive it is an essential feature of the statutory scheme. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lewison LJ concluded that a failure to serve a claim notice on the intermediate landlord of a single flat with no management responsibilities (as defined) did not invalidate the notice: para 74. Permission to appeal to the Supreme Court was refused by a panel of three justices.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <num style="font-weight:bold">(5)</num>
+	  <heading class="ParaHeading1" style="text-align:justify;text-indent:0.5in"><span style="text-transform:none">Analysis</span></heading>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In our view, the appropriate starting point for analysis is the guidance given in <span style="font-style:italic">Soneji</span>. The case concerned the making of confiscation orders in the Crown Court pursuant to the proceeds of crime legislation against defendants who had been convicted and sentenced in criminal proceedings, in circumstances where the stipulated statutory time limit for making such orders of six months after date of conviction had been exceeded. The Court of Appeal (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2003/1765" uk:canonical="[2003] EWCA Crim 1765" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Crim 1765</ref>; <ref href="#" uk:canonical="[2004] 1 Cr App R (S) 219" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 Cr App R (S) 219</ref>) allowed an appeal against the making of the orders. The House of Lords (<ref href="#" uk:canonical="[2006] 1 AC 340" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 AC 340</ref>) allowed the Crown&#8217;s appeal and upheld the orders notwithstanding the breach of the statutory procedural requirement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As Lord Steyn held in his speech (with the substance of which the other members of the Appellate Committee agreed) the correct approach to a failure to comply with a provision prescribing the doing of some act before a power was exercised was to ask whether it was a purpose of the legislature that an act done in breach of that provision should be invalid. In summary, the court&#8217;s power to postpone the making of a confiscation order was to make the sentencing process rather than the confiscation procedure as effective as possible; the judge&#8217;s failure to adhere to the statutory requirements for making a confiscation order had caused no prejudice to the defendants in respect of their sentences and any other prejudice to them caused by the delay was outweighed by the public interest in not allowing convicted offenders to escape conviction for bona fide errors in the judicial process; and that accordingly that failure would not have been intended by Parliament to invalidate the confiscation proceedings, so the orders should stand.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Steyn pointed out (para 14) that &#8220;[a] recurrent theme in the drafting of statutes is that Parliament casts its commands in imperative form without expressly spelling out the consequences of a failure to comply&#8221;, which had been the source of a great deal of litigation. The courts had evolved a distinction between mandatory requirements, breach of which would invalidate the procedure, and directory requirements, breach of which would not. But this distinction was conclusory rather than explanatory and did not provide helpful guidance. Lord Steyn referred (para 15) to a new perspective on the problem provided by Lord Hailsham of St Marylebone LC in <span style="font-style:italic">London &amp; Clydeside Estates Ltd v Aberdeen District Council </span><ref href="#" uk:canonical="[1980] 1 WLR 182" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1980">[1980] 1 WLR 182</ref>, 189&#8211;190, which &#8220;led to the adoption of a more flexible approach of focusing intensely on the consequences of non-compliance, and posing the question, taking into account those consequences, whether Parliament intended the outcome to be total invalidity&#8221;; as Lord Steyn said, &#8220;In framing the question in this way it is necessary to have regard to the fact that Parliament ex hypothesi did not consider the point of the ultimate outcome. Inevitably one must be considering objectively what intention should be imputed to Parliament&#8221;. Lord Steyn referred to other authorities which supported this approach, including in particular the joint judgment of McHugh, Gummow, Kirby and Hayne JJ in <span style="font-style:italic">Project Blue Sky</span>.<span style="font-style:italic"/>It was no longer appropriate to use the rigid mandatory and directory distinction. Instead, a more flexible approach was required, and &#8220;the emphasis ought to be on the consequences of non-compliance, and posing the question whether Parliament can fairly be taken to have intended total invalidity&#8221; to follow from non-compliance with a statutory requirement; and this &#8220;is ultimately a question of statutory construction&#8221;: para 23.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Carswell explained (para 67) that non-compliance with the time limit did not invalidate the confiscation orders, applying a test of asking whether &#8220;there has been substantial observance of the time limit&#8221;, which would &#8220;depend on the facts of each case, and it will always be necessary to consider whether any prejudice has been caused or injustice done by regarding the act done out of time as valid&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The point of adoption of the revised analytical framework in <span style="font-style:italic">Soneji </span>was to move away from a rigid category-based approach to evaluating the consequences of a failure to comply with a statutory procedural requirement and to focus instead on (a) the purpose served by the requirement as assessed in light of a detailed analysis of the particular statute and (b) the specific facts of the case, having regard to whether any (and what) prejudice might be caused or whether any injustice might arise if the validity of the statutory process is affirmed notwithstanding the breach of the procedural requirement. We therefore consider that in the present statutory context <span style="font-style:italic">Osman v Natt</span> needs to be considered and applied with some caution, particularly in its suggestion that cases where it becomes necessary to infer the intended consequences of non-compliance can for that purpose be divided into distinct and watertight categories and its apparent suggestion (para 31) that in the second category the possibility of a middle position as identified in <span style="font-style:italic">Soneji </span>between outright validity or outright invalidity is excluded. Instead, it is appropriate to go back to the basic principled approach as explained in <span style="font-style:italic">Soneji</span>, as applied in light of the particular statutory context and the specific facts of the case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This does not mean that application of procedural rules in every statutory context turns on detailed examination of the consequences arising from the particular facts of the case, nor that a test of substantial compliance is properly to be applied in relation to every procedural rule. Examination of the purpose served by a particular statutory procedural rule may indicate that Parliament intended that it should operate strictly, as a bright line rule, so that any failure to comply with it invalidates the procedure which follows. An example would be the notice requirements for extending business tenancies under the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/2-3/56" uk:canonical="1954 (2 &amp; 3 Eliz. 2) c. 56" uk:origin="TNA" uk:type="legislation">Landlord and Tenant Act 1954</ref>, where failure to serve a notice in proper time means that the tenant loses their right to extend. The procedural rules there apply in a context where there is an established bilateral relationship between landlord and tenant, where the tenant is in a position to know clearly what it has to do and where both parties need to know clearly what property rights they have and may dispose of in the market. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Often, however, analysis according to the <span style="font-style:italic">Soneji</span> approach does not lead to such a clear-cut result. The statutory regime may reflect, and balance, a number of intersecting purposes, both as to substantive outcomes and as to the procedural protections inherent in the regime. In that situation, a more nuanced analysis may be called for. <span style="font-style:italic">Soneji</span> itself is an example of this. The purpose of depriving convicted offenders of the proceeds of their crimes had to be balanced against sufficient compliance with procedural protections available to them before they could be deprived of their property. A test of substantial compliance with a procedural rule may be an appropriate way to allow for such a balance to be struck between competing purposes. If there has been substantial compliance with the rule, so that the purpose served by it has largely (if not completely) been fulfilled, it may more readily be concluded that fulfilment of the competing substantive purpose of the legislation should be given priority. But we would observe that reference to &#8220;substantial compliance&#8221; begs the question of what purpose was supposed to be served by the rule and expresses a conclusion arising from the relevant analysis, rather than stating a test in itself. Statutory regimes involving procedural obligations are many and are highly varied, and there is no simple shortcut which avoids the need to undertake the analysis referred to in <span style="font-style:italic">Soneji</span> having regard to the particular provisions, scheme and purposes served by the statute in question. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Pursuant to the <span style="font-style:italic">Soneji</span> approach it is relevant to have regard to the effect which the operation of a statutory process might have on property and contractual rights, and to draw such inferences as to Parliament&#8217;s objective intention as might be appropriate in the circumstances. It is usually to be inferred that Parliament intends that there should be a reasonable degree of certainty regarding property rights and contractual rights. It is also usually to be inferred that Parliament intends that a person should not be deprived of property or contractual rights without being afforded a fair opportunity to enter objections. That inference is reinforced in the present context by the requirement of service of a claim notice on the wide range of persons identified in section 79(6). We will refer to them for convenience as &#8220;stakeholders&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">These points do not, in and of themselves, mean that the wider inquiry indicated by the approach in <span style="font-style:italic">Soneji </span>is unnecessary. The confiscation orders in <span style="font-style:italic">Soneji </span>affected property rights, but that did not lead ineluctably to the conclusion that the statutory requirement had to be strictly observed in order for the orders to be valid. It remained relevant to investigate the extent of any prejudice that the individuals might suffer if the orders were upheld. It also remained relevant to balance any prejudice suffered by the individuals against the general public interest intended to be promoted by the operation of the statutory regime. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, in the present context we consider that the basic considerations referred to in para 64 above indicate that the approach of the Court of Appeal in <span style="font-style:italic">Elim Court </span>should not be endorsed in full. In <span style="font-style:italic">Elim Court </span>the intermediate landlord was not served with the claim notice and did not participate in the procedure which followed. In the view of the Court of Appeal, although the order transferring the right to manage to the RTM company also involved the transfer of the right to grant certain consents, that could not be regarded as a central feature of the statutory regime. Rather, the transfer of such consent rights was ancillary to the main focus of the regime (the right to manage the premises), designed simply to keep decision-making as clean and uncomplicated as possible. The main purpose of the CLRA regime was to decide who should have the right to manage the premises; persons with a substantive interest in having that right should be joined in the proceedings by being served with a claim notice, but that purpose was not defeated by a failure to serve the claim notice on an intermediate landlord with no right to manage the property; and incidental effects in relation to the transfer of the powers to give consents under provisions of the intermediate lease did not mean that the main objects of the statutory regime had been defeated either, in effect by a side wind (see para 73).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In our view, there is a difficulty in adopting this approach. Where the right to manage is transferred to a RTM company, the effect is that an existing sophisticated contractual regime with multiple aspects and ramifications is subject to significant disruption (hence the complexity and comprehensiveness of the statutory regime, outlined above). The ordinary expectation must be that persons whose property or contract rights are to be taken away or subject to significant qualification should have a fair opportunity in the course of the procedure to be followed before that occurs to raise any arguments of substance they may have to oppose that outcome. Contrary to the view taken in <span style="font-style:italic">Elim Court</span>, we do not consider that it is sufficient to say that their right to participate may be ignored if they are an intermediate landlord with no power of management.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In our view the correct approach in a case where there is no express statement of the consequences of non-compliance with a statutory requirement is first to look carefully at the whole of the structure within which the requirement arises and ask what consequence of non-compliance best fits the structure as a whole. Here the provisions of sections 78 and 79 call for a two stage process of notification of the RTM proposal to persons with an interest in the building to which the right to manage is (if validly exercised) to be applied.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Section 78 requires the RTM company as promoter of the scheme to give a participation notice to all qualifying tenants who have not agreed already to become, or not actually become, members of the RTM company. Section 79(2) provides that until 14 days after that has been done, a claim notice may not be served at all. There will ordinarily be no difficulty in finding or identifying qualifying tenants. The absence of any saving or dispensing provisions of the type found in section 79(7) suggests that this was well understood by Parliament. Section 79(2) imposes a clear consequence of failure in good time to give participation notices: no valid claim notice can be given to anyone. For present purposes we leave aside the difficult question whether this has the further consequence that, if a document purporting to be a claim notice is nonetheless given to another stakeholder, such as a landlord, the landlord could rely upon the failure to give a participation notice to a qualifying tenant in order to object to the validity of the purported transfer of the right to manage which followed, even though that tenant might not in fact have any objection to the scheme which is being promoted which they wish to maintain. We were referred to a decision of the Lands Tribunal in <span style="font-style:italic">Sinclair Gardens Investments (Kensington) Limited v Oak Investments RTM Co Ltd</span>&#160;[2005] RVR 426 and a decision of the Upper Tribunal in<span style="font-style:italic"> Avon Freeholds Limited v Regent Court RTM Co Ltd&#160;</span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2013/0213" uk:canonical="[2013] UKUT 0213 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKUT 0213 (LC)</ref>; [2013] L&amp;TR 23 which discussed the consequences of a breach of the procedural requirement in section 79(2) and held in each case that such a breach did not in the circumstances invalidate the transfer of the right to manage which followed, and it was not suggested that they should be overruled; but this was a peripheral part of the debate before us and we prefer to reserve our opinion on whether they were correctly decided.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 79 requires, in addition, that a copy of the claim notice must be given to every qualifying tenant: see section 79(8). Claim notices must also be given to three additional classes of stakeholders in the building, namely (i) landlords under a lease of the whole or any part of the premises, (ii) parties to such leases other than landlords or tenants, and (iii) statutory managers, and the tribunal or court by which they were appointed: see section 79(6) and (9).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In a simple case where all qualifying tenants and other stakeholders are given claim notices 14 days after the giving of all necessary participation notices, then, if there is no dispute about entitlement, the scheme takes effect on the date specified in the claim notice without any need for approval by the tribunal: see section 90(2) and (3). Bearing in mind the very limited grounds for opposing entitlement (namely that the RTM company does not comply with the statutory requirements under the CLRA, the building does not comply with the requirements under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/2-3/56/section/72" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 72</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/2-3/56" uk:canonical="1954 (2 &amp; 3 Eliz. 2) c. 56" uk:origin="TNA" uk:type="legislation">that Act</ref>, or the membership of the RTM company does not comprise at least 50% of the building), this may be supposed to be what Parliament hoped would be or become the normal route to the taking effect of a RTM scheme. There is deemed to be no dispute about entitlement in the absence of any counter-notice which does not admit entitlement: see section 90(3) and section 84(2)(a).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> By contrast with qualifying tenants, Parliament clearly did appreciate that there might be difficulties in finding or identifying relevant landlords or other stakeholders as the recipients of claim notices under section 79(6), no doubt for the reasons given at the beginning of this judgment. There will be no ready list of them, and the registered title to the freehold and leasehold interests in the building may not reveal them all. Careful provision was made to deal with the problems which that might cause for implementing the RTM scheme.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Two parallel solutions were adopted. In a case where no landlord or other stakeholder at all could be found or identified, then the RTM company could only get approval of the scheme by applying to the tribunal, which would be expected to conduct its own investigation as to entitlement on behalf of the absent stakeholders: see section 79(7) and section 85, which sets out the way in which the tribunal is to undertake that task.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> In a case where one or more, but not all such stakeholders can be found and identified (and therefore given claim notices) then the scheme can proceed without regard to the rights or interests of those who cannot be found or identified: see again section 79(7). Since they are not required to be given claim notices, they cannot give counter-notices, and there will be deemed to be no dispute as to entitlement, even if they object, provided that none of those who are given claim notices give counter-notices. Section 90 will validate the scheme despite their objection, and without any supervisory involvement of the tribunal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The thinking behind this part of the solution, and its sharp contrast with the solution where no landlord or other relevant stakeholder can be found or identified so as to be given a claim notice, must be that Parliament was content to leave those stakeholders who were given claim notices to protect the interests of any invisible stakeholders who might be thought likely to wish to oppose the scheme. It needs to be borne in mind that the grounds of objection are not stakeholder specific. Any landlord or other stakeholder is limited to the same small number of objections. But this overriding of the right of a stakeholder to make its own objection was strictly limited to those who, by reason of their invisibility (ie who cannot be found or whose identity cannot be ascertained) were not entitled to be given claim notices: see again section 79(7). Parliament did not see fit to override the right of objection conferred on all the stakeholders to whom the RTM company was obliged to give a claim notice. Thus the appellant, which is not said to have been unable to be found or its identity ascertained, did not have its right to be given a claim notice, or to object by a counter-notice, overridden in that way.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A full understanding of this part of the statutory structure is illuminated by a careful focus on precisely what is meant, in section 79(7) by the phrase &#8220;a person who cannot be found or whose identity cannot be ascertained&#8221;. Does it apply only to landlords and other stakeholders whose existence the RTM company can discover, but not their identity or whereabouts, or does it include the landlord or stakeholder whose very existence the RTM company cannot discover, ie the truly invisible landlord? In our view the latter is the correct interpretation. If Parliament wanted to make special provision to save RTM schemes from foundering due to the inability of the RTM company to identify or find landlords and other stakeholders known to be there, why should it be assumed to wish to make no provision at all for the truly invisible landlord? We consider that the phrase quoted above is, on a purposive construction, wide enough to accommodate the landlord or stakeholder whose very existence the RTM company cannot discover. Take for example a guarantor of a tenant&#8217;s liabilities under a long lease, where the RTM company cannot get a copy of the lease. It may know of the tenant from the Land Registry, but be unaware even of the existence of the guarantor, let alone his name or whereabouts. It would be bizarre for a special provision to excuse the RTM company from giving a claim notice to a known guarantor whose address (ie whereabouts) is unknown, but not to a guarantor who is truly invisible.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The point of this analysis is that, on our interpretation that section 79(7) applies so as to dispense with the requirement to give a claim notice to truly invisible landlords and other stakeholders, there is no invisibility problem which is not dealt with by the two parallel solutions described above. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The test of invisibility (to use a shorthand for the phrase in section 79(7) quoted above) is nonetheless objective. The question is not whether the RTM company actually knew of the existence, identity or whereabouts of the stakeholder prima facie entitled to be given a claim notice, but whether that stakeholder could or could not be found or identified. If the stakeholder could be, but was not in fact found or identified by the RTM company, then it matters not whether the failure to do so was inadvertent, negligent or even deliberate. That stakeholder had a right to receive a claim notice, and the dispensation from the requirement to give him one in section 79(7) is not applicable. And the whole of the statutory solution to the problem of the invisible landlord or other stakeholder hangs on the dispensation from that requirement.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is worth testing the way in which this part of the statutory scheme works, to see what may reasonably be supposed to have been Parliament&#8217;s intention in relation to a landlord or other stakeholder entitled to be given a claim notice, but not given one. Take a case (&#8220;case A&#8221;) where there is a real substantive objection to the scheme, such as a RTM company not being properly constituted under section 79(4) or (5). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Under case A there are two landlords, but only one entitled to be given a claim notice, because the other is invisible within the meaning of the section 79(7) dispensation. The first landlord is given a claim notice and does not serve a counter-notice, because it is content with the scheme, or has been bought off by the RTM company. The second (invisible) landlord is not given a claim notice, and therefore cannot give a counter-notice, even though, when it later finds out about the scheme it wishes to make a perfectly legitimate objection to its validity. But without entitlement to receive a claim notice, it is plainly not entitled to give a counter-notice: see section 84(1); and therefore by virtue of section 90(3) there is deemed to be no dispute about entitlement and the scheme takes effect on the date specified in the claim notice. That may look like rough justice from the perspective of the invisible landlord, but it is the clear consequence of the way in which, by dispensation from the obligation to give the landlord a claim notice, the CLRA prevents that landlord from interfering with the progress of the scheme. It is, in short, the statutory price of invisibility.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Case B has the same facts as case A, except that the second landlord is not invisible. He was entitled to be given a claim notice under section 79(6)(a), but the RTM company failed to give him one. If that failure is not fatal to the validity of the scheme, then the second landlord would be deprived of the right to make a (valid) objection by counter-notice, and have that objection ruled upon (on these facts, in his favour) by the tribunal. The scheme would come into effect on the deemed no dispute basis under section 90, just as in case A.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num>82.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is no answer to this difficulty to say that the second landlord can just apply to the tribunal on the basis that he should have been served with a claim notice. The tribunal is a statutory body, and the paths by which its jurisdiction can be invoked are clearly laid down. Either there is a counter-notice, or no landlords or other stakeholders can be found or ascertained, in which case the RTM company can apply to validate the scheme under sections 84 and 85 respectively. Sections 84, 85 and 90 contemplate no other route, and provide no commencement date as the outcome of any other avenue for getting to the tribunal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num>83.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Now take the present case (&#8220;case C&#8221;). Three stakeholders are entitled to be given a claim notice: the Freeholder, the Management Company and the appellant. The Freeholder and the Management Company are given a claim notice, the Management Company serves a counter-notice raising objections and in the light of that the RTM company applies to the tribunal for a determination pursuant to section 84(3), but the appellant is not given a claim notice. The tribunal rules against those objections and, leaving aside the breach of the obligation to give a claim notice to the appellant, there is no other objection to the validity of the scheme. Is it Parliament&#8217;s intention that a scheme which the tribunal has in fact scrutinised and approved can be invalidated (with the consequence that the RTM company is required to pay costs and start again, or simply give up) merely because the appellant has been deprived of the opportunity to give a counter-notice, which could not have included a valid objection to the scheme?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num>84.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Before reaching a conclusion, it needs to be borne in mind that landlords have one other right which is at least facilitated by being given a claim notice. Regulation 4(b) of the Right to Manage (Prescribed Particulars and Forms) (England) Regulations 2010 provides that the claim notice must notify the landlord of its right to become a member of the RTM company. But the right itself, conferred by section 74(1)(b) of the CLRA, is not expressed to be conditional upon the landlord being given a claim notice. It is a free-standing right. So a landlord is entitled to insist on being made a member of the RTM company, once the scheme takes effect, regardless whether it has been given a claim notice. It is not plausible to infer that Parliament intended that a breach of the obligation to give a claim notice should be fatal to the validity of the scheme on that ground.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num>85.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Looking separately at cases B and C might be said to lead to two very different answers to the question whether non-compliance with section 79(6) was intended to be fatal to the validity of a RTM scheme. In case B, the visible landlord who was not given a claim notice has its right to make a valid objection overridden in the same way as the invisible landlord in case A, if the failure to give it a claim notice was not fatal to the validity of the scheme. That cannot, we think, have been Parliament&#8217;s intention, since it would render nugatory the carefully drawn boundaries of the dispensation from the obligation to give a claim notice, which only apply to invisible landlords and other stakeholders. But in case C, if the failure to give the claim notice to the second landlord is always fatal to the validity of the scheme, then a scheme would founder for the purely procedural reason that a landlord was deprived of the valueless opportunity to make a hopeless objection to the validity of a scheme which has in fact been tested by the tribunal and found to be compliant. That would be contrary to the approach laid down in <span style="font-style:italic">Soneji</span>. The answer to this conundrum is, in our view, to be found by recognising that the critical difference between cases A and B on the one hand and case C on the other is that only in case C has the issue as to the substantive validity of the scheme made its way to the tribunal by a route sanctioned under the statutory framework, and then been determined in favour of validity. In such a case (provided that it is offered membership of the RTM company) the landlord or other stakeholder has lost nothing of value by the RTM company&#8217;s failure to give it a claim notice to which it was entitled under section 79(6).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num>86.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The force of this reasoning is reinforced in the circumstances of the present case, where the appellant is in fact joined to the proceedings in the tribunal and thus has been afforded the opportunity to support the objections to the scheme presented by the Management Company. It has had the same opportunity of participation which it would have had if it had been given a claim notice in the first place in accordance with section 79(6). But the reasoning above does not depend upon this feature of the case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num>87.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">We consider that the simplest way to provide a legal formula to give effect to Parliament&#8217;s intention as to the consequences of the failure to give a claim notice to a visible landlord or other stakeholder under section 79(6) flowing from analysis in accordance with the approach in <span style="font-style:italic">Soneji </span>is that the failure renders the transfer of the right to manage voidable, at the instance of the relevant landlord or other stakeholder who was entitled to, but not given, a claim notice, but not void. It is voidable unless, or until, the tribunal approves the transfer scheme, as the outcome of the resolution of the dispute as to entitlement caused by a counter-notice by a person actually given a claim notice, or as the result of an application by the RTM company under section 85. If the scheme is disapproved by the tribunal, the RTM company will have to start again in any event. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num>88.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> Of course, a consequence that the scheme is only rendered voidable is that the person with the right to seek avoidance can disclaim or otherwise abandon that right whereas, if it rendered the scheme void, the subsequent conduct of the relevant landlord or stakeholder would be irrelevant. There are numerous indications in this part of the CLRA that persons with a right to object should be able to waive that right. There is no jurisdiction in the tribunal to revisit and undo a transfer of the right to manage which has purportedly occurred as a result of the operation of section 90 or a determination of the tribunal, so the way in which a challenge would be brought would be by proceedings in the High Court simply seeking a declaration of rights (in the former situation) or seeking judicial review of the order of the tribunal and a declaration (in the latter). Since the exercise of a right to avoid is generally subject to equitable considerations, delay or other unconscionable conduct of the relevant landlord or other stakeholder could lead to the right to avoid being lost, or refused as a matter of discretion.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num>89.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">When the right to manage is transferred to a RTM company under the statutory regime, the effect is to consolidate management control in that company, since otherwise the position could be chaotic and confusing for all concerned. However, before that outcome is arrived at, the expectation of a right of participation in the procedure is as we have stated above. The fact that the outcome is sensible does not justify skimping on the procedural protections provided for. Nor, in our view, does the fact that the central concern of the regime is to effect the transfer of the right to manage premises mean that the impact on other contractual rights which are affected can be overlooked. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num>90.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is important to bear in mind that the grounds of objection allowed by the CLRA scheme are very limited. For example, if a RTM company has been properly established with relevant participation by qualifying tenants, there is no ground of objection on the basis of the quality of the management skills likely to be provided by the company. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num>91.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In our view, in evaluating whether a procedural failure under the regime has the effect of invalidating the process, the question to be addressed is whether a relevant party has been deprived of a significant opportunity to have their opposition to the making of an order to transfer the right to manage considered, having regard to (a) what objections they could have raised and would have wished to raise and (b) whether, despite the procedural omission, they in fact had the opportunity to have their objections considered in the course of the process leading to the making of the order to transfer the right to manage. If there was no substantive objection which they could have raised or would have wished to raise, they have lost nothing of significance so far as the regime is concerned and the inference is that Parliament intended that the transfer of the right to manage should be effective notwithstanding the omission. If their objection has in fact been considered in the process, even though the claim notice was not served at the proper time, again they have lost nothing of significance so far as the regime is concerned and the inference as to Parliament&#8217;s intention is the same. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num>92.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In both cases, the focus is on the position of the party directly affected by the procedural omission. The omission does not give other persons who are not so affected (for example, other landlords who have been properly served with a claim notice) a right to object to the making of a transfer order if the party who is so affected has not sought to complain about this. There is no good reason to suppose that Parliament intended that a person which has not itself been affected by a procedural omission in relation to another should acquire, by a windfall, a power to thwart the operation of the statutory process which it would not otherwise have enjoyed. If a party with a potentially valid substantive objection has not been properly served and has been left out of the process, they have a right to apply to the High Court, as explained above. Hence a RTM company cannot simply ignore them with impunity.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num>93.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It follows from our reasoning above that the result in <span style="font-style:italic">Elim Court </span>was correct. In that case it was a landlord who had been served with the claim notice who sought to rely on a procedural omission in relation to another, intermediate landlord in order to undermine the transfer of the right to manage. That intermediate landlord, that is the person whose procedural rights had been affected, had not sought to be joined in the proceedings to assert their rights. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num>94.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Although the parties in this appeal debated the issue in terms of whether the claim notice served by the respondent on the appellant was valid or invalid, this is best regarded as convenient shorthand. Mr Rainey KC, for the intervener, correctly pointed out that the relevant legal question is not whether the claim notice issued by the respondent was valid, since to the extent it was issued and given to the Freeholder and the Management Company it clearly was valid in the sense that it was what it purported to be and was effective to give notice of the claim to those parties as was required. Rather, the legal question is whether the service of the claim notices on the Freeholder and the Management Company was a sufficient foundation for the commencement of the statutory procedure for the transfer of the right to manage, so that, in the event of a dispute, the tribunal would be clothed with authority to order the transfer of that right to the respondent RTM company, or whether the omission of service of a copy of the claim notice on the appellant intermediate landlord in this case required a negative answer to be given to that question.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num>95.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Bates KC, for the appellant, submitted that there was a material point of distinction from <span style="font-style:italic">Elim Court</span> in that in that case an attempt had been made to serve the claim notice, even though it failed. In our view, however, that was not a significant point in the case. Nor is it a significant point, in terms of the <span style="font-style:italic">Soneji </span>analysis, appropriate in the context of the CLRA. The effect on the appellant was the same as if an attempt had been made to serve the claim notice on it which had failed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num>96.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On the other hand, by contrast with the approach in <span style="font-style:italic">Elim Court</span>, the fact that the appellant did not have management functions also is not the critical point. The important feature in the present case is that the tribunal made a determination pursuant to section 84 on the objections which were available to the appellant. It is also a significant, though not critical, feature of the case that the appellant in fact had the opportunity to present those objections to the tribunal. In those circumstances, having regard to the main purpose of the CLRA scheme, as explained above, there is no sound reason to infer that Parliament intended the transfer process to be ineffective. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num>97.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A further point emphasised by Mr Bates is that it is easy for a RTM company to start new proceedings by serving a new claim form. Therefore, he says, it should be inferred that Parliament intended that there should be strict compliance with the procedural requirements in the statutory regime. However, we do not consider that this is correct. Two points may be made.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num>98.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, the purpose of the legislative scheme as explained in the Consultation Paper includes the objective that opportunities for obstructive landlords to thwart the transfer of the right to manage should be kept to a minimum. The procedural requirements have not been included to create traps for the unwary, nor to afford unwarranted opportunities for obstruction on the part of objecting landlords who have not themselves been significantly affected by any particular omission to comply with them. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num>99.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">These issues are of serious concern generally, and especially so given that there is no register of relevant landlords on whom a claim notice should be served. As explained above, these include landlords under short term leases which will not appear on the Land Register or in any other accessible record. A relevant lease does not even have to be written: section 112(2). The tenants may therefore lack any practical means to determine with confidence whether there are intermediate landlords. Although section 82(1) gives a right to a RTM company to obtain certain information, that does not meet the point. The company may be unaware that there is anyone about whom they should be asking for information. The fact that a RTM company has a chance to start again does not undermine these basic considerations.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num>100.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, the context in which the CLRA applies has to be taken into account. There is no guarantee that a RTM company will be in funds to be able to afford to make multiple applications. A RTM company might be formed by just two tenants, or a small group of tenants, with limited resources. The company may be counting on being put in funds to carry out the management functions only once the right to manage is transferred to it. Therefore, to impose on a RTM company an obligation to re-start the process if it happens to omit to comply with any procedural requirement would tend to undermine to an unwarranted degree the ability of tenants and RTM companies to pursue the remedy in respect of problems regarding the management of their building which Parliament intended should be available to them. It is only where a landlord or other stakeholder can show that it has lost a right to assert an objection which has substantive force in the context of the legislative scheme that it may be inferred that the transfer of the right to manage should be voidable and capable of being set aside by the person affected. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num>101.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Bates placed considerable emphasis on certain provisions of the CLRA which he maintained showed that the failure by the respondent to comply with the procedural rule in section 79(6)(a) was fatal to the validity of the claim notice and hence to the validity of the decision by the tribunal. We address these in turn.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num>102.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Bates submits that section 78(7) (para 31 above), which states in positive terms that a notice of invitation to participate &#8220;is not invalidated by any inaccuracy in any of the particulars required&#8221; under section 78, shows by implication that a failure to comply with other procedural provisions in Chapter 1 of the CLRA <span style="font-style:italic">is</span> intended to invalidate the process. We do not agree. The fact that the statute specifies in terms that some failures do not invalidate the process&#8212;and so, in respect of those failures, obviates the need to undertake a <span style="font-style:italic">Soneji </span>analysis&#8212;simply leaves at large what should be the consequences of failures to comply with other procedural rules. Parliament has made no express stipulation as to that, which is precisely the situation in which the <span style="font-style:italic">Soneji </span>analysis is applicable.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num>103.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Next, Mr Bates relied on section 79(7) (para 32 above), which he maintained was the strongest statutory indication in support of his submission. However, in our view, this point is answered in a similar way. Section 79(7) says in terms that the requirement of service of the claim notice (section 79(1) read with section 79(6)) is disapplied in respect of &#8220;a person who cannot be found or whose identity cannot be ascertained&#8221;. The premise for the debate in the appeal is that the respondent RTM company is unable to rely on that provision (so we do not need to examine what exactly is meant by that phrase); but rather is subject to the obligations of service set out in section 79(6). Parliament has not expressly stipulated what the consequence of non-compliance with those obligations should be, so the <span style="font-style:italic">Soneji </span>analysis is applicable.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num>104.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Bates also relied on section 81(1) and (2) (para 34 above), which state that a claim notice is not invalidated by certain inaccuracies in the particulars given in the notice. The same analysis applies. These are simply examples of provisions where Parliament has stated in terms what the outcome of a failure of compliance with certain of the procedural rules should be, thereby making it unnecessary and inappropriate to conduct a <span style="font-style:italic">Soneji </span>analysis. But where Parliament has not so stipulated, an analysis according to the approach in <span style="font-style:italic">Soneji </span>is required. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num>105.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Finally, Mr Bates submitted that where an intermediate landlord is not served with the claim notice as required, it loses the opportunity to join the RTM company and prepare for the transfer of rights at the earliest opportunity. However, we do not regard these matters as critical features of the statutory scheme. We have already noted that the landlord&#8217;s right to become a member of the RTM company is not dependent upon being given a claim notice. Section 81(1) shows that Parliament&#8217;s general approach included allowing some departure from strict compliance with all procedural requirements. Section 90 makes provision for the acquisition date. Where, as in this case, the right to manage is acquired by the RTM company by virtue of a determination of the tribunal, the acquisition date is three months after the determination becomes final: section 90(4) (para 40 above). This indicates the time which Parliament considered was appropriate to allow for arrangements to be made for the handover of responsibilities, and the appellant and other parties have had the benefit of this. Overall, these points cannot outweigh the more significant indications as to Parliament&#8217;s intention which we have explained above.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <num style="font-weight:bold">(6)</num>
+	  <heading class="ParaHeading1" style="text-align:justify;text-indent:0.5in"><span style="text-transform:none">Conclusion</span></heading>
+	  <paragraph eId="para_106">
+	    <num>106.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> For the reasons we have given, we would dismiss the appeal. Our reasoning differs from that in the two leading Court of Appeal decisions in this area, <span style="font-style:italic">Natt v Osman </span>and <span style="font-style:italic">Elim Court</span>, which require qualification as explained above. </p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

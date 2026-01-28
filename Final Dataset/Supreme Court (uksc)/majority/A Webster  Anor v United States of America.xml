@@ -1,0 +1,806 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/92"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/92"/>
+	  <FRBRdate date="2022-06-24" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="92"/>
+	  <FRBRname value="A Webster &amp; Anor v United States of America"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/92"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/92"/>
+	  <FRBRdate date="2022-06-24" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/92/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/92/data.xml"/>
+	  <FRBRdate date="2024-11-09T02:41:05" name="transform"/>
+	  <FRBRdate date="2024-11-26T11:52:12" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-06-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>92</uk:number>
+	<uk:cite>[2022] EAT 92</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>943dbd1fcb6646f6ec9ff6fde85384a2f7d6f1a60f7c958b98aed100e0b62a26</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Mrs A Webster v United States of America</span></p>
+      <p><marker name="tab"/><span style="vertical-align:super;font-size:9pt;font-family:'Times New Roman'">Miss C Wright v United States of America</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2022] EAT 92</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case Nos: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2019-001203-OO</docketNumber></p>
+      <p style="text-align:right"><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2019-001142-OO</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2022-06-24" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">24 June 2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">Mrs A Webster</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">United States of America</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></p>
+      <p style="text-align:center"><marker name="tab"/><span style="font-weight:bold;font-size:12pt">Miss C Wright</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">United States of America</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Tristan Jones and Celia Rooney</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Advocate) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellants</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Professor Dan Sarooshi Q.C. and Andrew Legg</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Lewis Silkin LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 25 May 2022</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Jurisdiction</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The employment judge did not err in law in concluding that state immunity applied to the claimants who were civilian employees of the United States of America working for the United States Airforce.</span></heading>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This appeal concerns the circumstances in which the doctrine of state immunity may prevent former civilian employees of the United States of America, who worked for the United States Airforce Europe (USAFE), in the United Kingdom, from bringing claims in the employment tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Anthea Webster commenced work at RAF Lakenheath (a base that is operated entirely by USAFE). She worked managing USAFE military records. Mrs Webster was dismissed on 10 October 2017 after a period of ill health absence. Mrs Webster describes herself as black and of Afro-Caribbean heritage. Mrs Webster contends that she is disabled by reason of Complex Regional Pain Syndrome. On 5 September 2017, before her dismissal, Mrs Webster presented a claim to the employment tribunal asserting that she had been subjected to unlawful sex, race, age and disability discrimination, that she had suffered an unauthorised deduction from wages and, possibly, that she had been subject to protected disclosure detriment. Following her dismissal, Mrs Webster presented a second claim on 10 November 2017 claiming unfair dismissal, age, sex, race and disability discrimination. A component of Mrs Webster&#8217;s claim is that she was, or should have been, carrying out the role of Base Records Manager (&#8220;BRM&#8221;). The respondent contended that the BRM Role at RAF Lakenheath was designated for military personal only. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 19 May 2013 Caroline Wright began working as a firefighter at RAF Croughton (another base that is operated entirely by USAFE). RAF Croughton is an intelligence and communications centre from which flying operations are not conducted. On occasions Miss Wright worked at RAF Fairford where flying operations take place. Miss Wright was diagnosed with epilepsy in early 2017. Thereafter she was taken off firefighting duties because the US National Fire Protection Association (&#8220;NFPA&#8221;) guideline set out periods for which firefighters with conditions such as epilepsy must not have had a seizure before being permitted to return to firefighting duties.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The preliminary hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The state immunity issue was considered at a preliminary hearing on 7, 8, 9 &amp; 10 October 2019 and in chambers on 11 October 2019. Employment Judge Foxwell held that state immunity applied and dismissed the claims.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants appealed asserting two grounds of appeal. The first ground of appeal was permitted to proceed, in terms that are the same for both claimants:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal erred in deciding that the Claimant&#8217;s role involved her in the public or governmental functions of the United States of America such as to engage the State Immunity doctrine.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Notices of Appeal included under the heading &#8220;Further Information&#8221; in respect of the first ground:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further, insofar as the ET at [115] placed weight on the prospect that the Claimant&#8217;s claim may involve a judicial investigation into the policies and objectives of the United States, it was wrong to do so. The claim does not involve any challenge to such policies sufficient to engage the State Immunity</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">doctrine; alternatively, the Tribunal should have permitted those parts of the claim which do not involve such a challenge to proceed.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Tristan Jones and Celia Rooney, who represent the claimants in their appeals, through the auspices of Advocate, assert at paragraph 5 of their skeleton argument:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">5.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Appellants contend that the Employment Judge misapplied the doctrine of sovereign state immunity in two material respects.  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">5.1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:1.18in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, the Judge focused too heavily on the general context of the Appellants&#8217; employment, which in each case was at a military base, and failed to give proper consideration to whether each of the Appellants was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">personally engaged</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> in the exercise of the public or governmental functions of the Respondent state. Neither of the Appellants was, in fact, so engaged. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">5.2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:1.18in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Second, the Judge wrongly concluded that the claims would involve &#8220;judicial investigation&#8221; into the Respondent&#8217;s policies and objectives sufficient to engage the doctrine of state immunity. In fact, no such investigation is or would have been required; alternatively, insofar as it is, the correct approach was for the ET to permit those parts of the claim which did not involve any such investigation to proceed.  </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Professor Sarooshi QC and Andrew Legg, who represented the Respondent in the appeal, as they did in the employment tribunal (where the claimants represented themselves), assert that the second matter raised in the claimants&#8217; skeleton argument does not form a part of the ground of appeal that has been permitted to proceed. While the point is referred to in the &#8220;additional information&#8221;, it does not form part of the first ground of appeal, but raises a separate point of law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second ground of appeal, asserting that the application of the state immunity doctrine in these cases was &#8220;contrary to Article 47 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EU Charter of Fundamental Rights</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221; was not permitted to proceed.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The Law </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">State immunity is part of the common law and of customary international law. As a matter of common law the doctrine historically was absolute, unless the state chose to waive the immunity. The position changed as a result of the judgment of the House of Lords in </span><span style="font-weight:bold;font-size:12pt">I Congreso del Partido</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[1983] 1 AC 244" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 A.C. 244</ref> which introduced into the common law the &#8220;restrictive theory&#8221; of state immunity. Lord Wilberforce held, at 262 C-G:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is necessary to start from first principle. The basis upon which one state is considered to be immune from the territorial jurisdiction of the courts of another state is that of &#8220;par in parem&#8221; which effectively means that the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">sovereign or governmental acts of one state are not matters upon which the courts of other states will adjudicate</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The relevant exception, or limitation, which has been engrafted upon the principle of immunity of states, under </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the so called &#8220;restrictive theory,&#8221; arises from the willingness of states to enter into commercial, or other private law, transactions with individuals</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. It appears to have two main foundations: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">(a) It is necessary in the interest of justice to individuals having such transactions with states to allow them to bring such transactions before the courts. (b) To require a state to answer a claim based upon such transactions does not involve a challenge to or inquiry into any act of sovereignty or governmental act of that state</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. It is, in accepted phrases, neither a threat to the dignity of that state, nor any interference with its sovereign functions.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">When therefore a claim is brought against a state &#8230; and state immunity is claimed, it is necessary to consider what is the relevant act which forms the basis of the claim: is this, under the old terminology, an act &#8220;jure gestionis&#8221; or is it an act &#8220;jure imperii&#8221;: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">is it</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (to adopt the translation of these catchwords used in the &#8220;Tate letter&#8221;) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">a</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;private act&#8221; or is it a &#8220;sovereign or public act,&#8221;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> a private act meaning in this context an act of a private law character such as a private citizen might have entered into? It is upon this point that the arguments in these appeals is focussed. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">[emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was a degree of codification in the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">State Immunity Act 1978</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The 1978 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is not applicable in this case because section 16(2) excludes &#8220;anything done by or in relation to the armed forces of a State while present in the United Kingdom&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The common law doctrine of state immunity was considered in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Holland v Lampen-Wolfe</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2000] 1 WLR. 1573" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR. 1573</ref>, in which Lord Clyde held at 1579 F to G:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to the common law as it has now developed the distinction has to be made between claims arising out of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">acts done in the exercise of a state&#8217;s sovereign authority</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">claims not so arising</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, that is </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">typically claims arising out of commercial transactions such as might be undertaken by private individuals</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. Expressed in the traditional Latin labels, which are convenient as words of reference but do not assist significantly in the application of the distinction, the distinction is between matters jure imperii and matters jure gestionis. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The &#8220;restrictive&#8221; theory</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> which through the decisions in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">The Philippine Admiral</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1977] AC 373" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1977">[1977] A.C. 373</ref> and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">I Congreso del Partido</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1983] 1 AC 244" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 A.C. 244</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">has been adopted into the laws of the United Kingdom</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> calls for this distinction to be made, but it is one which in some cases may be subtle and delicate to define &#8230; </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">[emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">He went on to state at 1580 E to G</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The solution in any particular case where the question of state immunity arises at common law has to be one of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">analysis of the particular facts against the whole context in which they have occurred</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. There is </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">little if anything to be gained by trying to fit the case into a particular precedent or to devise categories of situations which may or may not fall on the one side of the line</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> or the other. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">It is the nature and character of the activity on which the claim is based which has to be studied, rather than the motive or purpose of it.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The solution will turn upon an assessment of the particular facts.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> The line between sovereign and non-sovereign state activities may sometimes be clear, but in other cases may well be difficult to draw. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">[emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Lord Millett described state immunity as a &#8220;subject-matter&#8221; immunity, at 1583 D:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The doctrine of state immunity</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is an established rule of customary international law that one state cannot be sued in the courts of another for acts performed jure imperii. The immunity does not derive from the authority or dignity of sovereign states or the need to protect the integrity of their governmental functions. It derives from the sovereign nature of the exercise of the state&#8217;s adjudicative powers and the basic principle of international law that all states are equal. The rule is &#8220;par in parem non habet imperium:&#8221; see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">I Congreso del Partido</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1983] 1 AC 244" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 1 A.C. 244</ref> , 262, per Lord Wilberforce. As I explained in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Reg. v. Bow Street Metropolitan Stipendiary Magistrate, Ex parte Pinochet Ugarte (No. 3)</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2000] 1 AC 147" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 A.C. 147</ref>, 269, it is </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">a subject-matter immunity</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">It operates to prevent the official and governmental acts of one state from being called into question in proceedings before the courts of another</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The application of state immunity to employment was considered by the Supreme Court in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche v Embassy of the Republic of Sudan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2017/62" uk:canonical="[2017] UKSC 62" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKSC 62</ref>, <ref href="#" uk:canonical="[2019] AC 777" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] A.C. 777</ref>. Lord Sumption held that the underlying test is that established in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">I Congreso del Partido</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Application to contracts of employment</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">53.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As a matter of customary international law, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">if an employment claim arises out of an inherently sovereign or governmental act of the foreign state, the latter is immune</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. It is not always easy to determine which aspects of the facts giving rise to the claim are decisive of its correct categorisation, and the courts have understandably avoided over-precise prescription. The most satisfactory general statement is that of Lord Wilberforce in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">The I Congreso</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> , at p 267 &#8230;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">[emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Lord Sumption described the nature of state immunity:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">State immunity is a mandatory rule of customary international law which defines the limits of a domestic court&#8217;s jurisdiction. Unlike diplomatic immunity, which the modern law treats as serving an essentially functional purpose, state immunity does not derive from the need to protect the integrity of a foreign state&#8217;s governmental functions or the proper conduct of inter-state relations. It derives from the sovereign equality of states. Par in parem non habet imperium. In the modern law the immunity does not extend to acts of a private law character. In respect of these, the state is subject to the territorial jurisdiction of the forum in the same way as any non-state party.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The case concerned domestic workers in diplomatic missions to whom state immunity applied by virtue of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">State Immunity Act 1978</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The Supreme Court held that the relevant provisions of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/1978/33" uk:canonical="1978 c. 33" uk:origin="TNA" uk:type="legislation">State Immunity Act 1978</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> were incompatible with article 47 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Charter of Fundamental Rights of the European Union</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and with article 6 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Convention for the Protection of Human Rights and Fundamental Freedoms</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, because there was no basis in customary international law for the application of state immunity in an employment context to acts of a private law character such as the employment of purely domestic staff in a diplomatic mission. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Lord Sumption considered how to assess whether the employment of a person is subject to state immunity:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the great majority of cases arising from contract, including employment cases, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the categorisation will depend on the nature of the relationship between the parties to which the contract gives rise</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. This will </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">in turn depend on the functions which the employee is employed to perform</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Vienna Convention on Diplomatic Relations divides the staff of a diplomatic mission into three broad categories: (i) diplomatic agents, i e the head of mission and the diplomatic staff; (ii) administrative and technical staff; and (iii) staff in the domestic service of the mission</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. Diplomatic agents participate in the functions of a diplomatic mission defined in article 3, principally representing the sending state, protecting the interests of the sending state and its nationals, negotiating with the government of the receiving state, ascertaining and reporting on developments in the receiving state and promoting friendly relations with the receiving state. These functions are inherently governmental. They are exercises of sovereign authority. Every aspect of the employment of a diplomatic agent is therefore likely to be an exercise of sovereign authority. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The role of technical and administrative staff is by comparison essentially ancillary and supportive. It may well be that the employment of some of them might also be exercises of sovereign authority if their functions are sufficiently close to the governmental functions of the mission.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Cypher clerks might arguably be an example. Certain confidential secretarial staff might be another:</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Governor of Pitcairn v Sutton</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [1995] 1 NZLR 426 (New Zealand Court of Appeal). However, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">I find it difficult to conceive of cases where the employment of purely domestic staff of a diplomatic mission could be anything other than an act jure gestionis.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The employment of such staff is not inherently governmental. It is an act of a private law character such as anyone with the necessary resources might do. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Thus, the test for state immunity in respect of the employment of a person depends on whether the relationship between the parties arises from the state&#8217;s sovereign act in employing the individual, because the functions carried out by the person are sovereign or governmental. In such cases the employment of the individual is inherently sovereign and so covered by state immunity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Lord Sumption held that this was consistent with the approach of the European Court of Human Rights:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This approach is supported by the case law of the European Court of Human Rights, which I have already summarised. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Cudak v Lithuania</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> 51 EHRR 15, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Sabeh El Leil v France</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> 54 EHRR 14 , </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Wallishauser v Austria</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> CE:ECHR:2012:0717JUD000015604 and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Radunovic v Montenegro</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> 66 EHRR 19 , all cases concerning the administrative and technical staff of diplomatic missions, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the test applied by the Strasbourg court was whether the functions for which the applicant was employed called for a personal involvement in the diplomatic or political operations of the mission, or only in such activities as might be carried on by private persons</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Mahamdia v People&#8217;s Democratic Republic of Algeria</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (<ref href="#" uk:canonical="Case C-154/11" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-154/11</ref>) <ref href="#" uk:canonical="[2013] ICR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] ICR 1</ref> , paras 55-57 the Court of Justice of the European Union applied the same test, holding that the state is not immune &#8220;where </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the functions carried out by the employee do not fall within the exercise of public powers</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221;. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The United States decisions are particularly instructive</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, because the Foreign State Immunity Act of the United States has no special provisions for contracts of employment. They therefore fall to be dealt with under the general provisions relating to commercial transactions, which have been interpreted as confining state immunity to exercises of sovereign authority: see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Saudi Arabia v Nelson</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (1993) 507 US 349 , 360. The principle now applied in all circuits that have addressed the question is that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">a state is immune as regards proceedings relating to a contract of employment only if the act of employing the plaintiff is to be regarded as an exercise of sovereign authority having regard to his or her participation in the diplomatic functions of the mission</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">: see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Segni v Commercial Office of Spain</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (1987) 835 F 2d 160 , 165 and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Holden v Canadian Consulate</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (1996) 92 F 3d 918 . </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Although a foreign state may in practice be more likely to employ its nationals in those functions, nationality is in itself irrelevant to the characterisation</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">: see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">El-Hadadv United Arab Emirates</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (2000) 216 F 3d 29 , 31-32, paras 4, 5. In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Park v Shin</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (2002) 313 F 3d 1138 , 1145, paras 12-14, it was held that &#8220;the act of hiring a domestic servant is not an inherently public act that only a government could perform&#8221;, even if her functions include serving at diplomatic entertainments. A very similar principle has been consistently applied in recent decisions of the French Cour de Cassation: see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Barrandon v United States of America</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (1998) 116 ILR 622 ; </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Coco v State of Argentina</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (1996) 113 ILR 491 and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Saigniev Embassy of Japan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (1997) 113 ILR 492 . In the last-named case, at p 493, the court observed that the employee, a caretaker at the premises of the mission, had not had &#8220;any special responsibility for the performance of the public service of the embassy&#8221;.</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Although the examples given by Lord Sumption were specific to employment in diplomatic missions, the analysis that there will be some roles that inherently involve sovereign or governmental functions, some that inevitably do not (such as domestic workers) and others which may or may not, depending on an analysis of whether the functions that are actually undertaken by the individual are sufficiently close to governmental functions, can assist in other circumstances.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Professor Sarooshi, for the respondent, accepted that the authorities establish that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.08in;text-indent:-0.49in">22.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> in considering whether the functions of an employee are sovereign or governmental it is necessary to consider what the employee actually does, rather than what the employee could be required to do under a contract of employment, or how they are described in their job title or description </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.08in;text-indent:-0.49in">22.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the functions of the employee are not to be assumed because of the entity for whom, or the location at which, the work is performed</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, the fact that domestic staff were employed at diplomatic missions did not mean that they were engaged in sovereign or governmental functions. The opposite was the case because the domestic duties of the employees were incapable of being sovereign or governmental functions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In a somewhat historical case, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Sengupta v Republic of India </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="#" uk:canonical="[1983] ICR 221" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] ICR 221</ref>, the application of state immunity was considered in the case of a person who was employed in a role described as a &#8220;low clerical grade where he enjoyed very limited diplomatic privileges&#8221;. Browne-Wilkinson J set out what he considered to be the components of the overall test, at 228 D to E:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In our judgment, in seeking to decide whether the claim in this case is excluded by the doctrine of sovereign immunity, we must ask the following questions: (a) Was the contract of a kind which a private individual could enter into? (b) Did the performance of the contract involve the participation of both parties in the public functions of the foreign state, or was it purely collateral to such functions? (c) What was the nature of the breach of contract or other act of the sovereign state giving rise to the proceedings? (d) Will the investigation of the claim by the tribunal involve an investigation into the public or sovereign acts of the foreign state?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not consider that point b involves a test that significantly differs to the test in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> for determining whether a person is employed in a role in which their actual functions are sovereign or governmental.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, in applying point b, the Employment Appeal Tribunal analysed the employment of the claimant as necessarily involving sovereign function because he worked at a diplomatic mission:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">If we have asked ourselves the right questions, then in our judgment the necessary result must be that there is no jurisdiction to entertain the applicant&#8217;s claim. It is true that any private individual can employ another, i.e. can enter into a contract of employment. Therefore in that sense the entry into a contract of employment is a private act. But when one looks to see what is involved in the performance of the applicant&#8217;s contract, it is clear that the performance of the contract is part of the discharge by the foreign state of its sovereign functions in which the applicant himself, at however lowly a level, is under the terms of his contract of employment necessarily engaged. One of the classic forms of sovereign acts by a foreign state is the representation of that state in a receiving state. From the doctrine of sovereign immunity were derived the concepts that the embassy premises were part of the soil of the foreign sovereign state, and that diplomatic staff are personally immune from local jurisdiction. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">A contract to work at a diplomatic mission in the work of that mission is a contract to participate in the public acts of the foreign sovereign.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> The dismissal of the applicant was an act done in pursuance of that public function, i.e. the running of the mission. As a consequence, the fairness of any dismissal from such employment is very likely to involve an investigation by the industrial tribunal into the internal management of the diplomatic representation in the United Kingdom of the Republic of *229 India, an investigation wholly inconsistent with the dignity of the foreign state and an interference with its sovereign functions. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">[emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Professor Sarooshi accepted that the analysis that work </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">at</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> a diplomatic mission </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">necessarily</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> involves participation in public acts of a foreign sovereign, cannot stand, because it is inconsistent with the reasoning of the Supreme Court in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, and was expressly disapproved.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Matters other than the nature of the functional role that a person is engaged to perform may result in state immunity applying. Take the example of a member of domestic staff at a diplomatic mission. The employment itself will not be subject to state immunity. But, if the domestic worker is dismissed because of accessing state secrets, the dismissal may be subject to state immunity because it is the exercise of a sovereign power and investigating it would involve consideration of the state&#8217;s arrangement for security at their diplomatic missions. This alternative basis for state immunity was considered by Lord Sumption in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I would, however, wish to guard against the suggestion that the character of the employment is always and necessarily decisive. Two points should be made, albeit briefly since neither is critical to this appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The first is that a state&#8217;s immunity under the restrictive doctrine may extend to some aspects of its treatment of its employees or potential employees which engage the state&#8217;s sovereign interests, even if the contract of employment itself was not entered into in the exercise of sovereign authority. Examples include claims arising out of an employee&#8217;s dismissal for reasons of state security. They may also include claims arising out of a state&#8217;s recruitment policy for civil servants or diplomatic or military employees, or claims for specific reinstatement after a dismissal, which in the nature of things impinge on the state&#8217;s recruitment policy. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Jones, for the claimants, accepted that the question of whether the employment of staff is a sovereign act because the person undertakes sovereign or governmental duties is separate to the question of whether the termination of such an engagement, or investigations undertaken by the state into the actions of the person, are protected by state immunity.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The facts found and analysis of the employment tribunal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment tribunal made findings of fact and carried out its analysis for each claimant clearly and concisely, but in a manner that requires that the relevant sections of the judgment be read together. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment tribunal made key findings of fact under the heading &#8220;Mrs Webster&#8217;s role at RAF Lakenheath&#8221;:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster responded to an advertisement for an &#8216;Office Automation Assistant&#8217; [43].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster was initially given the task of sorting historical records going back many years. She showed great aptitude and soon took on further responsibilities for records management [44].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The United States Code (&#8220;USC&#8221;) sets out rules for the maintenance, disposal and archiving of state records that are given effect to in the Department of Defence (&#8220;DoD&#8221;) though its Records Management Program contained in DoD Instruction 5015.02 [46]. These rules applied to the work Mrs Webster undertook. The instruction provided:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Effective and efficient management of records provides the information foundation for decision making at all levels, mission planning and operations, personnel and veteran services, legal inquiries, business continuity, and preservation of US history.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">USAF implemented the DoD&#8217;s Records Management Program through Air Force Instruction (&#8220;AFI&#8221;) 33-322. Mrs Webster knew and understood the terms of the Instruction and provided training on records management, based on it, to service and civilian personnel [47]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Records Custodians (&#8220;RCs&#8221;) are given the primary task of compiling records. This was an additional and often unpopular duty for service personnel [48]. RCs were overseen by Functional Area Records Managers (&#8220;FARMs&#8221;) [49]. Mrs Webster was responsible for training RCs and FARMs and overseeing their compliance with relevant standards [50].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster was permitted to use base vehicles to attend units to carry out inspections of their record keeping practices [51].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster could theoretically access confidential or sensitive information, but in practice this would have been difficult because she was usually in sight of others and there would have been insufficient time to read or look at individual documents. More importantly, Mrs Webster is a person of integrity who would not do such a thing [52].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster</span><span style="font-size:12pt"> trained herself on the Air Force Records Information Management System (&#8220;AFRIMS&#8221;) and then trained other people on how to use it correctly and effectively [53].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster </span><span style="font-size:12pt">oversaw basic records management training which was delivered through an on-line course to all military personnel joining the base [53].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A further aspect of Mrs Webster&#8217;s work concerned the destruction or archiving of records. Documents had to be checked and boxed correctly and then were sent to National Archives and Records Administration (NARA) in Washington DC or the Pentagon depending on their classification [54].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster dealt </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">with Freedom of Information Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Privacy Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> requests made by US citizens under US law [55].  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Appraisals for the financial year beginning April 2012 showed Mrs Webster&#8217;s job title as &#8220;Knowledge Operation Manager&#8221;. Her performance was rated outstanding in every year apart from the first when it was rated &#8216;very good&#8217; [56]. The job title &#8220;Knowledge Operations Manager&#8221; was repeated in service awards given to Mrs Webster. Personnel records continued to refer to her as an &#8220;Office Automation Assistant&#8221; until October 2016, when her title was changed to &#8220;Assistant Base Records Manager&#8221; [57].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">31.13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The organisational chart demonstrated that Mrs Webster&#8217;s role fell under a line of command culminating in the Communications Squadron Leader and involving other military personnel [58].  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge set out his analysis under the heading &#8220;Did Mrs Webster&#8217;s role involve her in the public or governmental functions of the United States of America?&#8221;, concluding:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">32.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mrs Webster&#8217;s role involved the maintenance, preservation and where appropriate, destruction of US military records [112].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">32.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge stated &#8220;In my judgment, military record keeping is a function of the state, the importance of which is illustrated in this case by the provisions of the USC, the DoD Instruction and the AFI Instruction concerning record-keeping described above. Additionally, such records may be classified because they contain state secrets&#8221; and &#8220;Further evidence that records management is a governmental activity of the United States is the fact that records are archived nationally in Washington DC or at the Pentagon&#8221; [113].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">32.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;The provision of training on record keeping and inspection to ensure compliance with record keeping procedures, is also, in my judgment, an extension of the same state function&#8221; [114].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">32.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Litigation of claims of discrimination in the Employment Tribunal is likely to involve judicial consideration of the policies and objectives of the United States in its management of record keeping and of the staff who work within it. The United States might be called on to justify objectively treatment which might otherwise be unlawful under the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> were it to apply. In my judgment this would amount to an investigation by a British tribunal into the sovereign acts of a foreign state&#8221; [115]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment tribunal&#8217;s key findings of fact were made under the heading &#8220;Miss Wright&#8217;s role at RAF Croughton&#8221;:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright began working for USAFE as a firefighter in May 2013 as a local national direct hire Firefighter (Basic Life Support), Grade 7 [62].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Miss Wright was based at RAF Croughton, an intelligence gathering centre with no flying operations.  The FES at RAF Croughton was part of the Civil Engineering Squadron, which in turn was part of the Mission Support Group&#8221; [73].  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright sometimes did shifts at RAF Fairford (where operational flying takes place) and occasionally at RAF Welford [63]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The main purpose of Miss Wright&#8217;s role was preservation of life and the protection of property. In addition, large airfields operating military flights have specific safety requirements for fire cover because of the possibility of dangerous payloads, damaged planes and, in extremis, an attack on the airfield itself [64].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">DoD Instruction 6055-56 requires military branches to establish a Fire and Emergency Service (&#8220;FES&#8221;) with the aim of protecting DoD personnel and the public, preventing or minimising injury and damage to property or the environment, assisting civil authorities under mutual aid agreements and enhancing &#8220;mission capability&#8221;. Paragraph 4 of the Instruction describes mission capability as being enhanced by protecting US Bases through prevention, education and emergency response [64].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Paragraph 1 of the Air Force Emergency Management Program states its purpose is &#8220;the protection of the American people, their way of life and advancing their influence in the world&#8221;. Paragraph 3 describes the policy as a means of &#8220;sustaining mission assurance, enhancing maintainance operations and restoring combat readiness&#8221; [67]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">AFI 32-2001</span><span/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">describes the scope of the FES mission as fire protection and minimisation, dealing with the release of hazardous substances whether chemical, biological, radiological or nuclear and dealing with weapons of mass destruction. Aircraft rescue and firefighting were identified as operational tasks.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright attended two courses at the Goodfellow Air Base in San Angelo, Texas during her time with USAFE [70]. In 2014 she undertook HAZMAT Commander and Weapons of Mass Destruction training [78].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright completed training modules including &#8216;Airport Fire Fighter&#8217; and &#8216;Munitions Fire Fighter&#8217; [79]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">All training was done using American equipment [79]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright cascaded training on a new 911 system to her fellow firefighters [79].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright did not have to attend a fire in the five years she worked at RAF Croughton. Nevertheless, firefighters had responsibility for fire prevention and inspections and she had access to many of the buildings on the base for these purposes [74]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Wright had the necessary security clearance to do her job [77]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On the occasions Miss Wright was at RAF Fairford she was part of the firefighting cover for flying operations [75]. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge set out his analysis under the heading &#8220;Did Miss Wright&#8217;s role involve her in the public or governmental functions of the United States of America?&#8221;, concluding:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">34.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;The requirement to maintain an independent FES is imposed by US Law, as is the standard which it is required to achieve.  The objectives of this policy go beyond those of any domestic fire service: for example, the Air Force Emergency Program says that it is intended to protect the American people, their way of life and to advance their influence in the World.  These are all policy objectives of the United States. The same Program refers to FES&#8217;s contribution to combat readiness, another function of the state&#8221; [120].</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">34.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;those in the FES, including firefighters, are an integral part of the mission of the bases where they work: where there is flying, the planes could not fly safely without such emergency protection; in the case of RAF Croughton where confidential information is processed, the information could be lost or compromised without protection. The ability of the Respondent to provide a first response to emergencies, including fire, enables it to retain control over incidents which may involve classified or controversial information. It is notable that the United States has restricted the power to contract out FES (unlike the UK) and this demonstrates to me that the provision of an independent fire service is an integral part of US military policy&#8221; [121].  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">34.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Litigation of claims of discrimination and constructive dismissal in the Employment Tribunal would involve judicial consideration of the arrangements the United States makes to protect its military bases and it could be called on to justify objectively treatment which might otherwise be unlawful under the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> were it to apply.  This would constitute an investigation by a British tribunal of the sovereign acts of a foreign state and that is impermissible at common law under the principle of state immunity&#8221; [122]. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The employment tribunal&#8217;s direction as to the law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge noted that [88]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">State immunity, where it applies, means that the sovereign acts of a state cannot be adjudicated upon by the courts of another state, which must dismiss the claim without determining its merits.  This principle does not affect any right a claimant may have to pursue the claim in the courts of the foreign sovereign state itself, in this case that would be the USA if the Respondent&#8217;s case is correct.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge stated [87] of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The concept of state immunity in the context of employment law was considered by the Supreme Court recently in the case of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche v Embassy of Sudan and Others</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2017] ICR 1327" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] ICR 1327</ref>.  While I consider the claim in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to be distinguishable from the instant cases for reasons I shall come to, the judgment of Lord Sumption nevertheless provides an invaluable insight into the relevant law.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judgment is not particularly clear as to the basis upon which the employment judge considered</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-size:12pt">Benkharbouche</span><span style="font-size:12pt"> was distinguishable. I consider that on a fair reading of the judgment EJ Foxwell considered that </span><span style="font-weight:bold;font-size:12pt">Benkharbouche</span><span style="font-size:12pt"> was &#8220;invaluable&#8221; as an insight into the relevant law, but was predominantly dealing with different factual circumstances, because [97]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The case of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> concerned the lawfulness or compatibility of this sub-section having regard to Article 47 of the Charter and Article 6 of the Convention respectively.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In considering the common law the employment judge referred extensively to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Holland</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, noting that &#8220;the essential question is the nature of the act in issue: whether it is a governmental act (&#8220;jure imperii&#8221;), or a nongovernmental act (&#8220;jure gestionis&#8221;)&#8221; [99].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">EJ Foxwell was referred to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Sengupta</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The employment judge stated [101] that &#8220;a &#8220;lowly clerk&#8221; in the Indian Embassy was nevertheless held to be participating in the public functions of a foreign state such that immunity applied&#8221;. The claimants&#8217; core argument is that the employment judge misdirected himself as to the law by relying on </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Sengupta</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and concluded that the claimants were involved in &#8220;public or governmental functions&#8221; merely, or predominantly, because they worked for USAFE.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As I explained when considering the relevant law above, the determination in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Sengupta </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">that the employment of the claimant necessarily involved sovereign function because he worked at a diplomatic mission is not good law, having been disapproved of in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Benkharbouche</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. However, I do not consider that it was that element of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Sengupta</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> that the employment judge relied upon. If he had relied upon that reasoning he would have concluded that the mere fact that the claimants were engaged to work at USAF bases meant that they must have been engaged to carry out governmental or sovereign functions. That is clearly not the case because the employment judge considered the roles that the claimants carried out in detail. The employment judge relied on the four elements of state immunity that Browne-Wilkinson J referred to in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Sengupta</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, which I do not consider involved any error of law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">On a fair reading of the judgment, I consider that it is clear that the employment judge understood that the underlying test is whether an act is private or sovereign/governmental and that in the context of employment this, as Lord Sumption held in </span><span style="font-weight:bold;font-size:12pt">Benkharbouche</span><span style="font-size:12pt">, &#8220;will depend on the nature of the relationship between the parties to which the contract gives rise&#8221;, which in turn will &#8220;depend on the functions which the employee is employed to perform&#8221;. I consider this is clear from the headings the employment judge used when setting out the key findings of fact that referred to the &#8220;role&#8221; of each claimant, and when he asked whether the &#8220;role&#8221; of the claimant &#8220;involve her in the public or governmental functions of the United States of America&#8221;. I consider it is clear that the employment judge appreciated that this involved considering the functions that they actually carried out, rather than just considering where, and for whom, they worked. This is made clear when the employment judge stated &#8220;I have reached the same conclusion in Miss Wright&#8217;s case, albeit she performed a very different role from Mrs Webster&#8221; [119]. This demonstrates that the employment judge appreciated he had to consider the specifics of the roles undertaken by each claimant and could have reached different conclusions in respect of their different roles.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I reject the assertion that the employment judge applied an incorrect test to determine whether state immunity applied.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The analysis of the employment tribunal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimants contend that &#8220;the Judge focused too heavily on the general context of the Appellants&#8217; employment, which in each case was at a military base, and failed to give proper consideration to whether each of the Appellants was personally engaged in the exercise of the public or governmental functions&#8221;. While the analysis section of the judgment focused on the military nature of the roles that the claimants undertook, that has to be read in the context of the specific factual findings of the employment judge about the functions of the claimants. The ground of appeal is, in reality, one of perversity. In </span><span style="font-weight:bold;font-size:12pt">Benkharbouche</span><span style="font-size:12pt"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Lord Sumption distinguished between three types of employees in diplomatic missions; those who have inherently governmental function at one end and those whose domestic duties are inevitably private. In the middle there are technical and administrative roles that may, or may not, be sovereign or governmental. Determining which side of the line an employee in the middle category falls is inherently a matter of factual assessment that is for the employment tribunal. The roles and functions undertaken by the claimants put them in this middle territory. I do not consider that the claimants are able to establish that the employment judge erred in his analysis of whether state immunity applied. He reached a factual determination that was open to him.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The employment judge&#8217;s alternative analysis </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The employment judge also considered that state immunity applied because the claims would involve &#8220;judicial investigation&#8221; into the respondent&#8217;s policies and objectives. While the analysis was included in the same sections as where the employment judge considered whether the job functions of the claimants were such as to attract state immunity, it is a distinct point of law. It is not inherently a part of the ground of appeal that was permitted to proceed. It is not live in this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">That said, were the ground properly before the Employment Appeal Tribunal, I consider that the employment tribunal&#8217;s finding in this regard was a factual determination that was open to it. Furthermore, as the ground of appeal as asserted fails, the alternative ground would not have altered the outcome of the appeal.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The position of the claimants</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It is hard not to feel sympathy for the claimants who were accepted by the respondent to have been exemplary employees, particularly because the employment tribunal found that they were led to believe that they would be subject to the protections of UK employment law. Key to the determination that state immunity applies was the fact that the claimants were engaged in sovereign activity, the defence of the United States of America and its allies. It is for the United States of America to decide whether to rely on state immunity, the extent to which foreign nationals who work supporting the defence of the United States may litigate in the United States, and what alternative benefits, if any, are provided for foreign staff. Where state immunity applies it is because it is not the business of judges of one sovereign state to adjudicate on the actions of another sovereign state. The appeals are dismissed.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

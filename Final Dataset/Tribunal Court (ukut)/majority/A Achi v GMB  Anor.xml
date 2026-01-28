@@ -1,0 +1,868 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/29"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/29"/>
+	  <FRBRdate date="2023-03-09" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="29"/>
+	  <FRBRname value="A Achi v GMB &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/29"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/29"/>
+	  <FRBRdate date="2023-03-09" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/29/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/29/data.xml"/>
+	  <FRBRdate date="2024-11-09T19:41:59" name="transform"/>
+	  <FRBRdate date="2024-11-24T00:59:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-03-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>29</uk:number>
+	<uk:cite>[2023] EAT 29</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>854a543e8dd20808e726ca409490d3236a6fffa3e1fbcb34ba1310f5120aa1dc</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Mr A Achi v GMB and Mr J Morgan</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 29</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2020-000465-OO</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-03-09" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">9 March 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MR DESMOND SMITH </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">DR GILLIAN SMITH MBE</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">MR A ACHI</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">(1)</num>
+	<p style="text-indent:0.5in"><span style="font-weight:bold;font-size:12pt">GMB</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">(2)</num>
+	<p style="text-align:center;text-indent:0.5in"><span style="font-weight:bold;font-size:12pt">MR J MORGAN</span></p>
+      </blockContainer>
+      <p style="text-align:center"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondents</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Elaine Banton </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(Direct Access) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Oliver Segal KC </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Leigh Day Solicitors) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 12 January 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">VICTIMISATION; UNFAIR DISMISSAL</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was employed as a trade union official.  After transferring to a new region, he encountered difficulties at work.  There were complaints from the branch to which he was assigned.  He received a written warning for a number of instances of lateness.  An application for release for external activities was refused because of insufficient cover.  In March 2017 the claimant began a period of sick leave and thereafter brought a grievance against the Regional Secretary, his line manager and other colleagues, complaining of bullying and race discrimination.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">While the clamant was off sick, and in receipt of sick pay, a leaflet was brought to the Regional Secretary&#8217;s attention referring to him acting as a trainer at events run by an external organisation in May and June.  The Regional Secretary wrote to him asking for an explanation and subsequently initiated an investigation which he delegated to another officer.  The conclusion of that investigation in September was that the claimant had not participated in the events and no further action was taken.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant&#8217;s grievance was investigated by the Regional Secretary from another region.  He dismissed it in August 2017, and also considered that there should be an investigation pursuant to the union&#8217;s Bullying and Harassment policy, which provides for the making of malicious, vexatious of spurious complaints to be subject to the internal disciplinary procedure.  A senior officer from another region who dismissed his appeal in September 2017 concurred with that view.   A disciplinary hearing was, in the event, put off until the claimant&#8217;s health improved.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was entitled to twelve months&#8217; contractual sick pay.  The union erroneously calculated the end date, and as a result it terminated his sick pay about two weeks early, at the end of February 2018.  Following his sick pay having ended, the claimant resigned.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment tribunal dismissed multiple complaints of direct race discrimination, and victimisation.  It also found that there was no breach of the implied duty of trust and confidence, and that, in addition, the claimant had not, as he claimed, decided to resign only in March 2018, because of the premature ending of his sick pay, but had decided in September 2017, following the outcome of his grievance, that he would in due course resign as and when his sick pay entitlement expired.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Grounds of appeal challenging the tribunal&#8217;s decision in respect of certain complaints of victimisation, and the complaint of constructive dismissal, were permitted to proceed to a full hearing.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal had not erred by failing to address aspects of the claimant&#8217;s victimisation claims.  It had not been part of the claimant&#8217;s case before the tribunal that he had been victimised by the Regional Secretary wrongly involving himself in the investigation relating to the external training events; nor by that investigation continuing after the response of the event organiser to enquiries, by way of further enquiries of the event host.  Nor did the tribunal err by not finding that the decision to refer the claimant into disciplinary process was not an act of victimisation, having regard to the findings it properly made about the motivations of the officers who considered his grievance and grievance appeal, and the provisions of the union&#8217;s Bullying and Harassment policy to which they referred.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal also did not err in concluding that the claimant was not constructively dismissed.  This ground of appeal could not circumvent the finding of fact rejecting the claimed last straw; and it otherwise fell away in view of the dismissal of the appeal in relation to the victimisation complaints.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We will refer to the parties as the claimant, GMB and Mr Morgan.  The claimant was employed by GMB, the trade union, until he resigned by letter of 8 March 2018 which took effect on 6 April 2018.  Mr Morgan was the Regional Secretary of GMB&#8217;s West Midlands Region.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">During the course of his employment, and then following his resignation, representatives of the claimant presented claim forms against GMB, Mr Morgan and other respondents, although the complaints against the other respondents were later withdrawn.  There was a full merits hearing before EJ Gaskell, Mr M Z Khan and Mr R S Virdie, sitting at Birmingham, in October and November 2019.  The claimant was in person.  The respondents were represented by Mr Oliver Segal KC.  In a reserved decision sent in April 2020 the tribunal dismissed complaints of unfair constructive dismissal, and of direct race discrimination and victimisation, but upheld a wages claim in respect of sick pay.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant initiated an appeal acting in person.  His original grounds of appeal were considered not to be arguable by the judge who considered them on paper.  However, at a rule 3(10) hearing at which the claimant was represented by Ms Banton of counsel, amended grounds of appeal were permitted to proceed to a full appeal hearing.  At that hearing before us Ms Banton appeared pro bono again for the claimant, and Mr Segal KC, as in the tribunal, for the respondents.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Facts </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We take our summary of the salient facts from the decision of the employment tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant identifies as Black African.  He began working for GMB Southern region on a temporary contract in September 2014.  From 1 April 2015 he was employed on a permanent contract as an Organisor.  At his request he relocated to the Birmingham region from 16 November 2015.  He was assigned to an industrial team managed by a Senior Organisor, Stuart Richards.  He was allocated to the S20 Security Branch.  The claimant had difficulty establishing a satisfactory working relationship with the branch.  There were complaints from members and representatives.  Mr Richards provided him with two mentors, the Regional Organisers Rebecca Mitchell and Stuart Harrison.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In a development review report of March 2016 Mr Richards judged the claimant to have performed satisfactorily against his objectives as a whole.  In a further review against objectives in June 2016 the claimant was judged to have met 4 out of 5 targets, which was a pass.  In September 2016, having completed two years&#8217; service, the claimant was eligible to be considered for pay progression.  However, Mr Richards assessed that he did not have the necessary skills to meet all aspects of his job description and he was not recommended for pay progression.  The claimant&#8217;s difficulties with S20, as the tribunal put it, came to a head, when the branch passed a motion of no confidence in him in June 2016.  Following this, after discussions, Mr Richards moved him to the organising team, managed by another Senior Organiser, Amanda Gearing, from 1 September 2016.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Between September and the end of 2016 Ms Gearing was concerned that the claimant appeared unhappy at work and not to be engaging fully with his new team.  This coincided with a number of complaints emerging from his time with the industrial team.  Mr Morgan had an informal meeting with the claimant in January 2017, which was mainly focussed on his apparent current unhappiness at work, as Mr Morgan treated the complaints as historical.  The meeting was positive.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Following a number of occasions when the claimant was late for meetings or appointments there was a disciplinary hearing on 24 February 2017 arising from which Ms Gearing issued the claimant with a written warning.  There were also exchanges in which she refused him leave to attend two events, in one case because two other members were on leave the same day, in the other because he had a full diary that day.  Ms Gearing indicated that she would reconsider if he obtained cover.  On 9 March Mr Morgan heard the claimant&#8217;s appeal against the written warning, which he dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">From 14 March 2017 the claimant was off sick.  An OH physician conducted a telephone assessment on 6 April and recommended a process of conflict resolution to aid his return.  It was apparent from the report that the claimant felt that he was being treated unfairly, that there was a bullying culture, and that the region did not take diversity issues seriously.  Mr Morgan was concerned to read these allegations, which had not previously been raised.  He wrote to inform the claimant that he had appointed a Senior Organiser, Mohammed Khalik, to conduct an investigation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 11 April 2017 the claimant raised a grievance naming its subjects as Mr Richards, Ms Gearing, Ms Mitchell and Mr Morgan.  The tribunal observed that while in it the claimant suggested that the region found it difficult to embrace diversity, it was far from clear that he was alleging race discrimination against these individuals.  As the claimant was now raising a grievance against the Regional Secretary, Mr Khalik&#8217;s investigation was &#8220;stood down&#8221;.  A Regional Secretary from another region, Mr Phillips, was appointed to consider the grievance.  Because of the claimant&#8217;s ill health the grievance hearing was deferred until 3 August 2017.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The next two paragraphs of the tribunal&#8217;s findings of fact are as follows.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold">38 In May and June 2017, Ms Gearing was copied into publicity material from the TUC which included information about some training events being staged by the &#8220;Hope Not Hate&#8221; Campaign. The publicity material suggested that the claimant was one of the tutors at the event. Ms Gearing was concerned that the claimant appeared to be making himself available for such events whilst off sick and ostensibly unfit for work. She forwarded the material to Mr Morgan. Ordinarily Ms Gearing would have dealt with such a matter herself; she did not do so on this occasion because she was aware of the outstanding grievance against her. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">39 On 20 June 2017, Mr Morgan wrote to the claimant querying the content of the leaflets and asking why he was able to carry out such work but not attend his normal place of employment. (The claimant was receiving full salary as contractual sick pay.) The claimant did not respond to Mr Morgan; and so, on 23 June 2017, Mr Morgan wrote again - he requested a response by no later than 26 June 2017. When the claimant still did not respond, Mr Morgan took steps to suspend his sick pay with immediate effect and institute a disciplinary investigation.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Following this the claimant instructed solicitors who wrote to Mr Morgan asking for his sick pay to be reinstated.  He also contacted HR about his sick pay.  The tribunal found that once he was satisfied that the claimant was properly engaging, Mr Morgan lifted the suspension of sick pay, and that the claimant suffered no financial loss, at worst receiving his sick pay in July one day late.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Morgan instructed Mr Khalik to carry out a disciplinary investigation.  The tribunal stated at [41] that the outcome was that it appeared that the claimant had not actually participated in the events in respect of which he appeared in the publicity material.  No disciplinary action was taken.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Following what the tribunal called &#8220;a thorough investigation, in which all protagonists were interviewed separately&#8221;, and a grievance hearing in August 2017, Mr Phillips wrote to the claimant dismissing his grievance.  He considered it to be baseless, but also that it &#8220;may well have been made in bad faith&#8221; and that the raising of a malicious grievance was a potential disciplinary issue.  He informed the claimant that he had referred the matter to a disciplinary investigation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [44] the tribunal recorded that the claimant appealed Mr Phillips&#8217; decision, which was referred to another senior officer from outside the region, Mr Derrick.  Following a hearing, and having heard from the protagonists, he dismissed the appeal.  He was also concerned at the &#8220;profound and distressing impact&#8221; which the allegations has had on, in particular, Ms Mitchell, Mr Richards and Ms Gearing.  He &#8220;felt that there was nothing worse for a trade union official and [sic] to be unfairly labelled as a racist and a bully.&#8221;  He &#8220;concurred with Mr Phillips&#8217; conclusion that the grievances were malicious; and agreed that the matter should be referred for disciplinary investigation.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Andy Worth, the Regional Secretary of another region, was appointed to deal with the disciplinary proceedings.  Two hearing dates were postponed as the claimant was unwell, and the proceedings were then postponed generally until such time as his health improved.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant&#8217;s period of sickness had begun on 14 March 2017.  He was entitled to 12 months&#8217; contractual sick pay, which the tribunal concluded ran to 13 March 2017.  However, both Mr Morgan and the claimant&#8217;s solicitor, Ms Conlan, misread or misunderstood the paperwork.  In exchanges he concluded that the entitlement had expired in February, whereas she thought it ran until 10 April 2018.  The tribunal was sure they were both wrong.  The claimant was at the time paid until the end of February, but his tribunal claim for further payment to 13 March was conceded before the tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">48 The claimant was paid on the 6th day of each month for the entirety of that month. Effectively, he was paid six days in arrears and for the rest of the month in advance. Because of the misunderstanding referred to in the previous Paragraph, he received no pay on 6 March 2018. On 8 March 2018, the claimant submitted a letter of resignation; he claimed that he was constructively dismissed and that the final straw had been the non-payment of his sick pay on 6 March 2018. As we indicated earlier, we do not believe the claimant on this point; it is quite apparent to us that, well before 6 March 2018, the claimant had decided that he would not be returning to work for the respondent. The claimant remained off sick until his entitlement to sick pay expired; and it was always his intention to resign then. The claimant would not have been entitled to any pay after the 13 March 2018; but, when he resigned on 8 March 2018, he gave one month&#8217;s notice; he was therefore entitled to retain his car until the expiry of the notice period.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The reference to what &#8220;we indicated earlier&#8221;, was to an opening section in which the tribunal reviewed the credibility of witnesses and had stated that there were two particular matters &#8220;on which we expressly disbelieve the claimant&#8221;.  In relation to one of these, at [13](b), it said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">We do not accept the claimant&#8217;s current assertion that it was not until the non-payment of his salary (contractual sick pay) on 6 March 2018 that he decided to terminate his employment. The evidence is clear that the appellant had no intention of returning to work once his entitlement to statutory sick pay expired.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal&#8217;s Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Following an extended section concerning the law, the tribunal reproduced from an earlier case management order, the list of alleged incidents or matters which the claimant claimed amounted to acts of direct discrimination or victimisation, and which he also relied upon as individually or cumulatively establishing a fundamental breach of the implied duty of trust and confidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The protected act relied upon for the purposes of the victimisation complaints was the 11 April 2017 grievance.  The alleged particular conduct complained of was set out by the tribunal at [54.2] (b), labelled A to F.  Relevantly, A, B, D and F formed an overlapping group, expressed as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;A Mr Morgan writing to the claimant about the claimant featuring on a Right2Work flier as delivering training.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">B Mr Morgan initiating an investigation into whether or not the claimant had delivered the training.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">D The respondent dismissing the medical assessment of the claimant&#8217;s GP and accusing him of working whilst off sick.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">F Accusing the claimant of fraudulently claiming sick pay.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Also relevant to this appeal is the distinct victimisation complaint labelled C:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;C the bringing of disciplinary proceedings against the claimant which were to be heard in October and then November 2017 which was suspended due to the claimant&#8217;s ill-health.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal also identified at [54.3] the final straw relied upon by the claimant, for the purposes of unfair constructive dismissal,  as &#8220;the failure to pay his final two weeks&#8217; sick pay in March 2018.&#8221;  The tribunal then summarised the main points of the respondents&#8217; case.  It then worked through its conclusions in relation to each of the complaints of direct discrimination, dismissing them all on their merits and concluding also that a number of them were out of time.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal&#8217;s conclusion in relation to those victimisation complaints drew on its earlier conclusions in relation to overlapping direct discrimination complaints.  The first of these was direct discrimination complaint K, which concerned Mr Morgan&#8217;s actions following the training-event publicity material being referred to him.  In  relation to that complaint the tribunal&#8217;s conclusion was as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold">69 Allegation (K) </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">The claimant accepted that a reasonable employer would want to look into what appeared to be an employee working in some other capacity whilst being paid sick pay on the basis that he was unable to work at all. The claimant further accepted that an employer would be concerned if questions put to the employee were not responded to. The claimant had failed on two occasions to respond to Mr Morgan. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">It was not discriminatory for Mr Morgan to have asked Mr Khalik to investigate the issue, or for Mr Khalik, as part of that investigation, to make an inquiry of the relevant third party. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">Clearly the decision not to suspend sick pay during the investigation or following it cannot constitute less favourable treatment.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second of these was direct discrimination complaint M, relating to the decision to institute a disciplinary process in relation to his April 2017 grievance, following the conclusion of the grievance process.  In relation to that complaint the tribunal&#8217;s conclusion was as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold">71 Allegation M </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">The claimant accepted that if there was a genuine belief by Mr Phillips or Mr Derrick that his allegations were spurious or malicious, they were obliged to refer them, in compliance with the relevant policy. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">According to the unchallenged evidence of Mr Phillips and Mr Derrick, that was the situation here. Mr Phillips told us that he had reached the view that the claimant had brought the allegations in bad faith. If the claimant had not resigned, that proposition would have had to be tested at a disciplinary hearing and might have been refuted. The issue was not explored directly during the grievance or appeal hearings. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">In cross-examination, the claimant accepted that Mr Phillips and Mr Derrick may well have genuinely reached the views they did, but complained that they reached those views &#8220;based on incomplete evidence&#8221;. Even if that were so, that would not support this complaint &#8211; which was further undermined when C said that he did &#8220;not know&#8221; if the decision to refer him to a disciplinary process was because of his race. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(d)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">Ms Gearing and Mr Richards prepared documents (as is obvious from their content) for the August grievance hearing and not &#8220;in support of disciplinary action&#8221;. There clearly cannot be anything discriminatory in preparing notes to enable a person to defend themselves against a complaint of race discrimination. Those documents were provided to Mr Derrick, who in turn included them in the papers he provided to HR when he referred the matter for a disciplinary process HR in turn provided them to the claimant.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal&#8217;s conclusions in relation to the particular complaints of victimisation that are the subject of this appeal were set out in the following passage:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold">77 Absent any evidence before us to conclude that the grievance raised in April 2017 was raised in bad faith, we find that that grievance was a protected act for the purposes of a victimisation claim. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">78 Detriments (A), (B), (D) and (F) </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">Issues (A), (B), (D) and (F) all relate to Mr Morgan&#8217;s decisions to suspend the claimant&#8217;s sick pay and then to instigate an investigation into whether the claimant had been working whilst off sick. Those matters are addressed at Paragraph 69 above. Those decisions were not because of the claimant&#8217;s protected act, but, as the claimant readily accepted in cross-examination, because a reasonable employer would need to satisfy itself that the apparent evidence of the claimant working whilst off sick did not, on investigation, demonstrate that to have happened. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">79 Detriment (C) </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">This relates to the respondent&#8217;s decision to institute disciplinary proceedings against the claimant on the basis that his allegations of discrimination in his grievance appeared spurious, vexatious and/or malicious. That matter is addressed at Paragraph 71 above. The decision was not because of the claimant&#8217;s protected act, but because Mr Phillips and Mr Derrick believed, having heard the grievance, that his allegations did appear spurious, vexatious and/or malicious. Based on that view, they were entitled and indeed obliged, as the claimant accepted in evidence, to refer the issue to a disciplinary process per the respondent&#8217;s written procedure. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold">The facts are materially similar to those in </span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Martin</span><span style="font-weight:bold"> where the complaints involved serious false allegations which the employee refused to accept were false, and </span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ibimidun</span><span style="font-weight:bold"> where the reason for the dismissal related but to the way in which the claimant had pursued discrimination proceedings, including by making unreasonable allegations.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">After considering the two other complaints of victimisation the tribunal said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold">82 Having thus analysed the facts surrounding each of the alleged detriments, our conclusion is that the claimant has not established before us any facts upon which we could conclude that he had been victimised. On the evidence we have considered, the respondent acted with conspicuous fairness throughout. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">83 The claim for victimisation is totally without merit and is dismissed.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to the complaint of unfair constructive dismissal, the tribunal, at [84], referred to its earlier findings that the complaints of discriminatory treatment between June 2016 and September 2017 were &#8220;wholly misconceived.&#8221;  It found that managers had acted with conspicuous fairness and were fully supportive of the claimant during that period, and that there was no question of any breach of contract during that period.  The tribunal then continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">&#8220;85 The question which therefore arises is whether the failure to pay the claimant&#8217;s contractual sick pay on 6 March 2018 amounted to a fundamental breach of the employment contract. We accept Mr Morgan&#8217;s evidence that the failure to pay was entirely due to an honest misunderstanding of the claimant&#8217;s contract. Further, it is clear from the correspondence we have read that the respondent was willing to engage with the claimant on the point. But, matters were confused by the claimant&#8217;s solicitor repeatedly insisting that sick pay was due until a date in April 2018. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">86 We accept that essentially what occurred here was a payroll error. In no way could this have been reasonably interpreted as an action by the respondent indicating an intention no longer to be bound by the contract. Accordingly, in our judgement, there was no fundamental breach of the contract. And, absent a fundamental breach of the contract, there can be no finding of constructive dismissal. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">87 In any event, in our judgement, the claimant did not resign in response to the non-payment of his contractual sick pay on 6 March 2018. We acknowledge that his resignation letter states as much; but we have also considered documentation going back to September 2017 in support of the claimant&#8217;s grievance appeal. In that documentation, the claimant clearly states - &#8220;I cannot work for the GMB anymore, &#8230; I do not have any confidence in working for any movement where things can be put on me and I am unable to defend myself&#8221;. In our judgement, having considered the claimant&#8217;s evidence before us when cross-examined about this, we are quite satisfied that he had already decided to terminate his employment as soon as his entitlement to sick pay ended.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold">88  In our judgment, the claim for constructive dismissal is totally without merit and is dismissed.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Finally, as noted, the respondent conceded that the claimant was entitled to contractual sick pay in respect of the period 1 &#8211; 13 March 2018, and the tribunal made a wages award in that respect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For completeness we note that two applications to the tribunal for reconsideration, on the basis of what was said to be new evidence, were rejected upon initial consideration by the judge.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Grounds of Appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The amended grounds of appeal that were live before us were expressed as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">&#8220;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#010302">Victimisation</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">1  The Claimant&#8217;s complaints of victimisation were more nuanced than as addressed by the ET:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302;margin-left:1.09in;text-indent:-0.5in">(I)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.09in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Mr Morgan victimised the Claimant by involving himself in the investigation process that he should not have been involved in.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302;margin-left:1.09in;text-indent:-0.5in">(II)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.09in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Baseless allegations alleging sick pay fraud were pursued against the Claimant, whilst in possession of exonerating evidence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302;margin-left:1.09in;text-indent:-0.5in">(III)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1.09in;margin-right:0.79in;text-indent:0.12in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The Claimant was victimised in response to his grievance by referring the Claimant to disciplinary procedures.  The Claimant&#8217;s grievance was not on the face of it, appropriately/fairly characterised as a </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">Martin</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> or </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">Ibimidun </span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">one.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">2.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The ET erred by failing to have regard to its earlier finding at para 44 of the judgment, that Mr Derrick was concerned with the profound and distressing impact of the allegations on the individuals concerned, in particular Ms Mitchell, Mr Richards and Mr Gearing and there was nothing worse for trade union officials than to be unfairly labelled as a racist and a bully.  The ET should have engaged with the real reason why the Respondent was pursuing the disciplinary process.  The perception that race discrimination complaints in particular are problematic for TU officials.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#010302">Constructive Unfair Dismissal</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">3.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The ET erred in its approach to constructive dismissal notwithstanding that the ET already found as a fact that the Claimant was going to resign at para 87 of the judgment; the Claimant did so as a result of the victimising conduct complained of above that he was subjected to.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">4.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">Accordingly, the ET&#8217;s finding in relation to constructive unfair dismissal cannot stand.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;color:#010302">5.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">The ET applied the wrong test, viewed as a whole, in the context of victimising (and/or unreasonable conduct), the last incident where the Claimant&#8217;s sick pay was stopped and was enough to constitute a constructive dismissal, </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">LB of Waltham Forest v Omilaju</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> <ref href="#" uk:canonical="[2005] IRLR 35" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] IRLR 35</ref> CA, </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">Nottinghamshire CC v Meikle</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> <ref href="#" uk:canonical="[2002] IRLR 703" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] IRLR 703</ref> CA and </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#010302">Mruke v Khan</span><span style="font-weight:bold;font-family:'Times New Roman';color:#010302"> <ref href="#" uk:canonical="[2018] IRLR 526" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] IRLR 526</ref> CA.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Discussion and Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There are, it appears to us, three strands to the grounds of appeal.  These are, first, a challenge to the outcome in respect of victimisation complaints A, B, D and F.  The second is a challenge relating to the outcome of victimisation complaint C.  The third is a challenge relating to the tribunal&#8217;s decision that the claimant was not constructively dismissed.  We will consider each in turn.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Victimisation &#8211; Complaints A, B, D and F</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Banton confirmed that paragraph 1 of the grounds, at I and II, related to, and solely to, victimisation complaints, A, B, D and F, as a group.  Particular features of the evidence about this matter upon which she relied, were, in summary, as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, unlike in relation to the grievance, Mr Morgan did not direct that the matter be investigated out of region.  Further, his initial communications with HR made clear his belief that the fliers showed that the claimant was claiming sick pay fraudulently; and when he first wrote to the claimant, he asked him to explain why he was working while off sick, rather than asking whether he had done so.  He stopped the claimant&#8217;s sick pay and sought to influence Mr Khalik&#8217;s investigation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The &#8220;exonerating evidence&#8221; referred to in the ground was the organisers of the training responding to Mr Khalik&#8217;s enquiries on 13 July that the claimant did not attend or take part in the running of the session; yet the investigation was not terminated at that point.  Instead, Mr Khalik then pursued further enquiries, seeking copies of the signing in registers from the host University, and the claimant&#8217;s consent to that request.  Only after the University advised in September that the claimant had not signed in, was the investigation ended.  Mr Morgan also, when informing the claimant of the final outcome, appeared gratuitously still to blame him for the delay.  All of this amounted to badgering of the claimant when he was signed off sick.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Banton submitted that, in light of these features of the evidence, the tribunal&#8217;s conclusions at [69] and [78] were insufficient to address the complaints and the totality of the acts alleged.  She also submitted that the tribunal failed to consider that the claimant&#8217;s grievance only needed to be a material contributing motivator of the conduct.  It did not need to be the principal motivation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Segal KC submitted that this ground reflected an impermissible attempt by counsel, having first become involved during the course of the appeal to the EAT, to argue the case, and analyse the evidence, in a way that the case had not been run by the claimant himself before the employment tribunal.  But the trial could not be re-run before the EAT in that way.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">While the issues identified at a case management hearing will not always be set in stone, and may change during a trial, in this case they never did.  The tribunal properly addressed at [78] (referring back to [69]) the actual complaints advanced to it which were, in substance, about Mr Morgan writing to the claimant about the leaflets, initiating the disciplinary investigation, and doing so while the claimant was off sick.  The thrust of the complaints was therefore about the decision to begin the process; but the tribunal accurately recorded that the claimant had accepted during the course of the hearing that a reasonable employer would be concerned to investigate what appeared to be an employee in receipt of sick pay working in another capacity, and would naturally also be concerned if its emails to the employee about that initially went unanswered.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal had made a proper finding of fact that the conduct complained of was not because of the protected act, which could not be challenged on appeal.  The instigation of the process by Mr Morgan </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">was </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">based on evidence &#8211; leaflets indicating that the claimant would be a trainer or tutor &#8211; that was potentially incriminating.  The failure to send the investigation out of region was not made an issue before the tribunal.  In any event, the evidence was that the grievance investigation had been sent out of region specifically because Mr Morgan himself was among those accused.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was no complaint of victimisation by way of not terminating the investigation following the organiser&#8217;s response to Mr Khalik in mid-July.  They did not keep their own register.  It had never been part of the claimant&#8217;s case before the tribunal that, in pursing further enquiries with the University that hosted the event, Mr Khalik had victimised the claimant.  As soon as Mr Khalik heard back from the University, and in light of its response, the investigation was ended.  Ms Banton&#8217;s suggestion that it could be inferred that Mr Morgan had influenced Mr Khalik had not been raised by the claimant or put to Mr Morgan, before the tribunal.  In any event, the communications relied upon merely showed Mr Morgan passing information on to Mr Khalik, so that Mr Khalik could investigate.  That was his last involvement before Mr Khalik concluded his investigation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal could not be criticised for not addressing a case that was not run; and it would have been wrong to make adverse findings on points that were not put.  Having regard to how the actual complaints and issues were framed, the decision was not non-</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Meek</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">-compliant, nor could the high hurdle for a perversity challenge be surmounted.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In reply Ms Banton submitted that to focus on the framing of the complaints and the issues was wrong.  You could not expect a list of issues to refer to every pertinent feature of the evidence.  It was the duty of the tribunal properly to engage with the picture painted by the evidence, bearing in mind that the claimant was a litigant in person.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to this first strand of the grounds of appeal, our conclusions are as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We remind ourselves of some well-established general principles.  While an employment tribunal should make appropriate allowances for a litigant in person, it must decide the complaints and issues that are actually before it; and it cannot descend into the arena to advocate for one party, or to advance a case which the litigant has not himself advanced.  The tribunal also cannot be criticised for not addressing a case that was not advanced before it; and would, conversely, act unfairly if it purported to adjudicate a substantive point against a party in its decision, that had neither been raised nor put to the pertinent witnesses.  The EAT is not a venue in which a party can rerun its arguments about the evidence and the facts; and it is in any case not equipped to engage in such an exercise, because it will only ever have glimpses or selections from the total body of oral and documentary evidence presented to a tribunal during the course of a trial.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In some cases a litigant in person may struggle to articulate or define the particular conduct they are complaining about, or the particular way in which they say it is unlawful, with the same finesse or crystal clarity that a lawyer or other professional versed in the field would.  But if it jumps out to the tribunal or other trained reader, from what they have written or said, what their factual case is about, and what legal category or categories their complaint or complaints fits into, then there is nothing wrong in the tribunal bringing that into focus in a list of issues, expecting the respondent to answer it, and then adjudicating it.  However, the starting point still has to be what the claimant has chosen to complain about, on a fair assessment and appreciation of what they have written and said.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In some cases a litigant in person may struggle to put their points to a live witness fluently.  If the point they are trying to make is obvious to the tribunal, there is nothing wrong with the tribunal helping them to articulate it better, and it may be fair to do so.  But the tribunal, while it can make neutral or clarifying enquiries on matters which it needs to understand better in order properly to adjudicate the claims before it, cannot itself proactively cross-examine a witness on areas in which a competent party has chosen not to challenge their clear evidence.  The fact that a professional representative might have approached the task differently than the litigant himself did, is not sufficient warrant to criticise the tribunal for not in effect having performed that role.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In this case, the claimant, though not a lawyer, or assisted by one, was a full-time union official and obviously familiar with the field generally.  Time was spent at a case management hearing with both parties drawing up a list of issues, which was then reduced to writing.  It is refined and detailed, articulating a series of discrete and focussed complaints about what particular conduct was said to amount to direct race discrimination and what victimisation.  There was no suggestion that it was ever revisited by the claimant, by way of adjustment or addition at the start of the trial, during the course of it, or in final submissions.  Nor was there any suggestion before us that he did not have the opportunity to cross-examine witnesses however he wished on the issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">    The list of issues, in relation to victimisation, identified that, in relation to the matter of the training events leaflets, the claimant was complaining specifically about Mr Morgan having written to him, as he did, and having thereafter initiated a disciplinary investigation, making accusations that he had been working while he was off signed off sick and claiming sick pay.  The tribunal did not err by failing to find that, in doing those things, Mr Morgan was retaliating for the claimant having raised a grievance, given its findings that the claimant was in receipt of sick pay on the basis that he was not fit to work, and that, taken at face value, the leaflets informed the reader that he was engaging in training activity for another organisation, and that he did not initially respond to his enquiries.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The complaint of race discrimination in relation to this particular aspect of matters had raised other conduct, which the claimant could have chosen to also add to the complaints of victimisation, had that been his case.  It was not wrong for the tribunal not to do that for him.  Conversely, it would have been wrong for the tribunal itself to challenge the respondents&#8217; witnesses on a basis not identified by the claimant in the list of issues, and not cross-examined upon by him; or to make adverse findings against the witnesses on such points in its decision.  In any event we cannot see how it could be said to have been perverse for the tribunal not to infer that Mr Khalik had been influenced by Mr Morgan to follow up on the organiser&#8217;s response, by making enquiries from the host University which held signing in sheets, or that Mr Morgan had otherwise wrongly involved himself in the process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For all these reasons, the tribunal did not err on the basis that the claimant&#8217;s complaints of victimisation were, as the grounds of appeal put it &#8220;more nuanced&#8221; than the tribunal addressed in its decision, in the two respects identified in paragraph 1 (I) and (II) of the grounds, nor otherwise in relation to victimisation complaints (A), (B), (D) and (F).  This strand of the appeal therefore fails.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Victimisation Complaint C</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We turn to the challenge to the outcome of victimisation complaint C, raised by paragraph 1 sub-paragraph III, and by paragraph 2 of the grounds of appeal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Banton emphasised that the April 2017 grievance was found to be a protected act, and was not found to have been raised in bad faith.  In light of its finding at [44] that Mr Derrick felt that there was nothing worse for a union official than to be labelled &#8220;a racist and a bully&#8221; the tribunal erred in not concluding that the decision to refer the matter for a disciplinary investigation was because of the protected act.  The tribunal had effectively found that Mr Derrick had attached particular significance to the fact that the claimant&#8217;s allegations were of race discrimination.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Banton submitted that the tribunal was wrong to say that the facts were &#8220;materially similar&#8221; to those of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Martin v Devonshires Solicitors</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2011] ICR 352" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] ICR 352</ref> and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Ibimidun v HM Prison Service</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2008] IRLR 940" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] IRLR 940</ref>.  There was nothing in the facts of this case remotely comparable to the facts of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Martin</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, in which the reason for dismissal was not the making of allegations of discrimination, but particular associated but distinct behaviour caused by mental ill health.  Nor was the present case like </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Ibimidun</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, in which it was found that the reason for dismissal was because the employee had brought a complaint with a view to harassing the employer.  In the present case, by contrast, there was no finding that the conduct complained of was because of any behaviour on the part of the claimant that was distinct from the bringing of the grievance itself.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Banton also referred to the fact that, in his initial response to the claimant&#8217;s grievance, in May 2017, Mr Morgan had described the claimant&#8217;s allegations as unsubstantiated, spurious and malicious, and he had submitted that they should be dealt with in accordance with GMB&#8217;s policy relating to malicious or vexatious complaints.  She referred to other evidence before the tribunal which, she suggested, showed that Mr Morgan had sought to influence Mr Phillips&#8217; investigation, as had Mr Richards.  The tribunal had also failed sufficiently to explain why it accepted the evidence of Messrs Phillips and Derrick, that they considered the grievance to be vexatious or malicious.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Segal KC submitted that it is well-established that in deciding whether conduct was &#8220;because of&#8221; the protected act, the tribunal must consider the subjective mind and motivation of the decision-maker; and that this is a question of fact, including in a case where it is said that the reason operating on the mind of the decision-maker was something distinct from the protected act (or, in some cases a protected disclosure or other legally protected conduct of the complainant), though having some relationship to it.  He referred to the recent discussion in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Kong v Gulf International Bank (UK) Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/491" uk:canonical="[2022] EWCA Civ 491" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 491</ref>; <ref href="#" uk:canonical="[2022] ICR 1513" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] ICR 1513</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case, he submitted, the tribunal made clear findings of fact as to the reasons for the decisions of both Mr Phillips (if, which was unclear, the ground of appeal was intended to extend to him) that the claimant&#8217;s conduct should be referred to a disciplinary investigation, and the decision of Mr Derrick to endorse Mr Phillips&#8217; view about that.  These were proper and sufficiently-reasoned findings of fact, that could not be challenged on appeal.  There was no basis to infer that Mr Derrick&#8217;s concerns about the impact of the grievance on those who were accused, also influenced his decision on that point, nor, if they had, that the tribunal should have concluded that in law that meant that his impugned conduct was because of the protected act.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was also no basis to hold that the tribunal erred by not finding that Mr Phillips or Mr Derrick were influenced by Mr Morgan in this regard, rather than coming to their own views.  This had not been part of the claimant&#8217;s case before the tribunal.  In any event the material relied upon by Ms Banton did not reflect Mr Morgan interfering in the grievance process or acting prematurely.  Rather, in the communications upon which she relied, he was setting out his case, which he was entitled, and asked, to do, in response to a grievance that was made against him, and other members of his team; and Mr Morgan fairly submitted that he needed more particulars of the grievance, to properly understand what he was accused of.  The same was true of the communications from Mr Richards, who was also named in the grievance, and was asked to, and entitled to, give his response.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Our conclusions in relation to this strand of the appeal are as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As Mr Segal noted, the approach to be taken to cases in which the employer claims to have been motivated not by the employee&#8217;s protected conduct (such as a protected act, protected disclosure, or trade union activities) but by something related to, but distinct from it, has recently been considered by the Court of Appeal in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Kong</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  Having reviewed the authorities Simler LJ said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;57.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Thus the &#8216;separability principle&#8217; is not a rule of law or a basis for deeming an employer's reason to be anything other than the facts disclose it to be. It is simply a label that identifies what may in a particular case be a necessary step in the process of determining what as a matter of fact was the real reason for impugned treatment. Once the reasons for particular treatment have been identified by the fact-finding tribunal, it must evaluate whether the reasons so identified are separate from the protected disclosure, or whether they are so closely connected with it that a distinction cannot fairly and sensibly be drawn. Were this exercise not permissible, the effect would be that whistle-blowers would have immunity for behaviour or conduct related to the making of a protected disclosure no matter how bad, and employers would be obliged to ensure that they are not adversely treated, again no matter how bad the associated behaviour or conduct.&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">58.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Likewise, what was said in&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Martin</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">, about being slow to allow purported distinctions between a protected complaint and&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">ordinary</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">&#160;unreasonable behaviour, is also not a rule of law. There is no objective standard against which behaviour must be assessed to determine whether the separability principle applies in a particular case, nor any question of requiring behaviour to reach a particular threshold of seriousness before that behaviour or conduct can be distinguished as separable from the making of the protected disclosure itself. The phrases used in the authorities (in the context of trade union activities, victimisation and whistleblowing) capture the flavour of the distinction, but were not intended to be treated as defining, and do not define, those cases where separability would or would not apply. They cannot properly be read in this way. In the wide spectrum of human conduct that might be relied on by decision-makers, each end of the spectrum is easy to identify as Phillips J observed in&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000">Lyon</span><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">: gross misconduct or conduct that is "wholly unreasonable, extraneous or malicious" at one end; and wholly innocent, blameless conduct at the other. Between those two ends of the spectrum difficult questions of fact arise, and the conduct and circumstances of the particular case will require close consideration. But the authorities provide no factual precedent or objective standard against which to assess the conduct relied on in a particular case.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case the key finding by the tribunal is in the second sentence of [79](a), being that the decision in question was not because of the protected act, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;but because Mr Phillips and Mr Derrick believed, having heard the grievance, that [the claimant&#8217;s] allegations did appear spurious, vexatious, and/or malicious.&#8221;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">   The tribunal here correctly focussed on what motivated Mr Phillips to refer the matter for a disciplinary investigation, and Mr Derrick to concur in that.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The distinction was also one that the tribunal was, in principle, entitled to treat as real and significant.  As Simler LJ discussed in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Kong</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, at [48], in the early trade union activities cases it was recognised that malicious acts should not accrue protection that they would otherwise not have, merely by virtue of having been done in support of union activities.  We also agree with Mr Segal that the tribunal had a proper evidential basis to accept that this was a real distinction in the minds of Mr Phillips and Mr Derrick.  In particular, Mr Phillips, in his report, stated that the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;GMB Bullying and Harassment Policy refers to the making of malicious, vexatious or spurious complaints being subject to the Internal Disciplinary Procedure, and I have decided to refer this matter to a disciplinary hearing, so that the necessary ascertainment might be made.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Nor do we accept that the tribunal&#8217;s conclusion on this point was, for any other reason, perverse.  While, before the tribunal, the respondent did not advance a case that the grievance was in bad faith, nor did the tribunal so find, the focus in this part of the decision was, correctly, on what Messrs Phillips and Derrick had thought, and what influenced their impugned conduct, at the time.  As well as having their reports, it heard from both of them as witnesses, and, the tribunal found at [47], their evidence on this point was unchallenged.  It properly found at [43] that Mr Phillips considered that the grievance was not only baseless but &#8220;may well have been made in bad faith&#8221;, and, at [44], that Mr Derrick concurred with his conclusion that the grievances were &#8220;malicious.&#8221;  Further, at [71](a) it noted that the claimant accepted (and, by plain implication, the tribunal itself found) that, if they were indeed of that view, then they were obliged by the policy to refer the matter into disciplinary process, and again at [71](b) it found that this </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">was</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> the view of them both.  All of this supported the conclusion at [79](a) on this victimisation complaint.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We do not think that the tribunal&#8217;s reference at [79](b) to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Martin</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Ibimidun</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> shows that it erred in law.  In its earlier self-direction as to the law these were the two authorities cited as examples of a legitimate distinction being drawn between the protected conduct and something else associated or connected with it; and the tribunal&#8217;s point at [79](b) was surely that the present case was also one where such a distinction properly applied.  The facts were &#8220;materially similar&#8221; in that sense.  As we have said, it took the correct approach, in law, and reached conclusions that were not perverse.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We have considered whether, nevertheless, the tribunal erred by not concluding, in light of its finding at [44] about Mr Derrick&#8217;s concern, that the protected act raising allegations of race discrimination also materially influenced his decision to support the referral.  However, we do not think so.  That is for the following reasons.  Firstly, in its self-direction as to the law, the tribunal specifically identified, citing pertinent authorities, that if a protected act has a significant or material influence on the conduct, then the complaint will be made out.  It does not have to be the primary reason for the decision.  The tribunal should be taken to have had that in mind, unless it plainly later erred, for example, by stating the wrong test in its conclusions (which it did not).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Importantly, in this case the tribunal found that what specifically motivated Mr Phillips to make the reference was his view that the grievance appeared to have been malicious, and the GMB Policy requiring a referral into disciplinary process in such cases.  That policy did not turn on the particular subject matter of the grievance being allegations of race discrimination.  The tribunal also found that Mr Derrick concurred with that specific conclusion on the part of Mr Phillips.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">While the tribunal also found that Mr Derrick was concerned about the impact which the allegations had had on the individuals concerned, that was part of its initial findings of fact about his decision overall.  It did not feature in the tribunal&#8217;s conclusions either on the direct race discrimination claim, or the victimisation claim.  Given its findings about the policy, which applied generally to allegations that appeared to be malicious, spurious or vexatious, and that they were not only entitled but obliged to make a reference, and about their respective conclusions that the policy did appear to them to apply, the tribunal was not obliged to infer that the particular fact that the claimant had specifically alleged race discrimination, also materially influenced his decision to concur that there should be a referral to disciplinary process.  Further, what he said he was concerned about was the impact on </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">union officials</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> of being &#8220;unfairly&#8221; labelled as &#8220;a racist and a bully&#8221;, suggesting that his concern was simply that malicious allegations relating to the nature of the important work that they themselves did as union officials was liable to have particularly serious consequences for them.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Constructive Dismissal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We turn to the third strand of the appeal, being the challenge to the tribunal&#8217;s conclusion that the claimant was not constructively dismissed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal reached that conclusion, in summary, because it concluded that (a) none of the conduct relied upon by the claimant, individually or cumulatively, amounted to a fundamental breach of the implied term, including the conduct which the claimant relied upon as the last straw, being the premature termination of his sick pay; (b) in any event he did not decide to resign in response to the premature termination of his sick pay in March 2018 &#8211; rather, he had already decided many months before that, that he was going to resign in due course as and when his sick pay ended.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The grounds of appeal implicitly recognise, as they must, that the finding that the claimant had earlier decided that he would resign as and when his sick pay came to an end, was one of fact.  However, they argue that the tribunal erred because (1) that decision was taken as a result of the victimising conduct of which he complained; and/or (2) the tribunal applied the wrong legal test as, viewed in context, &#8220;the last incident where the Claimant&#8217;s sick pay was stopped was enough to constitute a constructive dismissal.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Taking (2) first, Mr Segal KC made the point that Eady J&#8217;s reasons for permitting the ground of appeal in respect of victimisation to proceed identify point (1), but not point (2).  Nevertheless she gave permission to amend in respect of the draft amended grounds that had been tabled by Ms Banton, which included point (2), and we have therefore considered it as well.  However, we do not uphold it, for the following reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In argument, Ms Banton contended that the tribunal had erred in its conclusion that the premature termination of the claimant&#8217;s sick pay did not amount to a final straw.  It failed to consider why the mistake was made, or why sick pay was not continued pending resolution of the disagreement about when it ended.  It also failed to recognise the low legal threshold for a final straw in law, as discussed in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">LB Waltham Forest v Omilaju</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/1493" uk:canonical="[2004] EWCA Civ 1493" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 1493</ref>; <ref href="#" uk:canonical="[2005] ICR 481" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] ICR 481</ref> at [15] &#8211; [21]; and to consider whether the premature termination of sick pay was sufficient to cross the threshold, against the background of the sick pay having previously been stopped for a period.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, to repeat, the tribunal found that the claimant had long since decided to resign as and when his sick pay ran out.  He did not decided to do so in March, over the issue of whether it had been cut short prematurely.  That finding of fact cannot be reopened.  In any event the tribunal made a finding that it was plainly entitled to, on the evidence before it, that GMB stopped the claimant&#8217;s sick pay on the date that it genuinely believed was the date when his entitlement ended, even though its belief &#8211; and the differing belief of his adviser &#8211; as to the correct date, both turned out to be incorrect.  In light of that evidence, we do not think the tribunal would have been bound to conclude that this did amount in law to a last straw, even if it had found as a fact that the claimant had relied upon it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Plainly the claimant could not have relied upon the ending of contractual sick pay when the entitlement to it ran out, as such, as a breach of contract, express or implied; so the tribunal&#8217;s decision cannot be independently challenged on that basis.  That is why point (1) of this ground is (as Eady J noted when granting permission for it to proceed) parasitic on the earlier grounds of challenge in relation to the outcome of the victimisation complaints.  Given that the challenge in respect of those complaints has failed, this challenge must also, therefore, for that reason alone, fail.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We do not therefore need to consider further Mr Segal KC&#8217;s further contentions (a) that, in any event, the claimant could not have relied on Mr Derrick&#8217;s conduct as influencing his own decision that he would resign in due course when his sick pay ran out, as the tribunal had found that he had already come to that view by the time he put in his grievance appeal; and (b) that, by deciding to wait to resign, and in the meantime continuing to accept contractual sick pay for many months after September 2017, the claimant had in any event affirmed any breach which (had it been found) influenced his decision when he took it.  But we note that these were points which, he argued, meant that a partial victory in the challenge to the victimisation decisions might not be sufficient to disturb the outcome in respect of constructive dismissal and/or that, at best for the claimant, the matter would have had to be remitted to the tribunal to give consider the issue of affirmation.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For all of the foregoing reasons, all of the strands of the grounds of appeal fail, and the appeal is dismissed.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

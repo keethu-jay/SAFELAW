@@ -1,0 +1,1137 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/28"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/28"/>
+	  <FRBRdate date="2022-10-19" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="28"/>
+	  <FRBRname value="Commissioners for His Majesty&#8217;s Revenue and Customs v NHS Lothian Health Board (Scotland)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/28"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/28"/>
+	  <FRBRdate date="2022-10-19" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/28/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/28/data.xml"/>
+	  <FRBRdate date="2024-11-09T03:33:37" name="transform"/>
+	  <FRBRdate date="2024-11-28T13:18:27" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-10-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="commissioners-for-his-majestys-revenue-and-customs" href="" showAs="Commissioners for His Majesty&#8217;s Revenue and Customs"/>
+	<TLCPerson eId="nhs-lothian-health-board" href="" showAs="NHS Lothian Health Board"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>28</uk:number>
+	<uk:cite>[2022] UKSC 28</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>9f177c360c81b94b18fcdbf4d1d23f7803e3cc673282a186f5c88df6f0a1c510</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.25in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Michaelmas Term</span><br/><neutralCitation style="font-weight:bold">[2022] UKSC 28</neutralCitation><br/><span style="font-style:italic">On appeal from: [2020] CSIH 14</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#appellant" refersTo="#commissioners-for-his-majestys-revenue-and-customs">Commissioners for His Majesty&#8217;s Revenue and Customs</party> (<role refersTo="#appellant">Appellants</role>) <span style="font-style:italic">v</span><span/><party as="#respondent" refersTo="#nhs-lothian-health-board">NHS Lothian Health Board</party> (<role refersTo="#respondent">Respondent</role>) (Scotland)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge><br/><judge refersTo="#judge-lady-rose">Lady Rose</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2022-10-19" refersTo="#judgment">19 October 2022</docDate><br/><br/>Heard on 8 and 9 June 2022</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>David Thomson KC<br/>Ross Anderson<br/>(Instructed by Advocate General (Scotland))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>David Southern KC<br/>Denis Edwards<br/>(Instructed by Clyde &amp; Co LLP (London))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LADY ROSE (<span style="text-transform:none">with whom Lord Reed, Lord Briggs, Lord Sales and Lord Leggatt agree</span>):</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold;font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">Introduction</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The respondent, NHS Lothian Health Board (&#8220;NHS Lothian&#8221;), is one of a number of Scottish NHS Boards which have submitted late claims to the appellants, HMRC, seeking to recover VAT input tax that they paid many years ago when buying in goods and services. This appeal concerns VAT inputs incurred in the course of the work of laboratories within NHS Lothian&#8217;s remit. Those laboratories primarily provided clinical services for NHS Lothian hospitals and clinics but they also provided some services to outside bodies for which they charged fees. It is accepted by HMRC that the services provided by the laboratories to outside customers constituted a business activity for VAT purposes so that NHS Lothian could have claimed to recover a proportion of the input VAT they paid, that proportion reflecting the proportion of the totality of the laboratories&#8217; work that amounted to such business activity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The years for which NHS Lothian now claims to recover input tax are the years from 1 April 1974 when VAT was first introduced in the United Kingdom to 30 April 1997 (&#8220;the claim period&#8221;). Because of a series of legislative measures which I describe further below, a window of opportunity was opened up by <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 121</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9" uk:canonical="2008 c. 9" uk:origin="TNA" uk:type="legislation">Finance Act 2008</ref> enabling taxable persons to claim unrecovered input VAT for those years, provided they lodged their claim by 31 March 2009. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">When NHS Lothian submitted their claim in March 2009, they valued the input tax to which they were entitled as over &#163;7 million. Following lengthy correspondence between the parties in which HMRC asked for further evidence to support the claim, HMRC rejected NHS Lothian&#8217;s claim in full by letter dated 23 December 2010 setting out their reasons. The first reason given was that the claim used a percentage to calculate the recoverable input tax but that the method used to apportion general expenditure between business and non-business expenditure had not been explained. Other reasons were that NHS Lothian had not shown that the input tax claimed had not already been recovered by it previously and had not explained why the annual input tax claimed for some of the earlier years was over four times higher than the input tax being claimed in the then current year. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Following the rejection of the claim, NHS Lothian appealed to the First-tier tribunal (&#8220;the FTT&#8221;). By that stage the value of the claim had been reduced to &#163;900,000. The FTT dismissed the appeal, holding that HMRC were entitled to conclude that NHS Lothian had failed to establish how much input tax it was entitled to recover: <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2017/522" uk:canonical="[2017] UKFTT 522 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKFTT 522 (TC)</ref>. That decision was upheld by the Upper Tribunal (Lord Tyre) <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2018/218" uk:canonical="[2018] UKUT 218 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 218 (TCC)</ref>, <ref href="#" uk:canonical="[2018] STC 1745" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] STC 1745</ref>. On further appeal, however, the First Division of the Inner House of the Court of Session overturned the decisions of the FTT and Upper Tribunal and remitted the case to be heard by a differently constituted First-tier Tribunal: [2020] CSIH 14; <ref href="#" uk:canonical="[2020] STC 1112" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] STC 1112</ref>; 2020 SC 351. The question on the appeal brought to this court by HMRC is whether the Inner House was right to hold that the tribunals below had erred. We were told that there are many similar claims by other NHS Health Boards and NHS Trusts pending before the tax chamber of the FTT throughout the UK, with a combined value in the region of &#163;38 million. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold;font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The EU and domestic provisions</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-style:italic;font-size:13pt">(a)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">The apportionment of input tax</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The parties&#8217; submissions focused on the provisions of the Principal VAT Directive, that is Council Directive 2006/112/EC of 28 November 2006 on the common system of value added tax (&#8220;the PVD&#8221;), and on the <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">Value Added Tax Act 1994</ref> (&#8220;VATA&#8221;) although the claim period spans years when predecessor enactments were in force. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 1(2) PVD explains that VAT is a general tax on consumption exactly proportional to the price of the goods and services: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;On each transaction, VAT, calculated on the price of the goods or services at the rate applicable to such goods or services, shall be chargeable after deduction of the amount of VAT borne directly by the various cost components.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">VAT is chargeable on the activities of a taxable person, defined in article 9 PVD as any person who independently carries out in any place any economic activity, whatever the purpose or results of that activity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The domestic provision imposing the charge to VAT is section 4 VATA:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;4 (1) VAT shall be charged on any supply of goods or services made in the United Kingdom, where it is a taxable supply made by a taxable person in the course or furtherance of any business carried on by him.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">A taxable supply is a supply of goods or services made in the United Kingdom other than an exempt supply.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The term &#8220;any business&#8221; used there has the same meaning as the term &#8220;any economic activity&#8221; used in article 9 PVD.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The tax that can be deducted is specified in article 168 PVD: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In so far as the goods and services are used for the purposes of the taxed transactions of a taxable person, the taxable person shall be entitled, in the Member State in which he carries out these transactions, to deduct the following from the VAT which he is liable to pay:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the VAT due or paid in that Member State in respect of supplies to him of goods or services, carried out or to be carried out by another taxable person; &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The PVD recognises that taxable persons may carry out both economic and non-economic activity. In such a case, the input tax must be apportioned in accordance with articles 173 and 174: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:center;margin-left:1in">&#8220;<span style="font-style:italic">Article 173</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the case of goods or services used by a taxable person both for transactions in respect of which VAT is deductible pursuant to Articles 168, 169 and 170, and for transactions in respect of which VAT is not deductible, only such proportion of the VAT as is attributable to the former transactions shall be deductible.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">The deductible proportion shall be determined, in accordance with Articles 174 and 175, for all the transactions carried out by the taxable person.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">2.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Member States may take the following measures: </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">authorise the taxable person to determine a proportion for each sector of his business, provided that separate accounts are kept for each sector;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">require the taxable person to determine a proportion for each sector of his business and to keep separate accounts for each sector;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(c)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">authorise or require the taxable person to make the deduction on the basis of the use made of all or part of the goods and services;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(d)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">authorise or require the taxable person to make the deduction in accordance with the rule laid down in the first subparagraph of paragraph 1, in respect of all goods and services used for all transactions referred to therein;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(e)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">provide that, where the VAT which is not deductible by the taxable person is insignificant, it is to be treated as nil.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:center;margin-left:1in"><span style="font-style:italic">Article 174</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">1.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The deductible proportion shall be made up of a fraction comprising the following amounts:</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">as numerator, the total amount, exclusive of VAT, of turnover per year attributable to transactions in respect of which VAT is deductible pursuant to Articles 168 and 169;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">as denominator, the total amount, exclusive of VAT, of turnover per year attributable to transactions included in the numerator and to transactions in respect of which VAT is not deductible.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">Member States may include in the denominator the amount of subsidies, other than those directly linked to the price of supplies of goods or services referred to in Article 73.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The domestic provision in the VATA implementing the apportionment articles of the PVD is section 24. This defines &#8220;input tax&#8221; in relation to a taxable person as including VAT on the supply to him of any goods or services, being &#8220;goods or services used or to be used for the purpose of any business carried on or to be carried on by him&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 24(5) provides for the apportionment of input VAT between the business activity and non-business activity carried out by the taxable person: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Where goods or services supplied to a taxable person [...] are used or to be used partly for the purposes of a business carried on or to be carried on by him and partly for other purposes -- </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">VAT on supplies &#8230; shall be apportioned so that so much as is referable to the taxable person's business purposes is counted as that person's input tax, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(b)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the remainder of that VAT (&#8220;the non-business VAT&#8221;) shall count as that person's input tax only to the extent (if any) provided for by regulations under subsection (6)(e).&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-style:italic;font-size:13pt">(b)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Exercising the right to deduct input tax</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Chapter 4 of Title X of the PVD deals with rules governing the exercise of the right of deduction. Article 178 provides that in order to exercise the right of deduction a taxable person must meet the conditions set out there. The first condition is that for the purposes of deductions pursuant to article 168(a), that is to say, input tax on supplies to him of taxable goods and services, the taxable person must hold an invoice drawn up in accordance with sections 3 to 6 of Chapter 3 of Title XI. Those requirements about the form and content of VAT invoices are set out in articles 220 onwards. Article 220 provides that every taxable person shall ensure that an invoice is issued in respect of the supply of goods or services he has made to another taxable person. Article 226 prescribes the content of those invoices, stipulating that they must include the supplier&#8217;s VAT number, the date of issue, the quantity and nature of the goods supplied or services rendered, the unit price exclusive of VAT, the VAT rate applied and the amount of VAT payable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 179 then deals with the timing of the claim for deduction: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The taxable person shall make the deduction by subtracting from the total amount of VAT due for a given tax period the total amount of VAT in respect of which, during the same period, the right of deduction has arisen and is exercised in accordance with Article 178.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, article 180 gives Member States the option of authorising a taxable person to make a deduction that he has not made in accordance with articles 178 and 179. According to article 182, Member States must determine the conditions and detailed rules for applying that option. Article 183 provides that where the deductible input tax exceeds the amount of VAT due, the Member State may either give a refund or carry forward the excess into the following period. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Turning to the domestic implementation of these rules governing deduction, section 25 VATA deals with the timing of deductions of input tax. It provides that VAT must be accounted for and paid by reference to prescribed accounting periods determined by regulations. According to section 25(2), the taxable person is entitled at the end of each prescribed accounting period to credit for so much of his input tax as is allowable under section 26 and then to deduct that amount from any output tax that is due from him. Section 26 then provides for what input tax is allowable under section 25. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Section 24(6)(a) VATA states that regulations may provide for VAT on the supply of goods or services to a taxable person to be treated as his input tax only if and to the extent that the charge to VAT is evidenced and quantified by reference to such documents or other information as may be specified in the regulations or the Commissioners may direct either generally or in particular cases or classes of cases. The current regulations are the Value Added Tax Regulations 1995 (SI 1995/2518) (&#8220;the VAT Regulations&#8221;). The key regulation for our purposes is regulation 29, the evolution of which I discuss further below. Regulation 29 currently in force provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;29.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">(1) Subject to paragraph (1A) below, and save as the Commissioners may otherwise allow or direct either generally or specially, a person claiming deduction of input tax under <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/25/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref> shall do so on a return made by him for the prescribed accounting period in which the VAT became chargeable save that, where he does not at that time hold the document or invoice required by paragraph (2) below, he shall make his claim on the return for the first prescribed accounting period in which he holds that document or invoice.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(1A) Subject to paragraph (1B) the Commissioners shall not allow or direct a person to make any claim for deduction of input tax in terms such that the deduction would fall to be claimed more than 4 years after the date by which the return for the first prescribed accounting period in which he was entitled to claim that input tax in accordance with paragraph (1) above is required to be made.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">(1B) The Commissioners shall not allow or direct a person to make any claim for deduction of input tax where the return for the first prescribed accounting period in which the person was entitled to claim that input tax in accordance with paragraph (1) above was required to be made on or before 31st March 2006.</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">At the time of claiming deduction of input tax in accordance with paragraph (1) above, a person shall, if the claim is in respect of&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">a supply from another taxable person, hold the document which is required to be provided under regulation 13;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">provided that where the Commissioners so direct, either generally or in relation to particular cases or classes of cases, a claimant shall hold, or provide, such other evidence of the charge to VAT as the Commissioners may direct.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Regulations 13 and 14 reflect the requirements of article 226 PVD. Regulation 13 obliges (subject to exceptions not relevant here) a person who makes taxable supplies to a taxable person in the UK to provide a VAT invoice and regulation 14 lists all the information that needs to be included in a VAT invoice including the gross amount payable excluding VAT, the rate of VAT chargeable and the total amount of VAT chargeable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Finally, article 242 PVD provides that every taxable person shall keep accounts in sufficient detail for VAT to be applied and for its application to be checked by the tax authorities. This obligation is implemented by regulation 31 of the VAT Regulations stipulating that every taxable person is required, for the purpose of accounting for VAT, to keep various records including his business and accounting records and all VAT invoices received by him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-style:italic;font-size:13pt">(c)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Time limits on the recovery of VAT inputs</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As to when VAT inputs should be deducted by the taxable person, the PVD says only that the taxable person shall make the deduction by subtracting from the total amount of VAT due for a given tax period the total amount of VAT in respect of which, during the same period, the right of deduction has arisen and is exercised: article 179. Despite the apparently imperative wording of article 179, it was common ground between the parties that there is no obligation on a taxable person to deduct input tax from the output tax for which they are liable to account. Most businesses, of course, are keen to deduct their input tax promptly so as to avoid bearing a cost that they do not need to bear. But, as the cases discussed below dealing with the late recovery of input tax show, many businesses for one reason or another do not deduct input tax in the accounting period in which it is incurred.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The twists and turns of the Government&#8217;s attempts to introduce time limits on the ability of taxpayers to make late claims for repayment of VAT were described in detail in the speeches of the House of Lords in <span style="font-style:italic">Fleming (trading as Bodycraft) v Revenue and Customs Commissioners </span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/2" uk:canonical="[2008] UKHL 2" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 2</ref>, <ref href="#" uk:canonical="[2008] 1 WLR 195" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 WLR 195</ref> (&#8220;<span style="font-style:italic">Fleming</span>&#8221;), in particular that of Lord Walker of Gestingthorpe. What follows is a summary which is, I hope, adequate for our purposes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For many years after VAT was introduced, there was nothing in domestic legislation which stopped people from correcting any overpayment they had made for whatever reason in one accounting period by simply deducting the overpaid amount from the VAT they had to pay in a later period. This position was confirmed by <span style="font-style:italic">Customs and Excise Commissioners v Fine Art Developments plc </span><ref href="#" uk:canonical="[1989] AC 914" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] AC 914</ref>, <ref href="#" uk:canonical="[1989] STC 85" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] STC 85</ref> where the taxpayer deducted from a later return the VAT it had overpaid because of a mistaken interpretation of the relevant law by the Commissioners. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The entitlement to deduct overpaid VAT was formalised by the enactment of <ref href="http://www.legislation.gov.uk/id/ukpga/1989/26/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/26" uk:canonical="1989 c. 26" uk:origin="TNA" uk:type="legislation">Finance Act 1989</ref>. That provided that a person who had paid VAT which was not due could bring a claim for a repayment. But <ref href="http://www.legislation.gov.uk/id/ukpga/1989/26/section/24/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24(4)</ref> provided that no claim could be made under that section more than six years after the date on which the overpayment had been made unless the overpayment was by reason of a mistake which was not, and could not reasonably have been, discovered. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1989/26/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 24</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/26" uk:canonical="1989 c. 26" uk:origin="TNA" uk:type="legislation">Finance Act 1989</ref> was in due course replaced by section 80 VATA. Section 80(1) provides that where a person has accounted for VAT and has brought into account as output tax an amount that was not due as output tax, the Commissioners are liable to credit the person with that amount. Section 80(4) as originally enacted also applied a six year time limit on making claims with the same proviso as to mistakes. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Government then decided to reduce the six year time limit to three years. The reduction was announced in the Budget in July 1996 and given effect as from 3 December 1996 pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/1968/2" uk:canonical="1968 c. 2" uk:origin="TNA" uk:type="legislation">Provisional Collection of Taxes Act 1968</ref>. The shorter time limit was then enacted by <ref href="http://www.legislation.gov.uk/id/ukpga/1997/16/section/47/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 47(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1997/16" uk:canonical="1997 c. 16" uk:origin="TNA" uk:type="legislation">Finance Act 1997</ref> which substituted three years for the six years mentioned in section 80(4) and removed the exception in relation to cases of mistake. <ref href="http://www.legislation.gov.uk/id/ukpga/1997/16/section/47/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 47(2)</ref> then provided, broadly, that the three year time limit was deemed to have come into force on 18 July 1996 and that it applied to bar all claims under section 80 including claims made before that date and claims relating to payments made before that date (save to a certain extent for claims made following successful legal proceedings commenced before that date: see subsections (3) &#8211; (5)). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Regulation 29 of the VAT Regulations as originally made did not contain any time limit on claiming input tax which had not been deducted in the accounting period in which it had been incurred. However, as from 1 May 1997, regulation 29 was amended by the insertion of sub-paragraph (1A) which provided for a time limit of three years for making a claim: see reg 4 of the Value Added Tax (Amendment) Regulations 1997 (SI 1997/1086). The effect of this amendment was that, on 1 May 1997, input tax that had been paid by the taxpayer before 1 May 1994 but not deducted became immediately irrecoverable whereas before the amendment, a valid repayment claim could have been made for it. The amendment to regulation 29 did not purport to apply retrospectively to the same extent as the amendment to section 80 since it did not bar claims that had been made before the amendment came into effect. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">These provisions were considered in <span style="font-style:italic">University of Sussex v Customs and Excise Commissioners</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2001/485" uk:canonical="[2001] EWHC 485 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWHC 485 Ch</ref>,<span style="font-style:italic"/><ref href="#" uk:canonical="[2001] STC 1495" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] STC 1495</ref> (&#8220;<span style="font-style:italic">Sussex</span>&#8221;). That case concerned a claim to input tax not previously deducted by the taxpayer during the period April 1973 to July 1996. The issue was whether that constituted a claim by the taxpayer for the repayment of VAT which had not been due within the meaning of section 80(1) VATA. The Commissioners argued that it did, so that the three year retrospective time bar set by section 80(4) applied. The taxpayer argued that a claim for late deduction of input tax did not fall within section 80 but only within regulation 29 and was not barred by the prospective-only introduction of the three year time limit in regulation 29(1A). The taxpayer also argued that the right to reclaim input tax conferred by the Sixth VAT Directive then applicable (Sixth Council Directive 77/388/EEC) was an enduring right which could not be removed or limited in time by domestic law. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Neuberger J in <span style="font-style:italic">Sussex </span>agreed with the taxpayer on the first point but not on the second. He considered first whether the Sixth Directive conferred an enduring right to claim input tax which could not be taken away by domestic law: see paras 51 onwards. He held that the right to deduct input tax, at that time conferred by article 17 of the Sixth Directive, was specifically stated to arise at the time when the deductible tax becomes chargeable. That, he said, envisaged that the right to deduct input tax arose primarily in respect of the period in which the relevant supply occurs. The fact that there may be limitations imposed on a taxpayer who seeks to invoke the right late did not cut across the provisions of article 17. Further, he considered that the contention that under the Sixth Directive, a claim for input tax could be made at any time in any circumstances was inconsistent with article 18(3) (now in substance articles 180, 181 and 182 of the PVD). Article 18(3) referred to conditions that member states are required or empowered to determine whereby a taxable person may be authorised to make deductions. Neuberger J held that: &#8220;If a member state can impose a &#8216;condition&#8217; on late claim procedures, that must, in my view, include time limits.&#8221; He concluded at para 53: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;that it goes too far, indeed that it is wrong, to say that any cutting down of the right to make a late claim for input tax is contrary to the terms and thrust of the Sixth Directive, or indeed the First Directive.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Neuberger J went on to conclude that since the claim fell within regulation 29 only and not section 80, there was no time limit barring the making of the claim. As to this result, Neuberger J observed (para 74): </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;At first sight, it may seem a little surprising that a taxpayer can decide when he wants to raise a claim for input tax. However, unlike domestic taxes (&#8230;), VAT involves taxpayers having inputs as well as outputs. Therefore, the fact that my conclusion may seem somewhat counter-intuitive to an English lawyer, should not cause concern. Anyway, the commissioners do not suffer if the input tax is claimed late: on the contrary, they obtain the equivalent of an interest-free loan. Further, as reg 29(1A) recognises, art 18(3) permits the domestic legislature to impose a time limit on late claims for input tax. The risk the university took by not claiming the input tax at once was that terms of any indulgence to make late claims accorded by the United Kingdom - pursuant to its obligations under art 18(3) - might defeat any late claim by the university.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At para 83, Neuberger J noted that if he had decided that the claim was within section 80, he would have referred to the Court of Justice of the European Union (&#8220;CJEU&#8221;) the question whether the retrospective introduction of the time limit in section 80(4) without any transitional provisions was lawful under Community law. An appeal to the Court of Appeal in <span style="font-style:italic">Sussex </span>was dismissed: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1448" uk:canonical="[2003] EWCA Civ 1448" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 1448</ref>, <ref href="#" uk:canonical="[2004] STC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] STC 1</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That final comment of Neuberger J in <span style="font-style:italic">Sussex </span>turned out to be prescient. The compatibility of the retrospective time limit in section 80(4) VATA was referred by the Court of Appeal of England and Wales and determined by the CJEU in <span style="font-style:italic">Marks &amp; Spencer plc v Customs and Excise Commissioners </span>(<ref href="#" uk:canonical="Case C-62/00" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-62/00</ref>) <ref href="#" uk:canonical="[2003] QB 866" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] QB 866</ref>, <ref href="#" uk:canonical="[2002] STC 1036" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] STC 1036</ref>. I shall refer to that judgment as <span style="font-style:italic">Marks &amp; Spencer II </span>in line with the nomenclature used in <span style="font-style:italic">Fleming </span>discussed below<span style="font-style:italic">.</span> Marks &amp; Spencer&#8217;s claim for overpaid VAT arose from the Commissioners&#8217; misapplication of the VAT rules to gift vouchers sold at a discounted price. The taxpayer submitted a claim for overpaid VAT under section 80 VATA for the period May 1991 to August 1996, part of which was rejected because of the three year time limit. The Court of Appeal referred questions to the CJEU asking whether, in circumstances where the UK had failed to apply the VAT rules correctly, legislation which removed with retrospective effect a right under national law to reclaim sums paid by way of VAT more than three years before the claim was made was compatible with the principle of the effectiveness of the rights that a taxable person derived from that breach, or with the principle of the protection of legitimate expectations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU noted at para 35 that as regards the principle of effectiveness, the court had previously held that in the interests of legal certainty, it is compatible with EU law to lay down reasonable time limits for bringing proceedings and that a three year time limit running from the date of the contested payment appeared to be reasonable. The CJEU went on to hold: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;38.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Whilst national legislation reducing the period within which repayment of sums collected in breach of Community law may be sought is not incompatible with the principle of effectiveness, it is subject to the condition not only that the new limitation period is reasonable but also that the new legislation includes transitional arrangements allowing an adequate period after the enactment of the legislation for lodging the claims for repayment which persons were entitled to submit under the original legislation. Such transitional arrangements are necessary where the immediate application to those claims of a limitation period shorter than that which was previously in force would have the effect of retroactively depriving some individuals of their right to repayment, or of allowing them too short a period for asserting that right.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">How did the CJEU&#8217;s ruling in <span style="font-style:italic">Marks &amp; Spencer II </span>that the retrospective time limit imposed for claims under section 80 VATA was unlawful affect the time limit imposed by regulation 29(1A) for the recovery of late input tax? That question came before the House of Lords in <span style="font-style:italic">Fleming</span> where the taxpayer made a claim in October 2000 for repayment of input tax paid on the purchase of three cars in 1989 and 1990. The House of Lords held unanimously that the time limit imposed by regulation 29(1A) was incompatible with EU law because it made no transitional provision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the course of his analysis in <span style="font-style:italic">Fleming</span>, Lord Walker recognised that Mr Fleming&#8217;s position was different from the position of Marks &amp; Spencer in <span style="font-style:italic">Marks &amp; Spencer II </span>because, in the latter case, the claim for repayment arose from a prior breach by the UK in imposing a VAT charge not permitted by the Sixth Directive: (para 60) </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8220; ... In this case, by contrast, there is no antecedent breach exacerbated by the imposition of a new time limit with no transitional period. The only breach is in the absence of the transitional period, and it is in its nature transient.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Lord Hope of Craighead, Lord Neuberger of Abbotsbury, Lord Scott of Foscote and Lord Carswell held that the disapplication of regulation 29(1A) meant that there was no time limit unless and until one was introduced; it was not for the court to fill the gap by deciding what would be a reasonable time for making a claim. Lord Hope on this point said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;10.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; The issue is not one of statutory interpretation, for which the court must accept responsibility. There is a gap in the legislation which is unfilled. The infringement of EU law in this respect cannot be said to have been comparatively minor or inadvertent, such as would enable greater weight to be attached to the state&#8217;s need for legal certainty in matters of taxation: <span style="font-style:italic">Fantask A/S v Industriministeriet</span> (Case 188/95) [1997] ECR I-6783, para 69, per Advocate General Jacobs. The primary responsibility for giving a clear indication to taxpayers as to where they stood with regard to the making of claims despite the retrospective introduction of the time limit lay with the legislature and the executive.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That being the case, Lord Hope said, regulation 29(1A) did not apply and the period of grace that must be allowed by transitional provisions to submit accrued claims outside a proposed limitation period had not yet begun. It was for Parliament or the Commissioners, if they so chose, to introduce prospectively an adequate transitional period. Lord Walker dissented on this point. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Following the decision in <span style="font-style:italic">Fleming</span>, <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 121</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9" uk:canonical="2008 c. 9" uk:origin="TNA" uk:type="legislation">Finance Act 2008</ref> was enacted dealing with both section 80 VATA and regulation 29 of the VAT Regulations. This provides as follows: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;<span style="font-weight:bold">Old VAT Claims: extended time limits</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The requirement in <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/80/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">VATA 1994</ref> that a claim under that section be made within 3 years of the relevant date does not apply to a claim in respect of an amount brought into account, or paid, for a prescribed accounting period ending before 4 December 1996 if the claim is made before 1 April 2009.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The requirement in <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/25/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25(6)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">VATA 1994</ref> that a claim for deduction of input tax be made at such time as may be determined by or under regulations does not apply to a claim for deduction of input tax that became chargeable, and in respect of which the claimant held the required evidence, in a prescribed accounting period ending before 1 May 1997 if the claim is made before 1 April 2009.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In this section &#8211; </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"> &#8216;input tax&#8217; and &#8216;prescribed accounting period&#8217; have the same meaning as in <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">VATA 1994</ref> (see <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/96" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 96</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">that Act</ref>), and</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"> &#8216;the required evidence&#8217; means the evidence of the charge to value added tax specified in or under regulation 29(2) of the Value Added Tax Regulations 1995 (S.I. 1995/2518).</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This section is treated as having come into force on 19 March 2008.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The significance of the 1 May 1997 date in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 121(2)</ref> was that that was the date on which regulation 29(1A) had come into force introducing the three year time period for late input tax claims. In effect, <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 121</ref> meant that taxpayers had until 31 March 2009 in which to make claims for late deduction of input tax incurred in a prescribed accounting period ending before 1 May 1997. It was pursuant to that section that NHS Lothian lodged its claim for unrecovered input tax which is the subject of this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold;font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The facts and the decisions below</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Health Boards in Scotland were originally constituted as bodies corporate under the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/58" uk:canonical="1972 c. 58" uk:origin="TNA" uk:type="legislation">National Health Service (Scotland) Act 1972</ref>. Lothian Health Board was constituted, with other health boards, under The National Health Service (Constitution of Health Boards) (Scotland) Order 1974. Fifteen health boards in Scotland were so constituted in the 1974 Order. From 1 January 1993 until 31 March 2004, health services were provided by a number of NHS Hospital Trusts, which were constituted as separate bodies corporate. From 2004, those hospital trusts were dissolved and the assets of three of those trusts were transferred to what is now NHS Lothian in April 2004. From 1 April 1974 all Health Boards in Scotland had a single VAT registration, though each Board managed its own finances. NHS (Scotland) submitted one consolidated VAT return until the early 1990s. Claims in respect of VAT were made by the Scottish Office on behalf of the various regional Boards.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The FTT issued its decision on NHS Lothian&#8217;s appeal against HMRC&#8217;s refusal to return historic input VAT on the laboratories&#8217; work on 26 June 2017 after a hearing lasting 11 days. The decision set out in detail the witness evidence presented at the hearing including from witnesses who could speak to the pattern of the laboratories&#8217; activities over the claim period, their sources of income and the accounting systems then in place. The evidence of the science manager in microbiology, for example, was that food testing of oysters, milk, cream and eggs took place from when she started work until at least 1996. She considered that 70% of the laboratories&#8217; work was for the NHS and the balance for external private work: para 8 of the decision. Another bio-medical scientist gave evidence that the private samples she had been involved in processing included water, milk, creams, swimming baths&#8217; water, shellfish, food samples and sewer swabs. A further witness gave evidence that her non-NHS work took up about 1 &#8211; 1&#189; hours per day: para 15. The final bio-medical witness said that of a laboratory staff of between 25 and 30, four would be involved for three days per week on private work though he agreed in cross-examination that the volume of private work was variable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">More controversial was the evidence of Mr Kaney who was a professional expert witness working for a VAT consultancy which assisted NHS Boards with making claims for unrecovered VAT pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 121</ref> of the Finance Act. His evidence was that the year 2006/2007 was the first year after the abolition of the Health Board Trusts in Scotland for which consolidated accounts for NHS Lothian were prepared. Applying principles that had been agreed with HMRC in about 2001 or 2002, the taxable percentage of overall work carried out for the year 2006/2007 which comprised business activity was 14.70%. This was, he said, typical of the level of taxable activities in NHS laboratories and was &#8220;the most satisfactory base-line for <span style="font-style:italic">Fleming </span>calculations in the present appeal&#8221; (para 37). The FTT recorded Mr Kaney&#8217;s description of the method that he had used for NHS Lothian and other health boards in a similar position: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;44.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Mr Kaney then explained the &#8216;base line&#8217; figure in his calculations. He explained that HMRC would not negotiate or engage with representatives in advance of repayment claims being submitted. Thus the taxpayer and its advisers had to determine a reasonable methodology to calculate a <span style="font-style:italic">Fleming</span> claim. His method corresponded with that of other advisers, choosing a representative period of not more than 2 years to provide a base-line percentage for repayment purposes. That would be extrapolated historically to other years. There were three distinct stages. Firstly, a representative period had to be selected. Next the relevant percentage of taxable activities was calculated, ie taxable business where there would be an entitlement to a repayment of input tax. And thirdly that percentage would be extrapolated to earlier years, back to 1973, introducing such variations and adjustments as were necessary for particular years. In the present case the base-line percentage was 14.70%, being the percentage for business use for the laboratories for 2006 and 2007. In making this calculation any VAT incurred on non-business activities would be considered irrecoverable input tax. Recoverable input tax was VAT incurred in relation to taxable business activities. The partial exemption calculation represented an apportionment between taxable and exempt supplies. Mr Kaney stressed that his methodology would eliminate from any repayment claim input VAT on any exempt supplies.</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A later expert witness for NHS Lothian gave more detail about how the 14.7% ratio had been applied to earlier years: para 94. First, the expenditure inclusive of VAT was totalled. Then, a fraction representing the prevailing VAT rate over gross costs was applied to calculate the amount of VAT. Next, the apportionment ratio was calculated, by dividing the figure for business income by the figure for income from all sources. That fraction was then applied to the total of the VAT paid to calculate the relevant amount of input tax recoverable. Some adjustments were then made to deal with particular items in particular years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There was also extensive evidence before the FTT about the accounting systems operated by NHS Lothian during the claim period including the annual accounts and cost record books which had been obtained from Edinburgh University Library (referred to as the &#8220;blue books&#8221;). One accountant who had worked for NHS Lothian from 1981 to 2014 said that although invoices would have been raised for work done for commercial organisations and that although outside work was intended to be profitable, many of the arrangements were not the subject of formal contracts and much paperwork would have been destroyed: para 19. Income arising from the laboratories was not shown separately but was aggregated with other sources. Later, a witness from the consultancy which was advising NHS Lothian and other NHS bodies with making claims for input tax referred to &#8220;an acknowledged difficulty in tracing documentary evidence. The Health Boards had moved offices; there had been a reorganisation and old records had been destroyed&#8221;: para 69. There were books which showed the consolidated costs of the NHS in Scotland which contained detailed information as to expenditure but did not satisfactorily record income. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">HMRC&#8217;s only witness was the HMRC officer who had examined and rejected the claim. Her evidence described the wide fluctuations between the amount of input VAT initially claimed by NHS Lothian and the later adjusted claims. Her evidence was that laboratory income had not been documented: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Some proof of these activities was necessary. A process of extrapolation was not appropriate as the details of the activities were inadequate. The time period during which these were conducted and their volume was unclear. The level of taxable income was unproven.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The HMRC officer had more specific concerns about the failure to carry out direct attribution of inputs to business activity or non-business activity where this was possible before arriving at the total VAT input figure to which the 14.7% figure was applied. The judge recorded that her evidence was that the claim was still overstated: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;126.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; Fundamental difficulties remained. She considered there was no evidence of taxable supplies having been made or of taxable income being received during the <span style="font-style:italic">Fleming</span> period. The method of extrapolation was flawed, being based on a taxable percentage, not representative of the <span style="font-style:italic">Fleming</span> period. A proper partial exemption calculation had not been made and the process of direct attribution had not been done. Miss Langley concluded that the Claim should be rejected in its entirety.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Having summarised the parties&#8217; submissions, the judge set out his conclusions. First, he rejected the argument that the claim now being put forward was time barred: para 187. Although the claim had been revised and refined during the course of the negotiations between the parties, this did not mean that the claim was a new claim, different from the one lodged just before the deadline of 31 March 2009. He went on in a key passage:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;189.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Tribunal accepts the evidence of the officials from the various predecessor Health Boards as to the nature of the business activities conducted. These were Nequas work, Food-testing, Water-testing, Non-Medical testing of samples, especially for public health, and research and development. In the context of this Claim the nature of the work done did not change and it is reasonable to infer that the nature of the inputs would not have changed markedly. The Tribunal finds that the Claim all along has been for unrecovered input tax attributable to taxable business supplies made throughout the period 1974 to 1997, and while reduced in total, it is essentially the same.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">He made further findings of fact that NHS Lothian had made taxable supplies throughout the claim period and accepted the evidence of the employees &#8220;about the nature and general volume of this work&#8221;: para 190. However, he found that the business income of the laboratories could not be quantified since this was not recorded in the accounting information available; no sales ledgers or copy tax invoices had been produced. The amount of output tax paid to HMRC in respect of NHS Lothian&#8217;s business income including in the aggregated VAT return submitted for all the Health Boards was not established and in the absence of those figures it was difficult to confirm the reasonableness of any input tax claim relating to that income: para 193. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">He then turned to what he described as &#8220;the final and major consideration in the appeal&#8221; namely whether it was appropriate to apply the 14.70% figure agreed for 2006/07 to the claim period years. He held that it was not: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;196.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Tribunal does not consider such an approach reasonable or acceptable. While the witnesses confirmed that there had been no changes to the general pattern of activity, there had not been any reference to reliable primary data. The time-scale involved also undermines the likely accuracy of the process of extrapolation. There is an interval of ten years between the end of the relevant period and 2006/07, and that is preceded by a taxable period of about 25 years. The value of the claim (about &#163;900,000 as now adjusted) is substantial. The ratio of each activity might vary over an extended period: so too might profit margins. &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">199.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Tribunal is conscious of the efforts made by the appellant&#8217;s advisers in researching the Claim. The essential flaw, however, is in seeking to apply the taxable percentage of 14.70% throughout the relevant period. There is no basis in our view for invoking the percentage used for 2006/07 to other Years, especially given the interval of time involved. Levels of turnover, expenditure, and profit, all of which tend to affect the calculation of this Claim, are unlikely to remain constant. The Blue Books have value as prime records. But they show essentially the level of expenditure with a coded breakdown. The witness evidence, while we accept it, speaks only very generally to the types and level of business activity, but is not sufficiently precise or satisfactory as a basis for the claim.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">NHS Lothian appealed to the Upper Tribunal which dismissed the appeal: <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2018/218" uk:canonical="[2018] UKUT 218 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 218 (TCC)</ref>, <ref href="#" uk:canonical="[2018] STC 1745" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] STC 1745</ref>. Lord Tyre sitting in the Upper Tribunal characterised the main ground of appeal as asserting that the FTT had made a fundamental error in its approach to the case, in particular in failing to apply the 14.7% percentage to the claim period years. He held that the FTT had been entitled on the material before it to conclude that the oral evidence taken together with the agreement to use the 14.7% percentage in 2006/07 did not provide a sufficiently precise or satisfactory basis for a claim for the period between 1974 and 1997. He went on (para 22): </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Nor, in my opinion, was it incumbent upon the FtT, having rejected the appellant&#8217;s proposed percentage of 14.70%, to carry out its own calculations with a view to attempting to arrive at an alternative figure. This is so even in a case where, as here, it was common ground that the appellant had, during the relevant period, carried out business activities in respect of which VAT had not been reclaimed. A clear contrast can be drawn with <span style="font-style:italic">HMRC v General Motors (UK) Limited</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2015/605" uk:canonical="[2015] UKUT 605 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 605 (TCC)</ref>, where the FtT had sufficient material before it to enable it to form its own conclusions; in the present case the FtT did not.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">NHS Lothian appealed against the Upper Tribunal&#8217;s decision to the Court of Session, Inner House. The Inner House (Lord President, Lord Drummond Young, and Lord Glennie) allowed the appeal. I will consider their reasoning in more detail when I address the grounds of appeal. Broadly, the Inner House regarded the task of the FTT in considering the claim as affected by the EU principle of effectiveness which precluded requirements in national law which render enforcement of a Community right &#8220;virtually impossible or excessively difficult&#8221;. This test entailed, the Inner House held, &#8220;a form of proportionality exercise&#8221; which was a fundamental feature of the system. The FTT had erred because it ought to have adopted a flexible approach to the assessment of evidence, particularly where, as here, there was no doubt that some input tax had been incurred over the claim period so that the issue was only the quantification of the amount, not whether there was any right to deduct at all. Further, the Inner House considered that NHS Lothian&#8217;s inability to produce the primary data of input tax that the FTT seemed to demand arose from fault on the part of the state, namely by incorrectly implementing the EU right to deduct input tax in the domestic law, by failing to ensure that NHS Lothian recovered the input tax during the accounting periods within the claim period and by destroying documents which might have assisted the taxpayer. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I note here that NHS Lothian brought an earlier claim seeking to recover input tax incurred over the claim period on capital expenditure. That claim was also rejected by the FTT (<ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2014/258" uk:canonical="[2014] UKFTT 258 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKFTT 258 (TC)</ref>) and by the Upper Tribunal (<ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2015/264" uk:canonical="[2015] UKUT 264 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 264 (TCC)</ref>, <ref href="#" uk:canonical="[2015] STC 2221" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] STC 2221</ref>) for similar reasons as were relied on in the decisions in this case but the capital expenditure claim was not taken further.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold;font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none">The grounds of appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">HMRC rely on four main grounds of appeal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The Inner House erred in its approach to the standard of proof in late VAT input claims, in particular by drawing a distinction between the establishment of the right to deduct some input tax and the quantification of that tax. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The Inner House was also wrong in its application of the EU principle of effectiveness. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.62in">The Inner House&#8217;s reliance on supposed state fault was wrong as a matter of principle and not relevant on the facts of the case.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.5in">(iv)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.5in;text-indent:0.5in">The Inner House was not entitled to interfere with the conclusions of the tribunals below in the absence of an error of law and no error had properly been identified.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-style:italic;font-size:13pt">(a)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">The Inner House&#8217;s description of the facts</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Before considering those grounds of appeal, it is important to have a clear understanding of what the FTT found had been proved and what had not been proved. Although the Inner House&#8217;s initial summary of the findings of fact made by the FTT was entirely correct, their later analysis misdescribed the findings in ways which, though subtle, had a significant effect on the reasoning in support of its decision to allow the appeal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, in analysing the FTT&#8217;s conclusions on the evidence of the laboratory witnesses in para 29 of its judgment, the Inner House suggested that the FTT had found that because the nature of the business activities had remained the same throughout and hence the nature of the inputs was likely to have remained the same, the claim would have been &#8220;essentially the same&#8221; throughout the claim period. That in my view takes that phrase out of context. The FTT certainly did not find that the balance of business to non-business activities was &#8220;essentially the same&#8221; over the period. The phrase &#8220;essentially the same&#8221; used at the end of para 189 (set out at para 466 above) related to the issue whether the claim being made before the FTT was so different in value and methodology from the claim submitted before the 31 March 2009 deadline as to be in effect a new claim and hence time-barred. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This misunderstanding fed through to the Inner House&#8217;s reasoning in paras 51 and 52. There the Inner House referred to:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;the specific finding by the First-tier Tribunal that the claim for unrecovered input tax would have remained essentially the same throughout the period from 1974 to 1997&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumberApproved">and, at para 58, to evidence that &#8220;there had been no changes to the general pattern of activity over the period of the claim&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Inner House was mistaken in reading the FTT&#8217;s decision as making such a finding. The FTT&#8217;s findings were that (a) the nature of the business activity remained the same, that is to say it involved the testing of various foods, swimming pool water etc; (b) therefore the inputs remained the same because the supplies that NHS Lothian needed to acquire in order to carry out its work did not change; and (c) the claim presented at the FTT was not a time-barred new claim but essentially the same as the claim that had been lodged with HMRC by the deadline set in <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 121</ref>. The FTT&#8217;s finding as to the balance between business activity and non-business activity over the claim period was that there was not enough evidence to establish what this was or whether and how it had changed over the claim period or between the end of the claim period and the year 2006/07 from which the 14.70% figure was derived. That was why it was not appropriate to assume that it was 14.70% (even subject to particular adjustments) over that period. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Since they thought that the FTT had made such a finding, this misdescription of the findings of fact led the Inner House to conclude that the FTT must have applied too high a test in order, despite that finding, to reject the claim. They therefore concluded that the FTT had relied on the absence of primary data, by which they meant sales ledgers and tax invoices, and had failed to address the main issue which was the taxpayer&#8217;s reliance on secondary evidence and inferences. I regard that criticism of the FTT as unjustified. It was not the case that the FTT had found that the balance between business activity and non-business activity had remained the same over the claim period but had rejected the claim because of some hypothetical or theoretical possibility that it had varied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-style:italic;font-size:13pt">(b)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Ground 1: the nature of the right to deduct input tax</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">HRMC say in their written case that they do not accept and have never conceded that NHS Lothian has actually established that it has any entitlement to unrecovered VAT input tax over the claim period. Their concession as to NHS Lothian&#8217;s entitlement has always been limited to accepting that if there is such an entitlement, then NHS Lothian is the body that was entitled to lodge the claim in 2009. However, the main point of their first challenge is that the Inner House was wrong to regard the establishment of a right to deduct some input tax as separate from the obligation on the taxpayer to quantify the amount it is entitled to recover. This error, HMRC submit, led the Inner House to adopt the wrong approach to that quantification exercise. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">This criticism is in my judgment well founded. The taxpayer&#8217;s obligation is to prove how much it is entitled to claim, not merely that it must have incurred some input tax in the course of its business activity. The exercise required of NHS Lothian was more than one of mere quantification. This is clear from the CJEU&#8217;s ruling in <span style="font-style:italic">V&#259;dan v Agen&#539;ia Na&#539;ional&#259; de Administrare Fiscal&#259;&#8212;Direc&#539;ia General&#259; de Solu&#539;ionare a Contesta&#539;iilor </span>(<ref href="#" uk:canonical="Case C-664/16" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-664/16</ref>) EU:C:2018:933. In that case the taxable person, Mr V&#259;dan, undertook a construction project building a residential complex of 16 buildings containing 90 apartments. He sold some of the buildings for a substantial sum and was assessed for VAT on the proceeds. Mr V&#259;dan disputed that he was liable to be registered for VAT but argued also that he was entitled to deduct input tax. He was not able to produce original documents evidencing the purchases of goods and services used in the project because, not believing that he was obliged to register for VAT, he had not kept appropriate records. The referring court in Romania proposed commissioning an expert report to look at the construction work that had been done and assess how much VAT was likely to have been incurred on inputs. Could Mr V&#259;dan rely on such a report to establish his claim?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU reiterated that the right to deduct VAT is a fundamental principle of the VAT system designed to relieve the trader entirely of the burden of the VAT due or paid in the course of all his economic activities: paras 37 and 38. The strict application of the substantive requirement to produce invoices would therefore conflict with the principles of neutrality and proportionality, inasmuch as it would disproportionately prevent the taxable person from benefiting from fiscal neutrality relating to his transactions. Nevertheless, it was for the taxable person seeking deduction of VAT to establish that he met the conditions for eligibility. The Court noted that the information provided with the reference showed that Mr V&#259;dan had not submitted sufficient evidence to determine the existence and scope of the right of deduction. This evidence could not be replaced by a court commissioned report because such a report &#8220;would not be able to establish that Mr V&#259;dan actually paid that tax in respect of the input transactions carried out for the purposes of constructing those buildings&#8221;: para 47. The CJEU held therefore that Mr V&#259;dan could not benefit from the right to deduct on the basis of such a report. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic">V&#259;dan</span> was cited by Advocate General J Kokott in the recent case of <span style="font-style:italic">Zipvit Ltd v Revenue and Customs Commissioners </span>(<ref href="#" uk:canonical="Case C-156/20" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-156/20</ref>) EU:C:2021:558 <ref href="#" uk:canonical="[2022] 1 WLR 2637" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 WLR 2637</ref>. She described the importance of the VAT invoice or equivalent documentation required to substantiate a claim for input tax. She set the requirement for a VAT invoice in the context of the importance of the verifiability of claims by the tax authorities:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;61.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In a mass procedure such as value added taxation, it is only the disclosure of how the VAT due is passed on to the recipient of the supply by means of the price that ensures that the recipient of the supply knows &#8211; and the tax authorities can check &#8211; how much the supplier believes he or she should be charged in VAT. The recipient of the supply thus also knows from when and in what amount he or she can subsequently neutralise that VAT by means of the right of deduction.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">68.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Furthermore, as already stated by the Court, only the possession of an invoice allows the tax authorities to monitor payment of the VAT and the input tax deducted. The more details the invoice contains, the more effective the monitoring by the tax authorities, as the very comprehensive list now included in Article 226 of the VAT Directive illustrates. This also suggests that the possession of an invoice stating VAT is the decisive factor and thus constitutes a substantive requirement for the deduction of input tax. It is therefore not possible for the applicant to deduct input tax without such an invoice.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The insistence on the production of the VAT invoice in Advocate General Kokott&#8217;s opinion is tempered by the power conferred on Member States to accept alternative evidence; a power that has been exercised by the United Kingdom in <ref href="http://www.legislation.gov.uk/id/ukpga/1989/26/section/24/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 24(6)</ref>(a) VATA and the proviso at the end of regulation 29(2) (see para 18, above). That does not detract from the force of the point emerging from <span style="font-style:italic">V&#259;dan </span>and <span style="font-style:italic">Zipvit</span> that proof of the amount of input tax incurred by whatever documentation the tax authority requires is a precondition of the right to deduct that or any amount &#8211; there is no theoretical right to deduct which the taxpayer can assert. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It follows that the Inner House was wrong to approach the appeal on the basis that because NHS Lothian must have incurred some input tax, the FTT&#8217;s task was to decide which was more likely: that NHS Lothian&#8217;s claim was right or that no input tax or a much smaller amount of input tax was deductible. Any such principle would be inconsistent with the PVD which places on the taxpayer the burden of proving that input tax has been incurred. The Inner House&#8217;s approach would mean that once the taxpayer can show that it bought at least some goods and services for use in at least some business activity then HMRC must accept the claim to deduct whatever amount of input tax the taxpayer puts forward unless they can establish that either no input tax was paid or no business activity carried on. That approach is inconsistent with the PVD and with the CJEU&#8217;s decision in <span style="font-style:italic">V&#259;dan</span>. Mr V&#259;dan had clearly incurred some input tax in constructing his buildings but it was not suggested by the CJEU that his claim should prevail in the absence of proof as to the amount of that tax. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The FTT was therefore entitled to conclude that it is not enough for a taxpayer to show that it has engaged in business activity and has bought supplies for which it was charged VAT. The taxpayer must present either the specified documents showing the amount of input tax incurred or devise a credible alternative method by which that amount can be estimated by HMRC with reasonable certainty that the amount now being claimed was at least close to the amount that had in fact been incurred. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_10">
+	  <num style="font-style:italic;font-size:13pt">(c)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Ground 2: the EU principle of effectiveness </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The principle of effectiveness applies to ensure that Member States do not place procedural obstacles in the way of citizens seeking to enforce their directly effective EU rights in their domestic courts. The right is often referred to as the <span style="font-style:italic">San Giorgio </span>right after the judgment of the CJEU in <span style="font-style:italic">Amministrazione delle Finanze dello Stato v San Giorgio SpA </span>(Case 199/82) [1983] ECR 3595. That was the basis of the claim in <span style="font-style:italic">Marks &amp; Spencer II</span>. In <span style="font-style:italic">San Giorgio</span>,<span style="font-style:italic"/>Italy imposed charges for health checks on imported products which were struck down as unconstitutional by the Italian Constitutional Court. A dairy bought an action to recover the sums but was met with a statutory defence that it could not recover the charges if they had been passed on to customers. That defence applied only to recovery of charges levied in breach of EU rather than domestic law. Further, the domestic law created a presumption that the charges had been passed on whenever the imported goods had been sold on for consideration, &#8220;in the absence of documentary proof to the contrary&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU in <span style="font-style:italic">San Giorgio </span>established the principle that the repayment of charges levied in breach of EU law is a directly effective right which is a consequence of and an adjunct to the individuals&#8217; right not to have the charge levied in the first place: see para 12. Although national law could set &#8220;the framework of the conditions as to both substance and form&#8221; for the claim to repayment, those conditions must not be less favourable than those relating to similar claims regarding national charges and &#8220;may not be so framed as to render virtually impossible the exercise of rights conferred by Community law&#8221;. The Court held that there was nothing objectionable about providing for a passing on defence. But the requirement of proof under the Italian rules made it virtually impossible or excessively difficult to secure the repayment of the unlawful charges: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;14 &#8230; That is so particularly in the case of presumptions or rules of evidence intended to place upon the taxpayer the burden of establishing that the charges unduly paid have not been passed on to other persons or of special limitations concerning the form of the evidence to be adduced, such as the exclusion of any kind of evidence other than documentary evidence. Once it is established that the levying of the charge is incompatible with Community law, the court must be free to decide whether or not the burden of the charge has been passed on, wholly or in part, to other persons.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The claim brought by NHS Lothian is different from a <span style="font-style:italic">San Giorgio </span>claim because, as Lord Walker made clear in <span style="font-style:italic">Fleming</span>, there is no antecedent breach of EU law. Here, the reason why HMRC now hold an amount of VAT which they might owe to NHS Lothian is not because HMRC collected it by applying the VAT regime in an unlawful way but because NHS Lothian failed to recover input tax at the appropriate time. I accept that, despite that important difference, a taxpayer does have a directly effective right derived from the PVD to claim input tax at the appropriate time, even if there was no unlawfulness on the part of the member state in failing to give credit for the input tax. The CJEU has established that that right is not indefinite and can be limited by a reasonable time limit in the interests of legal certainty. The illegality here was in the imposition of a time limit on making that claim which, although reasonable in itself, was rendered unlawful by being imposed without any transitional provision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Inner House&#8217;s decision greatly extends the principle of effectiveness beyond what is required under EU law. The CJEU made clear in <span style="font-style:italic">San Giorgio </span>that the member state can set and apply a framework of conditions in which the claim for repayment is made. That framework here is HMRC&#8217;s discretion as to what information they require in the absence of the production of VAT invoices in order to accept that a claim has been adequately substantiated. The framework then moves to the FTT&#8217;s procedures which assess the reasonableness of the rejection of that claim. The principle of effectiveness where it applies does not require the courts or tribunals of the member state to set aside their ordinary procedural rules. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The principle is directed at requiring a court to set aside a particular hurdle placed before claimants seeking to enforce their EU rights whether the hurdle is found in legislation or in the court&#8217;s rules. Typical examples are unreasonably short limitation periods or bans on the use of certain evidence. Another example was where a two year time limit precluded a claim for equal pay even when the delay was the result of the employer having deceived the claimant about the pay given to equivalent male colleagues: <span style="font-style:italic">Levez v T H Jennings (Harlow Pools) Ltd </span>(<ref href="#" uk:canonical="Case C-326/96" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-326/96</ref>) <ref href="#" uk:canonical="[1999] ICR 521" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] ICR 521</ref>, [1998] ECR I-7835. But if a particular procedural rule does not, of itself, make all or most claims excessively difficult, the fact that it does so in a particular case because of the difficulties encountered by a particular claimant does not mean that the tribunal will infringe the principle by failing to waive an otherwise proper rule.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It goes too far to describe the principle of effectiveness as requiring the tribunal to carry out a proportionality exercise in the sense that that term is commonly used to indicate a balancing exercise between an end to be achieved and a proposed means to that end: see para 37. It was also wrong to paraphrase the principle of effectiveness as posing a question whether the taxpayer&#8217;s right to recover input tax can be made effective in practice (para 39) and to hold that the principle requires that the quantification of a historic input tax claim should be possible in all but exceptional circumstances: para 63.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I cannot improve on the reasoning of Lord Tyre in the decision dismissing the appeal against the rejection of the earlier claim by NHS Lothian to recover input tax paid on capital expenditure that I referred to at para 51 above. In rejecting a similar argument that the principle of effectiveness required the use of different forms of proof such as estimates, assumptions and extrapolations, Lord Tyre said (para 23): </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;23.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; In all cases the standard of proof remains the balance of probabilities: that applies equally to historic claims for unrecovered input tax. There is no rule of law or procedure restricting the exercise of the right of recovery in such cases; proof by means of estimates, assumptions and extrapolations was open to it as it is in all cases. The problem for the appellant was that the tribunal was not satisfied that the material placed before it was of sufficient value to enable any reliable conclusions to be drawn, whether by way of estimation, assumption, extrapolation or otherwise. <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 121</ref> re-opened entitlement to make repayment claims potentially going back to 1973, but it did not purport to address any of the practical difficulties that might be encountered in attempting to substantiate old claims. Responsibility for such difficulties must ultimately rest with those who, for whatever reasons, failed to make the claims when they first arose.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:13pt">73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Further, it is remarkable in this case that both HMRC and the FTT did adopt a very flexible attitude towards the methods by which NHS Lothian could have made good its claim. NHS Lothian&#8217;s own evidence was that apart from the 1991-1992 accounts which had been found, the information available was not sufficient to allow an accurate calculation of the total taxable turnover during the claim period. Neither HMRC nor the FTT insisted that the claim could only be proved by the production of contemporaneous VAT invoices supplied together with a detailed contemporaneous break down of the ratio of income derived from business activity to that derived from non-business activity in each of the years. The guidance issued by HMRC in March 2010 to their officers tasked with assessing historic claims to input tax makes clear that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Where, because of the passage of time, records have not been retained for periods before 1996/97, we will accept estimated claims provided that the assumptions on which the estimates have been based are reasonable and sustainable.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:13pt">74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The guidance deals expressly with extrapolations from recent years: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;Claims based on estimates that are founded on a 'straight-line' calculation using, e.g., using information from recent years must be challenged. A great deal has changed in the years between 1973 and now. Using current trading patterns to calculate claims for Fleming periods is almost certainly going to give a wrong result;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">When applying that guidance in NHS Lothian&#8217;s case, HMRC were prepared to go a long way down the path suggested by NHS Lothian. They accepted that a proxy for the actual split of input tax between business and non-business expenditure in each year in the claim period could be used by looking at the percentages of the work actually done for business and non-business activity and, further, that a percentage calculated for one year could then in principle be applied to other years. However, both HMRC and the FTT rightly required that there be some way of establishing that the key ratio during the claim period was likely to have been the same as it was in the more recent year for which it was possible to calculate that ratio. It was this step that NHS Lothian was unable to take, either on the basis of documentary evidence or on the basis of oral evidence from those who worked in the laboratories over the period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The FTT was also right to decline the role of forensic accountant on behalf of NHS Lothian. The CJEU has stated that the principle of effectiveness does not require a national court to step beyond the passive role it is given by national rules: <span style="font-style:italic">van Schijndel and van Veen v Stichting Pensioensfonds voor Fysiotherapeuten </span>(Joined Cases C-430/93 and C-431/93) EU:C:1995:441, [1995] ECR I-4705. That does not mean that the figure determined by the FTT must be either the figure in the taxpayer&#8217;s claim or zero. The process of preparing for hearings and appeals, the forensic process of the tribunal hearing itself and the judges&#8217; subsequent deliberations identify errors or alternative approaches which refine the case ultimately set out in the decision. The judge arrives at the right figure in accordance with his or her assessment of the facts and the law and that may end up being somewhere in between the figures for which the opposing sides were contending. That is legitimate subject, of course, to the judge ensuring that both parties have an opportunity to comment on any new method the judge alights on which was not raised by the parties or fairly explored at the hearing. This judgment does not, therefore, cast doubt on what was said in the passage from <span style="font-style:italic">Revenue and Customs Commissioners v General Motors (UK) Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2015/605" uk:canonical="[2015] UKUT 605 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 605 (TCC)</ref>, <ref href="#" uk:canonical="[2016] STC 985" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] STC 985</ref> cited by the Inner House in para 49 of their judgment. But that is entirely different from the exercise on which NHS Lothian wanted the FTT to embark in order to comply with the principle of effectiveness. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">NHS Lothian relies on <span style="font-style:italic">W v Sanofi Pasteur MSD SNC </span>(<ref href="#" uk:canonical="Case C-621/15" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-621/15</ref>) EU:C:2017:484 <ref href="#" uk:canonical="[2017] 4 WLR 171" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 4 WLR 171</ref> as supporting its analysis of the scope of the principle of effectiveness. <span style="font-style:italic">Sanofi </span>was a reference from the French court concerning the domestic law governing how a claimant could establish that a product was defective within the meaning of Council Directive 85/374/EEC on liability for defective products. The Civil Code provided that the plaintiff was required to prove the damage, the defect and the causal relationship between defect and damage. W had been vaccinated against hepatitis B and shortly after developed multiple sclerosis from which he died. His family relied on the case law of the Cour de cassation concerning liability for vaccines which, the CJEU records, showed that factors such as temporal proximity and lack of family history of the disease were capable of proving defect and causation despite the absence of medical research which established or ruled out a relationship between the vaccine and the disease. The Cour de cassation referred questions to the CJEU as to whether national evidentiary rules which allow the claimant to rely on such presumptions was consistent with the Directive.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:13pt">78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU noted first that &#8220;under the principle of procedural autonomy and subject to the principles of equivalency and effectiveness, it is for the national legal order of each Member State to establish the ways in which evidence is to be elicited, what evidence is to be admissible before the appropriate national court, or the principles governing that court's assessment of the probative value of the evidence adduced before it and also the level of proof required&#8221;: para 25. For our purposes what is significant is that the CJEU then said at para 31 that any rule which precluded proof based on evidence other than medical research could have made it excessively difficult or impossible for a claimant to prove a defect and could thereby have undermined the effectiveness of the Directive. Conversely, the Court acknowledged that the national rules must not be applied in a way which introduces unjustified presumptions to the detriment of the producer either (para 34). That situation could arise where national courts apply evidentiary rules &#8220;in an overly rigorous manner by accepting irrelevant or insufficient evidence&#8221; or where the rules create an immediate and automatic presumption of defectiveness where one or two types of evidence are presented together. The CJEU concluded that the national courts: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;38 &#8230; must ensure that the principle that it is for the victim to prove, through all means of proof generally allowed under national law and, as in the present case, inter alia through the production of serious, specific and consistent evidence, that there is a defect in the vaccine and a causal link, remains intact. This requires the court to safeguard its own freedom of assessment in determining whether such proof has been made out to the requisite legal standard, until such time as, having examined all the evidence adduced by both parties and the arguments exchanged by them, it considers itself in a position to draw a definitive conclusion on the matter, having regard to all the relevant circumstances of the case before it (see, by analogy, judgment of 9 November 1983, <span style="font-style:italic">San Giorgio,</span> 199/82, EU:C:1983:318, paragraph 14).&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:13pt">79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic">Sanofi </span>is, therefore, very far from being authority for the proposition that the principle of effectiveness requires a national court to allow a claimant to prove its case by presumptions or circumstantial evidence in the absence of any more direct evidence. The CJEU stressed that the presumptions relied on by the national court must not be &#8220;immediate&#8221; or &#8220;automatic&#8221;: para 36. The Court said that the national court must rule on the merits of the case &#8220;only after that court has duly taken into consideration all the circumstances of the case before it, including in particular all the other explanatory evidence and arguments put forward by the producer challenging the relevance of the evidence relied on by the victim and questioning the plausibility, referred to in the preceding paragraph, of the explanation put forward by the victim&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:13pt">80.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic">Sanofi </span>therefore has no application in the present case and does not require rules of evidence to be set aside. The rules of evidence applied in courts and tribunals are not random but reflect the legal system&#8217;s accumulated wisdom as to what evidence is likely to be probative and fair and what is not. There was no unusual rule of evidence applied in the present case that had been introduced especially for these kinds of claims and which might be regarded as an impermissible hurdle. There was no evidence that NHS Lothian sought to rely on that was rejected as inadmissible or ignored by the FTT. The Inner House rightly stated at para 48 that the onus of proof rests on the taxpayer and that the standard of proof was the balance of probabilities. Those were the only rules that the FTT applied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:13pt">81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Any analogy with how damages for personal injury are assessed is misconceived. There is no doubt here that, if NHS Lothian had maintained and kept the necessary accounting records, it would have been able to prove to the last penny how much input tax it was entitled to deduct. There is no inherent imprecision in this exercise as there is with, for example, translating pain and suffering into a monetary figure or predicting future earnings or medical care needs. There is therefore no call here for the wielding of the &#8220;broad axe&#8221; referred to in <span style="font-style:italic">Watson, Laidlaw &amp; Co Ltd v Pott, Cassels &amp; Williamson </span>1914 SC (HL) 18 at pp 29 &#8211; 30. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-size:13pt">82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment, therefore, there was nothing in the approach of HMRC or the reasoning of the FTT that made NHS Lothian&#8217;s claim for historic input tax virtually impossible or excessively difficult, and so nothing that infringed the principle of effectiveness.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-style:italic;font-size:13pt">(d)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Ground 3: state fault and the principle of effectiveness</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-size:13pt">83.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Whether conduct on the part of the State other than setting procedural conditions for the exercise of the right can be relevant to the application of the principle of effectiveness is an interesting question which does not arise on the facts of this case. Three kinds of fault were identified by the Inner House as requiring the FTT to lean towards allowing the claim for input tax. None of them constitutes a factor that was relevant to the FTT&#8217;s determination of the appeal before it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-size:13pt">84.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, there are various passages in the Inner House&#8217;s judgment referring to the absence of documentation being the result of the failure of the United Kingdom to implement properly the EU right to reclaim input tax: see for example para 18 and para 55. As I have explained earlier, there was no such failure on the part of the UK to implement the recovery of input tax. As appears from the evolution of <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/80" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 80</ref> VATA and regulation 29 of the VAT Regulations, the UK was for a long time perhaps unintentionally generous in allowing indefinite recovery of input tax until the insertion of regulation 29(1A) as from 1 May 1997. The time limit of three years then imposed is undoubtedly compliant with the principle of effectiveness, the only problem being its immediate imposition which was remedied by the enactment of <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9/section/121" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 121</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/9" uk:canonical="2008 c. 9" uk:origin="TNA" uk:type="legislation">Finance Act 2008</ref>. There is nothing in that history which requires the principle of effectiveness to be applied with particular rigour in this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-size:13pt">85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, when setting out the background to the claim, the Inner House noted that during the claim period, the general practice in relation to business supplies by NHS boards and other public bodies was that VAT would be ignored. A major factor in the failure of the taxpayer&#8217;s predecessors to recover input tax during the period down to 1994 was the manner in which the Government had organised the activities of health boards within the NHS and decisions made by government in relation to VAT on such activities: see para 8. This was not in my view a factor that should have influenced the approach to determining NHS Lothian&#8217;s claim. It is not for HMRC or the courts or tribunals to take a view on whether the earlier policy that different branches of government should not trouble each other with claims which result in money moving from one pot within the Government&#8217;s overall kitty to another was better or worse than the current policy of promoting efficiency by encouraging the different branches of government to operate more like individual businesses. Further, it appears from the authorities discussed earlier that there were private taxpayers who also decided not to recover their input VAT for many years, where that decision cannot be laid at the door of the Government of which HMRC forms a part. There is no basis for treating historic claims differently for public body taxpayers as compared to private.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-size:13pt">86.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Thirdly, the suggestion that HMRC had destroyed documents in its keeping which might have assisted NHS Lothian in making its claim is not borne out by the facts. At para 56 of the judgment, the Inner House stated that it appears from a letter sent by HMRC to NHS Lothian&#8217;s representatives on 21 April 2015 that records held by HMRC for the period before 1997 were destroyed in 2010. This meant, the Inner House held, that &#8220;the state has to bear a major degree of responsibility for the absence of accounting records&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-size:13pt">87.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The obligation to keep proper accounting records is an obligation placed firmly on the taxpayer by article 242 PVD and regulation 31 of the VAT Regulations. It is not part of HMRC&#8217;s role to keep any copies of those records they may hold in case a taxpayer belatedly decides to recover input tax. The evidence shows that in fact there was no causal link between NHS Lothian&#8217;s destruction of what documents it had with the United Kingdom&#8217;s unlawfully retrospective imposition of a time limit on late input tax claims. The FTT found that NHS Lothian and its predecessors had destroyed whatever documents they had relating to the claim period by 2006. This is not surprising given that they did not claim input tax deducted during that period and so had no need for the documents. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-size:13pt">88.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The letter to which the Inner House refers was limited to documents dating back to 1994, thus covering only a small part of the claim period. NHS Lothian&#8217;s representative wrote to HMRC in April 2015, a month before the FTT hearing, chasing up an indication in an earlier HMRC letter that HMRC might hold such records. HMRC responded by explaining that manual records for the period 1994 to February/March 2010 had been destroyed once the data from them had been transferred to the computer record. There were no records before 1994 because the HMRC&#8217;s NHS team was only formed in 1994 and documents older than six years had been destroyed as part of the digitisation exercise. There is therefore no blame to be attached to HMRC&#8217;s conduct in this regard. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-size:13pt">89.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Conversely, I disagree with the suggestion in para 45 of the Inner House&#8217;s judgment that if a taxpayer has been at fault in not keeping proper records or by destroying records prematurely, it might be legitimate to infer that the taxpayer has failed to prove its entitlement. There may be other penalties imposed for poor record keeping but it would not be appropriate for HMRC or the tribunals to adopt a more exacting standard of proof because of some perception that the taxpayer has been at fault. If the taxpayer has either properly or foolishly destroyed the records it once held because of its own retention policies, that may prevent it from proving that it incurred the input tax which it now wishes to claim. The non-availability of evidence in such circumstances is a fact of life that often determines whether parties bring or refrain from bringing proceedings to enforce their rights in all areas of the law. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-size:13pt">90.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On this ground too, I would hold that HMRC&#8217;s appeal must succeed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-style:italic;font-size:13pt">(e)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal">Ground 4: no error of law in the FTT&#8217;s decision</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-size:13pt">91.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the light of my analysis, I can conclude that there was no error of law in the reasoning of the FTT and that the Upper Tribunal was right to uphold that decision for the reasons given. I would therefore allow the appeal. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

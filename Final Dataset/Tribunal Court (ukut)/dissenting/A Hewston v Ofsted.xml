@@ -1,0 +1,1335 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/109"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/109"/>
+	  <FRBRdate date="2023-08-04" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="109"/>
+	  <FRBRname value="A Hewston v Ofsted"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/109"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/109"/>
+	  <FRBRdate date="2023-08-04" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/109/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/109/data.xml"/>
+	  <FRBRdate date="2024-11-09T22:44:12" name="transform"/>
+	  <FRBRdate date="2024-11-23T04:03:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-08-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-hewston" href="" showAs="A Hewston"/>
+	<TLCPerson eId="ofsted" href="" showAs="OFSTED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>109</uk:number>
+	<uk:cite>[2023] EAT 109</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>5105446c86b1bcae65a9c6faefa07d2169cd9efadd05e61bfa14370465dcbc34</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .legclearfix { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .legds { }
+#judgment .legsubstitution { }
+#judgment .legchangedelimiter { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Hewston v OFSTED</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 109</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2022-000220-DXA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-08-04" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">4 August 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">PROFESSOR ANDREW ROWLAND</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MISS EMMA LENEHAN</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#a-hewston" style="font-weight:bold;font-size:12pt">Mr A Hewston</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#ofsted" style="font-weight:bold;font-size:12pt">OFSTED</party><marker name="tab"/><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Tom Kirk </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Thompsons) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Andrew Allen KC </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by DAC Beachcroft LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 20 June 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">UNFAIR DISMISSAL, CONTRACT OF EMPLOYMENT</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant in the employment tribunal was employed by the respondent as an Inspector.  During a school inspection visit with a colleague a group of school children came in soaking from the rain.  The claimant brushed rain water off the hair or forehead of one of the children and put his hand on the child&#8217;s shoulder.  Following a complaint from the school, there was an investigation and then a disciplinary process which led to the claimant being summarily dismissed.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant&#8217;s complaints of unfair dismissal and wrongful dismissal were dismissed by the employment tribunal.  The claimant appealed successfully in relation to both outcomes.  </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In particular, in relation to unfair dismissal, the tribunal failed to give adequate consideration to the fact that the claimant had not been forewarned, by a written policy, training or otherwise, that a single incident of physical contact of this sort (which was not found to give rise to any safeguarding issue) could result in his dismissal.  It also erred in not finding the failure to give the claimant three documents seen and relied upon by the dismissing officer &#8211; the text of the school&#8217;s complaint, the text of the child&#8217;s statement, and an email recording the view of the Local Authority Designated Officer (and only one of which &#8211; the school&#8217;s complaint &#8211; was provided to him at the appeal stage) rendered the dismissal unfair.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On the facts found the tribunal could only have properly concluded that the dismissal was unfair.  Such a conclusion was therefore substituted for that of the tribunal.  </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to wrongful dismissal the tribunal did not make a clear finding that it objectively considered, on the evidence before it, that the claimant&#8217;s conduct amounted to a repudiatory breach and/or as to why.  The judgment dismissing that complaint was therefore also quashed.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The matter was remitted to a different tribunal to redetermine the wrongful dismissal complaint and to determine remedy for unfair dismissal.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We will refer to the parties as they were in the employment tribunal, as claimant and respondent.  The claimant appeals from the decision of Employment Judge Dean arising from a hearing held at Birmingham, that he was not unfairly dismissed and not wrongfully dismissed.  The matter was heard over four days in October 2021.  The hearing was reconvened in November 2021 when the tribunal gave an oral decision.  Written reasons were requested and subsequently produced.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The parties were represented at the tribunal hearing by Mr Kirk and Mr Allen KC of counsel, both of whom appeared again before us.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Facts </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We take the facts from the decision of the employment tribunal, undisputed documents and other undisputed factual background and context.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent is the principal independent regulator and inspector of schools, services which care for children and young people, and services providing education and skills to learners in England.  It is responsible for 25,000 to 30,000 inspections each year, including within the social care remit.  The claimant was employed by the respondent as a Social Care Regulatory Inspector from 2007.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The incident which led to the claimant&#8217;s dismissal occurred during the course of an inspection visit to a school, which he made in the company of lead inspector, Louise Battersby, on 8 October 2019.  Following the visit the school contacted Ms Battersby and raised a concern that, when a child had come in from the wet outside, the claimant had rubbed the child&#8217;s head and back, and that the school had serious concerns about this touching.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This led to a manager, Michelle Moss, removing the claimant from inspection activity pending a case conference.  A report was also made to the Local Authority Designated Officer (LADO).  In an email to Ms Moss of 9 October 2019 the Duty LADO described the complaint in this way:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">&#8220;Andrew has been observed to rub his hand on a student&#8217;s head and shoulder.  This was after a number of students had come in from outside from heavy rain and they were completely wet.  The teacher who observed the incident felt it was inappropriate and uninviting to rub water off a student&#8217;s head and shoulder without permission.  The student looked uncomfortable/embarrassed when this happened and commented he was unhappy to another student.  The student completed an incident form stating that he didn&#8217;t feel comfortable when his head and shoulder was being rubbed by Andrew.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The email concluded:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">&#8220;On balance I feel the proportionate response is for the employer to investigate this matter internally with Andrew with consideration to raising awareness of professional boundaries and any training that may be required in support of this.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman';color:#010302">The employer is advised of the duty of care to the employee during the investigation process and Andrew&#8217;s right to know that he has been referred to the LADO service.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 11 October 2019 the claimant was suspended.  Lynne Radley investigated.  The claimant met her and made representations.  Ms Radley also interviewed Lynn Pascoe, Deputy Director of Social Care, Ms Battersby, and Wendy Ghaffar, HMI Specialist Adviser.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Radley had sight of the LADO documentation and a complaint letter from the school, which the tribunal described as &#8220;scathing in its criticisms of the Regulatory Inspection generally, including an allegation that the inspectors were, by its nature, showing discriminatory Islamophobic perceptions.&#8221;  The tribunal observed:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#010302">&#8220;36.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman';color:#010302">The respondent did not share with the claimant the LADO report and the document that supported it.  The respondent held the view that the LADO report and the documents belonged to the LADO and were not to be shared with the claimant.  It is evident, however, that the claimant was aware of the factual matrix in relation to the school&#8217;s complaint and the concerns raised by the child.  The claimant makes much of the fact that the LADO identified the need for an investigation and training around professional boundaries.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#010302">37.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman';color:#010302">I am conscious </span><img src="image2.jpg" style="width:0.96pt;height:0.96pt"/>that much in the same way that it is not for an Employment Judge to substitute her view for that of the reasonable employer, the decision as to any sanction to be made out in any disciplinary investigation and hearing is that of the respondent employer alone to determine what is appropriate and reasonable. Indeed, the LADO was not ultimately privy to the outcome of the investigation before recommending training, as she did.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Radley recommended that the claimant face disciplinary charges.  He was provided with her report and invited to a disciplinary hearing.  The charges were in the following terms.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;margin-right:0.79in"><span style="font-family:'Times New Roman'">&#8220; - That on 8 October 2019 whilst you were on inspection you without consent or invitation touched a child on the head and shoulder;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="margin-left:0.75in;text-indent:-0.25in">-</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.79in"><span style="font-family:'Times New Roman'">That your actions were inappropriate and were contrary to Ofsted core values, professional standards and the Civil Service Code;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:0.75in;text-indent:-0.25in">-</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.79in"><span style="font-family:'Times New Roman'">That your actions have caused a breach in our trust and confidence in your role as an Ofsted inspector;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="margin-left:0.75in;text-indent:-0.25in">-</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;margin-right:0.79in"><span style="font-family:'Times New Roman'">That your actions have damaged Ofsted&#8217;s reputation.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal was referred to extracts from the Civil Service Code and the respondent&#8217;s core values and professional standards in the Social Care Common Inspection Framework (SCCIF).  This included the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="font-family:'Times New Roman'">&#8220;&#8230;to uphold and demonstrate Ofsted values at all times, carry out their work </span>with integrity treating all those they meet with courtesy, respect and <span style="font-family:'Times New Roman'">sensitivity; take all reasonable steps to prevent undue anxiety and to minimise stress for those being inspected; to act in the best interests and wellbeing of service users, prioritising the safeguarding of children at all times.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal observed at [44]: &#8220;The claimant was familiar with the standards.  He was a senior employee of the respondent.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The disciplinary hearing on 21 November 2019 was before a Regional Director, Lorna Fitzjohn.  The claimant was accompanied by his trade union representative, Carolyn Thompson.  The claimant stated that he did not believe that he had acted unprofessionally and suggested that &#8220;brushing rain from the forehead was professional in the sense that it was caring.&#8221;  The tribunal continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;46.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The claimant expressed the view that the complaint had been blown out of proportion and that the complaint from the school had not been shared with him. He expressed the view that the school was looking for a reason to pick on an inspector. The claimant at the hearing read his prepared notes and sought to assert that he respected the child and his was a caring gesture "to show that you were trying to care for a child and engage with him". The claimant suggested that the touch was not excessive and he had not hugged the child.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>47.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">Ms Thompson on the claimant's behalf questioned what he had done in breach of the Code, and it was plain that it was the fact that the claimant, without invitation or consent, had touched the child on the head and shoulder. What was not in dispute was that the touch was uninvited &#8212; it was a touch on the head and forehead and on the face of the child.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>48.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">During the disciplinary hearing the claimant on occasion became upset, and while he acknowledged the impact of events on Ofsted he suggested in mitigation that there were ways to address the issues like this and he did not feel it fell within the disciplinary procedures. The claimant in particular said [262]:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in"><span style="font-family:'Times New Roman'">&#8216;To say I would not do it again would suggest I'm guilty of acting inappropriately. I feel that the gesture of care for a child and engagement, I still feel that it was not a crime and needed to come to this point. It does not fall within the definition of gross misconduct. Having gone through all this and the stress I can say that I would not do it again. That is not suggesting I'm guilty. Does that make sense?&#8217; &#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal referred to the claimant&#8217;s statement in response to the investigation report in which he observed that the investigation highlighted &#8220;significant differences between senior managers&#8217; thinking around touch and this does not appear to have been shared with managers or inspectors.&#8221;  He suggested that the respondent&#8217;s stance seemed to suggest that it was advocating a &#8220;no touch&#8221; policy &#8220;which went against the content of lectures given at Ofsted conferences in the past by Harry Ferguson that suggested touch was a positive tool to use in social care.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">After an adjournment Ms Fitzjohn informed the claimant that her decision was to dismiss him &#8220;for summary gross misconduct and the resultant loss of trust and confidence&#8221;.  She wrote to him on 27 November 2019 with her detailed reasons.  At [53] &#8211; [58] the tribunal summarised these as follows.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><img src="image3.jpg" style="width:0.48pt;height:0.96pt"/><span style="font-family:'Times New Roman'">&#8220;53. &#8230;It was concluded that the claimant had failed to exercise good inspection judgment by initiating physical contact with a student when it was not invited or expected. The student had reported that he felt uncomfortable. In respect of allegation one it confirmed:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in"><span style="font-family:'Times New Roman'">&#8216;While I understand you may have been trying to convey a feeling of trust and openness, your act of touching the smallest boy in a group, without being absolutely certain that this was acceptable to them, was a grave error of judgment on your part.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in"><span style="font-family:'Times New Roman'">On the balance of evidence presented, including your own explanation, I have concluded that the contact did take place. I have also concluded that this was uninvited and unwarranted and, given the student's report following the contact, that this was unwelcome.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>54.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">In respect of allegation two, that the claimant's actions were inappropriate and contrary to Ofsted&#8217;s core values, professional standards and the Civil Service Code, it was found that:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in"><span style="font-family:'Times New Roman'">&#8216;Your response was that you felt that a student didn't look unhappy or uncomfortable, and I am concerned by your lack of understanding of the potential impact your contact had on them. From your responses at our meeting and in your written submissions / find you had no awareness of your actions had any potential to cause upset or anxiety of the student in question.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in"><span style="font-family:'Times New Roman'">I find your belief that the school had fabricated the student's distress shows a lack of self-awareness, a failure to reflect and a lack of contrition on your part.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>55.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">It was felt by Ms Fitzjohn that:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.01in"><span style="font-family:'Times New Roman'">&#8220;I have carefully considered the evidence both you and your representative presented during the investigation and at the hearing. I have concluded that your awareness of the impact of your actions on others and your understanding of how your physical contact may be received by others is limited to such an extent that I have concerns about you professional judgment and the ability to assess appropriate physical boundaries during an inspection.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>56.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">Ms Fitzjohn stated:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.01in"><span style="font-family:'Times New Roman'">&#8220;I asked you during the hearing whether you would do this again. You stated you would not because of how stressful the investigation and disciplinary process has been for you, but you were firm in your view that you felt your actions were appropriate. I therefore have no confidence that you recognise your error or that you are able to maintain professional boundaries between yourself and the student.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>57.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">In respect of allegation four, Ms Fitzjohn expressed the view:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.01in"><span style="font-family:'Times New Roman'">&#8216;I have considered the impact of your actions on the reputation of Ofsted. By initiating what I have concluded to be inappropriate physical contact your actions have prompted the school to make a referral to the LADO and featured a complaint against Ofsted from the school. This aspect of the complaint has been upheld. This could have been avoided had you shown better judgment. However, more pertinent is that I have no confidence in you sufficiently understanding the severity of your error and as such will not initiate uninvited and unwarranted contact in the future.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>58.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">Mitigation was considered, and balanced by Ms Fitzjohn against the finding that the claimant had made a grave error of judgment and that were the claimant, to remain as an SCRI, she needed the highest level of trust and confidence in his being able to manage physical contact appropriately. She said:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.01in"><span style="font-family:'Times New Roman'">&#8216;The grave error of judgment you displayed in this case and the lack of contrition and unrecognition of any wrongdoing has led to me regretfully conclude that your actions and the response to the challenge have destroyed the relationship of trust and confidence I require in you to continue as a SCRI. I have no option but to dismiss you from your role with immediate effect.&#8217; &#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal interposed that it found that the conduct of the hearing was in accordance with the respondent&#8217;s procedures, the decision was reached having considered all the argument and submissions made, and it was within the range of reasonable decisions that might have been taken.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant appealed.  His appeal document incorporated a supporting statement from his trade union, Unison.  Among other things Unison complained of a lack of clear guidance from the respondent on physical contact with children.  It also said that the respondent had failed to take into account the claimant&#8217;s &#8220;exemplary past record and the absence of any previous concerns on his professional conduct.&#8221;  It also submitted that he had shown contrition and a clear willingness to abide by guidance if reinstated.  He could be trusted to conduct himself appropriately and professionally in the future.  Unison submitted that the respondent should &#8220;urgently seek to produce clear and unambiguous guidance to inspectors on physical contact with children&#8221; and training.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#010302">&#8220;63.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman';color:#010302">In light of the assertions made by Unison, that the claimant had an exemplary past record and the absence of any previous concerns about his professional conduct, Mr Simmons was provided with </span>copies of the claimant's performance reports which intimated that the claimant was subject to performance review because he had on two occasions failed to provide his reports in a timely fashion and that he may receive a warning under the performance review procedures for unsatisfactory performance standards.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>64.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in">Having heard evidence from Mr Simmons, who was subject to cross examination, I am satisfied that whilst the respondent considered it appropriate to consider if the union's reference to exemplary service was correct, that was not the reason why the decision to uphold the disciplinary decision was ultimately made.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>65.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in">Mr Simmons has confirmed that the respondent did not have, and was not intending to introduce, a "no touch" policy.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>66.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in">During the appeal hearing the claimant indicated that he was happy to be involved in any necessary training in terms of physical contact with children and that he hoped to be allowed to return to work as an inspector.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;68.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The appeal decision was sent to the claimant by email on 23 December [574-580]. The conclusions were that:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <intro>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in"><span style="font-family:'Times New Roman'">&#8216;The decision maker was correct to rule that you cannot be relied upon to exercise clear sighted professional judgment in the future. You have not convinced me that your professional judgment is sufficiently consistent. Your lack of professional judgment has led you to touch a student in an untoward </span><img src="image4.jpg" style="width:0.96pt;height:0.96pt"/><span style="font-family:'Times New Roman'"> manner which, as reported, made the student feel uncomfortable. This is in my view a very grave misdemeanour.</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.48in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.48in;margin-right:1.58in"><span style="font-family:'Times New Roman'">You asserted that your action was a lapse in an unblemished career. My review of the documentary evidence does not support your assertion. Within the past year two inspections led by you were declared incomplete. It is rare in an inspector's career for an inspection led by an inspector to be declared incomplete. To have two inspections so declared in less than a year is, in my experience, unprecedented and underlines a worrying lack of professional judgment.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:Symbol;margin-left:1.48in;text-indent:-0.25in">&#8226;</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.48in;margin-right:1.58in"><span style="font-family:'Times New Roman'">I am content that the disciplinary process was conducted properly and in accordance with Ofsted's disciplinary policy. I am satisfied that you had sufficient opportunity to address the allegations against you, both at disciplinary hearing and the appeal hearing.&#8217;</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>69.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in">Having heard the evidence of Mr Simmons, tested in examination, I am satisfied that his decision was first and foremost based upon the decision that the claimant could not be relied upon to exercise clearsighted professional judgment in the future. In the reasons for his decision Mr Simmons outlines the matters in respect of which he gave consideration. In light of the facts I find that Mr Simmons gave full consideration to all the appeal points raised by the claimant and Unison on his behalf, and on the basis of his decision he had a reasonable foundation for the conclusions which he reached.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Tribunal&#8217;s Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Under the heading &#8220;Argument and Conclusions&#8221;, following introductory thanks to counsel, what the tribunal wrote, in full, was as follows (there is a glitch in the numbering after [83].  In citations in our discussion below &#8220;second&#8221; refers to the second paragraph bearing the given number):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;71.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">I am conscious that this is a case in respect of which Mr Kirk has suggested that in cases relating to safeguarding children it is important to examine with care whether the allegations of inappropriate physical contact with children have been properly covered in disciplinary rules. In this case there is no "no touch" policy, and the respondent does not consider that a policy was required.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>72.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">It is accepted that there was no harm intended to the child. The case of West v Percy Community Centre UKEAT0101/15 to which Mr Kirk refers is one in relation to a teacher and the policy that was applied in that case. I am reminded also that great scrutiny is required of alleged misconduct where an employee might, as a consequence of an adverse decision, be prevented from working in his chosen field ever again.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>73.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">This case, however, is not a safeguarding case, it is one in which the respondent who were responsible for ensuring standards within regulated environments are well maintained. The inspector is expected to exemplify the highest standards. Mr Kirk asked me to consider what 'the man on the Clapham omnibus' might think of events when, as a result of an adult touching a child in a caring manner, that person was dismissed for gross misconduct. Were the man or indeed a woman on the Clapham omnibus to view the scene that occurred in 2019, I conclude that such an uninvited and unnecessary touch by an unknown adult to wipe away water from child's forehead would cause any reasonable person who saw such an interaction to feel unease. The unbidden touch by an adult of an adolescent and young child by a stranger in this day and age would be seen as not appropriate and might be considered to be a misuse of power which violates the child's right to be treated with dignity. To show 'care', as the claimant suggests, he may more appropriately have simply explained, to the child that he looked like a drowned rat, and perhaps to have gone on to commend the child to get out of the cold and to dry off, such a limited nonphysical engagement which would not in those circumstances </span><img src="image5.jpg" style="width:0.96pt;height:0.96pt"/><span style="font-family:'Times New Roman'"> be inappropriate. However, that was not the case. The claimant touched the child and did not see his actions as inappropriate, when outside a social work context on an inspection and this was the reason that caused the respondent to conclude that there was a fundamental loss of trust and confidence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>74.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">It is clear that the reason for the claimant's dismissal as detailed by Ms Fitzjohn, was the claimant's conduct. The respondent followed their disciplinary process in accordance with their procedure. At the disciplinary hearing the decision was taken to separate performance issues that the claimant was facing at the time, from the claimant&#8217;s conduct in the touching incident, and Ms Fitzjohn has been convincing in her evidence on the point. The reason for the dismissal was set out in the outcome letter and the suggestion that the dismissal was made for ulterior motives, to placate in some way the school that had raised a number of complaints, or that it was a mask for dealing with performance concerns, does not hold credence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>75.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The claimant was aware of his behaviour in respect of which he was being investigated and subsequently disciplined. The claimant was an inspector and a senior member of the respondent's staff, and in the circumstances the claimant should have been aware of the consequences of inappropriate touching. The claimant, a social worker by background, was aware of the appropriate circumstances in which touch might be used. It was not advocated that casual intrusive social touch was appropriate: rather the acceptance of touching is in the context of particular social care events which were not present on 8 October.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>76.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">In light of the findings that I have made and having considered the submissions made by both parties' counsel, I conclude that the respondent's reason to dismiss the claimant was misconduct and gross misconduct, and in particular that the claimant's actions undermined the trust and confidence that the respondent was entitled to expect to have in the claimant's ability to perform his job as an inspector.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>77.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">At the time that the respondent took the decision to dismiss the claimant the respondent had conducted a fair and reasonable investigation which founded their reasonable belief that the claimant's actions amounted to gross misconduct, and that was the reason for his dismissal. The claimant in any event admitted the conduct about which the complaint had been made, and the respondent took the view in the circumstances that a decision to dismiss was a fair, reasonable and proportionate one.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>78.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">While l, and indeed the LADO, may have considered that a sanction falling short of dismissal may be appropriate and further training might be given, it is not for me as an Employment Judge, or anyone else, to substitute our view for that of a reasonable employer, and one in the exceptional circumstances and remit of the respondent.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>79.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The claimant was aware of the rules and guidance issued by the respondent, and the claimant's actions were found to fall short of the standards and expectations of the respondent. The claimant throughout the disciplinary hearing and for much of the appeal hearing maintained that his actions were seeking to show his compassion and care to a child in the school environment, while ignoring the fact that his role on an inspection was not to demonstrate that he, as an inspector, cared. Rather than placing the child at the centre of his care the observations of his employer and the discipline and appeals manager were that he failed to appreciate the standards of behaviour as an inspector in the circumstances.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>80.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">I conclude that the respondent, having had regard to all of the statutory guidance and ACAS guidance, has acted fairly in reaching the conclusion that they did. The respondent has clearly demonstrated a fair reason to dismiss the claimant. The claimant was dismissed for reasons of gross misconduct and was the dismissal decision was fair in all of the circumstances in this case.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>81.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The claimant seeks to claim that the appeal was not fair and objective and that it undermines the outcome of the disciplinary hearing. In light of the findings of fact that I have made, I conclude that the appeal reconsidered the decision to dismiss the claimant and upheld it as a fair decision. Although the claimant raised issues in relation to the exploration of his performance standards, I am satisfied that that was not the reason for Mr Simmons reaching the conclusions that he did, although they were clearly mentioned in his appeal note in the context of answering the assertions made by the claimant and his trade union representatives.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>82.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The claimant's dismissal was such that he was found to have been guilty of gross misconduct in breach of the essential terms of his contract of employment, which fundamentally undermined the mutual duty of trust and confidence in circumstances which entitled the respondent to terminate the claimant's employment without notice.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>83.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">It is agreed between the parties that:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.02in"><span style="font-family:'Times New Roman'">The claimant had sufficient qualifying service under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/108" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 108</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">ERA 1996</ref> to present a complaint of unfair dismissal;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.02in"><span style="font-family:'Times New Roman'">The claimant&#8217;s claim was presented within the relevant time limit pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/111/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 111(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">ERA 1996</ref>;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.02in"><span style="font-family:'Times New Roman'">The claimant was dismissed by the Respondent; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:1.58in;text-indent:0.02in"><span style="font-family:'Times New Roman'">The effective date of termination was 21 November 2019.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>69.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">I conclude that the reason or principal reason for dismissal under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">ERA 1996</ref> was a reason relating to conduct a potentially fair reason to dismiss the claimant.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>70.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The Claimant's assertion that the Respondent was motivated by other reasons, namely to enable the Respondent to inform the School that one of the complaints made by it had been upheld and/or to dismiss the Claimant rather than conclude ongoing capability proceedings against the Claimant has not been established by the claimant.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>71.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">This is a case in which I conclude that the Claimant's dismissal was fair and reasonable in all of the circumstances- including, taking into account the size and administrative resources of the Respondent (<ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref>). The Respondent has demonstrated that they had a genuine belief that the Claimant was guilty of misconduct having conducted as much investigation into the matter as was reasonable in the circumstances to give the respondent reasonable grounds to found that belief.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>72.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The procedures followed by the respondent in their investigation and disciplinary hearing were procedurally fair and the claimant was afforded a fair appeal.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>73.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The respondent considered all of the circumstances of the case and notwithstanding the effect of the dismissal on the claimant's ability to work as an inspector in the future the sanction of dismissal fell within the range of reasonable responses that a reasonable employer could take.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>74.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">It is agreed between the parties that the Claimant was dismissed without notice and without payment in lieu of notice on 21 November 2019. The findings of fact that I have reached confirmed that the respondent reasonably considered that the claimant's conduct amounted to the breach of an essential term of his contract.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>75.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The claimant&#8217;s application that he was unfairly dismissed does not succeed and is dismissed.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>76.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman'">The claimant&#8217;s complaint that he was subject to wrongful dismissal does not succeed and is dismissed.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For the purposes of an unfair dismissal claim, <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(1)</ref> </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> provides that it is for the employer to show the reason or principal reason for the dismissal, and that it falls within <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(2)</ref> or is some other substantial reason.  Reasons falling within <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(2)</ref> include a reason which relates to the conduct of the employee.  <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 98(4)</ref> provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="legclearfix" style="text-align:justify;margin-left:0.59in;margin-right:0.79in"><span style="color:#010302">&#8220;</span><span class="legsubstitution" style="font-size:11pt;color:#000000">Where</span><span class="legds" style="font-size:11pt;color:#000000">&#160;the employer has fulfilled the requirements of subsection (1), the determination of the question whether the dismissal is fair or unfair (having regard to the reason shown by the employer)&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num class="legds">(a)</num>
+		  <content>
+		    <p class="legclearfix" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span class="legds" style="font-size:11pt;color:#000000">depends on whether in the circumstances (including the size and administrative resources of the employer&#8217;s undertaking) the employer acted reasonably or unreasonably in treating it as a sufficient reason for dismissing the employee, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="legds">(b)</num>
+		  <content>
+		    <p class="legclearfix" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span class="legds" style="font-size:11pt;color:#000000">shall be determined in accordance with equity and the substantial merits of the case.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is well-established that, where dismissal is found to have been for a reason related to conduct, the tribunal should consider whether the respondent had a genuine and reasonable belief that the conduct occurred, and whether this belief was formed following a reasonable investigation.  It should also consider whether the sanction of dismissal was reasonable.  In approaching all those questions of reasonableness, it should apply a &#8220;band of reasonable responses approach&#8221; and not substitute its own view or approach for that of the employer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Section 207(2) </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Trade Union &amp; Labour Relations (Consolidation) Act 1992</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> provides that any provision of a specified ACAS Code of Practice which appears to the tribunal to be &#8220;relevant to any question arising in the proceedings shall be taken into account in determining the question.&#8221;  In relation to complaints of unfair dismissal by reason of conduct the relevant Code is the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code of Practice on Disciplinary and Grievance Procedures</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (2015), which we will call the ACAS Code.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In respect of a complaint of wrongful dismissal, the tribunal must decide whether the employee&#8217;s conduct placed him in fundamental or repudiatory breach of contract.  The tribunal must make a finding about that objectively for itself, based on the evidence presented to it.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">The Grounds of Appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The grounds of appeal are in summary as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Grounds 1 &#8211; 3 relate to unfair dismissal.  Ground 1 </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">contends that the tribunal erred by finding that the sanction of dismissal fell within the band of reasonable responses without having proper regard to the ACAS Code.  In particular, it contends that the tribunal had no proper regard to the lack of any disciplinary rules making it reasonably clear to the claimant that a single instance of conduct of this particular type would be treated as likely to lead to dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 2 contends that the tribunal erred, when considering whether the sanction of dismissal was within the band of reasonable responses, by failing to take account of important factual considerations, being specifically: (a) the fact that the respondent expected employees to refrain from almost any physical touch, but had not informed them of that in any disciplinary rule or training; and (b) failing to examine whether the respondent had considered key points relevant to sanction, including the claimant&#8217;s length of service and his full and frank apology for his actions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 3 contends that the tribunal erred when considering the fairness of the procedure in the following respects: (a) failing to consider whether the investigation failed to comply with the ACAS Code, by the claimant not being provided with relevant evidential statements; (b) failing to consider that the respondent had failed to explore potentially exculpatory lines of enquiry despite these being raised by the claimant; (c) failing to consider whether there had been a breach of the ACAS Code or natural justice, by the appeal officer (i) reneging on an assurance that the claimant&#8217;s previous inspections record would not be considered at the appeal; and (ii) expressly relying on lapses of judgment during previous inspections that were not put to the claimant for a response. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Ground 4 relates to wrongful dismissal.  It contends that the tribunal erred by: (a) failing to make findings about whether the claimant had deliberately and wilfully contradicted the contractual terms or been grossly negligent; (b) failing to make its own assessment of the conduct, instead relying on what the employer had found; (c) reaching a decision which was perverse, given that (i) the claimant was not told that he could be dismissed for a one-off act of this nature; (ii) he had received no training on the subject; and (iii) the tribunal found that his motives were essentially benign.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Argument</span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant relied in particular on paragraphs 2 and 24 of the ACAS Code:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="color:#010302">&#8220;2.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman';color:#010302">Fairness and transparency are promoted by developing and using rules and procedures for handling disciplinary and grievance situations.  These should be set down in writing, be specific and clear.  Employees, and, where appropriate, their representatives, should be involved in the development of rules and procedures.  It is also important to help employees and managers understand what the rules and procedures are, where they can be found and how they are to be used.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="color:#010302">24.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.79in;text-indent:0.41in"><span style="font-family:'Times New Roman';color:#010302">Disciplinary rules should give examples of acts which the employer regards as acts of gross misconduct.  These may vary according to the nature of the organisation and what it does, but might include things such as theft or fraud, physical violence, gross negligence or serious insubordination.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk also referred to the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Guide on Discipline and Grievances at Work</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (2019) which elaborates on these themes.  He also referred to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Lock v Cardiff Railway Company Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1998] IRLR 358" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] IRLR 358</ref>.  In that case the EAT overturned a finding that the dismissal of the employee for a one-off act of misconduct was fair. The tribunal had erred by failing to have regard to the provisions of the then current version of the ACAS Code, of 1997, in particular that employees should be given &#8220;a clear indication of the type of conduct which may warrant summary dismissal.&#8221;  Mr Kirk highlighted the observation of the EAT at [22]: &#8220;It seems to us essential that employees should be given due warning of which types of misconduct will, on a first breach, lead to dismissal.  They are entitled to know before they are dismissed what they may be in for if they break that particular rule.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk referred also to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Spence v Manchester United plc</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, UEKAT/0285/04, 14 October 2004, and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">W Brooks &amp; Son v Skinner</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1984] IRLR 379" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] IRLR 379</ref>, which make similar points.  He also referred to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">West v Percy Community Centre</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, UKEAT/010/15, 20 January 2016, a case concerning a teacher at an after-school club who had on occasion some physical contact with children.  An appeal against a finding that the dismissal was fair was upheld, because the tribunal had not properly considered whether the particular contact was or was not prohibited by the employer&#8217;s policy relating to physical contact.  This illustrated, said Mr Kirk, the need to consider with care whether the employee was fairly on notice that the particular conduct by way of physical contact was prohibited.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The present tribunal, at [9], as part of its self-direction as to the law, stated: &#8220;If there is a failure to adopt a fair procedure, whether by the ACAS Code&#8217;s standards, or the employer&#8217;s own internal standards, this will render a dismissal procedurally unfair.&#8221;  The only other reference to the Code was at [80] (see above).  Mr Kirk submitted that this was insufficient.  In this case the claimant&#8217;s particular conduct was not conduct which he would, or should, have known was considered liable to merit dismissal.  It was not in dispute that there was no written rule or policy to that effect, nor was there any dispute that he had been given no guidance or training to that effect.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal also had evidence that, in her investigation interview, Ms Ghaffar had expressed the view that &#8220;[i]inspectors should understand that they should not touch a child&#8221;; but had also acknowledged that that was not stated in the training.  So, the claimant did not know that this was her position.  Ms Pascoe, in her interview, had also acknowledged that there was &#8220;nothing explicit&#8221; in the training about not touching children.  The claimant had raised that he had received training that actually promoted the use of touch in certain circumstances.  Two former inspectors, Christy Wannop and Rosemary Chapman, also gave evidence for the claimant that they were unaware of the respondent&#8217;s expectations in this area.  The tribunal failed to engage sufficiently with this evidence.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal at [75] conflated the issue of whether the claimant was aware of what touching was regarded as inappropriate and whether he was aware of the sanction.  It referred at [79] to the claimant being &#8220;aware of the rules and guidance issued&#8221;, but did not consider the specific issue of whether he was aware that this particular conduct would be regarded as warranting dismissal.  It should have concluded that there were no clear rules or guidance in place, and that the respondent had not complied with the ACAS Code.  The tribunal had attached too much weight to the provisions referred to at [43], which were not applicable to this case, including because it was not a safeguarding case.  This was not a specific disciplinary rule, let alone one relating to the subject of physical touch.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Allen KC submitted, first, that paragraph 2 of the ACAS Code was not relevant, as it relates to disputes-handling procedures, not to substantive rules relating to conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, it was neither required by the ACAS Code, nor possible, for an employer&#8217;s rules to set out exhaustively, all the types of conduct which might be regarded as warranting dismissal for a first occurrence.  Paragraph 24 of the Code referred to the need to give </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">examples</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  None of the authorities cited by Mr Kirk held that an exhaustive list of specific types of conduct must be provided.  These are high-level requirements with which the respondent&#8217;s procedures in fact did comply.  Mr Allen KC referred us to the relevant document issued by the respondent, which was before the tribunal, and which gave a number of examples of conduct regarded as gross misconduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal properly concluded at [75] that the claimant should have appreciated the consequences of this particular conduct.  This was supported by the evidence of his witnesses in cross-examination.  Mr Thomas of Unison acknowledged in cross-examination that it was not possible to have a concrete rule on touch; and Ms Chapman acknowledged that what the claimant had done was &#8220;possibly not appropriate&#8221;.  Mr Kirk, we interpose, took issue with this depiction of Unison&#8217;s position, and the overall evidence about it.  He applied to admit &#8220;new evidence&#8221; which, he said, demonstrated that its position is that guidance on what touch was or was not appropriate could and should be produced.  However, we do not consider that Unison&#8217;s stance as to what approach, or steps, the respondent </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">should</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> take in future, has any specific bearing on the issues in this appeal, which concern the actual position at the time when the incident that led to the claimant&#8217;s dismissal occurred.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Returning to Mr Allen KC&#8217;s arguments, he submitted that the training relied upon by the claimant related to specific contexts to do with child protection or engagement with children with specific disabilities, not the sort of situation in which the claimant&#8217;s conduct had occurred.  The tribunal also properly regarded him as senior, in the sense that he had many years&#8217; experience with the respondent, as well as past experience as a social worker.  He was certainly not a junior employee.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In any event, submitted Mr Allen KC, this challenge failed to engage with the fact that an important part of the respondent&#8217;s reasons for dismissal related to the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">attitude</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to his conduct, which the claimant displayed in the course of the disciplinary process, and which undermined the ability of the respondent to place trust in him in the future.  This was reflected in the tribunal&#8217;s conclusion at [76] that the claimant had been dismissed because his actions &#8211; in the plural, noted Mr Allen KC &#8211; undermined trust.  It was the claimant&#8217;s lack of professionalism, in accordance with the standards to which the disciplinary charges referred, in displaying that attitude, that led to his dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In oral submissions Mr Allen KC took this point further.  The claimant&#8217;s appeal to the EAT, he suggested, was based on a false premise that he had been dismissed because of his conduct in the incident itself.  The tribunal had correctly found at [71] that the respondent did not have a &#8220;no-touch&#8221; policy, and it was common ground that this was not a safeguarding case.  He said that it was never part of the respondent&#8217;s case that the claimant&#8217;s conduct in the incident itself was grounds for instant dismissal.  What had factually happened was never in dispute.  The running feature from the investigation onwards was the claimant&#8217;s attitude to his conduct.  It was his failure to show any insight or awareness that led to his dismissal.  The tribunal properly found at [79] that he had maintained his attitude &#8220;throughout the disciplinary hearing and for much of the appeal hearing.&#8221; </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Kirk stressed that, while it is trite law that a tribunal will err if it substitutes its own view for that of the employer, nevertheless, as Bean LJ remarked in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Newbound v Thames Water Utilities Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/677" uk:canonical="[2015] EWCA Civ 677" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 677</ref>; <ref href="#" uk:canonical="[2015] IRLR 734" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] IRLR 734</ref>, the band of reasonable responses is &#8220;not infinitely wide&#8221;, the tribunal&#8217;s consideration of sanction is not a matter of procedural box-ticking, and it must be entitled to find on occasion that a dismissal is outside the reasonable band.  As Longmore LJ put it in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Bowater v North West London Hospitals NHS Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/63" uk:canonical="[2011] EWCA Civ 63" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 63</ref> at [18]: the employer cannot be &#8220;the final arbiter of its own conduct in dismissing the employee&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the present case, submitted Mr Kirk, the tribunal had erred by taking the approach, at [37], of holding that the decision as to sanction was &#8220;that of the respondent alone to determine what is appropriate and reasonable&#8221;.  That was too deferential an approach, and meant that the tribunal failed to undertake its proper task of assessing whether dismissal was out-with the reasonable band.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">With regard to consideration of length of service, in the context of sanction, Mr Kirk referred to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Strouthos v London Underground Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/402" uk:canonical="[2004] EWCA Civ 402" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 402</ref>; <ref href="#" uk:canonical="[2004] IRLR 636" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 636</ref>, in which it was said that length of service can be properly taken into account, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Spence</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (above) in which the tribunal erred by not explaining how it had taken into account the employee&#8217;s &#8220;excellent record&#8221; and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Arnold Clark Automobiles v Spoor</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2017] IRLR 500" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] IRLR 500</ref>, in which the EAT concluded that the employer erred in not having regard to the claimant&#8217;s &#8220;exemplary record&#8221; when deciding to dismiss for an incident involving brief physical violence.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">With regard to mitigation, Mr Kirk relied upon the observation of the EAT in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Brito-Babapulle v Ealing Hospital NHS Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0358/12, 14 June 2013, that it is not enough for a tribunal to point to the fact that the employer considered mitigation and rejected it, because a tribunal cannot abdicate its own function to that of the employer.  In the present case, the tribunal&#8217;s statement at [58], that mitigation was considered by Ms Fitzjohn, was insufficient.  The tribunal did not specifically examine what consideration was given to the claimant&#8217;s long service, during which he had a clean disciplinary record.  This was particularly important in this case, given the ambiguity of the respondent&#8217;s stance with regard to conduct of the sort for which he was dismissed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk submitted that the tribunal also erred by failing to consider, or mention, what he called the full and frank apology which the claimant gave at the appeal stage, and the evidence that the appeal manager accepted that the claimant had reflected and been remorseful.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Allen KC submitted that what the tribunal said at [37] reflected the general point, that had been made by the respondent in submissions by reference to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Tayeh v Barchester Healthcare</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/29" uk:canonical="[2013] EWCA Civ 29" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 29</ref>; <ref href="#" uk:canonical="[2013] IRLR 387" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] IRLR 387</ref>, that, where the employer had taken a view about how seriously it regarded a particular type of offence, it was an error for the tribunal to substitute its own view that it was less serious.  This passage also reflected the tribunal&#8217;s proper consideration of the different perspective of the LADO, in its role, to that of the respondent, and what it had to decide, as employer.  It was clear from the totality of the reasons that the tribunal understood and applied the correct test.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to length of service, Mr Allen KC submitted that the authorities merely indicate that a tribunal </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">may</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> take this into account, not that it must do so.  In the present case the tribunal did not ignore the claimant&#8217;s length of service &#8211; it recorded his dates of employment at [1].  But it was not particularly relevant in this case, save that, if anything, the respondent was entitled to take the view that someone with the claimant&#8217;s long experience should have appreciated the gravity of his conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to mitigation, the tribunal&#8217;s task was not itself to engage with the mitigating factors as decision-maker, but to consider whether the respondent had properly taken mitigation into account.  It did not just note at [58] that Ms Fitzjohn did consider it, but, further, that she balanced it against her conclusion that the claimant had made a grave error of judgment.  That was sufficient.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to the question of apology, the evidence before the tribunal was not that the claimant made a &#8220;full and frank apology&#8221; at the appeal stage, but that his approach was still qualified, even at that stage, by a failure fully to show insight and acceptance that what he had done was wrong.  It was also the respondent&#8217;s case that he shifted his tone during the course of the appeal hearing.  The tribunal did consider this aspect of the evidence, and referred to it during the course of [79].  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk relied on paragraph 9 of the ACAS Code, which states that when notifying the employee of a disciplinary process: &#8220;It would normally be appropriate to provide copies of any written evidence, which may include any witness statements... .&#8221;  He also cited </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Louies v Coventry Hood and Seating Co Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1990] IRLR 324" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] IRLR 324</ref> in which the EAT strongly emphasised the importance to fair process, of the employee being given witness statements on which the employer was going to rely.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This ground related specifically to three documents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, the school had tabled a wide-ranging complaint about the inspection, as part of which the school raised this matter.  The school&#8217;s complaint document was not provided to the claimant until the internal appeal stage, despite his having requested a copy of it at the disciplinary hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, the respondent had also failed to inform the claimant of the existence of a written statement from the pupil concerned, despite his union representative having asked about this at the disciplinary hearing.  This document was seen by Ms Fitzjohn.  But the claimant only saw it for the first time in the tribunal litigation.  Ms Fitzjohn had unfairly criticized the claimant in her dismissal letter, for questioning the school&#8217;s account of the pupil&#8217;s distress, when he had not seen the pupil&#8217;s own account.  The dismissal letter had also glossed and exaggerated the pupil&#8217;s actual words.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Thirdly, the claimant was not given sight of the email in which the LADO had set out its view to the respondent, which was that the appropriate course was to provide him with training.  Once again, Ms Fitzjohn had had sight of the LADO&#8217;s view.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk submitted that in all these circumstances the tribunal should have found the handling of these aspects to be unfair.  The consideration by it of this issue at [36] and [37] was inadequate.  It was not sufficient to say that the claimant was &#8220;aware of the factual matrix&#8221; of the school&#8217;s and the child&#8217;s complaint, and it was wrong to say, effectively, that the LADO&#8217;s views were irrelevant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On the question of exculpatory lines of enquiry, the claimant relied upon two matters mentioned by him during the course of the disciplinary hearing.  First, he had referred to his initial discussion with Ms Moss, following receipt of the complaint, in which she had taken him off inspection work.  He said that she had told him that they (the respondent) were not worried about his conduct, but it was to protect him from the school, and that there would not be any further allegations.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, after being told of the decision to dismiss him, he had said in the course of his response that his &#8220;supporting manager says she touches children on inspection&#8221;, a reference to someone called Kristen Judd.  Mr Kirk submitted that these were exculpatory comments which the respondent should have investigated further, given the grave implications of the charges for the claimant&#8217;s future employment and reputation (in support of that submission he cited </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">A v B</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2003] IRLR 405" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] IRLR 405</ref> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">West</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (above)).  However, the respondent failed to follow-up interview either Ms Moss or Ms Judd.  The tribunal did not address this failure in its decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk submitted that the claimant&#8217;s performance had never been an issue in the disciplinary process prior to the appeal stage.  In referring, as part of his appeal, to his unblemished record of service, he and Unison were plainly making a point about his past good </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">conduct</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> record.  But this had led to the appeal manager being given materials relating to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">performance</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> issues, which in turn led to exchanges between Mr Thomas of Unison, and HR, prior to the appeal hearing.  Despite an assurance being given, that no reliance would be placed on the detail of performance issues, there were several references to this aspect in the appeal decision.  The tribunal should have found this unfair, having regard to that assurance, and because the claimant had not had a fair opportunity to comment on these matters prior to the giving of the appeal decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In reply on this ground Mr Allen KC made the following particular points.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, the tribunal specifically considered the position regarding the LADO report and the child&#8217;s and the school&#8217;s complaints at [30], [36] and [37].  It properly took the view that the claimant was aware of the factual matrix relating to the alleged conduct.  The LADO&#8217;s view could not act as a constraint on the respondent&#8217;s own processes, or have influenced its decision.  It recommended an investigation, but it did not conduct the investigation, and was not privy to the views that the claimant expressed about his conduct in the course of that investigation.  The school&#8217;s document referred to what the child had said, and the claimant made nothing of it when given it at the appeal stage.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Allen KC also submitted, again, that by the time of the disciplinary hearing, the issue was not what the claimant had done, but his attitude to it.  The key factor in the decision to dismiss was the respondent&#8217;s view of the claimant&#8217;s lack of appreciation, not necessarily of the specific impact on this specific child, but of factors such as the potential impact of his conduct, the power imbalance and the possible inability of a child in such a situation to express his unwillingness to be touched.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was also not outside the band of reasonable approaches not to have interviewed other managers for their views, which were largely irrelevant.  They were not witnesses, nor involved in the disciplinary process in any capacity.  Their views could not properly have been taken into account.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">With regard to the performance issue the claimant and his union had postulated that he had an unblemished career and exemplary record generally.  They had not confined their comments to issues of conduct.  It was made clear in the exchanges prior to the appeal hearing that, while the detail of the performance issues would not be considered, the fact of such issues would </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> be disregarded.  The tribunal also did not overlook this issue, but properly addressed it at [62] &#8211; [64] and [68] &#8211; [69].  As the claimant and the union had raised the subject in the appeal, Mr Simmons had needed to address it in his decision.  The tribunal had also found as a fact that the performance matters had not influenced Mr Simmons&#8217; decision, and that finding could not be challenged on appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 4 </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk submitted that, in order for a single incident of conduct to warrant summary dismissal it must be &#8220;wilful&#8221;, which connotes a &#8220;deliberate flouting&#8221; of the essential contractual conditions (per Lord Evershed MR in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Laws v London Chronicle (Indicator Newspapers) Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1959] 1 WLR 698" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1959">[1959] 1 WLR 698</ref> at 701); or it must involve &#8220;either deliberate wrongdoing or gross negligence&#8221; (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Sandwell &amp; West Birmingham Hospitals NHS Trust v Westwood</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, UKEAT/0032/09, 17 December 2009, at [113]).  </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Adesokan v Sainsbury&#8217;s Supermarkets Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/22" uk:canonical="[2017] EWCA Civ 22" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 22</ref>; <ref href="#" uk:canonical="[2017] ICR 90" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] ICR 90</ref> (to which we drew both counsel&#8217;s attention) took matters no further, as it was a case concerned with gross negligence.  He also cited authorities which emphasise that, by contrast with an unfair dismissal complaint, when considering a complaint of wrongful dismissal, the tribunal must make its own findings of fact about the conduct and whether it was bad enough to warrant immediate termination.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Kirk submitted that, on any reading, the judge had not made her own finding as to whether in her view the claimant&#8217;s conduct amounted to a fundamental breach of contract.  Rather, it was apparent from a number of passages, that the tribunal had deferred to, or adopted, the respondent&#8217;s view.  Further, he submitted, had it engaged with the matter, a number of its findings should have pointed to the conclusion that the claimant&#8217;s conduct did not meet the foregoing legal tests, including the findings in relation to his own belief about it, the lack of a clear policy on the matter and the brevity of the incident.  Having regard to all of that, the tribunal&#8217;s conclusion was perverse.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to the legal test, Mr Allen KC relied upon the discussion in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Briscoe v Lubrizol Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/508" uk:canonical="[2002] EWCA Civ 508" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 508</ref>; <ref href="#" uk:canonical="[2002] IRLR 607" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] IRLR 607</ref>, adopting the formulation in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Neary v Dean of Westminster</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1999] IRLR 288" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] IRLR 288</ref>, that conduct amounting to a repudiatory breach of contract is conduct which must &#8220;so undermine the trust and confidence which is inherent in the particular contract of employment that the master should no longer be required to retain the servant in his employment&#8221;.  Further, the Court of Appeal stressed that the test is an objective one, so that conduct may be found to have this effect, even if it was not the employee&#8217;s intention to damage the relationship.  He submitted that </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Adesokan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> underlined the importance of considering the impact on trust and confidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Allen KC said he had to accept that the tribunal&#8217;s finding on wrongful dismissal was not clearly set out at [second 74].  But the decision needed to be read as a whole.  The tribunal made findings at [56] &#8211; [58] and [82] from which it was apparent that the basis of the matter was trust and confidence.  [73] included the judge&#8217;s own assessment, as did [75], and [76].  The conclusion at [second 74] must be read in light of these earlier passages.  The tribunal was indicating there, that it was agreeing with the respondent&#8217;s assessment, and was thereby making its own independent finding.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Discussion and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We start by noting that the tribunal&#8217;s self-direction as to the law was correct, as far as it went, including noting that, for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref>, the tribunal must apply a band of reasonable responses approach, including in relation to both process and the sanction of dismissal.  There was also a correct self-direction on wrongful dismissal, that the test is one of fundamental breach of contract, and that the tribunal must make its own finding of fact in that regard.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We turn to ground 1, and with it, as it raises a closely related point, the first limb of ground 2.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal did not cite section 207(2) of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">1992 Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, or otherwise give itself a self-direction as its specific provisions.  But the approach which section 207(2) requires the tribunal to take to the ACAS Code is extremely familiar to employment tribunals.  In the course of its self-direction the tribunal did refer to the ACAS Code at [9].  We are not too sure whether the reference at [80] to &#8220;ACAS guidance&#8221; was to the ACAS Code or to the 2019 ACAS Guide.  But, we infer overall that the tribunal had not forgotten about the ACAS Code entirely on this occasion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We agree with Mr Allen KC that neither the ACAS Code, nor any of the authorities, indicates that an employer must identify every type of conduct which it regards as gross misconduct, for which an employee might be dismissed for a single instance, such that dismissal for conduct of a type which has not been so identified will necessarily be unfair.  It is obvious that an employer could not, however long a list it produced, necessarily cover every type of circumstance that might in future arise.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, the underlying principle of fairness, which has been stated, in one form of words or another, in a number of authorities, including </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Brooks</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (above) is not hard to grasp.  It is that it is not fair to dismiss an employee for conduct which he did not appreciate, and could not reasonably have been expected to appreciate, might attract the sanction of dismissal for a single occurrence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As the authorities point out, there are some types of conduct, the nature of which is inherently such that any employee ought reasonably to appreciate that it would attract the sanction of dismissal without needing to have it specifically spelled out in advance.  But there are other types of conduct where this is not inherently obvious, and in respect of which the stance of different organisations may differ, depending on circumstances peculiar to, for example, their activities or their employees.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">All of this explains why the ACAS Code at [24] indicates that individual employers should give examples of the types of conduct which they regard as gross misconduct.  If an organisation makes it clear to employees in advance, in a disciplinary code, or in some other suitable way, that, in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">this</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> organisation a certain type of conduct will be regarded as gross misconduct, then it will be able to say that its employees have been fairly forewarned of what to expect.  The Code refers to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">types</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> of conduct, again no doubt because not every </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">precise</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> scenario can be catered for.  But even if the precise conduct in question was not mentioned in the employer&#8217;s disciplinary code, there may be an issue as to whether, in light of the general examples that were given, the employee should have appreciated that their conduct, being of a relevantly similar kind or category, would be regarded equally seriously.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:12pt">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case Mr Allen KC is right that, strictly speaking, the respondent was not in breach of the ACAS Code, because it did produce a document which gave examples of conduct that would be viewed as gross misconduct.  But it was not disputed that physical touching (of any sort) was not on that list, nor that there was no other document which specifically addressed the issue of physical touch, indicated whether (whatever the individual views of managers such as Ms Ghaffar) the respondent had a no-touch policy, or, if not, gave guidance on the circumstances in which touch, or touch of certain kinds, would or would not be regarded by the organisation as permissible.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:12pt">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Those being the facts, the question for the tribunal was whether the respondent was entitled to take the view that it did not need to be spelled out that what the claimant did was conduct for which he could expect to be dismissed, because it should have been obvious, from its nature, that it was.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:12pt">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Allen KC&#8217;s stance, as we have noted, was that it was in fact </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the respondent&#8217;s position that the original incident was in and of itself conduct for which he could expect to be dismissed, but that the claimant had been dismissed because of his subsequent attitude to it.  However, we do not think that the issue can be simply side-stepped in that way.  That is for the following reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:12pt">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, the disciplinary charges that the claimant faced related to his conduct in the touching incident itself.  The tribunal reproduced the text of them at [40] and we have done so at [10] above.  The first bullet point identifies the substantive conduct charged.  The next three make points about what it is asserted was the nature, seriousness, or serious consequences, of that conduct, including by reference to the materials referred to in the second bullet point.  The reference in those bullet points to &#8220;actions&#8221; is plainly to the conduct referred to in the first bullet point, not to anything else.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:12pt">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> Secondly, as Mr Kirk fairly submitted, the materials referred to in the second bullet point did not take the charges in substance any further.  There were no specific examples in them which were said to be in point.  The invocation of the duty to act professionally, and, in the succeeding bullet points, of the notion of trust, and of damage to the respondent&#8217;s representation, were all essentially parasitic on the proposition that the conduct itself, identified in the first bullet point, was inherently so serious as to amount to gross misconduct.  </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">That</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> was the foundation for the propositions that it was so seriously unprofessional, in breach of trust, and damaging to the respondent&#8217;s reputation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:12pt">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Thirdly, as Mr Kirk also fairly submitted, in almost any disciplinary process, the employee&#8217;s attitude to his admitted or found conduct &#8211; whether he shows insight or remorse, a willingness to learn, and so forth &#8211; are liable to be pertinent considerations.  In particular, if the deciding manager is satisfied that the employee has shown insight, remorse, and/or a willingness to learn, they may take the view that, in light of this, the sanction should be less than it otherwise might have been.  Conversely, where these features are not present, they may feel unable or unwilling to reduce the sanction on that account, within the range of sanction that might in principle be appropriate.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-size:12pt">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">But if it would not, in the given case, be open to the employer, within the band of reasonable responses, to dismiss for the substantive conduct, then the absence of such features cannot render that sanction fair.  There may of course be cases where the employee&#8217;s attitude or behaviour during the course of a disciplinary process, amounts not merely to the absence of a demonstration of insight or remorse, but to something that, or that potentially, amounts to further misconduct in its own right, such as abusive or offensive behaviour, or something of that sort.  But in a case where something of that sort has occurred, such as might be thought to warrant some sanction in its own right, or a greater overall sanction than otherwise, the proper course is to amend the charges, or to bring additional misconduct charges in relation to that further conduct, so that the employee can fairly answer to them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-size:12pt">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case the substantive conduct with which the claimant was charged was the touching incident itself.  From its findings, accepting Ms Fitzjohn&#8217;s account in the dismissal letter, the tribunal found that this was also the conduct for which the claimant was dismissed.  As the tribunal summarised, at [53]: &#8220;It was concluded that the claimant had failed to exercise good inspection judgment by initiating physical contact with a student when it was not invited or expected.&#8221;  In so finding it drew on the statement in the dismissal letter that: &#8220;your act of touching the smallest boy in a group, without being certain that this was acceptable to them, was a grave error of judgment on your part&#8221;.  The discussion at [74] of the conduct for which he was dismissed is of the conduct in the incident.  The reference at [77] to &#8220;actions&#8221; is to the &#8220;conduct about which complaint had been made.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-size:12pt">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">True it is that Ms Fitzjohn also, as was found, considered that the claimant </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">continued</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to demonstrate a lack of insight, in the course of the disciplinary process, such that she could not safely impose a sanction short of dismissal.  But her starting point (as recorded at [54]) was that he &#8220;had no awareness&#8221; &#8211; that is, at the time of the conduct &#8211; of how serious it was; and similarly (at [57]) she considered that the damage done by the referral to LADO and the complaint from the school &#8220;could have been avoided had you shown better judgment&#8221; &#8211; that is, by not engaging in the conduct itself.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-size:12pt">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is clear from these passages that the tribunal&#8217;s factual findings as to the reason why Ms Fitzjohn dismissed the claimant, was because she considered that the claimant&#8217;s conduct was so serious as to warrant dismissal, and that he ought to have appreciated that.  The tribunal&#8217;s findings accepting Mr Simmons&#8217; reasons stated in the appeal outcome letter, convey that these were, at least in part, because he shared that view.  They included, in the passage cited by the tribunal at [68]: &#8220;Your lack of professional judgment has led you to touch a student in an untoward manner which, as reported, made the student feel uncomfortable.  This is in my view a very grave misdemeanour.&#8221;  That is plainly a view of the gravity of the conduct itself.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-size:12pt">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As found by the tribunal, what Ms Fitzjohn considered to be the significance of the claimant&#8217;s continuing poor attitude, was linked to her view of the seriousness of the substantive conduct.  It was because she considered that it was inherently so very serious, that she was concerned not only that the claimant did it at all, but also that he had failed to acknowledge that, even in the course of the ensuing disciplinary process.  He could not be trusted, in her view, to have learned his lesson, and so to refrain from a repeat of what she considered to be such inherently serious conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-size:12pt">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was therefore, in our judgment, incumbent on the tribunal to consider whether it was open to the dismissing and appeal officers, within the band of reasonable responses, to take the view that the claimant&#8217;s conduct was of such a kind that he did not need to be specifically forewarned that it would be regarded as so serious as to warrant dismissal.  Plainly there are some kinds of physical touch, the inherent and/or unambiguous nature of which is such that the employer could unhesitatingly so conclude, and a tribunal would unhesitatingly find that to be fair.  The task for the tribunal was to decide, in light of all its findings of fact, whether this incident fell into that category.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-size:12pt">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At this point we remind ourselves of the following important points of guidance discussed by the Court of Appeal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Tayeh v Barchester Healthcare</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (above).  First, if the employment tribunal has, without any error of law, concluded in its industrial judgment that dismissal as a sanction was either within or without the band of reasonable responses, then the EAT should not interfere with the tribunal&#8217;s decision on that point, which is a matter for its appreciation, akin to a finding of fact.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-size:12pt">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, however, the position is different where the tribunal&#8217;s reasoning betrays some principled error of law, such as the substitution error, taking account of an irrelevant consideration, or reasoning which is at odds with its primary findings of fact.  In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Tayeh</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> itself the tribunal made such an error, because it found that it was beyond the reasonable band to dismiss for conduct which, on a fair reading, plainly fell within a category which, as it found, had been specifically designated by the employer as an example of gross misconduct.  The Court of Appeal held that the EAT had not therefore overstepped the mark by overturning the tribunal&#8217;s decision on this point.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-size:12pt">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We turn, then, to the tribunal&#8217;s reasoning in the present case.  It is, with respect, difficult to follow.  The reader&#8217;s task is not assisted by the fact that the tribunal did not, in the concluding section, clearly work through the distinct issues to which the unfair dismissal claim gave rise, each in turn, finishing one before moving on to the next.  As to the substantive reasoning we note the following.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-size:12pt">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Firstly, we do not agree with Mr Kirk, as such, that what the tribunal said at [78] shows that it abdicated entirely the task of considering whether the choice of sanction was within the band of reasonable responses, purely deferring to the respondent.  It was, we think, there making the point, specifically in the context of consideration of the significance of the LADO&#8217;s view, that what mattered, ultimately, was what the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">respondent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> thought, and whether </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">its </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">view was within the band.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-size:12pt">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, however, there is, respectfully, not a clear through line of reasoning on that question, and specifically as to whether it was within the band of reasonable responses for the dismissing and appeal officers to consider that, notwithstanding that there was no guidance document on the question of physical contact or touch, the claimant should have appreciated at the time of the incident, that his particular conduct was as grave as they both considered it to be.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-size:12pt">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At [71] the tribunal referred to the need, in safeguarding cases, to consider whether the allegations have been properly covered in disciplinary rules.  It noted that in this case there was no &#8220;no touch&#8221; policy, and observed that &#8220;the respondent does not consider that a policy was required&#8221;.  It referred to the need for great scrutiny in a case where an adverse decision may prevent the employee from working in their chosen field again.  It then continued, at [73]: &#8220;This case, however, is not a safeguarding case.&#8221;  It is unclear to us from this passage whether the tribunal&#8217;s thought process was that, because this particular incident was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> said to raise a safeguarding issue, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">therefore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> the consequences of dismissal would be less serious for the claimant, and so </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">therefore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> the employer&#8217;s decision did not need to be subjected to the same high degree of scrutiny as it would have been in such a case.  If so, that was not a sound basis on which to conclude that it was fair to dismiss the claimant for this particular conduct, without him having been forewarned of that possible sanction.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-size:12pt">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Apart from that, it appears, in light in particular of the discussion in the middle section of [73], that the tribunal did consider that the respondent properly considered this conduct to be of such a nature that the claimant should have appreciated that he could expect to be dismissed for it.  It appears from [75] that the tribunal considered that was so, in light of his experience and background.  It also appears from [79] that the tribunal considered that was so in view of the &#8220;rules and guidance issued by the respondent&#8221; &#8211; which can only refer to the materials referred to at [42] and [43].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-size:12pt">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On the last point, in light of the facts which the tribunal found: that this particular incident was not regarded as giving rise to a safeguarding issue; that there was no written policy on touch; that it was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> the case that the respondent had a &#8220;no touch&#8221; policy; and as to the generalised content of the materials referred to in the disciplinary charges, it appears to us that it was not open to the tribunal, in light of those facts, to conclude that the claimant had been placed on express fair notice that this particular conduct in this incident would attract the sanction of dismissal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-size:12pt">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We note again also that Mr Allen KC contended that it was the respondent&#8217;s case that the claimant should have appreciated that his conduct in the incident would be regarded as </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">inappropriate</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  But he made clear that it was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the respondent&#8217;s case that the claimant should have appreciated that that conduct itself was liable to result in dismissal.  As we have explained, we do not agree that the tribunal in fact found that the principal reason was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">that conduct in the incident, but the claimant&#8217;s attitude to it after the event; nor, had it so found, would that have avoided the need to consider whether dismissal was within the reasonable band of responses to the original conduct itself.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-size:12pt">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">So, while, on a narrow view, the tribunal did not err by not concluding that the respondent had failed to comply with the ACAS Code, nevertheless, the wider criticism of substance raised under the umbrella of grounds 1 and 2(a), that the tribunal failed to engage with whether the dismissal was unfair, because the claimant was not fairly on notice that he might be dismissed for this specific conduct, and it was not inherently obvious that no such notice was needed, is well founded.  Given that this specific incident was not found to have raised a safeguarding issue, that the respondent did not claim, and was not found, to have a no-touch policy, and that it was not disputed that there was no policy or guidance given in training specifically on the subject of touch, had the tribunal applied the law to the particular facts found in this case, it would have been bound to conclude that it was not fair to dismiss the claimant when he was not on fair notice that this conduct might attract that sanction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-size:12pt">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We turn to the second part of ground 2, relating to the matters of length of service and apology.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-size:12pt">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Whether, or how, length of service is significant in a given case is fact-sensitive and depends on which party has raised it, or attached significance to it, and why.  It is the substance of the issue being raised in the given case that matters.  It is common, for example, for an employee to contend that a long period of service during which (if it be so) they have had a clean disciplinary record, and/or a long period of service during which they have made a positive or significant contribution to the employer&#8217;s endeavour, are factors that should have a bearing on the assessment of the conduct in question and/or the punishment for it.  It is also common for employers to regard as relevant, as the case may be, the employee&#8217;s lack of experience in the job, or, conversely, their appreciable experience.  &#8220;Length of service&#8221; may be used as a label, or proxy, for such issues or for others.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-size:12pt">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case the respondent contended that the extent of the claimant&#8217;s experience was relevant to whether he ought to have appreciated that what he did was seriously wrong.  But the tribunal had evidence that the claimant, for his part, relied on the fact that he had raised what he regarded as his long and unblemished record of service in the course of the disciplinary process.  That being so, it was incumbent on the tribunal to consider whether the respondent gave any consideration to that.  The fact that the tribunal took on board the respondent&#8217;s &#8211; different &#8211; point, about his wide experience is not, in our view, sufficient; nor is the reference at the start of the decision, to the dates of employment.  In our judgment it was an error for the tribunal not to address, in substance, whether the respondent considered, and if so, how, this aspect of the claimant&#8217;s internal case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-size:12pt">101.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Turning to the matter of apology, Mr Kirk is right that the tribunal did not refer specifically to this issue, or to what the claimant said in his letter of appeal, that he relied upon as an apology.  However, that is plainly bound up with the issues of the dismissing and appeal managers&#8217; respective assessments of the claimant&#8217;s attitude and insight, an issue to which, as such, the tribunal plainly was alive.  Where, as here, there were meetings with the respective managers at each stage, and they were both witnesses before the tribunal, this was a matter for the tribunal&#8217;s appreciation on the totality of the evidence, not just the evidence of what the claimant wrote in his appeal letter.  In this case, while it would have been better for the tribunal to have spelled it out, in light of the language of the middle sentence of [79] mirroring the respondent&#8217;s case as to insight and apology, we are prepared to accept that the tribunal sufficiently considered this aspect.  So we do not uphold this sub-ground as such.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-size:12pt">102.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We turn to the three strands of ground 3, the first relating to the pupil&#8217;s individual statement, the school&#8217;s complaint, and the record of the LADO&#8217;s view.  In our view, as a starting point, the tribunal should have considered that the failure to provide the claimant with the statement of complaint about him by the school and the written account of the pupil, both of which were seen by the dismissing manager, was liable to render the dismissal unfair.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-size:12pt">103.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It would have been open to the tribunal, applying the guidance in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Taylor v OCS Group Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2006/702" uk:canonical="[2006] EWCA Civ 702" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWCA Civ 702</ref>; <ref href="#" uk:canonical="[2006] ICR 1602" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] ICR 1602</ref> (to which it referred), to take the view that omission of the school&#8217;s complaint was repaired by the provision of a copy at the appeal stage.  But it was not sufficient to say, as it did at [36], that the claimant was &#8220;aware of the factual matrix&#8221; of that complaint and the concerns raised by the child.  Having been shown both documents, it is also apparent to us that how the school described the child&#8217;s account glossed the child&#8217;s own words to a degree.  Had the claimant been provided with a copy of the actual text of the child&#8217;s statement, he would have had a fair chance to make direct submissions as to what Ms Fitzjohn, who had a copy, should make of it.  As we have noted, he was not, in fact, properly made aware of its existence, prior to the tribunal litigation.  The application of basic principles of natural justice should have led the tribunal to the conclusion that this omission was unfair.  In this case that was reinforced by the fact that Ms Fitzjohn, in her decision, criticised the claimant for questioning the school&#8217;s bona fides in raising the student&#8217;s concerns, at a time when he had seen neither document.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-size:12pt">104.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We also take the view that the tribunal&#8217;s approach to the LADO report was unsatisfactory.  The point that the employer had to make its own decision, which might properly differ from the view of the LADO, was not wrongly made, as such.  But Ms Fitzjohn was made aware of the LADO&#8217;s view, and she referred more than once in her dismissal letter to the reference to the LADO, which she considered to be the route by which the claimant&#8217;s conduct had damaged the respondent&#8217;s reputation.  Had the claimant had sight, at least, of the email from the LADO to Ms Moss, he would have been enabled to make a submission about that to Ms Fitzjohn by reference to its contents.  Any sensitive personal information could have been redacted.  Again, we consider it was an error on the tribunal&#8217;s part, not to find the handling of this aspect to have been axiomatically unfair.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-size:12pt">105.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second strand of ground 3 relates to the failure by the respondent to follow the so-called exculpatory lines of enquiry raised by what the claimant said, in the course of the disciplinary hearing, had been said to him by, respectively, Ms Moss and Ms Judd.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="font-size:12pt">106.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to that, we observe, first, that the point made by the EAT in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">A v B</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (above), at [58] to [63], was that particularly serious allegations require particularly careful and conscientious investigation, including in relation to potential exculpatory lines of enquiry which may be known to the employer but not to the employee, or which he may not be in a position himself to follow up.  But it also noted that the potential implications for the employee&#8217;s future career, while a relevant consideration reinforcing that point, are not likely to alter the standard of reasonableness as such.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="font-size:12pt">107.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case, Ms Moss&#8217; alleged remark was made specifically in the context of the initial suspension of the claimant, and it was not suggested that he had taken it to mean that there was to be no investigation nor any disciplinary charge.  What he said that Ms Judd had said was potentially of greater potential significance, however.  Given also that she was a line manager, we do not think it could be said that her alleged remark was obviously irrelevant to his understanding of what conduct was or was not regarded as appropriate.  That said, the claimant knew what it was that he was saying Ms Judd (and Ms Moss) had told him; and he or his union could, even if only for the purposes of the appeal, have asked that she (or both of them) be interviewed on the point.  It does not appear to have been suggested that such a request was made.  However, the point does appear to have been specifically run as a point of unfairness, and so should at least have been addressed by the tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="font-size:12pt">108.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The final strand of ground 3 relates to the matter of the consideration of the claimant&#8217;s performance review record at the appeal stage.  We were shown the correspondence shortly prior to the appeal hearing, between Mr Thomas of Unison and the respondent&#8217;s HR team.  This shows that Mr Thomas took issue with HR having provided the appeal manager with material relating to the performance concerns, and wanted it disregarded entirely.  HR&#8217;s position was that this was legitimate, given the statements in the appeal documents.  It was, however, accepted that this contained an unnecessary level of detail, and the appeal manager would be asked to disregard the detail.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="font-size:12pt">109.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It appears to us that the claimant, and his union, were therefore on notice of what material had been given to the appeal manager, what it was being contended was its potential relevance, as such, and that he would be asked only to disregard &#8220;the detail&#8221;.  However, as the tribunal found at [68], specific reference was made in the appeal decision to the fact that the claimant had had what were called two incomplete inspections recorded.  Mr Allen KC relied, however, on the findings at [64] and [81] that this had not influenced Mr Simmons, which, he said, could not be challenged.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="font-size:12pt">110.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, we also note that, as the tribunal found, Mr Simmons wrote in his decision that the claimant&#8217;s &#8220;lack of professional judgment has led you to&#8221; the act of touching, and then, that the claimant had asserted that this was &#8220;a lapse in an unblemished career&#8221; but that &#8220;my review of the documentary evidence does not support your assertion&#8221; and the two declared incomplete inspections in less than a year &#8220;underlines a worrying lack of professional judgment.&#8221;  That being so, we think the tribunal ought to have explained why it was satisfied by his oral evidence that Mr Simmons had not reviewed the detail of this aspect of matters, and that it did not form part of his decision.  But ultimately, given that he also gave oral evidence on the subject, and we cannot say that this particular conclusion was necessarily perverse, we do not uphold this particular strand of ground 3.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num style="font-size:12pt">111.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Pausing there, having regard to our conclusions on the various points raised by grounds 1, 2 and 3, the decision that the claimant was not unfairly dismissed must be quashed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="font-size:12pt">112.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We turn to ground 4, which relates to the complaint of wrongful dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="font-size:12pt">113.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was summarily dismissed without payment in lieu.  Accordingly, the outcome of this complaint turned upon whether he was, by his conduct, in what lawyers call fundamental or repudiatory breach of contract.  We will hereafter use the term &#8220;repudiatory breach&#8221;.  It is well-established that the tribunal must decide this, by making its own objective finding and evaluation of the facts, drawing upon all of the relevant evidence presented to it at the hearing before it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-size:12pt">114.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Repudiatory breach is the general contract-law test.  A number of authorities have discussed how that test is to be understood and applied in the particular context of the contract being one of employment.  We have already referred to the particular authorities relied upon by respective counsel, and to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Adesokan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, to which we also drew their attention.  There are also a number of other authorities which have revisited this topic from time to time through the decades.  The particular insight we take from the authorities is that the particular significance of the context of a contract of employment is the dynamic and ongoing nature of the employment relationship which such a contract creates and governs.  For that reason, as Elias LJ (Richards and Longmore LJJ concurring) observed in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Adesokan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> at [23]: &#8220;the focus is on the damage to the relationship between the parties&#8221;.  That general underlying approach is, it appears to us, also captured in the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Neary</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Briscoe</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> formulations.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="font-size:12pt">115.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The categories of behaviour that might be properly found by a tribunal to meet that test cannot, we think, therefore be rigidly defined or said to be closed.  However, the tribunal must be alert to the fact that it is not enough for the employer merely to assert that the conduct has in its subjective view damaged trust and confidence.  In the context of unfair dismissal the tribunal must consider whether that view of the substantive conduct or behaviour is within the band of reasonable responses (as well as other issues going to fairness).  In the context of wrongful dismissal it is always for the tribunal to decide whether, in its view, taking account of any findings as to the employee&#8217;s intent, the effect of the conduct and/or other relevant circumstances, the employer was objectively entitled to treat the substantive conduct as having so damaged the ongoing relationship as to justify bringing it to an end.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-size:12pt">116.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It follows that we do not agree with Mr Kirk that the tribunal specifically erred by not directing itself that the conduct </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">must</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> amount to either a wilful flouting of a disciplinary rule or gross negligence.  However, it was required to consider, for itself, whether its impact on the ongoing relationship was so severe as to entitle the respondent to treat it as having brought that relationship to an end.  We turn then to consider whether the tribunal made a clear and sufficient finding of its own to that effect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-size:12pt">117.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On the face of it, in the concluding section, up until [second 73], the tribunal was concerned with the complaint of unfair dismissal.  It is at [second 74] that it turned to the complaint of wrongful dismissal, as signalled by the opening observation that the claimant was dismissed without notice or payment in lieu.  However, Mr Allen KC was bound to acknowledge that there is no clear finding in that paragraph to the effect that the tribunal itself considered that the conduct amounted to a fundamental breach.  The concluding words, that the respondent &#8220;was entitled to dismiss him without notice because of his gross misconduct&#8221;, are preceded by the statement that &#8220;the respondent reasonably considered&#8221; that the conduct amounted to a breach of an essential term of his contract &#8230; </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">such that</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221; it was so entitled, suggesting that the tribunal reasoned from the view that the respondent had &#8220;reasonably considered&#8221; that, directly to the outcome of the wrongful dismissal complaint.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="font-size:12pt">118.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Despite the tribunal having earlier correctly directed itself that a dismissal may be fair, but wrongful (or vice versa) it appears on the face of it, therefore, to have taken a wrong turn when it came to the point of actually deciding the wrongful dismissal complaint.  Mr Allen KC contended that, on a fair reading of the decision as a whole, however, it was apparent that the tribunal had come to its own objective conclusion that the conduct was a fundamental breach, and why.  He relied upon a number of paragraphs, but particularly [73], which, he said, demonstrated that the tribunal did consider that the issue was that the conduct entailed a fundamental loss of trust and confidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="font-size:12pt">119.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, [73] formed part of the tribunal&#8217;s consideration of the complaint of unfair dismissal.  Further, the discussion there is of what a reasonable person who saw the claimant&#8217;s interaction with the child would think about it, and builds to the conclusion that the respondent had concluded that there was a &#8220;fundamental loss of trust and confidence&#8221;.  That is not, as such, a statement of the tribunal&#8217;s own view and reasoning, based on the evidence presented to it.  While [75], in isolation, could be viewed as hinting at the tribunal&#8217;s view, it again forms part of the ongoing discussion of the unfair dismissal complaint, and is followed by [78] in which the tribunal contemplates that it &#8220;may&#8221; have considered a sanction falling short of dismissal to be appropriate, but reminds itself that it is not for it to substitute its view, suggesting that it (rightly) has not, thus far, expressed its view.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num style="font-size:12pt">120.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It may be that the tribunal considered that the same evidence which was available to the respondent, and, in the tribunal&#8217;s view, made its conclusion reasonable, also led the tribunal to its own independent conclusion that the conduct was a fundamental breach; but, when it came to the wrongful dismissal complaint, that is not what [second 74] said.  There is there no specific statement of the tribunal&#8217;s own conclusion, or, however briefly, why it for its part concluded that the claimant&#8217;s conduct amounted to a repudiatory breach, in addition to, and distinct from, its conclusion that, for unfair dismissal purposes, the respondent reasonably decided upon the sanction of dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="font-size:12pt">121.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Where a complaint of unfair dismissal is accompanied by one of wrongful dismissal, the former will often take up the major part of the evidence, hearing time, argument, and in due course, decision.  But the latter, as a distinct complaint, needs to be distinctly, and sufficiently, addressed in its own right in the decision.  In order not to muddle the two reasoning exercises, the conclusions on wrongful dismissal are usually sensibly set out after those on liability for unfair dismissal.  But they should not be a mere afterthought.  In the present case, there was, we conclude, not a sufficiently clear and distinct finding as to the tribunal&#8217;s own objective view of the conduct.  We therefore, in that respect, uphold ground 4 and quash the decision dismissing the complaint of wrongful dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_122">
+	  <num style="font-size:12pt">122.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In light of our foregoing conclusions we will quash the judgment that the dismissal was fair, substitute a finding that it was unfair, and remit that matter to the tribunal to determine remedy for unfair dismissal.  We will also quash the judgment that the dismissal was not wrongful.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-size:12pt">123.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">When this decision was provided to counsel in draft under embargo we invited further written submissions as to: (a) whether we could or should substitute our own decision in respect of wrongful dismissal; (b) whether remission should be to the same (if available) or a different tribunal; and (c) as to any other further directions we might be asked to give.  Having considered the written submissions and reply submissions then received we have decided as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-size:12pt">124.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to (a) Mr Kirk&#8217;s overarching submission was that we should robustly conclude that on the facts already found the only reasonable conclusion that would be open to the tribunal would be that the claimant was wrongfully dismissed, so that we could substitute that outcome without needing to remit.  Mr Allen KC disagreed.  We have concluded that we cannot go so far as to say that only one outcome is possible.  We will therefore remit the issue to be decided afresh by the tribunal, guided, of course, by the relevant parts of our present decision, in particular at [114] &#8211; [116] above.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-size:12pt">125.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to (b), we think it would be a difficult ask to expect the same judge to put out of her mind her previous decision to dismiss the wrongful dismissal complaint.  It is also apparent that, in relation to unfair dismissal remedy, the respondent will seek a finding of contributory conduct.  To decide that will also require the tribunal to evaluate for itself, with a fresh objective eye, the claimant&#8217;s conduct at issue (though, of course, applying a different legal test than in relation to wrongful dismissal).  As to (c), we will leave further case management directions (including as to the scope of further evidence permitted or directed) to the tribunal when the matter returns there.  But we note that we do not share Mr Allen KC&#8217;s pessimism that a remitted hearing before a different judge would require as much as five days; and so we do not think that course would be disproportionate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num style="font-size:12pt">126.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We will therefore remit the matter for determination of remedy for unfair dismissal, and redetermination of the wrongful dismissal complaint, by a judge other than EJ Dean.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

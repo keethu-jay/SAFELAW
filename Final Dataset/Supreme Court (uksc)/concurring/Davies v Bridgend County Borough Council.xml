@@ -1,0 +1,889 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2024/15"/>
+	  <FRBRdate date="2024-05-08" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="15"/>
+	  <FRBRname value="Davies v Bridgend County Borough Council"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/15"/>
+	  <FRBRdate date="2024-05-08" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2024/15/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2024/15/data.xml"/>
+	  <FRBRdate date="2024-11-14T00:31:02" name="transform"/>
+	  <FRBRdate date="2024-11-29T14:41:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-05-08" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="davies" href="" showAs="Davies"/>
+	<TLCPerson eId="bridgend-county-borough-council" href="" showAs="Bridgend County Borough Council"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-lloyd-jones" href="/judge-lord-lloyd-jones" showAs="Lord Lloyd-Jones"/>
+	<TLCPerson eId="judge-lord-burrows" href="/judge-lord-burrows" showAs="Lord Burrows"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+	<TLCPerson eId="judge-lady-simler" href="/judge-lady-simler" showAs="Lady Simler"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>15</uk:number>
+	<uk:cite>[2024] UKSC 15</uk:cite>
+	<uk:parser>0.26.12</uk:parser>
+	<uk:hash>6337ac5fad0b35389da589f4d1dcdc4ca6a4b822ebb8908624008fc5abdca6b4</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 13pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Footer { font-family: Univers; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 13pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 13pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .fontstyle01 { font-style: normal; font-weight: normal; font-family: CIDFont+F1; font-size: 12pt; color: #000000; }
+#judgment .Emphasis { font-style: italic; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Easter Term</span><br/><neutralCitation style="font-weight:bold;font-family:'Times New Roman';color:#000000">[2024] UKSC 15</neutralCitation><br/><span style="font-style:italic;font-family:'Times New Roman';color:#000000">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/80" style="font-style:italic;font-family:'Times New Roman';color:#000000" uk:canonical="[2023] EWCA Civ 80" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2023] EWCA Civ 80</ref></p>
+      <p class="JudgmentTitle"><span style="font-family:'Times New Roman';color:#000000">JUDGMENT</span></p>
+      <p class="JudgmentJudges"><party as="#respondent" refersTo="#davies" style="font-family:'Times New Roman';font-size:20pt;color:#000000">Davies</party><span style="font-family:'Times New Roman';font-size:20pt;color:#000000"> (</span><role refersTo="#respondent" style="font-family:'Times New Roman';font-size:20pt;color:#000000">Respondent</role><span style="font-family:'Times New Roman';font-size:20pt;color:#000000">) </span><span style="font-style:italic;font-family:'Times New Roman';font-size:20pt;color:#000000">v</span><span style="font-family:'Times New Roman';font-size:20pt;color:#000000"/><party as="#appellant" refersTo="#bridgend-county-borough-council" style="font-family:'Times New Roman';font-size:20pt;color:#000000">Bridgend County Borough Council</party><span style="font-family:'Times New Roman';font-size:20pt;color:#000000"> (</span><role refersTo="#appellant" style="font-family:'Times New Roman';font-size:20pt;color:#000000">Appellant</role><span style="font-family:'Times New Roman';font-size:20pt;color:#000000">)</span></p>
+      <p class="JudgmentJudges"><span style="font-weight:normal;font-family:'Times New Roman';color:#000000">before</span><br/><br/><judge refersTo="#judge-lord-reed-president" style="font-family:'Times New Roman';color:#000000">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-lloyd-jones" style="font-family:'Times New Roman';color:#000000">Lord Lloyd-Jones</judge><br/><judge refersTo="#judge-lord-burrows" style="font-family:'Times New Roman';color:#000000">Lord Burrows</judge><br/><judge refersTo="#judge-lord-stephens" style="font-family:'Times New Roman';color:#000000">Lord Stephens</judge><br/><judge refersTo="#judge-lady-simler" style="font-family:'Times New Roman';color:#000000">Lady Simler</judge></p>
+      <p class="JudgmentJudges"><span style="font-family:'Times New Roman';color:#000000">JUDGMENT GIVEN ON </span><br/><docDate date="2024-05-08" refersTo="#judgment" style="font-family:'Times New Roman';color:#000000">8 May 2024</docDate><br/><br/><span style="font-family:'Times New Roman';color:#000000">Heard on 27 February 2024</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Appellant</span><br/><span style="font-family:'Times New Roman';color:#000000">Matthew White</span><br/><span style="font-family:'Times New Roman';color:#000000">(Instructed by Dolmans Solicitors)</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Respondent</span><br/><span style="font-family:'Times New Roman';color:#000000">Tom Carter</span><br/><span style="font-family:'Times New Roman';color:#000000">(Instructed by Ryans Solicitors (Liverpool))</span></p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Intervener &#8211; Network Rail Infrastructure Ltd</span><br/><span style="font-family:'Times New Roman';color:#000000">Howard Palmer KC</span><br/><span style="font-family:'Times New Roman';color:#000000">Jack Harris</span><br/><span style="font-family:'Times New Roman';color:#000000">(Instructed by DAC Beachcroft Claims Ltd)</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="color:#000000">Lord Stephens (</span><span style="text-transform:none;color:#000000">with whom Lord Reed, Lord Lloyd-Jones and Lady Simler agree</span><span style="color:#000000">): </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold;text-transform:uppercase">1.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">Introduction</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claimant, Marc Christopher Davies, owns a terraced house and garden at 10 Dinam Street, Nant-y-moel, Bridgend, Wales (&#8220;the claimant&#8217;s land&#8221;). The claimant&#8217;s land adjoins land owned by the defendant, Bridgend County Borough Council (&#8220;the defendant&#8217;s land&#8221;). At some date &#8220;well before 2004&#8221; Japanese Knotweed (&#8220;JKW&#8221;) growing on the defendant&#8217;s land encroached onto the claimant&#8217;s land. At the date of encroachment there was no actionable tort of private nuisance against the defendant. An actionable private nuisance arose in 2013 when the defendant was, or ought to have been, aware of the risk of damage and loss of amenity to the claimant&#8217;s land as a result of publicly available information about JKW at the time, and it failed to implement a reasonable and effective treatment programme in relation to JKW which it knew or ought to have known was growing on its land. It was not until 2018 that the defendant implemented a reasonable and effective treatment programme so that, at first instance, it was held that the defendant was in continuing breach of the relevant duty in private nuisance between 2013 and 2018. Neither party has appealed the conclusion that there was a continuing breach from 2013 to 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In 2020 the claimant brought proceedings seeking damages for the defendant&#8217;s breach of duty in private nuisance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At trial the claimant sought to recover, amongst other heads of damages, &#163;4,900 as damages for residual diminution in the value of his land which it was said would exist despite treatment which would result in JKW no longer actively growing on his land. In support of this claim the claimant relied on a statement in the report of Paul David Raine, a fellow of the Royal Institution of Chartered Surveyors (&#8220;the RICS&#8221;) and a registered valuer that &#8220;[c]urrent evidence is that infestations of JKW can be managed but there is no evidence that it can be wholly eradicated.&#8221; Accordingly, even after treatment there remained JKW rhizomes in the soil of the claimant&#8217;s land which if disturbed could lead to the JKW regrowing. Furthermore, the claimant contended that the presence and disposal of soil or plant material contaminated with JKW is &#8220;controlled waste&#8221; within the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/43" uk:canonical="1990 c. 43" uk:origin="TNA" uk:type="legislation">Environmental Protection Act 1990</ref> which makes it more difficult and costly to develop the land, should the owner wish to do so. The claimant could no longer use his land in a way that would disturb JKW rhizomes, for instance by constructing buildings or paths or carrying out gardening activities, without increased difficulty and cost. This impairment to the amenity and utility of the claimant&#8217;s land could have affected its value. However, the claim for diminution in value was not presented in that way. Rather, Mr Raine stated that because of the presence of JKW on the claimant&#8217;s land its value had been adversely affected by stigma in the current property market &#8220;fuelled by media articles and internet discussion&#8221;: see para 33 below.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At trial the defendant contended that the claim for residual diminution in value was fatally flawed as any residual diminution in value was caused by the non-actionable presence of JKW on the claimant&#8217;s land which occurred &#8220;well before 2004&#8221; and therefore before the defendant&#8217;s breach which commenced in 2013. The continued presence of JKW rhizomes in the soil of the claimant&#8217;s land and the burden imposed on the claimant because JKW is &#8220;controlled waste&#8221; were issues which had been caused prior to the defendant&#8217;s breach of duty. Furthermore, the stigma attaching to the claimant&#8217;s land had also been caused prior to the defendant&#8217;s breach of duty.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Accordingly, one of the issues at trial was whether the claimant was entitled to recover &#163;4,900 as damages from the defendant for residual diminution in value of the claimant&#8217;s land.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">District Judge Fouracre (&#8220;the district judge&#8221;) in his judgment dated 8 November 2021 dismissed all the claimant&#8217;s claims for damages including the claim for &#163;4,900 as the residual diminution in value. Judge Beard, in his judgment dated 27 May 2022, dismissed the claimant&#8217;s appeal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In its judgment dated 3 February 2023, the Court of Appeal (Baker, Birss and Snowden LJJ) held at para 48, relying on the judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware Mansions Ltd v Westminster City Council</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2001/55" uk:canonical="[2001] UKHL 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] UKHL 55</ref>, <ref href="#" uk:canonical="[2002] 1 AC 321" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 AC 321</ref> (&#8220;Delaware&#8221;), that as there was a continuing breach of duty by the defendant between 2013 and 2018, &#8220;[t]he harm to the quiet enjoyment and amenity suffered by the appellant persists in 2018&#8221;. The Court of Appeal reasoned that as the residual diminution in value was harm which occurred at the end of the period of continuing nuisance, it was harm caused by the continuing breach. Accordingly, the Court of Appeal allowed the claimant&#8217;s appeal and entered judgment for the claimant in the amount of &#163;4,900: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/80" uk:canonical="[2023] EWCA Civ 80" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 80</ref>, <ref href="#" uk:canonical="[2023] 1 WLR 1551" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 1 WLR 1551</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The issue as to whether the claimant is entitled to &#163;4,900 for residual diminution in value has now reached the Supreme Court on a third appeal. The narrow and main issue is one of causation, namely whether the residual diminution in value was caused by the defendant&#8217;s breach of duty in private nuisance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In addition, there is a further issue which has been relied on by the claimant (&#8220;the claimant&#8217;s further issue&#8221;). The claimant contends that, before the lower courts, the submission advanced was that he was entitled to recover damages in respect of diminution in value because the stigma causing the diminution decreases over time with the consequence that the amount of diminution in value also decreases over time. The claimant contends that if the defendant had commenced treatment of the JKW in 2013 instead of in 2018 then the clock would have started to run earlier so that the stigma and the resultant amount of diminution in value would have decreased by 2018. Accordingly, an award could be made for the difference between the amount of diminution in value in 2018 and the amount that it would have been in 2018 if treatment had commenced in 2013. However, and surprisingly, the claimant contends that the onus was on the defendant to establish what lower figure for diminution should be awarded if JKW had been treated in 2013 and that as the defendant had failed to identify this lower figure, the full amount of &#163;4,900 should be awarded. It will be necessary to consider whether the claimant&#8217;s further issue was pleaded, whether there was any evidence to support it and whether it incorrectly places the onus of proof in relation to damages on the defendant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Network Rail Infrastructure Ltd (&#8220;Network Rail&#8221;) was granted permission to intervene before this court as its interests are affected by the issues in this appeal. It is the owner and manager of the land which comprises the British rail network and on which many stands of JKW grow and have spread from, and/or are liable to spread to, neighbouring land.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Having identified the main narrow issue in the appeal together with the claimant&#8217;s further issue, it is important to identify the issues which do not arise for determination.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">First, there is no challenge to the finding that there was a continuing nuisance between 2013 and 2018. For an analysis as to what is meant by a continuing nuisance for the purposes of the tort of private nuisance see </span><span style="font-style:italic;font-family:'Times New Roman'">Jalla v Shell International Trading and Shipping Co Ltd</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2023/16" uk:canonical="[2023] UKSC 16" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKSC 16</ref>, <ref href="#" uk:canonical="[2023] 2 WLR 1085" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 2 WLR 1085</ref> paras 24&#8211;33. The defendant maintained that even if there was a continuing nuisance between 2013 and 2018 any residual diminution in value was caused by the original non-actionable encroachment which occurred &#8220;well before 2004&#8221;. In the lower courts the defendant did not contest the claimant&#8217;s factual contention that there were further encroachments by JKW rhizomes from the defendant&#8217;s land into the claimant&#8217;s land between 2013 and 2018 so that there was a continuing nuisance. On this appeal the defendant accepted the finding that there was a continuing nuisance between 2013 and 2018. Network Rail submitted in its written case that &#8220;[the] encroachment of JKW rhizomes into neighbouring property is not a &#8216;continuing nuisance.&#8217;&#8221; However, during oral submissions the intervener accepted that the question does not arise given the way the claimant and the defendant have defined the issues on this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Second, this appeal is not concerned with the impact, if any, of the publication by the RICS of an updated paper about JKW on the duty in private nuisance in relation to the spread of JKW. The RICS 2012 &#8220;information paper&#8221; on &#8220;Japanese Knotweed and residential property&#8221; (1st ed) (IP 27/2012) (&#8220;the 2012 paper&#8221;) was replaced by a paper published by the RICS in January 2022 headed &#8220;Japanese knotweed and residential property&#8221; (1st ed) (&#8220;the 2022 paper&#8221;). The publication of the 2012 paper led the court in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams &amp; Waistell v Network Rail Infrastructure Ltd</span><span style="font-family:'Times New Roman'"> (unreported, Cardiff County Court, 2 February 2017) to find that the defendant in that case, Network Rail, had constructive knowledge of the risk of the spread of JKW and the consequential damage to the neighbouring property from about 2012. On 3 July 2018 the Court of Appeal dismissed Network Rail&#8217;s appeal and endorsed the County Court&#8217;s approach: </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail Infrastructure Ltd </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/1514" uk:canonical="[2018] EWCA Civ 1514" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 1514</ref>, <ref href="#" uk:canonical="[2019] QB 601" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] QB 601</ref> (&#8220;</span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">&#8221;). The district judge, the County Court and Court of Appeal in this case adopted the same approach as in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'"> as to the date of the defendant&#8217;s knowledge of a foreseeable risk of harm from 2012/13. However, with effect from 23 March 2022, the RICS replaced the 2012 paper with the 2022 paper. The hearings before the district judge and circuit judge occurred before the replacement of the 2012 paper by the 2022 paper. Birss LJ, giving the lead judgment in the Court of Appeal, stated, at para 4, that whereas the RICS now says that JKW &#8220;is not the &#8216;bogey plant&#8217; it was once thought to be&#8221;, &#8220;neither side &#8230; contended that this means [JKW] is not capable of founding a claim in nuisance.&#8221; As I have indicated, this appeal is not concerned with the impact, if any, of the replacement of the 2012 paper by the 2022 paper. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Third, the defendant has not contended that the claimant is precluded from recovering any damages for diminution in value because the diminution occurred before the claimant purchased the property in 2004 and the previous owner did not assign to the claimant any right of action against the defendant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Finally, by way of introduction, the factual findings of the district judge were limited given the way the case was presented before him. Accordingly, it is not appropriate in this judgment to provide a detailed factual description of the method by which JKW spreads. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold;text-transform:uppercase">2.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The Court of Appeal judgment in </span><span style="font-style:italic;text-transform:none;font-family:'Times New Roman';color:#000000">Williams v Network Rail</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The district judge, the circuit judge and the Court of Appeal in this case each offered an interpretation of the Court of Appeal&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'"> which was central to their judgments. It is therefore appropriate to set out a summary of the Court of Appeal&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'"> before explaining the factual and procedural background to this case. It is also necessary to set out the decision of Mr Recorder Grubb (&#8220;the Recorder&#8221;) in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams &amp; Waistell v Network Rail Infrastructure Ltd</span><span style="font-family:'Times New Roman'"> which was the decision appealed from to the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In </span><span style="font-style:italic;font-family:'Times New Roman'">Williams &amp; Waistell v Network Rail Infrastructure Ltd</span><span style="font-family:'Times New Roman'"> the Recorder, sitting in the County Court in Cardiff, found in favour of both claimants in respect of their claim in private nuisance for the effects of JKW on their properties which the defendant, Network Rail, had allowed to grow on its adjacent land. The Recorder had found in favour of the claimants on a &#8220;[q]uiet enjoyment/loss of amenity claim&#8221;. This claim was advanced on the basis that the presence of JKW on Network Rail&#8217;s land in close proximity to the boundary of the claimants&#8217; respective properties was a sufficiently serious interference with the quiet enjoyment or amenity value of their properties as to constitute an actionable nuisance &#8211; that it was an unreasonable interference with their enjoyment of their respective properties as its presence affected their ability to sell their properties at a proper market value. The position taken by mortgage lenders, since around 2012, was to limit or refuse to provide mortgages where JKW is within seven metres of the property&#8217;s boundary. Accordingly, the claim proceeded on the basis that the claimant&#8217;s property had been blighted by the presence of JKW on adjoining land.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Court of Appeal dismissed Network Rail&#8217;s appeal because the mere presence of JKW on land interfered with the amenity value of that land because it imposed an immediate burden on the owner of the land in terms of an increased difficulty in the ability to develop and the cost of developing the land, should the owner wish to do so. However, prior to reaching that conclusion, the Court of Appeal dealt separately with the Recorder&#8217;s conclusion that &#8220;the presence of [JKW] on [Network Rail&#8217;s land] within seven metres of the claimants&#8217; properties was an actionable nuisance simply because it diminished the market value of the claimants&#8217; respective properties, because of lender caution in such situations&#8221;. It held that such an approach was &#8220;wrong in principle.&#8221; It held, at para 48, that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;The purpose of the tort of nuisance is not to protect the value of property as an investment or a financial asset. Its purpose is to protect the owner of land (or a person entitled to exclusive possession) in their use and enjoyment of the land as such as a facet of the right of ownership or right to exclusive possession. The decision of the recorder in the present case extends the tort of nuisance to a claim for pure economic loss.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I will return later to how the courts in this case dealt with the Court of Appeal&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold;text-transform:uppercase">3.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">Factual background</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claimant&#8217;s house at 10 Dinam Street is a mid-terraced house built in around 1880. The house fronts onto the pavement. There is an enclosed rear garden of modest size. In the garden and nearest to the house is a raised patio built off a timber decking. The lower section of the garden is lawned. There is an old stone shed adjacent to the rear boundary of the claimant&#8217;s land. On the rear boundary of the claimant&#8217;s land there is an old stone wall on the other side of which is the defendant&#8217;s land. The defendant&#8217;s land runs down to a cycle path located on the old railway line through the Ogmore valley. The cycle path is a popular amenity path for local residents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claimant was the freehold owner of the claimant&#8217;s land having purchased it in 2004. Whilst he owned the property he rented it out to tenants.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The defendant is the local authority for the area. It owns the defendant&#8217;s land, and it controls the JKW growing on its land. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At an unknown time, many years before 2004, JKW started growing on the defendant&#8217;s land. It probably was introduced onto the defendant&#8217;s land by having been dumped over one of the garden walls of the row of terrace houses. This long-established stand of JKW on the defendant&#8217;s land is not only behind, and in close proximity to, the claimant&#8217;s land but is also behind several of the other terraced houses in Dinam Street. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">JKW spread from the defendant&#8217;s land to the claimant&#8217;s garden &#8220;well before 2004&#8221; so that rhizomes of JKW were present in the garden of the claimant&#8217;s land before he purchased it in 2004 and before there was any breach by the defendant of the relevant duty in private nuisance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In 2017 the claimant&#8217;s mother informed him that, when she came to purchase a property, the presence of JKW on that property was flagged as an issue for the purpose of obtaining a loan secured by a mortgage on the property she wished to purchase. It was at that time that the claimant first became aware that JKW was growing on his land and the defendant&#8217;s land, but he was not sure what he could do about it. He raised the matter with the defendant in 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold;text-transform:uppercase">4.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The procedural history</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On 3 March 2020 the claimant brought a claim in private nuisance against the defendant. It is necessary to consider the pleadings in some detail to determine whether the claimant&#8217;s further issue was pleaded so that the defendant was on notice and the issue was before the court for adjudication. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At paras 9 and 11 of the particulars of claim the claimant relied on various publications in support of his allegation that the defendant knew or should have known that JKW on its land presented a foreseeable risk of harm to the claimant&#8217;s land from circa 2006. However, in addition the claimant relied on the 2012 paper in support of the allegation that the defendant had or should have had such knowledge from circa 2012/13. The claimant also alleged that the defendant must have been or should have been aware that there was JKW on the defendant&#8217;s land as it had been there for decades and would or should have been identified by properly trained employees visiting the defendant&#8217;s land.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At para 12 of the particulars of claim the claimant alleged that the defendant did not adequately treat the JKW on its land.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At para 16 of the particulars of claim the claimant gave particulars of loss including:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;i.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">Residual diminution in value of No 10 after treatment - &#163;25,000. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>ii.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">Treatment costs - &#163;6,000.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There was no allegation in the particulars of claim that the stigma, which is said to cause the diminution in value of the claimant&#8217;s land, decreases over time with the consequence that the amount of the diminution in value also decreases over time. Furthermore, there was no allegation that the defendant was liable for the difference between the amount of diminution in value as between what it was in 2018 and the amount that it would have been in 2018 if treatment had commenced in 2013. Quite simply, the claimant&#8217;s further issue was not pleaded in the particulars of claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A joint expert report dated 27 April 2021 was provided by David Hugh Gregson, a chartered surveyor, a chartered biologist and a chartered environmentalist. In providing his report Mr Gregson was acting on behalf of David Gregson Ltd. Mr Gregson stated that he had inspected the claimant&#8217;s and the defendant&#8217;s land. He considered that the boundary wall between the claimant&#8217;s and the defendant&#8217;s land was unlikely to be a significant barrier to the spread of JKW as the rhizomes will normally be found at a lower depth than the likely base of the wall. He considered that JKW on the defendant&#8217;s land had spread to the garden on the claimant&#8217;s land before 2004. He also advised that the claimant&#8217;s land, in so far as it was affected by JKW, could only be used as amenity space in the future.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The damages claim presented at trial differed from that contained in the particulars of claim. At trial the claimant relied on expert evidence contained in the report of Mr Raine. In his report Mr Raine stated that he has particular expertise in the assessment of diminution in value associated with the effects of JKW. On the basis of Mr Raine&#8217;s report the claimant sought several heads of damages including, for instance, &#163;3,600 for the cost of treatment of JKW on the claimant&#8217;s land and &#163;4,900 for residual (post treatment) diminution in value of the claimant&#8217;s land because, </span><span style="font-family:'Times New Roman';color:#000000">as it once had JKW actively growing on it and there remained JKW rhizomes in its soil, it was subject to stigma on the property market</span><span style="font-family:'Times New Roman'">. All the heads of damages were characterised as aspects of a diminution in the value of the claimant&#8217;s land so that, for instance, the cost of treatment was said to have reduced the value of the claimant&#8217;s land by &#163;3,600.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr Raine&#8217;s analysis of the claim for diminution in value was set out in para 10.3(h) of his report under the heading &#8220;Disclosure on resale and resale blight&#8221;. He stated: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;Section 7.8 of the Law Society Property Information Form (TA6) requires a seller to disclose if a Property is affected by [JKW] and if so, whether there is a [JKW] Management Plan in place. In my opinion, it is reasonable for a &#8216;willing buyer&#8217; to make some allowance for managing this disclosure to a future buyer when they come to resell, dealing with queries that would inevitably arise from that buyer&#8217;s solicitor and potentially making some allowance. In my opinion, a reasonable allowance, taking account of all the factors above, is 7% of the unaffected Market Value, therefore &#163;4,900. I consider this property to be disproportionately affected by [JKW] due to the generally weak demand for properties of this type which is reflected in the low market values prevalent in this area. &#8230; There is a real stigma associated with JKW in the current market, fuelled by media articles and internet discussion.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There was nothing in Mr Raine&#8217;s report to support the proposition that the stigma, causing the diminution in value of the claimant&#8217;s land, decreases over time with the consequence that the amount of the diminution in value also decreases over time. Quite the reverse. The expert stated that &#8220;[t]he presence of [JKW] within the curtilage of a residential Property can have a </span><span style="font-style:italic;font-family:'Times New Roman'">significant adverse impact</span><span style="font-family:'Times New Roman'"> on the saleability and Market Value of a Property &#8230; </span><span style="font-style:italic;font-family:'Times New Roman'">for an indefinite period</span><span style="font-family:'Times New Roman'"> following the treatment &#8230;.&#8221; (Emphasis added).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At the hearing before the district judge the claimant conceded that the claim for treatment costs amounting to &#163;3,600 was irrecoverable because the JKW had spread to the claimant&#8217;s land &#8220;well before 2004&#8221; and therefore before the defendant was in breach of duty. The claimant conceded that, regardless of the defendant&#8217;s subsequent continuing breach of the relevant duty in private nuisance, he was always going to have to treat JKW on his land. No issue arises on this appeal as to whether the concession was correct or whether the claim for the costs of treatment might be recoverable as a reasonable cost incurred in abating the nuisance: see paras 66 and 67 below. Furthermore, if a claimant can prove that a subsequent continuing breach has increased treatment costs due to the presence of more JKW on the claimant&#8217;s land then the additional treatment costs would be recoverable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There was no evidence at the hearing before the district judge that the stigma caused by the presence of JKW decreases over time nor was there any evidence as to the rate of decrease or as to the effect of a decrease on the amount of the residual diminution in value of the claimant&#8217;s land. Put simply, there was no evidence to support the claimant&#8217;s further issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-weight:bold;text-transform:uppercase">5.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The judgment of the district judge</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">At paras 25 and 30 the district judge found that, because of the publication of the 2012 paper, in 2013 the defendant was, or ought to have been, aware of the risk of damage and loss of amenity to the claimant&#8217;s land caused by the presence of JKW on the defendant&#8217;s land. The district judge found, at para 5, that the defendant had actual knowledge of the presence of JKW on its land in 2014 and on a fair reading the district judge found that the defendant ought to have been aware of the presence of JKW on its land by at the latest 2013. The district judge allowed &#8220;a generous amount of time&#8221; for the defendant&#8217;s consideration of the 2012 paper and for the implementation of a reasonable and effective treatment programme of JKW on its land (para 30). The district judge found that the defendant did not start a reasonable and effective treatment programme until 2018. Accordingly, the district judge found that the period of actionable continuing private nuisance was between 2013 and 2018. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In relation to the claim for diminution in value the district judge recorded, at para 23, the defendant&#8217;s submission that as JKW rhizomes were probably present on the claimant&#8217;s land well before 2004 &#8220;[any] &#8230; diminution or loss of amenity was present before any breach of duty arose.&#8221; On this basis the defendant submitted that &#8220;[any] breach of duty &#8230; was not causative of loss.&#8221; The district judge acknowledged, at para 24, &#8220;an attractiveness to the simplistic nature of the argument advanced by the defendant.&#8221; However, the district judge rejected the submission holding that it was answered by the fact that there was a continuing nuisance and breach of duty as a result of persisting encroachment. He stated, at para 24, that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;Whilst the initial encroachment may have occurred historically, any loss suffered by the claimant in principle continues and will accrue by the continuation of the breach in failing to treat the [JKW]. ln this case, the encroachment persists. I am not satisfied, therefore, that the defendant&#8217;s argument in this regard has merit and I prefer the counterargument put forward by the claimant, which is that there is a continuing breach of duty as a result of the persisting encroachment.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman';color:#000000">Accordingly, the district judge considered that the diminution in value was caused by the continuing private nuisance between 2013 and 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">However, even though the district judge had found that the diminution in value was caused by the continuing nuisance he declined to award any of the heads of damage for diminution in value, including the claim for &#163;4,900. In arriving at his decision, the district judge stated that &#8220;[on his] reading of the Court of Appeal's judgment [in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">], diminution in value is irrecoverable and the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams</span><span style="font-family:'Times New Roman'"> was to the effect that the Claimant may recover damages for loss of amenity value of land and not diminution in value of land &#8230;&#8221; (para 31). It is implicit that the district judge categorised the claim for diminution in value as being a claim to protect the value of the claimant&#8217;s land as an investment or a financial asset and therefore an irrecoverable claim for pure economic loss. It is also implicit that the district judge rejected the submissions that the claim for diminution in value was for damages for the diminished utility and amenity of the claimant&#8217;s land. Accordingly, the district judge, implicitly relying on para 48 of </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">, made no award under this head of claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-weight:bold;text-transform:uppercase">6.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The judgment of the circuit judge</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Before the circuit judge the claimant contended that the district judge was wrong to have dismissed the claim for diminution in value on the basis that it was an irrecoverable claim for pure economic loss. For its part the defendant contended that, even if damages for diminution in value are recoverable, the district judge was wrong to have concluded that the diminution in value was caused by the defendant&#8217;s breach of the relevant duty in private nuisance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'"> The circuit judge dealt first with the defendant&#8217;s submission in relation to causation. The circuit judge recorded, at para 11, the defendant&#8217;s submission that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;[JKW] had been present on the claimant&#8217;s land since at least 2004, the breach was between 2013 and 2018. On that basis the value of the claimant's property was diminished between 2004 and 2013. Nothing changed by the defendant being in breach, there was no additional loss.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">The circuit judge rejected this submission. He approached the issue, at para 16, as an exception to the &#8220;but for&#8221; principle for causation drawing an analogy with trespass as a tort of strict liability. He considered, at para 16, that in this type of nuisance &#8220;causation should be flexibly viewed as to the justice of the situation and if there is a duty and a breach and resultant damage that should be sufficient to found the action.&#8221; He held, at para 19, that the diminution in value &#8220;is consequential on the nuisance found.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The circuit judge then dealt with the claimant&#8217;s submission that the district judge was wrong to have dismissed the claim for diminution in value on the basis that it was an irrecoverable claim for pure economic loss. The circuit judge accepted, at para 17, that the claimant&#8217;s land was subject to interference by encroachment but stated that this could &#8220;only sound in compensation if there has been a loss of amenity.&#8221; He also stated that the district judge &#8220;has found no loss of amenity, and that finding is, in reality, not open to challenge.&#8221; At para 19 the circuit judge referred to and relied on the phrase in para 48 of </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'"> that &#8220;the purpose of the tort of nuisance is not to protect the value of property as an investment or a financial asset&#8221;. The circuit judge stated, at para 19, that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;The only actual </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">damage</span><span style="font-family:'Times New Roman';color:#000000">, which is not physical, in this case is the diminution in value. However, I consider [</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams v Network Rail</span><span style="font-family:'Times New Roman';color:#000000">] is authority that such economic damage is not recoverable. The phrase &#8216;the purpose of the tort of nuisance is not to protect the value of property as an investment or a financial asset&#8217; could not be clearer. I accept [counsel for the claimant&#8217;s] argument that this is damage leading to a loss which is consequential on the nuisance found. However, it is not recoverable damage, it is pure economic loss.&#8221; (Emphasis in original.)</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman';color:#000000">Accordingly, the circuit judge dismissed the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold;text-transform:uppercase">7.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The judgment of the Court of Appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-style:italic">(a)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal;font-family:'Times New Roman';color:#000000">The claimant&#8217;s sole ground of appeal to the Court of Appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claimant&#8217;s sole ground of appeal was that the district judge and the circuit judge erred in that they misunderstood </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">. Counsel on behalf of the claimant argued that, properly understood, </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'"> is not authority against the claimant&#8217;s case that he is entitled to recover damages for diminution in value of his land. For its part the defendant not only contended that the judgments of the district judge and of the circuit judge were correct but also contended, in a respondent&#8217;s notice, that the loss occurring before the period of actionable breach was not caused by that breach. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Birss LJ, delivering the leading judgment in the Court of Appeal, held, at para 36, that the district judge and the circuit judge had misunderstood </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The district judge and the circuit judge had both relied on para 48 of the judgment of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail </span><span style="font-family:'Times New Roman'">on appeal from the decision of the Recorder: see para 18 above</span><span style="font-style:italic;font-family:'Times New Roman'">.</span><span style="font-family:'Times New Roman'"> However, Birss LJ pointed out that para 48 of the Court of Appeal&#8217;s judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman'">v Network Rail</span><span style="font-family:'Times New Roman'"> appeared in the section dealing with the Recorder&#8217;s conclusion that the claimant&#8217;s property had been blighted by the presence of JKW on adjoining land. The Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'"> held, at para 46, that such a conclusion was &#8220;wrong in principle.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In his judgment in this appeal Birss LJ held, at para 37, that the part of the judgment in </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'"> in which para 48 appears &#8220;is about the elements necessary to complete the tort of nuisance.&#8221; He stated, at paras 37 and 38, that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;37.</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">&#8230;The ratio of </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams [v Network Rail]</span><span style="font-family:'Times New Roman';color:#000000"> here is that there is no actionable nuisance caused by [JKW] on a defendant&#8217;s land simply because it diminishes the market value of the claimant&#8217;s land. The reason why not is a policy reason which characterises such a claim as one of &#8216;pure economic loss&#8217;. That phrase does not mean that in a case in which the elements of the tort of nuisance are satisfied, the claimant cannot recover for damage to their economic interests (para 64 of </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams [v Network Rail]</span><span style="font-family:'Times New Roman';color:#000000"> says the opposite). What the phrase is referring to is the mechanism by which the harm or loss has been caused. As </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Clerk &amp; Lindsell on Torts</span><span style="font-family:'Times New Roman';color:#000000">, 23rd ed (2022) puts it at para 1-44:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in"><span style="font-family:'Times New Roman';color:#000000">&#8216;&#8220;Pure Economic&#8221; Loss is the term used to describe an economic loss to the claimant which does not result from any physical damage to or interference with his person or tangible property.&#8217;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num>38.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">In a case in which [JKW] is on the defendant&#8217;s land, even if it is close to the boundary and at risk of invading the claimant&#8217;s land, </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams [v Network Rail]</span><span style="font-family:'Times New Roman';color:#000000"> holds that the reduction in market value of the claimant&#8217;s land which this causes does not result from physical damage nor from physical interference with the claimant&#8217;s property and therefore does not amount to a nuisance. Putting a small gloss on the opening words in para 48 of </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams [v Network Rail]</span><span style="font-family:'Times New Roman';color:#000000">, I would say that the purpose of the tort of nuisance is not </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">simply</span><span style="font-family:'Times New Roman';color:#000000"> to protect the value of property. After all </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams [v Network Rail]</span><span style="font-family:'Times New Roman';color:#000000"> itself later recognises that if the value of the claimant's property is diminished as a result of an interference with the claimant's quiet enjoyment or amenity, due to physical encroachment of [JKW] from the defendant&#8217;s land into the claimant's land, damages including diminution in value of the property will be available. Putting it another way, the reasoning in para 48 of </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams [v Network Rail]</span><span style="font-family:'Times New Roman';color:#000000">, which the judges below relied on, is nothing to do with recoverability of damages in a case in which the tort of nuisance is complete.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In relation to </span><span style="font-style:italic;font-family:'Times New Roman'">Williams v Network Rail</span><span style="font-family:'Times New Roman'">, Birss LJ concluded, at para 42:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;&#8230;. Reading </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Williams [v Network Rail]</span><span style="font-family:'Times New Roman';color:#000000"> as a whole, the point being made is a distinction between &#8216;pure economic loss&#8217;, ie loss without physical damage or physical interference which is not actionable, and cases in which there is physical change to the claimant's property as a result of the presence there of knotweed rhizomes. Once that natural hazard is present in the claimant&#8217;s land (to a non-trivial extent), the claimant&#8217;s quiet enjoyment or use of it, or putting it another way the land&#8217;s amenity value, has been diminished. For the purposes of the elements of the tort of nuisance that amounts to damage (para 56 last sentence) and it is the result of a physical interference. If consequential residual diminution in value can be proved, damages on that basis can be recovered. They are not pure economic loss because of the physical manner in which they have been caused.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In summary the Court of Appeal in this case explained </span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">that where JKW was on a defendant&#8217;s land, even if it was close to the boundary and at risk of invading the claimant&#8217;s land, any diminution in value of the claimant&#8217;s land which this caused did not amount to a nuisance because it did not result from physical damage to or physical interference with the claimant&#8217;s land and so constituted pure economic loss. However, if the value of a claimant&#8217;s land was diminished as a result of an interference with the claimant&#8217;s quiet enjoyment of his land or with the amenity of his land that was due to the non-trivial physical encroachment of JKW from the defendant&#8217;s land onto the claimant&#8217;s land, a claim in nuisance would be complete and damages for diminution in the value of the claimant&#8217;s land would be recoverable. The Court of Appeal in this case held that it was not the case that where the elements of the tort of nuisance were satisfied a claimant could not recover for damage to their economic interests. Accordingly, the Court of Appeal</span><span style="font-family:'Times New Roman'"> allowed the claimant&#8217;s single ground of appeal. On the hearing of the appeal before this court the defendant has not challenged this aspect of the judgment of the Court of Appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-style:italic">(b)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal;font-family:'Times New Roman';color:#000000">The defendant&#8217;s causation argument before the Court of Appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Having allowed the claimant&#8217;s sole ground of appeal Birss LJ considered, between paras 44 and 50, the defendant&#8217;s submission that the residual diminution in value, which is the reduction in value left even after JKW has been properly treated, cannot have been caused by the nuisance because JKW encroachment had already happened before the breach of duty.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Birss LJ rejected the analogy drawn by the circuit judge with trespass as a tort of strict liability stating, at para 44, that the tort in this case &#8220;is not a tort of strict liability.&#8221; Birss LJ stated, at para 44, that &#8220;the duty in nuisance which arises in this case depends on actual or presumed knowledge on the part of the defendant of [JKW] on its land and the risk it represents.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Birss LJ stated, at para 45, that the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> was instructive in relation to the issue of causation and he set out, at para 46, extracts from the leading speech of Lord Cooke of Thorndon in that decision. Having done so he set out, at paras 47 and 48, his reasons for dismissing the defendant&#8217;s causation point. He stated:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;47.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">Although the district judge did not name the </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Delaware</span><span style="font-family:'Times New Roman';color:#000000"> case itself, I believe this is essentially the logic which he applied in finding for the [claimant] on the issue of causation. The fact the encroachment was historic was no answer when there was a continuing breach of duty as a result of persisting encroachment.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>48.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000">Although there is attractive simplicity about the [defendant&#8217;s] point on causation, I believe it is wrong. Viewed at 2018, after five years of breach of duty on the part of the [defendant] failing to treat the [JKW] on its own land adequately, the [JKW] was still encroaching on the [claimant&#8217;s] land and any treatment by the [claimant] would have been futile unless and until the [defendant] complied with its duty as a good neighbour and dealt with its own [JKW]. This is not an exception to the &#8216;but for&#8217; test. The harm to the quiet enjoyment and amenity suffered by the [claimant] persists in 2018 precisely because the nuisance is [a] continuing one. The harm then has been caused by the breach of duty.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_10">
+	  <num style="font-style:italic">(c)</num>
+	  <content>
+	    <p class="ParaSubHeading1" style="text-indent:0.5in"><span style="font-weight:normal;font-family:'Times New Roman';color:#000000">Overall conclusion in the Court of Appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:#000000">The Court of Appeal allowed the claimant&#8217;s sole ground of appeal and dismissed the defendant&#8217;s submission that the residual </span><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:initial">diminution</span><span class="fontstyle01" style="font-family:'Times New Roman';font-size:13pt;color:#000000"> in value was not caused by the nuisance. Accordingly, judgment was entered for the claimant for &#163;4,900. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-weight:bold;text-transform:uppercase">8.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">Counsel&#8217;s submissions before this court</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Counsel on behalf of the defendant, Matthew White, submitted that (a) if loss precedes breach of duty, breach did not cause that loss; (b) the loss preceded breach in this case; and (c) the Court of Appeal were wrong, in particular in drawing an analogy with </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'">, and in finding that the loss in this case, which precedes breach, is caused by breach.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Mr White submitted that there was no evidence of the defendant&#8217;s breach of duty between 2013 and 2018 causing any increase in or any material contribution to the diminution in value of the claimant&#8217;s land. He accepted that if the defendant&#8217;s breach of duty between 2013 and 2018 had increased the diminution in value then the defendant would be liable for the amount by which the diminution in value had increased. However, Mr White contended that this was not this case. Rather, in this case he submitted that all the diminution in value was solely attributable to the non-actionable presence of JKW on the claimant&#8217;s land which occurred &#8220;well before 2004&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Counsel on behalf of the claimant, Tom Carter, relied on the reasoning of the Court of Appeal and also advanced the claimant&#8217;s further issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-weight:bold;text-transform:uppercase">9.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The &#8220;but for&#8221; test in relation to causation</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the tort of private nuisance involving encroachment of JKW rhizomes from the defendant&#8217;s land onto the claimant&#8217;s land, the claimant is required to establish that the defendant&#8217;s breach of duty did in fact cause the loss suffered. The purpose of the &#8220;but for&#8221; test is to eliminate irrelevant causative factors. In the context of this case the &#8220;but for&#8221; test asks: would the diminution in value of which the claimant complains have occurred &#8220;but for&#8221; the breach of duty of the defendant between 2013 and 2018? If the diminution in value would have occurred in any event, then the defendant&#8217;s breach of duty is eliminated as a cause of the diminution in value so that there would be no causal link, as a matter of factual causation, between the defendant&#8217;s breach of duty and the diminution in value.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">A classic illustration of the application of the &#8220;but for&#8221; test is provided by the decision of Nield J in</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">&#160;</span><span class="Emphasis" style="font-family:'Times New Roman';color:#000000;background-color:#FFFFFF">Barnett v Chelsea and Kensington Hospital Management Committee </span><span class="Emphasis" style="font-style:normal;font-family:'Times New Roman';color:#000000;background-color:#FFFFFF"><ref href="#" uk:canonical="[1969] 1 QB 428" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1969">[1969] 1 QB 428</ref></span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">. In that case&#160;the claimant&#8217;s husband was sent home from a hospital casualty department after complaining of acute stomach pains and sickness. He died later that same day of what proved to be arsenic poisoning. The hospital admitted negligence in failing to treat the claimant&#8217;s husband promptly. His widow&#8217;s claim under the Fatal Accidents Acts 1846-1959 nonetheless failed because of evidence that, even had he been treated promptly, he would still have died from the poison. The defendant&#8217;s negligence was excluded as a cause of the claimant&#8217;s husband&#8217;s death so that there was no causal link between the defendants&#8217; negligence and his death.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There are examples of exceptions to the &#8220;but for&#8221; test for factual causation in relation to intentional torts: see </span><span style="font-style:italic;font-family:'Times New Roman'">Kuwait Airways Corpn v Iraqi Airways Co (Nos 4 and 5)</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2002/19" uk:canonical="[2002] UKHL 19" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] UKHL 19</ref>, <ref href="#" uk:canonical="[2002] 2 AC 883" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 2 AC 883</ref> at paras 74 and 127-129 in relation to the tort of conversion and</span><span style="font-style:italic;font-family:'Times New Roman'"> R (Lumba) v Secretary of State for the Home Department</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/12" uk:canonical="[2011] UKSC 12" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 12</ref>, <ref href="#" uk:canonical="[2012] 1 AC 245" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 AC 245</ref> at para 65 in relation to the tort of false imprisonment. Furthermore, in </span><span style="font-style:italic;font-family:'Times New Roman'">Financial Conduct Authority v Arch Insurance (UK) Ltd</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/1" uk:canonical="[2021] UKSC 1" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 1</ref>, <ref href="#" uk:canonical="[2021] AC 649" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] AC 649</ref>, at para 182, Lord Hamblen and Lord Leggatt stated that &#8220;[i]t has, however, long been recognised that in law as indeed in other areas of life the &#8216;but for&#8217; test is inadequate, not only because it is over-inclusive, but also because it excludes some cases where one event could or would be regarded as a cause of another event.&#8221; They gave examples of circumstances, where the &#8220;but for&#8221; test is not satisfied, but nonetheless the court considers it appropriate to attribute responsibility to the defendant&#8217;s conduct. One of their examples, adapted from the facts of the decision of the Supreme Court of Canada in </span><span style="font-style:italic;font-family:'Times New Roman'">Cook v Lewis</span><span style="font-family:'Times New Roman'"> [1951] SCR 830, is a case where two hunters simultaneously shoot a hiker who is behind some bushes and medical evidence shows that either bullet would have killed the hiker instantly even if the other bullet had not been fired. Lord Hamblen and Lord Leggatt stated that &#8220;[a]pplying the &#8216;but for&#8217; test would produce the result that neither hunter's shot caused the hiker&#8217;s death&#8221;. They considered that would be &#8220;a result which is manifestly not consistent with common-sense principles.&#8221; At paras 183&#8211;185 they also gave other examples of cases where despite the application of the &#8220;but for&#8221; test it is appropriate to attribute responsibility to the defendant&#8217;s conduct. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The Court of Appeal held, at para 48, that this case did not fall within an exception to the &#8220;but for&#8221; test. Rather, the Court of Appeal relied on </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> as establishing that the harm, that is the diminution in value, had been caused by the continuing breach of the relevant duty in private nuisance. Before this court the claimant relies on the reasoning of the Court of Appeal and has not submitted that the case falls within an exception to the &#8220;but for&#8221; test.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_13">
+	  <num style="font-weight:bold;text-transform:uppercase">10.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The decision in </span><span style="font-style:italic;text-transform:none;font-family:'Times New Roman';color:#000000">Delaware</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">It is necessary to consider the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> in some detail as the Court of Appeal relied on it to conclude that the harm, that is the diminution in value, had been caused by the continuing breach of the relevant duty in private nuisance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">In </span><span style="font-style:italic;font-family:'Times New Roman';color:initial;background-color:#FFFFFF">Delaware</span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"/><span style="font-family:'Times New Roman'">the roots of a plane tree on the pavement adjoining a block of flats had caused cracks, which appeared in 1989, in the structure of the flats. The defendant highway authority, Westminster City Council (&#8220;Westminster CC&#8221;), owned and controlled the tree. In 1989 the land on which the block of flats was built was owned by the Church Commissioners but in 1990 they transferred the freehold to Flecksun Ltd for &#163;1. There was no assignment of any right of action against Westminster CC by the Church Commissioners to Flecksun. After the transfer, Flecksun&#8217;s managing agent sent to Westminster CC a copy of a report prepared by a firm of structural engineers which concluded that the cracking had been caused by the roots of the tree and recommended that it be removed. If removal was not possible, they recommended underpinning. Westminster CC refused to remove the tree. If Westminster CC had removed the tree, then the cost of repairing the cracks would have been &#163;14,000.</span><span style="font-family:'Times New Roman';font-size:13.5pt"/><span style="font-family:'Times New Roman'">Given that Westminster CC had not removed the tree the claimant, Flecksun, carried out the necessary underpinning works to protect its property at a cost of &#163;570,734.98 and claimed that cost from Westminster CC as damages for the tort of private nuisance. It was common ground that the very small cost of remedial works which would have arisen if the tree had been removed could be ignored for the purposes of determining the claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">The judge found that the ground beneath the flats had become desiccated as a result of the encroachment of the roots in 1989, that the encroachment constituted a nuisance on the part of Westminster CC and that the underpinning work had been properly and reasonably incurred. However, he dismissed the claim on the ground that the damage had occurred during the Church Commissioners&#8217; ownership and Flecksun had not been able to prove that any of the remedial work it carried out had been necessitated by new damage to the foundations during its time as owner. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">On Flecksun&#8217;s appeal the Court of Appeal, allowing the appeal, held that, since the nuisance by encroachment of the roots had continued after completion of the transfer to Flecksun, it could recover the cost of eliminating the nuisance notwithstanding the absence of any further physical damage after the date of acquisition.</span><span style="font-family:'Times New Roman'"> The reasoning of the Court of Appeal is encapsulated in the following passage at paras 22-23 of the judgment of Pill LJ [2000] BLR 1, the reference to </span><span style="font-style:italic;font-family:'Times New Roman'">Hunter</span><span style="font-family:'Times New Roman'"> being to </span><span style="font-style:italic;font-family:'Times New Roman'">Hunter v Canary Wharf Ltd</span><span style="font-family:'Times New Roman'"> <ref href="#" uk:canonical="[1997] AC 655" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] AC 655</ref>:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="background-color:#FFFFFF">&#8220;22.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000;background-color:#FFFFFF">Thus where there is a continuing nuisance, the owner is entitled to a declaration, to abate the nuisance, to damages for physical injury and to an injunction. He is in my judgment, and on the same principle, entitled to the reasonable cost of eliminating the nuisance if it is reasonable to eliminate it. This does not offend against Lord Lloyd of Berwick's formulation in </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000;background-color:#FFFFFF">Hunter</span><span style="font-family:'Times New Roman';color:#000000;background-color:#FFFFFF"> which was not intended to define the remedies of an owner subject to a nuisance by encroachment.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="background-color:#FFFFFF">23.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#000000;background-color:#FFFFFF">A nuisance is present during the second claimant's ownership; acceptance of the need for remedial work establishes that. The actual and relevant damage is the cost of the necessary and reasonable remedial work. Underpinning has been held to be a reasonable way of eliminating the nuisance and the owner can recover the cost of doing it. There is no need to prove further physical damage resulting from the nuisance.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF"/><span style="font-family:'Times New Roman'">On Westminster CC&#8217;s further appeal, it contended that all the existing damage had occurred before Flecksun acquired the freehold; that only the Church Commissioners could sue for that damage (subject to any limitation defence); and that Flecksun could only sue for fresh damage if and when it occurred. The House of Lords rejected this contention holding that there was a continuing nuisance, of which the defendant knew or ought to have known, and reasonable remedial expenditure was recoverable by the owner who had to incur it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Lord Cooke, giving the leading speech with which the other Lords agreed, said the following at para 33:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;&#8230; there was a continuing nuisance during Flecksun&#8217;s ownership until at least the completion of the underpinning and the piling in July 1992. It matters not that further cracking of the superstructure may not have occurred after March 1990. The encroachment of the roots was causing continuing damage to the land by dehydrating the soil and inhibiting rehydration. Damage consisting of impairment of the load-bearing qualities of residential land is, in my view, itself a nuisance . . . Cracking in the building was consequential. Having regard to the proximity of the plane tree to Delaware Mansions, a real risk of damage to the land and the foundations was foreseeable on the part of Westminster [CC], as in effect the judge found. It is arguable that the cost of repairs to the cracking could have been recovered as soon as it became manifest. That point need not be decided, although I am disposed to think that a reasonable landowner would notify the controlling local authority or neighbour as soon as tree root damage was suspected. It is agreed that if the plane tree had been removed, the need to underpin would have been avoided and the total cost of repair to the building would have been only &#163;14,000. On the other hand the judge has found that, once the council declined to remove the tree, the underpinning and piling costs were reasonably incurred . . .&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman';color:#000000">Lord Cooke concluded, at para 38, that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;&#8230; the law can be summed up in the proposition that, where there is a continuing nuisance of which the defendant knew or ought to have known, reasonable remedial expenditure may be recovered by the owner who has had to incur it. In the present case this was Flecksun.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman';color:#000000">Accordingly, Flecksun was entitled to recover the costs of &#163;570,734.98 incurred in undertaking the necessary underpinning works to protect its property.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Properly analysed the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> was that a claimant is entitled to recover the reasonable costs incurred in abating a continuing nuisance. Prior to the decision in </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> the question as to whether damages for reimbursement of the expenditure incurred in abating a nuisance was recoverable was both difficult and controversial: see </span><span style="font-style:italic;font-family:'Times New Roman'">Abbahall Ltd v Smee</span><span style="font-family:'Times New Roman'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/1831" uk:canonical="[2002] EWCA Civ 1831" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 1831</ref>, <ref href="#" uk:canonical="[2003] 1 WLR 1472" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 1 WLR 1472</ref> at para 28 and the discussion in </span><span style="font-style:italic;font-family:'Times New Roman'">Clerk &amp; Lindsell on Torts</span><span style="font-family:'Times New Roman'">, 18th ed (2000), para 31&#8211;25. However, in delivering the lead judgment in the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman'">Abbahall Ltd v Smee</span><span style="font-family:'Times New Roman'">, Munby J stated, at para 28, that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman';color:#000000">&#8220;&#8230; the position is now clear following the decision of the House of Lords in [</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Delaware</span><span style="font-family:'Times New Roman';color:#000000">]. Where there is a continuing nuisance of which the defendant knew or ought to have known, reasonable remedial expenditure can be recovered by the owner who has been required to incur it in the course of abating the nuisance.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> establishes that where there is a continuing nuisance the claimant is entitled, in appropriate circumstances, to abate the nuisance and to recover the reasonable costs incurred in doing so. However, a loss representing a diminution in market value is not an aspect of reasonable costs incurred in abating a continuing nuisance. </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> is not authority for the proposition that diminution in market value is recoverable, regardless as to whether the diminution occurred prior to the defendant&#8217;s breach of duty. Lord Cooke did not contemplate or consider in his speech that a claim by a property owner could be made for diminution in value of land which had been sustained without any breach of duty on the part of the defendant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_14">
+	  <num style="font-weight:bold;text-transform:uppercase">11.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">Application of the law to the narrow and main issue as to causation: see para 8 above </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">As I have indicated, at para 8 above, the narrow and main issue before this court is one of causation. I therefore turn to the application of the law to that issue.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The starting point is that the decision of the House of Lords in </span><span style="font-style:italic;font-family:'Times New Roman'">Delaware</span><span style="font-family:'Times New Roman'"> is not authority for the proposition that diminution in market value is recoverable, regardless as to whether the diminution occurred prior to the defendant&#8217;s breach of duty: see para 67 above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The district judge in this case found that at some date &#8220;well before 2004&#8221; JKW growing on the defendant&#8217;s land encroached onto the claimant&#8217;s land.  In the context of this case the &#8220;but for&#8221; test asks: would the diminution in value of which the claimant complains have occurred &#8220;but for&#8221; the wrongdoing of the defendant between 2013 and 2018? The answer to that question is to be seen in the context that there was no evidence and no finding by the district judge that the defendant&#8217;s breach of duty between 2013 and 2018 had increased or materially contributed to the diminution in value of the claimant&#8217;s land. In that context the answer to the &#8220;but for&#8221; question is simply that the diminution in value had occurred long before any breach by the defendant of the relevant duty in private nuisance first occurred in 2013. Accordingly, the application of the &#8220;but for&#8221; test in this case eliminates the defendant&#8217;s subsequent breach of duty as a causative factor. The diminution in value would have occurred in any event so that there is no causal link between the defendant&#8217;s breach of duty and the diminution in value claimed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Accordingly, subject to the claimant&#8217;s further issue I would allow the appeal on the basis that the diminution in value of the claimant&#8217;s land had occurred prior to and was not caused by the defendant&#8217;s subsequent tortious conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_15">
+	  <num style="font-weight:bold;text-transform:uppercase">12.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">The claimant&#8217;s further issue</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">The duty of a trial judge is to consider the matters which are in issue on the pleadings, and which are supported by evidence, and only those matters. As I have indicated the claimant&#8217;s further issue was not pleaded and there was not one word of evidence to support it. Furthermore, the onus of proof remained on the claimant to establish </span><span style="font-family:'Times New Roman'">the difference between the amount of the diminution in value in 2018 and the amount that it would have been if treatment had commenced in 2013. </span><span style="font-family:'Times New Roman';color:initial;background-color:#FFFFFF">In my view the district judge would have acted quite improperly if he had made any award in favour of the claimant on a hypothesis, not pleaded and not supported in evidence, that the stigma causing the diminution decreases over time with the consequence that the amount of the diminution in value also decreases over time. In my view the hypothesis amounts to no more than conjecture.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I reject the submission that an award of damages in relation to diminution in value can be supported on the basis of the further issue raised by counsel on behalf of the claimant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_16">
+	  <num style="font-weight:bold">13.</num>
+	  <content>
+	    <p class="ParaHeading1" style="text-indent:0.5in"><span style="text-transform:none;font-family:'Times New Roman';color:#000000">Conclusion</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I would allow the appeal so that no damages should be awarded.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">lord burrows (<span style="text-transform:none">concurring</span>):</p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I agree with the judgment of Lord Stephens. I add some brief comments of my own because the central issue in this appeal concerns factual causation and that concept has rarely been the focus of attention in cases on the tort of private nuisance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In general terms, as was recently explained by this court in </span><span style="font-style:italic;font-family:'Times New Roman'">Fearn v Board of Trustees of the Tate Gallery </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2023/4" uk:canonical="[2023] UKSC 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKSC 4</ref>, <ref href="#" uk:canonical="[2024] AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] AC 1</ref>, and </span><span style="font-style:italic;font-family:'Times New Roman'">Jalla v Shell International Trading and Shipping Co Ltd </span><span style="font-family:'Times New Roman'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2023/16" uk:canonical="[2023] UKSC 16" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKSC 16</ref>, <ref href="#" uk:canonical="[2023] 2 WLR 1085" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 2 WLR 1085</ref>, the tort of private nuisance is committed where the defendant&#8217;s activity, or a state of affairs for which the defendant is responsible, unduly interferes with (or, as it has commonly been expressed, causes a substantial and unreasonable interference with) the claimant&#8217;s use and enjoyment of its land. Nearly always the undue interference with the use and enjoyment of the claimant&#8217;s land will be caused by an activity or state of affairs on the defendant&#8217;s land so that the tort is often described as one dealing with the respective rights of neighbouring landowners or occupiers. The tort of private nuisance is actionable only on proof of damage where the damage is the undue interference with the claimant&#8217;s use and enjoyment of land. That includes physical damage to the land itself. But commonly there will be an undue interference with the use and enjoyment of land &#8211; as by the impact of noise or smell or smoke or vibrations or, as in </span><span style="font-style:italic;font-family:'Times New Roman'">Fearn</span><span style="font-family:'Times New Roman'">, being overlooked &#8211; even though there is no physical damage to the land.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The facts of this case concern the encroachment onto the claimant&#8217;s land of Japanese knotweed (&#8220;JKW&#8221;) from the defendant&#8217;s land. In respect of a natural hazard, such as JKW, it has been held, or indicated, that, in general, the defendant is liable in the tort of private nuisance only where it is at fault taking into account the defendant&#8217;s individual circumstances, including financial resources: see, eg, </span><span style="font-style:italic;font-family:'Times New Roman'">Goldman v Hargrave </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1967] 1 AC 645" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1967">[1967] 1 AC 645</ref>, esp 663-664, and </span><span style="font-style:italic;font-family:'Times New Roman'">Leakey v National Trust for Places of Historic Interest or Natural Beauty </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1980] QB 485" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1980">[1980] QB 485</ref>, esp 524-527. In this case, it is not in dispute that, in relation to the encroachment of JKW from the defendant&#8217;s land onto the claimant&#8217;s land, the defendant had, or ought to have had, the required knowledge, and was relevantly at fault, from 2013 but, importantly, not before that date. It is also accepted that JKW had encroached from the defendant&#8217;s land onto the claimant&#8217;s land several years earlier (and indeed was already there when the claimant bought the land in 2004). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The claimant is seeking as damages not the cost of treating JKW but what has been termed the &#8220;residual&#8221; diminution in value of the land after treatment. According to the evidence, that residual diminution in value arises because there is a stigma attaching to land that has had JKW on it, even after the JKW has been treated. The Court of Appeal held that the claimant was entitled to recover damages for that residual diminution in value and awarded damages for it of &#163;4,900. The defendant now appeals arguing that, as a matter of causation, the decision of the Court of Appeal is incorrect and no damages should have been awarded. Leaving aside a secondary issue raised by the claimant, that was neither pleaded nor supported by any evidence (ie that the residual diminution in value would have been lower had treatment been commenced in 2013 rather than in 2018), it is not in dispute that the residual diminution in value was the same before and after the breach of duty in 2013. I should add that the claimant has not at any stage sought an injunction, or damages in lieu of an injunction, for a continuing nuisance; and, before this court, counsel for the claimant made clear that his case does not rest on contending that there was a continuing nuisance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">In the context of a claim for common law damages for a private nuisance, we therefore have a pure issue of factual causation (for a succinct explanation of the distinction between factual causation and legal causation, see Christian Witting, </span><span style="font-style:italic;font-family:'Times New Roman'">Street on Torts, </span><span style="font-family:'Times New Roman'">16th ed (2021) p 163). Cast in terms of undue interference with the claimant&#8217;s use and enjoyment of land, the question is whether the tort of private nuisance has been committed where the same interference with the claimant&#8217;s use and enjoyment of land that is alleged to be actionable from 2013 was non-actionable prior to then. Put another way, was the relevant damage required to establish the tort of private nuisance factually caused by the breach of duty where the same damage was present prior to the breach of duty? </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The standard approach in tort to deciding whether a breach of duty is a factual cause of damage is to apply the &#8220;but for&#8221; test. This requires one to ask whether the damage would have been suffered but for the breach of duty. If the answer to that question is &#8220;no&#8221; (ie the damage would not have been suffered but for the breach of duty) the breach of duty was a factual cause of the damage. For example, in </span><span style="font-style:italic;font-family:'Times New Roman'">Barnett v Chelsea and Kensington Hospital Management Committee </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1969] 1 QB 428" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1969">[1969] 1 QB 428</ref>, a night-watchman, the claimant&#8217;s husband, early in the morning went to the defendant&#8217;s hospital complaining of vomiting after drinking tea. The nurse on duty consulted a doctor by telephone and he said that the night-watchman should go home and consult his own doctor in the morning. Five hours later he died of arsenic poisoning. The doctor was in breach of his duty of care in failing to examine the deceased. However, the claimant&#8217;s action failed because she could not establish on a balance of probabilities that the doctor&#8217;s negligence had been a cause of the death since, even if the deceased had been properly examined and treated, he would have died in any event. In other words, the claimant could not prove that but for the breach of duty her husband would not have died. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">There can be situations, especially involving more than one sufficient event (ie an event that is sufficient in itself to bring about the damage), where application of the &#8220;but for&#8221; test is inappropriate. A classic hypothetical illustration is where there are two independent fires, negligently started by D1 and D2, which converge on a house and destroy it, each being sufficient on its own to destroy it. Applying the &#8220;but for&#8221; test would produce the unsatisfactory result that neither D1 nor D2 was liable. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">However, there is no good reason not to apply the standard &#8220;but for&#8221; test to the facts in this case. This is so even if one were to regard the residual diminution in value as having been brought about by two successive sufficient events, the first being a natural event and the second being a breach of duty.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">The defendant relied for the application of the &#8220;but for&#8221; test on the well-known case of </span><span style="font-style:italic;font-family:'Times New Roman'">Performance Cars Ltd v Abraham </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1962] 1 QB 33" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1962">[1962] 1 QB 33</ref> which involved two successive sufficient events, both a breach of duty. The claimant&#8217;s car, a Rolls Royce, was involved successively in two collisions brought about by the negligence of X and the defendant respectively. Each necessitated a respray of the lower part of the bodywork. The car had not had this work done to it between the two collisions. The claimant sued the defendant in the tort of negligence for, inter alia, the cost of the respray. The Court of Appeal held that the defendant was not liable for that cost because, in respect of the respray, he had not caused any additional loss in relation to what was an already damaged car. As Lord Evershed MR said, at p 39:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Times New Roman'">&#8220;the necessity for respraying was not the result of the defendant&#8217;s wrongdoing because that necessity already existed. The Rolls Royce, when the defendant struck it, was in a condition which already required that it should be resprayed in any event.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Times New Roman'">As regards the defendant&#8217;s breach of duty, this was therefore an application of the standard &#8220;but for&#8221; test for factual causation. Moreover, although there were two breaches of duty in play, Lord Evershed made clear that the same result would have been reached had the earlier damage been brought about by the claimant&#8217;s own fault. It also follows that the same result would have been reached had the damage first been brought about by a natural event. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">An example of a natural event being followed by a breach of duty, each of which was sufficient to bring about the damage, is provided by the negligence decision of the Privy Council in </span><span style="font-style:italic;font-family:'Times New Roman'">Kerry v England </span><span style="font-family:'Times New Roman'"><ref href="#" uk:canonical="[1898] AC 742" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1898">[1898] AC 742</ref>. A druggist had negligently supplied tartar emetic, a fatal poison, instead of bismuth, to a fatally sick patient for an attack of influenza. Damages for the deceased&#8217;s husband and child were reduced to nil by the Privy Council on the basis that the tartar emetic had not accelerated to any appreciable extent an already imminent death. In other words, applying the &#8220;but for&#8221; test, the breach of duty had not caused the loss from the death because the deceased would have died at much the same time irrespective of the breach of duty. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Applying the &#8220;but for&#8221; test to the facts of this case, the breach of duty from 2013 did not factually cause the residual diminution in value of the land. The claimant has not proved that the residual diminution in value would not have been suffered but for the breach of duty. This was because the JKW was already present on the claimant&#8217;s land before 2013 so that the residual diminution in value had already been brought about by the natural, non-actionable, encroachment of the JKW. Indeed, the claimant conceded at trial that he was not entitled to damages for the cost of treatment of the JKW because that cost was not factually caused by the breach of duty. The cost of treatment would have had to be incurred irrespective of the breach of duty. Yet, inconsistently, that concession was not extended to the residual diminution in value: in this case, the correct position as regards factual causation is that what applies to the cost of treatment applies equally to the residual diminution in value. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">Having rejected the claimant&#8217;s submission on the secondary issue, because it was neither pleaded nor supported by any evidence (see para 78 above), it follows that the claimant has not established that there was an actionable tort of private nuisance committed in this case. Plainly the burden of proof is on the claimant to prove that the alleged tort of private nuisance has been committed. But the claimant has failed to prove that the alleged damage (or, put another way, the alleged undue interference with the claimant&#8217;s use and enjoyment of land) was factually caused by the breach of duty which was committed from 2013. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">I agree, therefore, with Lord Stephens that the appeal should be allowed, and no damages should be awarded.      </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

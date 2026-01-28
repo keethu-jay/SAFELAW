@@ -1,0 +1,518 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/172"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/172"/>
+	  <FRBRdate date="2022-12-09" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="172"/>
+	  <FRBRname value="A Chaudhry v Cerberus Security and Monitoring Services Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/172"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/172"/>
+	  <FRBRdate date="2022-12-09" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/172/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/172/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:31:23" name="transform"/>
+	  <FRBRdate date="2024-11-22T12:25:03" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-12-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-his-honour-judge-james-tayler" href="/judge-his-honour-judge-james-tayler" showAs="HIS HONOUR JUDGE JAMES TAYLER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>172</uk:number>
+	<uk:cite>[2022] EAT 172</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>746cb13510b2828a7d15ae7619cd26ca57ac83a5cb510820b95c09093c41eac3</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:6pt">Amjid Chaudhry v Cerberus Service Security and Monitoring Services Limited</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2022] EAT 172</neutralCitation></p>
+      <p style="text-align:right"><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2020-000381-OO</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2022-12-09" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">9 December 2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-james-tayler" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">Mr A Chaudhry</span><span style="font-size:12pt"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">Cerberus Security and Monitoring Services Limited</span><span style="font-size:12pt"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Darryl Hutcheon </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(Advocate) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Ryan Clement </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Elcons Employment Law Consultants) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 28 October 2022</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Practice and Procedure </span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The employment tribunal erred in law in refusing the claimant's application to amend his claim form.   In case some judges might find a checklist helpful when considering applications to amend a claim form, one could do worse than: 1) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">identify the amendment or amendments</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> sought, which should be in writing; 2) in express terms, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">balance the injustice and/or hardship of allowing or refusing the amendment or amendments</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, taking account of all the relevant factors, including, to the extent appropriate, those referred to in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</span></heading>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;margin-right:3.7in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This is an appeal against the Order of Employment Judge Lancaster refusing the claimant permission to amend his claim form. The application was considered at a preliminary hearing for case management held in Leeds on 11 February 2020. The reasons for refusing the order were sent to the parties on 2 March 2020.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was employed by the respondent as a Security Officer from 24 March 2007. The claimant was suspended on 12 April 2019. The claimant was summarily dismissed on 24 September 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant, acting as a litigant in person, presented a claim that was received by the employment tribunal on 13 December 2019. The claimant ticked the box on the claim form to indicate a claim of unfair dismissal</span><span style="font-family:'Times New Roman'"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">and also ticked the box titled &#8220;I am making another type of claim&#8230;&#8221;, under which he wrote &#8220;unfair dismissal and victimisation&#8221;. The attached Particulars of Complaint concluded:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">AND THE CLAIMANT CLAIMS</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Declarations that he has been subjected to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">unfair dismissal</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">victimisation</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Recommendations, as appropriate.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Compensation accordingly and injury to feelings [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the Particulars of Complaint the claimant wrote [2]: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant's racial Origin is Pakistani, and he is also a Muslim. Problems arose for the Claimant as soon as he started working for the Respondent.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant stated that he had brought four previous claims in the employment tribunal against the respondent, alleging discrimination because of race and religion [3-4]. The claimant set out some brief background information [5-6]. The claimant went on to explain how he had been suspended on 12 April 2019. The respondent alleged he was guilty of &#8220;gross failure to follow company procedure, gross neglect of duties and falsifying records&#8221; . The key allegations were that the claimant had, in early February 2019, failed to carry out patrols at Rosehill Polymer and, in early April 2019, failed to patrol at Commerce Court, falsified records and failed to set the alarm.  The claimant set out the process that had resulted in his dismissal on 24 September 2019, including some of his allegations of unfair treatment [7-20]. The claimant stated that he appealed on 30 September 2019 [21] and complained about the appeal process. The claimant referred to a grievance appeal [24]. The claimant challenged the allegations made against him in the disciplinary process [27-33]. The claimant then set out, under the heading &#8220;Similar Circumstances&#8221;, a number of employees, the majority of whom he described as &#8220;White British&#8221; or &#8220;British Asian Muslim&#8221;, whom he claimed had not been equivalently disciplined despite being guilty of conduct similar to that for which he had been dismissed [34-43]. The narrative section concluded:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the circumstances It is averred that the Respondent has subjected the Claimant to unfair dismissal and victimisation in relation to the following acts/omissions on the part of the Respondent:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.1</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By not complying with Acas Code and/or own procedures in conducting a fair disciplinary hearing under the chair of an unbiased &amp; impartial individual on 17th May 2019.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.2</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By reaching a decision of dismissal in the Claimant's absence in a harsh, unjust or unreasonable manner and not given a chance to present my defence.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.3</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By not complying with its own procedure in conducting the appeal hearing within 5 working days.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.4</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By not complying with Acas Code and/or own procedure and/or its own invitation letter in conducting the appeal hearing in a reasonable manner on 15th November 2019</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.5</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By not complying with its own procedures in providing, to the Claimant, an outcome to his appeal hearing within 10 working days.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.6</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By generally the Claimant to an intimidating, hostile, degrading, humiliating and/or offensive environment.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On a fair reading, the claim form predominantly raised complaints about the claimant&#8217;s dismissal (including the appeal). There was an assertion of differential treatment. The claimant specifically brought claims of unfair dismissal and victimisation. The Particulars of Complaint hinted that there could be some other claim of discrimination, because the claimant specifically referred to his race and religion, and asserted differential treatment. The wording of paragraph 44.6 suggested a possible claim of harassment.  Considering that it was pleaded by a litigant in person, the allegations in the claim form were reasonably clear.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent submitted a detailed response on 13 January 2020, denying the claims. The respondent asserted that the victimisation claim was insufficiently particularised [63]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The complaint of victimisation is insufficiently particularised to which the Respondent cannot response properly and or fully. It is required that the claimant particularises</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the protected act on which he relies; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the protected characteristic</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The request was somewhat odd. The Particulars of Complaint specifically referred to the previous employment tribunal claims in which the claimant had alleged race and religious discrimination, which appeared to be the only asserted protected acts. The reference to &#8220;protected characteristic&#8221; suggests that the respondent thought it was possible that the claimant was asserting direct discrimination. Parties should think carefully before seeking additional information from a litigant in person, particularly if the complaint is reasonably clear, as it may result in a large amount of information being provided that does not assist in clarification of the issues.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment tribunal took the proactive, but not very beneficial, step of writing to the claimant on 16 January 2020 and requiring that he provide &#8220;the respondent and the Tribunal fuller information of the victimization complaint&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant responded on 29 January 2020 with a document titled &#8220;Further information of Victimisation Complaint&#8221;. The claimant stated that &#8220;the protected characteristics which I rely are race and/or religion or belief&#8221; [1] and stated that his previous employment tribunal claims were the protected acts that he relied on. He then went on to assert, in considerable detail, the grounds on which he asserted he had been badly treated in the disciplinary process and why his dismissal was unfair.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The next day, 30 January 2020, the claimant submitted a document titled &#8220;Application to amend paragraph 44 of ET1 claim&#8221;. The claimant set out complaints about the disciplinary process in 22 paragraphs. It is not clear whether the 22 paragraphs were designed to follow on from the existing six sub-paragraphs of paragraph 44 of the Particulars of Complaint, or to replace them, although it should have been simple to ascertain from the claimant which it was. The claimant asserted that he had been targeted because of his &#8220;protected characteristics and acts&#8221; [7 and 8]. He asserted differential treatment [8]. He alleged harassment at the appeal hearing [12]. The claimant asserted that the respondent &#8220;jumped to dismissal&#8221; because of his &#8220;protected characteristics and acts&#8221; [18, 19, 20, 21 and 22].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The preliminary hearing for case management took place on 11 February 2020, before Employment Judge Lancaster. In the Case Management Summary the employment judge set out the issues. The issues for unfair dismissal were in fairly standard form [4]. For the purposes of the claim of victimisation the protected acts were identified as the previous employment tribunal claims. The issue for determination was identified as [5.2] &#8220;Has the Respondent carried out any of the treatment set out in paragraphs 44.1 to 44 .6 </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">because </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the Claimant had done a protected act?&#8221;. The employment judge refused the application to amend at paragraph 1 of the Orders. The reasons for refusing the amendment were sent to the parties on 2 March 2020.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge stated that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the sole complaints in the claim form were of unfair dismissal and victimisation [2, 4, 7, 9, 12 and 13]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">complaints of discrimination because of race and religion and/or harassment could have been brought when the original claim form was submitted [3]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the claimant was &#8220;no stranger&#8221; to employment tribunal proceedings and the difference between complaints of direct discrimination and victimisation had been considered in managing previous claims [6]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">a further document making an allegation of harassment had been provided at the preliminary hearing for case management which was said to be &#8220;the first time such a complaint has ever been raised&#8221; [11]. The parties have not been able to find a copy of that document.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The only direction as to the law was &#8220;I am of course applying the general principles established on the authorities particularly </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent Bus Company Limited v Moore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221; [14].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge then went on to state of the nature of the application [14]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I am satisfied that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">this is not simply therefore a re-labelling exercise</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. These are specific types of complaint and those that are now sought to be added are different to those originally pleaded.</span><span/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">[emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge then considered the issue of time [15]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have regard to the time limits and although I may of course extend time in appropriate circumstances, and in the case of discrimination complaints that may be what I consider just and equitable to do so, I do note that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">these complaints as at the date of any proposed amendment are now significantly out of time. Any complaint prior to 9 September 2019 would be out of time</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. Though it is still unclear precisely what the claimant is alleging may be discriminatory or harassing, anything before that period would be liable to be excluded. Indeed, as he was not actually in work at all from April 2019, nothing actually done at work could have amounted to discrimination in the 8 months prior to presenting his complaint. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge then considered the manner in which the application to amend had been made [16]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I also have regard to the manner of making the application. As I say, it has been raised in the circumstances identified and I have some sympathy with Mr Clement's characterisation of that step of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">seeking to bring the allegations now "via the back door"</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The claimant could always have specifically ticked the boxes, as he has on previous claims to the Tribunal, identifying a discrimination complaint or setting it out in the narrative, and he has not done so. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">He has only done so at the last minute at this Preliminary Hearing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge then concluded [17]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For those reasons </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">I have taken the decision, in principle, not to allow the amendments </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">to add these further complaints. I also make the observation, as I did before retiring to consider my decision, that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">as yet it is wholly unclear</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">what the precise terms of any such amendment could be</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. Although, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the claimant has produced lengthy documents</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> it is not readily ascertainable that there is any allegation of any circumstances would give rise to a possible inference of discriminatory treatment, nor that any of the acts identified within those documents are unwanted conduct and on the face of it is related to any protected characteristic. It is simply for the most part a repetition of his complaints about the alleged unfairness of his dismissal and the various procedural steps that were taken, but without identifying whether he is saying that those are because of his race or his religion. I have already observed that in the context of his saying that there was disparity of treatment</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">with others who were not similarly disciplined, the claimant specifically </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">within the ET1 identifies amongst the list, of people others who are also Asian or Muslim who he says have been treated more leniently: so there is no obvious comparator identified</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Step 1: identify the amendment sought</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The starting point when considering any application to amend is to consider the specific amendment, or amendments, that are being sought. This is not always as easy as it sounds. Sometimes  applications to amend do not include the proposed finalised text and rarely in the employment tribunal include a strike through of text to be removed and underlined additional text. The amendments may be set out in more than one document. It is important to clarify the specific amendments that are sought because unless that is done it is not possible to balance the injustice and/or hardship of allowing or refusing the amendment or amendments against that of refusing them. Often there need not be an all or nothing decision; some amendments may be clearly identified and the case for allowing them may be compelling; whereas others may be nebulous and the arguments for permitting them insufficient. Employment judges face real difficulty where a litigant in person is seeking to amend an unclear pleading with an equally opaque document, or documents. If some or all amendments to a claim form are permitted the end result should, whenever possible, be a single document that sets out as clearly as possible the claims that are being brought. The same general points apply to applications to amend a response.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It will nearly always be necessary that a proposed amendment be reduced to writing before the application is determined:</span><span/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Remploy Ltd v J Abbott</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">and others</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0405/14/DM.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not consider that the claim form and the application to amend were nearly as unclear as the employment judge said. The Particulars of Complaint principally complained about the claimant's suspension, the disciplinary process, dismissal and appeal. The claimant specifically asserted unfair dismissal and victimisation. He also asserted his treatment was different to others in similar circumstances. A number were described as White British and so could be comparators for a race discrimination complaint. The fact that some of the others might not be good comparators because they were described as Asian and/or Muslim would not prevent the former being comparators. The claimant also described himself as &#8220;Pakistani&#8221; and the others as &#8220;British&#8221; in addition to being Asian and/or Muslim, so there was an asserted difference of race, because nationality falls within the protected characteristic of race.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge stated that the claimant had produced &#8220;lengthy documents&#8221;. There was a lengthy document said to provide further particulars of the victimisation claim. There was only one lengthy document that constituted an application to amend, and it was headed as such. While it appears there was another document that referred to harassment, this cannot be found. There is nothing to suggest it was lengthy. The employment judge could have refused to allow the claimant to rely on it in making his application to amend if he felt real injustice had been caused by its late production, or because there would not be a single document that set out all of the claims if the amendments were all permitted. The employment judge was also incorrect to state that the document produced at the hearing was the first time harassment had been raised, it was briefly referred to in the application to amend and, to an extent, presaged in the Particulars of Complaint.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Overall, I consider it was clear that the claimant was seeking permission to amend his claim form to assert that in addition to his dismissal being unfair, he was treated less favourably than his comparators in his suspension, the disciplinary process, dismissal and appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">When considering each amendment there are a number of possible decisions:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.98in;text-indent:-0.49in">24.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the whole application may be allowed</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.98in;text-indent:-0.49in">24.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the application may be allowed in part </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.98in;text-indent:-0.49in">24.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the whole application could be refused </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:0.98in;text-indent:-0.49in">24.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;text-indent:0.01in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the party seeking the amendment may be required to set out the proposed amendment in writing and/or clarify the proposed amendment before the application is determined</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The options for each proposed amendment are allow, refuse or clarify. The last of those possibilities was considered by Lady Wise in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Amey Services Ltd and another v Aldridge and others </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">UKEATS/0007/16/JW [23]</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not consider that the only option available to the judge was to refuse the amendments. Again, if there is known to be a problem with particularisation, as there was here, an opportunity could be given to remedy that before any decision is reached and a determination of the proposal to amend deferred. There is a clear inconsistency in allowing amendments at the same time as requiring them to be further particularised, but where outright refusal of the amendments would lead to undue hardship I see no reason in principle why adjustment of the proposed terms of the amendments cannot take place prior to the determination being made. The focus of the arguments might then be on whether and in what time frame such refinement of the proposed amendments should be allowed but those arguments would be take place before the single stage decision on the granting or refusal of amendment itself.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It appears to me that the employment judge may have thought that a more focussed application to amend might be made at a later stage, because he referred to his decision to refuse the amendment being &#8220;in principle&#8221;. Be that as it may, any opportunity to clarify an amendment, that is considered to be consistent with the application of the overriding objective, should be given before the application is determined. Determining an application to amend is a case management decision made under the general power of Rule 29 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Employment Tribunal Rules 2013</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. Rule 29 specifically provides that a further case management order may &#8220;vary, suspend or set aside an earlier case management order where that is necessary in the interests of justice&#8221;. That provides a possible power to consider an application to amend again. However, the apparently broad power can generally only be used where there has been a material change in circumstances: see </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Goldman Sachs Services Ltd v Montali </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="#" uk:canonical="[2002] ICR 1251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] ICR 1251</ref>, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Serco Ltd v Wells</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2016] ICR 768" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] ICR 768</ref> but also the discussion in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Liverpool Heart and Chest Hospital NHS Foundation Trust v Poullis </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/9" uk:canonical="[2022] EAT 9" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 9</ref>, <ref href="#" uk:canonical="[2022] ICR 785" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] ICR 785</ref>. The fact that an application to amend, that was refused when badly drafted, is now well drafted, is unlikely to amount to a material change of circumstances if it seeks to add the same claims. Hence, if clarification is to be permitted, it should be before the application to amend is determined. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Step 2: balance the injustice and/or hardship of allowing or refusing the amendment</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Once the proposed amendment or amendments have properly been identified and reduced to writing, the key test is to balance the injustice and/or hardship of allowing or refusing the amendment: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Cocking v Sandhurst (Stationers) Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1974] ICR 650" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1974">[1974] ICR 650</ref> at 657B&#8211;C; </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent Bus Co Ltd v Moore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1996] ICR 836" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] ICR 836</ref> at 843D and </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Presidential Guidance &#8211; General Case Management</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> Mummery J stressed that this overall assessment involves consideration of all of the relevant factors and stated that it is impossible and undesirable to attempt to list them exhaustively. He noted a number of factors that will generally be relevant to the assessment: the nature of the amendment, the applicability of time limits and the timing and manner of the application. Those factors are not a checklist to be ticked off: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Abercrombie v Aga Rangemaster Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2014] ICR 209" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] ICR 209</ref>, Underhill LJ  at [47].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The paramount importance of balancing the injustice and/or hardship of allowing or refusing the amendment has been emphasised repeatedly: for example </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Vaughan v Modality Partnership </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="#" uk:canonical="[2021] ICR 535" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] ICR 535</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The first ground of appeal is that the employment judge did not direct himself to the need to balance the injustice and/or hardship of allowing or refusing the amendment, and failed to take into account relevant factors. Mr Hutcheon, for the claimant, stated that the judgment did not demonstrate that the balancing exercise had been carried out. Mr Clement, for the respondent, asserts in his skeleton argument that the employment tribunal &#8220;had in mind and applied the general principles established on the authorities particularly </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent&#8221;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">[1]. Regrettably, I cannot see any evidence in the reasons of the employment tribunal that the necessary balancing exercise was conducted. Most significantly, I can see no consideration of any prejudice to the claimant of refusing the amendment. Balancing requires consideration of both sides of the scales of justice. The employment judge only referred to the factors he considered were against permitting the amendment. The brief reference to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is not enough to demonstrate a correct self-direction in law. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is not a magic word that will ward off the risk of a successful appeal against a decision to allow or refuse an amendment. The key words are the &#8220;balance of injustice and/or hardship of allowing or refusing the amendment&#8221;. It is not, of itself, an error of law for an employment tribunal to fail to utter those words, but if they are not said it will be more difficult for an appellate court to be satisfied that the employment tribunal applied the correct test, particularly if the reasoning is brief. On the other hand, if an employment tribunal identifies the correct test and shows that it has been applied, taking into account the relevant factors on both sides of the balance, possibly giving only brief reasons, that will generally be sufficient. Ground 1 therefore succeeds and the appeal must be allowed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I also accept Mr Hutcheon&#8217;s submission that there was insufficient express consideration of the specific hardship that the respondent would face if the amendment was allowed. The application had been made at a relatively early stage in the proceedings, prior to the preliminary hearing for case management. The respondent would necessarily have to put forward evidence about the reason for the claimant being subject to the disciplinary process, dismissed and his appeal failing, although the amendment might require greater consideration of the comparators advanced by the claimant. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge focused on the fact that the claimant could have brought complaints of direct race or religious discrimination and/or harassment when he first submitted his claim. That will often be the case. If parties always set out all the possible claims in their initial pleading there would rarely be a need to amend, save where new information has come to light. I struggle to see why the employment judge considered this factor of such great significance, although I accept it was a factor he could have taken into account had the overall balancing exercise been conducted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second ground of appeal is that the employment judge erred in concluding that the application to amend did not involve &#8220;re-labelling&#8221;. The employment judge concluded that the application to amend did not amount to relabelling because the &#8220;types of complaint&#8221; were &#8220;different to those originally pleaded&#8221;. With respect to the employment judge, that is the nature of relabelling. Relabelling generally involves seeking to amend to assert a new cause of action resulting from the factual allegations that have already been pleaded. I conclude that ground 2 is made out.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The third ground of appeal is that the employment judge erred in his approach to time limits. The judge appears to have concluded that most of the proposed amendment asserted acts that had occurred before the claimant&#8217;s dismissal. I consider that correctly analysed the application to amend was predominantly about the disciplinary process, dismissal and appeal. The employment judge should have considered whether the disciplinary process could constitute a continuing act with the dismissal:  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Hale v Brighton and Sussex University Hospitals NHS Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0342/16/LA [33-44]. The erroneous decision that the application to amend did not constitute relabelling also had knock on effects for the time point because as Underhill LJ noted in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Abercrombie v Aga Rangemaster Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1148" uk:canonical="[2013] EWCA Civ 1148" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1148</ref>, <ref href="#" uk:canonical="[2014] ICR 209" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] ICR 209</ref>, where an application to amend involves relabelling, time issues are of less significance:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the approach of both the Employment Appeal Tribunal and this court in considering applications to amend which arguably raise new causes of action has been to focus not on questions of formal classification but on the extent to which the new pleading is likely to involve substantially different areas of inquiry than the old: the greater the difference between the factual and legal issues raised by the new claim and by the old, the less likely it is that it will be permitted. It is thus well recognised that in cases where the effect of a proposed amendment is simply to put a different legal label on facts which are already pleaded permission will normally be granted [48] &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Where the new claim is wholly different from the claim originally pleaded the claimant should not, absent perhaps some very special circumstances, be permitted to circumvent the statutory time limits by introducing it by way of amendment. But where it is closely connected with the claim originally pleaded&#8212;and a fortiori in a re-labelling case&#8212;justice does not require the same approach: NB that in High Court proceedings amendments to introduce &#8220;new claims&#8221; out of time are permissible where &#8220;the new cause of action arises out of the same facts or substantially the same facts as are already in issue&#8221; ( <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/35/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 35(5)</ref> ).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Accordingly, I also uphold ground 3.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The parties agreed, and I concur, that the matter should be remitted to the employment tribunal for determination of the application to amend by a different employment judge. The claimant may wish to consider producing a clearer and rather more focussed version of the application to amend for consideration on remission.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The appellate courts have repeatedly warned against using the factors referred to in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> as a checklist, but they often are, possibly because amendment applications are regularly considered as part of lengthy case management hearings under considerable time pressure, and having an analytical structure is thought to be beneficial. In case some judges might find a checklist helpful when considering applications to amend a claim form, one could do worse than: 1) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">identify the amendment or amendments</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> sought, which should be in writing 2) in express terms, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">balance the injustice and/or hardship of allowing or refusing the amendment or amendments</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, taking account of all the relevant factors, including, to the extent appropriate, those referred to in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Selkent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">There is, of course, no requirement that such a check list be used. Some may feel that it is stating the obvious; but it might be a helpful reminder when dealing with an application to amend as part of a busy preliminary hearing for case management.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

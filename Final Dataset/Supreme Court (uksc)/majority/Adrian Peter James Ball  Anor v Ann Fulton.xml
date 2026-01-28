@@ -1,0 +1,372 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/135"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2025/135"/>
+	  <FRBRdate date="2025-04-24" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="135"/>
+	  <FRBRname value="Adrian Peter James Ball &amp; Anor v Ann Fulton"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/135"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/135"/>
+	  <FRBRdate date="2025-04-24" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/135/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2025/135/data.xml"/>
+	  <FRBRdate date="2025-04-28T13:59:47" name="transform"/>
+	  <FRBRdate date="2025-07-19T20:07:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>135</uk:number>
+	<uk:cite>[2025] UKUT 135 (LC)</uk:cite>
+	<uk:parser>0.26.20</uk:parser>
+	<uk:hash>1de26d982c33cd8d770a4a1e58594b262c8c796d35cb726d2c4bed0e580c9f5f</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Paranumbering { margin-left: 0in; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; font-size: 11pt; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .cofootnotenode { }
+#judgment .ParanumberingChar { font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.png" style="width:92.95pt;height:59.95pt"/></p>
+      <p><span style="font-weight:bold;font-size:11pt">Neutral Citation Number: </span><neutralCitation style="font-weight:bold;font-size:11pt">[2025] UKUT 135 (LC)</neutralCitation><span style="font-weight:bold;font-size:11pt"/></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-size:11pt">Case No: LC-2024-562</span></p>
+      <p><courtType refersTo="#ukut-lc" style="font-weight:bold;font-size:11pt">IN THE UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p><span style="font-weight:bold;font-size:11pt">AN APPLICATION UNDER SECTION 84 OF THE LAW OF PROPERTY ACT 1925</span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold;font-size:11pt">24 April 2025</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold;font-size:11pt">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p><span style="font-style:italic;font-weight:bold;font-size:11pt">RESTRICTIVE COVENANTS &#8211; OBSOLETENESS &#8211; preliminary issue &#8211; whether covenant personal to original covenantee - construction</span></p>
+      <p><span style="font-weight:bold;font-size:11pt">BETWEEN:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">   ADRIAN PETER JAMES BALL (1)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">NICOLA FRANCES ELIZABETH BALL (2)</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-size:11pt">Applicants</span></p>
+      <p><span style="font-weight:bold;font-size:11pt">                                                                                   -and-</span></p>
+      <p style="text-align:center;margin-left:0.88in;text-indent:-0.88in"><span style="font-weight:bold;text-transform:uppercase;font-size:11pt">  ann fulton</span></p>
+      <p style="text-align:right;text-indent:-0.88in"><span style="font-weight:bold;font-size:11pt">                                                                                                                       Objector</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">   23a Park Avenue South,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Harpenden,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Hertfordshire,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">AL5 2DZ</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt"> Upper Tribunal Judge Elizabeth Cooke</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:11pt">Determination on written representations</span></p>
+      <p><span style="font-size:11pt">Taylor Walton LLP, solicitors, for the applicants</span></p>
+      <p><span style="font-size:11pt">Mr Andrew Francis for the objector, instructed by IBB Law, solicitors</span></p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold;font-size:11pt">&#169; CROWN COPYRIGHT 2025</span></p>
+      <p><span style="font-size:11pt">The following cases were referred to in this decision:</span></p>
+      <p><span style="font-style:italic">Arnold v Britton </span>[2015] UKSC 36</p>
+      <p><span style="font-style:italic">Churchill v Temple </span>[2010] EWHC 3369 (Ch) </p>
+      <p><span style="font-style:italic">Cook v Broad </span>[2014] UKUT 528 (LC)</p>
+      <p><span style="font-style:italic">Crest Nicholson (South) Limited v McAllister </span>[2002] EWHC 2443 and [2004] EWCA Civ 410</p>
+      <p><span style="font-style:italic">Mahon v Sims</span>[2005] 3 EGLR 67</p>
+      <p><span style="font-style:italic">Savage v 60 Kent Road (Maintenance) Limited </span>[2021] UKUT 102 (LC)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr and Mrs Ball have applied for the discharge, or alternatively the modification, of a covenant that burdens their land. Mrs Fulton, their next-door neighbour, objects. This is the Tribunal&#8217;s determination, on the basis of the parties&#8217; written representations, of a preliminary issue, namely whether the covenant was personal to the original covenantee and is therefore now obsolete. The applicants have been represented by their solicitors, Taylor Walton LLP; written representations on behalf of the objector were written by Mr Andrew Francis of counsel.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold">Background: the property and the covenant</span></heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The applicants are the registered proprietors of 23a, Park Avenue South, in Harpenden. It became a separate title as a result of a conveyance dated 14 September 1962 whereby Mr Edward Warfield of 23, Park Avenue South sold part of his land to Kenneth and Nerys Munro thus creating number 23a. The land was labelled &#8220;Building Plot&#8221; on the plan. The opening words of the conveyance stated that Mr Warfield was &#8220;hereinafter called &#8216;the Vendor&#8217;&#8221; and that Mr and Mrs Munro were &#8220;hereinafter called &#8216;the Purchasers&#8217;&#8221;. As is usual on a sale of part the conveyance contained a number of covenants on the part of the purchasers; clause 3 of the conveyance reads as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in">&#8220;The Purchasers hereby jointly and severally covenant with the Vendor for themselves their successors in title owners or occupiers for the time being of the land hereby conveyed and for the benefit and protection of the Vendors adjoining property &#8230; so as to bind so far as may be the land conveyed into whosesoever hands the same may come at all times to observe and perform the following restrictions stipulations and conditions namely:-&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">There follow six numbered sub-clauses. Number 1 reads:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in">&#8220;No building or other erection shall at any time be constructed upon the land hereby conveyed or any part thereof except one single private dwellinghouse in one occupation with or without garage summer house and usual or reasonable outbuildings.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Sub-clause 2 prevents the carrying out of trade or business on the land, 3 prevents the stationing of a caravan on the land, 4 is a fencing covenant and an obligation to stop up a pipe running across the line, and 5 is a covenant to maintain and repair pipes marked on the plan, to pay the &#8220;meter rent&#8221; and to indemnify the Vendor and his successors in title in respect of those obligations. Thus two of the six are positive, not restrictive covenants. Only the final sub-clause 6 is the subject of the application:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in">&#8220;Not to erect on the land hereby conveyed any building other than a dwellinghouse which shall be a detached house of a general design and constructed of such types of materials and according to such plans and general specification as shall be submitted to and receive the reasonable approval of the Vendor such approval to be obtained before the building of any house on the land is commenced No windows except small windows fitted with opaque glass for a bathroom toilet or garage shall be constructed in any new building to be erected on the land hereby conveyed so as to overlook the Vendor's remaining property known as &#8220;Cox's&#8221; or the property to the north west side of the land hereby conveyed Any such small windows so permitted as aforesaid shall be so designed that the opening section of such windows are hinged at the top and open outwards for a few degrees only to the intent that they are so designed that they cannot be opened to give a view over the adjoining property of the Vendor on the south east side or the existing property on the north west side.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The covenants in clause 3 were expressly made by Mr and Mrs Munro &#8220;for themselves their successors in title owners or occupiers for the time being of the land hereby conveyed&#8221;. The only references to the Vendor&#8217;s successors in title are in clause 3(5), where the indemnity is given to the Vendor and his successors, and in clause 4 where the Vendor &#8220;for himself and his successors in title&#8221; covenants to produce deeds (as is usual on a sale of part of unregistered land).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The objector, Mrs Fulton, is the registered proprietor of 23 Park Avenue South and the successor in title to the Vendor in the 1962 conveyance; number 23 is to the south-east of 23a. The reference in the text of the covenant at sub-clause 6 to the property to the north-west of the land conveyed is to 25 Park Avenue South; notice of the applicants&#8217; application was served on number 25 but no notice of objection was received, and there is nothing in the 1962 conveyance to indicate that number 25 is entitled to enforce the  covenant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The application is for the covenant at sub-clause 6, which I will call the &#8220;approval covenant&#8221;, to be discharged under grounds (a), (aa), (b) and/or (c) of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/84/1" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 84" uk:origin="TNA" uk:type="legislation">section 84(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref>, alternatively for it to be modified under grounds (aa), (b) or (c). The applicants accept that the objector is the successor in title to the vendor&#8217;s land and so is entitled to the benefit of the covenants insofar as they still bind the land, but they argue that the approval covenant was personal to the 1962 vendor, Mr Warfield, and that therefore after his death the covenant can be discharged on ground (a) because it is obsolete.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold">The legal background: the discharge of obsolete covenants</span></heading>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/84/1" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 84" uk:origin="TNA" uk:type="legislation">Section 84(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref> gives the Tribunal jurisdiction to discharge or modify a restrictive covenant affecting freehold land, in whole or in part, if it is satisfied that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.25in">that by reason of changes in the character of the property or the neighbourhood or other circumstances of the case which&#160;the&#160;Upper Tribunal&#160;may deem material, the restriction ought to be deemed obsolete&#8230;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">It is well-established that a restriction is obsolete if its purpose can no longer be achieved; and that where a personal covenant can no longer be complied with because the person to whom it was given is dead &#8211; or, in the case of a company, no longer exists &#8211; then the Tribunal will discharge the covenant on the basis that it is obsolete. <span style="font-style:italic">Savage v 60 Kent Road (Maintenance) Limited </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2021/102" uk:canonical="[2021] UKUT 102 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 102 (LC)</ref> is a straightforward example.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold">The applicant&#8217;s case on the preliminary issue</span></heading>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Warfield died in 1992. The applicants say that the approval covenant is not an absolute prohibition on a par with those in clauses 3(1), (2) and (3); it did not prevent the purchaser from building a house on the plot sold, but it required the submission of plans to Mr Warfield for approval before the purchaser started building on the plot. The approval covenant related only to the building of a house on the site; there was no covenant prohibiting or giving the vendor control over alterations to that building. The point was simply to ensure that the house to be built on the plot was approved by Mr Warfield himself, and there was no provision for him or his successors to be able to control or prevent subsequent development. The applicants rely on <span style="font-style:italic">Crest Nicholson (South) Limited v McAllister </span>[2002] EWHC 2443 (appealed at <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2004/410" uk:canonical="[2004] EWCA Civ 410" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] EWCA Civ 410</ref> but not on this point), on <span style="font-style:italic">Churchill v Temple </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2010/3369" uk:canonical="[2010] EWHC 3369 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWHC 3369 (Ch)</ref>, <span style="font-style:italic">Cook v Broad </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2014/528" uk:canonical="[2014] UKUT 528 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 528 (LC)</ref> and on <span style="font-style:italic">Savage v 60 Kent Road </span>(paragraph 8 above).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The applicants have not said that they have a particular development in mind but seek to have the approval covenant discharged, on the ground that it is obsolete, or modified so as to impose requirements about the windows but deleting the requirement for approval.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold">The objector&#8217;s arguments</span></heading>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">In response, it is argued for the objector that the purpose of the approval covenant was to enable the owner for the time being of number 23 to object to the building of any replacement house at the property; she is concerned that a future building at 23a could be designed or sited in such a way as to deprive her property of practical benefits or could diminish its value, and so objects to the discharge or modification of the covenant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">In his written submissions in relation to the preliminary issue Mr Francis reminded the Tribunal of the principles of construction set out by the Supreme Court in <span style="font-style:italic">Arnold v Britton </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/36" uk:canonical="[2015] UKSC 36" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 36</ref>. He asked the Tribunal to be mindful of the need to take care with the authorities and not to assume that what a term such as &#8220;the Vendor&#8221; has been held to mean in the context of one case will be what it means in this case and in the 1962 conveyance in particular.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Francis divided the approval covenant in question into two parts, the first part being the words emboldened below:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in">&#8220;<span style="font-weight:bold">Not to erect on the land hereby conveyed any building other than a dwellinghouse which shall be a detached house of a general design and constructed of such types of materials and according to such plans and general specification as shall be submitted to and receive the reasonable approval of the Vendor such approval to be obtained before the building of any house on the land is commenced</span> No windows except small windows fitted with opaque glass for a bathroom toilet or garage shall be constructed in any new building to be erected on the land hereby conveyed so as to overlook the Vendor's remaining property known as &#8220;Cox's&#8221; or the property to the north west side of the land hereby conveyed Any such small windows so permitted as aforesaid shall be so designed that the opening section of such windows are hinged at the top and open outwards for a few degrees only to the intent that they are so designed that they cannot be opened to give a view over the adjoining property of the Vendor on the south east side or the existing property on the north west side.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">As to the first part, Mr Francis argued that a number of &#8220;pointers&#8221; indicate that the term &#8220;the Vendor&#8221; should be taken to include Mr Warfield&#8217;s successors in title. The first was that the land in question was quite small (about 1800 square metres) and immediately adjoined the Vendor&#8217;s land. The shape of the plot, and the way the rest of the houses in the road were built, meant that the house to be built there would probably be close to the Vendor&#8217;s house (as indeed it was). The covenants in sub-clauses (1) to (3) were absolute and designed to protect the amenity and value of the Vendor&#8217;s land. The requirements in sub-clause (6) were detailed, requiring the submission for approval not only of plans and elevations but also of materials and &#8220;general specification&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Francis then turned to the second part of the approval covenant (the words not emboldened at paragraph 14 above), which he called &#8220;the unqualified part&#8221; of the covenant. He argued that it is an integral part of the first part, because to obtain approval under the first part there would have to be compliance with the second part; without that compliance the Vendor could reasonably withhold his approval.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Mr Francis argued that the failure of the 1962 conveyance to make any provision for what was to happen if Mr Warfield died indicated that his successors were to retain the benefit of this covenant. If it was personal to him, and he died before the new house was built, a purchaser would have no control over that development. Further, if the approval covenant was personal to him then he and his successors in title would have no control over the building of a second property if the first were to be destroyed. The covenant cannot have been intended as a short term and &#8220;one off&#8221; restriction. Bearing those points in mind, commercial common sense points to the construction of the approval covenant as benefiting successors in title.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Turning to the authorities, again Mr Francis stressed the need to consider this case on its own facts and that authority should be regarded only as a guide. He pointed out that the 1962 conveyance was not part of the creation of a building estate where the power to consent has to be vested in one individual &#8211; often a company, later dissolved as in <span style="font-style:italic">Crest Nicholson</span>  &#8211; so as to avoid contradiction and confusion; by contrast, the successor in title to the Vendor in this case is easy to identify. He distinguished both <span style="font-style:italic">Churchill v Temple</span> and <span style="font-style:italic">Savage v 60 Kent Road </span>on the basis that in both those cases the relevant wording was different, requiring consent from the Vendor or his surveyor. He referred to <span style="font-style:italic">Mahon v Sims </span><ref href="#" uk:canonical="[2005] 3 EGLR 67" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 3 EGLR 67</ref> where the expression &#8220;the Transferor&#8221; was construed to mean the successor in title to the original covenantee in circumstances where the latter was still alive and willing to give consent but had parted with the property.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold">Discussion and conclusion</span></heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">It is important to start from the plain words of the approval covenant and to give them their natural meaning. The person whose approval is required is &#8220;the Vendor&#8221; and there is no reference to successors in title. Should the covenant nevertheless be construed so as to confer that power of approval also on those successors in circumstances where the Vendor has parted with possession of the property or has died? In the authorities cited by the applicants the courts and the Tribunal have usually regarded wording of this kind, whether referring to &#8220;the Vendor&#8221; only or also to the Vendor&#8217;s surveyor&#8221;, as creating a personal obligation. A different conclusion was reached in <span style="font-style:italic">Mahon v Sims</span>, where the transferor had parted with the property. I bear in mind that the 1962 conveyance must be read in its own context and on its own facts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">I am not persuaded that the size or layout of the plot should lead me to conclude that the term &#8220;the Vendor&#8221; here includes successors in title. Three noticeable omissions from the conveyance do persuade me that the word is not to be expanded in this way, and that the conclusion I should reach is different from that reached in <span style="font-style:italic">Mahon v Sims</span>. One is the failure to make provision for the approval of extensions or alterations, any of which could (subject to planning permission) radically change the nature of the property and cause loss of privacy, loss of amenity or diminution in value. The idea was to give the vendor control over the first building on the plot, which was intended to be built soon after the date of the conveyance and would therefore affect Mr Warfield personally, not to extend control into the distant future. Another is the failure to make provision for the Vendor&#8217;s death. I agree that the approval covenant would be rendered useless if Mr Warfield died before the new building took place, but that again points, in my judgment, to the same conclusion; Mr Warfield was making provision for an event that was going to affect him personally and was anticipated to be about to happen soon, namely the building of the first property. He made provision in sub-clauses (1) to (3) for restrictions that were going to last for the benefit of his successors in the form of absolute prohibitions; he made provision in sub-clauses (4) and (5) for positive obligations which would endure only between himself and the purchaser, and finally in sub-clause (6) he created another personal obligation which would control just one event, the building of the new house on the plot.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Finally, the omission in the approval covenant to refer to the Vendor&#8217;s successors in title is particularly telling because in this conveyance successors were expressly mentioned where they were intended to be included; see paragraph 5 above. Had the power of approval been intended to be transmitted to successors in title the conveyance would have said so.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">I agree with the parties that the second part of the covenant, the words not emboldened in paragraph 14 above, is part and parcel of the first part; it defines particular circumstances in which consent will not be given. It is important that the approval of the Vendor was to be &#8220;reasonable&#8221; &#8211; he had no absolute right to withhold approval. He therefore protected himself by setting out his &#8220;bottom line&#8221; in the covenant itself. The second part of sub-clause (6) cannot be read as a stand-alone absolute covenant; if it had been it would have been expressed as a separate sub-clause (and would probably have followed the other restrictive covenants in sub-clauses (1) to (3)).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-weight:bold">Conclusion</span></heading>
+	  <paragraph eId="para_23">
+	    <num style="font-weight:bold">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">The covenant at sub-clause (6) of the 1962 conveyance was personal to the 1962 Vendor, Mr Warfield. It can therefore be discharged because it is obsolete, within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20/section/84/1" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20 s. 84" uk:origin="TNA" uk:type="legislation">section 84(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo5/15-16/20" uk:canonical="1925 (15 &amp; 16 Geo. 5) c. 20" uk:origin="TNA" uk:type="legislation">Law of Property Act 1925</ref> absolute, and the Tribunal will make an order so doing.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_7_1">
+	    <content>
+	      <p style="text-align:right"><span style="font-weight:bold"/>Upper Tribunal Judge Elizabeth Cooke</p>
+	    </content>
+	  </level>
+	  <level eId="lvl_7_2">
+	    <content>
+	      <p style="text-align:right"><docDate date="2025-04-24" refersTo="#decision">24 April 2025</docDate></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-weight:bold">Right of appeal&#160; </span></p>
+	    <p>Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

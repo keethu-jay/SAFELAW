@@ -1,0 +1,929 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/193"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/193"/>
+	  <FRBRdate date="2022-12-30" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="193"/>
+	  <FRBRname value="Dr Vivienne Lyfar-Ciss&#233; v Western Sussex University Hospitals NHS Foundation Trust &amp; Ors."/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/193"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/193"/>
+	  <FRBRdate date="2022-12-30" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/193/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/193/data.xml"/>
+	  <FRBRdate date="2024-11-09T06:30:46" name="transform"/>
+	  <FRBRdate date="2024-11-20T23:06:13" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-12-30" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-the-hon-mr-justice-bourne" href="/judge-the-hon-mr-justice-bourne" showAs="THE HON. MR JUSTICE BOURNE"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>193</uk:number>
+	<uk:cite>[2022] EAT 193</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>ba1ff2c9e023ec74b812df478c35ccc3511900ce8081815a524d25a226ac10b9</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Revision { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:8pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:8pt">Lyfar-Ciss&#233; v Western Sussex University Hospitals NHS Foundation Trust &amp; Ors</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2022] EAT 193</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2019-000399-JOJ</docketNumber><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000"> &amp; </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2022-000380-JOJ</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2022-12-30" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">30 December 2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-the-hon-mr-justice-bourne" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HON. MR JUSTICE BOURNE</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MRS RACHAEL WHEELDON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MR ANDREW MORRIS</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">DR VIVIENNE LYFAR-CISS&#201;</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- v -</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">1)</num>
+	<p style="text-indent:0.5in"><span style="font-weight:bold;font-size:12pt">WESTERN SUSSEX UNIVERSITY HOSPITALS NHS FOUNDATION TRUST</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">2)</num>
+	<p style="text-align:center;text-indent:0.5in"><span style="font-weight:bold;font-size:12pt">BRIGHTON &amp; SUSSEX UNIVERSITY HOSPITALS NHS TRUST</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">3)</num>
+	<p style="text-align:center;text-indent:0.5in"><span style="font-weight:bold;font-size:12pt">MS MARIANNE GRIFFITHS</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-size:12pt">4)</num>
+	<p style="text-align:center;text-indent:0.5in"><span style="font-weight:bold;font-size:12pt">MS EVELYN BARKER</span></p>
+      </blockContainer>
+      <p style="text-align:center"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondents</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Dr Jean Vivienne Lyfar-Ciss&#233;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> (acting in person) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Thomas Kibling </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Cater Leydon Millard</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondents</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing dates: 3</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">rd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> and 4</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> November 2022</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Unfair Dismissal, Victimisation, &amp; Whistleblowing, Protected Disclosures</span></p>
+	    <p>Where the employer had dismissed the Claimant after re-opening previously a concluded disciplinary process which had led to a final written warning, the Employment Tribunal was right to find that the reason for dismissal could be characterised as either conduct or Some Other Substantial Reason, and that the essential question was that posed by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">ERA 1996</ref> of whether the dismissal was fair in all the circumstances. In so deciding, it did not fail to deal with the complaint that the employer had failed to apply its own disciplinary policy. </p>
+	    <p>The Employment Tribunal&#8217;s finding that protected acts or protected disclosures were not the reason why the employer treated the Claimant as it did was not undermined by a failure to deal expressly with one contention that managers in a comparable situation but without a history of protected acts or protected disclosures had been treated more favourably. </p>
+	    <p>Although there were some factual inaccuracies or errors of expression in a further decision of the Employment Tribunal on reconsideration, new evidence adduced on the reconsideration was not capable of supporting the Claimant&#8217;s case and the decision to refuse reconsideration was correct.</p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HONOURABLE MR JUSTICE BOURNE:</span></p>
+	    <p><span style="font-weight:bold">Introduction and factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant appeals against a decision of London South ET, sent to the parties on 13 March 2019, dismissing her claims of unfair dismissal, automatically unfair dismissal by reason of victimisation and detriments for making protected disclosures. She has permission to pursue 4 grounds of appeal, numbered 4-7. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The appeal was stayed to enable the ET to consider new evidence in a reconsideration hearing, but on 25 February 2022 the ET dismissed the application for reconsideration. The Appellant also appeals against that decision, with permission of the EAT, and the stay on her first appeal has been lifted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We have sought to state the key facts, as found by the ET, in a reasonably concise summary which is not intended to be comprehensive. And, we have addressed those issues which are necessary to resolve this appeal. That means that we do not comment on every one of the many points which were discussed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">From 1985 until her dismissal with effect from 27 September 2017, the Appellant was employed by the Second Respondent (&#8220;R2&#8221;). R2 is a NHS Trust running two principal hospitals, in Brighton and Hayward&#8217;s Heath. The Appellant is a clinical biochemist. In October 2014 she became R2&#8217;s Associate Director of Transformation. She has held a number of positions with responsibilities for improving race equality for employees and NHS service users. She was also the Chair of the R2&#8217;s BME Network, whose role she described as &#8220;the promotion of good race relations and the elimination of racial discrimination for employees and health service users&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant made a number of protected disclosures from 2008 onwards. Between 2004 and 2017 she presented five claims against R2 to the ET, one of which was still in progress at the time of the substantive hearing in this case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In 2016 the Appellant was the subject of disciplinary proceedings. These were based on a total of 19 allegations. Some 17 of these came from two different individuals, and the other two concerned a failure to participate in an investigation conducted by Henrietta Hill QC (as she then was). The outcome was set out in a letter from Rachel Cashman, Director of Strategy and Commercial Development, dated 11 November 2016. Ms Cashman upheld (1) three allegations made by a Ms B, of breaching confidentiality, bullying and victimising her by seeking to interfere with the investigation of a grievance brought by her about alleged discrimination on grounds of sexual orientation, (2) an allegation that the Appellant discriminated against a Mr W by making a negative remark about him because he is white and acting in a way amounting to harassment relating to his race; and (3) an allegation that the Appellant failed to comply with a reasonable instruction to participate in the investigation of Ms Hill QC. A final written warning was issued, valid for 12 months. An appeal was rejected on 4 January 2017. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Meanwhile, in April 2016 R2 was inspected by the Care Quality Commission (&#8220;CQC&#8221;) which had concerns about its ability to provide safe, effective, responsive and well led care. In a report dated 17 August 2016, the overall finding was that R2 was &#8220;inadequate&#8221;, and it was rated as inadequate in the area of leadership. The CQC&#8217;s report referred to bullying, harassment and discrimination being &#8220;rife in the organisation&#8221; and found that BME staff felt there was a &#8220;culture of fear&#8221;. It also referred to a &#8220;fractured and damaged approach to equality and diversity&#8221; and to the need for &#8220;cultural change&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Following the CQC report, NHS Improvement placed R2 in Special Measures. Discussions took place between R2 and the First Respondent (&#8220;R1&#8221;) for R1&#8217;s executive team to take over at R2 on a long-term basis and for it to support R2 in the interim. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">One of the individuals who had made the complaints which were upheld against the Appellant, &#8220;Ms B&#8221;, had been seconded to work elsewhere in the NHS. On 23 February 2017 she sent an email to R2&#8217;s HR director, expressing shock that the Appellant was &#8220;back in her role of race equality lead&#8221;. A further and similar email on 2 March 2017 was copied to Evelyn Barker, who had become interim CEO of R2 on 23 January 2017. Eventually Mrs Barker met Ms B on 29 March 2017. Ms B told her about the outcome of her complaint and said that she was very upset that the Appellant was still in a leadership position. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">On 1 April 2017, R1 took over the management of R2 and Mrs Barker became R2&#8217;s Managing Director. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mrs Barker then saw the disciplinary and appeal outcome letters relating to the Appellant. On 21 April 2017 she emailed these to Marianne Griffiths, the CEO of R1 who, since 1 April, had been CEO of R2 as well. In her email Mrs Barker referred to the CQC&#8217;s findings relating to the leadership of R2 and noted that the findings against the Appellant called into question &#8220;her ability to have a leadership role on equality issues&#8221; and whether &#8220;there are fit and proper person issues that we are required to address&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The last words appear to be a reference to regulation 5 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/14" uk:canonical="2008 c. 14" uk:origin="TNA" uk:type="legislation">Health and Social Care Act 2008</ref> (Regulated Activities) Regulations 2014 (&#8220;regulation 5&#8221;). Regulation 5 provides that any individual who is a director or who performs the functions of a director of a relevant service provider, must at all times satisfy a number of requirements, which for present purposes can loosely be summarised as requiring directors to be fit and proper persons. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mrs Griffiths forwarded the email to Dr George Findlay, the Chief Medical Officer and Deputy CEO of R1 and, from 1 April 2017, also of R2, and suggested he meet with the Appellant to discuss the matter. Dr Findlay wrote to the Appellant on 25 April 2017 to request the meeting, to discuss whether it was &#8220;tenable for you to continue in your current role with responsibility for providing leadership on important equality issues&#8221; and to consider the fit and proper person requirement under the 2014 Regulations. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The meeting between the Appellant and Dr Findlay took place on 16 May 2017. The Appellant was accompanied by a trade union representative, Mr Valle. Dr Findlay produced a report dated 24 May 2017. He summarised the position taken by the Appellant at the meeting, in particular that she denied the conduct which had been alleged against her and considered that she was being victimised. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">As a result of the report, Mrs Griffiths invited the Appellant to a further meeting which took place on 14 June 2017. Her letter stated that Dr Findlay would attend to present his report, that the Appellant could ask questions of him, comment on the report, state and argue her own case, call witnesses, present written evidence and be accompanied by a trade union representative or colleague who could make representations and ask questions on her behalf. The Appellant was in fact represented again by Mr Valle. Mrs Griffiths stated that at that meeting she found the Appellant to be &#8220;defiant and combative&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The outcome of the meeting was notified to the Appellant in a letter dated 28 June 2017. Mrs Griffiths concluded that the Appellant&#8217;s role fell within the scope of regulation 5. She also found that the Appellant&#8217;s ability to perform her leadership role was &#8220;fatally undermined by having been found to have acted in the way you have&#8221;. She had therefore decided to terminate the Appellant&#8217;s employment as Associate Director of Transformation with three months&#8217; notice. The Appellant would be eligible for redeployment although, in the event, she was not offered any alternative position. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant appealed on 17 July 2017. On 20 July 2017 she presented this claim. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The appeal hearing took place on 3 August 2017, chaired by Michael Viggers, who was Chairman of R1 and, from 1 April 2017, of R2 . The appeal was dismissed, and the decision was notified to the Appellant by a letter dated 11 August 2017. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">This claim was heard over 6 days by EJ Baron and two lay members (&#8220;the ET&#8221;). The ET saw a document bundle of about 2,000 pages. It convened for a further 3 days to deliberate before reaching its decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant alleged that her dismissal was unfair, and/or it was automatically unfair because the reason or principal reason for it was that she had made protected disclosures, and/or it was an act of victimisation under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>, and that she was caused other detriments by reason of having made protected disclosures, and that those detriments were also acts of victimisation. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="font-weight:bold">The ET&#8217;s decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">The ET decided: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The principal reason in the mind of Mrs Griffiths for the dismissal was her view that it was not appropriate for someone who had been found responsible for acts of victimisation, harassment, and discrimination to be the lead person in R2 responsible for race equality. Any alleged protected disclosures or protected acts were not material to the decision. The claim for automatic unfair dismissal therefore failed. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Mrs Barker, Dr Findlay, Mrs Griffiths and Mr Viggers genuinely believed that regulation 5 applied to the Appellant and that it would have applied to anyone else in her position. Any difference of view between the management of R1 and the earlier management of R2 as to the extent of the applicability of the Regulations was not relevant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The reason for dismissal could be categorised as either conduct or &#8220;some other substantial reason&#8221; (&#8220;SOSR&#8221;). The dismissal therefore was potentially fair under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">ERA 1996</ref>. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The process adopted by R2, as described above, was fair and reasonable. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The decision to dismiss was not predetermined. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">Dismissal was within the range of reasonable responses, having regard to the findings made by Ms Cashman, the Appellant&#8217;s particular role, the criticisms in the CQC report and the Appellant&#8217;s unwillingness to accept any responsibility at the meeting with Mrs Griffiths. The unfair dismissal claim was therefore dismissed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">R2&#8217;s interpretation of the 2014 Regulations (whether right or wrong) was not to any extent caused by the protected acts.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(8)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">No other detriment had anything to do with any protected disclosures or acts. The whistleblowing and discrimination claims therefore failed. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-weight:bold">The appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">The grounds of appeal which have permission to proceed can be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The ET erred by not sufficiently explaining its finding of SOSR, and in concluding that it did not matter whether the reason for dismissal was framed as conduct or SOSR, given the Appellant&#8217;s contention that the Respondent had impermissibly re-opened the disciplinary process which had been completed on 4 January 2017. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The ET erred in not finding that the Respondent, in deciding to dismiss, had impermissibly failed to apply its disciplinary policy. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The ET wrongly found that it was not put to Mrs Griffiths that it was because of the Appellant making protected acts and/or protected disclosures that she had decided that regulation 5 was applicable to her. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.61in">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The ET did not deal adequately with the contention that some managers employed by the same employer in similar circumstances but with no history of protected acts or protected disclosures had been treated more favourably and that the Appellant&#8217;s less favourable treatment amounted to victimisation. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">On 27 May 2021 the Appellant applied for reconsideration of the ET&#8217;s judgment. EJ Baron by this time had retired. The application was heard by EJ Balogun in place of EJ Baron, sitting with the same members as before. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The basis for the application was that new evidence had come to light. An article was published in the Health Service Journal on 8 July 2019. The relevant part read:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;But the session started with Marianne Griffiths, chief executive of both Western Sussex Hospitals Foundation Trust and Brighton and Sussex University Hospitals Trust, talking about the very difficult situation she had inherited at BSUH where relations with some of its BME workforce were very poor &#8211; she said she had not realised the extent of &#8216;the damage done&#8217; to the organisation. This had been longstanding and toxic, with what she described as &#8216;sticking plaster&#8217; solutions in place and had led to a number of employment tribunal cases. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">When Ms Griffiths was appointed nearly three years ago, she decided to address the issues and asked Yvonne Coghill, director of implementation for the Workforce Racial Equality Standard, for assistance. She found there were issues which were not being addressed around inequalities but there was almost an &#8216;extremist, very anti-organisational&#8217; BME structure which excluded anyone who was LGBT and did not really like anyone who was not Christian. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">But there was also a need to lead from the front: the trust had to do some &#8216;brave things&#8217; which led to employment tribunals but was a signal to the organisation that they were taking the issues seriously. She set up a board-led network structure &#8211; not just for BME staff but also those who were LGBT&#8230; .&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant contended that the reference in the first paragraph to &#8220;a number of employment tribunal cases&#8221; was a reference to her own case. She relied on written submissions made by the Respondent&#8217;s counsel, Mr Thomas Kibling, when he was also instructed in an ET claim for victimisation brought by another employee of R2. In those submissions he said that this was a reference to the Appellant&#8217;s case. She submitted also that the reference to &#8220;&#8217;brave things&#8217; which led to employment tribunals&#8221; must be a reference to the decision to dismiss her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Tribunal decided that (1) this material was not new evidence but (2) even if it was, it would not have had an important influence on the outcome of the original proceedings. The ET&#8217;s original finding, that protected acts were not material to R2&#8217;s decision to dismiss, was not undermined by the article, which was &#8220;more consistent with the reason for dismissal found by the Tribunal than the alternative proposition being put forward by the Appellant&#8221;. Therefore the reconsideration application was dismissed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Permission has been granted for the Appellant to pursue an appeal on the ground that the article supports her case that Mrs Griffiths did take her previous employment claims into consideration when addressing the &#8220;very difficult situation&#8221; which the article described her as inheriting, and deciding to dismiss her, and contradicts the ET&#8217;s finding that the matter had not been predetermined. The Appellant contends that it was perverse not to allow the reconsideration. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p><span style="font-weight:bold">Grounds 4 and 5</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Both of these grounds are essentially founded on the fact that, after the 2016 disciplinary proceedings had been disposed of by way of a written warning, and the appeal was dismissed on 4 January 2017, R2 then in effect re-opened the case and dismissed the Appellant from her post because of the same matters. This, she argues, was contrary to R2&#8217;s disciplinary policy which states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;No disciplinary action relating to conduct including the issuing of a formal oral warning may be undertaken outside of this disciplinary policy and procedure.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant has represented herself on these appeals. We have the benefit of her skeleton arguments which, though rather long, are clearly and forcefully expressed. She also made well organised and eloquent submissions at the hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In relation to grounds 4 and 5, the Appellant asserts that Ms Cashman had regard to all relevant matters, including the CQC&#8217;s report, during the disciplinary process. In particular Ms Cashman referred to the fact that she held a leadership position when dealing with the disciplinary complaint. She points to references in the decision letter to her being &#8220;a senior manager&#8221; and to her post as &#8220;Associate Director, a leadership position&#8221;. Ms Cashman also had express regard to mitigating factors, and these led her to the view that a final written warning was sufficient sanction. The Appellant submits that there were no new developments post-dating Ms Cashman&#8217;s decision which could justify re-opening the disciplinary case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Her skeleton argument records that, when Dr Findlay was dealing with the matter in May 2017, the Appellant&#8217;s trade union representative argued that &#8220;re-opening the outcome of the &#8230; disciplinary proceedings &#8230; is inequitable and against natural justice&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant argues that the disciplinary findings against her were all dealt with and addressed by Ms Cashman and that all parties were bound by the decision to give her a final written warning, and therefore that the same matters could not amount to any substantial reason to justify dismissal. She contends that the ET failed to consider her submission that R2 effectively re-opened the disciplinary process against her. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In her skeleton argument the Appellant also seeks to show that the ET failed to have regard to her case in relation to Ms Cashman&#8217;s findings, including her findings of mitigating factors. That, however, does not assist us in relation to the present question which, ultimately, is whether the ET erred in concluding that it was open to R2 to dismiss the Appellant because it felt she could not credibly retain her role, when a disciplinary process had already found that a final written warning was an appropriate sanction for the same matters. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant has also referred to a Government review of regulation 5 conducted by Tom Quark QC in 2019. Mr Quark was told of NHS Trusts using the &#8220;fit and proper&#8221; test in order to have &#8220;another bite of the disciplinary cherry&#8221;. In this context he went on to quote the opinion of Mr Corrado Valle, who was the Appellant&#8217;s trade union representative to whom we have referred. It therefore sounds as if this may have been a reference to this case. Mr Quark&#8217;s conclusion was that there needed to be absolute clarity as to who was and was not covered by the regulation. That conclusion does not give us any further assistance in determining this appeal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant goes on to argue that the ET was wrong to find that her dismissal was unconnected with protected acts or protected disclosures. That point, however, has already been decided against her as a matter of fact. Even if we were to rule that, as a matter of employment law, it was not open to R2 to re-open the question of dismissal after the concluded disciplinary process, that in our view could not re-open the factual question of what motivated any of the Respondents to act as they did. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Similarly, we are not persuaded that the ET was wrong to find that this issue only concerned unfair dismissal. The Appellant also sets out a list of alleged detriments, but each of these was a step towards the dismissal. Grounds 4 and 5 therefore do not provide a route to resurrecting a claim based on victimisation by inflicting detriments short of dismissal. And even if that claim were revived, it could not succeed, because of the ET&#8217;s finding of fact as to the reason why the Respondents acted as they did.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Responding to the grounds of appeal, Mr Kibling emphasises that there was a &#8220;watershed moment&#8221; or fundamental change on 1 April 2017 when R1 took over the management of R2 and Mrs Griffiths and her colleagues, appointed to take over a failing NHS Trust, had to take difficult decisions. Mr Kibling reminded us that the ET,had the benefit of a lengthy hearing with all the evidence and submissions in the case, and of the well worn legal principles that an ET need not refer to every item of evidence relied on and every step in its reasoning and that its judgment should be read fairly and as a whole without being hypercritical. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">This case raises the difficult question of when it can be fair for an employer to re-open a concluded disciplinary process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mr Kibling in particular placed reliance on the decision of the Court of Appeal in <span style="font-style:italic">Christou v Haringey LBC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/178" uk:canonical="[2013] EWCA Civ 178" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 178</ref>, <ref href="#" uk:canonical="[2013] ICR 1007" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] ICR 1007</ref>. The claimants were social workers who had responsibility for a young child who was on the child protection register but who died in August 2007. They were given written warnings under the council&#8217;s simplified disciplinary procedure for failings in the handling of the case. In November 2008 the child&#8217;s mother and two other individuals were convicted of causing or allowing his death. The Secretary of State for Education commissioned a report on the council&#8217;s safeguarding and then directed a change of director of children&#8217;s services and further investigations. In 2009, fresh disciplinary proceedings were instituted against the claimants, who this time were summarily dismissed for gross misconduct. They brought claims of unfair dismissal, principally on the ground that they should not have been disciplined twice for the same matter. The ET by a majority rejected their claim and its decision was upheld by this Tribunal. Dismissing their further appeals, the Court of Appeal ruled that doctrines such as <span style="font-style:italic">res judicata </span>or abuse of process do not apply to employers&#8217; disciplinary procedures so as to bar a second disciplinary process. The question for an ET would be whether it was fair to institute the second process (though this was essentially the same question as whether doing so was an abuse of process). On the facts of the case, Elias LJ said at [63]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;The approach of the minority member, and her view that it was unfair to reopen the case, were set out at length in para 26 of the decision. These were powerful points but they were obviously considered by the majority not to be a sufficient basis for establishing unfairness. Paragraph 27 then gives the majority's view; it seems to me that the majority is there saying that the justification for reopening the case lay in the fact that the allegations of misconduct were very serious because they involved a risk to a member of the public, and that new management were entitled to take a different view about the gravity of the conduct. In my judgment this was a proper and sufficient basis for the majority's conclusion that the dismissals were fair notwithstanding that the double jeopardy principle was infringed.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">It is clear that re-opening a previously concluded disciplinary process is an unusual step which will always require a sufficient justification. However, the ultimate question for an ET in an unfair dismissal claim will always be the factual question posed by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref> of the ERA, of whether in all the circumstances the dismissal was fair or unfair. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in"><span style="font-style:italic">Christou</span> clearly was a case whose facts were sufficiently unusual to satisfy that test notwithstanding the re-opening of the disciplinary process, but it does not set down detailed guidance on how that test should be applied in other such cases and therefore does not greatly help in deciding whether such a re-opening is justified in any other case. For that reason we have not gone into more detail about the facts of <span style="font-style:italic">Christou</span>. The Appellant pointed out to us that there are significant differences between those facts and the facts of the present case. However, a factual comparison between these two different cases does not help in deciding the question of the fairness of the Appellant&#8217;s dismissal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In the present case, the ET gave what we find to be a correct summary of <span style="font-style:italic">Christou</span> and, correctly, noted that &#8220;the comment by Elias LJ &#8230; takes us back to the pure text of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref> unsullied by glosses on it&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">As to the relevant facts, the ET stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;138.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">The particular and unusual circumstances have been set out above. What Mrs Griffiths was faced with was a NHS Trust in special measures in respect of which the CQC had made an adverse finding that harassment and discrimination was rife. One of the individuals who had been found responsible of unlawful discrimination was the Claimant. It was she who held the very senior position of Associate Director of Transformation. As Mrs Griffiths put it in her witness statement, &#8216;hers was a leadership role related to race equality and it was not objectively credible or acceptable for her to lead on the important issue of race equality, which . . . has respect at its heart, having been found to have acted in a way that was discriminatory and lacking respect for colleagues on more than one occasion.&#8217; That comment was made by Mrs Griffiths after she had said that the Claimant was not prepared to engage with her.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>142.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">In our judgment it was within the range of reasonable responses for [R2], through Mrs Griffiths, to decide to dismiss the Claimant in the particular unusual circumstances of this case. Our conclusion is based upon the combination of the factual findings which were made by Ms Cashman, the particular role held by the Claimant the criticisms in the CQC report and the Claimant&#8217;s unwillingness to accept any responsibility at the meeting with Mrs Griffiths.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We do not consider that the ET asked itself the wrong question. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant criticises the ET for its application of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(1)</ref> and (2) of ERA. Those subsections provide:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">In determining for the purposes of this Part whether the dismissal of an employee is fair or unfair, it is for the employer to show&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">the reason (or, if more than one, the principal reason) for the dismissal, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">that it is either a reason falling within subsection (2) or some other substantial reason of a kind such as to justify the dismissal of an employee holding the position which the employee held.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">A reason falls within this subsection if it&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">relates to the capability or qualifications of the employee for performing work of the kind which he was employed by the employer to do,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">relates to the conduct of the employee,</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num>(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">is that the employee was redundant, or</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>(d)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">is that the employee could not continue to work in the position which he held without contravention (either on his part or on that of his employer) of a duty or restriction imposed by or under an enactment.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The ET held:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;131.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">In our view this matter can easily be argued either way, but the outcome is of no particular relevance. One way of looking at it is that in the widest sense the dismissal was related to the conduct of the Claimant (and therefore a reason within section 92(1)(b)) because of the findings made by Ms Cashman of unlawful conduct under the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>. Another more subtle concept is that the reason was the incompatibility of the Claimant&#8217;s role with the findings which had been made in the earlier disciplinary proceeding, that being SOSR. It was the latter which was urged on us by Mr Kibling. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num>132.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">We conclude that the dismissal can fall within either category.  Thus the dismissal was potentially fair. What is then important is to apply the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> &#8230; .&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">By ground 4, this is contended to be an error of law which was central to understanding the Appellant&#8217;s case. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We perceive no error in paragraphs 131-2. The ET recognised that the decision to dismiss was taken because R2 considered that it was not acceptable for the Appellant to continue in her role in light of the conduct identified by Ms Cashman, and that her continuing would offend against regulation 5. It therefore recognised that the reason for dismissal could be framed as &#8220;conduct&#8221;. It also observed that the &#8220;SOSR&#8221; description could apply as an alternative, and it correctly observed that on the facts of this case, that choice did not matter. What mattered was whether the dismissal was fair. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">This did not deprive the Appellant of a decision on the question of whether it was fair to re-open the disciplinary proceedings based on her conduct. The ET asked and answered precisely that question in paragraphs 138-142.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The ET&#8217;s answer was that dismissal was open to a reasonable employer, i.e. it was within the band of reasonable responses, taking into consideration the particular unusual circumstances. Of course that does not mean that every reasonable employer would have come to that view, or that the contrary view would be unreasonable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The question for this Tribunal is not whether we would have arrived at the same decision as the ET. Our task is to decide whether there was any error in that decision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We perceive no error. The ET directed itself correctly in law, applying the right test of fairness and having regard to the relevant authorities. Its reasons for upholding the employer&#8217;s decision were stated concisely but were entirely clear, identifying the combination of circumstances which made this an unusual case. We agree that the situation of an NHS Trust in special measures, where the CQC had found &#8220;&#8230; acceptance of poor behaviour &#8230;&#8221;, and where an individual who was race equality lead had been found to have engaged in racist abuse, and where management believed that regulation 5 imposed a &#8220;fit and proper&#8221; test on that individual (an issue which had not been before Ms Cashman) was very unusual. The employer had also explored the Appellant&#8217;s attitude to the case and discovered that, far from being open to changing her behaviour, she continued to deny that the misconduct had occurred. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In those circumstances, we consider that it was reasonable for the ET to conclude that it was open to the employer to take the view that it did, and to proceed as it did, following a careful and appropriate procedure, even if other employers might have concluded that it would not be reasonable to re-open a concluded disciplinary process. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Ground 5 puts the same or a closely related issue in a different way. The Appellant criticises the ET for saying at paragraph 135 that R2 obviously would not have had a policy to cover these unique circumstances. She contends that the Appellant&#8217;s disciplinary policy covered the circumstances, and that the re-opening of the disciplinary process was an unfair or unlawful departure from that policy which the ET did not consider. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We think it is clear from the passages referred to above that the ET entirely appreciated that the Appellant first faced a disciplinary process under the disciplinary policy and then had to face a second process which was not the subject of any policy. So although the ET did not summarise those developments in precisely those terms, we are confident that it did not misunderstand the facts. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Its task was then to apply <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98</ref> of ERA. It did so and, as we have said, it did so without error. It identified a potentially fair reason for dismissal, which could be framed as conduct or SOSR, and it then asked and answered the crucial question of whether in all the circumstances the employer acted reasonably. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">For all of these reasons, grounds 4 and 5 must be dismissed. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p><span style="font-weight:bold">Ground 6</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">At paragraph 149 of the judgment the ET found:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;What was not put to Mrs Griffiths was that the reason that she considered that regulation 5 applied was because of either or both of the carrying out of the protected acts, or the making of a protected disclosure.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">By ground 6 the Appellant contends that the ET was simply wrong and that the point was put to Mrs Griffiths. Granting permission, HH Judge Tayler on 26 May 2021 ordered the filing of an affidavit from the Appellant, a response from the Respondents and comments on these by EJ Baron, on the question of whether the proposition was put to Mrs Griffiths. EJ Baron having retired, Judge Tayler ordered on 10 December 2021 that the matter be referred to the lay members of the ET. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant filed an affidavit in which, after going through the regulation 5 issue in some detail, she said that her counsel Ms Brown had put this point directly to Mrs Griffiths. She added that it was in this context that Ms Brown also referred Mrs Griffiths to a letter to her dated 31 May 2017 from the Appellant&#8217;s Union representative asserting that the Appellant was being victimised. There is no reference to any contemporaneous note. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">At the hearing in this Tribunal, the Appellant confirmed that she specifically remembers the question being put to the witness. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Respondents&#8217; solicitor, Mr Millard, responded to the Affidavit by letter. This referred to Mr Millard&#8217;s contemporaneous notes of the hearing, which did not record it being put that the true reason was protected acts or protected disclosures. Nor did the notes contain any reference to Mrs Griffiths being taken to the letter of 31 May 2017. Mr Millard also pointed out that the Respondents&#8217; closing submissions, prepared by counsel very soon after the time in question, asserted that deliberate misinterpretation of regulation 5 was not put to any key witness and that it was never put to them that the witnesses had personal knowledge of the protected acts relied on or that this was the reason for the adverse treatment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">One of the members no longer had any contemporaneous notes and did not answer the question about whether the specific point was put to Mrs Griffiths. The other referred to her notes taken at the hearing, and said that these did not show that Ms Brown put to Mrs Griffiths the alleged &#8220;real reason&#8221;. She noted also that the Appellant&#8217;s written closing submissions did not make that assertion, and that her notes did not show the assertion being made orally.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">It therefore seems that two sets of contemporaneous notes do not record the question being put. Submissions made at the time asserted that it had not been put. The ET in its judgment stated in terms that the point was not put. We have not been shown any contemporaneous note suggesting that it was put. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">That being so, there is no sufficient evidential basis for concluding that the ET recorded the matter incorrectly. Ground 6 therefore fails. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-weight:bold">Ground 7</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant argues that the ET did not deal or did not sufficiently deal with her contention that she was victimised by being treated less favourably than several managers employed by the same employer in similar circumstances but with no history of protected acts or protected disclosures. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">This contention arises from an ET decision in different litigation in 2016, upholding claims against R2 by a black consultant neurosurgeon, Mr Akinwunmi, for unfair dismissal. That tribunal judgment described some of R2&#8217;s witnesses as &#8220;disingenuous&#8221;. The Appellant was told by Mr Akinwunmi that he had sent the judgment to Mrs Barker and had told her that some of his colleagues were guilty of serious misconduct. These included several who held leadership and directorial roles. He asked her to investigate them. However, there was no investigation or any disciplinary process. The Appellant contends that she was treated differently from those individuals because, unlike them, she had done protected acts and/or made protected disclosures. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">After a dispute about the relevance of the Akinwunmi case, the ET admitted evidence about it. After the main exchange of witness statements, R2 filed a further witness statement from Dr Findlay in which he explained what his thinking had been about the criticised individuals and why he did not view her case as comparable to theirs. In particular one individual, a Clinical Director, &#8220;was substantively employed as a clinician with a limited management role whereas Dr Lyfar-Ciss&#233; held the important role advising the board on race equality and leading its efforts &#8230;&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mrs Barker and Dr Findlay were both cross examined on this subject. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">This was dealt with in one paragraph of the ET&#8217;s judgment, at the end of the section headed &#8220;The facts&#8221;:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num>&#8220;105.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">One of the areas raised in this hearing related to the consequences of a claim in the Employment Tribunal against BSUH by Mr Akinwumni. Criticisms were made by the Tribunal of three senior employees of BSUH. In July 2017 Mr Findlay considered whether further action ought to be taken against any of them under the 2014 Regulations. He concluded that it was not appropriate. One individual had ceased to be a board director and another had resigned. Mr Findlay concluded that the role of the third, Mr H, was not sufficiently senior in the management hierarchy, although that individual was a senior clinician.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The ET did not return to this subject when setting out its decision. It had announced at paragraph 20 that it was not appropriate for it to make findings of fact on every issue raised, given the need to proceed in a proportionate manner. However, as I have said, it concluded that in acting as they did, the Respondents did not have as their reason or principal reason the existence of any protected acts or protected disclosures. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant argues that the ET erred in law by not making any findings about this issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mr Kibling, in response, asserts that when read overall, the ET&#8217;s reasons are compliant with <span style="font-style:italic">Meek v City of Birmingham District Council </span><ref href="#" uk:canonical="[1987] IRLR 250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] IRLR 250</ref> in that they are sufficient to inform the Appellant why she lost.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">It is trite law that, first, a tribunal need not set out a decision on every issue that has been raised, but only on those which are reasonably necessary to give a sufficient explanation of the outcome and, second, that the drafting of tribunal decisions is not to be subjected to hypercritical textual analysis. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Nevertheless, we think it is regrettable that, having thought it necessary to identify the issue when summarising the facts, the tribunal did not expressly resolve the issue, however briefly. It is not surprising that the Appellant has been left with the impression of an incomplete decision on the central issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The probable explanation is that the ET&#8217;s overall conclusion at paragraphs 125-126, rejecting any motive of victimisation, was thought sufficient. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Having considered the case carefully in the round, and having noted (1) that Dr Findlay&#8217;s detailed explanation for the difference in treatment was before the ET and (2) that he was found to be a credible witness, we are sure that the ET was not persuaded that this was an instance of victimisation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Although this ground of appeal illustrates the need for tribunals to take care when deciding what to include and what to omit, we have no doubt that the ET&#8217;s conclusion at paragraphs 125-126 could not have been disturbed by any further consideration of the treatment given to different individuals in a different case at a different time. Ground 7 therefore fails.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-weight:bold">The reconsideration appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The Appellant notes that in the journal article, Mrs Griffiths was quoted as saying that she inherited a situation of poor relations with the BME workforce which had led to &#8220;a number of ET cases&#8221;, and that there was a need &#8220;to do some &#8216;brave things&#8217; which led to employment tribunals but was a signal to the organisation that they were taking the issues seriously&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">There was evidence that &#8220;a number of ET cases&#8221; was a reference to one or more claims by the Appellant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In her witness statement accompanying the reconsideration application, the Appellant mentioned that this new evidence was consistent with her evidence to the original ET that at a meeting of senior managers on 28 March 2017, Mrs Griffiths had stated that she intended to &#8220;clamp down on employment tribunal claims&#8221; which were &#8220;evidence of bad behaviour&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Her contention is that the &#8220;brave things&#8221; referred to included her dismissal. This, she argued, showed that her dismissal was predetermined and that it occurred because she had previously brought ET claims (or made protected disclosures) and therefore amounted to victimisation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Therefore, the Appellant submits, the ET&#8217;s decision to dismiss the reconsideration application was perverse. She also makes some other criticisms of the ET&#8217;s reasoning, and indeed accuses the ET of being dishonest in some of its findings in that judgment, and cites these in support of her perversity argument. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Mr Kibling responds that it is absurd to suggest that the contents of the article amount to an admission of victimisation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">In our judgment, the contents of the article simply do not assist the Appellant and could not have strengthened her case. In the quoted passage, Mrs Griffiths says that she inherited a situation of poor race relations including several tribunal claims. That was true. She then says that, to improve the situation, the Trust had to act bravely, even if doing so led to more tribunal claims. The clear meaning of that passage was that the Trust had to act bravely to discipline or dismiss those who contributed to poor race relations. Better relations presumably would mean fewer tribunal claims in future. The passage obviously did not mean that the Trust should act to the detriment of those who had brought claims in the past.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We therefore agree with the Tribunal&#8217;s finding that the passage supported the Respondents&#8217; case, not the Appellant&#8217;s case. The evidence could not have assisted the Appellant and therefore could not be admitted under the test in <span style="font-style:italic">Ladd v Marshall</span> <ref href="#" uk:canonical="[1954] 1 WLR 1489" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] 1 WLR 1489</ref> and the Tribunal was obviously right to refuse reconsideration. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">That said, and in fairness to the Appellant, we record our view that she is right to identify errors in the expression of that decision, though she is wrong to categorise these as dishonesty on the part of the tribunal. In particular:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">Although the decision makes the fair point that a journal article reporting the speech of a third party should be read with caution, this does not acknowledge that the relevant facts in the article were confirmed to be true by the Respondents. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">The decision comments that &#8220;written submissions in proceedings are not evidence&#8221;. Of course that is often said, because there is a crucial distinction between evidence given by a witness and a submission made by an advocate. But in this case, that misses the point that the written submission was indeed evidence proving what submission had been made at a hearing, that being the allegedly relevant point. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">The decision states that the matters in the article were &#8220;not new&#8221;. That was correct in one sense, but overlooked the fact that the article was new evidence of words spoken by Mrs Griffiths to the writer, words which the Appellant believed shed light on a key issue. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">It was held that the article did not expressly state that the &#8220;ET cases&#8221; referred to the Appellant&#8217;s claims and that she was seeking for this to be inferred. That was not correct. She relied, and was entitled to rely, on the concession by the Respondents to that effect.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.79in;text-indent:-0.39in">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">The ET made a primary finding that the matters in the article &#8220;do not amount to new evidence&#8221;. With respect, we find that conclusion hard to follow. The assertion that Mrs Griffiths said certain things to the writer was new evidence. The problem for the Appellant was, as we have said, that it was not capable of supporting her case. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num>88.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We therefore understand why the Appellant did not feel confidence in the reconsideration decision. Nevertheless, for the reasons explained above, no other decision could reasonably have been made, and the reconsideration appeal must fail. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_89">
+	  <num>89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The appeals are both dismissed. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

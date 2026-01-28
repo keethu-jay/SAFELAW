@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="799ecbc8-9380-48c7-b7f5-58da1bd4a4d5" name="Changes" comment="frontend, added login func from supabase and made filler profile page">
+    <list default="true" id="799ecbc8-9380-48c7-b7f5-58da1bd4a4d5" name="Changes" comment="backend, server.py template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2012_complete/X1AJBC8N.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2012_complete/X1AMII8N.html" beforeDir="false" />
@@ -4649,10 +4649,15 @@
       <change beforePath="$PROJECT_DIR$/2012_complete/XKOLH0N.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2012_complete/XU61I5TG000N.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/2012_complete/log.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Data Preparation/cenral_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Data Preparation/cenral_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Data Preparation/court_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Data Preparation/court_config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/Data Preperation/Looney_Ricks_Kiss_Architects_Inc._v._State_Farm_Fire_Casualty_Co..md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Data Preparation/Looney_Ricks_Kiss_Architects_Inc._v._State_Farm_Fire_Casualty_Co..md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/Data Preperation/download_sample_from_dropbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Data Preparation/download_sample_from_dropbox.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/Data Preperation/extract_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Data Preparation/extract_cases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Reader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Reader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -4705,34 +4710,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#10 on keethu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "ts.external.directory.path": "C:\\Users\\keeth\\WebstormProjects\\SAFELAW\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.supreme_parser_test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;keethu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\keeth\\WebstormProjects\\SAFELAW\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\keeth\WebstormProjects\SAFELAW\backend\Data Preparation\testing regex parsers\supreme_samples" />
       <recent name="C:\Users\keeth\WebstormProjects\SAFELAW\backend\Data Preperation" />
       <recent name="C:\Users\keeth\WebstormProjects\SAFELAW\backend" />
       <recent name="C:\Users\keeth\WebstormProjects\SAFELAW\frontend\src\pages" />
       <recent name="C:\Users\keeth\WebstormProjects\SAFELAW\References\CorpusStudios" />
-      <recent name="C:\Users\keeth\WebstormProjects\SAFELAW\References" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26574.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>
@@ -4750,7 +4757,16 @@
       <workItem from="1763656350449" duration="593000" />
       <workItem from="1763747106125" duration="6173000" />
       <workItem from="1763988819622" duration="679000" />
-      <workItem from="1763990230602" duration="21699000" />
+      <workItem from="1763990230602" duration="25222000" />
+      <workItem from="1764681659035" duration="91000" />
+      <workItem from="1764681784851" duration="4968000" />
+      <workItem from="1764700678788" duration="2089000" />
+      <workItem from="1764810908171" duration="21000" />
+      <workItem from="1764879589301" duration="16000" />
+      <workItem from="1765281545821" duration="2054000" />
+      <workItem from="1765304294130" duration="4669000" />
+      <workItem from="1767663645087" duration="3088000" />
+      <workItem from="1768252619942" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="Added some reference notes on using code from CorpusStudio and rearraged some stuff">
       <option name="closed" value="true" />
@@ -4816,7 +4832,39 @@
       <option name="project" value="LOCAL" />
       <updated>1764095466982</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="frontend, added logout button on profile">
+      <option name="closed" value="true" />
+      <created>1764097000543</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764097000544</updated>
+    </task>
+    <task id="LOCAL-00010" summary="backend, folder for testing regex parsers">
+      <option name="closed" value="true" />
+      <created>1764700798898</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700798898</updated>
+    </task>
+    <task id="LOCAL-00011" summary="backend, folder for testing regex parsers">
+      <option name="closed" value="true" />
+      <created>1764700823545</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700823545</updated>
+    </task>
+    <task id="LOCAL-00012" summary="backend, server.py template">
+      <option name="closed" value="true" />
+      <created>1764700934379</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700934379</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -4843,6 +4891,9 @@
     <MESSAGE value="backend, added files for modular data processing" />
     <MESSAGE value="frontend, added more functionality to writer and color key" />
     <MESSAGE value="frontend, added login func from supabase and made filler profile page" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend, added login func from supabase and made filler profile page" />
+    <MESSAGE value="frontend, added logout button on profile" />
+    <MESSAGE value="backend, folder for testing regex parsers" />
+    <MESSAGE value="backend, server.py template" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend, server.py template" />
   </component>
 </project>

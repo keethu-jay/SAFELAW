@@ -1,0 +1,784 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/18"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/18"/>
+	  <FRBRdate date="2023-02-16" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="18"/>
+	  <FRBRname value="A v Choice Support (formerly MCCH Ltd)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/18"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/18"/>
+	  <FRBRdate date="2023-02-16" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/18/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/18/data.xml"/>
+	  <FRBRdate date="2024-11-09T07:38:42" name="transform"/>
+	  <FRBRdate date="2024-11-21T13:12:22" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-02-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="judge-his-honour-judge-wayne-beard" href="/judge-his-honour-judge-wayne-beard" showAs="HIS HONOUR JUDGE WAYNE BEARD"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>18</uk:number>
+	<uk:cite>[2023] EAT 18</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>14f5af5be4aceffbc8a8fa9fcb76af7ac86a97b63cd4d8dc549eee542db353f7</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Revision { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">A v Choice Support</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 18</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2021-000724-LA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-02-16" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">16 February 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-wayne-beard" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE WAYNE BEARD</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">A</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p><marker name="tab"/><span style="font-weight:bold;font-size:12pt">CHOICE SUPPORT (FORMERLY MCCH LTD)</span><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">-and-</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">                                                                              EA                                                          </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Intervenor</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Emma Sole </span><span style="font-size:12pt">(instructed by Employment Law 4U) </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Stephen Wyeth </span><span style="font-size:12pt">(instructed by DAS Law) </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Hilary Winstone</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> (instructed by Girlings Solicitors LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Intervenor</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 18 October 2022</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">An employment tribunal considering whether to order anonymity and/or restricted reporting should have the distinctions between <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(a) and (b) <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref> and the broader powers contained within rule 50 in mind. It is suggested that orders should clearly delineate under which of the powers under rule 50 (which encompasses <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref>) the order was made. A restricted reporting order which specifically prohibits publication of the details of a case should only be made permanent when a less restrictive order would not suffice.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The EAT when considering whether or not to make an order under rule 23 of the EAT rules should have in mind any order made by an Employment Tribunal, however that is only one element of consideration.  </span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE WAYNE BEARD:</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">PRELIMINARIES</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I shall refer to the parties as they were before the Employment Tribunal (ET) as Claimant and Respondent. This is an application for a permanent restricted reporting Order, following a temporary order made at EAT level in line with an Order made by the ET. I have allowed an application for an employee identified in the Employment Tribunal Judgment as EA to intervene in these proceedings. EA was not a witness at the Employment Tribunal Hearing nor was EA a party.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET Order along with restricting reporting also anonymises the Claimant and EA along with others. I heard, along with members, the substantive appeal in June 2022. At that stage the tribunal continued the temporary restriction on reporting and naming the Claimant and others. The appeal was made in respect of the judgment and reasons of Employment Judge Burgher, sitting with members, which continued an order anonymising the Claimant and others. However, this application also requires consideration of earlier interlocutory orders restricting reporting and requiring anonymisation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The </span><span style="font-family:'Times New Roman';font-size:12pt">Respondent&#8217;s application is for an order pursuant to rule 19 of the Employment Appeal Tribunal Rules 1993 to make permanent the temporary Order made on 26 May 2022 pursuant to rule 23 EAT rules 1993.  That order, as the order in the ET, is a restricted reporting order arising out of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref> along with an order anonymising specific individuals. </span><span style="font-size:12pt">The intervenor supports the Respondent&#8217;s application and argues that EA&#8217;s convention rights pursuant to article 6 (a fair hearing) and to article 8 (privacy) are engaged. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The Claimant does not wish the restricted reporting order to continue, although she is content for the anonymisation aspect to continue. It was unclear to me whether that included anonymisation of her own name given that she wishes the reporting aspect lifted to be able to pursue the possibility of publishing</span><span/><span style="font-size:12pt">and that she wishes to assist victims of sexual offences by reference to her own experience.  The Claimant contends that the principal of open justice applies. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">During the course of the hearing the potential impact of prohibitions on publicity in the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref> and whether there was a right to waive that prohibition was discussed. It was unclear at that stage whether there was specific provision for the Claimant to waive anonymity. After the close of the hearing, I asked the parties if they wished to provide submissions in these terms &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">The right to waive anonymity to the prohibition on disclosing the identity of a complainant under the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref> appears to be set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34/section/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 5</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">that Act</ref>. However, what I noted is that it does not give a right of waiver but instead a defence to a publisher. Given that structure I would invite written submissions from the parties should they wish to provide them.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221; The Respondent and the intervenor provided submissions; the Claimant did not wish to add to her submissions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Respondent was represented by Mr Wyeth, the Claimant by Ms Sole and the Intervenor by Miss Winstone each of counsel. I am grateful to each for the helpful and detailed submissions made.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">NEW EVIDENCE</span><span/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">APPLICATIONS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was an application by the intervenor to introduce evidence. This was said to be based on the principles set out in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ladd v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1954] 1 WLR 1489" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] 1 W.L.R. 1489</ref>: whether the evidence could have been obtained with reasonable diligence for use at the trial; whether the new evidence would have had an important influence on the result; and whether the evidence is apparently credible. However, I am not considering the Employment Tribunal&#8217;s judgment, the order below is not appealed. Rather, I am considering whether it is appropriate for this tribunal to make an order to restrict reporting and, indeed, to anonymise the individuals identified in the ET order. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The purpose of the additional evidence can only be to support submissions as to whether, looking forward, the article 8 rights of EA outweigh the open justice principle and the rights enshrined in article 10. The evidence, in a witness statement from EA, in the main tends to advance facts which support an argument against the finding of fact made by the ET that the elements of the crime of rape were made out. There are references to the impact upon him, in mental health terms, of the aftermath of the accusation being made. The other evidence provided was, mainly, in the form of medical records setting out the treatment and condition of EA. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Miss Winstone argued that it was reasonable for the evidence to be produced for EA to argue that the effect of removing restrictions would be catastrophic, bearing in mind no criminal proceedings had followed the allegation. EA would be left, in the absence of this evidence, with submissions alone which would then amount to bare assertions. Medical records would demonstrate that EA had been sectioned and show someone who is and has been severely ill. The evidence in the witness statement would assist in supporting the factual impact of the ET case and its findings and, therefore, what the likely future impact of lifting restrictions would be on EA. In addition, the witness statement refers to EA&#8217;s perception, which, in the absence of expert evidence on causation, would assist in an assessment of EA&#8217;s mental health and the probable impact of removing the restriction. The Respondent remained neutral on this application and made no submissions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant opposed the application, making the point that EA was invited to make written representations only. It was argued that medical evidence is irrelevant to the question as to whether the EAT&#8217;s Order should be made permanent. It was also contended that disclosure of this evidence was made too close to the date of the hearing, with consequent prejudice to the Claimant caused by the lack of time for consideration of the evidence. It was argued that it was a misuse of an invitation to make representations on the Respondent&#8217;s application, to give evidence which contradicts the Employment Tribunal&#8217;s finding. It was further argued that, suggesting a causative link between the allegation and deteriorating ill-health by declaring the allegation false, is a misuse of process. This is because EA would be in a position where his assertions could not be tested and challenged. Miss Sole made the point that evidence, if adduced, should be to explain the effect of disclosure on EA. This evidence was an attempt to explain why he did not give evidence to the ET, but that reason was already dealt with in the ET&#8217;s reasons, as being mental health distress. There was no purpose in the evidence, and it failed on the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ladd v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> principles. It was argued that I should consider the overriding objective to ensure that no party is prejudiced. That meant, ordinarily, steps, such as disclosure of evidence, should be taken in good time. The Claimant provided a witness statement the aim of which was to be open about what she intended in future. That witness statement did attempt to revisit liability decisions. Miss Sole indicated that EA raising matters of liability were neither necessary, proper or fair to deal with arguments on the restricted reporting order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">When determining whether to introduce new evidence, this appellate tribunal must seek to give effect to the overriding objective of doing justice. The requirement is to attempt to strike a fair balance between the need for concluded litigation to be determinative of disputes and the desirability that the judicial process should achieve the right result. The principles in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ladd v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> remain relevant to the exercise of the discretion and inform the approach to be taken. However, the direct relevance of those principles to this, an ancillary decision, is less than clear. It appears to me that, in circumstances such as these, where EA has intervened at a late stage and where it is his article 8 rights which are to be the subject of protection, the introduction of evidence can be appropriate. Applying the overriding objective, the provision of that evidence at a late stage is of some concern. However, it appears to me that where evidence is of the type which is unlikely to be open to challenge but is nonetheless relevant to the issues to be decided, it would be appropriate to accept that evidence. Conversely, evidence which is, in practical terms, a collateral challenge to a factual finding in a regular Judgment, is not evidence that can be properly advanced. In my judgment, to achieve the objective of doing justice, I should permit the evidence that is in the form of medical records. This is because that evidence is directly relevant to the question of the potential future impact upon EA of the order being rescinded. Further, those records are not likely to be subject to serious challenge. On that basis I do not consider the admission of that evidence would cause any significant prejudice to the Claimant and I permit its introduction. However, the other evidence advanced, particularly the witness statement of EA which is in substantial conflict to the findings of fact of the ET is, in my judgment, evidence that it would be inappropriate to admit. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As a result of my decision on the admission of evidence from EA, the Claimant argued for an adjournment to adduce her own medical evidence. The argument advanced was that it was relevant to the Claimant&#8217;s article 8 rights and a balance between her rights and that of EA. It appeared to me that this application should be refused. An adjournment would not be in accordance with the overriding objective to deal with cases in a proportionate and expeditious manner unless there were significant countervailing reasons as to equality of arms. The reason advanced as to the Claimant&#8217;s article 8 rights was never an aspect of the response to this application, only article 10 rights were relied upon. It was also the case that the Claimant did not know what aspect of any medical evidence might be weighed against that introduced by EA, for a comparison of their respective article 8 rights. It seemed to me on that basis this was an application for an adjournment based on speculation as to both the evidence itself and to its impact on any convention right implications, in circumstances where article 8 had not been advanced in argument initially. On that basis I considered that the weight to be given to an argument based on equality of arms was minimal. In consequence I refused the adjournment.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';color:#010302">BASIC FACTS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Respondent provides support to vulnerable adults. The Claimant and EA worked at the same property. The Claimant alleged that EA had raped the Claimant in an office at the property on 19 March 2018.</span><span style="font-family:'Times New Roman';color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal found that EA and the Claimant had dated from Christmas of 2017 and that the Claimant and EA were involved in consensual sexual activity, most recently on two separate occasions just days before the incident on 19 March 2018. The ET finding was that, on 19 March 2018, the Claimant was at work with EA and that a sexual act took place which began consensually but became non-consensual. Further, that the incident was reported to the police, but the Claimant withdrew her support of the police inquiry into the allegation of rape. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">EA&#8217;s mental health had deteriorated to a significant extent by the summer of 2020. By August 2020 it was recorded that he had psychotic symptoms which included hallucinations and specific delusions, along with suicidal ideation. By October 2020 EA&#8217;s condition had worsened to the extent that he became a compulsory patient pursuant to first to section 2 then in November 2020 to section 3 of the Mental Health Act 1985. It is clear that, at least in part, the events related to the tribunal case were impacting on these mental health issues. By May 2021 there are diagnoses recorded in respect of EA which included paranoid schizophrenia and anxiety. It is clear that he remains on medication to control his mental health. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The procedural history in respect of the relevant orders was as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">EJ Martin made a restricted reporting order in respect of the Claimant pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 11</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref> and rule 50 on 17 October 2018. This provides for the Order to remain in place until promulgation of final judgment. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">EJ Freer made an order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 11</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref> and rule 50 on 18 June 2020, this order specifically covers anonymity of the Claimant, EA and his parents, it is unclear whether this Order followed any significant submissions from the parties. This order does not provide an end date for the restriction. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the tribunal Judgment it is recorded by EJ Burgher that </span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">&#8220;</span><span style="font-style:italic;font-size:12pt">Pursuant to rule 50 of the 2013 ET rules a permanent anonymity order is made in respect of the Claimant, the Claimant&#8217;s father, Employee A and Employee A&#8217;s mother and father.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Following an enquiry from the Claimant asking whether the restricted reporting order of EJ Freer remained in place, EJ Burgher in a letter dated 9 July 2021, states as follows &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">(t)he Reporting Restriction Order in respect of employee A, and Employee A&#8217;s mother &amp; father is permanent and there </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(sic)</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000"> to the extent it is an application to reconsider this is refused on the basis there is no reasonable prospect of this order being varied or evoked</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> (sic)&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">A temporary Order in respect of EAT proceedings, mirroring the EJ Freer Order, was made on 26 May 2022.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At the appeal hearing the Respondent sought to make that order permanent and directions for this hearing were given to consider the application. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">STATUTORY PROVISIONS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Respondent&#8217;s argument relies on the powers granted by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 11</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref> which provides</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">Employment tribunal procedure regulations may include provision&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">for cases involving allegations of the commission of sexual offences, for securing that the registration or other making available of documents or decisions shall be so effected as to prevent the identification of any person affected by or making the allegation, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">for cases involving allegations of sexual misconduct, enabling an employment tribunal, on the application of any party to proceedings before it or of its own motion, to make a restricted reporting order having effect (if not revoked earlier) until the promulgation of the decision of the tribunal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">If any identifying matter is published or included in a relevant programme in contravention of a restricted reporting order&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">in the case of publication in a newspaper or periodical, any proprietor, any editor and any publisher of the newspaper or periodical,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">in the case of publication in any other form, the person publishing the matter, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">in the case of matter included in a relevant programme&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">any body corporate engaged in providing the service in which the programme is included, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">any person having functions in relation to the programme corresponding to those of an editor of a newspaper, shall be guilty of an offence and liable on summary conviction to a fine not exceeding level 5 on the standard scale.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">----------------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(6)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">In this section&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">&#8220;identifying matter&#8221;, in relation to a person, means any matter likely to lead members of the public to identify him as a person affected by, or as the person making, the allegation,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">-----------------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">&#8220;restricted reporting order&#8221; means an order&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">made in exercise of a power conferred by regulations made by virtue of this section, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">prohibiting the publication in Great Britain of identifying matter in a written publication available to the public or its inclusion in a relevant programme for reception in Great Britain,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">&#8220;sexual misconduct&#8221; means the commission of a sexual offence, sexual harassment or other adverse conduct (of whatever nature) related to sex, and conduct is related to sex whether the relationship with sex lies in the character of the conduct or in its having reference to the sex or sexual orientation of the person at whom the conduct is directed,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">&#8220;sexual offence&#8221; means any offence to which <ref href="http://www.legislation.gov.uk/id/ukpga/1976/82/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/82" uk:canonical="1976 c. 82" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1976</ref>, the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34/section/274/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 274(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/46" uk:canonical="1995 c. 46" uk:origin="TNA" uk:type="legislation">Criminal Procedure (Scotland) Act 1995</ref> applies (offences under the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/4-5/69" uk:canonical="1956 (4 &amp; 5 Eliz. 2) c. 69" uk:origin="TNA" uk:type="legislation">Sexual Offences Act 1956</ref>, Part I of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/39" uk:canonical="1995 c. 39" uk:origin="TNA" uk:type="legislation">Criminal Law (Consolidation) (Scotland) Act 1995</ref> and certain other enactments), and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">&#8220;written publication&#8221; has the same meaning as in the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Rule 50 of the Employment Tribunal Rules 2013, under the heading &#8220;privacy and restrictions on disclosure&#8221; provides:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">A Tribunal may at any stage of the proceedings, on its own initiative or on application, make an order with a view to preventing or restricting the public disclosure of any aspect of those proceedings so far as it considers necessary in the interests of justice or in order to protect the Convention rights of any person or in the circumstances identified in section 10A of the Employment Tribunals Act.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">In considering whether to make an order under this rule, the Tribunal shall give full weight to the principle of open justice and to the Convention right to freedom of expression.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">Such orders may include&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">-------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">an order that the identities of specified parties, witnesses or other persons referred to in the proceedings should not be disclosed to the public, by the use of anonymisation or otherwise, whether in the course of any hearing or in its listing or in any documents entered on the Register or otherwise forming part of the public record;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">--------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">a restricted reporting order within the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> or 12 of the Employment Tribunals Act.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">-------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(5)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">Where an order is made under paragraph (3)(d) above&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">it shall specify the person whose identity is protected; and may specify particular matters of which publication is prohibited as likely to lead to that person&#8217;s identification;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">it shall specify the duration of the order;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">---------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The <ref href="http://www.legislation.gov.uk/id/ukpga/2003/42" uk:canonical="2003 c. 42" uk:origin="TNA" uk:type="legislation">Sexual Offences Act 2003</ref>, in so far as it is relevant here, defines rape as:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in"><span style="font-weight:bold;font-size:10pt">1)A person (A) commits an offence if&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">he intentionally penetrates the vagina ----- of another person (B) with his penis,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">B does not consent to the penetration, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">A does not reasonably believe that B consents.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.49in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Whether a belief is reasonable is to be determined having regard to all the circumstances, including any steps A has taken to ascertain whether B consents.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <heading class="ListParagraph" style="text-align:justify"><span style="font-size:12pt">The <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref> deals with anonymity (rape being one of the relevant offences) and at section 1 provides:</span></heading>
+	  <paragraph>
+	    <num style="font-weight:bold;font-size:10pt">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Where an allegation has been made that an offence to which <ref href="http://www.legislation.gov.uk/id/ukpga/2003/42" uk:canonical="2003 c. 42" uk:origin="TNA" uk:type="legislation">this Act</ref> applies has been committed against a person, no matter relating to that person shall during that person&#8217;s lifetime be included in any publication if it is likely to lead members of the public to identify that person as the person against whom the offence is alleged to have been committed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-weight:bold;font-size:10pt">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Where a person is accused of an offence to which <ref href="http://www.legislation.gov.uk/id/ukpga/2003/42" uk:canonical="2003 c. 42" uk:origin="TNA" uk:type="legislation">this Act</ref> applies, no matter likely to lead members of the public to identify a person as the person against whom the offence is alleged to have been committed (&#8220;the complainant&#8221;) shall during the complainant&#8217;s lifetime be included in any publication.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in"><span style="font-weight:bold;font-size:10pt">-----------------</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify;margin-right:0.98in"><span style="font-size:12pt">Section 5 provides:</span></heading>
+	  <paragraph>
+	    <num style="font-weight:bold;font-size:10pt">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">If any matter is published or included in a relevant programme in contravention of section 1, the following persons shall be guilty of an offence and liable on summary conviction to a fine not exceeding level 5 on the standard scale&#8212;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in"><span style="font-weight:bold;font-size:10pt">-------------------------------------</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in"><span style="font-weight:bold;font-size:10pt">(2)Where a person is charged with an offence under this section in respect of the publication of any matter or the inclusion of any matter in a relevant programme, it shall be a defence, subject to subsection (3), to prove that the publication or programme in which the matter appeared was one in respect of which the person against whom the offence mentioned in section 1 is alleged to have been committed had given written consent to the appearance of matter of that description.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in"><span style="font-weight:bold;font-size:10pt">------------------------------------</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The relevant provision in the Employment Appeal Tribunal Rules 1993 dealing with questions of anonymity and restrictions on reporting is rule 23 which provides:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">This rule applies to any proceedings to which <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref></span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">applies.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">In any such proceedings where the appeal appears to involve allegations</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">of the commission of a sexual offence, the Registrar shall omit from any</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">register kept by the Appeal Tribunal, which is available to the public, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">delete from any order, judgment or other document, which is available to</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">the public, any identifying matter which is likely to lead members of the</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">public to identify any person affected by or making such an allegation.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">-------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(7)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">The Appeal Tribunal may revoke a restricted reporting order at any time</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">where it thinks fit.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">-------------------------</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(9)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">In this rule, &#8216;promulgation of its decision&#8217; means the date recorded as being</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">the date on which the Appeal Tribunal&#8217;s order finally disposing of the</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">appeal is sent to the parties.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in">Article 8 of the ECHR provides: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Everyone has the right to respect for his private and family life, his home, and his correspondence. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">There shall be no interference by a public authority with the exercise of this right except such as is in accordance with the law and is necessary in a democratic society in the interests of national security, public safety or the economic wellbeing of the country, for the prevention of disorder or crime, for the protection of health or morals, or for the protection of the rights and freedoms of others.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in">Article 10 of the ECHR provides: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Everyone has the right to freedom of expression. This right shall include freedom to hold opinions and to receive and impart information and ideas without interference by public authority and regardless of frontiers. This Article shall not prevent States from requiring the licensing of broadcasting, television or cinema enterprises.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">The exercise of these freedoms, since it carries with it duties and responsibilities, may be subject to such formalities, conditions, restrictions or penalties as are prescribed by law and are necessary in a democratic society, in the interests of national security, territorial integrity or public safety, for the prevention of disorder or crime, for the protection of health or morals, for the protection of the reputation or rights of others, for preventing the disclosure of information received in confidence, or for maintaining the authority and impartiality of the judiciary.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">SUBMISSIONS</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';color:#010302">The Respondent&#8217;s argument is that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(a) provides for an unlimited restriction on disclosure of information identifying any person affected by the allegation. This contrasts with <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(b) which provides for such a restriction until promulgation. It is argued that EJ Freer&#8217;s Order was framed in extremely broad terms encompassing <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> as a whole and referring to rule 50 of the Employment Tribunal Rules 2013. Further that Order was not set out as being temporary or as having an end date and so should be considered unlimited. Rule 50, it is argued, encompasses the anonymity provided by the order and reference is made to the fact that in the 2004 rules such anonymity was mandatory. It is then argued that the indication of EJ Burgher makes it clear that the Order, if not previously unlimited became so. No appeal has been lodged against the Freer Order or the indication by EJ Burgher that it was to be considered permanent and a failure to make the EAT order would render that order nugatory. In any event, it is contended, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#010302">F v G [2012]</span><span style="font-family:'Times New Roman';color:#010302"> ICR 246 and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#010302">Fallows &amp; Ors. V News Group Newspapers Ltd</span><span style="font-family:'Times New Roman';color:#010302"> <ref href="#" uk:canonical="[2016] ICR 801" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] ICR 801</ref> make it clear the Employment Tribunals have the power to make extended and permanent orders for anonymity if article 8 rights are engaged. In Paragraph 24 (b) of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';color:#010302">F v G </span><span style="font-family:'Times New Roman';color:#010302">Underhill J said </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.98in"><span style="font-weight:bold;font-size:10pt">"(T)he best starting point is to consider whether restrictions on reporting and/or anonymisation of the record are required in order to protect the rights of a party or other affected person under article 8, paying full regard to the importance of open justice----- and, if so, the extent of the necessary measures. It will be necessary to consider not only what restrictions are proportionate but for how long they need to remain in place; permanent protection may or may not be proportionate.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The Respondent then referred to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Vicent del Campo v Spain </span><span style="font-size:12pt">2018 ECHR 909 ECtHR where it was held naming a person as an alleged harasser, in a public judgment, could be a breach of article 8, where that person was not a party to the proceedings the breach was more likely to be found. In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">TYU v ILA Spa Ltd.</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2022] ICR 287" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] ICR 287</ref> it was held that where a judgment was published with specific imputations about a named individual, and where those imputations had the potential to affect, adversely, their enjoyment of the private life, article 8 could be applied. The decision as to whether the article 8 right was engaged would depend on several factors including the extent to which publication was damaging to reputation. The requirement was for a fact sensitive assessment applying proportionality between the competing convention rights. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">At EAT level the Respondent refers to Rule 23(2), placing a duty on the registrar where there are allegations of sexual offences and where the case falls within certain categories</span> to <span style="font-size:12pt">make an anonymity order. It is accepted that this does not apply to a substantive appeal of the nature dealt with in this case on 7 June. However, reference is then made to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">A v B</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2010] ICR 849" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] ICR 849</ref> and that the EAT has a general power to regulate its own procedure pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/30/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 30(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref>. On that basis the Respondent argues that this is a case which falls within rule 23(2), honour and reputation is protected by article 8, the balancing exercise in respect of article 10 and open justice do not overcome the serious damage to EA&#8217;s reputation that would occur by lifting anonymity.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I raised a question about whether there is a practical distinction between an anonymity order, pursuant to rule 50 in the tribunal and under the EAT&#8217;s powers to manage its own procedure, and a restricted reporting order specifically pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">ETA 1996</ref>. He argued that having both in place was a belt and braces approach but reminded me that the possibility of jigsaw identification existed and that should be considered when deciding upon the distinctions between the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> and rule 50 prohibitions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In further submissions on <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34/section/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 5</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref> the Respondent argued that the Claimant can absolve any publisher of criminal responsibility by providing written consent to allow her identity to be revealed. As such it is contended that <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">the Act</ref> provides no protection to EA in terms of his Article 8 rights.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">The Intervenor supports the Respondent&#8217;s argument and indicates</span><marker name="tab"/><span style="font-size:12pt">EA&#8217;s article 8 rights merit substantial weight in the circumstances. This should outweigh any intention by the Claimant to publicly relate her experiences or to author a book and so engage article 10 rights. It is argued that the discovery of EA&#8217;s identity would be catastrophic to EA&#8217;s ability to recover his health, work and live in his community. The Intervenor seeks an order from this tribunal which would extend beyond mere anonymity of the individuals and restricted reporting in the ET orders, because of the danger of jigsaw identification from the respondent&#8217;s details being published. In dealing with further submissions on <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34/section/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 5</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref> the Intervenor agrees with the Respondent that there is no specific relevance of <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">the Act</ref>, but that it does provide the vehicle by which the Claimant can have material published should she wish to do so. The argument is made that the ET was not able to make a finding of rape (because it did not find any facts in relation to reasonable belief in consent) but that is the basis upon which publication is intended. Any rights EA might have to defamation actions would be illusory because of his financial circumstances and in any event the damage would be done.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Claimant&#8217;s argument begins by indicating that she has no intention of disclosing the identity of EA and the others protected by the Order. In respect of the Order of EJ Freer it is argued that it was not an indefinite Order but one that ended along with the Employment Tribunal proceedings on promulgation of judgment. The contention is that EJ Burgher wrongly interpreted</span><span/><span style="font-family:'Times New Roman';font-size:12pt">EJ Freer&#8217;s Order. This is because he did not make an Order of his own but simply confirmed his understanding of the Order in response to a request from clarification from the Claimant, therefore it could not be appealed. It is argued that there is a level of importance to the principle of open justice that requires significant reasons to surmount it: referring to the decision of the Court in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Curless v Shell International</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/1710" uk:canonical="[2019] EWCA Civ 1710" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ. 1710</ref> at paragraph 39, which sets out the following:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.49in;margin-right:0.49in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">"</span><span/><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt">Although none of those Convention rights has automatic priority over the other or others, and always depending on the precise facts and circumstances, due to the importance of the principle of open justice it will usually only be in an exceptional case, established on clear and cogent grounds, that derogation from the principle of open justice (including the freedom to publish court proceedings) will be justified; and, in such a case, the derogation must be no more than strictly necessary to achieve its purpose. There is no general exception to open justice where privacy or confidentiality are in issue.</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:initial;background-color:#FFFFFF">&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:initial;background-color:#FFFFFF">It should be said this was not a case involving a restricted reporting order or anonymity at the Employment Tribunal hearing, but an Order of the EAT (Slade J). It was, specifically, an application made orally, at the Court of Appeal and was dismissed because there were no convention rights in contention. On that basis the opinion expressed in the paragraph referred to is </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:initial;background-color:#FFFFFF">obiter</span><span style="font-family:'Times New Roman';font-size:12pt;color:initial;background-color:#FFFFFF">. Nonetheless, it is a judgment of some force.</span></p>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:initial;background-color:#FFFFFF">DISCUSSION </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It appears to me that the ET orders above do not set out, with clarity, distinctions between decisions based on <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> (along with its internal distinctions) and those based solely or additionally on rule 50. The powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> draw a distinction between sexual offences and sexual misconduct. Rule 50 encompasses orders made under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> but also creates an ability for the ET to protect convention rights or where an order is in the interest of justice, so long as such orders are necessary. The decision making underpinning each type of order is likely to be different because the test for each will differ.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 11</ref> deals with both identification and restricted reporting orders. <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 11(1)</ref>(a), dealing with offences, is expressed in mandatory terms and without a time limit on preventing identification, but only in respect of tribunal documentation. In contrast, <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(b), where sexual misconduct is dealt with, there is discretion and a specific limitation as to the expiry of an order. It may be trite to say that not all sexual misconduct would amount to a sexual offence, but all sexual offences would also be considered sexual misconduct. Therefore, it appears to me, if a sexual offence is alleged, identification of an affected person would be subject to mandatory prohibition in tribunal documents. It is certainly possible, if not probable, in those circumstances, that a tribunal of its own motion would invoke <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(b) restriction in addition to anonymisation, where reporting of the case created a danger of an affected person being identified. However, it is also possible for one to be imposed without the other. In this case the Claimant alleged that she had been raped by EA; that is clearly an allegation of a sexual offence. That prohibition on identification seems to me, by using the word &#8220;prevent&#8221;, should preclude information which could be put together to make such an identification (the so-called jigsaw identification). Any tribunal should have in mind the danger of &#8220;jigsaw&#8221; identification when considering an order anonymising a person affected by the allegation. It seems to me that this is in keeping with the approach towards anonymity in the case of sexual offences in the criminal law as set out in section 1</span><span style="font-size:12pt"> of the The <ref href="http://www.legislation.gov.uk/id/ukpga/1992/34" uk:canonical="1992 c. 34" uk:origin="TNA" uk:type="legislation">Sexual Offences (Amendment) Act 1992</ref></span><span style="font-family:'Times New Roman';font-size:12pt">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Rule 50 sets out a much broader discretion beyond <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> ETA. Orders can restrict publicity if the application of the interests of justice and/or convention rights make it necessary. It appears to me that rule 50 is also made pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> ETA, as set out specifically in rule 50(3)(d) in respect of restricted reporting orders, but also for the entirety of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> ETA as it is the only rule affecting public disclosure of proceedings. However, rule 50 extends significantly beyond the powers under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> to reflect convention rights directly applicable under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> provisions. It can be seen, given the breadth of the language of the rule (and its relationship to Article 8 privacy rights) that it would be possible for an Employment Tribunal to order the equivalent of a super injunction, not only prohibiting the reporting of proceedings but the existence of proceedings. It seems unlikely that an employment case would require such protection, but it demonstrates the breadth of the orders available under the rule. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In EJ Martin&#8217;s order reference is made only to the Claimant and to a restricted reporting order. It must be that, at that stage, the order was limited to an order pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(b), although this is only made clear by the limits of the order and not by reference to the specific part of the section. It appears to me that EJ Martin&#8217;s order (if it was clear from the pleadings that a sexual offence was being alleged) and given the mandatory requirements in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(a), should also have anonymised anyone affected by the allegation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> EJ Freer&#8217;s Order is clearly made in pursuance of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(a) given the specific reference to anonymisation. It also seems reasonably clear that EJ Freer was concerned with jigsaw identification given the anonymisation of EA&#8217;s parents. The order specifically contains a restricted reporting order. What is not clear is whether this order was limited to a <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> order or whether the decision also relied upon the broader aspects of rule 50. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">EJ Burgher&#8217;s Order as set out in the judgment is clearly limited to anonymity and does not refer to restrictions on reporting. It also a permanent order, although it refers to rule 50 only. EJ Burgher, not EJ Freer, responds to the query as to the meaning of EJ Freer&#8217;s Order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I am required to consider whether to make an order in relation to the EAT rules, and so make my own decision on anonymity and any restrictions beyond that. However, part of my analysis must include due deference to ET orders which have not been appealed. Any decision which is contrary to those below will, effectively, reverse those decisions; that should not be done lightly. As such it is necessary for me to interpret the ET orders.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It appears to me that EJ Freer&#8217;s decision is key in this case. He makes a restricted reporting order tied to anonymity. EJ Burgher was interpreting the order of EJ Freer not making his own decision; I do not consider that he made a final order of a permanent reporting restriction. The question is whether EJ Freer&#8217;s order was permanent. ET rules require such an order to contain an end date, EJ Freer&#8217;s does not. The competing arguments were as follows, for the Claimant: that restricted reporting orders end on promulgation and the absence of a date should be interpreted as complying with the statute. The contrary argument was that although in breach of the rule the intent of the order being permanent is obvious from the necessity of making a permanent anonymity order according to the statute, that should apply to both parts of the order. However, I am also aware that the Order refers to rule 50 so that considerations far beyond those in respect of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> come into play. I consider that it would require an understanding of EJ Freer&#8217;s reasoning to answer the question as to the basis of his decision, I do not have access to that. The only basis upon which I can draw conclusions is the objective wording of the order. It appears to me that the absence of an end date, tends, when an order deals with both anonymisation and restricted reporting, to point to rule 50 in its broader context being applied. This is because if <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref>(a) alone was under consideration, then anonymisation beyond tribunal documents would not have been set out. It seems to me EJ Freer was, if only reliant on <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref>, bound by statute to make a permanent anonymity order for tribunal documents and bound to make a restricted reporting order to the end of proceedings. However, both are part of the order and the order rules out publicity in the broader sense not just tribunal documents. Therefore, rule 50 in its broader sense seems to have been applied by EJ Freer. That the order under rule 50 anonymises not just EA but also family members and restricts reporting, seems to me to convey a concern that simply preventing identification in the broader sense was a concern. As such, in my judgment, it is more probable than not that the order was intended to be permanent in both aspects.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">  For the assistance of Employment Judges making these types of order in the future I would suggest that the orders should make specific reference to which elements of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> and/or rule 50 the decision is applying. Further it seems to me that the distinction between anonymity orders and restrictions on reporting should be clearly separate parts of any such order, setting out whether they are made pursuant to the section or on broader grounds. Finally, I would suggest that if there is concern about jigsaw identification then any order should be made in terms which clearly prohibit publication of any particular detail of the case facts which it is thought might lead to identification. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"> I return, therefore, to basic principles in considering the question of what, if any, order I should make. Justice should be in the open unless there is good reason for it not to be and good reasons include: statutory prohibitions; convention rights and the interests of justice; in both latter cases an order should only be made insofar as it is</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"> necessary</span><span style="font-family:'Times New Roman';font-size:12pt"> to do so. I will weigh in the balance the fact that ET orders exist, and it appears to me will still stand even if I do not make an order in respect of the ET findings. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It appears to me that the Intervenor&#8217;s Article 8 rights are engaged. </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Vicent del Campo v Spain </span><span style="font-size:12pt">2018 ECHR 909 ECtHR and In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">TYU v ILA Spa Ltd.</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2022] ICR 287" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] ICR 287</ref> demonstrate that imputations against an individual can breach the right to privacy. Here the allegation is of rape and the finding is of non-consensual sexual intercourse. They are both, clearly, serious imputations against EA, damage to reputation would be significant. In addition, they are allegations and findings made in proceedings to which EA was not a party. The medical evidence I have seen in respect of EA&#8217;s mental health demonstrates that there was some impact on EA arising from his knowledge of the proceedings. It appears probable that further exposure of the proceedings would have a deleterious effect on EA&#8217;s mental health. That means the imputations have the potential to adversely affect EA&#8217;s enjoyment of private life.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Does that impact outweigh the Article 10 rights and open justice, I remember I am not solely concerned with the Claimant in this regard but the broader question. It appears to me that the statutory prohibitions that exist in respect of identification in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref> ETA and section 1 SO(A)Act 1992 assist me here. Although confined to tribunal documentation in the one case and confined to a victim in the other, the intent of both sections is obviously that there should be limited exposure of identity in cases involving allegations of sexual offending. In my judgment the pertinent facts of this case can be properly understood without any information identifying the Claimant or EA. The existence of protection from identification for the Claimant beyond that imposed by any orders of the ET or EAT is also relevant. </span><span style="font-family:'Times New Roman';font-size:12pt">In terms the Claimant does not argue against a permanent anonymity order and both the Respondent, and the Intervenor urge me to make a permanent order, but it is my decision and should be made on principle not by applying a rubber stamp. Taking account of those matters I am of the view that: (a) I should not make any order which would undermine the provisions of </span><span style="font-size:12pt">section 1 SO(A)Act 1992, that means anonymity in respect of the Claimant should remain (b) that the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11</ref> ETA is to prevent the identity of any person affected coming into the public domain from official documents, EA falls into the category of a person affected and should therefore be anonymised (c) here is a danger of jigsaw identification and therefore the parents of EA should remain anonymous. EA asks that I go beyond that in respect of the Respondent and limiting the information in the ET judgment relating that organisation. Firstly, I am not able where there has been no appeal from the decisions of the ET as to the contents of their judgment able to alter the contents of that judgment. Secondly, I would require more than a submission as to the organisation and its structure and how that information might identify any affected person to accede to anonymisation of the Respondent. I consider that the reasons I have given for ordering anonymity are likely to last for a considerable period into the future. On that basis I consider anonymisation should be made subject of a permanent order. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">A restricted reporting order is a specific prohibition on publication of the details of a case. It appears to me such an order should only be made and certainly only made permanent when a less restrictive order would not suffice. If the &#8220;belt&#8221; of the anonymisation order can be made in sufficiently restrictive terms it seems to me there would be no reason for the additional &#8220;braces&#8221; of a restricted reporting order&#8221;.  The Order I make is that &#8220;</span><span style="font-style:italic;font-size:12pt">no matter likely to lead members of the public to identify a person, subject of this order as a person affected by the allegations made in these proceedings, shall during the lifetime of that person be included in any publication</span><span style="font-size:12pt">&#8221;. It appears to me that this order would permit publication of matters which it is in the public interest to know, whilst maintaining the anonymity of the those to whom the order applies. </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

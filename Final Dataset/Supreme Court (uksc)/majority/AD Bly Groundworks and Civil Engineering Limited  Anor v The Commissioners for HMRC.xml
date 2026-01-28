@@ -1,0 +1,1107 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/tcc/2024/104"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/tcc/2024/104"/>
+	  <FRBRdate date="2024-04-22" name="decision"/>
+	  <FRBRauthor href="#ukut-tcc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="104"/>
+	  <FRBRname value="AD Bly Groundworks and Civil Engineering Limited &amp; Anor v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/104"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/104"/>
+	  <FRBRdate date="2024-04-22" name="decision"/>
+	  <FRBRauthor href="#ukut-tcc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/104/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/104/data.xml"/>
+	  <FRBRdate date="2024-11-10T06:01:54" name="transform"/>
+	  <FRBRdate date="2024-11-19T04:48:10" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-12-06" refersTo="#hearing" source="#"/>
+	<eventRef date="2024-04-22" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-tcc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-tax-and-chancery-chamber" showAs="United Kingdom Upper Tribunal (Tax and Chancery Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="a-d-bly-groundworks" href="" showAs="A D BLY GROUNDWORKS"/>
+	<TLCPerson eId="and-civil-engineering-limited" href="" showAs="AND CIVIL ENGINEERING LIMITED"/>
+	<TLCPerson eId="chr-travel-limited" href="" showAs="CHR TRAVEL LIMITED"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-TCC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>104</uk:number>
+	<uk:cite>[2024] UKUT 104 (TCC)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>d23d1ca94ccc8784b501ad736a0871e0601e0cfb0c7269406742580de6a68af1</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:82.49pt;height:72pt"/></p>
+      <p style="text-align:left">Neutral Citation: <neutralCitation style="font-weight:bold;font-family:'Book Antiqua';color:#000000">[2024] UKUT 00104 (TCC)</neutralCitation></p>
+      <p style="text-align:right">Case Number: UT/2022/000023</p>
+      <p style="text-align:left"><courtType refersTo="#ukut-tcc" style="font-weight:bold">UPPER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-tcc" style="font-weight:bold">(Tax and Chancery Chamber)              </courtType>The Royal Courts of Justice, Rolls Building, London</p>
+      <p><span style="font-style:italic">CORPORATION TAX &#8211; whether provisions in company&#8217;s accounts in respect of liabilities to make future pension payments were deductible expenses incurred wholly and exclusively for the purposes of a trade &#8211; whether deductions excluded under section 1290 Corporation Tax Act 2009 &#8211; appeal dismissed</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2023-12-06" refersTo="#hearing">6 December 2023</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>22 April 2024</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">JUDGE THOMAS SCOTT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">JUDGE ASHLEY GREENBANK</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <blockContainer>
+	<num style="font-weight:bold">(1)</num>
+	<p style="text-align:center;text-indent:0.5in"><party as="#appellant" refersTo="#a-d-bly-groundworks" style="font-weight:bold">A D BLY GROUNDWORKS</party></p>
+      </blockContainer>
+      <p style="text-align:center"><party as="#appellant" refersTo="#and-civil-engineering-limited" style="font-weight:bold">AND CIVIL ENGINEERING LIMITED</party></p>
+      <blockContainer>
+	<num style="font-weight:bold">(2)</num>
+	<p style="text-align:center;text-indent:0.5in"><party as="#appellant" refersTo="#chr-travel-limited" style="font-weight:bold">CHR TRAVEL LIMITED</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellants:<marker name="tab"/>Andrew Thornhill KC and David Welsh, instructed by Charterhouse (Accountants) Limited</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Rebecca Murray, instructed by the General Counsel and Solicitor to His Majesty&#8217;s Revenue and Customs</p>
+      <p class="Taxheading1">DECISION</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellants appealed to the First-tier Tribunal (Tax Chamber) (the &#8220;FTT&#8221;) against closure notices issued by the Respondents (&#8220;HMRC&#8221;) denying corporation tax deductions claimed by the Appellants in respect of certain liabilities relating to future pension payments. HMRC contended that the liabilities were not deductible because they were not incurred wholly and exclusively for the purposes of the Appellants&#8217; respective trades, and, alternatively, because they were disallowed under <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">Corporation Tax Act 2009</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref>&#8221;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In a decision released on 26 November 2021 (the &#8220;Decision&#8221;) the FTT dismissed the appeals. The Appellants appeal against the Decision.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">background</heading>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">References below in the form FTT[x] are to paragraphs of the Decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">A D Bly is a provider of civil engineering and groundwork contracting services. At the relevant times, it had seven directors and around 220 employees. CHR is engaged in the wholesale travel agency business. It had two directors and around 20 employees. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellants entered into contractual arrangements with directors and other key employees relating to an Unfunded Unapproved Retirement Benefit Scheme (&#8220;UURBS&#8221;) under which the Appellants promised to provide those employees with a pension in the future. In the case of each Appellant, the pensions were calculated by reference to the estimated profits for the relevant year. In each case, the aggregate amount of the pensions was set at 80% or 100% of the estimated profits before tax. Each company made a provision in its accounts in respect of its liability to make these future pension payments to employees, and claimed a deduction in calculating its profits for corporation tax purposes to reflect that provision. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> HMRC disallowed the deductions and issued closure notices. Notices were issued to A D Bly for the accounting periods ended 30 November 2012 and 30 November 2013, and to CHR for the accounting periods ended 31 March 2013 and 31 March 2014.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The UURBS had been proposed to the Appellants by their accountants, Charterhouse (Accountants) Limited (&#8220;Charterhouse&#8221;). The UURBS had been notified to HMRC in accordance with the Disclosure of Tax Avoidance legislation in <ref href="http://www.legislation.gov.uk/id/ukpga/2004/12/section/304" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 304</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/12" uk:canonical="2004 c. 12" uk:origin="TNA" uk:type="legislation">Finance Act 2004</ref> and allocated a scheme reference number. Charterhouse had marketed the UURBS to other companies, whose claims for corporation tax deductions had also been disallowed, and there were a number of other appeals to the FTT. The appeals by the Appellants had been designated as lead cases under Rule 18 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">At FTT[77], the FTT summarised the agreements entered into by the Appellants (the &#8220;Unfunded Pension Agreements&#8221;) as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in">All the Unfunded Pension Agreements were in identical terms, save as to names, amounts and dates, and signed as deeds&#8230;In summary, the agreements provided in each case that: </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">As part of the director&#8217;s reward for services for the relevant year, the company agreed to provide a pension in accordance with the terms of the agreement. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The company agreed to pay a pension from the &#8216;Payment Date&#8217; which is the director&#8217;s 77th birthday or such earlier or later date as provided for in the agreement. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(3)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The Payment Date is the date notified by the director to the company with at least six months&#8217; notice but cannot be earlier than the later of the director&#8217;s 55th birthday and the date of the director&#8217;s retirement unless the director has died before that time. There are further provisions for cases where the director has died or is still employed at the age of 77. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(4)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The amount of the pension is calculated as the amount which would have been payable under an annuity contract on the assumption that the company has purchased an annuity contract from a commercial provider of annuities for a consideration equal to the Payment Sum. The company and director may agree additional actuarial assumptions to be made by an agreed actuary. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(5)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The Payment Sum is said to be the Base Sum (being the proportion of the projected profits for the relevant year allocated to the director in the relevant minutes) adjusted to account for the movement of the consumer prices index, plus that adjusted sum multiplied by the total percentage rate, being the relevant rate (the higher of 2.5% and the interest rate on the most recently issued UK Government Index Linked Securities) multiplied by the number of complete 12 month periods ending prior to two months before the Payment Date. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(6)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The pension is to be paid for life and increases in line with the consumer prices index. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(7)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Either party may by written notice vary the company&#8217;s obligations to permit/require the company to purchase an annuity or annuities at a cost of the Payment Sum as an alternative to paying the pension directly.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">the ftt&#8217;s findings of fact</heading>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In addition to extensive documentary evidence, the evidence considered by the FTT included witness statements and evidence from Mr Galpin, the managing director and sole shareholder of CHR, and Mr McSkimming and Mr Helliar, managing director and director respectively of A D Bly. The FTT also considered a joint statement of experts as to accounting issues relating to the arrangements, noting that the question of the appropriate accounting standard to apply was not an issue in the appeal: FTT[21].  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT concluded that Mr Helliar&#8217;s evidence was largely irrelevant to the periods in question: FTT[12]. As regards the other two witnesses, the FTT stated that they had been assisted by Charterhouse in writing their statements, and &#8220;passages in the two witness statements were strikingly similar&#8221;, concluding that &#8220;to a large extent, Charterhouse told both witnesses what to say and how to say it&#8221;: FTT[20].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT made separate findings of fact in relation to each Appellant. Its findings in relation to A D Bly included the following:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The FTT was not satisfied that there was a separate meeting of the directors of A D Bly to discuss the remuneration packages of key individuals prior to a meeting between the company and Charterhouse to discuss the UURBS: FTT[27].</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Tax was discussed at that meeting with Charterhouse.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The letter of engagement issued by Charterhouse to A D Bly following the meeting contained these provisions:</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in">Warning Regarding Tax Planning  </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">1.1</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Any tax planning covered by this engagement letter may be considered to be aggressive tax planning by HM Revenue &amp; Customs and as such they are very likely to raise enquiries into any transactions effected as part of the planning and may not accept the interpretation of any tax legislation that has been relied upon as part of the planning. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">1.2</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">You should only proceed with such planning if you are prepared for such an enquiry and to pay any tax, national insurance and other duties that would be payable in the event that the planning failed to achieve its anticipated outcome. In the event that such liabilities become payable, at a date later than they would otherwise have been, then interest will be charged by HM Revenue &amp; Customs in respect of the late paid amounts.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">2.1</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">We shall assist you in establishing an unfunded unregistered retirement benefit scheme (an &#8216;UURBS&#8217;). However, we cannot advise on the suitability of an UURBS as a mechanism for providing pensions to employees. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">2.2</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Counsel will be instructed to advise in respect of the taxation consequences of the matters referred to in 2.1 above. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">2.3</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">You will be relying on the advice given by Counsel. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in">&#8230; </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">2.6</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">We shall recommend and liaise with a remuneration consultant with a view to them producing an estimate of the overall level of rewards for specified employees including the provision that can be made for each employee who is to be rewarded by the Company by way of an UURBS.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Synergis Small Business Consulting (&#8220;Synergis&#8221;) was appointed to act &#8220;as remuneration consultant to [A D Bly] for the specific task of giving an opinion as to the level of pension provision that could be made, in [financial year ended 30 November 2012], for various directors&#8221;. Synergis agreed that the pension provision for that year should be &#163;1,040,000, comprising 100% of A D Bly&#8217;s profits for the year. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(5)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">There was no reference in the report produced by Synergis to any opinion as to the overall level of rewards for the directors. The report was expressly restricted to the &#8220;commercial suitability&#8221; of the pension benefits, and did not offer &#8220;financial, pension, investment or tax planning advice&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(6)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Two days after the delivery of the Synergis report, on the last day of the company&#8217;s financial year, the directors of A D Bly had a meeting at which it was agreed that 100% of the projected pre-tax profits (now &#163;1,300,000) would be used to provide the unfunded pension arrangements with the relevant directors. The rewards determined by the directors diverged in several respects from those recommended by Synergis: FTT[43].</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(7)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"> On 14 November 2013 A D Bly resolved to enter into further unfunded pension arrangements for directors, with the pension provision being 80% of that year&#8217;s projected profits of &#163;3,000,000. The board appointed FLB Accountants LLP (&#8220;FLB&#8221;) to review the remuneration packages of the directors including the proposed pension provisions. FLB limited the scope of its advice by similar wording to that adopted by Synergis. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(8)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">On 28 November 2013 the directors resolved to enter into the 2013 agreements. The minutes of that meeting refer to projected pre-tax profits of &#163;2.9 million, but the final accounts showed a pension provision of &#163;4,435.180, being 80% of pre-tax profits of &#163;5,543,975.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(9)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">A D Bly subsequently paid pensions to three directors in accordance with the arrangements described above: FTT[50].</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT made findings of fact on similar issues in relation to CHR, with the material difference that prior to the periods under appeal CHR was found to have transferred its trade, employees and certain related assets and liabilities to a limited liability partnership, CHR (Travel) London LLP. The effect was &#8211; as the FTT found &#8211; that the principal activity of CHR became being a member of a trading limited liability partnership. CHR itself had no employees during the periods in question. Very broadly, the FTT&#8217;s findings followed a similar pattern to those made in relation to A D Bly, with reports again prepared by Synergis and FLB. In 2013, CHR made unfunded pension provisions equal to 80% of the company&#8217;s projected pre-tax profits for the year, and in 2014 equal to 100% of projected pre-tax profits, even though FLB&#8217;s report for 2014 had only recommended a provision equal to 80% of that figure. At the date of the FTT hearing, no pensions had been paid by CHR: FTT[51]-[76].</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Taxheading1">the relevant legislation and the ftt&#8217;s decision</heading>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT identified the issues in the appeal, at FTT[9], as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in">The only issue in this appeal is whether the deductions claimed by the Appellants in respect of pension provisions are allowable for tax purposes. That issue is determined by the answers to two questions: </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">were the pension provisions made by the Appellants wholly and exclusively for the purposes of a trade?</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">if so, does <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref> apply to disallow the deductions claimed by the Appellants as deductions in respect of employee benefit contributions by the employer?</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Taxheading2">Wholly and exclusively</heading>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As regards the first issue, <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref> provides as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">54 Expenses not wholly and exclusively for trade and unconnected losses</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In calculating the profits of a trade, no deduction is allowed for&#8212;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">expenses not incurred wholly and exclusively for the purposes of the trade, or </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(b)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">losses not connected with or arising out of the trade.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">If an expense is incurred for more than one purpose, this section does not prohibit a deduction for any identifiable part or identifiable proportion of the expense which is incurred wholly and exclusively for the purposes of the trade. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">At FTT[80], the FTT recorded that &#8220;the parties agreed that the test for determining whether an expense or, as in this case, a provision in respect of the liability to make a future payment has been incurred wholly and exclusively for the purposes of a trade is as set out in the decision of the Upper Tribunal in <span style="font-style:italic">Scotts Atlantic Management Ltd and another v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2015/66" uk:canonical="[2015] UKUT 66 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 66 (TCC)</ref> (&#8220;<span style="font-style:italic">Scotts Atlantic</span>&#8221;)&#8221;. The FTT then set out paragraphs [50]-[55] of that decision, which summarise the well-established principles to be drawn from the leading authorities in this area. The FTT stated that the decision in <span style="font-style:italic">Scotts Atlantic, </span>which was binding<span style="font-style:italic"/>on the FTT<span style="font-style:italic">,</span> showed that it was necessary to determine the object of each Appellant in incurring the liability: FTT[81]<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"><span/>Strictly speaking, the passages in <span style="font-style:italic">Scotts Atlantic</span> regarding the wholly and exclusively test are <span style="font-style:italic">obiter</span>, as the appeal was decided on the basis of another issue: [44] of <span style="font-style:italic">Scotts Atlantic</span>. Since the FTT referred to the relevant passages for the applicable principles, established in the leading authorities, nothing turns on this.<span/><span/></p>
+		</authorialNote>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Having summarised the arguments of the parties, the FTT stated as follows, at FTT[88]:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">There was not really any dispute that the Appellants had two purposes in mind when they decided to establish the UURBS and enter into the Unfunded Pension Agreements with the directors. Mr McSkimming and Mr Galpin maintained that the primary reason for the arrangements was to provide future pensions for key individuals in a way that did not involve any immediate reduction in working capital and, at the same time, the creation of a tax deduction which reduced the amount of tax payable by the company. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In considering the witness statements produced by the Appellants, the FTT concluded that the weight to be given to the statements as to the objects of making the provisions in the accounts was considerably reduced by the issues it had identified in relation to the evidence (see paragraph 10 above). The FTT found that the proposal to enter into the UURBS was &#8220;brought to the Appellants as a tax planning scheme by Charterhouse&#8221;: FTT[91]. Having considered all the evidence, including the limited roles of Synergis and FLB, the absence of any advice to the companies regarding comparative remuneration levels and the &#8220;warning notice&#8221; in the consultant engagement letters regarding tax, the FTT stated, at FTT[95]:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">We have concluded that the provision of pensions to directors was, at best, only an incidental aim of the Appellants when they established an UURBS and entered into the Unfunded Pension Agreements. This is shown by the fact that the size of the pension provision was determined as a percentage of the profits before tax regardless of the level of those profits and without discussion of or reference to any future pensions benefit to the directors. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT took into account the failure by the Appellants, without discussion or explanation, to limit the relevant pension provisions as suggested by the consultants. The FTT was also &#8220;unconvinced by the commerciality of the arrangements&#8221;, and considered that in relation to the liabilities incurred by the Appellants &#8220;the future business risk remains substantial&#8221;: FTT[98]. The FTT&#8217;s conclusion, at FTT[99], was this:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">On the basis of the facts found and for the reasons given above, we have concluded that the Appellants&#8217; primary purpose in entering into the Unfunded Pension Agreements was to reduce their liability to pay tax without incurring any actual expenditure. It follows that the liability to pay pensions under the Unfunded Pension Agreements was not incurred wholly and exclusively for the purposes of the Appellants&#8217; trades. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Taxheading2">Employee benefit contributions</heading>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In view of this conclusion, the FTT noted that it did not need to deal with HMRC&#8217;s alternative argument, but (helpfully) it did so fairly briefly. The FTT held that <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> would not have applied to prevent a deduction in the relevant periods.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We set out the relevant legislation and discuss the FTT&#8217;s decision below.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="Taxheading1">issues in this appeal</heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellants were granted permission to appeal the FTT&#8217;s decision relating to <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> on limited grounds by the Upper Tribunal following an oral hearing after permission had been refused on the papers. Judge Ramshaw refused permission to appeal on four grounds, which were <span style="font-style:italic">Edwards v Bairstow</span><authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"><span/><span style="font-style:italic">Edwards v Bairstow</span> <ref href="#" uk:canonical="[1956] AC 14" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1956">[1956] AC 14</ref>.</p>
+		</authorialNote> challenges to findings of fact or inferences of fact made by the FTT in the course of its decision. She concluded that she was &#8220;just persuaded&#8221; that the two remaining grounds were arguable, and granted permission for them. In summary, those two grounds were expressed by the Appellants as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">There is a fine line between having a separate tax saving purpose and choosing a tax efficient arrangement. The FTT erred in finding that, in entering into the arrangements, the Appellants had a separate purpose of avoiding tax.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The FTT applied the wrong test, premised on an erroneous analysis of the law. The FTT relied on <span style="font-style:italic">Scotts Atlantic</span> for the proposition that the acquisition of a tax advantage can, of itself, constitute a secondary benefit, rendering a deduction impermissible. The decision in <span style="font-style:italic">Scotts Atlantic</span> is incorrect. At its highest, it is authority that where the main intended goal of a transaction is the elimination of a company&#8217;s liability to tax that might provide a basis for a finding of duality of purpose. The facts in this appeal are far removed from those in <span style="font-style:italic">Scotts Atlantic</span>.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In their Respondents&#8217; Notice to the Appellants&#8217; notice of appeal, HMRC sought permission to submit that the FTT erred in law in concluding that deductions were not disallowed by <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref>. The Appellants objected to certain of the points which HMRC sought to raise in that respect. The Upper Tribunal granted HMRC the permission which they had sought.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Therefore, we must determine whether the Appellants succeed in their appeal against the FTT&#8217;s decision regarding <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> on either or both of the grounds for which they have permission, and, if so, whether HMRC succeed in their appeal against the FTT&#8217;s decision regarding <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref>.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="Taxheading1">wholly and exclusively: section 54</heading>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have considered the Appellants&#8217; arguments set out in Mr Thornhill&#8217;s skeleton argument and his oral submissions. As will become apparent, there was disagreement between the parties as to the scope of the permission to appeal granted to the Appellants, and, in relation to the apportionment argument discussed below, it was clear that no permission has been granted.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Thornhill&#8217;s submissions in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54(1)</ref> as set out in his skeleton argument all relate, to a greater or lesser degree, to the decision in <span style="font-style:italic">Scotts Atlantic</span> (in which Mr Thornhill acted for the taxpayer). We consider those submissions in turn.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">First, Mr Thornhill stated that &#8220;the decision of the FTT is substantially based on the UT decision in <span style="font-style:italic">Scotts Atlantic</span>&#8221;, and that was an error because the facts in this appeal were far removed from those in <span style="font-style:italic">Scotts Atlantic</span>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We agree that the facts in this appeal are different, but that is nothing to the point. It is clear that the FTT referred to the passages in <span style="font-style:italic">Scotts Atlantic</span> which it set out in the Decision ([50]-[55] of <span style="font-style:italic">Scotts Atlantic</span>) not as part of an exercise comparing the facts in that case with those in this appeal, but simply as a helpful summary of the leading authorities on the &#8220;wholly and exclusively&#8221; test. Indeed, the FTT recorded at FTT[80] that the parties agreed<span style="font-weight:bold"/>that the test was as set out in those passages. At FTT[80]-[81] the FTT stated as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">80.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The parties agreed that the test for determining whether an expense or, as in this case, a provision in respect of the liability to make a future payment has been incurred wholly and exclusively for the purposes of a trade is as set out in the decision of the Upper Tribunal in <span style="font-style:italic">Scotts Atlantic Management Ltd</span><span/><span style="font-style:italic">and another v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2015/66" uk:canonical="[2015] UKUT 66 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 66 (TCC)</ref>, <ref href="#" uk:canonical="[2015] STC 1321" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] STC 1321</ref> (&#8216;<span style="font-style:italic">Scotts</span><span/><span style="font-style:italic">Atlantic</span>&#8217;) at [50] &#8211; [55]: </p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in">&#8220;[50] First, &#8216;[a]s the taxpayer&#8217;s &#8216;object&#8217; in making the expenditure has to be found, it inevitably follows that (save in obvious cases which speak for themselves) the [FTT needs] to look into the taxpayer&#8217;s mind at the moment when the expenditure is made&#8217; (Lord Brightman in <span style="font-style:italic">Mallalieu v</span><span/><span style="font-style:italic">Drummond (Inspector of Taxes)</span> <ref href="#" uk:canonical="[1983] STC 665" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] STC 665</ref> at 669, <ref href="#" uk:canonical="[1983] 2 AC 861" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 2 AC 861</ref> at 870). </p>
+		      </content>
+		    </level>
+		    <paragraph>
+		      <intro>
+			<p class="Taxquotation" style="margin-left:1in">[51] Secondly, in so doing, the object of the expenditure must be distinguished from its effect. If the sole object of the expenditure was the promotion of the business, the expenditure is deductible, even though it necessarily involves other consequences. Thus the existence of for example a private advantage does not necessarily mean that the expenditure is disallowable. As Millett LJ said in <span style="font-style:italic">Vodafone Cellular Ltd v</span><span/><span style="font-style:italic">Shaw (Inspector of Taxes)</span> <ref href="#" uk:canonical="[1997] STC 734" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] STC 734</ref> at 742, <ref href="#" uk:canonical="69 TC 376" uk:isNeutral="false" uk:origin="TNA" uk:type="case">69 TC 376</ref> at 437: </p>
+		      </intro>
+		      <subparagraph>
+			<content>
+			  <p class="Taxquotation" style="margin-left:1.5in">&#8216;The object of the taxpayer in making the payment must be distinguished from the effect of the payment. A payment may be made exclusively for the purposes of the trade even though it also secures a private benefit. This will be the case if the securing of the private benefit was not the object of the payment but merely a consequential and incidental effect of the payment.&#8217; </p>
+			</content>
+		      </subparagraph>
+		      <wrapUp>
+			<p class="Taxquotation" style="margin-left:1in">[52] Another way of phrasing this is that a merely incidental effect of expenditure is not necessarily an object of a taxpayer in making it. However, as Lord Brightman&#8217;s well-known example in <span style="font-style:italic">Mallalieu</span> (see <ref href="#" uk:canonical="[1983] STC 665" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] STC 665</ref> at 669, <ref href="#" uk:canonical="[1983] 2 AC 861" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] 2 AC 861</ref> at 870) of the medical consultant going to the South of France to treat a friend shows, it may be the case that in fact what would be an incidental effect in some circumstances could be an independent object in others. What the FTT must not do is to conclude that merely because there was an effect, that effect was an object. </p>
+		      </wrapUp>
+		    </paragraph>
+		    <level>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in">[53] Thirdly, &#8216;[s]ome results are so inevitably and inextricably involved in particular activities they cannot but be said to be a purpose of the activity&#8217; (Lord Oliver in <span style="font-style:italic">MacKinlay (Inspector of Taxes) v Arthur Young</span><span/><span style="font-style:italic">McClelland Moores &amp; Co</span> <ref href="#" uk:canonical="[1989] STC 898" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] STC 898</ref> at 905, <ref href="#" uk:canonical="[1990] 2 AC 239" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] 2 AC 239</ref> at 255) [ &#8220;<span style="font-style:italic">MacKinlay</span>&#8221;] and as a result the conscious motive of the taxpayer is not decisive: &#8216;it is of vital significance but is not the only object which the fact finding tribunal is entitled to find to exist&#8217; (Lord Brightman in <span style="font-style:italic">Mallalieu</span>). Another way of putting that is that the FTT must take a robust approach to ascertaining the purposes of the taxpayer. </p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in">[54] There is one point to add: neither the statutory provision nor any of the cases indicate that the way in which an expense is incurred will determine whether the expense is deductible. The question is what is the object of the expense, not what was the object of the means of incurring it. But that is not to say that the means by which the expenditure is made cannot be one of the circumstances to be taken into account in determining its purpose.</p>
+		      </content>
+		    </level>
+		    <level>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in">[55] A trader may have a choice of the way in which it achieves an end which is exclusively for the benefit of the trade. The choice may be influenced, or indeed wholly determined, by the tax consequences of each choice. A taxpayer is perfectly entitled to order its affairs in a way which incurs the least tax liability. The mere fact that a choice is influenced or dictated by the tax consequences does not necessarily mean that the choice involves a duality of purpose as regards the expense. The words of Millett LJ are just as relevant and applicable where there is a choice as where there is not: in each case, the question is whether the payment is made exclusively for the purposes of the trade, and that is a question of fact for the FTT.&#8221; </p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">81.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.5in;text-indent:0.5in">The decision in <span style="font-style:italic">Scotts Atlantic</span>, which is binding on us, shows that we must determine the object of each Appellant in incurring the liability to pay future pensions to the companies&#8217; directors or, in certain circumstances, their dependants. In doing so, we must look into the minds of the companies (that is to say, the minds of the directors) when they decided to establish the UURBS and enter into the Unfunded Pension Agreements. In determining their reasons for doing so, we must be careful to distinguish between an object of entering into the Unfunded Pension Agreements and an incidental effect or mere consequence of doing so. In this case, that means deciding whether reducing profits for tax purposes in a tax year by 80% or 100% without incurring any actual expenditure during the same period was the object or one of the objects of the Appellants or merely a consequential and incidental effect of entering into the Unfunded Pension Agreements. Of course, the Appellants&#8217; motives are not necessarily determinative as some results are so inevitably and inextricably involved in particular activities, they cannot but be said to be a purpose of the activity. Where the purpose of an accounting debit is being considered in the context of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref>, it is necessary to look at the purpose of the transaction which that debit records and determine the underlying reason for the debit (see <span style="font-style:italic">NCL Investments Ltd and another v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/663" uk:canonical="[2020] EWCA Civ 663" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 663</ref> (&#8216;<span style="font-style:italic">NCL CA&#8217;</span>) at [52]).   </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It is no surprise that before the FTT the parties agreed that the passages above from <span style="font-style:italic">Scotts Atlantic</span> set out the correct test, as the principles which they summarise are well-established, and based on high authority. Nor do we find any error of law or misdirection in the statements at FTT[81] regarding the application of the stated principles to the facts in this appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">So, the assertion that it is necessary to compare the facts in this case with those in <span style="font-style:italic">Scotts Atlantic</span> is fundamentally misconceived, because the FTT did not compare, rely on or even refer to the factual matrix in <span style="font-style:italic">Scotts Atlantic</span>, but rather adopted the Upper Tribunal&#8217;s uncontroversial summary of the principles regarding the &#8220;wholly and exclusively&#8221; test found in cases such as <span style="font-style:italic">Mallalieu</span> and <span style="font-style:italic">Vodafone</span>, and then applied those principles to the facts in this appeal. Particularly given that the parties had agreed the relevance and accuracy of that summary, that approach was unimpeachable. Nor do we accept Mr Thornhill&#8217;s description of the FTT having erred by considering the wholly and exclusively issue through the &#8220;incorrect prism of <span style="font-style:italic">Scotts Atlantic</span>&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The second point made by Mr Thornhill was that in <span style="font-style:italic">Scotts Atlantic</span> it was found at [67] that the taxpayer had an &#8220;all-pervading object&#8221; of reducing its corporation tax liability by whatever means possible, and the FTT in this case erred because it should have considered whether there was a similar all-pervading purpose in this case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have no hesitation in rejecting this argument. In the first place, the finding referred to at [67] of <span style="font-style:italic">Scotts Atlantic</span> was actually a finding made by the FTT in that case, which was then the subject of some criticism by the Upper Tribunal in the paragraphs which followed as having the potential to be an unwarranted gloss on the statutory language. Secondly, the FTT in this case would have erred in law in directing itself to determine whether there was an all-pervading purpose of reducing tax (whatever that phrase might mean) because that is not the inquiry required by the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>. Thirdly, in any event the FTT found that the primary purpose of the Appellants in entering into the arrangements was to reduce their liability to tax without incurring actual expenditure: FTT[99]. Fourthly, given the fact-sensitive nature of the enquiry, the FTT was right not to embark on a comparison of the facts in other cases. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Third, said Mr Thornhill, the FTT erred by confusing the object or purpose of making the provision with the chosen (tax-efficient) effect of achieving that object. We do not accept that assertion. The FTT was well aware of this distinction. It was referred to several times in the passage from <span style="font-style:italic">Scotts Atlantic</span> set out above, and the FTT reminded itself of the distinction at FTT[81]. Its reasoning and conclusion show that it did not confuse object and effect.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Fourth, said Mr Thornhill, the FTT was influenced in its conclusion by a number of irrelevant factors. These included the failure of the Appellants to take pensions advice; the similarity of the conclusions reached by the two companies; the calculation of the provisions by reference to a percentage of profits; the fact that the arrangements were brought to the notice of the Appellants as a tax saving scheme, and the lack of commerciality in the arrangements. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We raised with Mr Thornhill the question of whether this argument fell within the grounds of appeal for which permission had been granted, given that Judge Ramshaw had explicitly refused permission for the various <span style="font-style:italic">Edwards v Bairstow</span> grounds. Mr Thornhill argued that on a proper construction the grounds for which permission was granted in effect incorporated the <span style="font-style:italic">Edwards v Bairstow</span> challenges by reference. We think it most likely that Judge Ramshaw did not intend to give permission for these challenges, but we have considered them as we can deal with them briefly.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> An appeal to this tribunal lies only on a point of law: <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/11/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 11(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">Tribunals, Courts and Enforcement Act 2007</ref>. While there cannot be an appeal on a pure question of fact which is decided by the FTT, the FTT may arrive at a finding of fact in a way which discloses an error of law. That is clear from <span style="font-style:italic">Edwards v Bairstow</span>, in which Viscount Simonds referred to making a finding without any evidence or upon a view of the facts which could not be reasonably entertained, and Lord Radcliffe described as errors of law cases where there was no evidence to support a finding, or where the evidence contradicted the finding or where the only reasonable conclusion contradicted the finding. Lord Diplock has described this ground of challenge as &#8220;irrationality&#8221;<authorialNote class="footnote" marker="3">
+		  <p class="FootnoteText"><span/><span style="font-style:italic">Council for Civil Service Unions v Minister for the Civil Service</span> <ref href="#" uk:canonical="[1985] AC 374" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] AC 374</ref>, at 410F-411A.</p>
+		</authorialNote>. In the well-known words of Evans LJ in <span style="font-style:italic">Georgiou v</span><span/><span style="font-style:italic">Customs and Excise Commissioners</span> <ref href="#" uk:canonical="[1996] STC 463" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] STC 463</ref>, at 476:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230; for a question of law to arise in the circumstances, the appellant must first identify the finding which is challenged; secondly, show that it is significant in relation to the conclusion; thirdly, identify the evidence, if any, which was relevant to that finding; and fourthly, show that that finding, on the basis of that evidence, was one which the tribunal was not entitled to make. What is not permitted, in my view, is a roving selection of evidence coupled with a general assertion that the tribunal's conclusion was against the weight of the evidence and was therefore wrong. A failure to appreciate what is the correct approach accounts for much of the time and expense that was occasioned by this appeal to the High Court. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The argument in this case is an instance of a roving selection of evidence. None of the factors referred to was irrelevant to the FTT&#8217;s enquiry into the taxpayer&#8217;s objects. The weight to be given to those factors was a matter for the FTT. The Appellants have fallen a long way short of demonstrating, as required, that the FTT was not entitled to make the finding which it did on the basis of all the relevant evidence. In particular, in reaching its conclusion as to the Appellants&#8217; objects, the FTT set out in detail at FTT[95]-[98] the evidence and findings which it had taken into account. On the basis of those facts, the decision reached by the FTT was plainly one which was available to it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Finally, Mr Thornhill made the following arguments in support of the submission that the FTT erred because securing a tax advantage is not a separate &#8220;purpose&#8221; in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The decision in <span style="font-style:italic">Scotts Atlantic</span> is wrongly decided by reference to the antecedent authorities. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span/><span style="font-style:italic">Scotts Atlantic</span> is inconsistent with, and irreconcilable with, the decision of the Court of Appeal in <span style="font-style:italic">Hoey v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/656" uk:canonical="[2022] EWCA Civ 656" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 656</ref> (&#8220;<span style="font-style:italic">Hoey</span>&#8221;), which was released after the Decision.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">&#8220;It is unsustainable as matter of law to suggest that the achievement of a tax advantage is a separate purpose which means that the whole expenditure is not wholly and exclusively for the purposes of the trade&#8221;, and it is even more absurd in the realm of pension contributions, which are encouraged by way of tax incentives.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> The first argument would be relevant if this were an appeal against the decision in <span style="font-style:italic">Scotts Atlantic</span>, but it is not. As we have explained, the FTT did not rely on or refer to either the facts or the<span style="font-style:italic"/>decision reached in that case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> In <span style="font-style:italic">Hoey</span>, various issues arose relating to the &#8220;transfer of assets abroad&#8221; legislation<authorialNote class="footnote" marker="4">
+		  <p class="FootnoteText"> The legislation is contained in Chapter 2 of Part 13 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/3" uk:canonical="2007 c. 3" uk:origin="TNA" uk:type="legislation">Income Tax Act 2007</ref>.</p>
+		</authorialNote>. In assessing the quantum of relevant income potentially liable to tax under that legislation, it was necessary to determine whether certain sums paid by employing companies to various employee benefit trusts were paid wholly and exclusively for the purposes of the paying company&#8217;s trade, to the extent that they were referable to services provided by Mr Hoey. There was no such issue as to payments of salary to Mr Hoey: <span style="font-style:italic">Hoey</span> at [188]. It was also necessary to determine whether the paying companies were carrying on a genuine trade with a view to profit.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Court of Appeal dealt with these two issues at [188]-[200] in a unanimous decision. The Court dealt first with HMRC&#8217;s argument that the companies were not trading because they were part of a tax avoidance scheme. It rejected that argument at [193], on the bases that (1) there was no evidence that the paying companies were engaged in any tax avoidance activity of their own and (2) HMRC had not suggested that the transactions entered into by the employers were &#8220;so affected or inspired by fiscal considerations that the shape and character of the transaction is no longer that of a trading transaction&#8221;, quoting Lord Morris in <span style="font-style:italic">FA &amp; AB</span><span/><span style="font-style:italic">Ltd v Lupton</span> <ref href="#" uk:canonical="[1972] AC 634" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1972">[1972] AC 634</ref> at 647 and citing the decision of the Court of Appeal in I<span style="font-style:italic">ngenious</span><span/><span style="font-style:italic">Games LLP v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1180" uk:canonical="[2021] EWCA Civ 1180" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1180</ref> at [98] (&#8220;<span style="font-style:italic">Ingenious Games CA</span>&#8221;). Further, the Court noted that the premise upon which the &#8220;wholly and exclusively&#8221; issue arose was that the employers were carrying on a genuine trade for tax purposes.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In a passage heavily relied on by Mr Thornhill, the Court then said this, at [194]:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">Furthermore, once the existence of a trade is recognised, the mere fact that a transaction is entered into with a fiscal motive does not, in the normal way, denature it or mean that it is infected by a duality of purpose which makes expenditure on it non-deductible. At times, HMRC&#8217;s arguments seemed to come close to suggesting that the courts should recognise a general principle that the existence of a tax avoidance motive which is more than purely incidental must give rise to a duality of purpose which means that the wholly and exclusively rule cannot be satisfied. Any such principle, if it existed, would have very far-reaching implications, and would be contrary to many statements in the case law that the existence of a fiscal motive is generally irrelevant in answering the objective question whether there is a trade: see, for example, <span style="font-style:italic">Ingenious Games</span> at [64], where the court referred to &#8220;the general irrelevance of fiscal motive in answering the objective question whether the transaction viewed as a whole constitutes a trade&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Court then considered various decisions in which payments were held to be non-deductible because, on the facts, they were found to have more than one purpose. It rejected the analogy suggested by HMRC with the position in one of those cases, <span style="font-style:italic">MacKinlay</span>, holding that in making the payments to the EBT both the object and purpose of the companies was the same as in paying Mr Hoey salary, stating as follows at [198]:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">In our judgment, this was inescapably both the object and the purpose of the expenditure by the Employers in making the payments to the EBTs, just as it was of the payments made by way of salary to Mr Hoey directly. The fact that the Employers may also have had the ulterior motive of helping Mr Hoey to engage in a tax avoidance scheme cannot, in our view, amount to a separate object of the Employers in making the payments. It was, at most, &#8220;a consequential and incidental effect of the payment&#8221;, and thus fell within the third proposition stated by Millett LJ in the <span style="font-style:italic">Vodafone</span> case at 742g-h. In the case of an employee, as Lord Oliver said in <span style="font-style:italic">MacKinlay</span> at 254, anything paid to him by way of remuneration for acting as an employee &#8220;cannot easily fail to be deductible as an expenditure exclusively for the purpose of the firm&#8217;s business&#8221;. Given the existence of that principle, it seems to us that there was an evidential burden on HMRC to explain why the payments into the EBTs were not deductible in computing the Employers&#8217; profits, once it was established that the payments formed part of Mr Hoey&#8217;s remuneration. That evidential burden was neither recognised nor discharged by HMRC, and we can see nothing to displace the strong prima facie inference that the whole amount of the payments into the EBTs in respect of Mr Hoey&#8217;s services was properly deductible as expenditure wholly and exclusively incurred for the purposes of the Employers&#8217; trade. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> Mr Thornhill said that in light of [194] of <span style="font-style:italic">Hoey</span>, <span style="font-style:italic">Scotts Atlantic</span> must now be regarded as wrongly decided. At the risk of repeating ourselves, that is not the issue in this appeal. However, in his oral submissions, Mr Thornhill developed this point to make an argument which in our view is relevant. This was that the statements in <span style="font-style:italic">Hoey</span> set out above mark a significant difference in the approach to be taken to the &#8220;wholly and exclusively&#8221; issue in any situation where the non-trading purpose alleged by HMRC is the obtaining of a tax benefit. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">When properly understood and looked at in context, we do not consider that any of the statements made by the Court of Appeal in <span style="font-style:italic">Hoey </span>are inconsistent with the earlier leading authorities on the meaning of &#8220;wholly and exclusively&#8221;, such as <span style="font-style:italic">Mallalieu</span>, <span style="font-style:italic">Vodafone</span> and <span style="font-style:italic">MacKinlay</span>. We do not consider that they support the proposition put forward by Mr Thornhill that a duality of purpose, such as to prevent deductibility under <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>, cannot arise by reference to a purpose of avoiding or reducing tax. Nor do they support the proposition that  the payment of remuneration will <span style="font-style:italic">always </span>satisfy the wholly and exclusively test, though, as we discuss below, it will normally do so.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">If the Court of Appeal had intended to cast doubt on or qualify any of the leading authorities on the deductibility of payments it would have said so. To the contrary, at [170] the Court set out the main principles applicable to the wholly and exclusively test, which it described as agreed between the parties, by reference to the &#8220;convenient and authoritative summary&#8221; of Millet J in <span style="font-style:italic">Vodafone</span>. That summary itself described as the leading modern cases on the wholly and exclusively test <span style="font-style:italic">Mallalieu</span> and <span style="font-style:italic">MacKinlay</span>. The Court later referred to and relied on the leading authorities in its discussion of the issue. Therefore, it is clear in our view that no doubt was cast, or intended to be cast, on those authorities by the Court of Appeal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As to whether remuneration will normally be allowable, we note that the Court does state at [172] that &#8220;where the remuneration paid to an employee is reasonable in amount, and the services in question were performed for the purposes of the employer&#8217;s trade, it is usually difficult to envisage circumstances in which deduction of the expenditure will not be allowable&#8221;. We respectfully agree. However, it is implicit in this statement that not every payment of remuneration is deductible. The statement at [172] of <span style="font-style:italic">Hoey </span>directly follows this important comment on Millet J&#8217;s principles, at [171], (emphasis added to original):</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">It follows from the application of these principles that where a trader pays remuneration to an employee for services performed in furtherance of the employer&#8217;s business, <span style="font-weight:bold">it is not invariably the case that the payment will satisfy the wholly and exclusively rule</span><span style="font-style:italic">.</span> For example, the wages may be deliberately inflated so as to confer a personal benefit on the employee,<span style="font-weight:bold"> or with the object of artificially reducing the employer&#8217;s taxable profit. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Certain of the comments at [194] on which the greatest reliance was placed by Mr Thornhill follow on from the Court of Appeal&#8217;s comments on the separate argument by HMRC, rejected at [193], that a fiscal motive can prevent the existence of what would otherwise be a trade. That is clear from the fact that it refers back to [193], by beginning with the word &#8220;[F]urthermore&#8221;, and by the final sentence of [194], which refers to the significance of a fiscal purpose to the objective question of <span style="font-style:italic">whether there is a trade</span>. They provide a context to the statements in [194] relating to deductibility, including the rejection by the Court of &#8220;a general principle that the existence of a tax avoidance motive which is more than purely incidental must give rise to a duality of purpose which means that the wholly and exclusively rule cannot be satisfied&#8221;. However, it cannot be taken to mean that a purpose which consists of some form of tax advantage is necessarily irrelevant in applying <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>. That would be inconsistent with the summary of the applicable principles set out at [170], and directly contradictory to the example given at [171] of a disqualifying object of artificially reducing taxable profit.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It seems to us that the point being made at [194] of <span style="font-style:italic">Hoey</span>, with which we respectfully agree, is that payments of remuneration will be very likely to be deductible, because in most cases the tax effect of the payment is an effect and not a purpose. The mere fact of choosing a tax-effective means of paying remuneration does not give rise to a duality of purpose. As stated at [55] of <span style="font-style:italic">Scotts Atlantic</span>:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">A taxpayer is perfectly entitled to order its affairs in a way which incurs the least tax liability. The mere fact that a choice is influenced or dictated by the tax consequences does not necessarily mean that the choice involves a duality of purpose as regards the expense. The words of Millett LJ are just as relevant and applicable where there is a choice as where there is not: in each case, the question is whether the payment is made exclusively for the purposes of the trade, and that is a question of fact for the FTT. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">What the Court of Appeal is saying at [194], it seems to us, is that just as a fiscal motive does not denature a trade (unless it is so powerful that it denatures the activity), a fiscal motive does not normally prevent a payment of remuneration from being deductible. However, in this case the facts found by the FTT supported a conclusion that this was not a normal case, but a variation of the example referred to at [171] of <span style="font-style:italic">Hoey</span> of a payment being made with the object of artificially reducing the employer&#8217;s taxable profit. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Thornhill&#8217;s broad proposition that securing a tax advantage can never be a separate purpose in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> would mean that a number of cases in which it has been held that the existence of a non-incidental purpose related to tax prevented an expense from being incurred wholly and exclusively for the purposes of a trade were wrongly decided. For example, the Upper Tribunal&#8217;s decision in <span style="font-style:italic">Ingenious Games LLP v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2019/0226" uk:canonical="[2019] UKUT 0226 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 0226 (TCC)</ref> on this issue<authorialNote class="footnote" marker="5">
+		  <p class="FootnoteText"> The wholly and exclusively issue is discussed at [459]-[487] of the decision, and see in particular [472]-[473].</p>
+		</authorialNote> would be wrong, even though permission to appeal on that point was refused<authorialNote class="footnote" marker="6">
+		  <p class="FootnoteText"> See<span/><span style="font-style:italic">Ingenious Games CA</span> at<span/>[41], and the Court of Appeal&#8217;s refusal to reopen the refusal of permission,<span/>reported at <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1180" uk:canonical="[2021] EWCA Civ 1180" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1180</ref>.<span/></p>
+		</authorialNote>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We reject Mr Thornhill&#8217;s proposition. The inquiry mandated by the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref> is quite clear, and there is no warrant or rationale for excluding a non-trading purpose simply because it relates to tax. Nor does that position require that the non-trading purpose is found to be &#8220;tax avoidance&#8221; as contrasted to some other form of tax saving. The safeguard for a taxpayer lies in the necessity for the fact-finding tribunal or court to distinguish purpose and effect, and to distinguish between the object of the expenditure and the means chosen to achieve it. Both of these points are dealt with explicitly in the summary in <span style="font-style:italic">Scotts Atlantic</span> (to which the FTT referred) of the relevant principles to be drawn from the leading authorities. We agree with Mr Thornhill that in relation to a tax purpose, carrying out that exercise may be difficult in practice, but the decision in <span style="font-style:italic">Hoey </span>does not cast doubt on the position in law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In this case, as we have noted, the FTT found that the Appellants&#8217; <span style="font-weight:bold">primary</span> purpose was to reduce tax without incurring actual expenditure. We think it would have been more accurate for the FTT to have referred to the incurring of actual expenditure in the accounting period in which the deduction arose for tax purposes, since in A D Bly&#8217;s case it did incur some of the expenditure, albeit in subsequent accounting periods. Put another way, the tax advantage was at the least a timing advantage, and potentially a permanent advantage to the extent that the promised payments were not in due course made.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In oral submissions, Mr Thornhill sought to argue that, if we did not accept the two grounds for which permission has been given, then in the alternative a proportion of the provisions made by the Appellants was a deductible expense by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref>. This was not a ground of appeal which was raised before the FTT, and no permission to advance it in this appeal has been sought from either the FTT or Upper Tribunal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In deciding whether to give permission for this argument to be raised, we have taken into account the principles helpfully summarised by the Court of Appeal in <span style="font-style:italic">Notting Hill Finance Limited v Sheikh</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/1337" uk:canonical="[2019] EWCA Civ 1337" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 1337</ref>. Snowden J, who gave the leading judgment, stated as follows, so far as relevant in this case:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">23.</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Surprisingly, however, [the White Book] notes do not refer to the most authoritative and frequently applied statement of the approach of an appellate court to the question of whether to permit a new point to be taken on appeal. That statement appears in the judgment of Nourse LJ in <span style="font-style:italic">Pittalis v Grant</span> <ref href="#" uk:canonical="[1989] QB 605" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] QB 605</ref> at page 611,</p>
+	      </intro>
+	      <subparagraph>
+		<intro>
+		  <p class="Taxquotation" style="margin-left:1in">"The stance which an appellate court should take towards a point not  raised at the trial is in general well settled: see <span style="font-style:italic">Macdougall v. Knight</span> (1889) 14 App. Cas. 194 and <span style="font-style:italic">The Tasmania</span> (1890) 15 App. Cas. 223. It is perhaps best stated in <span style="font-style:italic">Ex parte Firth, In re Cowburn</span> (1882) 19 Ch.D. 419, 429, per Sir George Jessel M.R.: </p>
+		</intro>
+		<subparagraph>
+		  <content>
+		    <p class="Taxquotation" style="margin-left:1.5in">"the rule is that, if a point was not taken before the tribunal which  hears the evidence, and evidence could have been adduced which by any possibility would prevent the point from succeeding, it cannot be taken afterwards. You are bound to take the point in the first instance, so as to enable the other party to give evidence."</p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in">The principles were also recently restated by Haddon-Cave LJ in <span style="font-style:italic">Singh v Dass</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/360" uk:canonical="[2019] EWCA Civ 360" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 360</ref> at [15]-[18], </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">"15.</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The following legal principles apply where a party seeks to raise a new point on appeal which was not raised below.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">16.</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.54in">First, an appellate court will be cautious about allowing a new point to be raised on appeal that was not raised before the first instance court. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">17.</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Second, an appellate court will not, generally, permit a new point to be raised on appeal if that point is such that either (a) it would necessitate new evidence or (b), had it been run below, it would have resulted in the trial being conducted differently with regards to the evidence at the trial (<span style="font-style:italic">Mullarkey v Broad</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/2" uk:canonical="[2009] EWCA Civ 2" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 2</ref> at [30] and [49]). </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">18.</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Third, even where the point might be considered a 'pure point of law', the appellate court will only allow it to be raised if three criteria are satisfied: (a) the other party has had adequate time to deal with the point; (b) the other party has not acted to his detriment on the faith of the earlier omission to raise it; and (c) the other party can be adequately protected in costs. (<span style="font-style:italic">R (on the application of Humphreys) v Parking and Traffic Appeals</span><span/><span style="font-style:italic">Service</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/24" uk:canonical="[2017] EWCA Civ 24" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 24</ref> at [29])." </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Where an expense would otherwise fall outside <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54(1)</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54(2)</ref> permits a deduction for &#8220;any identifiable part or identifiable proportion of the expense which is incurred wholly and exclusively for the purposes of the trade&#8221;. The reference to an identifiable part of the expenditure (or in this case, the provision) clearly requires, and indeed turns on, a factual enquiry. Applying the principles summarised above, and taking into account the overriding objective, we are clear that we should not allow this new point to be raised in this appeal. The time and place to have raised it, and to have considered the relevant evidence from both parties, was in the hearing before the FTT.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT found on the facts that &#8220;the Appellants&#8217; primary purpose in entering into the Unfunded Pension Agreements was to reduce their liability to pay tax without incurring any actual expenditure&#8221;, so that the relevant liabilities were not incurred wholly and exclusively for the purposes of the Appellants&#8217; trades: FTT[99]. We consider that the FTT correctly directed itself as to the relevant legal principles, and, subject to the point we make above regarding the timing of the expenditure, for the reasons we set out above, reached a conclusion which was available to it on the facts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellants&#8217; appeal is dismissed. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="Taxheading1">employee benefit contributions</heading>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">With the permission of the Upper Tribunal, by way of Respondent&#8217;s Notice HMRC argue that the FTT erred in law in concluding that deductions would not have been disallowed by <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref> if they had been otherwise permitted by <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In view of our decision to dismiss the Appellants&#8217; appeal there is no need for us to determine this issue. However, since we heard detailed argument on it we will set out our views.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1290</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref> provides as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">1290 Employee benefit contributions</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">This section applies if, in calculating for corporation tax purposes the profits of a company (&#8216;the employer&#8217;) of a period of account, a deduction would otherwise be allowable for the period in respect of employee benefit contributions made or to be made &#8230; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">No deduction is allowed for the contributions for the period except so far as&#8212;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0in">qualifying benefits are provided, or qualifying expenses are paid, out of the contributions during the period or within 9 months from the end of it, or</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0in">if the making of the contributions is itself the provision of qualifying benefits, the contributions are made during the period or within 9 months from the end of it. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(3)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">An amount disallowed under subsection (2) is allowed as a deduction for a subsequent period of account so far as&#8212;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0in">qualifying benefits are provided out of the contributions before the end of the subsequent period, or </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">if the making of the contributions is itself the provision of qualifying benefits, the contributions are made before the end of the subsequent period&#8230; </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1290</ref> must be read with section 1291, which relevantly provides:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">1291 Making of &#8220;employee benefit contributions&#8221;  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">For the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> an &#8220;employee benefit contribution&#8221; is made if, as a result of any act or omission&#8212;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">property is held, or may be used, under an employee benefit scheme, or </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">there is an increase in the total value of property that is so held or may be so used (or a reduction in any liabilities under an employee benefit scheme). </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">For this purpose &#8220;employee benefit scheme&#8221; means a trust, scheme or other arrangement for the benefit of persons who are, or include, present or former employees of the employer or persons linked with present or former employees of the employer.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT discussed the decisions of the FTT in <span style="font-style:italic">NCL Investments Ltd and another v</span><span/><span style="font-style:italic">HMRC</span> [2017] 495 (TC) (&#8220;<span style="font-style:italic">NCL FTT</span>&#8221;) and the Court of Appeal in that case (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/663" uk:canonical="[2020] EWCA Civ 663" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 663</ref>) (&#8220;<span style="font-style:italic">NCL CA</span>&#8221;). On the basis of <span style="font-style:italic">NCL CA</span> the FTT rejected HMRC&#8217;s arguments, deciding that the creation of an unfunded contractual entitlement to a pension did not give rise to an &#8220;employee benefit contribution&#8221; as defined. Therefore, held the FTT, <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> would not have applied to prevent a deduction if such a deduction had been permitted under <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/54" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 54</ref>.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Following the Decision, the judgment of the Supreme Court in <span style="font-style:italic">HMRC v NCL</span><span/><span style="font-style:italic">Investments Ltd and another</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2022/9" uk:canonical="[2022] UKSC 9" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKSC 9</ref> (&#8220;<span style="font-style:italic">NCL SC</span>&#8221;) was released. We have taken <span style="font-style:italic">NCL SC</span> into account in reaching our decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> Ms Murray submitted that, contrary to the FTT&#8217;s decision, the deductions claimed by the Appellants were in respect of &#8220;employee benefit contributions&#8221; made by them, in the form of the Appellants&#8217; promises under the Unfunded Pension Agreements to pay income in the future to their directors. The making of those promises were acts as a result of which the directors held property, namely their contractual rights, under an arrangement for the benefit of the directors. Ms Murray argued that this analysis was wholly consistent with <span style="font-style:italic">NCL SC</span>. She said that the FTT&#8217;s reliance, at FTT[111], on the fact that the creation of an unfunded pension entitlement is not a &#8220;payment or transfer&#8221; derives from the suggestion in <span style="font-style:italic">NCL CA</span> that <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 1290</ref> and 1291 envisage a payment or transfer being made, and that approach was not endorsed in <span style="font-style:italic">NCL SC</span>. Further, said Ms Murray, changes made by the <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11" uk:canonical="2011 c. 11" uk:origin="TNA" uk:type="legislation">Finance Act 2011</ref> make it clear that <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> is intended to apply to a scheme for the payment of pension income.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">One of the issues in <span style="font-style:italic">NCL</span> was whether <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> applied to prevent or defer a deduction which would otherwise be available in respect of accounting debits resulting from the grant of employee share options. The Supreme Court in <span style="font-style:italic">NCL SC</span> agreed with the FTT and Upper Tribunal that the section would not apply because the grant of the options did not give rise to an &#8220;employee benefit contribution&#8221; for the purposes of section 1291. At [70] the Supreme Court said this:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">[The Option] is an actual emolument and the Options are not, once granted, &#8220;held&#8221; by the employees under the employee benefit scheme even though the scheme will have set the terms on which they can be exercised in future and even though the deduction of the Debit in respect of them is spread across the vesting period.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As noted in <span style="font-style:italic">NCL FTT</span><authorialNote class="footnote" marker="7">
+		  <p class="FootnoteText"><span/><span style="font-style:italic">NCL FTT</span> at [96].</p>
+		</authorialNote>, section 1291 does not define &#8220;employee benefit contributions&#8221;, but rather sets out the circumstances in which an employee benefit contribution is made as a result of &#8220;any act or omission&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">If we had needed to decide the issue, we would have agreed with the FTT that the arrangements in this case do not give rise to employee benefit contributions for the purpose of section 1291, with the result that <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> would not prevent a deduction if one had otherwise been available.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As the Court of Appeal observed in <span style="font-style:italic">NCL CA</span>, a literal reading of section 1291(1) would be capable of including the grant of an employee share option, but such a reading would ignore the context created by <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref>: <span style="font-style:italic">NCL CA</span> at [77]. As the Court of Appeal said at [77]-[78]:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230;The FTT was right to note that "employee benefit contributions" is not itself directly defined. Even if it were, the choice of words used for a defined term is not to be treated as wholly neutral but may properly influence its meaning: see&#160;<span style="font-style:italic">Chartbrook Ltd v Persimmon Homes Ltd&#160;</span><a href="https://www.bailii.org/uk/cases/UKHL/2009/38.html" title="Link to BAILII version"><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2009/38" uk:canonical="[2009] UKHL 38" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] UKHL 38</ref></a>,&#160;<a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/uk/cases/UKHL/2009/38.html"><ref href="#" uk:canonical="[2009] 1 AC 1101" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 AC 1101</ref></a>&#160;per Lord Hoffmann at [17]. "Employee benefit contributions" is not an empty vessel or algebraic symbol, dependent wholly on section 1291(1) for any meaning.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">78.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">A contribution, resulting in property being held or used under an employee benefit scheme, suggests a payment or transfer from which benefits will be provided to employees. As the FTT said, this is expressly contemplated by <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290(2)</ref>(a).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> Ms Murray criticised the FTT in this case for agreeing with the statement by the Court of Appeal that the statutory language suggests a payment or transfer, saying that the Supreme Court did not endorse that statement. However, at [19] of its decision the Supreme Court referred to all of HMRC&#8217;s arguments, including that relating to <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref>, noting that the courts below had agreed for the most part with the conclusions reached by the FTT in that case, and then stated:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">Since we have come to the same conclusions as all the judges who have so far grappled with these issues, we do not need to set out their reasoning - it is also our reasoning and is set out below.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In the section of the decision dealing specifically with <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> (<span style="font-style:italic">NCL SC</span> [58]-[73]), the Supreme Court expressly referred to [77]-[78] of <span style="font-style:italic">NCL CA</span>. Whilst we agree that the Supreme Court did not specifically endorse those passages, it certainly said nothing to indicate that this aspect of the Court of Appeal&#8217;s reasoning fell outside the general endorsement at <span style="font-style:italic">NCL SC</span> [19].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In our view, there are other respects in which the wording of section 1291, construed in context, is inapt to describe the arrangements in this appeal. In isolation, the reference in the definition of &#8220;employee benefit scheme&#8221; in section 1291(2) to &#8220;a trust, scheme or other arrangement&#8221; might be wide enough to encompass the contractual arrangements in this appeal. However, construing <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 1290</ref> and 1291 together in their entirety, we think it likely that   the reference to &#8220;other arrangement&#8221; is to be construed <span style="font-style:italic">sui generis</span> to refer to something akin to a trust or similar arrangement. The latter construction finds support at <span style="font-style:italic">NCL SC</span> [72].</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Finally, we do not consider that pursuant to the arrangements &#8220;property is held, or may be used, under an employee benefit scheme&#8221;. The only &#8220;property&#8221; suggested by Ms Murray was the contractual promise made by the Appellants. In our view such a promise is not &#8220;held&#8221; by a director to whom the promise is made &#8220;under&#8221; the employee benefit scheme (assuming for this purpose that there is such a scheme) for similar reasons to those of the Supreme Court in relation to the options in <span style="font-style:italic">NCL SC</span>. Rather, it is simply a term of the contractual arrangements and is not properly described as property &#8220;held&#8230;under&#8221; the arrangements.   This follows from the other reasons, described above, why we consider that <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> does not apply on the facts of this case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Ms Murray argued that the changes to the definition of &#8220;employer-financed retirement benefits scheme&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4/section/1296" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1296</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2009/4" uk:canonical="2009 c. 4" uk:origin="TNA" uk:type="legislation">CTA 2009</ref> which were introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11" uk:canonical="2011 c. 11" uk:origin="TNA" uk:type="legislation">Finance Act 2011</ref> show that <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref> is intended to apply to a scheme for the payment of pension income. However, all those changes do is to carve out the exclusion of pension income from the definition; that tells us nothing about whether the particular arrangements in this case fall within <ref href="http://www.legislation.gov.uk/id/ukpga/2011/11/section/1290" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1290</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">If it had been necessary in disposing of this appeal we would have dismissed HMRC&#8217;s challenge to the FTT&#8217;s conclusion on this issue.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="Taxheading1">disposition</heading>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellants&#8217; appeal is dismissed.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_10_1">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">JUDGE THOMAS SCOTT</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_10_2">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">JUDGE ASHLEY GREENBANK</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_10_3">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">Release date: </span><docDate date="2024-04-22" refersTo="#decision" style="font-weight:bold">22 April 2024</docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

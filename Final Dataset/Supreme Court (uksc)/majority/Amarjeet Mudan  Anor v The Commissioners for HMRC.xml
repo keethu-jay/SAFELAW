@@ -1,0 +1,1142 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/tcc/2024/307"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/tcc/2024/307"/>
+	  <FRBRdate date="2024-10-02" name="decision"/>
+	  <FRBRauthor href="#ukut-tcc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="307"/>
+	  <FRBRname value="Amarjeet Mudan &amp; Anor v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/307"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/307"/>
+	  <FRBRdate date="2024-10-02" name="decision"/>
+	  <FRBRauthor href="#ukut-tcc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/307/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/307/data.xml"/>
+	  <FRBRdate date="2024-10-10T08:50:42" name="transform"/>
+	  <FRBRdate date="2025-08-16T19:22:39" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-06-28" refersTo="#hearing" source="#"/>
+	<eventRef date="2024-10-02" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-tcc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-tax-and-chancery-chamber" showAs="United Kingdom Upper Tribunal (Tax and Chancery Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="amarjeet-mudan-and-tajinder-mudan" href="" showAs="AMARJEET MUDAN AND TAJINDER MUDAN"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-TCC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>307</uk:number>
+	<uk:cite>[2024] UKUT 307 (TCC)</uk:cite>
+	<uk:parser>0.26.7</uk:parser>
+	<uk:hash>f52cad01a3c860f36e41431692cb7bb5aaf51018eca129df7ddeb83e21cecdee</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading3 { text-align: justify; font-size: 12pt; color: #1F3763; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .NormalWeb { text-align: left; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .Heading3Char { font-size: 12pt; color: #1F3763; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:82.49pt;height:72pt"/></p>
+      <p style="text-align:left">Neutral Citation: <neutralCitation style="font-weight:bold;font-family:'Book Antiqua';color:#000000">[2024] UKUT 00307 (TCC)</neutralCitation></p>
+      <p style="text-align:right">Case Number: UT/2023/000063</p>
+      <p style="text-align:left"><courtType refersTo="#ukut-tcc" style="font-weight:bold">UPPER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-tcc" style="font-weight:bold">(Tax and Chancery Chamber)</courtType></p>
+      <p style="text-align:right;margin-left:3.05in">The Royal Courts of Justice,</p>
+      <p style="margin-left:3.05in">                                   Rolls Building, London  </p>
+      <p><span style="font-style:italic">STAMP DUTY LAND TAX &#8211; building previously used as dwelling in need of renovation and repair at time of completion of purchase &#8211; whether building &#8220;suitable for use as a single dwelling&#8221;</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2024-06-28" refersTo="#hearing">28 June 2024</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>01 October 2024</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">JUDGE THOMAS SCOTT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">JUDGE ASHLEY GREENBANK</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#amarjeet-mudan-and-tajinder-mudan" style="font-weight:bold">AMARJEET MUDAN AND TAJINDER MUDAN</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellants:<marker name="tab"/>Michael Firth KC, instructed by Cornerstone Tax 2020 Limited</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Michael Ripley, instructed by the General Counsel and Solicitor to His Majesty&#8217;s Revenue and Customs</p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr and Mrs Mudan (the &#8220;Appellants&#8221;) bought a property in London (the &#8220;Property&#8221;) and paid stamp duty land tax (&#8220;SDLT&#8221;) on the purchase on the basis that it was residential property. They subsequently claimed a partial repayment of the SDLT on the basis that the Property was not residential property. HMRC enquired into the position and issued a closure notice (the &#8220;closure notice&#8221;) which concluded that the Property was residential property. Mr and Mrs Mudan appealed against the closure notice. The only issue was whether the Property was &#8220;suitable for use as a dwelling&#8221; at the time of completion of the purchase. The First-tier Tribunal (Tax Chamber) (the &#8220;FTT&#8221;) dismissed the appeal in a decision released on 28 March 2023 (the &#8220;Decision&#8221;). The Appellants now appeal against the Decision.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">relevant legislation</heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">All statutory references below are to the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/14" uk:canonical="2003 c. 14" uk:origin="TNA" uk:type="legislation">Finance Act 2003</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2003/14" uk:canonical="2003 c. 14" uk:origin="TNA" uk:type="legislation">FA 2003</ref>&#8221;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2003/14" uk:canonical="2003 c. 14" uk:origin="TNA" uk:type="legislation">FA 2003</ref> imposes a charge to SDLT on the acquisition of a &#8220;chargeable interest&#8221;, which includes an estate in land in England or Northern Ireland. The amount of tax chargeable is set out in section 55. Section 55(1) provides that: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">The amount of tax chargeable in respect of a chargeable transaction to which this section applies is determined in accordance with subsections (1B) and (1C).</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> In this case, the relevant subsection is section 55(1B). This refers to Table A and Table B, which prescribe the rates of SDLT to be used. Table A is the appropriate table &#8220;if the relevant land consists entirely of residential property&#8221; and Table B is the appropriate table &#8220;if the relevant land consists of or includes land that is not residential property.&#8221; The rates are higher   in Table A than Table B.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">For these purposes, section 55(3)(a) defines the relevant land as &#8220;the land an interest in which is the main subject-matter of the transaction&#8221;.  Section 43(6) provides that references to &#8220;the subject-matter of a land transaction&#8221; in this part of the legislation are to &#8220;the chargeable interest acquired (the &#8216;main subject matter&#8217;), together with any interest or right appurtenant or pertaining to it that is acquired with it.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Section 116(1)(a) relevantly defines &#8220;residential property&#8221; as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"><span style="font-weight:bold">a building that is used or suitable for use as a dwelling, or is in the process of being constructed or adapted for such use&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The &#8220;effective date&#8221; of a chargeable transaction is an important concept in determining a taxpayer&#8217;s obligations to file returns for SDLT purposes and the date on which SDLT must be paid.  For the purposes of the land transaction in this appeal, the &#8220;effective date&#8221; of the land transaction means the date of completion of the purchase of the Property: section 44(3) and section 119(1). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Schedule 4ZA provides for higher rates of SDLT to be chargeable in respect of purchases of dwellings in certain specified situations. The definition of &#8220;dwelling&#8221; for this purpose (in paragraph 18 of Schedule 4ZA) is as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">A building or part of a building counts as a dwelling if&#8212;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(a)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">it is used or suitable for use as a single dwelling, or</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(b)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">it is in the process of being constructed or adapted for such use.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The paragraph 18 definition is in the same terms as the definition of &#8220;residential property&#8221; in section 116(1)(a), save that it applies to a &#8220;single&#8221; dwelling.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As the FTT recognised (at [8]-[9] of the Decision), since it was agreed that, if it were a dwelling, the Property would be a single dwelling, there was no meaningful difference for the purposes of the appeal between the two definitions, so it made no difference, said the FTT, that the correspondence with HMRC and the closure notice referred to section 116(1)(a) rather than paragraph 18 of Schedule 4ZA. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT identified the issue to be determined as whether, on the effective date (the date of completion in this case), the Property was (as HMRC said) &#8220;suitable for use as a single dwelling&#8221; within paragraph 18(2) of Schedule 4ZA. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Although the transaction under appeal was potentially liable to SDLT under Schedule 4ZA as a &#8220;higher rates&#8221; transaction, it is section 116 which determines whether Table A or Table B applies, and in this decision we refer to the definition in section 116.   </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">the ftt&#8217;s decision</heading>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">References below in the form FTT[x] are to paragraphs of the Decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In a commendably succinct decision, the FTT set out the evidence which it considered; made findings of fact; summarised the submissions of the parties; discussed the main authorities, and set out reasons for its conclusion that the Property was suitable for use as a dwelling<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"> The FTT expressed its conclusion by reference to paragraph 18 of Schedule 4ZA, but, as we have explained, nothing turns on that in this appeal.</p>
+		</authorialNote>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The evidence included detailed evidence from Mr Mudan, together with three reports relating to the condition of the Property adduced by Mr and Mrs Mudan and which were admitted by the FTT. Mr Mudan had first visited the Property in August 2018, when people were living there, and again in Spring 2019, when the Property &#8220;was in a relatively bad state&#8221; but people were still living there. The purchase of the Property was completed on 5 August 2019.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT&#8217;s description of Mr Mudan&#8217;s evidence included the following, at FTT[27]-[30]:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">27.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Mr Mudan agreed that the Property was still residential in nature. It had been someone&#8217;s house for many years and it was not falling down. Nevertheless, he did not consider that it was safe to live in with a young family. This was so even though there was no structural damage to the Property and no structural work was required except to replace the missing roof over the boiler room. Mr Mudan was sure that there was a danger to life because of the state of the electrics...</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">29.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Mr Mudan agreed that he had purchased the Property with the benefit of a mortgage and the mortgagee had clearly been happy to lend on the security of the Property. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">30.</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In answer to a question from the Tribunal, Mr Mudan explained that the works that had been done to make the Property safe (as opposed to a pleasant place to live) was as follows: </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">the electrical works of rewiring, with new switches, sockets and fuse panels;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">a new boiler, water pumps and pipes (works to gas as well as water - where the boiler had been pulled away from the wall there were damaged pipes that could be leaking and they had to be made safe) in the boiler house;</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(3)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">a new roof over the boiler house designed to stop rainwater entering;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(4)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">broken windows were repaired and the Property made secure;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(5)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The unbearable smell in the kitchen was cured by cleaning it out completely, removing all the units (and with them the rotting food etc). This had got rid of the smell and the vermin with it;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(6)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The basement flooded to about six inches deep. There were some leaking pipes behind the walls and the plumbers had had to redirect the water supply and tank the cellar to some extent as water still came through when it rained. As a result of rainwater entering, Mr Hanspal had suggested tanking the basement.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(7)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Lots of rubbish had had to be cleared from the house and the garden. Several skips had been needed to accomplish. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT made the following findings of fact, at FTT[32]-[33]:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">32.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">&#8230; I find as facts that, as at the effective date, the Property: </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(a)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">had been used relatively recently as a dwelling; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(b)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">was structurally sound; but </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(c)</num>
+		<intro>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">was not in a state such that a reasonable buyer might be expected to move in straight away. I find that, before a reasonable buyer would consider the Property was &#8220;ready to move into&#8221;, the following works would be needed: </p>
+		</intro>
+		<subparagraph>
+		  <num style="font-size:11pt">(i)</num>
+		  <intro>
+		    <p class="Taxquotation" style="margin-left:1.29in;text-indent:0.42in">the Property would need complete rewiring;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:11pt">(ii)</num>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:1.5in;text-indent:0.5in">a new boiler, pumps and gas and water pipes would be required in the boiler house, so that the water system operated safely and the boiler house roof would need fixing; </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:11pt">(iii)</num>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:1.5in;text-indent:0.5in">the leaking pipes in the cellar would need to be repaired or replaced;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:11pt">(iv)</num>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:1.5in;text-indent:0.5in">the kitchen units and appliances would need to be stripped back to the bare walls and replaced;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:11pt">(v)</num>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:1.5in;text-indent:0.5in">broken windows and doors (including locks) would need repairing and the Property made secure;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:11pt">(vi)</num>
+		    <content>
+		      <p class="Taxquotation" style="margin-left:1.5in;text-indent:0.5in">a lot of rubbish (inside and outside the house) would need clearing away. </p>
+		    </content>
+		  </subparagraph>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">33.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">&#8230;I do not consider that works to bathrooms would be required before an occupier would move in, nor do I consider that a reasonable occupier would require the cellar to be tanked before moving in&#8230;</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">After summarising the submissions of the parties, the FTT considered various relevant authorities, which we discuss below. These were:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span style="font-style:italic">Fiander and Brower v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2020/190" uk:canonical="[2020] UKFTT 190 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKFTT 190 (TC)</ref> (&#8220;<span style="font-style:italic">Fiander FTT</span>&#8221;).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span style="font-style:italic">Fiander and Brower v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2021/156" uk:canonical="[2021] UKUT 156 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 156 (TCC)</ref> (&#8220;<span style="font-style:italic">Fiander UT</span>&#8221;).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span style="font-style:italic">PN Bewley Ltd v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2019/65" uk:canonical="[2019] UKFTT 65 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKFTT 65 (TC)</ref> (&#8220;<span style="font-style:italic">Bewley</span>&#8221;).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span style="font-style:italic">Fish Homes Ltd v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2020/180" uk:canonical="[2020] UKFTT 180 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKFTT 180 (TC)</ref> (&#8220;<span style="font-style:italic">Fish Homes</span>&#8221;).</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT then set out its reasons for concluding that the Property was suitable for use as a dwelling at FTT[50]-[54]:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">50.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">It is clear that there is a degree of disrepair that will result in a property, which may otherwise resemble and meet the requirements for (and indeed have been previously used as) a dwelling, not being suitable for use as a dwelling. However, a significant degree of disrepair is required. Although suitability is tested on the effective date, &#8220;suitable for use&#8221; on the effective date does not mean suitable for immediate use and occupation (&#8220;ready to move in&#8221;) on that date. There is, as it were, a margin of appreciation, a degree to which a property can fall short of being ready for an occupier to move in without the property ceasing to be suitable for occupation as a dwelling. Disrepair which can be cured (things which are not fundamental but which need fixing, as the FTT put it in <span style="font-style:italic">Fiander</span>) is not enough, nor is it necessarily enough that there is a feature of the property which makes it potentially more dangerous to inhabit than one would normally expect (unsuitable and potentially dangerous cladding is the example from <span style="font-style:italic">Fish Homes</span>). </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">51.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">It must be unrealistic to expect someone to live in the property in its current state (perhaps because it is too dangerous or unpleasant to inhabit) and it must require more than repair/renovation (the words of the Upper Tribunal in <span style="font-style:italic">Fiander</span>) or &#8220;fixing&#8221; non-fundamental issues to make it suitable. If, as was the case in <span style="font-style:italic">Bewley</span>, the property could not realistically be occupied in its current state and (albeit for different reasons) the relevant defects could not be cured, so that demolition was the only way forward, the property will clearly not be suitable for use as a dwelling. Other examples of sufficiently fundamental problems might include a high risk of structural collapse or some other lack of physical integrity, such as the building being radioactive. Examples of failings which are not sufficient include the need for a new boiler, the heating system not working, damp problems or the flooring needing replacing.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">52.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">I consider that there is considerable force in Mr Vallis&#8217; [counsel for HMRC] point that the statute treats as a dwelling a building in the course of being constructed or adapted for use as a dwelling. It does the same, where the effective date of a transaction is the date of substantial performance, for a purchase of a building (or part) which is to be constructed or adapted for use as a dwelling under the terms of the contract under which it is acquired and where the construction or adaptation has not begun by that time (so-called &#8220;off plan&#8221; purchases); paragraph 18(5) of Schedule 4ZA. The statute counts as a dwelling any building which (as at the effective date) is used or suitable for use as a dwelling, is in the process of being constructed or adapted for such use or is to be constructed/adapted for such use by the seller. Put the other way round, the only buildings which do not count as dwellings are those which do not exist or exist but are not used and not &#8220;suitable&#8221; for use as dwellings, where the construction/adaptation works required to construct or adapt them to be suitable as dwellings have not begun and where those works (if they have not started) are not the seller&#8217;s responsibility. If part-constructed/adapted buildings and a developer&#8217;s plans for a building can count as a dwelling, it would seem surprising for a property which had recently been used as a dwelling and was fundamentally capable of being so used again (there being no lack of structural or other physical integrity preventing this) not to count as a dwelling because there are obstacles to immediate occupation, even though those obstacles do not go to the physical integrity of the building and are capable of being fixed without too much difficulty. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">53.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Pulling all of this together, I consider that a building which was recently used as a dwelling, has not in the interim been adapted for another use and is capable of being so used again (a building, such as the one in <span style="font-style:italic">Bewley</span>, the defects in which cannot be put right at all, will not be capable of being so used) will count as a dwelling, even though it is not ready for immediate occupation, unless the reason/s why it is not ready for immediate occupation are so fundamental (being radioactive or at high risk of collapsing, for example) that the work required to put these problems right goes beyond anything that might ordinarily be described as repair, renovation or &#8220;fixing things&#8221; (examples of this sort of work being installing a new boiler or heating system, damp problems or floors needing replacing). </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">54.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">I do not consider that the works I have found a reasonable buyer would require to be carried out before they would consider that the Property was suitable for occupation (&#8220;ready to move into&#8221;) given its state on 5 August 2019 &#8230;come anywhere near that threshold. I accept that the state of the gas and electrics and aspects of the water supply (including the need for a new boiler house roof) made the Property too dangerous for a reasonable person to occupy immediately, but the works required to put those problems right were not fundamental and were much closer to the new boiler/heating system/curing damp/new flooring end of the spectrum than the radioactive house/dangerous structure/potentially collapsing walls end. All the other problems and curative work (stripping and refitting the kitchen, sorting out some damp, clearing rubbish and mending doors and windows) were less significant than those items.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Taxheading1">grounds of appeal</heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FTT refused the Appellants&#8217; application for permission to appeal. The Upper Tribunal (Judge Bowler) granted permission to appeal on the ground that the FTT arguably made an error of law in failing correctly to interpret and apply the test of whether the Property was &#8220;suitable for use as a single dwelling&#8221; within paragraph 18(2) of Schedule 4ZA. As we have explained, we consider that on the facts the relevant test is that set out in section 116.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Neither Mr Firth nor Mr Ripley appeared before the FTT, and the arguments made in this appeal differ in several respects from those which were put to the FTT. Mr Firth submits that the FTT made the following errors of law:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The FTT applied an incorrect test in law for suitability for use as a dwelling, the correct test being whether the building is suitable for occupation as a place to live as at the effective date, subject to a <span style="font-style:italic">de minimis</span> principle that minor works which would only take a few days to complete would not prevent suitability for use as a dwelling.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Even if, contrary to the preceding argument, the test is whether issues requiring repair are &#8220;fundamental&#8221;, the FTT reached a conclusion as to the application of that test on the facts that was outside the reasonable range.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The vast majority of the submissions related to the first of these alleged errors, as does this decision. We deal briefly with the second argument towards the end of this decision.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Taxheading1">repair and renovation: ftt decisions to date</heading>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The issue of whether a building which requires repair or renovation at completion is nevertheless &#8220;suitable for use as a dwelling&#8221; (or as a single dwelling) for SDLT purposes has been considered or commented upon in four other FTT decisions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">Bewley</span>, the FTT held that a derelict and dilapidated bungalow was not suitable for use as a dwelling for the purposes of a charge under Schedule 4ZA. It had not been in use as a dwelling at the time of the transaction and had lain empty for a number of years. There were no floorboards, pipework or radiators, and asbestos was extensively present which precluded renovation and required that the property be demolished. The FTT held that the asbestos had the effect that the renovation which would have been required to it was &#8220;not a feasible proposition, because the asbestos would be disturbed&#8221; ([45] of <span style="font-style:italic">Bewley</span>), &#8220;with the presence of asbestos preventing any repairs or alterations that would not pose a risk to those carrying them out&#8221; ([53] of <span style="font-style:italic">Bewley</span>). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-style:italic">Fiander FTT</span> concerned multiple dwellings relief. The primary issue was whether there were single dwellings, but on the subject of repairs, the FTT said this (at [56] of <span style="font-style:italic">Fiander FTT</span>);</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">We note that the property was in some degree of disrepair at the time of purchase (the heating was not working as the boiler needed replacing; there were damp problems such that some of the flooring needed replacing). We have considered if this meant it was not suitable for use as a dwelling as at completion. We are clear that &#8216;suitable for use&#8217; does not mean &#8216;ready for immediate occupation&#8217;. It would have been obvious to a reasonable person observing the property on the completion date both that the property had been used for dwelling purposes in the relatively recent past and that the things that needed fixing &#8211; the boiler, replacement flooring &#8211; were not so fundamental as to render the property unsuitable as a place to live. Hence, in our view, the state of disrepair did not render the property unsuitable for use as a dwelling.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> In <span style="font-style:italic">Fish Homes</span> the issue relevant to this appeal was whether a flat in a block with defective cladding was a dwelling. The FTT posed the question &#8220;when do defects in the building mean that it is not a dwelling or not suitable for use as a dwelling?&#8221;: [59]. It concluded as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">62.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">&#8230;..I accept that some defects in what could otherwise be a dwelling or suitable for use as such would mean that it is not so. Defects which make it dangerous to live in fall within that category but such danger must in my view be such that a reasonable person would say "it's too dangerous to live there". Some risks to health and safety may fall into this category: high radioactive pollution, the high probability of walls collapsing, and the kind of hazards which would spur a local authority to issue a prohibition notice restricting the use of the premises. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">63.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The risk which the cladding on the block created was a risk that if a fire started and if it spread to the cladding it would maim or kill the occupants of the flat. The contingency that the risk would fructify only if there was a fire and only if it spread to the cladding in my view reduced the level of danger, and it seems to me that: the fact that the local authority was not shown to have served a prohibition or enforcement notice, that Miss Fish's friend agreed to live in the flat and that Mr and Mrs Fish countenanced Miss Fish living there, meant that a reasonable person would not say that it was too dangerous to live there.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">64.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">As a result I find that the risk imposed by the cladding was not such as to prevent the flat from being a dwelling or being suitable for use as a dwelling. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Subsequently to the decision under appeal, the FTT released its decision in <span style="font-style:italic">Henderson Acquisitions</span><span/><span style="font-style:italic">Ltd v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2023/739" uk:canonical="[2023] UKFTT 739 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKFTT 739 (TC)</ref> (&#8220;<span style="font-style:italic">Henderson</span>&#8221;). In that case, the property was a house which had fallen into disrepair, bought by a person whose business was the purchase, renovation and disposal of domestic houses. The ceiling had collapsed, there was some damage to joists, the property required full rewiring and replacement of the central heating system and it needed to be replastered and repainted. There was no need to demolish any part of the building, which remained sound. In considering the meaning of &#8220;suitable for use as a dwelling&#8221;, the FTT construed those words purposively, and reviewed the authorities referred to above. The FTT referred to and agreed with the approach taken by the FTT in this case, concluding that the property was suitable for use as a dwelling. The FTT stated as follows, at [24]-[26] of <span style="font-style:italic">Henderson</span>:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">24.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">We agree with the above analysis [in <span style="font-style:italic">Mudan</span>]. The question of determining suitability for use of a building as a dwelling (or as relevant a single dwelling) is a question of fact in which all the circumstances will need to be considered. As noted in <span style="font-style:italic">Bewley</span> a dwelling can be expected to have facilities for washing, cooking and sleeping. A property which entirely lacks such facilities is unlikely to suitable for use as a dwelling; such a property would not be ratable as a dwelling and, for instance, for the purposes of the VAT rules concerning a dwelling would not represent a dwelling. However, where a property has such facilities which are unserviceable but can be repaired or replaced, the property will continue to be suitable for use as a dwelling.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">25.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">A building which has the facilities to be a dwelling, but which is so structurally unsound or has some other feature (such as asbestos) which precludes repair/renovation then the building will cease to be suitable for use as a dwelling. In essence, in such cases, the land acquisition is of a plot suitable for development and not the building on it. These situations will, in our view, be relatively unusual (<span style="font-style:italic">Bewley </span>was however, one such example). In our view the majority of renovations will involve making a house which is suitable for use as a dwelling a habitable residence meeting modern building regulations and becoming a comfortable home ready for immediate occupation. The statutory intention was to tax such properties at the residential or higher rate of SDLT (the higher rate applying where the purchase is by a company or as a second home).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">26.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In the present case&#8230;the Property as a whole was structurally sound. A number of joists were unsound but had not fallen. Ceilings had come down and it was not considered that part of the house was safe, but it was a property which had all the required facilities for living. It had fallen into a state of disrepair in one part &#8211; which formed less than half of the floor area of the house. The Appellant renovated it into a beautiful house ready for immediate occupation. They did not take a non-residential building and make it into a dwelling.    </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We discuss below the approaches taken in these decisions, and the guidance which can be obtained from <span style="font-style:italic">Fiander UT</span>. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Taxheading1">the appellants&#8217; submissions</heading>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Firth made lengthy written submissions (32 pages in relation to a 10-page decision). We have considered all his written and oral submissions, but his primary arguments can be summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The test adopted by the FTT to determine whether a need for repair would prevent a building from being suitable for use as a dwelling was whether the repair was &#8220;fundamental&#8221;, and whether the defect in question was &#8220;curable&#8221;. That was the wrong test in law, and there was no statutory basis for it.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Suitability for use as a dwelling means ready for occupation and capable of being lived in as a dwelling by a reasonable person at the effective date. That is the ordinary and correct meaning of those words.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">This definition is modified by the well-established <span style="font-style:italic">de minimis</span> principle to allow for minor work at the effective date.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The most significant factor in determining whether a repair is minor is the length of time it will take to carry out. A delay of &#8220;a few days&#8221; would not prevent a building from being suitable for use as a dwelling.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(5)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The FTT&#8217;s approach amounted to an impermissible test of whether a building was capable of being made suitable for use.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(6)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The focus must be on the condition of the building at the effective date, not some future date. The previous use of the building is of limited relevance.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(7)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The FTT test risks inconsistent decisions, and the issue calls for guidance from the Upper Tribunal.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="Taxheading1">hmrc&#8217;s submissions</heading>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For HMRC, Mr Ripley submitted as follows: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Upper Tribunal&#8217;s jurisdiction in relation to this issue was limited. The ordinary meaning of common words is a question of fact not law. In any event, the FTT was required to carry out a multi-factorial evaluation, so the Upper Tribunal should be very slow to interfere in its decision.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The FTT took the correct approach, which accorded with a purposive construction of section 116, and clearly reached a decision which was within the reasonable range.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Guidance as to the approach to be adopted in relation to suitability for use is found in <span style="font-style:italic">Fiander UT</span>. <span style="font-style:italic">Fiander UT</span> did not propose a test of &#8220;minor repair&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">None of the authorities support the <span style="font-style:italic">de minimis</span> approach proposed by Mr Firth. In particular, the temporal approach produces fundamental difficulties.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(5)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Previous use of the building is a highly relevant factor.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(6)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Various extra-statutory materials support the FTT&#8217;s interpretation.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Taxheading1">discussion</p>
+	    <p class="Taxheading2">Jurisdiction</p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Ripley made two submissions on this issue to the effect that the Upper Tribunal&#8217;s jurisdiction in this appeal was limited.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The first argument, that the meaning of &#8220;suitable for use as a dwelling&#8221; is a pure question of fact, was a direct response to Mr Firth&#8217;s argument that those words bear their &#8220;ordinary meaning&#8221;. Mr Ripley says that if that is right, then what that ordinary meaning is was a question of fact for the FTT, citing Nugee LJ in<span style="font-style:italic"> Devon Waste Management Ltd v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/584" uk:canonical="[2021] EWCA Civ 584" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 584</ref> at [85]. We consider that in this appeal the meaning of &#8220;suitable for use as a dwelling&#8221; in section 116 is a question of law. The FTT did not reach its decision on the meaning of those words on the basis that they simply bear their &#8220;ordinary meaning&#8221;, and, as will be seen in due course, nor do we in this appeal. The issue in this appeal is whether in interpreting that phrase as it did, the FTT erred in law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Ripley&#8217;s second argument was that because a decision on suitability for use is an evaluative conclusion, the question for the Upper Tribunal is (broadly) whether the FTT reached a conclusion which was reasonably available to it. We agree that is the position in relation to a challenge to an evaluative conclusion or multi-factorial assessment, and suitability for use as a dwelling is indeed a multi-factorial assessment. However, in this appeal the nature of the Appellants&#8217; primary challenge is that the FTT misdirected itself in law, namely as to the meaning of &#8220;suitability for use as a dwelling&#8221; in the context or repairs and remedial work. Essentially, that is an argument that the FTT made what was described by Lord Briggs JSC in <span style="font-style:italic">Lifestyle Equities CV v Amazon UK Services</span><span/><span style="font-style:italic">Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2024/8" uk:canonical="[2024] UKSC 8" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKSC 8</ref> (at [49]) as &#8220;a significant error of principle&#8221; in reaching an evaluative conclusion. That is the issue which we must determine.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="Taxheading2">Purposive construction</p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As with any statutory wording, the words &#8220;suitable for use as a dwelling&#8221; in section 116 must be construed by reference to the words used, in the context in which they are used, and taking into account the importance of the purpose of the legislation: <span style="font-style:italic">Rossendale Borough</span><span/><span style="font-style:italic">Council v Hurstwood Properties (A) Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/16" uk:canonical="[2021] UKSC 16" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 16</ref> (&#8220;<span style="font-style:italic">Hurstwood</span>&#8221;). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">HMRC v Daniel Ridgway</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/36" uk:canonical="[2024] UKUT 36 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 36 (TCC)</ref> (&#8220;<span style="font-style:italic">Ridgway&#8221;</span>) the Upper Tribunal said that in relation to section 116 the purposive approach laid down by the Supreme Court in <span style="font-style:italic">Hurstwood </span>involves &#8220;ascertaining the characteristics of the buildings intended to be covered by the phrase &#8220;suitable for use as a dwelling&#8221;, and considering whether the [relevant property] falls within that class of buildings&#8221;: [32] of <span style="font-style:italic">Ridgway</span>. We agree with that formulation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In relation to the purpose of section 116, Mr Firth pointed out that it is not an anti-avoidance provision. We agree with that, so far as it goes; as the Upper Tribunal expressed it in <span style="font-style:italic">Ridgway, </span>at [37], it is not &#8220;an anti-avoidance provision as such&#8221;. We endorse the description of the broad purpose of the current legislation given in <span style="font-style:italic">Henderson</span>, at [16]:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in"><span class="TaxquotationChar" style="font-family:'Times New Roman'">In our view the purpose of the SDLT provisions is to tax transactions relating to residential property at a higher rate than non-residential property, and for transactions in relation to residential property by developers and second homeowners to be taxed more highly than a dwelling in which people live as their primary home. It is therefore right to construe the phrase &#8220;suitable for use as a &#8230; dwelling&#8221; by reference to that statutory purpose</span>.   </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Ripley took us to various extra-statutory materials which, he said, indicated that Mr Firth&#8217;s suggested interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref> could not have been intended by Parliament. These related to the pre-SDLT definition of residential property contained in the stamp duty provisions granting relief for certain properties in &#8220;disadvantaged areas&#8221;. The definition of residential property in those provisions (contained in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/92" uk:canonical="2002 c. 23 s. 92" uk:origin="TNA" uk:type="legislation">section 92</ref>B <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23" uk:canonical="2002 c. 23" uk:origin="TNA" uk:type="legislation">Finance Act 2002</ref>) was materially similar to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref>. When the Finance Bill 2002 was being debated in Standing Committee, Dawn Primarolo, then Paymaster General, stated as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in">It may help the Committee's understanding still further if I explain why we thought it necessary to include a ''building . . . suitable for use as a dwelling'' as well as a building used as a dwelling within the definition of residential property. Quite simply, the intention is to ensure that existing dwellings that are unoccupied when sold or that are dilapidated or even semi-derelict are within the definition of residential property. For example, in London in recent years, a number of former squats have been sold by local councils and have been in a poor state of repair. It is not my intention to exempt such properties from stamp duty if they exceed the <span style="font-family:'Times New Roman'">&#163;</span>150,000 limit. They are fundamentally the shell of a desirable home, and that is reflected in the purchase price&#8230;A less extreme example is the need to ensure that a vendor could not remove a bathroom suite from an otherwise perfectly kitted-out home to help the purchaser secure a stamp duty saving&#8230;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Ripley also referred to other background material, including HMRC Statements of Practice. These remained relevant, he said, because <ref href="http://www.legislation.gov.uk/id/ukpga/2003/14" uk:canonical="2003 c. 14" uk:origin="TNA" uk:type="legislation">FA 2003</ref>, which introduced SDLT, used materially the same definition of &#8220;residential property&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Firth argued that these materials could not be relied on by HMRC, citing <span style="font-style:italic">Hyman v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2022/185" uk:canonical="[2022] EWCA Civ 185" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EWCA Civ 185</ref> (&#8220;<span style="font-style:italic">Hyman</span>&#8221;). He said that they were in any event irrelevant, and/or failed to support HMRC&#8217;s interpretation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have not found the extra-statutory materials referred to by Mr Ripley to be of any material assistance in construing the phrase &#8220;suitable for use as a dwelling&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref>. In <span style="font-style:italic">Hyman</span>, the Court of Appeal emphasised that SDLT is a different tax to stamp duty, so that extra-statutory materials relating to the latter cannot be simply read across to SDLT. Some of the materials referred to by Mr Ripley, such as the Statements of Practice, are in any event only evidence of HMRC&#8217;s understanding or intentions. Mr Firth argued that the statement from Ms Primarolo was also inadmissible because it did not satisfy the tests in <span style="font-style:italic">Pepper v Hart</span><authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"><span/>Statements made in Parliament are not a legitimate aid to statutory interpretation unless the three conditions set out by Lord Browne-Wilkinson in <span style="font-style:italic">Pepper v Hart</span> <ref href="#" uk:canonical="[1993] AC 593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] AC 593</ref>, 640 are met. The three conditions are (i) that the legislative provision must be ambiguous, obscure or, on a conventional interpretation, lead to absurdity; (ii) that the material must be or include one or more statements by a minister or other promoter of the Bill; and (iii) the statement must be clear and unequivocal on the point of interpretation which the court is considering. </p>
+	      </authorialNote>, but since it relates to stamp duty we prefer, in any event, to place no reliance on it in reaching our conclusion.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="Taxheading2">Fiander UT</p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The only Upper Tribunal decision which gives guidance relevant to the issue in this appeal is <span style="font-style:italic">Fiander UT</span>. Although the issue in that case was suitability for use as a single dwelling, we did offer some guidance in that context which in our opinion is equally applicable to the issue in this appeal. In particular, the following points can be drawn from <span style="font-style:italic">Fiander UT</span>:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">It is not enough to make a building suitable for use &#8220;if it is capable of being made appropriate or fit for such use by adaptations or alterations&#8221;: [48(1)].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Suitability for use falls to be determined by the physical attributes of the property, with the caveat that &#8220;a property may be in a state of disrepair and nevertheless be suitable for use as either a dwelling or a single dwelling if it requires some repair or renovation&#8221;: [48(1)].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">There is an important distinction between adaptations or alterations and repairs or renovation: that is apparent when one reconciles points (1) and (2) above, and is made explicit in the discussion of the distinction at [68].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Whether a building which does require some repair or renovation is suitable for use  is a question of degree for assessment by the FTT: [48(1)].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(5)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">There are a number of factors relevant to suitability for use, and the question involves a multi-factorial assessment, taking into account all the facts and circumstances: [48(7)].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(6)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In considering that distinction, recent use and the history of the property are relevant factors: [67] and [68].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(7)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"> The test is not whether the building was ready for immediate occupation as at completion: <span style="font-style:italic">Fiander FTT</span> at [64], implicitly approved in <span style="font-style:italic">Fiander UT</span> at [65] and [68].</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="Taxheading2">Context </p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The definition of &#8220;residential property&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref> results in four categories of residential property:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">A building which is used as a dwelling.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">A building which is suitable for use as a dwelling.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">A building which is in the process of being constructed for use as a dwelling.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">A building which is in the process of being adapted for use as a dwelling.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Omitting for this purpose the references to Schedule 4ZA, the FTT commented on what can be inferred from this approach to the definition as follows, at FTT[52]:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in">&#8230;Put the other way round, the only buildings which do not count as dwellings are those which do not exist or exist but are not used and not &#8220;suitable&#8221; for use as dwellings, [and] where the construction/adaptation works required to construct or adapt them to be suitable as dwellings have not begun&#8230;If part-constructed/adapted buildings&#8230;can count as a dwelling, it would seem surprising for a property which had recently been used as a dwelling and was fundamentally capable of being so used again (there being no lack of structural or other physical integrity preventing this) not to count as a dwelling because there are obstacles to immediate occupation, even though those obstacles do not go to the physical integrity of the building and are capable of being fixed without too much difficulty.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We agree with this observation. Looked at in context, it would be surprising if Parliament had intended that a building which does not yet exist, or exists but is not a dwelling, would be residential property if within categories (3) or (4), but a building which had already been residential property because it had in fact been used as a dwelling, and had fallen within category (1), could cease to be residential property simply because it required repair or renovation at the effective date in order to be habitable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In our opinion, this suggests that the phrase &#8220;suitable for use as a dwelling&#8221; is more likely to be focussed on the fundamental characteristics<authorialNote class="footnote" marker="3">
+		<p class="FootnoteText"> As stated above, we agree with the description of the purpose of the legislation given in <span style="font-style:italic">Ridgway</span>, which refers to the &#8220;characteristics&#8221; of the building to be classified as residential or non-residential.</p>
+	      </authorialNote> and nature of a building which is the subject matter of the transaction than on a snapshot classification by reference to habitability at the effective date. In determining the fundamental characteristics and nature of a building, whether it has in fact been used as a dwelling is clearly relevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We do not consider that this conclusion is undermined by the fact that the legislation charges SDLT by reference to the &#8220;effective date&#8221; of a chargeable transaction. The primary function of the concept of an &#8220;effective date&#8221; (in section 119) is to fix the date on which SDLT must be paid. SDLT is a tax on transactions, and the relevant transaction requires an analysis of the chargeable interest acquired. That in turn requires consideration of the &#8220;main subject matter&#8221; of the chargeable interest acquired: section 43. These points were emphasised in the Upper Tribunal&#8217;s decision in <span style="font-style:italic">Ladson Preston Ltd v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2022/301" uk:canonical="[2022] UKUT 301 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 301 (TCC)</ref> (&#8216;<span style="font-style:italic">Ladson Preston</span>&#8217;). Although <span style="font-style:italic">Ladson Preston</span> concerned multiple dwellings relief, the approach set out in that decision is applicable in contexts such as that in this appeal. In <span style="font-style:italic">HMRC v Suterwalla</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2024/188" uk:canonical="[2024] UKUT 188 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 188 (TCC)</ref>, the Upper Tribunal stated as follows, at [48]-[49]:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:11pt">48.</num>
+	    <intro>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In our view, the relevant points to be taken from [61] and [62] of <span style="font-style:italic">Ladson</span><span/><span style="font-style:italic">Preston</span> are as follows: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Debates about whether the definition of effective date in section 119 specifies the entirety of a day or a particular point in time have no bearing on the availability or otherwise of a particular SDLT relief or treatment, which turns on the nature of the subject matter of the chargeable transaction. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">In such a case, the availability or otherwise of a relief or treatment depends on the nature of the chargeable interest acquired (see section 43(6)). </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(3)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Where, as in this case, the chargeable interest is acquired at completion of the relevant land transaction, the chargeable interest acquired is the chargeable interest that exists at the time of completion. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(4)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Whether a particular SDLT relief or treatment applies requires an analysis of the nature of the chargeable interest acquired at completion. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:11pt">49.</num>
+	    <content>
+	      <p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">We consider that the approach described by the UT in <span style="font-style:italic">Ladson Preston</span> and encapsulated in the points above is not restricted to cases where the issue is whether the subject matter of a transaction consists of multiple dwellings. It is relevant whenever the particular SDLT treatment or relief turns on the nature of the subject matter of a chargeable transaction.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">So, the focus of the enquiry made necessary by the wording in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref> is to determine whether the essential characteristics and nature of the chargeable interest that is acquired are those of a dwelling (rather than, say, a plot of land), notwithstanding that it needs repair and renovation.   </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="Taxheading2">Assessing suitability for use as a dwelling when building requires repair or renovation</p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">To recap, we have concluded as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">This issue raises a question of law.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The relevant wording must be construed by reference to the words used, in context, and taking into account the purpose of the legislation. That purpose is as described in <span style="font-style:italic">Ridgway</span>. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The context, particularly the various classes of building treated as suitable for use as a dwelling, suggests a focus on the fundamental characteristics and nature of a building over a period of time, rather than a snapshot of habitability, at the effective date.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Some guidance on the meaning of the phrase can be drawn from <span style="font-style:italic">Fiander UT</span>.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We turn now to the words used.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">First, Mr Firth submits that &#8220;use&#8221; means &#8220;occupation&#8221;. We do not agree. The two terms are not synonymous, and the drafter has chosen in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref> not to refer to occupation. In various other contexts, Parliament has used the phrase &#8220;use or occupation&#8221;, and that alternative has not been selected. In the SDLT legislation, there are many examples of references to &#8220;occupation&#8221; (or in some cases occupation or enjoyment) alongside references to use, clearly indicating that Parliament intended use and occupation to have distinct meanings. This matters, in our opinion, because a requirement of suitability for occupation as a dwelling would carry a stronger implication that the building was ready or available as at the relevant date for occupation by a buyer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Second, the drafter has used suitability as the relevant threshold, and not, for instance, availability or readiness. This is particularly important because, as we have said, in context we consider that suitability for use as a dwelling is a test which focusses on the fundamental characteristics and use of a building that is acquired, which may be informed by its previous use.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Firth&#8217;s formulation of suitability for use as a dwelling has the effect of importing two restrictions. The first is temporal and the second is qualitative. The temporal restriction is that the building must be ready for immediate use as a dwelling as at the effective date, subject to some unspecified <span style="font-style:italic">de minimis </span>period of time for repairs to be carried out. The qualitative restriction is that any necessary repairs must be &#8220;minor&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We firmly reject the suggested temporal restriction. It effectively construes &#8220;suitable for use&#8221; as meaning &#8220;ready for immediate occupation/use&#8221;. As we have explained, that is not warranted by the words used, or the construction which we set out above. It is an approach which has not been accepted in any of the FTT authorities we have discussed, and it would be inconsistent with <span style="font-style:italic">Fiander UT</span>, which implicitly approves the express rejection of that test in <span style="font-style:italic">Fiander FTT</span>.<span style="font-style:italic"/>Mr Firth sought to distinguish <span style="font-style:italic">Fiander UT</span> on the basis that the case was concerned with multiple dwellings relief, but we do not see any logical reason to confine the statements about the meaning of suitability for use to that relief. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The fact that a temporally-based approach to the wording is inappropriate is highlighted by the fact that Mr Firth was driven to soften his proposed construction with a <span style="font-style:italic">de minimis</span> test. He argued that in construing any statutory wording, a <span style="font-style:italic">de minimis</span> exclusion should apply unless it is expressly or clearly indicated it should not. Therefore, he said, his construction of &#8220;suitable for use as a dwelling&#8221; as requiring immediate habitability would not be failed if a building needed only minor repairs which would only take &#8220;a few days&#8221; to carry out after the effective date. Mr Firth said that the rationale for an interpretation based primarily on the time any works would take was that use meant occupation, and a building needed to be ready for occupation at the effective date.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> We have no hesitation in rejecting this submission. First, as we have explained, use is not interchangeable with occupation in construing <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref>. Second, there is no support in any of the decided cases, including <span style="font-style:italic">Fiander UT</span>, for an interpretation which assesses suitability primarily by reference to the length of time repairs or renovations are likely to take. Third, there is no general assumption that definitions set out in tax legislation are to be construed as incorporating a <span style="font-style:italic">de minimis</span> exception absent a contrary indication. Fourth, the test is vague and uncertain; Mr Firth asserted that a delay to carry out repairs of &#8220;a few days&#8221; would be <span style="font-style:italic">de minimis</span>, a delay of &#8220;several months&#8221; would not, and there was no need for any firm line to be drawn. There is no reason to suppose that such uncertainty was intended by Parliament in applying <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref>. Fifth, it would, in our view, be absurd that the SDLT liability attaching to a chargeable transaction could depend on an assessment of the anticipated availability of materials and labour in a particular location or region at a particular date.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The more difficult question is the quantitative issue. What are the circumstances in which the works required to a building at completion (which does not otherwise fall within <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref> because it falls within one of the three other categories we set out above) are such that it is not residential property because it is not suitable for use as a dwelling?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It is necessary to keep in mind that the determination of suitability for use as a dwelling is a multi-factorial assessment, and the need for repairs, if any, is only one factor in that assessment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In our opinion, the following points should be considered in determining the impact of works needed to a building on its suitability for use as a dwelling:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In assessing the impact of the works needed to a building in the context of determining suitability for use as a dwelling, a helpful starting point is to establish whether the building has previously been used as a dwelling. That is relevant for two reasons. First, as we said in in <span style="font-style:italic">Fiander UT</span>, previous use as a single dwelling is relevant in determining whether an alteration needed to a building would be a repair or renovation (because of prior use as a dwelling) or, alternatively, an adaptation or alteration, changing the building&#8217;s characteristics by making it usable as a single dwelling for the first time. Second, actual use as a dwelling is a very strong indication that the building has possessed the fundamental characteristics of a dwelling, and has previously been suitable for use as a dwelling. An assessment of the repairs and renovations needed can then be made against that backdrop and by reference to the state of the building during its actual use as a dwelling. Previous use is, of course, fact sensitive, and factors such as the length of time between the previous use as a dwelling and the effective date will be relevant. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in">The fact of previous use as a dwelling does not mean that a building remains suitable for use as a dwelling regardless of what happens to the building and regardless of the effluxion of time. Equally, to state the obvious, the fact that there has been no previous use as a dwelling does not mean that a building is not suitable for use at the effective date. However, previous use is a highly relevant factor in the evaluation of suitability. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Looking at the building as at the effective date, an assessment must be made of the extent to which it has the fundamental characteristics of a dwelling, including the extent to which it is structurally sound. Is it, for instance, a desirable house which has become dilapidated and requires updating, or is it an empty shell with no main roof? Subject to the points which follow, in principle the former is likely to be suitable for use as a dwelling and the latter is not.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The necessary works should be identified, and their impact on suitability for use should be considered collectively. A distinction must be drawn between works needed to render a building habitable and works to be carried out to make the property &#8220;a pleasant place to live&#8221;, in the words used by the FTT at FTT[30] (such as painting and decorating). The latter do not affect suitability for use as a dwelling.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">An assessment should be made of whether the defects in the building which require works are capable of remedy (in colloquial terms, are fixable). That assessment should take into account whether the works would be so dangerous or hazardous as to prejudice their viability (as in <span style="font-style:italic">Bewley</span>). If they would, then the building is unlikely to be (or remain) suitable for use as a dwelling. It should also take into account whether the works could be carried out without prejudicing the structural integrity of the building (because, for instance, the walls might collapse). If they could not, the building is unlikely to be suitable for use as a dwelling.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(5)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"> If occupation at the effective date would be unsafe or dangerous to some degree (for instance, because the building requires rewiring), then that would be a relevant factor, but would not of itself render the building unsuitable for use as a dwelling.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(6)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The question of whether a repair would be a &#8220;minor repair&#8221; is not irrelevant, but nor is it particularly informative in assessing suitability. While certain repairs were described as &#8220;minor&#8221; in <span style="font-style:italic">Fiander FTT</span>, that classification was not a reason for the decision in <span style="font-style:italic">Fiander UT</span>. It is too vague and abstract to form a principled basis for the overall determination of the impact of the need for repair on suitability. For the same reason, an approach which seeks to establish whether the necessary works are &#8220;fundamental&#8221; is acceptable if it is effectively shorthand for the approach we describe above, but as a free-standing test it is not particularly informative.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(7)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Applying the principles we have set out, the question for determination is then whether the works of repair and renovation needed to the building have the result that the building does not have the characteristics of a dwelling at the effective date, so it is no longer residential property.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have considered whether it would be appropriate to set out more specific guidance, or to formulate the test by reference to some measure such as fundamentality. We have concluded that this would not be appropriate, and would run the risk of placing an unnecessary gloss on the statutory wording.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="Taxheading1">the ftt&#8217;s approach</p>
+	  </content>
+	</level>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have set out at paragraph 19 above the FTT&#8217;s essential reasoning on this issue, at FTT[50]-[54]. While the FTT referred in its discussion to whether or not the issues requiring repair were &#8220;significant&#8221; or &#8220;fundamental&#8221;, which are not particularly informative measures, its reasoning and conclusion were clearly consistent with the principles we have set out, and the FTT made no error of law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The principles drawn by the FTT from the relevant authorities are correct, and the FTT was fully justified in concluding (at FTT[52]) that the other categories of residential property in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/23/section/116" uk:canonical="2002 c. 23 s. 116" uk:origin="TNA" uk:type="legislation">section 116</ref> supported its construction of &#8220;suitable for use&#8221;. The summary at FTT[53] of how the various principles mesh together is correct. The application of those principles to the facts discloses no error of law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The appeal in relation to the Appellant&#8217;s primary argument is dismissed.   </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="Taxheading1">secondary argument: conclusion not reasonably available on facts</p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We can deal briefly with the secondary argument raised by Mr Firth. This was that, on the assumption that the FTT did not err by applying a test of whether the issues requiring action in relation to the Property were &#8220;fundamental&#8221;, the FTT&#8217;s conclusion was, nevertheless, not reasonably available to it on the facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">There are two aspects to this argument.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">First, as Mr Firth put it in his skeleton argument, &#8220;it was necessary to take all of the issues with the Property together rather than to consider and categorise each one individually (as the FTT erred in doing at FTT[54])&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We set out FTT[54] at paragraph 19 above. All that the FTT was doing at FTT[54] was to group the various issues which had been identified for analytical purposes into different categories, to show more clearly the detail of its reasoning at that stage. Far from indicating that the FTT failed to take the relevant issues collectively, this helpful approach showed what the FTT thought about the various types of issue in relation to their significance in determining whether the Propery was suitable for use as a dwelling. Mr Firth&#8217;s submission finds no support at FTT[54] or elsewhere in the Decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Second, we understood Mr Firth to argue that, in applying a test of fundamentality, the FTT&#8217;s conclusion was irrational or perverse in an <span style="font-style:italic">Edwards v Bairstow</span> sense. We reject that submission. The FTT stated at FTT[54] that the works which were needed did not &#8220;come anywhere near the threshold&#8221; of rendering the Property unsuitable for use as a dwelling. The FTT&#8217;s conclusion took into account a variety of factors and findings of fact, and was in our view reasonably open to it on all the facts.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="Taxheading1">disposition</p>
+	  </content>
+	</level>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As the FTT decided, the closure notice was correct. The appeal is dismissed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:center"><span style="font-weight:bold">JUDGE THOMAS SCOTT</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">JUDGE ASHLEY GREENBANK</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold">Release date: </span><docDate date="2024-10-02" refersTo="#decision" style="font-weight:bold">02 October 2024</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

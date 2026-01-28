@@ -1,0 +1,381 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/112"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/112"/>
+	  <FRBRdate date="2023-07-18" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="112"/>
+	  <FRBRname value="A Chauhan v University of Leicester"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/112"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/112"/>
+	  <FRBRdate date="2023-07-18" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/112/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/112/data.xml"/>
+	  <FRBRdate date="2024-11-09T23:31:55" name="transform"/>
+	  <FRBRdate date="2024-11-18T08:59:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-07-18" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-a-chauhan" href="" showAs="MR A CHAUHAN"/>
+	<TLCPerson eId="university-of-leicester" href="" showAs="UNIVERSITY OF LEICESTER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-shanks" href="/judge-his-honour-judge-shanks" showAs="HIS HONOUR JUDGE SHANKS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>112</uk:number>
+	<uk:cite>[2023] EAT 112</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>1a30880e4e3339bc1db91241d90145d84e0a7a33d71f5e035dd7132d39aa7ee2</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Revision { }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Chauhan v University of Leicester</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 112</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2021-001360-AT</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-07-18" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">18 July 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-shanks" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE SHANKS</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#mr-a-chauhan"><span style="font-weight:bold;font-size:12pt">MR A CHAUHAN</span></party></p>
+      <p><role refersTo="#appellant"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#university-of-leicester"><span style="font-weight:bold;font-size:12pt">UNIVERSITY OF LEICESTER</span></party></p>
+      <p><role refersTo="#respondent"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR C ECHENDU </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Minority Advice Bureau Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR J CHEGWIDDEN </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">TLT LLP</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) for</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 18 July 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY </span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">TOPIC NUMBER 8: PRACTICE AND PROCEDURE</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Appellant brought complaints of race discrimination against the Respondent, his employer, but the basis of the complaints in his ET1 was not clear and a request for particulars was made by the employer.</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">In due course an unless order was made which stated that unless by 25/1/21 he sent further and better particulars of his claim to the ET and the employer the claim would be struck out without further order.</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Appellant purported to serve FBPs responsive to the employer&#8217;s request on 25/1/21 but the EJ decided that they did not properly comply with the requirements of the unless order and he refused to grant relief from sanctions and confirmed that the claim was struck out.</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">On the Appellant&#8217;s appeal the EAT decided:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="lvl_1">
+	  <num style="font-weight:bold;font-size:12pt;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">that, although on its face unless order was probably too vague in what it required of the claimant to be an effective unless order, seen in its legal and procedural context it was clear that the Appellant was required to provide FBPs which responded to the employer&#8217;s request;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold;font-size:12pt;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">that the provision in the unless order that the &#8220;claim&#8221; would be struck out was clearly referring to the whole claim brought by the ET1;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold;font-size:12pt;margin-left:0.5in;text-indent:-0.25in">(3)</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">that the appeal in relation to relief from sanctions failed since it was based on the premise that there was one complaint on which proper particulars had been provided and it was plain that the EJ found that even the particulars provided of that complaint were inadequate.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE SHANKS:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This is an appeal by the claimant, Mr. Chauhan, against a judgment of Employment Judge Adkinson sent out on 23</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">rd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> August 2021 following a hearing which took place on 19</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> July 2021.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The appeal was allowed to proceed by His Honour Judge Auerbach on 13</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> October 2022 on limited grounds set out in his detailed reasons, which are at pages 78 to 82 in the core bundle.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">The Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant worked for the respondent, University of Leicester, as a cleaner from 1</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">st</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2016.  On 28</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> July 2019 he brought a claim in the Employment Tribunal for race discrimination.  He was self-represented and clearly filled in the form ET1 himself.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The basis of his claims was not at all clear, though three managers and certain specific incidents are mentioned.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 17</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October 2019, the respondent&#8217;s solicitors wrote to the claimant in anticipation of a preliminary hearing which had been scheduled for 31</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">st</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October 2019.  The email attached a short document which is to be found in the supplementary bundle, and I am afraid I cannot give page references because I have been working off the wrong supplementary bundle.  However, in any event, it is headed: &#8220;Request for further information&#8221;.  It identifies eight possible heads of claim or allegations which the respondents had been able to identify from the ET1.  There were various columns related to each allegation, some of which invited the claimant to confirm or provide further information and in particular in each case there was a final column which was headed: &#8220;How was this related to the claimant&#8217;s race?&#8221; and then inside the column it said: &#8220;Claimant to explain why he considers this alleged event is related to his race&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant responded to this in a document which is also in the supplementary bundle, on 1</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">st</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> November 2019.  He placed numbers in relevant boxes and the document deals with attempting to provide information by reference to the various box numbers.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was a preliminary hearing held on 2</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">nd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> July 2020.  By this stage there were some solicitors acting for the claimant and they attended, as did the respondent&#8217;s solicitors, by telephone.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Judge in his summary of what had happened at that hearing, which is also in the supplementary bundle, said this:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;The claimant alleges that what has gone wrong &#8212;&#8221; that is, with his employment &#8220;&#8212; is because of race discrimination.  However, what in fact has gone wrong is not clear, despite the numerous emails he has sent to the Tribunal&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:1in;text-indent:-0.51in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then paragraph 2:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;He is now represented.  The parties agreed that the way forward was to allow both parties to plead their cases and to then re-list the matter for a further telephone case management discussion&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">He made an order on that occasion requiring the claimant to send full details of &#8220;The claim&#8221; by 30</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> July 2020.  Unfortunately at that stage a question arose as to the claimant&#8217;s capacity to provide instructions, because of some mental health issues, and the claim was stayed for a short period until it was confirmed that he was indeed fit to provide such instructions.  Unfortunately, the claimant then dismissed his solicitors and went back to representing himself.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 27</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October 2020 he wrote to the Employment Tribunal asking I think for further time and also, as described in the judgment, for permission to provide a response by reference to the same grid and boxes to which I have already referred.  Unfortunately, the Employment Judge then did not manage to really respond to that until December 2020.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2020, he ordered that: &#8220;The claimant&#8217;s further and better particulars must be provided by no later than 4 January 2021 and they must be sent to the respondent and the Tribunal&#8221;.  Then he set out reasons for that order and he said at one point: &#8220;There is no reason or explanation why delay awaiting counselling should stop him from providing the further and better particulars in respect of a claim he started nearly 1&#189; years ago.  It would also be unfair to the respondent.  They are entitled to know the claim they have to meet and to a resolution without undue delay&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 21</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">st</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2020 the claimant requested a further extension of time from 4</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January to 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021.  The matter came in front of Employment Judge Swann.  I do not know how much time Employment Judge Swann spent looking at the papers, but he took a firm view on matters and he made an unless order on 23</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">rd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2020, which in fact was not sent to the parties until 29</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2020.  That order is at page 71B in the core bundle.  It says: &#8220;On the application of the respondent and having considered representations made by the parties, Regional Employment Judge Swann orders that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Unless by 18.01.2020 the claimant provides further and better particulars of his claim to the respondent and the Tribunal, the claim will stand dismissed without further order&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It said that the reasons were the same as those set out in the earlier letter accompanying Employment Judge Adkinson&#8217;s order dated 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2020.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Of course, his order was deficient in that it required compliance by 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2020 instead of what was obviously intended, 18</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021.  The matter therefore came back in front of EJ Adkinson on 13</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021 and he made an order which is at pages 68 and 69 of the core bundle.  He recited various matters including, after considering the claimant&#8217;s application of 12</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021, to extend time for compliance with the unless order of Regional Employment Judge Swann made on 23</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">rd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> December 2020, and so on.  He ordered: &#8220;Unless by 22 January 2021 the claimant sends to the Tribunal and the respondent further and better particulars of his claim, then the claim will be struck out without further order&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Then there are some reasons and then in bold type: &#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant should be aware his claim is at risk of being struck out.  He should therefore act without delay if it is to continue</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221;.  That was sent out on 13</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021 and is headed in block capital letters: &#8220;UNLESS ORDER&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was then another application by the claimant to extend time for compliance and Judge Adkinson extended time for compliance to 25</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021.  On that day the claimant sent to the Tribunal and the respondents a series of emails.  He again sent responses relating to various boxes in the original request, which I have already referred to, which was sent by the respondents to him in October 2019.  On this occasion there were still 41 boxes and in fact there was an extensive response to box 41 which was the requirement to explain why he had considered that a particular event related to his race.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That event, because it becomes possibly relevant later, was the eighth allegation and it was an allegation relating to the change in a colleague&#8217;s work location, namely Bill Jackson.  The complaint was that Bill Jackson had been given a position at a site in a botanical garden which the claimant had not been given.  This had happened while the claimant was on holiday and he, the claimant, had put a lot of effort into getting work at the botanical garden.  That was by reference just to box 41 but the emails and the accompanying material relating to each relevant box was extensive.  A lot of it was in red, a lot of it was in handwriting.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Following that, on 4</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> February 2021 the claimant, having instructed I think Mr. Echendu who is still appearing for him, sent a typed document to the Tribunal which is at pages 94 to 100 of my supplemental bundle, so that is not a reference that can be relied on.  That document looked to the judge later as if it had been prepared by a lawyer.  There does not seem to be any dispute about that, and it looked as if it was starting from scratch.  There were a couple of problems with it when the judge came to look at it later on.  First of all, no application was ever made to rely on it.  The judge noted that it raised a number of completely new allegations and that it appeared to abandon all claims against a particular named individual, Mr. Holmes.  That is to be found at paragraph 61 in the judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was contended that the emails sent by the claimant on 25</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021 did not amount to sufficient compliance with the unless order and there was a hearing on 19</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> July 2021, notably two years after the claim had started.  The issue confronting the Employment Judge on that occasion was whether the documents sent in by the claimant on 25</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January 2021 did or did not amount to substantial compliance with the unless order.  The Employment Judge directed himself very properly in relation to that issue at paragraphs 65 to 72.  He found that it was clear that what was required by the order were the details which had been requested by the respondent on 17</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October 2019 in the boxed document and that the claimant had well understood that.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">He considered in detail the material which had been supplied by the claimant and he concluded at paragraph 74.4 in this way:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Taking a step back, bearing in mind that one has to accommodate the fact that those who represent themselves will not express things as clearly as those who are legally represented and that a little more leeway might be needed &#8212;&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">And then looking at what was provided by the deadline: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;&#8212; I do not agree that what was provided can be described as qualitative compliance.  I have described some of it above that in my view demonstrates the quality of what Mr. Chauhan submitted.  It cannot in my view on any fair reading be said to enable sufficiently the respondent or the Tribunal to understand the claim.  I acknowledge parties sometimes use narrative styles.  This goes well beyond that.  It is incoherent and in places, to use the respondent&#8217;s words, a stream of consciousness.  Thus I conclude no reasonable person could say that the claimant has complied with the unless order of Regional Employment Judge Swann and therefore the unless order took effect on 25</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> January and as things stand, the claim is struck out automatically&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="text-align:justify;margin-left:0.49in;text-indent:-0.49in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There is, I should say, no appeal extant against that conclusion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge went on to consider whether to grant relief from sanctions at paragraphs 75 to 83 of his judgment and concluded after carefully considering relevant factors, that he should not grant relief.  In the course of doing so he noted that: &#8220;We still do not know what the case is&#8221; (paragraph 81).  He also noted in the claimant&#8217;s favour that the claimant had always met deadlines or gone to the trouble of asking for further time and that he had continued to communicate with the respondent but he concluded this factor could not outweigh the factors that he had identified which pointed away from giving relief from sanctions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Against that background, I have to consider three grounds of appeal which were allowed through by His Honour Judge Auerbach which I summarise in this way, it is not precisely as per the numbering that Judge Auerbach used.  Ground 1, it seems to me, is that the order was not clear as to what was required of the claimant and in particular it did not require him to answer the questions raised in the grid document; ground 2 is that the order was not clear as to the consequences of non-compliance; and ground 3 is that the judge gave insufficient consideration to the fact that there had been some compliance with the order in deciding on relief from sanctions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On ground 1 the legal position is characteristically neatly encapsulated by His Honour Judge Richardson, who was sitting in the EAT in a case called </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Wentworth Wood v Maritime Transport Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> decided on 3</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">rd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October 2016 at paragraph 44, where Judge Richardson says in relation to construction of an unless order, as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;The starting point in construing an unless order, as any other order, is the ordinary meaning of the words used.  The legal and procedural context will always be relevant.  For example, the context may show that the ordinary meaning cannot have been the meaning in the order.  In any event, a party who has to comply with an order must be able to see from its terms what is required to comply with it.  An order cannot be read expansively against the party who has to comply&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I accept Mr. Echendu&#8217;s basic proposition that on the face of the order and with nothing more it is probably too vague in what it requires of the claimant to be an effective unless order.  However, as Judge Richardson says, the legal and procedural context will always be relevant.  The Employment Judge considered the proper construction of the order at paragraph 73 of his judgment and concluded that: &#8220;The reasonable litigant in the claimant&#8217;s position would understand that the claimant was required to provide details of the claim that he brought as requested by the respondent back on 17 October 2019&#8221;, which is a reference again to the grid document.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judge set out various factors he relied on for that conclusion based on the history of the litigation preceding the order and what the claimant did in response as leading to that conclusion.  In particular, the Employment Judge referred to the claimant&#8217;s request for more time on 27</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> October 2020, which is referred to at paragraph 73.4.  In fact the more significant aspect of that request by the claimant, which I am sure the judge had well in mind, was, as I have already mentioned, that the claimant had asked to provide a response to the grid, and that is referred to at paragraph 32 in the judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It seems to me that on the basis of the material he had it was well open to the Employment Judge and certainly not an error of law to construe the order as he did, even taking account of the strong requirement for certainty as to what is required in relation to unless orders.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">So far as ground 2 is concerned, it seems to me perfectly clear from the order on its face what the consequences of non-compliance would be.  &#8220;The claim&#8221; is the whole claim brought by the claimant.  Rule 38 of the Employment Tribunal Rules expressly draws a distinction between an unless order which relates to a claim and one which relates to part of a claim, which would indicate that when an unless order says a claim will be dismissed, it means the whole claim.  As I understand it, this issue has been ruled on authoritatively by a recently-decided appeal before His Honour Judge Tayler called </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Mohammed v Guy&#8217;s &amp; Thomas&#8217;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2023] UKEAT 16.  In any event I see no scope for ambiguity in the order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3, relating to relief from sanctions, is premised it seems on the proposition that there was at least one distinct head of claim which could have been allowed to proceed on the basis that the claimant had complied with the requirements of the order in relation to that particular head of claim.  I invited Mr. Echendu to identify one such and the best candidate put forward was the final head of claim to which I have already referred in the last row in the grid.  I should say that I allowed the claimant himself to address me for a short time in relation to the substantial merits of that very claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I was satisfied by Mr. Chegwidden, however, that the Employment Judge had concluded that the particulars provided in relation to box 41, which I have already referred to, were not materially compliant with the requirement to provide particulars, so that even that best case scenario for the claimant was not sufficiently particularised and could not be isolated as a head of claim that could be allowed to go ahead on the application for relief from sanctions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I confess that I had thought on first looking at the case that what was behind ground 3 was the fact that the claimant had undoubtedly made efforts to comply with the unless order and had no doubt done his best.  It seems that my reading was wrong and in any event, it is clear that the Employment Judge had the whole history and the claimant&#8217;s difficulties and efforts well in mind when he made his decision not to grant relief.  I therefore reject ground 3 as well as the other two I have mentioned.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I should say before I dismiss the appeal that I feel considerable sympathy for the claimant who has, as I have indicated, addressed me with dignity and restraint.  He may, and I stress the word &#8220;may&#8221;, have some legitimate complaints to bring against his employer and he has been stymied in his efforts by procedural requirements which he has done his best to comply with, without for certain periods of time any legal assistance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I may have decided things differently from Judge Adkinson on 19</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> July 2021.  I may have tried to adopt the approach which I sometimes think may work in this kind of case, of simply listing a case for a final hearing.  However, it does not matter what I would have done or what I think in that respect.  The decision was one for the Employment Judge who has the incredibly difficult job of case-managing cases like this and then resolving these difficult disputes and I am quite clear that the judge approached the matter carefully and conscientiously and there is no error of law whatever in his approach.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.59in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">So regrettably, the appeal is dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">_________________________</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

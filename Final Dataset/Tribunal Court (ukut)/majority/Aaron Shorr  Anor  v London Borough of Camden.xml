@@ -1,0 +1,807 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2024/202"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2024/202"/>
+	  <FRBRdate date="2024-07-17" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="202"/>
+	  <FRBRname value="Aaron Shorr &amp; Anor  v London Borough of Camden"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/202"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/202"/>
+	  <FRBRdate date="2024-07-17" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/202/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2024/202/data.xml"/>
+	  <FRBRdate date="2024-07-22T07:50:43" name="transform"/>
+	  <FRBRdate date="2024-07-22T09:20:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-07-17" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="aaron-shorr" href="" showAs="AARON SHORR"/>
+	<TLCPerson eId="hyeon-jeong-ro" href="" showAs="HYEON JEONG RO"/>
+	<TLCPerson eId="london-borough-of-camden" href="" showAs="LONDON BOROUGH OF CAMDEN"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>202</uk:number>
+	<uk:cite>[2024] UKUT 202 (LC)</uk:cite>
+	<uk:parser>0.25.5</uk:parser>
+	<uk:hash>be4f353a7cdbca0b865c94ab6cd527e35f48ca645336dd683e731a87a68f199d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; }
+#judgment .Normal2 { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Heading { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Paranumbering { margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .cofootnotenode { }
+#judgment .ParanumberingChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable31 { }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.png" style="width:72pt;height:60.75pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Neutral Citation Number: </span><neutralCitation style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">[2024] UKUT 202 (LC)</neutralCitation><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"/></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Case No: LC-2023-709</span></p>
+      <p><courtType refersTo="#ukut-lc" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">IN THE UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">AN APPEAL AGAINST A DECISION OF THE FIRST-TIER TRIBUNAL (PROPERTY CHAMBER)</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">FTT REF: LON/OOAG/HNB/2023/0010</span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">17 July 2024</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt">HOUSING &#8211; FINANCIAL PENALTY &#8211; unlicensed HMO owned by spouses but let and generally managed by wife &#8211; four civil penalties imposed on each spouse for failure to license and other management offences &#8211; whether local housing authority policy correctly interpreted &#8211; totality principle &#8211; treatment of joint owners &#8211; ss. 72, 249A, 263 Housing Act 2004 &#8211; Management of Houses in Multiple Occupation (England) Regs 2006 &#8211; appeal allowed in part</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">BETWEEN:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#aaron-shorr" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">AARON SHORR (1)</party></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#hyeon-jeong-ro" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">HYEON JEONG RO (2)</party></p>
+      <p style="text-align:right;margin-right:0.17in"><role refersTo="#appellant" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Appellants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">-and-</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#london-borough-of-camden" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"> LONDON BOROUGH OF CAMDEN </party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Flat C, 105 Fordwych Road,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">London NW2</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Martin Rodger KC, Deputy Chamber President</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">9 July 2024</span></p>
+      <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Mr Karol Hart</span><span style="font-family:'Times New Roman';font-size:12pt"> of Freemans, solicitors, for the appellants</span></p>
+      <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Mr David Mold</span><span style="font-family:'Times New Roman';font-size:12pt">, instructed by Camden Council, for the respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">&#169; CROWN COPYRIGHT 2024</span></p>
+      <p><span style="font-family:'Times New Roman';font-size:12pt">The following cases are referred to in this decision:</span></p>
+      <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Ekwezoh v LB Redbridge </span><span style="font-family:'Times New Roman';font-size:12pt">[2021] UKUT 180 (LC)</span></p>
+      <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Gill v LB Greenwich </span><span style="font-family:'Times New Roman';font-size:12pt">[2022] UKUT 26 (LC)</span></p>
+      <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">London Borough of Waltham Forest v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt"> [2020] UKUT 35 (LC)</span></p>
+      <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Sutton v Norwich City Council</span><span style="font-family:'Times New Roman';font-size:12pt"> [2021] EWCA Civ 20</span></p>
+      <p><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Waltham Forest London Borough Council v Hussain</span><span style="font-family:'Times New Roman';font-size:12pt"> [2023] EWCA Civ 733</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Times New Roman';font-size:12pt">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This appeal is mainly concerned with the proper application of the totality principle to the imposition of financial penalties for multiple offences under <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A, <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">Housing Act 2004</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>).  It also raises a question about the treatment of joint owners (in this case, a married couple) both of whom are found to have committed relevant housing offences, but only one of whom was responsible for the letting and management of the property to which the offences related. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Times New Roman';font-size:12pt">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The appeal arises out of eight separate financial penalty notices imposed by Camden Council (the Council), on the appellants, Mr Shorr and Ms Ro, on 15 February 2023, in respect of their management of a four bedroom flat at 105 Fordwych Road, London NW2.  The penalties totalled &#163;27,000, with four totalling &#163;13,500 being imposed on each appellant.  Following an appeal to the First-tier Tribunal, Property Chamber (the FTT) the penalties imposed on Mr Shorr were reduced to &#163;8,000, and those imposed on Ms Ro were reduced to &#163;13,000.  With the permission of this Tribunal Mr Shorr and Ms Ro now appeal against the FTT&#8217;s decision.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Times New Roman';font-size:12pt">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At the hearing of the appeal Mr</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt"/><span style="font-family:'Times New Roman';font-size:12pt">Karol Hart of Freemans, solicitors, represented the appellants and Mr David Mold, instructed by the Council&#8217;s legal department, represented the Council.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The relevant legislation     </span></heading>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Times New Roman';font-size:12pt">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Some, but not all, houses in multiple occupation (HMOs) are subject to mandatory licensing under Part 2 of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>. In relation to those HMOs which are not subject to mandatory licensing a local housing authority has power under section 56, 2004 Act, to designate all or part of its district as an area subject to additional licensing.  Where an area is so designated, any HMO of a description covered by the designation is required to be licensed (section 61, 2004 Act).  A person commits an offence, contrary to section 72(1), 2004 Act, if, without a reasonable excuse, they have control of or are managing an HMO which is required to be licensed but which is not licensed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Times New Roman';font-size:12pt">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Management of Houses in Multiple Occupation (England) Regulations 2006 (the 2006 Management Regulations) are made under section 234, 2004 Act and impose obligations on the person managing an HMO to make satisfactory arrangements including in respect of safety measures and the repair and maintenance of the house. By section 234(3)-(4), a person commits an offence if, without a reasonable excuse, they fail to comply with a regulation made under the section. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Times New Roman';font-size:12pt">6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 249</ref>A, 2004 Act permits a local housing authority to impose a financial penalty on a person if it is satisfied beyond reasonable doubt that they have committed a relevant housing offence.  Relevant housing offences include the offences under section 72 (licensing of HMOs) and section 234 (breach of management regulations). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Times New Roman';font-size:12pt">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 249</ref>A(3) provides that: &#8220;Only one financial penalty under this section may be imposed on a person in respect of the same conduct&#8221;.  <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 249</ref>A(5) reflects the policy that financial penalties under <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A are intended to be an alternative to prosecution for relevant housing offences by stipulating that a financial penalty may not be imposed where the person has already been convicted of the offence or where criminal proceedings remain outstanding . </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Times New Roman';font-size:12pt">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Schedule 13A, 2004 Act deals with procedural matters.  Paragraph 10 makes provision for appeals to the FTT against the decision of a local housing authority to impose a financial penalty and against the amount of that penalty. The appeal is a re-hearing and the FTT is required to make its own decision whether to impose a penalty and in what amount (up to a maximum of &#163;30,000 for each offence).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Times New Roman';font-size:12pt">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Paragraph 12 of Schedule 13A requires local housing authorities to have regard to any guidance given by the Secretary of State about financial penalties.  Relevant guidance was published in 2016 and re-issued in 2018.  It requires authorities to develop their own enforcement policies and identifies the following matters to be taken into account to ensure that penalties are set at an appropriate level: the severity of the offence, the culpability and track record of the offender, the harm caused to the tenant, punishment of the offender, and the need to deter the offender from repeating the offence, to deter others from committing similar offences, and to remove any financial benefit the offender may have obtained as a result of committing the offence.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Times New Roman';font-size:12pt">10.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In determining appeals against decisions of local housing authorities the FTT must have particular regard to the authority&#8217;s own enforcement policy and will normally apply it, but the FTT it is not bound by the policy and may depart from it in an appropriate case.  In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">London Borough of Waltham Forest v Marshall</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/35" uk:canonical="[2020] UKUT 35 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKUT 35 (LC)</ref>, at [54], this Tribunal (Judge Cooke) summarised the effect of authorities on the approach which a court or tribunal should take to a local authority&#8217;s policy:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;The court can and should depart from the policy that lies behind an administrative decision, but only in certain circumstances. The court is to start from the policy, and it must give proper consideration to arguments that it should depart from it. It is the appellant who has the burden of persuading it to do so. In considering reasons for doing so, it must look at the objectives of the policy and ask itself whether those objectives will be met if the policy is not followed.&#8221;&#160;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The facts  </span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Times New Roman';font-size:12pt">11.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In December 2015 the Council introduced a borough-wide additional HMO licensing scheme requiring all HMOs not already covered by the mandatory licensing obligation to be licensed. It ran initially for a period of five years but was renewed for a further five years in 2020. It was widely advertised in the Borough when it was introduced and comprehensive information about the scheme, and how it differs from mandatory licensing, is available on the Council&#8217;s website. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Times New Roman';font-size:12pt">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Shorr and Ms Ro are a married couple who have a joint bank account and who hold their home and other properties in their joint names. They are both professional musicians and teachers in higher education and, having previously lived in London, they now live in Scotland.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Times New Roman';font-size:12pt">13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">105 Fordwych Road is a large Victorian house converted into flats.  The freehold belongs to the Council.  Flat C (the Flat) is on the upper two floors and contains four bedrooms, a living room, kitchen and two bath or shower rooms.  In 2002 Ms Ro purchased a long lease of the Flat which she registered in the couple&#8217;s joint names.  She has taken primary responsibility for managing and letting it, although Mr Shorr has assisted when Ms Ro has been out of the country.  The couple own one other flat in London which they also let.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Times New Roman';font-size:12pt">14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In 2022 the couple spent considerable sums refurbishing the Flat to a high standard before advertising it as available to let.  In August, one prospective tenant who had been interested in the flat, but to whom Ms Ro did not let it, used the Greater London Authority&#8217;s online reporting system to submit a complaint that the deposit which had been requested was greater than the limit of five weeks rent introduced in June 2019 under the <ref href="http://www.legislation.gov.uk/id/ukpga/2019/4" uk:canonical="2019 c. 4" uk:origin="TNA" uk:type="legislation">Tenant Fees Act 2019</ref>. The complaint was referred to the Council which began an investigation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Times New Roman';font-size:12pt">15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 1 September 2022 Ms Ro let the Flat to a group of four post graduate students for a term of twelve months at a monthly rent of &#163;3,200.  Under written tenancy agreement Ms Ro alone was identified as the landlord, and no reference was made to Mr Shorr.  Ms Ro did not obtain an HMO licence under the additional licensing scheme.  She already held a licence from Camden for the other property which she and her husband own (which satisfies the requirements for mandatory licensing) but she was unaware of the additional licensing scheme and believed that flats or houses with fewer than five tenants did not require a licence. When one of the new tenants asked her if the Flat had a licence she responded that there was no need for one.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Times New Roman';font-size:12pt">16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 19 October 2022 officers of the Council&#8217;s housing department inspected the Flat, unannounced. They formed the view that it was an HMO and that it required to be licensed but had not been.  They also observed a number of defects which they considered were breaches of the 2006 Management Regulations.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Times New Roman';font-size:12pt">17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Council notified both Ms Ro and Mr Shorr separately by post on 26 October 2022 that it considered they had each committed five offences contrary to sections 72 and 234, 2004 Act and invited their comments.  Ms Ro was not in the UK when the letter arrived, but Mr Shorr telephoned the Council as soon as he received his copy.  He spoke to the housing officer who had carried out the inspection and assured her that he was anxious to rectify any deficiencies.  On the same day, 27 October, Ms Ro applied online for an HMO licence.  In due course she was granted a licence once the Council was satisfied that the remedial works which it considered necessary had been completed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Times New Roman';font-size:12pt">18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">On 28 December 2022 the Council served five notices of intention to impose financial penalties on each of the appellants. In each case one notice alleged that there had been a breach of section 72, in that the recipient was a person in control of or managing an unlicensed HMO, and four notices alleged breaches of section 234(3) and the 2006 Management Regulations. The penalties which the Council initially intended to impose totalled &#163;16,500 for each appellant.   Following representations four final notices imposing total penalties of &#163;13,500 on each appellant were served on 15 February 2023. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Times New Roman';font-size:12pt">19.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The details of the offences and the penalties imposed on each appellant by the Council were as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">For being in control of or managing an unlicensed HMO contrary to section 72(1), 2004 Act, a penalty of &#163;6,000 was imposed on each appellant.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Penalties of &#163;5,000 were imposed on each appellant because, contrary to regulation 4 of the 2006 Management Regulations, the automatic fire detection system in the Flat was inadequate and measures reasonably required to protect the occupiers from injury in the event of fire had not been taken: only battery powered smoke detectors had been fitted rather than a mains powered interlinked system; there was no heat detector or fire blanket in the kitchen; the alarm in the lower-level hallway did not sound when tested; the door of one bedroom was inadequate to protect the means of escape in the event of a fire; and the front door was not fitted with a thumb-turn mortice lock or equivalent. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">(c)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Penalties of &#163;1,500 were imposed on each appellant because, contrary to regulation 7, lights in a number of locations in the common parts were not working, including on the upper floor and the staircase, and there were items of disrepair to a cupboard door in the kitchen, and to the self-closing mechanism and handle to the living room door.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">(d)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Penalties of &#163;1,000 were imposed on each appellant because, contrary to regulation 3, the manager&#8217;s name, address and telephone number were not displayed prominently. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Times New Roman';font-size:12pt">20.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The appellants appealed against each of the penalties and relied on their lack of knowledge of the additional licensing scheme as providing a reasonable excuse for their failure to licence.  They also explained that although the Flat was held in their joint names and the rent was paid into their joint bank account, Ms Ro was the person responsible for managing it. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Times New Roman';font-size:12pt">21.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">By its decision issued on 1 September 2023, the FTT dismissed the appellants&#8217; defence of reasonable excuse.  It reduced the penalty imposed on Mr Shorr in respect of the licensing offence from &#163;6,000 to &#163;1,000 to better reflect his individual responsibility and so that the total penalty for that offence would be brought &#8220;closer to a proportionate amount&#8221;. It also reduced the penalty for the offences of failing to display the manager&#8217;s name, address and telephone number prominently in the Flat from &#163;1,000 to &#163;500 for each appellant, which was again said to bring the total sum down to a proportionate amount. The combined effect of these changes was that the penalties now imposed on Ms Ro totalled &#163;13,000 and those imposed on Mr Shorr totalled &#163;8,000.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Times New Roman';font-size:12pt">22.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is also relevant to mention that on 11 April 2023, a differently constituted panel of the FTT made a rent repayment order against Ms Ro.  She was ordered to pay her four former tenants &#163;3,200, which was half of the total rent they had paid before she made her application for an HMO licence. The FTT was aware of this decision when it reached its own decision on the financial penalty appeal, but it did not take it into account in its assessment of the appropriate penalty.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">The Council&#8217;s policy on enforcement</span></heading>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Times New Roman';font-size:12pt">23.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Council has adopted its own policy on enforcement action in the private housing sector, which its staff are required to follow.  The policy provides guidance but emphasises that staff are expected to use their own professional judgment in determining the appropriate intervention in each case.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Times New Roman';font-size:12pt">24.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The policy deals with enforcement action ranging from informal advice to prosecution or the imposition of a financial penalty (or, civil penalties, as they are referred to in the document).  One of the grounds of appeal is that the FTT did not have regard to the policy, so it is important to consider what the policy means.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Times New Roman';font-size:12pt">25.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Three sub-paragraphs of the policy deal with the circumstances in which prosecution or a financial penalty will be considered appropriate.  Paragraph 5(g) deals in general with prosecution and civil penalty notices but it overlaps with the following sections, which deal separately with those forms of enforcement for section 234 offences and section 72 offences, and their intended relationship is unclear.  Initiating a prosecution or a civil penalty is described in paragraph 5(g) as the most likely outcome where an offence has been committed, but the paragraph then lists circumstances in which those forms of action will be considered.  The impression created by that list is that prosecution or a civil penalty will be resorted to only, or mainly, in more serious cases. Thus, the listed circumstances include where a breach has given rise to a significant risk to tenants despite warnings, where a failure to supply information would affect the Council&#8217;s ability to take enforcement action, and where the breach relates to &#8220;a specific local problem of rogue landlord operations/systemic management failures&#8221;.  It might be inferred that where none of the circumstances in the list applies, or there are no other factors of comparable seriousness which make prosecution or a civil penalty appropriate, the Council&#8217;s policy is to opt for a lesser form of enforcement.  Lesser options include issuing a caution, refusing or revoking a licence, issuing a licence for a shorter period than the usual 5 years, requiring work to be done to remedy management breaches or issuing verbal or written advice.   </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Times New Roman';font-size:12pt">26.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Paragraph 5(h) then addresses prosecution or civil penalty notices for management offences.  Where contraventions of the 2006 Management Regulations are minor or there are no aggravating factors enforcement staff are advised that they may send a warning letter asking for the contraventions to be dealt with within a specified time.  Prosecution or a civil penalty will be resorted to where there are aggravating features which affect living conditions and tenant welfare, including multiple Category 1 and Category 2 HHSRS hazards, or operating an unlicensed HMO.  Where two or more aggravating factors are present, prosecution or a penalty will be expected but may also be justified where a single aggravating factor is particularly serious: &#8220;e.g. no smoke alarms where there has been a fatal fire/injury or unlicensed HMO operated by a repeat offender with any HMO regulation offences (however slight)&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Times New Roman';font-size:12pt">27.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Paragraph 5(i) considers prosecution or civil penalty notices (CPN) in cases involving unlicensed HMOs.  Much of the argument on the appeal focussed on this paragraph, which was revised in February 2023.  The policy which the Council applied when it imposed the penalties, and which the FTT quoted in its decision, was as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;The aim of any HMO licensing is to improve standards in the PRS. However, the worst conditions will be found in those unwilling to licence. Therefore, there will be an enforcement drive to find and tackle these. </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">To ensure that the worst landlords/agents are targeted for enforcement and that those who are small portfolio, good landlords but are simply unaware of the scheme, the following will apply: Landlords should have had a written warning (or a verbal warning from an enforcement officer) to them that their property may require a HMO licence</span><span style="font-family:'Times New Roman';font-size:12pt">.&#8221; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The words in italics above have been omitted from the revised policy.  Both the original text and the revised version then continue as follows: </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;Professional letting agents/property companies should be aware of local Housing Authority requirements including any sub-letting agents/tenants or online letting agents. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<intro>
+		  <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">In view of the worst conditions will be found in those unwilling to licence and that many landlords/agents have been found to be unwilling to apply for a licence until formal action is taken against them the below applies: </span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1.25in;text-indent:-0.25in">a)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.25in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">Where there are poor conditions or the tenants&#8217; welfare maybe compromised in an unlicensed HMO then the enforcement staff will have discretion to prosecute or serve a CPN regardless of any forewarning given or not. </span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-family:'Times New Roman';font-size:12pt;margin-left:1.25in;text-indent:-0.25in">b)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.25in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">Also, where a landlord or agent has applied for a HMO licence following an inspection/complaint or incident this does not necessarily mean that a CPN or prosecution won&#8217;t still be taken. If the landlord or agent knew about the requirement of HMO licensing or should have known about the scheme (e.g. portfolio of properties) then a CPN or prosecution may still be taken.&#8221;</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Times New Roman';font-size:12pt">28.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The meaning of the first part of the original version of paragraph 5(i) seems to me to be clear enough.  The main targets of prosecutions and civil penalties are to be landlords who are unwilling to licence.   Where &#8220;small portfolio, good landlords who are simply unaware of the scheme&#8221; are operating HMOs without a licence the expectation will be that the failure to licence will be dealt with by a warning rather than by prosecution or a financial penalty.  The general thrust of the remaining text is also clear.   Professional letting agents and property companies who are expected to be aware of their responsibilities to licence will be treated more harshly; prosecution or a civil penalty are likely to be resorted to without the need for any prior warning if tenants&#8217; welfare has been compromised and will remain options in other cases.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Times New Roman';font-size:12pt">29.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The single area of ambiguity in the policy concerns the scope to prosecute or impose a financial penalty on a landlord who was unaware of the need to licence and who was not a professional letting agent or property company.  When read together with the general provisions in paragraph 5(g) the intent of the policy seems to be that rigorous enforcement action will not be the normal response to cases of small portfolio landlords who have failed to licence because of ignorance rather than resistance.  No doubt in some cases prosecution or a financial penalty will be appropriate, but those cases must have been intended to be the exception and will presumably feature the sort of aggravating circumstances listed in paragraph 5(g). </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Grounds of appeal</span></heading>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Times New Roman';font-size:12pt">30.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hart advanced two broad grounds of appeal:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">First, that the FTT had erred in law when deciding to impose a financial penalty at all, when a proper application of the Council&#8217;s policy should have resulted in a warning.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Second, that the FTT erred in law in determining the appropriate amount of any penalty in multiple respects: by failing to treat the appellants&#8217; ignorance of the licensing requirement as a significant mitigating factor; by treating the seriousness of the deficiencies in fire protection as an aggravating factor in determining the penalty for the licensing offences at the same time as imposing separate penalties for the same condition as breaches of the 2006 Management Regulations;  by failing to take proper account of the different responsibilities of the two appellants and in particular, of the fact that Mr Shorr had very little to do with the management of the Flat; by failing to take Mr Shorr&#8217;s limited responsibility into account at all in respect of two of the management offences; by failing to determine a single penalty for each offence, and then apportioning it between the two appellants in accordance with their relative responsibility. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Times New Roman';font-size:12pt">31.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although these two grounds of appeal were presented separately, they overlap substantially at one point.  The complaint that the FTT failed to distinguish between Mr Shorr and Ms Ro is applicable just as much to the first ground of appeal as to the second and it is necessary to consider it in relation to both.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Times New Roman';font-size:12pt">32.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">At the outset I remind myself of the Tribunal&#8217;s restricted role when considering an appeal against a financial penalty. As Newey LJ explained in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Sutton v Norwich City Council</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/20" uk:canonical="[2021] EWCA Civ 20" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 20</ref> at [31]: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;A Tribunal&#8217;s decision as to what civil penalty it should impose for either a breach of the 2007 Regulations or failure to comply with an improvement notice involves, as I see it, both evaluation and discretion. An appellate tribunal is not, accordingly, entitled to overturn a penalty just because it thinks it would have imposed a different one. To interfere, the Court/Tribunal must conclude that the decision under appeal was an unreasonable one or is wrong because of &#8220;an identifiable flaw in the Judge&#8217;s reasoning such as a gap in logic, a lack of consistency, or a failure to take account of some material factor, which undermines the cogency of the conclusion&#8221;.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Ground 1: The Council&#8217;s policy and the decision to impose penalties</span></heading>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Times New Roman';font-size:12pt">33.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The Council&#8217;s evidence before the FTT was provided in a witness statement of one of its Environmental Health Officers, Ms Dimcheva.  She provided a detailed account of her inspection of the Flat and of the procedure leading to the decision to impose financial penalties on both Ms Ro and Mr Shorr.   </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Times New Roman';font-size:12pt">34.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Ms Dimcheva considered that both Ms Ro and Mr Shorr were persons in control of the Flat and that each was also the person managing it.  In Ms Ro&#8217;s case there is nothing surprising about that conclusion, as she was the landlord under the tenancy agreement and assumed responsibility for management.  In Mr Shorr&#8217;s case the suggestion that he satisfies the description in section 263(1) of being a person who &#8220;receives the rack-rent of the premises&#8221; is much more problematic.  In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Gill v LB Greenwich </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2022/26" uk:canonical="[2022] UKUT 26 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 26 (LC)</ref> the Tribunal held that joint landlords were both persons having control of an HMO, but in that case the landlords had jointly let the property and shared equally in the rent received.  In this case the Flat was purchased by Ms Ro but, as the FTT found, it was registered in both their names because &#8220;as a married couple they shared everything&#8221;.  The tenants paid their rent into the couple&#8217;s joint bank account, but the letting was by Ms Ro alone, and the receipt of rent was recorded by her in full on her tax return.  Mr Shorr did not dispute the Council&#8217;s assertion that he was a person in control of the Flat within the meaning of section 263(1), and the appeal must proceed on that basis, but it should not be thought that rent which one of a married couple is entitled to receive but which is paid into their joint bank account is therefore necessarily received by both of them.  I express the same reservations about the consensus that Mr Shorr was a person managing the Flat, within the meaning of section 263(3), as that status also requires that he be in receipt of rent from the tenants.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Times New Roman';font-size:12pt">35.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Ms Dimcheva did not suggest in her witness statement that any consideration had been given to the Council&#8217;s policy on enforcement, or to the option of taking less draconian action against either of the appellants.  She explained that once she was satisfied that offences had been committed, she had sought authorisation for the service of financial penalty notices.  She listed the factors which were taken into account in determining the amount of each penalty and quoted from the part of the policy dealing with the assessment of quantum but she did not suggest that the possibility of issuing a warning as an alternative had crossed her mind.  Nor did she distinguish between the position of Mr Shorr and that of Ms Ro or suggest that separate consideration had been given to the penalty appropriate to each of them.  When she identified the factors which were taken into account in mitigation of the penalty for the licensing offence, she did not include the fact that Ms Ro was unaware of the additional licensing scheme.  Given the emphasis in the Council&#8217;s policy on tackling landlords who are unwilling to licence, this was clearly a relevant consideration. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Times New Roman';font-size:12pt">36.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Of course, the appeal to the FTT was not a challenge to the Council&#8217;s reasons for imposing the penalties, or its assessment of the appropriate amounts.  As the FTT reminded itself, paragraph 10(3)(a) of Schedule 13A, 2004 Act required that it take the form of a redetermination (or &#8220;re-hearing&#8221;) of the decision to impose the penalties and the FTT should therefore have made its own assessment and not simply considered whether the Council&#8217;s approach was justifiable.  On reading the FTT&#8217;s decision I had some doubt whether, despite its self-direction, it had truly adopted that approach but that was not a point relied on in the appeal.  The question raised by the first ground of appeal is simply whether the FTT had regard to the Council&#8217;s policy and applied it correctly.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Times New Roman';font-size:12pt">37.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There is no doubt that, at least as far as the licensing offences were concerned, the FTT was aware of the relevant policies, both as published by the Secretary of State and as adopted by the Council.  It quoted the passages relied on by Mr Hart in his submissions (including paragraph 5(i) in its original form) and must be taken to have had them in mind when making its decision.  It reminded itself, properly, that it should follow the policy unless there was a clear reason to do otherwise.  No separate reference was made to the part of the policy on enforcement in the case of management offences (paragraph 5(h) of the policy), but the FTT had the whole document and although it quoted only those parts to which it had been specifically referred, I am not prepared to assume that it made its decision in ignorance of other relevant parts, which appear on the same page.  The issue is whether the policies were applied (which may include deviating from them when that is permitted by the policy or otherwise justified), not whether they were taken into account.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Times New Roman';font-size:12pt">38.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">After it had concluded its assessment of the appellants&#8217; defence of reasonable excuse, and dismissed it, the FTT moved directly to consider the quantum of the penalties to be imposed on each appellant for each offence.  It is nevertheless clear that it had in mind the possibility that a warning, rather than a financial penalty, was one option available to it.  In that context it addressed the distinction made in paragraph 5(i) of the policy between the &#8220;worst landlords/agents &#8230; and those who are small portfolio, good landlords but are simply unaware of the scheme&#8221;.  It said this:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">&#8220;21.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hart was surprised that neither the Tribunal nor Ms Dimcheva took it as read that the Applicants were not &#8220;rogue landlords&#8221; but rather were &#8220;good landlords&#8221; who were &#8220;simply unaware&#8221; of the Respondent&#8217;s additional licensing scheme. In popular imagination, it may well be that &#8220;rogue landlords&#8221; is a phrase which is perceived only to apply to the very worst but the Tribunal has to deal with the statute where the phrase arguably extends to all those who do not comply with the requirements in the statute. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">22.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">The Tribunal has accepted the Respondent&#8217;s findings that the Applicants were in breach of a number of obligations and, in relation to fire safety, some of which give rise to serious risks to their tenants. The Guidance also says, &#8220;Landlords are running a business and should be expected to be aware of their legal obligations.&#8221; As already described, the Applicants did not meet that expectation. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">23.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">The Tribunal accepts that, to an extent, Ms Ro was well-intentioned. She spent considerable sums refurbishing the property to a high standard. However, it did not even occur to her to have a fire risk assessment carried out so that the refurbishment works could include any fire safety upgrades required. For these reasons, the Tribunal cannot assume that the Applicants are the kind of &#8220;good landlords&#8221; who should not be regarded as a target of the penalty regime, let alone the kind who should be let off with just a warning.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Times New Roman';font-size:12pt">39.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hart criticised the FTT&#8217;s refusal to accept that the appellants were not &#8220;rogue landlords&#8221; and suggested that they could not be classified in that way because their offences had not been deliberate.  He invited me to provide an explanation of the meaning and significance of the expression &#8220;rogue landlord&#8221; but I am reluctant to accept that challenge as, in my judgment, it does not assist in determining this appeal or whether financial penalties should be imposed on the appellants.  The expression does not appear in <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>, and the jurisdiction to impose a financial penalty depends exclusively on it being proven that one of the relevant housing offences listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A(2) has been committed.  It is therefore positively unhelpful to be distracted by consideration of what a &#8220;rogue landlord&#8221; may be when the real question is whether the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A have been satisfied.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Times New Roman';font-size:12pt">40.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Nevertheless, if it is assumed that the true mark of a rogue landlord is that they qualify for inclusion in the database of rogue landlords to be established by the Secretary of State under <ref href="http://www.legislation.gov.uk/id/ukpga/2016/22/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2016/22" uk:canonical="2016 c. 22" uk:origin="TNA" uk:type="legislation">Housing and Planning Act 2016</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2016/22" uk:canonical="2016 c. 22" uk:origin="TNA" uk:type="legislation">the 2016 Act</ref>), <ref href="http://www.legislation.gov.uk/id/ukpga/2016/22/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 29</ref> and 30 of <ref href="http://www.legislation.gov.uk/id/ukpga/2016/22" uk:canonical="2016 c. 22" uk:origin="TNA" uk:type="legislation">that Act</ref> may be informative.  They provide that a person must be included in the database if a banning order has been made against them (<ref href="http://www.legislation.gov.uk/id/ukpga/2016/22/section/29" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29</ref>) and may be included if they are a landlord who has been convicted of a banning order offence (section 30(1) or who has, twice within 12 months, received a financial penalty in respect of a banning order offence (section 30(2)).  The full list of banning order offences is found in the Schedule to the <ref href="http://www.legislation.gov.uk/id/ukpga/2016/22" uk:canonical="2016 c. 22" uk:origin="TNA" uk:type="legislation">Housing and Planning Act 2016</ref> (Banning Order Offences) Regulations 2018.  They include all of the relevant housing offences listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A(2), and many other offences under a variety of criminal statutes.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Times New Roman';font-size:12pt">41.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Returning to the question of whether, in accordance with the policy, the FTT properly considered whether a financial penalty or a warning was appropriate, it seems to me that, read as a whole, and without adopting too semantic an analysis, paragraphs 22 and 23 are consistent with the approach advocated by paragraph 5(i) of the policy.  The critical feature of the FTT&#8217;s assessment was that it considered (in agreement with the Council) that the inadequate fire precautions present in the Flat had represented a serious risk to the safety of the tenants.  It is clear from the second part of paragraph 5(i) that there is a discretion to prosecute or impose a financial penalty without first administering a warning &#8220;where there are poor conditions or the tenants&#8217; welfare maybe compromised in an unlicensed HMO&#8221;.  It is true that that flexibility appears in the part of the paragraph dealing with professional letting agents and property companies, but it would be illogical to read the policy as if relevant considerations for one type of landlord were wholly irrelevant to another.  Since the object of licensing is to improve housing conditions, it is obviously relevant to consider whether, as a result of a failure to licence, risks of harm which might have been corrected as part of the licensing process have been allowed to continue. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Times New Roman';font-size:12pt">42.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It therefore seems to me that the FTT can be seen to have asked itself whether, notwithstanding the fact that Ms Ro was unaware of the additional licensing scheme, and so might ordinarily have been let off with a warning, the condition of the flat was such that a warning was inappropriate, and the case was tipped into the category where a financial penalty was justified.  Having asked itself that question the FTT considered that a penalty was justified.  In my judgment that was a conclusion which was is in accordance with the Council&#8217;s policy and which it was entitled to arrive at.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Times New Roman';font-size:12pt">43.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although it did not give separate consideration to whether a warning might be appropriate for the management offences, or refer to paragraph 5(h) of the policy, I am prepared to assume that the FTT adopted a consistent approach to all of the offences.  The fact that the breaches of the 2006 Management Regulations occurred in an unlicensed HMO and that they gave rise to hazards to the welfare of tenants was capable of bringing the case into the category where, under paragraph 5(h), a warning might be considered an inadequate response and a more draconian sanction became an option.  Whether the hazards were serious enough to merit a financial penalty was a matter of judgment for the FTT and cannot provide a ground for overturning its decision.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Times New Roman';font-size:12pt">44.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hart referred to my decision in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Ekwezoh v LB Redbridge </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2021/180" uk:canonical="[2021] UKUT 180 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 180 (LC)</ref> in support of his argument.  In that case a landlord who lived abroad had left the management of her flat to a letting agent who did not alert her to the need to licence the flat under a selective licensing scheme which had been introduced in the locality.  The FTT had failed to consider whether, in accordance with the housing authority&#8217;s policy, a warning should have been administered rather than a financial penalty and its decision was set aside.  The decision was then re-made, and I determined that the appropriate disposal was an informal one, without the imposition of a penalty.  Mr Hart urged on me the similarities between the facts of that case and this one, but those similarities are not enough in themselves to reveal any identifiable flaw in the FTT&#8217;s reasoning which could justify interference by this Tribunal. Additionally, in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Ekwezoh </span><span style="font-family:'Times New Roman';font-size:12pt">there was no suggestion that the property contained hazards which might have been remediated if a licence had been applied for; by contrast, in this case the presence of deficiencies, and the risks they created for the safety of the tenants in the event of a fire, are of critical importance in justifying the imposition of a penalty.        </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Times New Roman';font-size:12pt">45.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">It is convenient to deal here with the issue which Mr Hart presented as part of his second ground of appeal but which overlaps substantially with the first.  That is, whether the FTT took sufficiently into account the fact that responsibility for the day to day management of the Flat was assumed by Ms Ro, and that Mr Shorr played no part in it, except when she was out of the country.  If there is substance to that complaint it applies with equal force to the decision to impose penalties on Mr Shorr, rather than issuing a warning, as it does to the assessment of the quantum of the penalties.   </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Times New Roman';font-size:12pt">46.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Gill v LB Greenwich </span><span style="font-family:'Times New Roman';font-size:12pt">I determined that it was permissible under <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A, 2004 Act for separate financial penalties to be imposed on two joint landlords who had failed to obtain an HMO licence.  The landlords were brothers who had inherited an HMO from their parents which they jointly let and the rent was shared equally between them.  They were therefore each persons having control of the HMO and they had each separately committed the offence contrary to section 72(1), 2004 Act.  The local housing authority had imposed penalties of &#163;10,000 on each of them and the FTT reached the same decision.  On appeal I confirmed that, since separate offences had been committed, separate penalties could be imposed and I dismissed the appeal.  But at the conclusion of the decision I pointed out that the grounds of appeal which had been pursued had not challenged the quantum of the penalties or raised any issue about the assessment of penalties where joint landlords had each committed the same offence arising out of substantially the same facts.  I then sounded a note of caution for decision makers dealing with similar cases, at [37], as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;When the FTT applied the respondent&#8217;s penalty matrix in this case it did not differentiate between the appellants and treated them as equally culpable for the fact that the HMO was not licensed. But it is important that the penalty imposed on each joint landlord reflects his or her degree of responsibility, and a local authority or FTT should give separate consideration to the conduct of each person on whom a penalty is to be imposed. There may be cases where one of two joint landlords is responsible for the management of jointly owned property and where the other plays no part. There may be cases where one joint landlord has a relevant history of similar offences while the other does not. The proper response to cases of that sort will depend on the facts found. What is important is that the responsibilities, actions and circumstances of each landlord are separately assessed.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Times New Roman';font-size:12pt">47.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hart submitted that the FTT failed to take account of the different levels of culpability of the two appellants.  There is force in that submission up to a point.  In the passages from the FTT&#8217;s decision which I have quoted above it referred to mitigating and aggravating factors affecting the treatment of Ms Ro: on the one hand, she was well-intentioned, and she had spent considerable sums refurbishing the Flat; on the other, it had not occurred to her to obtain a fire risk assessment.  In those passages the FTT gave no separate consideration to the part played by Mr Shorr: it did not mention that he was not a landlord (on the contrary, it may wrongly have assumed that he was when it said &#8220;the tribunal cannot assume that the applicants are not the kind of &#8220;good landlords&#8221; who should not be regarded as a target of the penalty regime&#8221;); it did not refer to the fact that he had no responsibility for management of the Flat, and the only evidence of his involvement was with the Council, and not the tenants, when his wife was away and only then after it had threatened him with prosecution.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Times New Roman';font-size:12pt">48.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The FTT was addressed by Mr Hart on the issue of separate responsibility, and it accepted his submission up to a point but it did so in the context of assessing the quantum of the appropriate penalty and not at the earlier stage of considering whether a penalty was appropriate at all.  That need not have been a fatal flaw, if it could be inferred that separate consideration had in fact been given to Mr Shorr&#8217;s restricted involvement at both stages.  But the decision does not seem to me to provide any reassurance that that was the case. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Times New Roman';font-size:12pt">49.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The only passages in which the possibility of a non-financial disposal are considered are at paragraphs 21 to 23, which do not differentiate between the couple and treat Mr Shorr as a landlord and as responsible for failings in the refurbishment of the Flat with which he had had no involvement.  Nevertheless, when considering whether the quantum of the penalties to be imposed on the couple should be different, the FTT did consider their relative culpability.  Having referred to the fact that Mr Shorr was less active in the management of the property, but that that the rent went into a joint account, he was a joint owner and he stepped into his wife&#8217;s shoes in dealing with the Council when she was away, the FTT continued:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">&#8220;27.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">Having said that, the Tribunal was concerned that the Respondent had failed to consider properly whether the total sum of all the penalties taken together for both Applicants was proportionate to the offences committed. The subject property happened to be in both their names because, as Ms Ro said, as a married couple they shared everything. The Respondent appears to have calculated the penalty sums for each Applicant entirely separately so that they were each treated as if they were the sole owner &#8211; if only one of them had owned the property, it seems that the total fine would have been &#163;13,500 and if there had been a third owner, the total fine would have been &#163;40,500. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">28.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">The Applicants are separately liable for the offences and the Respondent is entitled to impose separate penalties: </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Gill v Greenwich RLBC</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2022/26" uk:canonical="[2022] UKUT 26 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 26 (LC)</ref>; [2022] HLR 30. However, the Guidance also refers to splitting penalty sums between joint offenders. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Times New Roman';font-size:12pt">29.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt">The Applicants are a married couple who arranged their affairs to divide responsibilities between them &#8211; Ms Ro had the responsibility of day-to-day management of the property. They are not entirely separate but nor do they bear the same degree of culpability for the offences which were committed in this case. Imposing penalties on the two of them as if they were entirely separate but bore equal culpability has resulted in a total fine which is disproportionate to the offences committed.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Times New Roman';font-size:12pt">50.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The FTT then reduced the penalty imposed on Mr Shorr for the licensing offence to &#163;1,000, which it said: &#8220;better reflects his individual responsibility and brings the total sum down closer to a proportionate amount&#8221;.  It left the penalty for Ms Ro at the original &#163;6,000.  It also reduced the penalties on both appellants for the failure to display the manager&#8217;s name and address from &#163;1,000 to &#163;500.  Since the second of those changes was applied equally to both appellants it was only in the first that the FTT recognised any distinction in responsibility.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Times New Roman';font-size:12pt">51.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The first difficulty I have with this part of the FTT&#8217;s decision is that, while it acknowledged Mr Shorr&#8217;s limited involvement, it did not specifically address the possibility that the appropriate penalty in his case might be a warning.  Having failed to distinguish between the couple when considering Mr Hart&#8217;s submission that the Council&#8217;s policy pointed towards a warning, and having not at that stage made any assessment of Mr Shorr&#8217;s culpability, the FTT did not glance back when reducing the penalty and consider whether the factors which justified a reduction might also be applicable to the principle of whether a penalty should be imposed at all.   </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Times New Roman';font-size:12pt">52.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The second problem with this consideration of the separate position of the appellants is that it was not reflected in any adjustment to the penalties for the breaches of regulation 4 (safety precautions) and 7 (common parts). Despite finding that responsibility for day-to-day management rested with Ms Ro, and not with Ms Shorr, the FTT did not make any adjustment to the penalties of &#163;5,000 and &#163;1,500 imposed on each of them for the two offences.  It did consider whether it should make any adjustment but decided not to, giving as its reason: &#8220;The Tribunal has decided not to vary but to confirm the other two sums because, taken by themselves, they are proportionate to the offences committed&#8221;.  No explanation was given why the same penalty was &#8220;proportionate&#8221; notwithstanding the different responsibilities of the couple, which had justified a substantial reduction in Mr Shorr&#8217;s case for the licensing offence.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Times New Roman';font-size:12pt">53.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The third problem which paragraphs 27 to 29 give rise to, is that they demonstrate that the FTT looked at the couple as a couple and considered whether the aggregate penalties imposed on them both were proportionate.  That is clear from the FTT&#8217;s reference to &#8220;whether the total sum of all the penalties taken together for both Applicants was proportionate to the offences committed&#8221;.  Mr Mold, who represented the Council, acknowledged that that was a clear error in the FTT&#8217;s reasoning, and that in considering whether the punishment to be imposed on an offender is just and proportionate, it is irrelevant that another offender is also to be punished for the same offences.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Times New Roman';font-size:12pt">54.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">This error casts doubt on the whole of the FTT&#8217;s assessment of penalties, but it is particularly problematic in relation to the importance of assessing the responsibilities, actions and circumstances of each appellant separately.  The fact that the FTT lumped together the penalties to be imposed on Mr Shorr and Ms Ro and asked itself whether the total sum was proportionate, rather than asking itself whether it was appropriate to impose any penalty on each of them and, if so, how much it should be, fortifies my conclusion that it did not give proper consideration to the case against Mr Shorr.   </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Times New Roman';font-size:12pt">55.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">For these reasons, while I am satisfied that the FTT properly applied the Council&#8217;s policy in deciding to impose financial penalties on Ms Ro, I am equally satisfied that it did not do so in the case of Mr Shorr, and that for that reason, the penalties imposed against him are set aside and his appeal against them must be redetermined. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Ground 2: The FTT&#8217;s assessment of quantum</span></heading>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Times New Roman';font-size:12pt">56.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hart made a number of points concerning the FTT&#8217;s approach to the quantum of the penalties.  Having already set aside the penalties imposed on Mr Shorr, this aspect of appeal is concerned only with the case of Ms Ro.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Times New Roman';font-size:12pt">57.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The penalty of &#163;6,000 imposed for the licensing offence was around the middle of the Council&#8217;s penalty matrix for an offence of &#8220;moderate&#8221; seriousness (on a scale ranging from &#163;0 to &#163;10,000).  I do not think there is anything in Mr Hart&#8217;s first complaint that, because the section 72 offence was committed out of ignorance rather than knowingly or deliberately, if any penalty was to be imposed it should be, as he put it, at the very low end of the scale.   The penalty assessed by the FTT was within the appropriate bracket indicated by the Council&#8217;s policy so unless Ms Ro can point to some error of principle in its assessment a generalised complaint that the amount was too much is doomed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Times New Roman';font-size:12pt">58.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Secondly, and more persuasively, Mr Hart suggested that the FTT had double counted the significance of the breaches of the 2006 Management Regulations which concerned fire safety precautions.  As is clear from Ms Dimcheva&#8217;s statement, these had been relied on in the Council&#8217;s own assessment as factors which aggravated the licensing offence, and so justified some part of the penalty of &#163;6,000 imposed for it but had also been the subject of their own separate penalty of &#163;5,000 for the breach of regulation 4.  Since the FTT had not identified the factors which had contributed to its own assessment and did not explain why it considered &#163;6,000 to be the appropriate penalty (other than that it was &#8220;proportionate&#8221;), it must be assumed that had in mind the same factors as had been taken into account by Ms Dimcheva.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Times New Roman';font-size:12pt">59.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Hart submitted that this double counting was unlawful.  That was because <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A(3), 2004 Act, directed that only one financial penalty may be imposed on a person &#8220;in respect of the same conduct&#8221;.  That meant, he suggested, that conduct which formed the subject of one offence could not be taken into account in determining the penalty to be imposed for a different offence.  The decision maker had a choice where the same conduct was relevant to two different offences: they could either impose penalties for both offences, but disregard the second offence when considering the appropriate penalty for the first, and vice versa; or,  they could impose a penalty for only one of the offences, and treat the facts of the other as an aggravating factor in determining the appropriate penalty.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Times New Roman';font-size:12pt">60.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I do not accept Mr Hart&#8217;s submission about the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A(3), but there is force in his rather more general point about the risk of double punishment.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Times New Roman';font-size:12pt">61.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">As to <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A(3), the conduct which is referred to seems to me to be the conduct which comprises the elements of each offence.  In the case of section 72(1), the relevant conduct is managing an unlicensed HMO.  In the case of regulation 4, it is failing to maintain adequate safety standards.  There is no overlap between the two.  As Mr Mold submitted, <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A(3) is engaged where essential elements of two offences are the same.  For example, it is an offence contrary to section 72(3) for a licence holder to fail to comply with a condition in an HMO licence.  If a licence was granted on condition that work to improve fire precautions was carried out within a prescribed period, the licence holder would commit the section 72(3) offence if they failed to carry out the work.  But the same failure might also be a breach of the duty imposed by regulation 4(4) to take all measures reasonably required to protect the occupiers of the HMO from injury.  The effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A(3) is that only one financial penalty could be imposed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Times New Roman';font-size:12pt">62.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Nevertheless, as Mr Mold acknowledged, it is important to avoid double counting or double punishment for the same conduct.  The FTT appreciated that and correctly directed itself that it should assess separate penalties for each offence, taking all relevant matters into consideration, and only then &#8220;consider whether the overall sum is proportionate to the offences committed&#8221;.  I agree.  Ensuring that the total penalty is both reflective of all of the offending behaviour and just and proportionate is the essence of the totality principle which I will refer to in greater detail shortly.  Consistently with that principle, while it is not a rule of law, the appropriate point at which to consider whether there has been double counting which might require amelioration is after a preliminary assessment has been made of the penalty for each offence. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Times New Roman';font-size:12pt">63.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Although the FTT was aware of the importance of ensuring that the total penalty imposed was proportionate to the offences committed, it took a wrong turn when it attempted to apply that approach.  I have already identified the critical passages in its decision at [49] above.  The approach adopted by the FTT is encapsulated in its concern that the Council may not have considered &#8220;whether the total sum of all the penalties taken together for both Applicants was proportionate to the offences committed&#8221;.  As Mr Mold recognised, there is no justification for aggregating the penalties imposed on two offenders when considering whether those penalties are proportionate. Where more than one person is to be penalised for the same conduct, the penalty imposed on each of them should be determined separately and the only relevant aggregation is of the total penalty to be imposed on each for the various offences.  If A and B together committed the same three offences each of which, if committed alone, would justify a penalty of &#163;3000, it is relevant to consider whether a total penalty of &#163;9,000 is proportionate to the offences which each has committed; it is irrelevant that, if each receives the full amount, the combined penalty to be imposed on both of them will be &#163;18,000.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Times New Roman';font-size:12pt">64.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In a case involving more than one offence it is here that the points made by Mr Hart in his second ground of appeal have greatest force. Because the FTT addressed the issue of proportionality by focussing, impermissibly, on the total amount of all the penalties to be imposed on the couple, that aspect of its decision must be set aside and the question of the proportionality of the penalties imposed on Mr Ro must be redetermined.      </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Times New Roman';font-size:12pt">65.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The proper approach is reflected in the guidance on criminal sentencing published by the Sentencing Council.  Although this guidance is aimed at sentencing in the criminal context, there is no civil equivalent and it provides an invaluable resource when assessing financial penalties under <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A, which are intended as an alternative to criminal sanctions.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Times New Roman';font-size:12pt">66.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Mr Mold helpfully referred me to two Sentencing Council publications: its General Guideline, and its specific guidance on Totality, both of which are available online.  The principle of totality applies when sentencing an offender for multiple offences; the guidance explains:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;&#8230; the overriding principle of totality is that the overall sentence should:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:12pt;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">Reflect all of the offending behaviour with reference to overall harm and culpability, together with the aggravating and mitigating factors relating to the offences and those personal to the offender; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:12pt;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">Be just and proportionate.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Times New Roman';font-size:12pt">67.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">Where an offender has been convicted of more than one offence and a fine is the appropriate sentence, the same document provides guidance which can readily be adapted by decision makers determining financial penalties.  It identifies the options available and explains how to ensure that the two limbs of the overriding principle of totality are respected:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;The total is inevitably cumulative. The court should determine the fine for each individual offence based on the seriousness of the offence and taking into account the circumstances of the case including the financial circumstances of the offender so far as they are known, or appear, to the court (section 125&#160;of the Sentencing Code). The court should add up the fines for each offence and consider if they are just and proportionate. If the aggregate total is not just and proportionate the court should consider how to reach a just and proportionate fine. There are a number of ways in which this can be achieved.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">For example:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:10pt;margin-left:0.79in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">where an offender is to be fined for two or more offences that arose out of the same incident or where there are multiple offences of a repetitive kind, especially when committed against the same person, it will often be appropriate to impose for the most serious offence a fine which reflects the totality of the offending where this can be achieved within the maximum penalty for that offence. No separate penalty should be imposed for the other offences.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:10pt;margin-left:0.79in;text-indent:-0.25in">&#8226;</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">where an offender is to be fined for two or more offences that arose out of different incidents, it will often be appropriate to impose a separate fine for each of the offences. The court should add up the fines for each offence and consider if they are just and proportionate. If the aggregate amount is not just and proportionate the court should consider whether all of the fines can be proportionately reduced. Separate fines should then be passed.</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt">Where separate fines are passed, the court must be careful to ensure that there is no double-counting.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Times New Roman';font-size:12pt">68.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In this case the penalties imposed on Ms Ro by the Council were &#163;6,000 for the licensing offence, &#163;5,000 for the inadequate fire precautions, &#163;1,500 for poor lighting in the common parts, and &#163;1,000 for the failure to display contact details (reduced to &#163;500 by the FTT, which left the other penalties undisturbed).  There is no suggestion in the evidence that the Council considered whether the total of &#163;13,500 which it imposed was just and proportionate.  The FTT addressed the totality issue by reducing the penalty imposed on Mr Shorr by &#163;5,000 but did not separately consider whether the &#163;13,000 total for Ms Ro was just and proportionate.  It is that exercise which I now undertake.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Redetermination</span></heading>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Times New Roman';font-size:12pt">69.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">There is force in Mr Hart&#8217;s complaint that in treating the licensing offence as aggravated by the fire safety issues, and then imposing a separate penalty for the fire safety offence, an excessive total has been arrived at.  It is also material that the main justification for the &#163;1,500 penalty under regulation 7 was the absence of functioning lighting on the stairs and upper landing; were it not for the impact that those deficiencies could have had in the event of a fire, it might have been thought that the replacement of light bulbs in the common parts of a house the whole of which was let under a single tenancy, was the responsibility of the four tenants, and not that of their landlord who lived 400 miles away.   Had it not been for the potential consequences of the breaches of regulations 4 and 7 for the safety of the tenants, the policy would have indicated a warning as the appropriate disposal for the licensing offence and in my judgment the just and proportionate way of taking into account all of the offending behaviour (other than the breach of regulation 3) is to reduce the penalty for the licensing offence to &#163;3,000, to leave the penalty of &#163;5,000 for the breach of regulation 4 and to impose no separate penalty for the breach of regulation 7.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Times New Roman';font-size:12pt">70.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">The offence of failing to display the name and address of the manager prominently in the Flat was trivial, as the tenants were in regular telephone communication with Ms Ro and had her name and address on the tenancy agreement which they had all signed.  In my judgment it would be disproportionate to the seriousness of that offence to add any further penalty to the total arrived at for the other breaches. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Times New Roman';font-size:12pt">71.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I bear in mind that a rent repayment order was also made against Ms Ro, which involved separate punishment for the same offence, but I do not make any adjustment.  Mr Hart did not argue that the amount of the rent repayment could or should be offset against the financial penalty, and that will remain an argument for consideration in another case.  One relevant consideration may be that the rent repayment order had not been made when the Council decided to impose the financial penalties, but it is likely that the tenants had already made their application to the FTT.  If this combination of circumstances arises again it may be necessary to bear in mind the decision of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Waltham Forest London Borough Council v Hussain </span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/733" uk:canonical="[2023] EWCA Civ 733" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 733</ref> which concluded, at [74], that the FTT had been wrong to address the issue of a landlord&#8217;s fitness on the basis of material that did not exist at the time of the decision of the local housing authority which was being challenged.    </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Times New Roman';font-size:12pt">72.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">For these reasons I set aside the FTT&#8217;s decision to impose penalties totalling &#163;13,000 on Ms Ro and substitute the two penalties I have indicated, totalling &#163;8,000.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Times New Roman';font-size:12pt">73.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">I do not consider that any financial penalty is appropriate in Mr Shorr&#8217;s case.  He did not enter into any contractual relationship with Ms Ro&#8217;s tenants and he was not their landlord.  He therefore owed them no contractual obligations and it was not unreasonable for him to leave management entirely to his wife.  His only involvement identified in the evidence was when his wife was out of the country and the initial notification arrived from the Council.  But that made allegations of criminal conduct against him personally, and it can hardly count against him that he took immediate steps to remedy the problems which the Council had identified.  That involvement does not justify treating him as a person with active responsibility for the condition of the Flat.  On advice, he has not challenged the proposition that he was a person in control of the Flat and had therefore committed all four offences, but in my judgment even on that basis the objects of enforcement have been fully met by the penalties imposed on his wife.  Mr Shorr&#8217;s expenditure of time and money in challenging the notices and in pursuing this appeal, which he will not recover, are a more than adequate sanction in the circumstances.    </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:4.5in"><span style="font-family:'Times New Roman';font-size:12pt">Martin Rodger KC, </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:4.5in"><span style="font-family:'Times New Roman';font-size:12pt">Deputy Chamber President</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:4in;text-indent:0.5in"><docDate date="2024-07-17" refersTo="#decision" style="font-family:'Times New Roman';font-size:12pt">17 July 2024</docDate></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Right of appeal&#160; </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt">Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

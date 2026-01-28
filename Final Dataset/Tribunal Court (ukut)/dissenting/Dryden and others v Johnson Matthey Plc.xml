@@ -1,0 +1,596 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2018/18"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2018/18"/>
+	  <FRBRdate date="2018-03-21" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="18"/>
+	  <FRBRname value="Dryden and others v Johnson Matthey Plc"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2018/18"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2018/18"/>
+	  <FRBRdate date="2018-03-21" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2018/18/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2018/18/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:30:19" name="transform"/>
+	  <FRBRdate date="2025-08-18T07:22:20" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2018-03-21" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="dryden-and-others" href="" showAs="Dryden and others"/>
+	<TLCPerson eId="johnson-matthey-plc" href="" showAs="Johnson Matthey Plc"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2018</uk:year>
+	<uk:number>18</uk:number>
+	<uk:cite>[2018] UKSC 18</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>841a0706080e717b8a449fb50bcd269b612e5a09c19a5f947a365f7a86212d43</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-style: italic; font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1.00in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.00in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.50in; margin-right: 0.50in; font-size: 13pt; }
+#judgment .NewSpeech { font-style: normal; font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p><img src="image1.png" style="width:1.3756944444444446in;height:1.3756944444444446in;"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Hilary Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2018] UKSC 18</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2016] EWCA Civ 408</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p class="Title1" style="margin-left:0.06in"><party as="#appellant" refersTo="#dryden-and-others" style="font-size:20pt">Dryden and others</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellants</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#respondent" refersTo="#johnson-matthey-plc" style="font-size:20pt">Johnson Matthey Plc</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Hale, President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Wilson</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Reed</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Black</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Lloyd-Jones</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2018-03-21" refersTo="#judgment" style="font-weight:bold;font-size:18pt">21 March 2018</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-left:4.00in;text-indent:-4.00in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 27 and 28 November 2017</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 1.97in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Appellants</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Respondent</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Robert Weir QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Michael Kent QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Patrick Kerr</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Peter Houghton</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">(Instructed by Leigh Day)</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Weightmans LLP (Leicester))</p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LADY BLACK: (<span style="text-transform:none">with whom Lady Hale, Lord Wilson, Lord Reed and Lord Lloyd-Jones agree)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The central question in this appeal is whether the appellants have suffered actionable personal injury on which they can found claims for negligence/breach of statutory duty. I will refer to the appellants hereafter as &#8220;the claimants&#8221; as they were at first instance.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The claimants worked for the respondent company, Johnson Matthey Plc (hereafter either &#8220;Johnson Matthey&#8221; or &#8220;the company&#8221;), in factories making catalytic converters. Platinum salts are used in the production process. In breach of its duty under the health and safety regulations and at common law, the company failed to ensure that the factories were properly cleaned and, as a result, the claimants were exposed to platinum salts, which led them to develop platinum salt sensitisation.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Platinum salt sensitisation is, in itself, an asymptomatic condition. However, further exposure to chlorinated platinum salts is likely to cause someone with platinum salt sensitisation to develop an allergic reaction involving physical symptoms such as running eyes or nose, skin irritation, and bronchial problems. When the claimants&#8217; sensitisation was detected, through routine screening by means of a skin test, they were no longer permitted by the company to work in areas where they might be further exposed to platinum salts and develop allergic symptoms. One has taken up a different role with the company but, he claims, at a significantly reduced rate of pay. The other two had their employment terminated. Each claimant therefore asserts that he has suffered financially as a result of his sensitisation to platinum salts, being unable to take work in any environment (whether with Johnson Matthey or with any other employer) where further exposure might occur. Does the platinum salt sensitisation which each of the claimants has developed qualify as an actionable personal injury, in which case the claimants have viable claims against the company for damages for personal injuries caused by the company&#8217;s negligence and/or breach of statutory duty? Alternatively, if the platinum salt sensitisation is not properly categorised as an actionable personal injury, can they recover damages for economic loss under an implied contractual term and/or in negligence?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The claimants lost at first instance, following a trial of the question of liability, before Mr Justice Jay. Jay J concluded <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2014/3957" uk:canonical="[2014] EWHC 3957 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWHC 3957 (QB)</ref> that they had sustained no actionable personal injury and that their claim was for pure economic loss, for which they were not entitled to recover in tort. He also rejected their alternative claim in contract. That had been put on the basis that there was an implied term in the claimants&#8217; contracts of employment which obliged the company to provide and maintain a safe place and system of work, and to take reasonable care for their safety, and that they were entitled to damages for pure financial loss for breach of that implied term. The judge, however, considered that the company&#8217;s implied contractual duty was to protect employees from personal injury, not from economic or financial loss in the absence of personal injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal dismissed the claimants&#8217; appeals (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/408" uk:canonical="[2016] EWCA Civ 408" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 408</ref>; <ref href="#" uk:canonical="[2016] 1 WLR 4487" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] 1 WLR 4487</ref>). Lord Justice Sales, with whom the other members of the court agreed, endorsed Jay J&#8217;s view that the claimants had suffered no actionable personal injury and were claiming for pure economic loss. He saw the physiological change of platinum salt sensitisation as &#8220;not harmful in itself in any relevant sense&#8221; (para 30) and concluded that it was not converted into actionable injury by the resulting removal of the claimants from their jobs, with detrimental financial consequences. As for the alternative claim for damages for economic loss under an implied contractual term and/or in negligence, there is, of course, no general duty of care in tort to protect against pure economic loss, and Sales LJ did not consider that a duty of care arose here from the particular circumstances of the case. His reasoning in relation to this was closely tied in with his reasoning in relation to the claim based on contract. That contractual claim failed because Sales LJ was in agreement with Jay J that there was no implied term in the claimants&#8217; contracts of employment to the effect that the employer would protect them from pure economic loss, whether on the basis of this being a standard implied term in employment contracts or on the basis of features particular to the employment of the claimants. In Sales LJ&#8217;s view, the claimants could not succeed in a tortious claim for pure economic loss when the employer assumed no such responsibility in the employment contract.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The medical position</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is necessary to understand the medical evidence about the claimants&#8217; condition for the purposes of the appeal. Sensitisation is a complicated process which has been explained in simplified terms for the purposes of the litigation. It involves the body&#8217;s immune system. The immune system reacts to the presence of molecules which are not normally found in the body (&#8220;antigens&#8221;) by producing antibodies, in the form of large molecules called immunoglobulins. In many cases, the antibody performs a useful purpose by combining with the antigen and rendering it harmless. However, in some cases, the combination of the antigen and the antibody results in adverse consequences by provoking particular cells within the body (&#8220;mast cells&#8221;) to release histamine. In this situation, asthma, rhinitis, eye symptoms or skin rashes may result.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A person who is sensitised to platinum salts will have a particular type of antibody in their immune system (IgE antibodies). Although they may not yet have developed any physical symptoms of the sensitisation, it can be demonstrated by a skin prick test in which a minute amount of a solution containing the salts is introduced into the body. A sensitised individual reacts by developing a small raised red, sometimes itchy, lump in the skin. If exposure to platinum salts continues after sensitisation has occurred, the medical evidence is that most (but not all) people will develop physical symptoms relating to one or more of the eyes, nose, chest and skin. At this point, they are said to have developed an allergy. On the other hand, physical symptoms will not develop if there is no further exposure. A person who has been sensitised but has not yet developed symptoms is not limited in any way in their life, except that they must avoid circumstances in which they are exposed to platinum salts. Platinum salts are not encountered in everyday life, only in certain specialised workplaces. Sensitised people cannot work in jobs which involve the potential for further exposure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">One of the central authorities which must be considered in determining this appeal is the House of Lords&#8217; decision in <span style="font-style:italic">Rothwell v Chemical &amp; Insulating Co Ltd</span><ref href="#" uk:canonical="[2008] AC 281" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] AC 281</ref>, which concerned the development of pleural plaques as a result of exposure to asbestos fibres. The doctors who provided expert medical evidence in the present case were asked to consider whether platinum salt sensitisation could be said to be akin to pleural plaques, and it is convenient to set out their response here. They were agreed that there are important distinctions between the two, namely:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">i)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.25in">Slight further exposure to asbestos will not materially worsen pleural plaques, but slight further exposure to platinum salts is likely to increase the degree of sensitisation and may result in asymptomatic sensitisation becoming symptomatic;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">ii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">Pleural plaques do not, themselves, turn into any other injury attributable to asbestos whereas asymptomatic sensitisation may turn into symptomatic sensitisation (allergy);</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">iii)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.50in">The presence of pleural plaques does not prevent a person from engaging in particular types of work that would otherwise be open to him or her, asbestos exposure being restricted by law in any event. In contrast, a person who has asymptomatic sensitisation to platinum salts <span style="font-style:italic">is</span> restricted in the work that he or she can do.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Collective agreement</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Employees of Johnson Matthey working in factory areas in which they could be exposed to platinum salts were paid an additional shift allowance. In addition, the claimants&#8217; trade union had negotiated a collective agreement with the company to address the issue of platinum salt sensitisation and allergy. The agreement provided for regular skin prick tests to take place and for employees who became sensitised to be redeployed away from platinum salt areas if possible. If an employee could no longer continue to work in a factory because of &#8220;platinum allergy&#8221;, the agreement provided for the company to dismiss him under special termination conditions, including what was termed an &#8220;ex gratia payment&#8221; of a lump sum.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The collective agreement expressly acknowledged that an employee dismissed with &#8220;platinum allergy&#8221; would normally file a compensation claim against the company. It provided that the termination arrangements were not meant to be an alternative to such claims, and that no waiver of claim was implied in accepting the termination payment.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Personal injury/harm</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Negligence and breach of statutory duty are not actionable per se. It is common ground between the parties that (leaving to one side claims for pure economic loss), in order to make out their claims in tort for negligence or breach of statutory duty, it is necessary for the claimants to establish that there has been damage, in the form of actionable personal injury. The terms &#8220;physical injury&#8221; and &#8220;personal injury&#8221; tend to be used interchangeably in the authorities, and in the documentation in this case, and this is reflected in this judgment, there being no psychiatric injury to complicate the matter.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">An exploration of the ambit of personal injury is fundamental to the appeal and depends largely on case law, in particular the two House of Lords cases of <span style="font-style:italic">Cartledge v E Jopling &amp; Sons Ltd</span><ref href="#" uk:canonical="[1963] AC 758" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1963">[1963] AC 758</ref> and <span style="font-style:italic">Rothwell v Chemical &amp; Insulating Co Ltd</span> (supra). It is worth noting from the outset that nowhere in the authorities is there a definition of actionable personal injury, although there is some guidance as to the attributes of it. Personal injury features as a concept in various legislative provisions, again without definition, although in some of the legislation, it is expressly said to include &#8220;any disease and any impairment of a person&#8217;s physical or mental condition&#8221;, see for example <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58/section/38" uk:canonical="1980 c. 58 s. 38" uk:origin="TNA" uk:type="legislation">section 38</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1980/58" uk:canonical="1980 c. 58" uk:origin="TNA" uk:type="legislation">Limitation Act 1980</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The parties are agreed that if a person were to develop a platinum salt allergy as a result of improper exposure to platinum salts at work, as opposed to mere sensitisation, he or she <span style="font-style:italic">would</span> have suffered personal injury of a type which would give rise to a cause of action in tort. What divides them is whether or not sensitisation on its own is actionable personal injury. The claimants rely upon <span style="font-style:italic">Cartledge v E Jopling &amp; Sons Ltd</span><ref href="#" uk:canonical="[1963] AC 758" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1963">[1963] AC 758</ref> as supporting their case that it is, and Johnson Matthey rely upon <span style="font-style:italic">Rothwell v Chemical and Insulating Co Ltd </span><ref href="#" uk:canonical="[2008] AC 281" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] AC 281</ref> as supporting their case that it is not.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Cartledge v E Jopling &amp; Sons Ltd</span>, the claims were brought by steel dressers who had contracted pneumoconiosis whilst working in the defendant&#8217;s factory. The issue was whether their claims were statute-barred and the House of Lords therefore had to consider when their cause of action first accrued. This required their Lordships to determine when the steel dressers had suffered actionable personal injury. The problem was that, in pneumoconiosis, substantial injury could occur to the lungs without the sufferer being aware of the disease, as had occurred with the plaintiffs. Amongst the arguments advanced unsuccessfully on their behalf was the argument that actionable injury did not occur until the man became aware of his disease, since a man who does not feel any symptoms or have any knowledge of his disease has suffered no injury. Addressing this argument, Lord Pearce, with whom there was unanimous agreement, gave consideration to the attributes of actionable personal injury. He observed (p 778) that no case had sought to define its borders but, in the following passage, drew what he could from the authorities to which the House had been referred:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;There is no case that seeks to define the borders of actionable physical injury. Your Lordships have been referred to words used in various cases. In <span style="font-style:italic">Fair v London &amp; North-Western Railway Co</span> [(1869) 21 LT 326, 327 DC] Cockburn CJ said: &#8216;&#8230; in assessing that compensation the jury should take into account two things; first, the pecuniary loss he sustains by the accident; secondly, the injury he sustains in his person, or his physical capacity of enjoying life.&#8217; Again, in <span style="font-style:italic">Haygarth v Grayson Rollo &amp; Clover Docks Ltd</span> [<ref href="#" uk:canonical="[1951] 1 Lloyd's Rep 49" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1951">[1951] 1 Lloyd&#8217;s Rep 49</ref>, 52] Asquith LJ said: &#8216;General damage, while usually assessed in a single global sum, ought to include loss referable to at least three factors, where all three factors are present, namely, the respective loss of earnings, pain and suffering and loss of amenity.&#8217; Such observations naturally proceed on the normal basis that personal injury involves some pain or patent loss of amenity, but the unusual question before your Lordships is whether a hidden, painless injury or latent loss of amenity sounds in damages. And in no case is it laid down that hidden physical injury of which a man is ignorant cannot, by reason of his ignorance, constitute damage.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Pearce went on to hold that actionable harm can be suffered despite the fact that a man has &#8220;no knowledge of the secret onset of pneumoconiosis and suffers no present inconvenience from it&#8221; (p 778). In Lord Pearce&#8217;s view, as will be seen from the following quotation from p 779 of the report, the question was &#8220;whether a man has suffered material damage by any physical changes in his body&#8221;, and this was a question of fact in each case:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;It is for a judge or jury to decide whether a man has suffered any actionable harm and in borderline cases it is a question of degree &#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">It is a question of fact in each case whether a man has suffered material damage by any physical changes in his body. Evidence that those changes are not felt by him and may never be felt tells in favour of the damage coming within the principle of de minimis non curat lex. On the other hand, evidence that in unusual exertion or at the onslaught of disease he may suffer from his hidden impairment tells in favour of the damage being substantial. There is no legal principle that lack of knowledge in the plaintiff must reduce the damage to nothing or make it minimal.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Although symptomless, and not causing any present physical inconvenience, the physical injury to the lungs of the steel dressers was held to constitute actionable damage and, by virtue of the terms of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/2-3/21" uk:canonical="1939 (2 &amp; 3 Geo. 6) c. 21" uk:origin="TNA" uk:type="legislation">Limitation Act 1939</ref>, their Lordships felt compelled therefore to find that their claims were statute barred.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="font-style:italic">Rothwell v Chemical and Insulating Co Ltd</span> involved employees who had been exposed to asbestos dust and had developed pleural plaques as a result. They were at risk of developing asbestos related diseases and suffered anxiety at that prospect; one of them had developed a depressive illness, brought on by the diagnosis of the plaques.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A convenient summary of the medical position about the plaques can be found at the start of Lord Hoffmann&#8217;s speech in <span style="font-style:italic">Rothwell</span>.<span style="font-style:italic"/>He said, in para 1:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;These are<span style="font-style:italic;font-family:Arial;font-size:10pt"/>areas of fibrous thickening of the pleural membrane which surrounds the lungs. Save in very exceptional cases, they cause no symptoms. Nor do they cause other asbestos-related diseases. But they signal the presence in the lungs and pleura of asbestos fibres which may independently cause life-threatening or fatal diseases such as asbestosis or mesothelioma. In consequence, a diagnosis of pleural plaques may cause the patient to contemplate his future with anxiety or even suffer clinical depression.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The unanimous view of the House of Lords was that the claimants had suffered no actionable damage. As Lord Hoffmann put it, in para 2, &#8220;compensatable physical injury&#8221; was required to establish a cause of action and the plaques did not constitute such injury. The claimant who had developed clinical depression was in a different position, since psychiatric illness can constitute damage. However, his claim also failed, essentially because it was not reasonably foreseeable that a person of reasonable fortitude would develop a psychiatric illness in his circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In considering the implications of the decision in <span style="font-style:italic">Rothwell</span>, it is important to have an appreciation of the attributes of the pleural plaques and of how they differ from the damage sustained by the steel dressers in <span style="font-style:italic">Cartledge</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Cartledge</span>, the inhalation of silica particles had damaged the lung tissue, causing minute scars and reducing the efficiency of the lung tissue. As Lord Hoffmann summarised the position in <span style="font-style:italic">Rothwell</span> (para 8):</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; their lungs had suffered damage which would have been visible upon an x-ray examination, reduced their lung capacity in a way which would show itself in cases of unusual exertion, might advance without further inhalation, made them more vulnerable to tuberculosis or bronchitis and reduced their expectation of life. But in normal life the damage produced no symptoms and they were unaware of it.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In contrast, the pleural plaques were not in any way harmful to a sufferer&#8217;s health or physical condition. They were evidence that the lungs had been penetrated by asbestos fibres but they did not, themselves, give rise to actual or prospective disability. Save in the most exceptional cases (which it appears did not include any of the claimants), they would not have any effect upon health at all. They were described, for example, as &#8220;symptomless bodily changes with no foreseeable consequences&#8221; (para 17), as &#8220;not harmful&#8221; and not giving rise to any symptoms or leading to &#8220;anything else which constitutes damage&#8221; (para 49), and as &#8220;asymptomatic and &#8230; not the first stage of any asbestos-related disease&#8221; (para 68). In so far as the sufferer faced a risk of deterioration in his health in future, that risk arose from the exposure to the asbestos fibres, not from the plaques, which neither posed nor contributed to any risk. Similarly, it was the exposure to asbestos which caused the anxiety felt by the claimants about their future health, following the discovery that they had pleural plaques, not the plaques themselves.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The speeches in <span style="font-style:italic">Rothwell</span> possibly shed a little further light on the identifying features of actionable personal injury. I will refer to the relevant passages here, and they contribute to my conclusions later.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">First, it seems to have been accepted that the concept of personal injuries includes a disease or an impairment of a person&#8217;s physical condition. The term &#8220;impairment&#8221; is to be found in certain statutes (see above) and is used by Lord Pearce in <span style="font-style:italic">Cartledge</span> who referred, at p 779, to the scarring to the lungs in that case as a &#8220;hidden impairment&#8221;. The trial judge in <span style="font-style:italic">Rothwell</span> looked for a disease or impairment of physical condition and, considering the judge&#8217;s finding that there was nothing that could be categorised in that way, Lord Hoffmann made no suggestion that the judge had been wrong to focus on impairment (para 11).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, it was underlined that to be actionable, the damage had to be more than negligible. This is expressed in various ways, including that it must be more than trivial (Lord Hoffmann, at para 8), that it must be &#8220;real damage&#8221; (Lord Hope of Craighead, at para 39), and that it must be material (Lord Rodger of Earlsferry, at para 87). Thirdly, following on from that, it was made clear that the mere fact that a particular physical condition might properly be described as an &#8220;injury&#8221; does not necessarily mean that it constitutes damage of the requisite kind. Lord Hope countenanced that the plaques could be called an injury (see, for example, at para 39), but the claimants still did not recover because, as he said:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the use of these descriptions does not address the question of law, which is whether a physical change of this kind is actionable. There must be real damage, as distinct from damage which is purely minimal: Lord Evershed, at p 774 [of <span style="font-style:italic">Cartledge</span>]. Where that element is lacking, as it plainly is in the case of pleural plaques, the physical change which they represent is not by itself actionable.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Returning to the subject at para 47, he said:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; It is well settled in cases where a wrongful act has caused personal injury there is no cause of action if the damage suffered was negligible. In strict legal theory a wrong has been done whenever a breach of the duty of care results in a demonstrable physical injury, however slight. But the policy of the law is not to entertain a claim for damages where the physical effects of the injury are no more than negligible. Otherwise the smallest cut, or the lightest bruise, might give rise to litigation the costs of which were out of all proportion to what was in issue. The policy does not provide clear guidance as to where the line is to be drawn between effects which are and are not negligible. But it can at least be said that an injury which is without any symptoms at all because it cannot be seen or felt and which will not lead to some other event that is harmful has no consequences that will attract an award of damages. Damages are given for injuries that cause harm, not for injuries that are harmless.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Hoffmann had some comments to make about the nature of &#8220;damage&#8221;. He said, at para 7:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;a claim in tort based on negligence is incomplete without proof of damage. Damage in this sense is an abstract concept of being worse off, physically or economically, so that compensation is an appropriate remedy. It does not mean simply a physical change, which is consistent with making one better, as in the case of a successful operation, or with being neutral, having no perceptible effect upon one&#8217;s health or capability.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Putting this formulation together with the requirement that the damage be more than minimal, he saw the relevant question, on the facts of the <span style="font-style:italic">Rothwell</span> case, as being (para 19), &#8220;is [the claimant] appreciably worse off on account of having plaques?&#8221; Although he had referred at para 7 to damage in the sense of being economically worse off, the context makes it plain that the question he was posing in para 19 was whether the claimant was physically worse off.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It can be seen from the passages referred to above that, as well as the usual reference to &#8220;pain, suffering and loss of amenity&#8221;, personal injury has been seen as a physical change which makes the claimant appreciably worse off in respect of his &#8220;health or capability&#8221; (Lord Hoffmann at para 7 of <span style="font-style:italic">Rothwell</span>) and as including an injury sustained to a person&#8217;s &#8220;physical capacity of enjoying life&#8221; (<span style="font-style:italic">Fair v London &amp; North-Western Railway</span><span/><span style="font-style:italic">Co </span>(1869) 21 LT 326, 327, quoted by Lord Pearce in <span style="font-style:italic">Cartledge</span>, at p 778<span style="font-style:italic">)</span>, and also an &#8220;impairment&#8221;. Furthermore, it has been established that it can be hidden and symptomless (<span style="font-style:italic">Cartledge</span>).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">How Jay J and the Court of Appeal saw matters</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Jay J saw it as key (paras 27 and 31 of his judgment) that the scarring to the lungs in <span style="font-style:italic">Cartledge</span> was &#8220;not neutral as to its health impacts&#8221; and constituted &#8220;a disease process which is real and present.&#8221; He contrasted this with the situation in the <span style="font-style:italic">Rothwell </span>case in that the pleural plaques would never cause symptoms or increase the susceptibility of the individual to other diseases or conditions, and did not reduce life expectancy. He agreed (para 30) that there were factual differences between <span style="font-style:italic">Rothwell</span> and the instant case, including that &#8220;the progression from sensitisation to allergy can be envisaged as being along a direct causal pathway &#8230; [whereas] &#8230; the pleural plaques were a biological cul-de-sac.&#8221; But he thought it critical that the progression would not occur if an employee was removed from the source of the sensitisation and, because the claimants had all been removed from exposure to platinum salts, would not occur in their cases. The correct approach in his view (para 32) was to analyse the sensitisation in terms of the physical or physiological harm that it may be causing. The antibodies in the claimants&#8217; bodies were not harmful in themselves and he considered that &#8220;something more has to happen before actionable injury may be sustained&#8221;. He discarded financial loss consequent upon the changes as irrelevant, and took the view that &#8220;one cannot define the actionable injury by the steps which are taken to prevent it&#8221; (by which he must have meant the steps taken to prevent the claimants developing an allergy). It seems to have been his view that, on the facts of this case, nothing short of actual symptoms could amount to actionable injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the Court of Appeal, there was a close analysis of <span style="font-style:italic">Cartledge</span> and <span style="font-style:italic">Rothwell</span>. Setting out his conclusions, between paras 30 and 32 of his judgment, Sales LJ (with whom the other members of the court agreed) concluded that the claimants have suffered &#8220;no physical injury&#8221;. He considered that the platinum salt sensitisation that they have developed is not harmful in any relevant sense. He saw it as analogous to the pleural plaques in <span style="font-style:italic">Rothwell</span>, and said that it was &#8220;not a &#8216;hidden impairment&#8217; which has the potential by itself to give rise to detrimental physical effects in the course of ordinary life&#8221;, and was therefore not like the lung scarring in <span style="font-style:italic">Cartledge</span>. He observed that, like the plaques, platinum salt sensitisation does not reduce life expectancy and, &#8220;provided the worker is removed from an environment in which he may be exposed to platinum salts&#8221; (para 27), will not cause symptoms, or increase the susceptibility of the individual to other diseases or conditions. In Sales LJ&#8217;s view (para 30), it did not therefore constitute actionable damage or injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Sales LJ agreed with Jay J that the steps taken to prevent the allergy developing (removing the employee from work in an environment where further exposure may occur) should not be seen as a component of the injury and that the sensitisation had to be looked at in terms of the physical or physiological harm which <span style="font-style:italic">it</span> may be causing, which, without further exposure, was none. He acknowledged that the removal of the claimants from their jobs might be seen as an extra element, present in this case and not in <span style="font-style:italic">Rothwell</span>, but, whilst he accepted that this was detrimental to the claimants financially, Sales LJ did not consider that it converted the physiological change into an actionable injury, because he took the view that the financial detriment should be viewed separately, as a form of pure economic loss. Indeed, he was disposed to view the removal of the claimants from their jobs as a &#8220;sort of mitigation of loss in advance of injury&#8221; (para 32), the restriction on their work being to protect them from suffering the physical injury which would otherwise have developed. On his reasoning, as damages can only be claimed for the expenses of mitigation where there is a right to sue for a wrong in the first place, and there was no such right here, damages for the financial loss could not be recovered.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The arguments in this court</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In summary, the claimants argue that platinum salt sensitisation constituted a physical change to their bodies which amounted to material damage in that they were worse off than they would have been but for their employer&#8217;s breach of duty. By virtue of their sensitisation, they were likely to develop an allergy if further exposed to platinum salts. Their bodies were now in a state that made them unfit for further work in areas where they may be exposed to salts (&#8220;red zones&#8221;), and this constituted a real loss of amenity and qualified as an actionable personal injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The company supports the reasoning of Jay J and the Court of Appeal. It argues that platinum salt sensitisation is not an actionable personal injury and that the claim is in reality one for pure economic loss for which the claimants are not entitled to recover, either in tort or through the medium of a term implied into their employment contracts. The claimants cannot establish actionable personal injury, say Johnson Matthey, by adding the financial consequences of the sensitisation to the physiological changes in their bodies.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The company argues that the changes in the claimants&#8217; bodies do not amount to physical damage to bodily tissue or an impediment to the proper working of bodily tissues or organs, and seeks to categorise the molecular change that has occurred as entirely normal and benign in character, as a person will naturally develop antibodies in everyday life and antibodies are not themselves harmful. In the company&#8217;s view, it &#8220;would seem perverse and an abuse of language to describe as &#8216;injured&#8217; someone who merely acquired a new antibody&#8221;. The company&#8217;s argument seeks to align the claimants&#8217; condition with that of the claimants with pleural plaques in the <span style="font-style:italic">Rothwell </span>case, and to distance it from the situation in <span style="font-style:italic">Cartledge</span>, it being asserted that sensitisation is merely an indicator of past exposure to platinum salts as the plaques were an indicator of exposure to asbestos. In addition, it is emphasised that the claimants are not limited in living their lives, except that they should avoid exposure to platinum salts.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">An important element in the company&#8217;s argument is that platinum salts are not encountered in ordinary everyday life, only in certain specialist workplace environments. I interpose to observe that an employee should not be exposed to the salts even in the specialist workplace, but it is clear from the existence of the testing regime and the practice of not allowing sensitised individuals to work in the red zones, that exposure does take place, and of course it is admitted that the claimants in this case were in fact exposed to the salts by virtue of the company&#8217;s breach of its duty under various health and safety regulations. The company says that these claimants almost certainly will not go on to develop platinum salts allergy, now that they are not permitted to work in the red zones, and are aware of the need to avoid contact in other working environments. Furthermore, the company observes that if the claimants <span style="font-style:italic">were</span> at any stage to develop initial allergy symptoms (which in themselves may be too minor to constitute actionable personal injury), that would be a warning to remove themselves from the source of exposure, thus avoiding significant injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Encapsulating these elements of their argument in their written case, the company says that the claimants have &#8220;molecular changes without symptoms&#8221; and &#8220;a theoretical but no practical risk of symptoms developing.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The company also argues that it is not, in fact, the sensitisation itself that prevents the claimants from working at their old jobs, but the terms of the collective agreement which led to the employer removing them from risky areas. This is demonstrated, it is said, by the fact that the claimants must have been sensitised before the skin prick test revealed that they were, but they continued to do their jobs until the test results were known.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Discussion</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I am not persuaded by the company&#8217;s attempt to class the claimants&#8217; condition as just the development of another benign antibody in the body, not a true departure from the normal, and not damaging the claimants&#8217; health or physical capability. Some antibodies may do their job in the body without producing any adverse consequences. What matters, however, is the behaviour of the particular antibody which is produced in an individual who has been sensitised to platinum salts. If such an individual is subsequently exposed again to the salts, the IgE antibody involved in platinum salt sensitisation is likely, in most people, to react in a way which produces allergic symptoms of a type which, it is common ground, would be of sufficient significance to constitute an actionable personal injury. Whilst possibly simplistic, I do not think it is inappropriate to view the development of a platinum salts allergy in a person who does not, at the outset, have a sensitivity to platinum salts as having two stages: first comes sensitisation, next comes allergy. Before initial employment in the red zones, a medical screening procedure is undertaken so as to avoid employing people who have a genetic disposition to allergy. When commencing work in the red zones, the claimants were people who had the capacity to work there. At that point, their bodies were fitted for that task, still having a safety net to protect them from allergy, in the form of the sensitisation stage, which would enhance the prospect of removing them from further exposure before allergy developed. When they became sensitised, through the company&#8217;s negligence and/or breach of statutory duty, that change to their bodies meant that they lost this safety net and therefore their capacity to work around platinum salts.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">But, on the company&#8217;s argument, this bodily change which leaves the claimants worse off than they were before they became sensitised, is not actionable personal injury. From discussion in the course of argument, it became clear that Johnson Matthey&#8217;s argument was not that sensitisation can <span style="font-style:italic">never</span> amount to actionable injury. Mr Kent QC acknowledged, on behalf of the company, that if the claimants had developed a sensitivity to something in everyday life, such as sunlight, as opposed to platinum salts, they would have sustained actionable damage because they would not be able to carry on with their ordinary life and would suffer, as he put it, a &#8220;deficit&#8221; which would undoubtedly be characterised as personal injury. It follows from this acknowledgment that there is no dispute that the physiological changes involved in sensitivity <span style="font-style:italic">can</span> constitute sufficient personal injury, sufficient damage, to found an action for negligence or breach of statutory duty.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">However, Mr Kent contrasts the person who develops a sensitivity to sun with the situation here because, he says, the sufferer is not sensitive to something in everyday life, but only to a dangerous chemical to which people should not be exposed, given the health and safety regulations. Certain aspects of this argument ring rather hollow in this case, given that the claimants <span style="font-style:italic">were</span> exposed to the salts by the company, and the risk of further exposure is considered sufficiently significant for the collective agreement to require that they be prevented from working in red zones. However, I will set that objection to one side for present purposes and consider the simple proposition that the claimants have not become sensitised to something in everyday life, like the sun. It is a proposition to which I cannot subscribe. Ordinary everyday life is infinitely variable. For these claimants, their ordinary everyday life involved doing jobs of a type which, by virtue of their sensitisation, they can no longer do. In those circumstance, I do not see how their situation can be validly distinguished from the person who has developed a sensitivity to the sun.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The physiological changes to the claimants&#8217; bodies may not be as obviously harmful as, say, the loss of a limb, or asthma or dermatitis, but harmful they undoubtedly are. <span style="font-style:italic">Cartledge</span> establishes that the absence of symptoms does not prevent a condition amounting to actionable personal injury, and an acceptance of that is also implicit in the sun sensitivity example, in which the symptoms would only be felt upon exposure to sunshine, just as the symptoms here would only be felt upon exposure to platinum salts. What has happened to the claimants is that their bodily capacity for work has been impaired and they are therefore significantly worse off. They have, in my view, suffered actionable bodily damage, or personal injury, which, given its impact on their lives, is certainly more than negligible.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It can be helpful to test an approach by applying it to slightly different facts, albeit that they are not an exact parallel with the present case. Suppose that the claimants were coffee tasters, employed because they had the ability to distinguish different flavours and qualities of coffee, by smell and taste. Suppose further that, through negligence, their sense of smell or taste became impaired in a way which would be of absolutely no consequence to anyone who was not employed in this particular role, but meant that they could no longer do their jobs and had to seek other employment. I venture to suggest that there would be little difficulty in accepting that the changes to their bodies were actionable personal injury. Another example might be of claimants working in the fragrance industry, whose highly developed sense of smell was damaged. It might be that the coffee tasters, or the expert perfumers, would be able to show something which looks more like a physical bodily injury of a conventional kind, but I can see no essential difference between their situation and the present case, where bodily changes have led to the claimants, who were formerly people who could and did work around platinum salts, no longer being able to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I should address specifically some of the arguments which featured in the company&#8217;s case. First, there is the argument that the claimants are attempting to claim for something, an allergy, that will never happen because they will not now work around platinum salts. This goes along with what might be described as &#8220;the timing argument&#8221;, namely that the deficit which the claimants rely upon (their inability to do their chosen jobs) did not exist prior to the positive skin tests, and was not the product of the negligent exposure to platinum salts and resulting sensitisation, but of the protective provisions of the collective agreement which required that they be removed from the red zones. Another strand of the argument is the assertion that the claimants are seeking to make what is, in reality, only a risk (the risk of developing an allergy) into an actionable injury.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">These arguments could only prosper, it seems to me, if the sensitisation itself is not seen as an actionable personal injury, but only as a benign and symptom-free molecular change. For the reasons I have given at paras 37 to 40 above, I do not see it in that way. If the sensitisation is viewed as an injury, as in my view it should be, then it did exist before the skin test revealed it. The restrictions on the work that can be done by claimants who have tested positive are attributable to the sensitisation, to which the protective provisions of the collective agreement were a response. Those provisions reflect the fact that, because of the negligence and/or breach of statutory duty of their employers, these claimants&#8217; bodies are now in such a state that they need to avoid further exposure to platinum salts which, according to the evidence, would be likely to provoke allergy in most people. But the need for sensitised individuals to avoid exposure would apply whether or not there was a collective agreement such as that which was in force in this case, and no matter whether the employer was Johnson Matthey or another employer who imposed no comparable restrictions. As for the fact that the claimants must have worked for a period after they became sensitised, but before their positive skin prick tests demonstrated that fact, I do not see that that advances the argument in any way, given that they did so in ignorance of their condition. They were lucky enough not to have gone on to develop allergic symptoms during that period of unknown sensitisation, but that does not mean that they would be safe to continue to work in red zones (or the equivalent area in another company) if not prevented from doing so by the collective agreement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Once the sensitisation is identified as an actionable injury in its own right, the company&#8217;s argument that the claimants are, in reality, claiming only for their lost earnings and therefore for pure economic loss also falls away.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">But, the company asks, what about a claimant who was about to retire when he or she became sensitised, or no longer wanted to work in the same type of employment, and upon whom the sensitisation would therefore have no impact? This, to my mind, does not go to the question of whether actionable personal injury has been suffered, but to the quantum of damages flowing from that, which it could be expected would be reduced by this feature of the particular case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I return to the cases of <span style="font-style:italic">Rothwell</span> and <span style="font-style:italic">Cartledge</span>. Although other authorities were cited, including some relating to claims for damage to property, I have found them of little direct, or even indirect, assistance and therefore, like Jay J and the Court of Appeal, my focus has been upon these two central cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I would distinguish this case from <span style="font-style:italic">Rothwell</span>. I set out earlier how the doctors saw the distinction between pleural plaques and sensitisation to platinum salts but it is, of course, ultimately a lawyer&#8217;s question whether the two conditions are distinguishable. As I see it, it is material that the pleural plaques were nothing more than a marker of exposure to asbestos dust, being symptomless in themselves and not leading to or contributing to any condition which would produce symptoms, even if the sufferer were to be exposed to further asbestos dust. Similarly, the sensitisation of the claimants in this case marks that they have already been exposed to platinum salts, but unlike the plaques, it constitutes a change to their physiological make-up which means that further exposure now carries with it the risk of an allergic reaction, and for that reason they must change their everyday lives so as to avoid such exposure. Putting it another way, they have lost part of their capacity to work or, as the claimants put it in argument, they have suffered a loss of bodily function by virtue of the physiological change caused by the company&#8217;s negligence.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As Lord Pearce said in <span style="font-style:italic">Cartledge</span> (supra para 15), it is a question of fact in each case whether a man has suffered material damage by any physical changes in his body. It is a question of fact that must be determined in the light of the legal principles applicable to personal injury actions, and this case has provided a useful opportunity to clarify some of those principles. The process has led me, for all the reasons I have set out, to differ from Jay J and the Court of Appeal and to conclude that the concept of actionable personal injury is sufficiently broad to include the damage suffered by these claimants, which is far from negligible.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In these circumstances, it is unnecessary to say anything further about the claimants&#8217; alternative argument that they should be able to recover for pure financial loss. I would allow the appeal on the claimants&#8217; first ground, having concluded that they do have a cause of action in negligence/statutory duty against the company.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

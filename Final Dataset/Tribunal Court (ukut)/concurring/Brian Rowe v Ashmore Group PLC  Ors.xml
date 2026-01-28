@@ -1,0 +1,1216 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/172"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/172"/>
+	  <FRBRdate date="2023-11-23" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="172"/>
+	  <FRBRname value="Brian Rowe v Ashmore Group PLC &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/172"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/172"/>
+	  <FRBRdate date="2023-11-23" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/172/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/172/data.xml"/>
+	  <FRBRdate date="2024-11-10T05:14:44" name="transform"/>
+	  <FRBRdate date="2024-11-19T21:56:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-11-23" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-brian-rowe" href="" showAs="MR BRIAN ROWE"/>
+	<TLCPerson eId="ashmore-group-plc" href="" showAs="ASHMORE GROUP PLC"/>
+	<TLCPerson eId="mr-robert-edwards" href="" showAs="MR ROBERT EDWARDS"/>
+	<TLCPerson eId="mrs-alexandra-autrey" href="" showAs="MRS ALEXANDRA AUTREY"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>172</uk:number>
+	<uk:cite>[2023] EAT 172</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>4d355311546571a3ce984b627f48b7d6676035a84d505cd56c77570c34cd9b56</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention1 { color: initial; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:8pt;color:#000000">Judgment approved by the court</span><span style="color:#000000"/><marker name="tab"/><span style="font-size:6pt">Rowe v Ashmore Group PLC &amp; ors</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">[2023] EAT 172</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">EA-2023-000390-RN</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#eat">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p class="CoverText" style="margin-left:0.49in">Rolls Building</p>
+      <p class="CoverText" style="margin-left:0.49in">Fetter Lane, London, EC4A 1NL</p>
+      <p class="CoverText" style="margin-left:0.49in">Date: <docDate date="2023-11-23" refersTo="#judgment">23 November 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before:</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CASPAR GLYN KC, DEPUTY HIGH COURT JUDGE</span></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.31in 3.74in 1.28in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#mr-brian-rowe" style="font-weight:bold">MR BRIAN ROWE</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ashmore-group-plc" style="font-weight:bold">(1) ASHMORE GROUP PLC</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#mr-robert-edwards" style="font-weight:bold">(2) MR ROBERT EDWARDS</party></p>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#mrs-alexandra-autrey" style="font-weight:bold">(3) MRS ALEXANDRA AUTREY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondents</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">ELAINE BANTON </span>(instructed by<span style="font-weight:bold"> Thomas Mansfield Solicitors Ltd</span>) for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">DIYA SEN GUPTA KC</span> (instructed by <span style="font-weight:bold">Linklaters LLP</span>) for the <span style="font-weight:bold">Respondents</span></p>
+      <p style="text-align:center">Hearing date: 23 November 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY</span></p>
+	    <p><span style="font-weight:bold">PRACTICE AND PROCEDURE</span></p>
+	    <p>When considering a Deposit Order the focus should be on the case or the arguments relied upon by the party facing the Order.</p>
+	    <p><span style="font-weight:bold">CASPAR GLYN KC, DEPUTY HIGH COURT JUDGE:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">By Notice of Appeal dated 3<span style="vertical-align:super;font-size:smaller">rd</span> May 2023 the Claimant makes this expedited appeal further to the order of his Honour Judge Beard of 24<span style="vertical-align:super;font-size:smaller">th</span> August 2023 from the Order of the London Central Employment Tribunal by Employment Judge Burns dated 23<span style="vertical-align:super;font-size:smaller">rd</span> March 2023 imposing a deposit order of &#163;1,000 on the nine claims which the Claimant brings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ground 1 is that the Judge erred or misdirected himself in law or was perverse in making deposits on all nine of the claims and failed to give reasons.  Ground 2 is that he applied the wrong test and based his judgment on an inference of motivation without any evidence. Ground 3 is that he took a flawed approach to the Claimant&#8217;s basis of claim, and Ground 4, is that he failed to afford appropriate consideration to the vulnerability of the Claimant who has subsequently been found to have been disabled at that time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I am grateful to both counsel, who appeared below, both for the quality of their submissions and for the provision of an agreed chronology.  It always helps this court to have such good submissions.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Brief Chronology</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">By agreement I am going to refer to the second complainant in this case as &#8220;Y&#8221; and to the complainant from the previous incident as &#8220;X&#8221;. The Claimant was employed on 6<span style="vertical-align:super;font-size:smaller">th</span> January 2014.  In September 2018 the Claimant had an interaction with Y on a business trip.  On 5<span style="vertical-align:super;font-size:smaller">th</span> April 2019 the Claimant was found by his employer to have sexually harassed complainant X. A disciplinary punishment of a final written warning and a financial sanction involving the surrender of 40% of the Claimant&#8217;s bonus, amounting to some &#163;204,000 was imposed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On 9<span style="vertical-align:super;font-size:smaller">th</span> June 2022 the Claimant had lunch with Y. It is during that lunch that it is alleged that the Claimant sexually harassed Y.  The third respondent raised concerns with the second respondent after she said that Y told her that C had made her feel uncomfortable.  On 21<span style="vertical-align:super;font-size:smaller">st</span> June the Claimant was suspended on full pay.  On 22<span style="vertical-align:super;font-size:smaller">nd</span> June, Linklaters LLP held a fact-finding meeting with the Claimant. They also held one with Y on 14<span style="vertical-align:super;font-size:smaller">th</span> June.  On 30<span style="vertical-align:super;font-size:smaller">th</span> June the Claimant was signed off sick with an acute stress reaction. On 29<span style="vertical-align:super;font-size:smaller">th</span> July the Claimant submitted his first grievance, on 19<span style="vertical-align:super;font-size:smaller">th</span> August the Claimant submitted his second grievance and on 13<span style="vertical-align:super;font-size:smaller">th</span> September the first respondent wrote to the Claimant to stop his sick pay. 27<span style="vertical-align:super;font-size:smaller">th</span> September was 89 days after the first sick note of 30<span style="vertical-align:super;font-size:smaller">th</span> June.  On 12<span style="vertical-align:super;font-size:smaller">th</span> October the second respondent refused the Claimant&#8217;s request of 15 September that a barrister attend his grievance meeting.  On 24<span style="vertical-align:super;font-size:smaller">th</span> October the Claimant complained about discrimination and detriment in respect of his share vesting award.  On 31<span style="vertical-align:super;font-size:smaller">st</span> October the Claimant&#8217;s second request, for a reasonable adjustment, which would be his employers permitting a barrister to attend his grievance meeting, was refused. The grievance outcome was communicated on 20<span style="vertical-align:super;font-size:smaller">th</span> November, and between 25<span style="vertical-align:super;font-size:smaller">th</span> to 28<span style="vertical-align:super;font-size:smaller">th</span> November the Claimant submitted four appeals in respect of his grievances.  On 22<span style="vertical-align:super;font-size:smaller">nd</span> December the grievance appeal outcome was sent.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Claims</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On 26<span style="vertical-align:super;font-size:smaller">th</span> January 2023 an ET1 was issued, and the Grounds of Complaint (<span style="font-weight:bold">GoC</span>) pursued nine different claims: </p>
+	  </intro>
+	  <subparagraph>
+	    <num>1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Direct sex discrimination, <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>2.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Direct sex discrimination <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> EQA;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>3.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Harassment related to sex, section 26 EQA;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>4.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Harassment related to race under section 26 of the EQA;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>5.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Victimisation because of doing a protected act under section 27 EQA;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>6.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Unlawful deduction of wages under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> of the Employment Rights Act   1998;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>7.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Discrimination arising out of disability under section 15 of the EQA;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>8.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Failure to make reasonable adjustments under section 20 and 21 of the EQA; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>9.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;text-indent:0.11in">Whistleblowing, detriment under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/47/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 47(1)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">ERA 1996</ref>.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The Grounds of Complaint</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I am now going to outline the GoC, and it should not be thought at any point that I accept that there is any finding that the allegations made are proper or not. What is clear is that the GoC are heavily contested.  Equally, where I summarise above or below any part of the Claim or the Response to it or any allegations then such a summary should not be taken as supporting or making any finding that is relevant to the trial of the Claim. I do so only to dispose of this appeal. The facts of the case will be entirely a matter for the Employment Tribunal hearing the trial. However, it is of the first importance to look at what the Claimant&#8217;s case is.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Claimant addresses the central allegation that he was guilty of sexual harassment in paragraph 21.  In paragraph 21(a), in summary, he says that he briefly mentioned Salsa, referencing admitted previous discussions with Y, but he denied that he invited Y to dance Salsa with him.  At paragraph 21(b) there is no allegation that he invited Y to have a massage, but the allegation is that he mentioned the subject of massage to Y.  In paragraph 21(b) it is pleaded he did not recall discussing this topic with Y. In paragraph 21(c) the Claimant admitted that he had told Y that she was welcome to visit his home to see how he lived as an UK person, arising, the Claimant alleges, out of an innocent discussion about matters unconnected to sex.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, at paragraph 92 of the GoC it is asserted that comments as to Salsa and massage are not, of themselves, harassment related to sex and were only seen so because of the Claimant&#8217;s protected characteristics and conscious or unconscious bias.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraphs 11 to 12 of the Grounds of Complaint it is said that the Claimant had a positive and productive working relationship with Y.  At paragraphs 13 to 16 he sets out a history of what is asserted to be innocent conversations about Salsa.  At paragraph 25 he alleges that Y did not want to complain, and the third respondent pressed her to do so. It is alleged that there was a further telephone call and Y did still not wish to complain, and then finally it was left that if the third respondent reported the matter then Y would speak to HR.  Finally in this respect, it is said that the moving of the comments from the realm of an innocent conversation to one of harassment and sexual harassment was because of leading questions asked by Linklaters at paragraph 46(b).  Then paragraph 25 sets out that the third respondent made the complaints.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is also alleged that the suspension was effectively a knee-jerk reaction, that it was wrongful at paragraphs 26 to 30 and paragraph 32. The Claimant asserts that he was given no explanation as to why he was suspended although he asserts that there was no question of him interfering with the investigation or that there was any risk of harm to Y as she was working abroad.  In any event, he alleges that an alternative to his suspension at paragraph 32(b) such as, for instance, an altered reporting line, was not considered.  There was a failure, he alleges, to review that continuing suspension at paragraph 46(e)(7).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, the Claimant alleges there was a failure to ensure a reasonable investigation was undertaken commensurate with the allegations put to the Claimant, which were likely to ruin him. He alleges that Linklaters was not independent and it is alleged at paragraph 30 that they had a link to the second and third respondent.  Further, the Claimant asserts that he was not told in any proper way as to what the allegations were during the investigation, that the investigation was inadequate in that only C and Y were interviewed, and that they were only interviewed once.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, it is alleged at paragraph 31 that the first respondent failed to follow its own policy by not allowing him a companion at the fact-finding interview, and at paragraph 26 it is alleged that on 21<span style="vertical-align:super;font-size:smaller">st</span> June 2022 the Claimant was not told of the allegations and that he was merely suspended on full pay, told that he could be dismissed, but no more.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In addition, allegations are made in respect of a data subject access request on 19<span style="vertical-align:super;font-size:smaller">th</span> July 2022 at paragraph 45, and that he just received a box of unindexed documents in an unusable manner.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 46 he complains that he raised grievances on several issues on 29<span style="vertical-align:super;font-size:smaller">th</span> July and the issue at paragraph 47 raised is that his consent was not properly dealt with.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 61 the Claimant complains that the second respondent decided the second grievance against him and that the second respondent was therefore acting as a judge in his own cause on 31<span style="vertical-align:super;font-size:smaller">st</span> August 2022.  The decision to refuse, repeatedly, the Claimant&#8217;s request to have a barrister attend the meeting is also pleaded, as were the actions preceding the Claimant&#8217;s referral to the Occupational Health doctors on 18<span style="vertical-align:super;font-size:smaller">th</span> July 2022, in particular, a failure to send the Claimant a copy of the referral form and attachment containing personal data before disclosing those to the doctor at paragraph 48, and other matters such as informed consent at paragraphs 46 to 49.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, at paragraph 64 the Claimant makes allegations that the Remuneration Committee decision on 2<span style="vertical-align:super;font-size:smaller">nd</span> September to suspend the Claimant&#8217;s share vesting was an act of discrimination as well as the decision to cease paying him on 27<span style="vertical-align:super;font-size:smaller">th</span> September that was made on 13<span style="vertical-align:super;font-size:smaller">th</span> September 2022 (paragraph 65).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Matters continued in the chronology and on 3<span style="vertical-align:super;font-size:smaller">rd</span> February 2023 the Claimant asserts that he was unable to attend the disciplinary hearing, that he was given written questions and answers in which, I am told in submissions, the Claimant denies he referred to &#8220;massage&#8221;.  On 13<span style="vertical-align:super;font-size:smaller">th</span> February, a disciplinary outcome was given.  On 17<span style="vertical-align:super;font-size:smaller">th</span> February, the Claimant was summarily dismissed for sexual harassment of Y.  On 28<span style="vertical-align:super;font-size:smaller">th</span> February, the Claimant launched his appeal.  On 1<span style="vertical-align:super;font-size:smaller">st</span> March 2023 Grounds of Resistance (<span style="font-weight:bold">GoR</span>) were filed in which I note paragraph 10 denies that there is any connection between the treatment and the Claimant&#8217;s sex or race.  Manifestly, it is asserted, if these allegations had been made against another the same would have happened and that person would have been put through the same process.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 28 it is asserted that Y was based elsewhere but visiting London on business.  At paragraph 37 it is pleaded as follows:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;The disciplinary hearer concluded that at the 9 June lunch the Claimant had raised comments about Salsa dancing to the second victim (including asking her whether she Salsa danced every weekend and where she Salsa danced), made comments relating to massage (including that he liked to massage people) and invited the second victim to Salsa dance with him at his place of residence in the future, all of which created an upsetting and intimidating environment for the second victim.  The disciplinary hearer then concluded that the Claimant had committed acts of sexual harassment against the second victim in breach of the first respondent&#8217;s harassment and bullying policy.&#8221;  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 44 the respondents plead that the reference to massage was not innocuous and at paragraph 50 that the suspension was to prevent any risk of further incidents, particularly given the previous history in April 2019.  At paragraph 54 the respondents set out that the person, a barrister, whom the Claimant wanted to accompany him, was properly refused.  At paragraph 57 the respondents plead that the response to the DSAR was a lawful one.  At paragraph 61 they assert that the decision to defer the discretionary award until after the disciplinary hearing was also lawful.  At paragraph 62, in line with the first respondent&#8217;s policy, that after 60 days of sickness it was a matter of discretion as to whether further payment should be made for sickness absence, they plead that the discretion was properly exercised.  At paragraph 72, it is pleaded that when Y raised the matters with the third respondent they had no alternative, particularly as one can see from the context in a heavily regulated sector, but to pass them on.  In paragraphs 83 and 84 it is pleaded that HR was only contacted after the third respondent did not persuade Y to make the complaints herself.  In paragraph 90 the respondents plead that the Claimant was not told of the allegations prior to his suspension to protect any evidence and Y before the fact-finding interview.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Issues and Agenda at the PH</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">By a Notice dated 9<span style="vertical-align:super;font-size:smaller">th</span> February 2023 a Preliminary Hearing was fixed for 23<span style="vertical-align:super;font-size:smaller">rd</span> March 2023. At that Preliminary Hearing EJ Burns was provided with a full agreed List of Issues.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In essence, the claims were in respect of race and/or sex direct discrimination and harassment set out under paragraphs 2(a) through to (i).  When I set out the issues at (a) through to (i), I am not going to set out the sub-paragraphs under (d), (e) and (f). It is unnecessary because of the concession made by Ms Sen Gupta. The list of issues set out these detriments:  </p>
+	  </intro>
+	  <subparagraph>
+	    <num>(a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">The third respondent (<span style="font-weight:bold">R3</span>) pressing and instigating Y to make complaints to HR about her 9<span style="vertical-align:super;font-size:smaller">th</span> June 2022 comments on the June lunch;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">R3 reporting a complaint to HR about the Claimant, based on her biased perception of events, pressing for Y&#8217;s participation (when she didn&#8217;t wish to make a complaint) then pursing the instigation of disciplinary action against C herself;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(c)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">The second respondent&#8217;s (<span style="font-weight:bold">R2</span>) decision to suspend C and/or connected failure to undertake proper consideration and assess alternatives before doing so (and his continuing application of suspension terms);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(d)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">R2&#8217;s poor management and oversight of C&#8217;s disciplinary process, given his responsibility as Head of HR;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(e)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">R2&#8217;s poor management and handling of C&#8217;s grievance process, particularly concerning his rights of consent relating to occupational health referral, his responsibility as Head of HR;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(f)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">R2&#8217;s actions preceding C&#8217;s occupational Health doctor meeting of 5<span style="vertical-align:super;font-size:smaller">th</span> August 2022;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(g)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">The Remuneration Committee decision on 2<span style="vertical-align:super;font-size:smaller">nd</span> September 2022 to suspend C&#8217;s share vesting award;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(h)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">R2&#8217;s decision on 13<span style="vertical-align:super;font-size:smaller">th</span> September 2022 to cease paying C his normal pay from 27<span style="vertical-align:super;font-size:smaller">th</span> September 2022, despite him having been suspended on full pay; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>(i)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in">R2&#8217;s lack of concern and action exhibited in respect of C&#8217;s health and wellbeing and failure of R1 to properly support the Claimant when suffering with serious mental illnesses.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In addition, the list of issues set out a claim of victimisation which was based on detriments which are part of 2(d)((iv), (v) and (vi) only), 2(g), 2(h) and 2(i), whistleblowing detriments 2(e)((iv) and (v) and (vi) only) to 2(j) inclusive, an unlawful deduction, the decision to cease paying sick pay on 27<span style="vertical-align:super;font-size:smaller">th</span> September 2022 and finally, a reasonable adjustments claim that the Claimant was put at a substantial disadvantage by not being allowed to have his barrister at meetings which were requested in letters of 30<span style="vertical-align:super;font-size:smaller">th</span> October 2022, 18<span style="vertical-align:super;font-size:smaller">th</span> October 2022 and 19<span style="vertical-align:super;font-size:smaller">th</span> January 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The parties completed an agreed agenda in the normal way with no issues, there was no strike out or deposit application made by the respondents, and I note that it was referred to, but the respondent reserved all its rights in its GoR.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Disability</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I am going to take one matter out of order before I deal with the facts of 23<span style="vertical-align:super;font-size:smaller">rd</span> March 2022, and that is on the 1<span style="vertical-align:super;font-size:smaller">st</span> to 2<span style="vertical-align:super;font-size:smaller">nd</span> November 2023 Employment Judge Davidson heard a PH and found that the Claimant is disabled from 12<span style="vertical-align:super;font-size:smaller">th</span> October 2022 with an adjustment disorder with mixed depression and anxiety.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The PH</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Turning to the events of 23<span style="vertical-align:super;font-size:smaller">rd</span> March, the hearing was by CVP.  Ms Banton and the Claimant were located in different places. There were substantial submissions on whether or not there should be a further PH on disability.  The hearing began at two o&#8217;clock and the matter was timetabled in the usual way, and by 2.45pm the matters in the agenda had been dealt with and at that point the Employment Judge raised the subject of a deposit order.  Ms Banton objected to the consideration of that matter because she had not been given any warning and she asked for an adjournment.  Ms Banton was given 15 minutes at about three o&#8217;clock and by about 3.15pm the hearing resumed.  Ms Banton&#8217;s objection that she had made prior to the adjournment clearly was not withdrawn at three o&#8217;clock, but she was offered more time. She declined to take that offer.  She made submissions, and it is not quite agreed whether full reasons were given or whether they were summary reasons in an order, but in any event the hearing was concluded by 3.30pm.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">After that hearing there has been consensual amendment of the GoC and GoR to include the fact of the Claimant&#8217;s dismissal that has taken place.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Judgment of the Tribunal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Turning to the judgment, the Employment Judge noted at paragraph 12 that no notice had been given to Ms Banton or the Claimant as to his raising the question of making a deposit order.  He noted that Ms Banton had objected to dealing with the deposit that afternoon and that the respondents had not made an application either to strike out the claim or for a deposit. The Claimant wanted to serve witness evidence and documentary evidence.  The judge noted correctly at paragraph 13 that the Employment Tribunal can make such a deposit order of its own volition and notice is not a requirement of Rule 39 of the Employment Tribunal Rules and Procedures 2013, nor is it a requirement that evidence be heard; the Tribunal can make its own decision.  The Judge further found that if a Tribunal was required to consider evidence, that would defeat one of the main purposes of Rule 39, which is to save costs and prevent the Tribunal&#8217;s resources being wasted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 14 the Judge sets out that Ms Banton was allowed 15 minutes and that she declined an offer of more time.  Submissions were made by the Claimant and the Judge did not allow the respondents to make submissions but simply said that he was relying upon the face of the pleadings or matters not in dispute, such as the final written warning. In the hearing below, and before me, the ability of the Claimant to pay a deposit of &#163;1,000, was not put in issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 16 the Judge concluded that it was proper to make a deposit order in the sum of &#163;1,000 if the Claimant wishes to pursue his substantial (valued at &#163;2 million) claims to trial.  The order at paragraph 1 provided as follows:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;The Employment Judge considers that the Claimant&#8217;s claims have little reasonable prospect of success.  The Claimant is ordered to pay a deposit of &#163;1,000 by 13th April 2023 as a condition of being committed to continue to advance the claims.&#8221;  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1">The reasons for the order were set out as follows:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;3.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The Claimant was subject to suspension and disciplinary investigation into alleged sexual harassment of a work colleague, Y, on 9.6.22.  In paragraph 21(a) of his POC he admits discussing Salsa dancing with Y which was one matter she had complained about.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">5.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">In paragraph 21(b) the Claimant does not clearly deny having discussed massage with Y which was a further element of the complaint.  Instead he uses the rubric that he does not recall having done so.  Seeing that the complaints and investigation followed closely after 9.6.22 it is implausible to suggest that the Claimant does not recall whether he did or did not refer to massage.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">6.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">In paragraph 21(c) he admits having invited Y to visit him in his home, which was a further element of the complaint.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">7.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">Y is a solicitor in a foreign country and reported to the Claimant and was junior to the Claimant in the corporate hierarchy.  The Claimant has not suggested any reason why Y should have invented the substance of the complaint against him.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">8.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The Claimant was given a final written warning in 2019 having previously sexually harassed another female work colleague in which harassment he was found to have referred to massage.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">9.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">In these circumstances it would have been surprising if the respondent had not decided to suspend the Claimant and investigate his alleged misconduct in 2022.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">10.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The Claimant has brought complicated and diverse claims which have or seem to me to be simply an attempt to divert and deter the first respondent from responding appropriately to the complaint.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">11.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The Employment Tribunal is likely to find in due course that the respondents&#8217; actions are lawful and not discriminatory.  </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1">Paragraph 14 read as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;The matters which I have considered as meriting the ordering of a deposit are either on the face of the Claimant&#8217;s own pleadings or (in the case of the final written warning) are not in dispute.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Employment Tribunal Rules of Procedure set out in schedule 1 to the Employment Tribunal&#8217;s Constitution and Rules of Procedure Regulations 2013 (SI 2103/1237).</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;39 &#8211; Deposit orders.  (1)  Where at a preliminary hearing (under rule 53) the Tribunal considers that any specific allegation or argument in a claim or response has little reasonable prospect of success, it may make an order requiring a party (&#8216;the paying party&#8217;) to pay a deposit of not exceeding &#163;1,000 as a condition of continuing to advance that allegation or argument.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The Tribunal&#8217;s reasons for making the deposit order shall be provided with the order and the paying party must be notified about the potential consequences of the order.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1">Further, I note that sub-paragraph (5) sets out that the consequences of the making of a deposit order is that if the</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;&#8230;specific allegation or argument against the paying party for substantially the reasons given in the deposit order are made and the claim is dismissed on that ground the paying party shall be treated as having acted unreasonably in pursing that specific allegation or argument for the purpose of rule 76, unless the contrary is shown; and the deposit shall be paid to the other party (or, if there is more than one, to such other party or parties as the Tribunal orders), otherwise the deposit shall be refunded.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The test on such an appeal is agreed by counsel, and it is that set out in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Mr J Wright v Nipponkoa Insurance Europe Ltd</span> UKEAT/0113/14/JOJ:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;33.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The test for ordering of a deposit is that the party has little reasonable prospect of success; as opposed to the test under Rule 37 for a strike-out (no reasonable prospect of success).  Although that is a less rigorous test, the Tribunal must still have a proper basis for doubting the likelihood of the party being able to establish the facts essential to the claim&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">34.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">When determining whether to make a deposit order an Employment Tribunal is given a broad discretion.  It is not restricted to considering purely legal questions.  It is entitled to have regard to the likelihood of the party being able to establish the facts essential to their case.  Given that it is an exercise of judicial discretion, an appeal against such an order will need to demonstrate that the order made was one which no reasonable Employment Judge could make or that it failed to take into account relevant matters or took into account irrelevant matters.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The duty to give reasons arises under rule 62(4) and (5) of the Employment Tribunal Rules of Procedure:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold">(4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">&#8220;The reasons given for any decision shall be proportionate to the significance of the issue and for decisions other than judgments may be very short.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold">(5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">In the case of a judgment the reasons shall: identify the issues which the Tribunal has determined, state the findings of fact made in relation to those issues, concisely identify the relevant law and state how that law has been applied to those findings in order to decide the issues.  Where the judgment includes a financial award the reasons shall identify, by means of a table or otherwise, how the amount to be paid has been calculated.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the well-known case of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Meek v City of Birmingham District Council</span> <ref href="#" uk:canonical="[1987] IRLR 250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] IRLR 250</ref> at paragraph 8, page 251:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;It has on a number of occasions been made plain that the decision of an Industrial Tribunal is not required to be an elaborate formalistic product of refined legal draftsman ship, but it must contain an outline of the story which has given rise to the complaint and a summary of the Tribunal&#8217;s basic factual conclusions and statement of the reasons which have led them to reach the conclusion which they do on those basic facts.  The parties are entitled to be told why they have won or lost.  There should be sufficient account of the facts and of the reasoning to enable the EAT or, on further appeal, this court to see whether any question of law arises.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, the parties both relied on the President&#8217;s decision, Simler J, as she then was, in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Hemdan v Ishmail &amp; Ors</span> [2017] ICL 486 at paragraph 10:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;10.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">A deposit order has two consequences.  First, a sum of money must be paid by the paying party as a condition of pursing or defending a claim.  Secondly, if the money is paid and the claim pursued, it operates as a warning, rather like a sword of Damocles hanging over the paying party that costs might be ordered against that paying party (with a presumption in particular circumstances that costs will be ordered) where the allegation is pursued and the party loses.  There can accordingly be little doubt in our collective minds that the purpose of a deposit order is to identify at an early stage claims with little prospect of success and to discourage the pursuit of those claims by requiring a sum to be paid and by creating a risk of costs ultimately if the claim fails.  That, in our judgment, is legitimate, because claims or defences with little prospect cause costs to be incurred and time to be spent by the opposing party which is unlikely to be necessary.  They are likely to cause both wasted time and resource, and unnecessary anxiety.  They also occupy the limited time and resource of courts and tribunals that would otherwise be available to other litigants and do so for limited purpose of benefit.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">11.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The purpose is emphatically not, in our view, and as both parties agree, to make it difficult to access justice or to effect a strike out through the back door&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">12.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">&#8230; The test, therefore, is less rigorous in that sense, but nevertheless there must be a proper basis for doubting the likelihood of a party being able to establish facts essential to the claim or the defence.  The fact that a tribunal is required to give reasons for reaching such a conclusion serves to emphasise the fact that there must be such a proper basis.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">13.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The assessment of the likelihood of a party being able to establish facts essential to his or her case is a summary assessment intended to avoid cost and delay.  Having regard to the purpose of a deposit order, namely to avoid the opposing party incurring cost, time and anxiety in dealing with a point on its merits that has little reasonable prospect of success, a mini-trial of the facts is to be avoided, just as it is to be avoided on a strike out application, because it defeats the object of the exercise.  Where, for example as in this case, the Preliminary Hearing to consider whether deposit orders should be made was listed for three days, we question how consistent that is with the overriding objective.  If there is a core factual conflict it should properly be resolved at a Full Merits Hearing where evidence is heard and tested.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Pausing there, although it has a serious effect, a deposit order made on a proper basis is an appropriate Order under the rules. In such a case the Damoclean sword rightly hangs over the Claimant&#8217;s decision to pursue the claims on which the Order is focussed.  However, an order on an improper basis cannot stand.  Ms Banton referred me to paragraph 21 of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sharma v New College Nottingham</span> UKEAT/0287/11/LA:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;In my judgment, it would be illogical to require an Employment Judge to have a different approach, depending on whether he is considering striking out, or making an order for a deposit as either order is, on any view, a serious, and potentially fatal order.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1">I agree, a deposit order is a serious order, but if properly made, it should stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Mrs B Tree v South East Coastal Ambulance</span> UKEAT/0043/17/LA Her Honour Judge Eady, as she then was, held:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;39.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">Turning to the claim under section 15 of the Equality Act, however, it is apparent that a number of problems arise with the ET&#8217;s approach and reasoning.  First, I am concerned that when determining whether or not to make a Deposit Order the ET failed to properly identify or characterise the way the Claimant was putting her case&#8230; Drilling down, the Claimant was saying that at least part of the &#8216;something arising in consequence of her disability&#8217; arose from her absence from work, for which the Respondent would have had to make reasonable adjustments.  And the ET had, itself, understood this was the way the Claimant was pursing this aspect of her case; it recorded her section 15 claim in this way in its case management Order.  That was thus the case to which the ET was required to have regard when determining whether or not the Claimant had a reasonable likelihood of establishing the facts necessary to make good her claim and, in answering that question, I am not convinced that the ET had regard to the case that the Claimant was actually pursing.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, I was referred to <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Mr A Javed v Blackpool Teaching Hospitals NHS Foundation Trust</span> UKEAT/0135/17/DA at paragraph 65:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;I accept Mr Sheppard&#8217;s submission that the EJ&#8217;s words in paragraph 174:  &#8216;The office allocation and the subsequent moves do not seem to have been done because of the Claimant&#8217;s race&#8217; show again that the EJ purported to conduct a mini-trial on the papers.  He realised that he could not make a firm finding and so used the word &#8216;seem&#8217;.  I do not consider that a paper review leading to such a conclusion is an adequate foundation for a decision that the claim has little reasonable prospect of success.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ms Sen Gupta helpfully reminded me of the principles arising from <span style="font-weight:bold">DPP Law v Greenberg</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/672" uk:canonical="[2021] EWCA Civ 672" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 672</ref>, paragraphs 57 to 58:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;57.</num>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">The following principles, which I take to be well established by the authorities, govern the approach of an appellate tribunal or court to the reasons given by an employment tribunal:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold">(1)</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.38in;text-indent:0.41in"><span style="font-weight:bold">The decision of an employment tribunal must be read fairly and as a whole, without focusing merely on individual phrases or passage isolation, and without being hypercritical.  In Brent v Fuller <ref href="#" uk:canonical="[2011] ICR 806" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] ICR 806</ref>, Mummery LJ said at p. 813:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.38in"><span style="font-weight:bold">&#8216;The reading of an employment tribunal decision must not, however, be so fussy that it produces pernickety critiques.  Over-analysis of the reasoning process;&#8217; being hypercritical of the way in which a decision is written; focusing too much on particular passages or turns of phrase to the neglect of the decision read in the round: those are all appellate weaknesses to avoid.&#8217; &#8230;</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(2)</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.38in;text-indent:0.41in"><span style="font-weight:bold">A tribunal is not required to identify all the evidence relied on in reaching its conclusions of fact.  To impose such a requirement would put an intolerable burden on any fact finder.  Nor is it required to express every step of its reasoning in any greater degree of detail than that necessary to be Meek compliant (Meek v Birmingham City Council <ref href="#" uk:canonical="[1987] IRLR 250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] IRLR 250</ref>).  Expression of the findings and reasoning in terms which are as simple, clear and concise as possible is to be encouraged.  In Meek, Bingham LJ quoted with approval what Donaldson LJ had said in UCATT v Brain [1981] I.C.R 542 at 551:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.38in"><span style="font-weight:bold">&#8216;Industrial tribunals&#8217; reasons are not intended to include a comprehensive and detailed analysis of the case, either in terms of fact or in law&#8230; their purpose remains what it has always been, which is to tell the parties in broad terms why they lose or, as the case may be, win.  I think it would be a thousand pities if these reasons began to be subjected to a detailed analysis and appeals were to be brought based upon any such analysis.  This, to my mind, is to misuse the purpose for which the reasons are given.&#8217;</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold">(3)</num>
+		    <intro>
+		      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:0.38in;text-indent:0.41in"><span style="font-weight:bold">It follows from (2) that it is not legitimate for an appellate court or tribunal to reason that a failure of an employment tribunal to refer to evidence means that it did not exist, or that a failure to refer to it means that it was not taken into account in reaching the conclusions expressed in the decision.  What is out of sight in the language of the decision is not to be presumed to be non-existent or out of mind. As Waite J expressed in RSPB v Croucher <ref href="#" uk:canonical="[1984] ICR 604" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] ICR 604</ref> at 609-610:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ParaLevel1" style="margin-left:0.79in;margin-right:0.38in"><span style="font-weight:bold"> &#8216;We have to remind ourselves also of the important principle that decisions are not to be scrutinised closely word by word, line by line, and that for clarity&#8217;s and brevity&#8217;s sake industrial tribunals are not to be expected to set out every factor and every piece of evidence that has weighed with them before reaching their decision; and it is for us to recall that what is out of sight in the language of a decision is not to be presumed necessarily to have been out of mind.  It is our duty to assume in an industrial tribunal&#8217;s favour that all the relevant evidence and all the relevant factors were in their minds, whether express reference to that appears in their final decision or not; and that has been well-established by the decisions of the Court of Appeal in Retarded Children&#8217;s Aid Society Ltd v Day <ref href="#" uk:canonical="[1978] ICR 437" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1978">[1978] ICR 437</ref> and in the recent decision of Varndell v Kearney &amp; Trecker Marwin Ltd <ref href="#" uk:canonical="[1983] ICR 683" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] ICR 683</ref>.&#8217;</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">58.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">Moreover, where a tribunal has correctly stated the legal principles to be applied, an appellate tribunal or court should, in my view, be slow to conclude that it has not applied those principles, and should generally do so only where it is clear from the language used that a different principle has been applied to the facts found.  Tribunals sometimes make errors, having stated the principles correctly but slipping up in their application, as the case law demonstrates; but if the correct principles were in the tribunal&#8217;s mind, as demonstrated by their being identified in the express terms of the decision, the tribunal can be expected to have been seeking faithfully to apply them, and to have done so unless the contrary is clear from the language of its decision.  This presumption ought to be all the stronger where, as in the present case, the decision is by an experienced specialist tribunal applying very familiar principles whose application forms a significant part of its day to day judicial workload.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1">And I bear in mind particularly that approach when making my judgment in respect of this Tribunal&#8217;s decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ms Banton referred me to the Presidential Guidance on vulnerable parties and witnesses in Employment Tribunals and particularly to paragraphs 6, 8, 10, 13, 14 and 19 of that Guidance, which I have read.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The principles of law are distilled helpfully by Ms Sen Gupta, with which I agree:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold">&#8220;1.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">A deposit is made at an early stage to discourage claims with a risk of costs if there is little reasonable prospect of success.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">2.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">A deposit order is not to make access to justice difficult.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">3.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">A deposit order is not a strike-out through the back door.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">4.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">There must be a proper basis for making the Order;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">4(a)  The Employment Tribunal is not restricted to purely legal issues; and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">4(b)  The Employment Tribunal is entitled to have regard to the likelihood of a party being able to establish facts essential to their case and reach a provisional view.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold">5.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">If there is a core factual conflict it should properly be resolved at a Full Merits Hearing.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold">6.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in;text-indent:0.11in"><span style="font-weight:bold">A deposit decision Order is a matter of discretion.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">The Claimant&#8217;s Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the Claimant&#8217;s submissions Ms Banton argued that the raising of deposit was not only unexpected on the day but also unexpected in the hearing, arising as it had after substantial submissions had been made and the matter had been timetabled and in the context where the respondents had made no application.  It was without warning and given the Damoclean consequences upon the Claimant&#8217;s case it was particularly serious.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Claimant did make his submission, through Ms Banton, that an adjournment was needed, and that adjournment, she says, was necessary so that documents could be referred to and witness evidence obtained.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In respect of Ground 1 she submits that this was a serious, complex and nuanced claim that the Employment Tribunal simply did not engage with.  The reasoning of the Tribunal was scattergun and it lacked explanation.  The consideration of paragraph 21(a) matters improperly equated the admission of talking about Salsa dancing as there being little reasonable prospect of success of denying that the allegation that he had invited Y to dance Salsa with him which was denied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 21(b) Ms Banton told the Tribunal the reason why the Claimant uses the phrase &#8220;could not recall&#8221; was because it was responsive to the way in which question was asked in the investigation meeting, namely:  &#8220;Do you recall?&#8221; and in that context the answer was framed by the question.  Further, she submitted not only was the Claimant denying the fact that he had discussed massage but also whether a mention of massage actually gives support for sex discrimination. It was wrong, she submitted, in any event to connote a mention of massage with sex discrimination, and she submitted discrimination in particular requires careful consideration, particularly where there is an allegation of unconscious bias and in this case stereotyping that needs to be tested at trial and the Claimant&#8217;s claims about the way in which he was treated.  You cannot simply have a summary trial on the papers, she submits.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">She also submitted that there were not just inadequate reasons but no rationale whatsoever for some of the claims.  I will not go into more detail because of the concession made by the respondents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">She held that the claims were far more than about suspension and disciplinary but about the handling of the disciplinary process, the grievance, occupational health and cessation of pay and she submitted that the Tribunal would have been more proportionate simply asking for further information and the one size fits all was simply wrong and it was not compliant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, she says that the use of the words &#8220;not seemed to me&#8221; was on all fours with paragraph 65 of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Javed</span> and that a summary trial had taken place and the Judge was unable to make a firm finding which is why these words were used.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In Ground 2, Ms Banton accepted that paragraph 1 of the Order sets out the correct test. However, she says the Tribunal applied the wrong test by looking at motivation, considering indeterminable matters, departing from the little prospect of success rule, failing to consider the categoric denial made by the Claimant and failing to understand that the way in which the Claimant expressed himself was as a result, she says, of the framing of the question in paragraph 21(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In Ground 3, which is really linked to Ground 1, she says there was a flawed approach to the claim.  In essence, the Tribunal would have seen from the documents that the Claimant categorically denied referring to &#8220;massage&#8221; in a document, and at paragraph 7 the engagement with Y inventing the substance of the complaint failed to understand that the Claimant&#8217;s complaint was that nothing would have happened had the third respondent not pressed the matter and reported it herself.  And again, she repeats to me paragraphs 88 to 89 of the GoC and that there may have been an element of unconscious bias in the perception of events, and indeed it was wrong to equate Salsa with discrimination.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In Ground 4 Ms Banton emphasised to me that her client&#8217;s stress, anxiety and depression, on a prescription of Propranolol 40 mgs, rendered it inappropriate for the Judge, as they thought that the end of the hearing was being reached, then to continue without notice to consider the matter of a deposit without an adjournment.  The difficulties which Ms Banton and her client faced were even more so, given that they were in different places, remotely located from each other on CVP. She was able to take some instructions and make some submissions, but it was not consistent with natural justice to carry on and it was perverse of the Tribunal not to stop.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Respondents&#8217; Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ms Sen Gupta in her submissions, made the sensible concession, which was obviously and correctly made, that there was no reason given and no rationale set out for the making of a deposit order in respect of the direct race and sex claims and the sex and race harassment claims in respect of issues 2(d) through to (i). Further, there were no reasons or rationale for imposing the deposit orders in respect of the entirety of the unlawful deduction, the victimisation, the disability discrimination, or the whistleblowing claims.  That concession was in respect of this judgment only and clearly does not prejudice, in any respect, the future conduct or applications by the respondents, it was simply an acknowledgement as to what this judgment lacked and not any concession as to the cogency, or not, of the claim which the respondents faced.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ms Sen Gupta then drew a distinction in respect of the race and sex discrimination and harassment claims in respect of issues 2(a) through to (c) which concern the initial reaction to investigation and suspension of the Claimant, all of which she submitted the Tribunal dealt with appropriately in its judgment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Against, the context of the same conduct in 2019 of the massage resulting in a final written warning with a 40% reduction in bonus, the Tribunal was effectively entitled to take a broad approach and construe that what the Claimant was doing in this claim was constructing a smokescreen once his behaviour had been caught out.  The Judge, she submitted, was able to make an overall assessment and come to the view that the claim had little reasonable prospect of success and there was a proper basis for a deposit order because the claims at 2(a) through to (c) were a basis to divert the investigation and the suspension, and she said, and as the GoR of the respondents set out, the manifest cause for the investigation and the suspension was not the Claimant&#8217;s race or sex but was the allegation made against him.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ms Sen Gupta argued that the Judge did consider the pleaded case at paragraphs 4 to 6 of his judgment and made an assessment at paragraph 5 that that comment was not clearly denied. The Judge was entitled to have a view not limited to legal matters, as <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Hemdan</span> sets out in paragraph 13 and that those were proper matters for the Judge to consider.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">She submitted the Judge was not making findings or expressing conclusions on credibility and was assessing the prospects of success on the pleadings and looking at likelihood, as he was fully entitled to do so.  This is not a case where the claims were not understood by the Tribunal, she submits, but were set out in some detail on an agreed list of issues and then analysed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In respect of Ground 1 she submitted that, at paragraph 3 of the Judgment, that the Tribunal identified the treatment, sets out the admissions at paragraphs 4 and sets out the weakness in the pleaded position at paragraph 5.  Further, at paragraph 7 the Tribunal sets out the relevant facts and in paragraph 9 sets out the previous matters which were relevant to the decision to suspend and investigate. At paragraph 10 the Tribunal, after having considered the Claimant&#8217;s pleadings, was fully entitled to find that the motivation was to divert the procedure and that a Tribunal was likely to find, in any event (paragraph 11) that all the treatment would ultimately be found to be lawful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">She submits that not only was this a broad approach but also a proper and appropriately narrow approach construing the GoC as the rules require.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In respect of Ground 2 her submission was that it was obvious from paragraph 1 that the Tribunal applied the correct test, and that that should be the assumed case, it not being obvious that the Tribunal departed from the little reasonable prospect of success test.  Further, the Tribunal was entitled at paragraph 13 to take an approach that evidence would not be adduced before it because it would simply defeat the purpose of such a deposit application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In respect of Ground 3, the flawed approach, Ms Sen Gupta repeats her submissions under Ground 1 and submits there are sufficient reasons to understand why the Claimant was ordered to pay the deposit in respect of issues 2(a) through to (c).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In Ground 4, in respect of practice and procedure, she submitted that there was no provision that required a different approach. The Claimant&#8217;s counsel had not referred the Judge nor brought his attention to either the Equal Treatment Bench Book or the Presidential Guidance. In those circumstances Ms Banton could not show that there was an error or, if there had been an error in any event, that it had affected the Judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ms Sen Gupta also invited me, under the principles I have set out under the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">DPP Law v Greenberg</span> not to take an overly technical view of the judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In her final submission, Ms Sen Gupta sought to persuade me that there was no error in the 2(a) to (c) issues and that, if I so found and dismissed the appeal in that respect, I should uphold the deposit of &#163;1,000 but if I did not uphold the deposit of &#163;1,000 I should take the approach that her Honour Judge Eady had done and reduce the Deposit Order proportionately to &#163;444 (each of the nine claims attracting a Deposit of &#163;111).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Claimant&#8217;s Reply</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Ms Banton&#8217;s reply addressed the credibility findings and she referred me to paragraphs 94 and 95 of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Javed</span> and whether the respondents&#8217; explanation was right was a matter for trial not an evaluation on the papers. That there was a flawed rationale based on a hunch, and her submission was that if there was an upholding of any of the deposit that that should be four times &#163;111, namely &#163;444.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion and analysis</span></p>
+	    <p class="ParaLevel1"><span style="font-style:italic">The Importance of the Claimant&#8217;s Case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Her Honour Judge Eady, as she then was, expressed the view in <span style="font-weight:bold">Tree</span> that she was </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;&#8230;concerned that when determining whether or not to make a deposit order the ET failed properly to identify or characterise the way the Claimant was putting her case&#8221;.   </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1">That seems to me the first step when considering a deposit order.  Indeed, that is the test under Rule 39 that provides that a deposit application considers not the claim as a generic mass but specifically under the Rule in the words of Rule 39.1 that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:0.38in"><span style="font-weight:bold">&#8220;Any specific allegation or argument in a claim or response has little reasonable prospect of success&#8221;.  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1">This directs the attention of the Tribunal to the question whether any allegation in the pleading of the party, whether it be the GoC or GoR, has little reasonable prospect of success.  Accordingly, the Rule is clear: the Tribunal should consider the allegation or argument in the claim. Second, authority from this Tribunal is clear: the Tribunal should, as a first step, properly identify or characterise the way that the party facing the deposit order is putting the case.  It is that case one considers.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="text-indent:-0.5in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in">Third, where facts are disputed, they are properly a matter for trial and should not be the subject of summary assessment.  This is even more so in a case involving stereotyping and/or unconscious bias where race and/or sex discrimination is raised.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="text-indent:-0.5in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in">Equally, I find there is nothing wrong with a Tribunal of their own volition considering and then making a deposit order.  It is right that no notice is required at this Preliminary Hearing or otherwise.  There is no right to producing evidence or documents.  Indeed, deposit hearings are not determined by mini-trials as otherwise they would lose their efficacy.  Equally, where there is no notice, and in this case where it was only mentioned at the end of the hearing, a Tribunal should also be cautious if there are documents that might bear on the assessment of little reasonable prospect of success, but in any event, it should not embark on a summary trial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="text-indent:-0.5in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in">Approaching the sex and race claims under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref> and section 26, issues 2(a) to (c), fairly read, the Tribunal was making a finding on its broad assessment of the claim that there was little reasonable prospect of success of the Claimant asserting that he was suspended and investigated because of the complaint by Y.  However, there was, as in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tree</span>, in my judgment, a failure properly to identify or characterise the way the Claimant was putting his case and then an error in conducting a summary trial on the papers of the disputed allegations.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="text-indent:-0.5in">69.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in">The Tribunal had to engage that the Claimant had little reasonable prospect of establishing the facts necessary to make good his claim and not some generic consideration that the respondents were merely responding to an allegation of sexual harassment of a person who had been found guilty of similar conduct before.  It was the facts of this claim with which the Tribunal had to engage. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1"><span style="font-style:italic">Failure to Focus on the Claimant&#8217;s Case</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>70.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment, the Tribunal failed to focus on the Claimant&#8217;s case, considered the irrelevant and did not consider the relevant.  The Tribunal had to pay heed to the claim that the Claimant was actively pursuing through his pleading.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>71.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Employment Judge reacted to the complicated nature of the claims at paragraph 10 but made his judgment at paragraph 11 that the Tribunal is likely to find in due course that the respondent&#8217;s actions are lawful.  This was too broad brush and a failure to focus on the pleaded claims.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>72.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The only actions that the Judge refers to at paragraph 3 and paragraph 9 are the action to suspend and investigate and the subsequent intent that he finds of the Claimant to deter the respondents from responding appropriately.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1"><span style="font-style:italic">Invention</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>73.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At paragraph 7 the Judge considered that the Claimant has not suggested why Y should invent the substance of the complaint so that suspension and investigation was unwarranted.  Invention is certainly one possible way of attacking a decision to investigate and suspend; it is the most obvious.  In this case, however, that had the potential to erect a bar that was too high.  On the Claimant&#8217;s case, as fairly considered, it was far from the dominant way in which the case was put.  The relevant considerations and the way the case was put was at paragraph 25 of the Grounds of Complaint where the Claimant alleged that the third respondent pressed Y to make the complaint, further telephoned and asked Y to make a complaint but she did not wish to, so the third respondent made the complaint.  Then it was the investigation questions that moved a benign conversation to harassment, it is alleged, at paragraph 46(b) by the Linklaters investigation.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>74.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">These facts of course are disputed, as are the inferences that can be drawn from them.  However, the Claimant&#8217;s pleaded claim here is not an invention but inflation, inflating comments from one thing that does not amount to sexual harassment and would not have been complained about to matters that are made the subject of a formal complaint that then amounts to discrimination against him.  This is because, on the Claimant&#8217;s allegation, he is perceived as black or a man by each of the respondents and stereotyping of him based on those factors.  The Tribunal is setting the bar too high that the Claimant said that he could not show invention.  The Tribunal failed to pick up the nuances of this claim, as Ms Banton submits, and considered the only potentially relevant issue of invention and failed to deal with the relevant pleaded issue of inflation and of others, the second and third respondent making the complaint in circumstances where Y did not make the complaint.  Accordingly, this was not a proper basis for supporting the finding that there was little reasonable prospect of success.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1"><span style="font-style:italic">Admission of Salsa Dancing Discussion</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>75.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Second, the Employment Tribunal concluded, in support of one of the reasons for making its decision, that the Claimant had little reasonable prospect of success showing that suspension and investigation was inappropriate. This is because the Claimant had admitted discussing Salsa dancing. However, the conclusion that Salsa dancing was discussed at the lunch is not capable, at this stage and by itself, rationally of being dispositive of the fact that there was little reasonable prospect of success in the Claimant asserting that there were inadequate grounds for suspecting sexual harassment justifying the investigation and suspension.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>76.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The fact that Salsa dancing was discussed may be consistent with the harassment allegation; it may not be.  That is a matter for trial and not for me or for the Judge.  The Claimant&#8217;s pleaded case that should have been considered was this: the Claimant put his claim that he had had a discussion with Y about Salsa before and had a previous good working relationship in paragraphs 11 to 16 over a few years.  There was a discussion about Salsa, paragraph 21(a), but there was a clear denial at paragraph 21(a) and a factual dispute as to whether the Claimant invited Y to Salsa dance.  Further, there was a failure to consider how the allegation came to be made, as the Claimant has pleaded and as I have set out above, namely, the paragraph 25 questions and the conduct at paragraph 46(b) of the Grounds of Complaint.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>77.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, the Claimant alleges that merely talking about Salsa dancing of and in itself is not related to sex. I accept Ms Banton&#8217;s submissions that such a matter is a matter for careful consideration at trial where the full context of comments and the history can be considered.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>78.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Accordingly, for the Tribunal to do as it did in this case, simply to stop at the conclusion that Salsa dancing was discussed does not come close rationally to justifying that the Claimant&#8217;s contention that the suspension and the investigation were unjustified had little reasonable prospect of success.  This may be a basis at the trial of the claim when all the facts are found but at this stage the finding failed to consider the way in which the pleaded claim was put.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>79.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There is a contested factual background to be considered at the trial on this issue: did the Salsa discussion arise out of a series of innocent previous interactions? Whether the Claimant invited Y to Salsa dance?  Whether the discussion of Salsa dance was or could be in any way probative of sex harassment, given the other factors set out under the first considerations above?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>80.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Set against those considerations, the fact that the Claimant admitted discussing Salsa dancing at this stage could not support the Judge&#8217;s finding that the Claimant had little reasonable prospect of success in his claim that the investigation and suspension was materially caused by direct discrimination in the related claims of harassment.  The Employment Judge should have appreciated these points by examining the case that the Claimant was advancing.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1"><span style="font-style:italic">Discussion of Massage</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>81.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Third, the Judge did not examine how the Claimant put his case on massage.  The Judge found, and found it allowed him to draw the inference that the statement of &#8220;not recall&#8221; was implausible given that the conversation (it is obviously a referral to the investigation meeting) occurred so shortly after the 9<span style="vertical-align:super;font-size:smaller">th</span> June.  However, Ms Banton suggested in submission to me, and to the Judge, that the reason why the &#8220;not recall&#8221; came about was because of the way in which the question was framed to the Claimant. That is quintessentially a matter for trial.  It is not for a summary assessment on the papers, and where there are further documents in which it is denied that the Claimant mentioned the massage.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>82.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, it is also contested as a matter of fact that the mention of &#8220;massage&#8221; in and of itself is not sexual harassment at paragraph 92.  That is a fact in issue.  It depends on the context and how it was used for a fair determination.  In these circumstances, the mere failure to deny massage and say &#8220;not recall&#8221; would not support, in my view, the fact that the Claimant has little reasonable prospect of success in asserting a cause for the investigation and suspension.  It followed that the allegation is contested.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1"><span style="font-style:italic">Invitation</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>83.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Fourth, at paragraph 6 of the Judgment the fact that at paragraph 21(c) GoC the Claimant admits that he invited the Claimant to his home, but the invitation, it is submitted and set out, would obviously have been in a few years&#8217; time when Y returned.  The Judge simply considered the Claimant&#8217;s invitation to Y to visit his home without more, whereas the Claimant&#8217;s allegation was that in fact, and as the disciplinary hearer found, that the allegation was that she should come to his home and dance Salsa.  The characterisation of that comment as sexual or not sexual harassment, relies on its context given some of the facts I have set out above. The Judge should have been slow to draw a conclusion of little reasonable prospect of success given the factual matters.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1"><span style="font-style:italic">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>84.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">My conclusion is that at paragraph 8 the Judge properly referred to the previous warning for sexual harassment and that included a reference to &#8220;massage&#8221;.  This was a material factor. Further when the Judge found at paragraph 9 it would have been surprising if the Respondent had not decided to suspend the Claimant and investigate that, drawing those matters together, in my view, as a result of the matters I have set out above under issues 2(a), (b) and (c), it was wrong for the Tribunal to reach a conclusion that there was little reasonable prospect as to the Claimant succeeding on his allegations in respect of the investigation and suspension.  The Claimant&#8217;s case is that the respondents had been pressing and instigating the complaint. The Claimant&#8217;s case is that the third respondent reported the complaint and the decision to suspend was a knee jerk reaction, given the circumstances of both Y working abroad and because of the necessity to identify what the allegation was at that stage.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>85.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Further, the Claimant&#8217;s pleaded complaints as to the second and third respondents involvement at the start and at paragraph 21 raise factual matters to be resolved at trial and vitally, what was said and the context of what was said.  Further, the treatment of the Claimant by not telling him of the charges at paragraphs 26 to 30 were not identified or engaged with.  Nor did the Judge engage with the paragraph 32 allegations of a knee-jerk suspension, of the alternatives to suspension and of the protection of others via suspension particularly in the circumstances of Y working abroad.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>86.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment, the Judge considered irrelevant matters set out above, failed to have regard to relevant matters, namely, the way in which the Claimant&#8217;s case was pleaded, and erred in concluding there was little reasonable prospect of success in these matters which were for trial and assessment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>87.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I should be clear: at trial the conclusion may be that the Claimant did commit sexual harassment of Y deserving of the condign treatment with which he has been treated.  It may be that the allegations that were made were such that they should have led to immediate suspension and investigation and it may be found at trial that the Claimant did throw up roadblocks to a proper response.  However, those are all matters for the trial.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>88.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As matters stand, one could not arrive at the conclusion that there was little reasonable prospect of success or that these allegations were to deter an appropriate response because the relevant matters set out by the Claimant in his pleading were simply not considered. The conclusions that the Judge reached were without considering properly the pleaded claim and reducing it simply to a consideration of paragraph 21 was such that the Judge failed to consider relevant matters.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1"><span style="font-style:italic">Seems to me</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>89.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In addition, the Judge&#8217;s conclusions that &#8220;seems to me&#8221; is an attempt, in my view, to arrive at conclusions of fact based on a paper review of only part of the pleading. It is an inadequate foundation for a conclusion that the claim has little reasonable prospect of success.  Accordingly, I do not consider that the paper review that the Judge carried out is an adequate foundation for a decision that the claim has little reasonable prospect of success.   </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>90.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons stated above and as a result of the concession made by Ms Sen Gupta, I allow the appeal on Grounds 1 and 3.  I agree with Ms Sen Gupta that there is no criticism of Ground 2 in the sense the Tribunal set out the correct test of little reasonable prospect of success. Further, I agree with Ms Sen Gupta on Ground 4 that although of course a Tribunal should always be sensitive to the disability of a Claimant, there was, in my view, nothing to be gained as a result of the disability in respect of a further period of time, given that Ms Banton was offered more time and she declined it.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>91.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For the reasons I have given the deposit order is quashed and any sums repaid to the Claimant.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

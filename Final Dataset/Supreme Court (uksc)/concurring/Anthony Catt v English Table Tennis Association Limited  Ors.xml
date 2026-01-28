@@ -1,0 +1,934 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/125"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/125"/>
+	  <FRBRdate date="2022-08-26" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="125"/>
+	  <FRBRname value="Anthony Catt v English Table Tennis Association Limited &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/125"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/125"/>
+	  <FRBRdate date="2022-08-26" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/125/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/125/data.xml"/>
+	  <FRBRdate date="2024-11-09T03:05:24" name="transform"/>
+	  <FRBRdate date="2024-11-30T12:14:22" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-08-26" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-anthony-catt" href="" showAs="MR ANTHONY CATT"/>
+	<TLCPerson eId="english-table-tennis-association-limited-and-others" href="" showAs="ENGLISH TABLE TENNIS ASSOCIATION LIMITED AND OTHERS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mrs-justice-eady-dbe-president" href="/judge-the-honourable-mrs-justice-eady-dbe-president" showAs="THE HONOURABLE MRS JUSTICE EADY DBE, PRESIDENT"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>125</uk:number>
+	<uk:cite>[2022] EAT 125</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>b612ff30ff2c9ae2e5d526f6baa004a242a17c090d0cda2fa1dafd4d3621c1bf</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading2 { font-size: 13pt; color: #365F91; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .Heading4 { font-style: italic; color: #365F91; }
+#judgment .Heading5 { color: #365F91; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .NormalWeb { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Revision { }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .z-TopofForm { text-align: center; font-family: Arial; font-size: 8pt; }
+#judgment .z-BottomofForm { text-align: center; font-family: Arial; font-size: 8pt; }
+#judgment .edpnum { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .msonormal0 { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .legclearfix { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .legrhs { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Paragraphnum12 { text-align: justify; margin-left: 0.39in; font-family: Tahoma; }
+#judgment .legp1paratext { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .legp2paratext { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .text { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .eatquote { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Strong { font-weight: bold; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .label { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Heading2Char { font-size: 13pt; color: #365F91; }
+#judgment .z-TopofFormChar { font-family: Arial; font-size: 8pt; }
+#judgment .z-BottomofFormChar { font-family: Arial; font-size: 8pt; }
+#judgment .smcaps { }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #800080; }
+#judgment .Heading5Char { color: #365F91; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .legds { }
+#judgment .coparagraphnumber { }
+#judgment .pnum { }
+#judgment .Heading4Char { font-style: italic; color: #365F91; }
+#judgment .cofloatleft { }
+#judgment .legp1no { }
+#judgment .legaddition { }
+#judgment .legterm { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:6pt">MR CATT v ENGLISH TABLE TENNIS &amp; ORS</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2022] EAT 125</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">EA-2021-000846-AT</docketNumber></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">IN THE EMPLOYMENT APPEAL TRIBUNAL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2022-08-26" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">26 August 2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-the-honourable-mrs-justice-eady-dbe-president">THE HONOURABLE MRS JUSTICE EADY DBE, PRESIDENT</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#mr-anthony-catt" style="font-weight:bold">MR ANTHONY CATT</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">- and &#8211;</span></p>
+      <p class="ListParagraph"><marker name="tab"/><party as="#respondent" refersTo="#english-table-tennis-association-limited-and-others" style="font-weight:bold">ENGLISH TABLE TENNIS ASSOCIATION LIMITED AND OTHERS</party><marker name="tab"/><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondents</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">Daniel Matovu</span><span style="font-size:12pt"> (instructed by Gaby Hardwicke Solicitors) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">Victoria Brown</span><span style="font-size:12pt"> (instructed by Browne Jacobson LLP) for t</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">he </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondents</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date:</span><span style="font-size:12pt"> 20 July 2022</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Summary</span></p>
+      <p class="NormalWeb"><span style="font-style:italic;color:#333335">Employee, Worker or Self-Employed &#8211; Section 230(3)(b) Employment Rights Act 1996</span></p>
+      <p class="NormalWeb" style="text-align:justify"><span style="color:#333335">The claimant was elected to office as a non-executive director of the first respondent; it was his case that he suffered detriments as a result of making protected disclosures and he sought to bring a claim before the Employment Tribunal (&#8220;ET&#8221;) under section 47B </span><span style="font-weight:bold;color:#333335">Employment Rights Act 1996</span><span style="color:#333335"> (&#8220;ERA&#8221;).  The ET held, however, that the claimant did not fall within the definition of &#8220;worker&#8221; under section 230(3)(b) </span><span style="font-weight:bold;color:#333335">ERA</span><span style="color:#333335"> and dismissed his claim.  The claimant appealed. </span></p>
+      <p class="NormalWeb" style="text-align:justify"><span style="color:#333335">Held: </span><span style="font-style:italic;color:#333335">allowing the appeal</span></p>
+      <p class="NormalWeb" style="text-align:justify"><span style="color:#333335">It was not in dispute that the claimant undertook to personally carry out his duties as a non-executive director of the first respondent and there was no suggestion that the first respondent was his client or customer.  The question for ET was whether there was a contract between those parties whereby the claimant undertook to perform work or services for the first respondent.  Although the first step was thus for the ET to determine whether there was a contract between the two parties, it had failed to make a clear finding on that issue.  The focus of the ET&#8217;s reasoning was on questions of vulnerability, subordination and dependence, which had little relevance to the claimant&#8217;s position as the holder of an office as a non-executive director, and it had failed to address questions with greater relevance to the position of an office-holder or engage with the particular factors relied on by the claimant as pointing to his having undertaken his duties pursuant to a contract with the first respondent. In the circumstances, it would be neither safe nor fair to uphold the ET&#8217;s decision on worker status.  The matter would be remitted to a differently constituted ET for re-hearing afresh. </span></p>
+      <p class="NormalWeb" style="text-align:justify"><span style="color:#333335">The ET had also failed to engage with the claimant&#8217;s alternative argument under the </span><span style="font-weight:bold;color:#333335">European Convention of Human Rights</span><span style="color:#333335">, whereby he sought to draw an analogy with the position of the claimant in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#333335">Gilham v MoJ</span><span style="color:#333335">. Given the concession that, in principle, non-executive directors could be workers for the purposes of section 230(3)(b), the ET may have considered it unnecessary to address this point but this was unclear as it had failed to express a conclusion on the issue.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">The Honourable Mrs Justice Eady DBE, President</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">This appeal concerns the question of worker status in the case of a person holding office as a non-executive director. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In giving this judgment, I refer to the parties as the claimant and respondent, as below. This is the full hearing of the claimant&#8217;s appeal against a judgment of the Watford Employment Tribunal (Employment Judge Bloom, sitting alone on 7 July 2021; &#8220;ET&#8221;).  By that judgment it was held that the claimant was not a &#8220;<span style="font-style:italic">worker</span>&#8221; as defined by section 230(3)(b) <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref></span> (&#8220;ERA&#8221;); his claims against the respondents were duly dismissed.  The claimant has appealed against that decision and his appeal was set down for a full hearing, which was listed before me on 20 July 2022.  Representation on the appeal was as before the ET. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Relevant Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first respondent &#8211; commonly known by the title &#8220;<span style="font-style:italic">Table Tennis England</span>&#8221; &#8211; is the governing body of table tennis in England.  The second respondent was the senior independent director of the first respondent; the third respondent its non-executive chair; the fourth respondent was employed as its chief executive officer (&#8220;CEO&#8221;).  The claimant was a non-executive director of the first respondent, having been elected and appointed to its board with effect from 29 June 2019.  As one of three elected directors, the claimant held the title &#8220;<span style="font-style:italic">elected deputy chairman</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The first respondent operates in accordance with its articles of association.  The governance of the first respondent is conducted by its board; article 10 of the articles provides that the directors are responsible for its management.  As well as the three elected non-executive directors, there are four appointed directors in addition to the chairman and the CEO.  Elected non-executive directors hold their appointments for a four-year term.  The only employee on the board is the first respondent&#8217;s CEO, who has a contract of employment and receives a salary.  It is common ground that the claimant was not an employee of the first respondent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.24in">The ET made findings as to the roles and duties of the first respondent&#8217;s directors, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The roles and duties of those Directors concern five areas of work namely strategy; finance, major projects, checking, challenging, monitoring and scrutinising; and ambassadorial &#8230;.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(4)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The duties of the Directors as described in the Articles are to ensure compliance with the law; maintain proper financial oversights; select and support the Chief Executive; respect the role of staff; maintain effective Board performance; and promote the organisation &#8230;. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(5)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The non-executive Director role is specifically set out in a document entitled &#8216;Role Description and Person Specification&#8217; &#8230;. The document describes the status of the elected non-executive Director as being &#8216;voluntary&#8217;.  It provided for &#8216;remuneration - &#163;1,500.00 honorarium per annum plus expenses&#8217;.  It provided for the post holder to undertake a &#8216;Time Commitment&#8217; of 15-20 days per annum (including attendance at Board, Sub-Committee and other meetings and competition/events). </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(6)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">In the event of any non-executive Director failing to show the required expectations of such a post and the requisite level of commitment a majority of the Board are able to take a vote which effectively votes that person off the Board. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(7)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The non-executive Directors are not subject to any written contracts of employment, disciplinary or grievance procedures or the staff handbook.  These documents are only applicable to employees of the organisation.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As for the claimant&#8217;s position, the ET made the following findings:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;(9)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The Claimant attended an induction meeting on 7<span style="vertical-align:super;font-size:smaller">th</span> August 2019 and received an induction pack.  &#8230; at no stage did the Claimant question the First Respondent&#8217;s position that he was engaged in a voluntary capacity.  Article 20 of the Articles of Association provides that, other than the CEO, any person holding a paid appointment cannot hold the position of Director. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(10)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">During his appointment with the First Respondent the Claimant held a full-time position as a Compliance Consultant with an unconnected business &#8230;. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(11)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; the Claimant received an honorarium of &#163;1,500.00 per annum.  This was payable to him in monthly instalments of &#163;125.00 per month.  Such payments were identified in payslips provided to the Claimant in which he was described as an &#8216;employee&#8217;.  He was also given a specific employee number.  The Claimant was not entitled to sick pay, holiday pay or any pension benefits. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(12)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">As a non-executive Director the Claimant was part of the Finance Committee and brought to that Committee a degree of specific expertise in that role.  He was able at all times to offer his experience or opinion on any matter relevant to the First Respondent&#8217;s organisation.  There was no obligation upon the Claimant to attend any Finance Committee meetings or indeed any Board meeting, save that any failure to engage in the activities of the Board to which he was elected would have inevitably led to the Board taking a vote to expel him from it. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(13)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">Although the Chairman of the Board &#8230; [the third respondent] set the agenda for Board meetings and led the overall strategy of the organisation she held no management control over the Claimant. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(14)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The Claimant was expected to undergo a certain amount of training in order to be able to carry out his role although he was free, as was the actual case, to decline any invitation to attend any training course if his own personal commitments made that difficult or impossible.  The Claimant accepted that the Respondents could not do anything to make him attend any such course. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(15)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">At any Board meeting the Claimant was free and able to express any personal view as to the running of the organisation.  Indeed he frequently did so. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(16)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The Claimant was free to resign his post at any time without the requirement to give notice. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(17)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">In his role as a non-executive Director the Claimant was not able to provide a substitute for himself if he was, for example, unable to attend any meeting.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">My attention has also been drawn to the following provisions relating to the role of non-executive director, as contained within the &#8220;<span style="font-style:italic">Role Description and Person Specification</span>&#8221;:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;Status: Voluntary</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">Remuneration: &#163;1,500 Honorarium per annum plus expenses</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">Term of Office: 4 years &#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">Time Commitment: 15-20 days per annum (including attendance at Board, sub-committee and other meetings and competition/events)&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It is further provided that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;&#8230; the Elected Deputy Chairmen are expected to carry out some additional responsibilities as they are elected to represent the membership on the Board and in turn will be expected to visibly represent the Board to the membership.  Additional responsibilities of Elected Deputy Chairman include:</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:Symbol;font-size:12pt;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.5in">Attendance at various table tennis competitions</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:Symbol;font-size:12pt;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.5in">Attendance at a number of League and County AGMs</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:Symbol;font-size:12pt;margin-left:1.5in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ParaLevel1" style="margin-left:1.5in">Liaison with the Members&#8217; Advisory Group (one Elected Deputy Chairman will be assigned this role)&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I was also referred to the following passages contained within the &#8220;<span style="font-style:italic">Board Guidance</span>&#8221;:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;Duty to act collectively</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">Board members are jointly and severally responsible for the activities of the board and you must act together.  No board member acting alone can bind his or her fellow members, unless specifically authorised to do so.  Members are expected to accept and support collective decisions once they have been agreed.&#8221;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;Attendance</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">It is the role of the Chair of the Board to identify appropriate behavioural standards at their meetings; the Chair may choose to deprive members of their membership of the board in writing if any member has, without the permission of the Chair, been absent from meetings of the Board to the extent that it inhibits their ability to provide a valid contribution. </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">It is at the discretion of the Chair in conjunction with the CEO and the Head of Operations and Governance as to whether the inappropriate conduct could be deemed serious enough to be recommended to the Board for removal of any Director from the Board &#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The ET&#8217;s Decision and Reasoning</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In his claim before the ET, the claimant complained that he had been subjected to detriments as a result of making twenty-seven protected disclosures.  The claim was resisted by the respondents, who took the preliminary point that the claimant was not a &#8220;<span style="font-style:italic">worker</span>&#8221; for the purposes of section 230(3)(b) <span style="font-weight:bold">ERA</span> (it was common ground before the ET that this was a necessary condition for the claim to proceed and the relevant statutory provision, the extended definition contained in section 43K <span style="font-weight:bold">ERA</span> not being applicable in this case). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Having been referred to the provisions of section 230(3)(b) <span style="font-weight:bold">ERA</span>, and to the relevant case-law, the ET noted that the issue in this case was whether there was a contract between the claimant and the first respondent whereby the claimant undertook to perform work or services for the first respondent (see paragraph 41 <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber and ors v Aslam and ors</span> <ref href="#" uk:canonical="[2021] ICR 657" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] ICR 657</ref> SC).  At paragraph 9 of its judgment, the ET explained its approach.  Acknowledging that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;due consideration must be given not only to the written contractual terms (if any) but also the surrounding circumstances as to how the Claimant was to carry out his duties as a non-executive Director of the First Respondent&#8221;  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">the ET observed that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;The position of the Claimant in this case was not one that could be described in any sense of a person who was a vulnerable individual in a position of subordination and dependence.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET contrasted the position of: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;Such persons [who] are required to rely on the protection of the law in enforcing their individual rights&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">with that of the claimant, who:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;&#8230; carried out his duties as a non-executive Director without having to resort to other members of the Board and was free at all times to express any individual view that he held on any given topic.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It concluded that the claimant:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;&#8230; was not a &#8216;vulnerable individual&#8217;.  He was not in a position of &#8216;subordination&#8217;.  He was independent of other Board members including the Chairman and CEO.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 10, the ET found that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;&#8230;the Claimant was free to attend Board meetings when he chose to do so and to provide whatever input into the First Respondent&#8217;s organisation as he saw fit, he owed no contractual obligation to the First Respondent,&#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">but held that that did not preclude a finding that he was a &#8220;<span style="font-style:italic">worker</span>&#8221;.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET was also clear that the label used by the parties could not be determinative as to whether the statutory definition had been met.  It further held that the fact that the claimant undertook a full-time consultancy role for another organisation was of no significance. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">At paragraph 11, the ET noted that the claimant&#8217;s role as a non-executive director was to provide his personal input into strategic matters; he was not involved in operational matters.  It nevertheless acknowledged Baroness Hale&#8217;s observation at paragraph 43 of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham v Ministry of Justice</span> <ref href="#" uk:canonical="[2019] ICR 1655" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] ICR 1655</ref> SC, that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;it would not be difficult to include within limb (b) [that is, section 230(3)(b) ERA] an individual who works or worked by virtue of appointment to an office whereby the office holder undertakes to do or perform personally any work or services otherwise than for persons who are clients or customers of a professional business carried on by the office holder&#8221;. </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET referred back to its earlier finding that the claimant was not subordinate to anyone else within the first respondent&#8217;s organisation and was free to undertake his activities with complete independence (paragraph 12).  It noted the observations made by Lord Leggatt at paragraph 71 <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span>, as to the purpose of the legislation: to protect vulnerable workers from unfair treatment.  It also referred to the guidance provided in the judgment of Recorder Underhill QC (as he then was) at paragraph 17(4) <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Byrne Bros (Formwork) Ltd v Baird</span> <ref href="#" uk:canonical="[2002] ICR 667" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] ICR 667</ref> EAT, which referred to a degree of dependence as a relevant distinction between workers and employees on the one hand, and independent contractors on the other. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Returning to the circumstances of the present case, the ET concluded that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;14.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; crucial to determining the status of the Claimant in this case is the degree of subordination or not exercised by the First Respondent over the Claimant and/or the degree, if any, of dependency of the Claimant upon the First Respondent.  In my judgment neither existed in this case. &#8230; The Claimant was able to look after himself in all relevant respects. &#8230; I must take a purposive approach to such matters.  Looking at the true agreement, whether express or implied, I do not consider that it was intended for the Claimant to be given the status of worker nor did it result as such.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The ET thus held that the claimant was not a &#8220;<span style="font-style:italic">worker</span>&#8221; for the purposes of section 230(3)(b) <span style="font-weight:bold">ERA</span> and dismissed his claim. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The claimant brought his claim under section 47B <span style="font-weight:bold">ERA</span>, which provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num class="legaddition" style="font-size:12pt">&#8220;(1)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';color:#000000">A worker has the right not to be subjected to any detriment by any act, or any deliberate failure to act, by his employer done on the ground that the worker has made a protected disclosure.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In order to fall under the protection of section 47B, the claimant thus had to show that he was a &#8220;<span style="font-style:italic">worker</span>&#8221;, as defined by section 230(3) <span style="font-weight:bold">ERA</span>, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num class="legds" style="font-size:12pt">&#8220;(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';color:#000000">In <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8220;</span><span class="legterm" style="font-family:'Times New Roman';color:#000000">worker</span><span class="legds" style="font-family:'Times New Roman';color:#000000">&#8221; &#8230; means an individual who has entered into or works under (or, where the employment has ceased, worked under)&#8212;</span><span style="font-family:'Times New Roman';color:#000000"/><span class="legds" style="font-family:'Times New Roman';color:#000000">(a) a contract of employment, or</span><span style="font-family:'Times New Roman';color:#000000"/><span class="legds" style="font-family:'Times New Roman';color:#000000">(b) any other contract, whether express or implied and (if it is express) whether oral or in writing, whereby the individual undertakes to do or perform personally any work or services for another party to the contract whose status is not by virtue of the contract that of a client or customer of any profession or business undertaking carried on by the individual;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in"><span style="font-family:'Times New Roman'">and any reference to a worker&#8217;s contract shall be construed accordingly.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As it was common ground that the claimant did not work under a contract of employment, his case depended upon subsection (3)(b) (in the case law, this is referred to as &#8220;<span style="font-style:italic">limb (b)</span>&#8221;).  In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber and ors v Aslam and ors</span> <ref href="#" uk:canonical="[2021] ICR 657" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] ICR 657</ref> SC, Lord Leggatt JSC (with whom the other members of Supreme Court agreed) identified that limb (b) has three elements: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;41.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; (1) a contract whereby an individual undertakes to perform work or services for the other party; (2) an undertaking to do the work or perform the services personally; and (3) a requirement that the other party to the contract is not a client or customer of any profession or business undertaking carried on by the individual.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was not in dispute in this case that the claimant undertook his duties as a non-executive director personally and there was no suggestion that the first respondent was his client or customer; the issue was that identified at (1): whether there was a contract between the parties whereby the claimant undertook to perform work or services for the first respondent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In seeking to answer this question, it was also not in dispute that an individual can be both director, or office-holder, and a worker simultaneously (see, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Percy v Church of Scotland Board of National Mission</span><span style="font-style:italic"/><ref href="#" uk:canonical="[2006] ICR 134" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] ICR 134</ref> HL; <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Secretary of State v Neufeld</span><span style="font-style:italic"/><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/280" uk:canonical="[2009] EWCA Civ 280" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 280</ref> CA; and the summary of relevant principles derived from the case-law at paragraph 16 <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Rainford v Dorset Aquatics Limited</span><span style="font-style:italic"/>[2021] 12 WLUK 203 EAT).  As was noted at paragraph 17(1) <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Rainford</span>, the primary underlying question will be one of statutory rather than contractual interpretation; in each case, there is no substitute for applying the words of the statute to the facts of the individual case (and see per Baroness Hale of Richmond DPSC at paragraph 39 <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Bates van Winkelhof v Clyde &amp; Co LLP and anor</span> <ref href="#" uk:canonical="[2014] ICR 730" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] ICR 730</ref> SC). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The extensive case-law on the issue of worker status has seen various attempts to find a test of general application that might determine whether or not a particular individual is to be treated as a worker for statutory purposes.  There is, however, a danger in treating any one factor, such as subordination, as determinative; as Baroness Hale observed in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Bates van Winkelhof</span>:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;39.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">... there is no magic test other than the words of the statute themselves &#8230; [A] small business may be genuinely an independent business but be completely dependent on and subordinate to the demands of a key customer &#8230; Equally,&#8230; one may be a professional person with a high degree of autonomy as to how the work is performed and more than one string to one&#8217;s bow, and still be so closely integrated into the other party&#8217;s operation as to fall within the definition.  As the case of the controlling shareholder in a company who is also employed as chief executive shows, one can effectively be one&#8217;s own boss and still be a &#8216;worker&#8217;.  Whilst subordination may sometimes be an aid to distinguishing workers from other self-employed people, it is not a freestanding and universal characteristic of being a worker.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span>, the Supreme Court was concerned with the first of the three elements of the definition of a limb (b) worker, namely whether there was a contract whereby an individual undertook to perform work or services for the other party.  In that case it was not in dispute that the claimant drivers worked under contracts whereby they undertook to perform driving services personally (the second element), and it was not suggested that any Uber company was a client or customer of the claimants (the third element). The critical issue was whether the claimants were to be regarded as working under contracts with Uber London or whether (as Uber contended) they were to be regarded as performing services solely for and under contracts made with passengers through the agency of Uber London.  Referring to Baroness Hale&#8217;s cautionary words at paragraph 39 <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Bates van Winkelhof</span>, Lord Leggatt noted that, whilst not necessarily amounting to subordination:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;74.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; integration into the business of the person to whom personal services are provided and the inability to market those services to anyone else give rise to a dependency on a particular relationship which may also render an individual vulnerable to exploitation.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Lord Leggatt observed that the correlative of the subordination and/or dependency of workers who were in a similar position to employees was control, exercised by the employer over their working conditions and remuneration, explaining:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;75.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; It is these features of work relations which give rise to a situation in which such relations cannot safely be left to contractual regulation and are considered to require statutory regulation &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">76.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">Once this is recognised, it can immediately be seen that it would be inconsistent with the purpose of this legislation to treat the terms of a written contract as the starting point in determining whether an individual falls within the definition of a &#8216;worker&#8217;.  To do so would reinstate the mischief which the legislation was enacted to prevent. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sejpal v Rodericks Dental Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/91" uk:canonical="[2022] EAT 91" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 91</ref>, the EAT (HHJ Tayler presiding) returned to the judgment of Baroness Hale in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Bates van Winkelhof</span>, noting:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;7.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in"><span style="color:#010302">The entitlement to significant employment protection rights depends on a person being a worker. Deciding whether a person is a worker should not be difficult. Worker status has been the subject of a great deal of appellate consideration in recent years. Worker status has come to be seen as contentious and difficult. But the dust is beginning to settle. Determining worker status is not very difficult in the majority of cases, provided a structured approach is adopted, and robust common sense applied. The starting point, and constant focus, must be the words of the statutes. Concepts such as &#8216;mutuality of obligation&#8217;, &#8216;irreducible minimum&#8217;, &#8216;umbrella contracts&#8217;, &#8216;substitution&#8217;, &#8216;predominant purpose&#8217;, &#8216;subordination&#8217;, &#8216;control&#8217;, and &#8216;integration&#8217; are tools that can sometimes help in applying the statutory test, but are not themselves tests. Some of the concepts will be irrelevant in particular cases, or relevant only to a component of the statutory test. It is not a question of assessing all the concepts, putting the results in a pot, and hoping that the answer will emerge; the statutory test must be applied, according to its purpose.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Where it is accepted that there is a contract pursuant to which the individual undertakes to do or perform personally any work or services for the other party, the EAT in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sejpal</span> went on to allow that the concepts of integration, control and/or subordination might assist in determining whether that individual was nevertheless excluded from being a worker because they carry on a profession or business undertaking, of which the other party is a client or customer (see paragraph 33). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The respondents contend that the position of a non-executive director such as the claimant can be seen as analogous to that of the panel member and chair of a fitness to practise committee of a professional regulatory body, as considered by the Court of Appeal in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Nursing and Midwifery Council v Somerville</span> <ref href="#" uk:canonical="[2022] ICR 755" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] ICR 755</ref>.  In giving the lead judgment in that case, Lewis LJ (with whom the other two members of the court agreed) explained that the first requirement for worker status was that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;45.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; <span style="font-family:'Times New Roman';color:#000000">there must be a contract. That is, there must be legally enforceable obligations owed by the parties. As Elias LJ expressed it in&#160;</span><span style="font-style:italic;font-family:'Times New Roman';color:#000000">Quashie v Stringfellows Restaurants Ltd. </span><span style="font-family:'Times New Roman';color:#000000"><ref href="#" uk:canonical="[2013] IRLR 99" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] IRLR 99</ref> at paragraph 10: "Every bilateral contract requires mutual obligations; they constitute the consideration from each party necessary to create the contract". &#8230;&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Somerville</span>, the claimant was held to be subject to two different types of contract.  The first governed the claimant&#8217;s appointment and contained mutually enforceable obligations such as to give rise to a contract, but not the type of obligations necessary to bring them within the scope of a worker&#8217;s contract (paragraphs 46-47).  The second were the individual contracts, entered into each time a hearing date was offered which the claimant agreed to attend for an agreed fee, which the ET had permissibly held to amount to worker contracts (paragraph 48). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As for office-holders more generally - including non-executive directors such as the claimant - the position was discussed by Lord Hoffman in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Percy</span>, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;54.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">The distinction in law between an employee, who enters into a contract with an employer, and an office-holder, who has no employer but holds his position subject to rules dealing with such matters as his duties, the term of his office, the circumstances in which he may be removed and his entitlement to remuneration, is well established and understood. One of the oldest offices known to the law is that of constable. It is notorious that a constable has no employer. &#8230; But there are many other examples of offices; public, ecclesiastical and private. In&#160;<span style="font-style:italic">Dale v Inland Revenue Commissioners</span>&#160;<ref href="#" uk:canonical="[1954] AC 11" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] AC 11</ref>, 26 Lord Normand said that a trustee held an office. The term was apt to describe &#8216;any position in which services are due by the holder and in which the holder has no employer.&#8217; A director of a company does not, as such, have a contract with the company and is not an employee. He is an officer of the company. His duties and remuneration as a director are determined by the law and pursuant to the company's constitution. He may in addition have a service contract, but that is a separate relationship. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham v Ministry of Justice</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/44" uk:canonical="[2019] UKSC 44" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 44</ref>, the Supreme Court was concerned with a whistleblowing claim brought by a district judge.  In her judgment, with which the other members of the court agreed, Baroness Hale observed that it was:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;13.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; well established that an office-holder may hold that office under a contract with the person or body for whom he undertakes to perform work or services. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The question was, therefore:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;16.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; did the parties intend to enter into a contractual relationship, defined at least in part by their agreement, or some other legal relationship, defined by the terms of the statutory office of district judge?&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In answering that question, Baroness Hale considered it was:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8220;&#8230; necessary to look at the manner in which the judge was engaged, the source and character of the rules governing her service, and the overall context, &#8230;&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-left:0.5in">albeit, this was not an exhaustive list. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the case of a judicial office holder, the Supreme Court held that the relevant factors pointed against the existence of a contractual relationship; the district judge was thus not a worker for the purposes of section 230(3)(b) <span style="font-weight:bold">ERA </span>and could not gain the whistleblowing protection afforded under section 47B as a worker.  Given that it was the occupational classification of the judge, as a non-contractual office-holder, which took her out of the whistleblowing protection afforded to employees and to limb (b) workers, and as no legitimate aim had been identified such as to justify the exclusion of the judiciary from whistleblowing protection, the Supreme Court went on to hold, however, that that amounted to discrimination (by reason of occupational status) for the purposes of article 14 of the <span style="font-weight:bold">European Convention on Human Rights</span> (&#8220;ECHR&#8221;) in the enjoyment of the judge&#8217;s article 10 (freedom of expression) rights.  The remedy for this breach, it was further concluded, would be to read section 230(3)(b) as extending to judicial office holders, there being no difficulty in including within limb (b):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;43.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; an individual who works or worked by virtue of appointment to an office whereby the office-holder undertakes to do or to perform personally any work or services otherwise than for persons who are clients or customers of a profession or business carried on by the office-holder.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Returning to the assessment of worker status under section 230(3)(b) <span style="font-weight:bold">ERA</span> and to the reasoning of the ET, it is important to bear in mind the principles laid down in the case-law, helpfully summarised by Popplewell LJ at paragraph s 57-58 <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">DPP Law Ltd v Greenberg</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/672" uk:canonical="[2021] EWCA Civ 672" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 672</ref>, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;57.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; (1) The decision of an employment tribunal must be read fairly and as a whole, without focusing merely on individual phrases or passages in isolation, and without being hypercritical. In <span style="font-style:italic">Brent v Fuller</span> <ref href="#" uk:canonical="[2011] ICR 806" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] ICR 806</ref>, Mummery LJ said at p. 813: </p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in">&#8216;The reading of an employment tribunal decision must not, however, be so fussy that it produces pernickety critiques. Over-analysis of the reasoning process; being hypercritical of the way in which a decision is written; focussing too much on particular passages or turns of phrase to the neglect of the decision read in the round: those are all appellate weaknesses to avoid&#8217;. &#8230; </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:12pt">(2)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">A tribunal is not required to identify all the evidence relied on in reaching its conclusions of fact. To impose such a requirement would put an intolerable burden on any fact finder. Nor is it required to express every step of its reasoning in any greater degree of detail than that necessary to be <span style="font-style:italic">Meek</span> compliant (<span style="font-style:italic">Meek v Birmingham City Council</span> <ref href="#" uk:canonical="[1987] IRLR 250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] IRLR 250</ref>). Expression of the findings and reasoning in terms which are as simple, clear and concise as possible is to be encouraged. &#8230;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(3)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">It follows from (2) that it is not legitimate for an appellate court or tribunal to reason that a failure by an employment tribunal to refer to evidence means that it did not exist, or that a failure to refer to it means that it was not taken into account in reaching the conclusions expressed in the decision. What is out of sight in the language of the decision is not to be presumed to be non-existent or out of mind&#8230;.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">58.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">Moreover, where a tribunal has correctly stated the legal principles to be applied, an appellate tribunal or court should, in my view, be slow to conclude that it has not applied those principles, and should generally do so only where it is clear from the language used that a different principle has been applied to the facts found. Tribunals sometimes make errors, having stated the principles correctly but slipping up in their application, as the case law demonstrates; but if the correct principles were in the tribunal&#8217;s mind, as demonstrated by their being identified in the express terms of the decision, the tribunal can be expected to have been seeking faithfully to apply them, and to have done so unless the contrary is clear from the language of its decision. This presumption ought to be all the stronger where, as in the present case, the decision is by an experienced specialist tribunal applying very familiar principles whose application forms a significant part of its day to day judicial workload.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As Singh LJ expressed the point in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sullivan v Bury Street Capital Ltd</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1694" uk:canonical="[2021] EWCA Civ 1694" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1694</ref>:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;42.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:1in;text-indent:0.5in">&#8230; what is required is adequacy, not perfection.  An ET is not sitting an examination.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Claimant&#8217;s Appeal and Submissions in Support</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By his first ground of appeal, the claimant contends that the ET failed to address itself to, and focus on, the question whether there was a contract between the claimant and the first respondent whereby the former undertook to perform work or services for the latter.  There was no direct finding as to whether or not there was a contract; at most, the ET considered there was an &#8220;<span style="font-style:italic">agreement</span>&#8221; (referenced at paragraph 14) but it had then immediately moved to considering the intention of the parties in relation to worker status.  It was not in dispute that the work or services that the claimant undertook to perform personally - carrying out the duties of a non-executive director - were performed directly for the first respondent.  In such circumstances, the claimant submits, there must have been a contract between the parties; as evidenced and set out in the document entitled &#8220;<span style="font-style:italic">Role Description and Person Specification</span>&#8221;, whereby he undertook to perform such work or services for the first respondent for an agreed remuneration.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Relatedly, by his second ground of appeal, the claimant says, to the extent it is said that the ET found there was no contract between the parties, the decision was perverse: on the facts of this case, it was not open to the ET to find other than that there was indeed a contract between the claimant and the first respondent, whereby the claimant undertook to provide work or services for that entity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">By the third ground of appeal, the claimant submits that the ET erred in its approach to determining worker status in this case by having regard to whether he was a &#8220;<span style="font-style:italic">vulnerable individual</span>&#8221; or in a position of &#8220;<span style="font-style:italic">subordination</span>&#8221;, which (i) strictly formed no part of the statutory definition; (ii) drew on the very different circumstances of the claimants in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span>; and (iii) confused the meaning of subordination with independence.  In any event, it is the claimant&#8217;s case that he was plainly in a position of subordination to the chair and, as the ET had found, could be expelled by the board if he failed to engage in the activities for which he was elected.  Moreover, he was required to work or perform services for the first respondent as an integral part of its business, even providing his personal input on strategic matters.  Having the freedom to express an individual view on any given topic did not make the claimant an independent contractor.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In the alternative, by his fourth ground of challenge, the claimant complains that the ET failed properly to consider, or to give any adequate reasons for rejecting, his argument that, in line with the judgment in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham v Ministry of Justice</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/44" uk:canonical="[2019] UKSC 44" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 44</ref>, to exclude him from the whistleblowing protection in Part IVA <span style="font-weight:bold">ERA</span> would amount to a violation of his rights under article 14 <span style="font-weight:bold">ECHR</span>, read together with article 10, with the result that section 230(3)(b) <span style="font-weight:bold">ERA</span> should be read and given effect so as to extend the protection given to whistle blowers to an officer-holder such as the claimant. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">The Respondents&#8217; Position</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In respect of the first ground of challenge, the respondents contend that the ET had addressed the question whether the claimant had undertook to perform work or services for the first respondent by analysing: (i) the obligations owed by the claimant to the first respondent (paragraph 10); (ii) the relationship, or lack thereof, of subordination (paragraphs 10, 12 and 14); (iii) the distinction between operational work or services and strategic input (paragraph 11); and (iv) any relationship, or lack thereof, of dependence (paragraphs 13-14).  Having carried out that analysis, the ET permissibly concluded (paragraph 14) that there was no agreement that the claimant would undertake to perform work or services.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In oral submissions, Ms Brown accepted that the ET&#8217;s reasoning did not make it entirely clear as to whether or not it had found there was a contract between the claimant and the first respondent (the term &#8220;<span style="font-style:italic">true agreement</span>&#8221; at paragraph 14 appearing to refer back to the use of that phrase in the case-law, rather than representing a finding in the present case); it seemed to have skipped that question.  It was the respondents&#8217; case that there was no contract but, in any event, the ET had plainly found that, if there was a contract, it was not the right type of contract; it gave rise to no relevant obligation on the claimant&#8217;s part. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Moreover, contrary to the second ground of appeal, the respondents submit that it was not perverse for the ET to conclude that an individual elected to the position of non-executive director of an organisation, operating pursuant to articles of association that preclude a director from holding a paid appointment, had no contractual obligation to undertake work or services for that organisation (this being a case akin to that under consideration in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Somerville</span>). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As for the third ground of appeal, the respondents submit that the ET correctly considered the issue of subordination in accordance with the relevant case-law, in particular <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span>.  It had interpreted the statutory test in a purposive way, focusing on the practical reality of the relationship.  The ET had not treated subordination or dependence as a universal characteristic of workers but had concluded that its absence was crucial in this case.  It had been entitled to so find. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As for the claimant&#8217;s complaint, by his fourth ground of appeal, that the ET had failed to consider his alternative argument in respect of his rights under the <span style="font-weight:bold">ECHR</span>, the respondents point to the ET&#8217;s reference to the judgment of Baroness Hale in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham</span> at paragraph 11.  Although the ET&#8217;s reasoning appeared to adopt a short-cut when addressing this argument, it could be inferred that, by finding that the absence of a contractual obligation would not be determinative in the claimant&#8217;s case (paragraph 10), the ET meant that the claimant (as a non-executive director) was not precluded from being a worker in the same way as a judge.  There was no dispute that a person who held office as a non-executive director could attract protection under the <span style="font-weight:bold">ERA</span> whistle-blowing provisions if they met the definition at section 230(3)(b); there was thus no discrimination in the enjoyment of article 10 rights based on occupational status. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">Discussion and Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">The task for the ET in this case was to determine one question: was there a contract between the claimant and the first respondent whereby the claimant undertook to perform work or services for the first respondent? </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">It was common ground that, as a non-executive director of the first respondent, the claimant held an office whereby he personally undertook his duties for the organisation on a direct basis (the first respondent was not his client or customer).  Unlike the position of a judicial office holder, it was not suggested that a non-executive director could not be a limb (b) worker for the purposes of section 230(3) <span style="font-weight:bold">ERA</span>; it was, however, in dispute as to whether there was a relevant contract between the parties in this particular case.  Given the scope of the disagreement between the parties, therefore, as Lewis LJ observed in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Somerville</span>, the first issue the ET needed to resolve was whether there was a contract between the claimant and the first respondent at all; that is, whether they had entered into an agreement containing legally enforceable obligations such as to &#8220;<span style="font-style:italic">constitute the consideration from each party necessary to create the contract</span>&#8221;; per Elias LJ in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Quashie</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Although providing a clear answer to that question was a necessary first step for the ET, I am unable to see that it did so.  At paragraph 10 &#8211; having stated that the claimant was free to attend board meetings &#8220;<span style="font-style:italic">when he chose to do so</span>&#8221; and to provide input into the organisation &#8220;<span style="font-style:italic">as he saw fit</span>&#8221; &#8211; the ET said that the claimant &#8220;<span style="font-style:italic">owed no contractual obligation to the First Respondent</span>&#8221; but then immediately went on to say &#8220;<span style="font-style:italic">but that does not in itself preclude a finding that the Claimant was a worker</span>&#8221;.  At paragraph 14, the ET seemed to accept that there was some kind of agreement between the claimant and the first respondent (&#8220;<span style="font-style:italic">Looking at the true agreement, whether express or implied</span>&#8221;) but apparently concluded that it was not intended that this would give the claimant worker status. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the claimant it is said that I can infer that the ET found there was a contract between the parties by virtue of the reference to &#8220;<span style="font-style:italic">the true agreement</span>&#8221; at paragraph 14 of its judgment (as set out at paragraph 16 above).  It is further contended that, in any event, it would be perverse to hold otherwise; there was plainly a contract between the claimant and the first respondent in this case.  The respondents say, however, that there were no legally enforceable obligations between the claimant and the first respondent, and the ET cannot be said to have found that there was a contract in this case: the ET&#8217;s use of the phrase &#8220;<span style="font-style:italic">the true agreement</span>&#8221; being simply a reference back to the terminology used in cases such as <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span>.  The respondents rely on the finding at paragraph 10, saying that the statement that this did not &#8220;<span style="font-style:italic">preclude a finding that the Claimant was a worker</span>&#8221; was intended to refer to the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham</span> point: the ET distinguishing the position of a non-executive director (who might or might not have worker status) from that of a judge (who could not).  Alternatively, to the extent that there was any omission in the ET&#8217;s reasoning on this first question, the respondents say that would not be fatal: what was clear was that the ET did not find that the claimant was under any contractual obligation to perform work or services for the first respondent. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">I see force in the respondents&#8217; submission that the apparent finding by the ET that the claimant &#8220;<span style="font-style:italic">owed no contractual obligation</span>&#8221; (paragraph 10) would initially seem to suggest that it had concluded that the necessary contractual relationship did not exist between the parties in this case.  I am, however, unable to make sense of that as an answer to the issue the ET had to determine given that it immediately went on to hold that this did not preclude a finding that the claimant was a worker.  I cannot see that this can be explained as being a reference to the <span style="font-weight:bold">ECHR</span> argument (drawn from the Supreme Court&#8217;s judgment in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham</span>), as the ET was plainly referring to the claimant, not to the hypothetical position of non-executive directors more generally.  The only inference that can be drawn is that the ET did not consider it had made a finding as to nature of the relationship between the parties that was determinative of the issue before it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">In making these criticisms, however, it is necessary for me to keep in mind the cautionary guidance provided in cases such as <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">DPP v Greenberg</span> and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sullivan v Bury Street</span>; although I have focused on the ET&#8217;s specific findings relevant to the first issue it had to determine &#8211; whether there was a contract between the claimant and the first respondent &#8211; it is right that I should stand back and consider the ET&#8217;s reasoning as a whole.  Indeed, the fact that the ET went on to continue its assessment of the factors pointing for and against worker status again suggests that it did not consider it had made a determinative finding at paragraph 10, and it is right that regard should then be had to the further reasoning provided. The difficulty, however, that arises when trying to adopt that, more holistic, approach, is that the focus of the ET appears to have been on issues of vulnerability, subordination and dependence; while these were all matters of understandable emphasis in the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span> case, they were inevitably less relevant to the position of the claimant as a non-executive director.  As the claimant has observed, the same considerations would be unlikely to arise when considering the position of someone holding office as a non-executive director as when determining the status of the drivers in the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span> case (not least as in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span> there was a particular issue relating to whether the drivers were in a contractual relationship with their passengers), but the fact that there might not be the same degree of dependency for the non-executive director might not be determinative when considering whether, adopting a purposive approach, the statutory protection should be taken to extend to such roles.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Mindful of the observation made by Baroness Hale in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Bates van Winkelhof</span>, that there is no magic test other than the words of the statute (and see the more recent reminders in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sejpal</span> and in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Rainford</span> (the latter specifically addressing the position of office-holders), to the same effect), the ET&#8217;s focus ought properly to have been on the question whether there was a <span style="color:#000000">contract between the claimant and the first respondent whereby the former undertook to perform work or services for the latter. The ET&#8217;s reasoning suggests, however, that it lost sight of this point, focusing instead on questions of vulnerability, subordination and dependency.  Those may well be very relevant issues in many cases - in particular where the standard form documentation provided by the more powerful party does not reflect the reality of the relationship - but they were unlikely to provide material assistance in the circumstances of the present case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the claimant it is said that the ET&#8217;s underlying findings of fact (in particular, as set out at paragraph 6 above), taken together with the relevant documents in this case, make plain that the work or services he undertook for the first respondent were pursuant to a contract between them.  He further relies on what was stated to be a &#8220;<span style="font-style:italic">Time Commitment</span>&#8221; in the role description and the expectation that he attend board and other meetings as well as competitions and other events.  He submits that the ostensible independence of a non-executive director should not be taken to mean that there could not be a relationship of subordination, relying, in particular, on the power of the chair and other members of the board to deprive him of his board membership.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Those are all matters that might be taken to point towards the requisite contractual relationship: a legally binding agreement between the parties whereby the claimant had undertaken to perform work or services for the first respondent.  It cannot be said, however, that these are matters that must necessarily follow from the findings made by the ET in this case.  After all, although I have found that it did not amount to a definitive conclusion that there was no contractual relationship, the ET&#8217;s finding at paragraph 10 at least suggests that it did not accept that there was a particular obligation on the claimant in terms of his attendance at board meetings or as to his specific input into the first respondent&#8217;s organisation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Similarly, although the respondents have sought to persuade me that the facts of this case are analogous to those in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Somerville</span>, I do not consider that would necessarily follow.  The duties owed by a non-executive director to an organisation such as the first respondent are inevitably different to those undertaken by a panel member and chair of a fitness to practise committee of a professional regulatory body.  Moreover, as the respondents acknowledged in argument, the particular obligations undertaken by a non-executive director in one context may be very different to those of a non-executive director in another context.  There is no &#8220;<span style="font-style:italic">one-size fits all</span>&#8221; route to the answer in such cases: each situation must be judged against the statutory language and a determination reached on the particular facts of the case in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">That, in my judgement, reveals the error made in the present case.  Mindful of how the determination of worker status had been undertaken in cases such as <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Uber</span>, the ET lost sight of the particular facts of the case before it.  Focusing on issues of vulnerability, subordination and dependence, the ET failed to engage with the fact that this case involved an individual who held office as a non-executive director.  With that in mind, the question for the ET was more akin to that identified in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham</span> at paragraph 16 (drawing upon the guidance provided in other cases concerned with office-holders, such as <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Percy</span> and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Preston</span>), that is, whether the parties intended &#8220;<span style="font-style:italic">to enter into a contractual relationship, defined at least in part by their agreement</span>&#8221;?  In answering that question, the ET would have been assisted by considering the matters identified in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham</span> (albeit mindful that this is not an exhaustive list): the manner of the claimant&#8217;s engagement, the source and character of the rules governing his service, and the overall context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in;margin-right:0.24in">Notwithstanding these criticisms, it is nonetheless tempting to try to pick through the reasoning provided by the ET to see whether the answer to this case might not, after all, be drawn from particular observations made.  At paragraph 10, as I have already observed, the ET apparently found that the claimant &#8220;<span style="font-style:italic">owed no contractual obligation to the First Respondent</span>&#8221;; and at paragraph 14, it stated that it did not consider &#8220;<span style="font-style:italic">that it was intended for the Claimant to be given the status of worker nor did it result as such</span>&#8221;.  I have reflected on whether it might not be permissible to simply extract these particular passages to divine the ET&#8217;s answer to the question raised by this case but ultimately I have concluded that this would be neither safe nor fair.  First, for the reasons already explained, I cannot be certain as to the finding made at paragraph 10.  Secondly, this is not a case where it is clear that the ET had correctly directed itself as to the approach it should adopt, in particular given its focus on issues of vulnerability, subordination and dependence.  Third, possibly as a result of its mistaken focus on issues that were not central to the facts of this case, the ET did not give detailed consideration to the particular matters relied on by the claimant (such as, the &#8220;<span style="font-style:italic">Time Commitment</span>&#8221; contained within the role description, or the power of the chair and the other directors to remove him from the board if he did not meet that commitment).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">For the reasons explained, I therefore consider that the claimant&#8217;s appeal on grounds one and three must be allowed and the ET&#8217;s conclusion on worker status is to be set aside.  Contrary to ground two, however, I do not consider that this is a case where only one conclusion is possible and that a finding other than that the claimant was a worker would necessarily be perverse.   In the circumstances, the appropriate course is for this matter to be remitted to the ET for re-hearing.  Having in mind the guidance provided in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sinclair Roche &amp; Temperley v Heard and Fellows</span> <ref href="#" uk:canonical="[2004] IRLR 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 763</ref> EAT, I consider that the remitted hearing should be before a different ET, which can then approach the question of worker status entirely afresh.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">Given the decision I have reached, it is not strictly necessary for me to deal with the claimant&#8217;s fourth ground of appeal.  For completeness, however, I should say that I agree with the claimant that the ET&#8217;s reasoning fails to engage with his argument in this regard.  Drawing upon the Supreme Court&#8217;s decision in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham</span>, it was the claimant&#8217;s case before the ET that, to the extent that he &#8211; as the holder of an office as a non-executive director &#8211; was found not to be a worker, and thus not to fall under the statutory protection afforded to whistle blowers, it ought to be found that he had suffered article 14 discrimination (due to occupational status) in the enjoyment of his right to freedom of expression under article 10 <span style="font-weight:bold">ECHR</span>.  Although the ET referred to Baroness Hale&#8217;s judgment in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gilham</span> (see paragraph 11) it failed to provide any answer to the point made by the claimant in this respect. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.5in">As the respondents have observed, it may be that the ET considered that it was unnecessary to address the claimant&#8217;s case on this point, given that it was not suggested that non-executive directors, as an occupational class, were precluded from being workers in same way as judges. The ET did not, however, state that was its finding on the point and its failure to engage with the claimant&#8217;s argument inevitably means that he cannot know the reason why he lost in this respect. To the extent that this argument continues to be pursued by the claimant, it can be considered at the remitted hearing. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

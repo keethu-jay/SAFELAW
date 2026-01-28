@@ -1,0 +1,1160 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2020/181"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2020/181"/>
+	  <FRBRdate date="2020-06-08" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="181"/>
+	  <FRBRname value="AA Homes &amp; Housing Ltd &amp; Anor v London Borough of Croydon "/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/181"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/181"/>
+	  <FRBRdate date="2020-06-08" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/181/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/181/data.xml"/>
+	  <FRBRdate date="2024-10-31T16:24:11" name="transform"/>
+	  <FRBRdate date="2024-10-31T16:42:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2020-06-08" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="london-borough-of-croydon" href="" showAs="LONDON BOROUGH OF CROYDON"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2020</uk:year>
+	<uk:number>181</uk:number>
+	<uk:cite>[2020] UKUT 181 (LC)</uk:cite>
+	<uk:parser>0.26.9</uk:parser>
+	<uk:hash>87a76de5fc90ce43505a9e29fd512261f714fcc4598db88d14368d125a2571ad</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: justify; font-weight: bold; font-size: 12pt; }
+#judgment .Heading2 { text-align: justify; margin-left: 0.5in; font-style: italic; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { margin-left: 1.48in; font-style: italic; font-weight: bold; font-size: 12pt; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading2Char { font-style: italic; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-style: italic; font-weight: bold; font-size: 12pt; }
+#judgment .Heading5Char { font-family: Arial; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <table uk:widths="6.63in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><courtType refersTo="#ukut-lc" style="font-weight:bold">UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><img src="image1.png" style="width:72pt;height:60.75pt"/></p>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:right;margin-left:6.3in;margin-right:-0.03in;text-indent:-6.3in"><span style="font-weight:bold">UT Neutral citation number: </span><neutralCitation style="font-weight:bold">[2020] UKUT 0181 (LC)</neutralCitation></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold">UTLC Case Number: HA/14/2019</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p style="text-align:justify"><span style="font-style:italic;font-weight:bold">HOUSING &#8211; SELECTIVE LICENSING &#8211; civil penalty &#8211; appeal against level of penalty &#8211; relevant considerations &#8211; fire safety &#8211; local housing authority&#8217;s policy &#8211; harm &#8211; aggravating and mitigating factors</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">AN APPEAL AGAINST A DECISION OF THE FIRST TIER TRIBUNAL (PROPERTY CHAMBER)</span></p>
+      <table class="PlainTable3" uk:widths="1.57in 3.25in 1.44in">
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">BETWEEN:</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-right:-0.02in"/>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;margin-right:-0.02in;text-indent:0.12in"><span style="font-weight:bold">AA HOMES &amp; HOUSING LTD</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	      <p class="ListParagraph" style="text-align:center;margin-left:0.5in;margin-right:-0.02in;text-indent:0.12in"><span style="font-weight:bold">ANABOW SERVICES LIMITED</span></p>
+	    </blockContainer>
+	  </td>
+	  <td>
+	    <p style="text-align:right;margin-right:-0.02in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify;margin-right:-0.02in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-right:-0.02in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right;margin-right:-0.02in"><role refersTo="#appellant" style="font-weight:bold">Appellants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify;margin-right:-0.02in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-right:-0.02in"/>
+	    <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">and</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right;margin-right:-0.02in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify;margin-right:-0.02in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-right:-0.02in"/>
+	    <p class="ListParagraph" style="text-align:center;margin-left:0.42in;margin-right:-0.02in;text-indent:-0.39in"><party as="#respondent" refersTo="#london-borough-of-croydon" style="font-weight:bold">LONDON BOROUGH OF CROYDON</party></p>
+	  </td>
+	  <td>
+	    <p style="text-align:right;margin-right:-0.02in"/>
+	    <p style="text-align:right;margin-right:-0.02in"><role refersTo="#respondent" style="font-weight:bold">Respondent</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify;margin-right:-0.02in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center;margin-right:-0.02in"/>
+	  </td>
+	  <td>
+	    <p style="text-align:right;margin-right:-0.02in"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center"><span style="font-weight:bold">Re: Flat 39,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">5, Sydenham Road,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Croydon,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">CRO 2EX</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Determination on written representations</span></p>
+      <p style="margin-right:-0.02in">Mr Archie Maddan for the Appellants</p>
+      <p style="margin-right:-0.02in">Mr Paul Sharkey for the Respondent</p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold">&#169; CROWN COPYRIGHT 2020</span></p>
+      <p>The following cases are referred to in this decision:</p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-style:italic;font-weight:normal;font-size:12pt">Darlington Borough Council v Kaye</span><span style="font-weight:normal;font-size:12pt"/><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWHC/Admin/2004/2836.html" style="font-weight:normal;text-decoration-line:none;font-size:12pt;color:initial">[2004] EWHC 2836 (Admin)</a></p>
+      <p><span style="font-style:italic">London Borough of Waltham Forest v Marshall</span> [2020] UKUT 35 (LC)</p>
+      <p><span style="font-style:italic">Sutton v Norwich City Council</span> [2020] UKUT 90 (LC)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Heading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">This is an appeal from a decision of the First-tier Tribunal (&#8220;the FTT&#8221;) about the level of penalty imposed upon the appellants by the respondent for the offence of being in control of and managing (respectively) premises that were required to be licensed under a selective licensing scheme, pursuant to Part 3 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">Housing Act 2004</ref>, without such a licence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The appeal was to be heard at the Royal Courts of Justice on 1 April 2020. The hearing had to be vacated because of the restrictions imposed during the pandemic and I directed that it be determined instead on the basis of written representations. I set a timetable for the submission of representations by the appellants and the respondent, and the last of those representations was received by the Tribunal on 24 April 2020. Representations for the appellants were made by Mr Archie Maddan, and for the respondent by Mr Paul Sharkey, both of counsel, and I am grateful to them both.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">In the paragraphs that follow I first summarise the law, and the relevant local authority policy. I then set out the relevant facts and explain the respondent&#8217;s decision in setting the level of the civil penalties imposed upon the appellants, and summarise the FTT&#8217;s decision. Finally, I explain and discuss the grounds of appeal. In conclusion, the appeal succeeds and the matter is remitted to the FTT for the decision to be re-made. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">It is unfortunate that these proceedings have been protracted, largely by the appellants&#8217; pursuit of an application for permission to appeal on additional grounds, some of which were unnecessary being encompassed in the existing grounds, and some of which were misconceived. I express the hope that the parties can reach a compromise rather than indulging in the expense of a further hearing.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Normal2"><span style="font-weight:bold">The law</span></heading>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Part 3 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">Housing Act 2004</ref> enables local authorities to set up selective licensing schemes in their area, where certain conditions are satisfied. Those conditions relate to matters such as the risk of anti-social behaviour in the area, the lack of demand for rented property, and so on. It is not in dispute that the respondent instituted a selective licensing scheme in October 2015, and that the property in question, Flat 39, 5 Sydenham Road, Croydon, was required to be licensed when it was let to a Mr Walton in April 2017.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">It is a criminal offence to have control of or manage a house that is required to be licensed under Part 3 when it is not so licensed. It is also a criminal offence if a licence holder, or a person upon whom a licence imposes conditions, fails to comply with a condition of the licence. Section 95(1) and (2) reads as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;text-indent:0.5in">A person commits an offence if he is a person having control of or managing a house which is required to be licensed under this Part (see section 85(1)) but is not so licensed.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <intro>
+		      <p class="Normal2" style="margin-left:1in;text-indent:0.5in">A person commits an offence if&#8212;</p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="Normal2" style="margin-left:1.5in;text-indent:0.5in">he is a licence holder or a person on whom restrictions or obligations under a licence are imposed in accordance with section 90(6), and</p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="Normal2" style="margin-left:1.5in;text-indent:0.5in">he fails to comply with any condition of the licence.&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">If a local authority is satisfied beyond reasonable doubt that either of these offences has been committed, <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34/section/249" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 249</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">Housing Act 2004</ref> enables it to impose a civil penalty in respect of the offence as an alternative to prosecution, and Schedule 13A sets out the procedure for doing so. The maximum civil penalty is &#163;30,000.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Paragraph 12 of Schedule 13A requires the local housing authority, when imposing such a penalty and deciding on the level of the penalty, to have regard to any guidance issued by the Secretary of State. Such guidance has been issued by the Ministry of Housing, Communities and Local Government: <span style="font-style:italic">Civil Penalties under the <ref href="http://www.legislation.gov.uk/id/ukpga/2016/22" uk:canonical="2016 c. 22" uk:origin="TNA" uk:type="legislation">Housing and Planning Act 2016</ref>, Guidance for Local Housing Authorities</span>. The current edition was published in April 2018. The title refers to the 2016 statute which amended the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">Housing Act 2004</ref> so as to make provision for civil penalties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <intro>
+	      <p class="Normal2" style="margin-left:0.39in">The Guidance advises the local authority to &#8220;consider the following factors to help ensure that the civil penalty is set at an appropriate level&#8221;. They are (and I reproduce only the headings):</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">1)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Severity of the offence.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">2)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Culpability and track record of the offender.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">3)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">The harm caused to the tenant.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">4)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Punishment of the offender.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">5)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Deter the offender from repeating the offence.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">6)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Deter others from committing similar offences.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">7)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Remove any financial benefit the offender may have obtained as a result of committing the offence.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <intro>
+	      <p class="Normal2" style="margin-left:0.39in">The guidance requires local housing authorities to have their own policy on determining the level of penalty. The respondent has such a policy, which was adopted in May 2017. It sets out five stages for the assessment of the penalty:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">1)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Banding the offence in terms of the culpability of the landlord and &#8220;the level of harm that the offence has had.&#8221;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">2)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Consideration of aggravating factors.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">3)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Consideration of mitigating factors.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">4)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Penalty review for proportionality and means to pay.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">5)</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Totality principle assessment: &#8220;To ensure the penalty is just and proportionate to the offending behaviour in the case of multiple offences or where a RRO is to be applied for.&#8221;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	      <content>
+		<p class="Normal2" style="margin-left:0.5in">As to that last factor, it is possible for a rent repayment order to be made in favour of a tenant as well as a civil penalty imposed by the local authority; hence the need to consider totality, a concept familiar (as are the other elements in the process) from the principles of sentencing in the criminal courts.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	      <content>
+		<p class="Normal2" style="margin-left:0.5in">The respondent has a matrix for the assessment of culpability and harm which enables it to attribute a penalty score. There are four levels of culpability and four of harm, which are multiplied to produce a score:</p>
+		<table class="TableGrid" uk:widths="1.26in 1.26in 1.26in 1.26in 1.26in">
+		  <tr>
+		    <td>
+		      <p class="Normal2">Significant culpability</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">4</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">8</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">12</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">16</p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="Normal2">High culpability</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">3</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">6</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">9</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">12</p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="Normal2">Moderate culpability</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">2</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">4</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">6</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">8</p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="Normal2">Low culpability</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">1</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">2</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">3</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">4</p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="Normal2"/>
+		    </td>
+		    <td>
+		      <p class="Normal2">Low harm</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">Moderate harm</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">High harm</p>
+		    </td>
+		    <td>
+		      <p class="Normal2">Significant harm</p>
+		    </td>
+		  </tr>
+		</table>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	      <intro>
+		<p class="Normal2" style="margin-left:0.5in">The penalty score then determines the penalty subject to adjustment in accordance with the other stages set out above:</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Normal2" style="margin-left:1in">Penalty score<marker name="tab"/>Band<marker name="tab"/><marker name="tab"/>Penalty</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>1</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>1<marker name="tab"/><marker name="tab"/>&#163;250</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>2</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>1<marker name="tab"/><marker name="tab"/>&#163;500</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>3</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>1<marker name="tab"/><marker name="tab"/>&#163;750</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>4</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>1<marker name="tab"/><marker name="tab"/>&#163;1,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>5</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>2<marker name="tab"/><marker name="tab"/>&#163;2,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>6</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>2<marker name="tab"/><marker name="tab"/>&#163;4,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>7</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>2<marker name="tab"/><marker name="tab"/>&#163;6,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>8</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>2<marker name="tab"/><marker name="tab"/>&#163;8,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>9</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>3<marker name="tab"/><marker name="tab"/>&#163;10,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>10</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>3<marker name="tab"/><marker name="tab"/>&#163;12,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>11</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>3<marker name="tab"/><marker name="tab"/>&#163;15,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>12</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>3<marker name="tab"/><marker name="tab"/>&#163;18,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>13</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>4<marker name="tab"/><marker name="tab"/>&#163;20,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>14</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>4<marker name="tab"/><marker name="tab"/>&#163;23,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>15</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>4<marker name="tab"/><marker name="tab"/>&#163;26,000</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num>16</num>
+		<content>
+		  <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><marker name="tab"/>4<marker name="tab"/><marker name="tab"/>&#163;30,000</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	      <content>
+		<p class="Normal2" style="margin-left:0.5in">The policy sets out examples of different levels of culpability and of harm, and of aggravating and mitigating factors, to which I shall revert in due course.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	      <content>
+		<p class="Normal2" style="margin-left:0.5in">The approach that the FTT and the Tribunal should take to the local housing authority&#8217;s policy is well-established. In <span style="font-style:italic">Sutton v Norwich City Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/90" uk:canonical="[2020] UKUT 90 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKUT 90 (LC)</ref> the Deputy President said at paragraph 244:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <intro>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1in">&#8220;It is an important feature of the system of civil penalties that they are imposed in the first instance by local housing authorities, and not by courts or tribunals.&#160; The local housing authority will be aware of housing conditions in its locality and will know if particular practices or behaviours are prevalent and ought to be deterred.&#160; The authority is well placed to formulate its policy and in <span style="font-style:italic">London Borough of Waltham Forest v Marshall</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/35" uk:canonical="[2020] UKUT 35 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKUT 35 (LC)</ref> the Tribunal (Judge Cooke) gave guidance on the respect that should be afforded to a local authority&#8217;s policy by the FTT when hearing an appeal from a civil penalty imposed by the authority.&#160; As Wilkie J put it, concerning the approach which should be taken by magistrates, in <span style="font-style:italic">Darlington Borough Council v Kaye</span><span/><a class="Hyperlink" href="https://www.bailii.org/ew/cases/EWHC/Admin/2004/2836.html" style="text-decoration-line:none;color:initial" title="Link to BAILII version">[2004] EWHC 2836 (Admin)</a>:</p>
+		      </intro>
+		      <subparagraph>
+			<content>
+			  <p class="ListParagraph" style="text-align:justify;margin-left:1.5in">&#8220;The Justices &#8230; ought to have regard to the fact that the local authority has a policy and should not lightly reverse the local authority&#8217;s decision or, to put it another way, the Justices may accept the policy and apply it as if it was standing in the shoes of the council considering the application.&#8221;</p>
+			</content>
+		      </subparagraph>
+		    </paragraph>
+		    <paragraph>
+		      <num>245.</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in">If a local authority has adopted a policy, a tribunal should consider for itself what penalty is merited by the offence under the terms of the policy.&#160; If the authority has applied its own policy, the Tribunal should give weight to the assessment it has made of the seriousness of the offence and the culpability of the appellant in reaching its own decision.&#8221;</p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	      <content>
+		<p class="Normal2" style="margin-left:0.5in">Bearing that in mind, what the appellants say is that the respondent, and the FTT, failed to apply the policy correctly. They refer to the <span style="font-style:italic">Waltham Forest</span> decision (above) where it was said at paragraph 76:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Normal2" style="margin-left:1in">&#8220;&#8230; if a court or tribunal finds, for example, that there were mitigating or aggravating circumstances of which the original decision-maker was unaware, or of which it took insufficient account, it can substitute its own decision on that basis.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Normal2"><span style="font-weight:bold">The factual background and the decisions of the respondent and the FTT</span></p>
+	    <p class="Normal2"><span style="font-style:italic">A summary of the facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Flat 39 is part of a former office block, known as Natwest Tower, or 5 Sydenham Road, Croydon, converted into 54 residential flats over five storeys. The first appellant bought the freehold for &#163;11.7 million. The second appellant manages the block and arranges lettings. As I mentioned above, Flat 39 was let to Mr Ralph Watson on 1 April 2017. He paid a rent of &#163;900 per month.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">On 13 September 2017 the building was inspected by a representative of the respondent after a priority referral from the London Fire Brigade. Flat 39 was found to be one of 36 in the block that should have been licensed but were not.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The FTT heard evidence from a representative of the Fire Brigade, who inspected the block on 5 September 2017 and said that there were multiple fire safety failings of a serious nature. Including the front door at the base of the single staircase being locked, a single staircase with no ventilation, very high fire loading in the basement with a single door that did not close properly, and a vertical open void running the height of the building. The Fire Brigade considered a prohibition order in respect of the latter problem, but a waking watch was put in place instead, and an Improvement Notice served by the Fire Brigade in October 2017.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">After the respondent&#8217;s visit on 13 September an application was made for a licence for Flat 39. It was not properly made, in that the date of the tenancy was mis-stated as having only just begun, apparently in order to obtain a discount. Eventually the details were set right and a licence was issued and back-dated to the date of application in September 2017; so the property was unlicensed for some five months. In February 2018 the respondent served notices of intention to issue financial penalties against the appellants, in the sums of &#163;26,000 and &#163;12,000 respectively; final notices in April 2018 confirmed those amounts.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">The respondent&#8217;s calculation of the civil penalty</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The respondent calculated the penalty by reference to its policy. The calculation of penalty scores was as follows:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">For the first appellant:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 1 culpability and harm<marker name="tab"/>9 (high)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 2 aggravating factors<marker name="tab"/>3</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 3 mitigating factors<marker name="tab"/>0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 4 penalty review<marker name="tab"/><marker name="tab"/>1</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 5 totality<marker name="tab"/><marker name="tab"/><marker name="tab"/>2</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Total<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>15</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">For the second appellant:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 1 culpability and harm<marker name="tab"/>9 (high)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 2 aggravating factors<marker name="tab"/>1</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 3 mitigating factors<marker name="tab"/>0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 4 penalty review<marker name="tab"/><marker name="tab"/>0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Stage 5 totality<marker name="tab"/><marker name="tab"/><marker name="tab"/>0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Total<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>10</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">By referring back to the table set out above we can see that the total scores for each appellant give rise to the respective penalties of &#163;26,000 and &#163;12,000.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Turning to the penalty for the first appellant, the FTT explained that the respondent:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Normal2" style="margin-left:1in">&#8220;had assessed the level of culpability at Stage 1 as high taking into account the failure to apply for a licence prior to the start of the tenancy agreement despite being aware of the scheme, inaccurate information being given once the application was made, and slow progress and risk was taken. The impact on the tenant and wider environment was likewise rated as high as the property inspections found some issues with the fire precautions and risk assessment at the Property [the FTT used that term to denote the whole block]. Further it was considered that failure to licence undermined the whole licensing scheme and that not licensing a property meant that all parties would not benefit from the requirements imposed by the conditions.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The FTT went on to say that the respondent regarded as aggravating factors the failure to licence 36 flats in the block, the length of time for which Flat 39 had been unlicensed, and the errors in the application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">A mitigating factor was the applicants&#8217; endeavours to put a better system in place. One further point had been added at the review stage &#8220;to reflect the wider non-compliance and the actual rental income&#8221;. Two points were added for totality; Mr Gracie-Langrick, an environmental health officer for the respondent, explained in his witness statement that this was to reflect the fact that so many flats were unlicensed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">As to the second appellant, the FTT said that the respondent took similar points into account. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">The FTT&#8217;s decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Taking the two appellants in turn: as to the first appellant, the most important change that the FTT made was to increase the score at stage 1 &#8220;taking into account the very serious fire issues at the Property&#8221;. It said that harm was &#8220;significant&#8221; and gave 12 points at stage 1.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">No points were added for aggravating factors, because it was felt that there had been some double-counting. Nothing was deducted for mitigation, in the absence of any evidence from the appellants (whose directors attended the hearing before the FTT and were represented by counsel but gave no evidence). The FTT was provided with correspondence about the steps that the appellants planned to take to prevent similar offences in the future but found that to be &#8220;somewhat unsubstantial&#8221;, with no timeframe or proper plan for change. The FTT added one point at stage 4. No evidence was given by the appellants as to their ability to pay and the FTT therefore assumed that they were able to pay up to the maximum penalty. No adjustment was made for totality at stage 5, because there was only one offence, and the respondent&#8217;s policy indicates that an adjustment for totality is relevant where the respondent is imposing a number of penalties (and not as an alternative to imposing penalties in respect of other offences), which is of course how the criminal courts approach totality. It is not the same as taking into consideration offences that have not been prosecuted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">Accordingly, the FTT&#8217;s calculation was as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in">Stage 1 culpability and harm<marker name="tab"/>12 (high)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in">Stage 2 aggravating factors<marker name="tab"/>0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in">Stage 3 mitigating factors<marker name="tab"/>0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in">Stage 4 penalty review<marker name="tab"/><marker name="tab"/>1</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in">Stage 5 totality<marker name="tab"/><marker name="tab"/><marker name="tab"/>0</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in">Total<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>13</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">By reference back to the table reproduced above, it will be seen that that gives rise to a penalty of &#163;20,000, which the FTT imposed in place of the respondent&#8217;s &#163;26,000.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">As to the second appellant, the FTT said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Normal2" style="margin-left:1in">&#8220;The fine imposed of &#163;12,000 on Anabow is at the lower end of the scale and we believe it is at the correct level of harm given the severity of the offence (particularly the harm or potential harm to the tenants), the fact that the Second Applicant clearly did know or should have known that Flat 39 required licensing &#8211; all of this balanced against the other factors we have referred to in this decision.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">So the first appellant&#8217;s appeal was allowed and the second appellant&#8217;s was dismissed. Both now appeal to the Tribunal against the level of the penalty.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Normal2"><span style="font-weight:bold">The grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">The FTT gave permission to appeal on the following grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">It is arguable that the tribunal, in coming to its conclusions, wrongly gave (undue) weight to the issue of the fire risk at the building. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">It is arguable that the tribunal took account of irrelevant matters or failed to give due weight to other evidence before it. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">It is arguable that the tribunal erred in not applying its reasoning in respect of AA Homes, the first Applicant, to the Financial Penalty imposed in respect of Anabow, the Second Applicant. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">This is a relatively new jurisdiction for the tribunal. There may be a wider public interest in the Upper Tribunal considering the tribunal&#8217;s approach to Financial Penalties in these circumstances.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">So, there are three substantive grounds of appeal. In considering the first two, I can only look at the FTT&#8217;s reasoning about the first appellant, in the absence of any detail in the FTT&#8217;s consideration of the second appellant. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.3in;text-indent:-0.3in"><span style="font-weight:bold">Ground 1: Did the FTT give undue weight to the fire risk at the building?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">At the heart of the appeal is the appellants&#8217; argument about the fire safety issues. They were a factor in the respondent&#8217;s assessment of harm and led the FTT to increase the penalty score at stage 1. The appellants say the fire hazards were not relevant to the assessment of harm for this offence, because they did not amount to harm caused by the failure to licence.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">Causation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants agree that there were fire safety issues in the building, but the offence was the failure to licence the flat. And the harm taken into account must, according to the respondent&#8217;s policy, be the harm caused by the offence; problems in the rest of the building are not relevant and would not have been prevented by the grant of a licence. Indeed, they do not seem to have been prevented by the grant of a licence in respect of those flats that did have a licence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants refer to the witnesses who gave evidence to the FTT about fire safety, and say that all the matters set out there (which I summarised at paragraph 19 above) relate to the common parts of the building, with one exception that does relate to Flat 39, namely that it is said that the tenant of Flat 39 was not aware of the fire evacuation plan for the building. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Accordingly, say the appellants, all but that one factor cannot be relevant to the level of civil penalty imposed for the failure to licence Flat 39, because they do not relate to Flat 39 and cannot have been caused by the failure to licence the flat. Moreover, it has not been shown that Mr Watson&#8217;s ignorance of the evacuation plan was caused by the absence of a licence. It appears that some residents in other flats knew about the evacuation plan, but it is not known whether they were aware of it because their properties were licensed or for some other reason.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants argue that there is no legal or logical connection between fire hazards in the building and the failure to obtain a licence under Part 3 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/34" uk:canonical="2004 c. 34" uk:origin="TNA" uk:type="legislation">Housing Act 2004</ref>. The licensing scheme was introduced to tackle areas of low housing demand and problems with anti-social behaviour. The focus on fire hazards in the present case was irrelevant. What the respondent has done is to treat the present offence as if it were the offence of failing to comply with a condition in the licence, instead of the simple offence of failing to get a licence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants point out that the hazards identified by the Fire Brigade were breaches of the Regulatory Reform (Fire Safety) Order 2005. They also say that it is significant that the Fire Brigade did not give a Prohibition Notice but served only an Improvement Notice (which they say they complied with).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants say that once the fire safety issues are discounted there is no justification for assessing harm as any higher than moderate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The respondent says in answer that had the flat been licensed, the respondent would have been able to take steps to ensure that the lessee was aware of the fire evacuation procedure. It says that the Croydon Private Rented Property Licensing Scheme condition 3.8 requires that licence holders ensure that tenants are fully briefed about what to do in the event of a fire. There are also six-monthly inspections once a property is licensed, which provides an opportunity for the tenant to be reminded about fire safety.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">It also says that it is not right that a landlord who has failed to get a licence should be put in a better position than one that has failed to observe the conditions in a licence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">As to the fire hazards in the common parts, the respondent says that it is right that a local authority must be able to take into account, when fixing a penalty for a particular offence, any wider regulatory breaches such as those within the province of the London Fire Brigade. It is said that if it cannot do so, then the local authority will have to take action for every offence rather than taking a &#8220;more holistic approach&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">Conclusion on ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">It is significant that the respondent does not suggest that any of the fire hazards could have been remedied by the grant of a licence, or was caused by the failure to licence, with the one exception of the tenant&#8217;s ignorance of the evacuation plan. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The respondent does not say that conditions could have been attached to the licence of flat 39 that would have resolved issues such as the structure of the basement, the void in the building from basement to roof, or the fire escape problems.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">It is clear that &#8220;harm&#8221;, or &#8220;impact&#8221; at stage 1 of the respondent&#8217;s policy refers very clearly &#8211; and as one would expect &#8211; to harm caused by the offence. In the descriptions of levels of harm, there are references to &#8220;impact&#8221;, to &#8220;tenant&#8217;s views about the impact that the offence has had on them&#8221;, to &#8220;adverse effect on individuals&#8221;. The terms &#8220;impact&#8221; and &#8220;effect&#8221; can only refer to the impact or effect of the offence itself, as there is no suggestion that the effect of anything else is under consideration. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The fire hazards in the building could have had a serious impact on many people. But I agree with the appellants that it was not caused by the failure to obtain a licence. Nor is it appropriate for the respondent to take a &#8220;holistic approach&#8221; to matters of criminal liability; there is no suggestion of such an approach in the policy. And that is as one would expect; the starting point and the primary measure of the penalty must be the harm caused <span style="font-style:italic">by this offence</span> and not by another one which falls to be punished by a different process or under different provisions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The FTT was understandably very concerned about the evidence of fire hazards, but it made a leap it should not have taken by making it a major factor in its assessment of harm. The FTT&#8217;s decision therefore to move the assessment of harm up so that stage 1 yielded 12 points was wrong, and was so far wrong as to amount to an error of law. The appeal succeeds on this ground.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">That said, I would have no hesitation in regarding the fire hazards as an aggravating factor just as, in sentencing in the criminal courts, other offences may be an aggravating factor. Similarly, the efforts made by the appellants to set matters right would be a mitigating factor; in choosing not to give evidence the appellants did themselves no favours on this point and it may be that on a re-hearing the fire hazards, and the efforts made to remedy them, can be given consideration at the proper stage of the assessment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="Normal2"><span style="font-weight:bold">Ground 2: did the FTT fail to take account of relevant matters or give undue weight to other evidence before it?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">This is a very broad ground of appeal and it would have been helpful had the FTT been more specific. The appellants now list a number of matters. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">Inadequate evidence for the assessment of culpability</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants say that the FTT did not have proper grounds on which to find that their culpability was high. The FTT referred at paragraph 37 to a &#8220;glaring omission to licence in circumstances that suggest that the First Applicant was well aware, or should have been well aware, of the need to licence.&#8221; The appellants say that the FTT did not say what those circumstances were nor why the failure to licence arose from incompetence rather than anything more sinister.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The respondent&#8217;s policy describes high culpability as &#8220;Landlord has actual foresight of, or wilful blindness to, risk of offending but risk nevertheless taken&#8221;. The appellants say their culpability was moderate: &#8220;offence committed through an act or omission which a landlord exercising reasonable care would not commit.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I agree that there is little explanation of the FTT&#8217;s assessment of culpability. But the FTT had to do the best it could with the little that the appellants seem to have offered. No evidence was given by its officers.  When an application was made for a licence in September 2017 the date of the commencement of the tenancy was mis-stated. The first appellant is the owner of a property that cost &#163;1.7 million and contains 54 residential flats. A plea of incompetence from a landlord with means on that scale and with a large portfolio of properties (albeit in a single building) is not convincing. The FTT was entitled to draw inferences from the material before it and it cannot be said to have erred or to have been irrational on this point.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">Undue weight placed on the impact on regulation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">It will be recalled that the respondent in assessing the penalty took into account the impact on the licensing scheme as a whole (paragraph 25 above). The appellants say that there were no grounds for this, given that one third of the flats in the block were licensed correctly and there was no evidence that there was a problem anywhere other than in this building, with30,000 properties licensed in the borough.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">There is perhaps little for the appellants to be proud of in a situation where only a third of the flats in the building was correctly licensed. However, it is not clear that the FTT took this factor into account at all. The major factor in its decision about harm at stage 1 was clearly fire safety, which I have already dealt with.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">Failure to take into account documentary evidence relevant to mitigation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants say that the FTT failed to make a proper assessment of the evidence presented by them in documentary form. It related to fire safety measures put in place at the property, in response to the Fire Brigade&#8217;s Improvement Notice issued on October 2017, and also included correspondence with the respondents which raised matters of mitigation. The appellants say that the FTT placed undue weight on the absence of live evidence and failed to consider the evidence in the bundle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The difficulty with that is that the appellants made no witness statement introducing the correspondence or indicating reliance on the documentary evidence. They did not make themselves available for cross examination. In those circumstances it is difficult to see how the FTT could have placed much weight on the correspondence referred to.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">Failure to take into account other matters of mitigation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">It is said that the FTT failed to take into account other matters of mitigation such as the appellants&#8217; engagement and co-operation with the respondent, their &#8220;general compliance with landlord obligations under the licensing scheme&#8221;, and failings in the respondent&#8217;s system which meant that it was difficult to get answers to queries.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I do not think that anything of further substance is revealed by these points. I do not know what &#8220;general compliance&#8221; means, in the light of the level of failure to license so many of the flats in the building. Again, the appellants did not give evidence and all the FTT had was counsel&#8217;s submissions. So, these points do not amount to a successful ground of appeal; it may be that at a re-hearing the appellants may be able to offer more assistance to the FTT and to provide evidence on the basis of which the FTT may be able to see further matters of mitigation. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="Normal2"><span style="font-style:italic">Evidence of means</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The appellants say that undue weight was placed on the absence of evidence from them as to their financial means. They say that they offered none because they were able to pay the maximum, but would have offered evidence of their means if there had been potential for an unlimited penalty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I do not see any indication in the FTT&#8217;s decision that the level of penalty for either appellant was influenced by their not giving evidence of their means. It would appear that the point was mentioned simply to confirm that there was no issue about ability to pay and no need to consider a reduction on that basis. So, this point does not take matters any further.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="Normal2"><span style="font-weight:bold">Ground 3: did the FTT err in not applying its reasoning in respect of A1 to A2?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The third ground arises from the brevity of the consideration given to the penalty to be imposed upon the second appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Because of that brevity &#8211; see the FTT&#8217;s paragraph 44 quoted above at my paragraph 33 &#8211; it is not possible to understand the FTT&#8217;s reasoning in connection with the second appellant. One has the impression that having reduced the penalty for the first appellant the FTT may have taken the view that the much lower penalty for the second appellant was acceptable, without analysis. I take the view that there should have a separate reasoning process. The appellants point out in particular that if there was, as the FTT found, double counting between stages 1 and 2 as regards the first appellant, there must have been double-counting as regards the second appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Moreover, it is likely that the fire safety issue, which I have found was overplayed by the FTT as regards the first appellant, had a considerable bearing on the penalty imposed on the second appellant, although of course in the absence of any reasoning about the second appellant&#8217;s penalty it is not possible to understand the FTT&#8217;s thinking. For that reason also, a re-consideration is required.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p class="Normal2"><span style="font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">Accordingly, for the reasons given above, the two appellants are successful on grounds 1 and 3, and the matter is remitted to the FTT for a re-hearing.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="text-indent:4.23in"><img src="image2.emf.png" style="width:195.75pt;height:105.75pt"/></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p class="Normal2" style="text-align:right">Judge Elizabeth Cooke</p>
+	    <p class="Normal2" style="text-align:right"><docDate date="2020-06-08" refersTo="#decision">8 June 2020</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

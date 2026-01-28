@@ -1,0 +1,1358 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2026/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2026/15"/>
+	  <FRBRdate date="2026-01-21" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="15"/>
+	  <FRBRname value="Alpha Anne and Ors v Great Ormond Street Hospital for Children NHS Foundation Trust"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2026/15"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2026/15"/>
+	  <FRBRdate date="2026-01-21" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2026/15/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2026/15/data.xml"/>
+	  <FRBRdate date="2026-01-21T11:33:38" name="transform"/>
+	  <FRBRdate date="2026-01-21T12:32:58" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-01-21" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="alpha-anne-and-others" href="" showAs="Alpha Anne and others"/>
+	<TLCPerson eId="great-ormond-street-hospital-for-children-nhs-foundation-trust" href="" showAs="Great Ormond Street Hospital for Children NHS Foundation Trust"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-the-honourable-mr-justice-sheldon" href="/judge-the-honourable-mr-justice-sheldon" showAs="THE HONOURABLE MR JUSTICE SHELDON"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>15</uk:number>
+	<uk:cite>[2026] EAT 15</uk:cite>
+	<uk:caseNumber>EA-2024-000377-AS</uk:caseNumber>
+	<uk:parser>1.4.0</uk:parser>
+	<uk:hash>a709fab7b1cab284a9d84661b12684b1f9fb3be9eea4ce2c9369139648105fcc</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Revision { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the Court for handing down</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">A Anne &amp; Ors v GOSH for Children</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2026] EAT 15</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2024-000377-AS</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2026-01-21" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">21 January 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-the-honourable-mr-justice-sheldon" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">THE HONOURABLE MR JUSTICE SHELDON</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#alpha-anne-and-others" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Alpha Anne and others</party></p>
+      <p style="text-align:right;margin-left:5in;text-indent:0.5in"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#great-ormond-street-hospital-for-children-nhs-foundation-trust" style="font-weight:bold;font-size:12pt">Great Ormond Street Hospital for Children NHS Foundation Trust</party></p>
+      <p style="text-align:right;margin-left:5in;text-indent:0.5in"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Betsan Criddle KC and Madeline Stanley </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Leigh Day) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellants</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Claire Darwin KC </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by DAC Beachcroft LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 16</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">-17</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000">th</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> October 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Race discrimination</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Claimants, a group of 80 cleaners of BAME background, worked at Great Ormond Street Hospital (GOSH) for a contractor, OCS, until 1 August 2021, when cleaning services were brought in-house and they transferred to the NHS Foundation Trust (&#8220;the Trust&#8221;) responsible for GOSH. The Claimants alleged indirect race discrimination by the Trust for failing to provide Agenda for Change (</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">AfC</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">) pay and benefits both before and after the transfer. Pre-transfer, they were paid the London Living Wage (&#163;10.75/hour) rather than AfC rates (&#163;11.50/hour). Post-transfer, they were not moved immediately or shortly thereafter to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">AfC</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> terms. Their claims were dismissed by the Employment Tribunal, relying heavily on the Employment Appeal Tribunal&#8217;s decision on very similar facts in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Royal Parks Ltd v Boohene</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-size:12pt"><ref href="#" uk:canonical="[2024] IRLR 18" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] IRLR 18</ref>. The Employment Tribunal held that it could not be established that the Trust had applied a provision, criterion or practice (&#8220;PCP&#8221;) to the Claimants as the Employment Tribunal had not been provided with evidence relating to the racial composition and contractual terms of other contractors to the Trust. </span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">After the appeal was instituted, the Court of Appeal handed down judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks Ltd v Boohene</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2024] ICR 1036" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] ICR 1036</ref>, holding that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="2010 c. 15 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>&#8221;) did not permit a discrimination claim to be brought by a contract worker against a principal which relates to the remuneration payable under the worker&#8217;s contract of employment with their employer, the supplier to the principal. The Trust cross-appealed, relying on the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">. </span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">The appeal with respect to the pre-transfer period was dismissed and the cross-appeal allowed. The Employment Appeal Tribunal was bound by the Court of Appeal&#8217;s judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">: </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> does not cover complaints about contractual pay terms set by the Claimants&#8217; employer (the supplier), even if those terms were influenced by the principal. There was no finding by the Employment Tribunal that the Trust positively </span><span style="font-size:12pt">prohibited OCS from paying to the Claimants rates that mirrored the </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> terms. </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">With respect to the post-transfer period, the Employment Tribunal misdirected themselves by applying the EAT&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Royal Parks</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> in the post-transfer period. The PCP that was advanced by the Claimants in the post-transfer period (PCP(d)) was that </span><span style="font-size:12pt">receipt of the band 1 or 2 </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rate of pay and other benefits for working as a cleaner at GOSH was made dependent, directly or indirectly, on not having been transferred to the Trust from an outsourced contractor employer under a relevant transfer in respect of their work as a cleaner at GOSH. This PCP did not involve a comparison with other workers who were employed by contractors to the Trust, and so further information about contractors&#8217; employees was not required to be provided to the Employment Tribunal. The PCP put forward by the Claimants involved a comparison between the cleaners, who were employed by the Trust post-transfer, and other Trust employees who were engaged on </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">band 1 and 2. Based on the Employment Tribunal&#8217;s own findings, it was clear that they would have concluded that a </span><span style="font-style:italic;font-size:12pt">prima facie </span><span style="font-size:12pt">claim for indirect race discrimination had been made out. There was a particular disadvantage to the Claimants: 78% of the cleaners were of BAME background as compared with 51% of staff employed by the Trust at band 2. </span></p>
+	    <p style="text-align:justify"><span style="font-size:12pt">When considering whether the Trust had objectively justified the difference in treatment between the Claimants and its own employees &#8211; by not paying the Claimants the </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates from, or shortly after, the date of the transfer- the Employment Tribunal had misdirected themselves with respect to the Trust&#8217;s reliance on TUPE, as they did not address the requirement of regulation 4(5)(a) of TUPE that an &#8216;economic, technical or organisational&#8217; reason for a variation to contractual terms must entail a change in the workforce. Nevertheless, the Employment Tribunal would have reached the same result that objective justification was not made out by the Trust and so remission to the Employment Tribunal was not required. As had been submitted to the Employment Tribunal, the Claimants&#8217; contract of employment with OCS, which was novated to the Trust on transfer, contained an express contractual variation provision. This provision enabled the Trust to put the Claimants on </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates from the date of, or shortly after, the transfer. </span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Justice Sheldon:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_2">
+	  <num style="font-size:12pt">I.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Claim</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:12pt">The Claimants, Mr Alpha Anne and 79 others, worked as cleaners at Great Ormond Street Hospital (GOSH). For a number of years, they were employed by Outsourced Client Solutions (&#8220;OCS&#8221;) which had a contract with the Great Ormond Street Hospital for Children NHS Foundation Trust (&#8220;the Trust&#8221;) for the cleaning of GOSH. On 1 August 2021, the contract came to an end and the provision of cleaning services at GOSH was taken in-house. The Claimants, along with a number of other employees of OCS, were transferred to the employment of the Trust. On 7 January 2022, the Claimants brought employment tribunal proceedings against the Trust, claiming that they had been indirectly racially discriminated against by the Trust both in the period before the transfer (the pre-transfer period) and after the transfer (the post-transfer period). Their claim was heard by an employment tribunal sitting at London Central (&#8220;the Tribunal&#8221;) in March 2023. In a judgment promulgated on 15 February 2024, their claims were dismissed. The Claimants appeal from that decision; and the Respondent cross-appeals.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Claimants who are a group of black and minority ethnic (&#8220;BAME&#8221;) individuals, claimed that they had been indirectly discriminated against by the Trust from 1 August 2016 until the date of the claim in that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.29in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.29in"><span style="font-size:12pt">Pre-transfer, there was a failure by the Trust to require OCS to offer its employees </span><span style="font-style:italic;font-size:12pt">Agenda for Change</span><span style="font-size:12pt"> (&#8220;</span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt">&#8221;) rates: the hourly rate and other </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> terms, including contractual sick pay, annual leave, overtime and access to the NHS Pension Scheme;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.29in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.29in"><span style="font-size:12pt">Post-transfer, there was a failure by the Trust to offer </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> rates from 1 August 2021.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">is a collective agreement governing terms and conditions for large numbers of staff working within the NHS. It came into force on 1 December 2004. The </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">provides for national pay bands, with staff being paid according to the banding for their job as determined by the </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">job evaluation scheme.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Claimants contended that their work as cleaners in the NHS had been evaluated nationally as a band 1 job, but they had never been paid the salary for a band 1 </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> employee: &#163;11.50 per hour. The Claimants had, since January 2020, been paid at the rate of the </span><span style="font-style:italic;font-size:12pt">London Living Wage</span><span style="font-size:12pt">: &#163;10.75 per hour.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.58in;text-indent:-0.5in">(i)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1.58in"><span style="font-size:12pt">Determining, directly or indirectly, whether individuals working at GOSH receive pay and other benefits in accordance with the terms of </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> dependent on their employment status, specifically:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">Whether they are employed by the Trust; and/or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">Whether their employment has transferred to the Trust from another employer under a relevant transfer in respect of their work at GOSH.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.58in;text-indent:-0.5in">(ii)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1.58in"><span style="font-size:12pt">Making receipt of the band 1 </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rate of pay and other benefits for working as a cleaner at GOSH dependent, directly or indirectly, on:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">Being directly employed by the Trust; and/or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">Not having been transferred to the Trust from another employer under a relevant transfer in respect of their work as a cleaner at GOSH.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Claimants contended that, under the soft facilities management contract that was in place between the Trust and OCS, the Trust had the power to require OCS to pay their staff at a higher rate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Claimants alleged that pre-transfer they were contract workers within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41/5" uk:canonical="2010 c. 15 s. 41" uk:origin="TNA" uk:type="legislation">section 41(5)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>&#8221;), and that post-transfer they were direct employees of the Trust. They contended that the Trust applied a provision, criterion or practice (&#8220;PCP&#8221;) to them which was discriminatory in relation to their race.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The PCPs were described in the pleadings as:</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Claimants contended that the PCPs placed them as individuals from a BAME background at a particular disadvantage compared with the Trust&#8217;s directly employed staff, who were on </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms and conditions and were predominantly white.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Further, or alternatively, the Claimants claimed that they would rely on statistical evidence as to the disparity between their pay and terms and conditions as a group of BAME individuals and those of the Trust&#8217;s predominantly white staff on </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> terms and conditions, giving rise to a claim of discrimination falling within the scope of the Race Equality Directive (Directive 2000/43/EC); and that the treatment of them was not capable of objective justification.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-size:12pt">II.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Employment Tribunal judgment</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal explained that, whilst finalising their judgment, the decision of the Employment Appeal Tribunal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Royal Parks Ltd v Boohene</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2024] IRLR 18" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] IRLR 18</ref> was published. This decision impacted on the Tribunal&#8217;s analysis, as I will explain.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In their judgment, the Tribunal set out the relevant facts. The Tribunal accepted that by late 2004, hospital domestic operative cleaner roles were classed as </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">Band 1; and that, in 2018, Band 1 was closed to new entrants, with cleaner roles being reclassified to </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">Band 2.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal referred to the &#8220;Soft Services Contract&#8221; between the Trust and OCS, which was entered into in 2016 and which specified that OCS would pay the London Living Wage (referred to in the judgment of the Tribunal as &#8220;LLW&#8221;) to all eligible cleaners, and that the contract price would be increased annually to take account of inflation (measured by CPI) and future increases in the London Living Wage.  The Tribunal found that paying the London Living Wage was a precondition of OCS winning the contract, and they stated that &#8220;We do not accept that OCS &#8220;set&#8221; the pay rate, as the respondent required payment of LLW&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal referred to evidence that it had received from Trust employees who confirmed that the Trust could have required OCS to mirror </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms. The Tribunal found that there was nothing to stop the Trust from requiring OCS to offer contractors working at GOSH equivalent terms to </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal described the decision to bring the cleaning provision in-house, which led to cleaning staff transferring to the Trust under the Transfer of Undertakings Protection of Employment Regulations 2006 (TUPE&#8221;) on 1 August 2021. The Tribunal found that by 30 April 2021, the Trust knew that its incoming domestic cleaning staff would be entitled to </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">Band 2 rates and benefits, having carried out a local job evaluation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal described the process of putting the transferred employees onto </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms and conditions. This was not done instantly on the date of transfer, but took place in phases. A particular complication highlighted by the Tribunal was &#8220;the limitation on AfC full-time employees of 37.5 hours meant that transferred employees regularly working longer hours may be disadvantaged&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal set out in their judgment statistics relating to the Trust&#8217;s workforce.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;77.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">The 2019 WRES [Workforce Race Equality Standard]:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">Band 2 &#8211; clinical staff: 33 white and 43 BME employees.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">Band 2 non-clinical: 58 white and 69 BME employees.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">78.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">The 2021 WRES: this does not differentiate between clinical and non-clinical staff. There is a Domestic Staff band for the first time. The respondents say this is the claimants who had been brought in-house during the year.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">Domestic staff: 16% white and 78% BAME employees</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">b.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">Band 2: 41% white and 51% BAME employees.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt">79.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">The 2022 Diversity and Inclusion Annual Report: a. Domestic staff: white 13.9% and 79.2% BAME employees b. Band 2: 42.6% white and 51.9% BAME employees.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">After setting out the legal framework, the Tribunal reached their conclusions, which I summarise as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">The Tribunal found that the Trust dictated the wage rate of the Claimants, setting the rate of pay on which it allowed the Claimants to work at its premises.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(ii)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">For the pre-transfer period, the Tribunal explained the PCPs as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">determining, directly or indirectly, whether individuals working at GOSH receive pay and other benefits in accordance with the terms of the Agenda for Change (&#8216;AfC&#8217;) dependent on their employment status, specifically (i) whether they are employed by the Trust and/or whether employment has transferred to the trust from an outsourced contractor employer under a relevant transfer&#8230; [I will refer to this as PCP(a)]</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">making receipt of the band 1 or 2 AfC rate of pay and other benefits for working as a cleaner at GOSH dependent, directly or indirectly, on being directly employed by the Trust. [I will refer to this as PCP(b)]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in;text-indent:0.12in"><span style="font-size:12pt">In the pre-transfer period, the Tribunal stated that their &#8220;initial view&#8221; was that the Claimants could show that PCP(a) was the practice of the Trust. This was reconsidered following the decision of the Employment Appeal Tribunal (&#8220;the EAT&#8221;) in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">. The Tribunal noted that the pleaded PCP in that case was effectively the same &#8211; that Royal Parks made payment of LLW dependent on being employed by Royal Parks, and that the EAT decided that this PCP would require a comparison with all of the Royal Parks&#8217; contractors, not just cleaners. The Tribunal noted that they did not have any documents showing the pay and ethnicity of other contractors working at GOSH, and following </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> this was required. The Tribunal decided that they were, therefore, &#8220;unable to conclude that the respondent had a PCP by which it determined AfC was dependent on being employed by it or TUPE transferred to it&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">With respect to PCP(b) which the Tribunal stated was restricted to cleaners only, and requires a comparison between cleaners employed in the Trust and cleaners employed by contractors, the Tribunal noted that in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> there was also consideration of an alternative PCP which restricted the pool to the direct employees and outsourced workers in the cleaning contract, and the EAT had concluded at [79] that this was &#8220;an incomplete and indefensible comparison&#8221; which left out of the picture all of the outsourced workers undertaking work for the respondent. The Tribunal decided that the Claimants could not show that the Trust applied this PCP &#8220;because there is no evidence or analysis of how other contractors were treated&#8221;. The Tribunal went on to say, however, that if they were wrong on their </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> analysis, they would have concluded that receipt of </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates was dependent on cleaners being directly employed by the Trust, and they would have found that the Trust operated a practice that it would pay </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates of pay and other benefits to cleaners dependent on whether they were its employees.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(v)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">For the post-transfer period, the Tribunal described the PCPs as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">determining, directly or indirectly, whether individuals working at GOSH receive pay and other benefits in accordance with the terms of the AfC collective agreement dependent on their employment status, specifically whether their employment has transferred to the Trust from an outsourced contractor employer under a relevant transfer in relation to their work at GOSH; [I will refer to this as PCP(c)]</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:2in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:2in;text-indent:0.12in"><span style="font-size:12pt">making receipt of the band 1 or 2 AfC rate of pay and other benefits for working as a cleaner at GOSH dependent, directly or indirectly, on not having been transferred to the Trust from an outsourced contractor employer under a relevant transfer in respect of their work as a cleaner at GOSH. [I will refer to this as PCP(d)]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(vi)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">The Tribunal reached the same conclusion for the post-transfer period PCPs stating that, on the basis of the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> decision, these could not amount to a PCP.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(vii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in;text-indent:0.12in"><span style="font-size:12pt">The Tribunal considered &#8220;Pools for comparison&#8221;, finding that the Trust did not apply </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">pay or other benefits to the Claimants, but did apply them to its directly employed employees. The Tribunal found that the claim could not be proved, however, because they did not have evidence as to whether or not the Trust applied the PCPs to other contractors undertaking work at </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">Bands 1 or 2 and, following </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, the appropriate group had to include all contractors.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(viii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in;text-indent:0.25in"><span style="font-size:12pt">The Tribunal stated that the Claimants were &#8220;disadvantaged in comparison to the respondent&#8217;s directly employed workforce at Band 2 level, based on the statistics above. However, we have no evidence to say that other contractors are similarly disadvantaged. We do not know the racial origins of other contractor workforces. We cannot make a proper analysis without this evidence.&#8221; The failure to obtain evidence in relation to other contractors meant that it was not possible to evaluate comparative disadvantage, and so the Claimants could not show that they suffer a particular disadvantage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(ix)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">The Tribunal also rejected the Claimants&#8217; arguments based on an &#8220;</span><span style="font-style:italic;font-size:12pt">Enderby </span><span style="font-size:12pt">analysis&#8221;: see </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Enderby v Frenchay Health Authority</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[1994] ICR 112" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] ICR 112</ref>. The Tribunal accepted that such an analysis could be used in an indirect race discrimination claim, and that the statistics did show &#8220;a significant disparity between cleaners and Band 2 employees at the trust &#8211; this can be shown by the &#8220;Domestic&#8221; v Band 2 ratings in 2021&#8221;. However, the Tribunal stated that, following </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, they required evidence for all contracted employees and, without this, they could not be satisfied that contracted employees are more likely to be BAME origin and not paid </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates. The Tribunal stated further that they did not accept the Trust&#8217;s argument there were material differences between the Claimants&#8217; circumstances and those of its employees: the Trust set the pay rate for OCS cleaners and could have agreed </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates with OCS had it chosen to do so.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(x)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">The Tribunal considered the various arguments that had been made by the Trust with respect to &#8220;objective justification&#8221;. The Tribunal rejected all of the Trust&#8217;s arguments. One argument was that, post-transfer, regulation 4(4) of TUPE rendered null and void any changes to terms and conditions as a result of the transfer. This was rejected by the Tribunal on the basis that there was a clear argument that there was an &#8220;Organisational (ETO) reason&#8221; for making changes to the Claimants&#8217; terms, with the Claimants&#8217;  agreement. The Tribunal noted that the Claimants had been agitating for </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rights from before the transfer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(xi)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="font-size:12pt">The Tribunal also rejected an argument made by the Trust that it was seeking to harmonise terms and conditions in a way that was compliant with the principles of TUPE, did not disadvantage employees and was agreed with the trade unions. The Tribunal found that no consideration had been given to the potential applicability of regulation 4(5) of TUPE; the Tribunal did not know why a speedier timetable for harmonisation could not have been adopted given that a significant part of the transferring employees sought </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms from day 1; and there was no good reason not to have offered day 1 rights to </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms subject to the agreement of individual employees on an agreed and reasonable timetable.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-size:12pt">III.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Appeal and Cross Appeal</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Claimants appeal from the Tribunal&#8217;s judgment on four grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 1</span><span style="font-size:12pt">: the Tribunal erred in determining that the Respondent had not applied PCPs, based on an analysis of the pools for comparison. The Tribunal were required to determine whether the Respondent had applied the PCPs complained of before going on to analyse the relevant pools for comparison.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 2</span><span style="font-size:12pt">: the Tribunal erred in their approach to the pools for comparison. The Tribunal wrongly regarded the decision of the EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> as being determinative of whether the Respondent had (i) applied the PCPs complained of; and, if so (ii) the pools for comparison.  In doing so, the Tribunal erred in rejecting the Claimants&#8217; case on the assumption that there had to be a comparison between the Respondent&#8217;s employees and all contractors. Further, the Tribunal erred in deciding that they were not in a position to make findings as to whether the PCPs were applied by the Respondent on the basis that the evidence available was inadequate.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 3</span><span style="font-size:12pt">: the Tribunal erred in concluding that &#8220;particular disadvantage&#8221; was not established on the basis that they had no evidence relating to the ethnic origin and pay of all contractors.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 4</span><span style="font-size:12pt">: the Tribunal erred in their approach to an </span><span style="font-style:italic;font-size:12pt">Enderby</span><span style="font-size:12pt"> analysis; that it required evidence relating to other contractors when this was not relevant.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Respondent cross-appealed on eight grounds, taking on board the decision of the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Boohene v Royal Parks Ltd</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2024] ICR 1036" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] ICR 1036</ref>, which was promulgated after the Notice of Appeal had been filed:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 1</span><span style="font-size:12pt">: The Tribunal erred in law in finding that the Claimants&#8217; claims were within the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>, relying in particular on the Court of Appeal&#8217;s judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Boohene</span><span style="font-size:12pt">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 2</span><span style="font-size:12pt">: the Tribunal erred in finding that the Claimants&#8217; rate of pay (and other terms and conditions) were terms on which the Respondent allowed the Claimants to do the work within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.41(1)</ref>(a) of the  2010 Act.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 3</span><span style="font-size:12pt">: The Tribunal erred in law in concluding that it was the Respondent who prescribed the Claimants&#8217; terms and conditions.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 4</span><span style="font-size:12pt">: the Tribunal erred in law in finding that the Respondent had subjected the Claimants to an act of detriment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 5</span><span style="font-size:12pt">: The Tribunal erred in finding that the Claimants&#8217; claims were within the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/39/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.39(2)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>. The Respondent had not determined the Claimants&#8217; terms, and they had automatically transferred to the Respondent pursuant to TUPE.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 6</span><span style="font-size:12pt">: The Tribunal erred in holding that it could undertake an </span><span style="font-style:italic;font-size:12pt">Enderby</span><span style="font-size:12pt"> analysis in an indirect race discrimination claim.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 7</span><span style="font-size:12pt">: The Tribunal erred in law in finding that compliance with Regulation 4(4) of TUPE was not a proportionate means of achieving a legitimate aim within <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.19(2)</ref>(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ground 8</span><span style="font-size:12pt">: The Tribunal erred in law in finding that Regulation 4(5) TUPE was relevant and/or applicable.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-size:12pt">IV.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Parties&#8217; Submissions</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Claimants were represented before the Tribunal and on the appeal before me by Betsan Criddle KC and Madeline Stanley. The Trust was represented before the Tribunal and on the appeal before me by Claire Darwin KC.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Claimants&#8217; submissions</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Pre-transfer period</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Criddle KC acknowledged that the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-style:italic;font-size:12pt"/><span style="font-size:12pt">decision in the Court of Appeal impacted on the arguments relating to the pre-transfer period: the Court of Appeal decided that a contract worker&#8217;s complaint against a principal about the terms of their employment contract did not fall within the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Criddle KC contended, however, that the Court of Appeal&#8217;s decision was made </span><span style="font-style:italic;font-size:12pt">per incuriam</span><span style="font-size:12pt"> in that it did not consider the decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Fletcher v NHS Pensions Agency</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2005] ICR 1458" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] ICR 1458</ref>, which had been followed in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood v Birmingham and Solihull NHS Trust</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2016] ICR 903" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] ICR 903</ref>. Those cases concerned Article 5 of the Equal Treatment Directive (equal treatment between men and women with respect to vocational training), but in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt"> it had also been observed at [28] that the scope of the Equal Treatment Directive was identical to the Race Equality Directive, and the Framework Directive, which was relevant to the present claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Criddle KC pointed out that in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Fletcher</span><span style="font-size:12pt">, it was held by the EAT that <ref href="http://www.legislation.gov.uk/id/ukpga/1975/65/section/14" uk:canonical="1975 c. 65 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1975/65" uk:canonical="1975 c. 65" uk:origin="TNA" uk:type="legislation">Sex Discrimination Act 1975</ref> (discrimination by persons concerned with the provision of vocational training) had to be read to include the payment of bursaries to trainee midwives. The reference to &#8220;facilities&#8221; should be read to include the payment of financial benefits.  In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt">, it was held by the Court of Appeal that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/56/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 56(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> had to be interpreted consistently with the Equal Treatment Directive to allow a claim by student in respect of alleged discrimination by an employment service provider.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In the circumstances, Miss Criddle KC submitted that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> (which was the statutory provision in issue in the present case) had to be read in a way which was compatible with the Race Equality Directive and permitted a claim for discrimination against a principal where, on the facts, the principal set the pay rates for the worker&#8217;s employer. The same result could be achieved by giving effect to the EU principle of non-discrimination and the &#8220;single source&#8221; doctrine, given that the pay rates were set by the Trust.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">On the assumption that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> applied to the pre-transfer period, Miss Criddle KC submitted that the Tribunal erred in their application of the EAT&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> with respect to the PCPs and the particular disadvantage to the Claimants. That decision related to the specific facts of that case. The absence of evidence about other outsourced workers was not relevant to the PCP. Miss Criddle KC also pointed out that the fact that the Trust did not directly employ cleaners prior to the transfer did not mean that there could not be  a PCP. In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">British Airways plc v Starmer </span><span style="font-size:12pt"><ref href="#" uk:canonical="[2005] IRLR 862" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] IRLR 862</ref>, the EAT had held that there was no necessity for a provision actually to apply to others; a hypothetical comparator pool was sufficient.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Criddle KC submitted that had the Tribunal directed themselves properly, they would have been bound to conclude that particular disadvantage was made out given the statistics that were provided: these showed that an overwhelming majority of the outsourced cleaners were of BAME background as compared to the more balanced racial profile of Band 2 employees of the Trust. Even if a PCP could not be demonstrated, however, Miss Criddle KC submitted that the </span><span style="font-style:italic;font-size:12pt">Enderby </span><span style="font-size:12pt">analysis could be relied upon, as the Tribunal found was the case.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.75in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Post-transfer period</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">With respect to the post-transfer period, Miss Criddle KC submitted that the Court of Appeal&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> with respect to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> was not relevant. Further, the Tribunal&#8217;s application of the EAT&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> to the post-transfer period was in error.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Criddle KC contended that the Tribunal were wrong to decide that no PCP applied in the post-transfer period. Miss Criddle KC emphasised that PCP(d) related to cleaners only. Had the Tribunal not misdirected themselves, Miss Criddle KC submitted that the Tribunal would have concluded that the Claimants were put to a particular disadvantage by PCP(d), as the Tribunal found that the statistics showed &#8220;a significant disparity between cleaners and Band 2 employees at the trust &#8211; this can be shown by the &#8220;Domestic&#8221; v Band 2 ratings in 2021&#8221;. Further, the Tribunal&#8217;s finding that there was no objective justification for the difference in treatment was unimpeachable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">As with the pre-transfer period, Miss Criddle KC submitted that </span><span style="font-style:italic;font-size:12pt">Enderby </span><span style="font-size:12pt">analysis could be relied upon, as the Tribunal found was the case.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">b.</num>
+	    <intro>
+	      <p style="margin-left:0.5in;text-indent:1in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The Trust&#8217;s submissions</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;margin-left:1.5in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The pre-transfer period</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Darwin KC submitted, on behalf of the Trust, that the decision of the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-style:italic;font-size:12pt"/><span style="font-size:12pt">was determinative of the claim relating to the pre-transfer period, and so the appeal had to fail. The claim fell outside of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>, whatever the findings of the Tribunal as to the Trust&#8217;s ability to direct or dictate the rates paid to the Claimants by OCS. Miss Darwin KC relied also on the recent decision of the EAT (per Heather Williams J) in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo v Secretary of State for Justice</span><span style="font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2025/67" uk:canonical="[2025] EAT 67" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EAT 67</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Darwin KC countered the suggestion that the Court of Appeal&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> was </span><span style="font-style:italic;font-size:12pt">per incuriam</span><span style="font-size:12pt">. She pointed out that the Race Equality Directive had been raised in argument before the Court of Appeal. Further, in any event, the Race Equality Directive has not been incorporated into domestic law via the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16" uk:canonical="2018 c. 16" uk:origin="TNA" uk:type="legislation">European Union (Withdrawal) Act 2018</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/2018/16" uk:canonical="2018 c. 16" uk:origin="TNA" uk:type="legislation">the 2018 Act</ref>&#8221;), and the claims in this case were brought on 7 January 2022, after <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16" uk:canonical="2018 c. 16" uk:origin="TNA" uk:type="legislation">the 2018 Act</ref> was made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Darwin KC also submitted that the single source doctrine did not apply to the Claimant&#8217;s claims, relying on </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt"> at [229] &#8211; [230]. In any event, the Tribunal erred in concluding that the Trust prescribed the Claimants&#8217; terms and conditions of employment. The principal (the Trust) did not prohibit the employer (OCS) from paying </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates, and the mere fact that what OCS could afford to pay its employees was determined by the overall contract price with the Trust did not mean that the Trust should have been treated as effectively setting the Claimants&#8217; pay rates.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Darwin KC contended that the Tribunal misdirected themselves in concluding that an </span><span style="font-style:italic;font-size:12pt">Enderby </span><span style="font-size:12pt">analysis could be utilised in an indirect race discrimination claim, relying on </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Bhudi v IMI Refiners Ltd.</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[1993] ICR 307" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] ICR 307</ref> at 315C-E.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Further, Miss Darwin KC submitted that the Tribunal did not err in finding that, without evidence relating to all employees of the Trust&#8217;s contractors, they could not be satisfied that such employees were more likely to be of BAME origin and were not paid </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rates. The Tribunal were also said to be correct to conclude that the Claimants had failed to prove that the Trust operated or applied the PCPs, and that particular disadvantage had not been established. It was for the Claimants to adduce the relevant evidence and they had failed to do so.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.5in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The post-transfer period</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Darwin KC submitted that the Tribunal misdirected themselves in finding that the Claimants&#8217; claims fell within <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/39/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 39(2)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>. The Claimants&#8217; terms of employment were determined by OCS and these were automatically transferred to the Trust under regulation 4 of TUPE.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">As with the pre-transfer period, Miss Darwin KC submitted that there had been no error by the Tribunal in concluding that the Claimants had failed to prove that the Trust operated or applied the PCPs, and that particular disadvantage had been established. It was for the Claimants to adduce the relevant evidence and they had failed to do so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Darwin KC submitted that the Tribunal misdirected themselves, however, in concluding that any </span><span style="font-style:italic;font-size:12pt">prima facie </span><span style="font-size:12pt">indirect discrimination was not objectively justified by the Trust. The Tribunal erred in finding that compliance with regulation 4(4) of TUPE was not a proportionate means of achieving a legitimate aim, and in concluding that regulation 4(5) (the &#8220;ETO&#8221; reason, entailing changes in the workforce) applied. Regulation 4(4) of TUPE renders void any variation of a transferred contract of employment where the sole or principal reason is the TUPE transfer, and this was correct even where the proposed variation benefits employees.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-size:12pt">V.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Discussion/analysis</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">For the purposes of my analysis, I will differentiate between the pre and post transfer periods. In the pre-transfer period, the Claimants worked at GOSH as contractors. In the post-transfer period, the Claimants worked at GOSH as employees. In the pre-transfer period, therefore, the claim for discrimination has to be viewed through <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>. In the post-transfer period, the claim for discrimination has to be viewed through <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/39" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 39</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The claim that there had been indirect race discrimination was brought by the Claimants under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>, as well as on the basis of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Enderby</span><span style="font-size:12pt">. It is useful to bear in mind the language of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">A person (A) discriminates against another (B) if A applies to B a provision, criterion or practice which is discriminatory in relation to a relevant protected characteristic of B's.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">For the purposes of subsection (1), a provision, criterion or practice is discriminatory in relation to a relevant protected characteristic of B's if</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">A applies, or would apply, it to persons with whom B does not share the characteristic,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">it puts, or would put, persons with whom B shares the characteristic at a particular disadvantage when compared with persons with whom B does not share it,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(c)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">it puts, or would put, B at that disadvantage, and</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt">(d)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">A cannot show it to be a proportionate means of achieving a legitimate aim.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">The relevant protected characteristics are . . . race . . . &#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.5in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Pre-transfer period</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">With respect to the pre-transfer period, it is clear that this tribunal is bound by the judgment of the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">. The appeal with respect to this period must fail, therefore as in accordance with </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> the claims do not fall within <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">There are considerable similarities between </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> and the instant case. The claimants in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-style:italic;font-size:12pt"/><span style="font-size:12pt">were employees of a company which held the toilets and cleaning contract for the charity responsible for the management of the Royal Parks. All but one of the claimants were BAME; they worked on the contract and were paid less than the London Living Wage. Workers who were directly employed by the charity were paid more than the London Living Wage. The claimants contended that the failure to pay them the London Living Wage was indirect race discrimination. The contract between the charity and the claimants&#8217; employer did not require their employer to pay their employees the London Living Wage, and the tender that was accepted by the charity was priced by the employer on the basis of non-London Living Wage rates. The charity reserved the right to revisit the question of payment of the London Living Wage.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The judgment of Underhill LJ (agreed with by Peter Jackson and Lewis LJJ) was that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> did not apply to claims brought by contract workers relating to the remuneration that was payable under their employment contracts,&#160;because that section was &#8220;concerned with rights arising from the employer-worker relationship and not the principal-worker relationship, irrespective of any influence that [the principal] had over the content of those rights&#8221;: see [72].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> provides that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">&#8220;</span><span style="font-weight:bold;font-size:12pt">Contract workers</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">(1)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">A principal must not discriminate against a contract worker&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">as to the terms on which the principal allows the worker to do the work;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(b)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">by not allowing the worker to do, or to continue to do, the work;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">in the way the principal affords the worker access, or by not affording the worker access, to opportunities for receiving a benefit, facility or service;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(d)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">by subjecting the worker to any other detriment.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">. . .</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt">(5)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">A &#8220;principal&#8221; is a person who makes work available for an individual who is&#8212;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(a)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-size:12pt">employed by another person, and</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">supplied by that other person in furtherance of a contract to which the principal is a party (whether or not that other person is a party to it).</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">(6)</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:1in;margin-right:0.5in;text-indent:1in"><span style="font-style:italic;font-size:12pt">&#8220;Contract work&#8221;&#160;</span><span style="font-size:12pt">&#160;is work such as is mentioned in subsection (5).</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt">(7)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">A&#160;</span><span style="font-style:italic;font-size:12pt">&#8220;contract worker&#8221;&#160;</span><span style="font-size:12pt">&#160;is an individual supplied to a principal in furtherance of a contract such as is mentioned in subsection (5)(b).&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Underhill LJ&#8217;s analysis considered the mischief to which <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> was directed: that is, to proscribe discrimination in the context of the principal-worker relationship; where access to the work and what happens at work is the responsibility of the third party (the principal) and not the employer.  At [58], Underhill LJ explained that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;That statutory purpose is reflected in the way that the specific kinds of detriment&#160;&#160;identified in heads (a)-(c) are identified. To spell it out:</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8212;Head (a) covers a situation where the principal (P) will only &#8220;allow&#8221; the worker (W) to work on particular &#8220;terms&#8221;. &#8220;Term&#8221; does not of course mean a contractual term, since P has no contract with W: it evidently connotes a (discriminatory) requirement imposed as a condition of being allowed to work. An example would be a prohibition by P on W wearing clothes or jewellery of ethnic or religious significance.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8212;Head (b) applies to cases where P discriminatorily does not allow W to work (or continue to work) at all&#8212;for example if the supplier (S) supplies a black worker and P says that it is not prepared to have him or her on site.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8212;Head (c) applies to cases where P discriminatorily denies W access to (for short) benefits which would be available notwithstanding the absence of an employment relationship between them&#8212;an example frequently given is where P excludes a black worker from its canteen.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">These are all situations in which P has the power, because of its control of the work or the workplace, to subject W to some detriment. They have nothing to do with W's rights under his or her contract with S.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">At [66], having examined the various judgments in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Allonby v Accrington and Rossendale College</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2001] ICR 1189" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] ICR 1189</ref>, Underhill LJ stated that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;On the face of it, therefore, the claimants can have no claim against RPL [Royal Parks Ltd] under&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref>, because the discrimination which they allege relates to the remuneration payable under their contracts with Vinci [their employer] and has nothing directly to do with the principal-worker relationship. Translating that specifically into the terms of heads (a) and (d):</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8212;As to (a), the only natural reading of the phrase &#8220;terms on which the principal allows the worker to do the work&#8221; is that it is concerned with a stipulation imposed by P on W as a condition of W being allowed by P to do the work, and not with any stipulation imposed by P on S. Mr Khan submitted that we should adopt a broad construction of the word &#8220;allow&#8221;; but it is in my view artificial to the point of impossibility to describe the payment of the LLW by S as a term on which Royal Parks allows the claimants to work.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8212;As to (d), it is Vinci, as their employer, and not RPL, who has subjected the claimants to the detriment of being paid less than the LLW.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Underhill LJ noted at [68] that the EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> had taken a different approach, concluding that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> could apply where the principal had &#8220;directed&#8221; or &#8220;effectively dictated&#8221; a term of the contract between the supplier and its employees as, taking a &#8220;real-world view&#8221;, the term could properly be regarded as one falling with <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41(1)</ref>. Underhill LJ rejected that analysis, however, and held that a term of a worker&#8217;s contract of employment did not fall within that subsection even if those terms could be said to be &#8220;to a greater or lesser extent controlled by the principal&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">At [70], Underhill LJ stated that this conclusion was reinforced by the fact that if the claim had been brought as one of sex discrimination it would be inconsistent with the decision of the European Court of Justice in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Allonby</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2004] ICR 1328" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] ICR 1328</ref>, where the Court had found that contract workers could not bring an equal pay claim based on a comparison with directly-employed employees of the principal, because they had different employers and their terms of employment did not derive from a &#8220;single source&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Underhill LJ went on at [71] to express his concerns about the concept of &#8220;directing&#8221; or &#8220;effective dictating&#8221; by the principal:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;I should say that I am in any event troubled by the implications of the concept of the principal &#8220;directing&#8221; or &#8220;effectively dictating&#8221; (on &#8220;a real-world view&#8221;) the terms of the supplier's contracts with its workers. The starting point is that we are not concerned with a case where the principal actually prescribes what a supplier will pay its workers. There is no finding that Royal Parks&#8217; contract with Vinci positively prohibited it from paying the LLW. The reason, evidently, why it did not do so was that the contract was priced on the basis that it would pay its workers &#163;7 per hour, and paying &#163;9.15 would have reduced, and perhaps eliminated, its anticipated profit margin. But that simply reflects the basic commercial reality in every contracting-out situation that what a supplier can afford to pay its workers (and would agree to pay if the principal so stipulated) depends on the overall contract price.&#160;The EAT's reasoning tacitly acknowledges that that kind of control is not enough. Rather, it relied on the specific facts of the present case, in particular the requirement for alternative tenders identifying the rates that Vinci would pay its employees on a LLW and a non-LLW basis and Royal Parks&#8217; retention of the right at some future point to revisit the question of Vinci paying the LLW. But I am not sure that those facts distinguish the present case from the general rule. It is very common in the case of large outsourcing contracts, particularly where competitive tendering is a legal requirement, for the principal to require tenderers to indicate what rates they would pay if awarded the contract: that is important to enable it to assess the commercial viability of the tender. That additional element of transparency does not affect the fundamental analysis: the principal controls the rates of pay paid by the supplier to its workers in the sense, but only in the sense, that it does in all contracting-out cases. I cannot see that it makes any difference in principle that in this case alternative LLW and non-LLW&#160;tenders were sought. That does no more than point up what was anyway the case, namely that Royal Parks could always have made it a term of the contract that Vinci pay the LLW (provided the contract price was sufficient to fund it to do so); and the same, I think, goes for RPL's reservation of the right to do so in the future. I find it hard to see that any of these facts means that RPL &#8220;effectively dictated&#8221; what Vinci paid its workers to a greater extent, or in a different way, than is inherent in the principal-contractor relationship.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">This statement from Underhill LJ left open the possibility, therefore, that a different outcome might have been reached if the principal positively prohibited the contractor from paying a particular rate which the worker was complaining about.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Court of Appeal&#8217;s judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> was followed by the EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt">. In that case, the employment tribunal had struck out the claimant&#8217;s indirect race discrimination claim on the ground that it had no reasonable prospects of success. The claim involved an employee who was also employed as a cleaner by OCS but worked at premises belonging to the Ministry of Justice pursuant to a facilities management agreement between OCS and the Secretary of State. The claimant alleged that the Secretary of State had indirectly discriminated against her by denying her a level of pay which was accorded to comparable directly employed staff and that workers in her position were disproportionately BAME. The claimant contended that the Secretary of State had a contractual power to require OCS to uplift her pay to the London Living Wage. The claimant argued that the Secretary of State had applied a provision, criterion or practice of according different levels of pay to direct employees and to contract workers under the facilities management agreement and/or had required workers to be directly employed in order to be remunerated in accordance with the Secretary of State&#8217;s pay scale and that this had caused group disadvantage for BAME workers in the claimant&#8217;s position. The claim had been struck out on the basis that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 19</ref> and 41 of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> did not protect the contract worker against differences between her level of pay and that paid by the principal to their own employees.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In the EAT, Heather Williams J dismissed the appeal. With respect to the contention that the claim fell within <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>, she held that Underhill LJ&#8217;s judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> was binding on the EAT, and applied even where there was a contractual power on the part of the principal to require the employer to pay a particular amount to its employees. At [203], it was explained that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;Underhill LJ identified a distinction between complaints concerning rights arising from the employer-worker relationship, which were outside the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref>, and detriments stemming from the principal-worker relationship, which could come within it. The distinction was identified as a clear-edged one of principle, rather than a continuum whereby a particularly high level of direction or dictation by the principal as to the terms of the workers&#8217; employment contracts with the supplier might tip the circumstances into <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> territory. Underhill LJ&#8217;s reasoning is binding on me and, in any event, I respectfully agree with it. There is nothing in his reasoning that suggests a power on the part of the principal in its contract with the supplier that enabled it to uplift the pay of the latter&#8217;s employees would be an exception to this otherwise clear dichotomy; indeed, such a conclusion would run contrary to the line of reasoning that I have just summarised. Accordingly, I consider that the existence of a contractual power on the part of the principal to require the supplier to pay its employees at the LLW level would not give rise to a <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> claim against the principal on the basis that it had chosen not to exercise that power in circumstances where it pays its own employees at the higher LLW level. The complaint would still be a complaint about the rights arising from the employer worker relationship (the level of pay), rather than about the principal-worker relationship.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt">, it had also been argued that the Race Equality Directive required <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> to be read so as to include a situation where a single source principal fails to exercise a contractual power to uplift the pay of a contract worker to the level of its direct employees. Heather Williams J rejected this argument, even assuming that the single source principle could apply outside of EU equal pay law to discrimination claims brought by contract workers relying on the direct effect of the Race Equality Directive. Heather Williams J held that the judgment of the European Court of Justice in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Allonby</span><span style="font-size:12pt"> (referred to above) was &#8220;fatal&#8221; to the argument.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">I consider that the present case is, in the pre-transfer period, on all-fours with </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> and </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt">. In the present case, there was no finding by the Tribunal that the Trust positively prohibited OCS from paying rates to the Claimants that mirrored </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt">, and so did not fall within the possible exception to the principle identified by Underhill LJ in the Court of Appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In the circumstances, this tribunal is bound by the judgment of the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> and can only depart from that judgment if that decision was </span><span style="font-style:italic;font-size:12pt">per incuriam</span><span style="font-size:12pt">. That is an extremely high hurdle to satisfy. The test would be made out where (a) the Court has acted in ignorance of a previous decision of its own or of a court of co-ordinate jurisdiction which covered the case before it, or (b) when the decision is given in ignorance of the terms of a statute or rule having statutory force. That test is not made out by a significant margin.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">It was contended by Miss Criddle KC that the judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> is inconsistent with the cases of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt"> and </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Fletcher</span><span style="font-size:12pt">; as the effect of the judgments in those cases was that <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> should be read consistently with the Race Equality Directive to allow a contract worker to complain of race discrimination with respect to pay where that discrimination resulted from the acts of the principal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">I do not consider that this is correct. Those cases were not concerned with the interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> or any analogue in the earlier discrimination statutes: those cases were concerned with vocational training and not contract working. Furthermore, those cases were not concerned with race discrimination, even though mention is made of the Race Equality Directive in one paragraph of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt"> which was not part of the reasoning in that case. In addition, insofar as the argument is based on or aligned with the single source doctrine &#8211; that the Trust could direct or dictate the rates of pay that OCS paid its employees &#8211; the decision of the European Court of Justice in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Allonby</span><span style="font-size:12pt"> is, as was explained in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt">, fatal to the argument.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Further, in any event, I do not consider that the judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt"> is capable of forming the basis of a </span><span style="font-style:italic;font-size:12pt">per incuriam </span><span style="font-size:12pt">argument; </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Fletcher</span><span style="font-size:12pt"> cannot form the basis as it was a decision of a more junior tribunal than the Court of Appeal. In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt">, Underhill LJ (giving the judgment, which was agreed with by Patten and Lewison LJJ) referred to Fletcher at [29]. In that case, Cox J held that &#8220;working conditions for vocational trainees&#8221; (in that case, student midwives) fell within Directive 76/207, and this meant that they could complain of sex discrimination if they were deprived of financial support during pregnancy. Having referred to </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Fletcher</span><span style="font-size:12pt">, Underhill LJ stated that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;That decision is not binding on us, but Mr Milsom submitted that it was correct and that Cox J&#8217;s reasoning applied equally to the Equal Treatment Directive in its current form. Mr Pepperall did not seek to argue otherwise. I find Cox J&#8217;s reasoning persuasive and I am content to proceed on the basis that Fletcher&#8217;s case was correctly decided.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">This statement by Underhill LJ, referring to the Equal Treatment Directive, is not a statement of principle and did not form part of the </span><span style="font-style:italic;font-size:12pt">ratio decidendi </span><span style="font-size:12pt">of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt">. Accordingly, that statement would not have been binding on the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-style:italic;font-size:12pt"/><span style="font-size:12pt">subject to the principles for departure in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Young v Bristol Aeroplane Co Ltd</span><span style="font-style:italic;font-size:12pt"/><span style="font-size:12pt"><ref href="#" uk:canonical="[1944] KB 718" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1944">[1944] KB 718</ref>, aff&#8217;d <ref href="#" uk:canonical="[1946] AC 163" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1946">[1946] AC 163</ref>. Moreover, that statement did not refer to the Race Equality Directive.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Further, in any event, even though </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt"> was not cited to the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, I would have to find that Underhill LJ (who gave the leading judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">) had reached his conclusion in &#8220;ignorance&#8221; of his earlier judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood.</span><span style="font-size:12pt"> Although such a situation would not be impossible, it is unlikely. More likely is that Underhill LJ (and the other members of the Court of Appeal) did not consider that the principle established in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Fletcher</span><span style="font-size:12pt">, and the brief mention of the Race Equality Directive in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Blackwood</span><span style="font-size:12pt">, had any material bearing on the issues that needed to be decided in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">. It is noteworthy that the Race Equality Directive was in front of the EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> (see [43]), and the Race Equality Directive was raised in the written arguments before the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">: this was pointed out by Heather Williams J at [176] in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt">, noting that it was accepted by the claimants&#8217; counsel in that case that &#8220;he could not say that the CA&#8217;s decision [in Royal Parks] was </span><span style="font-style:italic;font-size:12pt">per incuriam</span><span style="font-size:12pt"> in terms of the Directive&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In the circumstances, therefore, it is not open to this tribunal to depart from the Court of Appeal&#8217;s judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">. In any event, I consider that the analysis of Underhill LJ was correct. I note in this regard that the Supreme Court refused permission to appeal from the decision of the Court of Appeal. I am also supported in this regard by the express agreement by Heather Williams J in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt"> at [203] to Underhill LJ&#8217;s reasoning. In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Djalo</span><span style="font-size:12pt"> Heather Williams J stated that even if the principal had the power to require the supplier to increase the pay of the latter&#8217;s employees but did not exercise it, that would still be &#8220;a complaint about the rights arising from the employer-worker relationship (the level of pay), rather than about the principal-worker relationship.&#8221; The same applies here: even if the Trust could have insisted that OCS pay its employees the </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> rates, but did not do so, that would still involve a complaint arising from the employer-worker relationship and not the principal-worker relationship.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The appeal from the Tribunal&#8217;s decision with respect to the pre-transfer period must therefore be dismissed, and ground 1 of the cross-appeal must be allowed. The claim for the pre-transfer period did not fall within <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> and so the Claimants&#8217; claims for indirect discrimination had to fail.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">I also agree with Miss Darwin KC that, as a result of the decision of the Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, the remaining arguments with respect to the pre-transfer period are academic. I will, however, make mention of some of those arguments when dealing with the post-transfer period.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.5in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Post-transfer period</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The appeal with respect to the post-transfer period does not fail at the first hurdle as the Claimants were not contract workers from 1 August 2021, but were employees of the Trust. Accordingly, Underhill LJ&#8217;s analysis of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/41" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 41</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> is not applicable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The post-transfer claim is brought under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/39" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 39</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>, and there is no doubt that from 1 August 2021, the Trust was the employer of the Claimants. Furthermore, by virtue of regulation 4(1) of TUPE the contract of employment of a transferred employee is treated &#8220;as if originally made between the person so employed and the transferee&#8221;. At law, therefore, the Trust was responsible for the content of the Claimants&#8217; terms and conditions of employment even if they had originally been set by OCS, or by previous contractors whose terms and conditions were themselves inherited by OCS.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In the post-transfer period, the Claimants were treated differently from others employed by the Trust. The Claimants remained on their previous terms and conditions, whilst the other employees of the Trust were on </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms and conditions. The Claimants contended that  the treatment of this group of Trust employees constituted indirect race discrimination.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In their claims, the Claimants relied on two different PCPs. The Tribunal&#8217;s conclusion with respect to these PCPs was set out in one short paragraph ([126]): &#8220;We reach the same conclusion as for the pre-August 2021 PCPs. Per </span><span style="font-style:italic;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, these cannot amount to a PCP&#8221;.</span><span style="font-style:italic;font-size:12pt"/><span style="font-size:12pt">In order to understand the Tribunal&#8217;s reasoning with respect to the post-transfer PCPs it is necessary to examine why the Tribunal rejected the PCPs in the pre-transfer period.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In their analysis of the pre-August 2021 PCPs, the Tribunal distinguished between the first and second of the PCPs (PCP(a) and (b)). With respect to PCP(a), the Tribunal found that this was effectively the same as the PCP that had been pleaded in the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> case, and the EAT had found that this would require a comparison with all of the Royal Parks&#8217; contractors, not just cleaners. As information about other contractors was not available, the Tribunal found that it could not reach a conclusion that </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> was dependent on being employed by the Trust or being TUPE transferred to it. In my judgment, this conclusion cannot be impugned.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal was right to reach this conclusion based on the EAT&#8217;s judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">. Even more so now that we have the benefit of the Court of Appeal&#8217;s judgment in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">. In the Court of Appeal, Underhill LJ stated that the pleaded case made by the claimants in that case was &#8220;on the face of it based on an all-contractors pool&#8221; (see [89]); that the pleaded pool consisted of direct employees &#8220;plus the entirety of the indirectly-employed workforce and that it was wrong of the ET to confine its analysis to the Vinci-only pool&#8221; [that is, the pool made up of the claimants&#8217; co-employees for the supplier to the charity that ran the Royal Parks (91]). At [92], Underhill LJ stated that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;It follows that the claimants did not prove their pleaded case (which was, on the evidence, analytically the correct case) because they did not adduce any evidence about the indirectly-employed workforce apart from the workers engaged on the Vinci contract: more particularly, they adduced no evidence about its ethnic composition, which was essential to proving that the minimum pay PCP had a disparate impact on BME members of the pool.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">This analysis applies equally to the post-transfer PCP(c), which is written in very similar terms to the pre-transfer PCP(a): they both apply generally to transferees from an &#8220;outsourced contractor employer&#8221; without limiting this in any way. Accordingly, there was no error for the Tribunal to decide with respect to post-transfer PCP(c) that the same conclusion had to be reached as with PCP(a). The PCP in the post-transfer period called for information about all of the outsourced workers supplied to GOSH, and this had not been provided to the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">With respect to PCP(b) in the pre-transfer situation, the Tribunal observed (at [120]) that this &#8220;restricts itself to cleaners only &#8211; that to receive AfC as a cleaner you must be employed by the respondent. The comparison is therefore between cleaners employed in the trust and cleaners employed by contractors&#8221;. The Tribunal went on to say that in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, the EAT had concluded (at [79]) that this was &#8220;an incomplete and indefensible comparison&#8221; which left out of the picture all of the outsourced workers undertaking work for the respondent. At [121], the Tribunal stated that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;While we conclude that there was a significant degree of control by the respondent over the pay rate it paid to OCS employees, the claimants cannot show that the respondent applies the PCPs, because there is no evidence or analysis of how other contractors were treated.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">I consider that the Tribunal did not err in following the EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> with respect to PCP(b) in the pre-transfer situation. The EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> was referring to a PCP that appears to have been identified by the employment tribunal at the hearing of the case: &#8220;the Respondent applied a provision, criterion or practice to the Claimants that its employees would be paid the LLW as a minimum wage but those working on the cleaning contract with Vinci would not be paid LLW as a minimum wage&#8221; (see [44] of the EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">). In other words, a comparison between employees of the charity running the Royal Parks and the cleaners.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The EAT was perplexed at how this particular PCP had been identified by the employment tribunal, stating at [78] that</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;we find it difficult to see how the pleaded case could be seen to have limited the scope of the PCP to solely those outsourced workers employed by Vinci on the toilets and cleaning contract. In our judgement, the grounds of complaint were clear: it was the claimants&#8217; case that the respondent had maintained a practice of applying a different minimum level of pay (by reference to the LLW) depending on whether the staff in question were its direct employees or outsourced workers employed by its contractors (not limited to Vinci or to any particular contract). . . .</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">. . . Given the claimants&#8217; pleaded case, we are unable to see any proper basis for the ET&#8217;s finding that the PCP applied by the respondent was &#8220;that its employees would be paid the LLW as a minimum wage but those working on the cleaning contract with Vinci would not be paid LLW as a minimum wage&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The EAT went on to say, however, at [79] that &#8220;having defined the PCP in this way&#8221;, the employment tribunal determined that the pool for comparison was restricted to the direct employees and only those outsourced workers employed by Vinci on the toilet and cleaning contract. In our judgement, that was an incomplete and indefensible comparison.&#8221;  At [80], the EAT stated that the comparison should have been between &#8220;those working on the toilets and cleaning contract with all others (whether directly employed or outsourced) carrying out work for the respondent.&#8221; By limiting the pool, however, the EAT found that the employment tribunal had &#8220;indefensibly left out of the picture all other outsourced workers undertaking work for the respondent.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Court of Appeal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> approached the matter differently. Their focus was not on the way in which the PCP had been identified by the employment tribunal during the course of the hearing but on what had actually been pleaded by the claimants in that case. At [78], Underhill LJ stated under the heading &#8220;What was the correct PCP?&#8221; that &#8220;it was the policy or practice of Royal Parks, while paying the LLW to its own employees, not to require, or fund, its contractors to pay it to the indirectly-employed workforce. The evidence there summarised clearly shows that that policy applied generally, and not simply to Vinci&#8217;s employees on the toilets and cleaning contract: it would indeed be surprising if it were otherwise. The PCP must be defined accordingly&#8221;. At [82], Underhill LJ stated that he agreed with the EAT that it was &#8220;impossible on an objective construction to read the claimants pleading in the way that the ET did&#8221; as referring to a Vinci-only pool.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Whichever way the matter is analysed, the Tribunal did not err in dismissing the Claimants&#8217; case with respect to PCP(b), in the pre-transfer period. First, no PCP was applied to the Claimants by the Trust during the pre-transfer period as they were not employed by the Trust. This is an inevitable conclusion if, as I have already discussed, the Court of Appeal&#8217;s decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> is binding on this tribunal. At [75], Underhill LJ considered the question as to whether any PCP was applied by the charity, and concluded that &#8220;The same reasoning that leads me to conclude that RPL did not subject the claimants to any detriment as regards the terms of their contracts with Vinci means also that it cannot be regarded as having applied any PCP to them within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2018/16" uk:canonical="2018 c. 16" uk:origin="TNA" uk:type="legislation">the Act</ref>.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Second, even if there was such a PCP, that PCP had to be considered in the context of the way in which the Trust treated other outsourced workers who were working at GOSH. It was not suggested that the contract between GOSH and OCS was the only outsourcing contract that did not require the payment of </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> rates. Accordingly, it would not have been open to the Tribunal to confine their consideration to the Claimants only, comparing them to actual or hypothetical employees of the Trust. The consideration would need to extend to other workers at GOSH who were employed by parties other than the Trust. Evidence about the broader group of workers was simply unavailable to the Tribunal. That is the point made by the Tribunal at [121].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The reasoning of the Tribunal with respect to the pre-transfer PCP(b) was applied directly to the post-transfer PCP(d), with the Tribunal stating pithily that &#8220;Per </span><span style="font-style:italic;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, these cannot amount to a PCP&#8221;. In my judgment, that was an error. The decision of the EAT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> (and subsequently that of the Court of Appeal) did not concern the situation where claimants were actually employed by the respondent. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt"> was concerned with a comparison between contract workers for the charity and employees of the charity. In the instant case, the post-transfer comparison was between different sets of employees of the Trust. In those circumstances, it did not matter that contract workers on other outsourcing contracts might work at GOSH. Accordingly, it was not relevant to the propriety of the PCP whether or not the Tribunal had available to it information relating to such other contract workers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:12pt">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The error made by the Tribunal in treating the post-transfer situation in the same way as the pre-transfer situation, where the PCP relied upon concerned cleaners only &#8211; all of whom were employed by the Trust &#8211; led to the Tribunal making further errors in its analysis. Thus, when considering the question of the &#8220;Pools for comparison&#8221;, the Tribunal found at [127] that the Trust &#8220;did not apply AfC pay or other benefits to the claimants. The respondent did apply AfC pay and benefits to its directly employed employees&#8221;, but went on to say at [128] that they had &#8220;no evidence as to whether or not the respondent applied the PCPs to other contractors undertaking work at AfC Bands 1 or 2. We consider following Royal Parks that the appropriate group must include all contractors. We do not know whether or not the respondent applied the PCPs to all those who undertake work for it at Bands 1 and 2. The claimants cannot therefore prove their claim&#8221;.  This was an error as applied to the post-transfer situation, as in those circumstances it was not necessary for the Tribunal to determine that the appropriate pool included all contractor workforces.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:12pt">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Similarly, when looking at the question of &#8220;Disadvantage&#8221;, the Tribunal stated at [132] that &#8220;We are clear that the claimants are disadvantaged in comparison to the respondent&#8217;s directly employed workforce at Band 2 level, based on the statistics above. However, we have no evidence to say that other contractors are similarly disadvantaged. We do not know the racial origins of other contractor workforces. We cannot make a proper analysis without this evidence.&#8221; This was an error as applied to the post-transfer situation, as in those circumstances it was not necessary for the Tribunal to consider any disadvantage suffered by other contractor workforces.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:12pt">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Further, having accepted that an </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Enderby</span><span style="font-size:12pt"> analysis could be utilised for an indirect race discrimination case, the Tribunal stated at [135] that &#8220;We accept that the statistics we have seen show that there is a significant disparity between cleaners and Band 2 employees at the trust &#8211; this can be shown by the &#8220;Domestic&#8221; v Band 2 ratings in 2021. But, we accept based on the Royal Parks analysis, that we require evidence for all contracted employees. Without this evidence, the Tribunal cannot be satisfied that contracted employees are more likely to be BAME origin, and not paid AfC rates.&#8221; This was an error as applied to the post-transfer situation, as in those circumstances it was not necessary for the Tribunal to consider evidence relating to all contracted employees.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:12pt">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Having identified these legal errors, I must remit the case unless (a) I conclude that the errors cannot have affected the result, in which case the errors will have been immaterial; or (b) without the errors, the result would have been different and I can conclude what it must have been.&#160;I am reminded that in both scenarios I am not permitted to make any factual assessment for myself or make any judgment as to the merits. The result must flow from findings made by the Tribunal, supplemented only by undisputed or indisputable facts: see Laws LJ in&#160;</span><a class="Hyperlink" href="https://uk.westlaw.com/Document/I88066040C55811E3AFFDC71484951565/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=45de875df4f146808544e58a66385f7c&amp;contextData=(sc.Search)" style="font-size:12pt;color:initial">Jafri v Lincoln College <ref href="#" uk:canonical="[2014] ICR 920" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] ICR 920</ref></a><span style="font-size:12pt">&#160;at [21]. I am reminded that in&#160;</span><a href="https://uk.westlaw.com/Document/I71765A20E2D511E38548BC0AF1939D06/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=45de875df4f146808544e58a66385f7c&amp;contextData=(sc.Search)"><span class="Hyperlink" style="font-size:12pt;color:initial">Burrell v Micheldever Tyre Services Ltd</span><span class="Hyperlink" style="text-decoration-line:none;font-size:12pt;color:initial"> <ref href="#" uk:canonical="[2014] ICR 935" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] ICR 935</ref></span></a><span style="font-size:12pt">, Maurice Kay LJ observed that "Provided it is intellectually honest [the EAT] can be robust rather than timorous in applying what I shall now call the Jafri approach."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:12pt">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Based on the Tribunal&#8217;s own findings it is clear that, had they not regarded themselves as bound by </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Royal Parks</span><span style="font-size:12pt">, they would have concluded that a </span><span style="font-style:italic;font-size:12pt">prima facie </span><span style="font-size:12pt">case of indirect race discrimination had been made out with respect to the post-transfer period.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:12pt">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal had found at [124], with respect to the pre-transfer period, that</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;If we are wrong in our Royal Parks analysis, we would have concluded from this evidence that receipt of AfC rates was dependent on cleaners being directly employed by the trust. We would have found that the respondent operated a practice that it would pay AfC rates of pay and other benefits to cleaners dependent on whether they were its employees.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">This was, therefore, an acceptance by the Tribunal that the pre-transfer PCP(b) would have been applied by the Trust.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-size:12pt">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The effect of this finding is that the Tribunal would necessarily have decided that the Trust applied PCP(d): that is, &#8220;making receipt of the band 1 or 2 AfC rate of pay and other benefits for working as a cleaner at GOSH dependent, directly or indirectly, on not having been transferred to the Trust from an outsourced contractor employer under a relevant transfer in respect of their work as a cleaner at GOSH&#8221;. PCP(d) is a direct analogue to PCP(b) for the post-transfer period.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-size:12pt">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Furthermore, there is no conceptual difficulty in having a PCP that does not actually apply to others: see </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">British Airways plc v Starmer</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2005] IRLR 862" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] IRLR 862</ref>. In that case, the EAT (presided over by Burton P) stated at [18] with respect to a claim for indirect sex discrimination under the <ref href="http://www.legislation.gov.uk/id/ukpga/1975/65" uk:canonical="1975 c. 65" uk:origin="TNA" uk:type="legislation">Sex Discrimination Act 1975</ref> that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;In our judgment there is no necessity for the impugned PCP actually to apply, or be applied, to others . . . What is required in order to test the question of whether the PCP is discriminatory or not is to extrapolate it to others; ie the reference under s.1(2)(b) is not simply to a &#8216;provision ... which he applies equally to a man&#8217; but also to one which he &#8216;would apply equally to a man&#8217;. The creation of a pool constitutes, in our judgment, a similar test to the approach to a comparator in cases of direct discrimination. Section 5(3) which provides that &#8216;a comparison of the cases of persons of different sex ... under s.1(1) or (2) ... must be such that the relevant circumstances in the one case are the same, or not materially different in the other&#8217; applies to indirect discrimination cases under s.1(2)(b) as it does to direct discrimination cases under s.1(2)(a). Similarly, in our judgment, whereas the detriment under s.1(2)(b)(iii) to be assessed is the claimant&#8217;s own detriment, the detriment to be considered under s.1(2)(b)(i) is and can be that of the hypothetical comparator pool.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">The same applies to a claim for indirect race discrimination under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>, and the requirement under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/23/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref> that &#8220;On a comparison of cases for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> . . . there must be no material difference between the circumstances relating to each case.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-size:12pt">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal noted that, in relation to pay, the pool for comparison would have been those who carry on work for the Trust which is or would appropriately be banded at </span><span style="font-style:italic;font-size:12pt">AfC</span><span style="font-size:12pt"> band 1 or 2. At [127], the Tribunal found that &#8220;The respondent did not apply AfC pay or other benefits to the claimants. The respondent did apply AfC pay and benefits to its directly employed employees.&#8221; This was an entirely permissible pool for the Tribunal to have identified and is compliant with <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/23/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-size:12pt">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In considering disadvantage, it is clear that the Tribunal would have found this to have been made out by the Claimants. The Tribunal made an explicit finding to this effect at [132]:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;We are clear that the claimants are disadvantaged in comparison to the respondent&#8217;s directly employed workforce at Band 2 level, based on the statistics above.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">The statistics referred to are those that I have set out above at paragraph 16. This finding by the Tribunal was not challenged by the Trust on appeal. In any event, it was plainly open to the Tribunal to reach this finding. The statistics evidenced a significant disparate impact between domestic staff (identified by the Trust as the cleaners who had been brought in-house: that is, the Claimants) which was made up of 78% BAME staff, and Band 2 employees where only 51% were of BAME backgrounds.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-size:12pt">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Tribunal reached the same conclusion at [135], based on applying an </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Enderby</span><span style="font-size:12pt"> analysis. Given the finding at [132] that the Claimants were &#8220;disadvantaged&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">the 2010 Act</ref>, it is not necessary for me to consider the question as to whether an </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Enderby</span><span style="font-size:12pt"> analysis is appropriate to an indirect race discrimination claim brought on 7 January 2022.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-size:12pt">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The remaining question, therefore, is whether or not the </span><span style="font-style:italic;font-size:12pt">prima facie </span><span style="font-size:12pt">indirect race discrimination which would have been found by the Tribunal could be objectively justified. The Tribunal rejected the various arguments on objective justification put forward by the Trust. The Tribunal&#8217;s reasoning on the TUPE points has, however, been challenged by the Trust by way of the cross-appeal. Miss Darwin KC, for the Trust, contends that the Tribunal erred in law in finding that (i) compliance with regulation 4(4) of TUPE was not a proportionate means of achieving a legitimate aim; and (ii) regulation 4(5) was relevant and/or applicable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-size:12pt">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Regulation 4(4) of TUPE provides that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220; . . . any purported variation of a contract of employment that is, or will be, transferred by paragraph (1), is void if the sole or principal reason for the variation is the transfer.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">Regulation 4(5) provides that :</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;Paragraph (4) does not prevent a variation of the contract of employment if&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:12pt">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">the sole or principal reason for the variation is an economic, technical, or organisational reason entailing changes in the workforce, provided that the employer and employee agree that variation; or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in;text-indent:0.5in"><span style="font-size:12pt">the terms of that contract permit the employer to make such a variation.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-size:12pt">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">I agree with the submissions made by Miss Darwin KC that the Tribunal erred in its findings with respect to TUPE. Regulation 4(4) of TUPE renders void any variation of a transferred contract of employment where the sole or principal reason is the TUPE transfer, and that this remains true even where the proposed variation benefits employees: see </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Ferguson v Astra Asset Management Ltd</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2020] ICR 1517" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] ICR 1517</ref> at [21]&#8211;[22]. In the instant case, the reason for the variation of terms was not, as Miss Criddle KC contended, to make the Claimants feel welcome and supported. Rather, it was by reason of the transfer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-size:12pt">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Further, in the instant case, the post-transfer harmonisation that the Trust was engaged in did not constitute an &#8220;ETO reason&#8221; because it was not a reason entailing changes in the workforce, which is a necessary component of the): see </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Berriman v Delabole Slate Ltd</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[1985] ICR 546" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] ICR 546</ref>. Accordingly, the Tribunal&#8217;s finding at [139] was in error.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-size:12pt">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">At [139], the Tribunal stated that</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;We conclude that this history are the factors which an employer is entitled to take into account when considering whether the &#8216;ETO&#8217; provisions of Regulation 4(5) may apply. We do not agree that reliance on Regulation 4(4) was a legitimate aim or a proportionate means of achieving its legitimate aim when there was a clear argument that there was an Organisational (ETO) reason for making changes to the claimants&#8217; terms, with their agreement.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">The Tribunal made no mention of the specific feature of a regulation 4(5)(a) defence that the &#8220;ETO&#8221; reason must &#8220;entail[] changes in the workforce&#8221;. This was an error.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-size:12pt">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">This error was repeated at [151], where the Tribunal addressed the Trust&#8217;s argument that it was &#8220;seeking to harmonise terms and conditions in a way that is compliant with the principles of TUPE&#8221;. The Tribunal stated that they &#8220;did not accept this legitimate aim as factually accurate, in particular the TUPE issue (addressed above) &#8211; no consideration was given to the potential applicability of Reg 4(5)&#8221;. This was a reference to the Tribunal&#8217;s judgment at [139], which referred to the &#8220;ETO&#8221; reason but made no mention of the additional factor that the &#8220;ETO&#8221; reason must &#8220;entail changes in the workforce&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-size:12pt">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Miss Darwin KC invited me to remit the matter to the Tribunal if (as I do) these arguments were accepted, so that the Tribunal could consider the question of objective justification having directed themselves properly on the law. In the Claimants&#8217; Reply to Ground 7 of the Cross-Appeal, however, Miss Criddle KC and Miss Stanley had contended that the Tribunal was right to conclude that regulation 4(4) of TUPE did not assist the Trust, as regulation 4(5)(b) of TUPE provides that a variation is not precluded where the contract provides a power of unilateral variation, and the Claimants&#8217; contracts contained such a power. With respect to Ground 8 of the Cross-Appeal, they contended that the terms of regulation 4(5)(b) of TUPE were an additional ground in support of the Tribunal&#8217;s decision on regulation 4(4).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-size:12pt">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">I agree with what was set out in the Claimants&#8217; Reply to the Cross-Appeal. I am satisfied that, in accordance with the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Jafri</span><span style="font-size:12pt"> approach, the errors made by the Tribunal with respect to TUPE cannot have affected the result, as there was an additional ground which was put before the Tribunal and supported their decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-size:12pt">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The undisputed evidence was that the Trust had the power to vary the Claimants&#8217; terms and conditions from day-1 of the transfer pursuant to the terms of the contracts of employment that they had entered into with OCS, and which were novated to the Trust by reason of the transfer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-size:12pt">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">This argument was made to the Tribunal by Miss Criddle KC and Miss Stanley in the written submissions provided on 8 March 2023 (at paragraph 106). They contended that &#8220;the Respondent could have put all the Claimants on AfC terms and conditions in any event as provided for by reg 4(5)(b) TUPE Regulations 2006 because their contracts provided the power of unilateral variation&#8221;. That argument was entirely correct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-size:12pt">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Clause 23.1 of the Claimants&#8217; contracts of employment with OCS provided that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;The Company reserves the right to make reasonable changes to these and any other agreed terms and conditions of employment&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1in;text-indent:0.25in"><span style="font-size:12pt">That must include the right to increase pay rates to the </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">rate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-size:12pt">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Accordingly, the Tribunal could, and in fact should, have found that the Trust was entitled to vary the Claimants&#8217; contracts to provide them with </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms from day-1 of the transfer or shortly thereafter. Had the Tribunal made this finding, they would have inevitably concluded that the Trust had been somewhat dilatory in harmonising the Claimants&#8217; terms and conditions with its other employees who were on </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms and conditions, as the Tribunal rejected the Trust&#8217;s arguments that it had acted reasonably in its approach to harmonisation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-size:12pt">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">At [152], the Tribunal that</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.5in;margin-right:0.5in"><span style="font-size:12pt">&#8220;the way in which the respondent sought to harmonise terms did disadvantage many employees. While agreement may have been reached with Unions, a significant part of the transferring employees did not agree with the process adopted and sought AfC terms from day 1. While a timeline was adopted for AfC changes, this was ongoing at the date of this hearing. We do not know why a speedier timetable could not have been adopted.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ListParagraph" style="margin-left:1.25in"><span style="font-size:12pt">The Trust does not challenge this finding as being perverse.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-size:12pt">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">Accordingly, given the undisputed finding by the Tribunal that the Trust had been dilatory in making the changes, and given the undisputed fact that it was open to the Trust to have varied the Claimants&#8217; terms and conditions from day1 of the transfer, the errors made by the Tribunal with respect to regulation 4(4) and 4(5) of TUPE make no difference to the outcome. I find, therefore, that there was no objective justification for failing to apply </span><span style="font-style:italic;font-size:12pt">AfC </span><span style="font-size:12pt">terms and conditions to the Claimants in the post-transfer period from early on in their employment by the Trust.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-size:12pt">101.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">In the circumstances, therefore, I find that this is one of those comparatively rare cases in which this tribunal can conclude that in spite of the errors made by the Tribunal it is clear that they would have allowed the claim of indirect race discrimination for the post-transfer period.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.25in;text-indent:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-size:12pt">102.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">For the foregoing reasons, therefore, with respect to the pre-transfer period, the Claimants&#8217; grounds of appeal are dismissed. With respect to the post-transfer period, the Claimant&#8217;s grounds of appeal (1)-(3) are allowed: this relates to PCP(d) and not PCP(c). I do not need to reach a decision on ground (4).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-size:12pt">103.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:12pt">The Trust&#8217;s cross-appeal with respect to the pre-transfer period succeeds on ground (1), and the remaining grounds are academic. With respect to the post-transfer period, the Trust succeeds on the cross-appeal on grounds (7)-(8), but this makes no difference to the outcome. The Trust fails on ground (5), and I do not need to reach a decision on ground (6).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-size:12pt">104.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-size:12pt">Overall, therefore, I conclude that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.75in"><span style="font-size:12pt">the Tribunal&#8217;s decision, with respect to the pre-transfer period, that the claims of indirect discrimination should be dismissed still stands. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.75in;text-indent:-0.5in">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.75in"><span style="font-size:12pt">the Tribunal&#8217;s decision, with respect to the post-transfer period, that the claims of indirect discrimination with respect to PCP(d) should be dismissed is quashed, and is substituted for a conclusion that those claims succeed. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

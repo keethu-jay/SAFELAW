@@ -1,0 +1,917 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/126"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/126"/>
+	  <FRBRdate date="2025-08-28" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="126"/>
+	  <FRBRname value="AB v Grafters Group Ltd (t/a CSI Catering Services International)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/126"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/126"/>
+	  <FRBRdate date="2025-08-28" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/126/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/126/data.xml"/>
+	  <FRBRdate date="2025-08-28T09:32:14" name="transform"/>
+	  <FRBRdate date="2025-08-28T11:23:56" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-08-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ab" href="" showAs="AB"/>
+	<TLCPerson eId="grafters-group-ltd-t/a-csi-catering-services-international" href="" showAs="Grafters Group Ltd (t/a CSI Catering Services International)"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-james-tayler" href="/judge-his-honour-judge-james-tayler" showAs="HIS HONOUR JUDGE JAMES TAYLER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>126</uk:number>
+	<uk:cite>[2025] EAT 126</uk:cite>
+	<uk:caseNumber>EA-2023-000797-RS</uk:caseNumber>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>5076699e76e6d5d28559b142ade72db59486fed999d790b597d8aac3bad06eec</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">AB v Grafters Group Ltd </span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 126</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2023-000797-RS</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-08-28" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">28 August 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-james-tayler" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#ab" style="font-weight:bold;font-size:12pt">AB</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#grafters-group-ltd-t/a-csi-catering-services-international" style="font-weight:bold;font-size:12pt">Grafters Group Ltd (t/a CSI Catering Services International)</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">AB</span><span style="font-family:'Times New Roman';font-size:12pt"> the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Appellant</span><span style="font-family:'Times New Roman';font-size:12pt"> in person</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Sarah Davis, </span><span style="font-family:'Times New Roman';font-size:12pt">Representative</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"/><span style="font-family:'Times New Roman';font-size:12pt">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 19 June 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Sexual Harassment</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Employment Tribunal erred in law in considering whether a person found to have sexually harassed the claimant was acting in the course of his employment.</span></heading>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER:</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This appeal concerns the meaning of the term &#8220;course of employment&#8221; in section 109 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal is against a judgment of Employment Judge J Bromige sitting with members at a hearing at Cardiff on 25 and 26 April, and 12 May 2023</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">. </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The judgment was sent to the parties on 8 June 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent is a Hospitality Recruitment Agency. The claimant, and a colleague CD, worked from the Cardiff Branch of the Respondent. On 1</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">November 2021, the claimant incorrectly believed that she was due to work at Hereford Racecourse. She was late arriving at the respondent&#8217;s office in Cardiff, where she thought transport had been arranged to take her to Hereford.  Instead, the claimant was given a lift by CD, who then told her she was not required to work that day. The claimant requested to be taken home, but instead CD drove her to a golf course near Pontypridd where the Employment Tribunal held that he subjected her to sexual harassment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">CD was not called as a witness at the hearing in the Employment Tribunal. The Employment Tribunal noted &#8220;It is not clear if CD is even aware of these proceedings.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal made detailed findings of fact about the arrangements for 1  November 2021:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 27th October 2021, Ms Noble emailed out to all workers stating that &#8220;next week is absolutely bananas&#8221; and providing a number of shifts that needed working between 1st and 7th November.  This included a Bar Work assignment at Hereford Races.  The details of the assignment was that a lift was to be provided &#8230;, leaving the Respondent&#8217;s office at 07:30hrs. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant replied at 1418hrs on 27th October &#8230; stating &#8220;pls note my confirmation of assignments for in the order preference pls &#8211; all Racecourse(s)&#8230;&#8221;.  Ms Noble replied at 1422hrs indicating that the Claimant was booked for the Hereford job on 1st November, as well as three other shifts, and asking her to confirm if this was suitable.   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was then a further exchange of emails between Ms Noble and the Claimant on 27th October &#8230; about shifts between 1st and 7th November.  A screenshot from the ASPIRE record for the Claimant &#8230; showed that the Claimant was recorded as &#8220;Booking Filled&#8221; for the 1st November shift at 14:20hrs on 27th October 2021.  This accords with the email correspondence we have been referred to.  The booking was changed to &#8220;unfilled&#8221; at 11:30 on 29th October 2021.   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Respondent struggled to provide transport for the employees who were booked to work at Hereford and this was communicated to the Respondent&#8217;s point of contact at Hereford, Shaun Richards, on 28th October &#8230;.  Transport was arranged with Mr Richards driving and an email was sent to the 4 employees who did work that shift &#8230;.  Whilst this email does not have a timestamp on it (and we have not been provided with the original email), the Tribunal finds it more likely than not that this would have been sent on or around 29th October 2021.  This is because the email at &#8230; is time-stamped 13:01hrs and the Claimant&#8217;s shift was cancelled at 11:30, indicating that Ms Noble was resolving the transport situation during that period. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">We find that the Respondent did cancel the Claimant&#8217;s shift and was not expecting her to work on 1st November 2021, however we also find the Claimant did genuinely believe that she was due work that day.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">   We prefer the Claimant&#8217;s evidence that she received no communication from Ms Noble about the shift being cancelled.  She purchased new black shoes on 31st October for work &#8230; and booked a taxi to take her to the Respondent&#8217;s office &#8230;, although this arrived after 06:30 that day, and she therefore missed the transport.  These were all steps which support her assertion that she was not told of the shift cancellation. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal made the following findings about the communications between the claimant and CD:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Whilst the Respondent did not provide transport to the majority of the shifts it booked its employees for, it did operate a system where one of the employees on that shift would drive the others, in exchange for payment.  That payment was made directly by the employees to the driver, with the amount communicated to them in advance.  &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 9th October, the Claimant was booked to work at Chepstow Races, with someone called Ms Paton providing transport.  The Claimant says, and we accept, that in fact CD drove her to Chepstow that day.  They exchanged mobile numbers. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant and CD exchanged messages via WhatsApp frequently after this.  Some of these messages, from CD to the Claimant, were sexual in nature.  For example, CD told the Claimant that he had &#8220;too many girls pestering me&#8221; &#8230;, that &#8220;sex is fun like sometimes you fancy or might want to sleep with someone you have only seen not met&#8230;&#8221; &#8230; and referred to sex outside of marriage as not being a sin &#8220;unless they try [to] rape you&#8221; &#8230; .   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further, in the early hours of 1st November 2021, he asked the Claimant if she knew how to kiss, and that he could teach her &#8230;, and if &#8220;boys in India find you beautiful&#8221;.  He referred to her as &#8220;My Pakistani princess&#8221; &#8230; and asked her when she was getting a taxi in the morning.  The Tribunal concluded that CD believed the Claimant was due to work at Hereford the following morning.   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">53.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Tribunal was concerned that the Claimant had not provided the full WhatsApp transcripts between herself and CD, especially around 1st November.  The messages were contained in Bundle B from &#8230;, however were not in chronological order, often skipped between different dates and times, and were missing certain parts of the conversation (as demonstrated by the first message at &#8230;.).  Whilst the Claimant submits that CD must have been told by the Respondent that she was due to work at Hereford, given the Tribunal&#8217;s finding that the Respondent was not expecting the Claimant to work on 1st November, we find it more likely than not that the Claimant had told CD that she was working that day. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At the time that CD was messaging the Claimant in the early hours of 1st November, he was working for the Respondent at a shift at Amazon&#8217;s premises in Bristol.  He had been booked to work multiple Amazon shifts between 26th &#8211; 31st October &#8230; .  Whilst the ASPIRE software said these shifts ended at 23:59hrs each day, the Tribunal is satisfied that this is an error.  As well as the Tribunal&#8217;s finding about the accuracy of the software, it was clear that these shifts were advertised (and booked) as ending between 03:00 &#8211; 04:00 the following morning.  Examples of this include CD&#8217;s booking confirmation for 28th October &#8230; and also that other shifts on 1st and 2nd November 2021 which were offered to the Claimant, again with the 04:00 end time &#8230; . </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">CD tried calling the Claimant on 6 occasions via WhatsApp between 05:37 and 06:15 &#8230; .  For someone who was not working at Hereford that day, the Tribunal observes that he was showing a high level of interest into the Claimant&#8217;s movements that morning.  The Claimant arrived late and missed the transport &#8230; and CD offered to take her to Hereford &#8230;.  The Tribunal finds that the Claimant was in CD&#8217;s car shortly after 07:00hrs on 1st November.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal set out its findings about the sexual harassment:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Whilst the Tribunal did not hear from CD, we did have the Claimant&#8217;s witness statement, her oral evidence and also an account of what CD told the police, as summarised in the Victim&#8217;s Right to Review document contained in both bundles A and B.  From those various sources, we find that shortly after the journey began, CD stopped to put petrol in his car, when he had a telephone conversation with a colleague at the Respondent.  This colleague told CD that the Claimant was not due to work that day which CD then relayed to the Claimant. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant asked CD to drop her off at a bus stop, which CD refused to do.  As they were driving, he slid his hand under her coat and placed it on her abdomen.  He kept it there whilst continuing to drive the car.  He showed her a pornographic video on his mobile phone, and he asked her about whether she knew what an orgasm was, and referred to a &#8220;threesome&#8221; in the context of a sex act. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant thought he was driving towards Pontypridd Golf Club when he stopped the car along a road, before touching the Claimant&#8217;s chin and trying to place his finger in her mouth.    He asked her to kiss him.  The Claimant did not respond and so he licked his own finger before placing it in her ear.  We note that CD admitted to the police that he had placed his finger in her ear (described as a &#8220;wet willy&#8221;), and whilst the Claimant says this occurred continuously for a period of 15 minutes, we do not need to make findings as to the extent or length of this incident. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Eventually the Claimant was able to escape from CD, and she phoned one of the Respondent&#8217;s managers, James English &#8230; .  He told her to phone the police, which she already had done so at 08:27hrs&#8230; .  She provided a witness statement to the police at 1138hrs that day (which the Tribunal have not seen).  The Police report also refers to the Claimant having made a retraction statement on 6th November &#8230; , which again, the Tribunal has not seen.  The Tribunal notes that the police summary is that the Claimant &#8220;withdrew her support for a Prosecution&#8221;, which the Tribunal finds is not necessarily the same as telling the Police that she had not actually been assaulted. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">60.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 11th November 2021, CD was arrested and interviewed under caution.  He told the police he had put his finger in her ear as a practical joke, but denied any form of sexual assault &#8230; . </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Notwithstanding that there was an ongoing police investigation, at least until 14th December 2021 when CD was released by the police without charge, the Tribunal is concerned that the Respondent seems to have done nothing to either investigate CD, or to provide any level of support or care to the Claimant, who was making a very serious allegation of sexual assault.   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant did not work another shift for the Respondent, although she told the Tribunal (and we accept) that prior to 1st November 2021, she had decided not to accept any further work with the Respondent after 7th November 2021, and would have confirmed her resignation subsequently.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal held that CD had sexually harassed the claimant. The Employment Tribunal directed itself as to whether CD was acting in the course of employment:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">70.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">If we conclude that sexual harassment did take place, we would then need to consider the Respondent&#8217;s defence under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/1" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">s.109(1)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">EqA 2010</ref> &#8211; that the actions of CD that day were not done by him &#8220;in the course of his employment&#8221;. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">71.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones v Tower Boot Co Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1997] ICR 254" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] ICR 254</ref>, the Court of Appeal held that &#8220;in the course of employment&#8221; should be construed &#8220;in the sense in which every layman would understand them.  This is not to say that when it comes to applying them to the infinite variety of circumstances which is liable to occur in particular instances &#8211; within or without the workplace, in or out of uniform, in or out of rest-breaks &#8211; all laymen would necessarily agree as to the result&#8230; </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the application of the phrase will be a question of fact for each industrial tribunal to resolve, in the light of the circumstances presented to it, with a mind unclouded by any parallels sought to be drawn from the law of vicarious liability in tort</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221;. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">72.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Chief Constable of Lincolnshire Police v Stubbs</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1999] ICR 547" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] ICR 547</ref>, the EAT stated (in the context of a dispute about whether a work social gathering was &#8220;in the course of employment&#8221;): </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">it is entirely appropriate for the tribunal to consider whether or not the circumstances show that what was occurring was an extension of their employment. It seems to us that each case will depend upon its own facts. The borderline may be difficult to find. It is a question of the good exercise of judgment by an industrial jury. Whether a person is or is not on duty, and whether or not the conduct occurred on the employer's premises, are but two of the factors which will need to be considered</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">73.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Whilst further cases indicate fact specific judgments as to which side of the line a set of particular circumstances fall, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">we will need to focus on our findings of fact, and whether those findings amount to someone acting in the course of their employment.  The belief of the Claimant that CD was acting in the course of his employment is irrelevant</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal reached the following conclusion:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">77.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Having found that CD did subject the Claimant to sexual harassment, we then are required to determine </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">whether the Respondent is liable for such actions, because this sexual harassment occurred &#8220;in the course&#8221; of CD&#8217;s employment</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">78.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Tribunal&#8217;s judgment is that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">CD was not acting in the course of his employment</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> from around 06:00 onwards on 1st November 2021 for the following reasons: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">We do not find that CD was either due to work at Hereford that day, or that he was required by the Respondent to drive the Claimant there</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">He had only finished a shift at Amazon a few hours before hand, and there is no evidence that he was booked to work at the Racecourse. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">There is clear and undisputed evidence that the Respondent had arranged transport, namely through Mr Richards, to get the employees to Hereford.  Whilst the Claimant wasn&#8217;t aware she had been cancelled for work that day, it was her aim that morning to make that transport.  The only reason she got into CD&#8217;s car was because she missed it. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">We do not accept the Claimant&#8217;s submission that the Respondent required or expected informal lifts between colleagues</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  Rather there are several examples of a formal notification of drivers/lifts, where the Respondent specified a driver to take employees to work, and the amount of payment required.  That was not what happened here. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">We conclude that whatever CD&#8217;s motive was in offering a lift on 1st November, it was not because of a requirement linked to his employment.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Further, having missed the transport, it was CD that offered to drive the Claimant.  However this was not arranged or sanctioned by the Respondent, they had no knowledge of it, nor would it have been required because the Claimant was not due to work. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">79.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Whilst we accept the Claimant believed she was required at work, and so she believed she was at all times acting in the course of her employment her belief is irrelevant to the objective conclusion we have to reach as [to] whether CD was acting in the course of his employment (and not, whether he thought he was</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">80.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Therefore, whilst we have found on balance of probabilities that CD did sexually harass the Claimant</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> in his car on 1st November 2021, both through unwanted physically touching and comments, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the Respondent is not liable for the actions of CD under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/1" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">s.109(1)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">EqA 2010</ref>, because the actions of CD were not done in the course of his employment with the Respondent. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">81.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Accordingly the Claimant&#8217;s claim for sexual harassment against the Respondent is dismissed. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant submitted very lengthy grounds of appeal while acting as a litigant in person. By a letter sealed on 19 September 2023 Judge Stout gave her opinion that there were no reasonable grounds for bringing the appeal. After a Rule 3(10) Hearing by an Order, sealed on 26 July 2024, His Honour Judge Murray Shanks permitted the appeal to proceed on amended grounds. All other grounds were dismissed. The grounds of appeal that were permitted to proceed are as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 1</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">When determining whether CD&#8217;s sexual harassment of C had taken place in the course of employment under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/1" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">section 109(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> (&#8220;EqA&#8221;), the ET erred in law in failing to have regard to whether what happened between CD and C occurred in circumstances that were an &#8220;extension of their employment&#8221;, in line with Chief Constable of Lincolnshire Police v Stubbs and others <ref href="#" uk:canonical="[1999] ICR 547" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] ICR 547</ref>. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 2</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET erred in law by failing to have regard to whether the following relevant considerations meant that what occurred was an extension of employment: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">CD&#8217;s conduct in the hours immediately preceding the incident, namely CD sending C sexually harassing texts, which the ET found occurred whilst CD &#8220;was working for the Respondent at a shift&#8221; (para 52) and whilst &#8220;he believed the Claimant was due to work at Hereford the following morning&#8221; (para 52). </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Whether CD&#8217;s conduct in the car a few hours later ought to have been viewed as a course of conduct when taken together with his earlier texting, which plainly had taken place at work, and in the course of employment.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The closeness of the connection between CD&#8217;s job for the Respondent and why the Claimant was in his car there on the day in question: the ET found that CD had previously driven C to a job (para 50) and that on the day in question C had attended R&#8217;s offices and CD had similarly offered to take C from there to a job in Hereford (para 54). </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The ET erred in law in having regard to the following irrelevant considerations, namely: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The motive of C&#8217;s attacker CD; the ET wrongly asked at para 78(c) whether CD&#8217;s &#8220;motive&#8221; was &#8220;because of requirement linked to his employment&#8221;. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Whether the Respondent had knowledge of or sanctioned CD giving C a lift (para 78(d)).  An act does not need to be done with an employer&#8217;s knowledge or approval to be done in the course of employment (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/3" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">section 109(3)</ref> EqA). </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">Section 109</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> provides:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">109 (1)&#160;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Anything </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">done by a person (A) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">in the course of A's employment</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> must be treated as also done by the employer. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">does not matter whether that thing is done with the employer's or principal's knowledge or approval</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(4)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In proceedings against A's employer (B) in respect of anything alleged to have been done by A in the course of A's employment it is a defence for B to show that B took all reasonable steps to prevent A&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">from doing that thing, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.38in;text-indent:0.12in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">from doing anything of that description. [emphasis added]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Choudhury P helpfully summarised the relevant authorities in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Forbes v LHR Airport Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2019] ICR 1558" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] ICR 1558</ref>:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;text-indent:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the course of employment</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Several cases have dealt with the issue of whether alleged acts can be said to be &#8220;in the course of employment&#8221;. The leading authority is still the decision of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones v Tower Boot Co Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1997] ICR 254" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] ICR 254</ref> . In that case, the employer had argued that it should not be liable for serious acts of harassment by white employees against a black co-worker on the grounds that those acts were not done in the course of employment within the meaning of the then relevant provision under <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74/section/32/1" uk:canonical="1976 c. 74 s. 32" uk:origin="TNA" uk:type="legislation">section 32(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1976/74" uk:canonical="1976 c. 74" uk:origin="TNA" uk:type="legislation">Race Relations Act 1976</ref> .</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Appeal Tribunal had overturned the tribunal&#8217;s decision that the acts were done in the course of employment on the basis that the phrase, &#8220;in the course of employment&#8221;, had a well-established meaning in law derived from the law of tort, under which an important consideration was whether an unauthorised wrongful act of an employee was so connected with that which he was employed to do as to be a mode of doing it. The appeal tribunal considered that by no stretch of the imagination could the acts in that case, which included deliberate branding with a hot screwdriver and whipping, be described as an improper mode of performing authorised tasks.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Court of Appeal overturned the decision of the appeal tribunal and restored that of the employment tribunal. In doing so, it held that the relevant provisions of the anti-discrimination legislation should be given a broad interpretation and that it would be inconsistent with that approach to allow the concept of an act being done in the course of employment to be construed in any sense more limited than the natural meaning of those everyday words would allow. Waite LJ held as follows, at p 265:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;The tribunals are free, and are indeed bound, to interpret the ordinary, and readily understandable, words &#8216;in the course of employment&#8217; in the sense in which every layman would understand them. This is not to say that when it comes to applying them to the infinite variety of circumstance which is liable to occur in particular instances&#8212;within or without the workplace, in or out of uniform, in or out of rest-breaks&#8212;all laymen would necessarily agree as to the result. That is what makes their application so well suited to decision by an industrial jury. The application of the phrase will be a question of fact for each industrial tribunal to resolve, in the light of the circumstances presented to it, with a mind unclouded by any parallels sought to be drawn from the law of vicarious liability in tort.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Waters v Comr of Police of the Metropolis</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1997] ICR 1073" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] ICR 1073</ref> the Court of Appeal had to consider whether a sexual assault, committed by a male police officer (&#8220;T&#8221;) against a female colleague at a police section house where she had a room and when both were off-duty, amounted to an act committed by T in the course of employment. The tribunal held that the conduct was not done in the course of employment. The appeal tribunal agreed. Waite LJ in the Court of Appeal dismissing the claimant&#8217;s appeal held as follows, at p 1095:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;T and the applicant were off-duty at the time of the alleged offence. He lived elsewhere and was a visitor to her room in the section house at the time and in circumstances which placed him and her in no different position from that which would have applied if they had been social acquaintances only with no working connection at all. In those circumstances, it is inconceivable in my view that any tribunal applying the test in the Tower Boot case could find that the alleged assault was committed in the course of T&#8217;s employment. This ground of appeal therefore fails.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The next authority dealing with the issue is </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Chief Constable of Lincolnshire Police v Stubbs</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1999] ICR 547" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] ICR 547</ref> . In that case a female police officer was sexually harassed by a male colleague at a pub where officers had gathered socially after the conclusion of their duties. The tribunal considered that the social gathering was closely connected to work and that the male officer&#8217;s conduct was done in the course of employment. The appeal tribunal, the then President, Morison J, presiding, upheld the decision stating, at pp 557&#8211;558:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;We turn to the second point. We also reject Mr Bowers&#8217;s submissions on the proper interpretation of &#8216;course of his employment.&#8217; We concur with the findings of the industrial tribunal, that the two incidents referred to, although &#8216;social events&#8217; away from the police station, were extensions of the work place. Both incidents were social gatherings involving officers either immediately after work or for an organised leaving party. They come within the definition of course of employment, as recently interpreted by the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones v Tower Boot Co Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1997] ICR 254" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] ICR 254</ref> and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Waters v Commissioner of Police of the Metropolis</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1997] ICR 1073" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] ICR 1073</ref> . It would have been different as it seems to us had the discriminatory acts occurred during a chance meeting between Detective Sergeant Walker and the applicant at a supermarket, for example, but, when there is a social gathering of work colleagues such as there was in this case, it is entirely appropriate for the tribunal to consider whether or not the circumstances show that what was occurring was an extension of their employment. It seems to us that each case will depend upon its own facts. The borderline may be difficult to find. It is a question of the good exercise of judgment by an industrial jury. Whether a person is or is not on duty, and whether or not the conduct occurred on the employer&#8217;s premises, are but two of the factors which will need to be considered.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In another decision of the appeal tribunal, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Prison Service v Davis</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (unreported) 29 March 2000 , the then President, Lindsay J, considered that a sexual assault by a male prison officer against a female colleague could not, just because a clause in the employer&#8217;s code of conduct required employees not to do anything whilst on or off-duty that could bring discredit on the Prison Service, be regarded as conduct in the course of employment. The tribunal accepted a submission that such a clause cannot bring within the course of employment all acts done by employees when off-duty.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It was also argued by the claimant in that case that the fact that the employer had taken action after the incident in supporting the victim and in disciplining the male officer meant that it had impliedly accepted responsibility for dealing with the situation and that that supported the contention that the male officer&#8217;s conduct was in the course of employment. As to that contention Lindsay J said, at para 17: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;But again, that is a matter that arose after the event. It is hard to see how the question of whether, at an earlier point, Mr Randall was acting within or without the course of his employment can be affected by how the employer responded thereafter.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal tribunal reiterated that the application of the phrase &#8220;in the course of employment&#8221; will be a question of fact for each tribunal to resolve in the light of the circumstances presented to it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The next authority to consider is that of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Sidhu v Aerospace Composite Technology Ltd </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="#" uk:canonical="[2001] ICR 167" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] ICR 167</ref> . In that case, Mr Sidhu was subject to racial abuse by a white colleague at a family day out at a theme park where that family day out had been organised by the employer. The tribunal dismissed Mr Sidhu&#8217;s contention that this was conduct in the course of employment, notwithstanding the fact that the employers had organised the event at which the conduct had occurred. The tribunal regarded as significant that the day out was not in the place of employment but at a public theme park; that everyone was there in their own time, not during working hours, and that the majority of the participants were friends and family rather than employees.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Court of Appeal upheld the decision of the employment tribunal. Gibson LJ said, at para 28:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;Mr Gill further argued that on the facts the tribunal should have found that the day out was &#8216;in the course of employment&#8217;. He pointed to the fact that disciplinary proceedings had been initiated against Mr Smith and Mr Sidhu. He referred to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Chief Constable of Lincolnshire Police v Stubbs</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1999] ICR 547" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] ICR 547</ref> , in which the appeal tribunal upheld the decision of a tribunal that a social gathering of work colleagues, at which a woman police constable had been subjected to inappropriate sexual behaviour by a policeman, was an extension of their employment. But the appeal tribunal there stressed that each case would depend on its own facts, calling for the good exercise of judgment by an industrial jury. I recognise that another tribunal could properly have reached the conclusion that the incident on the day out was in the course of employment. But in my judgment, it is quite impossible to say that no tribunal could have reached the conclusion which the majority did on this point.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">From these authorities, it can be seen that the main principle to be gleaned is that the question of whether conduct is or is not in the course of employment within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">section 109</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> is very much one of fact to be determined by the tribunal having regard to all the relevant circumstances</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. It can also be said that the words &#8220;in the course of employment&#8221; are to be construed in the sense in which the lay person would understand them and that there is no clear dividing line between conduct that is in the course of employment and that which is not. Each case will depend on its own particular facts.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is also apparent from these authorities that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the relevant factors to be taken into account might include whether the impugned act was done at work or outside of work, and, if done outside of work, whether there is nevertheless a sufficient nexus or connection with work such as to render it in the course of employment</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. Those kinds of factors are readily understood when one is dealing with the physical environment of the workplace. It is much more difficult to apply them to the virtual landscape in which many people these days spend their time. Thus, it may not be very easy to say whether a person is doing something whilst at work where some of that person&#8217;s work activity is conducted online at home. Equally, it may be very difficult to ascertain whether there is a sufficient nexus between an activity carried out on a personal social media account and their employment. If that account is used for purposes relating to work then it might well be open to the tribunal to consider that there is a sufficient connection with work to render an act done on that social media account as being done in the course of employment; whereas if the link with work is tangential or more tenuous then it might well be open to the tribunal to conclude otherwise.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">We do not consider that it is possible or even desirable to lay down any hard and fast guidance</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> in respect of these matters, especially as the extent to which social media platforms are used continues to increase. Just as is the case with the physical work environment, whether something is done in the course of employment when done in the virtual landscape will be a question of fact for the tribunal in each case having regard to all the circumstances. No clear boundary as to when such conduct will be in the course of employment can be defined. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There are a number of key points relevant to this appeal that arise from consideration of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">section 109</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and the relevant authorities:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">an employer is liable for &#8220;anything done&#8221; by an employee A in the course of A's employment: <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/1" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">s109(1)</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is the alleged harasser, A, who must be acting in the course of employment: <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/1" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">s109(1)</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the term &#8220;course of employment&#8221; is </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to be interpreted in accordance with the well-established meaning in law derived from the law of tort: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the words &#8220;in the course of employment&#8221; are used in the sense in which every layman would understand them: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">anti-discrimination legislation should be given a broad interpretation: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the application of the phrase will be a question of fact for each Employment Tribunal to resolve, in the light of the circumstances presented to it, with a mind unclouded by any parallels sought to be drawn from the law of vicarious liability in tort: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.7.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">because the determination of what is in the course of employment is essentially a question of fact for the Employment Tribunal, different decisions may be made in circumstances that appear similar:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.18in">13.7.1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.75in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">a sexual assault, committed by a male police officer against a female colleague at a police section house where she had a room when both were off-duty was found not to have been done in the course of employment: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Waters</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.18in">13.7.2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.75in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">a male police officer who sexually harassed a female colleague at a pub where officers had gathered socially after the conclusion of their duties was acting in the course of employment: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Stubbs</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.18in">13.7.3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.75in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">racial abuse by a white colleague at a family day out at a theme park was not done in the course of employment: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Sidhu</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the above examples emphasise that the question of whether a &#8220;thing&#8221; was or was not done in the course of employment is very much one of fact to be determined by the Employment Tribunal having regard to all the relevant circumstances: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Forbes</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">while it is not possible or even desirable to lay down any hard and fast guidance some factors will generally be relevant such as whether the impugned act was done at work or outside of work: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Forbes</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">if the &#8220;thing&#8221; was done outside of work the Employment Tribunal should consider whether there is nevertheless a sufficient &#8220;nexus or connection with work&#8221; such as to render it in the course of employment: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Forbes</span>.<span style="font-size:12pt"> The Employment Tribunal may need to consider whether the circumstances are such as to make the situation an &#8220;extension of work and the workplace&#8221;: </span><span style="font-weight:bold;font-size:12pt">Stubbs</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1.18in;text-indent:-0.69in">13.11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the &#8220;thing&#8221; may be done in the course of employment although it was not done at the workplace, or in working hours, if there is a sufficient &#8220;nexus or connection with work&#8221; such as when </span><span style="font-size:12pt">the situation is an &#8220;extension of work and the workplace&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">whether the &#8220;thing&#8221; is done with the employer's or principal's knowledge or approval &#8220;does not matter&#8221;: <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/3" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">section 109(3)</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">13.13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">a decision by an Employment Tribunal as to whether an act was done in the course of employment can only be challenged if there is a material misdirection as to the law, the decision is perverse in the sense that it falls outside the very wide ambit within which different views might reasonably have been taken about what is done in the course of employment, or the Employment Tribunal has demonstrably failed to take account of an important relevant factor or taken into account an irrelevant factor</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The interplay between sub-<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/1" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">sections 109(1)</ref> and (3) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> merits further consideration. <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/1" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">Section 109(1)</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> refers to &#8220;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Anything</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> done by a person (A) in the course of A's employment&#8221;. The conduct of A is the &#8220;thing&#8221; for which the employer is responsible if it is done in the course of employment. The conduct of A is &#8220;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">that thing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221; referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/3" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">section 109(3)</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> when it is stated that it &#8220;does not matter whether </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">that thing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is done with the employer's or principal's knowledge or approval&#8221;. I do not consider that means that the employer&#8217;s knowledge or approval in a more general sense is wholly irrelevant to whether A is in the course of employment. So, for example, if an event after work is organised by the employer who knows and approves of the attendance of their employees, and an act of sexual harassment occurs at the event, the fact that the employer knew and approved of the alleged harasser A&#8217;s attendance might be relevant to the question of whether A was acting in the course of employment although it would not matter that the employer did not know or approve of the act of harassment, which would be the &#8220;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">thing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221; for the purpose of the legislation.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Appeals to the EAT</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">An appeal to the Employment Appeal Tribunal lies only on a question of law: section 21 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref></span><span style="font-family:'Times New Roman';font-size:12pt">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">British Telecommunications Plc v Sheridan</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="#" uk:canonical="[1990] IRLR 27" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] IRLR 27</ref>, the Master of the Rolls held:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">34.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt">&#8230;  Any court with the experience of the members of the Employment Appeal Tribunal, and in particular that of the industrial members, will in the nature of things from time to time find themselves disagreeing with or having grave doubts about the decisions of Industrial Tribunals.  When that happens, they should proceed with great care.  To start with, they do not have the benefit of seeing and hearing the witnesses, but, quite apart from that, Parliament has given the Employment Appeal Tribunal only a limited role.  Its jurisdiction is limited to a consideration of questions of law.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">35.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt">On all questions of fact, the Industrial Tribunal is the final and only judge, and to that extent it is like an industrial jury.  The Employment Appeal Tribunal can indeed interfere if it is satisfied that the Tribunal has misdirected itself as to the applicable law, or if there is no evidence to support a particular finding of fact, since the absence of evidence to support a finding of fact has always been regarded as a pure question of law.  It can also interfere if the decision is perverse, in the sense explained by Lord Justice May in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Neale v Hereford &amp; Worcester County Council </span><span style="font-family:'Times New Roman';font-size:12pt"><ref href="#" uk:canonical="[1986] ICR 471" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] ICR 471</ref> at 483.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The types of error of law that relate to factual findings were summarised by Lady Haldane in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Granger v Scottish Fire &amp; Rescue Service</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2025/90" uk:canonical="[2025] EAT 90" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EAT 90</ref>:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">29.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt">As to the role of the EAT in appeals such as the present one, under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/21" uk:canonical="1996 c. 17 s. 21" uk:origin="TNA" uk:type="legislation">section 21</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref> an appeal to the Employment Appeal Tribunal lies only on a question of law. Useful guidance as to the proper approach is found in the judgment of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">R (Iran) v SSHD</span><span style="font-family:'Times New Roman';font-size:12pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2005/982" uk:canonical="[2005] EWCA Civ 982" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] EWCA Civ 982</ref> at [9], where examples of errors of law are given and include: i) making perverse or irrational findings on a matter or matters that were material to the outcome (&#8220;material matters&#8221;); ii) failing to give reasons or any adequate reasons for findings on material matters; iii) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">failing to take into account and/or resolve conflicts of fact or opinion on material matters</span><span style="font-family:'Times New Roman';font-size:12pt">; iv) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">giving weight to immaterial matters</span><span style="font-family:'Times New Roman';font-size:12pt">; and, v) making a material misdirection of law on any material matter.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt">[emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The limited scope of challenges to decisions of an Employment Tribunal was emphasised by the Court of Appeal in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DPP Law Ltd v Greenberg</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2021] IRLR 1016" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] IRLR 1016</ref>.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;57.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The following principles, which I take to be well established by the authorities, govern the approach of an appellate tribunal or court to the reasons given by an employment tribunal:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(1)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The decision of an employment tribunal must be read fairly and as a whole, without focusing merely on individual phrases or passages in isolation, and without being hypercritical.  In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Brent v Fuller </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="#" uk:canonical="[2011] ICR 806" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] ICR 806</ref>, Mummery LJ said at p. 813:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The reading of an employment tribunal decision must not, however, be so fussy that it produces pernickety critiques.  Over-analysis of the reasoning process; being hypercritical of the way in which a decision is written; focussing too much on particular passages or turns of phrase</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> to the neglect of the decision read in the round: those are all appellate weaknesses to avoid.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This reflects a similar approach to arbitration awards under challenge: see the cases summarised by Teare J in</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Pace Shipping Co Ltd v Churchgate Nigeria Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">(The &#8220;PACE&#8221;)</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> [2010] 1 Lloyds' Reports 183 at paragraph [16], including the oft-cited dictum of Bingham J in</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Zermalt Holdings SA v Nu-Life Upholstery Repairs Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[1985] 2 EGLR 14" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] 2 EGLR 14</ref> that the courts do not approach awards &#8220;with a meticulous legal eye endeavouring to pick holes, inconsistencies and faults in awards with the object of upsetting or frustrating the process of arbitration&#8221;. This approach has been referred to as the benevolent reading of awards, and applies equally to the benevolent reading of employment tribunal decisions.</span></p>
+		  </wrapUp>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(2)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">A tribunal is not required to identify all the evidence relied on in reaching its conclusions of fact</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  To impose such a requirement would put an intolerable burden on any fact finder.  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Nor is it required to express every step of its reasoning in any greater degree of detail than that necessary to be</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Meek </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">compliant</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000"> (Meek v Birmingham City Council</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[1987] IRLR 250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] IRLR 250</ref>).  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Expression of the findings and reasoning in terms which are as simple, clear and concise as possible is to be encouraged</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  In </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Meek</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, Bingham LJ quoted with approval what Donaldson LJ had said in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">UCATT v Brain</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> [1981] I.C.R 542 at 551: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;Industrial Tribunals' reasons are not intended to include a comprehensive and detailed analysis of the case, either in terms of fact or in law &#8230; their purpose remains what it has always been, which is to tell the parties in broad terms why they lose or, as the case may be, win.  I think it would be a thousand pities if these reasons began to be subjected to a detailed analysis and appeals were to be brought based upon any such analysis.  This, to my mind, is to misuse the purpose for which reasons are given.&#8221; </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">(3)</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It follows from (2) that it is </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">not legitimate for an appellate court or tribunal to reason that a failure by an employment tribunal to refer to evidence means that it did not exist, or that a failure to refer to it means that it was not taken into account in reaching the conclusions expressed in the decision</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">What is out of sight in the language of the decision is not to be presumed to be non-existent or out of mind.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">  As Waite J expressed it in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">RSPB v Croucher</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[1984] ICR 604" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] ICR 604</ref> at 609-610:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;We have to remind ourselves also of the important principle that decisions are not to be scrutinised closely word by word, line by line, and that for clarity's and brevity's sake Industrial Tribunals are not to be expected to set out every factor and every piece of evidence that has weighed with them before reaching their decision, so it is for us to recall that what is out of sight in the language of a decision is not to be presumed necessarily to have been out of mind.  It is our duty to assume in an industrial tribunal's favour that all the relevant evidence and all the relevant factors were in their minds, whether express reference to that appears in their final decision or not; and that has been well established by the decisions of the Court of Appeal in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Retarded Children's Aid Society Ltd v Day </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="#" uk:canonical="[1978] ICR 437" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1978">[1978] ICR 437</ref> and in the recent decision in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Varndell v Kearney &amp; Trecker Marwin Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[1983] ICR 683" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] ICR 683</ref>.&#8221; </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">58.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Moreover, where a tribunal has correctly stated the legal principles to be applied, an appellate tribunal or court should, in my view, be slow to conclude that it has not applied those principles</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, and should generally do so only where it is clear from the language used that a different principle has been applied to the facts found. Tribunals sometimes make errors, having stated the principles correctly but slipping up in their application, as the case law demonstrates; but if the correct principles were in the tribunal's mind, as demonstrated by their being identified in the express terms of the decision, the tribunal can be expected to have been seeking faithfully to apply them, and to have done so unless the contrary is clear from the language of its decision.  This presumption ought to be all the stronger where, as in the present case, the decision is by an experienced specialist tribunal applying very familiar principles whose application forms a significant part of its day to day judicial workload.&#8221; [emphasis added]</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not underestimate the importance of appreciating that a &#8220;tribunal is not required to identify all the evidence relied on in reaching its conclusions of fact&#8221;, that the Employment Tribunal is not &#8220;required to express every step of its reasoning in any greater degree of detail than that necessary to be </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Meek</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> compliant&#8221; and that I should not assume that &#8220;a failure by an employment tribunal to refer to evidence means that it did not exist, or that a failure to refer to it means that it was not taken into account in reaching the conclusions expressed in the decision&#8221;. While the Employment Tribunal is not required to refer to all evidence relevant to its findings of fact or conclusions this does not mean that there is no scope for challenging the reasoning of an Employment Tribunal if the reasons demonstrate that it has failed &#8220;to take into account and/or resolve conflicts of fact or opinion on material matters&#8221; or has given &#8220;weight to immaterial matters&#8221; as referred to in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Granger</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The analysis in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Granger</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> focuses on failures to consider </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">material</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> matters or taking account of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">immaterial</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> matters. The EAT will adopt a generous approach to subsidiary factual matters but may analyse with greater care the factors that are material to the decisions on core issues.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I also have considered carefully the warning at paragraph 58 of </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Greenberg</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> that &#8220;where a tribunal has correctly stated the legal principles to be applied, an appellate tribunal or court should, &#8230; be slow to conclude that it has not applied those principles&#8221;. However, there may be occasions on which an appellate tribunal or court is forced to that conclusion. As Mummery LJ held in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Brent London Borough Council v Fuller</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2011] ICR 806" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] ICR 806</ref>:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">30.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Another teaching of experience is that, as with other tribunals and courts, there are occasions when a correct self-direction of law is stated by the tribunal, but then overlooked or misapplied at the point of decision</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The tribunal judgment must be read carefully to see if it has in fact correctly applied the law which it said was applicable</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The reading of an employment tribunal decision must not, however, be so fussy that it produces pernickety critiques.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">  Over-analysis of the reasoning process; being hypercritical of the way in which the decision is written; focusing too much on particular passages or turns of phrase to the neglect of the decision read in the round: those are all appellate weaknesses to avoid. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Analysis</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have decided that it is helpful to consider the specific challenges to the analysis of the Employment Tribunal before considering whether the Employment Tribunal applied the correct legal test. Accordingly, I will analyse the grounds of appeal out of sequence.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 2</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is suggested that the Employment Tribunal failed to have regard to a number of relevant factors. The first is &#8220;CD&#8217;s conduct in the hours immediately preceding the incident, namely CD sending C sexually harassing texts&#8221;, which the Employment Tribunal found occurred whilst CD &#8220;was working for the Respondent at a shift&#8221; and whilst &#8220;he believed the Claimant was due to work at Hereford the following morning&#8221;. As the ground points out, he Employment Tribunal made specific findings of fact about these matters, but did not refer to them in its analysis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is asserted that the Employment Tribunal failed to have regard to &#8220;whether CD&#8217;s conduct in the car a few hours later ought to have been viewed as a course of conduct when taken together with his earlier texting, which plainly had taken place at work, and in the course of employment&#8221;. The Employment Tribunal clearly did consider the earlier text messages as it made findings of fact about them, but they were not referred to in the analysis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is asserted that the Employment Tribunal did not take account of &#8220;the closeness of the connection between CD&#8217;s job for the Respondent and why the Claimant was in his car there on the day in question: the ET found that CD had previously driven C to a job (para 50) and that on the day in question C had attended R&#8217;s offices and CD had similarly offered to take C from there to a job in Hereford&#8221;. These were all factors that the Employment Tribunal considered in its findings of fact but were not referred to in the analysis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The question is whether the omission to mention these factors is of such importance that it demonstrates a failure to take account of material matters. I will return to this when considering ground 1.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is asserted that the Employment Tribunal had regard to irrelevant factors. The first is that the Employment Tribunal asked itself whether CD&#8217;s &#8220;motive&#8221; was &#8220;because of requirement linked to his employment&#8221;. That was not necessary for the conduct to be in the course of employment. Again, the question is whether this was of sufficient materiality to demonstrate that the Employment Tribunal gave weight to immaterial matters. I will return to this when considering ground 1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second is that the Employment Tribunal asked itself whether the respondent had knowledge of or sanctioned CD giving the claimant a lift which is asserted to be irrelevant because of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/109/3" uk:canonical="2010 c. 15 s. 109" uk:origin="TNA" uk:type="legislation">section 109(3)</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EQA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. I do not accept that the question of whether the respondent had knowledge of or sanctioned CD giving the claimant a lift was irrelevant to whether CD was acting in the course of employment. Giving the claimant a lift was not the &#8220;thing&#8221; done by A for which the respondent could be liable if it was done in the course of employment. The &#8220;thing&#8221; done by CD for which the respondent could be liable was the sexual harassment.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 1</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By ground 1 it is asserted that the Employment Tribunal failed to &#8220;have regard to whether what happened between CD and C occurred in circumstances that were an &#8220;extension of their employment&#8221;, in line with </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Chief Constable of Lincolnshire Police v Stubbs and others</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1999] ICR 547" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] ICR 547</ref>&#8221;. The Employment Tribunal directed itself by reference to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Stubbs</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and specifically quoted the extract in which the Court of Appeal referred to the Employment Tribunal considering whether &#8220;what was occurring was an extension of their employment&#8221;. Accordingly, I must be slow to assume that the correct self-direction was not applied by the Employment Tribunal to the facts that it found. A careful reading of the judgment as a whole is required; avoiding &#8220;being hypercritical&#8221;, &#8220;focusing too much on particular passages or turns of phrase to the neglect of the decision read in the round&#8221; or being guilty of &#8220;pernickety critiques&#8221;. But my reading should not be so generous as to read matters into the judgment that are not there if I conclude that this is one of those rare occasions on which a correct self-direction of law was &#8220;stated by the tribunal, but then overlooked or misapplied at the point of decision&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal had to consider whether CD was acting in the course of his employment. I do not consider that is a simple analysis. The guidance that the words should be used in &#8220;the sense in which every layman would understand them&#8221; is perhaps somewhat Delphic, I doubt that laypeople spend a great deal of time considering the concept of whether a person is acting in the course of employment. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is perhaps more important in holding that the term is not to be </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">interpreted in accordance with the well-established meaning in law derived from the law of tort. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Generally, the starting point will be to consider whether the alleged harasser was at work, in working hours carrying out work activities. The Employment Tribunal was right to consider &#8220;whether the impugned act was done at work or outside of work&#8221;: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Forbes</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The Employment Tribunal was entitled to hold that the  act of harassment was not done while CD was at work and that he was not at the time carrying out his work duties. The findings that CD was not due to work at Hereford, was not required to drive the claimant to Hereford, there was no expectation of informal lifts and that CD&#8217;s offer to drive the claimant to Hereford was not arranged or sanctioned by the Respondent were relevant to that conclusion.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not consider that it was relevant that CD&#8217;s motive was in offering a lift &#8220; not because of a requirement linked to his employment&#8221;. It is implicit in the decision that CD&#8217;s motivation in offering a lift was that it would provide an opportunity to continue with the sexualised conduct that had started earlier when he sent suggestive texts to the claimant. The fact that a person&#8217;s motivation is having an opportunity to harass does not mean that the person is not in the course of employment. Otherwise the protection would be excessively watered down which would be inconsistent with the required broad interpretation of anti-discrimination legislation: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Having  concluded that the impugned act was done outside of work (</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Jones</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">) the Employment Tribunal then needed to go on to consider whether there was &#8220;nevertheless a sufficient nexus or connection with work such as to render it in the course of employment&#8221; (</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Forbes</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">) including whether the provision of the lift was an </span><span style="font-size:12pt">&#8220;extension of work and the workplace&#8221;(</span><span style="font-weight:bold;font-size:12pt">Stubbs</span><span style="font-size:12pt">). I have concluded that the Employment Tribunal did not go on to analyse this second question which is why it did not refer to important material factors that were relevant in the analysis of that second question, despite having made findings of fact about them. It was necessary for the Employment Tribunal to analyse CD&#8217;s conduct in the hours immediately preceding the incident, namely CD sending the claimant texts while  CD &#8220;was working for the Respondent at a shift&#8221; and whether it formed part of a course of conduct with the sexual harassment when CD gave the claimant a lift. The Employment Tribunal should have analysed the closeness of the connection between CD&#8217;s job for the respondent and why the claimant was in his car when the harassment occurred, including the fact that CD had previously driven the claimant to a job. The Employment Tribunal was entitled to conclude that the claimant&#8217;s belief that &#8220;she was at all times acting in the course of her employment&#8221; was not relevant to the question of whether the impugned act was done at work or outside of work in the sense of whether CD was at work, carrying out work activities in working hours. However, if CD persuaded, or took advantage of the fact that the claimant thought, that she was due to work at Hereford and that CD was offering her a lift as part of his work duties, that was potentially relevant to the question of whether the provision of the lift had a sufficient nexus or connection with work such as to render it in the course of employment and/or that it constituted an extension of work and the workplace or working activities. </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Accordingly, I uphold the appeal on all three grounds.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do not consider that there can only be one answer to the question of whether CD&#8217;s provision of the lift </span><span style="font-size:12pt">had a sufficient nexus or connection with work such as to render it in the course of employment and/or that it constituted an extension of work and the workplace or working activities. Having regard to the principles in </span><span style="font-weight:bold;font-size:12pt">Sinclair Roche &amp; Temperley v Heard</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2004] IRLR 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 763</ref>, I consider the remission should be to the same Employment Tribunal. It should not require the Employment Tribunal to hear any or any substantial amount of new evidence, although I will leave that as a matter of case management for the Employment Tribunal. The Employment Tribunal made careful findings of fact and directed itself to the relevant law. Its error was not to go on to answer the required next question having found that CD did not give the claimant a lift while carrying out his work duties within working hours. I consider it will save time and cost for the remission to be to the same Employment Tribunal so that it is proportionate. I am confident in the professionalism of the Employment Tribunal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

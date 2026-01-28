@@ -1,0 +1,905 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2009/16"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2009/16"/>
+	  <FRBRdate date="2009-12-16" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="16"/>
+	  <FRBRname value="Ahmed Mahad (previously referred to as AM) v Entry Clearance Officer"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2009/16"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2009/16"/>
+	  <FRBRdate date="2009-12-16" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2009/16/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2009/16/data.xml"/>
+	  <FRBRdate date="2025-02-13T11:25:37" name="transform"/>
+	  <FRBRdate date="2025-08-17T03:51:42" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2009-12-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ahmed-mahad-previously-referred-to-as-am" href="" showAs="Ahmed Mahad (previously referred to as AM)"/>
+	<TLCPerson eId="entry-clearance-officer" href="" showAs="Entry Clearance Officer"/>
+	<TLCPerson eId="sahro-ali-previously-referred-to-as-sa-somalia-and-amal-wehelia-previously-referred-to-as-aw" href="" showAs="Sahro Ali (previously referred to as SA) (Somalia) and Amal Wehelia (previously referred to as AW)"/>
+	<TLCPerson eId="malyun-ismail-previously-referred-to-as-mi-somalia-and-khadra-abdillahi-previously-referred-to-as-ka" href="" showAs="Malyun Ismail (previously referred to as MI) (Somalia) and Khadra Abdillahi (previously referred to as KA)"/>
+	<TLCPerson eId="vettivetpillai-sakthivel-previously-referred-to-as-vs" href="" showAs="Vettivetpillai Sakthivel (previously referred to as VS)"/>
+	<TLCPerson eId="abdi-malik-muhumed-previously-referred-to-as-am-no-2" href="" showAs="Abdi-Malik Muhumed (previously referred to as AM (No 2))"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2009</uk:year>
+	<uk:number>16</uk:number>
+	<uk:cite>[2009] UKSC 16</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>80d3a4ebccde41a9ee125366fe5a6f27cfbac700c8146d7cc40638e32be0e329</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.99in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.5in; font-size: 13pt; }
+#judgment .NewSpeech { text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Subheading { font-size: 13pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:99.05pt;height:99.05pt"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Michaelmas Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2009] UKSC 16</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/1082" style="font-style:italic" uk:canonical="[2008] EWCA Civ 1082" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2008] EWCA Civ 1082</ref></p>
+      <p style="text-align:right;margin-left:4in;text-indent:0.5in"><span style="font-style:italic">[2009] EWCA Civ 634</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#ahmed-mahad-previously-referred-to-as-am" style="font-weight:bold;font-size:16pt">Ahmed Mahad (previously referred to as AM)</party><span style="font-weight:bold;font-size:16pt"> (Ethiopia) (</span><role refersTo="#appellant" style="font-weight:bold;font-size:16pt">Appellant</role><span style="font-weight:bold;font-size:16pt">) </span><span style="font-style:italic;font-weight:bold;font-size:16pt">v </span><party as="#respondent" refersTo="#entry-clearance-officer" style="font-weight:bold;font-size:16pt">Entry Clearance Officer</party><span style="font-weight:bold;font-size:16pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:16pt">Respondent</role><span style="font-weight:bold;font-size:16pt">)</span></p>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#sahro-ali-previously-referred-to-as-sa-somalia-and-amal-wehelia-previously-referred-to-as-aw" style="font-weight:bold;font-size:16pt">Sahro Ali (previously referred to as SA) (Somalia) and Amal Wehelia (previously referred to as AW)</party><span style="font-weight:bold;font-size:16pt"> (Somalia) (</span><role refersTo="#appellant" style="font-weight:bold;font-size:16pt">Appellants</role><span style="font-weight:bold;font-size:16pt">) </span><span style="font-style:italic;font-weight:bold;font-size:16pt">v </span><party as="#respondent" refersTo="#entry-clearance-officer" style="font-weight:bold;font-size:16pt">Entry Clearance Officer</party><span style="font-weight:bold;font-size:16pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:16pt">Respondent</role><span style="font-weight:bold;font-size:16pt">)</span></p>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#malyun-ismail-previously-referred-to-as-mi-somalia-and-khadra-abdillahi-previously-referred-to-as-ka" style="font-weight:bold;font-size:16pt">Malyun Ismail (previously referred to as MI) (Somalia) and Khadra Abdillahi (previously referred to as KA)</party><span style="font-weight:bold;font-size:16pt"> (Somalia) (</span><role refersTo="#appellant" style="font-weight:bold;font-size:16pt">Appellants</role><span style="font-weight:bold;font-size:16pt">) </span><span style="font-style:italic;font-weight:bold;font-size:16pt">v </span><party as="#respondent" refersTo="#entry-clearance-officer" style="font-weight:bold;font-size:16pt">Entry Clearance Officer</party><span style="font-weight:bold;font-size:16pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:16pt">Respondent</role><span style="font-weight:bold;font-size:16pt">)</span></p>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#vettivetpillai-sakthivel-previously-referred-to-as-vs" style="font-weight:bold;font-size:16pt">Vettivetpillai Sakthivel (previously referred to as VS)</party><span style="font-weight:bold;font-size:16pt"> (Sri Lanka) (</span><role refersTo="#appellant" style="font-weight:bold;font-size:16pt">Appellant</role><span style="font-weight:bold;font-size:16pt">) </span><span style="font-style:italic;font-weight:bold;font-size:16pt">v </span><party as="#respondent" refersTo="#entry-clearance-officer" style="font-weight:bold;font-size:16pt">Entry Clearance Officer</party><span style="font-weight:bold;font-size:16pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:16pt">Respondent</role><span style="font-weight:bold;font-size:16pt">)</span></p>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#abdi-malik-muhumed-previously-referred-to-as-am-no-2" style="font-weight:bold;font-size:16pt">Abdi-Malik Muhumed (previously referred to as AM (No 2))</party><span style="font-weight:bold;font-size:16pt"> (Somalia) (</span><role refersTo="#appellant" style="font-weight:bold;font-size:16pt">Appellant</role><span style="font-weight:bold;font-size:16pt">) </span><span style="font-style:italic;font-weight:bold;font-size:16pt">v </span><party as="#respondent" refersTo="#entry-clearance-officer" style="font-weight:bold;font-size:16pt">Entry Clearance Officer</party><span style="font-weight:bold;font-size:16pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:16pt">Respondent</role><span style="font-weight:bold;font-size:16pt">)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:16pt">Lord Hope, Deputy President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:16pt">Lord Rodger</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:16pt">Lord Brown</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:16pt">Lord Collins</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:16pt">Lord Kerr</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:16pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2009-12-16" refersTo="#judgment" style="font-weight:bold;font-size:18pt">16 December 2009</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:16pt">Heard on 9, 10 and 11 November 2009</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="2.72in 0.63in 2.57in 0.02in 0.01in 0.05in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant (AM 1)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Respondent</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Manjit Gill QC</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Monica Carss-Frisk QC</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">James Collins</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Jonathan Hall</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Sheikh and Co Solicitors)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Treasury Solicitors)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant (AM 2)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="3">
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant (MI and KA)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Michael Fordham QC</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="3">
+	    <p style="text-align:center"><span style="font-size:13pt">Lord Pannick QC</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Joanna Stevens</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="3">
+	    <p style="text-align:center"><span style="font-size:13pt">Rory O&#8217;Ryan</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="3">
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Refugee and Migrant Justice)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="3">
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Jackson &amp; Canter LLP)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant (SA and AW)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="4">
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant (VS)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Michael Fordham QC</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="4">
+	    <p style="text-align:center"><span style="font-size:13pt">Manjit Gill QC</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Philip Nathan</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="4">
+	    <p style="text-align:center"><span style="font-size:13pt">Danny Bazini</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Sophie Weller</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="4">
+	    <p style="text-align:center"><span style="font-size:13pt">Alexis Slatter</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="4">
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Hersi &amp; Co Solicitors)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="4">
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Kingston and Richmond Law Centre)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="2">
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Intervener</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="2">
+	    <p style="text-align:center"><span style="font-size:13pt">Catherine Casserley</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="2">
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td colspan="2">
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Equality &amp; Human Rights Commission)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold;text-transform:none">LORD BROWN:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Part 8 of the Statement of Changes in Immigration Rules (HC 395), entitled Family Members, contains a number of rules setting out the conditions to be satisfied by various categories of family members seeking leave to enter the UK to settle with other family members already settled here (&#8220;sponsors&#8221; as the Rules describe some of them). Rule 281 deals with spouses (or, following amendment, civil partners); rule 297 with children; rule 317 with parents, grandparents and other dependant relatives. All of them include a requirement that those seeking entry will be able to be accommodated and maintained here without recourse to public funds. The single most important question for decision on each of these five conjoined appeals is whether this requirement permits third party support (as the appellants submit) or whether it precludes maintenance provided by anyone other than the sponsor (as the respondent entry clearance officers (ECOs) contend).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Three of the appellants - AM(1), SA (with her 6 year-old daughter, AW) and AM(2) &#8211; seek to join their spouses under rule 281. The other two appellants applied to enter under rule 317 &#8211; VS to join his son; KA (with her 11-year old granddaughter, MI) to join her daughter (MI&#8217;s aunt) and another granddaughter (MI&#8217;s adult cousin). Strictly, MI&#8217;s application should have been considered under rule 297 but sensibly it has been treated throughout as standing or falling with KA&#8217;s case under rule 317. Whilst, therefore, rule 297 is not directly in point in any of these cases, its terms (both before and after amendment in 2000) have loomed large in the argument and in the developing case law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The specified requirements as to accommodation and maintenance under each of the three rules can conveniently be set out at this point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_1">
+	  <content>
+	    <p class="ParaNoNumber">Rule 281 (spouses):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">there will be adequate accommodation for the parties and any dependants without recourse to public funds in accommodation which they own or occupy exclusively; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">the parties will be able to maintain themselves and any dependants adequately without recourse to public funds.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Rule 297 (children):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">can, and will, be accommodated adequately by the parent, parents or relative the child is seeking to join without recourse to public funds in accommodation which the parent, parents or relative the child is seeking to join, own or occupy exclusively; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(v)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">can, and will, be maintained adequately by the parent, parents or relative the child is seeking to join, without recourse to public funds.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">With effect from 2 October 2000 (Statement of Changes in Immigration Rules (Cm 4851)) those two requirements were substituted for a single previous requirement:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">can, and will, be maintained and accommodated adequately without recourse to public funds in accommodation which the parent, parents or relative own or occupy exclusively.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Rule 317 (as amended by Cm 4851) (other dependent relatives):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(iii)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">is financially wholly or mainly dependent on the relative present and settled in the United Kingdom; and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(iv)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">can, and will, be accommodated adequately, together with any dependants, without recourse to public funds, in accommodation which the sponsor owns or occupies exclusively; and</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">(iva)<marker name="tab"/>can, and will, be maintained adequately, together with any dependants, without recourse to public funds.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Put shortly, the earlier case law on these rules has been as follows. First, Collins J in <span style="font-style:italic">R v Secretary of State for the Home Department, Ex parte Arman Ali </span>[2000] INLR 89 (judgment, 28 October 1999) held that rule 281(v) and (the unamended) rule 297(iv) did not preclude long-term maintenance by third parties. Next, the Asylum and Immigration Tribunal (AIT) (presided over by Hodge J) in <span style="font-style:italic">AA (Third Party Maintenance) Bangladesh</span> [2005] Imm AR 328 (judgment, 21 April 2005) held that rule 297(v) (as amended) requires that the parent, whom the child is joining, must himself maintain the child; &#8220;Third party support by relatives or otherwise cannot satisfy the rule&#8221; (para 30). Finally, the Court of Appeal (Tuckey, Lawrence Collins and Rimer LJJ) in <span style="font-style:italic">MW (Liberia) v Secretary of State for the Home Department </span><ref href="#" uk:canonical="[2008] 1 WLR 1068" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 WLR 1068</ref> (judgment, 20 December 2007) endorsed <span style="font-style:italic">AA&#8217;s</span> construction of rule 297(v). Tuckey LJ in the leading judgment observed (para 16):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Third party arrangements of the kind in question in this case are necessarily more precarious and &#8230; more difficult to verify. Furthermore the rules do not provide for undertakings to be taken from third parties. These are policy reasons which I think justified the amendment.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Lawrence Collins LJ, &#8220;with some regret&#8221;, agreed with that construction of rule 297(v), expressing, at para 20, the &#8220;hope that consideration can be given to amending the rule, consistently with the policy considerations mentioned by Tuckey LJ &#8230; , to facilitate reunion where there is verifiable evidence of long-term support from third parties.&#8221;</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaNoNumber">These cases were the essential backdrop to the two decisions presently under appeal to this Court which I must now briefly explain.</p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal (Pill, Laws and Carnwath LJJ) in <span style="font-style:italic">AM (Ethiopia) v Entry Clearance Officer </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2008/1082" uk:canonical="[2008] EWCA Civ 1082" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] EWCA Civ 1082</ref> (judgment, 16 October 2008) (<span style="font-style:italic">AM (Ethiopia)</span>) was concerned with all the present appellants save AM(2) (and save for a further applicant for entry clearance, MB, whose appeal was allowed and who is no longer involved in these proceedings). The majority of the Court held that all three rules &#8220;disallow reliance on third party support&#8221; (para 56 of Laws LJ&#8217;s leading judgment, agreed to by Pill LJ). Carnwath LJ, recognising that the Court was bound by the decision in <span style="font-style:italic">MW (Liberia)</span>, agreed that third party support is precluded under rules 281(v) and 297(v) but would have held it permissible under rule 317(iva). He would therefore have allowed the appeals of KA and MI, although not of VS, because he thought that VS in any event failed to satisfy the requirement under rule 317(iii) &#8211; the correctness of this being another issue now before us. There was a further basis too on which Carnwath LJ would have allowed the appeals of KA and MI. Laws LJ and Carnwath LJ (Pill LJ reserving his judgment on the point) held that rules 297 and 317 allow support by joint sponsors. Pill LJ and Laws LJ, however, Carnwath LJ dissenting on this point also, held that, where joint sponsorship is being relied upon, this has to be made plain by the naming of each sponsor as such in the application form. This too is now an issue before us. The Court unanimously rejected both an argument that article 8 of the European Convention on Human Rights (the Convention) required the rules to be read as necessarily permitting third party support and a separate article 8 ground of appeal in AM(1)&#8217;s case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In the result, the Court of Appeal dismissed all the appeals before them save those of (a) MB, already mentioned, whose case was remitted to the AIT for reconsideration of his independent article 8 claim, and (b) AM(1), whose sponsor was in receipt of Disability Living Allowance (DLA) - a benefit previously held by the Court of Appeal (Sedley and Rimer LJJ, Pill LJ dissenting) in <span style="font-style:italic">MK (Somalia) v Entry Clearance Officer</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/1521" uk:canonical="[2007] EWCA Civ 1521" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 1521</ref> (judgment, 28 November 2007) to be part of the sponsor&#8217;s own funds &#8211; and whose case was remitted to the AIT for assessment of whether her DLA was in fact sufficient to provide the necessary support. The AIT thereafter held that it was not and so dismissed AM(1)&#8217;s appeal. Under the Court of Appeal&#8217;s main ruling, however, AM(1) had been held unable to rely on other third party funding and so remains party to this further appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The other decision now under appeal before us is that of the Court of Appeal (Mummery, Maurice Kay and Elias LJJ) in <span style="font-style:italic">AM (Somalia) v Entry Clearance Officer</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/634" uk:canonical="[2009] EWCA Civ 634" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 634</ref> (judgment, 1 July 2009) (<span style="font-style:italic">AM (Somalia)</span>), dealing with AM(2)&#8217;s case. By this decision the Court rejected AM(2)&#8217;s argument that, in the case of a disabled sponsor incapable of work (such as his wife was said to be), the effect of articles 8 and 14 of the Convention is that the maintenance requirement in rule 281(v) is to be read down or, if necessary, wholly disapplied. AM(2) expressly reserved his position on third party support and on article 8, issues upon which the Court was clearly bound by the main decision now under appeal, <span style="font-style:italic">AM (Ethiopia)</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Before coming to consider the central question of construction before us, it is necessary first to set out certain further rules extensively relied upon in argument:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <content>
+	    <p class="ParaNoNumber">Rule 6 (the interpretation rule) (as amended by Cm 6339) provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;&#8216;sponsor&#8217; means the person in relation to whom an applicant is seeking leave to enter or remain as their spouse, fianc&#233;, civil partner, proposed civil partner, unmarried partner, same-sex partner or dependent relative, as the case may be, under paragraphs 277 to 295O or 317 to 319.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Two things may be noted in passing about this definition of sponsor. First, that it has evolved down the years: originally there was no such definition, then it was confined to spouses (rule 281); then extended to include relatives being joined by adult dependants (rule 317). Secondly, even to this day it has never included &#8220;the parent, parents or relative&#8221; whom a child is seeking to join under rule 297.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Next, rule 6A (as inserted by Cm 4851):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;For the purpose of these Rules, a person is not to be regarded as having (or potentially having) recourse to public funds merely because he is (or will be) reliant in whole or in part on public funds provided to his sponsor, unless, as a result of his presence in the United Kingdom, the sponsor is (or would be) entitled to increased or additional public funds.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Finally (for the moment), rule 35:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;A sponsor of a person seeking leave to enter or variation of leave to enter or remain in the United Kingdom may be asked to give an undertaking in writing to be responsible for that person&#8217;s maintenance and accommodation for the period of any leave granted, including any further variation. Under the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/5" uk:canonical="1992 c. 5" uk:origin="TNA" uk:type="legislation">Social Security Administration Act 1992</ref> &#8230; , the Department of Social Security &#8230; may seek to recover from the person giving such an undertaking any income support paid to meet the needs of the person in respect of whom the undertaking has been given.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">(The rule also now provides for the Home Office to recover pursuant to such an undertaking whatever amount may be attributable to NASS support given to an asylum seeker.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There is really no dispute about the proper approach to the construction of the Rules. As Lord Hoffmann said in <span style="font-style:italic">Odelola v Secretary of State for the Home Department</span> <ref href="#" uk:canonical="[2009] 1 WLR 1230" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 1230</ref>, 1233 (paragraph 4):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Like any other question of construction, this [whether a rule change applies to all undetermined applications or only to subsequent applications] depends upon the language of the rule, construed against the relevant background. That involves a consideration of the immigration rules as a whole and the function which they serve in the administration of immigration policy.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">That is entirely consistent with what Buxton LJ (collecting together a number of dicta from past cases concerning the status of the rules) had said in <span style="font-style:italic">Odelola</span> in the Court of Appeal (<ref href="#" uk:canonical="[2009] 1 WLR 126" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 126</ref>) and, indeed, with what Laws LJ said (before the House of Lords decision in <span style="font-style:italic">Odelola</span>) in the present case. Essentially it comes to this. The Rules are not to be construed with all the strictness applicable to the construction of a statute or a statutory instrument but, instead, sensibly according to the natural and ordinary meaning of the words used, recognising that they are statements of the Secretary of State&#8217;s administrative policy. The respondent&#8217;s counsel readily accepted that what she meant in her written case by the proposition &#8220;the question of interpretation is . . . what the Secretary of State intended his policy to be&#8221; was that the court&#8217;s task is to discover from the words used in the Rules what the Secretary of State must be taken to have intended. After all, under <ref href="http://www.legislation.gov.uk/id/ukpga/1971/77/section/3/2" uk:canonical="1971 c. 77 s. 3" uk:origin="TNA" uk:type="legislation">section 3(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1971/77" uk:canonical="1971 c. 77" uk:origin="TNA" uk:type="legislation">Immigration Act 1971</ref>, the Secretary of State has to lay the Rules before Parliament which then has the opportunity to disapprove them. True, as I observed in <span style="font-style:italic">Odelola</span> (para 33): &#8220;the question is what the <span style="font-style:italic">Secretary of State</span> intended. The rules are her rules.&#8221; But that intention is to be discerned objectively from the language used, not divined by reference to supposed policy considerations. Still less is the Secretary of State&#8217;s intention to be discovered from the Immigration Directorates&#8217; Instructions (IDIs) issued intermittently to guide immigration officers in their application of the rules. IDIs are given pursuant to paragraph 1(3) of Schedule 2 to <ref href="http://www.legislation.gov.uk/id/ukpga/1971/77" uk:canonical="1971 c. 77" uk:origin="TNA" uk:type="legislation">the 1971 Act</ref> which provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;In the exercise of their functions under <ref href="http://www.legislation.gov.uk/id/ukpga/1971/77" uk:canonical="1971 c. 77" uk:origin="TNA" uk:type="legislation">this Act</ref> immigration officers shall act in accordance with such instructions (<span style="font-style:italic">not inconsistent with the immigration rules</span>) as may be given them by the Secretary of State &#8230;&#8221; (emphasis added).</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is evident that IDIs have on occasion been issued <span style="font-style:italic">in</span>consistently with the Rules as interpreted by the courts. A plain instance of this was an instruction issued in April 2001 stating in relation to rule 281 that support for a married couple from their families in the UK &#8220;would not satisfy the Rules, which require the couple to maintain themselves&#8221;, an instruction flatly contrary to Collins J&#8217;s unappealed decision some 18 months earlier in <span style="font-style:italic">Arman Ali</span>. Whilst I would readily ascribe such an inconsistency to a regrettable lack of coordination rather than characterise it (as the appellants suggest) as &#8220;a matter of great constitutional concern&#8221;, for my part I found the series of IDIs canvassed before us (in any event incomplete for want of any retained archive of such instructions, another thing to be regretted) singularly unhelpful on the issue of construction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The critical paragraphs of the Rules for the court&#8217;s interpretation here are those dealing with maintenance, not accommodation. But an important part of the context for their interpretation is the way in which the parallel accommodation requirements have been construed. As to this, the position is well established: rules 281(iv), 297(iv) and 317(iv) all allow &#8220;the parties&#8221; (the language of rule 281, but a convenient expression also to describe other family members applying to be re-united) to live together in accommodation owned and provided, quite possibly free, by a third party. So much, indeed, Laws LJ was prepared to accept (paras 45 and 61 of his judgment below) and the respondent now concedes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is important to notice also certain other funds or forms of assistance (besides the provision of accommodation) accepted to be legitimately available to &#8220;the parties&#8221; in satisfying the maintenance requirement. One of these is DLA, a benefit which, as already mentioned, the settled relative can use as he or she likes (with any necessary care possibly being provided free by a friend or relative).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Rule 6A is itself noteworthy in this regard: implicit in it is that the sponsor is at liberty to rely on whatever public funds he or she is entitled to, provided only that the arrival of the family member(s) seeking entry will not increase that entitlement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Next to be noted is that third party support in fact <span style="font-style:italic">is</span> recognised to be acceptable so long as there is a legal obligation to provide it. Tuckey LJ recognised in <span style="font-style:italic">MW (Liberia)</span> (para 14) that &#8220;money received by a parent under a deed of covenant or court order for maintenance might qualify if it could be shown that the legal obligation to pay it was being or was likely to be met&#8221;. Laws LJ below, citing that passage, added (para 60): &#8220;Money received by a sponsor through such a route is as much his own as is salary paid by his employer.&#8221; But this brings me to another point: the recognition that salary payable by an employer clearly qualifies as part of the funds available to the sponsor for the parties&#8217; maintenance applies no less in the case of employment generously provided by a friend or relative than employment in the open labour market. Naturally, in either case, it is for the parties to satisfy the ECO that the employment will continue or that other employment will, if necessary, replace it so that on entry the applicant will not be a drain on public funds. But why should employment by a benevolent (perhaps wealthy) friend or relative necessarily be any more precarious than arm&#8217;s length employment in the open market? It may well be less so. And in any event, in <span style="font-style:italic">all</span> these cases, it is for the sponsor to satisfy the ECO that one way or another the parties will be able to maintain themselves &#8220;without recourse to public funds&#8221;. The very premise of the debate is that the sponsor will be able to do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Why, in these circumstances, should one read into the maintenance requirement a prohibition against kinds of third party financial support other than those already noted? Why refuse to consider, for example, promises of continuing regular payments by close friends and/or relations (as in each of the five cases before us)? Why should one read the expressions &#8220;will be able to maintain themselves&#8221; (rule 281(v)), &#8220;can, and will, be maintained adequately by the [relative] the child is seeking to join&#8221; (rule 297(v)), &#8220;can, and will, be maintained adequately&#8221; (rule 317(iva)) as meaning or necessarily implying &#8220;without assistance from third parties&#8221; rather than meaning simply &#8220;will be able to cope financially&#8221;?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Importantly, each maintenance requirement paragraph ends with the words &#8220;without recourse to public funds&#8221;. That plainly is the governing consideration in all these provisions (those words being, indeed, on one reading mere surplusage if a prohibition against third party support is already explicitly or implicitly to be found in the first part of these provisions). The respondent invites us to read these paragraphs as if they also said &#8220;and without recourse to third party support&#8221;. But that would seem to me an artificial rather than a natural reading, particularly given the odd and unsatisfactory distinctions made by the respondent in drawing the suggested boundary between those kinds of third party support which are acceptable and those which are said to be regarded as outlawed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The suggested rationale for construing these rules in the way contended for by the respondent is essentially that suggested by Tuckey LJ in <span style="font-style:italic">MW (Liberia) </span>(para 16): first, to avoid the need to investigate third party promises of financial support which are &#8220;necessarily more precarious and &#8230; more difficult to verify&#8221;; and, secondly, to avoid ECOs accepting promises which cannot be backed by enforceable undertakings under rule 35: &#8220;the rules do not provide for undertakings to be taken from third parties&#8221;. Much the same concerns, indeed, have been expressed and elaborated upon by Elias LJ in <span style="font-style:italic">AM (Somalia)</span> (para 73) &#8211; suggesting that &#8220;potentially significant administrative costs will be involved in testing the reliability of third party promises&#8221; - and Wall LJ in <span style="font-style:italic">KS (India) v Entry Clearance Officer </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2009/762" uk:canonical="[2009] EWCA Civ 762" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWCA Civ 762</ref> (para 57).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Whilst I readily acknowledge the legitimacy of each of these concerns, their strength seems to me much diminished by a number of considerations. First, whilst I accept that generally speaking unenforceable third party promises are likely to be more precarious and less easily verifiable than a sponsor&#8217;s own legal entitlements, that will not invariably be so. And it would surely be somewhat anomalous if ECOs could accept promises of continuing accommodation and/or employment and yet not promises of continuing payments, however regularly they can be shown to have been made in the past and however wealthy the third party can be seen to be. Are rich and devoted uncles (or, indeed, large supportive immigrant communities such as often assist those seeking entry) really to be ignored in this way? A second consideration, never to be lost sight of, is that it is always for the applicant to satisfy the ECO that any third party support relied upon is indeed assured. If he fails to do so, his application will fail. That this may be difficult was recognised by Collins J himself in <span style="font-style:italic">Arman Ali </span>(page 103):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;I do not doubt that it will be rare for applicants to be able to satisfy an entry clearance officer, the Secretary of State or an adjudicator that long-term maintenance by a third party will be provided so that there will be no recourse to public funds. But whether or not such long-term support will be provided is a question of fact to be determined on the evidence.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Of course there may be difficulties of investigation. But that is already so with regard to many different sorts of application and, indeed, is likely to be so with regard to some of the kinds of third party support already conceded to be acceptable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">With regard to rule 35 undertakings, a number of points arise. First, the rule does not apply to those seeking entry for a child under rule 297: as already noted (para 8 above), the rule 6 definition of &#8220;sponsor&#8221; does not include them. Secondly, it is entirely a matter of discretion whether in any particular case an undertaking is sought and, indeed, even assuming it is sought and declined, whether entry clearance is then refused. Thirdly, these sorts of maintenance requirements long ante-date the present definition of &#8220;sponsor&#8221; so that it would be wrong to define the scope of the former by reference to the latter. Fourth, if the Secretary of State wishes to increase his opportunities of obtaining undertakings in respect of maintenance commitments, he can easily amend rules 6 and/or 35 to achieve this. Indeed, given our conclusion on the joint sponsorship issue to which I shall shortly come, the Secretary of State already has wider opportunities than he presently recognises. It is open to ECOs to ask a third party offering long-term support to become a joint sponsor and give an undertaking to underwrite his commitment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Standing back from the detail for a moment, I am strongly inclined to construe the maintenance requirements in each of these three rules in the same way, as indeed the majority of the Court of Appeal did in <span style="font-style:italic">AM (Ethiopia)</span>. Policy considerations aside, there seems to me no sufficient basis for reaching different conclusions on the issue of third party support depending on which rule or which version of the particular rule one is construing. No doubt, depending on the precise language of the particular rule at any given time, one of the competing linguistic arguments becomes marginally easier, the other marginally more difficult. In the end, however, none of the variations seems to me in any way decisive of the meaning. (Carnwath LJ, of course, had no option but to construe the rules differently, given his view of the ordinary meaning of the words used but recognising the constraints of <span style="font-style:italic">stare decisis</span> upon him.)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The odd position hitherto arrived at is that Collins J in <span style="font-style:italic">Arman Ali</span> thought that rule 281 and the unamended rule 297 allowed third party support; Hodge J in <span style="font-style:italic">AA (Bangladesh)</span> and the Court of Appeal in <span style="font-style:italic">MW (Liberia)</span> thought that the change in rule 297 made all the difference so that third party support could no longer be relied upon under that rule. And now in <span style="font-style:italic">AM (Ethiopia)</span> the majority of the Court of Appeal has decided that the change in rule 297 did not after all introduce a prohibition on third party support but merely clarified what the rule had always stipulated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For my part I would agree that the amendment to rule 297 was neither intended nor apt to alter the rule&#8217;s meaning with regard to third party support. Rather, it seems that the amendment was a child protection measure, designed to ensure that children should indeed be coming to live with the relative(s) they are supposed to be joining and not somebody else entirely. So much, indeed, seems to have been confirmed by the departmental response to a Freedom of Information Act request made by some of the appellants as to the reasons for the rule change. It seems to me, moreover, instructive to note that at the same time as rule 297 was being amended, rule 317(iva) was being introduced in its present form as too was rule 310(iv) with regard to adopted children &#8211; requiring that the child &#8220;can, and will, be accommodated and maintained adequately without recourse to public funds in accommodation which the adoptive parent or parents own or occupy exclusively&#8221;, ie in effectively identical terms to the <span style="font-style:italic">un</span>amended rule 297.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Thus far, I have considered this group of rules under Part 8 without reference to the differing sorts of maintenance requirements imposed in other parts of the rules. There are arguments here available to both sides.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Seemingly in favour of the respondent&#8217;s contention &#8211; although I did not understand the Secretary of State to take the point &#8211; are rules 41(vi) and 56K(vii) (as inserted by Cm 7074) under Part 2 governing respectively visitors and student visitors and in each case providing that the visitor: &#8220;will maintain and accommodate himself and any dependants adequately out of resources available to him without recourse to public funds or taking employment; or will, with any dependants, be maintained and accommodated adequately by relatives or friends.&#8221; Certainly a contrast is struck there between self-support &#8220;out of resources available to him&#8221; and support &#8220;by relatives or friends&#8221; and it could be argued that the maintenance requirements under Part 8 (whilst, of course, saying nothing in terms as to &#8220;out of resources available to him&#8221;) are closer to the former than the latter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As against that, there are a number of rules under Parts 6 and 7 which on any view make it clear that the applicant for entry cannot rely on third party support. Prominent amongst these are: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.59in;text-indent:-0.39in">(a)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.59in">rule 201 which requires a person intending to establish himself here in business to show amongst other things: &#8220;(ix) that his share of the profits of the business will be sufficient to maintain and accommodate himself and any dependants without recourse to employment (other than his work for the business) or to public funds&#8221;;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.59in;text-indent:-0.39in">(b)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.59in">rule 232 which requires that a person seeking to enter as a writer, composer or artist must show that he &#8220;(iv) will be able to maintain and accommodate himself and any dependants from his own resources without working except as a writer, composer or artist and without recourse to public funds&#8221;; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.59in;text-indent:-0.39in">(c)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.59in">rule 263 which requires that someone seeking entry clearance as a retired person of independent means must show that he: &#8220;(iii) is able and willing to maintain and accommodate himself and any dependants indefinitely in the United Kingdom from his own resources with no assistance from any other person and without taking employment or having recourse to public funds.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is strongly argued on behalf of the appellants that these are the kinds of provisions needed to prohibit reliance on third party support and that they are conspicuously lacking from the Part 8 maintenance requirements. There is nothing in the rules we are construing to say, for example, that the maintenance must come &#8220;from his [or his sponsor&#8217;s] own resources with no assistance from any other person&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Although for my part I would in any event have accepted the appellant&#8217;s contended for construction of the three rules here at issue and hold <span style="font-style:italic">MW (Liberia)</span> to have been wrongly decided even without resort to the contrasting language of these other rules, I am decidedly more impressed by the comparison with the Parts 6 and 7 rules than the Court of Appeal appears to have been. If, indeed, the Secretary of State was intent on ruling out third party support in family reunification cases, even assuming that it could be verified as reliable, then he could perfectly well have made that plain by using the same sort of language as in the Parts 6 and 7 cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I should note at this point a further argument advanced by the appellants based on article 8 of the Convention. Essentially this is to the effect that it was not in fact open to the Secretary of State to make plain an intention to rule out third party support in family reunification cases and, indeed, he could not now do so for the future. That, it is said, would necessarily be incompatible with the article 8 rights of those seeking family reunification. It is one thing, runs the argument, to ensure that the public purse is safeguarded by insisting on the verification and reliability of third party promises of support; quite another to rule out such support even if it can be verified as reliable. The former is accepted to be justifiable and proportionate even though it may result in families being kept apart; the latter not so. It will readily be appreciated that a corollary of this argument is that, even if on their natural and ordinary meaning the present maintenance requirements would be understood to prohibit third party financial support, they should be construed not to do so to avoid violations of article 8.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I should also briefly note the respondent&#8217;s arguments to the contrary. Essentially these are, first, that by no means all refusals of entry clearance under the relevant Part 8 rules will interfere with article 8 rights. This is perhaps most obviously so in cases under rule 317. But it is true also in cases where on the facts family reunification could take place abroad. Secondly, and in any event, there is simply no need to construe the Rules compatibly with the UK&#8217;s obligations under the Convention. Convention compatibility is in any event ensured by rule 2 &#8211; which requires all ECOs and other immigration staff to act in compliance with the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> &#8211; and, if necessary, by a human rights appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/41/section/84/1" uk:canonical="2002 c. 41 s. 84" uk:origin="TNA" uk:type="legislation">section 84(1)</ref>(c) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/41" uk:canonical="2002 c. 41" uk:origin="TNA" uk:type="legislation">Nationality, Immigration and Asylum Act 2002</ref>. As the House of Lords said in <span style="font-style:italic">Huang v Secretary of State for the Home Department</span> <ref href="#" uk:canonical="[2007] 2 AC 167" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 2 AC 167</ref> (para 17):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;It is a premise of the statutory scheme enacted by Parliament that an applicant may fail to qualify under the rules and yet may have a valid claim by virtue of article 8.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">It was essentially this second argument which prevailed below &#8211; see paras 33-40 of Laws LJ&#8217;s judgment, agreed to by both the other members of the Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Given, however, as already indicated, that I would in any event construe the existing rules as permitting of third party support without any reference to article 8 of the Convention, it is plainly unnecessary to decide the point. Obviously, were the Secretary of State now to amend the rules to exclude third party support &#8211; and Parliament not then disapprove them &#8211; it might well become necessary to do so. The argument could possibly be affected by the precise form of amendments made.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">So much for the primary issue before us. I turn altogether more briefly to the other issues arising. First, the question of joint sponsors. Although not raised as an issue in the Statement of Facts and Issues, the respondent wishes to challenge the conclusion of the majority in <span style="font-style:italic">AM (Ethiopia)</span> that rules 297 and 317 allow support by joint sponsors. As to this, the respondent emphasises the repeated reference in the Rules to the word sponsor in the singular, not least in rules 6, 6A and 35 which are suggested to be of particular relevance on this issue. The respondent, however, really has no answer to the commonsense question why a relative should not seek entry to join more than one person &#8211; for example his sons or brothers &#8211; nor to a particular point arising under rule 317(i)(e) and (f). These two subparagraphs each require that in particular circumstances the person seeking entry is &#8220;mainly dependent financially on relatives settled in the United Kingdom&#8221; (note the plural). True, in paragraph (iii), a further requirement for entry, the word &#8220;relative&#8221; returns to the singular; but it can hardly be thought to rule out say, a parent applying to join two daughters living together in the UK who have jointly funded the applicant&#8217;s life abroad and propose continuing to do so in the UK. Most conclusive of all, perhaps, is <ref href="http://www.legislation.gov.uk/id/ukpga/1992/5/section/78/6" uk:canonical="1992 c. 5 s. 78" uk:origin="TNA" uk:type="legislation">section 78(6)</ref>(c) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1992/5" uk:canonical="1992 c. 5" uk:origin="TNA" uk:type="legislation">Social Security Administration Act 1992</ref> (the statute referred to in rule 35) which refers to a person who has &#8220;either alone or jointly with a further person, given an undertaking in writing in pursuance of immigration rules within the meaning of the <ref href="http://www.legislation.gov.uk/id/ukpga/1971/77" uk:canonical="1971 c. 77" uk:origin="TNA" uk:type="legislation">Immigration Act 1971</ref> to be responsible for the maintenance and accommodation of the other person.&#8221; As, moreover, already pointed out (para 21 above) such a conclusion actually assists the Secretary of State to obtain rule 35 undertakings where these are judged necessary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As to whether, in a case of proposed joint sponsorship, each sponsor must be named as such in the application form, the question becomes largely academic once it is recognised that third party financial support in any event falls to be taken into account under these Part 8 rules. Indeed, as suggested above, it may well be the ECO, perhaps with a view to obtaining an undertaking, who suggests that the third party be treated as a joint sponsor. Certainly, so far as KA and MI&#8217;s cases are concerned, it seems to me that KA&#8217;s 22 year-old granddaughter, Ayan Abdi, could well have been treated as a joint sponsor with her mother, Anab Ahmed, and that, had third party support otherwise been precluded, it would not have been right to reject the application without at least giving Ayan Abdi the opportunity formally to become a joint sponsor. After all, the application form recorded in terms that &#8220;granddaughter, Ayan, will provide third party support&#8221;, that &#8220;third party sponsor, Ayan, is in employment&#8221;, that &#8220;Ayan will provide all living expenses&#8221; and that &#8220;the applicant&#8217;s granddaughter will ensure sufficient income so there is no recourse to public funds&#8221;. Having succeeded on the main issue, of course, KA and MI do not in fact need to succeed also on the joint sponsorship issue. Rather this was a second string to their bow.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">By contrast, VS <span style="font-style:italic">does</span> need to succeed also on the issue arising in his case under rule 317(iii), as to whether he had been &#8220;financially wholly or mainly dependent&#8221; on his son. The relevant facts found by the immigration judge as to this were as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;65.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">I am satisfied that, since 2005 the appellant has been in receipt of approximately &#163;100 per month from the UK. The source of that money has been Mr Arunan. Mr Arunan has provided the money to the sponsor who has sent it to his father. I am entirely satisfied that the money from Mr Arunan was earmarked for the father. It was not money given to the sponsor to do with as he wished. It was for the father. As Mr Arunan said in his witness statement &#8216;I am helping him (the sponsor) financially providing &#163;100 a month to support his father. I am happy to support (the appellant) and I am able to afford it.&#8217;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">66.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">I am satisfied that the appellant is wholly or mainly dependent on that money in Sri Lanka.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">On those facts the view taken successively by the immigration judge, the AIT and Carnwath LJ was that VS was not financially dependent on his son &#8220;but on the son&#8217;s friend, Mr Arunan, who actually provided the money, the son being a mere &#8216;conduit&#8217;&#8221; (para 109 of Carnwath LJ&#8217;s judgment). Neither of the other members of the Court of Appeal expressed a view on this point, having in any event ruled out Mr Arunan&#8217;s continuing financial support under rule 317(iva).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I would respectfully disagree with this conclusion on rule 317(iii). This paragraph is concerned simply to establish the financial link between the dependent relative abroad and the relative settled here. Provided only that the relative abroad is getting funds on which he is wholly or mainly dependent and which he would not be getting save for his relative present and settled in the UK, that is sufficient. It is not necessary for the funds ever to have been part of the settled relative&#8217;s own personal resources.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Realistically, this issue falls to be decided in the same way as the main issue of third party support arising under rule 317(iva). I had wondered at one stage of the argument whether possibly, contrary to Carnwath LJ&#8217;s view that rule 317(iva) could be more easily understood than the other Part 8 rules to allow third party financial support, it might, because of paragraph (iii), actually be the hardest to construe in that way. I am now satisfied, however, that, by the same token that the principal maintenance requirements are indifferent (save as to verification and reliability) as to the source of the funds which are going to maintain the applicant after arrival, so too rule 317(iii) is indifferent as to the source of the funds supporting the relative abroad, provided only that he receives them because of his settled relative here. Indeed, the relative abroad might well know nothing of the actual source of the funds, being aware only that they are sent regularly by his relative here. He understands himself to be dependent on his relative here and in my judgment he is right to do so. The rule is satisfied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">One matter can be disposed of very shortly indeed, AM(1)&#8217;s submission that the AIT erred in law in dismissing his article 8 appeal and that the Court of Appeal were wrong to have rejected this contention. Essentially it was submitted, first, that, notwithstanding that the very recent decision of the House of Lords in <span style="font-style:italic">Huang</span> was before them, the AIT nevertheless failed to grasp that article 8 claims involve no additional test of exceptionality, and, secondly, that, although they acknowledged delay to be &#8220;a relevant factor&#8221; in the case, the AIT perversely gave insufficient weight to it. In my judgment there is nothing in either of these submissions and they were properly rejected by the court below (at paras 81-89 of Laws LJ&#8217;s judgment, agreed to by both the other members of the court).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The further matter I need just mention is the issue raised in <span style="font-style:italic">AM (Somalia)</span> in respect of AM(2)&#8217;s sponsor&#8217;s disability and articles 8 and 14 of the Convention (see para 7 above). Having indicated to counsel at the conclusion of the argument in <span style="font-style:italic">AM (Ethiopia)</span> our decision on the central issue of third party support, counsel for the respondent took specific instructions on AM(2)&#8217;s case and stated that in those circumstances there appeared to be no further objection to the grant of entry clearance. This being so, it was agreed that argument on the disability discrimination issue was unnecessary and that it would be appropriate for the Court merely to record that fact.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">So far as the other appeals are concerned, it was agreed that AM(1)&#8217;s appeal succeed and the Immigration Judge&#8217;s order be restored and that the other 3 appeals be remitted to the AIT for redetermination in the light of our ruling that third party support is not precluded from consideration under the maintenance requirements of the relevant rules. Third party offers of financial assistance have been made in each of these cases: in AM(1) by his daughter and a nephew; in VS (as stated above) by Mr Arunan; in SA (and AW) by two relatives of the sponsor; and in KA (and MI) (as stated above) by KA&#8217;s granddaughter, Ayan Abdi. Those offers will now have to be verified and assessed so that decisions can finally be reached as to whether all or any of these appellants can satisfy the requirement that they could be adequately maintained in the UK without recourse to public funds.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I would accordingly allow all of these appeals and make the orders indicated.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I add just two footnotes. First, I have thought it unnecessary to set out the facts of these cases beyond the very few details given above where these have been strictly necessary for the resolution of the issues before us. If anyone is interested in the fuller facts of these cases, he will find them admirably recounted in the judgments below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Secondly, throughout this judgment I have continued for convenience to refer to the appellants by their initials (as they have hitherto been known) notwithstanding that it was agreed by all that anonymity in these cases (at least for the adult appellants) is in fact quite unnecessary and therefore inappropriate. Although Mr Fordham QC left it to the court to decide whether the child, AW, should remain anonymous, once it is recognised that her mother, SA, is to be named, there could be no possible reason not to name AW also. The title of this judgment will duly record all the appellants&#8217; names in full.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold">LORD HOPE:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I agree with the judgments of Lord Brown and Lord Kerr. For the reasons they give I too would allow the appeals and make the orders which Lord Brown proposes. I also agree with the judgment of Lord Collins.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold">LORD RODGER:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I have read the judgments of Lord Brown and Lord Kerr. I agree with them and, for the reasons they give, I too would allow the appeals and make the orders which Lord Brown proposes.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold">LORD COLLINS:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I am in complete agreement with the judgment of Lord Brown. I am now satisfied that <span style="font-style:italic">MW (Liberia) v Secretary of State for the Home Department </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/1376" uk:canonical="[2007] EWCA Civ 1376" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 1376</ref>, <ref href="#" uk:canonical="[2008] 1 WLR 1068" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] 1 WLR 1068</ref> (in which I was a member of the court) was wrongly decided.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In that case the evidence was that friends of the mother had been giving her regular funds to support her child in Ghana, and would continue to do so if the child were given leave to enter the United Kingdom. The relevant rule was rule 297(v), which requires that that the child must show that the child &#8220;can, and will, be maintained adequately by the parent, parents or relative the child is seeking to join, without recourse to public funds.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The court was influenced in its conclusion that this rule did not envisage third party support by the amendments in 2000 to the Immigration Rules. Prior to the changes maintenance and accommodation were dealt with in a single sub-rule which said &#8220;(iv) can, and will, be maintained and accommodated adequately without recourse to public funds in accommodation which the parent, parents or relative own or occupy exclusively.&#8221; In <span style="font-style:italic">R v Secretary of State for the Home Department Ex parte Arman Ali </span>[2000] INLR 89, Collins J held that the unamended rule 297(iv) did not preclude third party funding. In <span style="font-style:italic">MW (Liberia) </span>the court was invited by the Secretary of State to draw the inference that the rule change was designed to make it clear that third party support was not envisaged by the rule. It is clear that that contention influenced the conclusion that the amendment was intended to have the effect that before entry would be allowed it had to be shown that <span style="font-style:italic">the parent </span>had adequate means to support the child: at [16], and see also [10]. I agreed with this conclusion with regret, and expressed the hope that consideration would be given to an amendment of the rule to facilitate reunion where there was verifiable evidence of long-term support.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">But the essential plank of this decision has been removed, since it is now reasonably clear that the purpose of the amendment was not to remove the possibility of third party support, but to meet the concern that children might be brought to the United Kingdom and end up living with someone other than the sponsor, under someone else&#8217;s roof and at someone else&#8217;s expense. It was a child protection measure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The overall point in these appeals is that the arguments for the Secretary of State were founded on the model of a nuclear self-supporting family, which is far removed from the reality of the situation in the typical immigration case. This is not a new phenomenon. Members of immigrant communities have always supported each other.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold">LORD KERR:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I am in complete agreement with the judgment of Lord Brown and, for the reasons that he has given, I too would allow the appeals and make the orders that he proposes.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The relevant rules (rules 281(v), 297(v) &#8211; latterly 297(iv) - and 317(iva)) should be interpreted as permitting third party support. It is possible, if one isolates the words in rule 281(v), &#8220;maintain themselves&#8221;, to regard them as connoting an ability to generate sufficient income oneself. Likewise, the words in rule 297(v) &#8220;can, and will, be maintained adequately by the parent&#8221;, if separated from their context, might be considered to impose a requirement that the maintenance of the child be met by funds belonging exclusively to the parent. So to construe the rules would produce a distorted result for the reasons that Lord Brown has given. The relevant words in each provision must be read in conjunction with the phrase which also appears in both, &#8220;without recourse to public funds&#8221;. They must also be considered in terms of the overall purpose of the provisions. The purpose is to ensure that there is no resort to public funds by family members entering the United Kingdom to join other family members already settled here. If it can be shown that funds are reliably available from a third party, that eventuality is avoided and the purpose of the rules is fulfilled.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">To interpret the rules as permitting third party support not only accords with their natural meaning, it avoids the anomaly referred to by Lord Brown in paragraph 12 of his judgment of permitting third party support for accommodation while denying it for maintenance. There is no logical reason for such a distinction and it would be remarkable if, within the same rule, strikingly similar formulations in relation respectively to accommodation and maintenance were employed to bring about a radically different outcome in each case &#8211; thus, in rule 281, according to the respondent, the requirement that there be &#8220;adequate accommodation for the parties and any dependants without recourse to public funds&#8221; (281(iv)) would permit third party support while a requirement that the parties be &#8220;able to maintain themselves and any dependants adequately without recourse to public funds&#8221; (281(v)) would forbid it. I cannot believe that such an incongruous result was intended.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">An interpretation of the relevant rules which prohibits third party support fails to accord any significance to the contrast between these provisions and those in Parts 6 and 7 which expressly stipulate that income or funds must be self generated (rules 201, 232 and 263, for instance). It is difficult to understand why, if the formulation used in rules 281 and 297 was intended to be and was efficacious to forbid third party support, it was not also employed in the relevant Parts 6 and 7 rules. It appears to me that the difference in language is far more likely to be indicative of an intention to permit funds from a third party source in the rules under consideration in these appeals while disallowing them in the rules where explicit language is used to achieve that result.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The rationale which, it is said, underpins the exclusion of third party support in the relevant rules is that it is inherently more difficult to police and that it is precarious to rely on it in order to forestall recourse to public funds. In the first place, I question whether, even if it is more precarious, that is a legitimate basis on which to adopt an interpretation that seems at odds with the natural and plain meaning of the words. But, in any event, I have been persuaded, particularly by the examples given by Mr Fordham QC on behalf of the appellants, SA and AW, that the exceptions to self generated income that undeniably exist are at least as &#8220;precarious&#8221; as funds supplied by, say, a close relative. The vaunted precariousness of support from a third party source is, in my opinion, no greater than that which might arise in the course of the ordinary vagaries and vicissitudes of life. Promised employment may not materialise or may last for only a short time. Dependence on benefits received by the family member who is settled in the United Kingdom may cease. As Lord Brown has pointed out, there is no warrant for (and much to be said against) the view that third party support occupies a particular category of uncertainty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In any event, as the appellants have submitted, availability of third party support as a means of fulfilling the rules&#8217; requirements proceeds on the premise that the applicant <span style="font-style:italic">can</span> demonstrate that he or she will <span style="font-style:italic">not </span>be a drain on public funds. This may well prove a formidable hurdle in most cases. But it is entirely conceivable that support from a number of family members and friends of the person seeking to enter will be a more dependable resource and a more effective prevention of dependence on public funds than prospective employment. As Lord Pannick QC, for MI and KA, pointed out, the practical reality in many of these cases is that funding will come from a number of sources.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On the construction to be placed on rule 317(iii) I am again in entire agreement with Lord Brown. This rule specifies that the person seeking indefinite leave to enter must be financially dependent on the relative present and settled in the United Kingdom. Does that mean that the UK resident must be in a position to meet the dependency of his relative from his own resources or does it merely mean that the financial dependency exists? In my view, the latter interpretation is plainly to be preferred. The import of the rule is to require that the UK resident should have the capacity to sustain his relative&#8217;s dependency but there is nothing in its language that prohibits the funds from which he is able to do so coming from an external source. Financial dependency for the purposes of the rule is established by the fact of payment by the resident relative. It is not displaced from that condition simply because the money for the payment comes from a different source.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

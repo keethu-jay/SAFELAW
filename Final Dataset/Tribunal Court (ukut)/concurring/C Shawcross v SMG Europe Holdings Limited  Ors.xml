@@ -1,0 +1,338 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/92"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/92"/>
+	  <FRBRdate date="2025-05-27" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="92"/>
+	  <FRBRname value="C Shawcross v SMG Europe Holdings Limited &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/92"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/92"/>
+	  <FRBRdate date="2025-05-27" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/92/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/92/data.xml"/>
+	  <FRBRdate date="2025-07-29T14:47:04" name="transform"/>
+	  <FRBRdate date="2025-07-29T15:09:51" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-05-27" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ms-c-shawcross" href="" showAs="MS C SHAWCROSS"/>
+	<TLCPerson eId="smg-europe-holdings-limited-and-others" href="" showAs="SMG EUROPE HOLDINGS LIMITED AND OTHERS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>92</uk:number>
+	<uk:cite>[2025] EAT 92</uk:cite>
+	<uk:parser>0.26.21</uk:parser>
+	<uk:hash>e23ac8fe2c8e9450673e250dabbacda737e3f1e4087a86dbc0eaaaa3295fe4ae</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .ListParagraph { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention1 { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .QuoteChar { font-size: 12pt; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Judgment approved by the court</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:8pt">Shawcross v SMG Europe Holdings Ltd &amp; Ors.</span></p>
+    </coverPage>
+    <header>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">[2025] EAT 92</neutralCitation></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">EA-2025-000215-RN</docketNumber></p>
+      <p style="margin-left:0.49in;text-indent:-0.49in"><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">Date: </span><docDate date="2025-05-27" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">27 May 2025</docDate></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;color:#000000">Before</span><span style="color:#000000">:</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">THE HON. LORD FAIRLEY, PRESIDENT</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="color:#000000">---------------------</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;color:#000000">Between:</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><party as="#appellant" refersTo="#ms-c-shawcross" style="font-weight:bold">MS C SHAWCROSS</party></p>
+      <p style="text-align:right;margin-left:0.49in;text-indent:-0.49in"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appellant</role></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">- and -</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><party as="#respondent" refersTo="#smg-europe-holdings-limited-and-others" style="font-weight:bold">SMG EUROPE HOLDINGS LIMITED AND OTHERS</party></p>
+      <p style="text-align:right;margin-left:0.98in;text-indent:-0.49in"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Respondent</role></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="color:#000000">---------------------</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold">Ms Hana Abas</span>, of counsel (instructed by <span style="font-weight:bold">Thrive Law</span>)<span style="font-weight:bold;color:#000000"/><span style="color:#000000">for the </span><span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;color:#000000">Mr Thomas Wood</span><span style="color:#000000">, of counsel</span><span style="font-weight:bold;color:#000000"/><span style="color:#000000">(instructed by</span><span style="font-weight:bold;color:#000000"/><span style="font-weight:bold">Pannone Corporate LLP</span><span style="color:#000000">) for the </span><span style="font-weight:bold">Respondent </span></p>
+      <p style="text-align:center">Hearing date: 27 May 2025</p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="color:#000000">---------------------</span></p>
+      <p style="text-align:center;margin-left:0.49in;text-indent:-0.49in"><span style="font-weight:bold;font-size:18pt;color:#000000">JUDGMENT </span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY:</span></p>
+      <p><span style="font-style:italic;font-weight:bold">Practice and procedure; evidence; legal advice privilege; iniquity exception</span></p>
+      <p class="ParaLevel1">The appellant was dismissed by the respondent on 28 April 2023.  Two days earlier, she was accidentally copied into an email chain of communications between the first respondent and its legal representative. The chain consisted of seven emails. The appellant sought to rely upon the chain of emails in support of a complaint of victimisation.  The respondent submitted that the emails were subject to legal advice privilege.  The appellant submitted the emails fell within the &#8220;iniquity exception&#8221; because they were evidence of a discussion about fabricating the reason for dismissal and the identity of the decision-maker. The Employment Judge concluded that the appellant had not established that the emails were subject to the iniquity exception. He directed that the appellant was not permitted to rely upon them in evidence at the full hearing of her complaints. The appellant submitted that the Judge had erred in law. </p>
+      <p class="ParaLevel1">Held: The Judge had not erred in law. Objectively, and read as a whole, the correspondence did not amount to a discussion about fabricating a false position or acting in an underhand or iniquitous way.  Even if all parties to the correspondence considered that there was an overwhelming likelihood, perhaps bordering on certainty, that the appellant would be dismissed, there was no error of law in the conclusion that the appellant had not crossed the threshold necessary to establish the iniquity exception. The advice given by the solicitor was the sort of advice that employment lawyers regularly have to give to clients and was within the normal scope of professional engagement.</p>
+      <p class="ParaLevel1">The appeal was therefore refused. </p>
+      <p><span style="font-weight:bold">THE HON. </span><span style="font-weight:bold;color:#000000">LORD FAIRLEY, PRESIDENT:</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This is an appeal against a case management order of Employment Judge Lancaster dated 6 February 2025 in the Employment Tribunal at Leeds.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The appellant has advanced a range of complaints under the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>.  These are of discrimination arising from disability; disability discrimination by failure to make reasonable adjustments; harassment related to disability; harassment related to sex; and victimisation.  A full hearing of those complaints has been listed for December of this year and this appeal has been held on an expedited basis to accommodate that hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">At one stage the appellant also advanced a complaint of automatically unfair dismissal in terms of section 103A of the Employment Rights Act, but she no longer does so (see pages 2 and 3 of the Preliminary Hearing note of 3 July 2024).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Within the appellant&#8217;s complaint of victimisation it is her position that she was subjected to various detriments, including her dismissal on 28 April 2023, for having raised a grievance on 29 November 2022. The appellant also raised further grievances after 29 November 2022, but I was advised by counsel that those are not relied on for the purposes of the detriment of dismissal in the victimisation complaint.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The facts which give rise to this appeal can be summarised relatively shortly.  There is no dispute that the appellant was dismissed by the respondent on 28 April 2023.  Two days earlier, on 26 April 2023, she was accidentally copied into an email chain of communications between the first respondent and its legal representative Mr Mutch.  There are seven emails in total within that chain, all of which were sent on 25 or 26&#160;April 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The appellant wishes to rely upon that chain of emails in support of her complaint of victimisation.  The respondent submits that the emails are subject to legal advice privilege (&#8220;LAP&#8221;).  Before Judge Lancaster the appellant countered that proposition by suggesting that the emails fell within what has become known as &#8220;the iniquity exception&#8221;, such that LAP had never applied to them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Judge Lancaster concluded that the appellant had not established that the emails were subject to the iniquity exception. He therefore directed that the appellant was not permitted to rely upon them in evidence at the full hearing of her complaints.  In summary, the appellant&#8217;s position is that the judge erred in law in concluding that on the balance of probabilities the emails did not disclose iniquitous conduct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The relevant email chain has been produced to me for this appeal.  It consists of: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">an email on 25 April 2023 at 07.46 from Mr Mutch to Catrin White, copied to Rachel Williams;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">a reply on the same date at 10.47 from Ms White to Mr Mutch, also copied to Rachel Williams;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">an email on 25 April at 10.53 from Ms Williams to Mr Mutch and Ms White;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">a reply at 12.49 the same date from Mr Mutch to Ms Williams and Ms White;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">a further email on 25 April at 13.09 from Ms White to Mr Mutch and Ms Williams;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">a further email on 25 April at 15.16 from Mr Mutch to Ms White and Ms Williams enclosing a draft dismissal letter; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in">a reply on 26 April 2023 at 16.45 from Ms White to Mr Mutch and Ms Williams which was copied to the appellant.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The two limbs of the appellant&#8217;s argument are: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.89in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0in">that, properly interpreted, the emails show that the respondent sought to dismiss the appellant by a dishonest and sham process designed to disguise the true identity of the decision maker and the fact that the decision to dismiss had already been taken by 25 April 2023; and, if so, </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.89in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.89in;text-indent:0in">that such conduct falls within the iniquity exception.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Parties were agreed that the interpretation of the emails was a matter of law (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Curless v Shell International Ltd.</span><span style="color:#000000"> <ref href="#" uk:canonical="[2020] IRLR 36" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] IRLR 36</ref></span><span style="font-family:'Helvetica Neue';color:#000000"/>at paragraph 47) and that the scope of the iniquity exception was similarly an issue of law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I was addressed by both counsel on the scope of the iniquity exception and referred to relevant authorities.  Those show, in my view, that the judge&#8217;s self directions on the law at paragraphs 15 to 23 of the reasons were correct and disclose no error.  The relevant principles are most conveniently summarised in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Al Sadeq v. Dechert LLP</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/28" uk:canonical="[2024] EWCA Civ 28" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ. 28</ref>, to which the judge made express reference at paragraphs 17, 18, 20 and 23.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Importantly, at paragraphs 26 to 31, the judge clearly recognised the need to give careful scrutiny to the terms of the correspondence as a whole.  As the question of the meaning of that correspondence is an issue of law, however, no particular deference requires to be paid to the conclusions reached by the judge.  The issue of interpretation is a matter which is at large for this tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I have considered the terms of the email chain in light of the submissions that have been made.  Several things are notable about the emails:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0in">It is clear that Mr&#160;Mutch offered advice as to the risk of an immediate dismissal of the appellant being found to be unfair and as to steps that could be taken to mitigate that risk.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0in">Mr&#160;Mutch identified and warned of a particular risk that the appellant might seek to argue that dismissal was an act of victimisation, but he did not suggest that such a complaint would be well-founded.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0in">There is no mention anywhere in the chain of the grievance of 29 November 2022 (or, indeed, any other grievance) forming any part of the respondent&#8217;s reason for the decision to dismiss.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">4)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0in">The only express reference by anyone to a reason for dismissal is in Mr Mutch&#8217;s email of 25 April 2023 at 15.16 under reference to the draft dismissal letter prepared by him and sent on that date.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">5)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0in">Read as a whole, a fair interpretation of the advice given by Mr Mutch was that he recommended a review of the position that had been reached by 25 April 2023 by a member of senior management of the respondent in the expectation that such a manager would need to be able to justify &#8220;his decision&#8221; to dismiss before a tribunal.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.64in;text-indent:-0.25in">6)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.64in;text-indent:0in">In Catrin White&#8217;s email of 26 April at 16.45, she identified Mr Cooper as the decision maker without any suggestion that his involvement was merely a sham.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Abbeyfield (Maidenhead) Society v. Hart</span> <ref href="#" uk:canonical="[2021] IRLR 932" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] IRLR 932</ref>, indications that a decision had already been taken by someone within the respondent&#8217;s organisation as to the appellant&#8217;s future employment were described as the very sort of candid instruction that a party may feel able to give in a privileged communication.  The same observation might be made in this case.  At no point, however, did the respondent suggest to Mr&#160;Mutch that it wished to conceal the identity of the true decision maker or fabricate an ulterior reason for dismissing.  It did not seek advice on either of those things and Mr Mutch did not volunteer such advice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Objectively, and read as a whole, the correspondence did not amount to a discussion about fabricating a false position or acting in an underhand or iniquitous way amounting to a sham.  Rather, it was consistent with a solicitor encouraging his client to bring in a senior manager as, &#8220;a fresh pair of eyes&#8221; (an expression which features in the chain albeit not directly from Mr Mutch) to look at the case again before any decision to dismiss became final by its intimation to the appellant.  It was clearly anticipated by both Mr Mutch and by Ms White that the final decision would be that of the more senior manager. This is clear from the reference in Mr Mutch&#8217;s email of 25 April at 12.49 to &#8220;his decision&#8221; and to Ms White&#8217;s description of Mr Cooper as &#8220;the decision maker&#8221; in her email of 16.45 on 26 April.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Even if all parties to that correspondence considered that there was an overwhelming likelihood, perhaps bordering on certainty, that the appellant would still be dismissed at the end of that review, the Employment Judge did not err in law in concluding that the appellant had not crossed the threshold necessary to establish the iniquity exception.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">On the question of the interpretation of the email chain, therefore, I agree with the view expressed by the Employment Judge at paragraph 30 that the advice sought and provided by Mr Mutch was similar to that given in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Curless</span>.  I would also add that the context was in some respects analogous to that in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Abbeyfield</span>.  The advice given by Mr&#160;Mutch was the sort of advice that employment lawyers regularly have to give to clients and was, per <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Al Sadeq</span>, within the normal scope of professional engagement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In these circumstances it is not necessary for me to move on to consider the second limb of the appellant&#8217;s argument and to seek to resolve the question that the Court of Appeal left undecided in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Curless</span>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In light of the conclusion I have reached on the first limb of the argument I will sustain decision of the Employment Judge and refuse the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

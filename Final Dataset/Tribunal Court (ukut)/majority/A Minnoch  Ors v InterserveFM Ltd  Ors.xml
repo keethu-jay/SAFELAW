@@ -1,0 +1,798 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/35"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/35"/>
+	  <FRBRdate date="2023-03-15" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="35"/>
+	  <FRBRname value="A Minnoch &amp; Ors v InterserveFM Ltd &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/35"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/35"/>
+	  <FRBRdate date="2023-03-15" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/35/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/35/data.xml"/>
+	  <FRBRdate date="2024-11-09T19:41:47" name="transform"/>
+	  <FRBRdate date="2024-11-17T09:24:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-03-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-a-minnoch-and-others" href="" showAs="MR A MINNOCH AND OTHERS"/>
+	<TLCPerson eId="interservefm-ltd-and-others" href="" showAs="INTERSERVEFM LTD AND OTHERS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-james-tayler" href="/judge-his-honour-judge-james-tayler" showAs="HIS HONOUR JUDGE JAMES TAYLER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>35</uk:number>
+	<uk:cite>[2023] EAT 35</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>f0e4860e46759b4431a90b786ce2bd3b90a21a56b6bf31b79ca917dd8456963d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><span style="font-family:'Times New Roman';font-size:6pt"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Minnoch and Others v InterserveFM Ltd and Others</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 35</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2021-000305-AT</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-03-15" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">15 March 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-james-tayler" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#mr-a-minnoch-and-others" style="font-weight:bold;font-size:12pt">MR A MINNOCH AND OTHERS</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#interservefm-ltd-and-others" style="font-weight:bold;font-size:12pt">INTERSERVEFM LTD AND OTHERS</party><marker name="tab"/><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondents</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">REBECCA TUCK KC </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Thompsons Solicitors LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JONATHAN HEARD </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Dentons UK and Middle East LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">First</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">No appearance or representations by or on behalf of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Second to Sixth Respondents</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 16 February 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Practice and Procedure</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The employment judge erred in law in issuing a notice that claims had been struck out for breach of an unless order. The employment judge failed to direct himself to the relevant law and properly to determine whether there had been material compliance. Authorities about unless orders considered.</span></heading>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p style="text-align:justify;margin-right:3.7in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This is an appeal against a notice issued by Employment Judge J S Burns, dated 19 December 2020, stating that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claims of all Claimants have been struck out following the Claimants' non-compliance with the unless Order dated 9/12/2020</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Minnoch and 36 others brought claims that Interserve FM Ltd (&#8220;the respondent&#8221;) withheld pay for days on which they were on strike in June and July 2019, and failed to identify the deductions in their pay slips. Their claims were set out in a single claim form that was received by the employment tribunal on 10 October 2019. This appeal is brought by 30 of the original claimants (&#8220;the claimants&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claim was considered by EJ Burns at a preliminary hearing for case management on 9 October 2020. The final hearing was listed from 27 to 29 January 2021. Amongst the directions made to prepare the matter for hearing, it was ordered:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By 6 November 2020 the Claimants must serve electronically on the Respondent (i) </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">a</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> schedule of loss</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and damage claimed for</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> each Claimant</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to include </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">any compensatory or mitigating sums received by the Claimant from the union</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and (ii) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">a list of all relevant documents in the case which are within the Claimants' possession or control</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> and (ii) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">copies</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> of those documents.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By 27 November 2020 the Respondent shall serve electronically on the Claimants (i) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">counter schedules</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> for each Claimant (ii) a list of all relevant documents in the case which are within the Respondent's possession or control and (iii) copies of any of those documents which are new to the Claimants and not included in the Claimants' disclosure. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I make no criticism of the order as first made. There is some ambiguity in the reference to </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">a</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> schedule of loss</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (singular) for </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">each Claimant</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">,</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">in contrast to the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">counter schedule</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">s</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">(plural) the respondent was ordered to provide. It is not entirely clear whether the claimants should produce one schedule setting out the loss claimed by each claimant, or separate schedules for each claimant. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A pedantic approach should not be adopted to construing everyday case management orders. The parties should just get on and comply, focusing on the purpose of the order. The parties should cooperate with each other and agree a constructive way forward if there is any doubt about the meaning of the order, to achieve the most effective manner of compliance. That is required of the parties by the overriding objective.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is not clear why the order required sequential disclosure of documents, with the claimants providing their documents first. It is not unusual where a claimant is in person for sequential disclosure to be ordered, with the respondent providing disclosure first, because the respondent will generally have most of the documents. When both parties are represented, as was the case here, mutual exchange is more common. As this case was essentially about pay slips and deductions, one would have expected the respondent to have access to most, or all, of the relevant documents, such as pay slips, because they produced or should hold them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants failed to comply with the Order. They, or their representatives, can properly be criticised for that failure. Orders are made to be complied with. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 20 November 2020, the claimants&#8217; solicitors sent an email with a list of documents attached. It was noted:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We are awaiting the disclosure of the payslips for the remaining Claimants. We will disclose these to you shortly along with the schedule of loss.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 9 December 2020, the respondent's solicitor wrote applying for the claim to be struck out, or that an unless order be made. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">EJ Burns made an unless order that day:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claim of any Claimant who has not by 5pm on 16/12/20 served on the Respondent all the documents pertaining to his/her claim referred to in paragraph 4 of the Case Management Order (following the telephone hearing on 9/10/20) shall be struck out at 5.01 pm on 16/12/2020 without further order.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Respondent is to report to the Tribunal on 17/12/20 the names of those claimants whose claims (i) have been or (i) have not been struck out as per the previous paragraph.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">While an employment judge may not need to bring his or her drafting A game to making workaday case management orders, more care is required when making an unless order. As we shall see, the authorities highlight the risks of converting a pre-existing case management order into an unless order, without being sure that it will be fit for that purpose. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The unless order EJ Burns made is unusual because it ceded to the respondent the role of policing it; requiring the respondent to &#8220;report&#8221; the names of those whose claims had, or had not, been struck out.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 16 February 2020 at 14.02, the claimants&#8217; solicitors sent an email to the employment tribunal attaching a spreadsheet entitled &#8220;MINNOCH &amp; others &#8211; LOSSES&#8221; in which there were columns headed &#8220;HOURLY RATES&#8221;, &#8220;DAILY RATE (8 HOURS)&#8221;, &#8220;PAY LOST TO STRIKE&#8221; and &#8220;STRIKE PAY FROM UNION&#8221;. There were figures in all columns for most claimants, save for a few claimants where there was a dash in the column recording strike pay received from the union. The email described the spreadsheet as a &#8220;Schedule of loss setting out in a spreadsheet the Claimants losses&#8221;. A further spreadsheet was provided described as a &#8220;Spreadsheet from the Union detailing the payments made to the Claimants by the union&#8221;. In the email it was stated:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In regards to the specific disclosure request we have contacted the Claimants and requested they forward the relevant documents to the dispute. The attached disclosure are the items in the Claimants possession which they have retained copies. We therefore have no further documents to disclose at this time. If there are any documents which are in the possession of the Respondent which have previously been sent to the Claimant then we request these documents be included in the Respondent&#8217;s list of documents and disclosure.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimants have in particular searched for the contract of employment and/or employment particulars from their previous employer MITIE but they are unable to locate the document. The Claimants submit that a copy should have been provided by MITIE to the Respondent at the time of the transfer of their employment.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At 15.25, EJ Burns sent an email to the parties stating that no list of documents had been provided. At 15.34 the claimants&#8217; solicitors sent an email attaching a list of documents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 17 December 2020, the respondent wrote to the employment tribunal:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Further to number 4 of the Tribunal&#8217;s Orders dated 9th October 2020 (as attached) and paragraph 1 of the Unless Order dated 9th December 2020 (as attached), I can confirm that this claim (for all 37 Claimants) was &#8216;struck out&#8217; at 5.01 pm on 16th December 2020 without further order. As a result, the hearing dates could now be vacated if the Tribunal is so minded.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants&#8217; solicitors replied on 18 December 2020, reminding the employment judge that the question of material compliance was a matter for him, not the respondent, and stating:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">With respect to the respondent&#8217;s representative, as a matter of law it is not open to him to declare non-compliance and strike-out as he has done. His observations should properly be limited to the issue of material non-compliance.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 19 December 2020, EJ Burns sent a notice stating that the claims of all claimants had been struck out. There was no express self-direction to the law. EJ Burns gave the following reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Paragraph 4 of the 9/10/20 case management order read </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">"the Claimants must serve electronically on the Respondent a schedule of loss and damage claimed for each Claimant&#8221;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. It did not read </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">"the Claimants must serve electronically on the Respondent a schedule of loss and damage claimed by each Claimant"</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. As a matter of simple grammar, it was plainly intended and required that each Claimant would serve a separate schedule. That this was required was reinforced by the fact that the next paragraph of the order read "by 27 November 2020 the Respondent shall serve electronically on the Claimants [counter schedules] for each Claimant &#8230;&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The provision of a consolidated single spreadsheet does not comply with the requirements of paragraph 4.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Furthermore, the spreadsheet does not resemble in its lay-out or presentation a reasonable schedule of loss as understood in professional employment tribunal practice in the UK.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The single spreadsheet sets out the names of 37 Claimants, their hourly rates, their daily rates, pay lost to strikes and strike pay from the union. It shows "pay lost to strike" but the Claimants claim is not for "pay lost for strike" but for allegedly unnotified deductions made by the Respondent. It contains no calculations. On reading the document I am left speculating what the Claimants intend to communicate by it. As a matter of substance, it fails completely to serve the basic purpose of a Schedule of Loss which is to clearly communicate to the reader what sums are being claimed in the proceedings.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The spreadsheet is also missing basic information because it does not show the sums the Claimants admit they received from the Respondent in relation to the relevant periods.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I disagree with the Claimants' solicitor&#8217;s assertion (in its letter of 18/12/20) that "The Order did not require the inclusion of any sums paid by the Respondent to the Claimants". A reasonable Claimant, assisted by professional employment lawyers, should be taken to know that his or her Schedule of Loss must contain all the basic relevant financial information pertinent to the quantum of the claim, even if every element of that information is not specified in advance by the case management order.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have no doubt that the real reason why this highly relevant information is absent from the spread sheet is because the Claimants' solicitor has failed to obtain it from the Claimants by 16/12/20 or at all.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Even if, for some reason, the Claimants do not agree that they should give credit for the Respondents ex-gratia payments, it is necessary that they identify what sums they admit receiving so that the Respondent can understand what evidence it has to adduce about this and so that the Tribunal can make an informed decision in calculating the losses. The Tribunal would have wanted to be able to ascertain from the Claimants' schedules what sums each admits receiving from the Respondents, rather than by trying to dig up this information from 37 Claimants during a trial.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The list of documents is very short and obviously inadequate and appears to have been cobbled together at the last minute on 16/12/20. For example, only one out of 37 employment contracts has been disclosed, and there is no documentation to show the sums received by the Claimants from the union.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimants' solicitor baldly asserts (in its letter of 18/12/20) that it has disclosed "the documents in the Claimants' possession". There is no explanation offered for the failure to disclose most of the relevant documents which the Respondent's solicitor has been calling for weeks, as identified in its emails. I do not believe that the Claimants' list discloses all the relevant documents in the Claimants' possession. In any event the order required "disclosure of the documents in the Claimants possession or control". It is obvious that there has still not been proper disclosure from the Claimants in this matter.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I conclude that the Claimants have all failed to comply with the unless order and that all the claims were struck out 5.01 pm on 16/12/2020.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As a consequence of the Claimants' long delay and final breach of the unless order, the Respondent has been unable to comply in time or at all with the consequential trial preparation. Under my 9/10/20 order, by 27/11/20 the Respondent was to have served its [counter schedules], with the trial bundle finalised and served by 18 December, and witnesses statements being exchanged on 13 January 2021 for a 3 day trial starting on 27/1/21. It is now impossible for a fair trial to take place without a substantial adjournment to new trial dates to allow the pre-trial preparation to be carried out, which adjournment and allocation of new dates would be inappropriate having regard to the Claimants' unreasonable conduct of this matter and the needs of other tribunal users.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 23 December 2020, the claimants&#8217; solicitors wrote to the employment tribunal asking that the decision be reconsidered on the basis that there had been material compliance and/or applying for &#8220;relief from sanctions&#8221;. The information from the single spreadsheet was split into 30 separate schedules. The employment tribunal did not respond to the application. Strangely, the claimants&#8217; solicitors did not chase and request that the application be determined.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants appeal on three grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The EJ erred in law in that:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">he failed to consider whether there had been "</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">material non-compliance</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">" with the unless order (as per </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Marean Shipping (London) Ltd v Kefalas </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2007/463" uk:canonical="[2007] EWCA Civ 463" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWCA Civ 463</ref>).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">he failed to adopt a </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">qualitative test, with a facilitative rather than a punitive approach</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> which requires any ambiguity being resolved in favour of the party required to comply (</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Uwhubetine v NHS Commission Board England</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEA T/0264/18 (23 April 2019, unreported); and </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ijmoah v Nottinghamshire Healthcare NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0289/19, (20 June 2020, unreported).)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.59in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">he took into account </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">irrelevant factors</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">/ impermissibly read the original order expansively against the party who had to comply with it (</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Wentworth-Wood v Maritime Transport Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT 0316/15. 3 October 2016, unreported).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">Rule 38 </span><span style="font-weight:bold;font-size:12pt">Employment Tribunal Rules 2013</span><span style="font-size:12pt"> (&#8220;</span><span style="font-weight:bold;font-size:12pt">ET Rules</span><span style="font-size:12pt">&#8221;) provides:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">38.&#8212;(1) An order may specify that </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">if it is not complied with</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> by the date specified </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the claim</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> or response, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">or part of it</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, shall be </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">dismissed without further order</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  If a claim or response, or part of it, is dismissed on this basis </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the Tribunal shall give written notice</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to the parties confirming what has occurred.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A party whose claim or response has been dismissed, in whole or in part, as a result of such an order </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">may apply</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to the Tribunal in writing, within 14 days of the date that the notice was sent, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">to have the order set aside on the basis that it is in the interests of justice to do so</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  Unless the application includes a request for a hearing, the Tribunal may determine it on the basis of written representations. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Polyclear Ltd v Wezowicz and others</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2022] ICR 175" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] ICR 175</ref>, I noted:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is well established from the authorities that particular care must be taken in making unless orders because the automatic consequences of noncompliance are so draconian. This was noted by HHJ Auerbach in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Uwhubetine and others v NHS Commission Board England and others</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0264/18/JOJ at paragraph 51.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There are some cases in which a party is not engaging with the process so that after a number of orders have been breached an unless order can be effective, particularly where there is no attempt to comply within the time limit imposed, which brings the matter to a close without the need for a hearing with the waste of time and cost involved. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Things are more difficult where a party is attempting to engage in the tribunal process but fails to comply with orders to the satisfaction of the other party and the employment tribunal. Problems may occur where an unless order is made and there is some attempt at compliance. The problems are likely to be substantial if the unless order is ambiguous so that it is difficult to determine whether there has been material compliance, or something that falls short of material compliance, but should be taken into account in deciding whether to grant relief from sanction.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt">In </span><span style="font-weight:bold;font-size:12pt">Wentworth-Wood &amp; Others v Maritime Transport Limited</span><span style="font-size:12pt"> UKEAT/0316/15/JOJ HHJ David Richardson considered the potential judicial decisions that may be made in in respect of an unless order:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Rule 38 clarifies Employment Tribunal procedure concerning Unless Orders. The Employment Tribunal, usually the Employment Judge alone, is potentially involved at three stages, each involving different legal tests.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Firstly, there is the decision whether to impose an Unless Order and if so in what terms. &#8230;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Secondly, there is the decision to give notice under Rule 38(1). &#8230; The decision to give notice simply requires the Employment Tribunal to form a view as to whether there has been material non-compliance with the Order &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Thirdly, if the party concerned applies under Rule 38(2), the Employment Tribunal will decide whether it is in the interests of justice to set the Order aside. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At each of these stages there will be a decision for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17/section/21/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 21(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref>; so there may be an appeal to the Employment Appeal Tribunal on a question of law.  They are, however, separate decisions taken at different times under different legal criteria.  An appeal against one is not an appeal against another; and the time for lodging appeals will run from different dates.  This point must be kept carefully in mind by any party considering an appeal. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">HHJ Richardson considered how an unless order should be construed:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;The starting point, in construing an Unless Order, as any other Order, is the ordinary meaning of the words used. The legal and procedural context will always be relevant: for example, the context may show that the ordinary meaning cannot have been the meaning in the Order. In any event the party who has to comply with an Order must be able to see from its terms what is required to comply with it; an Order cannot be read expansively against the party who has to comply.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Ijomah v Nottinghamshire Healthcare NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0289/19/RN HHJ Auerbach stressed the care required, at stage 1, when making an unless orders:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8230; because of the draconian nature of an Unless Order, particular care is required both when making and framing such an Order, and when considering whether there has been material non-compliance with it.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt">Uwhubetine v NHS Commissioning Board England</span><span style="font-family:'Times New Roman';font-size:12pt"> UKEAT/ 0264/18/JOJ, HHJ Auerbach stated, of the decision required at stage 2:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">44 Where a Tribunal is determining whether there has been compliance with an Unless Order and hence whether to give written notice as to whether the relevant pleading has been dismissed by the Order taking effect, the Tribunal is not concerned at that point with revisiting the terms of the Order: whether it should have been made, or whether it should have been made</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">45 The starting point for the Tribunal engaged in that task is to consider the terms of the Order itself and whether what has happened complies with the Order or not. This may call for careful construction of the terms of the Order, both as to what the Order required and as to the scope of the Order in terms of the consequences of non-compliance, particularly in cases where there are multiple claims or multiple parties. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">If there is an ambiguity the approach should be facilitative rather than punitive, and any ambiguity should be resolved in favour of the party who was required to comply.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> However, what the Tribunal cannot do is redraft the Order or construe it to have a meaning that it will not bear, though its words should of course be construed in context.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">46 Next, the test to be applied is as to </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">whether there has been material non-compliance</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, that being </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">a qualitative rather than a quantitative test</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Depending on how an order is drafted, partial non-compliance may result in the whole claim being struck out:</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> Royal Bank of Scotland V Abraham</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0305/09/DM.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Mohammed v Guy&#8217;s and St. Thomas' NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/eat/2023/16" uk:canonical="[2023] EAT 16" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EAT 16</ref>, in the context of an unless order requiring particularisation of a number of different complaints, </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I noted the consequences that may arise from non-compliance with part of an unless order that requires a number of things to be done, depending on how it has been drafted:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The rule draws a clear distinction between orders in respect of which non-compliance will result in the dismissal of the &#8220;claim&#8221; and those where non-compliance will result in the dismissal of &#8220;part of it&#8221;. We consider the reference to the &#8220;claim&#8221; means the entirety of the complaints set out in the claim form, just as the rule contrasts the &#8220;response&#8221; or &#8220;part of it&#8221;. Thus, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">where there are a number of complaints in a claim form, such as complaints of direct race and direct disability discrimination, an unless order requiring particularisation of both complaints could provide that if there is non- compliance the &#8220;claim&#8221; will be struck out or that only the &#8220;part&#8221; of the claim in respect of which there is non-compliance will be struck out.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> If an order is made of the former type and the party provides particulars of one claim but not the other, the entire claim will be struck out, whereas if the order is of the latter type only the complaint in respect of which there has been non-compliance would be stuck out. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is not necessarily an error of law for an employment tribunal to make an order that will result in the entire claim being dismissed if there is a failure to comply with any one of a number of requests for additional information in respect of different causes of action, or where sufficient information had been provided in respect of one or more of the complaints. However, generally it will be proportionate to limit the dismissal to any cause of action in respect of which there is a material failure to provide additional information. Any unless order is potentially of draconian effect, but that is especially the case if a complaint that was sufficiently particularised and/or in respect of which the requested particulars have been provided will be struck out because of a failure to comply with a request for additional information in respect of a different complaint. An order dismissing the entire claim if there is a material failure to provide additional information in respect of any one of a number of requests will generally only be appropriate where there has been serious ongoing default in compliance with the orders that suggests that the claimant is refusing to engage with the tribunal process and there has been express consideration of why such a draconian order is required when a more focussed order could be made.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Johnson v Oldham Metropolitan Borough Council</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> UKEAT/0095/13/JOJ Langstaff J held:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">I accept that, in any case where the consequences of non-compliance with an unless order fall for consideration, all is likely to &#8230; depend [on] the precise terms of the order.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> For the assistance of Tribunal Judges, given the concern that Judge Feeney here expressed about her own position in respect of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Abraham</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">I would simply note that because so much in my view turns upon the precise form of the unless order made and because the consequences of an unless order may be draconian, judges making such an order in the first place may wish to consider tailoring it with particular care. For instance, such an order might provide that any allegation not sufficiently particularised might be struck out. Such an order would leave it open to a subsequent Judge to conclude that there had been compliance in respect of some allegations, which would not therefore automatically be struck out, even though there had been non-compliance in respect of others which were</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The phrase used by Pill LJ in Marcan was, &#8220;...any material respect&#8221;: I would emphasise the word &#8220;material&#8221;. It follows that compliance with an order need not be precise and exact. It is agreed by counsel before me that Employment Judge Feeney in adopting a test of substantial compliance therefore adopted one in accordance with the law. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">I would make this comment however: &#8220;material&#8221; may be a better word than &#8220;substantial&#8221; in a case in which what is in issue is better particularisation of a claim or response. </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">That is because it draws attention to the purpose for which compliance with the order is sought; that it is within a context. What is relevant, i.e. material, in such a case is whether the particulars given, if any are, enable the other party to know the case it has to meet or, it may be, enable the Employment Tribunal to understand what is being asserted. To use the word &#8216;substantial&#8217; runs the risk that it may indicate that a quantitative approach should be taken: thus, where 11 matters must be clear to enable a party to deal fairly with a claim, of which 9 have been provided but not 2, which remain necessary, compliance has not materially been provided because the purpose of seeking compliance has not been achieved in the context; the other party still cannot obtain a fair trial. To adopt a quantitative approach may erroneously lead the Judge in such a case to conclude that there had been sufficient compliance (9 out of 11) even if the further particulars remained necessary before a fair trial could take place. Substantial compliance has thus in my view to be understood as equivalent to material compliance not in a quantitative but in a qualitative sense. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-size:12pt">Wentworth-Wood </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">HHJ Richardson considered the procedure to be adopted when making the stage 2 decision whether to issue a notice of non-compliance:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">An Employment Judge, before causing notice to be given under Rule 38(3), </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">must be satisfied that there has been material non-compliance</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> with the Order. But there is </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">no mandatory process</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to be followed. The Employment Judge&#8217;s </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">only duty</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> before giving notice is </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">to comply with the overriding objective</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, which requires cases to be dealt with fairly and justly. In some cases the Employment Judge </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">may be able to see clearly from the file or from correspondence that an Order has not been complied with</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. In such a case the Employment Judge is entitled to give notice without further reference to the parties. </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">But if there is doubt</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> - for example in a case such as this, where one party writes to the Employment Tribunal to allege that there has been non-compliance with an Unless Order - </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">the Employment Judge will give the other party an opportunity to comment.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> If there is still doubt, </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">and the Employment Judge wishes to hear argument, the matter may be considered at a hearing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. Fairness requires that if the matter is to be considered at a hearing the parties concerned should have sufficient notice of the issue to prepare for it. [emphasis added]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The decision of Underhill J in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Thind v Salvesen Logistics Ltd </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">UKEAT/0487/09/DA (decided before the current scheme for unless orders was introduced by the 2013 ET Rules) still provides helpful guidance as to the appropriate approach at stage 3 to considering &#8220;relief from sanction&#8221;: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;The tribunal must decide whether it is right, in the interests of justice and the overriding objective, to grant relief to the party in default notwithstanding the breach of the unless order. That involves a broad assessment of what is in the interests of justice, and the factors which may be material to that assessment will vary considerably according to the circumstances of the case and cannot be neatly categorised. They will generally include, but may not be limited to, the reason for the default, and in particular whether it is deliberate; the seriousness of the default; the prejudice to the other party; and whether a fair trial remains possible. The fact that an unless order has been made, which of course puts the party in question squarely on notice of the importance of complying with the order and the consequences if he does not do so, will always be an important consideration. Unless orders are an important part of the tribunal&#8217;s procedural armoury (albeit one not to be used lightly), and they must be taken very seriously; their effectiveness will be undermined if tribunals are too ready to set them aside. But that is nevertheless no more than one consideration. No one factor is necessarily determinative of the course which the tribunal should take. Each case will depend on its own facts.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Drawing the threads together</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The caution that these judgments express about the use of unless orders derives, in part, from the highly unusual feature of such orders in that they involve a degree of prejudgment. At stage 1, when deciding to make the order, a judge is essentially deciding that if there is material non-compliance, whatever the reason, the claim will automatically be struck out, subject only to the possibility of relief from sanction. Judges who make unless orders sometimes come to regret them as things can take an unexpected turn, resulting in extensive delay and extra work, giving the opportunity to repent at leisure an unless order made in haste. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Appeals concerning unless orders are too large a part of the diet of the EAT. It may be helpful to draw the threads together, although not with the aim of discouraging reading the judgments I have referred to above for their full subtlety.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The following seem to me to be the key points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.68in;text-indent:0.5in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Stage 1 - Making an unless order</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">care should be taken in making an unless order because of the draconian consequence of material non-compliance &#8211; unless orders are not just another type of workaday case management order</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">it is rarely a good idea to convert a previous general case management order into an unless order - careful consideration should be given to whether it will be fit for purpose as an unless order </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">an unless order should be drafted so that it will be easy to determine whether there has, or has not, been material compliance</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">an unless order should be drafted so that the </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">consequence</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> of material non-compliance is clear &#8211; it need not necessarily result in the strike out of the entire claim &#8211; an unless order can be drafted so that failure to comply with it, or part of it, results in part of the claim being struck out</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">although not specifically provided for by Rule 38 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">ET Rules</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">,</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">an order</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">could provide for a lesser sanction than strike out on non-compliance, such as a claimant being limited to reliance on the material set out in the claim form if additional information is not provided</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.6.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">if a party is required to do more than one thing by an unless order, careful thought should be given to the consequence of partial compliance &#8211; particular care should be taken before making an order that will result in the dismissal of all claims if there is anything that falls short of full material compliance with all parts of the order</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Stage 2 - Giving notice of non-compliance</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">at this stage the employment tribunal is giving notice of whether there has been compliance &#8211; it is not concerned with revisiting the terms of the order</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">particularly if there has been some asserted attempt at compliance, careful thought should be given to whether an opportunity should be given for submissions, in writing or at a hearing, before the decision is taken</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the question is whether there has been material compliance</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the test is </span><span style="font-size:12pt;color:#010302">qualitative rather than quantitative</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the approach should be facilitative rather than punitive</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.12.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">any ambiguity in the drafting of the order should be resolved in favour of the party who was required to comply</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Stage 3 - Relief from sanction</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">this involves a broad assessment of what is in the interests of justice</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the factors which may be material to that assessment will vary considerably according to the circumstances of the case</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.15.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">they generally include:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.18in">33.15.1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.88in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the reason for the default - in particular whether it was deliberate</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.18in">33.15.2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.88in"><span style="font-size:12pt;color:#010302">the seriousness of the default</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.18in">33.15.3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.88in"><span style="font-size:12pt;color:#010302">prejudice to the other party</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302;margin-left:1.18in">33.15.4.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.88in"><span style="font-size:12pt">whether a fair trial remains possible</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302;margin-left:1.18in;text-indent:-0.69in">33.16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">each case will depend on its own facts</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Analysis </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This appeal concerns stage 2, deciding whether to give notice that the claim has been struck out.  EJ Burns did not direct himself to the law, in particular to the need to consider whether there was material non-compliance. The original case management order was not well suited to conversion to an unless order. On the core issue, the order was ambiguous as to whether a single schedule for all of the claimants would suffice, or whether a separate schedule for each claimant was required. I do not agree with EJ Burns&#8217; analysis that the order was clear as &#8220;a matter of simple grammar&#8221;. The importance he ascribed to the difference between the information being set out in a separate schedule for each claimant as opposed to a single spreadsheet for all claimants, gave form precedence over substance to an excessive degree, as did the requirement for the schedules to be in the &#8220;lay-out&#8221; of a &#8220;reasonable schedule of loss as understood in professional employment tribunal practice&#8221;. In complex employment tribunal claims a schedule of loss that would be familiar to a practitioner dealing with substantial personal injury claims may be appropriate, but this was a case of a group of employees all of whom were claiming a few day&#8217;s pay. The format was not of any great significance if the figures were given. I fail to see how EJ Burns could have seriously doubted that the figures for "pay lost to strike" were the sums claimed by the claimants. The total sum claimed for all of the claimants together was a little over &#163;15,000. This claim did not call for highly polished schedules of loss as might be appropriate in high value personal injury or commercial claims.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge made a criticism that the &#8220;spreadsheet is also missing basic information because it does not show the sums the Claimants admit they received from the Respondent in relation to the relevant periods&#8221;. The sums that the claimants received as ex gratia payments were not the same as the strike pay deducted. It was not obvious that these ex gratia payments stood to be deducted from their claims. While, that was the assertion of the respondent, I do not consider that it is common practice to guess what sums a respondent will seek to set off and set them out in the schedule of loss &#8211; were that the case there would be little purpose left for a counter-schedule. The order required that the claimants set out the sums they received from the Union, but not from the respondent. I cannot see that there is substance in the criticism of EJ Burns that the sums paid </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">by the respondent</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> should be set out in the schedules produced by each claimant so that the respondent could &#8220;understand what evidence it has to adduce&#8221; about the monies it paid. The respondent knew what it had paid as an ex gratia sum to each claimant and had already set out the specific sums in their ET3 response.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">EJ Burns noted that the &#8220;list of documents is very short&#8221; and thought that it was &#8220;obviously inadequate&#8221; and &#8220;cobbled together at the last minute&#8221;. He noted that only one contract of employment had been disclosed. There was no assessment of which documents each claimant had in his or her possession or control that was relevant to the dispute and they had failed to disclose. The claimant whose contract of employment had been disclosed faired no better than the others. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The approach EJ Burns adopted was punitive rather than </span><span style="font-size:12pt;color:#010302">facilitative. The irritation he felt with the claimants&#8217; solicitors shines through but, unfortunately, a consideration of the relevant legal principles, or a balanced consideration of whether there had been material compliance, does not.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">EJ Burns read the order expansively against the parties that had to comply. The respondent knew for each claimant what sum of deducted strike pay was claimed, what had been paid by the Union (in the case of most of the claimants) and what ex gratia payments it had made (which were set out in the ET3 response). I do not consider there was any proper basis for </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the employment judge to conclude that it was</span><span style="font-size:12pt;color:#010302"> &#8220;impossible for a fair trial to take place without a substantial adjournment to new trial dates to allow the pre-trial preparation to be carried out&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-size:12pt;color:#010302">All three grounds of appeal succeed.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Disposal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">While it is a close-run thing, I cannot say that there is only one possible answer to the question of whether there was material compliance with the unless order in the case of each claimant. The matter shall be remitted for consideration by another employment judge, if necessary. I consider that the error of law was so fundamental that the matter should be remitted to a different employment judge. The respondent should consider with care the approach it adopts on remission having regard to the extent of compliance or non-compliance for each claimant and the possibility of relief from sanction which any claimant who is found to be in material breach of the order will be entitled to apply for. The respondent could choose to concede the point. Whatever is done, the parties should have proportionality and compliance with the overriding objective in mind.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

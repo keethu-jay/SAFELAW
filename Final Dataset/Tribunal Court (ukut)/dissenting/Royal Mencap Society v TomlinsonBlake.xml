@@ -1,0 +1,1175 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/8"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/8"/>
+	  <FRBRdate date="2021-03-19" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="8"/>
+	  <FRBRname value="Royal Mencap Society v Tomlinson-Blake"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/8"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/8"/>
+	  <FRBRdate date="2021-03-19" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/8/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/8/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:57:29" name="transform"/>
+	  <FRBRdate date="2025-08-18T04:07:44" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-03-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="royal-mencap-society" href="" showAs="Royal Mencap Society"/>
+	<TLCPerson eId="tomlinson-blake" href="" showAs="Tomlinson-Blake"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2021</uk:year>
+	<uk:number>8</uk:number>
+	<uk:cite>[2021] UKSC 8</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>080c4e448fd34c2dc3851fc0bdce41537243de9dd34f5a3d75e04d961dc06df9</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-size: 16pt; color: #2F5496; }
+#judgment .Heading2 { font-size: 13pt; color: #2F5496; }
+#judgment .Heading4 { font-weight: bold; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-style: italic; font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1.00in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.00in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.50in; margin-right: 0.50in; font-size: 13pt; }
+#judgment .NewSpeech { font-style: normal; font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .legp1paratext { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .Heading4Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading1Char { font-size: 16pt; color: #2F5496; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p><img src="image1.png" style="width:1.3756944444444446in;height:1.3756944444444446in;"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Hilary Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2021] UKSC 8</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2018] EWCA Civ 1641</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p class="Title1" style="margin-left:0.06in"><party as="#respondent" refersTo="#royal-mencap-society" style="font-size:20pt">Royal Mencap Society</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondent</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#appellant" refersTo="#tomlinson-blake" style="font-size:20pt">Tomlinson-Blake</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellant</role><span style="font-size:20pt">)</span><br/><span style="font-size:20pt">Shannon (Appellant) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"> Rampersad and another (T/A Clifton House Residential Home) (Respondents)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Kerr</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Wilson</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Carnwath</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Arden</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Kitchin</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2021-03-19" refersTo="#judgment" style="font-weight:bold;font-size:18pt">19 March 2021</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 12 and 13 February 2020</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 1.97in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Appellant</span></p>
+	    <p style="text-align:center"><span style="font-style:italic">(Tomlinson-Blake)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Respondent</span></p>
+	    <p style="text-align:center"><span style="font-style:italic">(Royal Mencap Society)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Sean Jones QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">David Reade QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Andrew Edge</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Niran de Silva QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Leo Davidson</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Georgina Leadbetter</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">(Instructed by UNISON Legal Services (London))</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Simons Muirhead &amp; Burton (London))</p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 2.15in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Appellant</span></p>
+	    <p style="text-align:center"><span style="font-style:italic">(Shannon)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Respondents</span></p>
+	    <p style="text-align:center"><span style="font-style:italic">(Rampersad and Rampersad)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Caspar Glyn QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Judy Stone</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Chesca Lord</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Christopher Parkin</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">(Instructed by Thomas Mansfield Solicitors)</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Morrison &amp; Foerster LLP (London))</p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 2.45in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Intervener</span></p>
+	    <p style="text-align:center"><span style="font-style:italic">(Local Government Association)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Anne Redston</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by the Local Government Association Legal Department)</p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Following the hearing of these appeals, Lord Kerr of Tonaghmore, who had presided over it, sadly died while in the course of preparing a judgment upon them. In those circumstances the court made a direction under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4/section/43/2" uk:canonical="2005 c. 4 s. 43" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4" uk:canonical="2005 c. 4" uk:origin="TNA" uk:type="legislation">Constitutional Reform Act 2005</ref> that the court was still duly constituted in the proceedings by the remaining four justices. The direction was made in the light of the consent of the parties and of compliance with the other requirements of subsection (3).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="NewSpeech">LADY ARDEN:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">Overview</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">No one would doubt the importance in society today of carers and wardens who help to look after those who through age or infirmity cannot look after themselves. Parliament has in some cases imposed statutory duties on public authorities to provide carers. Carers are among those who may have to work sleep-in shifts, ie shifts when they have to be at or near their place of work but during which they may, with the permission of their employer, sleep for some or all of that time. Such workers who may sleep during their shift hours (whom I will call &#8220;sleep-in workers&#8221;) may be among the low paid, and hence the key question with which these appeals are concerned: how is the number of hours in their case to be calculated for the purposes of the National Minimum Wage (or &#8220;NMW&#8221;)?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In my judgment for the detailed reasons given below, the answer to this question turns in the case of Mrs Claire Tomlinson-Blake on the meaning of regulation 32 of the National Minimum Wage Regulations 2015 (&#8220;the 2015 regulations&#8221;), which came into force on 6 April 2015 and apply to the whole of the United Kingdom. In her case, on the facts as found by the employment tribunal, the effect of the relevant regulations, in particular regulation 32 applying to &#8220;time work&#8221;, is that the number of hours she worked excluded the hours when she was permitted to sleep unless she was awake for the purpose of working.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the case of Mr John Shannon, a night care assistant, the regulations, being in his case those applying to &#8220;salaried hours&#8221; work, within the preceding National Minimum Wage Regulations 1999 (&#8220;the 1999 regulations&#8221;), have the same effect. In those circumstances I would dismiss both these appeals.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In determining the meaning of the <span class="CommentReference" style="font-size:13pt">r</span>egulations, the Court may take into account documents which show the mischief to which the regulations were directed. In this case we were taken to the reports of the Low Pay Commission (or &#8220;LPC&#8221;), which, as first recognised in <span style="font-style:italic">Walton</span><span/><span style="font-style:italic">v Independent Living Organisation Ltd</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/199" uk:canonical="[2003] EWCA Civ 199" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 199</ref>; <ref href="#" uk:canonical="[2003] ICR 688" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] ICR 688</ref> are particularly relevant where they contain recommendations which have been accepted by the government, and so I start by giving a brief description of the NMW and explaining the role of the LPC in relation to the NMW.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">The National Minimum Wage and the role of the Low Pay Commission</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Most people will be familiar with the existence of the NMW. It was introduced by the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">National Minimum Wage Act 1998</ref> (&#8220;the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">NMWA 1998</ref>&#8221;). It is a single hourly rate (with a lower rate or rates for certain workers) fixed by a government minister following a report from the LPC. When the President of the Board of Trade, the Rt Hon Margaret Beckett MP, made a statement in the House of Commons on 18 June 1998 accepting the recommendations of the First Report of the LPC, she stated that setting the NMW at the levels then announced would help some &#8220;2m workers escape from poverty pay, without adverse effects on jobs or inflation. That will include 1.4m women; more than 1.3m part-time workers; some 200,000 young people; about 110,000 homeworkers; approximately 175,000 lone parents who work; and some 130,000 ethnic minority workers.&#8221; (Hansard (HC Debates), 18 June 1998, vol 314, col 508). Those figures will no doubt have changed since 1998, but the NMW remains a measure of considerable importance to millions of workers in the United Kingdom and part of the infrastructure of our democratic society.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.12in">A crucial question for an employer to whom the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">NMWA 1998</ref> applies is whether the remuneration he is paying to his workers is at least equal to the NMW because, if it is not, he is liable to pay arrears and to financial and criminal penalties. In order to ascertain whether an employer is paying the NMW, there has to be a calculation of the worker&#8217;s hourly pay, and so there are detailed rules as to what payments or benefits may be taken into account and what deductions may be made. The number of hours is calculated by rules which differ according to whether the work is salaried hours work, time work, output work or unmeasured work. To determine the correct classification, it is necessary to look at the way the worker is paid. If the employer pays the worker a salary calculated on an annual basis for an ascertainable number of hours, it is salaried hours work (for the full meaning of salaried hours work, see regulation 4 of the 1999 regulations and regulation 21 of the 2015 regulations); if he pays the worker by reference to a set number of hours, and not by way of salary, it is time work (for the full meaning of time work, see regulation 3 of the 1999 regulations and regulation 30 of the 2015 regulations, set out in para 17 below); if he pays the worker by reference to the unspecified hours that he works, it is unmeasured work (for the full meaning of unmeasured work, see regulation 6 of the 1999 regulations and regulation 44 of the 2015 regulations); if he pays the worker by reference to piecework, it is output work (for the full meaning of output work, see regulation 5 of the 1999 regulations and regulation 36 of the 2015 regulations).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The provisions that regulate the calculations of the hours which a worker works for the purposes of the NMW are separate from those that apply for the purposes of the Working Time Regulations 1998, which have not formed any part of the argument in this case. In the case of the NMW, there are exceptions to the hours that may be counted. In the case of time work and salaried hours work, there is a &#8220;home&#8221; exception. A worker, if not actually working but who is available for work, may not count time when he is available if he is at home. For the same two types of work, there is also the &#8220;sleep in&#8221; provision now contained in, respectively, regulation 32 and regulation 27 of the 2015 regulations, which is at the heart of these appeals, to which I will come when I consider the legislative history of the regulations. The facts of Mrs Tomlinson-Blake&#8217;s case illustrate how these provisions work. I summarise the facts of her case and those of Mr Shannon in the next section of this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.12in">The current, statutory LPC was established pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39/section/8" uk:canonical="1998 c. 39 s. 8" uk:origin="TNA" uk:type="legislation">section 8</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">NMWA 1998</ref>. It has an authoritative and influential role in the setting of the NMW, which is done periodically. Its membership is drawn from both sides of industry and those with relevant knowledge and experience (NMWA 1998, Schedule 1). The reports of the LPC disclose the depth of investigation and consultation which it undertakes in discharging its statutory responsibilities. The Secretary of State can refer matters to it for its consideration at any time in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 6</ref> of the NMWA 1998, and, if its recommendations are required to be implemented by new regulations, the Secretary of State must inform Parliament if those recommendations are not accepted and why (section 5(4) of the NMWA 1998 as applied by <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39/section/6/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 6(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">that Act</ref>). That means, as I see it, that if the Secretary of State accepts certain recommendations, the court should approach the regulations on the basis of the presumption that they do in fact implement the LPC&#8217;s recommendations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Significantly, the pre-legislative LPC (under the chairmanship of Professor Sir George Bain) was asked to recommend the initial level for the NMW, and the method by which rates of NMW should be calculated, and that was done in the first report of the LPC, to which I refer below. The government largely accepted the recommendations in that report. Accordingly, that report is an important aid to the interpretation of the 1999 regulations, which deal with the calculation of the NMW. These have been amended in respects which are generally not material to these appeals and were then consolidated in the 2015 regulations. The explanatory note to the 2015 regulations states that those regulations &#8220;remake [the 1999 regulations] and consolidate the amendments made to those Regulations&#8221; and the explanatory memorandum prepared by the sponsoring department (the Department for Business, Innovation and Skills) for Parliament also stated that they did &#8220;not introduce substantive changes to the rules&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">Legislative history of the Regulations</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">NMWA 1998</ref> is a framework Act, setting out the details of the NMW for which primary legislation was required. Under section 5(2), before making the 1999 regulations, the Secretary of State had to refer to the LPC certain matters including &#8220;(c) what method or methods should be used for determining under section 2 above the hourly rate at which a person is to be regarded as remunerated for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The first report of the LPC was presented to Parliament in June 1998 (<span style="font-style:italic">The National Minimum Wage - First Report of the Low Pay Commission</span> (Cm 3976)). It contained a specific recommendation relevant to sleep-in shifts: see paras 4.33 and 4.34. The LPC recommended as the starting point for defining working time all time which a worker had to spend at his employer&#8217;s place of work, even if no work was available. This would not include time which a worker had to spend at some other place on standby or on call. A special rule was needed for those required to be on call and to sleep at their employer&#8217;s premises, and no distinction was drawn between types of work. The LPC recommended that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;For hours when workers are paid to sleep on the premises, we recommend that workers and employers should agree their allowance, as they do now. But workers should be entitled to the National Minimum Wage for all times when they are awake and required to be available for work.&#8221; (para 4.34)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">That recommendation was clearly intended to apply to all workers who were paid to sleep on the premises. When the President of the Board of Trade presented the First Report to the House of Commons, she explained the principal recommendations and recorded the government&#8217;s acceptance of (among other things) its other recommendations:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The remaining Low Pay Commission recommendations deal with such technical matters as the composition and reference period for calculating the minimum wage, the handling of benefits in kind and its application to homeworkers and pieceworkers. We fully and carefully considered those recommendations and accept them in principle, subject to consultation on the practicalities and detail of their implementation when formulating the regulations implementing the national minimum wage.&#8221; (Hansard (HC Debates), 18 June 1998, vol 314, cols 508-509)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">We can therefore take it that the objectives of the provisions of the 1999 regulations designed to deal with the calculation of hours for sleep-in work are those identified by the LPC, namely that work should normally include time for which a worker was required to be available for work at the place of work. However, (by implication) that would not apply if the worker was not at the place of work but at home (the home exception). It would also expressly not apply to workers who were required to be on call and to sleep at their employers&#8217; premises. Employers should continue to agree an allowance with them for such work. (That allowance would, as I understand it from the LPC&#8217;s Second Report referred to below, fall outside the calculation to verify that the NMW was paid.) The wording of the recommendation was clearly geared to residential homes and hostels but the 1999 regulations when drafted were wide enough to include domiciliary care.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In relation to time work, regulation 15(1) of the 1999 regulations when originally enacted legislated for the basic rule, the home exception and the sleep-in shift in a single provision:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span class="legp1no">&#8220;15</span><span style="background-color:#FFFFFF">(1) In addition to time when a worker is working, time work includes time when a worker is available at or near a place of work, other than his home, for the purpose of doing time work and is required to be available for such work except that, in relation to a worker who by arrangement sleeps at or near a place of work, time during the hours he is permitted to sleep shall only be treated as being time work when the worker is awake for the purpose of working.&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Regulation 15 of the 1999 regulations was then amended by regulation 6 of the National Minimum Wage Regulations 1999 (Amendment) Regulations 2000, which were presented to Parliament on 25 July 2000 and came into force on 1 October 2000. (The Second Report of the LPC, dated February 2000, to which I refer at paras 48 to 50 below, had not recommended any legislative change). These amendments narrowed the home exception (paragraph (1)) and the sleep-in provision (paragraph (1A)). The facts of the appeals do not engage the home exception. As to the latter, the new provision required suitable facilities for sleeping to be provided for the worker and removed the words &#8220;in addition to time when a worker is working&#8221; as no doubt some workers might only work sleep-in shifts:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;<span style="font-weight:bold">Amendments to the principal regulations</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span class="legp1no">6.</span><marker name="tab"/>For paragraphs (1) to (3) of regulation 15 of the principal regulations (provisions in relation to time work) substitute -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span class="legamendingtext">&#8216;(1)</span><marker name="tab"/><span class="legamendingtext">Subject to paragraph (1A), time work includes time when a worker is available at or near a place of work for the purpose of doing time work and is required to be available for such work except where -</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:2.00in"><span class="legamendingtext">(a)</span><marker name="tab"/><span class="legamendingtext">the worker&#8217;s home is at or near the place of work; and</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:2.00in"><span class="legamendingtext">(b)</span><marker name="tab"/><span class="legamendingtext">the time is time the worker is entitled to spend at home.</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in"><span class="legamendingtext">(1A)</span><marker name="tab"/><span class="legamendingtext">In relation to a worker who by arrangement sleeps at or near a place of work and is provided with suitable facilities for sleeping, time during the hours he is permitted to use those facilities for the purpose of sleeping shall only be treated as being time work when the worker is awake for the purpose of working.&#8217;&#8221;</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The 1999 regulations were revoked by the 2015 regulations and the relevant regulations applying to time work are now regulations 30 and 32 of the 2015 regulations. Regulation 30 deals with the meaning of time work and regulation 32 with the rules governing the situation where the worker is available for work:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;<span style="font-weight:bold">30.</span><marker name="tab"/><span style="font-weight:bold">The meaning of time work</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Time work is work, other than salaried hours work, in respect of which a worker is entitled under their contract to be paid -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>by reference to the time worked by the worker;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>by reference to a measure of output in a period of time where the worker is required to work for the whole of that period; or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>for work that would fall within sub-paragraph (b) but for the worker having an entitlement to be paid by reference to the period of time alone when the output does not exceed a particular level.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in"><span style="font-weight:bold">32.</span><marker name="tab"/><span style="font-weight:bold">Time work where worker is available at or near a place of work</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>Time work includes hours when a worker is available, and required to be available, at or near a place of work for the purposes of working unless the worker is at home.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>In paragraph (1), hours when a worker is &#8216;available&#8217; only includes hours when the worker is awake for the purposes of working, even if a worker by arrangement sleeps at or near a place of work and the employer provides suitable facilities for sleeping.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">Summary of the facts of each case</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In each case the issue was how the hours of the sleep-in shift should be calculated for the purposes of the NMW.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mrs Tomlinson-Blake is a highly qualified care support worker. She was employed by the Royal Mencap Society (&#8220;Mencap&#8221;) from 5 January 2004 to 5 February 2017. By a contract dated 11 March 2004, she was employed as part of a team providing 24-hour care to two vulnerable adults at their own home. Mencap had a contract with East Riding Yorkshire Council, the local authority which was responsible for their care, to provide staff to enable the local authority to fulfil its statutory obligations in respect of their care. Mrs Tomlinson-Blake provided day care, for which she was salaried, and that work is salaried hours work for the purposes of the regulations. She also did a sleep-in shift for specified hours, which is time work within the meaning of the regulations. She was permitted to sleep during this period but was required to remain at the home of the two vulnerable adults for whom she cared throughout her sleep-in shift but she had no duties to perform during the night shift except (as she puts it) to &#8220;keep a listening ear out&#8221; even while asleep. She had to attend to any emergency, if there was one. According to the evidence, she had been disturbed only about six times in the period of 16 months preceding the hearing in the employment tribunal. She was paid an allowance of &#163;22.35 plus one hour&#8217;s pay of &#163;6.70 (the amount of the NMW from 1 October 2015) in recognition of &#8220;the reasonable expectation&#8221; of the amount of work she would have to do during her sleep-in shift, making a total payment for each sleep-in shift of &#163;29.05. Any additional time would be paid at the normal rates of pay. Mrs Tomlinson-Blake&#8217;s case was that each of the hours of the sleep-in shift should be included in the calculation of her entitlement to the NMW. Her case turns on the 2015 regulations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Shannon was an on-call night care assistant at a registered residential care home. From about 1993, he was provided with free accommodation at the home with all utilities provided free of charge, together with a payment of &#163;50 per week, which rose to &#163;90. It was a condition of his employment that he was in that accommodation from 10 pm to 7 am but he was permitted to sleep during that period. The night care worker on duty could call on him for assistance in those hours. Mr Shannon contended that he should have been paid the NMW for all the night-time hours that he was required to be &#8220;on call&#8221;. In practice he was very rarely called upon to assist the night care worker. With effect from 1 January 2014, he was dismissed and he brought the proceedings among other reasons to recover arrears of salary, which, by reason of his alleged entitlement to the NMW, he contended amounted to almost &#163;240,000. Mr Shannon relied on the 1999 regulations as the 2015 regulations were not in force at the time of his dismissal.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">The approach of the EAT and of the Court of Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mrs Tomlinson-Blake brought these proceedings to recover arrears of wages which she contended were due to her on the basis that she was entitled to be paid the NMW for each hour of her sleep-in shift. The employment tribunal (Employment Judge Burton) determined that preliminary issue in her favour, holding that during the sleep-in shift she was performing time work whether she was awake or not. On appeal to the Employment Appeal Tribunal (&#8220;EAT&#8221;) Simler P held that it was appropriate to proceed in two stages. The first stage involves asking whether the worker was in fact &#8220;working&#8221; because in that event there was no need to consider the sleep-in provision. To determine whether the worker was working simply by being present, a multifactorial test had to be applied. No single factor would be determinative, but the presence of a regulatory requirement was a factor and a person might be working even though she was only required to be present. She was satisfied that Mrs Tomlinson-Blake was working throughout the entire shift as she was constantly on call. On that basis it was not necessary to engage the second stage, which was to consider the sleep-in exception.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In Mr Shannon&#8217;s proceedings, it was agreed that he was doing salaried hours work. Therefore regulation 16 of the 1999 regulations (as amended by regulation 7 of the 2000 Regulations) applied. This provision was similar to regulation 15 as so amended. Regulation 16(1) and (1A) provided:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(1)<marker name="tab"/>Subject to paragraph (1A), time when a worker is available at or near a place of work for the purpose of doing salaried hours work and is required to be available for such work shall be treated as being working hours for the purpose of and to the extent mentioned in regulation 22(3)(d) and (4)(b) except where - (a) the worker&#8217;s home is at or near the place or work; and (b) the time is time the worker is entitled to spend at home.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(1A)<marker name="tab"/>In relation to a worker who by arrangement sleeps at or near a place of work and is provided with suitable facilities for sleeping, time during the hours he is permitted to use those facilities for the purpose of sleeping shall only be treated as being salaried hours work when the worker is awake for the purpose of working.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The employment tribunal (Employment Judge Zuke and lay members) found as a fact that Mr Shannon was not working throughout his shift. He simply provided support to the night care worker if required to do so. Therefore regulation 16 of the 1999 regulations as amended applied. Mr Shannon&#8217;s claim failed because his accommodation constituted his &#8220;home&#8221;. The employment tribunal also found that registered homes were regulated by the Care Quality Commission and that they were under a responsibility to ensure that staffing levels were appropriate &#8220;to meet the needs of the service users&#8221; (para 8).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Shannon appealed to the EAT where Judge Peter Clark dismissed his appeal. He held that regulation 16 of the 1999 regulations as amended applied and that Mr Shannon could not claim the NMW because of the home and sleep-in exceptions.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On a further appeal in both cases (heard contemporaneously), the Court of Appeal (Sir Ernest Ryder SPT and Underhill and Singh LJJ) allowed the appeal in relation to Mrs Tomlinson-Blake and dismissed it in relation to Mr Shannon: <ref href="#" uk:canonical="[2019] ICR 241" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] ICR 241</ref>. Underhill LJ gave the leading judgment. The other members of the Court agreed.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">Reasoning of the Court of Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Underhill LJ explained that it was common ground that the recommendations in the First Report of the LPC were an aid to the interpretation of the regulations (para 10). I have endeavoured to explain that, because of the statutory scheme of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">NMWA 1998</ref>, the position goes somewhat further than that because the government is bound to implement those recommendations unless it provides reasons to Parliament for not doing so, which had not happened in the case of the recommendation on sleep-in shifts in the First Report.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On the issue of statutory interpretation, Underhill LJ first analysed the regulations apart from authority (starting at para 32). At para 43 he concluded with respect to sleep-in shifts and regulation 15(1) of the 1999 regulations, that &#8220;logically&#8221; the sleep-in provision only applied in cases where the worker was available for work rather than working. But he made it clear in the same paragraph, as is clearly right, that it would not be a natural use of language to describe someone as working when they are positively expected to be asleep.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Underhill LJ then examined the authorities, starting with <span style="font-style:italic">British Nursing Association v Inland Revenue</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/494" uk:canonical="[2002] EWCA Civ 494" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 494</ref>; <ref href="#" uk:canonical="[2003] ICR 19" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] ICR 19</ref>. That case concerned a call centre and the workers, when not answering the telephone, were only required to hold themselves ready to take calls when the telephone rang. The employment tribunal had made a finding, which Buxton LJ, with whose unreserved judgment Peter Gibson LJ and Neuberger J agreed, considered that it was entitled to make, that the workers were working on the night shift even though the work was intermittent and they were permitted to sleep. The employment tribunal made that finding at the same time as holding that under regulation 15(1) of the 1999 regulations time work only included work when the employee was awake: see per Buxton LJ at paras 7 and 8. These determinations are on their face conflicting but the EAT and (excepting two sentences at the end of para 18 of Buxton LJ&#8217;s judgment) the Court of Appeal proceeded on the basis that their finding was that the employees were working throughout the night shift, and I will proceed on the same basis. It may be that their determination that time work only included time awake was simply a restatement or paraphrase of regulation 15(1). The parties agreed that the employees were performing time work and that the governing provision was regulation 15(1) (as originally enacted) (per Buxton LJ at para 16). The employees were remunerated for the night shift by an allowance.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Buxton LJ pointed out that regulation 15(1) did not apply in any event because the employees were at home and not at a place of work: the only possible relevance of regulation 15(1) in his view was the distinction it drew between work in a workplace and activities in the employee&#8217;s home. Buxton LJ concluded that that distinction was irrelevant to the case in any event as the employees were doing what they did in the day and so in his judgment they had to be working. The fact that calls were infrequent between 11 pm and 5.30 am was not regarded by the Court of Appeal as relevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On the basis that the employees had been found to be working, Buxton LJ expressly declined to decide anything as to the proper application of regulation 15(1) in that situation (para 16). The Court of Appeal therefore considered regulation 15(1) against the background of the decisions of the tribunals: in particular, the First Report of the LPC was not cited to it. Crucially that Report would have made it clear to the EAT and the Court of Appeal that, contrary to their assumption, it was not the intention of the legislature that the employees should be unremunerated when they were on sleep-in shifts. Their intention was that employees on sleep-in shifts should be remunerated in a different way (the agreed allowance), as indeed they were in the <span style="font-style:italic">British Nursing</span> case. Underhill LJ considered that <span style="font-style:italic">British Nursing</span> established only the very limited proposition that a worker who was entitled to sleep could, dependent on the facts, also be working as opposed to merely being available for work (para 57).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Nonetheless, Underhill LJ held that he had &#8220;no problem with either [the] reasoning or [the] outcome [of this decision]&#8221; (para 49). Accordingly, later in his judgment he accepted, in line with <span style="font-style:italic">British Nursing</span>, that there might be some cases where the sleep-in worker could be held to be working (para 88) (and so outside the sleep-in provisions, with the result that all their hours fell into the NMW calculation); but that in the light of the arguments before the Court of Appeal he considered it inappropriate for the Court of Appeal to give guidance as to when that might be the case (paras 88 and 89). In short, while the Court of Appeal could not on these appeals overrule <span style="font-style:italic">British Nursing</span>, it did circumscribe it within narrow limits. Just to be precise, the question under regulation 15 is not whether the worker is expected to sleep but whether there is an arrangement under which he may sleep at or near his employer&#8217;s premises. This Court is not similarly bound by <span style="font-style:italic">British Nursing</span>, and I will return later to the question whether it should be overruled (see paras 56 to 61 below).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Underhill LJ also examined some of the numerous decisions about sleep-in shift work for NMW purposes. These included the important decision of the EAT (Elias P, Mrs C Baelz and Mr D Evans) in <span style="font-style:italic">Burrow Down Support Services Ltd v Rossiter</span><ref href="#" uk:canonical="[2008] ICR 1172" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] ICR 1172</ref>, concerning a &#8220;night sleeper&#8221; who was present at a care home overnight to ensure security. He could sleep save when his duties required him to be awake. He had to spend 15 minutes reporting at the beginning and end of his shift and to assist serving breakfasts to residents, but there was no evidence that he was in fact disturbed during the night. The EAT in that case upheld the decision of the employment tribunal that he was working for the entire shift. Underhill LJ concluded that this case had been wrongly decided and was inconsistent with the regulations (para 77). The Court of Appeal overruled it.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In summary, Underhill LJ concluded that sleep-in workers, who were available for work, fell within regulation 15(1) (regulation 32(2) of the 2015 regulations) and so their hours only counted for NMW purposes insofar as they were awake for the purposes of working (para 86). However, in recognition of the earlier decision of the Court of Appeal in <span style="font-style:italic">British Nursing</span>, he acknowledged that there could be cases where workers were more than simply available for work on their shift. If they were actually working during their shift, &#8220;notwithstanding that the work is of a character that only generates specific tasks intermittently (and permits them to sleep in between)&#8221; (para 90), in his judgment regulation 15(1) would not apply and all the hours of the shift would be included in the calculation for NMW purposes.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Applying the law to the facts of the two appeals, the Court of Appeal held that the EAT had been wrong in Mrs Tomlinson-Blake&#8217;s case as it had relied on <span style="font-style:italic">Burrow Down</span> (para 93ff). It was moreover not enough that Mrs Tomlinson-Blake had to have a &#8220;listening ear&#8221; (even while asleep) to conclude that she was working throughout her night shift. Underhill LJ rejected the argument that she could at this stage be treated as performing &#8220;unmeasured work&#8221;. In the case of Mr Shannon, Underhill LJ considered that his case had been rightly decided by the tribunals (para 98ff). Either the home exception applied, or he was not working except on those very few occasions when he was called upon to assist during the night. Underhill LJ rejected an application to introduce a new ground sought to be argued on Mr Shannon&#8217;s behalf that the applicable regulation was regulation 21 of the 1999 regulations (regulation 22 of the 2015 regulations) as having been raised too late and without notice to the respondent. Mr Caspar Glyn QC sought to raise the same point again in this Court, but I would also reject his application. It is a completely new point, namely that the nine hours each night for which he was required to be present in the accommodation constituted his &#8220;basic hours&#8221; of work with the result that the availability provisions were not engaged. It would be inappropriate for this Court to hear such a point when the Court of Appeal has properly declined to consider it and this Court does not have its concluded views. It may in addition involve new questions of fact, for example as to Mr Shannon&#8217;s basic hours, as to which there are no findings.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">Analysis</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="margin-left:0.50in">(1) Approach to statutory interpretation</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="margin-left:1.00in">(a)<marker name="tab"/>The meaning of &#8220;work&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">These appeals raise questions of statutory interpretation, and, in my judgment, I should not approach them with any preconception as to what should entitle the worker to a wage. It is clearly not the position that, simply because at a particular time an employee is subject to the employer&#8217;s instructions, he is necessarily entitled to a wage. There are many situations when a worker has to act for the benefit of his employer which do not count for time work purposes, for example when he travels between home and work. Nor does the legislation proceed on the basis that the worker must be paid a living wage. Nor in my judgment is the NMW dependent on the extent to which the work produces value for the employer or enables the employer to say that he has fulfilled his duty to someone else: that would make the NMW depend on the terms of a contract between private parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The objectives of the NMW as a social and economic measure are no doubt complex. It clearly helps to redress the law of supply and demand where there may be market failure, and the worker is not able to obtain basic recompense for his labour, but there are no doubt other policy objectives which it serves.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="margin-left:0.50in">(b)<marker name="tab"/>The statutory question concerns the calculation of hours</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It follows that not all activity which restricts the worker&#8217;s ability to act as he pleases is work for the purposes of the NMW but that does not mean that it may not be work for some other purpose. However that may be, the statutory question in these appeals is not primarily whether he is working but: how are his hours of work to be determined for NMW purposes?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">That this is the correct question is confirmed by the fact that regulation 32 appears in Part 5, Chapter 3 of the 2015 regulations and that the heading to Part 5 is &#8220;Hours Worked for the Purposes of the National Minimum Wage&#8221;. Chapter 1 is headed &#8220;Determining the Hours of Work&#8221;. It starts with regulation 17, which provides that the hours of work in the pay reference period are the hours worked or <span style="font-style:italic">treated</span> as worked by the worker as determined in that period &#8220;&#8230; (b) for time work, in accordance with Chapter 3&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="margin-left:0.50in">(c)<marker name="tab"/>Rules signal that they may produce counterfactual results</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The use of the word &#8220;treated&#8221; in regulation 17 of the 2015 regulations is a signal that a counterfactual situation may arise. It underscores that the rules enacted by the regulations may not accord with reality and that there will be occasions when hours are not treated as hours worked for the purpose of the regulations even though a different number of hours might have been determined to be worked in the absence of that provision.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="margin-left:0.50in">(d)<marker name="tab"/>Finding the purpose in the recommendations of the LPC</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The recommendation made by the LPC in its First Report, set out in para 12 above, was that sleep-in workers should receive an allowance and not the NMW unless they were awake for the purposes of working. The LPC drew no distinction between workers who are working and those who are available for work and, as I see it, it did not contemplate that a person in the position of a sleeper-in could be said to be actually working if he was permitted to sleep. The LPC&#8217;s recommendation was accepted by the government, and so it is right to proceed on the basis that the purpose of the sleep-in provision in the 1999 regulations for sleep-in workers was to implement that recommendation. There is no evidence of any other relevant purpose.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the 1999 regulations as originally enacted, implementation was achieved for the purposes of time work by making sleepers-in an exception to the usual rule that availability for work required by the employer was to be treated as work. This was arguably not correct as the provision was not an exception to availability for work because it created a situation in which the sleep-in worker was not to be treated as performing time work. This may explain the subtle changes made in 2000. In the case of time work the amended regulation 15(1) retained the general rule that availability for work was to be treated as work and inserted a new regulation 15(1A), to which regulation 15(1) was made subject. This provided that sleep-in workers were not to be treated as performing time work unless they were awake for the purposes of working.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">However, in the successor regulations of 2015, regulation 32(2) provides in relation to time work that only hours spent awake for the purposes of working are hours when the worker is &#8220;available&#8221;, and this is so even if the employer has arranged for him to sleep. This provision may apply to a wider group than the sleep-in workers in these appeals since it appears to contemplate workers who sleep at or near a place of work but who do not have suitable sleeping facilities provided for them. Be that as it may, it seems to me that, having regard to the purpose of regulation 32(2), which like its predecessors is to implement the LPC recommendation about sleep-in shifts, the contemplation of the regulations in relation to time work is that a sleep-in worker cannot actually be working for NMW purposes if the arrangement is that he is to be present and sleep on the premises during his hours of work subject only to emergency calls. Accordingly, regulation 32(2) should be treated as applying to all such workers doing time work.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="margin-left:0.50in">(e)<marker name="tab"/>Reading phrases and rules as a whole</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The fact that there are separate regulations or regulations with separate paragraphs does not mean that those regulations or paragraphs do not have to be read as a whole: they must be read together so that the rules produce a harmonious whole. Likewise, the expression &#8220;awake for the purpose of working&#8221; is a single phrase. The word &#8220;awake&#8221; is not to be read on its own.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">(2)<marker name="tab"/>The meaning of the sleep-in provision</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In my judgment, applying the approach explained above, the special rule for sleep-in workers (regulation 32(2) of the 2015 regulations/regulation 15(1) or, later, regulation 15(1A) of the 1999 regulations) is quite clear. The basic proposition is that they are not doing time work for the purposes of the NMW if they are not awake. However, the regulations go further than that and state that not only are they not doing time work if they are asleep: they are also not doing time work unless they are awake for the purposes of working. So, it is necessary to look at the arrangements between the employer and the worker to see what the worker is required to do when not asleep but within the hours of the sleep-in shift.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">If the employer has given the worker the hours in question as time to sleep and the only requirement on the worker is to respond to emergency calls, the worker&#8217;s time in those hours is not included in the NMW calculation for time work unless the worker actually answers an emergency call. In that event the time he spends answering the call is included. In this aspect of the result, I agree with the illuminating analysis of the Court of Appeal. It follows that, however many times the sleep-in worker is (contrary to expectation) woken to answer emergency calls, the whole of his shift is not included for NMW purposes. Only the period for which he is actually awake for the purposes of working is included.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As I have explained above, the LPC in its First Report plainly did not consider that a sleep-in worker who was sleeping could be said to be working. In my judgment, the drafter of the 1999 regulations (at least as originally enacted) and the 2015 regulations took the same view because the sleep-in provision appears in the context of availability for work and not in the context of defining, in Mrs Tomlinson-Blake&#8217;s case, when she was working.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The drafter removes the possibility of a sleep-in worker claiming to be available for work simply because he can be woken up and asked to work. To be available for work a person must be both awake and awake for the purposes of working and not simply awake for his own purposes. That means that the hours that he is permitted to sleep do not form part of the calculation of his hours for NMW purposes (unless he is woken for work reasons).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Because regulation 32(1) provides for time work to include being available for work, the expression &#8220;for the purposes of working&#8221; in regulation 32(2) includes time when he is available for work, but the worker must be awake for that purpose. In this connection, the worker must have some duties to perform, such as helping with distributing breakfast to the residents of a home if requested by the day staff or waiting for a call to assist. My conclusion on this point is reinforced by the extracts from the Second Report (February 2000) (Cm 4571) of the LPC, which was not put before the Court of Appeal and to which our attention was drawn by Ms Anne Redston on behalf of the Local Government Association, which intervened in Mrs Tomlinson-Blake&#8217;s appeal (by way of written submissions) with the permission of the court, and in particular to para 5.40, where the LPC stated:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;5.40 In our first report we said that &#8216;for hours when workers are paid to sleep on the premises, we recommend that workers should agree their allowance, as they do now. But workers should be entitled to the National Minimum Wage for all times when they are awake and required to be available for work&#8217;. We based our original recommendation on evidence that most workers required to do a &#8216;sleepover&#8217; are paid an allowance for the inconvenience (similar to an on-call allowance). These allowances cannot count towards the National Minimum Wage calculation. If workers are contractually required to sleep on the employer&#8217;s premises, as opposed to choosing to do so, then that, including any payment made as compensation, is a matter for both parties to the employment contract.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The next paragraph in that Report stated that the government should produce guidance on the appropriate allowances to avoid abuse:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;5.41 Although it is not our role to determine the various pay allowances and supplements which employers agree with their employees, we are concerned that there is scope for employer abuse of the &#8216;sleepover&#8217; practice. We recommend that the Government should produce specific guidance to emphasise the difference between &#8216;sleepovers&#8217;, where the assumption must be that the worker would not normally be wakened and where an allowance is usual practice, and &#8216;on-call&#8217; and &#8216;standby&#8217; arrangements, where a worker is required to be at the workplace outside of normal working hours with the expectation that he or she will be required to work, for which the National Minimum Wage is payable.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The LPC therefore did not consider it necessary to make any recommendation as to legislative change to the 1999 regulations to meet the potential abuse to which it referred. Nor did it alter the recommendation on sleep-in shifts made in its First Report, which is set out in para 12 above. It simply recommended that the Secretary of State give guidance. The position remained the same in the Fourth Report of the LPC (Cm 5768), which it issued in March 2003 following further investigations. In this Report, the LPC referred again to &#8220;sleepovers&#8221;, where a person stays overnight in say a care home and is not expected to be woken except in an emergency. It confirmed the recommendation in the First Report and that it still reflected the right approach (paras 3.55-3.56). The LPC reiterated the distinction it had previously drawn between such situations and on-call or standby arrangements where &#8220;a worker is required to be at the workplace outside of normal working hours with the expectation that he or she will be required to work&#8221; (para 3.56). The LPC again called for the government to issue guidance (para 3.59).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">(3)<marker name="tab"/>Previous cases</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It will be apparent that several previous cases, such as <span style="font-style:italic">British Nursing</span>, have held that workers who were or might have been on night shifts are performing work (as opposed to being available to work) throughout the shift and that they are therefore outside the special rules in regulations 15(1) (later 15(1A)) of the 1999 regulations and 32(2) of the 2015 regulations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Underhill LJ considered that it was logically possible for a sleep-in worker to work even though asleep but that it would not be a natural use of language to say that a person who was expected to sleep during a night shift was working throughout his shift (para 43). He went further later in his judgment when he held that to say a person was working during a night shift when he was also sleeping was inconsistent with the regulations (para 77). It was on this basis that he concluded that <span style="font-style:italic">Burrow Down</span> could not stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As to logic, Oliver Wendell Holmes, the distinguished jurist, famously observed in the context of the common law that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The life of the law has not been logic: it has been experience. The felt necessities of the time, the prevalent moral and political theories, intuitions of public policy, avowed or unconscious, even the prejudices which judges share with their fellow-men, have had a good deal more to do than the syllogism in determining the rules by which men should be governed. The law embodies the story of a nation&#8217;s development through many centuries, and it cannot be dealt with as if it contained only the axioms and corollaries of a book of mathematics.&#8221; (<span style="font-style:italic">The Common Law</span> (1881), p 1)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Holmes was only stating the position in relation to the common law, where judges have authority to declare the common law, and it is debatable whether he was intending to exclude the role of logic altogether. In any event, statutory interpretation is different from the process of ascertaining the common law because the courts must give effect to the will of Parliament. Logic is no doubt a good guide to that, but the intention is also to be ascertained from the admissible context, and in this instance the context is relevantly provided by the recommendations of the LPC.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I agree with the interpretation given by Underhill LJ in para 77, namely that it was inconsistent with the regulations to say that a person was working during a night shift when he was positively expected to be asleep throughout all or most of the relevant period. This holding represents the culmination of his reasoning process and his interpretation in para 43 of his judgment in terms of logic and grammar alone (which I have summarised in para 52 of this judgment) marks merely a preliminary stage in his reasoning process. This interpretation gives weight to the recommendation on sleep-in shifts in the First Report of the LPC, set out at para 12 above.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In consequence, I too, like the Court of Appeal, would overrule <span style="font-style:italic">Burrow Down</span> (see para 32 above). In addition, I would overrule <span style="font-style:italic">British Nursing</span>. I have summarised the decision in that case in paras 28 to 30 above. The fundamental feature of the case is that the employment tribunal held that the employees were working, and not merely available for work, throughout their nightshifts even during the periods when they were expected to be sleeping and calls which they had to answer were infrequent. In their concurring judgments on this appeal, Lord Carnwath, with whom Lord Wilson agrees, and Lord Kitchin all consider that it was not open to the employment tribunal to make such a finding and therefore the Court of Appeal was in error in accepting it. I agree. What is less clear, however, is how an appellate tribunal should have dealt with the case, given that regulation 15 contained the home exception. We had little assistance on this in submissions. Lord Carnwath and Lord Wilson do not think it appropriate to be drawn into this area. Lord Kitchin takes the view that the employment tribunal could not rely on regulation 3 (meaning of time work) and conclude that the employees were working throughout the night shift simply because they fell within an exception to regulation 15. I agree. The EAT seems to have thought that if the employees had to be available to take any calls during the night, they would be working as opposed to available for work (para 23), but, as these appeals show, that cannot be the test.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Respecting as I do the position taken by my colleagues, it seems to me that I should explain why I conclude that the Court of Appeal was not entitled to uphold the finding of the employment tribunal even in a case where regulation 15 did not apply. As it seems to me, neither the EAT nor the Court of Appeal recognised that the 1999 regulations drew a basic distinction between working and being available for work. The latter is the subject of regulation 15 and it is in this sense, I suggest, that the parties agreed that regulation 15 was the governing provision. If the worker was only available for work, his activity was distinct from working and, as Lord Kitchin holds, he could not also be within regulation 3. I agree. The two concepts are clear and do not overlap, though they may not always admit of easy application on the facts. It should be noted here that, as indicated in the passages from the LPC&#8217;s Second Report and Fourth Report set out at paras 49 and 50 above, an employee can be employed to be available for work and be permitted to sleep and yet not be a sleep-in worker for the purposes of regulation 15(1). The arrangements covered by regulation 15 are only those where the principal purpose and objective of the arrangement is that the employee will sleep at or near the place of work, and responding to any disturbance during the time allocated for sleep must be subsidiary to that purpose or objective. I agree with the points made by Underhill LJ at paras 40 and 56 of his judgment that not every worker who is permitted to take a nap between tasks is a sleep-in worker, and that a person may, depending on the facts, be working, as opposed to being merely available for work, even if his work is only intermittent. These points may have particular resonance during a situation such as may arise in a pandemic, when employees are required to work at home when they can.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The question whether the employee was working or merely available for work therefore had to be addressed in <span style="font-style:italic">British Nursing</span> irrespective of whether the home exception in regulation 15(1) applied. (On that exception, the Inland Revenue (&#8220;the Revenue&#8221;) put forward an ambitious argument on interpretation, which failed. It is not clear what other arguments the Revenue put forward.) It would be anomalous if the regulations had the effect that the employee who was required to be available for work at home (but not actually working there) could be treated as working during the time they were expected to sleep while the sleep-in worker away from home was only entitled to have the time actually spent working taken into the calculation for NMW purposes. There is no reason why the regulations should put the employee who is at home in that preferential position, and it is therefore reasonable to assume that this was not the intention of the legislator.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The better view in my judgment is that the effect of the home exception in regulation 15(1) is that such an employee, ie an employee who is expected to sleep during his shift at home, and only to be woken infrequently, is not working but only available for work. The further effect of the home exception is that he is outside the extended meaning of work in regulation 15 and so, for his time to be included in the calculation for NMW purposes, he has to show that he is actually working. He can do this when he is actually performing duties as part of his employment. That puts him in the same position as the sleep-in worker who has to be available away from home. The case of the worker who would be a sleep-in worker but for the fact that by arrangement he sleeps at home has therefore not been omitted from the regulations as this analysis flows from the regulations when the basic distinction between working and being available for work is taken into account. It is significant, not happenstance, that the sleep-in provision and the home exception in regulation 15(1) are attached to availability for work, and not to working.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The further error of the Court of Appeal was therefore, as I see it, its failure to consider whether the anomaly to which I have just referred threw light on the meaning of the regulations, and to come to the right conclusion on interpretation. The Court of Appeal failed to ensure that the right questions had been addressed to determine whether during their sleeping hours the employees were actually working or were only available for work. I do not accept the argument which attracted the Court of Appeal that because they were clearly working during the day performing the same task as they did at night meant that they had to be treated as working at night (see per Buxton LJ at para 12). That is to apply logic at the expense of the different circumstances that prevailed during the night shift. The conclusions which I have expressed in paras 56 to 60 would apply even if regulation 3 and the amended regulation 15(1A) of the 1999 regulations, or regulations 30 and 32 of the 2015 regulations, had been in force in place of regulations 3 and 15 of the 1999 regulations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is important that tribunals should appreciate the range of distinctions that fall to be made and make appropriate findings. The function of making these distinctions has been left to the tribunals: the LPC&#8217;s Fourth Report (para 3.58) explains that arrangements can vary considerably on their facts and that it would have been difficult for the regulations to capture the diversity of individual cases. Because of these matters, I do not share Underhill LJ&#8217;s lack of concern about the reasoning or indeed the outcome in <span style="font-style:italic">British Nursing</span>, and it has been influential in the development of the law. Accordingly, it seems to me that the case should no longer be regarded as authority. I should make it clear that I consider that the lack of understanding of the effect of the LPC&#8217;s recommendation on sleep-in shifts may have contributed to the way in which the eminent judges decided these cases.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It follows that I would also overrule the decision of the First Division of the Inner House of the Court of Session (Lord President Cullen, Lord Osborne and Lord Wheatley) in <span style="font-style:italic">Scottbridge Construction Ltd v Wright</span><ref href="#" uk:canonical="[2003] IRLR 21" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] IRLR 21</ref>, which was persuasive authority only for the Court of Appeal. In that case too, the sleeper-in was held to be working and outside regulation 15(1) of the 1999 regulations. The worker was a night watchman on an overnight shift, and it was found that it was very rare when he was not able to sleep. He was required to deal with the telephone at any time and security alarms. There was no detailed consideration of the work carried out by the night watchman. The eminent judges of the Inner House applied the decision of the Court of Appeal in <span style="font-style:italic">British Nursing</span>. They too were not provided with the First Report of the LPC. They held that working included being on call, and that therefore regulation 15(1) did not apply. Underhill LJ considered that this decision was not of great persuasive weight because the recommendations of the LPC had not been cited (para 80). He also expressed the view that a night watchman might not fall within the words of regulation 15(1) (para 79). That is a question of fact, but on the bare facts of <span style="font-style:italic">Scottbridge</span> it is difficult to see why a watchman, given suitable facilities for sleeping as required by regulation 32(2) of the 2015 regulations, should not be within that paragraph in the same way that a sleep-in worker in a care setting would be.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I have referred in para 5 above to <span style="font-style:italic">Walton</span>, which concerns unmeasured work by a carer providing 24-hour care for three days. The Court of Appeal in that case (Aldous LJ, Jacob J and myself) took the view that time spent asleep was not unmeasured work for the purposes of the NMW and that the whole shift was therefore not to be taken into the calculation for NMW purposes. The court reached this result even though, for unmeasured work, the 1999 regulations did not contain a provision comparable to the sleep-in provision in regulation 15(1) of the 1999 regulations applying to time work, but the provisions applicable to unmeasured work made a clear distinction between working on the one hand and being available for work on the other. Aldous LJ, who gave the first judgment, held that the employment tribunal was entitled to find as it did that the carer in that case was paid not by reference to the time she worked but by reference to her performance of certain tasks. In my judgment, I was assisted to reach my decision by the recommendations in paras 4.33 and 4.34 of the First Report of the LPC (see para 12 above), and I distinguished <span style="font-style:italic">British Nursing</span> and <span style="font-style:italic">Scottbridge</span>. Underhill LJ at para 87 of his judgment in the present appeals considered that it was helpful that the same result as he held applied to time work and salaried hours work applied also to unmeasured work, and I agree. It also avoids the possibility that the regulations infringe the prohibition in <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39/section/2/8" uk:canonical="1998 c. 39 s. 2" uk:origin="TNA" uk:type="legislation">section 2(8)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/39" uk:canonical="1998 c. 39" uk:origin="TNA" uk:type="legislation">NMWA 1998</ref> against regulations which treat the same circumstances differently in relation to different sectors of employment, to which counsel drew attention.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In addition, it follows that the reasoning in <span style="font-style:italic">Walton</span> is reinforced by the judgments in this case.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">Submissions in relation to the present appeals and their resolution</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In my judgment, the Court of Appeal was correct for the reasons they gave in allowing the appeal in Mrs Tomlinson-Blake&#8217;s case and in dismissing it in relation to Mr Shannon.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In his eloquent submissions, Mr Sean Jones QC, for Mrs Tomlinson-Blake, urges us to follow the approach of Simler P in the EAT and adopt the sequential approach of first deciding whether Mrs Tomlinson-Blake was doing &#8220;work&#8221; or whether she was simply available for work. He contends that, on the facts as found by the employment tribunal, she was working and not simply available for work for the purposes of regulation 32 of the 2015 regulations. I reject that submission for the reasons given above. That process would considerably reduce the sphere of operation of the sleep-in provision contrary to the apparent intention of the LPC. Moreover, there is no provision in the regulations for the position to change according to the frequency of the calls on the sleep-in worker, as Mr Jones submits.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Jones urges on us that we should take into account the fact that, by performing her sleep-in shift, Mrs Tomlinson-Blake enabled Mencap to perform its contractual obligations to the local authority which in turn was thereby able to discharge its statutory obligations. I would be prepared to accept that there would have been regulatory or other duties on the employer in the context of care provision to continue care provision overnight. In addition, Mr Jones&#8217; argument is supported by an example given in a document entitled <span style="font-style:italic">National Minimum Wage - Calculating the Minimum Wage</span> issued by the Department for Business, Innovation and Skills in February 2015 (see p 31) as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;A person works in a care home and is required to work overnight shifts where they sleep on the premises. The person&#8217;s employer is required by statute to have someone on premises for health and safety purposes. The person would be disciplined if they left the premises at any stage during the night. It is likely that the person would be considered to be &#8216;working&#8217; for the whole of the overnight shift even when they are sleeping.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">However, this document is not an aid to interpretation of the regulations (the 2015 regulations had not then been laid before Parliament), and merely reflects the opinion of the Department at that time. No doubt that opinion was based on the cases which had then been decided. Accordingly, I do not consider that that document assists the Court on these appeals.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Moreover, as I have explained, there is nothing in the regulations which would indicate that statutory requirements placed on the employer were a relevant consideration in calculating the hours of work for the purposes of the NMW. I should also add that it cannot be relevant as a matter of principle that an employer has imposed obligations on a worker unless they are reflected in the practical running of the arrangements between the employer and the worker.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Jones submits that even when asleep Mrs Tomlinson-Blake had to have a &#8220;listening ear&#8221; but like the Court of Appeal I do not consider that having a listening ear leads to the conclusion that she was working for NMW purposes. A worker must travel from home to the employer&#8217;s place of business, but it does not automatically follow that the travelling time falls within the calculation of hours for the purposes of the NMW.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Jones also submits that the multifactorial test adumbrated by Simler P should be reinstated to determine whether a worker was working by simply being present, but there is no call to do so under my interpretation of the regulations. That test would introduce a considerable amount of uncertainty into the NMW rights of the sleep-in worker, a point emphasised by Mr David Reade QC on behalf of Mencap and by Ms Anne Redston on behalf of the intervener. That would be undesirable and not in the interests of either party to the arrangement.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Shannon</span>, Mr Glyn emphasises the point made also by Mr Jones that the fact that the worker was enabling the employer to perform a regulatory duty should be a factor weighing in favour of the worker performing work and not just being available for work. Mr Glyn also argues strongly that Mr Shannon was working by merely being present. As already explained, I do not accept these submissions.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The sleep-in worker who is merely present is treated as not working for the purpose of calculating the hours which are to be taken into account for NMW purposes and the fact that he was required to be present during specified hours was insufficient to lead to the conclusion that he was working. I consider that the reasons for dismissing this appeal given by the tribunals and the Court of Appeal were correct.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The arguments in this case were completed before the first coronavirus lockdown, which has introduced stay-home measures for many workers. We have therefore had no argument as to any effect of those measures on the calculation of the NMW. I wish to make that clear.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I also wish to thank Judy Stone and Christopher Parkin, who appeared for Mr and Mrs Rampersad pro bono. This not only assisted the Court but is also in the best traditions of the legal profession and its record of voluntary service to the community.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I wish also in a very few words to pay the fullest tribute to the late Lord Kerr of Tonaghmore, who passed away on 1 December 2020. He was a Justice of this Court for over ten years and he presided over these appeals at the hearing, demonstrating in his lively exchanges with counsel his intellectual leadership, commitment to the cause of justice, warmth of personality, empathy, enormous courtesy and deep humanity. His passing is a great loss to this Court and to many. It is extremely sad that he had not completed his last leading judgment, of which these appeals were to be the subject, before his final illness. I have written my judgment in its place and the task of preparing and issuing judgments in this case has inevitably been delayed. The Court much regrets the inconvenience to all the parties for their having to wait so long for this judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For the reasons given above, I would dismiss these appeals.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">LORD CARNWATH: (with whom Lord Wilson agrees)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I agree that these appeals should be dismissed for the reasons given by Lady Arden. I would, however, prefer respectfully to reserve my position with respect to some of her comments on the decision of the Court of Appeal in <span style="font-style:italic">British Nursing</span> (paras 56-61), while agreeing with her, as explained below, that the decision should no longer be regarded as authoritative.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The difficulty with that case started with the way in which it was presented to the employment tribunal, where the parties had agreed that the governing provision was regulation 15(1) (in its original 1999 form: para 15 above). At first sight this appears difficult to reconcile with the words of the regulation: &#8220;other than his home&#8221;. Although the decision of the tribunal itself is not before us, the nature of the argument can be inferred from the judgment of the EAT in the following passage:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;27.<marker name="tab"/>We have then gone on to consider, in any event, whether the time work includes time when a worker is available at a place of work for the purpose of doing time work, if in the event we are wrong in our interpretation on the first matter. The respondents have left open, as it were, for us to consider <span style="font-style:italic">the argument that in any event the Regulations do not exclude workers at home from that additional provision but only those that are near a place of work</span>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">28.<marker name="tab"/>It seems to us that the Regulations are designed specifically to exclude home workers from work additional to actual working. The phrase in the Regulations is:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in;margin-right:0.85in">&#8216;&#8230; time work includes time when a worker is available at or near a place of work, other than his home, for the purpose of doing time work.&#8217;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">One need not, it seems to us, go beyond a literal interpretation of those Regulations. The phrase &#8216;at or near&#8217; is a self-contained phrase which qualifies a place of work and no distinction is drawn in the Regulations, therefore, between their provisions as they effect the place of work or being near a place of work.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">29.<marker name="tab"/>Furthermore, where provision is made for &#8216;other than his home&#8217;, that is separated from the proceeding clause by a comma and qualifies the whole of it. Furthermore, it is immediately preceded by the words &#8216;a place of work&#8217; and therefore is qualifying a place of work. The Regulations have, therefore, in mind a place of work other than the home and the fact that the phrase &#8216;at or near&#8217; precedes a place of work, it seems to us, prevents any logical grammatical construction distinguishing the provisions &#8216;other than his home&#8217;, between being &#8216;at&#8217; or &#8216;near&#8217; such a place of work.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">30.<marker name="tab"/>It is quite clear to us that the purpose of those Regulations is to exclude home work from those notional types of work that are in addition to actual working. One can understand the reasoning behind that; home work is a difficult area to fit into these Regulations, particularly when one is trying to say what is notional and what is not. Accordingly it has been excluded from notional work and only included in actual work. It is the definition of what is actual work on the facts of this case that has been the major exercise.&#8221; (Emphasis added)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">It appears from that passage that, on the Revenue&#8217;s interpretation of the original wording, the home exclusion only applied to homes near a place of work. Although this interpretation was in due course rejected at all levels, the parties&#8217; agreement on the application of regulation 15(1) seems to have affected the way the tribunal looked at the facts, and in consequence the way their findings were taken into account at the higher levels.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I note that by the time that the case was heard by the employment tribunal (September 2000), the proposed amendment had been presented to Parliament (25 July 2000: see para 16 above), although it did not come into effect until 1 October 2000. Although we do not know the reasons for the amendment, it may have arisen from the apparent uncertainty disclosed by the emergence of the British Nursing dispute.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Whatever the merits of the Revenue&#8217;s argument, whether under the old or the new version of rule 15, it was laid to rest by the above passage in the EAT&#8217;s judgment, in particular para 30, later endorsed by Buxton LJ in the Court of Appeal. The resulting exclusion of all home-working, wherever the home, from the availability for work provision, was confirmed by the recast 2015 regulations, regulation 32 (para 17 above).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Unfortunately, as I have said, the parties&#8217; mistaken agreement as to the application of regulation 15(1) to home-working meant that the case started off on the wrong basis. The conflicting issues were not, with respect, satisfactorily resolved in the single unreserved judgment of Buxton LJ in the Court of Appeal. The treatment of home-working is not before us, but it may well become important in other cases, particularly arising out of the period of the Covid-19 lockdown. In those circumstances, I would agree with Lady Arden in holding that the decision and reasoning of the Court of Appeal should no longer be regarded as authoritative. I would do so on the simple ground that the Court of Appeal (following the employment tribunal) could not properly have held that the employees were working for the whole of the period of their shifts; and that it is not in my view necessary, in the context of the present appeals, to address the potentially difficult issues arising out of the treatment of any particular activities, or lack of activities, within that period. I would reserve further comment for a case where the same or similar issues arise for actual decision.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">LORD KITCHIN:</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I agree that these appeals must be dismissed for the reasons given by Lady Arden. She would also overrule the decision of the Court of Appeal in <span style="font-style:italic">British Nursing</span>. I agree that this decision is unsatisfactory and, in my view, it should no longer be treated as authoritative. I will explain my reasons for reaching that conclusion in a moment. But first, I must say a few words about the relationship between regulations 3 and 15(1) of the National Minimum Wage Regulations 1999 in their original form (&#8220;the 1999 Regulations&#8221;), the applicable regulations in <span style="font-style:italic">British Nursing</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Regulation 3(a) of the 1999 Regulations reads:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In these Regulations &#8216;time work&#8217; means - (a) work that is paid for under a worker&#8217;s contract by reference to the time for which a worker works and is not salaried hours work &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Regulation 15(1) of the 1999 Regulations extends the scope of this definition in particular circumstances. It provides that time work includes time when a worker is, and is required to be, available at or near her place of work, other than her home, for the purpose of doing time work. But there is an exception for a worker who by arrangement sleeps at or near her place of work. In such a case, time when the worker is permitted to sleep is only to be treated as time work when she is, and is required to be, awake for the purpose of working. Underhill LJ, in para 43 of his judgment below, observed that the self-evident intention of this exception (and its successors) was to deal with the position of the &#8220;sleep-in worker&#8221;, that is to say a worker who is contractually obliged to spend the night at or near her workplace on the basis that she is expected to sleep for all or most of the period but may be woken if required to undertake some specific activity. I agree and when I refer to a &#8220;sleep-in worker&#8221; or use a related term, that is what I mean, as did Underhill LJ, as he explained at para 6 of his judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In some cases it may be thought helpful to consider the application of regulations 3 and 15(1) of the 1999 Regulations sequentially and to ask first, whether the worker was actually doing time work at the relevant time; and, if she was not, to ask secondly, whether she was, and was required to be, available at or near her place of work, other than her home, for the purposes of doing time work. If the answer to the second limb is &#8220;yes&#8221; then, subject to the exception for sleep-in workers, the time for which she was available for work also counts as time work.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">That does not mean to say that regulations 3 and 15 of the 1999 Regulations can be interpreted separately from one another, however. In particular, in the case of a sleep-in worker, as I have defined her, the application of the exception in regulation 15(1) cannot be avoided by arguing that she was performing time work when she was permitted to sleep and was sleeping. The drafter regarded a sleep-in worker as being available for work rather than actually working, but the time in the hours she was permitted to sleep is only treated as time work when she was, and was required to be, awake for the purpose of working. Any doubt as the correctness of this approach is dispelled by para 4.34 of the First Report of the Low Pay Commission (&#8220;the LPC&#8221;), set out at para 12 above, and by paras 5.40 and 5.41 of the LPC&#8217;s Second Report, set out at paras 48 and 49 above.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The position is made still clearer by regulation 15(1A) of the 1999 Regulations (as amended by regulation 6 of the National Minimum Wage Regulations 1999 (Amendment) Regulations 2000) which came into effect on 1 October 2000. Now, in relation to a sleep-in worker who is provided with suitable facilities for sleeping, time in the hours she is permitted to sleep is only treated as time work when she is, and is required to be, awake for the purpose of working. Once again, the operation of this provision cannot be avoided by arguing that such a sleep-in worker is performing time work when she is sleeping with the permission of and by arrangement with the employer. That would be to strip regulation 3 from the context in which it appears and to disregard the evident intention of the drafter in framing regulation 15(1) and (1A) in the terms and, in particular, subject to the limitations that they did.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As Lady Arden has explained, the substance of regulations 3 and 15 of the 1999 Regulations, as amended in 2000, later found expression in, respectively, regulations 30 and 32 of the National Minimum Wage Regulations 2015. The explanatory memorandum to this later instrument makes clear that it does not introduce any substantive change to the relevant regulations, however. That is enough to dispose of Mrs Tomlinson-Blake&#8217;s appeal to this court. When performing a night shift, she slept-in by arrangement at her place of work and was provided with suitable facilities for doing so. She was expected to intervene when necessary but the need to do so was infrequent. The Court of Appeal was right to hold that, as a sleep-in worker, Mrs Tomlinson-Blake was only carrying out time work when she was required to be awake for the purpose of working. So too, Mr Shannon&#8217;s appeal must be dismissed. He was a salaried hours worker who was required to be on-call at night to assist a night care worker when necessary. He was provided with accommodation and was very rarely asked to assist. Regulation 16(1) and (1A) of the 1999 Regulations, as amended in 2000, applied to him, and he was only carrying out salaried hours work when he was actually called on.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I can now return to <span style="font-style:italic">British Nursing</span>. This concerned employees who worked the night shift from home and it illustrates a further respect in which a failure to read regulations 3 and 15 together and to interpret them in a holistic way can lead a tribunal into error. I will describe the nature of that error and consider its bearing on the outcome of the proceedings after summarising the relevant facts and the findings of the tribunals and the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Association (&#8220;the BNA&#8221;) operated an emergency &#8220;bank nurse&#8221; booking service. It was a 24-hour service. During the day-time it was operated by employees working from the BNA&#8217;s premises. But at night-time, broadly from 8 pm to 9 am, it was operated by employees working from home. It was a seamless service, that is to say a client did not know the location of the person who was answering the telephone. Employees were paid for each shift. The overarching question was whether the employees operating the night shift were paid an amount that satisfied the national minimum wage requirements. That in turn depended on when they were doing time work. The Inland Revenue (&#8220;the Revenue&#8221;) contended that night shift employees were doing time work when awake and awaiting telephone calls or answering them. The BNA argued that night shift employees were only engaged in time work when actually answering the telephone.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The agreed statement of facts recorded that night shift employees were required to be available to answer telephone calls throughout the shift, and to do so within four rings or apologise for keeping the callers waiting. Subject to this, employees were able to spend part of the shift asleep or doing other activities. The busiest times were the three hours at the beginning and the three hours at the end of the shift. Calls were received infrequently in the period from about 11.30 pm to 5.30 am and it was no doubt during this quieter time that employees could sleep.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The employment tribunal (&#8220;the ET&#8221;) found in para 37 of its extended reasons that night shift employees were working for the whole of the shift (a finding quoted by the Court of Appeal at para 8). However, in an attempt to recognise an agreement between the parties that regulation 15 of the 1999 Regulations was the governing provision, the ET held that &#8220;in accordance with regulation 15(1)&#8221; the employees were engaged in time work when they were awake and awaiting calls, but not when they were asleep.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The BNA appealed to the EAT, contending, once again, that the night shift employees were only engaged in time work when actually answering the telephone. There was no cross-appeal by the Revenue. The EAT reasoned that the opening words of regulation 15 made clear that the starting point was to decide when a worker was actually working and then to see if there were other periods of time when the worker was available for doing time work and which were to be included as time work by application of the regulation. In that latter regard the EAT explained that, in the case of home workers, this possibility was excluded by the terms of the regulation. The EAT therefore saw the key question as being whether the night shift employees were performing time work for the whole of the shift. The EAT considered various aspects of the employees&#8217; duties and held, at para 25, that the ET had been entitled to conclude, on the facts it had found, that the employees were indeed working for the whole shift. Those employees were working when holding themselves ready to answer telephone calls and not just when they were actually answering them. The BNA&#8217;s appeal was therefore dismissed.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On further appeal to the Court of Appeal, the BNA repeated their argument that the night shift employees were only doing time work when they were answering telephone calls and that the tribunals had fallen into error in finding otherwise. The Court of Appeal rejected that argument. Buxton LJ, giving the leading judgment, held that it was open to the ET and the EAT to find that the employees were working throughout the night shift; that regulation 15 was therefore irrelevant (because it was dealing with availability for work); but that the history of the proceedings made it impossible to escape from the limitation imposed by the ET that workers should not be paid for the hours they were permitted to sleep. The BNA&#8217;s further appeal was therefore dismissed.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In my view the ET, the EAT and the Court of Appeal in <span style="font-style:italic">British Nursing</span> fell into error. In finding that the night shift employees were working for the whole shift, the ET and the EAT lost sight of the need to interpret regulation 3 and regulation 15 together; and the Court of Appeal failed to recognise that error. As Underhill LJ observed at para 43 of his judgment and I agree, it would not be a natural use of language, in a context which distinguishes between actually working and being available for work, to describe someone as working when she is positively expected to be asleep (and, I would add, may well be asleep) throughout all or most of the relevant period. That observation, made in the context of Underhill LJ&#8217;s consideration of a sleep-in worker, is in my view equally applicable to a home worker.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Further, it is of direct relevance to the employees working the night shift in <span style="font-style:italic">British Nursing</span>, at least for the hours of the shift from about 11.30 pm to 5.30 am when calls were received infrequently and, it may be inferred, those employees were permitted and expected to sleep and would not necessarily have expected to be woken. Indeed, this much appears to have been recognised by Buxton LJ at para 17 of his judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It was, perhaps, with these difficulties in mind that the ET in <span style="font-style:italic">British Nursing</span> attempted to retreat to the shelter of regulation 15 and found that the night shift employees were engaged in time work at times when they were awake and awaiting calls at home, but not when they were asleep. Again, however, this finding is not sustainable for in so far as these employees were then available for work (rather than actually working), as the finding implies, the time would not count as time work because they were at home, as the EAT correctly recognised at paras 28-30 of its judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This does not mean to say that a person cannot be performing time work within the meaning of regulation 3 just because the tasks she is required to undertake are intermittent, however. As Underhill LJ explained at para 56 of his judgment and I agree, there are no doubt many kinds of work which can be and are performed from home and in which tasks only come up intermittently but where a person is still performing time work in the periods between those tasks. It is possible, though I express no view on the point and there is no satisfactory finding, that the busier periods of the night shift in <span style="font-style:italic">British Nursing</span> fell into this category. Moreover, I also agree with Underhill LJ that if an employee is actually working for the relevant period then, notwithstanding that the work may only generate tasks intermittently, it makes no difference whether she is doing so at home or at work. Nor is a finding that a person is actually working necessarily inconsistent with that worker making a cup of tea or even having a nap between tasks, as Underhill LJ recognised at para 40 of his judgment. It would not inevitably follow that, for the relevant period, the worker is expected to sleep and not to perform any substantive activities.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Unfortunately, these matters received no proper consideration by the Court of Appeal in <span style="font-style:italic">British Nursing</span> and I, in agreement with Lady Arden, do not share Underhill LJ&#8217;s lack of concern about its outcome. In my opinion and for the reasons I have given, the decision of the Court of Appeal in <span style="font-style:italic">British Nursing</span> should no longer be regarded as authoritative.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

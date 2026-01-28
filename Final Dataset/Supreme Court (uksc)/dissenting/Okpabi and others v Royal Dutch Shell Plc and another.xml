@@ -1,0 +1,1714 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/3"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/3"/>
+	  <FRBRdate date="2021-02-12" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="3"/>
+	  <FRBRname value="Okpabi and others v Royal Dutch Shell Plc and another"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/3"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/3"/>
+	  <FRBRdate date="2021-02-12" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/3/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/3/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:55:11" name="transform"/>
+	  <FRBRdate date="2024-01-27T17:24:42" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-02-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="okpabi-and-others" href="" showAs="Okpabi and others"/>
+	<TLCPerson eId="royal-dutch-shell-plc-and-another" href="" showAs="Royal Dutch Shell Plc and another"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2021</uk:year>
+	<uk:number>3</uk:number>
+	<uk:cite>[2021] UKSC 3</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>b0801526ae1481a85a957d9b549f4dc1314176bbbf490d680f5b956a1bc190c5</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-style: italic; font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1.00in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.00in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.50in; margin-right: 0.50in; font-size: 13pt; }
+#judgment .NewSpeech { font-style: normal; font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .UnresolvedMention1 { color: #605E5C; background-color: initial; }
+#judgment .coitalic1 { font-style: italic; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentSubjectChar { font-weight: bold; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p><img src="image1.png" style="width:1.3756944444444446in;height:1.3756944444444446in;"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Hilary Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2021] UKSC 3</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2018] EWCA Civ 191</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p class="Title1" style="margin-left:0.06in"><party as="#appellant" refersTo="#okpabi-and-others" style="font-size:20pt">Okpabi and others</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellants</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#respondent" refersTo="#royal-dutch-shell-plc-and-another" style="font-size:20pt">Royal Dutch Shell Plc and another</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondents</role><span style="font-size:20pt">)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hodge, Deputy President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Black</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Briggs</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Kitchin</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hamblen</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2021-02-12" refersTo="#judgment" style="font-weight:bold;font-size:18pt">12 February 2021</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-left:4.00in;text-indent:-4.00in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 23 June 2020</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 1.97in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Appellants</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Respondents</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Richard Hermer QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Lord Goldsmith QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Robert Weir QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Sophie J Lamb QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Edward Craven</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Dr Conway Blake (Solicitor Advocate)</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Tom Cornell</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">(Instructed by Leigh Day (London))</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Debevoise &amp; Plimpton LLP (London))</p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 2.35in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">1</span><span style="font-style:italic;vertical-align:super;font-size:smaller">st</span><span style="font-style:italic"> and 2</span><span style="font-style:italic;vertical-align:super;font-size:smaller">nd</span><span style="font-style:italic"> Interveners</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Timothy Otty QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Tim Johnston</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Professor Robert McCorquodale</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">George Molyneaux</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Kingsley Napley LLP)</p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 2.35in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">3rd Intervener</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Ben Jaffey QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Hausfeld &amp; Co LLP (London))</p>
+	  </td>
+	</tr>
+      </table>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Interveners:-</span></p>
+      <p>(1)<marker name="tab"/>The International Commission of Jurists</p>
+      <p>(2)<marker name="tab"/>The Corporate Responsibility (CORE) Coalition Limited</p>
+      <p>(3)<marker name="tab"/>Corner House Research</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD HAMBLEN: (<span style="text-transform:none">with whom Lord Hodge, Lady Black and Lord Briggs agree)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">I</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This is a jurisdiction appeal which raises the question of whether the claimants have an arguable case that a UK domiciled parent company owed them a common law duty of care so as properly to found jurisdiction against a foreign subsidiary company as a necessary and proper party to the proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A similar issue was addressed in the recent Supreme Court decision of <span style="font-style:italic">Lungowe v Vedanta Resources plc</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/20" uk:canonical="[2019] UKSC 20" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 20</ref>; <ref href="#" uk:canonical="[2020] AC 1045" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] AC 1045</ref>. It might reasonably have been expected that the guidance provided by that decision would resolve this appeal without the need for a hearing. That proved not to be the case, but <span style="font-style:italic">Vedanta</span> is very relevant to both the procedural and the substantive issues raised on this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appeal concerns two sets of proceedings, the Ogale proceedings and the Bille proceedings. In the Ogale proceedings the appellant claimants are a Nigerian farming and fishing community of approximately 40,000 individuals in Rivers State, Nigeria. The claim is brought by the leadership of the Ogale Community, namely the King, HRH Emere Godwin Bebe Okpabi, and the Council of Chiefs, suing both for themselves and in a representative capacity on behalf of the people of the Ogale Kingdom. In the Bille proceedings the appellant claimants are 2,335 individuals who live in the Bille Kingdom, a remote riverine community in Rivers State, Nigeria.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The claims allege that numerous oil spills have occurred from oil pipelines and associated infrastructure operated in the vicinity of the appellants&#8217; communities. The appellants allege that these oil spills have caused widespread environmental damage, including serious water and ground contamination, and have not been adequately cleaned up or remediated. It is said that as a result of the spills, the natural water sources in the appellants&#8217; communities cannot safely be used for drinking, fishing, agricultural, washing or recreational purposes.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants&#8217; case is that the oil spills were caused by the negligence of the pipeline operator, the second respondent, The Shell Petroleum Development Company of Nigeria Ltd (&#8220;SPDC&#8221;), a Nigerian registered company. It operated the oil pipelines and ancillary infrastructure on behalf of the unincorporated joint venture between the state-owned Nigerian National Petroleum Corporation (&#8220;NNPC&#8221;), Total E&amp;P Nigeria Ltd (formerly Elf Petroleum Nigeria Ltd and a subsidiary of Total, &#8220;Total E&amp;P&#8221;), Nigerian Agip Oil Company (&#8220;NAOC&#8221;, a subsidiary of ENI) and SPDC. The percentage participating interests of these companies in the joint venture are as follows: NNPC - 55%, Total E&amp;P - 10%, NAOC - 5%, and SPDC 30%.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">SPDC is a subsidiary of the first respondent, Royal Dutch Shell Plc (&#8220;RDS&#8221;), a UK domiciled company and the parent company of the multinational Shell group of companies.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants&#8217; case against RDS is that it owed them a common law duty of care because, as pleaded, it exercised significant control over material aspects of SPDC&#8217;s operations and/or assumed responsibility for SPDC&#8217;s operations, including by the promulgation and imposition of mandatory health, safety and environmental policies, standards and manuals which allegedly failed to protect the appellants against the risk of foreseeable harm arising from SPDC&#8217;s operations. It is agreed that the issue of governing law should be approached on the basis that the laws of England and Wales and the law of Nigeria are materially the same.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In addition to the claims against RDS, the appellants allege that SPDC is also liable for damage caused by those oil spills under various Nigerian statutory and common law causes of action.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">II</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">The procedural history</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The claim form in the Ogale proceedings was issued on 14 October 2015. The claim form in the Bille proceedings was issued on 22 December 2015. These were served on RDS as a defendant domiciled within the jurisdiction.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants applied for permission to serve the claim form on SPDC outside the jurisdiction on the basis that SPDC was a &#8220;necessary or proper party&#8221; to the claims against RDS for the purposes of the jurisdictional &#8220;gateway&#8221; contained in paragraph 3.1(3) of Practice Direction 6B. It is common ground that, in order for jurisdiction against SPDC to be established under this gateway, the appellants must establish that their claims against RDS, the anchor defendant, raise a real issue to be tried, which means that they have a real prospect of success, the summary judgment test - see <span style="font-style:italic">Altimo Holdings and Investment Ltd v Kyrgyz Mobil Tel Ltd</span><ref href="#" uk:canonical="[2012] 1 WLR 1804" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] 1 WLR 1804</ref>, para 82, per Lord Collins of Mapesbury JSC; <span style="font-style:italic">Vedanta</span> at para 42.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Following a half day <span style="font-style:italic">ex parte</span> hearing before HHJ Raeside QC on 2 March 2016, permission to serve SPDC out of the jurisdiction was granted. On 26 April 2016, SPDC applied for the claim forms, service of the claim forms and the orders of HHJ Raeside QC to be set aside, or alternatively to have the proceedings against SPDC stayed. RDS had already made applications seeking orders that the court did not have jurisdiction or should not exercise jurisdiction to try the claims against RDS.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 7 October 2016, RDS and SPDC applied for the issue of whether RDS owes the appellants a duty of care to be tried as a preliminary issue before determination of RDS and SPDC&#8217;s jurisdictional challenges, an application which the appellants opposed. On 26 October 2016, Fraser J rejected the application.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 22 to 24 November 2016, a three-day hearing of the respondents&#8217; applications challenging jurisdiction and seeking to set aside service of the claims out of the jurisdiction took place before Fraser J in the Technology and Construction Court.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 26 January 2017, Fraser J delivered judgment, concluding that, although the court had jurisdiction to try the claims against RDS (as a company incorporated in the UK), it was &#8220;not reasonably arguable that there is any duty of care upon RDS&#8221;: <ref href="#" uk:canonical="[2017] Bus LR 1335" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] Bus LR 1335</ref>, para 122. In the light of this conclusion regarding the merits of the claim against the anchor defendant, the conditions for granting permission to serve the claim on SPDC outside the jurisdiction under paragraph 3.1(3) of Practice Direction 6B were not made out. It was therefore unnecessary for the judge to make any findings on the disputed issues of appropriate forum and/or access to justice in Nigeria. Orders were made setting aside service of the claim forms on SPDC and striking out the appellants&#8217; statements of case insofar as they related to RDS. Permission to appeal was also granted.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appeal was heard before the Court of Appeal (Sir Geoffrey Vos, Chancellor of the High Court, Sales and Simon LJJ) on 21 to 23 November 2017. Judgment was delivered on 14 February 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal considered that the judge had erred in certain respects in his approach to the evidence before the court. On that basis, the Court of Appeal decided that it was entitled to review the evidence for itself, including fresh evidence adduced on appeal, and to reach its own conclusions.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The evidence before the court comprised witness testimony and supporting documentary evidence adduced by both parties, including 26 witness statements and expert reports adduced by the appellants, and 17 witness statements and expert reports adduced by the respondents.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The majority of the Court of Appeal (Simon LJ and the Chancellor) held that there was no arguable case that RDS owed the appellants a common law duty of care to protect them against foreseeable harm caused by the operations of SPDC. Sales LJ delivered a dissenting judgment in which he explained why he considered there was a good arguable case that RDS did owe the appellants a duty of care.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Consideration of the appellants&#8217; application for permission to appeal was deferred by the appeal panel of the Supreme Court until after judgment in <span style="font-style:italic">Vedanta</span>. Following that judgment, permission was granted with it being noted that it was &#8220;consider[ed] that the law has been adequately clarified in <span style="font-style:italic">Vedanta</span>, but that it would be unjust to refuse permission in circumstances where this case might equally have been treated as the lead case&#8221;. The parties were accordingly invited &#8220;to consider whether it is necessary for the appeal to proceed to a full hearing, following the judgment in <span style="font-style:italic">Vedanta</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">III</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">Proportionality</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Vedanta</span> comments were made at paras 6 to 14 about the importance of observing proportionality in relation to the litigation of jurisdiction issues. Reference was made to previous occasions on which courts have made comments to similar effect, such as by Lord Neuberger of Abbotsbury in <span style="font-style:italic">VTB Capital plc v Nutritek International Corpn</span><ref href="#" uk:canonical="[2013] 2 AC 337" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 2 AC 337</ref>, paras 82-83. Regrettably, all these comments apply and bear repetition in the present case, as Simon LJ observed in the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">At para 9 of <span style="font-style:italic">Vedanta</span> Lord Briggs emphasised that where, as in this case, the jurisdictional issue is whether there is a triable issue as against a defendant, it is important to observe judicial restraint and to avoid mini-trials, in accordance with the well-known guidance set out by Lord Hope of Craighead in <span style="font-style:italic">Three Rivers District Council v Governor and Company of the Bank of England (No 3)</span><ref href="#" uk:canonical="[2003] 2 AC 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] 2 AC 1</ref>:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;94.<marker name="tab"/>For the reasons which I have just given, I think that the question is whether the claim has no real prospect of succeeding at trial and that it has to be answered having regard to the overriding objective of dealing with the case justly. But the point which is of crucial importance lies in the answer to the further question that then needs to be asked, which is - what is to be the scope of that inquiry?</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">95.<marker name="tab"/>I would approach that further question in this way. The method by which issues of fact are tried in our courts is well settled. After the normal processes of discovery and interrogatories have been completed, the parties are allowed to lead their evidence so that the trial judge can determine where the truth lies in the light of that evidence. To that rule there are some well-recognised exceptions. For example, it may be clear as a matter of law at the outset that even if a party were to succeed in proving all the facts that he offers to prove he will not be entitled to the remedy that he seeks. In that event a trial of the facts would be a waste of time and money, and it is proper that the action should be taken out of court as soon as possible. In other cases it may be possible to say with confidence before trial that the factual basis for the claim is fanciful because it is entirely without substance. It may be clear beyond question that the statement of facts is contradicted by all the documents or other material on which it is based. The simpler the case the easier it is likely to be to take that view and resort to what is properly called summary judgment. But more complex cases are unlikely to be capable of being resolved in that way without conducting a mini-trial on the documents without discovery and without oral evidence. As Lord Woolf said in <span style="font-style:italic">Swain v Hillman</span> [<ref href="#" uk:canonical="[2001] 1 All ER 91" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 All ER 91</ref>], at p 95, that is not the object of the rule. It is designed to deal with cases that are not fit for trial at all.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">96.<marker name="tab"/>In <span style="font-style:italic">Wenlock v Moloney</span><ref href="#" uk:canonical="[1965] 1 WLR 1238" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1965">[1965] 1 WLR 1238</ref> the plaintiff&#8217;s claim of damages for conspiracy was struck out after a four day hearing on affidavits and documents. Danckwerts LJ said of the inherent power of the court to strike out, at p 1244B-C: &#8216;this summary jurisdiction of the court was never intended to be exercised by a minute and protracted examination of the documents and facts of the case, in order to see whether the plaintiff really has a cause of action. To do that is to usurp the position of the trial judge, and to produce a trial of the case in chambers, on affidavits only, without discovery and without oral evidence tested by cross-examination in the ordinary way. This seems to me to be an abuse of the inherent power of the court and not a proper exercise of that power.&#8217;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Where, as will often be the case where permission for service out of the jurisdiction is sought, there are particulars of claim, the analytical focus should be on the particulars of claim and whether, on the basis that the facts there alleged are true, the cause of action asserted has a real prospect of success. Any particulars of claim or witness statement setting out details of the claim will be supported by a statement of truth. Save in cases where allegations of fact are demonstrably untrue or unsupportable, it is generally not appropriate for a defendant to dispute the facts alleged through evidence of its own. Doing so may well just show that there is a triable issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">At para 22 of his judgment Simon LJ recognised the importance of the pleaded factual case and stated that parties should not be allowed to file large quantities of evidential material. At paras 17 and 18 he deplored the amount of evidence filed in this case, with witness statements running to over 2,000 pages of material, and eight files of exhibits.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">IV</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">The appellants&#8217; case</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The pleaded case and the legal argument in the courts below focused on the then understood threefold test for a duty of care set out in <span style="font-style:italic">Caparo Industries plc v Dickman</span><ref href="#" uk:canonical="[1990] 2 AC 605" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] 2 AC 605</ref> and, in particular, whether there was sufficient proximity and whether it would be fair, just and reasonable to impose a duty of care.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the light of this court&#8217;s decision in <span style="font-style:italic">Vedanta</span>, it is clear that this is not the correct approach because &#8220;the liability of parent companies in relation to the activities of their subsidiaries is not, of itself, a distinct category of liability in common law negligence&#8221; - per Lord Briggs at para 49. It raises no novel issues of law and is to be determined on ordinary, general principles of the law of tort regarding the imposition of a duty of care. In the context of parent/subsidiary relationships, whether a duty of care arises:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; depends on the extent to which, and the way in which, the parent availed itself of the opportunity to take over, intervene in, control, supervise or advise the management of the relevant operations (including land use) of the subsidiary.&#8221; (para 49)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants&#8217; legal argument has accordingly been recast in the light of <span style="font-style:italic">Vedanta</span>. It is now contended that a duty of care arises by what they describe as <span style="font-style:italic">Vedanta</span> routes (1) to (4), namely:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(1)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS taking over the management or joint management of the relevant activity of SPDC;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(2)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS providing defective advice and/or promulgating defective group-wide safety/environmental policies which were implemented as of course by SPDC;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(3)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS promulgating group-wide safety/environmental policies and taking active steps to ensure their implementation by SPDC, and</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(4)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS holding out that it exercises a particular degree of supervision and control of SPDC.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For the purposes of the arguments on the appeal, <span style="font-style:italic">Vedanta</span> routes (1) to (4) are convenient headings. They should not, however, be understood as supporting any special or separate parent/subsidiary duty of care tests. As <span style="font-style:italic">Vedanta</span> makes clear, there is no special test applicable to the tortious responsibility of a parent company for the activities of its subsidiary (see paras 49 and 54), nor is it appropriate &#8220;to shoehorn all cases of the parent&#8217;s liability into specific categories&#8221; (para 51).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The factual matters relied upon in support of the recast appellants&#8217; case are, however, essentially the same as those relied upon to support the case based on <span style="font-style:italic">Caparo</span>, at least in relation to <span style="font-style:italic">Vedanta</span> routes (1) and (3)<span style="font-style:italic">. </span>These are set out at paras 89 to 96 of the Particulars of Claim in the Ogale proceedings, and paras 67 to 78 of the Particulars of Claim in the Bille proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In summary, in their pleadings the appellants allege that RDS exercised a high degree of control, direction and oversight in respect of SPDC&#8217;s pollution and environmental compliance and the operation of its oil infrastructure. In support of this case the appellants rely on the following general matters:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(1)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS&#8217;s global policy for Health, Security, Safety and Environment (&#8220;HSSE&#8221;) which is applied to all its subsidiaries and involves mandatory standards.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(2)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS&#8217;s monitoring of its subsidiaries&#8217; compliance with the standards it has promulgated.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(3)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The fact that RDS&#8217;s Chief Executive Officer (&#8220;CEO&#8221;) and Executive Committee (&#8220;the RDS ExCo&#8221;) have overall responsibility for implementing HSSE standards and social performance for its subsidiaries.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(4)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The establishment by RDS of a Corporate and Social Responsibility Committee to ensure compliance with minimum health, safety and environmental protection standards for its subsidiaries, reporting to RDS&#8217;s Board of Directors.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(5)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS&#8217;s responsibility for monitoring compliance by its subsidiaries with its Business Principles and Standards, with the heads of businesses and functions reporting on this to the CEO at the end of each year.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(6)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The laying out of standards by RDS for all its subsidiaries&#8217; assets, facilities and infrastructure and its assumption of responsibility for ensuring that best practice is observed and that unplanned releases of hydrocarbons are prevented.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants also rely on the following matters of more specific relevance to SPDC:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(1)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The fact that RDS&#8217;s executive remuneration scheme depended to a significant degree on the sustainable development performance of SPDC, which had dragged overall Shell Group performance standards down.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(2)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The fact that SPDC reports key performance indicators to RDS on a monthly basis, including asset maintenance, safety and the environment, and detailed business plans and budgets annually.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(3)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The specific provisions made and the specific standards set by RDS for dealing with and responding to oil spills.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(4)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS&#8217;s control over its global oil spill response procedure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(5)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">RDS&#8217;s control over specific areas of SPDC&#8217;s business and operations of particular relevance to the claim, including SPDC&#8217;s security apparatus and pipeline replacement and divestment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(6)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">The fact that a number of individuals working for RDS played key roles in managing SPDC&#8217;s business and operations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">All these allegations are particularised, many with references to published Shell documents, such as Sustainability Reports.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Allegations are then made relating to RDS&#8217;s knowledge of environmental damage in the Niger Delta caused by SPDC. In this connection reference is made to Shell corporate literature, Sustainability Reports, and regular visits by RDS&#8217;s senior executives to Nigeria. Reliance is also placed on the fact that the scale of environmental damage caused by SPDC&#8217;s operations in the Niger Delta has been a matter of significant governmental and non-governmental concern for decades, as reflected in numerous highly publicised reports by local and international organisations and experts, including Greenpeace, the World Bank, the Nigerian Government, and the Unrepresented Nations and Peoples Organisation in a report commissioned by Shell International and Amnesty International.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is alleged that it is clear that RDS has for many years had detailed knowledge about widespread pollution in the Niger Delta caused by spillages and leakages of oil from infrastructure operated by SPDC, including knowledge of the frequency, location and size of oil spills, of the causes of oil spills and of SPDC&#8217;s systemic failure to prevent spills, including its failure to protect its oil infrastructure against the risk of damage caused by the criminal acts of third parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is further alleged that RDS had detailed knowledge of the high risk of substantial oil spills and consequent environmental damage caused by interference and unlawful bunkering by third parties (&#8220;third party interference&#8221;) on the pipelines and infrastructure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Reliance is then placed upon RDS&#8217;s alleged superior expertise, knowledge and resources concerning relevant aspects of health, safety and environmental protection in relation to oil pipelines and infrastructure. Various particulars are provided, including the fact that RDS had created a dedicated Projects and Technology department tasked with providing advice and services to operating units, including SPDC. It is then alleged that RDS knew that SPDC would rely on its superior expertise, knowledge and resources.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In support of their case on direction, control and oversight by RDS and the recast case based on <span style="font-style:italic">Vedanta</span>, the appellants place particular reliance upon two internal documents obtained since the date of the pleadings, the RDS Control Framework and the RDS HSSE Control Framework.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The RDS Control Framework was provided to the appellants by a former SPDC employee during the proceedings before the Court of Appeal. It sets out the control framework that applies to all Shell companies. The appellants rely on what they contend to be various significant features of that framework.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">First, it is said that it shows that RDS has organised the Shell Group along &#8220;Business&#8221; and &#8220;Function&#8221; lines, which are not legal entities, and which are directly accountable to RDS.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A &#8220;Business&#8221; is &#8220;An internal organisation charged with managing a part of Shell&#8217;s portfolio of investments in accordance with a common set of objectives and strategies&#8221;. There are four &#8220;Businesses&#8221;, namely (i) &#8220;Upstream&#8221;, (ii) &#8220;Integrated Gas &amp; New Energies&#8221;, (iii) &#8220;Downstream&#8221; and (iv) &#8220;Projects &amp; Technology&#8221;. (&#8220;Upstream&#8221; includes exploration and extraction of oil.) Each &#8220;is led by a Business Head&#8221; who is an &#8220;Executive Committee member nominated to head a Business&#8221; and who is therefore &#8220;accountable to the [RDS] CEO for the performance of their Business&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">&#8220;Functions&#8221; are &#8220;internal organisation[s] &#8230; that [provide] a combination of functional guidance and services to Businesses and other Functions&#8221;. They have &#8220;an executive role&#8221; and &#8220;assist the CEO and [RDS ExCo] by providing functional direction, support and leadership to Shell and provide services to the Businesses and other Functions&#8221;. The Heads of the Functions are &#8220;accountable to the CEO&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In addition, there are further functional areas which &#8220;address matters which present Group wide risks&#8221; and &#8220;Technical Functions&#8221; which address &#8220;technical risks&#8221;. These include &#8220;Process Engineering&#8221;, &#8220;Safety &amp; Environment&#8221; and &#8220;Upstream Production &amp; Wells&#8221;. The heads of the Technical Functions are accountable for the &#8220;coordination of the effective deployment and development of Shell&#8217;s technical professionals across Businesses and geographies.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, it is said that it shows that RDS exercises central control over the entire Shell Group, including all of the &#8220;Businesses&#8221; and &#8220;Functions&#8221;, through the RDS ExCo. This is a &#8220;committee headed by the CEO comprising all the Business and Function Heads&#8221;. The RDS ExCo operates &#8220;under the direction of the CEO&#8221; and is &#8220;responsible for identification and evaluation of risks for consideration by the Board&#8221;, &#8220;implementation of Board policies on risk control,&#8221; &#8220;management of risks in accordance with the Board approved system and policies&#8221; and &#8220;the safe condition and environmentally responsible operation of Shell&#8217;s facilities and assets&#8221;. It is also &#8220;supported by a number of committees that provide oversight and guidance on specific matters&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Thirdly, it is said that it shows that RDS has delegated authority to a variety of individuals, committees, Businesses and Functions. There is &#8220;an integrated, consistent process to delegate authority from the Royal Dutch Shell Plc Board&#8221; to &#8220;organisations, individuals and committees&#8221;. This includes delegating authority to individual staff &#8220;as members of a Business or Function (organisational authorities)&#8221;, as distinct from in their capacity &#8220;as employees of a particular Shell legal entity (corporate authorities)&#8221;. Whilst the legal entities are required to take any &#8220;formal binding decisions&#8221;, &#8220;organisational approval, as a general rule, precedes corporate approval&#8221;. In other words, the Business or Function organisational authority generally provides advice, consent and approval before the formal approval from a particular legal entity such as SPDC. The numerous Executive Vice Presidents (&#8220;EVPs&#8221;) and Vice Presidents (&#8220;VPs&#8221;) who have responsibility for particular regions (such as Sub-Saharan Africa) or departments (such as HSSE) derive their &#8220;organisational authority&#8221; from RDS.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Fourthly, it is said that it shows that the RDS CEO and the RDS ExCo are responsible for the safe operation of subsidiaries&#8217; facilities and assets. The RDS Board is responsible for the existence of &#8220;a sound risk management and internal control system and annually reviews the effectiveness of the Shell Control Framework; the level of risk exposure across the Shell Group; and the condition and operation of Shell&#8217;s facilities and assets&#8221;. The RDS CEO&#8217;s responsibilities expressly include &#8220;Management of Asset Integrity and Process Safety&#8221; and, together with the RDS ExCo, &#8220;the safe condition and environmentally responsible operation of Shell&#8217;s facilities and assets&#8221;. In addition, the Projects and Technology Business (&#8220;P&amp;T&#8221;), which is directly accountable to the RDS CEO and the RDS ExCo, is &#8220;responsible for providing functional leadership across Shell in the areas of safety, environment and sustainable performance&#8221;. To this end, it &#8220;provides technical services and technology capability covering both upstream and downstream activities&#8221;. Within P&amp;T are &#8220;functional areas&#8221; including &#8220;Safety&#8221; and &#8220;Environment&#8221; that &#8220;address matters which present Group wide risks through the establishment and maintenance of appropriate standards, practices, support and oversight&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants contend that these features demonstrate that RDS has deliberately structured the Shell Group in a way that enables RDS to direct, control and intervene in the management of subsidiaries&#8217; operations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants further contend that the exercise of such direction, control and intervention is borne out by RDS&#8217;s promulgation of extensive and detailed mandatory policies, standards and technical requirements, as revealed by the RDS Control Framework.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">First, there are &#8220;Group Standards&#8221;. These are adopted for matters that present significant Group level risks or matters that are subject to external stakeholder expectations and external disclosures. They also establish mandatory rules on how to comply with legal and regulatory requirements and how to operate in accordance with the Shell General Business Principles. They apply across all of Shell&#8217;s activities and are mandatory for all Shell companies.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, there are &#8220;Operating Standards&#8221;. These &#8220;define mandatory rules that are needed in addition to the Group Standards, to manage significant risks encountered in specific business activities. These Standards are approved by the relevant Business Head(s) or one level below and are mandatory for staff involved in the specific business activity&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Thirdly, there are &#8220;Manuals&#8221;. These &#8220;provide more detailed mandatory instructions on how to implement Group or Operating Standards or other Foundation components. Guidance with non-mandatory instructions or documentation like good practice, templates and tools assist staff to carry out their duties in compliance with applicable Standards and Manuals&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Fourthly, there are &#8220;Technical Practices&#8221;. These &#8220;establish requirements for all design engineering and construction activities as well as for the operation of assets and wells. The Technical Practices are approved by the relevant Technical Function Head or Global Discipline Head. Technical requirements related to Process Safety are mandatory for all projects, well activities and asset operations.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants contend that exercise of direction, control and intervention is also borne out by the fact that the RDS Control Framework makes it clear that RDS has established multiple systems and reporting lines designed to enable RDS closely to supervise and to enforce subsidiaries&#8217; compliance with the mandatory group-wide standards, requirements and practices. These include the Process Safety &amp; HSSE &amp; SP Controls Assurance Team; the Shell Internal Audit unit; the Business and Function Assurance Committees and the Business Assurance Letters sent to the RDS CEO, the RDS ExCo and the RDS Board. These are sent every year by each Business and Function Head &#8220;confirming the level of compliance of their operations with all elements of the Shell Control Framework&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The RDS HSSE Control Framework was provided on the final day of the Court of Appeal hearing after the respondents were ordered to disclose it. The appellants allege that it shows the extent of the detailed control which the RDS Board exerts over subsidiaries&#8217; health, safety and environmental practices; the extent of the mandatory group-wide policies and requirements which RDS has promulgated; and the complex and extensive systems RDS has put in place to supervise and enforce subsidiaries&#8217; compliance with them. The appellants rely on what they contend to be various significant features of the HSSE Control Framework.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">First, the HSSE Control Framework lists a significant number of mandatory &#8220;Design Engineering Practices&#8221; (&#8220;DEPs&#8221;) including more than 170 &#8220;DEPs with Mandatory Process Safety Requirements&#8221;. The DEPs listed in the HSSE Control Framework contain mandatory, detailed and prescriptive technical specifications as to how operating companies such as SPDC should undertake specific technical practices and conduct specific operations. In particular, the appellants emphasise that (i) RDS was ultimately responsible for the DEPs - see the judgment of Simon LJ at para 101; (ii) SPDC was required to comply with the DEPs - see the judgment of Simon LJ at para 102, and (iii) the DEPs are directly relevant to the harm the appellants have suffered in that they relate to the principal aspects of the operations of SPDC in managing the pipeline and associated infrastructure - see the judgment of Sales LJ at para 159.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, in relation to security of pipelines and installations, it is said that the HSSE Control Framework demonstrates that the centralised &#8220;Corporate Affairs Security&#8221; department at RDS&#8217;s headquarters in The Hague is a significant repository of expertise and control over subsidiaries&#8217; security standards, including the design and safeguarding of pipelines and pipeline infrastructure. It is contended that this department plays a critical role in developing country-specific security plans, assessing the level and nature of the risks which those plans must be tailored to address, and also in advising on the appropriate use of particular security responses in particular operational contexts.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Thirdly, in relation to emergency oil spill response, it is emphasised that according to the HSSE Control Framework, the Vice-President HSE Technology (who acts with organisational authority delegated by RDS) is accountable for establishing and maintaining &#8220;the training frequency and content for Incident management teams that support the Company&#8217;s regional and Company-wide Emergency Response efforts, such as the Global Response Support Network (GRSN)&#8221;. They must also &#8220;Have the Oil Spill Expertise Centre (OSEC) (for plans involving spills to water) or the Centre of Expertise for Emergency Response (CEER) approve alternative Emergency Response Plans to mitigate Hazards at Businesses that are unable to meet&#8221; particular specified requirements. Further, the &#8220;Business Leader&#8221; (acting with delegated organisational authority) must &#8220;Establish, maintain and exercise spill response plans&#8221;. The Business Leader is also accountable for &#8220;establish[ing] and maintain[ing] country, regional or global Emergency Response Plans and Emergency Response centres (including back-up centres) required to meet Business needs&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is also said that the HSSE Control Framework demonstrates how closely senior RDS officials monitor oil spills. For example, in the event of high risk incidents, including in the event of an oil spill over 1,000 litres (six barrels) in a sensitive area, the relevant member of the RDS ExCo and the EVP for Safety and Environment (&#8220;EVP SE&#8221;) must be notified within 24 hours. The EVP SE sits within the P&amp;T department and is the &#8220;Group functional head of Safety and Environment, with direct access to the CEO&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Fourthly, it is said that the HSSE Control Framework demonstrates centralised control and imposition of mandatory standards on joint ventures. It contains a specific manual concerning &#8220;Joint Venture HSSE &amp; SP Management&#8221;. This lays down prescriptive requirements which apply to &#8220;Shell Operated Ventures (SOVs)&#8221; such as the SPDC joint venture in Nigeria. This includes an express requirement to &#8220;apply Shell&#8217;s policies and standards comprising [a] the Shell Commitment and Policy on HSSE &amp; SP and Shell Group Standards for HSSE &amp; SP&#8221; and [b] &#8220;the Shell HSSE &amp; SP Control Framework manuals and specifications&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Fifthly, it is said that the HSSE Control Framework shows that RDS does not simply monitor and audit its subsidiaries but delegates responsibility for ensuring that any audit recommendations are implemented and identified problems are resolved. This is said to be demonstrated by the roles set out for Business Heads (including the Head of Upstream within which SPDC sits), Business Leaders and the Vice President for HSSE &amp; SP.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In addition to the pleadings, the RDS Control Framework and the HSSE Control Framework, the appellants also rely on witness statement evidence to support their case on direction, control and oversight by RDS, some of which is referenced in the pleadings.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Gene Sticco held a management role in corporate affairs at RDS&#8217;s head office in the Hague for six years between 2003 and 2009. The appellants contend that his testimony evidences in particular: (i) RDS ExCo&#8217;s intervention in SPDC&#8217;s operations; (ii) direct control and special treatment of SPDC by RDS; (iii) RDS&#8217;s promulgation of mandatory standards which bind SPDC; (iv) RDS&#8217;s promulgation of detailed manuals containing mandatory requirements which bind SPDC; (v) RDS&#8217;s systems to ensure implementation of mandatory standards by subsidiaries such as SPDC, and (vi) RDS provision of training on mandatory standards.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">His evidence highlights the importance of SPDC for the RDS ExCo. He says that the RDS ExCo regarded Nigeria as one of the two &#8220;highest risk countries in the Group&#8221;. As a result, &#8220;these countries were seen as a priority for the corporate affairs department. For example, I know that intelligence about the security situation in Nigeria was regularly provided to senior executives in the Shell Group, including those on RDS&#8217;s Executive Committee&#8221;. The Regional Manager of the Sub-Saharan Africa region &#8220;had a particular focus on SPDC&#8217;s operations, and unusually had a direct line to Malcolm Brinded, the Executive Committee member for E&amp;P. This was unique as far as any Regional Manager went, in that the Sub-Saharan Africa Regional Manager had a direct relationship and regular contact with a member of the Executive Committee. This Regional Manager was based in Nigeria, but came back regularly to the Hague, and also travelled to London quite often. The special treatment granted to this Regional Manager was because SPDC was seen as a particularly risky country and so attracted particular attention from Malcolm Brinded&#8221;. In addition, the Regional Manager could go &#8220;directly to the head of SPDC and tell him what the Executive Committee wanted to see happen&#8221;. He also describes how there was &#8220;interaction and consultation between SPDC and the Hague, leading all the way to the Executive Committee, in particular when it came to significant issues in Nigeria, such as HSE, security, government affairs and ensuring that SPDC retained its licence to operate. These issues in Nigeria were all firmly on the agenda of the E&amp;P Executive Committee member&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Paddy Briggs worked for the Shell Group between 1964 and 2002. He held a range of senior strategic, commercial and communications roles, worked in over 60 countries on behalf of the Group and served as a trustee director of the &#163;13.5 billion Shell Pension Fund between 2010 and 2014. He worked for the Shell Group before its restructuring in 2005 and at a time when there was a Committee of Managing Directors (&#8220;CMD&#8221;) rather than the RDS ExCo. He says that in his time the CMD exercised tight supervision and control of SPDC&#8217;s operations. His evidence is that &#8220;anything significant in SPDC&#8217;s operation would be put to the CMD&#8221; which had &#8220;almost untrammelled power&#8221;. In this regard, &#8220;Nigeria was seen as a hot potato. ... Not only is there the financial scale of the Nigerian operation, it is also a delicate political and environmental operation and there is the huge reputational risk and significance of Nigeria ... The financial, political, and reputational significance of Nigeria means that it could be in the top one or two concerns of the CMD amongst all of Shell&#8217;s global activities&#8221;. He says that RDS&#8217;s head office in The Hague would &#8220;closely monitor [the] performance&#8221; of SPDC in respect of HSSE matters and &#8220;will require that all significant HSSE incidents are promptly and completely reported&#8221;. He says that this meant that &#8220;even comparatively minor events (a small to medium oil spillage for example) will be immediately reported so that the best remedial action, based on Shell&#8217;s global experience, can be taken&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Ms Rebecca Sedgwick is a former employee of SPDC. Between 2006 and 2012 she worked in Nigeria as a member of SPDC&#8217;s security department, including as SPDC&#8217;s Security Control Centre Lead. Her witness statement was admitted as fresh evidence during the hearing before the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is said that her testimony evidences in particular: (i) RDS&#8217;s tight control of SPDC and its limited autonomy; (ii) RDS&#8217;s direct control over SPDC&#8217;s operational security; (iii) the establishment by RDS of a Security Information Network Centre (&#8220;SINC&#8221;) to monitor, manage and control security risks involving SPDC; (iv) the exercise by RDS of tight control/veto rights over SPDC&#8217;s expenditure on oil spill prevention and remediation measures; (v) the promulgation by RDS of mandatory security standards and policies for SPDC and (vi) close monitoring and enforcement by RDS of SPDC&#8217;s compliance with mandatory standards and policies.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">She says that &#8220;SPDC is a lucrative &#8230; but extremely sensitive part of RDS&#8217; business and, as a result, RDS adopts a centralised and controlled approach to SPDC.&#8221; In particular, &#8220;Although SPDC is structured as a separate company with its own Managing Director, in reality SPDC has limited autonomy and key decisions on sensitive issues such as HSSE are in fact taken by senior management external to SPDC&#8221;. In this regard, &#8220;The SPDC Managing Director&#8217;s position is effectively a puppet role; all key HSSE decisions regarding SPDC are made by the Head of Upstream International&#8221; (who is a member of the RDS ExCo).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In relation to security, she says that all &#8220;security at the Shell Group was organised via a centralised security department known as &#8216;Corporate Security&#8217; that was run out of RDS&#8217;s headquarters at the Hague. This department had oversight and control of security matters in SPDC&#8221; and &#8220;reported directly to the RDS CEO and Executive Committee&#8221;. She explains that SINC was established &#8220;by RDS&#8217;s Corporate Security department in The Hague in response to the deteriorating security situation in Nigeria &#8230; Any threat or perceived threat to SPDC&#8217;s staff or infrastructure was recorded at SINC. This information was then channelled back to The Hague and SPDC via reports from my team at SINC.&#8221; Ms Sedgwick was the SINC Operations Lead and &#8220;personally prepare[d] a weekly security assessment&#8221; which was sent to &#8220;RDS&#8217;s CEO at the time and senior managers &#8230; based at RDS&#8217;s headquarters&#8221; (including a member of the RDS ExCo). Reports were made to RDS&#8217;s headquarters &#8220;on a daily, if not an hourly, basis on security issues affecting SPDC&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Professor Jordan Siegel produced an expert report in 2008 in litigation in the United States involving RDS&#8217;s immediate predecessors as SPDC&#8217;s parent companies. That report contains a detailed analysis of the relationship between SPDC and its parent companies following a thorough review of depositions given by Shell Group employees and an analysis of &#8220;thousands of pages of internal documents that document the management relationships among these Royal Dutch/Shell entities&#8221;. He considered that these documents showed that &#8220;The Royal Dutch/Shell Group of Companies tightly controls its Nigerian subsidiary, SPDC. This control comes in the form of monitoring and approving business plans, allocating investment resources, choosing the management, and overseeing how the subsidiary responds to major public affairs issues.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Professor Siegel provided a witness statement for these proceedings containing a detailed explanation of the evidential basis for those observations. He summarises various corporate documents that post-dated his 2008 report and explains that, &#8220;there has been no material change in the senior management of the Shell Group&#8217;s ability to tightly control SPDC&#8221; since that report. He says that the role of the RDS ExCo is &#8220;fundamentally the same&#8221; as the predecessor Committee of Managing Directors.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">His evidence is principally relied upon to show that there are a large number of internal Shell Group documents that are likely to be material to the direction, control and oversight which RDS exercises over SPDC.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The above summary sets out the principal features of the appellants&#8217; case. There are many more detailed assertions, arguments and documents which are relied upon, as more fully set out in their case and their written arguments before the courts below.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants&#8217; case is strongly disputed by the respondents. In particular, they contend that the facts and matters relied upon do not demonstrate the exercise of direction, control and oversight by RDS; that all relevant operational decisions were made by SPDC; that the majority of the Court of Appeal did not err in law; that the majority was correct and on any view justified in reaching the conclusion which it did, and that there are no grounds for this court reviewing or remaking the factual decision which the majority reached.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As to the respondents&#8217; own evidence, it is submitted that, among other things, this shows: (i) that SPDC operates the pipelines in question pursuant to a joint venture agreement between itself, the NNPC and two other parties (with the majority interest held by NNPC); (ii) that SPDC is responsible for its own operations, including the implementation of group-wide standards; (iii) that SPDC is better placed than RDS to deal with the alleged harm, including because SPDC possessed superior knowledge and experience regarding oil operations in Nigeria; (iv) that SPDC is a major operating company in its own right and is financially independent; and (v) that RDS does not have a high level of oversight of SPDC&#8217;s day-to-day operations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On the appeal we also received written submissions from the International Commission of Jurists and the Corporate Responsibility (Core) Coalition Ltd (the first and second interveners). These drew to the court&#8217;s attention international and domestic standards relating to the responsibilities of business enterprises in relation to human rights and environmental protection and some comparative law jurisprudence. There were also written submissions from Corner House Research (the third intervener). These submissions referred to witness evidence which had been given by Martin ten Brink, the controller of RDS, in criminal proceedings in Milan, Italy, which concern RDS&#8217;s Nigerian operations.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">V</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">The issues on the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appeal raises two principal issues:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(1)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">Whether the majority of the Court of Appeal materially erred in law;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(2)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">If so, whether the majority was wrong to decide that there was no real issue to be tried.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">VI</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">The Court of Appeal decision</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal decision runs to 209 paragraphs and contains a detailed review of the evidence before the court. The parties provided an agreed statement setting out the key passages in the three judgments, the most material parts of which are summarised below.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Simon LJ</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Simon LJ addressed the key issue of proximity at paras 86-129. He stated at the outset that, among other things, it was &#8220;important to distinguish between a parent company which controls, or shares control of, the material operations on the one hand, and a parent company which issues mandatory policies and standards which are intended to apply throughout a group of companies in order to ensure conformity with particular standards. The issuing of mandatory policies plainly cannot mean that a parent has taken control of the operations of a subsidiary (and, necessarily, every subsidiary) such as to give rise to a duty of care&#8221; (para 89).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He noted that the appellants had identified five alleged factors which they asserted in support of their case, as follows: (a) &#8220;Mandatory policies, standards and manuals&#8221;; (b) &#8220;The imposed system of mandatory design and engineering practices&#8221;; (c) &#8220;The imposition of a system of supervision and oversight in implementing RDS&#8217;s standards&#8221;; (d) &#8220;RDS&#8217;s financial control over SPDC in respects directly relevant to the allegations of negligence&#8221; and (e) &#8220;The significance of the level of centralised direction and oversight of SPDC&#8217;s operations in relation to security&#8221;. Simon LJ then proceeded to consider each of these factors in turn (at paras 90-117).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">His conclusions on the issue of proximity are set out at paras 118-129. He<span style="font-weight:bold"/>began those conclusions by observing that the RDS Control Framework made it clear that &#8220;the Shell group is organised both through legal entities (parent, holding and operating companies) and on Business and Function lines&#8221; meaning that &#8220;Legal and Human Resources functions might operate across company lines; and &#8230; so might the Upstream Business (oil production and supply)&#8221;. This &#8220;plainly assists the [appellants]&#8221; (para 118). He considered, however, that there were &#8220;considerable difficulties with the documents that the [appellants] rely on to establish their case to the standard required&#8221; (para 119).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He observed that some of the material submitted by the appellants &#8220;are short extracts from relatively long documents; and some are published for the purpose of informing shareholders and regulators about the Shell Group businesses&#8221; and that &#8220;[s]uch statements must be read in their proper context&#8221; (para 120). He noted that the extracts &#8220;crucially &#8230; reveal a centralised system based on industry standards and the Shell Group&#8217;s own developed best practice. These are to be found in the HSSE &amp; SP Control Framework which provides for consistent mandatory standards throughout the Shell Group. To the extent that they established mandatory requirements, they were mandatory across all Shell Group companies&#8221;. This was &#8220;as one might expect of best practices which are shared across a business operating internationally&#8221; (para 121).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In relation to the &#8220;short initial extract from the HSSE &amp; SP Control Framework&#8221;, he explained that he was &#8220;very far from persuaded that one can read &#8230; that RDS exercised material control over SPDC&#8217;s material operations&#8221; (para 122)<span style="font-weight:bold"/>and that the &#8220;fuller&#8221; HSSE &amp; SP Control Framework constituted &#8220;high-level guidance, based on the centralised accumulation of a wide range of expertise and experience &#8230; which is then made available to its subsidiaries&#8221; (para 123). He considered that the HSSE &amp; SP Assurance &#8220;does not indicate the exercise of any degree of control or amount to control&#8221; (para 124). In addition, while it was plain that there were &#8220;concerns about the security of SPDC&#8217;s operations in Nigeria and that this concern was expressed at a high level. This is hardly surprising since it affected both Shell&#8217;s general reputation and the output of an important source of oil. However, the concern was to ensure that there were proper controls and not to exercise control&#8221; (para 125).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In his assessment, &#8220;[e]ven putting it at its highest, the exiguous evidence of centralised assistance to SPDC &#8230; does not come close to supporting the sort of proximity on the basis of which the court might find a duty of care to exist in favour of the claimants&#8221; (para 126). He found that &#8220;the evidence and, in particular, the documentary evidence before the court&#8221; regarding the five identified factors did not, whether considered alone or &#8220;cumulatively&#8221;, demonstrate &#8220;a sufficient degree of control of SPDC&#8217;s operations in Nigeria by RDS to establish the necessary degree of proximity&#8221;. In this regard, &#8220;[t]here were reputational concerns (in part in relation to personnel), there was concern about losses of oil and environmental damage, there was a desire to ensure that proper systems were put in place to reduce such losses and environmental damage; and there was the establishment of an overall system which was there to ensure best uniform practices. However, the claimants have not demonstrated an arguable case that RDS controlled SPDC&#8217;s operations, or that it had direct responsibility for practices or failures which are the subject of the claim.&#8221; (para 127).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He observed that &#8220;the claimants&#8217; argument &#8230; designed to show that the Shell Group imposed a wide ranging degree of direction from the centre &#8230; proved too much; in the sense that what it in fact showed was standardisation of policies and practices across all the operations and in all the countries in which the Shell group operated&#8221;. He therefore agreed with Fraser J that, &#8220;imposing a duty of care on RDS would potentially impose &#8216;liability in an indeterminate amount, for an indeterminate time, to an indeterminate class&#8217;&#8221; (paras 128-129).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He then briefly addressed whether it would be fair, just and reasonable to impose a duty of care on RDS. He summarised five of the appellants&#8217; principal arguments on this issue, which he dismissed as being &#8220;not &#8230; very persuasive&#8221; (para 131).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The Chancellor</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Chancellor acknowledged at the outset the &#8220;very real question mark over whether [the] claimants have on the material currently available been able to show that they have a real prospect of success against RDS. A series of cases have made clear that any submission that something may turn up should be approached with caution&#8221; (para 182).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In addressing the duty of care issue, he said that Simon LJ had &#8220;correctly identified proximity as the central question in this case&#8221; (para 193). However, he adopted &#8220;a slightly different approach from Simon LJ&#8221; regarding the conclusions that could be drawn from the evidence (para 194). In his view, the documents before the court &#8220;show a consistent picture&#8221; and &#8220;demonstrate rather what I would, from a commercial perspective, expect. They show that RDS laid down detailed policies and practices as to management, oversight and engineering which they expected their subsidiaries and joint ventures to follow. The Nigerian joint venture, operated by SPDC, was only special because it had particular problems and was particularly important from an economic perspective&#8221;; however, the &#8220;detailed policies and practices do not seem to have been tailored specifically for SPDC. Rather, they all apply across the board to all RDS subsidiaries and joint ventures, without distinction&#8221; (paras 194-195).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He thought that it would be &#8220;surprising if a parent company were to go to the trouble of establishing a network of overseas subsidiaries with their own management structures if it intended itself to assume responsibility for the operations of each of those subsidiaries. The corporate structure itself tends to militate against the requisite proximity. That is particularly so here where RDS&#8217;s subsidiary SPDC was not even the majority stakeholder in the joint venture.&#8221; (para 196).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He stated that he agreed with Simon LJ that the documentation relied upon by the claimants was &#8220;high level guidance&#8221; and said that it did not indicate the exercise of control or the assumption of responsibility by RDS; &#8220;rather, it suggests the reverse&#8221; (para 198).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He then considered the statement evidence relied upon by the appellants, observing that it &#8220;suffers, to a large extent, from the same defects as the documentary evidence&#8221; (para 200).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He concluded that a &#8220;proper evaluation of the evidence, rectifying Fraser J&#8217;s errors of approach&#8221; (205) nevertheless led to the same result and that the appellants&#8217; case on duty of care was bound to fail. He held that the &#8220;mandatory policies, standards and manuals which applied to SPDC &#8230; were &#8230; of a high-level nature, even when quite specific at an engineering level. They did not indicate control; that control rested with SPDC which was responsible for its own operations. The promulgation of group standards and practices is not, in my view, enough to prove the &#8216;imposition&#8217; of mandatory design and engineering practices. There was no real evidence to show that these practices were imposed even if they were described as mandatory. There would have needed to be evidence that RDS took upon itself the enforcement of the standards, which it plainly did not. It expected SPDC to apply the standards it set. The same point applies to the suggested &#8216;imposition&#8217; of a system of supervision and oversight of the implementation of RDS&#8217;s standards which were said to bear directly on the pleaded allegations of negligence. RDS said that there should be a system of supervision and oversight, but left it to SPDC to operate that system. It did not have the wherewithal to do anything else&#8221; (para 205).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He also observed that &#8220;the fact that spending decisions required parental approval is not an indication that RDS controlled SPDC&#8217;s operations&#8221; and that the evidence does not support &#8220;the contention that RDS had a high level of involvement in the direction and oversight of SPDC&#8217;s (day-to-day) operations. SPDC&#8217;s evidence, which was not really capable of challenge, pointed in the other direction&#8221; (para 205).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For reasons which are &#8220;similar, but not identical&#8221; to the reasons given by Simon LJ, he therefore found that the appellants had &#8220;failed to show an arguable case that they will establish the necessary proximity at trial to support a claim that RDS owed the claimants a direct duty of care&#8221; (para 206).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He also agreed with Simon LJ&#8217;s reasons for concluding that the imposition of a duty of care on RDS would not be fair, just and reasonable. In this regard, he added that: &#8220;I would very much pray in aid the unlikelihood, which I have already mentioned, of an international parent like RDS undertaking a duty of care to all those affected by the operations of all its subsidiaries&#8221; (para 206).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">His overall conclusion was that Fraser J &#8220;was right to hold that the claimants&#8217; claims against RDS were bound to fail because it was not arguable that RDS owed them a duty of care. There is simply no real prospect that the claimants will succeed against RDS&#8221; (para 207).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Sales LJ (dissenting)</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">94.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Sales LJ said that &#8220;[i]f RDS can be shown to have taken over practical control of the management of the operation and security of the pipeline and facilities from SPDC, or to have exercised joint control with SPDC, it is well arguable that RDS would likewise be in a relationship of proximity with the claimants, or at least a significant number of them&#8221; (para 142).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">95.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He addressed the evidence before the court regarding RDS&#8217;s relationship with and control over SPDC at paras 153-171. He stated that there were &#8220;several indications in the papers that the group was aware of particularly acute problems in Nigeria, in respect of which it could be inferred that RDS would wish to exert direct central control if SPDC were perceived as being ineffective in managing the risk of oil spills&#8221; and that &#8220;this is material which is capable of providing more support for an arguable case against RDS than the judge was prepared to allow&#8221; (para 153(iii)).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">96.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He considered that it was &#8220;at least arguable&#8221; that &#8220;the management structures of the group were intended to allow the exercise of executive power from group central management, in the form of the CEO and ExCo of RDS, down to the practical operations of the operating companies in each Business&#8221; (para 155). The RDS corporate documents also established that it was &#8220;arguable that RDS is conscious that it has the practical means of asserting executive power from the centre of the group to control at least some aspects of management of operating companies and that RDS has the will and intention to do so&#8221; (para 157). There was also a &#8220;significant possibility that RDS both brings its own expertise (recruited by it from around the Shell group and deployed on its behalf) to bear on such problems as well and that it in fact exerts its own powers of control over the affairs of SPDC to require SPDC to take action to prevent oil spills according to the judgment of those acting on behalf of RDS&#8221; (para 158). In addition, &#8220;the Shell Group central management has issued a large number of standards or DEPs to be adhered to by all group companies in their operations, including DEPs which cover the principal aspects of the operations of SPDC in managing the pipeline and related facilities&#8221;. Some of those &#8220;are given mandatory status&#8221; (para 159). In Sales LJ&#8217;s view the existence of mandatory global standards set by RDS was &#8220;significant&#8221; since it was &#8220;capable of providing a mechanism for the projection of real practical executive control by RDS&#8217;s CEO and ExCo over the affairs of SPDC&#8221;. In particular, RDS &#8220;could review how the global standards were implemented in Nigeria and, as deemed necessary, could use them as [the] basis ... to impose operational measures according to its wishes in relation to SPDC&#8217;s management of the pipeline and facilities&#8221; (para 161).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">97.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In his view the evidence &#8220;support[s] a case that there was a pattern of distribution of expertise and control in relation to the handling of the risk of oil spills in the Niger Delta which is arguably capable of meeting the criteria for imposition of a duty of care&#8221; (para 165).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">98.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On the basis of his analysis of the evidence, he therefore concluded that, &#8220;it cannot be said that the claimants&#8217; claim is wholly speculative, based on a Micawber-like hope that something will turn up later on disclosure. In my view, the evidence deployed at the moment, as reviewed above, is sufficient to show that the claimants have a good arguable case against RDS which ought to be tried&#8221; (para 170). His view that the appellants have a &#8220;good arguable case against RDS&#8221; was &#8220;reinforced&#8221; by the evidence which showed that &#8220;there is a very real - and far more than a speculative - possibility that documents will emerge on disclosure which will provide substantial support for their case at trial&#8221; (para 171).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">99.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He summarised his conclusions at para 172, stating that the appellants have &#8220;a good arguable case that in some respects, at least, RDS does have superior knowledge and expertise than SDPC, since via ExCo RDS recruits its expertise from across the whole Shell group and via group-wide instructions (combined in the case of SPDC with monitoring and enforcement) disseminates that expertise to group companies, including SPDC. The [appellants] also have a good arguable claim that RDS assumed a material degree of responsibility in relation to the management of the pipeline and facilities&#8221; (para 172(x)).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">100.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">He concluded therefore that the appellants had established &#8220;a good arguable case that RDS gave directions to SPDC regarding important aspects of the management of the pipeline and facilities, specifically in relation to controlling the risk of oil spills, which RDS sought to implement and enforce. It is well arguable that the claimants, or some of them, are in a proximate relationship with whoever controlled the operation of the pipeline and facilities&#8221; (para 172(xi)). Further, &#8220;&#8230; I do not think that the simple matter of the sheer size of the Shell Group can be an answer to the present claim: why should the parent of a large group escape liability just because of the size of the group, if the criteria for imposing a duty of care are satisfied for a number of companies in the group, while the parent of a smaller group (eg with one subsidiary) has a duty of care imposed on it when precisely the same criteria are satisfied in relation to its subsidiary?&#8221; (para 172(vi)).</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="text-align:justify"><span style="font-style:normal;font-weight:bold">VII</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">Whether the majority of the Court of Appeal materially erred in law</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">101.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants contend that the Court of Appeal materially erred in law in its analysis of:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(1)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">the principles of parent company liability in its consideration of the factors and circumstances which may give rise to a duty of care; and/or</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(2)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">the procedure for determining the arguability of the claim at an interlocutory stage, as shown by its treatment of the threshold for what constitutes an arguable case, and by its approach to both contested factual issues and to the relevance and significance of likely future disclosure; and/or</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(3)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">the overall analytical framework for determining whether a duty of care exists in cases of this type and its reliance on the <span style="font-style:italic">Caparo</span> threefold test.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">102.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I propose to focus on point (2), as I consider that it is clear that this error has been made out. In my view, the Court of Appeal was drawn into conducting a mini-trial and that led it to adopt an inappropriate approach to contested factual issues and to the documentary evidence, contrary to the guidance provided in the <span style="font-style:italic">Three Rivers</span> case as set out in para 21 above.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The mini-trial</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">103.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This was a jurisdiction challenge and concerned whether it was appropriate to grant permission to serve proceedings out of the jurisdiction on a foreign defendant. Those proceedings were meant to be as defined in the particulars of claim for which permission to serve out was sought. In this case the challenge was made on the grounds that the claimants had no arguable case against the anchor defendant. Where, as in this case, there are particulars of claim, that is an issue which should ordinarily fall to be addressed by reference to the pleaded case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">104.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">If the issues are addressed by reference to the pleaded case, then the focus of the inquiry is clearly circumscribed and problems of lack of proportionality should generally be avoided.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">105.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the present case, not only did the parties choose to swamp the court with evidence, but it appears that the claimants chose not to update their pleadings to reflect the evidence. We were told that this is because they wanted to avoid producing various iterations of the pleading, but if they wanted to advance a case which was not reflected by their existing pleading then they should have amended it. In that way the proper focus of the inquiry can be maintained. Whilst one can understand that this may not have been possible in relation to documents produced during the appeal hearing, the claimants&#8217; laissez-faire attitude to the pleadings set in long before that.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">106.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This was a matter which caused concern to Fraser J. As he stated at para 10 of his judgment:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The current approach of parties in litigation such as this is wholly self-defeating, and contrary to cost-efficient conduct of litigation. This case is an ideal example of one with &#8216;masses of documents, long witness statements, detailed analysis of the issues, and long argument&#8217; being deployed on both sides. The costs burden upon the parties must be enormous, and this approach is, in my judgment, diametrically opposed to that required under the overriding objective in CPR Pt 1.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">107.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The result is that instead of focusing on the pleaded case and whether that discloses an arguable claim, the court is drawn into an evaluation of the weight of the evidence and the exercise of a judgment based on that evidence. That is not its task at this interlocutory stage. The factual averments made in support of the claim should be accepted unless, exceptionally, they are demonstrably untrue or unsupportable.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">108.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Fraser J clearly was drawn into an evaluation and judgment of the weight of the evidence. In paras 81 to 106 he addressed the evidence in detail and made a number of &#8220;findings&#8221; on that evidence. This is summarised in Simon LJ&#8217;s judgment under the heading &#8220;The judge&#8217;s findings&#8221; as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;50.<marker name="tab"/>At paras 81-106 the judge dealt with the evidence.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">51.<marker name="tab"/>At para 85 he set out part of the evidence of Michiel Brandjes &#8230; in relation to RDS&#8217;s position &#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">52.<marker name="tab"/>At para 86, the judge set out his findings in relation to RDS&#8217;s involvement in the damage to the environment in the Niger Delta. &#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8230;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">56.<marker name="tab"/>At para 93-106, the judge reviewed the evidence that was relied on by the claimants in proof of RDS&#8217;s duty of care towards them. The judge analysed this under six headings: (1) statements in public documents, for example the 2014 sustainability report, at paras 93-97 and 109; (2) evidence showing &#8216;the high degree of control and direction over SPDC&#8217;s environmentally harmful activities&#8217;, at paras 98-99; and in particular: (3) the role of ExCo, at para 101; (4) the role of the CSRC, at para 102; (5) the evidence of two former employees, Messrs Sticco and Briggs, at para 104; and (6) the evidence linked to Ann Pickard.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">57.<marker name="tab"/>Against that evidence, which he largely discounted, the judge weighed the evidence from SPDC &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">109.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This was not a trial of a preliminary issue. It was not for the judge to make &#8220;findings&#8221;. Although he was no doubt put in a difficult position by the way in which the parties had chosen to present the case, he should have insisted that the focus of the inquiry be the arguability of the claim, which should have been fully set out in the particulars of claim, rather than the weight of the evidential case.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">110.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In his judgment at para 190 the Chancellor rejected the complaint that Fraser J had conducted a mini-trial and considered that he was doing no more than subjecting the evidence to critical analysis. He cited para 10 of Potter LJ&#8217;s judgment in <span style="font-style:italic">ED &amp; F Man Liquid Products Ltd v Patel</span>[2003] CP Rep 51 in which it was observed that factual assertions do not have to be accepted by the court if it is &#8220;clear&#8221; that there is &#8220;no real substance&#8221; in them, &#8220;particularly if contradicted by contemporary documents&#8221; - ie if they are demonstrably unsupportable. That is only going to be so in clear cases. As Carnwath LJ observed in <span style="font-style:italic">Mentmore International Ltd v Abbey Healthcare (Festival) Ltd</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/761" uk:canonical="[2010] EWCA Civ 761" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 761</ref>, para 23, referring to both Potter LJ&#8217;s judgment in the <span style="font-style:italic">ED &amp; F Man</span> case and Lord Hope&#8217;s judgment in the <span style="font-style:italic">Three Rivers</span> case:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;23.<marker name="tab"/>If Mr Reza was hoping to find in those words some qualification of Lord Hope&#8217;s approach, he will be disappointed. The <span style="font-style:italic">Three Rivers</span> case was specifically cited by Potter LJ. He was in my view intending no more than a summary of the same principles. Lord Hope had spoken of a statement contradicted by <span class="coitalic1" style="font-style:normal;background-color:#FFFFFF">&#8216;</span><span class="coitalic1" style="background-color:#FFFFFF">all</span> the documents or other material on which it is based&#8217; (emphasis added). It was only in such a clear case that he was envisaging the possibility of rejecting factual assertions in the witness statements. It is in my view important not to equate what may be very powerful cross-examination ammunition, with the kind of &#8216;knock-out blow&#8217; which Lord Hope seems to have had in mind.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">111.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In my view, it is clear that Fraser J did conduct a mini-trial and did far more than subject the evidence to critical analysis, as reflected in the &#8220;findings&#8221; he made on the evidence. This is further borne out by the nature of the appeal from his decision, which was essentially based on his erroneous approach in evaluating the evidence. As the Court of Appeal held, he wrongly excluded all evidence relating to the period prior to the corporate restructuring of the Shell group in 2005, and he wrongly placed no reliance on publicly available Shell corporate documentation which had been produced in the context of fulfilment of listing obligations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">112.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In order to determine whether Fraser J had erred sufficiently to justify re-opening his decision the Court of Appeal was itself drawn into an evidential inquiry. Having decided that he had so erred the Court then embarked on its own assessment and judgment about the weight of the evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">113.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Simon LJ referred to the pleadings at paras 34 to 37 of his judgment but thereafter his judgment focuses on the evidence. At para 38 he said that &#8220;it is necessary to refer to the material put before the court, focusing at this point on the documents&#8221;. He then set out five categories of documents at paras 39 to 44. At paras 46 to 47 he made further reference to the pleadings before considering &#8220;the judge&#8217;s findings&#8221; at paras 50 to 59 and the appellants&#8217; criticisms of the judgment at paras 61 to 67. He addressed &#8220;the claimants&#8217; witness statement evidence before the judge&#8221; at paras 68 to 82. He then set out his &#8220;view of [this] evidence&#8221;. He expressed the view that the evidence of Mr Sticco and Mr Briggs &#8220;provided scant support for the claimants&#8217; argument that RDS owed them a duty of care&#8221;, that their evidence was &#8220;slight&#8221; and that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;75.<marker name="tab"/>So far as Professor Siegel&#8217;s evidence is concerned, the judge rightly excluded it as opinion evidence. Its utility was anyway very limited, since it was not open to the claimants to rely on a statement that there were many documents which supported Professor Siegel&#8217;s inadmissible conclusions.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">114.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Having said that he would not allow admission of Ms Sedgwick&#8217;s witness statement, Simon LJ addressed the issue of proximity by reference to five main factors relied on to demonstrate RDS&#8217;s arguable control of SPDC&#8217;s operations. A detailed consideration of the documents relevant to each factor was carried out at paras 90-117. His overall conclusion at para 127 was that &#8220;in the light of the evidence and, in particular, the documentary evidence before the court&#8221; the claimants had not made out an arguable case of control or proximity.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">115.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Simon LJ&#8217;s conclusion was therefore clearly and expressly based on his evaluation of the weight of the evidence. It is right to observe that the court was put in a difficult position because, as Simon LJ pointed out at para 34:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; by the conclusion of the argument before us, the claimants&#8217; case bore little resemblance to their pleadings which had not been amended to take into account the developing case.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The court was therefore doing its best to address the case advanced before it, but it was thereby led into making an evidential evaluation and judgment.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">116.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Chancellor adopted Simon LJ&#8217;s &#8220;factual summaries of the documentary and witness statement evidence&#8221; (para 191) and adopted &#8220;his analysis of the evidence&#8221; in relation to the issue of proximity (para 193). He said, however, that he adopted &#8220;a slightly different approach from Simon LJ when conclusions come to be drawn from the documentary and witness evidence&#8221; (para 194).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">117.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Chancellor then considered the documentary evidence and concluded at para 198 that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The documentation relied upon by the claimants, and even the documentation that they can reasonably be expected to turn up on disclosure, seems to constitute high-level guidance based on the centralised accumulation of a wide range of expertise, experience and best practice. It does not, however, indicate, or even point towards, either the exercise of any degree of control, by RDS over the operations of SPDC or the assumption of responsibility.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">118.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Chancellor then addressed the witness evidence of Mr Sticco, Mr Briggs and Ms Sedgwick, the Pickard cable and the expert report of Professor Siegel. His view was that the evidence of Mr Sticco provided &#8220;little, if any, evidence that RDS actually did [control SPDC] in relevant respects&#8221; (para 200). He viewed Mr Briggs&#8217; evidence as of limited value because he had never worked in Nigeria and so could not speak authoritatively about the country or the business (para 201). He acknowledged that Ms Sedgwick gave evidence that RDS exercised control over the operations of SPDC but considered this to be assertion, which was not supported by documentary evidence and was contradicted by the witness statement of Mr Emanuel which had been put in evidence by RDS (para 202). He agreed with what Simon LJ had said about the evidence of Professor Siegel (para 204).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">119.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">His overall conclusion was that &#8220;a proper evaluation of the evidence, rectifying Fraser J&#8217;s errors of approach, does not lead to any different conclusion&#8221; (para 205). As with Simon LJ, this was a conclusion clearly and expressly based on an evaluation of the weight of the evidence.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Contested factual evidence</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">120.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Being drawn into conducting a mini trial led to the court making determinations in relation to contested factual evidence that were not appropriate on an interlocutory application.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">121.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">With regard to the witness evidence, the Chancellor said at para 205 that SPDC&#8217;s evidence did not support the allegation that &#8220;RDS had a high level of involvement in the direction and oversight of SPDC&#8217;s (day-to-day) operations&#8221;, and that SPDC&#8217;s evidence to the contrary was &#8220;not really capable of challenge&#8221;. This was, however, very much in issue and was challenged in the appellants&#8217; witness evidence, including that of the SPDC witness, Ms Sedgwick. The Chancellor was thereby preferring and accepting the evidence of the RDS witnesses and doing so in circumstances where there had been no opportunity for cross-examination and no RDS disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">122.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the same paragraph the Chancellor said that RDS did not &#8220;have the wherewithal&#8221; to operate a system of supervision and oversight. Here again he was accepting the evidence of RDS and making a finding of fact on an important matter in issue, notwithstanding that it was disputed by the appellants&#8217; witnesses and that there had been no disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">123.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Simon LJ&#8217;s finding that the evidence of Mr Sticco and Mr Briggs provided &#8220;scant support&#8221; for the appellants&#8217; case must have involved the rejection of parts of that evidence. The support which Mr Sticco&#8217;s statement provided is summarised at paras 60-61 above and is addressed in some considerable detail by Sales LJ in his dissenting judgment at paras 154-161 and 165. The support which Mr Briggs&#8217; statement provided is summarised at para 62 above and is addressed by Sales LJ at para 166 of his judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">124.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Simon LJ did not address the evidence of Ms Sedgwick, but the Chancellor did, and he essentially found that he preferred the evidence of the RDS witness, Mr Emanuel. Although he also referred to her evidence not being supported by the documentary evidence, he did not find that it was contradicted by that evidence, still less all that evidence. The relevance of Ms Sedgwick&#8217;s evidence is summarised at paras 64-66 above and is addressed by Sales LJ at para 167 of his judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">125.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As for the evidence of Professor Siegel, the Chancellor agreed with Simon LJ in dismissing it as being opinion evidence. As, however, Sales LJ correctly observed at para 169:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the point is not that he is an expert regarding Shell&#8217;s control systems, but that he is a witness of fact who can say that he has inspected a large number of confidential Shell management documents and that they show a high level of functional control exercised by the centre over SPDC. His evidence goes some way to show that there is a very real prospect that highly relevant documents, which may well be supportive of the claimants&#8217; case, will be forthcoming on disclosure if the action proceeds.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">The documentary evidence</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">126.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Conducting a mini-trial also led to the court making inappropriate determinations in relation to the documentary evidence. Since the court was making a decision on the evidence, it effectively had to conclude that the prospect of there being further relevant evidence on disclosure could and should be discounted.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">127.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Simon LJ appears to have dismissed the relevance of future disclosure on the basis that a good arguable case has to be demonstrated on the basis of the material currently available. At para 82 he stated that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the prospect of further evidence relevant to the existence of the duty of care does not assist on the present appeal in relation to jurisdiction, which must be decided on the material available and in accordance with the relevant test.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">To similar effect at para 122 he stated that:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Although, the claimants make a further point that it is illustrative of what may emerge on disclosure, the difficulty is that jurisdiction is founded on a properly arguable cause of action and not on what may (or may not) become a properly arguable cause of action.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">This is an erroneous approach. The resolution of the jurisdictional challenge depended upon whether the appellants&#8217; claim satisfied the summary judgment test of real prospect of success. As Lord Briggs stated at para 45 of his judgment in <span style="font-style:italic">Vedanta</span>,</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the court cannot ignore reasonable grounds which may be disclosed at the summary judgment stage for believing that a fuller investigation of the facts may add to or alter the evidence relevant to the issue.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">128.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Simon LJ did not address this question. The Chancellor did so at para 182, but by reference to a stricter test of whether there is &#8220;a <span style="text-decoration-line:underline;text-decoration-style:solid">clear</span> prospect that new material <span style="text-decoration-line:underline;text-decoration-style:solid">will</span> become available before the trial which is <span style="text-decoration-line:underline;text-decoration-style:solid">likely</span> to give the claimants a real prospect of success&#8221; (emphasis added). I consider that Lord Briggs&#8217; formulation of the proper approach is to be preferred. In other words, are there reasonable grounds for believing that disclosure may materially add to or alter the evidence relevant to whether the claim has a real prospect of success?</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">129.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The importance of internal corporate documents is well recognised in the context of cases concerning the negligence liability of a parent company for the acts of its subsidiary.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">130.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Lubbe v Cape plc</span><ref href="#" uk:canonical="[2000] 1 WLR 1545" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 1545</ref> Lord Bingham stated as follows at p 1555:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The issues in the present cases fall into two segments. The first segment concerns the responsibility of the defendant as a parent company for ensuring the observance of proper standards of health and safety by its overseas subsidiaries. Resolution of this issue will be likely to involve an inquiry into what part the defendant played in controlling the operations of the group, what its directors and employees knew or ought to have known, what action was taken and not taken, whether the defendant owed a duty of care to employees of group companies overseas and whether, if so, that duty was broken. Much of the evidence material to this inquiry would, in the ordinary way, be documentary and much of it would be found in the offices of the parent company, including minutes of meetings, reports by directors and employees on visits overseas and correspondence.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">131.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">At para 45 of his judgment in <span style="font-style:italic">Vedanta</span> Lord Briggs cited with approval the following passage from the judgment of Asplin J in <span style="font-style:italic">Tesco Stores Ltd v Mastercard Inc</span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2015/1145" uk:canonical="[2015] EWHC 1145 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWHC 1145 (Ch)</ref>, para 73:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; account must be taken of all relevant factors relating to economic, organizational and legal links which tie the parent and the subsidiary on a case by case basis ... [I]t seems to me that this is a matter which turns on a wide range of factors which should be decided at trial with the benefit of full disclosure, including possibly third party disclosure and oral evidence.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">132.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Vedanta</span> itself Lord Briggs said at para 44 that whether in that case the parent company had sufficiently intervened in the management of the mine owned by its subsidiary was a &#8220;pure question of fact&#8221; and that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; it is blindingly obvious that the proof of that particular pudding would depend heavily upon the contents of documents internal to each of the defendant companies, and upon correspondence and other documents passing between them, currently unavailable to the claimants, but in due course disclosable.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">133.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The majority of the Court of Appeal make no reference to the obvious importance of internal corporate documents to the issues in this case, nor to the pre-<span style="font-style:italic">Vedanta</span> authorities which emphasise this point.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">134.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The majority appear to have assumed that because they considered that the high level documentation so far obtained by the appellants did not provide evidence of the exercise by RDS of control over the operations of SPDC, it followed that further documentation provided on disclosure would be unlikely to do so. Indeed, the Chancellor so stated at para 198. This, however, does not follow. Operational control is most likely to be revealed by documentation relating to operational matters. The appellants had no such documents and there had been no disclosure relating to such matters.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">135.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The only disclosure provided by RDS was the Joint Operating Agreement for the SPDC joint venture and a five-page extract from the RDS HSSE Control Framework. The RDS Control Framework was provided by Miss Sedgwick and the RDS HSSE Control Framework was produced following an order from the court. The RDS witnesses would have known of these documents but they did not address them in any meaningful way in their statements. No mention is made by them of the RDS Control Framework, even though this is effectively the RDS organisational constitution. Nor was any mention made of the RDS ExCo. As Sales LJ observed at para 168:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the witnesses deployed by RDS to explain the operational workings of the Shell group and SPDC did not deal with these documents and did not explain clearly and with precision how the management structures described in those documents were in practice implemented by ExCo and were in practice taken into account by SPDC.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">136.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The production of the RDS Control Framework and the RDS HSSE Control Framework for the appeal hearing illustrate the danger of seeking summarily to determine issues which arise in parent/subsidiary cases such as this without disclosure. Both are clearly material documents. Had there been no appeal, the appellants&#8217; claim would have been dismissed without consideration of either of them.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">137.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants were and are able to identify specific internal documentation which is likely to be material to the claims made. The most obvious example is the documentation which the Dutch Court of Appeal ordered RDS and SPDC to produce in related proceedings. These include the annual Assurance Letters submitted to the CEO confirming the level of compliance with the RDS Control Framework; internal Asset Integrity Audits evaluating the technical integrity and the operational integrity of the pipelines; HSE audits evaluating SPDC&#8217;s Emergency and Oil Spill response procedures applying to the pipelines; and the audit results and remedial action plans (findings, recommendations and approval and closeout of actions) documented on the basis of those audits. These were considered by the court to be &#8220;material&#8221; to its assessment of &#8220;how supervision was implemented&#8221; and how &#8220;relevant information was shared with [RDS]&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">138.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Many other examples of specific documents which it is reasonably contended both exist and will be material are set out in paras 123 and 124 of the appellants&#8217; written case. Such examples include minutes of the meetings of the RDS ExCo relating to the health, safety, security and environmental risks and impact of SPDC&#8217;s operations; the RDS ExCo&#8217;s annual Country Reports for Nigeria; Nigeria-specific technical directions and guidance concerning HSSE matters; and correspondence passing between SPDC management and RDS concerning relevant aspects of SPDC&#8217;s operations.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">139.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Finally, it is to be noted that in the skeleton argument provided in support of its application that there be a preliminary issue trial of whether RDS owed a duty of care, it was asserted by the respondents that the claims turn on &#8220;the meaning and construction of a plethora of complex corporate documents and literature which span many decades&#8221; and &#8220;a welter of evidence incapable of summary determination&#8221;. The Court of Appeal has nevertheless proceeded to a summary determination on the basis of the appellants having access to only two internal corporate documents.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">140.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For all these reasons I consider that the appellants have established the second of the material errors of law alleged by them. In these circumstances it is not necessary to determine whether the other alleged material errors of law have been made out, but I shall briefly comment on them.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Other alleged errors of law</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">141.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The first alleged error is in the Court of Appeal&#8217;s analysis of the principles of a parent company&#8217;s liability in its consideration of the factors and circumstances which may give rise to a duty of care. The second alleged error is in the court&#8217;s overall analytical framework for determining whether a duty of care exists in cases of this type and its reliance on the <span style="font-style:italic">Caparo</span> threefold test.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">142.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The approach of the Court of Appeal has to be considered in the light of the guidance subsequently provided by this court in <span style="font-style:italic">Vedanta</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">143.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">First, to the extent that the Court of Appeal indicated that the promulgation by a parent company of group wide policies or standards can never in itself give rise to a duty of care, that is inconsistent with <span style="font-style:italic">Vedanta</span>. Indeed, a submission to that effect, based on the Court of Appeal&#8217;s decision in this case, was rejected by the court at para 52 of <span style="font-style:italic">Vedanta</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">144.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">There are passages in the Court of Appeal judgment to this effect. For example, Simon LJ stated at para 89:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;it is &#8230; important to distinguish between a parent company which controls, or shares control of, the material operations on the one hand, and a parent company which issues mandatory policies and standards which are intended to apply throughout a group of companies in order to ensure conformity with particular standards. The issuing of mandatory policies plainly cannot mean that a parent has taken control of the operations of a subsidiary (and, necessarily, every subsidiary) such as to give rise to a duty of care.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Similarly, the Chancellor stated at para 205:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; The promulgation of group standards and practices is not, in my view, enough &#8230; There would have needed to be evidence that RDS took upon itself the enforcement of the standards &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">145.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Vedanta</span> statements such as these were relied upon to argue that there was &#8220;a general principle&#8221; that &#8220;a parent could never incur a duty of care in respect of the activities of a particular subsidiary merely by laying down group-wide policies and guidelines, and expecting the management of each subsidiary to comply with them&#8221;. At para 52 of <span style="font-style:italic">Vedanta</span> Lord Briggs said that he did not consider that &#8220;there is any such reliable limiting principle&#8221;. He pointed out that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Group guidelines &#8230; may be shown to contain systemic errors which, when implemented as of course by a particular subsidiary, then cause harm to third parties.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">This is what the appellants have described as <span style="font-style:italic">Vedanta</span> route (2).</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">146.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, the majority of the Court of Appeal may be said to have focused inappropriately on the issue of control. Simon LJ appears to have regarded proof of the exercise of control by the parent company as being critical - see, for example, paras 124, 125, and 127. The Chancellor&#8217;s judgment at para 205 is to similar effect. As Lord Briggs pointed out at para 49 in <span style="font-style:italic">Vedanta</span>, it all depends on: &#8220;the extent to which, and the way in which, the parent availed itself of the opportunity to take over, intervene in, control, supervise or advise the management of the relevant operations &#8230; of the subsidiary.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">147.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In considering that question, control is just a starting point. The issue is the extent to which the parent did take over or share with the subsidiary the management of the relevant activity (here the pipeline operation). That may or may not be demonstrated by the parent controlling the subsidiary. In a sense, all parents control their subsidiaries. That control gives the parent the opportunity to get involved in management. But control of a company and de facto management of part of its activities are two different things. A subsidiary may maintain de jure control of its activities, but nonetheless delegate de facto management of part of them to emissaries of its parent.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">148.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">A specific example of a case in which a duty of care may arise regardless of the exercise of control is provided by what the appellants have described as <span style="font-style:italic">Vedanta</span> route (4). This is based on what Lord Briggs stated at para 53:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the parent may incur the relevant responsibility to third parties if, in published materials, it holds itself out as exercising that degree of supervision and control of its subsidiaries, even if it does not in fact do so. In such circumstances its very omission may constitute the abdication of a responsibility which it has publicly undertaken.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">149.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Thirdly, as <span style="font-style:italic">Vedanta</span> makes clear at para 50, there is &#8220;no special doctrine in the law of tort of legal responsibility on the part of a parent company in relation to the activities of its subsidiary, vis-&#224;-vis persons affected by those activities&#8221; - approving what Sales LJ said in <span style="font-style:italic">AAA v Unilever plc</span><ref href="#" uk:canonical="[2018] BCC 959" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] BCC 959</ref>, para 36. As Lord Briggs stated at para 54 of <span style="font-style:italic">Vedanta</span>: &#8220;for these purposes, there is nothing special or conclusive about the bare parent/subsidiary relationship&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">150.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">There are passages in the Chancellor&#8217;s judgment which suggest otherwise. For example:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; it would be surprising if a parent company were to go to the trouble of establishing a network of overseas subsidiaries with their own management structures if it intended itself to assume responsibility for the operations of each of those subsidiaries. The corporate structure itself tends to militate against the requisite proximity.&#8221; (para 196)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;I would very much pray in aid the unlikelihood, which I have already mentioned, of an international parent like RDS undertaking a duty of care to all those affected by the operations of all its subsidiaries.&#8221; (para 206)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">It would be wrong, however, to approach the issue of whether a duty of care is owed by reference to any generalised assumption or presumption. As Lord Briggs stated at para 51:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;There is no limit to the models of management and control which may be put in place within a multinational group of companies. At one end, the parent may be no more than a passive investor in separate businesses carried out by its various direct and indirect subsidiaries. At the other extreme, the parent may carry out a thoroughgoing vertical reorganisation of the group&#8217;s businesses so that they are, in management terms, carried on as if they were a single commercial undertaking, with boundaries of legal personality and ownership within the group becoming irrelevant &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">151.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Fourthly, it is now apparent that the Court of Appeal was wrong to analyse the case by reference to the threefold test set out in <span style="font-style:italic">Caparo</span>. As stated in <span style="font-style:italic">Vedanta</span>, the liability of parent companies in relation to the activities of their subsidiaries is not, of itself, a distinct category of liability in common law negligence (para 49). The general principles which determine such liability &#8220;are not novel at all&#8221; (para 54). Such a case does not involve &#8220;the assertion, for the first time, of a novel and controversial new category of case for the recognition of a common law duty of care&#8221;. That means that it &#8220;require[s] no added level of rigorous analysis beyond that appropriate to any summary judgment application in a relatively complex case&#8221; (para 60).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">152.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In these respects, I would therefore accept that there were errors of law in the approach of the Court of Appeal. Whether they were material to the decision reached is keenly contested, but it is not necessary to determine that further issue.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="text-align:justify"><span style="font-style:normal;font-weight:bold">VIII</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">Whether the majority was wrong to decide that there was no real issue to be tried</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">153.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I have set out a detailed summary of the appellants&#8217; case at paras 24-69 above. Having full regard to the respondents&#8217; written and oral submissions and evidence, I do not consider that it has been shown that the averments of fact made in the particulars of claim should be rejected as being demonstrably untrue or unsupportable. On that basis, it is my view that the case set out in the pleadings, fortified by the points made in reliance upon the RDS Control Framework and the RDS HSSE Control Framework, as summarised above, establish that there is a real issue to be tried under <span style="font-style:italic">Vedanta </span>routes (1) and (3).<span style="font-style:italic"/>In those circumstances it is not necessary to make any ruling in relation to <span style="font-style:italic">Vedanta</span> routes (2) and (4), and I would prefer not to do so given that the pleading has not been structured around such a case. I would, however, observe that there is currently no pleaded identification of systemic errors in the RDS policies and standards.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">154.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Whilst I consider that the appellants&#8217; pleaded case and reliance on the RDS Control Framework and the RDS HSSE Control Framework is sufficient to raise a real issue to be tried, that conclusion is further supported by their witness evidence, as summarised when setting out the appellants&#8217; case above, and, for reasons already given, the very real prospect of relevant disclosure being provided. That prospect is specifically borne out by the evidence of Professor Siegel and the identification of some of the most likely documents of relevance in the Dutch proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">155.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In further support of that conclusion, I rely upon and adopt the analysis and conclusions of Sales LJ, which I consider is generally to be preferred to that of the majority of the Court of Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">156.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As Sales LJ pointed out (for example, at para 155), it is of significance that the Shell group is organised along Business and Functional lines rather than simply according to corporate status. This vertical structure involves significant delegation. As set out in RDS Control Framework:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Shell has an integrated, consistent process to delegate authority from the Royal Dutch Shell plc Board and other Shell company boards to organisations, individuals and committees. The objective of delegating authorities is to ensure that decisions are made at the appropriate level in the organisation and that transactions are carried out by the appropriate company. The Group Controller is the custodian of the Delegation of Authority process.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Authorities are delegated to individual staff separately in their capacity as employees of a particular Shell legal entity (corporate authorities) or as members of a Business or Function (organisational authorities). Delegated authorities are aligned with the requirements of the job or position and may only be exercised within the authority holder&#8217;s area of responsibility (including existence of budget cover if applicable).</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">Whilst the Shell companies are part of a global organisation, it is important that each legal entity, for legal and tax purposes, stays in control over its own assets and personnel. This is achieved by legal entities taking formal binding decisions or actions through corporate authorities. It is the task of the Businesses and Functions to provide prior advice to the legal entities with respect to such decisions and actions. Consent from the Business or Functional line is achieved through organisational authorities. Organisational approval, as a general rule, precedes corporate approval.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">157.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Whilst &#8220;formal binding decisions&#8221; are taken at corporate level, these are taken on the basis of prior advice and consent from the vertical Business or Functional line and organisational authority generally precedes corporate approval. Whilst the respondents suggested that RDS could only delegate responsibility for its own corporate governance and group-wide strategy functions, the RDS Control Framework shows that the CEO and the RDS ExCo have a wide range of responsibilities, including for &#8220;the safe condition and environmentally responsible operation of Shell&#8217;s facilities and assets&#8221;. It is the appellants&#8217; case that the Shell group&#8217;s vertical organisational structure means that it is comparable to Lord Briggs&#8217; example of group businesses which &#8220;are, in management terms, carried on as if they were a single commercial undertaking, with boundaries of legal personality and ownership within the group becoming irrelevant&#8221; (para 51).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">158.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">How this organisational structure worked in practice and the extent to which the delegated authority of RDS, the CEO and the RDS ExCo was involved and exercised in relation to decisions made by SPDC are very much in dispute, as is apparent from the witness statements. It is also an issue in relation to which proper disclosure is of obvious importance. It clearly raises triable issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">159.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For all these reasons I am satisfied that the majority of the Court of Appeal was wrong to decide that there was no real issue to be tried.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;font-weight:bold">IX</span><marker name="tab"/><span style="font-style:normal;font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">160.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I would accordingly allow the appeal. On the assumption that the respondents maintain the other challenges to jurisdiction which were not resolved by Fraser J, the matter will have to remitted and the parties should seek to agree the appropriate terms of the order to be made.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Postscript</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">161.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">After the hearing of the appeal but before this judgment was handed down, Lord Kitchin fell ill and it was uncertain when he would return to work. With the agreement of the parties, the presiding judge, Lord Hodge, gave a direction under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4/section/43/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/4" uk:canonical="2005 c. 4" uk:origin="TNA" uk:type="legislation">Constitutional Reform Act 2005</ref> that the court was still duly constituted by the remaining four Justices, all of whom are permanent judges.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

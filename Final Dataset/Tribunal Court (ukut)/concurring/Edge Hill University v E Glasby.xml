@@ -1,0 +1,678 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/162"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/162"/>
+	  <FRBRdate date="2023-12-06" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="162"/>
+	  <FRBRname value="Edge Hill University v E Glasby"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/162"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/162"/>
+	  <FRBRdate date="2023-12-06" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/162/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/162/data.xml"/>
+	  <FRBRdate date="2024-11-10T03:30:37" name="transform"/>
+	  <FRBRdate date="2024-11-29T11:29:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-12-06" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="edge-hill-university" href="" showAs="EDGE HILL UNIVERSITY"/>
+	<TLCPerson eId="ms-e-glasby" href="" showAs="MS E GLASBY"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>162</uk:number>
+	<uk:cite>[2023] EAT 162</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>ddc8f45ffc6f4848318a7927d965c786e8512216aec69cc2c06b3c4dad18d2e5</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Judgment approved by the court </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Edge Hill University v Glasby</span></p>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EAT 162</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>EA-2022-001187-JOJ</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#eat">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right;margin-left:2.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">7 Rolls Building</span></p>
+      <p style="text-align:right;margin-left:2.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">Fetter Lane, London EC4A 1NL</span></p>
+      <p class="CoverText">Date: <docDate date="2023-12-06" refersTo="#judgment">6 December 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p class="CoverMain" style="text-align:center">MR DESMOND SMITH</p>
+      <p class="CoverMain" style="text-align:center">DR GILLIAN SMITH</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.22in 3.94in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#edge-hill-university" style="font-weight:bold">EDGE HILL UNIVERSITY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#ms-e-glasby" style="font-weight:bold">MS E GLASBY</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Ms K Barry </span>(instructed by Eversheds Sutherland (International) LLP)</p>
+      <p style="text-align:center">for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr S S Maini-Thompson</span> (instructed through Advocate) for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing date: 6 December 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold">SUMMARY &#8211; Practice and Procedure</span></p>
+	    <p style="text-align:justify">The claimant was dismissed by the respondent on grounds of capability on account of her record of high levels of sickness absence.  The employment tribunal upheld three complaints of failure to comply with the duty of reasonable adjustment, one unanimously, and two by a majority.  The majority also upheld two complaints of discrimination arising from disability (section 15 <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span>), one of which related to the dismissal.</p>
+	    <p style="text-align:justify">The tribunal&#8217;s (or majority&#8217;s) reasons in relation to the complaints which were upheld were fundamentally inadequate and/or defective.  </p>
+	    <p style="text-align:justify">There were no, or no sufficient, reasons given at all in relation to some or all of the essential elements of the three reasonable-adjustment complaints that were upheld.  </p>
+	    <p style="text-align:justify">The reasons in relation to the first of the section 15 complaints also had gaps in relation to essential elements of the cause of action.  The decision on the section 15 complaint relating to dismissal turned on the justification defence.  The majority of the tribunal relied on its conclusions that the respondent should have discounted cancer-related absences and that they did not accept the evidence of the respondent&#8217;s witnesses about the impact of the claimant&#8217;s absence on other staff, which the majority stated that they considered had been created to suit the circumstances.  However, the latter conclusion was in conflict with earlier findings of fact made unanimously by the whole tribunal, did not reflect the claimant&#8217;s own case, and in any event required some explanatory reasoning to support it.  </p>
+	    <p style="text-align:justify">The appeal was allowed and consideration of the complaints in question remitted for fresh determination.</p>
+	    <p><span style="font-weight:bold">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p class="ParaLevel1" style="margin-right:-0.93in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Following her dismissal by the respondent on capability grounds arising from her sickness absence record, the claimant in the employment tribunal brought <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span> complaints of discrimination arising from disability (section 15) and failure to comply with the duty of reasonable adjustment (sections 20 and 21), all read together with section 39.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">There was a four-day hearing before a three-person tribunal sitting at Manchester, held by CVP in April 2021.  The claimant appeared in person; the respondent was represented by Ms&#160;Barry of counsel.  The tribunal reserved its decision and had a further day in chambers in May 2021.  Its reserved judgment and reasons were sent to the parties in October 2022.  We were told that it is understood that the significant delay was occasioned by the ill-health of the judge.  Although the grounds of appeal refer to this aspect, Ms&#160;Barry confirmed in oral argument today that delay, as such, was not advanced as a distinct ground of appeal.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">There was no dispute that the claimant was, at the relevant times, a disabled person with respect to mobility, she being a wheelchair user, and also from the end of 2017 in view of her having had a diagnosis of cancer for which she was then treated.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Three complaints of failure to comply with the duty of reasonable adjustment relating to three particular matters that arose during the course of the claimant&#8217;s employment were unanimously dismissed by the tribunal because they were out of time and the tribunal declined to extend time.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The tribunal unanimously upheld one complaint of failure to comply with the duty of reasonable adjustment relating to an occasion when the claimant was unable to access her work station through a set of doors in a new building called the Catalyst Building.  By a majority, the lay members of the panel, Mr&#160;S&#160;Anslow and Mrs&#160;A Jarvis, also upheld two other complaints of failure to comply with the duty of reasonable adjustment and the two complaints of discrimination arising from disability contrary to section 15.  The judge, Employment Judge S Warren, in the minority, would have dismissed all of those four complaints.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">There were two section 15 complaints which, as we have said, the majority upheld.  The first related to the respondent having told the claimant at a stage 4 meeting in December 2018 that it would not agree to her request to disregard previous disability-related periods of sickness absence when applying the sickness absence policies.  The second related to the decision to dismiss the claimant in February 2019.  The reasonable-adjustment complaints which the majority upheld related to that December 2018 decision to decline to disregard disability-related periods of sickness absence, and to an earlier decision not to permit the claimant to use additional annual leave that she had purchased, to cover some of her days of sickness absence.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">This is the respondent&#8217;s appeal in respect of the outcome of all of those complaints which were upheld, whether unanimously or by a majority.  As before the tribunal, the respondent has been represented by Ms&#160;Barry of counsel.  The claimant resisting the appeal has been represented by Mr&#160;Maini-Thompson of counsel instructed by Advocate.  </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Facts and the Tribunal&#8217;s Decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">In the opening section of its decision, the tribunal set out the agreed list of issues, including in relation to time points.  At paragraphs [10] to [71], the tribunal made unanimous findings of fact.  These covered fully the relevant chronology of events in relation to the claimant&#8217;s employment and periods of sickness absence up to and including the decision to dismiss her and her unsuccessful internal appeal.  The tribunal also made findings about the respondent&#8217;s relevant policies, being the short-term absence policy and a long-term absence policy.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Succeeding sections of the decision contained self-directions as to the law, with which no issue is taken as such, and summarised the parties&#8217; rival submissions.  A section headed &#8220;discussion&#8221; at paragraphs [101] to [114] is, it was common ground, in fact a continuing discussion of submissions made by the respondent.  The tribunal&#8217;s conclusions are in their entirety set out in the next section of the decision which is, indeed, headed &#8220;conclusions&#8221;; and we will return to it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The factual background, in summary, which we take from the tribunal&#8217;s decision, so far as we need to set it out for the purposes of this appeal, is as follows.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">In July 2003 the claimant began permanent employment with the respondent in a part-time administrative role in student services.  She worked in student services in one position or another, for ten hours per week in term times, amounting to 36 weeks per year.  In July 2005 she began doing concurrently another part-time job as an administration assistant working on the information desk in the faculty of education, working 25 hours per week, year round.  At the relevant times, her line manager in the student services role was Phillipa Dunning and her line manager in the faculty of education role was Philip Jones.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The claimant has, since many years prior to the start of her employment with the respondent, been permanently mobility impaired as a result of injuries sustained in a road traffic accident.  She used a motorised chair at all times at work.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The tribunal&#8217;s findings of fact document the claimant&#8217;s various health-related absences from work, in particular in the period from 2014 until the eventual termination of her employment in 2019.  These include findings about the reasons for each absence, its duration and the steps taken by the respondent to support the claimant and to manage the absences at each stage, including by way of various adjustments and occupational health referrals.  These absences were later documented, and these steps summarised by the two line managers themselves, in a report that they compiled in January 2019, to which we will come.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">In late 2017 the claimant received a diagnosis of breast cancer leading to surgery and a long period of treatment and recovery during which she was off sick for many months from around 1 December 2017.  She returned to work on 1 September 2018 on the basis of a phased return over a number of weeks.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">During that period of absence, student services had moved into a new building called the Catalyst Building.  On 20 September 2018 the claimant communicated to Mr&#160;Jones that she was finding the doors to the student services section of the new building too heavy to open on her own.  The tribunal found that, upon being told this, Mr&#160;Jones immediately arranged for those doors to be kept open during the hours each day that the claimant did that job, pending, as he envisaged, an automated control being fitted.  However, there was then a specific occasion, which it appears was later in September, when the claimant arrived early for her shift and was unable to gain entry to the section until someone came and let her in.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The claimant had some further intermittent absence during the period from around the end of September through to 31 October 2018, although the tribunal found that by the time of a further OH report of 30 October 2018 from a Dr&#160;Shah she had worked some days in between.  The claimant returned to work again on a phased basis from 1 November 2018 and there was a return to work discussion thereafter.  She was absent again from 20 to 30 November 2018, returning to work on 3 December.  There was then a stage 4 meeting on 14 December 2018 with Ms&#160;Dunning and Mr&#160;Jones.  They had an HR advisor with them.  The claimant was accompanied by her union representative.  Various matters were discussed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">The tribunal&#8217;s findings about the discussion include the following: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">&#8220;51.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">The impact of the claimant&#8217;s absences were discussed by Mr&#160;Jones because they had had to put in a rota for others to cover the claimant&#8217;s work.  Somebody else had been appointed but half of the role was to cover health and safety, and she had not managed to get that work done because she was covering the claimant&#8217;s role in reception.  Ms&#160;Dunning made the point that they carry forward a backlog of work but they had really struggled this year and she did not have anyone to pass it to.  She had been unable to complete the audit.  She did not feel it could be sustained.  There was a backlog of filing and a backlog for auditing.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">52.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">The claimant confirmed that she did not have any future doctor&#8217;s appointments and there was nothing else stopping her from coming into work.  It was noted that she had help from two members of staff dealing with the stationery, and she still felt able to do both of her roles.  The claimant confirmed that she did not feel it necessary to go to see Dr&#160;Shah again and other wellbeing options were discussed.  The claimant also confirmed that the issue with the doors had been resolved (page 184).  The claimant was reminded that they may have to consider termination of her employment.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">On 31 January 2019 a report was prepared by Ms&#160;Dunning and Mr&#160;Jones.  The tribunal made the following findings about its contents: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">&#8220;53.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">On 31 January 2019 a report was prepared by Ms&#160;Dunning and Mr&#160;Jones with a recommendation for termination due to absence.  It was noted that between 11 February 2002 and 30 November 2018 the claimant had taken 1187 days of absence.  The claimant had been held at intermittent policy stage three as a reasonable adjustment in September 2016, and at intermittent policy stage four as a reasonable adjustment in March 2017.  She had been given special paid leave days.  The support that had been offered to her was listed (page 190).  It was noted that the claimant had requested two adjustments &#8211; the first being to continue to be allowed to use annual or flexi leave instead of recording absence as a period of sickness.  Previously, the university had supported the claimant with allowing the use of such leave in place of recording as a period of sickness absence, however it was noted in the March 2017 stage four meeting that this would not be allowed going forward as it masked the absences and therefore made it difficult to provide the correct level of support.  She also asked, in September 2018, that previous and future absences relating to either of her disabilities be disregarded in relation to sickness monitoring and recording. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">54.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">It was confirmed with the claimant that any requests for reasonable adjustments would be discussed in the pending stage four absence meeting, but after consulting human resources it was agreed that this was not a reasonable adjustment because the university absence policy applied to all absences and was designed to support employees who were absent due to health problems regardless of the nature of the specific medical condition, and this had been confirmed with the claimant in the stage four absence meeting.  It was noted that the current position at the time of the recommendation being made that occupational health considered that the claimant could have a flare-up of her condition in the future and if it was severe enough may require time from work.  The claimant did not require any new adjustments at work.  The claimant had been offered the opportunity of adjusting her weekly working pattern and consolidating her hours in student services to enable her attendance, but she had indicated that would not be helpful in managing her attendance and had only been helpful when her daughter had been coming into the university at similar times.  The claimant was told the option was still available to her.  It was noted that the claimant had said no further support of adjustments were required. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">55.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">The conclusions in the report were that the level of absence was unsustainable.  There had been a substantial increase in pressure on both the faculty of education information desk and the student services as a result of the claimant&#8217;s continued absence.  Within the faculty of education, the absence of the claimant provided a strain on the other information desk colleagues and other professional support colleagues.  The other two colleagues undertook additional responsibilities as part of their time on the information desk, for example health and safety and the processing of student travel expenses, and they had been unable to complete their tasks because of covering the desk in the sessions where the claimant would have been in attendance.  Within student services a proportion of the work that should have been completed had been completed by two student information officers.  This was over 100 hours of scanning, shredding and filing.  The two officers who had picked this backlog were no longer available in the team and not a resource that could be drawn on in the future.  A manager had had to carry out the additional checks on student support fund application forms, normally completed by the claimant, adding to the manager&#8217;s workload.  In order to catch up from 2017 to 2018 student services would have to recruit and train temporary staff to complete the work, and also to clear the backlog of work that had accrued in 2018 and 2019.  The money advice service was unable to sustain further delays to compliance and audit checks.  They were recruiting temporary staff to undertake those tasks.  There continued to be an impact on the team. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">56.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">The claimant had incurred 49 separate instances of absence totalling 1187 days (three years and three months).  The absences had occurred every year except one (in 2011) of her 16 years 11 months&#8217; employment.  It equated to a career average of approximately 70 sickness absence days per year and over the last five years the average number of sickness absence days per year had increased to 99 absence days per year on average.  Such a persistent high level of absence over a significant period indicated that the claimant was unable to attain a satisfactory level of attendance despite the ongoing support, interventions and reasonable adjustments that had been implemented, and so a recommendation for termination of employments on the grounds of poor attendance was tabled for consideration.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The claimant was dismissed on 5 February 2019 with twelve weeks&#8217; pay in lieu of notice.  Her subsequent internal appeal was unsuccessful.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">In the section of the decision setting out its conclusions, the tribunal explained that the three members had not been unanimous on all aspects.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The tribunal recorded that the parties and the panel itself were agreed that, taking account of the impact of ACAS early conciliation, any complaint relating to conduct occurring on or before 2 February 2019 would be outside what it called the primary limitation period.  It went on to find unanimously that three particular complaints of failure to comply with the duty of reasonable adjustment were out of time and that it was not just and equitable to extend time in relation to them.  There was no appeal or cross appeal from the claimant in that regard.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We will set out the remaining paragraphs of the concluding section in full:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">&#8220;121.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">On the face of it the dismissal is unfavourable treatment.  The issue is whether it arose from the claimant&#8217;s disability.  Should the respondent have disregarded previous periods of sickness absence when applying the sickness absence policy &#8211; in particular in relation to sickness absence linked to the claimant&#8217;s disability?  We noted the following occasions where the sickness absence policy was not applied to the letter: </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">In October 2014 the claimant was held at stage 3 as an adjustment.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(2)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">In September 2016 the claimant was held back again at stage 3.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(3)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">In August and September 2016 the claimant was held at stage 3 again having actually triggered stage 4.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">In January 2017 the claimant git stage 4 again but was not at that stage dismissed.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(5)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">The claimant was off work for a long period, having had a mastectomy, and then two shorter periods because of pain and swelling at the site of the operation.  Between 20 November to 30 November the claimant had severe pain with no obvious cause and the doctors advised the respondent that this could reoccur.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(6)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">In September 2018 the claimant asked that any previous or future absence relating to her disability be disregarded for monitoring purposes.  She was advised that this was not a reasonable adjustment because the absence policy applied to all absences for all staff.  This was at a stage 4 meeting.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(7)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">On 30 October the dismissing officer was advised by occupational health that the claimant may well have further flare-ups and if severe enough may require time off from work.  At this stage the claimant confirmed that she did not have any requirement for further physical adjustments to her workplace.    </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">122.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">We found credible evidence from the respondent that absence of the claimant did cause problems for the information desk and the faculty of education.  Both were unable to provide complete cover without disadvantage to others, in the claimant&#8217;s absence.  In her role with the faculty of education things such as filing and updating records were substantially behind after her absences.  With regard to the information desk, health and safety matters were not completed because of the member of staff having to cover the information desk rather than doing her other tasks.  In addition, it was not always possible to provide complete cover throughout the working day, which was required on the information desk.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">123.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Our conclusion was that there were persistent high levels of absence which, despite the interventions of the respondent and reasonable adjustments, showed no significant or sustained improvement.  Mrs&#160;Jarvis considered it unreasonable to disregard all of the previous absences.  However, she noted that there had been a period of 22 months with no issues; the claimant&#8217;s cancer was in remission and if the time she had taken out for disability absences was excluded from the calculation, there would have been 11 days&#8217; absence which would not have triggered a stage 4 policy meeting.  She considered that the respondent employer should have treated it more sympathetically than they did.  Manifestly she felt that the claimant suffered unfavourable treatment because it led to her dismissal.  Mr&#160;Anslow agreed with Mrs&#160;Jarvis.    </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">124.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Judge Warren, however, considered that there were two absence policies &#8211; short-term absence and long-term absence.  The policies were applied in accordance with their terms and whilst the employer did take all of the absences into consideration, they also exercised discretion at preventing the claimant from reaching a stage 4 dismissal on at least three earlier occasions.    </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">125.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Having accepted that there was unfavourable treatment in both the dismissal (and in the case of the lay members, with disregarding previous periods of sickness absence), and having accepted unanimously that the aims ((a)-(e)) were legitimate, the issue then relates to whether the unfavourable treatment was a proportionate means of achieving them.    </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">126.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">It should be noted that subparagraph 6(f) of the list of issues lists an aim which the respondent said was legitimate, to ensure that all of the respondent&#8217;s employees are not placed under additional burdens in terms of workload as far as possible.  Mr&#160;Anslow and Mrs&#160;Jarvis did not accept the evidence of the respondent that staff were placed under additional burdens believing that the respondent had looked back at the situation and created the evidence to suit the circumstances.  Judge Warren, in the minority accepted the evidence of the respondent, that they were placed under additional burdens &#8211; it was inevitable in the absence of the claimant that others would have to cover her work.    </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">127.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Mr&#160;Anslow and Mrs&#160;Jarvis agreed that from the claimant&#8217;s original disability, her pattern of attendance had improved.  It was significant that she was then diagnosed with cancer and required treatment for it.  They considered that the period of absence for the cancer should have been discounted because the claimant was now in remission &#8211; in effect that period of treatment was over.  Mr&#160;Anslow considered it disproportionate to apply &#8216;achieving the legitimate aims&#8217; in such a way as they did with a disabled person.  He felt the claimant should have been given a final warning.  Mrs&#160;Jarvis agreed with Mr&#160;Anslow.    </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">128.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">The judge disagreed with them both, considering that everything that could be done to keep the claimant at work had been done, and that the last occupational health report indicated that the claimant could have further episodes of pain which could lead to absence.  When balancing that against the legitimate aims of the university it left the respondent in a position of vulnerability as an employer as they had no idea what would happen in the future.  There was credible evidence of considerable inconvenience to both departments and employees which had already led to difficulty in the university achieving their legitimate aims.  </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">Dismissal</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">129.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Mr&#160;Anslow and Mrs&#160;Jarvis considered that because the respondent did not exclude periods of absence due to disability it was not proportionate to dismiss.  Judge Warren considered that the legitimate aims of the university were proved to her satisfaction.  The only possible way of achieving those aims with some degree of certainty, bearing in mind the extensive history of absence, and the impact the claimant&#8217;s absence had had on the two departments.  The doctor&#8217;s assertion following her last period of absence that she could be subject to recurring pain and further absence, led to the dismissal being inevitable and proportionate.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Grounds of Appeal, Arguments, Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Grounds 1 to 4 relate to the three successful complaints of failure to comply with the duty of reasonable adjustment.  In respect of all three, they assert that the tribunal, or the majority, erred by failing anywhere to address the time point in relation to each of these complaints (ground 1), failing to make findings as to whether the conduct complained of put the claimant at a substantial disadvantage in comparison with persons who were not disabled (ground 2), failing to make findings as to when the respondent knew or could be expected to have known of any such substantial disadvantage (ground 3), and/or failing to reach any conclusion as to the adjustments or further adjustments that the respondent ought reasonably to have made (ground 4).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ms&#160;Barry&#8217;s overarching submission was that, while the tribunal&#8217;s judgment told the reader that these three complaints had succeeded, in one case unanimously, in the other two by a majority, the reasons and, in particular, the concluding section of the reasons, omitted to address these three complaints entirely.  Further, the aspects raised by all four grounds did need each to be addressed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The respondent&#8217;s case was that all three complaints were, viewed in isolation, out of time.  The decision that the claimant could not use additional holiday leave to cover sickness absence had been taken, said the respondent, at a stage 4 meeting in April 2017, the reason being that this would mask the sickness absence.  The incident when the claimant had arrived early and could not get through the doors had happened some time in late September 2018.  The decision that disability-related absences would not be disallowed, as requested by the claimant, was communicated at the stage 4 meeting in December 2018.  The respondent&#8217;s case was that these complaints were all, as such, out of time; but the tribunal had not addressed the time points in relation to them at all. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">While the respondent accepted substantial disadvantage in relation to the matter of the heavy doors, the final list of issues reproduced by the tribunal in its decision showed that the claimant had yet at trial to identify the substantial disadvantages that she asserted in relation to disallowing the use of additional leave days and not discounting the disability-related absences.  The respondent&#8217;s positive case was that being allowed to use the additional leave days would have made no difference, as the claimant&#8217;s absence levels were so high that the trigger points in the relevant policies would have been surpassed in any event.  The respondent also did not concede before the tribunal that there was substantial disadvantage caused by this treatment, nor by the decision not to discount disability-related absences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">As to knowledge, in relation to the Catalyst Building doors generally, the tribunal found that the claimant raised her difficulties for the first time on 20&#160;September 2018 and action was then immediately taken to keep the doors open during her working hours in the student services section.  The tribunal had not made a finding about when the respondent knew about the specific incident that nevertheless then occurred on the day when she arrived early, nor had it set out what additional step it considered the respondent should have reasonably taken in that regard.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Mr&#160;Maini-Thompson reminded us that no issue was taken with the tribunal&#8217;s self-direction as to the law or basic findings of fact.  He submitted that <span style="font-style:italic">Meek</span>-compliance is not a standard of perfection and that the tribunal&#8217;s reasons in this case, whilst not, he acknowledged, ideal, should be regarded as sufficient when read fairly as a whole.  He also urged upon us that the tribunal, or the majority, were not necessarily bound to have accepted the respondent&#8217;s submissions or arguments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Our conclusions in relation to these grounds are as follows.  First, very unfortunately it is an inescapable fact that the tribunal failed to provide any reasons at all in the concluding section of the decision addressing its conclusions on any of these three reasonable adjustment complaints.  We have considered whether there is anything else in the reasons read as a whole from which one can discern the tribunal&#8217;s, or the majority&#8217;s, reasons for upholding these complaints.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">In relation to the doors of the student services area in the Catalyst Building, Mr&#160;Maini-Thompson in his skeleton pointed to the findings of fact about this aspect.  We note that, in the course of those findings, the tribunal found that the doors were large and heavy; and it appears to have accepted that the claimant, as a wheelchair user, could not physically open them unaided.  The tribunal also found that the claimant did not complain about the matter until 20 September 2018, at which point it was immediately arranged that the doors would be kept open during her shifts.  It also found that upon further investigation it was concluded that for structural reasons automatic openers and closers could not be fitted to these particular doors.  There are findings elsewhere in the decision about the new building having been designed with insufficient thought for the needs of wheelchair users.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The respondent accepted, and the tribunal plainly agreed, that the need to pass through the heavy doors to the student section put the claimant at a disadvantage as a wheelchair user, and that the respondent had actual knowledge of this general problem from the time when the claimant complained about it on 20 September 2018.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">However, the specific complaint that was upheld was about the particular occasion on which she arrived early and could not get in to the section until someone else arrived.  The tribunal did not make any finding about when the respondent first knew about <span style="font-style:italic">that incident</span>, nor did it set out any conclusion as to what further step it considered the respondent reasonably ought to have taken further to mitigate the claimant&#8217;s disadvantage in that particular regard.  The tribunal does not appear to have upheld the complaint relating to the doors more generally.  But, in any event, if it did consider that something more should have reasonably been done beyond the steps that were taken after the general problem came to its attention on 20 September, it did not say what those additional steps were, or why, or by when they reasonably should have been taken.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">As to not allowing the claimant to use the additional annual leave which she had purchased, to cover short-term periods of absence, the tribunal does appear to have failed to address all four points raised by these four grounds anywhere in its decision.  Once again, the concluding section simply does not address this complaint at all; and we can find nothing else in the reasons to explain or set out the tribunal&#8217;s conclusions in relation to any of the essential elements of this complaint.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">As to the decision to disregard previous periods of disability-related sickness absence, this related to the claimant having been told at the 14 December 2018 stage 4 meeting that such periods of absence would not be discounted.  It can perhaps be fairly inferred from the decision of the majority on the section 15 complaint relating to the dismissal, that they considered within that context, that it would have been a reasonable adjustment in this case to discount the cancer-related absences when it came to the substantive decision which, ultimately, was to dismiss.  Hence we might infer that the majority considered that it would have been a reasonable adjustment in December to agree to depart from the policy in that regard.  But, nevertheless, a discrete reasonable adjustment complaint was advanced in relation to the communication in December, of the decision to decline to depart from the policy, and given that it was advanced as a discrete complaint, the tribunal needed to address the time issue that arose in relation to that discrete complaint.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We agree with Mr&#160;Maini-Thompson that the tribunal was not bound to accept the respondent&#8217;s submissions on these various points.  However, the issues of time, substantial disadvantage, knowledge and what, if any, further steps should reasonably have been taken in relation to each of these matters, were essential issues, as they were all essential components of a successful cause of action; and, save where there was no dispute on a point, all of them needed to be addressed by the tribunal&#8217;s reasons in relation to all three of these complaints.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Reading the reasons as a whole and as generously as possible, there are fatal gaps in relation to some or all of these essential elements in relation to all three complaints.  The reasons are, we regretfully conclude, fundamentally deficient in relation to all three.  The reader knows from the judgment that these three complaints succeeded, but does not know from the reasons all of the basic and essential elements as to why.  Grounds 1, 2, 3 and 4 therefore succeed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Grounds 5, 6, 7 and 8 concern the outcomes of the two section 15 complaints.  Ground 5 asserts that the tribunal failed to address the time point in relation to the first of those complaints relating to the claimant having been told at the stage 4 meeting that her request for the disability-related absences to be discounted would not be granted.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Once again, it might be said that the practical significance of this decision was the impact that it then later had on the respondent&#8217;s substantive decision-making, as reflected in the January 2019 report and the decision to dismiss the claimant in February.  There was no dispute that the section 15 complaint relating to the dismissal was, as such, in time.  Nevertheless, as the additional complaint about what the claimant was told at the prior stage 4 meeting was maintained, as an additional and discrete complaint, the majority did need to address the time point in relation to it and whether, for example, it considered that this formed a continuing act taken together with the subsequent dismissal.  Once again, the reasons, unfortunately, fail to address this point.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ground 6 contends that the tribunal erred in relation, once again, to the first of the section 15 complaints, because it failed to address whether or, if so, how, the decision to decline to discount the absences in question was because of something arising in consequence of disability, in this case the claimant&#8217;s high level of sickness absence.  The respondent had submitted that this particular complaint was fundamentally flawed, because previous sickness absence would, under the respondent&#8217;s policy, never be discounted, whether it was high level or not.  The claimant&#8217;s high levels of sickness absence were therefore, argued the respondent, not something which, as such, caused the respondent not to discount the disability-related absences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ms&#160;Barry confirmed in submissions that this ground only mounted such a challenge in relation to the decision on that first section 15 complaint.  It was always accepted by the respondent that the dismissal itself was because of the claimant&#8217;s overall absence record, which included significant disability-related absence, and, therefore, that the <span style="font-style:italic">dismissal</span> was, in the requisite sense, because of something arising in consequence of disability.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Mr&#160;Maini-Thompson pointed in his skeleton to the findings that the claimant had requested in September 2018 that disability-related absence be disregarded as a reasonable adjustment, but had been told that this would not be agreed because the policy applied to all absences for all staff.  He referred to the findings as to the conclusions of the two lay members at paragraph [123].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Once again, it appears to us that, in practice, the real substantive impact of the stance taken at the December meeting was felt at the point when the substantive decision as to what actually to do was taken, that decision in this case being to dismiss the claimant.  It is clear that the view of the majority of the tribunal was that, in deciding what to do, whatever the policy said, the respondent should in this case have discounted the disability-related absences on account of the claimant&#8217;s cancer and related aftermath.  That was on the footing that the cancer had, by the time the decision was taken, been treated and was in remission, and so, in effect, was a thing of the past.  The majority&#8217; view was, further, that, if that lengthy period of absence <span style="font-style:italic">was</span> discounted, and having regard to their conclusion about the evidence concerning the impacts of the claimant&#8217;s absences, it was then not a proportionate response to dismiss at that stage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Once again, nevertheless, there were two separate section 15 complaints, one relating to what the claimant was told at the stage 4 meeting and the other relating to the later decision to dismiss.  Insofar as the majority upheld the former complaint, it appears to us that they did need to engage with the respondent&#8217;s argument that the reason why the claimant was told that the absences would not be discounted was not because of the disability-related absences themselves, but because the policies required all absences to be counted, long or short as the case may be, and disability-related or not.  There was, once again, a gap in the tribunal&#8217;s reasoning in relation to an essential component of the cause of action.  We therefore uphold grounds 5 and 6.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ground 7 contends that the majority reached conclusions on justification in relation to the section 15 complaint relating to the dismissal which were inconsistent with, or contradictory of, findings of fact made unanimously elsewhere in the decision.  Alternatively, per ground 8, the majority&#8217;s conclusion on this point was perverse.  The focus of the attack mounted by ground 7, in particular, is on the majority&#8217;s conclusion at paragraph [126] that they did not accept that other staff were placed under additional burdens by the claimant&#8217;s absence, the avoidance of which appears to have been accepted as a legitimate aim, along with the other aims relied upon, as such; and that the majority of the tribunal considered that the respondent&#8217;s witnesses had created the evidence about this to suit the circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ms&#160;Barry referred to the tribunal&#8217;s observation at the outset of the reasons, at [5], that in making its findings of fact, as such, it did not need to decide whose evidence to prefer, as most of the evidence proved uncontroversial; and she submitted that there was no suggestion at any point in the lengthy unanimous fact-finding, of any evidence having been thought to lack credibility or to have been created.  She referred, in particular, to the unanimous conclusions at [122].  Ms&#160;Barry argued that the view then expressed by the minority was at odds with those earlier findings.  Further, it had been no part of the claimant&#8217;s own case before the tribunal to dispute what the respondent had said was, as such, the factual impact of her absences.  Nor, we were told, were Ms&#160;Dunning or Mr&#160;Jones, who both gave evidence, challenged by the claimant to that effect, although the judge did ask some questions about that aspect of their evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ms&#160;Barry also argued that it appeared from the statement in paragraph [127] that Mr&#160;Anslow &#8220;considered it disproportionate to apply &#8216;achieving the legitimate aims&#8217; in such a way as they did with a disabled person&#8221;, with which Mrs&#160;Jarvis agreed, that the majority were of the view that the respondent could not rely upon its legitimate aims in this case at all <span style="font-style:italic">because</span> the claimant was a disabled person.  Ms Barry submitted that that approach would be plainly wrong.  The tribunal was not excused by the fact that the claimant was a disabled person, from engaging with the justification issue, by reference to what had been accepted were legitimate aims as such.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ms&#160;Barry also submitted in support of ground 8 that the majority&#8217;s apparent conclusion that there was no risk of further absence related to cancer in the future, was contrary to the evidence and findings that there <span style="font-style:italic">had</span> been some further cancer-related absence following the claimant&#8217;s initial return from the long spell of absence at the beginning of September 2018, and what we were told was agreed medical evidence that she might need more time off in the future.  Ms&#160;Barry also submitted that it was difficult to understand where the figure of a period of &#8220;22 months with no issues&#8221;, referred to by the majority at paragraph [123], had come from.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Our conclusions on grounds 7 and 8 are as follows.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">As to ground 7, the tribunal found at points earlier in the decision: at paragraph [32], that there was evidence of difficulty arranging cover in the faculty in the first half of 2018; that there was discussion with the claimant of the impacts which her absence was having at a meeting in September 2018 (see paragraphs [37] and [38]); and that this was a topic of discussion again at the stage 4 meeting in December 2018 (see paragraph [51]).  There was also the detailed finding at paragraph [55] (which we have set out) about the stated conclusions in the January 2019 report in relation to the impact which the claimant&#8217;s absences had been having on both departments in which she worked.  The tribunal does appear then to have unanimously accepted the evidence put forward by the respondent on this as genuine, in its conclusions at paragraph [122]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We therefore agree with the respondent that the statement by the majority at paragraph [126] that they did not accept the evidence of the respondent&#8217;s witnesses on the impact of the claimant&#8217;s absences, as such, was at odds with these earlier findings by the tribunal as a whole.  Certainly and, in any event, we consider that such a serious and striking conclusion at the very least required some further explanation from the majority as to the basis for it and <span style="font-style:italic">some</span> supporting reasoning going beyond the mere statement of the conclusion itself, that they did not accept the evidence and considered it had been created to suit the circumstances.  This is leaving aside the fact &#8211; and Mr&#160;Maini-Thompson did not suggest otherwise &#8211; that the claimant does not appear to have advanced such a case on this aspect herself before the tribunal, or herself challenged the respondent&#8217;s witnesses when they gave evidence on this aspect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Though it could have been more clearly explained, it looks to us like the reference to 22 months was arrived at by the majority, by reckoning that as the period from the last pre-cancer absence in January 2017 to the first non-cancer related absence in November 2018, on the basis that the majority considered that cancer-related absences should have been discounted.  The remark highlighted by Ms&#160;Barry, at [127], that it was &#8220;disproportionate to apply &#8216;achieving the legitimate aims&#8217; in such a way as they did with a disabled person&#8221; is less than clear, though it occurs to us that perhaps this was intended simply to be another way of putting the majority&#8217;s point, made earlier in that paragraph, that they considered that the cancer-related absences should have been discounted.  But, in any event, we uphold ground 7 for the reasons that we have explained with regard to the lay members&#8217; statement about the evidence concerning the impacts of the claimant&#8217;s absences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">As to ground 8, this is a straightforward perversity challenge.  It contends that the majority&#8217;s conclusion, at paragraph [129], that dismissal was not proportionate, was perverse, given the claimant&#8217;s extensive history of absence, the reasonable adjustments which had been made, the impact that her absence had had on the two departments she worked in, and the undisputed medical evidence that she could be subject to further pain and recurring absence.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Mr&#160;Maini-Thompson submitted that we could not be satisfied that this decision was perverse in the sense that, on the facts found, the tribunal could not possibly have properly concluded other than that the decision to dismiss was justified.  He submitted that there were areas of uncertainty in the fact-finding such as in relation to the 22-month point.  Ms&#160;Barry submitted that all of the essential facts had been found, both in relation to the record of disability-related absence, which was a matter of undisputed record and documented in the 2019 report, and the reasons for the various absences, and the impact which they had had; and she stressed again her case that there was uncontroverted medical evidence as to the potential for further future absences.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We bear in mind that a perversity challenge always faces a high hurdle.  In this case, the justification issue was a question for the appreciation of the tribunal, applying, of course, the well-established guidance in the authorities as to the questions that the tribunal needs to ask and answer when applying a justification test in the context of a discrimination claim of this type.  The justification hurdle is itself a significant hurdle for an employer to overcome.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We bore in mind as well that, whilst we had the findings of fact made by this tribunal as far as they went, and we were told something in summary by Ms&#160;Barry about the medical evidence, which was not disputed by Mr&#160;Maini-Thompson as such, we did not have before us all of the totality of the witness and documentary evidence which the tribunal will have seen and received during the course of the four-day hearing.  Nor could we say that there was no room for argument at all as to what approach, in the context of the justification defence, the tribunal should have taken, to how the respondent regarded the long period of post-operative treatment and recuperation absence for the cancer, as opposed to the evidence about the risk of further cancer-related absences in the future.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Certainly it is fair to say that the respondent mounted a strong case on the justification defence; and it was not suggested by Mr&#160;Maini-Thompson, nor could we say, that it was not open to the judge to find, as she did, that the justification defence was made out.  But what we have to consider is whether we can go so far as to say that it would, on the facts found, have been perverse for the tribunal to reach any other conclusion.  We do not think we are in a position to go so far as to say that and, therefore, we do not uphold ground 8.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">But, as we have upheld grounds 1 to 4 and grounds 5 to 7, the appeal therefore succeeds in relation to all of the complaints that were upheld by the tribunal, whether unanimously or by a majority, and the tribunal&#8217;s decisions in that regard are therefore quashed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We have now heard further submissions as to next steps.  It was common ground that the claims that were previously upheld have to be remitted to the employment tribunal for fresh consideration.  We are told that the judge has now retired, so the new panel will, in any event, have a different judge.  Ms&#160;Barry submitted that we should direct that fresh consideration of those complaints should be by a panel that also does not include either of the lay members that sat the first time around.  Mr&#160;Maini-Thompson invited us to direct that the new panel should include either or both of the previous two lay members if practically possible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We agree with Ms&#160;Barry.  In this case we have expressed our misgivings about the conclusion in the reasons by the two lay members that they did not accept the credibility of the evidence of the respondent&#8217;s witnesses, as to the impacts of the claimant&#8217;s absences, and that they considered that this evidence had been created to suit the circumstances.  That was an extremely strong and significant statement to have made, and we think that it would be difficult for either or both of those two members to put that view out of their minds and completely to one side, if asked to reach fresh judgments upon these complaints.  It is also important that, whatever the outcome next time around, both parties are able to have confidence in it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">We would add that it is unfortunate that, now approaching five years since the claimant&#8217;s employment was terminated, this matter, at least in relation to these complaints, remains unresolved and will have to return to the tribunal, unless the parties are able to reach some other resolution.  Directing a completely new panel will also have an additional benefit that the tribunal will not be constrained in convening a panel for a further hearing, by the availability of the members who sat previously on the matter.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

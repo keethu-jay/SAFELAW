@@ -1,0 +1,1302 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/52"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/52"/>
+	  <FRBRdate date="2021-11-24" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="52"/>
+	  <FRBRname value="A Local Authority v JB"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/52"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/52"/>
+	  <FRBRdate date="2021-11-24" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/52/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/52/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:49:46" name="transform"/>
+	  <FRBRdate date="2024-01-28T18:18:50" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-11-24" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-local-authority" href="" showAs="A Local Authority"/>
+	<TLCPerson eId="jb" href="" showAs="JB"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lady-arden" href="/judge-lady-arden" showAs="Lady Arden"/>
+	<TLCPerson eId="judge-lord-burrows" href="/judge-lord-burrows" showAs="Lord Burrows"/>
+	<TLCPerson eId="judge-lord-stephens" href="/judge-lord-stephens" showAs="Lord Stephens"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2021</uk:year>
+	<uk:number>52</uk:number>
+	<uk:cite>[2021] UKSC 52</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>2cd381424c193ce8c51da6aa69f85c8c3b0fb2c3fded6c5d846794fdd9f8c46d</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-size: 12pt; font-family: Calibri, sans-serif; }
+#judgment .Normal { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .Header { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.25in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Quote { margin-left: 1.00in; margin-right: 0.87in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 0.98in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: Calibri, sans-serif; font-size: 13pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p class="CourtOrder">THE COURT ORDERED that no one shall publish or reveal the name or address of the Appellant who is the subject of these proceedings or publish or reveal any information which would be likely to lead to the identification of the Appellant or of any member of his family in connection with these proceedings.</p>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:1.3798611111111112in;height:1.3798611111111112in;"/><span style="font-weight:bold">Michaelmas Term</span><br/><neutralCitation style="font-weight:bold">[2021] UKSC 52</neutralCitation><br/><span style="font-style:italic">On appeal from: [2020] EWCA Civ 735</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#respondent" refersTo="#a-local-authority">A Local Authority</party> (<role refersTo="#respondent">Respondent</role>) v <party as="#appellant" refersTo="#jb">JB</party> (by his Litigation Friend, the Official Solicitor) (<role refersTo="#appellant">Appellant</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lady-arden">Lady Arden</judge><br/><judge refersTo="#judge-lord-burrows">Lord Burrows</judge><br/><judge refersTo="#judge-lord-stephens">Lord Stephens</judge><br/><judge refersTo="#judge-lady-rose">Lady Rose</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2021-11-24" refersTo="#judgment">24 November 2021</docDate><br/><br/>Heard on 15 July 2021</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>John McKendrick QC</p>
+      <p class="JudgmentAppRespInt">Ian P Brownhill</p>
+      <p class="JudgmentAppRespInt">Helen Law<br/>(Instructed by Enable Law)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Vikram Sachdeva QC</p>
+      <p class="JudgmentAppRespInt">Richard Whittam QC</p>
+      <p class="JudgmentAppRespInt">Alexander Ruck Keene</p>
+      <p class="JudgmentAppRespInt">Fiona Paterson<br/>(Instructed by Wolferstans Solicitors)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">1</span><span style="font-style:italic;vertical-align:super;font-size:smaller">st</span><span style="font-style:italic"> Intervener (Respond)</span><br/><span style="font-style:italic">(written submissions only)</span><br/>Aswini Weereratne QC</p>
+      <p class="JudgmentAppRespInt">Sophy Miles</p>
+      <p class="JudgmentAppRespInt">Mary-Rachel McCabe</p>
+      <p class="JudgmentAppRespInt">Caragh Nimmo<br/>(Instructed by Irwin Mitchell)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">2</span><span style="font-style:italic;vertical-align:super;font-size:smaller">nd</span><span style="font-style:italic"> Intervener (Centre for Women&#8217;s Justice)</span><br/><span style="font-style:italic">(written submissions only)</span><br/>Victoria Butler-Cole QC</p>
+      <p class="JudgmentAppRespInt">Tim James-Matthews</p>
+      <p class="JudgmentAppRespInt">(Instructed by Centre for Women&#8217;s Justice)</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD STEPHENS: (<span style="text-transform:none">with whom Lord Briggs, Lady Arden, Lord Burrows and Lady Rose agree</span>)</p>
+	  </content>
+	</level>
+	<level>
+	  <num>1.</num>
+	  <heading class="Paraheading6">Introduction</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">1.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">This appeal raises issues of profound significance under the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> (the &#8220;MCA&#8221;) for the appellant, JB, and others like him with an impairment of, or a disturbance in the functioning of, the mind or brain which potentially renders them unable to make a decision for themselves in relation to have sexual relations. The central issue is whether the information relevant to JB&#8217;s decision to have sexual relations includes the fact that the other person must be able to consent and gives and maintains consent throughout. If it does, then for JB to have capacity to make the decision for himself, he must be able to understand that information, retain that information and use and weigh that information. If JB is unable to do so, despite all practicable steps having been taken to help him, with the consequence that he lacks capacity to make a decision for himself to having sexual relations, then he will be deprived of all sexual relations, as no other person may consent on his behalf to him having such relations: section 27(1)(b) MCA.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <num>2.</num>
+	  <heading class="Paraheading6">The proceedings</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">2.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Proceedings were commenced by the local authority in the Court of Protection seeking declarations as to JB&#8217;s capacity in various matters. By 15 July 2019, the date of the hearing before Roberts J, the local authority and the Official Solicitor, on behalf of JB as his litigation friend, had reached agreement on the majority of issues about JB&#8217;s capacity, including that he lacked capacity to conduct the proceedings and to make decisions relating to his residence, care and support, contact with others and as to his use of the internet and social media. There remained the issue, as formulated by the parties, as to whether JB, in order to have the capacity &#8220;to<span style="font-style:italic"> consent</span>&#8221; to sexual relations, must not only understand that <span style="font-style:italic">he</span> can give or withhold consent but must also understand that <span style="font-style:italic">the other person</span> must be able to consent and gives and maintains consent throughout. At the material time it was evident that because of an impairment of, or a disturbance in the functioning of, his mind or brain, JB did not have that understanding in relation to the consent of <span style="font-style:italic">the other person</span>. The judge identified the fundamental submission made on behalf of JB as being &#8220;that the consent of others is not relevant to the question of whether [he], or any other protected party, has capacity <span style="font-style:italic">to consent</span> to sexual relations&#8221; (see para 13, emphasis added). The local authority also formulated the issue in relation to JB&#8217;s capacity &#8220;to consent&#8221; but contended that a component of JB&#8217;s ability to consent was an understanding that the other person must be able to, and must in fact, consent. It was said that if this component was absent then sexual offences might be committed by JB and that to permit such a situation would be a derogation of responsibility by the Court of Protection.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">3.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The judge handed down her written judgment on 17 September 2019: <ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2019/39" uk:canonical="[2019] EWCOP 39" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCOP 39</ref>; <ref href="#" uk:canonical="[2020] 1 WLR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 1 WLR 1</ref>. She concluded that the relevant information did not include the fact that the other person was able to, and did in fact, consent. She held that &#8220;For the purposes of determining the fundamental <span style="font-style:italic">capacity</span> of an individual in relation to sexual relations, the information relevant to the decision for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> does <span style="font-style:italic">not</span> include information that, absent consent of a sexual partner, attempting sexual relations with another person is liable to breach the criminal law&#8221; (para 87). She granted a declaration pursuant to section 15 MCA that &#8220;JB has capacity to consent to sexual relations&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">4.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The local authority appealed to the Court of Appeal with the leave of King LJ granted on 20 November 2019. Following a hearing on 3 March 2020, the Court of Appeal (Sir Andrew McFarlane, President of the Court of Protection, Singh LJ, and Baker LJ) handed down judgment on 11 June 2020: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/735" uk:canonical="[2020] EWCA Civ 735" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 735</ref>; <ref href="#" uk:canonical="[2021] Fam 37" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] Fam 37</ref>. Baker LJ delivered the lead judgment, with which the other members of the court agreed. He recast the relevant &#8220;decision&#8221; as being a decision to &#8220;<span style="font-style:italic">engage in</span>&#8221; sexual relations rather than a decision to &#8220;<span style="font-style:italic">consent</span><span/><span style="font-style:italic">to</span>&#8221; sexual relations (para 93). Baker LJ held (at para 94) that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;When the &#8216;decision&#8217; is expressed in those terms, it becomes clear that the &#8216;information relevant to the decision&#8217; inevitably includes the fact that any person with whom P engages in sexual activity must be able to consent to such activity and does in fact consent to it. Sexual relations between human beings are mutually consensual. It is one of the many features that makes us unique. A person who does not understand that sexual relations must only take place when, and only for as long as, the other person is consenting is unable to understand a fundamental part of the information relevant to the decision whether or not to engage in such relations.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">Accordingly, the appeal was allowed given that JB did not understand information which was relevant to the decision to engage in sexual relations, namely that the other person must be able to consent and gives and maintains consent throughout. The declaration that JB had capacity to consent to sexual relations was set aside, and an interim declaration was made under section 48 of the MCA that &#8220;there is reason to believe that JB lacked the capacity to decide whether to engage in sexual relations&#8221;. The question as to whether a final declaration should be made was remitted to the judge, who, it was anticipated, would consider it appropriate to seek supplemental evidence.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">5.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On 11 June 2020, the Court of Appeal dismissed JB&#8217;s application for permission to appeal to the Supreme Court. On 13 April 2021, a panel of the Supreme Court (Lord Hodge, Lady Arden and Lord Hamblen) granted permission to appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">6.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Because of the public importance of the issues, two charities, neither of which had intervened before the Court of Appeal, were given permission to participate in the appeal as interveners by way of written submissions. Their participation, along with that of counsel for the principal parties, greatly assisted the court. The following is a description of each of the interveners.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">7.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The first intervener is Respond. Respond is a charity which provides therapeutic and support services to children, young people and adults with learning disabilities and/or autism. Its work includes providing psychoeducational support to those with disabilities to enable them to have the same opportunity to enjoy safe and fulfilling intimate relationships as their non-disabled peers. Respond&#8217;s written submissions provided insight from the perspective of a charity devoted to the support of many individuals with conditions similar to JB&#8217;s.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">8.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The second intervener is the Centre for Women&#8217;s Justice (&#8220;CWJ&#8221;) which is a charity established in 2016, whose mission is to challenge, in a number of ways, male violence against women and girls, including by conducting strategic litigation. CWJ&#8217;s written submissions provided insight from the perspective of a charity devoted to challenging male violence against women and girls.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <num>3.</num>
+	  <heading class="Paraheading6">JB&#8217;s personal circumstances</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">9.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">There have been no final factual findings, though much of the evidence is not disputed. The local authority and the Official Solicitor jointly instructed Dr Susan Thrift, a consultant clinical psychologist, to assess JB&#8217;s capacity to make decisions as to various matters including consenting to sexual relations. They also jointly instructed another consultant clinical psychologist, Dr Jillian Peters, to provide her expert opinion as to various matters, such as whether JB poses a sexual risk to women or vulnerable women and, if so, the severity of the risk together with advice as to a programme of work that may ameliorate that risk. The summary of JB&#8217;s personal circumstances which is set out in this section of the judgment is taken from the reports of those two experts and from the judgments at first instance and in the Court of Appeal.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(a)<marker name="tab"/>JB&#8217;s age, gender, personality, and present living arrangements</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">10.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB is a 38-year-old man. Since May 2014 he has been living in a supported residential placement, funded by the local authority, which he shares with two others. The staff who support JB described him as &#8220;likeable&#8221;. It is important to JB that he feels liked and popular. Unfortunately, some of his behaviours, especially towards women, at times make him extremely unpopular with others, which causes him to feel &#8220;depressed and desperate&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">11.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB is subject to a comprehensive care plan which imposes significant limitations on his ability to function independently. These include restrictions on his access to the local community, on his contact with third parties and on his access to social media and the internet. Under his care plan, he has 1:1 supervision when out in the community and, in particular, when in the presence of women.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(b)<marker name="tab"/>JB&#8217;s early development, the onset and consequences of epilepsy, together with other aspects of his mental and physical health</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">12.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB is described as having been developmentally &#8220;precocious,&#8221; in his early childhood, especially in his speech and language development. His mother reported that he walked at eight months and by the age of two had a counting and reading ability equivalent to that of a four-year old. Unfortunately, in contrast to these positive early indicators, JB also experienced some subtle difficulties which in retrospect were indicators of the problems that lay ahead. For example, he required routines to be followed rigidly or he would become distressed and aggressive.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">13.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">A review by Dr Thrift of the extensive GP records reveals that JB has had epilepsy since the age of two, and that his condition was severe, drug resistant and intractable for many years. During some months he would experience up to 180 tonic-clonic seizures. Due to his seizures JB has sustained multiple fractures and injuries throughout his life. He has been hospitalised many times. As a side effect of one of the many drug treatments, introduced in an attempt to reduce the high frequency of his seizures, JB developed tunnel vision and as a consequence was registered blind in January 2000.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">14.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB&#8217;s epilepsy is thought to have resulted in significant brain damage and &#8220;cognitive behavioural regression&#8221;. This has manifested itself in difficulties with learning and cognitive function. JB&#8217;s cognitive impairment has left him with marked problems with, for instance, organising visual material, learning new material, processing information well if he has to do it quickly, and adaptive functioning in respect of activities of daily living and social interactions. However, repeated analysis over the years has concluded that his global intellectual functioning is not at a level which would lead to an overall classification of a learning disability.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">15.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In 2011, JB was formally assessed as having an Autistic Spectrum Disorder (&#8220;ASD&#8221;), namely Asperger&#8217;s syndrome. This diagnosis has been confirmed in subsequent assessments. JB&#8217;s brain damage and/or his autism have caused significant impairments in social function.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">16.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB also has various physical disabilities. He has a hand tremor. His GP records refer repeatedly to difficulties with motor movement and hand-eye coordination from an early age. He suffers from obstructive sleep apnoea, which requires him to use a continuous positive airway pressure machine whilst sleeping.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">17.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In addition, JB experiences anxiety and short-term depressive episodes with references in the medical notes to self-harm.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(c)<marker name="tab"/>JB&#8217;s education</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">18.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The documentation records that JB went to a mainstream school before he was transferred to a special educational needs school &#8220;because of his deteriorating behaviour and aggressive outbursts together with his cognitive decline&#8221;. Subsequently he attended a college but his placement there ended when he displayed violent and inappropriate sexual behaviour towards others.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(d)<marker name="tab"/>JB&#8217;s interests</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">19.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB has a longstanding interest in computers and gaming. He likes to make things, such as jewellery and driftwood mirrors, and is reported by his support workers to be skilled at this. He also likes watching films and dancing.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(e)<marker name="tab"/>JB&#8217;s autistic spectrum disorder: Asperger&#8217;s syndrome</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">20.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">As I have indicated JB was diagnosed in 2011 with Asperger&#8217;s syndrome. The nature and degree of Asperger&#8217;s syndrome experienced by JB accounts for his inappropriate sexual behaviours, such as being obsessionally fixated on a particular woman, sending inappropriate sexual messages, inappropriate touching, and targeting the vulnerable. This syndrome as experienced by JB, on its own or in combination with his brain damage, also accounts for his behavioural difficulties from childhood including aggression both at home and at school. The records suggest that JB attempted to strangle a classmate at the age of ten following a dispute and that a similar episode occurred when he was aged 12/13.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">21.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Those on the autistic spectrum have varying degrees of deficits, such as in the ability to infer what other people are thinking or feeling. Dr Thrift&#8217;s assessment is that JB cannot tell how other people are thinking or feeling and that he is very aware of this. JB informed Dr Thrift that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="text-align:justify;margin-left:1.00in">&#8220;&#8216;I can&#8217;t tell what people are feeling. I can&#8217;t tell if they are flirting or cheerful&#8217;. &#8216;I can&#8217;t really tell signs from women&#8217;. &#8216;[Women are] hard to read and not obvious. People need to be more obvious&#8217;.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">He also stated that he could not tell if women are happy for him to touch them or whether people are angry or upset with him. Dr Thrift is of the opinion that JB&#8217;s autism has meant that he has significant difficulty in understanding and/or interpreting the intentions, perspectives, needs and communications of others and that he lacks understanding of the need to adjust his behaviour accordingly. Based on this evidence, and by virtue of his autism, JB has a marked deficit in using and weighing information as to whether a woman would be giving and maintaining her consent throughout the sexual relations which JB wishes to initiate.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">22.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Dr Thrift considers that ASD is a lifelong condition and that it is highly unlikely to change much in its presentation, especially given the rigidity of thought processes associated with the condition. She states that her clinical experience and knowledge of research suggests that some environmental modifications can aid people with ASD, and that it is possible to teach some more concrete aspects of social interaction (for instance that one should not hug strangers but shake their hand; or that one should not stare at parts of people&#8217;s bodies) but it is very difficult to teach and &#8220;learn&#8221; subtle nuances in social interaction and communication, especially those relating to sexual behaviour. It also requires the person to be motivated to learn these things. She considered that JB&#8217;s marked deficits in social understanding and communication relating to his ASD and his associated rigidity of thinking are lifelong conditions which are unlikely to change. However, she accepted that behavioural modification is in principle possible for people with ASD, provided the person accepts that they must modify their behaviour. Dr Thrift considered that JB has no insight into the need to change his behaviours.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(f)<marker name="tab"/>JB&#8217;s strong desire to engage in sexual relations leading to inappropriate sexual behaviour</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">23.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB recounted to Dr Thrift that his &#8220;number one priority&#8221; is &#8220;to get&#8221; a woman as a sexual partner. Dr Thrift was of the view that JB&#8217;s main motivation for having, in his words, a &#8220;girlfriend&#8221; is exclusively about getting a woman to have sex with him rather than developing any form of relationship. JB expressed very clearly to Dr Thrift that he does not value the companionship aspects of a sexual relationship. She was of the opinion that JB finds it hard to understand that a potential partner may want this. Furthermore, JB made repeated comments to Dr Thrift about &#8220;becoming less picky&#8221; or &#8220;fussy&#8221; and that he &#8220;would have anyone&#8221;. Dr Thrift described JB&#8217;s &#8220;sole goal&#8221;, if his account to her is correct, as being to have physical and sexual contact with a woman and any woman.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">24.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB can communicate his desire to have sexual relations verbally. He does so very frequently. <span style="font-family:Calibri, sans-serif">Dr Thrift reports that almost</span><span style="font-family:'Book Antiqua';font-size:12pt"/>every conversation returns to his search for a girlfriend and sexual partner. He also communicates his decision behaviourally by his repeated approaches towards women on a daily basis.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">25.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB&#8217;s strong desire has led to inappropriate past and ongoing sexual behaviour. For instance, he has consistently demonstrated disinhibited and, on occasions, sexually aggressive behaviour.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">26.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">There are repeated references throughout the records of how JB will become &#8220;fixated&#8221; on particular females and contact them via social media or text to make advances that are often very sexualised or inappropriate in nature.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">27.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">There are also reports of JB touching women inappropriately. A psychology report from 2011 notes that JB had been banned from the ballroom dancing club following a number of complaints from women who complained that he had touched them inappropriately.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">28.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">There are also repeated references to JB sexually targeting vulnerable women. JB has made repeated attempts to invite vulnerable women somewhere he perceived they would not be seen (such as a lavatory) with a view to initiating sexual contact. On one occasion, in 2016, JB&#8217;s behaviour, towards such a vulnerable woman, led to a police investigation. Although there was an allegation that he had assaulted a woman, the police decided not to prosecute.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">29.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB denied to Dr Thrift that he had displayed any inappropriate behaviour towards vulnerable women. However, Dr Thrift commented that this denial was not supported by the accounts of multiple support workers together with reports in the court bundle and in the GP records. These reports suggests that, when previously attending events for people with learning disabilities, JB would make a &#8220;beeline&#8221; for highly vulnerable women which suggested to Dr Thrift that he is able to discern those with such vulnerabilities and weighs them in relation to his ability to be successful in his aim of having sex. Dr Thrift was careful to qualify her assessment by stating that this may not be related to a callous disregard for others, but rather to a lack of understanding of the needs of others as distinct from his own needs. However, it is apparent that JB targets the vulnerable and has a marked deficit in weighing whether the other person is able to consent.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(g)<marker name="tab"/>Impairment of, or a disturbance in the functioning of, JB&#8217;s mind or brain</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">30.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I have referred in paras 14-15 above both to brain damage and to autism. Dr Thrift is of the opinion that in JB&#8217;s case the impairment of, or the disturbance in the function of, JB&#8217;s mind or brain is autism.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(h)<marker name="tab"/>JB&#8217;s understanding in relation to &#8220;consenting to&#8221; or &#8220;engaging in&#8221; sexual relations</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">31.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB understands that he can withhold or give his own consent. He has a full understanding of the mechanics of sexual relations and understands that the woman may become pregnant as a result of sex. He also understands sexually transmitted diseases and the use of different forms of contraception to avoid pregnancy and to protect against disease.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">32.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB wishes to <span style="font-style:italic">initiate</span> sexual relations, such that the focus in this case is on the legal relevance of his understanding that <span style="font-style:italic">the other person</span> must be able to consent and gives and maintains consent throughout.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">33.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Dr Thrift was of the opinion that JB&#8217;s understanding of concepts of consent by the other person was lacking. JB defined consent to her as &#8220;one party allowing the other party to have sex without the other party complaining&#8221; so that he need not do anything to assure himself that his partner is consenting, instead expecting her to show him &#8220;obvious&#8221; signs that she does not consent. Dr Thrift considered that JB could not be said to be weighing the importance of ensuring that his partner is consenting as a pertinent factor in his decision making.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">34.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">When asked by Dr Thrift about the other person withdrawing consent during a sexual act <span style="font-family:Calibri, sans-serif">JB said:</span></p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;That&#8217;s a tricky one &#8230; If the person gives consent then she&#8217;s already given consent and you have to go through with it to the end. Once you&#8217;re half way through she can&#8217;t say &#8216;I don&#8217;t give you consent&#8217; &#8216;cos you&#8217;re already doing what you need to do. She cannot change her mind if you are already doing it. Cos it&#8217;s her fault in the first place for saying yes. She can&#8217;t say yes and then say no. Already said yes and you&#8217;ve got your chance.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">Dr Thrift recounted how JB did not shift in this view across all her assessment sessions, and how JB was visibly shaken at the idea that a partner would be able to withdraw consent. JB, therefore, does not understand that the other person can withdraw consent during a sexual act and therefore he would not weigh this in his decision making.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">35.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB&#8217;s understanding of the concept of consent was also graphically illustrated by his response to the question asked by Dr Thrift:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;If a woman gets drunk at a party and has sex with a man there, is she fair game for anyone else?&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">JB response was:</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;I&#8217;d say she was fair game yes. Especially if she&#8217;s done it with one person. Yes if she drinks enough she&#8217;s bound to do it with the second one too.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">36.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The significance of this aspect of JB&#8217;s factual circumstances for the present appeal is that (anticipating the detailed discussion of the statutory scheme of the MCA at paras 47 to 79 below) if under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a) MCA &#8220;information relevant to the decision&#8221; to &#8220;engage in&#8221; or &#8220;consent to&#8221; sexual relations includes that the other person must be able to give and maintain consent throughout, then under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a) MCA JB should be able to understand that information, and under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(c) MCA he should be able to use or weigh it as part of the decision-making process. If he is unable to do so, then under section 2(1) MCA he would be unable to make a decision for himself in relation to that matter because of an autistic impairment of his mind.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(i)<marker name="tab"/>The risks posed by JB to others and to himself</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">37.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">From her interviews with JB, Dr Peters concluded that he represented a moderate risk of sexual offending to women. Dr Thrift considered that if he were to be unsupported in the community and/or to return to a club for people with learning disabilities there would be a high risk of him committing a sexual assault in pursuit of a sexual relationship.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">38.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">JB is also at risk himself of prosecution, retaliatory harm or of civil claims for compensation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">39.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In relation to risks to others Dr Thrift was of the opinion that these encompassed a risk of sexual assault by JB of vulnerable women (such as women with learning disabilities) and other women he has contact with in social situations (eg dance partners in a dance class). The risks were both to women who were familiar to him and unknown to him. The risks could range from non-consensual sexual touching to non-consensual sex. She considered that the severity of the assault was likely to increase with the vulnerability of the woman concerned, but that JB may also severely assault less vulnerable women whose intentions he has misunderstood.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">40.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The risks to JB include physical or psychological harm from others including relatives or friends of the potential victims, incarceration or hospitalisation, and loss of freedom and life choices for the future due to offending. Dr Thrift considered that, if he were incarcerated, there would be significant harm to his mental health given his ASD. There is also the risk of civil claims for compensation, though JB&#8217;s lack of financial resources may make such claims in practice improbable.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">41.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The significance of this aspect of JB&#8217;s factual circumstances to the present appeal is that if under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(4)</ref>(a) MCA the reasonably foreseeable consequences of JB deciding to engage in or to consent to sexual relations, when the other person is unable to consent or does not consent throughout the sexual activity, is that JB could harm himself and/or the other person, then that would be information relevant to the decision. If it is, then under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a) MCA, JB should be able to understand that information and under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(c) he should be able to use or weigh it as part of the decision-making process.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(j)<marker name="tab"/>A suggested programme of work to ameliorate JB&#8217;s risk to women</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">42.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Both Dr Thrift and Dr Peters have advised as to the content, and the likely outcome, of a programme of work to ameliorate the risk which JB poses to women.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">43.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In relation to content Dr Thrift advised, in general terms, that there should be ongoing or periodic involvement from the <span style="font-style:italic">Forensic Service for People with Intellectual and Neurodevelopmental Disorders</span> to support JB&#8217;s team of carers. More specifically she considered that the work with JB could involve, for instance, helping him to understand his ASD and the impact it has on his thinking, together with the associated need to develop strategies to address things which upset him, and from there his behaviour.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">44.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Dr Peters advised that treatment should be focused on risks of sexual offending coupled with his ASD, which &#8220;is most likely to be effectively provided as part of a bespoke treatment package rather than as part of a group&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">45.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Unfortunately, Dr Thrift was of the view that no change was possible without an increase in JB&#8217;s motivation. Dr Peters stated that JB&#8217;s &#8220;lack of insight into his risks and refusal to accept any wrongdoing or need to change indicates that he is not ready to undertake treatment at this stage&#8221;. She considered that JB&#8217;s lack of recognition that his behaviour was a problem is a &#8220;barrier to accessing any therapeutic input&#8221; and that she was unaware of any &#8220;stand-alone treatment method used to increase motivation&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">46.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">In accordance with the statutory condition in section 1(3) MCA to take all practicable steps to enable JB to make a decision for himself, (see para 50 below) the local authority has engaged a forensic and counselling psychologist to provide therapy and psycho-education to JB on issues relating to his attitudes towards women and his understanding of consent within the context of sexual relations. A treatment plan has been prepared and kept under review, pursuant to which the first stage is to assess JB&#8217;s engagement and motivation for treatment. Treatment has been carried out, albeit disrupted by the Covid-19 pandemic. <span style="font-family:Arial">JB has engaged in all sessions and was reported as progressing well with the initial stage, &#8220;having developed a positive working alliance and displaying increased motivation for treatment&#8221;. However, it was again emphasised that treatment is &#8220;reliant upon JB&#8217;s ability to accept therapeutic support&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <num>4.</num>
+	  <heading class="Paraheading6">The MCA</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">47.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The MCA defines the powers of the Court of Protection. In essence the Court of Protection has the power to decide whether a person lacks capacity to make decisions for themselves, and, if they do, to decide what actions to take in the person&#8217;s best interests. A person who lacks capacity, or who is alleged to lack capacity, is known as &#8220;P&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">48.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Section 1 of the MCA sets out five applicable principles which &#8220;apply for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref>.&#8221; The purposes of the MCA include determining whether a person lacks capacity in accordance with sections 2 and 3 of the MCA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">49.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The first principle, which is at section 1(2), is the presumption of competence so that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;A person must be assumed to have capacity unless it is established that he lacks capacity.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">This principle requires all dealings with persons who have an impairment of, or a disturbance in the functioning of, the mind or brain to be based on the premise that every individual is competent until the contrary is proved. The burden of proof lies on the party asserting that a person does not have capacity. The standard of proof is the balance of probabilities: see section 2(4). Competence is decision-specific so that capacity is judged in relation to the particular decision, transaction or activity involved. P may be capable of making some decisions, but not others. The presumption of competence operates alongside a clear system for determining incapacity, for which see sections 2-3 MCA.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">50.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The second principle, which is at section 1(3), is that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="text-align:justify;margin-left:1.00in">&#8220;A person is not to be treated as unable to make a decision unless all practicable steps to help him to do so have been taken without success.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">This principle establishes a statutory condition that all practicable steps are taken to enable a person to make a decision for himself or herself. If the person seeking to challenge capacity cannot show that the condition is satisfied, then the challenge will fail. This statutory condition facilitates freedom of choice and enables the maximisation of potential for those who are potentially incapacitous.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">51.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The third principle, which is at section 1(4), is that of autonomy. Section 1(4) provides that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;A person is not to be treated as unable to make a decision merely because he makes an unwise decision.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">Legal capacity depends on the application of sections 2 and 3 of the MCA together with the principles in section 1. It does not depend on the wisdom of the decision. Furthermore, an important purpose of the MCA is to promote autonomy. That purpose aids the interpretation of sections 2 and 3 of the MCA. If P has capacity to make a decision then he or she has the right to make an unwise decision and to suffer the consequences if and when things go wrong. In this way P can learn from mistakes and thus attain a greater degree of independence.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">52.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The fourth principle is at section 1(5):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="text-align:justify;margin-left:1.00in">&#8220;An act done, or decision made, under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> for or on behalf of a person who lacks capacity must be done, or made, in his best interests.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">Under this principle if P lacks capacity to make a decision, so that another person is allowed to make a decision on his behalf, those who act or make decisions on P&#8217;s behalf must do so in his best interests.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">53.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The fifth and final principle is at section 1(6):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="text-align:justify;margin-left:1.00in">&#8220;Before the act is done, or the decision is made, regard must be had to whether the purpose for which it is needed can be as effectively achieved in a way that is less restrictive of the person&#8217;s rights and freedom of action.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">This is self-explanatory.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">54.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Before proceeding further, it is necessary to set out in full sections 2-3 of the MCA which are the statutory provisions for determining incapacity. Those sections provide as follows:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;2.<marker name="tab"/><span style="font-weight:bold">People who lack capacity</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>For the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref>, a person lacks capacity in relation to a matter if at the material time he is unable to make a decision for himself in relation to the matter because of an impairment of, or a disturbance in the functioning of, the mind or brain.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>It does not matter whether the impairment or disturbance is permanent or temporary.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(3)<marker name="tab"/>A lack of capacity cannot be established merely by reference to -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>a person&#8217;s age or appearance, or</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>a condition of his, or an aspect of his behaviour, which might lead others to make unjustified assumptions about his capacity.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(4)<marker name="tab"/>In proceedings under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> or any other enactment, any question whether a person lacks capacity within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> must be decided on the balance of probabilities.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(5)<marker name="tab"/>No power which a person (&#8216;D&#8217;) may exercise under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>in relation to a person who lacks capacity, or</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>where D reasonably thinks that a person lacks capacity,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">is exercisable in relation to a person under 16.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(6)<marker name="tab"/>Subsection (5) is subject to section 18(3).</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">3.<marker name="tab"/><span style="font-weight:bold">Inability to make decisions</span></p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>For the purposes of section 2, a person is unable to make a decision for himself if he is unable -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>to understand the information relevant to the decision,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>to retain that information,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>to use or weigh that information as part of the process of making the decision, or</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(d)<marker name="tab"/>to communicate his decision (whether by talking, using sign language or any other means).</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>A person is not to be regarded as unable to understand the information relevant to a decision if he is able to understand an explanation of it given to him in a way that is appropriate to his circumstances (using simple language, visual aids or any other means).</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(3)<marker name="tab"/>The fact that a person is able to retain the information relevant to a decision for a short period only does not prevent him from being regarded as able to make the decision.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(4)<marker name="tab"/>The information relevant to a decision includes information about the reasonably foreseeable consequences of -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>deciding one way or another, or</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>failing to make the decision.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">55.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The final provision of the MCA which it is necessary to note is section 27, which so far as material provides, under the headings of &#8220;Excluded decisions&#8221; and &#8220;Family relationships etc&#8221;:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;(1)<marker name="tab"/>Nothing in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> permits a decision on any of the following matters to be made on behalf of a person -</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>&#8230;,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>consenting to have sexual relations,</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>&#8230;&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">56.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">It is appropriate at this stage to make some observations about sections 2 and 3 of the MCA. I begin with the general approach adopted in the MCA as to capacity.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">57.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">There are three main approaches to capacity, all of which were considered by the Law Commission prior to the MCA being passed in 2005: Law Commission Consultation Paper 119 (1991) &#8220;Mentally Incapacitated Adults and Decision-Making: An Overview&#8221;; Law Commission Consultation Paper 128 (1993) &#8220;Mentally Incapacitated Adults and Decision-Making: A New Jurisdiction&#8221;; and the Law Commission&#8217;s report on &#8220;Mental Incapacity&#8221; (1995) (Law Com No 231) (HC 189). See also <span style="font-style:italic">R v Cooper</span><span/><span style="font-style:italic">(Gary Anthony) </span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2009/42" uk:canonical="[2009] UKHL 42" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] UKHL 42</ref>; <ref href="#" uk:canonical="[2009] 1 WLR 1786" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 WLR 1786</ref>, paras 11-13.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">58.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The three main approaches which could be taken to capacity are (a) the &#8220;outcome&#8221; approach, (b) the &#8220;status'' (or &#8220;category&#8221;) approach, and (c) the &#8220;function&#8221; (or &#8220;understanding&#8221;) approach.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">59.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Under the &#8220;outcome&#8221; approach, capacity is determined by the content of the individual's decision. A decision which is inconsistent with the views and values of the assessor, or rejects conventional wisdom is by definition incompetently made.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">60.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The &#8220;status&#8221; (or &#8220;category&#8221;) approach judges an individual&#8217;s capacity according to his physical or mental status, such as age, place of residence or diagnosis, without any further inquiry into how membership of that category affects his competence as an individual. This may sometimes be a convenient method when a fairly arbitrary rule of thumb is required: for example, &#8220;no-one under the age of eighteen is competent to vote in elections&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">61.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The &#8220;function&#8221; (or &#8220;understanding&#8221;) approach focuses upon the personal ability of the individual concerned to make a particular decision and the subjective processes followed by him in arriving at the decision. In short, does he understand the general nature and likely consequences of what he is deciding, and can he communicate his decision? This is the broad approach adopted by the MCA, although understanding alone might not be enough to amount to capacity under the MCA. The MCA contemplates instances where a person can understand the nature and effects of the decision to be made, but the effects of his mental disability prevent him from using that information in the decision-making process: see <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(c) of the MCA and <span style="font-style:italic">R v Cooper</span> at para 24.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">62.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Having made these observations as to the general approach to capacity under the MCA, it is appropriate to make some specific observations as to sections 2 and 3 of the MCA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">63.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The test of capacity in sections 2 and 3 of the MCA together with the principles in section 1 applies to all decisions, whatever their character; see the judgment of McFarlane LJ in <span style="font-style:italic">York City Council v C</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/478" uk:canonical="[2013] EWCA Civ 478" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 478</ref>; <ref href="#" uk:canonical="[2014] Fam 10" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] Fam 10</ref>, para 36.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">64.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Capacity may fluctuate over time, so that a person may have capacity at one time but not at another. The &#8220;material time&#8221; within section 2(1) is decision-specific (see para 67 below). The question is whether P has capacity to make a specific decision at the time when it needs to be made. Ordinarily, as in this case, this will involve a general forward-looking assessment made at the date of the hearing. However, if there is evidence of fluctuating capacity then that will be an appropriate qualification to the assessment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">65.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The core determinative provision within the statutory scheme for the assessment of whether P lacks capacity is section 2(1). The remaining provisions of sections 2 and 3, including the specific elements within the decision-making process set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>, are statutory descriptions and explanations which support the core provision in section 2(1). Those additional provisions do not establish a series of additional, freestanding tests of capacity. Section 2(1) is the single test, albeit that it falls to be interpreted by applying the more detailed description given around it in sections 2 and 3: see the judgment of McFarlane LJ in <span style="font-style:italic">York City Council v C</span> at paras 56 and 58-60.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">66.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Section 2(1) requires the court to address two questions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">67.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The first question is whether P is unable to make a decision for himself in relation to the matter. As McFarlane LJ stated in <span style="font-style:italic">York City Council v C </span>at para 37, &#8220;the court is charged in section 2(1), in relation to &#8216;a matter&#8217;, with evaluating an individual&#8217;s capacity &#8216;to make a decision for himself in relation to the matter&#8217;.&#8221; The focus is on the capacity to make a specific decision so that the determination of capacity under Part 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref> is decision-specific as the Court of Appeal stated in this case at para 91. The only statutory test is in relation to the ability to decide. In the context of sexual relations, the other vocabulary that has developed around the MCA, of &#8220;person-specific&#8221;, &#8220;act-specific&#8221;, &#8220;situation-specific&#8221; and &#8220;issue-specific&#8221;, should not be permitted to detract from that statutory test, though it may helpfully be used to identify a particular feature of the matter in respect of which a decision is to be made in an individual case. For instance, &#8220;the matter&#8221; in this case cannot be described as being &#8220;person-specific&#8221; as there is no identified person with whom JB wishes to engage in sexual relations.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">68.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">As the assessment of capacity is decision-specific, the court is required to identify the correct formulation of &#8220;the matter&#8221; in respect of which it must evaluate whether P is unable to make a decision for himself: see <span style="font-style:italic">York City Council v C</span> at paras 19, 35 and 40.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">69.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The correct formulation of &#8220;the matter&#8221; then leads to a requirement to identify &#8220;the information relevant to the decision&#8221; under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a) which includes information about the reasonably foreseeable consequences of deciding one way or another or of failing to make the decision: see <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(4)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">70.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I consider, and the Court of Appeal in this case held at para 48, that the court must identify the information relevant to the decision &#8220;within the specific factual context of the case&#8221;: see also <span style="font-style:italic">York City Council v C</span> at para 39. In this way if the matter for decision relates to sexual relations, but does not relate to a particular partner, time or place, so that it is non-specific, as in this case, because JB wishes to &#8220;engage in&#8221; or &#8220;consent to&#8221; sexual relations with any woman, then the non-specificity of the matter will inform the information which is relevant to the decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">71.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Where the matter relates to sexual relations, it will ordinarily be formulated in a non-specific way because, in accordance with ordinary human experience, it will involve a forward-looking evaluation directed to the nature of the activity rather than to the identity of the sexual partner. Moreover, &#8220;[to] <span style="font-style:italic">require</span> the issue of capacity to be considered in respect of every person with whom P contemplated sexual relations would not only be impracticable but would also constitute a great intrusion into P&#8217;s private life&#8221; (emphasis added): see <span style="font-style:italic">A Local Authority v TZ</span><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2013/2322" uk:canonical="[2013] EWCOP 2322" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWHC 2322 (COP)</ref>, para 23. A general non-specific formulation of &#8220;the matter&#8221; is also informed by considerations of pragmatism, as recognised by Sir Brian Leveson P, giving the judgment of the Court of Appeal, in <span style="font-style:italic">In re M (An Adult) (Capacity: Consent to Sexual Relations)</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/37" uk:canonical="[2014] EWCA Civ 37" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 37</ref>; <ref href="#" uk:canonical="[2015] Fam 61" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] Fam 61</ref>, para 77. However, I respectfully disagree with the statement (in para 77) that &#8220;capacity to consent to future sexual relations can <span style="font-style:italic">only</span> be assessed on a general and non-specific basis&#8221; (emphasis added). Pragmatism does not <span style="font-style:italic">require</span> that consent to future sexual relations can only be assessed on a general and non-specific basis. Furthermore, such a restriction on the formulation of the matter is contrary to the open-textured nature of section 2(1) MCA. A general and non-specific basis is not the only appropriate formulation in respect of sexual relations as even in that context, &#8220;the matter&#8221; can be person-specific where it involves, for instance, sexual relations between a couple who have been in a long-standing relationship where one of them develops dementia or sustains a significant traumatic brain injury. It could also be person-specific in the case of sexual relations between two individuals who are mutually attracted to one another but who both have impairments of the functioning of their minds.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">72.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">If the formulation of &#8220;the matter&#8221; for decision can properly be described as person-specific, then the information relevant to the decision may be different, for instance depending on the characteristics of the other person, see <span style="font-style:italic">TZ</span> at para 55 (risk of pregnancy resulting from sexual intercourse is not relevant to a decision whether or not to engage in, or consent to, sexual relations with someone of the same sex) or the risks posed to P by an individual who has been convicted of serious sexual offences, see <span style="font-style:italic">York City Council v C</span> at para 39. Moreover, the practicable steps which must be taken to help P under section 1(3) MCA may be informed by whether &#8220;the matter&#8221; in relation to sexual relations may be described as person-specific. For instance, it might be possible to help P to understand the response of one potential sexual partner in circumstances where he will remain unable to understand the diverse responses of many hypothetical sexual partners. Furthermore, if the matter can be described as person-specific then the reasonably foreseeable consequences of deciding one way or another (see <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(4)</ref>(a) MCA and para 73 below) may be different. There may, for example, be no reasonably foreseeable consequence of a sexually transmitted disease in a long-standing monogamous relationship where one partner has developed dementia. Finally, the potential for &#8220;serious grave consequences&#8221; may also differ (see para 74 below).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">73.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The information relevant to the decision includes information about the <span style="font-family:'Times New Roman';font-size:13.5pt">&#8220;</span>reasonably foreseeable consequences<span style="font-family:'Times New Roman';font-size:13.5pt">&#8221;</span> of a decision, or of failing to make a decision: <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(4)</ref>. These consequences are not limited to the &#8220;reasonably foreseeable consequences&#8221; for P, but can extend to consequences for others. This again illustrates that the information relevant to the decision must be identified within the factual context of each case. In this case there are reasonably foreseeable consequences for JB of a decision to engage in sexual relations, such as imprisonment for sexual assault or rape if the other person does not consent. There are also reasonably foreseeable harmful consequences to persons whom JB might sexually assault or rape.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">74.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The importance of P&#8217;s ability under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a) MCA to understand information relevant to a decision is also specifically affected by whether there could be &#8220;serious grave consequences&#8221; flowing from the decision. Paragraph 4.19 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">Mental Capacity Act 2005</ref> Code of Practice provides:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;If a decision could have serious or grave consequences, it is even more important that a person understands the information relevant to that decision.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">This again illustrates the importance of &#8220;the specific factual context of the case.&#8221; In this case, for instance, there would be &#8220;serious or grave consequences&#8221; for JB&#8217;s mental health if he was incarcerated, see para 40 above<span style="font-family:Calibri, sans-serif">. Other potential &#8220;serious or grave consequences&#8221; for JB would include anxiety, depression, self-harm and retaliatory harm requiring hospitalisation, see paras 10, 17, 38 and 40 above. There could also be &#8220;serious or grave consequences&#8221; for others if they were the victims of sexual assaults or of rapes perpetrated by JB.</span> These &#8220;serious or grave consequences&#8221; make it &#8220;even more important [in this case] that [JB] understands the information relevant to&#8221; the decision to engage in or consent to sexual relations.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">75.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">On the other hand, there should be a practical limit on what needs to be envisaged as the &#8220;reasonably foreseeable consequences&#8221; of a decision, or of failing to make a decision, within <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(4)</ref> of the MCA so that &#8220;the notional decision-making process attributed to the protected person with regard to consent to sexual relations should not become divorced from the actual decision-making process carried out in that regard on a daily basis by persons of full capacity&#8221;: see <span style="font-style:italic">In re M (An Adult) (Capacity: Consent to Sexual Relations) </span>at para 80. To require a potentially incapacitous person to be capable of envisaging more consequences than persons of full capacity would derogate from personal autonomy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">76.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Once the information relevant to the decision has been identified then P is unable to make a decision for himself in relation to the matter (section 2(1)) if, for instance, he is unable to understand the information (<ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a)) or to use or weigh that information as part of the process of making the decision (<ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(c)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">77.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">P&#8217;s ability under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(c) MCA to use or weigh information relevant to the decision as part of the decision-making process &#8220;should not involve a refined analysis of the sort which does not typically inform the decision &#8230; made by a person of full capacity&#8221;: <span style="font-style:italic">In re M (An Adult) (Capacity: Consent to Sexual Relations)</span><span/><span style="font-family:Calibri, sans-serif">at </span><span style="font-family:Calibri, sans-serif;color:#000000">para</span><span style="font-family:Calibri, sans-serif"> 81. </span><span style="font-family:Calibri, sans-serif;color:#000000">It would also derogate from personal autonomy to require a potentially incapacitous person to undertake a more refined analysis than persons of full capacity.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">78.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">If the court concludes that P is unable to make a decision for himself in relation to the matter, then the second question that the court is required to address under section 2(1) is whether that inability is &#8220;because of&#8221; an impairment of, or a disturbance in the functioning of, the mind or brain. The second question looks to whether there is a clear causative nexus between P&#8217;s inability to make a decision for himself in relation to the matter and an impairment of, or a disturbance in the functioning of, P&#8217;s mind or brain.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">79.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The two questions under section 2(1) are to be approached in that sequence.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <num>5.</num>
+	  <heading class="Paraheading6">The judgments of the Court of Protection and of the Court of Appeal</heading>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(a)<marker name="tab"/>The judgment of Roberts J</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">80.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I have set out (at para 3 above) the judge&#8217;s conclusion that the information relevant to the decision to consent to sexual relations did not include the fact that the other person was able to, and did in fact, consent. On that basis the judge held that JB&#8217;s inability to understand, retain and use and weigh that information did not lead to the conclusion that he was unable to make a decision for himself to consent to sexual relations. I acknowledge, as did the Court of Appeal, the judge&#8217;s wholly commendable and strong commitment to the principle of autonomy, and to the right of disabled people to enjoy life&#8217;s experiences to the full (para 105), the somewhat confusing development of the case law in this field (para 24) and the misleading dicta in previous reported cases (para 106).</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(b)<marker name="tab"/>The judgment of the Court of Appeal</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">81.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I have set out (at para 4 above) the decision of the Court of Appeal in relation to the central issue. It is appropriate to set out in summary further aspects of the reasoning in Baker LJ&#8217;s comprehensive judgment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">82.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">At para 91 the Court of Appeal endorsed McFarlane LJ&#8217;s observations in <span style="font-style:italic">York City Council v C</span>, stating that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;the determination of capacity under Part 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">MCA 2005</ref> is decision specific. The focus of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 2</ref> and 3 of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the Act</ref> is on the capacity to make decisions. The &#8216;information relevant to the decision&#8217; depends first and foremost on the decision in question.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">83.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal, after an extensive analysis of the case law, held, at para 99, that there was no binding authority which determined whether the correct formulation of &#8220;the matter&#8221; in a case of this kind was &#8220;engaging in&#8221; rather than &#8220;consenting to&#8221; sexual relations. Given that lack of authority, the Court of Appeal considered that the correct formulation of &#8220;the matter&#8221; related to JB engaging in sexual relations. The Court of Appeal recognised, at para 99, that in recasting the decision as the decision to <span style="font-style:italic">engage in</span> sexual relations that it &#8220;was moving on from the previous case law&#8221; which <span style="font-family:Calibri, sans-serif">had focused on the capacity to </span><span style="font-style:italic;font-family:Calibri, sans-serif">consent to</span><span style="font-family:Calibri, sans-serif"> sexual relations. Having recast the decision in those terms, the Court of Appeal held that the &#8220;information relevant to the decision&#8221; inevitably includes the fact that any person with whom JB engages in sexual activity must be able to consent to such activity and does in fact consent to it.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">84.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The Court of Appeal considered that this was not the only information relevant to the decision whether to engage in sexual relations. In paras 24 to 75 Baker LJ carried out a wide-ranging analysis of the development of the case law in this field, culminating in a summary of the information relevant to the decision to engage in sexual relations at para 100. He stated that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the information relevant to the decision [to engage in sexual relations] <span style="font-style:italic">may </span>include the following:</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(1)<marker name="tab"/>the sexual nature and character of the act of sexual intercourse, including the mechanics of the act;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>the fact that the other person must have the capacity to consent to the sexual activity and must in fact consent before and throughout the sexual activity;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(3)<marker name="tab"/>the fact that P can say yes or no to having sexual relations and is able to decide whether to give or withhold consent;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(4)<marker name="tab"/>that a reasonably foreseeable consequence of sexual intercourse between a man and woman is that the woman will become pregnant;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">(5)<marker name="tab"/>that there are health risks involved, particularly the acquisition of sexually transmitted and transmissible infections, and that the risk of sexually transmitted infection can be reduced by the taking of precautions such as the use of a condom.&#8221; (Emphasis added)</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">I have added emphasis to the word &#8220;may&#8221; as Baker LJ next considered at paras 101 to 103 whether the information relevant to the decision to engage in sexual relations <span style="font-style:italic">must</span> always include all of the matters identified in para 100 so as to prevent the tailoring of relevant information to accommodate individual characteristics. He had referred (at paras 41-42) to his first instance decision in <span style="font-style:italic">A Local Authority v TZ</span> where he had accepted that information relevant to the decision could be tailored to the characteristics of the person whose capacity was in question, in that the risks of pregnancy resulting from sexual intercourse would not be relevant to a decision whether or not to engage in, or consent to, sexual relations with someone of the same sex. However, he stated at para 103 that it was not necessary to decide in JB&#8217;s case whether the information could be tailored, and that it would be prudent to refrain from commenting until there was an opportunity to hear full argument on the point in a case where the issue arises on the appeal.</p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <num>6.</num>
+	  <heading class="Paraheading6">The grounds of appeal to this court</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">85.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Having set out the background to this appeal, I can now set out the grounds of appeal and the principal arguments, together with my answers to them.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(a)<marker name="tab"/>The formulation of &#8220;the matter&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> of the MCA</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">86.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellant contends that the Court of Appeal was incorrect to recast &#8220;the matter&#8221; as JB &#8220;engaging in&#8221; rather than &#8220;consenting to&#8221; sexual relations. Mr McKendrick raised a number of arguments in support of this ground of appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">87.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">First, Mr McKendrick relied on the wording of the excluded decision contained in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(1)</ref>(b) MCA. He submitted that as <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(1)</ref>(b) MCA prohibits a decision in relation to &#8220;consenting to have sexual relations&#8221; to be made on behalf of P, the MCA itself formulates the matter for decision in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> as being &#8220;consenting to have sexual relations&#8221; rather than &#8220;engaging in sexual relations.&#8221; In that respect he relied on <span style="font-style:italic">York City Council v C</span> at para 37 letter B, where the Court of Appeal stated that &#8220;no need [had] been identified for grouping categories of &#8216;matter&#8217; or &#8216;decision&#8217; into domains, save where to do so has been established by common law or by the express terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref> (for example, capacity to marry).&#8221; Mr McKendrick submitted, and I agree, that the reference to &#8220;the express terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9" uk:canonical="2005 c. 9" uk:origin="TNA" uk:type="legislation">the 2005 Act</ref>&#8221; was a reference to <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> MCA, which section, in respect of the issue on this appeal, identified the matter as &#8220;consenting to have sexual relations&#8221;. On this basis, he suggested that this passage supported his submission that <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(1)</ref>(b) MCA formulated the matter for decision in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> as capacity to <span style="font-style:italic">consent to</span> sexual relations, such that there was no scope to reformulate the matter as capacity to <span style="font-style:italic">engage in</span> sexual relations.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">88.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I do not agree that <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> governs or controls <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> in this way. The function of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> is to identify certain decisions which are so personal to the individual concerned that no-one may take them on his behalf if he is unable to take them for himself. <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 27</ref> does not speak to, nor does it define, the matter about which P potentially lacks capacity to make a decision for himself under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> of the MCA.<span style="font-family:'Times New Roman'"/><ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 27</ref> only makes clear that &#8220;where a court finds that a person lacks capacity to consent to sexual relations, then the court does not have any jurisdiction to give consent on that person's behalf to any specific sexual encounter&#8221;: per Sir Brian Leveson P in <span style="font-style:italic">In re M (An Adult) (Capacity: Consent to Sexual Relations)</span> at para 78. Co-incidentally, in a particular case, a matter in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> may also be a matter within <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref>, but as the Court of Appeal held at para 92, &#8220;the list in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> does not purport to be a comprehensive list of the decisions in respect of which issues as to capacity will arise.&#8221; Accordingly, I reject the submission that <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(1)</ref>(b) prescriptively formulates the only matter for decision in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> MCA. Furthermore, I consider that the categories or domains in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(1)</ref> MCA are only relevant to the operation of that section. I respectfully disagree that <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> MCA groups categories of &#8220;matter&#8221; or &#8220;decision&#8221; into domains for any other purpose. Rather, I consider that the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> MCA <span style="font-family:Calibri, sans-serif">is open and flexible, so as to accommodate any matter in relation to which an issue arises as to whether P is unable to make a decision for himself.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">89.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Second, Mr McKendrick sought to describe JB&#8217;s wish to initiate sexual relations as a desire rather than being a decision within <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> MCA. On this basis he argued that the Court of Appeal was incorrect to formulate what was at issue here as JB&#8217;s wish to initiate sexual relations with women, but rather that &#8220;the matter&#8221; within <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> should be formulated as JB consenting to sexual relations, which, it was suggested, would involve a decision as to whether JB consented or not. I agree that a wish to initiate sexual relations can be described as a desire to do so, but clearly a desire gives rise to a decision as to whether to fulfil that desire. I reject this argument.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">90.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I agree with the Court of Appeal that formulating &#8220;the matter&#8221; as engaging in, rather than consenting to, sexual relations better captures the nature of the issues in a case such as this, where JB wishes to initiate relations with others, rather than consent to relations proposed by someone else. I also consider that this formulation is not inconsistent with the decision of Munby J at para 65 of <span style="font-style:italic">X City Council v MB</span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2006/168" uk:canonical="[2006] EWHC 168 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWHC 168 (Fam)</ref>; <ref href="#" uk:canonical="[2006] 2 FLR 968" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 2 FLR 968</ref> in which he referred to both the &#8220;capacity to consent to sexual relations&#8221; and &#8220;the ability to choose whether or not to engage in sexual activity&#8221;. Nor is it inconsistent with the decision of Munby J in <span style="font-style:italic">In re: M M; Local Authority X v MM</span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/fam/2007/2003" uk:canonical="[2007] EWHC 2003 (Fam)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 2003 (Fam)</ref>; <ref href="#" uk:canonical="[2009] 1 FLR 443" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 FLR 443</ref>, in which, at para 87, he referred to the capacity to choose whether or not to engage in sexual intercourse. The ability to choose whether or not to engage in sexual activity or intercourse is close to the Court of Appeal&#8217;s formulation of &#8220;engaging in&#8221; sexual relations. It may be helpful to observe that the terminology of a capacity to decide to &#8220;engage in&#8221; sexual relations embraces both (i) P&#8217;s capacity to consent to sexual relations initiated by the other party and (ii) P&#8217;s capacity to understand that, in relation to sexual relations initiated by P, the other party must be able to consent to sexual relations and must in fact be consenting, and consenting throughout, to the sexual relations.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">91.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I also agree with the Court of Appeal at para 93, with my addition in brackets, that the formulation of engaging in sexual relations &#8220;is how the question of capacity with regard to sexual relations (under the MCA) should normally be assessed in most cases&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(b)<marker name="tab"/>The identification, under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a) MCA, of the information relevant to the decision</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">92.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr McKendrick argued that even if &#8220;the matter&#8221; for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2</ref> MCA was whether to engage in sexual relations then information relevant to JB&#8217;s decision did not include the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity. Mr McKendrick argued that this inappropriately extended the requisite information in order to protect the other person or members of the public. He submitted that this was not the purpose of the MCA, which was confined to the protection of P, and did not extend to the protection of members of the public. Moreover, he contended that the protection of the public was the purpose of the criminal law and that such protection could also be obtained by making a sexual risk order under <ref href="http://www.legislation.gov.uk/id/ukpga/2003/42/section/122" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 122</ref>A of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/42" uk:canonical="2003 c. 42" uk:origin="TNA" uk:type="legislation">Sexual Offences Act 2003</ref>. I disagree. The information relevant to the decision includes information about the &#8220;reasonably foreseeable consequences&#8221; of a decision, or of failing to make a decision, which consequences are not limited to the consequences for P: see para 73 above. The consequences for other persons or for members of the public are therefore a part of the information relevant to the decision. Furthermore, I agree with the Court of Appeal, at para 6, that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;as a public authority, the Court of Protection has an obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 6</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> not to act in a way which is incompatible with a right under the European Convention of Human Rights, as set out in Schedule 1 to <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">the Act</ref>. Within the court, that obligation usually arises when considering the human rights of P, but it also extends to the rights of others.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">In this way the court as a public authority, in determining what information is relevant to the decision, must include reasonably foreseeable adverse consequences for P and for members of the public. In practice, by doing so, the court under the MCA protects members of the public. As the Court of Appeal observed, at para 98:</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;Although the Court of Protection&#8217;s principal responsibility is towards P, it is part of the wider system of justice which exists to protect society as a whole.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif;color:#000000">Finally, </span><span style="font-family:Calibri, sans-serif">the protection of the public provided by the criminal justice system or by a sexual risk order cannot detract from the protection which is provided in practical terms by including in the information relevant to the decision the reasonably foreseeable adverse consequences for P and for members of the public. For all these reasons I reject the submission that the purpose of the MCA is solely confined to the protection of P.</span></p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">93.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">It is correct that the adverse consequences for others were not specifically listed by the Court of Appeal as part of the information relevant to the decision to engage in sexual relations (see para 84 above). However, it was not necessary to do so as these adverse consequences would not arise given that the relevant information includes the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">94.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr McKendrick also argued that to include as part of the information relevant to the decision the fact that the other person must have the capacity to consent to the sexual activity and must in fact consent before and throughout the sexual activity recasts the test for capacity as &#8220;person-specific&#8221;. <span style="font-family:Calibri, sans-serif">Mr McKendrick submitted that there was a consistent line of authority that the decision in relation to sexual relations was </span><span style="font-family:Calibri, sans-serif;color:#000000">and remains act-specific so that the capacity to consent to future sexual relations can only be assessed on a general and non-specific basis rather than taking into account P&#8217;s understanding that the other person must be able to consent and gives and maintains consent throughout. Mr McKendrick contends that to take such an understanding into account is impermissibly person-specific. </span>I reject this contention. First, the statutory test is decision-specific: see para 67 above. Second, the issues in this case (but, as I have stressed at paras 71-72 above, the position can be different in other cases) do not relate to sexual relations with any particular person. What is required is a generalised forward-looking evaluation in relation to JB&#8217;s capacity to have sexual relations with any woman. The inclusion of the consent of the other in the relevant information for the purposes of that evaluation does not introduce the specific characteristics of any individual person into the evaluation, but instead reflects the consensual nature of all sexual activity. It is not, therefore, &#8220;person-specific.&#8221; I accordingly agree with the Court of Appeal at para 95 that &#8220;The inclusion of an understanding of the other person's consent as part of the relevant information does not, &#8230; recast the test as &#8216;person-specific&#8217;.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">95.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr McKendrick also argued that if the information relevant to the decision to engage in sexual relations includes the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity, then the concepts involved are too extensive and nebulous for JB or for others with mental impairments to understand. Accordingly, he argued, JB and others were being set up to fail. The appellant was supported in this submission by Respond&#8217;s submission that the Court of Appeal had promulgated &#8220;an elevated abstract test&#8221; which was likely to give rise to problems in real life situations. Respond submitted that a less abstract, more situation-specific test, and one that is less complex and does not require an assessment of the capacity of a proposed partner to consent, is more likely to preserve P&#8217;s right to a sexual life. Mr McKendrick relied in this respect on the legal complexities surrounding the criminal law concept of consent. He referred the court to Crown Court Compendium 2020, Part 1 at p 480 which lists eight ways in which the absence of consent may be proved and suggested that this would present an insurmountable hurdle for the potentially incapacitous. However, that is not the sort of refined analysis which typically informs the decision to engage in sexual relations made by a person of full capacity (see para 77 above)<span style="font-family:Calibri, sans-serif">. </span><span style="font-family:Calibri, sans-serif;color:#000000">A potentially incapacitous person is simply required to understand that the other person must be able to consent and does in fact consent throughout. For my part the only alteration that needs to be made to the summary of the information relevant to the decision to engage in sexual relations, set out by the Court of Appeal (see para 84 above) is to change the words &#8220;must have capacity to&#8221; in (2) to &#8220;must be able to&#8221;. Subject to that change, I consider that the concepts are not too nebulous or refined, nor do they amount to an elevated abstract test, nor do they require a detailed understanding of the Crown Court Compendium.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">96.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr McKendrick also submitted that sexual activity, and decisions about engaging in sexual relations for a person of full capacity, are largely visceral rather than cerebral, owing more to instinct and emotion than to analysis. On this basis he argued that to include as part of the information relevant to the decision the fact that the other person must have the capacity to consent to the sexual activity and must in fact consent before and throughout the sexual activity imposes a discriminatory cerebral analysis on the potentially incapacitous. I reject that submission. As the Court of Appeal observed, at para 96, &#8220;amongst the matters which <span style="font-style:italic">every person</span> engaging in sexual relations must think about is whether the other person is consenting&#8221; (emphasis added). If that is properly viewed as cerebral or as involving a degree of analysis, a decision to engage in sexual relations is necessarily cerebral or analytical to that extent.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(c)<marker name="tab"/>Whether the Court of Appeal&#8217;s test for P&#8217;s capacity to engage in sexual relations creates an impermissible difference with the criminal law</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">97.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr McKendrick submitted that to include as part of the relevant information under the MCA the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity creates an impermissible difference between the civil and criminal law. He argued that there is no scope in the criminal law for such a requirement, because the capacity to consent to sexual relations for the purposes of the criminal law is concerned only with the understanding of the complainant about matters which are directly relevant to their autonomy. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">98.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The decision of the Court of Appeal in this case and the outcome of this appeal will result in a clarification of the test, under the MCA, for P&#8217;s capacity to make a decision for himself in relation to the matter of his engaging in sexual relations. The clarification involves (a) formulating the matter for decision as engaging in sexual relations and (b) identifying that the information relevant to that decision includes the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity. The question arises under this ground of appeal as to whether either of those matters creates an &#8220;impermissible&#8221; difference between the civil and criminal law. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">99.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="color:#000000">I note at the outset, as</span> Munby J recognised in <span style="font-style:italic">In re MM </span>at para 88:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; that there is no necessary requirement that the civil (family) law and criminal law should adopt the same test for capacity to consent to sexual relations, &#8230;&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">Indeed, there are already existing differences in relation to the <span style="font-style:italic">application</span> of the test for capacity which may lead to different conclusions in civil and criminal trials. Two such differences are as follows.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">100.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="font-family:Calibri, sans-serif">First, in relation to the application of the test there are different standards of proof. </span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">The criminal standard of proof applies in relation to the constituent elements of offences under the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/42" uk:canonical="2003 c. 42" uk:origin="TNA" uk:type="legislation">Sexual Offences Act 2003</ref> (the &#8220;SOA&#8221;), including the determination of capacity, and the civil standard applies under the MCA. However, in respect of criminal proceedings for ill-treatment or neglect pursuant to </span><span class="legds" style="font-family:Calibri, sans-serif">section 44 </span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">MCA the civil standard of proof applies to the question whether P lacks capacity: see </span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">R v A (G)</span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"/><span style="font-family:Calibri, sans-serif;color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2014/299" uk:canonical="[2014] EWCA Crim 299" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Crim 299</ref>; <ref href="#" uk:canonical="[2014] 1 WLR 2469" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 2469</ref>,</span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"> paras 20-27.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">101.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Second<span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">, as Sir Brian Leveson P emphasised in </span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">In re M (An Adult) (Capacity: Consent to Sexual Relations)</span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"> at para 76-77, the </span><span class="legds" style="font-family:Calibri, sans-serif">focus of the criminal law, in the context of sexual offences, is retrospective. It focuses upon a specific past event. Any issue relating to consent is evaluated in retrospect with respect to that singular event. So, the material time in a criminal case is the time of the alleged offence and the question becomes, for instance, &#8220;Did P have capacity to consent at that time?&#8221; But a court assessing capacity to engage in sexual relations under the MCA ordinarily needs to make a general, prospective evaluation which is not tied down to a particular time, (see para 64 above).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">102.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">However, I acknowledge that the courts have emphasised the desirability that the civil and criminal jurisdictions should adopt the same test for capacity to consent to sexual relations. I note in that respect the views of Hedley J in </span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">A Local Authority v H</span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"><ref href="https://caselaw.nationalarchives.gov.uk/ewcop/2012/49" uk:canonical="[2012] EWCOP 49" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 49 (COP)</ref>; [2012] 1 FCR 590, paras 21-22 and 26 (quoted by Sir Brian Leveson P in </span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">In re M (An Adult) </span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">at paras 46 &#8211; 47) who saw it as &#8220;</span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">highly desirable</span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"> that there should be no </span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">unnecessary</span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"> inconsistency between&#8221; the criminal and civil law (emphasis added). The &#8220;obvious desirability&#8221; that civil and criminal jurisdictions should adopt the same test for capacity to consent to sexual relations was also recognised by Macur LJ giving the judgment of the Court of Appeal in </span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">R v A (G)</span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"> at paras 18 and 19. But this observation was obiter, see para 20 of her judgment.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">103.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">I agree that all else being equal, it is in principle desirable, though not necessary, that there should be the same test for capacity in both the civil and criminal law. I also agree that even if the same test for capacity applies in the civil and criminal law, a jury will not need to be directed in strict accordance with the language used by, and steps to be adopted in accordance with, proceedings brought pursuant to the MCA: see </span><span class="legds" style="font-style:italic;font-family:Calibri, sans-serif;color:#3D3D3D">R v A (G) </span><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D"><ref href="#" uk:canonical="[2014] 1 WLR 2469" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 2469</ref>, para 19 as more accurately recorded at <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2014/299" uk:canonical="[2014] EWCA Crim 299" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Crim 299</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">104.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I also recognise that there are sound policy reasons why the civil and criminal law test for capacity should be the same. Munby J set out the reasons of policy in <span style="font-style:italic">In re MM </span>(at para 89):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;In this context both the criminal law and the civil law serve the same important function: to protect the vulnerable from abuse and exploitation &#8230; Viewed from this perspective, X either has capacity to consent to sexual intercourse or she does not. It cannot depend upon the forensic context in which the question arises, for otherwise, it might be thought, the law would be brought into disrepute.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">105.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">I agree, finally, that the civil law test for consent cannot impose a less demanding test of capacity than the criminal law test.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">106.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">However, I consider <span class="legds" style="font-family:Calibri, sans-serif;color:#3D3D3D">that it remains possible for the civil law to impose a different and more demanding test of capacity. </span><span class="legds" style="font-family:Calibri, sans-serif;color:#000000">In that respect, </span>there are countervailing and overriding policy reasons supporting the clarification of the test for capacity under the MCA: namely, the protection of others and the protection of P, see para 92 above. Those policy reasons would amply justify any differences that might arise between the civil and criminal law tests for capacity. As the Court of Appeal stated in this case (at para 97) the fundamental responsibilities of the Court of Protection include the duty to protect P from harm. <span class="legds" style="font-family:Calibri, sans-serif;color:#000000">The protection given by the requirement that P should understand that P should only have sex with someone who is able to consent and gives and maintains consent throughout &#8220;protects both participants from serious harm&#8221; (see the Court of Appeal in this case at para 106). </span>I agree. On that ground alone I would dismiss the argument that any differences between the civil and criminal law test for capacity which have been or may have been created by the clarification of the test under the MCA, are &#8220;impermissible&#8221;. Accordingly, this argument falls at the first hurdle.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">107.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span class="legds" style="font-family:Calibri, sans-serif;color:#000000">In addition, while I agree with Munby J that, in general terms, both the criminal law and the civil law serve the same function in this context of protecting the vulnerable from abuse and exploitation, that should not conceal the different purposes of the civil and criminal law and the different ways in which they carry out their functions. The primary purpose of the criminal law is the prosecution of behaviour that is classified as criminal and the punishment of offenders by the state. In civil proceedings under the MCA the courts must balance the promotion of the autonomy of vulnerable persons with their protection from harm, all while, so far as required by general principles of law and the court&#8217;s obligations as a public authority under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>, having regard to the rights of others. Viewed in this way, the differences between criminal proceedings and civil proceedings under the MCA suggest that it may be permissible to adopt different tests of capacity in the civil and the criminal law.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">108.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span class="legds" style="font-family:Calibri, sans-serif">In any event, however, I also consider that whether the clarification of the test of capacity under the MCA by this decision results in any differences with the test for capacity in the criminal law is best left to be decided on the facts of individual criminal cases and may turn on the particular criminal offence in question. Not only are the potential differences more appropriately left to individual cases, but the restricted way in which this appeal was conducted did not allow all the similarities or differences between the civil and criminal law to be fully explored. So, the comments which I now make about whether there are any differences are obiter.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">109.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The SOA now governs the criminal approach to questions of capacity and consent in the context of sexual relations. Section 74 of the SOA under the rubric of &#8220;Consent&#8221;, in so far as relevant, defines consent in the following terms: &#8220;&#8230;, a person consents if he agrees by choice, and has the freedom and capacity to make that choice.&#8221; The definition of consent in section 74 refers to but does not define &#8220;capacity&#8221;. Munby J noted (obiter) in <span style="font-style:italic">X City Council v MB </span><ref href="#" uk:canonical="[2006] 2 FLR 968" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 2 FLR 968</ref> (at para 82) that the common law test of capacity was &#8220;seemingly preserved&#8221; by section 74.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">110.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2003/42" uk:canonical="2003 c. 42" uk:origin="TNA" uk:type="legislation">SOA 2003</ref> does define <span style="font-style:italic">capacity</span> in the context of the offences created in sections 30-33 in relation to persons with a mental disorder impeding choice. These sections deal respectively with sexual activity with a person with a mental disorder impeding choice (section 30); causing or inciting a person, with a mental disorder impeding choice, to engage in sexual activity (section 31); engaging in sexual activity in the presence of a person with a mental disorder impeding choice (section 32); and causing a person, with a mental disorder impeding choice, to watch a sexual act (section 33). In relation to each of these offences, if P is the complainant (i.e., the victim of the criminal offending), there is a materially identical provision to the effect that P is to be taken to be unable to refuse if &#8220;he lacks the capacity to choose whether to [do the material thing] (<span style="font-style:italic">whether because he lacks sufficient understanding of the nature or reasonably foreseeable consequences of what is being done, or for any other reason</span>)&#8221; (emphasis added). Macur LJ giving the judgment of the Court of Appeal in <span style="font-style:italic">R v A (G)</span> at paras 24 and 25 stated that the words to which I have added emphasis &#8220;reflect the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 2(1)</ref> and 3(1) of the [MCA]&#8221;. This led her to determine that &#8220;the difference in definition of capacity in the civil and criminal jurisprudence is a difference without distinction.&#8221; Although the wording in sections 30-33 SOA is different, I agree that the definition in those sections reflects the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 2(1)</ref> and 3(1) MCA. However, I respectfully do not agree that this is &#8220;a difference without distinction&#8221;. For instance, in the context of the MCA, information relevant to the decision to &#8220;engage in&#8221; sexual relations includes the fact that <span style="font-style:italic">the other person</span> must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity. P lacks capacity if P is unable to understand that information or if he is unable to use or weigh it as part of the decision-making process. However, to my mind that aspect of capacity is irrelevant in the context of sections 30-33 SOA provided P is the complainant rather than the alleged perpetrator (I deal in para 117 below with where P is the alleged perpetrator). In that criminal context P&#8217;s capacity to consent would not include a sufficient understanding by him of the fact that the alleged perpetrator (that is, the other person) must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">111.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span class="legds" style="font-family:Calibri, sans-serif">Accordingly, I agree that the clarification of the test for capacity under the MCA creates a difference with the criminal law in the context of the offences created by sections 30-33 SOA. That difference is not impermissible, however, because it is capable of being identified and accommodated in any criminal trial.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">112.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span class="legds" style="font-family:Calibri, sans-serif">Furthermore, and more broadly, in relation to the position of P as a complainant in respect of most other offences under the SOA (such as rape or sexual assault contrary to sections 1 or 3 SOA) the primary issue would relate to P&#8217;s capacity to &#8220;consent to&#8221; not to &#8220;engage in&#8221; sexual relations. These are two different concepts. The capacity to &#8220;engage in&#8221; sexual relations encompasses both P as the initiator of those relations and P as the person consenting to sexual relations initiated by another. The information relevant to a decision whether to initiate sexual relations includes the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity. That is not information relevant to an evaluation of whether P has the capacity to &#8220;consent to&#8221; sexual relations initiated by another person. As the Court of Appeal stated in this case (at para 93) &#8220;The word "consent" implies agreeing to sexual relations proposed by someone else.&#8221; The capacity to consent to sexual relations for the purposes of the criminal law is concerned with the understanding of the complainant (whom I have been referring to as P) about matters which are relevant to their autonomy, not those which are relevant to the autonomy of the alleged perpetrator. I do not consider that the criminal law requires that a complainant understands that their assailant must have the capacity to consent and in fact consents before the complainant can be considered to have capacity. I do not discern any difference in this regard between the civil and criminal law.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">113.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">If P is accused of a sexual offence, then section 1(1)(c) SOA (for example in respect of rape) requires the prosecution to prove that &#8220;A does not reasonably believe that B consents&#8221;. A is here the person who I have been referring to as P. Section 1(2) provides that &#8220;Whether a belief is reasonable is to be determined having regard to all the circumstances, including any steps A has taken to ascertain whether B consents.&#8221; The question arises as to whether the clarification of the law so as to include in the information under the MCA the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity creates an impermissible difference with these sections. Mr McKendrick argues that it does, on the basis that the Court of Appeal&#8217;s approach requires more of P than the criminal law requires in relation to sexual offences. That, he submits, is because under the criminal law an accused is not guilty if the accused reasonably believes that the complainant was consenting, whereas he suggests that a higher standard is applied to P if P is required to understand, retain, use or weigh information which includes the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">114.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I consider this to be a distinction without a difference. An accused may have a reasonable belief that the complainant was consenting, but the accused in that situation will understand that the complainant was able to and must consent throughout and the accused has to use or weigh that information as part of the process of forming a reasonable belief. If P is able to understand the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity, and if P is able to use or weigh that information as part of the process of making the decision as to whether to engage in sexual relations, then P is in the same position as an accused in the criminal context. I am therefore not persuaded that there are any unnecessary differences in this regard as between the civil or criminal law (which in any event need not be identical).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">115.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="color:#3D3D3D">The position of P as an accused arose in </span><span style="font-style:italic">R v B (MA) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2013/3" uk:canonical="[2013] EWCA Crim 3" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Crim 3</ref>; <ref href="#" uk:canonical="[2013] 1 Cr App R 36" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 Cr App R 36</ref>. On two occasions the accused had sexual intercourse with the complainant, allegedly without her consent. At his trial on two counts of rape there was expert medical evidence that the accused had a mental disorder, probably paranoid schizophrenia, at the time of the offences. The expert said that the acts of sexual intercourse might have been motivated by the defendant&#8217;s delusional beliefs that he had sexual healing powers, but that any such delusions had not affected his ability to understand whether the complainant was consenting. In directing the jury, the judge said that when determining whether the defendant had had a reasonable belief in the complainant&#8217;s consent for the purposes of section 1(1) SOA they should ignore the defendant&#8217;s mental illness. The conviction was upheld on appeal. The Court of Appeal held (at para 40) that unless and until the state of mind amounts to insanity in law, then under the rule enacted in the SOA, beliefs in consent arising from conditions such as delusional psychotic illness or personality disorders must be judged by objective standards of reasonableness. The case did not concern any potential differences between the civil and criminal law in relation to the test for capacity. However, the Court of Appeal discussed (at para 41) a potential future case in which an accused in JB&#8217;s position had demonstrated an inability to recognise subtle social signals. The Court of Appeal stated that whether such an inability could be relevant to the reasonableness of a belief in consent &#8220;must await a decision on specific facts&#8221;. My judgment in this case is not intended either to contradict or to build on what was stated by the Court of Appeal in <span style="font-style:italic">R v B (MA).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">116.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">P might also be accused of an offence under sections 30-33 SOA. For instance, section 31 creates the offence of &#8220;causing or inciting a person, with a mental disorder impeding choice, to engage in sexual activity&#8221;. I consider that the concept of engaging in sexual activity is a descriptor of the actus reus of that offence and is consistent with the clarification of the law in respect of the MCA which also uses the concept of engaging in sexual relations. I do not discern any difference in that respect between the civil and criminal law. <span style="color:#000000">Each of those sections addresses the mens rea of the offender as being that &#8220;</span><span style="color:#000000;background-color:#FFFFFF">A knows or could reasonably be expected to know that B has a mental disorder and that because of it or for a reason related to it B is likely to be unable to refuse.&#8221;</span><span style="color:#000000"> A is here the person I have been referring to as P. Each also provides that </span><span class="legds" style="font-family:Calibri, sans-serif;color:#000000">B is unable to refuse if</span><span style="color:#000000"/><span class="legds" style="font-family:Calibri, sans-serif;color:#000000">&#8220;he lacks the capacity to choose whether to [do the material thing] (whether because he lacks sufficient understanding of the nature or reasonably foreseeable consequences of what is being done, or for any other reason)&#8221;. P&#8217;s knowledge of the complainant being unable to refuse includes the reasonably foreseeable consequences of what is being done but it does not include a requirement that the complainant should have any understanding of the fact that the alleged perpetrator (that is, the other person) must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity. Again, I do not discern any difference in this regard between the civil and criminal law.</span></p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(d)<marker name="tab"/>Whether the Court of Appeal&#8217;s test for P&#8217;s capacity to engage in sexual relations is inconsistent with article 8 ECHR</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">117.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">It is not clear under this ground of appeal whether the appellant is advancing an argument that JB&#8217;s article 8 ECHR rights have been breached (and, if so, by whom) or an argument as to how the MCA should be construed compatibly with article 8. Neither argument was advanced at first instance or in the Court of Appeal, so the appellant requires permission to bring them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">118.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">I do not consider that there is any merit in the compatibility argument. Permission to raise it should be refused. As I have explained, information relevant to the decision under the MCA takes into account not only the interests of P but also the interests of others and of the public. Furthermore, section 1(3) MCA provides that a person is not to be treated as unable to make a decision unless all practicable steps to help him to do so have been taken without success which ensures that the interference with article 8, if it is engaged, is proportionate. I consider that the operation of the MCA is compatible with article 8.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">119.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The respondent, local authority, argues that permission should also be refused in relation to the argument that there has been a breach of article 8 on the facts of this case. The respondent points out that, as a result of the way in which the case was run, no factual findings were made which are capable of supporting an assertion of breach of JB&#8217;s article 8 rights. Nor does this court have a complete factual picture as to what is happening on the ground in relation to JB including, significantly, the steps which are being taken: (1) to support him to gain capacity to make decisions in relation to sexual relations (in circumstances where the Court of Appeal only made an <span style="font-style:italic">interim</span> declaration that there was reason to believe that he lacked capacity to decide whether to engage in sexual relations); and (2) the steps being taken to secure his ability to develop safe relationships with women, including the ongoing education being provided by a clinical psychologist. I consider that this objection has considerable force. But in any event, any interference would be in accordance with the MCA, and therefore in accordance with the law. Furthermore, a legitimate aim of any interference with JB&#8217;s article 8 rights, if that article is engaged, would be the protection of the health, both mental and physical, of both JB and of others. Other legitimate aims would be the protection of the rights and freedom of others as well as the prevention of disorder or crime. There have been no factual findings in relation to the proportionality of any interference in pursuit of those legitimate aims. For all these reasons I would refuse permission to raise this argument.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaSubHeading3" style="margin-left:0.50in">(e)<marker name="tab"/>Whether the Court of Appeal&#8217;s test for P&#8217;s capacity to engage in sexual relations is inconsistent with article 12(2) of the United Nations Convention on the Rights of Persons with Disabilities</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">120.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 12(2) of the United Nations Convention on the Rights of Persons with Disabilities provides that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;State Parties shall recognize that persons with disabilities enjoy legal capacity on an equal basis with others in all aspects of life.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber"><span style="font-family:Calibri, sans-serif">The appellant contends that (a) the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity creates &#8220;a separate standard or test of capacity for people with disabilities&#8221; and (b) this treaty obligation should &#8220;preclude the use of a separate standard or test of capacity for people with disabilities, for assessing consent to sexual relations.&#8221; I reject the contention at (a). There is no separate standard or test for persons with disabilities. The fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity applies to everyone in society. This ground of appeal therefore fails at the first hurdle, but in any event the contention that this court should examine whether the United Kingdom has violated provisions of an unincorporated international treaty (which is the effect of the appellant&#8217;s contention at (b)) has recently been considered, and rejected, by this court in </span><span style="font-style:italic;font-family:Calibri, sans-serif">R (SC) v Secretary of State for Work and Pensions </span><span style="font-family:Calibri, sans-serif"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/26" uk:canonical="[2021] UKSC 26" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 26</ref>; <ref href="#" uk:canonical="[2021] 3 WLR 428" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 3 WLR 428</ref>, paras 77-96.</span></p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <num>7.</num>
+	  <heading class="Paraheading6">Disposal of the appeal</heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">121.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">The evaluation of JB&#8217;s capacity to make a decision for himself is in relation to &#8220;the matter&#8221; of his &#8220;engaging in&#8221; sexual relations. Information relevant to that decision includes the fact that the other person must have the ability to consent to the sexual activity and must in fact consent before and throughout the sexual activity. Under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(a) MCA JB should be able to understand that information and under <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(1)</ref>(c) MCA JB he should be able to use or to weigh it as part of the decision-making process. Applying the test in <ref href="http://www.legislation.gov.uk/id/ukpga/2005/9/section/2/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 2(1)</ref> MCA on the available information, JB is unable to make a decision for himself in relation to that matter because of an autistic impairment of his mind. However, I agree with the Court of Appeal that because this information was not fully considered or analysed during the hearings before the judge, it would not be appropriate to make a final declaration that JB does not have capacity to make a decision to engage in sexual relations. The right course is therefore to remit the matter to the judge for reconsideration in the light of this judgment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">122.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.00in;text-indent:0.50in">For all the reasons given above, I would dismiss this appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

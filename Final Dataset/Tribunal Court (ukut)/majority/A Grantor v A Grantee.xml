@@ -1,0 +1,1093 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/23"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/23"/>
+	  <FRBRdate date="2023-05-03" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="23"/>
+	  <FRBRname value="A Grantor v A Grantee"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23"/>
+	  <FRBRdate date="2023-05-03" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23/data.xml"/>
+	  <FRBRdate date="2024-11-09T20:02:08" name="transform"/>
+	  <FRBRdate date="2024-11-13T13:56:24" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-05-03" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="a-grantor" href="" showAs="A GRANTOR"/>
+	<TLCPerson eId="a-grantee" href="" showAs="A GRANTEE"/>
+	<TLCRole eId="claimant" href="" showAs="Claimant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>23</uk:number>
+	<uk:cite>[2023] UKUT 23 (LC)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>6073c50dbc23386b69430a4838cf41decb8f9fd191e8030d22abeeb6fecbc4c4</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; font-size: 11pt; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <table uk:widths="6.63in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="margin-right:-0.02in"><courtType refersTo="#ukut-lc" style="font-weight:bold">UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.png" style="width:72pt;height:60.75pt"/></p>
+      <p style="margin-left:6.3in;margin-right:-0.03in;text-indent:-6.3in"><span style="font-weight:bold">UT Neutral citation number: </span><neutralCitation style="font-weight:bold">[2023] UKUT 23 (LC)</neutralCitation></p>
+      <p style="text-align:right;margin-left:6.3in;margin-right:-0.03in;text-indent:-6.3in"><span style="font-weight:bold">UTLC Case: LC-2022-55</span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold">Royal Courts of Justice, Strand, </span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold">London WC2A 2LL</span></p>
+      <p style="text-align:right;margin-right:-0.03in"><span style="font-weight:bold">3 May 2023</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p style="margin-right:-0.02in"><span style="font-style:italic;font-weight:bold">COMPENSATION &#8211; ARBITRATION &#8211; whether Tribunal has power to award costs where it acts as arbitrator in a reference by consent</span><span style="font-weight:bold"/><span style="font-style:italic;font-weight:bold">&#8211; claim for compensation for injurious affection of land &#8211; s.1(5), Lands Tribunal Act 1949 &#8211;</span><span/><span style="font-style:italic;font-weight:bold">s.61, Arbitration Act 1996</span><span/><span style="font-style:italic;font-weight:bold">&#8211; s.29, and Sch.5, paras. 12 and 14, Tribunals, Courts and Enforcement Act 2007 &#8211;</span><span/><span style="font-style:italic;font-weight:bold">rules 3, 10 and 30,</span><span/><span style="font-style:italic;font-weight:bold">Tribunal Procedure (Upper Tribunal) (Lands Chamber) Rules 2010</span></p>
+      <p style="text-align:center"><docTitle style="font-weight:bold">IN THE MATTER OF A NOTICE OF REFERENCE</docTitle></p>
+      <p style="text-align:center"><span style="font-weight:bold">under section 1(5) of the Lands Tribunal Act 1949</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold">BETWEEN:</span></p>
+      <p style="text-align:center"><party as="#claimant" refersTo="#a-grantor" style="font-weight:bold">A GRANTOR</party></p>
+      <p style="text-align:right;margin-left:5in;text-indent:0.32in"><role refersTo="#claimant" style="font-weight:bold">  Claimant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#a-grantee" style="font-weight:bold">A GRANTEE</party></p>
+      <p style="text-align:right;margin-right:0.07in"><role refersTo="#respondent" style="font-weight:bold">                                                                                                                             Respondent</role></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Martin Rodger KC, Deputy Chamber President</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">Determined on written representations</span></p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold">&#169; CROWN COPYRIGHT 2023</span></p>
+      <p>The following case is referred to in this decision:</p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-style:italic;font-weight:normal;font-size:12pt">BPP (Farringdon Road) Ltd v Crossrail Ltd </span><span style="font-weight:normal;font-size:12pt">[2015] UKUT 356 (LC)</span></p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-style:italic;font-weight:normal;font-size:12pt">Goldstein v Conley </span><span style="font-weight:normal;font-size:12pt">[2001] EWCA Civ 637, [2002] 1 WLR 281</span></p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-style:italic;font-weight:normal;font-size:12pt">Leech Homes v Northumberland County Council </span><span style="font-weight:normal;font-size:12pt">[2021] EWCA Civ 198</span></p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-style:italic;font-weight:normal;font-size:12pt">R (Sisangia) v Director of Legal Casework </span><span style="font-weight:normal;font-size:12pt">[2016] EWCA Civ 24</span></p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-style:italic;font-weight:normal;font-size:12pt">R (Spath Holme Ltd) v Secretary of State for the Environment, Transport and the Regions </span><span style="font-weight:normal;font-size:12pt">[2001] 2 AC 349</span></p>
+      <p class="CoverDesc" style="text-align:left"><span style="font-style:italic;font-weight:normal;font-size:12pt">Wilson v First County Trust Ltd </span><span style="font-weight:normal;font-size:12pt">[2004] 1 AC 816 </span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Normal2" style="text-indent:0.25in"><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Does the Tribunal have power to award costs where it acts as arbitrator in a reference by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">Lands Tribunal Act 1949</ref>?  That issue arises in this reference, apparently for the first time since significant changes were made to the Tribunal&#8217;s costs powers in 2013.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Arbitration is a private process, but the parties have consented to the publication of this decision in an anonymised form because of the wider significance of the issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The reference has been brought to determine the compensation to which the claimant is entitled under the terms of a Deed of Grant entered into in 2001 by which its predecessor in title granted easements over land in her ownership to enable a pipeline to be installed.  The respondent is the current owner of the pipeline and is entitled to the benefit of the Deed of Grant.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The respondent is required to pay compensation under the terms of the Deed arising out of the claimant&#8217;s inability to implement planning permissions which it has obtained for the development of part of the land.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The issue first arose following a case management hearing at which the Tribunal made an order requiring the respondent to pay the claimant&#8217;s costs of that hearing, which were assessed at &#163;8,000.  The respondent did not accept that the Tribunal had jurisdiction to award costs against it so the order was expressed to be conditional on a further determination of that issue.  The parties have exchanged submissions, together with substantial further submissions once a previous draft of this decision was provided to them. I am grateful to Mr Jonathan Karas KC and Ms Tamsin Cox for their submissions on behalf of the claimant, and to Mr John McGhee KC and Mr James Kinman for theirs on behalf of the respondent.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Normal2" style="margin-left:0.25in"><span style="font-weight:bold">The facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The Deed of Grant enabled the respondent&#8217;s predecessor in title to construct and maintain a section of pipeline over a strip of land 13m wide.  It also prevented the grantor or her successors from erecting any building within that strip (clause 6.3 of the Deed).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The prohibition on building within the easement strip was coupled with a right to compensation conferred by clause 8 if the owner of the land was prevented in future from carrying out development for which planning permission had been granted.  The amount of compensation payable is to be the difference between the comparatively modest sum paid for the easement (which did not take account of development value) and the amount which would have been payable in respect of a compulsory acquisition of the easement with the benefit of the planning permission.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The pipeline was installed in 2002 and the respondent acquired the original grantee&#8217;s rights under the Deed in 2005.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The claimant acquired the land subject to the easement in 2014, having operated a factory on adjoining land since about 2005.  In 2015 it obtained two separate planning permissions to erect a new larger factory and other facilities which, if constructed, would sit on top of the easement strip.  It is prevented from implementing the planning permissions by clause 6.3 of the Deed of Grant and it is not now in dispute that it is entitled to compensation under clause 8. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Clause 8.4 provides that &#8220;Any dispute arising out of the provisions of this Clause shall be referred to a single arbitrator to be agreed upon between the parties in dispute and in default of such agreement to the Lands Tribunal&#8221;.  The Lands Tribunal ceased to exist in 2010 when its jurisdictions were transferred to this Tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The question whether the conditions entitling the claimant to compensation had been satisfied was referred to an arbitrator chosen by the parties who resolved it in the claimant&#8217;s favour.  The parties have subsequently been unable to agree on compensation and the determination of the sum payable has been referred to the Tribunal under clause 8.4 of the Deed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Normal2" style="margin-left:0.25in"><span style="font-weight:bold">Relevant statutory provisions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The answer to the question in paragraph 1 above turns on provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">Lands Tribunal Act 1949</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref>), the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>), the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">Tribunals, Courts and Enforcement Act 2007</ref> (<ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref>), and the Tribunal Procedure (Upper Tribunal) (Lands Chamber) Rules 2010 (as amended) (the 2010 Rules).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The parties agree that the reference is a &#8220;reference by consent&#8221; under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref>, which in its current amended form provides that &#8220;The Upper Tribunal or the Lands Tribunal for Scotland may also act as arbitrator under a reference by consent, &#8230;&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> applies to arbitrations whose seat is in England and Wales (section 2(1), 1996 Act).  This reference is such an arbitration.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">By section 61(1), 1996 Act an arbitral tribunal &#8220;may make an award allocating the costs of the arbitration as between the parties, subject to any agreement of the parties.&#8221; The costs of the arbitration include the legal or other costs of the parties, as well as the arbitrator&#8217;s fees and expenses (section 59, 1996 Act).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The Upper Tribunal was established by <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/3/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> which provides: &#8220;There is to be a tribunal, known as the Upper Tribunal, for the purpose of exercising the functions conferred on it under or by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">this Act</ref> or any other Act.&#8221;  One such function, conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref>, 1949 Act, as amended, is that of acting as arbitrator under a reference by consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">By <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/29/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref>, the costs of and incidental to all proceedings in the Upper Tribunal are in the discretion of the Tribunal and, by <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/29/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29(2)</ref>, the Tribunal has &#8220;full power&#8221; to determine by whom and to what extent costs are to be paid.  By <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/29/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29(3)</ref>, &#8220;Sub<ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections (1</ref>) and (2) have effect subject to Tribunal Procedure Rules.&#8221;   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The general position is therefore that under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> an arbitrator may award costs, subject to any agreement of the parties, while under <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> the Tribunal may award costs (including when it acts as arbitrator), subject to Tribunal Procedure Rules.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 22</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> confers power on the Tribunal Procedure Committee to make Tribunal Procedure Rules governing the practice and procedure to be followed in the Upper Tribunal, and Part 1 of Schedule 5 makes further provision about the content of those rules.  In Schedule 5 itself, paragraph 12 authorises rules regulating matters relating to costs; paragraph 14 authorises rules disapplying Part I of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>.  The applicable Rules made under these provisions are the Tribunal Procedure (Upper Tribunal) (Lands Chamber) Rules 2010 (the 2010 Rules).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Normal2" style="margin-left:0.25in"><span style="font-weight:bold">Can costs be awarded under the 2010 Rules?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">It is convenient first to address the arguments concerning the Tribunal&#8217;s powers under the 2010 Rules.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">Rule 10 of the 2010 Rules makes provision relating to costs in the Tribunal.  It has been amended four times since it was first made, most significantly by the Tribunal Procedure (Amendment No. 3) Rules 2013 with effect from 1 July 2013.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in">It was not originally submitted on behalf of the claimant that the Tribunal has power to award costs in this reference under rule 10.  The claimant&#8217;s case focussed exclusively on <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>, and it was only when a previous draft of this decision was circulated to the parties that it requested the opportunity to make submissions on the effect of the 2010 Rules.  The respondent objected to a new point being taken so late.  In fact, the reference was then still at a relatively early stage, and it would be of no benefit to either party for me to address only half of the issue in this decision.  The receipt of further submissions also seemed to me to be consistent with the Tribunal&#8217;s overriding objective of dealing with each case fairly and justly (including by the avoidance of unnecessary formality and seeking flexibility in the proceedings).  I therefore gave permission for further submissions.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">Rule 10(1) states that the Tribunal may make an order for costs on an application or on its own initiative.  In its original form this power (which was to the same effect as rule 52 of the Lands Tribunal Rules 1996 which it replaced) was of general application to most proceedings in the Tribunal (including all proceedings in which the Tribunal is the first instance decision maker) and was restricted only in the case of appeals from leasehold valuation tribunals.  But with effect from 1 July 2013 the general power has been qualified by rule 10(2), which now limits the circumstances in which an order for costs may be made to those referred to in paragraphs (3) to (6).  For ease of reference I have included the text of the relevant parts of rule 10 as originally made and in its current form in an appendix to this decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">Paragraphs (3) to (5) of rule 10 are not relevant to the current issue (although it should be noted in passing that in cases where no other costs power is available rule 10(4) enables orders to be made with the consent of the parties or where there is a disparity of interest or resources).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">Rule 10(6) identifies a closed list of proceedings in which the Tribunal may make orders for costs.  The list originally contained four categories but these have been supplemented from time to time since 2013 as the Tribunal has acquired new jurisdictions and now comprise eight categories.  The original categories have been retained, and the argument focused on two of these, namely, &#8220;proceedings &#8211; (a) for compensation for compulsory purchase; [and] (b) for injurious affection of land&#8230;&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">No reliance was placed by the claimant on rule 10(6)(a).  I assume the consideration received by the original grantor in 2001 reflected the value of the rights compulsorily acquired over the Deed land.  It may also have been assumed that the acquisition of those rights by the respondent&#8217;s predecessor could not properly be said to have involved &#8220;compulsory purchase&#8221; as the Deed of Grant was a voluntary contractual arrangement, albeit the respondent had compulsory powers which it could have employed if agreement had not been reached.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">In its additional submissions the claimant relied instead on rule 10(6)(b) and characterised its claim as being for compensation for injurious affection.  It first referred to clause 8.1.3 of the Deed which entitles it to compensation assessed by reference to the amount which &#8220;would have been payable in respect of a compulsory acquisition by Transco of the easements hereby granted in pursuance of a notice to treat &#8230;&#8221;.  In those circumstances it would have had a claim under <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56" uk:canonical="1965 c. 56" uk:origin="TNA" uk:type="legislation">Compulsory Purchase Act 1965</ref> (as amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">Gas Act 1986</ref>, Schedule 3, paragraph 7) which provides for compensation for depreciation in the value of the land over which the right is to be acquired having regard &#8220;not only to the value of the land to be purchased by the acquiring authority, but also to the damage (if any) to be sustained by the owner of the land by reason of the severing of the land purchased from the other land of the owner, or otherwise injuriously affecting that other land &#8230;.&#8221;.  In its statement of case the claimant&#8217;s claim to recover the loss sustained by its inability to develop its land is pleaded as claim for injurious affection relying on <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref>, and its submission was therefore that the proceedings commenced by this reference are within rule 10(6)(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The term &#8220;injurious affection&#8221; is not defined in statute but it has been in use at least since it appeared in sections 63 and 68 of the Lands Clauses Consolidation Act 1845.  It refers to any factor which depreciates the value of a claimant&#8217;s retained land, and it gives rise to a right to compensation under the <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56" uk:canonical="1965 c. 56" uk:origin="TNA" uk:type="legislation">Compulsory Purchase Act 1965</ref> in two different situations.  First, where land has been compulsorily acquired and the value of other land in which the claimant has an interest and which was held with the acquired land has been depreciated by &#8220;severance or injurious affection&#8221;, <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> gives the claimant a right to compensation for that depreciation.  Secondly, where no land has been taken a separate right to compensation is available under section 10 if the value of a claimant&#8217;s interest in land has been depreciated as a result of works authorised by statute.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">The respondent filed evidence indicating that no steps had ever been taken by its predecessor, the original grantee, to secure an order permitting the compulsory acquisition of the rights conferred by the Deed of Grant. The claimant acknowledged that the right to lay the pipeline, and the protections and restrictions which surround it, were granted consensually and not compulsorily.  The parties have nevertheless agreed by clause 8.1.3 of the Deed that the claimant should be entitled to compensation in the amount which would have been payable in respect of a compulsory acquisition of the easements in pursuance of a notice to treat, in other words, on the basis that the rights were obtained by the use of compulsory powers.  The question is whether in those circumstances this reference by consent falls within the scope of rule 10(6)(b).  That is a question of interpretation of the 2010 Rules.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in"><span style="font-style:italic">Preparatory materials</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">As mentioned, the Tribunal&#8217;s current restricted powers to award costs are the consequence of amendments to the 2010 Rules made with effect from 1 July 2013.  In its original form rule 10(1) conferred the same broad power to award costs as had previously been enjoyed by the Lands Tribunal by providing simply that &#8220;the Tribunal may make an order for costs on an application or on its own initiative&#8221;.  Subject to the exception of appeals from leasehold valuation tribunals, the &#8220;full power&#8221; to award costs conferred on the Tribunal by <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/29/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29(1)</ref>, 2007 Act originally applied to all of its numerous jurisdictions.  As part of the process of interpreting the Rules in their current form it is relevant to consider how that position changed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">In December 2011 a Costs Review Group (CRG) commissioned by the Senior President of Tribunals published a report entitled <span style="font-style:italic">Costs in Tribunals</span>.  The then Chamber President of this Tribunal, Mr George Bartlett QC, was a member of the CRG.  An introductory paragraph in the report explained that the CRG&#8217;s terms of reference were to consider and review the provisions of tribunal rules relating to costs in the light of Lord Justice Jackson&#8217;s Review of Civil Litigation Costs.   The report dealt with the extent to which the principle of &#8220;costs-shifting&#8221; should operate in tribunals (i.e. the principle that the successful party should pay the costs of the unsuccessful party).  It proceeded on the basis that &#8220;the underlying principle of the tribunals &#8211; at least where the issue in question relates to relations between the citizen and the State - is that there should be no costs-shifting absent unreasonable conduct and that departure from that principle should only occur if a clear case for it is made out&#8221; (CRG Report, paragraph 31). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The CRG Report described the costs regime in the Tribunal&#8217;s first instance jurisdictions at paragraphs 85 to 91.  It noted the large number of those jurisdictions arising under a variety of statutes but considered that it was sufficient for its purposes to categorise them under six headings which are listed at paragraph 85.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Three of the six categories of first instance jurisdictions comprised: (a) compensation for the compulsory purchase of land; (b) compensation where land is adversely affected by the exercise of statutory powers; and (f) references by consent in which the tribunal acts as arbitrator.  The others concerned blight, taxation and restrictive covenant jurisdictions.  The intended boundaries between these categories were not defined with precision.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">A number of points can be made about this classification of jurisdictions.  The first is that it is apparent from paragraph 85 that it was intended to be comprehensive, and to cover all cases in which the proceedings were not an appeal from another tribunal.  Secondly, the Report did not use the expression &#8220;injurious affection&#8221; or distinguish between claims by reference to particular statutory provisions; whether a claim under <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56" uk:canonical="1965 c. 56" uk:origin="TNA" uk:type="legislation">Compulsory Purchase Act 1965</ref> would have fallen under category (a) (as arising out of compulsory purchase) or category (b) (as involving land adversely affected by the exercise of statutory powers) was not explored.  Thirdly, category (b) was not limited to cases in which land was adversely affected by the exercise of statutory powers in circumstances where, but for those powers, the activity giving rise to the adverse effect would have been unlawful; it would presumably have included claims under Part 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1973/26" uk:canonical="1973 c. 26" uk:origin="TNA" uk:type="legislation">Land Compensation Act 1973</ref> which provides a right to compensation where no land has been taken but where the claimant&#8217;s land is adversely affected by the use of public works (roads, airports etc) whether or not the works would have given rise to a common law claim in nuisance.  Finally, it can be seen that the authors of the Report considered it appropriate to treat cases where the Tribunal acts as arbitrator in a reference by consent as a distinct category, and not as subsumed into categories (a) or (b) depending on the subject matter of the reference. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The CRG Report recognised in paragraph 86 that &#8220;most of category (f)&#8221; comprised references by consent following an agreement to transfer land to an authority and noted that under the Rules then in force the same costs principles were applied to those cases as in compulsory purchase compensation cases in category (a).  It explained that in category (a) cases <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">Land Compensation Act 1961</ref> makes special provision where a claimant fails to beat an acquiring authority&#8217;s unconditional offer and noted that the same approach was adopted in most category (f) cases (although <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> itself is not applicable).   At paragraph 88 the Report suggested that consideration should be given to the abolition of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> (which was outside the scope of the Report and would have required primary legislation).      </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The Report made a number of recommendations for change which were collected together and summarised at paragraphs 193 and 194.  One of the recommendations in paragraph 193 was that &#8220;a conventional two-way costs-shifting power should be introduced for compulsory purchase cases in the Lands Chamber of the UT and in references by consent where acquisition has been agreed&#8221;. A cross reference was made to paragraph 88 and to the proposed abolition of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The CRG Report&#8217;s second relevant recommendation, at paragraph 194, was that &#8220;a standard no-costs regime should be introduced for all first-instance jurisdictions in the Lands Chamber other than in compulsory purchase cases (including references where acquisition has been agreed) and cases concerned with the discharge or modification of restrictive covenants &#8230;&#8221;; a residual costs shifting power was also suggested where a party behaved unreasonably or where the circumstances of an individual case merited it (either because of its complexity or value, or because of an imbalance in the parties&#8217; resources).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The reason given for providing for costs shifting in cases of compulsory purchase (including references where acquisition had been agreed), was because claimants whose land had been taken compulsorily &#8220;should be compensated fully&#8221; which required that they recover the costs of establishing their claim (CRG Report, paragraphs 87, 88).  Category (e) cases (discharge or modification of restrictive covenants) engaged the same principle because they were &#8220;in the nature of the compulsory purchase of private rights&#8221;.  Other first instance jurisdictions lacked that characteristic.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">In summary, having first divided the Tribunal&#8217;s first instance jurisdictions into six categories whose boundaries were not defined with precision, the CRG Report recommended that costs shifting powers should apply only to those in category (a) dealing with compensation for the compulsory purchase of land, and most of those in category (f) covering references by consent in which the Tribunal acts as arbitrator, but not those in category (b) covering claims for compensation where land is adversely affected by the exercise of statutory powers.  The Report put proceedings in categories (a) and (f) on the same footing and identified no reason for excluding proceedings in category (b) from its recommendations.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The recommendations of the CRG Report were then considered by the Tribunal Procedure Committee (TPC) which published a Consultation Report of its own in November 2012 including proposals to bring all relevant costs powers within tribunal procedure rules, and to abolish the restrictive statutory regime applied only to compulsory purchase cases by <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">Land Compensation Act 1961</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">In paragraph 48 of its Consultation Report the TPC said that it intended to reduce the existing scope of the Tribunal&#8217;s power to make two-way costs shifting awards. It considered that its proposals were consistent with the recommendations of the CRG Report, but it offered two versions of a revised rule 10, in both of which the Tribunal was to be given power at paragraph (1D)(a) to make orders for costs in proceedings &#8220;for compensation for compulsory purchase or injurious affection of land (including references made after the acquisition of land has been agreed)&#8221;.  At paragraph 96 it said specifically that it could see no reasons to change the current costs regime so far as it applied to proceedings for compensation for injurious affection to land. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The TPC is a statutory body established under <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/22" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 22</ref> and Schedule 5 to <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref>.  Before making rules the TPC is required to consult (paragraph 28(1)(a), Schedule 5, 2007 Act).  One of the questions on which the TPC consulted was whether its proposed changes to rule 10 were appropriately drafted.  It received six responses, but only one commented on paragraph (1D)(a), suggesting that it was not obvious what the phrase &#8216;including references made after the acquisition of land has been agreed&#8217; was intended to encompass.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The TPC then published a Response Report in June 2013.  It made substantial changes to its original recommendations including a revised version of rule 10 which was given effect almost immediately by the Tribunal Procedure (Amendment No. 3) Rules 2013 from 1 July 2013.  In particular, it shelved its original intention to recommend the repeal of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref> which enabled the new rule 10 to be simplified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The version of rule 10 in the Response Report omitted the phrase originally included to cover references by consent in which the Tribunal acts as arbitrator (most of category (f) of the CRG&#8217;s classification).  The new text was said at paragraph 7.22 to adopt the same approach as option one in the original Consultation Report (which included the category (f) text) but to have been &#8220;redrafted in the interests (it is thought) of greater clarity&#8221;.   At paragraph 7.25 the TPC explained the omission of the relevant part of the previous draft by saying only that &#8220;It was agreed that the phrase &#8216;including references made after the acquisition of land has been agreed&#8217; was unnecessary to include.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I infer from paragraph 7.25 that the TPC did not consider that the omission of the language which had been introduced to cover references by consent in which the Tribunal acts as arbitrator was a change of substance.   The omission was made because the phrase was &#8220;unnecessary&#8221;, not because the effect of the original language no longer reflected the TPC&#8217;s view, and it did not express agreement with the sole consultee who had suggested that it was not obvious what the phrase was intended to refer to.  On the contrary, it suggested that the approach now being adopted was the same as in the consultation draft.  Thus, what in the previous draft had been expressed as a power to award costs in proceedings &#8220;for compensation for compulsory purchase or injurious affection of land (including references made after the acquisition of land has been agreed)&#8221; became the current power covering proceedings &#8220;(a) for compensation for compulsory purchase; [and] (b) for injurious affection of land&#8221; on the apparent understanding that the scope of the two provisions was not materially different.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">There was no suggestion in either of the TPC&#8217;s reports of an intention to take away the power exercised by the Tribunal and its statutory predecessor to make orders for costs in references by consent.  Nor had there been any consultation on such a change.  The CRG had made no such recommendation (at least so far as references by consent concerned compulsory purchase) and the TPC had either clarified or expanded the CRG&#8217;s proposals, but had certainly not reduced them, by adding a costs power in cases of injurious affection.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.5in"><span style="font-style:italic">The parties&#8217; submissions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I invited the parties to make submissions on the CRG and TPC reports.  Both agreed that the reports were admissible, but each claimed that the material supported its position.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Both parties referred to <span style="font-style:italic">R (on the application of Spath Holme Ltd) v Secretary of State for the Environment, Transport and the Regions </span><ref href="#" uk:canonical="[2001] 2 AC 349" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 2 AC 349</ref> as support for that principle.  At 398 Lord Nicholls endorsed the use of &#8220;extraneous material&#8221; including reports of Royal Commissions and advisory committees, saying this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Normal2" style="margin-left:0.79in;margin-right:0.39in">&#8220;Nowadays the courts look at external aids for more than merely identifying the mischief the statute is intended to cure. In adopting a purposive approach to the interpretation of statutory language, courts seek to identify and give effect to the purpose of the legislation. To the extent that extraneous material assists in identifying the purpose of the legislation, it is a useful tool.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The respondent emphasised that the use of preparatory materials was subject to what they called &#8220;principled limits&#8221;.  The statutory intention was to be found in the language of the Rules, not in the background material, which should not be used to displace a meaning which was otherwise clear and unambiguous from the Rules themselves.  Only if the material relied on was clear and definite would it be of assistance. Reference was made to <span style="font-style:italic">Spath Holme</span> and to <span style="font-style:italic">Wilson v First County Trust Ltd </span><ref href="#" uk:canonical="[2004] 1 AC 816" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] 1 AC 816</ref> and <span style="font-style:italic">R (Sisangia) v Director of Legal Casework </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/24" uk:canonical="[2016] EWCA Civ 24" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 24</ref> in support of these propositions, none of which was controversial.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I agree that the preparatory materials are admissible as an aid to the interpretation of rule 10. The CRG Report has previously been used by the Court of Appeal for that purpose in <span style="font-style:italic">Leech Homes v Northumberland County Council </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/198" uk:canonical="[2021] EWCA Civ 198" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 198</ref>, at [55]-[57], and by the Tribunal in <span style="font-style:italic">BPP (Farringdon Road) Ltd v Crossrail Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2015/356" uk:canonical="[2015] UKUT 356 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 356 (LC)</ref><span style="font-style:italic"/>at [42]-[47]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Before the CRG and TPC material was pointed out to it the respondent submitted that only a claim arising out of the exercise of statutory powers could be categorised as &#8220;proceedings ... for injurious affection of land&#8221; within rule 10(6)(b).   A claim made under an agreement for the payment of compensation for rights granted consensually (even if such compensation was to be assessed on the same principles as if the rights had been acquired compulsorily) did not fall within the rule.  Reference was made to the Tribunal&#8217;s decision in <span style="font-style:italic">BPP (Farringdon Road) Ltd</span> in which, at [53], without seeking exhaustively to define the scope of rule 10(6)(b) the Tribunal accepted a submission that &#8220;injurious affection generally connotes damage to land which would have been wrongful but for the existence of statutory powers.&#8221;  In contrast, the damage sustained by the claimant in this reference was the result of the voluntary grant of rights by its predecessor. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">The claimant&#8217;s first counter to that submission was that the acquisition of the rights was pursuant to the exercise of statutory powers under the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">Gas Act 1986</ref> (the respondent&#8217;s predecessor was a statutory undertaker all of whose activities were pursuant to its statutory powers).  It suggested that the respondent&#8217;s interference with the claimant&#8217;s land would have been unlawful but for the exercise of statutory powers (I assume it meant that if the Deed of Grant had not been obtained it would have been unlawful for its predecessor to lay the pipeline).  It also argued that rule 10(6)(b) was broader than the respondent suggested and that an agreement for the assessment of compensation as if <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56" uk:canonical="1965 c. 56" uk:origin="TNA" uk:type="legislation">the 1965 Act</ref> applied, made against the background of statutory powers of compulsory purchase, was enough in itself to bring the proceedings within the rule as proceedings for compensation for injurious affection.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The claimant suggested that it would be surprising if the power to award costs under a reference by consent had been removed without consultation and without any transitional protection for parties who entered into agreements before 1 July 2013 on the understanding that costs shifting would apply (under the Tribunal&#8217;s original rules after 2010 or under rule 52 of the Lands Tribunal Rules 1996 before that).  A regime which treated a claimant less favourably in relation to costs, simply because its predecessor had reached agreement with the relevant authority, would infringe its rights under Article 6 (fair trial) and Article 1 of the First Protocol (protection of property) of the European Convention on Human Rights.  In the absence of a clear justification, <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref> required that rule 10 should be interpreted in such a way as to avoid those infringements.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I do not accept the respondent&#8217;s original submission.  Whether they are exercised to completion or not, the existence of statutory powers is a feature of all cases in which the Tribunal is required to determine compensation, and if the TPC had intended to draw a distinction between cases in which such powers were exercised and those where they merely provided the context for a contractual reference it would surely have made that clear.  In <span style="font-style:italic">BPP (Farringdon) Ltd </span>it was argued that only a claim under <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> or 10 of <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56" uk:canonical="1965 c. 56" uk:origin="TNA" uk:type="legislation">the 1965 Act</ref> should be recognised as being in respect of injurious affection.<span style="font-style:italic"/>The Tribunal rejected that proposition and held that &#8220;injurious affection&#8221; should be given a wide meaning which did not depend on the use of that expression in a particular statute, and I consider that it is wide enough to apply to damage which is the result of the exercise of contractual rights.  No support for the respondent&#8217;s submission is found in the background material.  On the contrary, it is clear from the recommendations in the CRG Report, which the TPC considered its draft rules gave effect to, that rule 10(6)(a) and (b) were not intended to exclude a power to award costs in all cases where compensation was payable under an agreement rather than as the result of the exercise of statutory powers.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Having considered the CRG and TPC reports the respondent refined its original submissions.  In their final form its argument rested on two propositions.  First, that the Tribunal&#8217;s power to make orders for costs under rule 10(6)(a) was only available where there had been an order authorising the compulsory purchase of land.  <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56" uk:canonical="1965 c. 56" uk:origin="TNA" uk:type="legislation">Compulsory Purchase Act 1965</ref> authorises an acquiring authority to reach agreement with the owners of any land subject to compulsory purchase for the sale and conveyance of that land.  The respondent submitted that such an agreement engages the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">Land Compensation Act 1961</ref>, including <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref>, and that only such an agreement fell within the Tribunal&#8217;s costs powers.  Secondly, the respondent repeated its previous submission that rule 10(6)(b) was not engaged in this case because the claim was not for compensation for injurious affection as the adverse effect on the claimant&#8217;s land was the result of a voluntary agreement and not by the exercise of statutory powers.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">I have already explained why I do not accept the respondent&#8217;s second proposition.  The first proposition was said to emerge from rule 28(4)(b) and (6) of the 2010 Rules which describe documents which must be provided with a notice of reference under Part 5 of the Rules.  If the reference &#8220;relates to compensation payable on the compulsory acquisition of land&#8221; the person making the reference is required by rule 28(4)(b) to provide a copy of &#8220;any (a) notice to treat that has been served; (b) notice of entry that has been served; and (c) notice of claim and amendments to it delivered to the acquiring authority in pursuance of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref>.&#8221; The only circumstances in which a notice to treat or a notice of claim under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> could have been served are where land has been authorised to be acquired compulsorily.  Hence, the respondent argued, &#8220;proceedings for compulsory purchase&#8221; in rule 10(6)(a) referred only to proceedings commenced after the making of a compulsory acquisition order. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The respondent&#8217;s reliance on rule 28 in support of a narrow construction of rule 10(6)(a) is not persuasive.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The purpose of rule 28(4) is to demonstrate that the Tribunal has jurisdiction by requiring the person making the reference to provide documents.  Rule 28(4)(a) requires the provision of a copy of the order or other documents in consequence of which the reference is made including any agreement conferring jurisdiction.   Rule 28(4)(b) requires a copy to be provided of &#8220;any&#8221; notice to treat, notice of entry, or notice of claim which has been served, and does not prohibit a reference relating to compensation for compulsory acquisition of land where no such document has been served.  Nor does rule 28 refer to &#8220;proceedings for compulsory purchase&#8221; and it does not seem to me to be a reliable guide to the scope of rule 10(6). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Rule 28(6), which was also relied on, is a provision about the earliest date on which a notice of reference in relation to compensation payable on the compulsory acquisition of land may be made.  It prevents a claim being made before a notice to treat has been served or notice of a claim has been given by a claimant, but it does not assist in determining the scope of rule 10(6).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">It is apparent from the CRG Report that the classification of jurisdictions which eventually found their way into rule 10(6) were intended to be broad and there is no indication (as far as (a) and (b) are concerned) that they were restricted to particular statutes or procedures.  The approach to rule 10(6)(b) taken by the Tribunal in <span style="font-style:italic">BPP (Farringdon) Ltd </span>was to consider the general nature of the claim and not to be concerned with its particular statutory source and the same approach is applicable to rule 10(6)(a).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">The respondent suggested that the CRG report supported its proposed division of references made pursuant to an agreement appointing the Tribunal as arbitrator into those made after a compulsory purchase order had been confirmed and those made without any prior order.  The former category would, on the respondent&#8217;s argument, be within rule 10(6)(a), but not the latter category.  This was said to be the explanation for the CRG Report recommending that costs shifting should apply to &#8220;most of category (f)&#8221;.  Nothing in the CRG report seems to me to justify that particular inference, and it is much more likely that the residue of category (f) comprised references by consent which did not involve the acquisition of land at all.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">The respondent also pointed out that one of the original TPC drafts of the proposed new rule was intended to replace <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref>, which applied only where compulsory purchase had already been authorised.  It suggested that the reference in that version to proceedings &#8220;for compensation for the compulsory purchase or injurious affection of land (including references made after the acquisition of land has been agreed)&#8221; cannot have been intended to widen the effect of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> to encompass any situation in which land was acquired consensually by a person who could have obtained authorisation to acquire it compulsorily (but who did not in fact obtain such authorisation).  But it is clear from the CRG Report, and from the TPC material which was intended to give effect to it, that there was no intention to reduce the Tribunal&#8217;s power to award costs in cases where it acted as arbitrator pursuant to the parties&#8217; own contractual agreement.  That power previously applied in all cases, whether or not a compulsory purchase order had been made, and in all such cases the Tribunal applied <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref> by analogy, not because contractual compensation agreements fell within its scope (as the CRG Report explained at paragraph 86).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in;text-indent:0in">The most recent consideration of the scope of rule 10(6)(a) is contained in the decision of the Court of Appeal in <span style="font-style:italic">Leech Homes v Northumberland County Council </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/198" uk:canonical="[2021] EWCA Civ 198" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 198</ref> to which neither party referred (the costs issue was not the main subject matter of the decision which may explain why the parties&#8217; research overlooked it).  The main issue concerned the classification of green belt land, but a separate question was whether an appeal against a refusal of a certificate of suitable alternative development under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">Land Compensation Act 1961</ref> fell within the description of proceedings for compensation for compulsory purchase within rule 10(6)(a).  Lewison LJ explained that such appeals had not been within the jurisdiction of the Tribunal when the CRG Report was published, and that the practice of the planning inspectorate which had previously determined them had been not to award costs. He continued at [59]:   </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Normal2" style="margin-left:0.79in;margin-right:0.39in">&#8220;It would, in my judgment, have been surprising if the mere fact that the route of appeal against a CAAD had been changed was intended to effect a silent but radical change in the long-established practice of awarding costs in CAAD appeals. If that had been intended the Explanatory Memorandum would surely have said so. Rule 10 (6) (a) is well capable of being interpreted as being limited to disputes referred to the UT under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref>, all the more so because of the narrowing of the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> which would give either party costs protection in such circumstances. In my judgment, it should be so interpreted.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in">The first half of the passage quoted above does not assist the respondent, and indeed the same points are made against it by the claimant.  But Lewison LJ&#8217;s unqualified statement that rule 10(6)(a) should be interpreted as being limited to disputes referred to the UT under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref> supports the respondent&#8217;s case that the rule should be read narrowly (<ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> provides that where &#8220;by or under any statute (whether passed before or after the passing of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">this Act</ref>) land is authorised to be acquired compulsorily, any question of disputed compensation &#8230; shall be referred to the Upper Tribunal &#8230;&#8221;).   The difficulty with it is that it is narrower even than the respondent suggests.  When it acts as arbitrator in a reference by consent the Tribunal&#8217;s jurisdiction is not conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref>, but by <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref>, whether or not a compulsory purchase order has been made.  The respondent does not argue that references by consent fall entirely outside the scope of rule 10(6)(a), and any such submission would be inconsistent with the CRG and TPC reports as well as representing the sort of change which Lewison LJ suggested was unlikely to be made without some explicit acknowledgement.  Rather, the respondent&#8217;s argument is that some references by consent (those made pursuant to agreements entered into after a compulsory purchase order has been made) are within rule 10(6)(a), while others (those made in other circumstances) are not.  As I have already said, I can find no support for that distinction in the CGR Report, nor was it a distinction which Lewison LJ can have had in mind.  <span style="font-style:italic">Leech Homes </span>did not involve a reference by consent, the rule being interpreted did not refer to such references and the Court of Appeal was not asked to consider whether they were within rule 10(6) or not.  Its conclusion is supportable on the remainder of the Courts reasoning, namely that appeals under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref>, 1961 Act do not involve proceedings for compensation and that no change had been intended by their re-allocation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in">The claimant&#8217;s submission that a narrow interpretation of rule 10(6) would remove the procedural foundation on which many contractual agreements were based is a powerful one.  The possibility of a change in tribunal procedure rules could not have been discounted, but a change having retrospective effect, implemented without consultation would have been exceptional.  Such a change would tend to favour acquiring authorities and to disadvantage those who had entered voluntarily into transactions on the understanding that they would be fully compensated, including by the recovery of their costs of tribunal proceedings (unless they behaved unreasonably).   If it is not necessary to read the rule as having that effect then the CRG Report, which contains no hint that such a change was contemplated, provides ample justification for avoiding such a reading without the need to consider Article 1 of the First Protocol.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The claim in this reference is pleaded under <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56" uk:canonical="1965 c. 56" uk:origin="TNA" uk:type="legislation">the 1965 Act</ref>, as a claim for injurious affection of land other than the land over which the respondent acquired rights.  Such a claim falls within the language of rule 10(6)(b) as one of the types of case in which the Tribunal has the power to make orders for costs.  It could be said that the same claim also falls within rule 10(6)(a) as it arises only where land has been compulsorily acquired.  The absence of a bright line between the various claims for compensation stretches back to the CRG&#8217;s original broad classification of the Tribunal&#8217;s first instance jurisdictions and I am not persuaded that a sharper division can be found in the final form of the rule.  I can see no principled reason for treating references by consent in which compensation is claimed only for compulsory purchase differently from those in which compensation is claimed only for injurious affection, and many references, including references by consent, will include both types of claim.  Nevertheless, whatever it may say about rule 10(6)(a), the decision of the Court of Appeal in <span style="font-style:italic">Leech Homes </span>does not apply to rule 10(6)(b).  On that basis it does not prevent the Tribunal from giving full effect to the language of rule 10(6)(b) as it appears the CRG and the TPC intended.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">For these reasons I find that the Tribunal has power to make orders for costs in this reference.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Normal2" style="margin-left:0.25in"><span style="font-weight:bold">Can costs be awarded under section 61, 1996 Act?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_68">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">If I have correctly interpreted the Tribunal&#8217;s 2010 Rules the original way in which the claimant advanced its claim for costs need not be considered.  But the issue was fully argued and my conclusions were shown to the parties in draft before the claimant changed the focus of its case, so I will deal with the alternative limb of the argument.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The application of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> to Tribunal proceedings is the subject of paragraph 14 of Schedule 5 to <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> which authorises rules providing for &#8220;Part I of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> &#8230; not to apply, or not to apply except so far as is specified in Rules, where the First-tier Tribunal, or Upper Tribunal, acts as arbitrator.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Whether the costs powers in section 61, 1996 are available depends on the combined effect of rule 3(2) and rule 30 of the 2010 Rules.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Rule 3(2) provides that: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Normal2" style="margin-left:0.79in;margin-right:0.39in">&#8220;Except where rule 30 (references by consent: application of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref>) applies, Part 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> does not apply to proceedings before the Tribunal.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Rule 30 then makes exceptions to this disapplication of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>.  It provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Normal2" style="margin-left:0.79in;margin-right:0.39in">&#8220;30 References by consent: application of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="Normal2" style="margin-left:0.79in;margin-right:0.39in">If the reference is by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref> and the parties have not agreed otherwise, the following provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> apply to the proceedings&#8212; </p>
+		  </intro>
+		  <subparagraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">section 8 (whether agreement discharged by death of a party);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">section 9 (stay of legal proceedings);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(c)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">section 10 (reference of interpleader issue to arbitration);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(d)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">section 12 (power of court to extend time for beginning arbitral proceedings, etc.);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(e)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">section 23 (revocation of arbitrator&#8217;s authority);</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(f)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">&#8230;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(g)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">section 57 (correction of award or additional award) in so far as it relates to costs and so that the reference to &#8220;award&#8221; includes a reference to any decision of the Tribunal; and </p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num>(h)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;margin-right:0.39in;text-indent:0.5in">section 60 (agreement to pay costs in any event).&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">It will be noted that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> (award of costs) is not one of the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> mentioned in rule 30.  The parties disagree about the consequences of that omission.  The claimant submits that it means that the power to award costs under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> is preserved because <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> applies in its entirety to references by consent; the respondent takes the opposite view and argues that the power is excluded.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.25in;text-indent:0.25in"><span style="font-style:italic">The claimant&#8217;s contention</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Mr Karas KC and Ms Cox submitted that, where rule 30 applies to a reference by consent, that reference is excluded by rule 3(2) from the disapplication of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> to arbitrations before the Tribunal.  Rule 30 expressly applies the listed provisions but, they submit, it does not make provision for <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> &#8220;not to apply&#8221;. They draw attention to the way in which the rule making power is expressed in paragraph 14 of Schedule 5 to <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> (by which rules may provide for any of the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> &#8220;not to apply, or not to apply except so far as is specified in Rules&#8221;) and contrast it with rule 3(2) of the 2010 Rules.  Their reasoning was as follows: by rule 3(2) Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> does not apply to proceedings before the Tribunal, except where rule 30 applies; rule 30 applies &#8220;if the reference is by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref>&#8221;; as a result, Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> does apply to a reference by consent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">This, the claimant submits, is precisely how one would expect the legislation to operate.  If the 2010 Rules are interpreted in the way they suggest, the position concerning costs in references by consent after the transfer of jurisdiction from the Lands Tribunal to the Upper Tribunal on 29 November 2010 will have remained the same as under the former Lands Tribunal Rules 1996.  It is very unlikely that the Tribunal Procedure Committee would have decided retrospectively to disapply the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> which governed arbitrations in which the Lands Tribunal was the arbitrator pursuant to contractual compensation agreements entered into before the commencement of the 2010 Rules. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">According to the claimant, each of the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> identified in rule 30 is included there to enable the parties to agree, if they choose, that it should not apply, or to resolve some specific doubt which might otherwise exist in the context of Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/44" uk:canonical="1986 c. 44" uk:origin="TNA" uk:type="legislation">the Act</ref> as a whole applying to proceedings in the Tribunal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 8</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> provides that an arbitration agreement is not discharged by the death of a party, unless otherwise agreed by the parties.  The claimant suggests that the inclusion of this provision in rule 30 provides clarity that the death of a party does not terminate a reference by consent to the Tribunal, unless the parties agree otherwise.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 9</ref>, 10 and 12 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> are all concerned with applications which may be made to the court where proceedings have been brought in respect of a matter which is the subject of an arbitration agreement.  These are mandatory provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> which, by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/4/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(1)</ref>, have effect notwithstanding any agreement to the contrary.  The claimant points out that under rule 30 the listed provisions apply only where the parties have not agreed otherwise.  The effect of the rule so far as <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 9</ref>, 10 and 12 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> are concerned is therefore not merely to note the application of those provisions, but to enable the parties to disapply them, which they would not otherwise be able to do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 23</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> provides that the parties may agree the circumstances in which the authority of an arbitrator may be revoked but preserves the power of the court to revoke an appointment where there has been a failure of an agreed appointment procedure or to remove an arbitrator for misconduct under section 24.  Again, the purpose of including this provision in rule 30 is said to be to give the parties the power to agree that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/23" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 23</ref> will not apply (presumably in order to take away the power of the Court).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/57" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 57</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> deals with the correction of an award or the making of an additional award and gives the parties the right to agree on the powers of the arbitrator in those respects.  Where no agreement of that sort has been made <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/57/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 57(4)</ref> to (6) provide a timetable for such applications.  The claimant points to the fact that the time limits for the arbitrator to issue a correction or an additional award do not apply to a &#8220;judge arbitrator&#8221; (by paragraph 8 of Schedule 2, 1996 Act).  A &#8220;judge arbitrator&#8221; is an eligible High Court Judge who has agreed to accept appointment as a sole arbitrator (section 93, 1996 Act).  The purpose of including <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/57" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 57</ref> in rule 30 is said by the claimant to be to make it clear that the prescribed time limits for the making of awards do apply where the Tribunal acts in a reference by consent, notwithstanding that the Tribunal is a superior court of record usually presided over by a High Court judge; thus, the President sitting as an arbitrator would be bound by the time limits in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/57" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 57</ref> (unless the parties agreed otherwise).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <intro>
+	    <p class="Normal2" style="margin-left:0.5in">The final provision of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> mentioned in rule 30 is <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/60" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 60</ref>, which invalidates any agreement allocating responsibility for the costs of the dispute to a party if the agreement was made before the dispute had arisen.  This is another of the provisions made mandatory by <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/4/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4(1)</ref> and the purpose of its inclusion in rule 30, according to the claimant, is to free the parties to contract out of the restriction on predetermining liability for costs if they wish. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.25in;text-indent:0.25in"><span style="font-style:italic">Discussion and conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Ingenious though the claimant&#8217;s submissions have been, I do not accept them and I agree with Mr McGhee KC and Mr Kinman that the combined effect of rule 3(2) and rule 30 is less Byzantine and altogether more straightforward than has been suggested.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The general position is stated by rule 3(2) and is that Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> does not apply to proceedings before the Tribunal.  Rule 30 then provides exceptions to that rule &#8220;If the reference is by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref> and the parties have not agreed otherwise &#8230;&#8221;.  If those conditions are met the consequence is that the particular provisions identified in rule 30 do apply to the proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">Taken together the rules provide for the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> &#8220;not to apply, or not to apply except so far as is specified in Rules&#8221; as paragraph 14 of Schedule 5 to <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> provides.  The only cases with which paragraph 14 is concerned are those where a tribunal acts as arbitrator (in the case of this Tribunal, that means references by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref>).  In such cases the parties are free to make agreements about which provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> should not apply and could exclude all of the provisions listed in rule 30.  If they do not do so, the general rule that the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> do not apply is subject to the exception applying only those provisions specified in rule 30.  Far from being inconsistent with the rule making power, the structure and effect of rule 30 seem to me to mirror it exactly.  In other words, one would expect a rule made under paragraph 14 either to be a general disapplication of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> or to be a list of exceptions to a general rule.  Between them, rule 3 and rule 30 provide the general rule and the exceptions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">To read rule 30 as the claimant does, namely as applying the entirety of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> to references by consent by way of exception to rule 3(2), seems to me to ignore the obvious intent that those provisions which are not mentioned do not apply, even where the Tribunal acts as arbitrator.  There is no hint in the language of rule 30 that the particular provisions referred to have been picked out for special mention and emphasis to resolve doubts which might otherwise arise or to confer a right on the parties to contract out.  If the drafter of the Rules had intended Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> to apply to proceedings before the Tribunal which are a reference by consent, except where the parties have agreed otherwise, that would have been stated in clear terms, rather than by means of the claimant&#8217;s convoluted double negative.  If the claimant is right that the purpose of rule 30 is to exempt references by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref>, 1949 Act from the general disapplication of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> by rule 3(2), one would expect there to be some other category of arbitral proceedings in the Tribunal to which <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> would otherwise apply were it not for rule 3(2).  But the Tribunal&#8217;s only jurisdiction in arbitral proceedings is conferred by <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The claimant&#8217;s argument depends on reading the opening words of rule 3(2), &#8220;except where rule 30 (references by consent: application of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref>) applies&#8221;, as referring to the opening words of rule 30, &#8220;If the reference is by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref> and the parties have not agreed otherwise&#8221;.  But an alternative meaning, which is equally plausible linguistically and makes much better sense, is to read rule 3(2) as meaning that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> does not apply to proceedings in the Tribunal except where it is applied by rule 30.  That reading does not treat the opening words of rule 30 as conditions describing the circumstances in which <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> applies in its entirety by way of exception from rule 3(2).  Instead, it treats rule 30 as a whole as identifying the extent to which <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> applies, as one would expect it to do in view of its heading. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="Normal2" style="margin-left:0.5in">The claimant&#8217;s suggestion that rule 30 is a list of provisions which are included so that they can be disapplied if the parties so choose is not convincing.  Of the provisions identified in rule 30, <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 8</ref>, 23 and 57 (and section 49, which was originally included, but was deleted in 2013) are not amongst the mandatory provisions listed in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> and Schedule 1 to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>, so the effect of applying <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> generally to references by consent would give the parties no additional power to agree that they should not apply.  The four remaining provisions listed in rule 30 (<ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 9</ref>, 10, 12 and 60) and section 66 (which was also originally included but excised in 2013) are included in Schedule 1 as mandatory.  If the claimant is correct in its explanation of the purpose of the list in rule 30 it is surprising to see both mandatory and non-mandatory provisions included in it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">But what of the claimant&#8217;s suggestion that the Lands Tribunal had power to award costs in references by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref> and that the 2010 Rules cannot have been intended to change the basis on which a large but unknown number of contractual arbitration agreements must have been entered into?  Had such a change been intended it would surely have been accompanied by transitional provisions preserving existing rights.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">At the time the Deed of Grant was entered into (October 2001) the Lands Tribunal had power under <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/3/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(5)</ref>, 1949 Act, to order that the costs of any proceedings before it incurred by a party should be paid by any other party.  That power was subject to the remainder of <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3</ref>, including <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/3/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(6)</ref> which conferred the power to make rules regulating proceedings before the Lands Tribunal, including rules applying any of the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>.  At the material time, those rules were the Lands Tribunal Rules 1996.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Part VII of the 1996 Rules (containing rules 25 to 26A) applied to proceedings<span style="font-family:Arial;font-size:13.5pt;color:#3D3D3D;background-color:#FFFFFF"/>before the Lands Tribunal where it was acting as arbitrator under a reference by consent under&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref>&#160;of <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42" uk:canonical="1949 (12, 13 &amp; 14 Geo. 6) c. 42" uk:origin="TNA" uk:type="legislation">the 1949 Act</ref>.  Rule 26 was in similar terms to rule 30 of the 2010 Rules and provided that, unless otherwise agreed by the parties, the same provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> as are now listed in rule 30 were to apply to proceedings under Part VII, in addition to those set out in&#160;rule 32.  Rule 32 applied particular provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> to all proceedings as they applied to an arbitration (those provisions were section 47 (awards on different issues), 49 (interest), 57(3) to (7) (correction of award or additional award), and 66 (enforcement of the award)).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">The claimant originally submitted that, in the absence of any provision equivalent to rule 3(2) of the 2010 Rules, the position before the inception of the Upper Tribunal, Lands Chamber was that the Lands Tribunal had a general power under <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/3/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(5)</ref> to make orders for costs, and the power in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> was not disapplied.  That position, they submit, was preserved by the 2010 Rules.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">As the respondent points out, however, the claimant&#8217;s analysis failed to take account of <ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/3/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(8)</ref>, 1949 Act, which provided at the relevant time that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;margin-right:0.35in">&#8220;Where the Lands Tribunal acts as arbitrator, Part 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> shall apply only in so far as it is applied by rules made under this section.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/1965/56/section/3/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3(8)</ref> had the same effect as rule 3(2) of the 2010 Rules and taken together with rules 26 and 32 of the 1996 Rules it meant that <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> did not apply to references by consent where the Lands Tribunal acted as arbitrator under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref>, 1949 Act.  The previous position was therefore consistent with the respondent&#8217;s case that the Tribunal has no power to order payment of costs under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref>.  Although there is no authority on the point now under consideration, I agree with Mr McGhee KC and Mr Kinman that the decision of the Court of Appeal in <span style="font-style:italic">Goldstein v Conley </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2001/637" uk:canonical="[2001] EWCA Civ 637" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] EWCA Civ 637</ref> (which concerned the enforcement of orders for costs made by the Lands Tribunal) is authority that provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> which did not appear either in rule 26 or in rule 32 of the 1996 Rules had no application to references by consent before the Lands Tribunal.  By the end of the parties&#8217; written exchanges I did not understand Mr Karas KC and Ms Cox to disagree with that analysis.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">Mr Karas KC and Ms Cox eventually rested this part of their case on a different point, namely that under rule 52(1), 1996 Rules the costs of and incidental to any proceedings in the Lands Tribunal were in the discretion of the Tribunal.  That seems to me to be a rather less powerful point than its predecessor (had it not been advanced on an incomplete reading of the 1996 Rules).  Neither the Lands Tribunal nor this Tribunal has ever had power to award costs under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref>, 1996 Act.  When the Tribunals Procedure Committee made the 2010 Rules it did not change that position.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">In support of their reading of rule 3(2) and rule 30 Mr McGhee KC and Mr Kinman made two other points.  The first was that rule 30 had been amended in 2013 to remove reference to sections 49 (interest) and 66 (enforcement) of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref>, excisions which would have served no purpose if, as the claimant asserts, Part 1 of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> applies in its entirety to references by consent and the purpose of rule 30 is merely to identify provisions which the parties may agree should be disapplied.  The claimant provided an explanation, at least in relation to interest, that at the same time as reference to section 49 was removed from rule 30, a new rule 52(1) was introduced giving the Lands Tribunal a new power to award interest.  The second point was that many provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> would not fit well with the Tribunal&#8217;s own rules.  Neither of these points seems to me to be of much significance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">I agree with the claimant that where rights over land have been acquired by a public authority, in the absence of some good reason, one would expect the cost of determining the amount of compensation to which the former owner is entitled to be paid by that authority.  It would also be unattractive for an understanding about costs to be disturbed inadvertently by a change to tribunal rules.  There may be three answers to that point.  The first is that if I am rights about the meaning of rule 10(6) there has been no such change.  The second is that the suggested change is not a sufficiently good reason to adopt a wholly implausible interpretation of the 2010 Rules.  The third is that the parties were free when they negotiated the Deed of Grant to specify how the costs of a reference by consent were to be treated; having chosen not to write their own rules, they must be taken to have been willing to accept that their dispute would be resolved according to the tribunal rules in force when it arose. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_97">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">97.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in">For these reasons I conclude that when the Tribunal acts as arbitrator to determine this reference by consent under <ref href="http://www.legislation.gov.uk/id/ukpga/Geo6/12-13-14/42/section/1/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(5)</ref>, 1949 Act, it has no power to award costs under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/61" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 61</ref>, 1996 Act, but it does have power to do so under rule 10(6)(b) of the 2010 Rules.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:4.5in">Martin Rodger KC</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:4.5in">Deputy Chamber President</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Normal2" style="margin-left:4.5in"><docDate date="2023-05-03" refersTo="#decision">3 May 2023</docDate></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <attachments>
+      <attachment>
+	<doc name="annex">
+	  <meta>
+	    <identification source="#tna">
+	      <FRBRWork>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/23/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/23"/>
+		<FRBRdate date="2023-05-03" name="decision"/>
+		<FRBRauthor href="#ukut-lc"/>
+		<FRBRcountry value="GB-UKM"/>
+	      </FRBRWork>
+	      <FRBRExpression>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23"/>
+		<FRBRdate date="2023-05-03" name="decision"/>
+		<FRBRauthor href="#ukut-lc"/>
+		<FRBRlanguage language="eng"/>
+	      </FRBRExpression>
+	      <FRBRManifestation>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23/annex/1/data.xml"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/23/data.xml"/>
+		<FRBRdate date="2024-11-09T20:02:08" name="transform"/>
+		<FRBRauthor href="#tna"/>
+		<FRBRformat value="application/xml"/>
+	      </FRBRManifestation>
+	    </identification>
+	  </meta>
+	  <mainBody>
+	    <p class="Normal2" style="text-align:center"><span style="font-weight:bold">Appendix</span></p>
+	    <p class="Normal2"><span style="font-weight:bold">Rule 10 of the Tribunal Procedure (Upper Tribunal) Lands Chamber) Rules 2010 as originally made</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;color:#3D3D3D">10.&#8212;&#160;Orders for costs</span></p>
+	    <blockContainer>
+	      <num>(1)</num>
+	      <p style="text-align:justify;margin-left:0.14in;text-indent:0.36in"><span style="color:#000000">The Tribunal may make an order for costs on an application or on its own initiative.</span></p>
+	    </blockContainer>
+	    <p style="text-align:justify;margin-left:0.14in"><span style="color:#000000">(2)-(5) [Procedure for making applications and determining costs].</span></p>
+	    <blockContainer>
+	      <num>(6)</num>
+	      <p style="text-align:justify;margin-left:0.14in;text-indent:0.36in"><span style="color:#000000">The Tribunal may order a party to pay to another party costs of an amount equal to the whole or part of any fee paid (which has not been remitted by the Lord Chancellor under the </span>Upper Tribunal (Lands Chamber) Fees Order 2009<span style="color:#000000">) in the proceedings by that other party that is not otherwise included in an award of costs.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(7)</num>
+	      <p style="text-align:justify;margin-left:0.14in;text-indent:0.36in"><span style="color:#000000">In an appeal against the decision of a leasehold valuation tribunal, the Tribunal may not make an order for costs except&#8212;</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(a)</num>
+	      <p style="text-align:justify;margin-left:0.28in;text-indent:0.22in"><span style="color:#000000">under </span><a href="https://uk.westlaw.com/Document/IDA6521D1433911DCB016F6FD952C4D97/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;vr=3.0&amp;rs=PLUK1.0&amp;contextData=(sc.DocLink)"><ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/29/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29(4)</ref></a><span/><span style="color:#000000">of <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> (wasted costs);</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(b)</num>
+	      <p style="text-align:justify;margin-left:0.28in;text-indent:0.22in"><span style="color:#000000">under paragraph (6); or</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(c)</num>
+	      <p style="text-align:justify;margin-left:0.28in;text-indent:0.22in"><span style="color:#000000">if the Tribunal considers that the party ordered to pay costs has acted unreasonably in bringing, defending or conducting the proceedings.</span></p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(8)</num>
+	      <p style="text-align:justify;margin-left:0.14in;text-indent:0.36in"><span style="color:#000000">The amount that may be awarded under paragraph (7)(c), disregarding any amount that may be awarded under paragraph (6), must not exceed &#163;500.</span></p>
+	    </blockContainer>
+	    <p class="Normal2"><span style="font-weight:bold">Rule 10 of the Tribunal Procedure (Upper Tribunal) Lands Chamber) Rules 2010 as amended (with effect from 1 July 2013)</span></p>
+	    <p class="Normal2">10.&#8212; Orders for costs</p>
+	    <blockContainer>
+	      <num>(1)</num>
+	      <p class="Normal2" style="text-indent:0.5in">The Tribunal may make an order for costs on an application or on its own initiative.</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(2)</num>
+	      <p class="Normal2" style="text-indent:0.5in">Any order under paragraph (1)&#8212;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(a)</num>
+	      <p class="Normal2" style="text-indent:0.5in">may only be made in accordance with the conditions or in the circumstances referred to in paragraphs (3) to (6);</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(b)</num>
+	      <p class="Normal2" style="text-indent:0.5in">must, in a case to which <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 4</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref> applies, be in accordance with the provisions of that section.</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(3)</num>
+	      <p class="Normal2" style="text-indent:0.5in">The Tribunal may in any proceedings make an order for costs&#8212;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(a)</num>
+	      <p class="Normal2" style="text-indent:0.5in">under <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/29/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 29(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">the 2007 Act</ref> (wasted costs) and for costs incurred in applying for an order for such costs;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(b)</num>
+	      <p class="Normal2" style="text-indent:0.5in">if the Tribunal considers that a party or its representative has acted unreasonably in bringing, defending or conducting the proceedings; or</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(c)</num>
+	      <p class="Normal2" style="text-indent:0.5in">in the circumstances to which paragraph (14) refers.</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(4)</num>
+	      <p class="Normal2" style="text-indent:0.5in">Except in proceedings to which paragraph (5) or (6) apply, the Tribunal may&#8212;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(a)</num>
+	      <p class="Normal2" style="text-indent:0.5in">with the consent of the parties, or</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(b)</num>
+	      <p class="Normal2" style="text-indent:0.5in">where there is a disparity of interest or resources between the parties,</p>
+	    </blockContainer>
+	    <p class="Normal2">direct that an order for costs may be made in the proceedings against one or more of the parties in respect of costs incurred following such a direction.</p>
+	    <blockContainer>
+	      <num>(5)</num>
+	      <p class="Normal2" style="text-indent:0.5in">The Tribunal may make an order for costs in judicial review proceedings.</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(6)</num>
+	      <p class="Normal2" style="text-indent:0.5in">The Tribunal may make an order for costs in proceedings&#8212;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(a)</num>
+	      <p class="Normal2" style="text-indent:0.5in">for compensation for compulsory purchase;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(b)</num>
+	      <p class="Normal2" style="text-indent:0.5in">for injurious affection of land;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(c)</num>
+	      <p class="Normal2" style="text-indent:0.5in">under section 84 of the Law of Property Act 1925 (discharge or modification of restrictive covenants affecting land);</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(d)</num>
+	      <p class="Normal2" style="text-indent:0.5in">on an appeal from a decision of the Valuation Tribunal for England or the Valuation Tribunal for Wales.</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(7)</num>
+	      <p class="Normal2" style="text-indent:0.5in">Subject to paragraph (3), in proceedings to which paragraph (6) applies, the Tribunal may direct that no order for costs may be made against one or more specified parties in respect of costs subsequently incurred.</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(8)</num>
+	      <p class="Normal2" style="text-indent:0.5in">In proceedings to which paragraph (6) applies, the Tribunal must have regard to the size and nature of the matters in dispute.</p>
+	    </blockContainer>
+	    <p class="Normal2">(9)-(13) [Procedure for making applications and determining costs]</p>
+	    <blockContainer>
+	      <num>(14)</num>
+	      <p class="Normal2" style="text-indent:0.5in">The Tribunal may order a party to pay to another party costs of an amount equal to the whole or part of any fee paid (which has not been remitted by the Lord Chancellor under the Upper Tribunal (Lands Chamber) Fees Order 2009) in the proceedings by that other party that is not otherwise included in an award of costs.</p>
+	    </blockContainer>
+	    <p class="Normal2"><span style="font-weight:bold">Rule 10(6) of the Tribunal Procedure (Upper Tribunal) Lands Chamber) Rules 2010 as amended (with effect from 1 April 2022)</span></p>
+	    <blockContainer>
+	      <num>(6)</num>
+	      <p class="Normal2" style="text-indent:0.5in">The Tribunal may make an order for costs in proceedings&#8212;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(a)</num>
+	      <p class="Normal2" style="text-indent:0.5in">for compensation for compulsory purchase;</p>
+	    </blockContainer>
+	    <p class="Normal2">(aa) under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/9-10/33" uk:canonical="1961 (9 &amp; 10 Eliz. 2) c. 33" uk:origin="TNA" uk:type="legislation">the 1961 Act</ref>;</p>
+	    <blockContainer>
+	      <num>(b)</num>
+	      <p class="Normal2" style="text-indent:0.5in">for injurious affection of land;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(c)</num>
+	      <p class="Normal2" style="text-indent:0.5in">under section 84 of the Law of Property Act 1925 (discharge or modification of restrictive covenants affecting land);</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(d)</num>
+	      <p class="Normal2" style="text-indent:0.5in">on an appeal from a decision of the Valuation Tribunal for England or the Valuation Tribunal for Wales;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(e)</num>
+	      <p class="Normal2" style="text-indent:0.5in">under Schedule 3A to the Communications Act 2003;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(f)</num>
+	      <p class="Normal2" style="text-indent:0.5in">under the Riot Compensation Act 2016; and,</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(g)</num>
+	      <p class="Normal2" style="text-indent:0.5in">on any appeal from the First-tier Tribunal relating to&#8212;</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(i)</num>
+	      <p class="Normal2" style="text-indent:0.5in">a reference by the Chief Land Registrar, or</p>
+	    </blockContainer>
+	    <blockContainer>
+	      <num>(ii)</num>
+	      <p class="Normal2" style="text-indent:0.5in">any other application, matter or appeal under the Land Registration Act 2002.</p>
+	    </blockContainer>
+	    <p><span style="font-weight:bold">Right of appeal&#160;</span></p>
+	    <p style="text-align:justify">Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</p>
+	  </mainBody>
+	</doc>
+      </attachment>
+    </attachments>
+  </judgment>
+</akomaNtoso>

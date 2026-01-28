@@ -1,0 +1,980 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/165"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/165"/>
+	  <FRBRdate date="2025-11-12" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="165"/>
+	  <FRBRname value="A &amp; Anor v C Limited &amp; Ors"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/165"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/165"/>
+	  <FRBRdate date="2025-11-12" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/165/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/165/data.xml"/>
+	  <FRBRdate date="2025-11-12T11:24:24" name="transform"/>
+	  <FRBRdate date="2025-11-12T12:27:56" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-11-12" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-and-b" href="" showAs="A and B"/>
+	<TLCPerson eId="c-limited-d-e-f-g" href="" showAs="C LIMITED, D, E, F, G"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>165</uk:number>
+	<uk:cite>[2025] EAT 165</uk:cite>
+	<uk:caseNumber>EA-2022-001436-NK</uk:caseNumber>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>aca0dc0c489251cdd8bed5cdb7209e03d13c0d363033fe5a5395dfb35625c895</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:6pt">A and B v C Ltd and others</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 165</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2022-001436-NK</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-11-12" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">12 November 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#a-and-b"><span style="font-weight:bold;font-size:12pt">A and B </span></party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellants</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#c-limited-d-e-f-g"><span style="font-weight:bold;font-size:12pt">C LIMITED, D, E, F, G</span></party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondents</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellants </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">in person </span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">No attendance or representation for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondents </span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 25 September 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HARASSMENT; VICTIMISATION</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Both claimants were former employees of the first respondent.  The other respondents worked for the company in various capacities.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At a liability hearing the second claimant succeeded in a number of complaints of unlawful harassment, victimisation and constructive dismissal.  The first claimant, who had supported her, succeeded in complaints of victimisation and constructive dismissal.  This appeal challenged aspects of the tribunal&#8217;s subsequent decision on remedy, in respect of both claimants.  </span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The EAT identified a number of errors of principle in the tribunal&#8217;s decision.  These included: a failure, when considering </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> uplift, properly to take into account its own previous findings regarding the handling of both claimants having been suspended, and an investigation initiated, on &#8220;trumped up&#8221; misconduct allegations, and as to defects in the handling of grievances; and errors in the tribunal&#8217;s approach to medical evidence relating to the second claimant, and her claims for loss or remuneration and damages for personal injury, included issues of causation.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Introduction and Factual Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">This is the appeal of the claimants in the employment tribunal from a remedy decision of EJ Hutchinson, Mr J Akhtar and Mrs L Lowe arising from a hearing at Nottingham in August 2022.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimants were both employed by the first respondent, C Ltd.  Mr A was employed from February 2016 and Ms B from October 2015.  Both of them resigned on notice on 29 October 2018 with effect on 29 November 2018.  The second respondent, Mr D, was the first respondent&#8217;s COO; the third respondent, Mr E, a Team Leader and the claimants&#8217; supervisor; the fourth respondent, Mr F, a Deputy Team Leader; and the fifth respondent, Mr G, a Deputy Manager.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The factual background, so far as relevant to this appeal, which I take from the tribunal&#8217;s liability and remedy decisions, or contemporaneous documents before me, is this.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In March 2018 Mr A and Ms B formulated an idea for a new business, which they did not consider would compete with C Ltd.  Certain managers at C Ltd knew about it, but no action was taken.  The tribunal said that there &#8220;really was no problem with this business idea&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In July 2018 Ms B raised with HR a formal grievance of sexual harassment, making multiple serious allegations of incidents of verbal and physical harassment, mainly on the part of Mr E, in 2017 and 2018.  Following a meeting, at which he denied physical harassment, but admitted to some alleged comments, Mr E was demoted.  He appealed.  Ms B raised the matter again, providing a supporting statement from Mr A.  She subsequently provided further corroborating evidence.  There was no investigation and no response to her grievance.  On her return from holiday on 13 August she was told that Mr E was being given a second chance.  He met with Ms B and said that he had learned from his mistakes and apologised.  He went on to say: &#8220;Oh God, this is like couples therapy.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms B felt isolated and unsupported.  Around 21 August 2018 there was a desk move, which the tribunal found was done in order to separate Ms A and Mr B, because they were perceived to be communicating too much with each other and not the rest of the team.  Mr A was also given an informal performance warning.  On 24 August Ms B, and on 30 August Mr A, went on leave.  They both returned on 11 September, whereupon both were suspended.  They were told this was in relation to conduct issues.  Ms B suffered a panic attack and had to attend her GP.  Because she was unwell an investigation meeting with her the next day was put off.  She remained suspended.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 12 September Ms B raised a second formal grievance.  She complained about events which had occurred after she had first complained, and then raised her first formal grievance, alleging bullying and harassment.  She said that she felt that she had been victimised for complaining about Mr E.  On 14 September Mr A raised a grievance that he had been victimised for supporting Ms B.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Cook of external consultants, Peninsula, held a grievance meeting with Ms B on 25 September 2018.  Ms Cook conducted some other interviews.  On 27 September 2018 Ms Crossley of Peninsula held a grievance meeting with Mr A.  Ms Crossley conducted some other interviews.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A report into Mr A&#8217;s alleged conduct was produced, also by Peninsula, on 4 October 2018.  It concluded that there was no evidence that he had purposely or intentionally stolen any data or clients to benefit his (proposed) new company.  It also advised that a letter of concern should be issued to him about conversations referring to management negatively, but that no further action should be taken in that regard.   It advised that he should be given a copy of the report.  However, Mr A was not told of, or given, the report, nor a letter of concern.  Mr A and Ms B remained suspended. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">C Ltd paid a quarterly profit bonus of &#163;1500 to qualifying employees, including Mr A and Ms B.  They were both due to receive a quarterly payment with their pay on 15 October 2018, but it was not paid to them.  In an email they were told that it was being withheld pending the outcome of the Peninsula conduct investigation.  Mr A objected that this was an act of victimisation.  Neither knew at this time that the Peninsula conduct investigation had in fact been completed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">At some point in October 2018 Ms B (who been off sick since after her suspension) was signed off for a further period.  Mr A also went off sick during October.  On 23 October Mr A chased the bonus again in strong terms, but this was ignored.  On 22 October Ms B was notified by Spotify that her premium service was terminated.  This service had been a gift from C Ltd to employees.  She believed the termination of it was the result of action by C Ltd.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 29 October 2018 both claimants resigned on notice.  Between them they complained of harassment, discrimination, victimisation and the withholding of the quarterly bonuses.  In a subsequent communication the Head of HR told Mr A that his bonus had been withheld during the Peninsula investigation, despite knowing that the investigation had already been completed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Crossley&#8217;s report on Mr A&#8217;s grievance was dated 13 November.  His complaints were partially upheld, but mostly rejected.  Ms Cook&#8217;s report on Ms B&#8217;s grievance was dated 14 November.  The tribunal said it was unclear whether Ms Cook found physical assault to have occurred; but the tribunal could only conclude that Ms Cook found the allegations to be in some way unsubstantiated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 16 November 2018 the claimants began their tribunal claims.  They were both sent their respective grievance outcome reports on 27 November.  On 29 November the resignations took effect.  It appears that they both received their withheld bonus payments in their final pay packets.  Both claimants appealed the Peninsula grievance outcomes and there were grievance appeal hearings for each of them in December 2018 with outcome reports following in January and February 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the liability decision, arising from a hearing in 2021, the tribunal upheld the following complaints: by Mr A of victimisation in respect of being suspended and withholding of bonus, and of constructive unfair dismissal; and by Ms B in respect of some 12 complaints of sexual harassment, 3 of harassment related to age (after some further findings were reversed upon later reconsideration), victimisation relating to her suspension and to withholding of bonus, and constructive unfair dismissal.  The tribunal found that the main reason for the resignations was the &#8220;campaign&#8221; of harassment, discrimination and victimisation, that particularly Ms B had suffered, and, to a lesser extent, also Mr A, who had supported her.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There was a remedy hearing in August 2022.  In its remedy decision the tribunal made, in respect of both claimants, basic awards and small compensatory awards for unfair dismissal to reflect loss of statutory rights.  In both cases, the awards for pecuniary loss formed part of the compensation for the successful </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Equality Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> complaints, in respect of which the tribunal also made awards to them both for injury to feelings and by way of interest.  There were agreed deductions to reflect a fees award made in an earlier appeal to the Court of Appeal.  The grand total of Mr A&#8217;s various awards was just short of &#163;29,000.  Those for Ms B, after grossing up, amounted to a final total exceeding &#163;90,000.  The unfair dismissal awards were against C Ltd, the other awards against all respondents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants submitted a joint notice of appeal from the remedy decision.  </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At a preliminary hearing </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">five grounds were permitted to proceed to this full appeal hearing</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Both claimants appeared at it in person.  There was no appearance by, or for, the respondents</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.  The first respondent is in liquidation.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">  Having failed file Answers or respond to letters or directions from the EAT, the first and second respondents were debarred by the Registrar.  The other respondents also failed to file Answers and had been notified by the Registrar that they were not permitted to participate in the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground of Appeal, the Tribunal&#8217;s Decision, Discussion, Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I will consider grounds 2 &#8211; 5 first, before then turning to ground 1.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 2 concerns the power arising from section 207A </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/1992/52" uk:canonical="1992 c. 52" uk:origin="TNA" uk:type="legislation">Trade Union and Labour Relations (Consolidation) Act 1992</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> in cases where the tribunal finds that a party has unreasonably failed to comply with a relevant Code of Practice.  In such a case it may adjust a relevant award, if it considers it just and equitable to do so, by up to 25%.  At the remedy hearing the claimants sought uplifts of the relevant awards on the basis that there had been an unreasonable failure by the respondents to comply with the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code of Practice 1 on Disciplinary and Grievance Procedures</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (2015).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the remedy decision, after deciding not to reduce the awards to the claimants either for contributory conduct, or by way of a </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Polkey</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> reduction (the respondents had relied upon earlier findings that both claimants had sent emails with offensive content), the tribunal continued:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">&#8220;48.9</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Having decided that we are not prepared to reduce the awards because of Polkey or contributory conduct, we are satisfied that it would not be appropriate to increase or reduce the awards because of a breach of the ACAS Code of Practice. It is fair for Mr Lassey to point out that this is not a case where no process was followed at all. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.10</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">The Claimants were invited to attended suspension meetings when the allegations were put to them and an investigation was conducted externally into those matters. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.11</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We are also satisfied that an uplift in awards would be excessive given the broad degree of compliance with the ACAS Code of Practice in this case. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.12</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">So far as the grievances are concerned, we are satisfied that the Respondent did follow the ACAS Code of Practice. Shortly after the submission of their grievances, they were invited to and attended grievance meetings with external HR consultants. Following those grievance meetings, further investigations were conducted before compiling reports. The Claimants were then provided with outcomes to their grievances and provided with rights of appeal, which they exercised. There were then further appeal meetings, and they were given an outcome in respect of that. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.13</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We are not satisfied in this case that there is any breach of the ACAS Code of Practice in respect of those grievances and no uplift would be appropriate.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This reasoning appears in a section dealing with the awards to Mr A, but it refers to both claimants, and the tribunal indicated at [49.19] that it applied to Ms B as well.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants argued that the sense of the opening words of [48.9] was that the tribunal considered that </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">because</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> it had decided not to reduce the awards for contributory conduct or by way of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Polkey</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> reduction, </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">therefore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> it would not be appropriate to make an </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS-Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> uplift either.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Had that been what the tribunal thought, that would indeed have been an error; but I do not read this passage in that way.  Rather, this formed part of a section of the decision in which the tribunal was considering various possible adjustments to the awards.  Having first considered </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Polkey</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, and then contributory conduct, it then turned at [48.9] to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS-Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> uplift.  It introduced this passage by flagging up that, having decided to make no </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">reduction</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to the awards, it had also decided that it would not be appropriate to </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">uplift </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">them either.  Its substantive reasoning then appears in the remainder of [48.9] through to [48.13].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The main challenge under ground 2 contends that the conclusions in the remedy decision on the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS-Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> uplift issue conflict with multiple findings made in the liability decision, which in substance amounted to findings of failures to comply with the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">. The claimants particularly contend that the statement in the remedy decision that there was a &#8220;broad degree of compliance&#8221; with the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> is flatly at odds with the body of multiple findings made in the liability decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In this case, in circumstances that I will describe, the EAT received a letter from the employment judge commenting on this ground.  In substance he makes the following points.  First, the judge says that he is satisfied that, had it found there to have been a breach of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, the tribunal would not have exercised its discretion to increase the award.  Secondly, while the tribunal criticised the respondents&#8217; conduct at length in their liability decision, including failures to follow their own procedures, that it is a separate matter from the minimum standards set by the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  Finally the judge observes that, as the tribunal was not satisfied that there was a breach, it was not appropriate to uplift &#8220;what was already a substantial award&#8221; of compensation to the claimants.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By the claimants&#8217; reckoning there were 42 findings in the liability decision of factual conduct which, they say, were indicative of a failure to follow the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  In the main body of the grounds they highlight the following.  In the conclusions relating to constructive dismissal, at [386] the tribunal found that Ms B&#8217;s first grievance (of July 2018) was not taken seriously.  There was &#8220;no meeting&#8221; with Ms B to discuss it and &#8220;no investigation&#8221;.  She was not told of the outcome of the meeting with Mr E.  At [387] the tribunal found that both claimants were suspended on &#8220;trumped up&#8221; allegations of misconduct and remained on suspension even when these were found to be untrue.  I have also considered all the other passages which they contend amount to finding of a breach of some or other requirement of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, and which it is not necessary to reproduce here.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants also submitted that, to the extent that some requirements of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> were ostensibly complied with, these actions were a sham or done in bad faith, and so should not have been considered to amount to actual compliance, citing </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Rentplus UK Ltd v Coulson</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2022] ICR 1313" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] ICR 1313</ref> (EAT) at [37] to [40] and earlier authorities referred to there.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">My conclusions on this part of ground 2 are as follows.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, it appears to me that a number of passages in the liability decision set out by the claimants, are passages in which the tribunal did criticise the respondents for not following the company&#8217;s own procedures, or in other ways, but which cannot be correlated to specific requirements of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  However, they also identify a number of other findings in the liability decision which, on their face, do appear at least arguably to point to a failure to comply with it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I take, first, Ms B&#8217;s first formal grievance, raised in July 2018, which was her substantive complaint of harassment.  Para. 4 of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> requires employers to deal with issues promptly, not unreasonably delay meetings or decisions, and carry out any necessary investigations to establish the facts of the case.  Para. 33 requires the employer to arrange a formal meeting without delay; and para. 44 requires it to thereafter give a written decision, allowing a right of appeal.  However, in the liability decision, the tribunal found that neither Ms B, nor Mr A or other witnesses she named, were interviewed, no action was taken, a meeting was suggested on 19 July, but did not take place, and when individuals provided further supporting information, they were not interviewed and it was not investigated.  The tribunal concluded at [199] that &#8220;no-one responded to her grievance in any way.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Turning to the conduct allegations which were the ostensible basis for the suspensions, as already noted, para. 4 of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> refers to the need to avoid unreasonable delay, including in reaching, and communicating, decisions.  Para. 5, refers, in a case involving disciplinary issues, to the possibility of an initial investigatory stage, and para. 8 to the need for any period of suspension to be &#8220;as brief as possible&#8221;.  However, in the liability decision the tribunal found that neither Mr A nor Ms B was told about the Peninsula conduct report, nor its outcome, when it was delivered, and both remained suspended after that time.  It also found that the allegations had been &#8220;trumped up&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to Ms B&#8217;s second grievance and Mr A&#8217;s first grievance, the tribunal found that, in each case, someone from Peninsula was appointed to investigate, that person did meet with the complainant, did conduct other interviews, and did produce a report.  After being given their respective reports, both claimants were also enabled to exercise rights of appeal.  The tribunal did not find the decision to appoint these two individuals to investigate these grievances to be a sham (nor did it so find in relation to their investigations or reports).  That said, in the liability decision the tribunal also noted that Ms Cook did not interview three individuals who had supported the claimant&#8217;s initial allegations (including Mr A).  She was also not provided with the documentation provided by the claimant in support of her original complaint.  As for Ms Crossley&#8217;s investigation into Mr A&#8217;s grievance, she interviewed a number of people, but not Mr B.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Standing back, there is no explanation by the tribunal for its general conclusion that there was a &#8220;broad degree of compliance&#8221;.  Had it been concerned only with the handling of the second of Ms A&#8217;s grievances, and Mr B&#8217;s grievance, I can see how it might have come to such a view.  But given the findings made in the earlier liability decision with respect to Ms B&#8217;s first grievance, which was the substantive grievance relating to alleged harassment, I cannot see how it could have concluded that there was a broad degree of compliance in that regard.  Both claimants were also successful in relation to the complaints about their suspensions on &#8220;trumped up&#8221; charges, so the question of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> uplift needed to be considered in relation to those as well; and, again it is difficult to see, in light of the trenchant liability findings, how the tribunal could have considered that there was broad compliance in that respect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For all those reasons, I uphold this part of ground 2.  Fresh consideration will need to be given to whether there were, in these respects, breaches of the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, and, if so, the other statutory questions.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Grounds 3 and 4</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3 is headed &#8220;mitigation and loss of earnings&#8221;.  Ground 4 relates to the tribunal&#8217;s decision not to make any award to either claimant for damages for personal injury.  I will consider both grounds together.  First, I will set out the relevant passages in the remedy decision.</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">&#8220;10.9</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Mr A is claiming losses for the period from the termination of his employment until today&#8217;s date and beyond.  This is because he says that he has been designated as being unfit for work since October 2018. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.10</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Mr A has not produced any evidence to satisfy the Tribunal that the reason for him being unfit for work is solely or mainly attributable to the Respondents&#8217; conduct. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.11</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We have seen his medical records and we can see that he had a preexisting and longstanding history of depression. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.12</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">His mother was diagnosed with cancer in around January 2019 and we are satisfied that was a contributory factor towards him being unfit to work. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.13</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">In his cross-examination, Mr A accepted that the cause of his illness was &#8220;multifaceted and not straightforward&#8221; and we have no expert medical opinion produced to us which shows the cause of it was solely or mainly attributable to the Respondents&#8217; conduct. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.14</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We also note that Mr A was suffering from a gastric condition from at least May 2018, which was later diagnosed as gastritis.  This is why he had been absent in June 2019 and this predates any act of victimisation that he suffered. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.15</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We also note that Mr A has not provided any evidence that his anxiety and depression continued to render him unable to work from February 2021 onwards.  On that date, his GP notes record him as having stated that he was: &#8220;Starting to lift his mood&#8221; (page 243R) following which there are no further entries in relation to anxiety and depression.  We note that there has been no medical intervention for a period of well over 18 months since this period.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.16</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We note that Mr A has not made any effort whatsoever to undertake any search for any form of work, undertake training or even do any voluntary work.  In our view, he has failed to mitigate his loss. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.17</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">He impressed us as an articulate and intelligent  graduate and holds a degree in business administration.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.18</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">In this case, we are satisfied that he has made an active and conscious decision not to look for work for almost 4 years.  That is not mitigating your losses. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">10.19</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We note that his GP was actively encouraging him in March and April 2019 to look for work and, despite this encouragement, which has continued since that date, he has not made any effort to find anything to do.&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in">&#8230; &#8230; &#8230;</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">11.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">7 I</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">t can be seen from Ms B&#8217;s schedule of loss that, like Mr A, she says that she has been unfit to work since she resigned from her employment with the Respondents.   In fact, she had been signed off sick from October 2018.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.8</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">The original reason for her absence from work was stated as being PTSD.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.9</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We have been able to view her medical records and it can be seen from those medical records at that time that this was given as the reason for her absence. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.10</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We also note, and have been reminded by the Respondents, that my colleague, Employment Judge Blackwell, made a factual finding that her PTSD stemmed from sexual abuse in her childhood (page 222R). </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.11</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">This Tribunal is bound by that finding.  The Claimant knew that this would be the case because she discussed that at a preliminary hearing held with Regional Employment Judge Swann on 14 and 22 June.  She had an opportunity to appeal that factual finding but chose not to do so. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.12</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">It can be seen then that the operative cause of Ms B&#8217;s absence was, according to her own medical records, because of an illness that was entirely unrelated to the Respondents actions. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.13</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We acknowledge that the Claimant does not accept this, saying that it was the discrimination that she suffered that caused her to be unfit to work. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.14</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">There is no medical evidence to show us that the losses are solely or mainly attributable to the Respondent&#8217;s conduct in this case. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.15</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">The Tribunal also notes that the Claimant has not provided us with any evidence that her illness continued to render her unable to work from around August 2019 onwards.  On her visit to her GP in July 2019, her mood was: &#8220;stable&#8221; and that anxiety and depression was: &#8220;under control&#8221; (page 92R). </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.16</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">It can be seen from her medical records, and indeed  it is confirmed by Ms B, that her medication had been stabilised at this  point and she only visited her GP sporadically thereafter. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.17</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Despite this, Ms B maintains that she has remained unable to work on account of her anxiety and depression throughout the period.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.18</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We note in respect of Ms B that she holds a first-class LLM degree and speaks five languages.  Like Mr A, she is articulate and intelligent and we are satisfied that she could have reasonably been expected to take some steps to find alternative work or to mitigate her losses in some way. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.19</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We are satisfied that Ms B has made an active and conscious decision not to work for almost 4 years.  She has not even attempted to apply for non-office-based roles, or take any opportunity for part-time, or voluntary work or even to undertake any further training. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.20</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Insofar as her claim for losses, Ms B does have a responsibility to satisfy us that she is making some attempt to move on with her life, but she has not. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.21</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">By saying this, we do not want anyone to have the impression that we expected the Claimant to go out and get a job immediately after she had suffered the way that she had from the behaviour of the Respondents. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">11.22</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We are satisfied that if she had acted reasonably, she would have been able to obtain alternative work within 12 months of leaving her employment and that is what we have decided in terms of her compensatory award.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">&#8230; &#8230; &#8230; </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.15</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We are satisfied that although Mr A has been designated as unfit to work since October 2018, there has been a complete failure to mitigate his loss.  There is no evidence that his medical issues relate to the discrimination he says that he suffered.  We remind ourselves that there are only two acts of discrimination, although they also led to his resignation. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.16</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">In this case, we note that Mr A has not done anything at all since he went off sick in October 2018.  That is a period of almost 4 years, during which not only has he not sought work at all, but he has not undertaken any training or even done any voluntary work.  We also note that his GP in the notes has been encouraging him to find work, but he has failed to do so. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.17</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Whilst the Claimant had been suffering from anxiety when he left, we are satisfied that he should have been able to start looking for work within 4 - 6 weeks and should have been able to obtain appropriate work within a 6-month period.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">&#8230; &#8230; &#8230; </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.30</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">So far as Mr A&#8217;s other claims are concerned, we see that he has claimed personal injury.  In this case, all that we have seen was Mr A&#8217;s GP reports.  We have had no expert medical evidence as to his background and precise medical history nor have we had any evidence about the cause of any issues that he has had. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.31</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">As we have described above, we have seen that there have been several possible causes to his various conditions and, without any medical advice, we cannot make any finding that the respondents are in any way responsible for any conditions he has suffered from. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">48.32</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">In this respect, we remind ourselves that the burden of proof is on the Claimant to show that the Respondents&#8217; conduct caused the psychiatric injury Mr A says that he suffered, and it is just not possible for us to make any findings in respect of that in this case. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">&#8230; &#8230; &#8230; </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.4</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">In Ms B&#8217;s case, whilst we understand and appreciate the distress that she suffered during her employment, she has not made any efforts to mitigate her loss at all, simply saying to us that she has been unfit to work for a period of about 4 years.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.5</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">She has not made any effort to obtain any employment; to undertake any training or even to do any voluntary work.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.6</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">The Claimant has some difficulty over the question of the causation of her loss.  She blames the behaviour of the Respondents for her PTSD condition.  Our difficulty was Employment Judge Blackwell&#8217;s factual finding at the preliminary hearing to determine disability where he said that Ms B&#8217;s PTSD stemmed from sexual abuse in her childhood.  As Mr Lassey has pointed out, we are bound by that finding, as confirmed by Regional Employment Judge Swann at the preliminary hearings held on 14 and 22 June 2021.  Ms B had an opportunity to appeal that finding but chose not to do so. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.7</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Accordingly, the operative cause of Ms B&#8217;s absence from work from at least December 2019 was, according to her own medical records, because of an illness that was unrelated to the Respondents&#8217; actions. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.8</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Having been satisfied that there is this issue of causation of her failure to find employment, we then must consider how soon she would have been able to obtain employment if she had been making efforts to mitigate her losses. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.9</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We note that as early as July 2019 in her medical reports it refers to her condition as being stable and that her anxiety and depression was under control and that after July 2019, Ms B only visited her GP sporadically. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.10</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We are satisfied that by July 2019, the Claimant certainly should have been looking for alternative work and she should have been able to find alternative work within 12 months of the loss of her employment in November 2018. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.11</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">We consider, as with Mr A, that Ms B was a highly qualified, not to mention articulate and intelligent, individual who should not have been out of work for 4 years.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">&#8230; &#8230; &#8230; </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.20</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">In respect of the claim for personal injury for Ms B, the issue for her is over the question of causation.  As Mr Lassey describes, psychiatric injuries are often complex medical conditions and in Ms B&#8217;s case we have no medical evidence regarding her background or medical history.  The exact cause of the matters that she suffers from are not easily identifiable and, in this case, there are many possible causes or contributory factors to her medical conditions. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">49.21</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">As with Mr A, we have to remember that the burden of proof is on Ms B to show that the Respondents&#8217; conduct caused the psychiatric injury complained of and the pre-existing condition of PTSD, which we are bound by, means that we cannot establish that Ms B has suffered any psychiatric injury as a result of the behaviour of the Respondents.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">When calculating the loss-of-remuneration elements of its awards, the tribunal used an underlying loss period for Mr A of 26 weeks, and for Ms B of one year.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 3 makes, in summary, the following criticisms of the decision: (1) that the tribunal found that neither claimant had mitigated losses &#8220;despite recognising [that they] were designated unfit to work.&#8221;; (2) that the tribunal erred by failing to recognise that the respondent had the burden to show that there had been some unreasonable failure to act by the claimants; (3) that the periods of loss of earnings awarded were arbitrary or unexplained, as they did not correspond to any other findings; and (4) that the tribunal erred by considering, in the context of mitigation, whether the ill health arose from the respondents&#8217; conduct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 4, which refers to the failure to make awards of compensation for personal injury, raises the criticisms that the tribunal erred: (1) by concluding that it could not determine causation of either claimant&#8217;s ill health without expert medical evidence; and (2) by failing to apply the principle that it could make a percentage allocation in a case where the harm suffered is divisible.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr A contends that the tribunal had evidence that he was designated medically unfit to work for the whole period since October 2018, including having been assessed for benefit purposes as having Limited Capability for Work and Work-Related Activity (LCWRA); and of GP&#8217;s notes and a therapist&#8217;s letter linking his depression and anxiety to treatment at work.  He criticises the tribunal for &#8220;overruling&#8221; the DWP assessment.  Ms B contends that the tribunal wrongly focussed exclusively on her PTSD, but failed to consider her separate condition of depression and anxiety, or the possibility of the discriminatory treatment having exacerbated her PTSD or its effects; and, again, the tribunal is said to have failed to take account of her own DWP assessment of LCWRA.  The claimants say that the tribunal wrongly penalised them for being ill or disabled, and wrongly treated their intelligence and qualifications as counting against them.  It is also said not to have been clear or consistent as to whether it considered each of them to have been fit to work from the outset of the period from the date when their employment ended to the date of the remedy hearing, or only from some later date.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I will start with the challenge that the tribunal erred in law in its general approach to mitigation.  The claimants invoke a pair of principles: that the onus is on a respondent to make good an assertion that a claimant has unreasonably failed to mitigate; and that it must be found that a claimant has </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">unreasonably failed</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to take some particular step.  It is not sufficient that the tribunal considers that a step that the claimant has not taken would have been a reasonable one to take.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, as I drew to the claimants&#8217; attention, in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Hilco Capital Ltd v Harrington</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/156" uk:canonical="[2022] EAT 156" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 156</ref>, after identifying these general principles, I observed, of the facts in that case:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">&#8220;39.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.2in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">But in this case it was an undisputed fact that the claimant had not looked or applied for any other jobs at all throughout the period from the date when she was dismissed up to the remedy hearing.&#160; The respondent was entitled to assert, and the tribunal to proceed, as it plainly did, on the basis, that that failure on her part amounted to a failure to mitigate her loss, because it was unreasonable for her not to look for, or apply for any jobs at all,&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">unless</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">&#160;the tribunal accepted that there was an explanation for that, of a kind that meant that it was, after all, not unreasonable.&#160; That is not a reversal of the burden of proof.&#160; Had it not been admitted, the respondent would have had to make good that there had been a failure to do something which was in principle unreasonable (in this case, the failure to apply for any jobs at all from the date of dismissal to the date of the remedy hearing); but it was able to make that good in this case, because it was not in dispute, and was admitted.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">40.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.2in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Further, in such a case, the practical reality is that the explanation for such a failure is likely to have to come from the claimant, who will know why she failed to take that step.&#160; To look at the matter another way, the fact of her failure to look or apply for any jobs at all meant that the respondent had discharged the burden initially on it.&#160; In substance, what the tribunal then had to decide was whether, in light of the explanations put forward by the claimant and whatever findings of fact it made about them, her failure to apply for jobs was an unreasonable failure to mitigate or not.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case the claimants did not dispute that neither of them had taken any step to look for work during the entire period at issue.  In substance, therefore, the tribunal needed to consider the explanations put forward by each of them, and what evidence supported it, in order to conclude, in respect of each of them, whether (whether from the outset or after a certain point) he or she had unreasonably failed to look for work.  That being so, I do not consider that the tribunal erred, as such, in this case, by taking the wrong approach to the burden of proof or the underlying test.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Both claimants contended that </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">the</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> reason why they had not looked for work throughout the period from when their employment with the respondent ended, was because, throughout that whole period, they were simply not fit enough to work at all.  Further, both claimants contended that it was the discriminatory treatment by the respondents which had not only led them both to resign, but also affected their ongoing fitness to work.  (By &#8220;discriminatory treatment&#8221; I mean the treatment in respect of which </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Equality Act</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> claims, of one kind or another were upheld.)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">If the tribunal properly concluded that, a given claimant </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">was</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, from a certain point, fit to work, then it would be entitled to find that there was an unreasonable failure to mitigate from that point, and therefore to confine any award for lost remuneration to the period that it might reasonably take them, had they begun to look at that point, to find a new job with the same, or a better, overall package.  There will always be some element of uncertainty in making such an assessment, as the tribunal is not considering what actually happened, but a counter-factual scenario.  It would also not be wrong to take account of the skills and qualifications of that claimant as relevant to the assessment of how long it might have taken them to secure new commensurate employment, had they looked.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">If, however, the tribunal found that a given claimant was, during a given period, unfit for any work, then it would need to go on to consider whether the unfitness had been caused, or contributed to, by the discriminatory treatment, or, conversely, would, or might, have happened in any event.  That is because the respondent could not be held liable for losses which the discriminatory treatment had not caused.  Although strictly doctrinally the issue would fall under the label, not of mitigation but of causation, this was therefore a proper, and indeed necessary question for the tribunal to consider.  Taking this approach does not amount to wrongly penalising a claimant for being ill.  The fact that ill health affecting fitness to work is not the claimant&#8217;s own fault does not mean that the respondent must therefore necessarily be liable to compensate them for the loss of remuneration.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Where there is a claim for damages for personal injury the tribunal has to consider whether the evidence establishes that the discriminatory treatment has, in the requisite sense, caused or contributed to what amounts to a psychiatric injury that goes above and beyond injury to feelings.  This involves assessing what the evidence shows about their psychiatric condition during the relevant period, and, where a condition of such a nature that it might potentially sound in damages for personal injury is shown, an assessment of causation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In a case where it appears that there are, or have been, one or more other mental health conditions which are not attributable to the discriminatory treatment, difficult issues of causation may arise.  See </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Thaine v London School of Economics</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2010] ICR 1422" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] ICR 1422</ref> and the definitive analysis in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">BAE Systems (Operations) Ltd v Konczak</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/1188" uk:canonical="[2017] EWCA Civ 1188" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 1188</ref>; <ref href="#" uk:canonical="[2018] ICR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] ICR 1</ref>.  The key principles were captured in this passage in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Olayemi v Athena Medical Care</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2016] ICR 1074" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] ICR 1074</ref>:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">&#8220;19.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">Although there is a degree of tension between these cases, the essential principles are not in doubt.&#160; The Claimant must prove that the Respondent&#8217;s wrongdoing was a material cause of her psychiatric condition.&#160; If she does so the Respondent must take her as he finds her; it is no defence for him to say that she would not have suffered as she did but for a susceptibility or vulnerability to that kind of psychiatric condition.&#160; The Employment Tribunal will award compensation for the psychiatric condition, although it may discount the compensation to take account of any risk that she may in any event have suffered from the psychiatric condition to which she was vulnerable.&#160; That will depend on the chance that she would have suffered some other cause - presumably harassment or similar - to trigger her condition, and also on the seriousness of that cause.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">20.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">It is open to the Respondent to show that there was another material cause for the Claimant&#8217;s psychiatric condition - that is a cause going beyond mere vulnerability or susceptibility.&#160; Even so it is not a defence for the Respondent to say that there was another material cause for her psychiatric condition unless the resultant harm is truly divisible.&#160; If, however, the resultant harm is truly divisible the Tribunal concerned must estimate and award compensation for that part of the harm for which the Respondent is responsible.&#160; In so doing it will apply the tortious measure of damage: it will identify the harm for which the Respondent is responsible and award compensation for that harm, as opposed to the harm which would have occurred in any event.&#160; These propositions - including the propositions concerning divisibility - are not unique to claims arising out of a psychiatric condition.&#160;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt;color:#010302">21.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in;margin-right:0.59in;text-indent:0.41in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:10pt;color:#010302">As this analysis shows, the Employment Tribunal should always take account of any existing vulnerability or any divisible cause when it awards compensation.&#160; In the former case it will make allowance for the chance that the Claimant would at some point have suffered the psychiatric condition in any event.&#160; In the latter case it will not award compensation for any harm which would have occurred in any event by reason of the other cause.&#160; How the Employment Tribunal takes account of such a factor will depend on the case.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For a given individual, the issues of whether the discriminatory treatment has, in the requisite sense, caused, or contributed to, a loss of remuneration arising from impaired fitness to work, and whether it has caused or contributed to what amounts to psychiatric damage that could sound in an award of damages for personal injury, need to be considered separately; and the relevant conclusions will not necessarily be the same.  See, for example, the discussion in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Olayemi</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> at [31].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Finally, as to pertinent legal principles, in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Hampshire County Council v Wyatt</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2016] UKEAT/0013/16 at [28] &#8211; [29] the EAT said that medical evidence was likely to assist in identifying whether all the injury or harm suffered could be attributed to the unlawful conduct and/or whether such injury or harm was divisible.  There is also a real risk that failure to produce such evidence might lead to a lower award or no award at all.  But the EAT did not accept that that in the absence of expert medical evidence such an award could never properly be made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Applying the foregoing principles, I consider that the tribunal was not wrong, as such, to focus, in respect of each claimant, on what picture was painted by the totality of the available evidence as to: whether they were, for some or all of the relevant period &#8211; too ill to work; whether they had suffered what amounted to psychiatric injury; and whether, or to what extent, any incapacity to work and/or any psychiatric injury was caused or contributed to by the discriminatory treatment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is important to emphasise that these questions fell to be decided by the tribunal exercise its evaluative judgment of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">all </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">of the relevant evidence before it.  In so far as the claimants contend that the tribunal was bound to defer to a view that might have been expressed by a clinician or other specialist, or a DWP assessment for benefits purposes, that is not correct.  The tribunal expressly noted that both claimants relied on having been &#8220;designated&#8221; unfit for work.  But it was not bound to treatment either such Med 3s or such benefits assessments as were in evidence before it as conclusive.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The tribunal&#8217;s reference to the decision of EJ Blackwell, was to a decision arising from a preliminary hearing in the same litigation, in October 2019, sent to the parties in November 2019, in which that judge held that both claimants were disabled persons.  Mr A was found to be disabled by a mental impairment, to which the judge found it unnecessary to give a specific label (the medical records referred variously to anxiety and depression).  The judge found that he had been disabled since April 2018 (when, it was his evidence, he first began to notice symptoms) and remained so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As for Ms B, EJ Blackwell wrote: &#8220;B states that she is suffering with severe depression, anxiety and PTSD.  The PTSD arises from sexual abuse which she suffered as a child.&#8221;  The judge set out her description of the symptoms.  The judge noted that the first relevant medical record was following the suspension in September 2018, when she was diagnosed as having &#8220;a depressive disorder.&#8221; Thereafter the records disclosed &#8220;various visits to the GP&#8221; recording symptoms which &#8220;accord&#8221; with her evidence.  Antidepressants were prescribed and &#8220;it appears that B remains unfit for work&#8221;.  Having made further findings about the effects, EJ Blackwell went on to conclude that she was a disabled person by reference to mental impairment, on which, once again, he considered it unnecessary to put a label.  She had been disabled since April 2018 and remained so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Although there was no </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">expert</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> medical evidence, the present tribunal was presented with medical records, to which it referred.  Mr A contended the tribunal made some errors relating to his records.  Regarding gastritis, the tribunal referred at [10.14] to him being &#8220;absent&#8221; on that account in June 2019 which it also said was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> the acts of victimisation.  There appears to be at least a typo or misexpression her.  But those records which were also in my bundle do show Mr A consulting the GP with this problem in around June 2018, and a specialist referral in July 2019.  The respondent&#8217;s counsel also referred in his skeleton to the tribunal to a fit note indicating that he was unfit to work on that account in June 2019.  In the course of argument before me, Mr A also confirmed that he accepted that what the tribunal said at [10.15] and [10.19] about his medical records was accurate.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms B, for her part, also accepted that what the tribunal said about what her medical records showed, at [11.7], [11.8], [11.9], [11.15] and [11.16] was accurate, as such.  There appears to be a typo at [49.7] where the reference to December 2019 should be to December 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Beyond raising errors or misstatements the claimants&#8217; arguments on this aspect of their appeals ranged more widely to what amounted to attempts to reargue their case, or challenge the tribunal&#8217;s evaluative conclusions in relation to aspects of the medical evidence.  That is not something which it is open to them to do, as such.  So long as it approached its task applying the correct guiding principles, these matters of evaluative assessment fell to the tribunal, not the EAT.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As to the periods of awards for loss of earnings, at [48.17] the tribunal&#8217;s conclusion was that the two acts of victimisation in respect of which Mr A had succeeded, had caused him some anxiety affecting his ability to start looking for work, until 4 &#8211; 6 weeks after his employment ended, and, had he done so at around that point he should have been able to find suitable work by the end of an overall period of six months.  In relation to Ms B the sense of [11.21] and [11.22] is that the impact of the discriminatory treatment which she experienced, on her fitness to work, was considerably more severe and prolonged; and so, had she begun to look for work once she was fit enough to do so, she could then have been expected to find work by the end of an overall period of twelve months.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have explained, this was necessarily an uncertain, counterfactual, evaluative exercise.  The tribunal appears to have undertaken it, taking account of its evaluation of such evidence as it had.  For reasons I have explained, it was not wrong, as such, for the tribunal to take into account the skills, abilities and qualifications, that it considered might have stood each of the claimants in good stead in their job searches.  Given the different nature and extent of the discriminatory treatment which each of them had experienced, and the differing medical evidence, it is hardly surprising that the tribunal&#8217;s assessment in relation to Mr A was appreciably more positive than in relation to Ms B.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">But, all of these points having been made, I have concluded that there are certain difficulties with aspects of the tribunal&#8217;s reasoning in relation to each of the two claimants.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to Mr A, as noted, at [48.17] the tribunal considered that he should have been able to look for work after 4 &#8211; 6 weeks following the end of his employment.  That would have been in around January 2019.  However, earlier, at [10.19] it noted that his GP was actively encouraging him to look for work in March and April 2019.  At [10.21] it also regarded it as significant that his GP recorded in February 2021 that his mood was starting to lift (and that there was no GP evidence supporting unfitness after that date).  It is therefore not entirely clear why it settled on the 4 &#8211; 6 period, rather than, say, March or April 2019, in his case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">While there were, as I have noted, some errors or inaccuracies, in what it said about the medical evidence relating to Mr A, given the overall picture painted in his case (including by medical evidence which he accepted was accurately recorded by the tribunal) I do not think there was any other material error in the tribunal&#8217;s evaluation of these issues in relation to him.  In particular, I consider that the tribunal was entitled to conclude that such medical evidence as it had, did not point to the two acts of victimisation of Mr A as having caused or contributed to a psychiatric injury to him that would sound in damages for personal injury additional to his award for injury to feelings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In relation to Ms B, the tribunal asked itself whether her mental ill health in the relevant period was &#8220;solely or mainly&#8221; attributable to the discriminatory treatment of her.  That was not the right test.  Having identified multiple causes or potential causes, the tribunal needed to consider the issues summarised in the extract I have set out from </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Olayemi</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  Notwithstanding that it had no expert medical evidence, it needed to attempt to address those questions, as far as it could, taking account of such medical evidence as it did have in relation to her.  In addition, the tribunal&#8217;s conclusion that the condition of Ms B&#8217;s mental health during the period following the termination of her employment, was </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">entirely </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">caused by her existing, and longstanding, PTSD (the original cause of which was historic abuse and unconnected to the respondents) was problematic for the following reasons.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">First, as for EJ Blackwell&#8217;s findings, that judge had noted that Ms B had relied, as claimed disabilities, upon not just PTSD, but also depression and anxiety.  EJ Blackwell also noted that the evidence, in terms of her GP records, began in the aftermath of her suspension in September 2018, when she was diagnosed as having a depressive disorder.  EJ Blackwell had not found it necessary to categorise the disability, which she was found to have had from April 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The medical evidence before the present tribunal included a Med 3 of 12 September 2018 referring to anxiety and depression, a Med 3 and referral in December referring to PTSD in relation to earlier traumatic events of a sexual nature, and an assessment report of March 2019 referring to her presentation as &#8220;anxiety and depression linked with PTSD symptoms&#8221;.  Ms B also produced to the tribunal a letter from her GP saying that there were no entries in her records relating to mental ill health, including depression, anxiety or Post-Traumatic Stress Disorder prior to September 2018.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">All of that being so, I do not think that the tribunal&#8217;s conclusion that her absence or ill health was, in light of EJ Blackwell&#8217;s decision, solely because of an illness (PTSD) that was &#8220;entirely unrelated&#8221; to the respondent&#8217;s actions was sound.  It failed to engage with the limited nature of EJ Blackwell&#8217;s conclusion, the medical evidence of a deterioration in her mental health in the immediate aftermath of the suspension, and the medical evidence supporting the development of anxiety and depression in the relevant period.  The tribunal needed to assess, as best it could, taking account of that evidence, whether the discriminatory treatment of her (or parts of it) had contributed to a deterioration of her mental health from September 2018, to some percentage degree, or whether that treatment exacerbated the effects of the PTSD as a latent pre-existing condition, or whether she was simply peculiarly vulnerable, and tipped over by that cumulative treatment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:12pt">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I do note that the tribunal correctly identified a medical assessment in July 2019 that her mood was stable and her anxiety and depression under control.  While Ms B submitted to me that this showed that she was still experiencing the underlying condition, it does not follow that the tribunal would have necessarily been wrong to conclude that the managed and stable state she had achieved meant that she was now well enough to look for work at that point.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:12pt">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I therefore consider that, in Ms B&#8217;s case, a fresh assessment of the issues at [50] above relating to her claim for lost remuneration, and her claim for damages for personal injury, is required.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:12pt">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Returning to Mr A, the tribunal&#8217;s approach to causation does not appear to me actually to have adversely affected its approach to his lost remuneration award (because it fully compensated him for the period during it which it found he was not fit enough to look for work); and, as I have said, it did not err in concluding that the evidence did not support an award of damages for personal injury in his case.  But the tribunal will need to consider afresh the period for which he was unfit to work.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 5</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_69">
+	  <num style="font-size:12pt">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 5 contends that the tribunal made some calculation errors.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:12pt">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimants disagreed with the tribunal&#8217;s calculations of their respective average net monthly remuneration when working for C Ltd.  I was told that they did not disagree the gross figures, but had themselves arrived at different figures after reckoning the impact of tax.  However, in the case of Mr A, his calculation, comparing like with like, was less than &#163;60 per month, or about 3%, higher than the tribunal&#8217;s, and I was not persuaded that the tribunal&#8217;s figures were plainly wrong.  In the case of Ms B the figure she calculated was actually slightly lower than the tribunal&#8217;s.  I am not persuaded to uphold this part of ground 5 in respect of either of them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:12pt">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The main error raised by ground 5 is that the tribunal calculated the claimants&#8217; respective losses of earnings on the footing that they each received an annual bonus of &#163;1500, whereas in fact it was a quarterly bonus in that amount.  The tribunal does indeed appear to have got this wrong.  In the liability decision there is a finding at [232] that there is &#8220;a profit bonus of &#163;1500 paid every 3 months to all qualifying employees.&#8221;  However, in the remedy decision the tribunal referred at [10.4] in relation to Mr A, to him having received &#8220;an annual profit bonus which was about &#163;1500&#8221;.  Paragraph [11.4] is to the same effect in relation to Ms B.  Accordingly, I uphold ground 5 in this respect.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_72">
+	  <num style="font-size:12pt">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ground 1 contends that large sections of the remedy reasons were &#8220;copied and pasted wholesale&#8221; from the written submission of counsel for A Ltd, and that the structure of some parts of the decision was also based around counsel&#8217;s arguments.  The claimants had compiled a spreadsheet analysis document comparing passages in the remedy reasons and in A Ltd&#8217;s counsel&#8217;s written submissions, noting such features as erroneous page references that were duplicated and phrases that were repeated, such as &#8220;broad degree of compliance&#8221; with the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  They submitted that, because the respondent&#8217;s submissions on aspects of the evidence (including aspects of the medical evidence) were simply adopted, the tribunal failed to independently engage with aspects of the evidence that it in fact had before it.  They also contended that the tribunal had adopted what they said were erroneous submissions on aspects of the law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:12pt">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Crinion v IG Markets Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/587" uk:canonical="[2013] EWCA Civ 587" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 587</ref> the Court of Appeal considered a case in which it was said that almost all of the judge&#8217;s judgment was taken word for word from the submissions of counsel for the winning party.  Underhill LJ analysed closely the extent of the changes or additions that the judge had made whilst stressing that it was important to lose sight of the overall impression that the wording of the judgment was derived &#8220;almost entirely&#8221; from counsel&#8217;s skeleton.  The wider point is that this wholesale approach was deprecated by the Court because appearances matter &#8211; it is liable to create the impression that the judge has not performed the task of considering both parties&#8217; cases independently and even-handedly; and a failure to engage with a losing party&#8217;s case means that the judgment is liable to fail properly to convey to them why they have lost and the other party has prevailed (Underhill LJ at [16]; Sedley LJ at [38]; Longmore LJ at [42]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:12pt">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the present case, this ground was originally ground 7.  But the EAT judge who directed five grounds to proceed, directed that amended grounds of appeal be lodged in which this ground was to appear as ground 1.  He also directed that the employment judge should then be asked to comment on &#8220;ground 7 (to be renumbered ground 1).&#8221;  The amended grounds were then lodged and sealed on 6 September 2024.  The EAT judge then made a further order, inviting the employment judge&#8217;s comments on &#8220;renumbered Ground 1 (as issued on 6 September 2024)&#8221;.  The EAT emailed the employment judge the amended grounds, together with the EAT judge&#8217;s order sealed on 24 October 2024.  The covering email drew the employment judge&#8217;s attention to paragraph 1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:12pt">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The employment judge wrote to the EAT on 14 November 2024.  He began by noting that he had been invited to comment on &#8220;re-numbered ground 1 as issued on 6 September 2024.&#8221;  But he went on to say that this &#8220;appears to relate to the ACAS breaches and failure to make an uplift&#8221;; and, as I have noted, he then commented on that ground (which was the original ground 1).  But, despite that unfortunate error on his part, I, for my part, am of the view that, in any event, my task would not have been assisted by having the employment judge&#8217;s comments on ground 1, as what matters is the content of the tribunal&#8217;s reasons themselves, and the appearance that they give to readers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:12pt">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In this case, I consider that the tribunal did not engage in anything resembling the sort of wholesale &#8220;cutting and pasting&#8221;, with only minor tinkering and additions, as was found to have occurred in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Crinion</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.  Nevertheless, the claimants have identified a number of passages which the tribunal has plainly drafted by drawing heavily on the respondent&#8217;s counsel&#8217;s skeleton.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:12pt">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For example, on the </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> issue the expression &#8220;broad degree of compliance&#8221; was used by the respondent&#8217;s counsel; in relation to the issue of mitigation he postulated that both claimants had made an &#8220;active and conscious decision&#8221; not to work for &#8220;almost four years&#8221;.  These phrases have been reused by the tribunal.  The principal points that the tribunal makes about the medical evidence also closely shadow a series of points made by the respondent&#8217;s counsel.  He also postulated the &#8220;solely or mainly attributable&#8221; test of causation, which the tribunal picked up (although he also canvassed a percentage reduction approach, which the tribunal did not follow).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:12pt">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However, the tribunal did </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">not</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> follow his overall structure of his skeleton, and it certainly did engage with the claimants&#8217; arguments in a number of passages.  Further, while, the impression is created by some passages in the reasoning, that on some aspects the tribunal has adopted the general contention put forward by C Ltd&#8217;s counsel, without any more detailed analysis of its own, the relevant parts of the other substantive grounds of appeal have in any event succeeded.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:12pt">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For all of these reasons, this ground does not lead me to conclude that the tribunal&#8217;s decision should be disturbed beyond the extent that I have hitherto identified in consequence of the aspects of the other grounds that have succeeded.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Outcome </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_80">
+	  <num style="font-size:12pt">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As I have indicated, the following aspects will need to be remitted to the tribunal for fresh consideration: (a) the period for which Mr A was not sufficiently fit to look for work, and hence the overall period of the underlying award for loss of remuneration in his case; (b) the issues in relation to Ms B&#8217;s claims for loss of remuneration and damages for personal injury summarised at [50] of this decision, and, hence, the amount of her award for the former, and whether she should receive an award for the latter, and, if so, in what amount: (c) recalculation of the awards for loss of remuneration taking account of the fact that the &#163;1500 bonus was quarterly, not annual; and (d) determination, for each claimant, of the issue of </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">ACAS Code</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> uplift on the relevant awards.  All other findings and conclusions of this tribunal in its remedy judgment will stand.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:12pt">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Having regard to my overall conclusions, including on ground 1, I think it better that these matters be remitted to a differently constituted tribunal.  For the avoidance of any doubt, I note that, while the respondents had all been precluded from participating in this appeal, the EAT&#8217;s Registrar&#8217;s directions related only to the appeal and do not prevent any of them from participating when these matters return to the tribunal.  I leave all matters of case management to the tribunal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

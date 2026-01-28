@@ -1,0 +1,638 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/27"/>
+	  <FRBRdate date="2023-01-31" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="27"/>
+	  <FRBRname value="A1 Properties (Sunderland) Limited v Tudor Studios RTM Company Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/27"/>
+	  <FRBRdate date="2023-01-31" name="decision"/>
+	  <FRBRauthor href="#ukut-lc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/27/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukut/lc/2023/27/data.xml"/>
+	  <FRBRdate date="2024-11-09T07:01:24" name="transform"/>
+	  <FRBRdate date="2024-11-28T05:21:06" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-01-25" refersTo="#hearing" source="#"/>
+	<eventRef date="2023-01-31" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-lc" href="https://www.gov.uk/courts-tribunals/upper-tribunal-lands-chamber" showAs="United Kingdom Upper Tribunal (Lands Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="a1-properties-sunderland-limited" href="" showAs="A1 PROPERTIES (SUNDERLAND) LIMITED"/>
+	<TLCPerson eId="tudor-studios-rtm-company-limited" href="" showAs="TUDOR STUDIOS RTM COMPANY LIMITED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-LC</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>27</uk:number>
+	<uk:cite>[2023] UKUT 27 (LC)</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>b6975c9d15aae2b40ea311b68962e8b1c509d8bee5bf1d1f5c044df1006ff096</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; background-color: initial; }
+#judgment .Heading2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Heading3 { margin-left: 1in; font-weight: bold; font-size: 12pt; }
+#judgment .Heading4 { text-align: center; margin-left: 1.18in; font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; background-color: initial; }
+#judgment .Heading5 { margin-left: 2.5in; font-family: Arial; font-size: 11pt; }
+#judgment .Normal2 { text-align: justify; font-size: 12pt; }
+#judgment .Consult { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 12pt; }
+#judgment .Consult2 { text-align: justify; margin-left: 0.5in; font-family: Arial; font-size: 10pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Norm18space { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalBk { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormQuote { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ORDNOQUO { text-align: justify; margin-left: 1in; margin-right: 0.4in; font-size: 12pt; }
+#judgment .ORDINNOSPACE { text-align: justify; font-size: 12pt; }
+#judgment .ORDINARY { text-align: justify; font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .Title1 { font-size: 12pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 13pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 1in; font-size: 12pt; }
+#judgment .BodyText { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .normal20 { font-size: 12pt; }
+#judgment .NoSpacing { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 12pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading4Char { font-weight: bold; text-transform: uppercase; font-size: 12pt; color: #000000; }
+#judgment .Heading5Char { font-family: Arial; }
+#judgment .TitleChar { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 16pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .BodyTextChar { font-family: 'Calibri, sans-serif'; font-size: 11pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .cofootnotenode { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+#judgment .PlainTable3 { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <table uk:widths="6.63in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center;margin-right:-0.02in"><courtType refersTo="#ukut-lc" style="font-weight:bold">UPPER TRIBUNAL (LANDS CHAMBER)</courtType></p>
+      <p style="text-align:center;margin-right:-0.02in"><img src="image1.png" style="width:72pt;height:60.75pt"/></p>
+      <p style="margin-left:6.3in;margin-right:-0.03in;text-indent:-6.3in"><span style="font-weight:bold">UT Neutral citation number: </span><neutralCitation style="font-weight:bold">[2023] UKUT 27 (LC)</neutralCitation><span style="font-weight:bold">      UTLC Case Numbers: LC-2022-425</span></p>
+      <p style="text-align:right;margin-left:6.3in;margin-right:-0.03in;text-indent:-6.3in"><span style="font-weight:bold">Royal Courts of Justice, Strand,</span></p>
+      <p style="text-align:right;margin-left:6.3in;margin-right:-0.03in;text-indent:-6.3in"><span style="font-weight:bold">London WC2A 2LL</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">TRIBUNALS, COURTS AND ENFORCEMENT ACT 2007</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">AN APPEAL AGAINST A DECISION OF THE FIRST-TIER TRIBUNAL</span></p>
+      <p style="text-align:center;margin-right:-0.02in"><span style="font-weight:bold">(PROPERTY CHAMBER)</span></p>
+      <p style="margin-right:-0.02in"><span style="font-style:italic;font-weight:bold">LANDLORD AND TENANT &#8211; RIGHT TO MANAGE &#8211; requirement to serve the claim notice on all landlords of all or part of the building &#8211; effect of failure to serve &#8211; intermediate landlord with no management responsibilities</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold">BETWEEN:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#a1-properties-sunderland-limited" style="font-weight:bold">A1 PROPERTIES (SUNDERLAND) LIMITED</party></p>
+      <p style="text-align:center;margin-left:5in;text-indent:0.32in"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">-and-</span></p>
+      <p style="text-align:center;margin-left:0.79in;text-indent:-0.89in"><party as="#respondent" refersTo="#tudor-studios-rtm-company-limited" style="font-weight:bold">TUDOR STUDIOS RTM COMPANY LIMITED</party></p>
+      <p style="text-align:right;margin-right:0.07in"><role refersTo="#respondent" style="font-weight:bold">Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">Re: Tudor Studios,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">164 Tudor Road,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Leicester,</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">LE5 5HU</span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Judge Elizabeth Cooke</span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Heard on </span><docDate date="2023-01-25" refersTo="#hearing" style="font-weight:bold;font-family:'Times New Roman'">25 January 2023</docDate></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman'">Decision Date: 31 January 2023</span></p>
+      <p style="margin-right:-0.02in">Mr Justin Bates for the appellant, instructed by Brethertons LLP</p>
+      <p style="margin-right:-0.02in">Mr Winston Jacob for the respondent, instructed under the public access scheme</p>
+      <p class="Footer" style="text-align:center"><span style="font-weight:bold">&#169; CROWN COPYRIGHT 2023</span></p>
+      <p class="Footer">The following cases are referred to in this decision:</p>
+      <p class="Footer"><span style="font-style:italic">Elim Court RTM Company Limited v Avon Freeholds Limited</span> [2017] EWCA Civ 89</p>
+      <p class="Footer"><span style="font-style:italic">Natt v Osman</span> [2014] EWCA Civ 1520</p>
+      <p class="Footer"><span style="font-style:italic;color:#000000">Q Studios (Stoke) RTM Company Limited v Premier Ground Rents No 6 Limited </span><span style="color:#000000">[2020] UKUT 197 (LC)</span></p>
+      <p class="Footer"><span style="font-style:italic">Spire House RTM Company Limited v Eastern Pyramid Group Corpn SA</span> [2021] EWCA Civ 1658</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Normal2"><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">This is another appeal arising out of what the Court of Appeal called the &#8220;melancholy fact that whenever Parliament lays down a detailed procedure for exercising a statutory right, people get the procedure wrong&#8221; (<span style="font-style:italic">Elim Court RTM Company Limited v Avon Freeholds Limited</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/89" uk:canonical="[2017] EWCA Civ 89" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 89</ref>, Lewison LJ at paragraph 1).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The issue the Tribunal has to decide is whether the respondent company is entitled to acquire the right to manage Tudor Studios, a large block of student accommodation in Leicester, pursuant to Part 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">Commonhold and Leasehold Reform Act 2002</ref> despite the fact that it failed to serve a claim notice on the appellant,  A1 Properties (Sunderland) Limited, which is an intermediate landlord of parts of the building but has no management responsibilities.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Mr Justin Bates and Mr Winston Jacob, both of counsel, represented the appellant and the RTM company respectively, and I am grateful to them both.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Normal2"><span style="font-weight:bold">The factual background and the statutory provisions</span></heading>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The appeal concerns a former factory in Leicester now converted into student accommodation, mostly in the form of &#8220;study studios&#8221;, together with some communal areas. The freehold is owned by Premier Ground Rents No 3 Limited, which purchased the property from the developer. The study studios are held by investor tenants on 250-year leases in tripartite form between the freeholder, the lessee and Tudor Studios Management Company Limited (&#8220;the management company&#8221;). Each study studio was then sub-let to A1 Alpha Properties (Leicester) Limited  (&#8220;A1 Leicester&#8221;) for ten years at a fixed rent; the idea was that A1 Leicester would then sub-underlet to students on an annual basis for a market rent. A1 Leicester went into administration in February 2019 and has now been placed in creditors&#8217; voluntary liquidation, so that the investor tenants are letting the study studios direct to students.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">None of the persons mentioned in the paragraph above is a party to the appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The appellant holds four 999-year leases of parts of the building &#8211; the common room, the laundry, the gym and the reception area. None of those areas are let either to investor tenants or to student tenants. The appellant has sub-let each of its four areas on 10-year leases to the management company; rent is payable to the appellant under those four leases in a total sum of &#163;30,600 per annum.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The management company, the developer of the building, the appellant and A1 Leicester were all originally owned by the same shareholders, but the investor tenants now own the shares in the management company. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">So the investor tenants control the management of the building. Nevertheless they have exercised (or rather, pending the outcome of this appeal they have endeavoured to exercise) their statutory right to manage to manage the building under Part 2 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">Commonhold and Leasehold Reform Act 2002</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in"><span style="color:#000000">The </span>Commonhold<span style="color:#000000"> and Leasehold Reform Act 2002 enabled lessees who hold long leases of flats in a self-contained building to acquire the right to manage the building on a no-fault basis; there is no need for the leaseholders to prove that there was anything wrong with the landlord&#8217;s management of the block. All the leaseholders have to do is to follow the correct procedure. It is not in dispute that the study studios are flats as defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/112/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 112(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> (</span><span style="font-style:italic;color:#000000">Q Studios (Stoke) RTM Company Limited v Premier Ground Rents No 6 Limited </span><span style="color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/lc/2020/197" uk:canonical="[2020] UKUT 197 (LC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKUT 197 (LC)</ref>) and that the investor tenants are qualifying leaseholders.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in"><span style="color:#000000">The right to manage is exercised for qualifying leaseholders by an &#8220;RTM company&#8221; formed in accordance with the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 79</ref> makes </span>provision<span style="color:#000000"> for the RTM company to give notice of its claim to be entitled to acquire the right to manage:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="normal20" style="text-align:justify;margin-left:1in"><span style="color:#000000">&#8220;79(1)&#160;A claim to acquire the right to manage any premises is made by giving notice of the claim (referred to in this Chapter as a&#160;</span><span style="font-style:italic;color:#000000">&#8220;claim notice&#8221;&#160;</span><span style="color:#000000">)&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>(6)</num>
+		    <intro>
+		      <p class="normal20" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="color:#000000">The claim notice must be given to each person who on the relevant date is&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num>(a)</num>
+		      <content>
+			<p class="normal20" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="color:#000000">landlord under a lease of the whole or any part of the premises,</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(b)</num>
+		      <content>
+			<p class="normal20" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="color:#000000">party to such a lease otherwise than as landlord or tenant, or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num>(c)</num>
+		      <content>
+			<p class="normal20" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="color:#000000">a manager appointed u</span>nder&#160;<a class="Hyperlink" href="https://uk.westlaw.com/Document/I1C238160E44B11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=0d0b87aabfc442928a0659ca355de92e&amp;contextData=(sc.Search)" style="text-decoration-line:none;color:initial">Part 2</a>&#160;of the&#160;<a class="Hyperlink" href="https://uk.westlaw.com/Document/I5FFF8320E42311DAA7CF8F68F6EE57AB/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=0d0b87aabfc442928a0659ca355de92e&amp;contextData=(sc.Search)" style="text-decoration-line:none;color:initial"><ref href="http://www.legislation.gov.uk/id/ukpga/1987/31" uk:canonical="1987 c. 31" uk:origin="TNA" uk:type="legislation">Landlord and Tenant Act 1987</ref> (c. 31)</a>&#160;&#8230;&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The respondent gave the claim notice to the freeholder and to the management company, but not to the appellant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The management company gave a counter-notice. <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/84" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 84</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> provides:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(1)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;text-indent:0.5in">A person who is given a claim notice by a RTM company under&#160;<a class="Hyperlink" href="https://uk.westlaw.com/Document/I18F069E0E44B11DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=47f785b86516423385d25bf4b911540b&amp;contextData=(sc.DocLink)" style="text-decoration-line:none;color:initial"><ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref></a>&#160;may give a notice (referred to in this Chapter as a&#160;<span style="font-style:italic">&#8220;counter-notice&#8221;&#160;</span>) to the company no later than the date specified in the claim notice under&#160;<a class="Hyperlink" href="https://uk.westlaw.com/Document/I0ACE62C0E45211DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=47f785b86516423385d25bf4b911540b&amp;contextData=(sc.DocLink)" style="text-decoration-line:none;color:initial">section 80(6)</a>.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(2)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;text-indent:0.5in">A counter-notice is a notice containing a statement either&#8212;</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(a)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;text-indent:0.5in">admitting that the RTM company was on the relevant date entitled to acquire the right to manage the premises specified in the claim notice, or</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>(b)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;text-indent:0.5in">alleging that, by reason of a specified provision of this Chapter, the RTM company was on that date not so entitled.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The management company&#8217;s counter-notice stated that the respondent was not entitled to acquire the right to manage because it had not complied with a number of the provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>, including <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> by virtue of its not having served the appellant. <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/84/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 84(3)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> enables the RTM company, when a counter-notice has been served, to apply to the FTT for a determination of whether it has on the relevant date acquired the right to manage; section 87 provides that if it does not make that application within a specified time the claim notice is deemed withdrawn. The respondent applied to the FTT, and the appellant was joined as an additional respondent alongside the freeholder and the management company.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Those are the relevant statutory provisions and the facts in this case. We need now to look at the Court of Appeal&#8217;s decision in <span style="font-style:italic">Elim Court</span>, which forms another important aspect of the legal background to this appeal; the essence of the present appeal is whether the circumstances can be distinguished from <span style="font-style:italic">Elim Court</span> so as to justify a different outcome, and so I consider in some detail the reasoning of Lewison LJ in that case (with whom Proudman J and Arden LJ agreed) because it will be necessary to decide if there is a relevant distinction in the present facts.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Normal2"><span style="font-weight:bold">The Court of Appeal&#8217;s decision in </span><span style="font-style:italic;font-weight:bold">Elim Court</span></heading>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Elim Court is a block of flats in Plymouth, and in 2012 Elim Court RTM Company Limited began the process of acquiring the right to manage. Notices of invitation to participate were sent to qualifying tenants and then the claim notice was given to the freeholder. The freeholder served a counter-notice and an application was made to the FTT; the freeholder argued that the RTM company was not entitled to acquire the right to manage on three grounds, including that it had not complied with <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref> because the claim notice should have been given to the intermediate landlord of one of the flats and was not. It had been sent to the flat, but not to the company&#8217;s registered office. In the summary that follows I deal only with that issue because the others are not relevant to the present appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The FTT (then the Leasehold Valuation Tribunal) held that the claim notice had not been received by the intermediate landlord but commented that it had been a reasonable assumption that the occupant of the flat would have passed the notice on to its landlord, and found that the failure to serve the intermediate landlord did not invalidate the claim to have acquired the right to manage. In the appeal to the Tribunal the Deputy President, Martin Rodger QC, held that the failure to serve the intermediate landlord was fatal to the RTM company&#8217;s claim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">In the Court of Appeal Lewison LJ began his analysis of the issue by looking back at <span style="font-style:italic">Natt v Osman</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1520" uk:canonical="[2014] EWCA Civ 1520" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1520</ref>, where Sir Terence Etherton C explained that the courts have moved away from characterising statutory requirements as mandatory or directory. Instead he distinguished two categories, at paragraph 28:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in">&#8220;&#160;(1) those cases in which the decision of a public body is challenged, often involving administrative or public law and judicial review, or which concern procedural requirements for challenging a decision whether by litigation or some other process, and (2) those cases in which the statute confers a property or similar right on a private person and the issue is whether non-compliance with the statutory requirement precludes that person from acquiring the right in question.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">In the first category, he said, substantial compliance could be good enough. In the second it is not. However, where the statutory requirements have not been complied with, it is then necessary to decide what was the intention of the legislature as to the consequences of non-compliance: should it render the notice or other step in the proceedings invalid or not?</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Lewison LJ at his paragraph 52 then gave some guidance as to how the intention of the legislature in those circumstances might be discerned. One factor is the importance of the notice or of the information missing from it; another is whether the requirement is in primary or secondary legislation; another is whether it is possible, if the notice is invalid, for the server of the notice immediately to serve another one.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Lewison LJ then determined at paragraph 53, unsurprisingly, that the claim notice falls within the second of the two categories to that Sir Terence Etherton C identified; it is not a challenge to a decision of a public authority, and although it does not involve the acquisition of a property right the second category extends to &#8220;similar&#8221; rights. At paragraph 56 he observed that nevertheless it does not follow that every defect in a notice or in the procedure, however trivial, invalidates the notice. And although the prejudice caused to an individual in a particular case is not relevant (<span style="font-style:italic">Natt v Osman </span>paragraph 32), that does not mean that prejudice in a generic sense is irrelevant.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Turning to the defect in procedure in <span style="font-style:italic">Elim Court</span>, Lewison LJ noted at paragraph 58 the submission of Mr Jacob, who represented the RTM company, that the persons who are required by <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> to be given the claim notice are those that are likely to have management responsibilities: landlords, a party to a lease who is neither landlord nor tenant (usually a management company) and court appointed managers. He acknowledged at paragraph 59 the force of Mr Bates&#8217; argument for the freeholder that landlords need certainty, but observed that it cannot be taken too far because it is clear from <span style="font-style:italic">Natt v Osman</span> that not every failure to follow the statutory procedure will invalidate the notice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">After considering the other issues in the appeal in paragraphs 60 to 68 he noted that the statute itself contemplates circumstances where not all landlords are given the claim notice. <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 79(7)</ref> and 85 provides that a landlord who cannot be found or whose identity cannot be ascertained need not be given a claim notice, but that where the RTM company cannot find or cannot identify anyone at all to whom notice has to be given under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> then it may apply to the FTT for an order that it is to acquire the right to manage. At paragraph 71 he said that those provisions in the statute demonstrate that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in">&#8220;the mere fact that a claim notice was not given to all those entitled to receive one would not invalidate the claim notice without more.&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">At paragraph 73 Lewison LJ accepted Mr Jacob&#8217;s submission that the primary persons affected by the acquisition of the right to manage are those with management responsibilities. Landlords with no management responsibilities will still be affected because they will no longer have the sole right to give consents under the lease, but that is &#8220;ancillary to the primary objective of the legislation which is to enable an RTM company, simply and cheaply, to acquire the right to manage.&#8221; At paragraph 74 he said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in">&#8220;I would hold that a failure to serve a claim notice on the intermediate landlord of a single flat with no management responsibilities (as defined) does not invalidate the notice.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">In the present appeal the RTM company failed to serve the claim notice on the intermediate landlord, not of a single flat but of four different communal areas in the building, with no management responsibilities. The failure to serve was found by the FTT to have been inadvertent, but unlike in <span style="font-style:italic">Elim Court</span> there was no attempt to serve the appellant and no evidence was given by way of explanation for the failure to serve.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Normal2"><span style="font-weight:bold">The proceedings in the FTT</span></heading>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The proceedings in the FTT were complicated by the fact that this was one of three lead cases out of a group of eight where the leasehold structure was the same, all of which involved claims by investor tenants to acquire the right to manage. All eight cases concerned student accommodation where the original developer was one of the Alpha Developments companies, where the RTM company employed the same agent to take it through the process of acquiring the right, and where the appellant has the same role as lessee and lessor of communal parts of the building. It was joined as a respondent (along with the freeholder and the management company) in all eight applications. Three issues were decided by the FTT, but this appeal is about only one: whether the failure to serve a claim notice on the appellant means that the right to manage is not acquired. It concerns only Tudor Studios out of the lead cases, but its outcome will affect four other cases (Norfolk Street, Park Land House, Foundry 2 and Jubilee Court).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The respondent&#8217;s statement of case in the FTT pleaded that the appellant was not entitled to be given the claim notice, for a number of reasons which the FTT swiftly and rightly rejected as spurious. They were not reasons that a lawyer could have drafted with a straight face or a clean conscience, but they were not drafted by a lawyer and the RTM company did not have legal representation in the FTT.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The respondent had an alternative argument: that by virtue of the Court of Appeal&#8217;s decision in <span style="font-style:italic">Elim Court</span> the failure to give the claim notice to the appellant was not fatal to the claim to have acquired the right to manage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Mr Bates, who represented the appellant in the FTT, argued that the present case is distinguishable because the failure to serve the claim notice (which was inadvertent in <span style="font-style:italic">Elim Court</span>) was deliberate, but the FTT rejected that argument. At its paragraph 74 it noted that in three of the group of eight cases the appellant had been served; it reasoned that if the failure to serve the appellant in the present case was deliberate, then service in the other cases must have been inadvertent which seemed unlikely. It concluded at paragraph 75 that &#8220;it is more likely that [the RTM company] either forgot to serve [the appellant] or didn&#8217;t appreciate that [it] was an intermediate landlord of the Tudor Studios premises&#8221;, but noted that neither possibility provided a good excuse.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">The FTT went on to say that it was unarguable that had the appellant received the claim notice it would have had no grounds on which to serve a counter-notice. It noted that <span style="font-style:italic">Elim Court</span> is authority for the proposition that failure to serve a claim notice is not necessarily fatal to a claim, and that while the FTT has no power to waive a failure to comply with the statutory requirements <span style="font-style:italic">Elim Court</span> offers guidance in a case of failure to serve an intermediate landlord with no management responsibilities. It noted that the appellant&#8217;s leases are more extensive in area than the single flat in <span style="font-style:italic">Elim Court</span> but took the view that the absence of management responsibilities was the critical point and found that the failure to serve the appellant did not invalidate the RTM company&#8217;s claim.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Normal2"><span style="font-weight:bold">The appeal</span></heading>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">There is now no dispute that the appellant was entitled by <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> to be given the claim notice. The appellant has permission from this Tribunal to appeal on two grounds: first, that in these circumstances the FTT should have found that the RTM&#8217;s claim was invalid, and second (and if the first ground fails) that the FTT should have found that failure to serve the appellant was a conscious choice on the part of the RTM company.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Normal2"><span style="font-weight:bold">Ground 1</span></heading>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Ground 1 therefore proceeds on the basis of the FTT&#8217;s findings that the RTM company&#8217;s failure to give the appellant the claim notice was an oversight. The essence of ground 1 is that there were nevertheless one or more features in the facts of this case that distinguished it from <span style="font-style:italic">Elim Court</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Mr Bates began from the proposition that a landlord under a lease of the whole or part of the building &#8220;is entitled as of right&#8221; to receive a claim notice regardless of whether or not they have management functions under that lease, according to <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref>. Second, he pointed out that the claim notice is central to the proper working of the statutory scheme. It confers the right to oppose the claim and to give a counter-notice. Third, the claim notice triggers the entitlement to costs of those listed in section 88(1), which are the same persons as those listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> (although I note that that entitlement is to &#8220;costs incurred &#8230; in consequence of a claim notice given by the company in relation to the premises&#8221;, and receipt of a claim notice is not said to be a pre-condition of the entitlement to costs).  But at any rate, the appellant if it had received the claim notice would have been entitled both to take advice and to investigate its validity at the RTM company&#8217;s cost and to serve a counter-notice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Of course, those points apply equally to everyone to whom <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> refers. They are all entitled to be given the notice, and for all of them receipt of a notice triggers the ability to object and to serve a counter-notice. Those points apply equally to the intermediate landlord who was not served in <span style="font-style:italic">Elim Court</span>. So they cannot be &#8211; and Mr Bates did not say they were &#8211; reasons why failure to serve invalidates the notice. They are useful as a reminder of the importance of the claim notice, which was one of the pointers given by Lewison LJ at his paragraph 52 (paragraph 19 above) in deciding whether failure to serve invalidates the claim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Moreover, Mr Bates acknowledged that prejudice to the individual parties is not a critical factor (<span style="font-style:italic">Elim Court </span>at paragraph 56). He did point out that the appellant had good reason to be aggrieved by the acquisition of the right to manage, because it puts at risk the ability of the management company to pay rent to the appellant. There was some argument as to whether it was open to Mr Bates to raise that point on appeal, but that does not matter because in any event it is not a ground on which the appellant could have opposed the claim, and Mr Bates did not suggest otherwise. It is impossible to see it as a reason why the failure to serve the appellant should invalidate the claim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Nor did Mr Bates rely on the difference in the area of the intermediate lease as a feature that distinguishes it from <span style="font-style:italic">Elim Court. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <intro>
+	      <p class="Normal2" style="margin-left:0.39in">The two factors Mr Bates relied upon in order to argue for a different outcome from <span style="font-style:italic">Elim Court</span> were:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">In <span style="font-style:italic">Elim Court</span>, the RTM company had tried to serve the intermediate landlord but through no particular fault of its own service had not been effective. A good faith attempt to serve is entirely different from a case where (for whatever reason) no attempt is made.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="Normal2" style="margin-left:1in">Unlike in <span style="font-style:italic">Elim Court</span>, one of the other parties &#8211; namely the management company - had required the RTM company to produce evidence of service.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">As to that second point Mr Bates stressed the importance to the management company of ensuring that its own landlord knew about the claim since it does have management responsibilities which it will be unable to fulfil if the claim succeeds. I have difficulty in seeing that this is a relevant distinction. As Mr Jacob pointed out, the failure to serve one of the persons specified in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> is in all cases necessarily going to be raised in the counter-notice given by another party. And other parties will all have different reasons for wanting the missing party to have been served. I do not see any distinguishing feature in this point.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Mr Bates I think accepted this at the hearing when he said that the difference between the two parties to the appeal was essentially whether in deciding whether the claim is invalidated by the failure to serve the reasons for that failure can be ignored.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Mr Bates argued that they cannot. He said that the Court of Appeal&#8217;s decision in <span style="font-style:italic">Elim Court</span> was taken on the basis of the finding at first instance that the RTM company had attempted service and that the failure was inadvertent. That, he argued, was the essential backdrop to what is said at paragraph 74. He made the following important point, which I quote from his skeleton argument:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NoSpacing" style="text-align:justify;margin-left:1in"><span style="font-family:'Times New Roman';font-size:12pt">&#8220;The FTT places great reliance on the fact that, as in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Elim Court</span><span style="font-family:'Times New Roman';font-size:12pt">, the Appellant has no management functions under the 10-year lease. That may be so. But it was still entitled to receive a claim notice and then to make its own decision about whether its interests were best protected by serving a counter-notice. To elevate the importance of management functions in the way that the FTT does is to amount to a re-writing of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.79(6)</ref>. If the absence of management functions is as critical as the FTT considers, in what circumstances can an intermediate landlord with no management functions ever object if no claim notice is served? The right it has under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.79(6)</ref> is rendered illusory. </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Elim Court </span><span style="font-family:'Times New Roman';font-size:12pt">is not authority for the proposition that a failure to serve a claim notice on a person or company who has no management functions will never render the claim notice invalid. That was the outcome on the facts in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt">Elim Court</span><span style="font-family:'Times New Roman';font-size:12pt">, but it should not be the outcome here.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Accordingly, Mr Bates argued, paragraph 74 of the <span style="font-style:italic">Elim Court</span> decision (paragraph 23 above) is not to be read as a statement of principle; that would be to re-write the statute as if it said </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(a)</num>
+		    <content>
+		      <p class="Normal2" style="margin-left:1in;text-indent:0.5in"><span style="color:#000000">landlord under a lease of the whole or any part of the premises unless it is an intermediate landlord with no management responsibilities&#8230;&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	      <p class="Normal2" style="margin-left:0.39in"><span style="color:#000000">so that in </span>every such case failure to serve would be excused. Instead it is to be read in its factual context where the reason for the failure to serve was explained by the RTM company and where a reasonable attempt to serve had been made.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Mr Jacob argued that the reasoning of Lewison LJ from paragraph 69 onwards in <span style="font-style:italic">Elim Court</span> demonstrates that the key to the decision is the absence of management responsibilities. And, he says, if that renders illusory the right under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> of landlords who have no management responsibilities, then that is what the Court of Appeal has decided. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">I agree with Mr Jacob. Lewison LJ gave no indication whatsoever that the reason for the failure to serve, or the fact that a decent attempt had been made, or the fact that the RTM company had provided an explanation for the failure to serve, played any part at all in his decision. His reasoning springs from his paragraph 52 where he identified three important features; and indeed the first of those features &#8211; the importance of the missing action or material &#8211; trumped the rest. In <span style="font-style:italic">Elim Court </span>as in this case, the requirement to serve the intermediate landlord is in the statute and not in a statutory instrument, and the  RTM company could immediately start again if its claim is found to be invalid. But Lewison LJ was wholly swayed by the lack of importance to the intermediate landlord of the claim notice. It is not losing any management functions. The purpose of the claim notice is to inform everyone who has management functions that they may be about to lose them, and in the absence of those functions the failure to serve the notice did not invalidate the claim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">It follows from that that there is no reason to suppose that the outcome would have been any different if the failure to serve the notice was deliberate. The reason for failure is irrelevant.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">What of the FTT&#8217;s other point, that it was not arguable that the appellant would have had any grounds to serve a counter-notice? Mr Bates objects that this was not a finding the FTT could have made; he suggested that had it received a claim notice the appellant might have discovered flaws in the process that no-one else had found. I think that is an unrealistic suggestion. The counter-notice served by the management company alleged invalidity by reason of no less than 14 provisions of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. Only three points remained in issue by the date of the FTT&#8217;s decision, and neither of the other two points were relevant to the validity of the claim relating to Tudor Studios. The FTT was undoubtedly right to say that the appellant could not have opposed it. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">But that is likely to be a factor in all cases like the present. The failure to serve a person entitled under <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> is almost always going to be raised by a party who was served, in a counter-notice in which all possible avenues of challenge are explored. Given the limited range of possibilities for objection to the claim it is likely that any failing by the RTM company will be exposed at that stage and will by itself be fatal to the claim; failure to serve a person without management responsibilities will generally be an issue only where there are no other grounds of challenge. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">So the fact that the claim was otherwise perfectly in order was relevant, but is likely to be present in any similar case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Of course, the courts cannot re-write statutes. It would be possible to say that the Court of Appeal in <span style="font-style:italic">Elim </span>Court has done so by diluting the &#8220;must&#8221; of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref>(a) by adding &#8220;but failure to serve an intermediate landlord with no management responsibilities will not matter&#8221;. The effect of <span style="font-style:italic">Elim Court</span> here is different from what happened in <span style="font-style:italic">Spire House RTM Company Limited v Eastern Pyramid Group Corpn SA</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1658" uk:canonical="[2021] EWCA Civ 1658" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021[ EWCA Civ 1658</ref>, where the Court of Appeal had to consider the effect of failure to comply with <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/86" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 86</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15" uk:canonical="2002 c. 15" uk:origin="TNA" uk:type="legislation">the 2002 Act</ref>. That section states that a claim notice is withdrawn by giving notice of withdrawal, and that the notice of withdrawal &#8220;must&#8221; be given to a range of persons. The Court of Appeal found that failure to give that notice to the qualifying tenants in the building did not invalidate the withdrawal notice; any other finding would have made it impossible for a landlord to know if a claim notice is withdrawn on the date on which it receives the withdrawal notice (paragraph 49). In that case the approach taken in <span style="font-style:italic">Elim Court</span> made the statute workable. In <span style="font-style:italic">Elim Court</span> itself and in the present case the Court of Appeal&#8217;s approach avoids a pointless waste of time and resources, which is a different sort of assessment of &#8220;what Parliament intended&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Be that as it may, the authority of paragraph 74 of <span style="font-style:italic">Elim Court</span> and the absence of any indication by the Court of Appeal that any other factors were relevant to its decision other than the fact that this was an intermediate landlord with no management responsibilities, means that the FTT had regard to all the relevant matters in light of the decision in <span style="font-style:italic">Elim Court</span> and the appeal fails on this point.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="Normal2"><span style="font-weight:bold">Ground 2</span></heading>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Ground 2 is aimed at paragraphs 74 and 75 of the FTT&#8217;s decision. It will be recalled that Mr Bates argued that failure to serve was deliberate. He pointed to the RTM company&#8217;s statement of case where its response to the challenge that the appellant had not been served was that there was no need for it to serve the appellant. In the absence of any evidence that failure was inadvertent that pleading reads like an explanation of the reason for failure to serve and, as the FTT said, is a compelling reason for finding that the failure was deliberate.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Nevertheless the FTT found that the failure was inadvertent because, it said, otherwise the actual service on the appellant in three of the other claims must have been inadvertent. That does not follow. The fact that three RTM companies deliberately served the appellant does not tell us anything about why this RTM company and four others did not. All eight seem to have used the same agent, so perhaps the individual concerned forgot in some cases and not in others. Or perhaps the RTM companies took different decisions. I agree with Mr Bates that there was no evidential basis for the FTT&#8217;s finding that the failure to serve the appellant was inadvertent and it is an almost inescapable conclusion from the RTM company&#8217;s pleading that it was not.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Mr Bates then says that it is unimaginable that Parliament could have intended that a deliberate failure to serve one of the persons listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2002/15/section/79/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 79(6)</ref> could be condoned and would not have intended that that should invalidate the claim.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">I fail to see that that is right, and indeed it feels like an illegitimate anthropomorphising of Parliament by attributing to it indignation at a deliberate default. The reason for failure to serve in <span style="font-style:italic">Elim Court</span> was irrelevant. It had to be irrelevant because the virtue or conscientiousness or explanatory skills of the person in default has no place in the factors identified by Lewison LJ in his paragraph 52; it makes no difference to the importance of the omitted action or information, nor to whether the requirement is stated in statute or in a statutory instrument, nor to whether the person in default is able immediately to try again. The reason for failure to serve therefore  had no part in leading Lewison LJ to his conclusion at his paragraph 74.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">So while I agree with Mr Bates that the FTT&#8217;s finding that failure to serve was not justified by the evidence, that makes no difference to the overall outcome of the appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="Normal2"><span style="font-weight:bold">Conclusion</span></heading>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="Normal2" style="margin-left:0.39in">Accordingly the appeal fails and the RTM company&#8217;s claim was not invalidated by failure to give the appellant a claim notice.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_1">
+	    <content>
+	      <p class="Normal2" style="text-align:right"><span/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>      Upper Tribunal Judge Elizabeth Cooke</p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="Normal2"><span/><docDate date="2023-01-31" refersTo="#decision">31 January 2023</docDate></p>
+	    <p><span style="font-weight:bold">Right of appeal&#160; </span></p>
+	    <p style="text-align:justify">Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.&#160; The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal&#8217;s decision on costs is sent to the parties).&#160; An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.&#160; If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

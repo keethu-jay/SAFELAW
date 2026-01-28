@@ -1,0 +1,560 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/"/>
+	  <FRBRdate date="2025-04-23" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value=""/>
+	  <FRBRname value="A Adams (Haulage) Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/"/>
+	  <FRBRdate date="2025-04-23" name="decision"/>
+	  <FRBRauthor href="#ukut-aac"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk//data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk//data.xml"/>
+	  <FRBRdate date="2025-05-14T15:07:14" name="transform"/>
+	  <FRBRdate date="2025-07-19T19:51:41" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-11" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-04-23" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukut-aac" href="https://www.gov.uk/courts-tribunals/upper-tribunal-administrative-appeals-chamber" showAs="United Kingdom Upper Tribunal (Administrative Appeals Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKUT-AAC</uk:court>
+	<uk:parser>0.26.21</uk:parser>
+	<uk:hash>9188b6f56c2d7fa5735e818818356a3355949adf7f4f144b35c3ef2439c5d047</uk:hash>
+	<uk:cite>[2025] UKUT 134 (AAC)</uk:cite>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: Arial; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Heading1 { text-align: justify; font-weight: bold; font-size: 12pt; }
+#judgment .Heading2 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Heading3 { text-align: justify; margin-left: 0in; font-style: italic; font-family: Arial; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .numbered0 { text-align: justify; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .Numbered { text-align: justify; margin-left: 0in; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .NormalNumber { text-align: justify; margin-left: 0.39in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyTextIndent2 { text-align: justify; margin-left: 1in; font-size: 11pt; }
+#judgment .ListParagraph { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: Arial; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.39in; font-size: 12pt; color: #404040; }
+#judgment .Sub-Heading { text-align: justify; margin-left: 0.39in; font-style: italic; font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .TOC1 { text-align: left; margin-left: 0.79in; font-weight: bold; font-size: 11pt; }
+#judgment .TOC2 { text-align: left; margin-left: 0.98in; font-size: 11pt; }
+#judgment .TOC3 { text-align: left; margin-left: 1.18in; font-style: italic; font-size: 11pt; }
+#judgment .TOC4 { text-align: left; margin-left: 0.5in; font-size: 10pt; }
+#judgment .TOC5 { text-align: left; margin-left: 0.67in; font-size: 10pt; }
+#judgment .TOC6 { text-align: left; margin-left: 0.83in; font-size: 10pt; }
+#judgment .TOC7 { text-align: left; margin-left: 1in; font-size: 10pt; }
+#judgment .TOC8 { text-align: left; margin-left: 1.17in; font-size: 10pt; }
+#judgment .TOC9 { text-align: left; margin-left: 1.33in; font-size: 10pt; }
+#judgment .legclearfix { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 12pt; }
+#judgment .legdslegrhslegp3text { }
+#judgment .normaltextrun { }
+#judgment .BodyTextIndent2Char { font-family: Arial; font-size: 11pt; }
+#judgment .legaddition5 { }
+#judgment .eop { }
+#judgment .BodyTextChar { font-size: 12pt; }
+#judgment .QuoteChar { font-family: Arial; font-size: 12pt; color: #404040; }
+#judgment .NumberedChar { font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Heading3Char { font-style: italic; font-family: Arial; font-size: 12pt; }
+#judgment .Sub-HeadingChar { font-style: italic; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Arial; font-size: 12pt; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header" style="text-align:center"><img src="image1.png" style="width:108.51pt;height:69.8pt"/></p>
+    </coverPage>
+    <header>
+      <p style="text-align:right"><span style="font-weight:bold">Neutral Citation Number: </span><span style="font-weight:bold;font-family:Arial">[2025] UKUT 134&#160;(AAC)</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Appeal No. UA&#8212;2024-001116-T</span></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-aac" style="font-weight:bold">IN THE UPPER TRIBUNAL </courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukut-aac" style="font-weight:bold">ADMINISTRATIVE APPEALS CHAMBER</courtType></p>
+      <p style="text-align:left"><span style="font-weight:bold">TRAFFIC COMMISSIONER APPEALS</span></p>
+      <p><span style="font-weight:bold">ON APPEAL from the DECISION of the TRAFFIC COMMISSIONER for Scotland                                      dated 19</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> July 2024</span></p>
+      <p><span style="font-weight:bold">Before:</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">HHJ Beech, Judge of the Upper Tribunal</span></p>
+      <p style="margin-left:1.5in;text-indent:0.5in"><span style="font-weight:bold">David Rawsthorn, Specialist Member of the Tribunal</span></p>
+      <p style="margin-left:1.5in;text-indent:0.5in"><span style="font-weight:bold">Craig Barker, Specialist Member of the Tribunal</span></p>
+      <p><span style="font-weight:bold">Appellant: </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold">A. ADAMS (HAULAGE) LIMITED</span></p>
+      <p><span style="font-weight:bold">Commissioner&#8217;s ref:</span><marker name="tab"/><span style="font-weight:bold">0M2036488</span></p>
+      <p><span style="font-weight:bold">Hearing date: </span><marker name="tab"/><docDate date="2025-03-11" refersTo="#hearing">11<span style="vertical-align:super;font-size:smaller">th</span> March 2025</docDate></p>
+      <p><span style="font-weight:bold">Mode of hearing: </span><marker name="tab"/>Remote by CVP</p>
+      <p><span style="font-weight:bold">Heard at: </span><marker name="tab"/><marker name="tab"/>Field House, Breams Buildings, London, EC4A 1DZ</p>
+      <p><span style="font-weight:bold">Representation:</span></p>
+      <p><span style="font-weight:bold">Appellant:</span><marker name="tab"/><marker name="tab"/>Alistair Adams, the Appellant&#8217;s director</p>
+      <p>Decision Date:<marker name="tab"/>23<span style="vertical-align:super;font-size:smaller">rd</span> April 2025</p>
+      <p style="text-align:left"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY OF DECISION</span></p>
+      <p style="text-align:left"><span style="font-weight:bold">This appeal is DISMISSED and the stay of execution granted on 16</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> August 2024 is set aside with effect from 23.59 on 14</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> May 2025</span></p>
+      <p style="text-align:left">The Traffic Commissioner&#8217;s decision to revoke the Appellant&#8217;s standard international operator&#8217;s licence involved neither error of law or mistake of fact<span style="font-family:Arial"> as per the test in Bradley Fold Travel &amp; Peter Wright v Secretary of State for Transport (2010) EWCA Civ.695.</span></p>
+      <p><span style="font-weight:bold">KEYWORD NAME: </span>100.7 Professional competence; 100.12 Revocation</p>
+      <p><span style="font-style:italic;font-weight:bold;font-size:10pt">Please note the Summary of Decision is included for the convenience of readers. It does not form part of the decision. The Decision and Reasons of the judge follow.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">The appeal is dismissed and the stay of execution is set aside with effect from 23.59 on 14</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> May 2025</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">REASONS FOR DECISION</span></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Heading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p style="margin-left:0.75in"><span style="font-family:Arial">This is an appeal from the decision of the Traffic Commissioner for Scotland (&#8220;TC&#8221;) dated 19</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> July 2024, when they revoked the Appellant&#8217;s standard international operator&#8217;s licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/27/1" uk:canonical="1995 c. 23 s. 27" uk:origin="TNA" uk:type="legislation">s.27(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">Goods Vehicles (Licensing of Operators) Act 1995</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>&#8221;). </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Heading1">Factual background</heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p style="margin-left:0.75in"><span style="font-family:Arial">The background to this appeal is as follows. The Appellant is a specialist international boat transport company with Alistair Adams as the sole director and Andrew Adams as the nominated transport manager.  According to Mr Adams Senior, Vari Adams his wife, runs the business and is in charge of maintenance. In 2009, she lost her good repute and was disqualified from being a transport manager indefinitely.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p style="margin-left:0.75in"><span style="font-family:Arial">The appeal file is silent as to when the operator&#8217;s licence was granted and silent as to the licence details or how many vehicles/trailers were authorised on the licence or are in possession. It is understood that at present there is one vehicle and one trailer in possession.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p style="margin-left:0.75in"><span style="font-family:Arial">By an email dated 3</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-family:Arial"> May 2024, Andrew Adams informed the Office of the Traffic Commissioner (&#8220;OTC&#8221;) that:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">by mutual agreement I will resign as Director and Transport Manager of A Adams (Haulage) Ltd .. on Friday 31</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:Arial">st</span><span style="font-style:italic;font-family:Arial"> May 2024.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">A new Transport Manager will be appointed shortly&#8221;.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-family:Arial">No application to appoint a new transport manager was received by the OTC.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p style="margin-left:0.75in"><span style="font-family:Arial">On 4</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024, the OTC wrote to Alistair Adams (&#8220;Mr Adams&#8221;) requiring a response by 25</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024.  The letter was sent by recorded delivery to the company&#8217;s correspondence address and by email.  It informed Mr Adams that failure to address the concerns raised in the letter by 25</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024 &#8220;</span><span style="font-style:italic;font-family:Arial">will result in the traffic commissioner revoking the licence&#8221;</span><span style="font-family:Arial">.  It reminded Mr Adams of the requirement to have either a transport manager or a period of grace in place and that by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>, the TC shall direct that a licence be revoked if at any time it appears that the requirement to have a suitable transport manager was not satisfied.  Accordingly, notice was being given under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/27/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27(2)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref> that the TC was considering revocation of the Appellant&#8217;s licence; that the Appellant was entitled to make written representations to the TC and in addition could ask for a public inquiry, in order to offer further evidence as to why the licence should not be revoked. Mr Adams was reminded that his representations could include an application to add a replacement transport manager (Guidance as how to do so was attached to the letter in the form of Annex A).  Moreover, he was advised that the TC may consider granting a period of grace (&#8220;PofG&#8221;) to enable the Appellant to find a replacement transport manager or whilst any nomination was being considered.  But the Appellant needed to ask for a PofG and the TC was not obliged to grant one and was unlikely to do so unless:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">there is evidence that a replacement will be recruited and that the licence requirements will be met in the meantime.  An application for a period of grace must be in writing and set out what you are doing to resolve the matter.  Guidance to request a period of grace whilst you recruit a new transport manager is attached to Annex B </span><span style="font-family:Arial">(sic)</span><span style="font-style:italic;font-family:Arial">.</span><span style="font-family:Arial">&#8221;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-family:Arial">Annex B was a comprehensive guide to assist operators when applying for a period of grace.  It included the following:</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">There must be tangible evidence that a period of grace will be worthwhile, in other words, there are reasonable prospects that the mandatory requirement will be met by expiry of the specified period.  </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">Please make any period of grace request in writing and specify:</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">Why your last transport manager has left and the circumstances</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">What measures were taken to prevent loss ..</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">The period of time you seek for your period of grace.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">How will you cover the duties of a transport manager during the period of grace.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">What action you are taking to meet the transport manager requirement as soon as possible. ..&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p style="margin-left:0.49in"><span style="font-family:Arial">Mr Adams responded by email on 24</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024, stating:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">In response to your letter of the 4</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-style:italic;font-family:Arial"> June 2024, it is our intention to have the repute of Vari Adams restored, in the longer term we would be intending to include our son in law Chris Brannan on the licence, who in turn will gain the CPC qualification.  </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:Arial">We are unclear at the moment how exactly to proceed, we would ask for a 6 month period grace while we make enquiries.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:Arial">We have been in Europe for the last 3 weeks, returning home at the end of this week and will continue the correspondence and keep you up to date with progress on these matters&#8221;.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:Arial">The email was not accompanied with an application to restore the repute of Vari Adams or any information about potential bookings for Mr Brannan to attend a CPC course or a formal and compliant application for a PofG.  </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p style="margin-left:0.49in"><span style="font-family:Arial">On 3</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-family:Arial"> July 2024, the OTC wrote to Mr Adams in an attempt to resolve the issues.  Mr Adams was advised that the TC remained to be satisfied that if they were to grant a PofG that there were reasonable prospects of a good outcome.  The TC gave Mr Adams a further seven days to 10</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> July 2024, to &#8220;</span><span style="font-style:italic;font-family:Arial">provide a satisfactory period of grace request with tangible evidence provided.</span><span style="font-family:Arial">&#8221;  It was made clear that failure to do so would result in the TC revoking the licence under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>.  The letter went on:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.55in"><marker name="tab"/><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">Please therefore provide the following information by return:</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.05in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.05in"><span style="font-style:italic;font-family:Arial">Please detail the specific steps you are taking to find a replacement transport manager.  This should include details on what steps have been taken so far and what steps you continue to take, including whether the job has been advertised externally and if so, on what job sites.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.05in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.05in"><span style="font-style:italic;font-family:Arial">It is noted that reference is made to Chris Brannan gaining his CPC qualification.  Please confirm whether Mr Brannan is booked on the course and if so, what date the course is booked for.  Please provide a course booking confirmation if available.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in"><span style="font-family:Arial">Mr Adams responded on 7</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> July 2024 as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in"><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">In reply to your letter of 3</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-style:italic;font-family:Arial"> July, and regards to the evidence, I omitted to include a copy of the refresher certificate of Vari Adams taken on 8</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-style:italic;font-family:Arial"> July 2020, although I do not have a transport managers qualification, I myself took the refresher course on the 8</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-style:italic;font-family:Arial"> December 2020, this was due partly to drivers cpc.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">We have a date yet to be confirmed with Ritchies training for Chris Brannan to sit the cpc course, we will confirm the date in separate correspondence.  Proposed dates are July and August.  </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in"><span style="font-style:italic;font-family:Arial">I would ask for a two month period of grace to allow Chris to gain the certificate.  If the Traffic Commissioner requires a public enquiry for Vari Adams to regain her repute, I am fine with this.  Vari has been working alongside Andrew for several years.&#8221;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.75in"><span style="font-family:Arial">Attached to the email were two transport manager refresher certificates dated 8</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> December 2020, one in the name of Mr Adams of the Appellant company and one in the name of Vari Adams of Euroboat Transport.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">On 19</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> July 2024, the OTC sent a letter to Mr Adams by recorded delivery and by email, informing him that in the absence of a satisfactory response to the letter of 4</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024 or a request for a public inquiry, the Appellant&#8217;s licence had been revoked with immediate effect under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27(1)</ref>(a) and in line with s.13A(a)(i) or 13A(3)(b).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">On 22</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">nd</span><span style="font-family:Arial"> July 2024, Mr Adams wrote to the OTC purporting to respond to the letter of 4</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024 for a second time, asking for a public inquiry.  He advised that Andrew Adams had agreed to return to the Appellant as transport manager and that the OTC would receive confirmation of this change from Andrew Adams on &#8220;</span><span style="font-style:italic;font-family:Arial">Thursday&#8221;</span><span style="font-family:Arial"> (which would have been the 25</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th)</span><span style="font-family:Arial">.  He further advised that this would allow Chris Brannan time to pass the CPC course.  His proposed dates for a course &#8220;</span><span style="font-style:italic;font-family:Arial">at the moment&#8221;</span><span style="font-family:Arial"> were 26</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> August to 5</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> September 2024 with an examination on 6</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> September 2024.  Mr Adams indicated that he had also appealed the TC&#8217;s decision to this Tribunal.  The OTC responded on 23</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-family:Arial"> July 2024, recording that the Appellant&#8217;s licence had already been revoked.  Mr Adams was advised either to appeal or apply for a new licence and that he may wish to seek professional or legal advice.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">On 13</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> August 2024, Mr Adams applied for a stay of the revocation order upon the basis that the OTC failed to send the relevant correspondence to the Appellant&#8217;s email address and so he was unable to respond.  The TC&#8217;s decision was as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">I am prepared to grant a stay in this case.  There were no concerns about maintenance/road safety and the Operator says that the TM who resigned has returned so there are no concerns about how the vehicles will be maintained etc.  I consider the prima facie ground for the appeal to be weak but, on balance I consider that a stay should be granted&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Heading1">Legal framework</heading>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in"> By virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.13</ref>(A)(3)(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>, an applicant for a standard operator&#8217;s licence who is not an individual, has designated a suitable number of individuals who satisfy the requirements set out in paragraph 14(A)(1) and (3) of Schedule 3 of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.49in">By virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23" uk:canonical="1995 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>, a TC shall direct that a standard licence be revoked if at any time it appears to him that a licence-holder no longer meets the requirements to be professionally competent.  The following provisions apply:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="legclearfix" style="text-indent:0.49in"><span style="font-style:italic;font-family:Arial"><ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/27/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 27(2)</ref></span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.49in;text-indent:0.05in"><span style="font-style:italic;font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial;color:#1E1E1E">Before giving a direction under subsection (1) in respect of a licence,&#160;a traffic commissioner&#160;shall give to its holder notice in writing that he is considering giving such a direction.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;color:#1E1E1E">(3)</num>
+	      <content>
+		<p style="text-align:left;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">A notice under subsection (2) shall state the grounds on which the traffic commissioner is considering giving a direction under subsection (1) and&#160;&#8212;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;color:#1E1E1E">(a)</num>
+	      <content>
+		<p style="text-align:left;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">shall invite the licence-holder to make&#160;written representations with respect to those grounds, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;color:#1E1E1E">(b)</num>
+	      <content>
+		<p style="text-align:left;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">shall state that</span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:17pt;color:#000000"/><span style="font-style:italic;font-family:Arial;color:#1E1E1E">any such representations must be received by the commissioner&#160;dealing with the matter&#160;within 21 days of the date of the notice;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.5in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">and a traffic commissioner may not give a direction under subsection (1) without considering any representations duly made under this subsection.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:left;margin-left:0.5in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">(3A) A notice under subsection (2) may set a time limit for the licence-holder to rectify the situation.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:left;margin-left:0.5in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">(3AA) The time limit set under subsection (3A) may not exceed, beginning with the day after the date of the notice&#8212;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_4_1">
+	    <num style="font-style:italic;color:#1E1E1E">(a)</num>
+	    <intro>
+	      <p style="text-align:left;text-indent:1in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">6 months, or</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;color:#1E1E1E">(b)</num>
+	      <content>
+		<p style="text-align:left;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">9 months if the licence-holder ceases to have a suitable number of individuals designated under <ref href="http://www.legislation.gov.uk/id/ukpga/1995/23/section/13" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 13</ref>A(3)(a)(ii) or (b) because&#8212;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_4_2">
+	    <num style="font-style:italic;color:#1E1E1E">(i)</num>
+	    <content>
+	      <p style="text-align:left;text-indent:1in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">a transport manager is physically incapacitated or deceased, and</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_3">
+	    <num style="font-style:italic;color:#1E1E1E">(ii)</num>
+	    <intro>
+	      <p style="text-align:left;text-indent:1in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">more than 6 months is required to recruit a replacement transport manager.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:left;margin-left:0.5in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">(3B) If the licence-holder rectifies the situation within the time limit set under subsection (3A), the traffic commissioner must not make the direction under subsection (1).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;color:#1E1E1E">(4)</num>
+	      <content>
+		<p style="text-align:left;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:Arial;color:#1E1E1E">This section has effect subject to section 29 (and, in particular, nothing in&#160;subsections (3) to (3B)&#160;above shall be taken to affect a person&#8217;s right under section 29(1) to require the holding of an inquiry).</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Heading1">The grounds of appeal and the parties&#8217; submissions</heading>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Appellant&#8217;s grounds of appeal can be summarised as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.64in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:Arial">The Appellant had asked for a PofG to allow Chris Brannan to gain his CPC certificate and had hoped that he would be enrolled on a course commencing 26</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> August 2024 and then one commencing 2</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">nd</span><span style="font-family:Arial"> September 2024 and the Appellant was also looking at an alternative course on 25</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> September 2024;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;margin-left:0.64in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:Arial">Insufficient time had been allowed by the TC to appoint a new Transport Manager. The Appellant&#8217;s request for more time appeared to have been rejected.   It seemed that it was for the Appellant to ask for a public inquiry </span><span style="font-style:italic;font-family:Arial">&#8220;when in the past, it was the Traffic Commissioner who would decide to resolve the issue of the transport manager&#8221;;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;margin-left:0.64in;text-indent:-0.25in">c)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:Arial">A new company would be formed called Euroboat Limited although an application had not yet been submitted;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.64in;text-indent:-0.25in">d)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:Arial">A public inquiry was requested for the Appellant&#8217;s proposals to be discussed.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">The CVP hearing of the Appellant&#8217;s appeal was somewhat challenging.  Mr Adams was unable to connect to the hearing and so we adjourned to the afternoon to see if he could find a solution.  He did so, by connecting using his telephone which was far from satisfactory although we could hear what he was saying.  He initially maintained that the relevant OTC correspondence had only been sent to the VOL portal which he did not look at very often and that the correspondence should have been sent by email.  We took him to the correspondence which either clearly stated that it had been sent by recorded delivery and by email save for the letter of 3</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-family:Arial"> July 2024 which Mr Adams must have received as he replied to it on 7</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> July 2024.  He maintained that the real problem was that the nature of the Appellant&#8217;s business meant that he transported boats across Europe with his wife acting as the Escort Vehicle driver and that they were often at locations where it was difficult to gain access to the internet.  They had not been given sufficient time to find a replacement transport manager.  He produced a number of invoices for ferry journeys between 10</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> and 11</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024 and 26</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> July 2024 but they in themselves did not establish that it had been impossible for Mr Adams to submit a compliant application for a PofG or ask for a public inquiry.  He accepted that the references to the Appellant&#8217;s entitlement to ask for a public inquiry had &#8220;</span><span style="font-style:italic;font-family:Arial">passed me by&#8221;</span><span style="font-family:Arial"> but in any event having been to a number of public inquiries before, it was always the TC who had asked for one, not him.  He accepted that the emails he did send were &#8220;</span><span style="font-style:italic;font-family:Arial">short&#8221;</span><span style="font-family:Arial">.  He was just a &#8220;</span><span style="font-style:italic;font-family:Arial">normal guy, a lorry driver</span><span style="font-family:Arial">&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold">Analysis</span></heading>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Mr Adams attended a transport manager refresher course on 8</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> December 2020 and whilst that was some four years before the Appellant had lost its transport manager, he would or should have been fully aware of the mandatory requirement for a licence-holder to be professionally competent.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Appellant, which included Mr Adams as the sole director, had been aware since 3</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-family:Arial"> May 2024 that the Appellant was to be without a transport manager from 31</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">st</span><span style="font-family:Arial"> May 2024.  Whilst Andrew Adams stated in his letter that a new transport manager was to be appointed &#8220;</span><span style="font-style:italic;font-family:Arial">shortly&#8221;</span><span style="font-family:Arial">, there was no evidence before the TC or this Tribunal that any steps had been taken by the Appellant to recruit and nominate a new transport manager or have someone attend a CPC course to be  the nominated transport manager before the propose to revoke letter of 4</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024 was sent.  Moreover, there are no ferry invoices produced to cover that period which might otherwise explain the failure to be proactive in this regard.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The letter of 4</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> June 2024 could not have been clearer in its terms about what the Appellant needed to do to either nominate a new transport manager, ask for a PofG or request a public inquiry.  Moreover, it could not have been clearer in its terms about the consequences of not following the processes set out in the letter and in the two annexes.  Mr Adams&#8217; response to that letter was wholly inadequate.  He either did not read the letter properly or disregarded the clear guidance given.  There was nothing stopping Mr Adams or any other member of Appellant&#8217;s administrative team from:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.64in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:Arial">making an application for a public inquiry for the good repute of Vari Adams to be reinstated although it would have been unwise to rely upon that application alone when it might have been questionable whether her good repute would be restored.  The fact that she had completed a refresher transport manager course four years before would not have addressed any underlying issues;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.64in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:Arial">booking Mr Brannan onto a relevant course and sending the relevant booking documents to show when that may result in Mr Brannan becoming a qualified transport manager;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.64in;text-indent:-0.25in">c)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:Arial">providing the information that was required and set out in paragraph 7 above.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">The letter of 3</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-family:Arial"> July 2024 sent by the OTC spelt out in plain terms what the Appellant was required to do in order to apply for a PofG.  However, Mr Adams&#8217; response to it was as deficient as his first response.  We have considered whether the sentence:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">&#8220;</span><span style="font-style:italic;font-family:Arial">If the Traffic Commissioner requires a public enquiry for Vari Adams to regain her repute, I am fine with this&#8221;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.49in"><span style="font-family:Arial">should have been construed by the OTC as a request for a public inquiry.  We are not satisfied that it should have been. There was no formal application for the good repute of Vari Adams to be restored and no request for a public inquiry which could have been made in simple terms.  The first request for a public inquiry was made on 22</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">nd</span><span style="font-family:Arial"> July 2024 when the licence had already been revoked.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="Heading1">Conclusion</heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <intro>
+	      <p class="Numbered" style="margin-left:0.39in"><span style="font-family:Arial">Taking all the circumstances into account, we are not satisfied that there was any procedural unfairness in this case or that the TC&#8217;s decision was plainly wrong in any respect and neither the facts nor the law applicable should impel the Tribunal to allow this appeal as per the test in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Bradley Fold Travel &amp; Peter Wright v Secretary of State for Transport (2010) EWCA Civ.695.</span><span style="font-family:Arial">  The appeal is dismissed and the stay of the TC&#8217;s decision is set aside with effect from 23.59 on 14</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-family:Arial"> May 2025.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:right"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial">Her Honour Judge Beech</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:right"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial">Judge of the Upper Tribunal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_7_1">
+	    <content>
+	      <p style="text-align:right"><span style="font-family:Arial">Authorised by the Judge for issue on </span><docDate date="2025-04-23" refersTo="#decision"><span style="font-family:Arial">23</span><span style="vertical-align:super;font-size:smaller;font-family:Arial">rd</span><span style="font-family:Arial"> April 2025</span></docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

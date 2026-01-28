@@ -1,0 +1,694 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/16"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2022/16"/>
+	  <FRBRdate date="2022-06-15" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="16"/>
+	  <FRBRname value="AIC Ltd v Federal Airports Authority of Nigeria"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/16"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/16"/>
+	  <FRBRdate date="2022-06-15" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2022/16/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2022/16/data.xml"/>
+	  <FRBRdate date="2024-11-09T01:06:34" name="transform"/>
+	  <FRBRdate date="2024-11-20T01:24:09" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-06-15" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="aic-ltd" href="" showAs="AIC Ltd"/>
+	<TLCPerson eId="federal-airports-authority-of-nigeria" href="" showAs="Federal Airports Authority of Nigeria"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-hodge-deputy-president" href="/judge-lord-hodge-deputy-president" showAs="Lord Hodge, Deputy President"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-sales" href="/judge-lord-sales" showAs="Lord Sales"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>16</uk:number>
+	<uk:cite>[2022] UKSC 16</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>b3d0229d1a2ecb5dec0c90590dd729e69e34593f594c63eed78ee27f0000a454</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Calibri, sans-serif'; }
+#judgment .Normal { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Heading4 { font-style: italic; font-family: 'Calibri Light'; font-size: 11pt; color: #2F5496; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Header { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Quote { margin-left: 1in; margin-right: 0.87in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.5in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1in; font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .CommentText { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .Revision { font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Calibri, sans-serif'; font-size: 13pt; }
+#judgment .Heading4Char { font-style: italic; font-family: 'Calibri Light'; color: #2F5496; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:99.35pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Trinity Term</span><br/><neutralCitation style="font-weight:bold">[2022] UKSC 16</neutralCitation><br/><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1585" style="font-style:italic" uk:canonical="[2020] EWCA Civ 1585" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2020] EWCA Civ 1585</ref></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#respondent" refersTo="#aic-ltd">AIC Ltd</party> (<role refersTo="#respondent">Respondent</role>) <span style="font-style:italic">v</span><span/><party as="#appellant" refersTo="#federal-airports-authority-of-nigeria">Federal Airports Authority of Nigeria</party> (<role refersTo="#appellant">Appellant</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-hodge-deputy-president">Lord Hodge, Deputy President</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-sales">Lord Sales</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2022-06-15" refersTo="#judgment">15 June 2022</docDate><br/><br/>Heard on 1 March 2022</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Riaz Hussain QC<br/>Omar Eljadi<br/>(Instructed by Squire Patton Boggs (UK) LLP (London))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Paul Key QC<br/>(Instructed by McDermott Will &amp; Emery UK LLP (London))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD BRIGGS AND LORD SALES: (<span style="text-transform:none">with whom Lord Hodge, Lord Hamblen and Lord Leggatt agree)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">A judge delivers judgment in open court and makes an appropriate order. A few hours, or days, later, but before the formal written minute of the order has been sealed by the court, the judge receives a request from one of the parties to re-consider both the judgment and the order. What should the judge do? This problem may arise at all levels in civil litigation, from interim and case management hearings, to final orders made at the end of a trial and even to orders made, but not yet sealed, on appeal. There is no doubt that the judge has power to re-open the judgment and order at any time until the order has been sealed, but the question raised by this appeal is by what process, and in accordance with what principles, should the judge decide whether or not to exercise that power?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">In </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">In re L (Children) (Preliminary Finding: Power to Reverse) </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/8" uk:canonical="[2013] UKSC 8" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 8</ref>; <ref href="#" uk:canonical="[2013] 1 WLR 634" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 WLR 634</ref> (&#8220;</span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L</span><span style="font-family:'Calibri, sans-serif'">&#8221;), at para 27, Baroness Hale of Richmond (with whom the other members of the court agreed) said that the judge should seek to resolve the problem by doing justice in accordance with the overriding objective. </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L </span><span style="font-family:'Calibri, sans-serif'">was a case which had come up from the Family Court, concerning an interim order in a fact-finding hearing in relation to deciding what care arrangements should be made in relation to two small children. The overriding objective in that context was that specified in the Family Procedure Rules (&#8220;the FPR&#8221;). FPR Part 1.1(1) stated that the rules were a new procedural code &#8220;with the overriding objective of enabling the court to deal with cases justly, having regard to any welfare issues involved&#8221;. Thus in the context of that regime the overriding objective gives emphasis to securing the welfare of children.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The present case is governed by the Civil Procedure Rules (&#8220;the CPR&#8221;). CPR Part 1.1(1) states that the rules are a new procedural code &#8220;with the overriding objective of enabling the court to deal with cases justly and at proportionate cost&#8221;. CPR Part 1.1(2) sets out a list of six factors included in that concept. These include &#8220;enforcing compliance with rules, practice directions and orders&#8221;: CPR Part 1.1(2)(f). This sub-paragraph was added by amendment in 2013, after </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The judge said that application of the overriding objective in this context was a question of balance. But the Court of Appeal said that was wrong. She should have conducted a two-stage analysis, asking at the first stage whether it was right in principle to entertain the application to re-consider at all and then, but only if that produced an affirmative answer, to consider the application on its merits at the second stage. The Court of Appeal also made other criticisms of the judge&#8217;s approach.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">In our view both the judge and the Court of Appeal were only partly right, but the obvious tension between their respective approaches means that it is now appropriate to re-state the applicable principles more fully than in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L</span><span style="font-family:'Calibri, sans-serif'">, not least because the overriding objective in the two contexts is different and the overriding objective in the CPR has itself been subject to relevant change since 2013. We shall do so by reference to the perhaps unusual facts of the present case, since our function is first to determine whether the judge and / or the Court of Appeal went wrong in their application of the relevant principles to those facts and secondly, if (as we consider) they both did, to re-exercise the judge&#8217;s original discretion afresh, on the basis of those facts as they now are.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The Facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The proceedings in which this appeal has arisen are civil proceedings to obtain the court&#8217;s permission to enforce in England and Wales a foreign arbitration award, under the Convention on the Recognition and Enforcement of Foreign Arbitral Awards adopted by the United Nations Conference on International Commercial Arbitration in New York on 10 June 1958 (&#8220;the New York Convention&#8221;). The successful claimant in the arbitration was AIC Ltd, the respondent in this appeal (&#8220;AIC&#8221;). The respondent in the arbitration was the Federal Airports Authority of Nigeria (&#8220;FAAN&#8221;), the appellant in this appeal. The arbitration took place in Nigeria pursuant to an arbitration agreement contained in a development lease between FAAN and AIC dated 17 February 1998. The judicial arbitrator (Kayode Eso J) ordered FAAN to pay US$48.13m to AIC, plus interest at 18% per annum by his award dated 1 June 2010 (&#8220;the Award&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">FAAN challenged the Award in proceedings in Nigeria and succeeded at first instance in June 2013, but AIC&#8217;s appeal was allowed by the Nigerian Court of Appeal, on procedural grounds, in June 2015. The matter was remitted to the Federal High Court. But FAAN appealed to the Supreme Court of Nigeria and AIC cross-appealed to argue that the Nigerian Court of Appeal ought to have dismissed FAAN&#8217;s set-aside application and granted AIC&#8217;s application to enforce the Award. That is how matters rested until 31 January 2022 when the Supreme Court of Nigeria struck out both FAAN&#8217;s appeal and AIC&#8217;s cross-appeal and confirmed that the case should be remitted to the Federal High Court.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Meanwhile, on 10 January 2019 AIC started proceedings in England by issuing an application without notice to FAAN by way of an arbitration claim form to enforce the Award under the New York Convention pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23/section/66" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 66</ref> and 101 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/23" uk:canonical="1996 c. 23" uk:origin="TNA" uk:type="legislation">Arbitration Act 1996</ref> (&#8220;the Enforcement Claim&#8221;). The Enforcement Claim came before O&#8217;Farrell J who made an order for enforcement on 28 February 2019 without a hearing, with permission to FAAN to apply to set it aside within 22 days after service (&#8220;the without notice order&#8221;). FAAN did so apply, seeking an adjournment of the Enforcement Claim on the ground that its claim to set aside the Award was still pending in Nigeria. AIC cross-applied for a condition that any adjournment should be on terms that FAAN provided security.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">These applications were heard together by Veronique Buehrlen QC sitting as a deputy judge of the High Court (&#8220;the Judge&#8221;) on 25 July 2019. By her reserved judgment delivered on 13 August 2019 she set aside the without notice</span><span style="font-style:italic;font-family:'Calibri, sans-serif'"/><span style="font-family:'Calibri, sans-serif'">order and adjourned the Enforcement Claim pending the outcome of the Nigerian set-aside proceedings, but on condition that FAAN provide security in the sum of US$24,062,000 in a form to be agreed. FAAN sought permission to appeal on 3 September, but this was refused by the Court of Appeal on 11 November 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">While that application for permission was pending, AIC sought and obtained from the Judge on 17 September 2019 an order that the security be provided by bank guarantee (&#8220;the Guarantee&#8221;) by 29 October 2019, with permission to AIC to apply to enforce the Award if the Guarantee was not forthcoming by then. By a last-minute application to the Court of Appeal made on 29 October FAAN obtained an extension of time for provision of the Guarantee until three days after the determination of its application for permission to appeal. Thus the extended deadline for the provision of the Guarantee became 4.30 pm on 14 November 2019, after the refusal of permission to appeal three days earlier.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">That deadline passed without the Guarantee being provided. FAAN made another last-minute application on 14 November for a further extension of time until 5 December 2019, while AIC cross-applied for permission to enforce the Award. Both applications were heard by the Judge at a short oral hearing early in the afternoon on 6 December. The Guarantee was even then still not forthcoming, and leading counsel for FAAN told the judge that he could not properly seek further time or oppose the grant of permission for the enforcement of the Award. Almost inevitably the Judge gave an immediate oral judgment and made an order permitting AIC to enforce the Award, at about 14.20 on 6 December (&#8220;the Enforcement Order&#8221;). The Enforcement Order was not sealed at this stage.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">In the meantime FAAN had been taking belated steps to obtain the requisite Guarantee. According to FAAN&#8217;s evidence, it had to secure approval from various Government Ministries and the Central Bank of Nigeria for the arrangements to establish the Guarantee. FAAN had known since June 2019 that security would be sought, since 13 August 2019 that security would have to be provided and since 17 September 2019 that the security should be in the form of the Guarantee if FAAN wished to resist an order permitting AIC to enforce the Award. FAAN knew definitively on 11 November that the Guarantee was required to be made available by 14 November 2019. Despite this, it was only on 2 December 2019 that the Central Bank had been approached.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Thereafter, things progressed with some speed. On 6 December the Guarantee was issued by Standard Chartered Bank (&#8220;SCB&#8221;) and it was made available to FAAN&#8217;s legal team later that afternoon. They passed a copy of it on to AIC by email at 17.17 on that day, stating that FAAN intended to apply to the Judge to re-open her judgment and the Enforcement Order given earlier that afternoon. That application was made by FAAN on 8 December, coupled with an application for relief from sanctions imposed for the late provision of the Guarantee. The applications were heard by the Judge on 13 December, after she had ordered that the Enforcement Order should not be sealed in the meantime.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Pursuant to an impressive </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">ex tempore</span><span style="font-family:'Calibri, sans-serif'"> judgment delivered under pressure of time at the end of the hearing the Judge set aside the Enforcement Order, extended time for the provision of the Guarantee until 9 December (by when it had of course been provided), granted relief from sanctions, and adjourned the application for enforcement of the Award pending the outcome of the Nigerian set-aside proceedings (&#8220;the Set-aside Order&#8221;). Its effect was to prevent the enforcement of the Guarantee in the meantime.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">It will be necessary to review the Judge&#8217;s reasoning in greater detail in due course but, in outline, she concluded that (i) the provision of the Guarantee just after the 6 December hearing amounted to a sufficiently important change of circumstances to justify re-consideration of the Enforcement Order; (ii) there was sufficiently good reason for the delay in the provision of the Guarantee to justify relief from sanctions; and (iii) it was just to set aside AIC&#8217;s permission to enforce the Award because it now had the Guarantee, which had been intended to be the price for an adjournment of AIC&#8217;s application to enforce the Award, whereas to leave the Enforcement Order in place would be to give AIC the benefit of both the Guarantee and permission to proceed to enforce the Award at the same time. That would be to give AIC the unintended benefit of a procedural windfall.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">AIC appealed, seeking the re-instatement of the Enforcement Order. The Court of Appeal (Flaux, Coulson and Carr LJJ) allowed the appeal. It will again be necessary to review the court&#8217;s reasons for doing so in greater detail in due course but, in outline, Coulson LJ (with whom the other members of the court agreed) concluded that: (i) the judge should have conducted the two-stage process set out above, considering at the first stage whether in principle the re-consideration application should be entertained at all; (ii) had she done so, she should have concluded that the late provision of the Guarantee was not a sufficiently compelling reason for re-considering the Enforcement Order; and (iii) there was no sufficient explanation for the delay in providing the Guarantee either to justify relief from sanctions or to make it just to set aside the Enforcement Order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The result of the reinstatement of the Enforcement Order by the Court of Appeal was that AIC had both an unlimited right to enforce the Award in England and the benefit of the Guarantee, as an asset against which to enforce. Since the Guarantee had been provided to AIC by FAAN&#8217;s legal team, AIC was in a position to call on it and duly did so promptly after receiving it on 6 December 2019. After the position in relation to the Enforcement Order was determined by the Court of Appeal, the Guarantee was paid in full by SCB. Meanwhile further enforcement of the Award was stayed by this court pending this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The CPR, the FPR and the Authorities</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The CPR Part 1.1 sets out the Overriding Objective applicable in ordinary civil proceedings. The CPR came into effect in April 1999. In its original form, Part 1.1(1) stated that the CPR were &#8220;a new procedural code with the overriding objective of enabling the court to deal with cases justly&#8221;. Part 1.1 was later amended and now reads as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">These Rules are a procedural code with the overriding objective of enabling the court to deal with cases justly and at proportionate cost.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Dealing with a case justly and at proportionate cost includes, so far as is practicable -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">ensuring that the parties are on an equal footing and can participate fully in proceedings, and that parties and witnesses can give their best evidence;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">saving expense;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">dealing with the case in ways which are proportionate -</span></p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num style="font-size:13pt">(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:2in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">to the amount of money involved;</span></p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num style="font-size:13pt">(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:2in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">to the importance of the case;</span></p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num style="font-size:13pt">(iii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:2in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">to the complexity of the issues; and</span></p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num style="font-size:13pt">(iv)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:2in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">to the financial position of each party;</span></p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">ensuring that it is dealt with expeditiously and fairly;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">allotting to it an appropriate share of the court&#8217;s resources, while taking into account the need to allot resources to other cases; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(f)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">enforcing compliance with rules, practice directions and orders.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Calibri, sans-serif'">As we have noted, sub-paragraph (f) was added by amendment in 2013.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">In order to understand the significance of this court&#8217;s decision in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L </span><span style="font-family:'Calibri, sans-serif'">it is necessary to compare the CPR with the FPR. FPR Part 1.1 sets out the Overriding Objective applicable in family proceedings as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">These rules are a new procedural code with the overriding objective of enabling the court to deal with cases justly, having regard to any welfare issues involved.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Dealing with a case justly includes, so far as is practicable -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">ensuring that it is dealt with expeditiously and fairly;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">dealing with the case in ways which are proportionate to the nature, importance and complexity of the issues;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">ensuring that the parties are on an equal footing;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(d)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">saving expense; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(e)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">allotting to it an appropriate share of the court&#8217;s resources, while taking into account the need to allot resources to other cases.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L</span><span style="font-family:'Calibri, sans-serif'"> concerned care proceedings brought by a local authority in respect of two children after one of them had been found to have non-accidental injuries. As a prelude to considering what care orders to make for the welfare of the children, the judge conducted a preliminary fact-finding hearing to determine the identity of the perpetrator. Each parent accused the other of being the sole perpetrator. The judge gave an oral judgment which concluded that the father was the perpetrator and an order was drawn up to state that conclusion. However, before it was sealed the judge issued a second judgment in which she said that, upon reconsideration, she was unable to find to the requisite standard which of the parents was the perpetrator and that it could have been either of them. On the mother&#8217;s appeal, the Court of Appeal (Thorpe LJ and Sir Stephen Sedley, Rimer LJ dissenting) <ref href="#" uk:canonical="[2013] 1 FLR 209" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 FLR 209</ref> held that the judge should not have reversed her decision. The majority emphasised the importance of finality. Sir Stephen Sedley said, at para 80, that something more than a change in the judge&#8217;s mind was required, because &#8220;it will only be exceptionally that the interests of finality are required to give way to the larger interests of justice.&#8221; However, the father&#8217;s appeal to this court was allowed and the judge&#8217;s revised judgment was restored.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Although the appeal arose in the context of care proceedings, Baroness Hale (giving a judgment with which the other members of the court agreed) conducted a general review of the law regarding the ambit of the discretion available to a judge to set aside and revise a judgment or order before the order is sealed. As she noted (para 16), &#8220;[i]t has long been the law that a judge is entitled to reverse his decision at any time before his order is drawn up and perfected&#8221;, ie by being sealed. The judge in the case therefore had the power to change her mind and the question was whether she should have exercised it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Baroness Hale reviewed the authorities relevant to this issue. In </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">In re Barrell Enterprises </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[1973] 1 WLR 19" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1973">[1973] 1 WLR 19</ref>, CA (&#8220;</span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Barrell</span><span style="font-family:'Calibri, sans-serif'">&#8221;), Russell LJ, giving the judgment of the court said (p 23-24) &#8220;[w]hen oral judgments have been given, either in a court of first instance or on appeal, the successful party ought save in most exceptional circumstances to be able to assume that the judgment is a valid and effective one.&#8221; In </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Stewart v Engel </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[2000] 1 WLR 2268" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 2268</ref> the Court of Appeal held that the power to recall orders before perfection survived the coming into force of the CPR. The majority held that the &#8220;most exceptional circumstances&#8221; test in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Barrell</span><span style="font-family:'Calibri, sans-serif'"> continued to govern that power; but Clarke LJ dissented and would have held that the starting point when considering whether the power should be exercised was the Overriding Objective in the CPR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">After referring to other decisions of the Court of Appeal regarding the exercise of the power of revision, Baroness Hale said this (para 27):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8220;Thus one can see the Court of Appeal struggling to reconcile the apparent statement of principle in the </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Barrell</span><span style="font-family:'Calibri, sans-serif'"> case &#8230;, coupled with the very proper desire to discourage the parties from applying for the judge to reconsider, with the desire to do justice in the particular circumstances of the case. This court is not bound by the </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Barrell</span><span style="font-family:'Calibri, sans-serif'"> case or by any of the previous cases to hold that there is any such limitation upon the acknowledged jurisdiction of the judge to revisit his own decision at any time up until his resulting order is perfected. I would agree with Clarke LJ in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Stewart v Engel </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[2000] 1 WLR 2268" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 2268</ref>, 2282 that his overriding objective must be to deal with the case justly. A relevant factor must be whether any party has acted upon the decision to his detriment, especially in a case where it is expected that they may do so before the order is formally drawn up. On the other hand, in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">In re Blenheim Leisure (Restaurants) Ltd</span><span style="font-family:'Calibri, sans-serif'"> [The Times, 9 November 1999], Neuberger J gave some examples of cases where it might be just to revisit the earlier decision [ie a plain mistake by the court, the parties&#8217; failure to draw to the court&#8217;s attention a plainly relevant fact or point of law and the discovery of new facts after the judgment was given]. But these are only examples. A carefully considered change of mind can be sufficient. Every case is going to depend upon its particular circumstances.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The point made by Clarke LJ in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Stewart v Engel</span><span style="font-family:'Calibri, sans-serif'"> at p 2282, which Baroness Hale approved and adopted, was that, quoting CPR Part 1.1(1) in its original form and the judgment of Lord Woolf MR in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Biguzzi v Rank Leisure Plc </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[1999] 1 WLR 1926" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 1 WLR 1926</ref>, 1930-1931, the CPR were a new procedural code with the overriding objective of enabling the court to deal with cases justly, and that authorities decided under the old procedural regime should not be taken as binding. Accordingly, Clarke LJ stated (p 2283) that the exercise of the power of revision should not be decided by application of principles adopted in earlier cases including </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Barrell</span><span style="font-family:'Calibri, sans-serif'"> but by reference to the CPR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The logic of this point in the context of the care proceedings in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L </span><span style="font-family:'Calibri, sans-serif'">was that the FPR, like the CPR, were a new code and accordingly represented a new start for procedural law in the family law field, subject to their own Overriding Objective. Baroness Hale referred to the terms of FPR Part 1.1(1) at para 38. She referred in her judgment to authorities in both the family law area and the ordinary civil law area and her observations in para 27 were in fairly general terms. She did not there seek to examine in fine detail the then current formulations of the Overriding Objective in the FPR and in the CPR, nor did she seek herself to lay down any definitive formula. Instead, (a) she affirmed that </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Barrell </span><span style="font-family:'Calibri, sans-serif'">was no longer to be taken to lay down any statement of relevant principle, (b) rather, the question should be approached through the prism of the Overriding Objective (ie in whichever procedural code was applicable), and (c) she gave some very general indications of the sort of factors which might be relevant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">These included the indication that courts would have in mind &#8220;the very proper desire to discourage the parties from applying&#8221; for reconsideration of orders, which was a reference to the general desirability of finality in litigation. At para 29 she said that the majority in the Court of Appeal &#8220;were, of course, &#8230; right to stress the importance of finality &#8230;&#8221;. However, the weight to be attached to this factor may vary depending on the nature of the case and the nature of the decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">In her judgment, Baroness Hale emphasised two features which reduced the weight attaching to finality in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L</span><span style="font-family:'Calibri, sans-serif'">: (i) it was a case involving orders affecting the upbringing of children, in relation to which the welfare of the children was a predominant concern; and (ii) since the order was made at a preliminary stage in the proceedings it was a case management decision which the court had power to revoke under the relevant rules (paras 29 and 32-45). For the first point, she referred to <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41/section/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/41" uk:canonical="1989 c. 41" uk:origin="TNA" uk:type="legislation">Children Act 1989</ref> (paras 1-2, 29 and 41) and to FPR Part 1.1(1) (para 38) and emphasised that &#8220;no judge should be required to decide the future placement of a child upon what he or she believes to be a false basis&#8221; (para 29) and that &#8220;it cannot be in the best interests of the child to require the judge to conduct the welfare proceedings on the basis of a false substratum of fact&#8221; (para 401). Indeed, so powerful is that factor that she was prepared to contemplate the possibility (without deciding the point) that in children cases, unlike in other contexts, it might be open to a judge to change their mind after an order is sealed even in the absence of any change of circumstances: see, in particular, para 41 (&#8220;children cases may be different from other civil proceedings, because the consequences are so momentous for the child and for the whole family&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">By contrast, the present case is governed by the CPR, not the FPR, and is concerned with commercial litigation and the making of a final order, ie the Enforcement Order. There is a strong public interest in the finality of litigation in this context under the Overriding Objective in the CPR.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">The Relevant Principles</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">As this court observed in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Sainsbury&#8217;s Supermarkets Ltd v MasterCard Inc </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2020/24" uk:canonical="[2020] UKSC 24" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKSC 24</ref>; <ref href="#" uk:canonical="[2020] Bus LR 1196" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] Bus LR 1196</ref>, paras 238-239 (&#8220;</span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Sainsbury&#8217;s Supermarkets</span><span style="font-family:'Calibri, sans-serif'">&#8221;), the higher courts have in a number of respects laid down important and binding principles regarding what justice requires in the context of litigation which are relevant to the application of the Overriding Objective in the CPR, and one of these is that there should be finality in litigation. This is a general principle with various aspects, including the rule in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Henderson v Henderson </span><span style="font-family:'Calibri, sans-serif'">(1843) 3 Hare 100 by which a party is precluded &#8220;from raising in subsequent proceedings matters which were not, but could and should have been raised in the earlier ones&#8221; (see </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Virgin Atlantic Airways Ltd v Zodiac Seats UK Ltd </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/46" uk:canonical="[2013] UKSC 46" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 46</ref>; <ref href="#" uk:canonical="[2014] AC 160" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 160</ref>, para 17). This rule &#8220;is firmly underwritten by and inherent in the overriding objective [in the CPR]&#8221; (</span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Sainsbury&#8217;s Supermarkets</span><span style="font-family:'Calibri, sans-serif'">, para 239). As Sir Thomas Bingham MR explained in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Barrow v Bankside Members Agency Ltd </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[1996] 1 WLR 257" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 1 WLR 257</ref>, 260, in a passage quoted in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Sainsbury&#8217;s Supermarkets</span><span style="font-family:'Calibri, sans-serif'">, para 239:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8220;The rule in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Henderson v Henderson</span><span style="font-family:'Calibri, sans-serif'"> &#8230; requires the parties, when a matter becomes the subject of litigation between them in a court of competent jurisdiction, to bring their whole case before the court so that all aspects of it may be finally decided &#8230; once and for all. In the absence of special circumstances, the parties cannot return to the court to advance arguments, claims or defences which they could have put forward for decision on the first occasion but failed to raise.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The foregoing review of the authorities shows that the task of a judge faced with an application to reconsider a judgment and/or order before the order has been sealed is to do justice in accordance with the relevant Overriding Objective. We have set out the Overriding Objective in CPR Part 1.1 above. As we have noted, the Overriding Objective was amended by the addition of enforcing compliance with rules, practice directions and orders: see CPR 1.1(2)(f). This tends to emphasise, in the present context, the importance of finality attaching to the hearing on 6 December 2019 and the Enforcement Order. It was because FAAN had failed to comply with the orders requiring it to provide the Guarantee that AIC returned to court to ask for the Enforcement Order to be made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">As stated in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Sainsbury&#8217;s Supermarkets</span><span style="font-family:'Calibri, sans-serif'">,</span><span style="font-style:italic;font-family:'Calibri, sans-serif'"/><span style="font-family:'Calibri, sans-serif'">the Overriding Objective implicitly affirms and reinforces the long-standing principle of finality, which had been an objective of civil procedure for at least 175 years: see eg </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Henderson v Henderson</span><span style="font-family:'Calibri, sans-serif'">. Litigation cannot be conducted at proportionate cost, with expedition, with an appropriate share of the court&#8217;s resources and with due regard to the rules of procedure unless it is undertaken on the basis that a party brings his whole and best case to bear at the trial or other hearing when a matter in dispute is finally to be decided (subject only to appeal). As Lewison LJ said in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">FAGE UK Ltd v Chobani UK Ltd </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/5" uk:canonical="[2014] EWCA Civ 5" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 5</ref>; <ref href="#" uk:canonical="[2014] FSR 29" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] FSR 29</ref>, at para 114:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8220;The trial is not a dress rehearsal. It is the first and last night of the show.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber"><span style="font-family:'Calibri, sans-serif'">In that respect we are in full agreement with Coulson LJ, in the Court of Appeal at para 50, when he said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"><span style="font-family:'Calibri, sans-serif'">&#8220;The principle of finality is of fundamental public importance &#8230; The successful party should not have to worry that something will subsequently come along to deprive him or her of the fruits of victory. The unsuccessful party cannot treat the judgment that has been handed down as some kind of rehearsal, and hurry away to come up with some new evidence or a better legal argument. &#8230; [T]here is a particular jurisdiction which permits a judge to change his or her order between the handing down of the judgment and the subsequent sealing of the order. But in most civil cases, the latter is an administrative function, and it would be wrong in principle to allow parties carte blanche to take advantage of an administrative delay to go back over the judgment or order and reargue the case before it is sealed. Hence it is a jurisdiction which needs to be carefully patrolled.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">This means that, on receipt of an application by a party to reconsider a final judgment and/or order before the order has been sealed, a judge should not start from anything like neutrality or evenly-balanced scales. It will often be a useful mental discipline, reflective of the strength of the finality principle, for the judge to ask herself whether the application should even be entertained at all before troubling the other party with it or giving directions for a hearing. It may be a perfectly appropriate judicial response just to refuse the application </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">in limine </span><span style="font-family:'Calibri, sans-serif'">after it has been received and read, if there is no real prospect that the application could succeed. Judges should not re-open proceedings just to allow debate on the point if it is already clear that the judgment or order should not be re-opened. That would defeat the Overriding Objective in the CPR that cases be decided &#8220;justly&#8221; and &#8220;at proportionate cost&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">But that falls well short of any supposed rule of law or practice that such an application must always be addressed by a two-stage process, as the Court of Appeal decided. That would in our view be to impose a straitjacket upon the judicial exercise of a discretionary jurisdiction which is contrary to the way in which it was addressed in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L </span><span style="font-family:'Calibri, sans-serif'">and alien to the</span><span style="font-style:italic;font-family:'Calibri, sans-serif'"/><span style="font-family:'Calibri, sans-serif'">essentially flexible</span><span style="font-style:italic;font-family:'Calibri, sans-serif'"/><span style="font-family:'Calibri, sans-serif'">nature of the judge&#8217;s task when weighing competing considerations of potentially limitless variety against each other. There may be cases where the judge cannot reliably gauge the weight of the factors put forward for the exercise of the discretion to depart from adherence to the finality principle without hearing submissions from both sides. There may be cases where (since the order already made is already enforceable) urgency requires an immediate </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">inter partes </span><span style="font-family:'Calibri, sans-serif'">hearing with notice to both sides for a decision to be taken, rather than a protective stay pending the conduct of a two-stage process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">More fundamentally it may be impossible to disentangle the factors for and against departing from finality from those for and against the re-making of the order on the merits. The judge will in the end be faced with a single decision: do I set aside the order which I have already made and replace it with a different order? In our view the importance of the finality principle is better reflected in recognising that it will always (and especially in the case of a final order) be a weighty matter in the balance against making a different order, than in requiring slavish adherence to a two-stage process of analysis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The weight to be given to the finality principle will inevitably vary, depending in particular upon the nature of the order already made, the type of hearing at the end of which it was made and the type of proceedings in which it was made. Leaving aside orders made on appeal, which lie outside the scope of this appeal and have already attracted their own jurisprudence (see, in particular, </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Taylor v Lawrence </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2002/90" uk:canonical="[2002] EWCA Civ 90" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWCA Civ 90</ref>; <ref href="#" uk:canonical="[2003] QB 528" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] QB 528</ref> and what is now CPR Part 52.30), finality is likely to be at its highest importance in relation to orders made at the end of a full trial. But other kinds of final order, which end the proceedings at first instance, will attract the finality principle to almost as great a degree. Case management and interim orders lie towards the other end of the scale, and indeed many reserve liberty to the parties to apply to vary or discharge the order, even after it has been sealed. But the finality principle cuts in, as Coulson LJ said, when the order is made, not merely when it is sealed. After the order is sealed, the finality principle applies in a more absolute way, to put it beyond challenge in the court which made it, subject to any liberty to apply in the order, the application of the power in CPR Part 3.1(7) to vary or revoke it and the slip rule.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">There is unlikely to be any particular magic in the word or phrase chosen to reflect the weight attributable to the finality principle in any decision whether to re-open a judgment and/or order before the order has been sealed, nor (which is the reverse of the coin) to describe the weight of the factor or factors which will be needed to prevail over the desirable adherence to finality. Although still in use in cases about reopening orders made on appeal under the </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Taylor v Lawrence</span><span style="font-family:'Calibri, sans-serif'"> jurisdiction and in the text of CPR Part 52.30(1) itself, the phrase &#8220;exceptional circumstances&#8221; has been subject to criticism in a variety of areas: see, eg, </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Lawrence v Fen Tigers Ltd </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2014/13" uk:canonical="[2014] UKSC 13" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKSC 13</ref>; <ref href="#" uk:canonical="[2014] AC 822" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 822</ref>, para 119 (Lord Neuberger of Abbotsbury), referring to the judgment of this court in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Manchester City Council v Pinnock </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2010/45" uk:canonical="[2010] UKSC 45" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] UKSC 45</ref>; <ref href="#" uk:canonical="[2011] 2 AC 104" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 2 AC 104</ref>, at para 51 (where the appropriateness of a test to depart from a standard position only in &#8220;very exceptional cases&#8221; was doubted); and, in the present context, </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Robinson v Fernsby</span><span style="font-family:'Calibri, sans-serif'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1820" uk:canonical="[2003] EWCA Civ 1820" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 1820</ref>, paras 94 (May LJ) and 120 (Peter Gibson LJ). Outside particular contexts where the ordinary outcome is specified to a high degree, the phrase fails to encapsulate anything other than unusualness with any useful precision. The fact that something is unusual or even very rare says little or nothing about its weight. &#8220;Strong&#8221;, &#8220;weighty&#8221; or &#8220;compelling&#8221; are somewhat better, but still do not provide a definitive bright-line test.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">It is not feasible to state such a test. An evaluative judgment has to be made, but it has to reflect and respect the importance in this context of the principle of finality. Structured forms of discretion, where a general discretionary power exists but the exercise of the discretion is governed by principles which accord priority and greater weight to some factors over others, arise quite often in the law: see, eg, the principles governing the grant of injunctive relief (</span><span style="font-style:italic;font-family:'Calibri, sans-serif'">American Cyanamid Co v Ethicon Ltd </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[1975] AC 396" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1975">[1975] AC 396</ref>; </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Fourie v Le Roux</span><span style="font-family:'Calibri, sans-serif'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2007/1" uk:canonical="[2007] UKHL 1" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] UKHL 1</ref>; <ref href="#" uk:canonical="[2007] 1 WLR 320" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 WLR 320</ref>, paras 16, 25 and 30) and the exercise of discretion regarding service out of the jurisdiction (</span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Spiliada Maritime Corpn v Cansulex Ltd </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[1987] AC 460" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] AC 460</ref>; </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">VTB Capital Plc v Nutritek International Corpn </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/5" uk:canonical="[2013] UKSC 5" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 5</ref>; <ref href="#" uk:canonical="[2013] 2 AC 337" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 2 AC 337</ref>). A judge exercising such a discretion will err in law if he or she does not act in accordance with the principles which govern that exercise. In other contexts, by contrast, a discretion may be more open-ended, such as in relation to ordinary case management decisions, and leave greater choice to the judge to decide the weight to be given to each factor.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Pinnock </span><span style="font-family:'Calibri, sans-serif'">case was concerned with an application by a local authority landlord to recover possession from an overstaying tenant and the power of a judge to refuse an order for possession if it would involve a disproportionate interference with the tenant&#8217;s right to respect for his or her private and family life and his or her home under article 8 of the European Convention on Human Rights. In the assessment of proportionality, in which a number of factors could be relevant, this court emphasised the very considerable weight to be given to the local authority&#8217;s property rights. It was not simply to be treated as one factor among many, all having more or less the same significance. In order to express this idea, rather than saying that an order for possession should be refused only in &#8220;very highly exceptional cases&#8221; (see para 51) the court instead spoke of the authority&#8217;s property rights being, &#8220;in the absence of cogent evidence to the contrary, &#8230; a strong factor in support [of the making of such an order] &#8230; in the overwhelming majority of cases&#8221; (para 53) and a matter &#8220;of real weight&#8221; constituting &#8220;a very strong case&#8221; for the authority in favour of obtaining such an order (para 54).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">In light of the importance of the finality principle in the present context, we consider that such formulae are appropriate to be used here. It is difficult to improve upon them. The question is whether the factors favouring re-opening the order are, in combination, sufficient to overcome the deadweight of the finality principle on the other side of the scales, together with any other factors pointing towards leaving the original order in place.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">It would also be wrong to attempt to identify a list of factors </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">prima facie</span><span style="font-family:'Calibri, sans-serif'"> qualifying for inclusion as being in principle sufficient to displace the finality principle. Subsequent cases will always reveal that the list has proved to be inadequate, and the peculiarities of the present case could hardly have been imagined in advance. Some, such as judicial change of mind, have already been the subject of analysis in the authorities, but even they are of widely variable weight. It is perhaps easier to advance factors that will have no significant weight, such as a desire by counsel to re-argue a point lost at trial in a different way.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">Did the Courts below apply the correct principles?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Beginning with the Judge&#8217;s analysis, we start by emphasising that hers was an </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">ex tempore</span><span style="font-family:'Calibri, sans-serif'"> judgment given in circumstances of some urgency. SCB had already received a demand from AIC under the Guarantee. Lord Hoffmann&#8217;s warning in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Piglowska v Piglowski </span><span style="font-family:'Calibri, sans-serif'"><ref href="#" uk:canonical="[1999] 1 WLR 1360" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1999">[1999] 1 WLR 1360</ref>, 1372, that the exigencies of daily court life are such that reasons for a judgment (in particular an unreserved judgment) will always be capable of having been better expressed is therefore well in point. As he said, an appellate court should resist the temptation to subvert the principle that they should not substitute their own discretion for that of the judge by a narrow textual analysis which enables them to claim that she misdirected herself. In this case the Judge directed herself by express reference to the passage in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Re L</span><span style="font-family:'Calibri, sans-serif'"> set out above, and she mentioned the need to have regard to the Overriding Objective. She dealt expressly with AIC&#8217;s submission that to re-open the Enforcement Order would be contrary to the principle of finality. Her response was that finality is only obtained when the order is sealed, and that every exercise of the jurisdiction to re-open an order before sealing &#8220;will inevitably erode, albeit only to a very limited extent, the principle of finality&#8221;. It was, she said, &#8220;a question of balance&#8221; (para 25).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The Judge considered the reasons why FAAN failed to provide the Guarantee in time for the hearing on 6 December 2019. There can be no doubt that the reason for the delay was a highly relevant consideration in the exercise of the discretion to re-open the Enforcement Order. The Judge said that although there were matters which ought to have been better explained, such as why the Central Bank of Nigeria did not appear to have been approached to give its approval for the arrangements to provide the Guarantee until as late as 2 December 2019, in her view FAAN had provided sufficient and good reasons for the delays in the case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The Court of Appeal did not consider that this was a sustainable assessment on the evidence. Coulson LJ observed that the Judge&#8217;s reasoning on the issue of delay by FAAN was very cursory and in effect ignored the fact that the vast majority of the delay in taking steps to provide the Guarantee had occurred since August 2019, and no good explanation had been given for that. Instead, she had focused just on the last few days of the period of delay, in early December, and accepted that at that stage FAAN had been working hard to comply with the order regarding provision of the Guarantee. On the evidence there was no good explanation for the delay by FAAN in taking effective steps before then to ensure that the Guarantee was obtained in good time to comply with the orders which had been made.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">We have no hesitation in rejecting, for reasons already given, the criticism of the Court of Appeal that the Judge did not apply a two-stage process to the question before her. There is no such legal or procedural requirement to do so, and it is clear that, from the outset, the Judge regarded the &#8220;windfall&#8221; factor, where AIC received both a right to enforce the Award and the Guarantee, as a strong reason for reopening the Enforcement Order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">But we do consider that a fair, even generous, reading of the judgment reveals that the Judge did not give the finality principle the central importance which it deserved, all the more so because the Enforcement Order constituted a final judgment for AIC on the claim which it had brought by its proceedings, subject only to appeal. The claim was for leave to enforce the Award, and that is exactly what the Enforcement Order provided. In our view the Judge&#8217;s observation that finality is only achieved when an order is sealed, while literally true, rather misses the point, which is that finality should ordinarily follow the giving of judgment and the making of an order in open court, whereupon it becomes immediately enforceable. Sealing is, as the Court of Appeal observed, only an administrative tail-piece, albeit it may also have the effect of excluding a discretion to review altogether. Equally her observation that every exercise of the jurisdiction involves an erosion of the finality principle, while also true, belies the importance of guarding against that erosion, as does her view that the erosion was only &#8220;to a very limited extent&#8221;. Finally, her observation about balance suggests that she wrongly regarded the starting point, on an application to re-open, as consisting of an even balance, rather than one heavily loaded from the outset against the applicant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">We also consider that the Court of Appeal&#8217;s criticism of the Judge&#8217;s assessment of the important issue of delay is correct. AIC cross-applied for security, in response to FAAN&#8217;s application to set aside the without notice order for enforcement, on 28 June 2019. FAAN should have appreciated that there was a risk that it would have to provide security at that stage, and started making the necessary preparations to provide it, if ordered, then. On 13 August 2019 the Judge specified that the Guarantee was required if FAAN was to resist an order for enforcement of the Award. In her comments on the issue of delay in her judgment of 13 December 2019, either the Judge was saying that she was satisfied that there was good reason for the delay in early December 2019 (in which case she failed to have regard to the earlier relevant period of delay) or she was saying that good reasons existed to explain the whole period of delay on FAAN&#8217;s part from June and in particular from August 2019 (which was not an assessment reasonably open to her on the evidence). However one reads the Judge&#8217;s judgment on this point, her assessment cannot be supported.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The Judge&#8217;s supposed failure to carry out a two-stage analysis was, in the event, treated as a sufficient ground on its own for the Court of Appeal to have to re-exercise the discretion whether to set aside the Enforcement Order: see para 75. The Court of Appeal also considered that she had been wrong to treat the late provision of the Guarantee as a change of circumstances. Its view was that it was not, because the Guarantee had been promised in FAAN&#8217;s evidence as (in short) coming soon and because it was provided late, in breach of a court order that it be provided earlier.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">We respectfully disagree with the Court of Appeal about change of circumstances. The change fell to be measured by reference to what the Judge had been told at the hearing on 6 December 2019, namely that despite earlier evidence to the contrary, the Guarantee had not been provided and that, in the circumstances, counsel for FAAN did not consider that he could properly pursue an application for further time in which to provide it. And yet, a couple of hours later, no doubt to the considerable surprise of FAAN&#8217;s counsel, the Guarantee had arrived, and a copy had been handed over to AIC, so that AIC had already demanded payment by the time of the hearing on 13 December. The fact that there had been a failure to comply with the condition in the earlier order to provide the Guarantee was no part of any change of circumstances, since that breach had occurred long before 6 December and the Judge knew all about it. What had changed was that the earlier order for provision of the Guarantee had, late on 6 December, been complied with, albeit belatedly.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Ordinarily a conclusion that the reasons for the setting aside by the Court of Appeal of the exercise of a judge&#8217;s discretion were wrong would lead to the judge&#8217;s order being reinstated. In the present case, however, we have also concluded, but for the further reasons already given, that the Judge&#8217;s exercise of discretion was vitiated, essentially because of (i) her serious undervaluation of the finality principle as a factor pointing against re-opening the Enforcement Order and (ii) her erroneous assessment of the reasons for delay. We have also concluded that the Court of Appeal approached the re-exercise of the discretion on the basis of two errors of its own, first the need for a two-stage approach and secondly on the issue as to change of circumstances. The result is that it falls to this court to re-exercise the discretion afresh, unless uncertainties as to relevant facts require it to be remitted. But before we do, it is necessary to say something about relief from sanctions, a matter which featured in the analysis of both the Judge and of the Court of Appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">Relief from Sanctions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The Judge&#8217;s earlier order for the provision of the Guarantee, made on 17 September 2019, provided at paragraph 4 that if the Guarantee was not forthcoming by 29 October 2019 AIC should have liberty to apply to enforce the Award. It did not provide for an automatic right to enforce. The application made (successfully as it turned out) by AIC, heard on 6 December 2019, was an application to enforce the Award, made under that liberty to apply, because the Guarantee had not been provided by 29 October. FAAN&#8217;s application, heard on the same day but effectively abandoned, was for an extension of time until 5 December to provide the Guarantee, a deadline which had already expired when the application came to be heard. Its application to set aside the Enforcement Order, in the form which succeeded before the Judge on 13 December 2019, extended the time for the provision of the Guarantee until 9 December (by which time it had been provided) and sought relief from sanctions, which was granted.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Both the Judge and the Court of Appeal treated the case as involving an application for relief from sanctions under CPR Part 3.9(1). For its part the Court of Appeal heavily criticised the Judge for numerous failings to take into account relevant matters about FAAN&#8217;s delay in providing the Guarantee, whereas she had concluded that there had been &#8220;good reason&#8221; for that delay. It will be necessary to revisit the issues about delay when re-exercising the discretion, but we must first deal briefly with an issue which only arose in the written cases before this court, namely whether this was really a sanctions situation at all. For FAAN it was submitted that a provision that, in default of provision of the Guarantee, AIC should only have leave to apply to enforce the Award is not in terms a sanction. It was a condition which, if not satisfied, left AIC free to proceed to obtain the final order which it sought by its arbitration claim form. Similarly, for AIC it was submitted that, where the whole basis for non-enforcement was the provision of the Guarantee, then the application for leave to enforce, in the absence of provision of the Guarantee, would be bound to be (as it turned out on 6 December) little more than a formality.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Regardless of form, it can be said that enforcement of the Award was in substance a sanction for non-provision of the Guarantee on time, as the Court of Appeal held. Although enforcement of the Award had since been made the subject of a final order on an application for leave to enforce, to set it aside now after late provision of the Guarantee would therefore involve, at least in substance or by way of close analogy, giving relief from sanctions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">It is not necessary to decide the question whether this is, technically, a relief from sanctions case for the resolution of this appeal. That is because, on any view, the main circumstance which caused FAAN to have to seek to set aside the Enforcement Order was its late provision of the Guarantee, thereby failing to comply with the condition in the court&#8217;s order as to the time when it should have been provided. The result is that, because &#8220;the need &#8230; to enforce compliance with &#8230; orders&#8221; is a matter expressly required to be taken into account under CPR Part 3.9(1)(b) and, moreover, securing compliance with court orders is now part of the Overriding Objective in CPR Part 1.1, the principles laid down by the Court of Appeal in </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Denton v TH White Ltd (De Laval Ltd, Part 20 defendant) (Practice Note) </span><span style="font-family:'Calibri, sans-serif'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/906" uk:canonical="[2014] EWCA Civ 906" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 906</ref>; <ref href="#" uk:canonical="[2014] 1 WLR 3926" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 3926</ref>, which we discuss in para 55 below, are among those applicable to the re-exercise of the discretion which must now be undertaken by this court.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">It is important that in applying CPR Part 3.9(1) directly or by analogy, regard should be had to the nature of the result or sanction against which relief is sought. In the present case, the Enforcement Order was a final order pronounced at the final hearing held on 6 December 2019, on full and fair notice to FAAN, to determine whether there were any grounds on which AIC should be denied the right to enforce the Award. The Judge having correctly determined that there were none and having given judgment for AIC and pronounced the Enforcement Order, the principle of finality applied with particular weight. The court was not involved with trying to regulate matters at an interim stage in the domestic proceedings, looking forward to a future trial.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The three stages of the analysis laid down by the Court of Appeal in the </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Denton </span><span style="font-family:'Calibri, sans-serif'">case are very well known: (i) examine the seriousness of the breach or failure to comply with the order; (ii) consider why it occurred and, in particular, whether there was good reason for the breach or failure to comply; and (iii) consider whether in all the relevant circumstances relief should be granted. The critical advance made in the </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Denton</span><span style="font-family:'Calibri, sans-serif'"> case was to make it plainer than had appeared to the profession after the earlier leading case of </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Mitchell v News Group Newspapers Ltd (Practice Note)</span><span style="font-family:'Calibri, sans-serif'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/1537" uk:canonical="[2013] EWCA Civ 1537" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Civ 1537</ref>; <ref href="#" uk:canonical="[2014] 1 WLR 795" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 WLR 795</ref> that relief might nonetheless be granted at stage (iii) even if there had been a serious breach or failure to comply for which no good reason had been shown.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Paraheading2"><span style="font-family:'Calibri, sans-serif'">Re-exercising the Discretion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">The failure of FAAN to produce the Guarantee as an answer to AIC&#8217;s claim at the final stage of the domestic proceedings, with the result that a final judgment and final order were pronounced in AIC&#8217;s favour, means that at stage (i) under the </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">Denton </span><span style="font-family:'Calibri, sans-serif'">approach the failure to comply was very serious. At stage (ii), having regard to FAAN&#8217;s failure from June 2019 to take effective steps to arrange for the Guarantee to be available in good time, there was no good reason for the failure to comply. The question, then, is whether at stage (iii) the circumstances are nonetheless such that FAAN should be granted relief in respect of the Enforcement Order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">It is axiomatic that a discretion of this kind must, if it calls to be re-exercised on appeal, be undertaken by reference to the facts as they now are rather than, if significantly different, as they were at the time when the discretion was originally (or last) exercised. It was originally exercised by the Judge in December 2019, and re-exercised with the opposite result by the Court of Appeal in November 2020. In the meantime there has been one important change in the relevant circumstances. The Guarantee has been called </span><span style="font-style:italic;font-family:'Calibri, sans-serif'">and paid</span><span style="font-family:'Calibri, sans-serif'">, so that AIC has now received US$24m odd by way of partial enforcement of the Award. Meanwhile there has been limited progress in the Nigerian set-aside proceedings, and their final outcome remains uncertain, both in terms of time and content. If successful on this appeal FAAN seeks repayment of the Guarantee amount as reconstituted security.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">We have concluded that FAAN&#8217;s appeal should succeed, but only in part. That is that the Enforcement Order as re-made by the Court of Appeal should be set aside, that AIC&#8217;s application for leave to enforce the Award should be again adjourned to await the outcome of the proceedings in Nigeria, with liberty to apply if they do not progress, but that AIC should be entitled to retain the proceeds of the enforcement of the Guarantee in the meantime. Our reasons follow.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">There are two large factors weighing in the scales against the re-opening of the Enforcement Order. The first is the finality principle and the second is the delay in providing the Guarantee in breach of the court&#8217;s order. As to the first we have already concluded that the Enforcement Order was a final judgment to which, although there had not been a full trial or even serious opposition on 6 December 2019 to it being made, the finality principle applies with almost full force. It is true that FAAN communicated its intention to seek to reopen the Enforcement Order during working hours on the same day as it had been made, but since that came after the conclusion of the final hearing to decide whether AIC should be granted the relief which it sought in its arbitration claim form and the pronouncement of the Enforcement Order in AIC&#8217;s favour, the derogation from the finality principle which FAAN was seeking was already serious.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">As for the delay in providing the Guarantee, as indicated above we do not agree with the Judge&#8217;s conclusion that there was good reason for it, nor with her reasoning for reaching that conclusion. As we have said, from June 2019 FAAN should have appreciated that there was a risk that it would have to provide security and started making the necessary preparations. The Judge&#8217;s decision that security should be provided, in a form to be agreed, was made and communicated to the parties on 13 August. On 17 September she set the deadline for provision of the Guarantee by 29 October. It then took over two weeks before FAAN explained the position to the Attorney General of Nigeria on 2 October, and almost a further two weeks before raising the matter with the Ministry of Finance, on 15 October. It was only on 29 October, the final day for the provision of the Guarantee that FAAN made an unequivocal request to the Ministry of Finance for the requisite funds, while at the same time making a last-minute application to the Court of Appeal for a stay while its application for permission to appeal was pending. The stay was granted but permission to appeal refused on 11 November, whereupon FAAN made another last-minute application for an extension to 5 December. Only on 2 December did the Finance Ministry ask the Central Bank of Nigeria to arrange the Guarantee, following which it was quickly provided.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">FAAN&#8217;s evidence about the seeking of the Guarantee failed to explain why nothing had been done during the period from June until the end of September, or why a process which, once the Finance Ministry initiated it took only four days, had not been set in motion weeks, if not months, earlier. All in all, the delay amounted to a serious failure to comply with the court&#8217;s order for the provision of the Guarantee for which no good reason has been provided.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Nonetheless the fact that the Guarantee was provided to AIC within a couple of hours of the making of the Enforcement Order was an important change in circumstances. The Judge had on 13 August 2019 made the critical decision that AIC&#8217;s application to enforce should not be acceded to while the Nigerian proceedings remained on foot, subject only to the provision of security for part of the Award. That central decision had been challenged, by FAAN although not by AIC, but had become final when the Court of Appeal refused permission to appeal on 11 November. The effect of the delay between the 6 December hearing and the provision of the Guarantee later on the same day had not merely been that AIC was then entitled to enforce the Award, contrary to what the court had earlier intended, but also that the Guarantee had become available as a ready means of enforcement in part, rather than as a form of security, which was all that the court had intended that it should be. The Judge fairly described the Guarantee as the price payable by FAAN for the adjournment. It had belatedly paid that price, obtained no adjournment, and exposed itself to immediate enforcement via the Guarantee, which was flatly contrary to what the court had intended by ordering that it be provided. The Judge said that she had &#8220;no hesitation&#8221; in revising the Enforcement Order.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Even though we have disagreed with the Judge&#8217;s underrating of the finality factor and her view that there had been good reason for the delay, we consider that her trenchant view that justice demanded that the windfall thereby conferred upon AIC be undone commands real respect. She had presided over all the first instance hearings of AIC&#8217;s enforcement application apart from the original without notice</span><span style="font-style:italic;font-family:'Calibri, sans-serif'"/><span style="font-family:'Calibri, sans-serif'">order, and was well placed to assess the justice of the matter. AIC was, by the end of 6 December, in substance in a better position than if its application to enforce the Award had simply been unopposed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">We have not found the answer to the question whether to set aside the Enforcement order nearly as clear cut as it seems to have appeared to the Judge. The combined effect of the finality principle and FAAN&#8217;s culpable delay in providing the Guarantee add up to a very serious obstacle in the way of doing so. But we are persuaded on balance that AIC should not retain the right to enforce the Award, pending the outcome of the Nigerian proceedings, beyond the significant enforcement which it has already lawfully achieved by calling on the Guarantee. The fact that this outcome is less favourable to FAAN than the order that would have applied if the guarantee had been provided on time is an appropriate reflection of FAAN&#8217;s failure to comply with the deadline imposed by the court by its orders. It is a result which serves the Overriding Objective in its modern form.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Calibri, sans-serif'">Accordingly we would allow FAAN&#8217;s appeal to that extent.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

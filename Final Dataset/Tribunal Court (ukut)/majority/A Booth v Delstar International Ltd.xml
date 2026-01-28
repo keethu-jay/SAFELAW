@@ -1,0 +1,945 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/22"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/22"/>
+	  <FRBRdate date="2023-05-04" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="22"/>
+	  <FRBRname value="A Booth v Delstar International Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/22"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/22"/>
+	  <FRBRdate date="2023-05-04" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/22/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/22/data.xml"/>
+	  <FRBRdate date="2024-11-09T22:35:25" name="transform"/>
+	  <FRBRdate date="2024-11-17T04:06:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-05-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-a-booth" href="" showAs="MR A BOOTH"/>
+	<TLCPerson eId="delstar-international-limited" href="" showAs="DELSTAR INTERNATIONAL LIMITED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>22</uk:number>
+	<uk:cite>[2023] EAT 22</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>e8516d41008b2d5fcc6a10fa9c9082c1a863adfc82eaf2449a8cb52c01bbe7f9</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt;color:#000000">Mr A Booth</span><span style="font-family:'Times New Roman';font-size:6pt"> v Delstar International Limited</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 22</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2020-000958-VP</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-05-04" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">4 May 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGE KEITH</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#mr-a-booth" style="font-weight:bold;font-size:12pt">MR A BOOTH</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant/Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#delstar-international-limited" style="font-weight:bold;font-size:12pt">DELSTAR INTERNATIONAL LIMITED</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent/Appellant</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Thomas Croxford KC </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(acting pro bono) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Rachel Mellor </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Altor Solicitors) for the</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 1 February 2023 via MS Teams and handed down on 4 May 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">DISABILITY DISCRIMINATION</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In an appeal and cross-appeal, the claimant and Delstar agreed that the ET&#8217;s two separate conclusions on claims of discrimination arising from the claimant&#8217;s disability, one allowing a claim, the other dismissing a claim, were based on the same legal principles and so could not both be correct.   Delstar also argued that the ET had erred in allowing an indirect discrimination claim.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Held:  </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">allowing the appeal and cross-appeal</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">While there is no reason in principle that an ET cannot properly reach different conclusions on different allegations, in this case, the facts did not allow for a different conclusion.   The unfavourable treatment was different, but both were found to have occurred.  The ET had erred in failing to apply the guidance of Simler P, as she then was, in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Pnaiser v NHS England</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2016] IRLR 170" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] IRLR 170</ref>, paragraph 31. The ET had allowed the claim that a delay in applying for income protection benefit was &#8216;due to&#8217; the initial erroneous belief of Delstar&#8217;s manager that those employees who were permanently disabled and who were not expected to return to work could not benefit from the insurance.  In contrast, the ET had dismissed the claim that the same manager had initially attempted to dismiss the claimant, which the ET accepted was unfavourable treatment, because it was not something arising in consequence of the claimant&#8217;s disability, but the manager&#8217;s erroneous belief.   The ET erred in two respects.   First, it failed to consider multiple causes.   Second, it had misstated the &#8216;something arising.&#8217;   The claimant had claimed the same &#8216;something&#8217; for both claims: absence due to long-term sickness.  In contrast, the ET had considered the &#8216;something&#8217; in the &#8216;delay&#8217; claim as being long-term sickness absence and permanent incapacity, but only long-term sickness absence in the second &#8216;dismissal&#8217; claim.  That error had affected the ET&#8217;s analysis of both stages of causation, as the manager&#8217;s erroneous belief had been the same in both claims.  It was not obvious as to which claim should succeed, which required a further assessment of the manager&#8217;s thought processes.   The ET needed to consider both claims afresh, by reference to the same &#8216;something.&#8217;</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In relation to the cross-appeal, the ET also erred in comparing &#8220;disabled people&#8221; with &#8220;non-disabled people,&#8221; for the purposes of the indirect disability discrimination claim.  In doing so, it had failed to consider whether the provision, criterion or practice applied by Delstar would put those who shared the same disability as the claimant at a particular disadvantage when compared with those who did not share that disability.   While statistical evidence might not, in all cases, be necessary, the ET needed at least to consider how those sharing the claimant&#8217;s disability would be impacted, instead of assuming a group disadvantage.  </span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGE KEITH:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">As I am considering both an appeal and a cross-appeal, I refer to the parties as the &#8216;claimant&#8217; and &#8216;Delstar,&#8217; to avoid confusion.  This is a full hearing of both appeals against the judgment of an Employment Tribunal (&#8220;ET&#8221;), sitting in Leeds and chaired by Employment Judge Deeley and sent to the parties on 19 October 2020.  The ET had allowed one claim of discrimination arising from disability, contrary to section 15 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">EqA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8221;) and indirect discrimination contrary to section 19 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">EqA </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">in relation to Delstar&#8217;s delay in applying for income protection benefit.  I refer to them for convenience as the &#8220;delay&#8221; claims.   The ET had dismissed all of the other claims, including a claim under section 15 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">EqA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> that Delstar had attempted to dismiss the claimant, at a meeting on 5 February 2018.  I refer to that claim as the &#8220;dismissal&#8221; claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant appealed against the ET&#8217;s decision, which this Tribunal received on 7 December 2020.  Permission to appeal was initially refused on the papers, but following a hearing under rule 3(10) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">EAT Rules 1993 </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(as amended),  Gavin Mansfield KC, sitting as a Deputy Judge of the High Court, allowed one ground of the appeal to proceed, in orders dated 8 September 2021, which I set out later in these reasons. The ground relates to the ET&#8217;s decision on the dismissal claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Delstar lodged an answer to the appeal and cross-appealed on 24 November 2021 against the ET&#8217;s decision on the delay claims.  HHJ Shanks granted permission on the papers for the cross-appeal to proceed, in a decision dated 12</span><span style="vertical-align:super;font-size:12pt;font-family:'Times New Roman';color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">January 2022.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I refer to a core bundle prepared by the claimant, &#8220;CB&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant has been disabled, following a pulmonary embolism and kidney disease, since he suffered a life-changing stroke in late March 2017.    He remains employed by, but has not returned to work for, Delstar since his stroke.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At the core of this appeal is how Delstar treated him between November 2017, following the start of his illness and September 2018, when Delstar&#8217;s insurers, Unum, confirmed that the claimant was covered by an income protection policy.   During this period, Delstar sought advice from its occupational health (&#8216;OH&#8217;) advisors, and eventually Unum, about the likelihood of the claimant&#8217;s return to work, for the purposes of considering the claimant&#8217;s continuing employment and his entitlement to income protection, after his company sick pay ran out.    Initially, the claimant&#8217;s prognosis was unclear.   However, the OH advisors advised in a report written sometime in December 2017 that the claimant was unfit for work, and was not likely to be fit in the foreseeable future.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The relationship between the claimant and Delstar deteriorated in early 2018.   This was said to be because of how one of Delstar&#8217;s HR managers, a Ms Davis, viewed the claimant&#8217;s entitlement to benefit from the Unum policy.   She erroneously believed that the claimant could not benefit from the Unum policy, as she believed that only those employees who were likely to recover could benefit, whilst those employees who were assessed as permanently unfit for work could not.   She held that belief without having checked the policy, or asking Unum for clarification.    As a result, she began conversations with the claimant about his dismissal or ill-health retirement, with an ex gratia payment, and she delayed applying on his behalf to Unum for income protection, which was available after 26 weeks&#8217; absence.   The focus of the dismissal claim is a meeting which began on 30 January 2018 and recommenced on 5 February 2018, at which she discussed with the claimant the possibility of his dismissal.    Delstar informed the claimant of Ms Davis&#8217;s error, in or around late April/ early May 2018.   Delstar then successfully applied for income protection, and the claimant received back-dated benefits on 14 September 2018.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Litigation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant presented a claim form on 20 December 2019, a copy of which starts at page 45 CB.   These included the delay claims and the dismissal claim, which are the focus of this appeal.    Delstar resisted all of the claims in a response, a copy of which starts at page 71.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The ET&#8217;s Judgment</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">I set out below only the relevant parts of the ET&#8217;s judgment.  The parts in bold or underlined were so emphasised in the original.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At page 1 CB, the ET decided:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">&#8220;1.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant&#8217;s complaints of (i) discrimination arising from disability and (ii) indirect discrimination made by the claimant in relation to the respondent&#8217;s delay in applying for income protection benefit under the Unum Scheme on his behalf succeed.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">2.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">All remaining complaints made by the claimant in relation to disability discrimination under the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> fail and are dismissed.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET identified a list of issues, the relevant passages of which included: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;2.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Discrimination arising from disability (section 15 EqA) </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">a.</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the respondent treat the claimant unfavourably by treating the claimant as follows:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:12pt">i)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.39in;text-indent:0.02in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">by delaying in applying for income protection for the claimant (on the grounds that he was permanently ill) (not disputed);</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.39in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">&#8230;&#8230;&#8230;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:12pt">iii)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.39in;text-indent:0.02in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">by attempting to dismiss him at the meeting on 5 February 2018 (disputed)?</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">b.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">If so, was such unfavourable treatment due to something arising in consequence of the claimant&#8217;s disability?</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant relies on the following as the &#8220;something arising&#8221; in consequence of his disability:</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt">(i)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.39in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the fact that he was absent due to long term sickness was the reason why:</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt">a.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.39in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the respondent did not apply for income protection cover for the claimant until after 23 March 2018;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt">b.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.98in;margin-right:0.39in;text-indent:0.02in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the respondent decided to consider terminating the claimant&#8217;s employment (as discussed between the respondent and the claimant at a meeting on 30 January 2018); &#8230;.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.98in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The respondent did not dispute that the claimant&#8217;s absence was &#8216;something arising&#8217; from his disability.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET considered indirect discrimination at paragraph 4:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">&#8220;4.</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Indirect discrimination (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref>)</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:12pt;margin-left:1.08in;text-indent:-0.2in">a.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the respondent operate the following PCPs:</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">&#8230;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-weight:bold;font-size:12pt">ii)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in;text-indent:0.42in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">not applying for income protection for those employees who were permanently ill (i.e. unlikely to return to work)?</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:12pt">b.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">If so, did the respondent apply either of those PCPs to the claimant?</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:12pt">c.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the respondent apply the PCP to non-disabled persons or would it have done so?</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:12pt">d.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the PCP put disabled persons at a particular disadvantage when compared with non-disabled persons, in that the claimant contends that:</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">&#8230;&#8230;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-weight:bold;font-size:12pt">ii)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in;text-indent:0.42in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">He experienced uncertainty and anxiety for several months because he did not have the benefit of income protection during that period.</span></p>
+		      </content>
+		    </subparagraph>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-weight:bold;font-size:12pt">e.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the PCP put the claimant at that disadvantage?</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET went on to cite the law, including in relation to discrimination arising, at paragraph 25:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Something arising in consequence of B&#8217;s disability</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:12pt">25.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The EAT in Sheikholeslami v University of Edinburgh <ref href="#" uk:canonical="[2018] IRLR 1090" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] IRLR 1090</ref> (paragraph 96) held that s15 requires the Tribunal to consider &#8220;two distinct causative issues&#8221; when considering whether the &#8216;something&#8217; alleged arose in consequence of B&#8217;s disability. The EAT set out the issues as follows:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;(i)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">did A treat B unfavourably because of an (identified) something? and (ii) did that something arise in consequence of B&#8217;s disability?</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The first issue involves an examination of the putative discriminator&#8217;s state of mind to determine what consciously or unconsciously was the reason for any unfavourable treatment found. If the &#8216;something&#8217; was a more than trivial part of the reason for unfavourable treatment then stage (i) is satisfied. The second issue is a question of objective fact for an employment tribunal to decide in light of the evidence.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET&#8217;s relevant findings on the dismissal claim were as follows:  </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:12pt">&#8220;71.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We accept Mrs Davis&#8217; evidence that she mistakenly believed that the purpose of the Unum Scheme was to provide a means for the respondent to keep paying the employees sick pay, pending an employee&#8217;s return to work&#8230;.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">73.</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mrs Davis believed that the respondent may need to consider terminating his employment because of her mistaken belief that he was not eligible for income protection benefit under the Unum Scheme.</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8230;..</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">80.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mrs Davis told the claimant at the meeting on 5th February that the Unum Scheme &#8216;was not going to be an option after all&#8217;. The reason she said this was because Mrs Davis and Mr Fox had considered the occupation health report and the claimant&#8217;s comments on this. They had concluded that the claimant was unlikely to be able to return to work and that the respondent could not apply for income protection benefit&#8230;.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET&#8217;s findings and conclusions on the section 15 delay claim were as follows:  </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">&#8220;A)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">RESPONDENT&#8217;S DELAY IN APPLYING FOR INCOME PROTECTION</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Discrimination arising from disability (section 15 EQA)</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the respondent treat the claimant unfavourably by delaying the application for income protection?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">118.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We found that the respondent could have applied for income protection benefit under the Unum Scheme on behalf of the claimant at any time from May 2017 onwards. The application could have been made after May 2017 because it was likely that his absence would continue beyond the six month deferred period (i.e. beyond 8 August 2017), although the respondent would not have received any payment for the claimant&#8217;s absence until after 8 August 2017.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">119.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">However, the unfavourable treatment that the claimant has complained of did not commence at the time that the application could have been made. The claimant complains of two difficulties that he faced due to the respondent&#8217;s delay:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">119.1</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Anxiety and uncertainty</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> &#8211; we found that up until the meeting on 5 February 2018, the claimant believed that the respondent intended to apply for income protection benefit under the Unum Scheme on his behalf. We found that the claimant did not experience uncertainty and anxiety caused by the respondent&#8217;s delay until Mrs Davis told him at the meeting on 5 February 2018 that she believed that he was not eligible for the benefit because the occupational health report stated that he was unlikely to be able to return to work. This anxiety and uncertainty continued up until the claimant was informed in late April or early May 2018 that Mrs Davis was mistaken and that the respondent would make the application on his behalf&#8230;.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">If so, was such unfavourable treatment due to something arising in consequence of the claimant&#8217;s disability?</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> The claimant relies on the following as the &#8220;something arising&#8221; in consequence of his disability: the fact that he was absent due to long term sickness was the reason why the respondent did not apply for income protection cover for the claimant until after 23 March 2018.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">120.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We have considered the EAT&#8217;s decision in the Sheikholeslami case, referred to in the section on &#8216;Relevant Law&#8217; above. We note that:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">120.1</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the first issue is whether the respondent treated the claimant unfavourably because of an identified &#8216;something&#8217; and that this involves an examination of the respondent&#8217;s state of mind to determine what consciously or unconsciously was the reason for any unfavourable treatment found;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">120.2</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">the second issue is whether that something arose in consequence of the claimant&#8217;s disability.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">121.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In relation to the first issue, we have concluded that Mrs Davis&#8217; delay in applying for income protection benefit under the Unum Scheme was due to her view that the scheme did not apply to employees on long term sickness absence who were unlikely to return to work. The key reasons for our decision are:</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">121.1</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mrs Davis initially intended to make an application. She changed her mind after she received the occupational health advice that the claimant would not be fit for work for the &#8216;foreseeable future&#8217; due to his medical conditions.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">121.2</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Hancock later challenged Mrs Davis&#8217; interpretation of the Unum Scheme rules. Mrs Davis&#8217; email response to Mr Hancock of 21 March 2018 stated (with our underlining added for emphasis):</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;Accordingly we have made use of the policy from time to time as to employees who have an expectation to return to work. However, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">we have not used it for employees who may be classed as permanently disabled and have no expectation or ability to return to work</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">.&#8221;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:12pt">121.3</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mrs Davis sought legal advice after this email exchange and realised she had made a mistake. The claimant&#8217;s prognosis did not change materially throughout this period.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">122.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Turning to the second issue, the respondent has already accepted that the claimant&#8217;s sickness absence was &#8216;something arising&#8217; from his disability. This must be correct in light of the medical evidence provided at the time.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET went on to conclude that the unfavourable treatment in the delay claim was not proportionate and upheld the complaint at paragraph 125.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET&#8217;s conclusions in relation to the dismissal claim are at paragraphs 133 to 136:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220; </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">B) &#8216;ATTEMPTING TO DISMISS&#8217; THE CLAIMANT ON 5 FEBRUARY 2018</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Discrimination arising from disability (section 15 EQA)</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt;margin-left:0.69in">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the respondent treat the claimant unfavourably by &#8216;attempting to dismiss&#8217; the claimant at the meeting on 5 February 2018?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">133.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We have concluded that the events at the meeting on 5 February 2018 amounted to unfavourable treatment. The claimant was told that he was not eligible to receive the benefit of the Unum Scheme and was offered a settlement package based on the termination of his employment. At the time of this meeting the claimant&#8217;s health was poor as set out in our findings of fact.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">134.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We also found that the respondent discussed what might happen if the claimant refused the settlement (i.e. that his employment may be terminated after a capability process). The respondent did not forewarn the claimant that a settlement package or any potential capability process might be discussed during the meeting.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt;margin-left:0.69in">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">If so, was such unfavourable treatment due to something arising in consequence of the claimant&#8217;s disability? </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant relies on the following as the &#8220;something arising&#8221; in consequence of his disability: the fact that he was absent due to long term sickness was the reason why the respondent decided to consider terminating the claimant&#8217;s employment at the meeting on 5 February 2018.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">135.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We have concluded that the unfavourable treatment was not due to something arising in consequence of the claimant&#8217;s disability. Rather, it arose from Mrs Davis&#8217; mistaken belief that the claimant was not eligible for income protection benefit under the Unum Scheme and that the respondent therefore needed to consider other options, such as a settlement.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">136.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant&#8217;s claim of discrimination arising from disability in relation to this factual complaint fails.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The ET&#8217;s relevant findings on the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 19</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">EqA </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">claim (indirect discrimination) were as follows:   </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Indirect discrimination (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref>)</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">a.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the respondent operate the following PCP: not applying for income protection for those employees who were permanently ill (i.e. unlikely to return to work)?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">126.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We concluded that the respondent did operate a PCP of not applying for income protection for employees who were permanently ill and unlikely to return to work.   Until Mrs Davis realised her mistake in late March 2018, she would have applied the same PCP to any employee who was absent on sick leave and who may have met the definition of &#8216;incapacity&#8217; under the Unum Scheme.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">b.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">If so, did the respondent apply this PCP to the claimant?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">127.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The respondent did apply this PCP to the claimant.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">c.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the respondent apply the PCP to non-disabled persons or would it have done so?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">128.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The respondent was not considering any other applications for income protection at that time. However, it would have applied this PCP to non-disabled persons, albeit that it is difficult to envisage a non-disabled person in such circumstances. We note that any employee who was permanently ill (i.e. unlikely to return to work) and who was likely to meet the &#8216;incapacity&#8217; criteria in the Unum Scheme was highly likely to be regarded as having a &#8216;disability&#8217; for the purposes of s6 of the EQA.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">d.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the PCP put disabled persons at a particular disadvantage when compared with non-disabled persons, in that the claimant contends that he experienced uncertainty and anxiety for several months because he did not have the benefit of income protection during that period?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">129.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">We have concluded that the PCP did put disabled persons at a particular disadvantage when compared with non-disabled persons. This is because disabled persons as a group were far more likely than non-disabled persons to be eligible to receive the benefit of income protection cover under the Unum Scheme.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">e.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Did the PCP put the claimant at that disadvantage?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt">130.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant was put at that disadvantage. He experienced uncertainty and anxiety because of the delayed application. He also received lower pension employee and employer contributions during that period&#8230;.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Claimant&#8217;s Permitted Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The claimant&#8217;s amended ground which has been permitted to proceed is relatively brief and so is set out in full, (see page 39 CB):   </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">&#8220;1.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Tribunal erred in law by misapplying the test on causation required by <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15(1)</ref>(a) <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27" uk:canonical="2010 c. 27" uk:origin="TNA" uk:type="legislation">EA 2010</ref>, in deciding that the unfavourable treatment at the meeting on 5 February 2018 did not occur because of something arising inconsequence of the Claimant&#8217;s disability.</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:12pt;margin-left:1.26in;text-indent:-0.31in">1.1</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.26in;margin-right:0.39in;text-indent:0.06in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Tribunal correctly concluded at </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">[paras 133-134]</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> that the claimant was unfavourably treated by the respondent at the meeting 5 February 2018.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt;margin-left:1.26in;text-indent:-0.31in">1.2</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.26in;margin-right:0.39in;text-indent:0.06in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The Tribunal was then required to determine what caused the treatment (ie. telling him he was not eligible to receive benefits under the Unum scheme and  instead offering him a settlement package based on termination of his employment).</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt;margin-left:1.26in;text-indent:-0.31in">1.3</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.26in;margin-right:0.39in;text-indent:0.06in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">At </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">para [135],</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> the Tribunal identified the cause as Mrs Davis&#8217;s Mistaken belief that the claimant was not eligible for the Unum scheme.  The Tribunal ought to have identified the cause as a combination of Mrs Davis's mistaken belief and the Claimant&#8217;s long term absence.  The causative effect of the latter consideration on Mrs Davis&#8217;s decision-making is made plain </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">(paras 74, 80).</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> That long term absence was something that arose in consequence of the Claimant&#8217;s disability.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt;margin-left:1.26in;text-indent:-0.31in">1.4</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.26in;margin-right:0.39in;text-indent:0.06in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Even if the Tribunal was correct to focus exclusively on Mrs Davis&#8217;s mistaken belief that the Claimant was not eligible for the Unum scheme as the cause of the treatment at the meeting on 5 February 2018 (ie. &#8216;the something&#8217;), it ought to have gone on to conclude that this arose in consequence of the Claimant&#8217;s disability, since Mrs Davis had formed this belief (ie. that the Claimant was ineligible) because she regarded him as permanently incapable of work (see </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">[para 71]</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">), which in turn arose inconsequence of his disability.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:12pt">2.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.69in;margin-right:0.39in;text-indent:0.31in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Further or alternatively, if and insofar as the Tribunal found as a fact that the sole reason in Mrs Davis&#8217;s mind for the unfavourable treatment was her mistaken belief as to the Claimant&#8217;s eligibility for the Unum scheme and that no part of her belief was that the Claimant was permanently incapable of work, such a conclusion was perverse:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:12pt">2.1</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.28in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Such a conclusion would be inconsistent with the Tribunal&#8217;s finding at </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">[para 121]</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> in relation to the claim which was held by the Tribunal; /</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt">2.2</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.28in;margin-right:0.39in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Such a conclusion would be perverse in any event, because on the totality of the Tribunal&#8217;s findings of fact, the Tribunal could only have considered the Claimant to be treated as he was because he was perceived to be permanently disabled as was later stated in terms in the e-mail from Mrs Davis to Mr Hancock dated 21 March 2018 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">[EAT bundle page 194].&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Delstar&#8217;s Cross-Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Given its length, I only summarise Delstar&#8217;s cross-appeal.   The gist is as follows.   In relation to the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> delay claim, Delstar accepts that the ET was entitled to conclude that the delay was unfavourable treatment, but says that the ET was wrong to attribute the cause of that delay to the &#8216;something arising,&#8217; namely the appellant&#8217;s long term absence (see question b, after paragraph 119 of the ET&#8217;s Judgment).   The ET had identified at paragraph 121 that the delay was due to Mr Davis&#8217;s belief, but failed to consider, in reaching its conclusion at paragraph 122, whether the reason for the delay was caused by the &#8216;something arising&#8217;. Instead, Delstar argued that the operative cause was Mrs Davis&#8217;s mistaken belief, rather than the background facts of the claimant&#8217;s disability and absence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In the alternative, if the ET&#8217;s conclusion on the dismissal claim was inconsistent with the delay claims, it was the decision on the dismissal claim which was perverse, particularly given the brevity of the ET&#8217;s reasons for its decision on the dismissal claim.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Delstar also submitted that the ET had erred in upholding the indirect discrimination delay claim, at paragraph 132, based on its reasoning that there was a PCP which put disabled persons at a particular disadvantage when compared to &#8220;non-disabled&#8221; persons, as the comparison required a group disadvantage faced by those who shared the claimant&#8217;s disability, and an application of the PCP to people without the claimant&#8217;s disability.      </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Parties&#8217; Submissions (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 15</ref> EqA)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The representatives agreed that the ET&#8217;s conclusions on the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> claims could not both be correct.   While it might obviously be possible, in principle, for two separate claims to have alternative outcomes, there was no principled basis to distinguish between the causes of the delay and dismissal claims, when they were both in the context of the same belief.   Having initially suggested that were I to find an error of law in either one of the decisions, this Tribunal ought to remake them, both representatives urged me to remit any remaking back to the ET, despite the passage of time since the original decision.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The Claimant&#8217;s submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">For the claimant, Mr Croxford argued that the ET had fallen into error by focussing solely on paragraph 25 of the Presidential decision of</span><span style="font-family:'Times New Roman';color:#010302"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Sheikholeslami v University of Edinburgh</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2018] IRLR 1090" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] IRLR 1090</ref>, instead of Simler P&#8217;s fuller guidance at paragraph 31 of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">   The unfavourable treatment (dismissal) had been identified (as per paragraph 31(a) of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">).  Paragraph 31(b) required Tribunals to determine what caused the treatment, or the reason for it.   The focus at this stage needed to be on the mind of Delstar&#8217;s manager and an examination of her conscious or unconscious thought processes. There might be more than one reason and the &#8216;something&#8217; that caused the unfavourable treatment need not be the main or sole reason, provided it had at least a significant influence on the unfavourable treatment so as to amount to an effective reason for or cause or it.  Motives were not relevant (para 31(c)).  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The second stage of considering whether the &#8216;something&#8217; was &#8216;arising in consequence of&#8217; the claimant&#8217;s disability could describe a range of links, or a chain of them, so that where there was said to be more than one consequence of a disability, there needs to be a robust assessment of whether something can properly be said to have arisen in consequence of the person&#8217;s disability (see paragraph 31(d) of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">). The test is an objective one, and does not involve any consideration of thought processes (paragraph 31(f)). The two stages could be answered in any order (see paragraph 31(i)).   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Croxford argued that the ET had failed to consider the manager&#8217;s reasons for threatening to dismiss the claimant.   Her motive was irrelevant, but her reasons were not. These were because of the &#8216;something&#8217; that the claimant was on long-term sickness absence and was permanently incapacitated.  She must have believed the Unum policy capable of applying to some employees, and the only possible group were those on long-term absence but expected to return, e.g. someone with a badly broken leg.  The facts, as found by the ET, were that the manager had initially intended to apply for income protection but had changed her mind when she was advised that the claimant was permanently incapacitated.  The manager had drawn the distinction between those employees who were permanently disabled and those who were absent but would return.  That was why she had threatened to dismiss the claimant, when previously, when the prognosis had been unclear, she had not, and had intended to make the insurance application.   The change was the prognosis of permanent incapacity.    That was the &#8216;something arising&#8217;.  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">had discussed at paragraph 31(e) an example of where a bonus was withheld by one manager because of a warning by another manager for absence, which arose from disability.  There was no problem in concluding that the claim was made out. The claimant&#8217;s case was equally clear-cut.  The manager&#8217;s subjective belief in the justification of her action was her motive, an impermissible consideration.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Delstar&#8217;s submissions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Mellor returned to the case before the ET.  The claimant was now arguing a case that he had not claimed.   He had not claimed that the &#8216;something arising&#8217; was permanent incapacity, but had relied on long-term sickness absence.  The manager had been supportive of the claimant when he was on long-term sickness absence, and had not threatened him with dismissal, or considered the same, because of that absence, but because of her inexperience and unfamiliarity with the Unum policy terms.  In contrast, the claimant&#8217;s long-term sickness absence was one of a number of links in the cause of the delay in applying for income protection insurance, and the ET&#8217;s reasons on the delay claim were either inadequate or perverse.   </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Conclusions &#8211; Appeal and Cross Appeal - <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 15</ref> EqA</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">There are aspects of both representatives&#8217; submissions with which I agree.   I accept Mr Croxford's submission that part of the ET&#8217;s error flowed from its failure to consider the fuller set of guidance provided at para 31 of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser,</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> rather than the briefer recitation of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Sheikholeslami</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.    Both Presidential decisions are, of course, correct, but </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> explores in more detail the two aspects of causation, namely the &#8216;because of&#8217; stage involving A&#8217;s explanation for the treatment (and conscious and unconscious reasons for it) and the &#8216;something arising in consequence&#8217; stage, which requires consideration of whether, as a fact, the something was as a consequence of the disability.   They may be answered in any order, but analysis of both is required.   </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> also discusses two other issues &#8211; the problem of multiple causes in the &#8216;because of&#8217; analysis, and a chain of links in the &#8216;something arising&#8217; analysis.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In its analysis of the dismissal claim, the ET referred at paragraph 135 to it having arisen from the manager&#8217;s mistaken belief about the terms of the Unum policy alone.  I accept Mr Croxford&#8217;s challenge that there is no analysis of possible multiple causes.   However, I also accept Ms Mellor&#8217;s submission that there is a second error, which might have been identified more clearly, had the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Pnaiser</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">guidance been adopted.   This is that the ET was not consistent in how it defined the &#8216;something arising.&#8217;   A lack of consistency meant that both stages of the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> analysis were undermined.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the List of Issues, the &#8216;something&#8217; was defined at item 2(b)(i) &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">the fact that he was absent due to long term sickness.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221;   This was for the delay and dismissal claims (items 2(b)(i)(a) and (b)).   It did not refer to permanent incapacity.   The ET reiterated this, at para b, after para 119, where it stated &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant relies on the following as &#8220;something arising&#8221;&#8230;the fact that he was absent due to long term sickness.</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221;   At paragraph 120, the ET found that the manager&#8217;s delay was due to her view that the Unum scheme did not apply &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">to employees who were on long term sickness absence who were unlikely to return to work&#8230;</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.&#8221;   The two are not necessarily inconsistent or mutually exclusive, but they are also not the same.  The ET then returned to the original definition of &#8216;something&#8217; at paragraph 122.    In relation to the dismissal claim, at paragraph 134b, the ET referred to the claimant&#8217;s reliance on &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">the following as something arising in consequence of his disability: the fact that he was absent due to long-term sickness was the reason why the respondent decided to consider terminating the claimant's employment at the meeting on 5 February 2018</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.&#8221;  In contrast to the delay claim, the ET did not refer to the manager&#8217;s belief that the Unum policy did not apply to those employees who were unlikely to return to work, in the dismissal claim.   Instead, the ET referred to the belief that &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">the claimant was not eligible for income protection benefit under the Unum scheme</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">,&#8221; and stopped there, without referring to the likelihood of return to work.   The ET did not explain why the same belief caused one unfavourable treatment, but not another, and how the findings on permanent incapacity related to the &#8216;something&#8217; relied on for the purposes of the delay claim.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In summary, the ET erred in focussing on a single cause (the manager&#8217;s belief at the &#8216;because of&#8217; stage) when analysing the dismissal claim, while making findings in the delay claim which did not correspond to the &#8216;something&#8217; relied on.   These two errors, in combination, explain why the ET reached different decisions, which the representatives accepted could not both be correct.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have considered whether it is appropriate to preserve either of the ET's conclusions.  I conclude that it is not appropriate to do so.   The issue of causation needs to be addressed with findings on the common, accepted &#8216;something arising&#8217;, namely the claimant&#8217;s absence due to long term sickness absence, not permanent incapacity, and the ET needs to consider whether there are multiple causes.   This is not a case where the facts only lend themselves to one conclusion.   It is appropriate that the ET should consider each of these two claims afresh.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant's appeal and Delstar's cross-appeal in relation to the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EqA </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">delay and dismissal claims both succeed.  The ET&#8217;s conclusions on both are not safe and cannot stand.  I remit both issues to the ET to consider again, as the representatives have urged me to.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Delstar's submissions (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 19</ref> EqA) </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Ms Mellor argues first, that there was no evidence that those sharing the claimant&#8217;s disability would be put to a particular disadvantage.   There was no evidence to support group disadvantage and the ET had erred in comparing people with disabilities with &#8220;non-disabled&#8221; people, which was a comparison appropriate under section 20 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EqA,</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (the duty to make adjustments) not <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref>.   The ET had also implicitly acknowledged that the PCP could not have applied to people who did not share the claimant&#8217;s disability, at paragraph 128, when it said that Delstar &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">would have applied this PCP [not applying for income protection for those who were permanently ill] to non-disabled persons, albeit it is difficult to envisage a non-disabled person in such circumstances</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">.&#8221;  The ET had also accepted that any employee who met the Unum criteria was &#8220;</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">highly likely</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8221; to be regarded as having a disability.  The ET did not answer the question of how any PCP could have been applied to &#8220;non-disabled&#8221; people, ie, how the PCP applied generally, or could apply generally, beyond a disadvantaged group.  It was no answer to say that this would deprive the claimant of a remedy, as many claims were misformulated as indirect discrimination claims.   </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The Claimant's submissions (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 19</ref> EqA)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Mr Croxford accepted that, as confirmed in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ryan v South West Ambulance Service NHS Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2021] ICR 555" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] ICR 555</ref>, for an indirect discrimination claim, the causative link needed to be not between the protected characteristic and the disadvantage, but the PCP and the group and individual disadvantage (see paragraph 31 of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ryan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">).   However, the ET&#8217;s decision was consistent with that principle.  The fallacy in Delstar&#8217;s argument could be seen by rephrasing the PCP, so that instead of not applying for income protection for employees who were permanently incapacitated, it was phrased as only applying for income protection for employees who are likely to be able to return to work.  The second formulation had precisely the same substance and meaning and it was easy to see why it put the disabled group at a particular disadvantage and put the claimant at that disadvantage.  On Delstar's own case, there was a group capable of benefitting from Unum, namely those employees who were on long-term sickness but not permanently incapacitated and it was for them that the manager had believed the Unum policy was in place.  The general pool had been created by the manager&#8217;s mistaken belief, which put those who were disabled at a group disadvantage, and in turn the claimant to individual disadvantage.  An example was of a person who had a particularly serious bone fracture, who was absent for long enough to benefit from income protection, (26 weeks), but less than 12 months.   Ms Mellor had relied on section 6(3) </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EqA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, namely those sharing the claimant&#8217;s characteristic needed to share the same disability, but all section 6(3) was intended to do was ensure that there was a comparison of like with like, within the disadvantaged group, in contrast with those who were not in the disadvantaged group.  There was no need for statistical evidence of comparative disadvantage because of the nature of the factual case.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Discussion and Conclusions (<ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 19</ref> EqA)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In contrast to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/27/section/15" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 15</ref> claims, the PCP was stated as &#8220;not applying for income protection for those employees who were permanently ill, i.e. unlikely to return to work.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I accept Ms Mellor&#8217;s submission that while the ET asked itself about two comparator groups, disabled and non-disabled people, that was not a correct comparison, as it reflected the section 20 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EqA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> test, not the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> test.  It is worth returning to the relevant statutory provisions.  <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 19</ref></span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> EqA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> states:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 19</ref> Indirect discrimination</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A person (A) discriminates against another (B) if A applies to B a provision, criterion or practice which is discriminatory in relation to a relevant protected characteristic of B's.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">(2)</num>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in;text-indent:0.31in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For the purposes of subsection (1), a provision, criterion or practice is discriminatory in relation to a relevant protected characteristic of B's if&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:12pt;color:#010302">(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A applies, or would apply, it to persons with whom B does not share the characteristic,</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt;color:#010302">(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">it puts, or would put, persons with whom B shares the characteristic at a particular disadvantage when compared with persons with whom B does not share it,</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt;color:#010302">(c)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">it puts, or would put, B at that disadvantage, and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:12pt;color:#010302">(d)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A cannot show it to be a proportionate means of achieving a legitimate aim.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:12pt;color:#010302">(3)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The relevant protected characteristics are&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8230;.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Disability&#8230;&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Section 6(3) EqA states:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.69in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">6  Disability</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify"><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">      (3)In relation to the protected characteristic of disability&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">a reference to a person who has a particular protected characteristic is a reference to a person who has a particular disability;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:12pt;color:#010302">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">a reference to persons who share a protected characteristic is a reference to persons who have the same disability.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref>, when read with section 6(3), is clear. There is a requirement of a PCP of potentially general application, not just to those sharing a claimant&#8217;s disability.  The group of people, of which the claimant is a member, must have the same disability as the claimant.   There needs to a comparison between that group and those who do not share that disability.  The comparator group may include those without any disabilities, and those with disabilities which are not the same as the claimant&#8217;s.   The comparison is not between people with disabilities and those without, which is a different requirement under the section 20 duty to make adjustments (where a PCP puts a disabled person at a substantial disadvantage in relation to a relevant matter in comparison with persons who are not disabled).  Both the claimant&#8217;s group and the comparator group may be hypothetical, because of the word, &#8220;would&#8221;, in subsections 2(a) and (b) of <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref>.  However, that does not avoid the need to analyse whether those in the claimant&#8217;s group would be put to a particular disadvantage (without falling into the trap of asking &#8220;why&#8221;, as it is often difficult to identify complex causes).   While statistical evidence may not be available, the impact on one person, with the same disability, may not necessarily be the same as the impact on another.   For example, it may be, depending on the evidence, that a proportion of those who share the claimant&#8217;s disability, a pulmonary embolism and kidney disease, would have still been viewed as likely to return to work, during the time period when the PCP was applied.   While it is not a requirement that the PCP puts every member of the claimant&#8217;s group at a particular disadvantage, the ET had not asked that question, or gone on to consider whether those with the same disability would be viewed as more unlikely ever to return to work, when compared with those with different disabilities or no disabilities at all.   That, ultimately, was the flaw in Mr Croxford&#8217;s reformulated PCP.  It assumed that people with disabilities were more likely to be put to particular disadvantage than those without disabilities, without making a comparison between the two appropriate groups.   As a consequence, the ET erred in its assessment of group disadvantage.   It is no answer to point to a person who is not disabled, who had an absence lasting or likely to last more than 26 weeks (the deferral period under the Unum scheme) but less than twelve months, who would not be put to a particular disadvantage.   While that person would be one member of the comparator group, it ignored other group members, including those with different disabilities, in comparison to those sharing the claimant&#8217;s disability.   Contrary to Mr Croxford&#8217;s submissions, the ET&#8217;s analysis was not consistent with </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Ryan</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, because of the flaw in the ET&#8217;s analysis of group disadvantage.    The ET will therefore need to revisit this analysis when assessing the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">EqA </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">claim.  I therefore also allow this part of Delstar&#8217;s cross-appeal against the ET&#8217;s decision on the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/19" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 19</ref> claim.   </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I have considered the representatives&#8217; representations that were I to find that the ET had erred in law, I should remit remaking back to the same ET if possible.  There is no suggestion that it was biased or unprofessional in its conduct and despite some passage of time, the ET would not have to consider the whole case afresh.  In the circumstances, having considered the authority of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">Sinclair Roche &amp; Temperley &amp; Ors v Heard &amp; Anor</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2004] IRLR 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 763</ref></span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, I regard it as appropriate to remit the matter to the same ET, if possible, or if not, to a differently constituted Tribunal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

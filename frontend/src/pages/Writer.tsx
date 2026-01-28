@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
-import { Box, Button, Chip, Divider, Paper, Stack, Typography } from '@mui/material';
+import { useMemo, useState, useEffect, useCallback } from 'react';
+import { Box, Button, Chip, Divider, Paper, Stack, Typography, CircularProgress } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 type JudgmentType = 'majority' | 'dissenting' | 'concurring';
@@ -17,96 +17,6 @@ type SimilarityLegendItem = {
     range: string;
     className: string;
 };
-
-const supremeSuggestions: Suggestion[] = [
-    {
-        title: 'The claimant’s unjust enrichment theory mirrors the reasoning in Cobbe v Yeoman’s Row Management Ltd.',
-        similarity: 92,
-        citation: '[2008] UKHL 55',
-        judgment: 'majority',
-    },
-    {
-        title: 'Disclosure shows a fiduciary breach comparable to FHR European Ventures LLP v Cedar Capital Partners LLC.',
-        similarity: 85,
-        citation: '[2014] UKSC 45',
-        judgment: 'majority',
-    },
-    {
-        title: 'Failure to act with candour reflects the criticism in R (Citizens UK) v Secretary of State for the Home Department.',
-        similarity: 78,
-        citation: '[2018] EWCA Civ 1812',
-        judgment: 'concurring',
-    },
-    {
-        title: 'The dissent in R (Miller) v The Prime Minister highlights limits on prerogative power where accountability is reduced.',
-        similarity: 74,
-        citation: '[2019] UKSC 41',
-        judgment: 'dissenting',
-    },
-    {
-        title: 'American Cyanamid Co v Ethicon Ltd confirms interim relief where balance of convenience tilts towards preservation.',
-        similarity: 57,
-        citation: '[1975] UKHL 1',
-        judgment: 'concurring',
-    },
-    {
-        title: 'Lord Carnwath’s dissent in R (Keyu) v Secretary of State illustrates remittal where discretion is fettered.',
-        similarity: 34,
-        citation: '[2015] UKSC 69',
-        judgment: 'dissenting',
-    },
-    {
-        title: 'Perry v Raleys Solicitors underscores the evidential weight of contemporaneous notes in professional negligence claims.',
-        similarity: 68,
-        citation: '[2019] UKSC 5',
-        judgment: 'majority',
-    },
-    {
-        title: 'Serious Fraud Office v ENRC shows that staggered disclosure can evidence bad faith in corporate investigations.',
-        similarity: 48,
-        citation: '[2018] EWCA Civ 2006',
-        judgment: 'concurring',
-    },
-    {
-        title: 'In R (Begum) v Special Immigration Appeals Commission the Court stressed proportionality when national security is invoked.',
-        similarity: 29,
-        citation: '[2021] UKSC 7',
-        judgment: 'dissenting',
-    },
-];
-
-const tribunalSuggestions: Suggestion[] = [
-    {
-        title: 'Tribunal awards of aggravated damages track Khan v Information Commissioner where interference was deliberate.',
-        similarity: 63,
-        citation: '[2016] UKUT 486 (AAC)',
-        judgment: 'majority',
-    },
-    {
-        title: 'The Investigatory Powers Tribunal in Privacy International v Secretary of State required heightened proportionality for targeted warrants.',
-        similarity: 76,
-        citation: '[2021] UKIP Trib 2 (IPT)',
-        judgment: 'majority',
-    },
-    {
-        title: 'FTT (Tax) panels since 2022 emphasise contemporaneous ledgers when challenging VAT assessments on honest traders.',
-        similarity: 55,
-        citation: '[2023] UKFTT 211 (TC)',
-        judgment: 'concurring',
-    },
-    {
-        title: 'The Employment Appeal Tribunal found that staged disclosures justify punitive uplifts under s.207A TULRCA where mala fides is shown.',
-        similarity: 46,
-        citation: '[2022] UKEAT 0138_21_1409',
-        judgment: 'dissenting',
-    },
-    {
-        title: 'The Lands Chamber reiterated that expert diaries are determinative during compulsory purchase compensation reviews.',
-        similarity: 37,
-        citation: '[2023] UKUT 289 (LC)',
-        judgment: 'concurring',
-    },
-];
 
 const similarityLegend: SimilarityLegendItem[] = [
     { label: 'Very Low', range: '0-20%', className: 'very-low' },
@@ -132,11 +42,62 @@ const Writer = () => {
     const [filterOpen, setFilterOpen] = useState(false);
     const [legendOpen, setLegendOpen] = useState(false);
     const [courtLevel, setCourtLevel] = useState<CourtLevel>('supreme');
+    const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
+    const [isLoading, setIsLoading] = useState(false);
+
+    const fetchSuggestions = useCallback(async (queryOverride?: string) => {
+        setIsLoading(true);
+        try {
+            const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+            const queryToSend = queryOverride !== undefined ? queryOverride : draftText;
+            const response = await fetch(`${API_URL}/api/retrieve`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    query: queryToSend,
+                    court: courtLevel,
+                }),
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                // Map backend response (Document objects) to frontend Suggestion type
+                const mappedSuggestions: Suggestion[] = data.map((item: any) => ({
+                    title: item.target_sentence.text,
+                    similarity: item.similarity ? Math.round(item.similarity * 100) : 0,
+                    citation: item.target_sentence.doc_id,
+                    judgment: (item.target_sentence.decision?.toLowerCase() || 'majority') as JudgmentType,
+                }));
+                setSuggestions(mappedSuggestions);
+            } else {
+                console.error(`API Error: ${response.status} ${response.statusText}`);
+            }
+        } catch (error) {
+            console.error('Error fetching suggestions:', error);
+        } finally {
+            setIsLoading(false);
+        }
+    }, [draftText, courtLevel]);
+
+    useEffect(() => {
+        fetchSuggestions();
+    }, [courtLevel]); // Auto-fetch when court level changes
+
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+        if (e.key === 'Tab') {
+            e.preventDefault();
+            const textarea = e.currentTarget;
+            const cursorPosition = textarea.selectionStart;
+            const textBeforeCursor = draftText.substring(0, cursorPosition);
+            fetchSuggestions(textBeforeCursor);
+        }
+    };
 
     const filteredSuggestions = useMemo(() => {
-        const pool = courtLevel === 'supreme' ? supremeSuggestions : tribunalSuggestions;
-        return judgmentFilter === 'all' ? pool : pool.filter((item) => item.judgment === judgmentFilter);
-    }, [courtLevel, judgmentFilter]);
+        return judgmentFilter === 'all' ? suggestions : suggestions.filter((item) => item.judgment === judgmentFilter);
+    }, [suggestions, judgmentFilter]);
 
     const handleInsert = (suggestion: Suggestion) => {
         setDraftText((current) => `${current.trim()}\n\n${suggestion.title} (${suggestion.citation})`);
@@ -243,6 +204,7 @@ const Writer = () => {
                         component="textarea"
                         value={draftText}
                         onChange={(event) => setDraftText(event.target.value)}
+                        onKeyDown={handleKeyDown}
                         style={{
                             minHeight: '360px',
                             width: '100%',
@@ -303,9 +265,20 @@ const Writer = () => {
                     color: 'var(--color-text-light)',
                 }}
             >
-                <Typography variant="h6" style={{ color: 'var(--color-text-light)', fontFamily: 'var(--font-role-heading)', fontWeight: 700 }}>
-                    SafeLaw Suggestions
-                </Typography>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <Typography variant="h6" style={{ color: 'var(--color-text-light)', fontFamily: 'var(--font-role-heading)', fontWeight: 700 }}>
+                        SafeLaw Suggestions
+                    </Typography>
+                    <Button 
+                        onClick={fetchSuggestions} 
+                        disabled={isLoading} 
+                        variant="text" 
+                        size="small" 
+                        sx={{ color: 'var(--color-accent-primary)', textTransform: 'none' }}
+                    >
+                        {isLoading ? 'Refreshing...' : 'Refresh'}
+                    </Button>
+                </div>
                 <div style={{ border: '1px solid rgba(255,255,255,0.08)', borderRadius: '1.25rem', padding: '1rem', background: 'rgba(255,255,255,0.03)', marginTop: '1rem' }}>
                     <button
                         type="button"
@@ -422,8 +395,13 @@ const Writer = () => {
                 </div>
                 <Divider style={{ margin: '1.5rem 0', borderColor: 'var(--color-text-inactive)' }} />
                 <div style={{ maxHeight: '28rem', overflowY: 'auto', paddingRight: '0.5rem' }}>
+                    {isLoading && (
+                        <Box sx={{ display: 'flex', justifyContent: 'center', padding: '2rem' }}>
+                            <CircularProgress size={24} sx={{ color: 'var(--color-accent-primary)' }} />
+                        </Box>
+                    )}
                     <Stack spacing={3}>
-                        {filteredSuggestions.map((suggestion) => (
+                        {!isLoading && filteredSuggestions.map((suggestion) => (
                             <Box
                                 key={suggestion.title}
                                 style={{ borderRadius: '1rem', border: '1px solid var(--color-accent-secondary)', background: 'rgba(255,255,255,0.05)', padding: '1.25rem', fontSize: '1rem', color: 'var(--color-text-light)' }}

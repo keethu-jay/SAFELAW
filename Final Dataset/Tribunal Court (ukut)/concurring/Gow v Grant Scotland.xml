@@ -1,0 +1,779 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2012/29"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2012/29"/>
+	  <FRBRdate date="2012-07-04" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="29"/>
+	  <FRBRname value="Gow v Grant (Scotland)"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2012/29"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2012/29"/>
+	  <FRBRdate date="2012-07-04" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2012/29/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2012/29/data.xml"/>
+	  <FRBRdate date="2024-11-14T03:01:51" name="transform"/>
+	  <FRBRdate date="2024-12-03T22:18:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2012-07-04" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="gow" href="" showAs="Gow"/>
+	<TLCPerson eId="grant" href="" showAs="Grant"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2012</uk:year>
+	<uk:number>29</uk:number>
+	<uk:cite>[2012] UKSC 29</uk:cite>
+	<uk:parser>0.26.12</uk:parser>
+	<uk:hash>b878cb8c2aa4455ca4d4f4b6889c8737fea8b86817e78552d0adad755cd2f942</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.79in; margin-right: 0.5in; font-size: 13pt; }
+#judgment .NewSpeech { text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:99.05pt;height:99.05pt"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Trinity Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2012] UKSC 29</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2011] CSIH 25</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#gow" style="font-weight:bold;font-size:20pt">Gow</party><span style="font-weight:bold;font-size:20pt"> (FC) (</span><role refersTo="#appellant" style="font-weight:bold;font-size:20pt">Appellant</role><span style="font-weight:bold;font-size:20pt">) </span><span style="font-style:italic;font-weight:bold;font-size:20pt">v </span><party as="#respondent" refersTo="#grant" style="font-weight:bold;font-size:20pt">Grant</party><span style="font-weight:bold;font-size:20pt"> (</span><role refersTo="#respondent" style="font-weight:bold;font-size:20pt">Respondent</role><span style="font-weight:bold;font-size:20pt">) (Scotland)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hope, Deputy President</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Hale</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Wilson</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Reed</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Carnwath</span></p>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2012-07-04" refersTo="#judgment" style="font-weight:bold;font-size:18pt">4 July 2012</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center;margin-left:4in;text-indent:-4in"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 24 May 2012</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="2.78in 0.3in 2.85in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Appellant</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic;font-size:13pt">Respondent</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Janys M Scott QC</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Iain G Armstrong QC</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Kirsty Malcolm</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">Catherine Dowdalls</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Hughes Walker)</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-size:13pt">(Instructed by Allan McDougall)</span></p>
+	  </td>
+	</tr>
+      </table>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold;text-transform:none">LORD HOPE: (with whom Lady Hale, Lord Wilson, Lord Reed and Lord Carnwath agree)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It was not until the end of the last century that those who were thinking about the reform of the law in Scotland paid any attention to the problems created when men and women decide to live together without getting married. The traditional approach was that nothing short of marriage would create rights in each other&#8217;s property in the event of death or separation. But entering into a regular marriage, with all the formalities that this involved, was not essential. As every student of Scots law knows, the common law recognised three ways in which an irregular marriage could be constituted: by declaration <span style="font-style:italic">de praesenti</span>; by a promise to marry <span style="font-style:italic">subsequente copula</span>; and by cohabitation with habit and repute. The first two were abolished by the Marriage (Scotland) Act 1938. The third survived until it too was abolished by section 3 of the Family Law (Scotland) Act 2006.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Irregular marriages had to be proved, however. So a form of action was devised for this purpose. Either of the parties could bring proceedings for declarator of marriage, even after the death of the other party. The declarator was a judgment <span style="font-style:italic">in rem</span>. Its effect was to provide conclusive proof that a marriage had been constituted, and it was binding on all persons whomsoever: <span style="font-style:italic">Longworth v Yelverton</span> (1867) 5 M (HL) 144, per Lord Chancellor Chelmsford at 147. There were various reasons why such an order might be sought. Usually it was to obtain the benefit of the property rights that were enjoyed by the parties to a regular marriage. Before the law on legitimacy was reformed it was used to enable the children of the relationship to obtain the rights that were conferred on the children of a marriage too. Very occasionally, when it was still the practice for undefended actions of divorce to be heard in the Court of Session, the unremitting diet of divorce proofs would be varied by an action for declarator of marriage which the other party did not wish to defend.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">But the opportunity of proving a marriage by cohabitation with habit and repute was of use only to those who had the capacity to marry, were free to do so and were content to live together as husband and wife. It was not available to cohabiting couples who had deliberately chosen not to marry. And couples who had not made that choice but had made no effort to pretend that they were married to each other were unlikely to be able to produce evidence of habit and repute to show that they were living together as husband and wife. It was an unsatisfactory system, as many people who had committed themselves to a relationship as cohabiting couples and were under the impression that their relationship was one of common law marriage were unable to meet the legal requirements of the common law. Social attitudes were changing too, and pre-marital cohabitation was becoming the norm. One of the recommendations in the Scottish Law Commission&#8217;s <span style="font-style:italic">Report on Family Law</span> (Scot Law Com No 135) (6 May 1992) was that this form of irregular marriage should be abolished, as it was anomalous: recommendation 42. It addressed the issue of cohabitation in Part XVI of the same report. This issue had been the subject of a discussion paper issued two years previously: <span style="font-style:italic">The Effects of Cohabitation in Private Law</span> (Discussion Paper No 86, May 1990).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In para 16.1 of its Report the Scottish Law Commission said that the results of its consultation, and of a survey of public opinion, had confirmed it in its view that there was a strong case for some limited reform of Scottish private law to enable certain legal difficulties faced by cohabiting couples to be overcome and to enable certain anomalies to be remedied. It accepted, however, that legal intervention in this area, as to which widely differing views were held, ought to be limited. There was a respectable body of opinion that it would be unwise to impose marriage-like legal consequences on couples who had deliberately chosen not to marry. The reform ought not to undermine marriage, nor should it undermine the freedom of those who had deliberately opted out of marriage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It went on to say that the presumption of equal sharing of household goods acquired during marriage under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/25/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">Family Law (Scotland) Act 1985</ref> should, in a case of cohabitation, be modified. A comprehensive system of financial provision on termination of cohabitation comparable to the system of financial provision on divorce on principles analogous to those in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 9(1)</ref>(d) or 9(1)(e) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> was not favoured. That would be to impose a regime of property sharing, and in some cases, continuing financial support on couples who might well have opted for cohabitation to avoid such consequences: para 16.15. But the principle in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b), which enables fair account to be taken of any economic advantage derived by either party from contributions by the other, and of any economic disadvantage suffered by either party in the interests of the other party or the family could be applied, quite readily and appropriately, to cohabitants: para 16.18. A similar approach was taken to the question whether a surviving cohabitant should succeed on intestacy to his or her deceased partner&#8217;s estate. A discretionary system, to enable the court to take account of all the circumstances of the relationship, would be preferable to any fixed rules.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">These proposals were summarised in recommendations 80 to 83, and a draft Bill was appended to the Report. Part III of the Bill dealt with cohabitation. More than 10 years were to pass, however, before legislation was introduced to give effect to these recommendations. In the meantime the trend for couples to prefer cohabitation rather than marriage had increased. It was estimated that, of families by type of family in Scotland, the percentage of cohabiting couple families had increased from 4% in 1991 to 7% in 2001, and that the percentage of married couple families had decreased from 50.7% in 1991 to 42.5% in 2001: <span style="font-style:italic">Legal Practitioners&#8217; Perspectives on the Cohabitation Provisions of the Family Law (Scotland) Act 2006</span> (Centre for Research on Families and Relationships, University of Edinburgh, May 2010): see <span style="font-style:italic">http://www.crfr.ac.uk/reports/Cohabitation%20final%20report.pdf</span>. This is a trend which can be expected to have continued.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In March 1999 the Scottish Office Home Department issued a Consultation Paper entitled <span style="font-style:italic">Improving Scottish Family Law</span>. But the opportunity to bring the Scottish Law Commission&#8217;s proposals into law did not present itself at Westminster during the period prior to the coming into effect of the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">Scotland Act 1998</ref>. The process of consultation was then taken up by the Scottish Executive, and on 7 February 2005 a Bill which became the Family Law (Scotland) Act 2006 was introduced by the then Minister for Justice, Cathy Jamieson. It was considered by, among others, the Justice 1 Committee whose Stage 1 Report was published on 7 July 2005. In accordance with the normal procedure the Deputy Minister of Justice, Hugh Henry, provided a detailed written response to the issues raised by the Committee in August 2005. The Stage 2 procedure then followed, and there was a debate in the Parliament on 15 December 2005 when the Bill was passed. The Family Law (Scotland) Act 2006, asp 2, received its Royal Assent on 20 January 2006.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This appeal is concerned with the meaning and effect of section 28 of the 2006 Act. It provides that a cohabitant can apply to a court for financial provision when the cohabitation has ended otherwise than by the death of one of the cohabitants. The drafting of this section was much criticised while it was undergoing Parliamentary scrutiny, and the questions that it raises are not free from difficulty.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The appellant, Mrs Gow, met the respondent, Mr Grant, in 2001 at a singles club which they had both joined. Mrs Gow, who was born on 2 January 1937, was then about 64. Mr Grant, who was born on 18 December 1943, was about 58. They commenced a relationship, and in about December 2002 Mr Grant asked Mrs Gow to live with him at his home in Penicuik. Mrs Gow agreed to do so if they became engaged to be married, which they then did. They lived together as husband and wife and engaged in an active social life together from June 2003 to January 2008, when their relationship came to an end.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">When the parties met they each owned their own home and they were each in employment. Mrs Gow owned a studio flat in Edinburgh which was subject to an interest only mortgage, of which &#163;11,876 was outstanding in December 2002. Mr Grant owned a three bedroom house in Penicuik which was free of any mortgage. He encouraged Mrs Gow to sell her flat. Indeed, as Sheriff Mackie who conducted the proof put it in para 4 of her note, her evidence, which the sheriff accepted, was that he was adamant that she should do so. Mrs Gow, as the owner of the property, dealt with the legal and practical aspects of the sale. But Mr Grant discussed the sale with her and gave her advice, particularly as to the price at which the property should be offered. The sheriff held that there was no evidence that Mrs Gow was forced to sell the flat because she was in financial difficulties. She accepted that Mrs Gow sold the property in the interests of furthering her relationship with Mr Grant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The flat was sold in June 2003 for &#163;50,000, from which Mrs Gow received a net sum after repayment of the mortgage and expenses of &#163;36,559. She used the money to repay various debts, including credit card debts and the balance of the cost of a new kitchen, amounting in total to &#163;14,133. She invested &#163;5,000 in a guaranteed investment account and &#163;5,000 in a Sterling Investment Bond, and she loaned &#163;4,000 to her son. The balance of &#163;8,425 was contributed by Mrs Gow to her relationship with Mr Grant, as it was used towards the parties living expenses. Mr Grant was able to continue to live in his own house when the parties&#8217; relationship came to an end. It was worth about &#163;200,000 in June 2003. Mrs Gow continued to live in Mr Grant&#8217;s home until she obtained rented accommodation in June 2009. The sheriff found that the value in July 2009 of the flat which had formerly belonged to her was &#163;88,000. The difference between that figure and the price at which the flat was sold in June 2003 was &#163;38,000.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mrs Gow was employed as an audio typist until the parties began living together. Her contract came to an end in May 2003, and at Mr Grant&#8217;s request she did not seek further work. She was in receipt of an occupational pension and a state pension amounting in total to about &#163;640 per month. Mr Grant was employed part time as a lecturer at Jewel &amp; Esk Valley College. He was also in receipt of a widower&#8217;s pension from the Bank of Scotland in excess of &#163;600 per month. He stopped working as a lecturer in 2006, and obtained part time work as a courier. During their cohabitation the parties purchased two timeshare weeks in their joint names, each of which cost &#163;7,000. Mrs Gow paid &#163;1,500 towards the first week, and in about July 2005 she surrendered her Sterling Investment Bond and used the proceeds together with other funds to pay the whole price of the second week. In about 2006 her guaranteed investment account matured in the sum of about &#163;6,000. She spent &#163;2,000 on paintings, two of which she gave to Mr Grant, and spent &#163;1,000 on a holiday. The balance of the proceeds was used towards the parties&#8217; day-to-day expenses.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In consequence of the position in which she found herself when the cohabitation came to an end Mrs Gow brought an action against Mr Grant in the Sheriff Court in Edinburgh, in which she sought payment of a capital sum in terms of section 28 of the 2006 Act. It was not disputed that the parties were cohabitants in terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46/section/25" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 25</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/46" uk:canonical="1998 c. 46" uk:origin="TNA" uk:type="legislation">the Act</ref>, which provides that the word &#8220;cohabitant&#8221; means, in the case of two persons of the opposite sex, a man and a woman who are, or were, living together as if they were husband and wife. Mr Grant maintained, however, on various grounds that Mrs Gow was not entitled to any payment under section 28.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Section 28 of the 2006 Act</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Section 28(1) provides that subsection (2) of that section applies where cohabitants cease to cohabit otherwise than by reason of the death of one (or both) of them. Subsections (2) to (6) are in these terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">On the application of a cohabitant (the &#8216;applicant&#8217;), the appropriate court may, after having regard to the matters mentioned in subsection (3) &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">make an order requiring the other cohabitant (the &#8216;defender&#8217;) to pay a capital sum of an amount specified in the order to the applicant;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">make an order requiring the defender to pay such amount as may be specified in the order in respect of any economic burden of caring, after the end of the cohabitation, for a child of whom the cohabitants are the parents;</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(c)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">make such interim order as it thinks fit.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(3)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">Those matters are &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">whether (and, if so, to what extent) the defender has derived economic advantage from contributions made by the applicant; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">whether (and, if so, to what extent) the applicant has suffered economic disadvantage in the interests of &#8211;</p>
+		      <block name="embeddedStructure"><embeddedStructure>
+			  <paragraph>
+			    <num style="font-size:13pt">(i)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:2.17in">the defender; or</p>
+			    </content>
+			  </paragraph>
+			  <paragraph>
+			    <num style="font-size:13pt">(ii)</num>
+			    <content>
+			      <p class="Quote" style="margin-left:2.17in">any relevant child.</p>
+			    </content>
+			  </paragraph>
+			</embeddedStructure></block>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(4)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">In considering whether to make an order under subsection (2)(a), the appropriate court shall have regard to the matters mentioned in subsections (5) and (6).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(5)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The first matter is the extent to which any economic advantage derived by the defender from contributions made by the applicant is offset by any economic disadvantage suffered by the defender in the interests of &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">the applicant; or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.38in;text-indent:0.12in">any relevant child.</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(6)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The second matter is the extent to which any economic disadvantage suffered by the applicant in the interests of &#8211;</p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">the defender; or</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">any relevant child,</p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="Quote" style="margin-left:0.79in">is offset by any economic advantage the applicant has derived from contributions made by the defender.&#8221;</p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Subsection (4), (5) and (6) were inserted into the draft Bill at Stage 2 of the proceedings in the Parliament.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In sub<ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section (9</ref>) the expressions &#8220;contributions&#8221; and &#8220;economic advantage&#8221; are defined. &#8220;Contributions&#8221; includes indirect and non-financial contributions. &#8220;Economic advantage&#8221; includes gains in capital, income and earning capacity; and &#8220;economic disadvantage&#8221; is to be construed accordingly. The same expressions, together with the phrase &#8220;in the interests of&#8221;, appear in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">Family Law (Scotland) Act 1985</ref>. But the wording of that provision, which sets out one of the principles which the court is to apply in deciding what order for financial provision to make on divorce, is not the same as that used in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(5)</ref> and (6) of the 2006 Act. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 9(1)</ref>(b) states that &#8220;fair account&#8221; is to be taken of &#8220;any&#8221; economic advantage and disadvantage, whereas the &#8220;extent&#8221; of the economic advantage and disadvantage mentioned in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(5)</ref> and (6) are matters to which <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(4)</ref> says the court is to &#8220;have regard&#8221; in considering whether to make an order under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(2)</ref>(a). Nor is the context, as one of the principles to be applied on divorce is that the net value of the matrimonial property should be shared fairly between the parties to the marriage and the sharing is to be taken to have been fair if the property is shared equally: <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 9(1)</ref>(a) and 10(1) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 28</ref> requires the court to conduct an entirely different exercise.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The proceedings below</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The sheriff delivered her judgment on 7 December 2009: 2010 Fam LR 21. She observed in para 39 of her note, at the outset of her discussion of the issues, that the approach which she required to adopt was not the same as under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, as there was no matrimonial property to be divided fairly between the parties. Concentrating on the language of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> in para 41, she noted that <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> says that the court <span style="font-style:italic">may</span> make an order in terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(2)</ref> after <span style="font-style:italic">having regard</span> to the matters mentioned in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(a) and (b). So the court had a discretion to make an order, and a precise calculation of loss did not require to be made. It was significant that the court was not directed to make a fair division of property acquired during or for the purpose of cohabitation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Having regard to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(a), the sheriff said in para 48 that she was satisfied that Mrs Gow had contributed financially to the parties&#8217; expenditure during the period of cohabitation, and that Mr Grant had also derived an economic advantage from her non-financial contribution in looking after the house in which the parties cohabited and in other ways. She then had to consider under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/5" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(5)</ref> the extent to which the economic advantage enjoyed by Mr Grant had been offset by economic disadvantage suffered by him in the interests of Mrs Gow. It appeared to her that there was no evidence that he had suffered any such economic disadvantage: para 55.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As for <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(b), the sheriff said in para 56 that she was satisfied on the evidence that Mrs Gow had suffered economic disadvantage in the interests of Mr Grant. She accepted Mrs Gow&#8217;s evidence that the only reason that she sold her house was as a result of Mr Grant&#8217;s encouragement and in the interests of furthering the relationship. She also accepted her evidence that had she not embarked on a new life with Mr Grant she would have continued to maintain her own property and would have continued to work to enable her to do so. As a result of the sale she had lost her principal capital asset, required now to live in rental accommodation and was unlikely to be able to afford to purchase another property. She had enjoyed the benefit of a substantial amount of the sale proceeds, but the balance of &#163;8,000 had been contributed to the parties&#8217; relationship. As the value of her flat was &#163;88,000 in July 2009, she had suffered economic disadvantage in the interests of Mr Grant to the extent of &#163;38,000, which was the difference between the sale proceeds and the flat&#8217;s current value: para 59. Although the parties owned the two weeks&#8217; timeshare jointly, Mrs Gow had paid more than 50% of the price. She had suffered economic disadvantage in the interests of Mr Grant to the extent of &#163;1,500 in the acquisition of these assets: para 60.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Turning lastly to <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/6" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(6)</ref>, the sheriff examined the question whether any economic disadvantage suffered by Mrs Gow in the interests of Mr Grant was offset by any economic advantage derived by her from contributions made by Mr Grant. It was not disputed that he had made various contributions, financial and non-financial, to the relationship. But in her opinion such contributions as were made were not sufficient to offset the economic disadvantage suffered by Mrs Gow in the interests of Mr Grant: para 65. Her conclusion, having regard to the matters to which she was directed to have regard by the statute, was that there was a net economic disadvantage in favour of Mrs Gow, and that she should be compensated in the sum of &#163;39,500.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Mr Grant appealed against the sheriff&#8217;s decision to the Inner House of the Court of Session. The appeal was heard by the Second Division (the Lord Justice Clerk (Gill), Lord Mackay of Drumadoon and Lord Drummond Young), and the opinion of the court was delivered by Lord Drummond Young on 22 March 2011: [2011] CSIH 25, 2011 SC 618. The appeal was allowed and Mrs Gow&#8217;s application for an award of a capital sum was refused.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Lord Drummond Young noted in para 3 of his opinion that there had been a number of cases which disclosed varying and contradictory approaches to the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref>. But he said that it was not necessary for present purposes for the court to express any view on the detailed issues that arose in them, nor was it necessary for it to express any general view as to the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref>. He did however make two observations. First, in contrast to the scheme in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 8</ref> to 10 of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> as to the rights of a spouse on divorce, the financial provision which the court was permitted to make by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> was in the nature of compensation for an imbalance of economic advantage or disadvantage. Secondly, the court had to have regard to the precise wording of the section, and it must be satisfied that the requirements set out in the section are satisfied on the evidence. The difficulties would be minimised if it was recognised that the objective of the section was limited in scope. It was intended to enable the court to correct any clear and quantifiable economic imbalance that might have resulted from cohabitation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">After summarising the findings of fact and the crucial part of the sheriff&#8217;s reasoning, Lord Drummond Young said in para 9 that the court was of the opinion that the sheriff&#8217;s award was not justified by her findings of fact. Three reasons for this conclusion are set out in that paragraph. First, what was required by the phrase &#8220;in the interests of&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(b) was that the applicant should suffer an economic disadvantage &#8220;in a manner intended to benefit the defender&#8221;. In the present case all that the findings of fact indicated was that Mrs Gow was encouraged to sell her house. The proceeds were then used either for her own purposes or to meet the parties&#8217; joint living expenses. And the fact that the sale was encouraged by Mr Grant was clearly insufficient to draw the inference that the transaction &#8220;was in his interests&#8221;. Secondly, the fact that the sale was intended to further the parties&#8217; relationship was insufficient to justify the conclusion that it was in the defender&#8217;s interests. These two matters appeared to the court to be conceptually quite distinct. Thirdly, to the extent that Mrs Gow might be said to have suffered an economic disadvantage in relation to the timeshares, it was plainly offset by the economic advantage that Mrs Gow derived from Mr Grant&#8217;s contributions towards joint living expenses.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">The issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The parties are agreed that the decision of the Inner House raises the following issues:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.98in;text-indent:-0.49in">(i)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in">Is an intention to benefit the other cohabitant a necessary element of the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(b) and (6)?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.98in;text-indent:-0.49in">(ii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Is it necessary for the applicant to establish that the defender derived actual economic benefit as a result of economic disadvantage suffered by the applicant?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.98in;text-indent:-0.49in">(iii)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.13in">Must any benefit so conferred be in the interests of the defender alone, or may it be of benefit to both parties?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:0.98in;text-indent:-0.49in">(iv)</num>
+	    <content>
+	      <p class="ParaLevel2" style="margin-left:0.98in;text-indent:0.01in">Whether, if relevant economic disadvantage is established which is not offset by relevant economic advantage, the court has a discretion as to the amount of any award, and the extent of any such discretion.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">For Mr Grant it was submitted that, having regard to the ordinary meaning of the text of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref>, an intention to benefit the other cohabitant is essential for a claim under that section to succeed. It was also submitted that, for a claim under that section based on economic disadvantage to succeed, it is necessary for the applicant to establish that, as a result of economic disadvantage suffered by the applicant, the defender has derived economic benefit. It was accepted that the words of the section are not apt to exclude a successful claim where both parties have benefitted from economic disadvantage suffered by the other. On the other hand, for a claim to succeed, it is not sufficient simply to establish economic disadvantage in the interests of the parties&#8217; wider, non-economic affairs, such as the nature of their relationship or other social or emotional concerns. The section requires the court to assess the net economic advantage or disadvantage derived or suffered by each party.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In order to find an answer to these problems it is necessary to look more closely at the background to the legislation. What was the mischief that <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> was designed to address? And what were the principles to which it seeks to give effect?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">As already mentioned (see para 5, above), the Scottish Law Commission rejected the concept of equal sharing where a relationship of cohabitation was terminated: <span style="font-style:italic">Report on Family Law</span>, para 16.15. On the other hand it recommended that a former cohabitant should be able to apply for a financial provision based on the principle in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. The existing common law on unjustified enrichment did not provide a clear or certain remedy: para 16.17. The principle in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b), on the other hand, could be applied, quite readily and appropriately, to cohabitants. The argument for doing so was that it would be unfair to let economic gains and losses arising out of contributions or sacrifices made in the course of a relationship simply lie where they fell. Applying it would give them the benefit of a principle which was designed to correct imbalances arising out of a non-commercial relationship where parties are quite likely to make contributions or sacrifices without counting the cost or bargaining for a return: para 16.18.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The formula which is set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b) was adopted in clause 36(2) of the draft Bill which was annexed to the Report. It provided:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;(2)</num>
+		  <intro>
+		    <p class="Quote" style="margin-left:0.79in;text-indent:0.21in">The court shall make an award to the applicant in pursuance of an application under subsection (1) above only if it is satisfied &#8211; </p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-size:13pt">(a)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">that the other former cohabitant has derived economic advantage from contributions by the applicant, or that the applicant has suffered economic disadvantage in the interests of the other former cohabitant or their children; and</p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-size:13pt">(b)</num>
+		    <content>
+		      <p class="Quote" style="margin-left:1.77in">that having regard to all the circumstances of the case it is fair and reasonable to make such an award.&#8221;</p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">In para 16.20 the Commission observed that, although a claim based on contributions or sacrifices could often not be valued precisely, it would provide a way of awarding fair compensation, on a rough and ready valuation, in cases where otherwise none could be claimed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Deputy Minister for Justice, Hugh Henry, commented on the provisions in the Bill relating to legal safeguards for cohabiting couples and their children in his response to the Justice 1 Committee&#8217;s Stage 1 Report on the Bill in August 2005. He said that it might be helpful if he clarified the policy principles that had informed the detailed drafting. The Executive&#8217;s view was that the function of the law in relation to cohabitants should be both protective and remedial. The law needed to provide a framework for a fair remedy when committed relationships founder or the parties to them are separated by death.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Our focus in policy terms is therefore on those cohabiting relationships which offer some evidence of the parties&#8217; commitment to a joint life. It is that evidence that justifies a remedial intervention by law, the allocation of rights and obligations by the parties towards one another, and the redistribution of certain of their property. At the same time, however, we think it would be wrong to impose on cohabitants a legal requirement to support one another financially during the relationship: we can never know why people have not married and chosen not to incur that responsibility and in the absence of such knowledge we believe an obligation of mutual aliment would be unjustifiable. Our sense of a fair and just outcome when committed relationships come to an end involves setting a framework for compensation where one partner can show that they have suffered net economic disadvantage in the interests of the relationship.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Reference to Parliamentary material has, of course, become commonplace since the previous rule that excluded this was relaxed by <span style="font-style:italic">Pepper v Hart</span> <ref href="#" uk:canonical="[1983] AC 593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] AC 593</ref>, and the rather strict rules that were laid down in that case have become gradually more relaxed. It remains the case that this approach should be used only where the legislation is ambiguous, and then only with circumspection. When it is used, however, the purpose of the exercise is to determine the intention of the legislator. The Deputy Minister&#8217;s remarks were set out in a letter. They were not made orally in the course of a debate in the Committee or in the Parliament. But I do not think that this, in itself, is a reason for excluding reference to them. It is the normal procedure for Ministers to provide the relevant committee with a letter setting out the government&#8217;s views in response to issues raised by the committee in its Stage 1 Report. This is the kind of thing that is done orally under the procedures which are familiar in the case of the Parliament at Westminster. The Scottish Parliament has devised a different system of procedure, but that should not inhibit reference to written material of this kind that may be of assistance. In my opinion the Deputy Minister&#8217;s letter is as much a guide as to the intention of the legislator as if its contents had been set out in a statement made by him to the Justice 1 Committee orally.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">When the Bill was debated in the Parliament on 15 December 2005 the Minister for Justice, Cathy Jamieson, said that the Executive had been at pains to ensure two things (Official Report, col 21922):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;first, that any financial award that the courts make to an applicant addresses the net economic disadvantage that the person may face as a direct result of joint decisions that were made by the couple during the relationship; and secondly, that the economic burden of caring for a child that cohabitants have had together is shared until the child is 16.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">Later in the same contribution which she made to the debate, referring to what is now <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the Act</ref>, she said (ibid):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;Cohabitants are under no legal obligation to aliment each other during their relationship, so there is no reason that we should seek to ensure that they do so when the relationship is over. However, it is important to achieve fairness. That is why we have adopted the provisions set out in section 21. Those provisions will ensure that one partner compensates the other for any net economic disadvantage that has resulted from the relationship that they formed together and that they will share the cost of caring for their children. We believe that that offers fairness to both parties, while respecting their rights to live as they choose without the Government imposing other financial obligations.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Common to all these statements is an emphasis on fairness to both parties. This is the principle that lies at the heart of the award that the court is able to make under this section. The words &#8220;fair and reasonable&#8221; which were in clause 36(2)(b) of the Scottish Law Commission&#8217;s draft Bill do not appear anywhere in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref>. It lacks any reference to fairness as the guiding principle. But the background shows that this is what was intended by the legislature. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 28(2)</ref> tells the court that it &#8220;may&#8221; make the orders of the kind referred to in subsection (1) &#8220;after having regard to&#8221; the matters referred to in subsection (3), and the same phrase appears again in subsection (4). The purpose of this exercise must be taken to be to achieve fairness between both parties to the relationship in the assessment of any capital sum that the defender is to be ordered to pay to the other cohabitant. The same approach must be taken to the sharing of the economic burden of caring for any child of whom they are the parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">&#8220;Fairness&#8221; in the context of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> embraces a different concept than it does in the context of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 9(1)</ref>(a) states that one of the principles that the court must apply is that the net value of the matrimonial property should be shared fairly between the parties to the marriage. This provision must be read together with section 10(1), which states that in applying the principle which it sets out the net value of the matrimonial property shall be taken to be shared fairly when it is shared equally or in such other proportions as are justified by special circumstances. As Sheriff M G Hendry observed in <span style="font-style:italic">F v D</span> 2009 Fam LR 111, para 7, the rebuttable presumption at the stage of the dissolution of a marriage or civil partnership is that property will be shared fairly if it is shared equally. The rebuttable presumption at the end of cohabitation is that each party will retain his or her own property.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In that context what <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> seeks to achieve is fairness in the assessment of compensation for contributions made or economic disadvantages suffered in the interests of the relationship. The wording of subsections (3), (5) and (6) should be read broadly rather than narrowly, bearing in mind the point that the Scottish Law Commission made in para 16.18 that the principle in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> which these subsections adopt was designed to correct imbalances arising out of a non-commercial relationship where parties are quite likely to make contributions or sacrifices without counting the cost or bargaining for a return. As Lady Hale points out (see para 54, below), in most cases it is quite impracticable to work out who has paid for what and who has enjoyed what benefits in kind during the cohabitation, as people do not keep such running accounts and the cost of working things out in detail is quite disproportionate to the task of doing justice between the parties.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The first point to be considered is whether <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> has any bearing on the way the matters referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>, (5) and (6) of the 2006 Act should be approached. The Second Division say in para 3 of their opinion that <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/8" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 8</ref> to 10 of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref> have no bearing on the construction of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref>. This, as they observe in the same paragraph, is a matter on which varying and contradictory views have been expressed: contrast, for example, the Lord Ordinary&#8217;s opinion in <span style="font-style:italic">M v S</span> [2008] CSOH 125, 2008 SLT 871, para 272, that the provisions, while not absolutely identical, are so similar as to make it clear that the Scottish Parliament must have intended the courts to approach them in the same way, with Sheriff K R W Hogg&#8217;s observation in <span style="font-style:italic">Jamieson v Rodhouse</span> 2009 Fam LR 111, para 51 that they are of no assistance. In this case Sheriff Mackie said in para 39 of her note that, as there are no references in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> to &#8220;fair&#8221; and &#8220;reasonable&#8221; division and the Minister for Justice said during Stage 3 of the Bill that the provisions were not about seeking to replicate the financial arrangements between spouses and civil partners, there was force in the argument that one cannot adopt the same approach in its application as that to claims in terms of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is, of course, true that <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> does not seek to replicate the arrangements that are available for financial provision on divorce or the termination of a civil partnership. For this reason it would not be right to adopt the same approach to the application of that section as would be appropriate if the exercise was being conducted under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>. The starting points of principle are significantly different: Malcolm, Kendall and Kellas, <span style="font-style:italic">Cohabitation</span> (2nd edition, 2011), para 1-10. But it is sufficiently clear from the background to the enactment of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> that in its case too the underlying principle is one of fairness and that it is designed to correct imbalances of the kind referred to by the Scottish Law Commission in para 16.18 of its Report. The Deputy Minister for Justice referred to the Executive&#8217;s sense of a fair and just outcome: para 28, above. The Minister for Justice too said that it was important to achieve fairness, and that the Executive believed that the provisions offered fairness to both parties: para 30, above. As Sheriff A D Miller put it in <span style="font-style:italic">Lindsay v Murphy</span> 2010 Fam LR 156, para 58, the statutory purpose does no more than reflect the reality that cohabitation is a less formal, less structured and more flexible form of relationship than either marriage or civil partnership.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I think therefore, contrary to the views expressed by the Second Division in para 3, that it would be wrong to approach <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> on the basis that it was intended simply to enable the court to correct any clear and quantifiable economic imbalance that may have resulted from the cohabitation. That is too narrow an approach. As the Commission observed in para 16.20 of its Report, a claim based on contributions or sacrifices in non-commercial relationships of the kind that family law must deal with cannot often be valued precisely. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 9(1)</ref>(b) enables fair compensation to be awarded, on a rough and ready valuation, in cases where otherwise none could be claimed. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 28</ref> is designed to achieve the same effect. So it may be helpful to refer to cases decided under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9(1)</ref>(b) when the court is considering what might be taken to be an economic advantage, disadvantage or contribution for this purpose or how the economic burden of caring for a child is <span style="color:#000000">to be dealt with under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(2)</ref>(b). An assessment of what is in the interests of any relevant child cannot sensibly be reduced to purely financial factors.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The next point is directed to the meaning and effect of the phrase &#8220;in the interests of the defender&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(b) and (6). Lord Drummond Young said in para 9 of his opinion that the phrase requires that the applicant should suffer economic disadvantage in a manner intended to benefit the defender, and that the transaction in question must have been in that party&#8217;s interests. That interpretation provided the basis for holding that the sheriff erred in making an award in this case. Her findings were that the sale of the house was encouraged by Mr Grant, that it was undertaken in the interests of furthering the relationship and that the proceeds were used in part to meet the parties&#8217; joint living expenses. But this was held to be insufficient to show that it was intended by Mrs Gow to benefit Mr Grant. An intention to further the parties&#8217; relationship did not justify the conclusion that the sale was in his interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Here again, however, this is to take too narrow a view of the effect of these provisions. The phrase &#8220;in the interests of the defender&#8221; can be taken to mean &#8220;in a manner intended to benefit the defender&#8221;. But it does not compel that interpretation, and in the present context, where the guiding principle is one of fairness, its more natural meaning is directed to the effect of the transaction rather than the intention with which it was entered into. The reference to the defender at the end of the phrase does, of course, require that the disadvantage which the applicant suffered was in his interests. But it does not say that this must have been his interests only, or that the fact that it was in the applicant&#8217;s interests also means that it must be left out of account. Still less does it say that &#8220;interests&#8221; have to be equated with economic advantage or benefit. To adopt that interpretation does not fit easily with a relationship of this kind, where many decisions are taken jointly in its interests without counting the cost or bargaining for a return: see para 16.18 of the Scottish Law Commission&#8217;s Report. Nor does it fit in with the reference to the &#8220;interests&#8221; of any relevant child in <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(b). I agree with the approach that Sheriff Principal R A Dunlop QC took to this problem in <span style="font-style:italic">Mitchell v Gibson</span> 2011 Fam LR 53, para 13. Provided that disadvantage has been suffered in the interests of the defender to some extent, the door is open to an award of a capital sum even though it may also have been suffered in the interests of the applicant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It seems to me, therefore, that the Second Division&#8217;s discussion of the sheriff&#8217;s reasoning did not give effect to the true meaning and effect of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 28(3)</ref>(b) and (6) of the 2006 Act. The sheriff was entitled to take the sale of the house into account, notwithstanding her findings that the proceeds were used by Mrs Gow for her own purposes or to meet the parties joint living expenses, that it was encouraged by Mr Grant and that it was in the interests of furthering the parties&#8217; relationship. The question for her was whether, at the end of the exercise directed by the subsections, the applicant was left with some economic disadvantage for which an award might be made. But, as the sheriff said in para 45 of her note, it would be an unusual relationship if parties, from the commencement, proceeded to keep full and detailed accounts of their respective finances so that upon termination a mathematical calculation might be made of any contributions made, economic advantage derived or disadvantage suffered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Second Division appear to have overlooked the sheriff&#8217;s finding that the economic disadvantage that Mrs Gow suffered in the interests of Mr Grant was her loss of the benefit of the increase in value of her principal capital asset. They concentrated on Mrs Gow&#8217;s use of the proceeds as showing that the transaction was not, on their interpretation of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 28(3)</ref>(b) and (6), intended to benefit Mr Grant and in his interests. The sheriff, for her part, accepted that Mrs Gow had had the benefit of a substantial amount of the sale proceeds. So she left the proceeds out of account in her assessment. But she had a discretion as to what order she should make. The overriding principle was one of fairness, rather than precise economic calculation &#8211; having regard, as Lady Hale puts it in para 54, to where the parties were at the beginning of their cohabitation and where they were at the end. She was entitled to hold that the loss of the benefit of the increase in value was an economic disadvantage, and that it was suffered by Mrs Gow in the interests of her relationship with Mr Grant. As she noted in para 66 of her note, when the cohabitation ended Mrs Gow did not have a home whereas Mr Grant still had a home which had increased in value. I do not think that her conclusion that Mrs Gow should be compensated for that disadvantage can reasonably be criticised.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">There remains the sum that the sheriff awarded in relation to the acquisition of the timeshare. The Second Division held in para 10 of their opinion that it was unwarranted. Their reasons for doing so were not based on a finding that, in making this award, the sheriff erred in principle. They were based on their own analysis of the facts. Reference was made to the fact that the sum in question was relatively small in relation to the parties&#8217; total expenditure and the fact that they enjoyed a relatively extravagant lifestyle, with both incurring substantial amounts of debt in order to fund it. Reference was also made to relative significance of the contributions made by one party to the other when set against their level of expenditure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">It is clear, however, from the sheriff&#8217;s note that this part of her award was arrived at after carrying out a careful analysis of all the facts. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 28</ref> leaves both the making of an award and the amount to be awarded to the discretion of the court. There must, of course, be a basis in fact for the decision that it takes. But, as Sheriff Principal Dunlop observed in <span style="font-style:italic">Mitchell v Gibson</span>, para 13, as with all discretionary decisions, the scope for interference by the appellate court is constrained according to well recognised principles. It is clear that it ought not to interfere with the decision of a judge in the exercise of his discretion unless it can be shown that he misdirected himself in law or failed to take account of a material factor or reached a result which was manifestly inequitable or plainly wrong: <span style="font-style:italic">Gray v Gray</span> 1968 SC 185, per Lord Guthrie at p 193; see also <span style="font-style:italic">Little v Little</span> 1990 SLT 785, 786. The making of an award under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> of the 2006 Act is as much a matter of discretion as it is under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/9" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 9</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">the 1985 Act</ref>, and the same principles apply in its case too. I do not think that the Second Division were able to demonstrate in their reasoning that they had a proper basis for disturbing this part of the sheriff&#8217;s award.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:italic;font-weight:bold">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In my opinion the sheriff&#8217;s approach to the issues with which she was faced in this case cannot be faulted. She based her conclusions on a careful analysis of all the issues that she was directed by <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28</ref> to consider, and it was well within the band of reasonable decisions that were open to her. I would allow the appeal, recall the Second Division&#8217;s interlocutor and affirm the sheriff&#8217;s finding in fact and law that the pursuer has suffered economic disadvantage in the interests of the defender to the extent of &#163;39,500.</p>
+	  </content>
+	</paragraph>
+      </decision>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech"><span style="font-weight:bold;text-transform:none">LADY HALE: (with whom Lord Wilson and Lord Carnwath agree)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">I agree that this appeal should be allowed for the reasons given by Lord Hope. I add a few words because there are lessons to be learned from this case in England and Wales.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The first is that there is a need for some such remedy as this in England and Wales. In July 2007, the Law Commission published their report on <span style="font-style:italic">Cohabitation: the financial consequences of relationship breakdown</span> (Law Com No 307). They too rejected two of the principles which are applicable to financial relief upon the breakdown of a marriage: they would not impose upon unmarried couples the principle that marital assets should be fairly shared between them or that either should provide for the needs of the other. These reflect the concept of partnership and the responsibilities towards one another which are undertaken in marriage but not in setting up home together. But setting up home together may well result either in benefit to one party or in loss to the other for which it would be fair to expect some redress. Like the Scots, therefore, the Law Commission adopted a principle of compensation for the economic advantages and disadvantages resulting from the relationship, although the details of their scheme contained some important differences from the Scots&#8217;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The Government had invited the Law Commission to undertake the project as a matter of some urgency and, unusually, the Report was produced without a draft Bill attached. In March 2008, however, the Parliamentary Under-Secretary of State for Justice (Bridget Prentice) announced that the Government proposed to await the results of research into the Scottish scheme before deciding what to do. It was said then that the Scottish Executive intended to undertake research into &#8220;the cost of such a scheme and its efficacy in resolving the issues faced by cohabitants when their relationships end&#8221;. The Government therefore planned to extrapolate the likely cost in England and Wales of bringing into effect a similar scheme and the likely benefits it would bring (<span style="font-style:italic">Hansard</span>, HC Deb 6 March 2008, c122WS).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">While one can understand entirely that it is prudent to try to estimate the likely cost of any new legislation, it is much more difficult to understand how the benefits can be quantified. Nor can the benefits in England and Wales be directly compared with those in Scotland. The existing law relating to cohabitants&#8217; property rights is quite different in England and Wales and has led to a good deal of litigation. It has twice recently had to be clarified by the highest court in the land (<span style="font-style:italic">Stack v Dowden</span> <ref href="#" uk:canonical="[2007] 2 AC 432" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 2 AC 432</ref>, <span style="font-style:italic">Jones v Kernott</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2011/53" uk:canonical="[2011] UKSC 53" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKSC 53</ref>, <ref href="#" uk:canonical="[2011] 3 WLR 1121" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] 3 WLR 1121</ref>). There is some reason to think that a family law remedy such as that proposed by the Law Commission would be less costly and more productive of settlements as well as achieving fairer results than the present law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Be that as it may, there is, so far as I am aware, no published research commissioned by the Scottish Executive into the costs and benefits of the Scottish scheme. There is an important piece of research, by Fran Wasoff, Jo Miles and Enid Mordaunt, funded by the Nuffield Foundation, into <span style="font-style:italic">Legal Practitioners&#8217; Perspectives on the Cohabitation Provisions of the Family Law (Scotland) Act 2006</span> (2010), to which Lord Hope refers in paragraph 6 above. One message from that research was that &#8220;the introduction of broadly similar provisions in England and Wales would not place significant additional demands on court and legal aid resources&#8221; (CRFR research briefing 51).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">In September 2011, the Parliamentary Under-Secretary of State for Justice Mr Jonathan Djanogly made the following announcement (<span style="font-style:italic">Hansard</span>, HC Deb 6 September 2011 cc15-16WS):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;The findings of the research into the Scottish legislation do not provide us with a sufficient basis for change in the law. Furthermore, the family justice system is in a transitional period, with major reforms already on the horizon. We do not therefore intend to take forward the Law Commission&#8217;s recommendations for reform of cohabitation law in this Parliamentary term.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">In the House of Lords, it became clear that the research referred to was the study by Fran Wasoff and her colleagues. Lord McNally emphasised, however, that (<span style="font-style:italic">Hansard</span>, HL Deb, 6 September 2011, c 119):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;The main message to concentrate on is that a significant period of change is due in the family justice system, which we are using to consider legislation in general. We have taken the Scottish research on board, but it is, as I say, rather narrow, very early and not enough to persuade us that we should implement the Law Commission&#8217;s recommendations now.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Responding to the Government&#8217;s announcement (Law Commission, 6 September 2011), Professor Elizabeth Cooke, the Law Commissioner who leads the Commission&#8217;s work in family and property law, said this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.79in">&#8220;We hope that implementation will not be delayed beyond the early days of the next Parliament, in view of the hardship and injustice caused by the current law. The prevalence of cohabitation, and the birth of children to couples who live together, means that the need for reform of the law can only become more pressing over time.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber">As Professor Cooke also pointed out, the &#8220;existing law is uncertain and expensive to apply and, because it was not designed for cohabitants, often gives rise to results that are unjust&#8221;. The reality is that the &#8220;sufficient basis for changing the law&#8221; had already been amply provided by the long-standing judicial calls for reform (dating back at least as far as <span style="font-style:italic">Burns v Burns</span> <ref href="#" uk:canonical="[1984] Ch 317" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] Ch 317</ref>, at 332); by the Law Commission&#8217;s analysis of the deficiencies in the present law and the injustices which can result; by the demographic trends towards cohabitation and births to cohabiting couples, which are even more marked south of the border than they are in the north; and by the widespread belief that cohabiting couples are already protected by something called &#8220;common law marriage&#8221; which has never existed in the south. There was no need to wait for experience north of the border to make the case for reform.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The second lesson is that reform needs to cater for a wide variety of cohabiting relationships which may result in advantage or, more commonly, disadvantage to one of the parties. There is a tendency to concentrate upon the younger couples who have children, where one of them suffers financial disadvantage as a result of having to look after the children both during and after the relationship. It may be very difficult to say that the other party has derived any economic advantage from those sacrifices, but it is entirely fair that he should compensate the children&#8217;s carer for the disadvantages that she has suffered. This case is an example of such disadvantages arising in a completely different context, but one which is by no means uncommon these days: a mature couple, both of whom have been married before, each of whom has a home and an income from pensions or employment, but where one of them gives up her home and at least some of her income as a result of their living together (an occupational widow&#8217;s pension, for example, may well be lost on cohabitation as well as marriage). At the end of the relationship, one of them may be markedly less well off than she was at the beginning, whereas the other may be in much the same position as he was before or even somewhat better off. Such cases should not be forgotten in any scenario-testing of proposed reforms (although they do not feature in the &#8220;worked examples&#8221; given in Appendix B to the Law Commission&#8217;s Report). This case also illustrates the fact, well-established by research, that many, even most, cohabiting couples have not deliberately rejected marriage (A Barlow, S Duncan, G James and A Park, <span style="font-style:italic">Marriage, Cohabitation and the Law</span>, 2005). For many couples, co-habitation is a preliminary to the marriage they hope to enter into one day. In this case, it is stronger than that: Mrs Gow only agreed to move in with Mr Grant if they became engaged to be married.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">A third lesson from Scotland is that the lack of any definition of cohabitation, or a qualifying period of cohabitation for couples who do not have children, has not proved a problem. Very few cases have involved short relationships and people have not disputed whether or not they have been cohabitants, although they have sometimes disputed when their cohabitation came to an end. It might be less productive of disputes for there to be no minimum qualification period in England and Wales and, equally, for there to be no one year limitation period from the end of the cohabitation in Scotland (Wasoff <span style="font-style:italic">et al</span>; see also J Miles, F Wasoff and E Mordant, &#8220;Cohabitation: lessons from research north of the border?&#8221; (2011) 23 CFLQ 302).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">A fourth lesson from Scotland is that the compensation principle, although attractive in theory, can be difficult to apply in practice because of the problems of identifying and valuing those advantages and disadvantages. Lord Lester&#8217;s Cohabitation Bill, which received a second reading in the House of Lords on 13 March 2009 (see <span style="font-style:italic">Hansard</span>, HL Deb, 13 March 2008, cc1413-1443), would have given the courts a much wider discretion to do what was &#8220;just and equitable&#8221; having regard to all the circumstances. The Law Commission&#8217;s proposals sought to cut down the problems by focussing on the end of the relationship: on the benefit &#8220;retained&#8221; by one party and on the present and future losses sustained by the other. The object was to avoid &#8220;protracted analysis of what may be called &#8216;water under the bridge&#8217;: every past gain and loss over the course of a long relationship, regardless of whether they have any enduring impact at the point of separation&#8221; (see J Miles et al, (2011) 23 CFLQ 302, 316).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">This case illustrates the problem very well. It is in most cases quite impracticable to work out who has paid for what and who has enjoyed what benefits in kind during the cohabitation. People do not keep such running accounts and the cost of working things out in detail is quite disproportionate to the task of doing justice between the parties. <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 28(3)</ref>(a) and (9) requires regard to be had to non-financial contributions; the economic disadvantage to which regard must be had under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/37/section/28/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 28(3)</ref>(b) must be suffered in the interests of the other, but does not have to amount even to a non-financial contribution. Who can say whether the non-financial contributions, or the sacrifices, made by one party were offset by the board and lodging paid for by the other? That is not what living together in an intimate relationship is all about. It is much more practicable to consider where they were at the beginning of their cohabitation and where they are at the end, and then to ask whether <span style="font-style:italic">either</span> the defender has derived a net economic advantage from the contributions of the applicant <span style="font-style:italic">or</span> the applicant has suffered a net economic disadvantage in the interests of the defender or any relevant child. There is nothing in the Scottish legislation to preclude such an approach, as the court is bound to be assessing the respective economic advantage and disadvantage at the end of their relationship. The English proposals make it rather clearer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">Finally, the case illustrates that it may be unwise to be too prescriptive about the order which the court should make to redress such advantage or disadvantage. In principle, if one party has derived a clear and quantifiable economic benefit from the economic contributions of the other, it may be fair to order what is, in effect, restitution of the value of that benefit. But sometimes the benefit will result from non-financial contributions or be very hard to quantify. Even more problematic are the cases where there is identifiable economic disadvantage, as here, without a corresponding economic advantage. In some cases, it may be entirely fair to expect the better-off partner to compensate the other in full for the losses she has sustained as a result of their relationship: as, for example, where a rich widower persuades a widow to give up her secure tenancy and widow&#8217;s pension to move in with him and can well afford to put her back in the position in which she was before their cohabitation began. In others, this may be impossible or quite unfair. Thus, it seems to me, the flexibility inherent in the Scottish provisions is preferable to the Law Commission&#8217;s proposal that the losses should be shared between them. On the other hand, the Law Commission&#8217;s proposed list of factors to be taken into account in the exercise of the court&#8217;s discretion might be a useful addition to the Scottish law, as also might the power to make a periodical payments order in those rare cases where it is not practicable to make an order that a capital sum be paid by instalments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;text-indent:0.5in">The main lesson from this case, as also from the research so far, is that a remedy such as this is both practicable and fair. It does not impose upon unmarried couples the responsibilities of marriage but redresses the gains and losses flowing from their relationship. As the researchers comment, &#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1985/37" uk:canonical="1985 c. 37" uk:origin="TNA" uk:type="legislation">The Act</ref> has undoubtedly achieved a lot for Scottish cohabitants and their children&#8221;. English and Welsh cohabitants and their children deserve no less.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

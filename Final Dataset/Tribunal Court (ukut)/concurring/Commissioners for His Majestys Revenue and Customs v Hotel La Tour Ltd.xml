@@ -1,0 +1,1530 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/46"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2025/46"/>
+	  <FRBRdate date="2025-12-17" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="46"/>
+	  <FRBRname value="Commissioners for His Majesty's Revenue and Customs v Hotel La Tour Ltd"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/46"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/46"/>
+	  <FRBRdate date="2025-12-17" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2025/46/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2025/46/data.xml"/>
+	  <FRBRdate date="2025-12-17T10:21:55" name="transform"/>
+	  <FRBRdate date="2025-12-17T11:12:46" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-12-17" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" showAs="The Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="commissioners-for-his-majesty's-revenue-and-customs" href="" showAs="Commissioners for His Majesty's Revenue and Customs"/>
+	<TLCPerson eId="hotel-la-tour-ltd" href="" showAs="Hotel La Tour Ltd"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+	<TLCPerson eId="judge-lady-rose" href="/judge-lady-rose" showAs="Lady Rose"/>
+	<TLCPerson eId="judge-lord-richards" href="/judge-lord-richards" showAs="Lord Richards"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>46</uk:number>
+	<uk:cite>[2025] UKSC 46</uk:cite>
+	<uk:parser>1.3.0</uk:parser>
+	<uk:hash>a09efd09d9313676a0d30c21f2c5e26d0a6e51d87525fed47ffdbc5e6c58837d</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading2 { text-align: center; font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Heading3 { text-align: center; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ParaHeading1 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.87in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading2 { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading3 { text-align: justify; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading4 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading5 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Paraheading6 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 20pt; }
+#judgment .ParaSubHeading1 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading2 { text-align: justify; font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaSubHeading3 { text-align: justify; font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { text-align: justify; margin-left: 0.5in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { text-align: justify; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-family: 'Times New Roman'; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-size: 11pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .PlainText { text-align: center; font-family: Consolas; font-size: 10.5pt; }
+#judgment .Revision { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading2Char { font-style: italic; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .Heading3Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Calibri, sans-serif'; font-size: 12pt; }
+#judgment .PlainTextChar { font-family: Consolas; font-size: 10.5pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:67.91pt;height:99.35pt"/></p>
+      <p class="JudgmentReferences"><span style="font-weight:bold">Michaelmas Term</span><br/><neutralCitation style="font-weight:bold">[2025] UKSC 46</neutralCitation><br/><span style="font-style:italic">On appeal from: </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/564" style="font-style:italic" uk:canonical="[2024] EWCA Civ 564" uk:isNeutral="true" uk:origin="parser" uk:type="case">[2024] EWCA Civ 564</ref></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#respondent" refersTo="#commissioners-for-his-majesty's-revenue-and-customs">Commissioners for His Majesty's Revenue and Customs</party> (<role refersTo="#respondent">Respondent</role>) <span style="font-style:italic">v</span><span/><party as="#appellant" refersTo="#hotel-la-tour-ltd">Hotel La Tour Ltd</party> (<role refersTo="#appellant">Appellant</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge><br/><judge refersTo="#judge-lady-rose">Lady Rose</judge><br/><judge refersTo="#judge-lord-richards">Lord Richards</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2025-12-17" refersTo="#judgment">17 December 2025</docDate><br/><br/>Heard on 4 and 5 June 2025</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellant</span><br/>Michael Firth KC</p>
+      <p class="JudgmentAppRespInt">(Instructed directly)</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondent</span><br/>Isabel McArdle</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="JudgmentAppRespInt">Gareth Rhys<br/>(Instructed by HMRC Solicitors Office &amp; Legal Services (Stratford, London))</p>
+	    <p class="NewSpeech">Lady Rose (<span style="text-transform:none">with whom Lord Briggs, Lord Hamblen, Lord Leggatt and Lord Richards agree): </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold;font-size:13pt">1.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Introduction</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-size:13pt">1.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appellant (&#8220;HLT&#8221;) was a holding company which owned all the share capital of Hotel La Tour Birmingham Ltd (&#8220;HLTB&#8221;). HLTB was the lessee of a luxury hotel which it operated in Birmingham and HLT provided HLTB with management services for which it was paid. In about mid-2015, HLT decided to construct and develop a new hotel in Milton Keynes at a cost of about &#163;34.5 million. HLT decided to finance this by selling HLTB and borrowing the shortfall from a bank. HLT engaged various companies to provide professional services to assist with the sale of HLTB by conducting market research, shortlisting prospective buyers, producing financial modelling and advising on tax compliance. The total of the professional fees incurred by HLT was &#163;382,900 plus value added tax (&#8220;VAT&#8221;) of &#163;76,823. The shares in HLTB were ultimately sold in July 2017 and the whole of the net proceeds from the sale of the shares were in the event used to fund the Milton Keynes project. The issue raised by this appeal is whether the VAT on those professional fees can be deducted by HLT before it accounts to the respondent, HMRC, for the output tax it has charged to customers in its taxable outputs from the hotel business. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:13pt">2.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The appeal therefore raises a very common kind of dispute between a taxpayer and HMRC about the application of the VAT regime. HMRC disallowed the deductions included in HLT&#8217;s VAT return on the grounds that the relevant output transaction to which the inputs incurred closely related (to use a neutral phrase for the moment) was a supply which is exempt from VAT, namely the sale of the shares. If that is right, HMRC contend, the input tax is not deductible. HLT contends that the inputs are deductible because as a matter of fact and law, the relevant output supply to which these inputs were closely related was not the single specific transaction, namely the exempt share sale, but rather its general hotel operating business which comprised taxable supplies. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:13pt">3.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The case, however, has two complicating factors. The first is that share sales have an unusual status in the VAT regime being sometimes regarded as not economic activity at all and hence outside the scope of the VAT regime but sometimes being treated as an economic activity and hence within the scope of the VAT regime but being an exempt supply. The other complicating factor is that HLT and HLTB were in a VAT group for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/43" uk:canonical="1994 c. 23 s. 43" uk:origin="TNA" uk:type="legislation">section 43</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">Value Added Tax Act 1994</ref> (&#8220;VATA&#8221;) at the time the shares were sold. That may or may not affect (a) whether the share sale was exempt or out of scope and (b) whether or not the relevant link between the inputs and outputs is with the share sale itself or with HLT&#8217;s general business of making taxable output supplies and hence (c) whether or not the inputs were deductible either in whole or in part.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold;font-size:13pt">2.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The law relating to the deduction of input VAT</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-style:italic;font-size:13pt">(a)</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Basic principles</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:13pt">4.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As this case concerns services I will refer to services in this judgment but much of what is said applies to goods as well. VAT is intended to be a tax borne by the ultimate consumer of the services. The VAT paid by that ultimate consumer is in effect collected by the trader who adds VAT to the price of the services and then accounts to HMRC for that VAT. The trader buys in goods and services itself to use in its business and incurs VAT on those inputs. Generally speaking, the trader can deduct that input VAT it has paid from the VAT it has collected from its customers before accounting for the output VAT to HMRC. The cases refer to input VAT being &#8220;deductible&#8221; from output VAT which might suggest that the taxpayer has to have some output VAT for which it needs to account to the tax authority in order to be able to &#8220;deduct&#8221; the input VAT from that. That is not the case. If a taxpayer incurs input VAT it can claim that from the tax authority by way of a payment even if it has no output VAT for which it needs to account. As the Court of Justice of the European Union (&#8220;CJEU&#8221;) has said on countless occasions in the case law, the rules governing deduction of VAT &#8220;are meant to relieve the trader entirely of the burden of the VAT payable or paid in the course of all his economic activities&#8221;: see for example <span style="font-style:italic">Investrand BV v Staatssecretaris van Financi&#235;n </span>(<ref href="#" uk:canonical="Case C-435/05" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-435/05</ref>) <ref href="#" uk:canonical="[2008] STC 518" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] STC 518</ref> (&#8220;<span style="font-style:italic">Investrand</span>&#8221;),<span style="font-style:italic"/>para 22. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:13pt">5.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The next important point is that sometimes inputs can be deductible even if they do not relate to a specific output transaction but are used by the trader in its business as a whole. For example, VAT on inputs such as electricity or stationery for use in a shop or polish for cleaning the shop floor are not linked to any particular supply to a customer of the shop. But the VAT paid on them is deductible because they are treated as linked to the overall business of the shop which is in making taxable supplies. This was explained by the Court of Justice of the European Union (&#8220;CJEU&#8221;) in <span style="font-style:italic">Investrand</span>: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;24.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It is however also accepted that a taxable person has a right to deduct even where there is no direct and immediate link between a particular input transaction and an output transaction or transactions giving rise to the right to deduct, where the costs of the services in question are part of his general costs and are, as such, components of the price of the goods or services which he supplies. Such costs do have a direct and immediate link with the taxable person&#8217;s economic activity as a whole &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:13pt">6.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">For many traders, it does not matter whether one can identify a specific output transaction, that is to say a specific service supplied by the trader to a specific customer, to which the inputs acquired are linked or whether the input is acquired for the purpose of the trader&#8217;s business as a whole. If the trader&#8217;s whole business comprises taxable supplies then the inputs will be deductible in full regardless of that. Similarly, linking inputs to a particular supply makes no difference if the whole of the trader&#8217;s business comprises exempt supplies. If all the trader&#8217;s supplies are exempt, then none of the input VAT is deductible whether the input is linked with a specific exempt supply made by the trader or with its overall exempt business. The same broadly applies where some of the trader&#8217;s business comprises outputs which are outside the scope of the VAT regime altogether. Inputs incurred for those outputs are not deductible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:13pt">7.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The existence of a link between an input and a specific output transaction therefore becomes important most frequently where some of the trader&#8217;s output transactions are classified as exempt supplies and some are taxable. If the taxable person&#8217;s overall business is, for example, half exempt and half taxable supplies, it is better for it to show that the input VAT is linked with a specific taxable supply because it will then be able to deduct 100% of the input VAT. If the input VAT is linked with the whole business, it can only deduct 50% of the input VAT. Conversely it would be better for the trader if the output was linked with its overall business than with a specific exempt supply as at least it would be able to deduct half the input VAT rather than none. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:13pt">8.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That explains why the question of whether a particular input service is linked with a specific supply has been the subject of so many decisions of the CJEU and of domestic courts including this court.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-style:italic;font-size:13pt">(b)</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">The relevant legislation and the test for attributing inputs to outputs</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:13pt">9.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The key question is therefore how does one identify for which output transactions the inputs should be treated as having been incurred so that one can then determine whether those output transactions are exempt or taxable and hence whether the inputs are deductible or not, in whole or in part. The principal provision is article 168 of the Principal VAT Directive, that is Council Directive 2006/112/EC (OJ L 347, 11.12.2006, pp 1&#8211;118), (&#8220;PVD&#8221;) which provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;In so far as the goods and services are used for the purposes of the taxed transactions of a taxable person, the taxable person shall be entitled, in the Member State in which he carries out these transactions, to deduct the following from the VAT which he is liable to pay:</p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">the VAT due or paid in that Member State in respect of supplies to him of goods or services, carried out or to be carried out by another taxable person;&#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:13pt">10.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 168 of the PVD used to be article 17 of the Sixth Council Directive (77/388/EEC) which was in very similar terms. In particular the phrase, that the goods and services &#8220;are used for the purposes&#8221; of the trader&#8217;s taxable transactions was also used in article 17(2). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:13pt">11.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The right to deduct has been implemented in section 24 of VATA:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;24 <span style="font-weight:bold">Input tax and output tax</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-size:13pt">(1)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Subject to the following provisions of this section, &#8216;input tax&#8217;, in relation to a taxable person, means the following tax, that is to say&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">(a)</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">VAT on the supply to him of any goods or services; &#8230;</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">being (in each case) goods or services used or to be used for the purpose of any business carried on or to be carried on by him.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:13pt">12.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The test that has developed in the case law of the CJEU states that input VAT is deductible if it is &#8220;directly and immediately linked to&#8221; a taxable output supply. Much of the focus of the submissions in this appeal was on divining precisely what that test means both generally and in the circumstances of this case. In <span style="font-style:italic">Midland Bank plc v Customs and Excise Comrs </span>(<ref href="#" uk:canonical="Case C-98/98" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-98/98</ref>) <ref href="#" uk:canonical="[2000] 1 WLR 2080" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 1 WLR 2080</ref> (&#8220;<span style="font-style:italic">Midland Bank</span>&#8221;), Advocate General Saggio said that: (para 29) </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;&#8230; The meaning of the key legal expression &#8216;direct and immediate link&#8217; is to be found in the words that go to make it up and in the principles developed by the court concerning the way in which the VAT deduction system is to be implemented.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:13pt">13.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, one thing is clear from the case law. In order for an input to be &#8220;directly and immediately linked&#8221; to an output, the link does not necessarily have to be what one might think of as &#8220;direct&#8221; in the sense of more closely linked to that transaction than to any other. Nor does it have to be &#8220;immediate&#8221; in the sense of being incurred close in time to the making of the output supply. Imperfect though the formulation of the test may be, that is the test which the taxing authority must apply, following such guidance as the CJEU has given over the years. The CJEU has, however, been hesitant about laying down any hard and fast rules and has consistently stated that it is for the national courts to apply the test. In <span style="font-style:italic">Midland Bank </span>the CJEU noted that all the parties agreed that it was not realistic &#8220;to attempt to be more specific&#8221; about the nature of the test:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;25.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; In view of the diversity of commercial and professional transactions, it is impossible to give a more appropriate reply as to the method of determining in every case the necessary relationship which must exist between the input and output transactions in order for input VAT to become deductible. It is for the national courts to apply the &#8216;direct and immediate link&#8217; test to the facts of each case before them and to take account of all the circumstances surrounding the transactions at issue.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:13pt">14.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Other legislative wording describes the link in different terms. Article 1(2) of the PVD states that the VAT payable is calculated on the price of the goods or services &#8220;after deduction of the amount of VAT borne directly by the various cost components&#8221;. This description of inputs as &#8220;cost components&#8221; or &#8220;components of the price&#8221; of the output is often used in the case law: see for example <span style="font-style:italic">Investrand </span>in para 24 set out earlier. This wording has given rise to problems and it is common ground that this description of the inputs test caused the First-tier Tribunal in this case to fall into error. The phrase is unhelpful in so far as it suggests that input tax can only be directly and immediately linked to a specific supply transaction if the price of that output supply was calculated on a &#8220;cost plus&#8221; basis so that it is possible to identify the cost of the input in the calculation of the price for the output. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:13pt">15.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The choice often presented by the parties before the national courts is as to whether the direct and immediate link is between the inputs and a specific transaction or between the inputs and the taxable person&#8217;s overall or general business. For an input such as electricity or office stationery the choice is straightforward. The difficulty arises because the CJEU has more recently developed the case law to look more broadly at the use made of a particular input and to link it with the taxable overall business of the trader even though the input seems to be consumed by a specific non-taxable transaction. Two cases illustrate this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:13pt">16.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The first is <span style="font-style:italic">&#8216;Sveda&#8217; UAB v Valstybin</span><span style="font-style:italic;font-family:'Times New Roman'">&#279;</span><span style="font-style:italic"> mokes&#269;i&#371; inspekcija prie Lietuvos Respublikos finans&#371; ministerijos </span>(<ref href="#" uk:canonical="Case C-126/14" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-126/14</ref>) <ref href="#" uk:canonical="[2016] STC 447" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] STC 447</ref> (&#8220;<span style="font-style:italic">Sveda</span>&#8221;). In that case a Lithuanian company, Sveda, undertook to the Lithuanian Ministry of Agriculture to construct a Baltic mythology recreational and discovery path. The Ministry agreed to pay 90% of the construction costs and Sveda was to pay the balance. Sveda agreed further to provide the path to the public free of charge for five years. Sveda intended to carry on taxable economic activities in the future by selling food and souvenirs to visitors to the path and the path would also provide visitors with access to attractions and paid-for bathing. The question arose whether the input VAT that Sveda incurred on the acquisition of capital goods for the construction of the path was deductible. The Lithuanian government argued that, since the path was being made available to the public for free, it could not amount to the carrying on of economic activity and, since the inputs were linked with building the path, they were not deductible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:13pt">17.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU noted that Sveda was a legal person pursuing a commercial objective and that the investment expenditure incurred by it would be recovered, at least in part, by the income from the provision of goods and services as part of its planned economic activities (para 25). The fact that the capital goods concerned were directly intended for use by the public free of charge (and therefore outside the scope of VAT) did not prevent it being linked to the economic activity planned by Sveda: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;34.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Therefore, immediate use of capital goods free of charge does not, in circumstances such as those in the main proceedings, affect the existence of the direct and immediate link between input and output transactions or with the taxable person&#8217;s economic activities as a whole and, consequently, that use has no effect on whether a right to deduct VAT exists.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">35.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Thus, there does appear to be a direct and immediate link between the expenditure incurred by Sveda and its planned economic activity as a whole, which is, however, a matter for the referring court to determine.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:13pt">18.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The second case is <span style="font-style:italic">Direktor na Direktsia &#8216;Obzhalvane i danachno-osiguritelna praktika&#8217; &#8212; Sofia v &#8216;Iberdrola Inmobiliaria Real Estate Investments&#8217;</span> EOOD, (<ref href="#" uk:canonical="Case C-132/16" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-132/16</ref>) ECLI:EU:C:2017:683 (&#8220;<span style="font-style:italic">Iberdrola</span>&#8221;). A municipality in Bulgaria obtained a building permit to reconstruct a waste-water pump serving a holiday village in its territory. Iberdrola was a private investor which purchased parcels of land in the village in order to construct about 300 apartments for seasonal use. Iberdrola contracted with the municipality that it would reconstruct the pump free of charge and connect up its new apartments as and when they were built. Iberdrola sought to deduct the inputs incurred on the construction work on the grounds that they were connected with its future taxable supplies of holiday lets once the new apartments were built. The tax authority took the view that the inputs incurred by Iberdrola on the construction work were not deductible because they were linked with building the pump and that was going to be provided for use to the municipality free of charge &#8211; an out of scope supply. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:13pt">19.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU In <span style="font-style:italic">Iberdrola </span>confirmed the relevant principles previously set out in its case law: para 28 onwards. It reiterated the direct and immediate link test and confirmed that where goods or services acquired by a taxable person are used for purposes of transactions that are exempt or do not fall within the scope of VAT, no output tax can be collected or input tax deducted. The tax authorities and national courts must therefore: (para 31) </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in"> &#8220;consider all the circumstances surrounding the transactions concerned and take account only of the transactions which are objectively linked to the taxable person&#8217;s taxable activity. The existence of such a link must thus be assessed in the light of the objective content of the transaction in question &#8230; .&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:13pt">20.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The court therefore identified the question as whether inputs incurred for the construction of the waste-water pump were directly and immediately linked with a taxed output transaction by Iberdrola or with its overall economic activity. The court noted that Iberdrola would have had to reconstruct the waste-water pump station in order to service the apartments that it was constructing which comprised an economic activity. The fact that the municipality also benefited free of charge did not preclude the inputs being deductible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:13pt">21.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">One can see from those cases that the nature of the input acquired and its actual use is not the sole determinant of whether it is treated as directly and immediately linked to a particular output. If Sveda bought and paid VAT on several tonnes of gravel, it would, one hopes, have used the gravel in building the path along which the visitors would walk (an out of scope activity) rather than in making the refreshments (a taxable supply). But the direct and immediate link was held to be with the activity of providing refreshments not with the activity of providing the path. The present appeal requires this court to consider when it is that one &#8220;looks through&#8221; a putative specific transaction and regards an input as directly and immediately linked to the taxable person&#8217;s business as a whole and whether it makes any difference if that specific transaction is outside the scope of VAT entirely or within scope but exempt. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_6">
+	  <num style="font-style:italic;font-size:13pt">(c)</num>
+	  <content>
+	    <p class="Paraheading6" style="text-indent:0.5in">Transactions relating to a parent company&#8217;s shareholding in its subsidiary</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:13pt">22.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Generally speaking, issuing shares, buying shares and holding shares is not an economic activity for VAT purposes and hence is outside the scope of VAT (unless the taxpayer is carrying on a commercial share dealing business). See for example <span style="font-style:italic">Harnas &amp; Helm CV v Staatssecretaris van Financi&#235;n</span> (<ref href="#" uk:canonical="Case C-80/95" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-80/95</ref>) <ref href="#" uk:canonical="[1997] STC 364" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] STC 364</ref> (&#8220;<span style="font-style:italic">Harnas</span>&#8221;), paras 15&#8211;20 and the cases cited there. But often a parent company with one or more subsidiaries provides corporate services of various kinds to those subsidiaries. Sometimes the subsidiaries pay the parent for those services and sometimes the services are provided free of charge. The CJEU has held that if the parent charges fees to its subsidiaries for the services it provides, then those services amount to taxable supplies subject to VAT.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:13pt">23.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">An early case in which this principle was clearly set out is <span style="font-style:italic">Floridienne SA v Belgium </span>(<ref href="#" uk:canonical="Case C-142/99" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-142/99</ref>) <ref href="#" uk:canonical="[2000] STC 1044" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] STC 1044</ref> (&#8220;<span style="font-style:italic">Floridienne</span>&#8221;). The CJEU held there that involvement of a parent company in the management of its subsidiaries must be regarded as economic activity provided that the subsidiaries pay the parent a consideration for the economic activity in question: see para 19. The issue in <span style="font-style:italic">Floridienne </span>was whether the dividends paid by the subsidiaries to the parent could be regarded as consideration. The court held that the dividends were not consideration so it was not economic activity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:13pt">24.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The principles developed by the CJEU can be illustrated by considering the judgment in <span style="font-style:italic">Cibo Participations SA v Directeur r&#233;gional des imp&#244;ts du Nord-Pas-de-Calais </span>(<ref href="#" uk:canonical="Case C-16/00" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-16/00</ref>) <ref href="#" uk:canonical="[2002] STC 460" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] STC 460</ref> (&#8220;<span style="font-style:italic">Cibo</span>&#8221;). Cibo sought to deduct input VAT incurred in respect of the services it provided to its subsidiaries against payment. The court held as follows: (paras 18&#8211;22)</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">A holding company whose sole purpose is to acquire holdings in other undertakings does not have the status of a taxable person. That conclusion is based, amongst other things, on the principle that the mere acquisition and holding of shares in a company is not an economic activity.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">However, it is otherwise where the shareholding is accompanied by direct or indirect involvement in the management of the companies in which the shareholding has been acquired, without prejudice to the rights held by the holding company as shareholder. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Direct or indirect involvement in the management of subsidiaries must be regarded as an economic activity where it entails carrying out transactions subject to VAT such as the supply by the holding company of administrative, financial, commercial and technical services to its subsidiaries.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:13pt">25.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The logic of this is that if the parent company provides those services to its subsidiaries free of charge, then they do not comprise economic activity but are out of scope of the VAT regime: see <span style="font-style:italic">MVM Magyar Villamos M</span><span style="font-style:italic;font-family:'Times New Roman'">&#369;</span><span style="font-style:italic">vek Zrt v Nemzeti Ad</span><span style="font-style:italic;font-family:'Times New Roman'">&#243;</span><span style="font-style:italic">-</span><span style="font-style:italic;font-family:'Times New Roman'">&#233;</span><span style="font-style:italic">s V</span><span style="font-style:italic;font-family:'Times New Roman'">&#225;</span><span style="font-style:italic">mhivatal Fellebbviteli Igazgat</span><span style="font-style:italic;font-family:'Times New Roman'">&#243;</span><span style="font-style:italic">s</span><span style="font-style:italic;font-family:'Times New Roman'">&#225;</span><span style="font-style:italic">g </span>(<ref href="#" uk:canonical="Case C-28/16" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-28/16</ref>) <ref href="#" uk:canonical="[2017] STC 452" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] STC 452</ref>. Where the holding company holds shares in several companies but only provides taxable services to some, then it is a taxable person but it is entitled only to a pro-rata deduction of input tax incurred in respect of managing its shareholdings generally: see <span style="font-style:italic">Sonaecom SGPS SA v Autoridade Tribut&#225;ria e Aduaneira </span>(<ref href="#" uk:canonical="Case C-42/19" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-42/19</ref>) ECLI:EU:C:2020:913 (&#8220;<span style="font-style:italic">Sonaecom</span>&#8221;), para 32.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:13pt">26.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question has then arisen whether in a situation where the parent carries on an economic activity by providing its subsidiary with taxable services, the parent&#8217;s dealings in the shares of that subsidiary are directly and immediately linked with that economic activity or are outside the scope of VAT. If a parent company is supplying taxable management services to its subsidiary in return for payment, does that affect whether its dealings in the shares of that subsidiary count as economic activity? That was the question referred to the CJEU in <span style="font-style:italic">Beteiligungsgesellschaft Larentia + Minerva mbH &amp; Co KG v Finanzamt Nordenham </span>(Joined Cases C-108/14 and C-109/14) <ref href="#" uk:canonical="[2015] STC 2101" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] STC 2101</ref> (&#8220;<span style="font-style:italic">Larentia + Minerva</span>&#8221;). In that case, Larentia + Minerva held 98% of the shares in two subsidiaries and it provided them with administrative and business services for remuneration. It sought to deduct input tax incurred in connection with the acquisition of shareholdings in its subsidiaries. Advocate General Mengozzi noted at para 27 that in its case law on the VAT status of holding companies, the CJEU draws a distinction between two cases, depending on whether or not the holding companies involve themselves in the management of their subsidiaries. He noted that it was common ground that the two holding companies involved in the proceedings fell into the category of holding companies which are directly or indirectly involved in the management of their subsidiaries and so they did engage in economic activity. As to how this affected the deductibility of input VAT, Advocate General Mengozzi said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;35.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; I consider that the logic underlying the court&#8217;s case law concerning the dichotomy between holding companies which do or do not involve themselves in the management of their subsidiaries has repercussions for the allocation of the expenditure connected with input capital transactions by holding companies to their output economic activity.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:13pt">27.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Advocate General concluded at para 39 that the inputs were attributable to the economic activity carried out by the parent when it supplied management services to the subsidiaries: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;39.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The expenditure connected with the acquisition of shareholdings in subsidiaries incurred by a holding company which involves itself in their management, within the meaning of the court&#8217;s case law, is therefore attributed to that holding company&#8217;s economic activity. Consequently, VAT paid on that expenditure will be subject to full deduction pursuant to article 17(2) of the Sixth Directive unless the input economic transactions are exempt from VAT under the Sixth Directive, in which case the right to deduct will be based on the proportion method under article 17(5) of that directive. In my view, that is the proper interpretation of <span style="font-style:italic">Cibo Participations</span>&#8230;.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">44.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the light of the foregoing, I consider that the first question should be answered to the effect that expenditure connected with capital transactions incurred by a holding company which involves itself directly or indirectly in the management of its subsidiaries has a direct and immediate link with that holding company&#8217;s economic activity as a whole. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:13pt">28.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In its judgment in <span style="font-style:italic">Larentia + Minerva</span>,<span style="font-style:italic"/>the CJEU followed the Attorney General: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;25.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In those circumstances, as the Advocate General stated in point 39 of his opinion, the expenditure connected with the acquisition of shareholdings in subsidiaries incurred by a holding company which involves itself in their management and which, on that basis, carries out an economic activity, as was noted in para 21 of the present judgment, must be regarded as attributed to that company&#8217;s economic activity and the VAT paid on that expenditure gives rise to the right to full deduction, pursuant to article 17(2) of the Sixth Directive.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:13pt">29.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In other words, the input supplies acquired by the parent in connection with the acquisition of the subsidiary&#8217;s shares may be regarded as directly and immediately linked with the economic activity of supplying the services to the subsidiary. In <span style="font-style:italic">Sonaecom</span>, the CJEU referred to the judgment in <span style="font-style:italic">Larentia + Minerva </span>as an example of a case where there was no direct and immediate link with a particular output transaction (the share dealing transaction) but the input costs were directly and immediately linked to the costs of the taxable person&#8217;s general business: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;43.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The Court has held that the expenditure connected with the acquisition of shareholdings in subsidiaries incurred by a holding company which involves itself in their management and which, on that basis, carries out an economic activity must be regarded as belonging to its general costs and the VAT paid on that expenditure must, in principle, be deducted in full, unless certain output economic transactions are exempt from VAT under the Sixth Directive, in which case the right to deduct should have effect only in accordance with the procedures laid down in Article 17(5) of that directive (judgment of 16 July 2015, <span style="font-style:italic">Larentia + Minerva and Marenave Schiffahrt</span>, C-108/14 and C-109/14, EU:C:2015:496, para 33).&#8221; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:13pt">30.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The principle in <span style="font-style:italic">Larentia + Minerva </span>is relatively straightforward when one is considering inputs incurred to assist in acquiring or holding shares because it is clear that those activities are not economic activity but out of scope. The position as regards sales of shares is more complicated. Although a sale of shares may look, at first blush, more like a supply of something than the acquisition or holding of shares does, the case law is clear that it is not an economic activity within the scope of VAT unless it is part of a wider economic activity such as commercial share dealing activity or it is carried on to secure involvement in the management of companies: see <span style="font-style:italic">Wellcome Trust Ltd v Customs and Excise Comrs </span>(<ref href="#" uk:canonical="Case C-155/94" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-155/94</ref>) <ref href="#" uk:canonical="[1996] STC 945" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] STC 945</ref>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:13pt">31.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, where a sale of shares does fall within the scope of VAT and so does constitute economic activity, it is exempt from VAT under article 135 of the PVD. Article 135 provides in para (1)(f) that Member States must exempt &#8220;transactions, including negotiation but not management or safekeeping, in shares, interests in companies or associations, debentures and other securities, but excluding documents establishing title to goods, and the rights or securities referred to in Article 15(2)&#8221;. That exemption has been implemented in the UK by Item 6 of Group 5 of Schedule 9 to the VATA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:13pt">32.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The application of the principle in <span style="font-style:italic">Larentia + Minerva </span>to the sale rather than the acquisition of shares where the parent involved itself in the management of the subsidiary was considered in <span style="font-style:italic">C&amp;D Foods Acquisition ApS v Skatteministeriet </span>(<ref href="#" uk:canonical="Case C-502/17" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-502/17</ref>) <ref href="#" uk:canonical="[2019] STC 593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] STC 593</ref> (&#8220;<span style="font-style:italic">C&amp;D Foods</span>&#8221;). Advocate General Kokott opened her Opinion with the observation that the court had already dealt in a number of cases with the right of a holding company to deduct input tax linked to the <span style="font-style:italic">acquisition</span> of company shares (citing <span style="font-style:italic">Cibo</span> amongst other cases). But she said: (para 1)</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;The present case is concerned with the mirror-image situation of the disposal of company shares by a holding company, which has not, however, been as frequently considered up to now.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:13pt">33.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In that case (simplifying the facts a little) the taxpayer, C&amp;D Foods, provided one of its subsidiaries with administrative services for which the subsidiary paid a monthly fee which included VAT. C&amp;D Foods acquired legal services to assist with a plan to sell the subsidiary but the plan was abandoned when no buyer could be found. The CJEU noted that it was necessary, before considering the issue of deductibility of input tax, to establish whether the hoped-for share disposal transaction would have been an economic activity if it had taken place: para 26. The CJEU said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;38.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It follows that, in order for a share disposal transaction to be able to come within the scope of VAT, the direct and exclusive reason for that transaction must, in principle, be the taxable economic activity of the parent company in question, or that transaction must constitute the direct, permanent and necessary extension of that activity. That is the case where that transaction is carried out with a view to allocating the proceeds of that sale directly to the taxable economic activity of the parent company in question or to the economic activity carried out by the group of which it is the parent company.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:13pt">34.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU concluded, contrary to the Advocate General&#8217;s Opinion at para 35, that in fact the sale of shares was not a transaction for which the direct and exclusive reason was the taxable economic activity of C&amp;D Foods and it was not a permanent and necessary extension of that activity. The sale was not therefore within the scope of VAT even though the sale would have resulted in the cessation of the management and IT services that the parent provided to its subsidiary. The inputs incurred were not deductible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:13pt">35.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Because the CJEU held that the share sale in <span style="font-style:italic">C&amp;D Foods</span> did not comprise economic activity at all, it did not have to address the added complication that Advocate General Kokott addressed in her Opinion, namely the effect of the exemption for share sales in article 135 of the PVD. She concluded that if the share sale had gone ahead, it would have been exempt from VAT (para 39). That raised the question whether the inputs incurred in respect of the putative sale were directly and immediately linked with that exempt transaction or with the general costs of C&amp;D Foods&#8217; overall business. She said that it was for the national court to determine whether there was a direct and immediate link with the exempt share sale (in which case there would be no entitlement to deduct VAT). But she concluded by saying: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;57.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It should be recalled, however, that the link with the overall economic activity is in any event irrelevant if it is already possible clearly to attribute it to a specific tax-exempt output transaction. In such a case it is not possible to allow it as a general cost.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:13pt">36.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">To summarise where this case law takes us so far:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Input VAT is deductible if it is directly and immediately linked with taxable economic activity. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">That economic activity can either be a specific taxable transaction or, if there is no direct and immediate link with a specific transaction, the link can be with the taxable person&#8217;s overall business. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">If the inputs are directly and immediately linked with a specific transaction then they will be deductible if that transaction is taxable; if the transaction is exempt or out of scope then the inputs are not deductible.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">If the inputs are directly and immediately linked with the taxable person&#8217;s overall business, then the inputs are deductible in whole or in part depending on what proportion of that overall business is taxable. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(e)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">As to how one determines whether the direct and immediate link is with a specific transaction or with the overall business, that is for the national court to decide looking at all the circumstances. The fact that the inputs are of a kind that appear to be consumed by an out of scope transaction does not always mean that they are directly and immediately linked to that transaction. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(f)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Generally speaking, the acquisition, holding and sale of shares is not an economic activity. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(g)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">But where the holder of the shares carries on the economic activity of providing management services to the subsidiary for remuneration, the transaction relating to the shares can be regarded as a permanent and necessary extension of that economic activity and hence is economic activity.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(h)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">However, the sale of shares, when it is an economic activity within the scope of VAT, is an exempt activity in accordance with article 135 of the PVD.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:13pt">37.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The dispute between the parties focuses on what I have set out as point (e) above, that is the next step once the other principles in the list are established. How does one determine whether the inputs acquired by HLT to assist with the sale of its shares in HLTB are directly and immediately linked with the specific transaction &#8211; the share sale &#8211; rather than with the taxable person&#8217;s overall business having regard to the fact that the specific transaction is an exempt share sale?</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-weight:bold;font-size:13pt">3.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The proceedings below</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:13pt">38.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The issues between the parties to this appeal crystallised fairly quickly. HMRC, after initially contesting the point, accepted that sufficient management services were provided by HLT to HLTB to amount to an economic activity on the part of HLT. That meant, HMRC said, that the share sale was in scope rather than out of scope because the share sale was treated as a direct, permanent and necessary extension of HLT&#8217;s in scope hotel business. But the share sale was exempt and not taxable. HMRC maintained that the professional services generating the input VAT were therefore directly and immediately linked to the exempt sale of the shares rather than to HLT&#8217;s taxable supplies in its hotel business. The input VAT was therefore not deductible and they assessed HLT for the VAT which HLT had sought to deduct.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:13pt">39.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The First-tier Tribunal (Tax Chamber) (Judge Richard Chapman QC and Ms Gill Hunter) issued its decision on 3 December 2021 <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2021/451" uk:canonical="[2021] UKFTT 451 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKFTT 451 (TC)</ref>. They found that the direct and immediate link was between the inputs and HLT&#8217;s taxable general economic activities and not with the share sale. This was for two reasons. They held that the direct and immediate link test was &#8220;modified in fundraising cases in the sense that (with one rider) the initial share transaction is to be disregarded&#8221;: para 36. They relied for that &#8220;modification&#8221; particularly on a line of cases culminating in the judgment of the CJEU in <span style="font-style:italic">Skatteverket v AB SKF</span> (<ref href="#" uk:canonical="Case C-29/08" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-29/08</ref>) <ref href="#" uk:canonical="[2010] STC 419" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] STC 419</ref> (&#8220;<span style="font-style:italic">SKF</span>&#8221;) and the decision of this court in <span style="font-style:italic">Frank A Smart &amp; Son Ltd v Revenue and Customs Comrs </span> <ref href="#" uk:canonical="[2019] 1 WLR 4849" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 WLR 4849</ref> (&#8220;<span style="font-style:italic">Frank Smart</span>&#8221;), both of which I consider in detail below. That modification was that where the purpose of the share sale was to raise funds for the overall business then the share sale is disregarded and the inputs are directly and immediately linked with the overall business. Since they found that objectively ascertained, the purpose of the share sale was to fund HLT&#8217;s taxable general activities, they held that the inputs were deductible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:13pt">40.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Secondly the FTT found that the costs of input services were not incorporated in the price of the HLTB shares sold because the shares were sold for the best price achievable in the market: &#8220;[t]he price was not increased in order to provide for the costs of the Services and there was no allocation for such costs within the sale price&#8221;: para 46.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:13pt">41.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The FTT noted that Mr Firth KC, who has appeared for HLT throughout the proceedings, had raised a new argument in written submissions to them after the hearing about the effect of the VAT grouping provisions. Mr Firth wished to argue that VAT grouping meant that one must disregard the management services that HLT had provided to HLTB, in which case the share sale would be treated as out of scope of VAT rather than in scope but exempt. The FTT held that it was too late for HLT to raise this point and that they would in any event have dismissed it: paras 52&#8211;53. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:13pt">42.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">HMRC appealed but the Upper Tribunal (Tax and Chancery Chamber) (Zacaroli J and Judge Brannan) dismissed the appeal: <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2023/178" uk:canonical="[2023] UKUT 178 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKUT 178 (TCC)</ref> (24 July 2023). They upheld the FTT&#8217;s analysis that because the share sale was a fund-raising transaction, the direct and immediate link was modified such that the use of services for a fund-raising transaction which was either outside the scope of VAT or exempt from VAT did not prevent deduction if the objective evidence showed that the purpose of the fund-raising was to fund HLT&#8217;s economic activity and the funds were later used for taxable supplies. They also held that the inputs were &#8220;cost components&#8221; of the taxable general business rather than of the share sale: see para 67 of the UT&#8217;s decision upholding the FTT&#8217;s reasoning at para 40 of its decision. The UT did not address the VAT grouping issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:13pt">43.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Court of Appeal allowed HMRC&#8217;s appeal: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/564" uk:canonical="[2024] EWCA Civ 564" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ 564</ref>.  Whipple LJ gave the substantive judgment with which Nugee and Elisabeth Laing LJJ agreed. She set out the CJEU&#8217;s case law and the decision of this court in <span style="font-style:italic">Frank Smart</span>. She concluded that the CJEU case law did not establish that, in a case where the share sale was exempt from VAT rather than out of scope, the inputs acquired to assist with the share sale were always to be treated as directly and immediately linked with that share sale and so not deductible. But nor did the case law establish that, if the purpose of selling the shares was to raise funds for HLT&#8217;s taxable business, the direct and immediate link was with the general business rather than with the share sale. What the case law established was that it was for the national court to decide whether the inputs were directly and immediately linked to the exempt share sale or not: para 81. Whipple LJ said that there was no different rule which operates in the context of share sales for the purpose of fund-raising: para 83. She noted that Mr Firth had distanced himself from the FTT&#8217;s reasoning so far as it focused on whether or not the input costs had been &#8220;incorporated into&#8221; the price fixed for the shares. She did not consider that the phrase &#8220;cost components&#8221; applied so as to limit the existence of a direct and immediate link to circumstances where the inputs had influenced the price that the taxable person charged for its output supplies: paras 91&#8211;96. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:13pt">44.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At para 97, Whipple LJ held that the UT had failed to apply the direct and immediate link test and had erred in disregarding the existence of the exempt share sale. The UT had also got wrongly distracted into an analysis of where the costs were incorporated. She held further that remission to the FTT was neither appropriate nor necessary. She concluded on the deductibility issue: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;98.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; The inputs here were marketing costs, solicitors&#8217; and accountants&#8217; fees. The [FTT] found that these inputs were &#8216;part of the process&#8217; of selling the shares and were &#8216;used&#8217; in the fundraising transaction (para 44 of the [FTT]&#8217;s judgment).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">99.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">That, in my judgment, is the answer to the appeal and to the case. These inputs were used in, were cost components of, were directly and immediately linked with, the exempt share sale. If incorporation is a test which stands separately (which I doubt) the costs were incorporated &#8211; in the sense of having an objective economic link to &#8211; in the sale of shares because they were used to make the share sale and were met from the proceeds of sale. I see no room in this case for any different outcome on the facts, even if the matter were remitted.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">100.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">I accept that the consequence of allowing this appeal is that HLT has &#8216;sticking&#8217; (ie irrecoverable) input tax despite being, in the ordinary course of its hotel business, a fully taxable trader. Whether that is the right or the wrong answer as a matter of tax policy is a question for those who design the tax, not for the courts and tribunals who apply the law as it is.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:13pt">45.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The issues in this appeal can be summarised as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Does the fact that the price of the shares was set without taking into account the costs of the inputs mean that the direct and immediate link is with the general business and not with the share sale?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Does the fact that the share sale is exempt rather than out of scope mean that the direct and immediate link must be with the share sale and not with HLT&#8217;s general taxable business?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Does the fact that the purpose of the share sale was to raise funds for HLT&#8217;s overall business mean that the direct and immediate link is with that overall business and not with the share sale?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-weight:bold;font-size:13pt">4.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">The &#8220;cost components&#8221; test</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:13pt">46.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I can deal with this relatively briefly as Mr Firth did not seek to uphold the decisions of the FTT and UT on this basis. However, it is important to address this point since it illustrates how Advocate General Saggio&#8217;s statement that the meaning of the phrase &#8220;direct and immediate link&#8221; &#8211; and indeed the various other formulations frequently used by the CJEU &#8211; &#8220;is to be found in the words that go to make it up&#8221; (see para 12 above) needs to be treated with a great deal of caution. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:13pt">47.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The reference to the inputs being &#8220;cost components&#8221; or &#8220;components of the price&#8221; comes from article 1(2) of the PVD and is frequently included in judgments by the CJEU in passages which set out the established principles before addressing the particular issue raised by the questions referred in that particular case. However, in a case in which it appears that this &#8220;cost component&#8221; approach to the test came before the court, the judgment is very clear that the &#8220;cost component&#8221; test does not depend on an examination of the pricing structure of the taxable person&#8217;s outputs. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:13pt">48.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Volkswagen Financial Services (UK) Ltd v Revenue and Customs Comrs </span>(<ref href="#" uk:canonical="Case C-153/17" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-153/17</ref>) <ref href="#" uk:canonical="[2018] STC 2217" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] STC 2217</ref>; <ref href="#" uk:canonical="[2019] 4 WLR 32" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 4 WLR 32</ref> (&#8220;<span style="font-style:italic">Volkswagen</span>&#8221;), the taxable person operated a mixed business including some taxable transactions (sales of cars) and some exempt transactions (provision of credit). The sales of cars by the credit company to the customer were always at exactly the same price that the dealer had agreed with the customer in the showroom without any mark up to reflect the costs involved in running the business. All input costs therefore had to be included in the charge for credit which was exempt from VAT. On the facts, therefore, it appeared that the inputs were a cost component only of the exempt transactions; they were, in a very real sense, incorporated into the price of the credit and not into the price of the car. This court referred questions to the CJEU including whether, in a case where general overhead costs have been incorporated only into the price of the exempt supplies, the taxable person nevertheless has a right to deduct any of the input tax incurred on those costs: see para 26 of the judgment. This court also asked what was the meaning of the phrase &#8220;components of the price of an undertaking&#8217;s products&#8221; used by the CJEU in many of its judgments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:13pt">49.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU held, broadly, that the inputs were deductible in proportion to the mix of taxable and exempt supplies in Volkswagen&#8217;s general business. Although the court repeated the formula about costs needing to be components of the price in order to be directly and immediately linked, it said at para 44 that in so far as the general costs &#8220;were in fact incurred, at least to a certain extent, for the purpose of the supply of vehicles, which are taxed transactions, those costs are, as such, components of the price of those transactions&#8221;. The fact that Volkswagen included those costs not in its calculation of the price of the taxable transactions but solely when calculating the price to be charged for the exempt transactions, the court said, &#8220;can have no effect whatsoever on such a finding of fact&#8221; (para 43). That indicates that the cost component concept in the direct and immediate link is not what the CJEU applies, despite its continued use of the unhelpful phraseology. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:13pt">50.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is no reason why one should examine whether the costs were included in the calculation of the price when considering sales of shares when one does not do so for any other kind of transaction. Indeed, the reference to &#8220;cost components&#8221; is particularly inapt where the transaction under consideration is a share sale because sales of shares are very rarely priced on a cost plus basis. This was explained by Advocate General Kokott in <span style="font-style:italic">C&amp;D Foods</span> at paras 43&#8211;45. She said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;45.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It should be noted, however, that the wording of the Court, according to which the expenditure incurred must be included in the price of the holding or the shares, does not mean that an actual increase in the price is necessary or, for example, that a specific sum would have to be imposed onto the selling price. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">46.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">This is particularly clear in terms of the example of listed public limited companies: the share price is usually determined on the basis of the current share price index and not through negotiation between seller and buyer. Therefore, the Court&#8217;s formulation should be construed as meaning that the expenditure must have an immediate negative impact on the profit from a specific transaction involving a holding or shares and not solely on the overall profit of the company. The input transactions must therefore be so closely linked to the sale of the shares that, in financial terms, they represent directly a component of the cost of the intended transaction. &#8230; </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">52.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; In addition, in so far as the Court requires, with regard to the deductibility of general costs, that the costs of the input services should be incorporated in the prices of the goods or services supplied or provided by the taxable person, a mathematical mark-up on the prices is not prescribed. Instead, it describes the necessary economic linkage between the input and output services.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">53.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">However, such a linkage does not require an actual increase in the price but merely that certain expenditure should form part of the elements of the price for the totality of the taxpayer&#8217;s products or services. This was also highlighted by the Commission in its written observations. The sole determining factor is thus that the input services are economically and objectively linked to the taxable activity, in such a way that the extent of the profit depends on it.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">54.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Any other solution would result in denying a taxpayer who cannot or does not wish to increase his prices in the event of increased costs the right to deduct the input tax. This would clearly run counter to the principle of neutrality.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:13pt">51.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I therefore agree with the Court of Appeal that the FTT and UT erred in their application of the case law, in so far as they relied on the way in which the price of the shares in HLTB was set in order to reject the possibility of there being a direct and immediate link between the inputs and the share sale. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-weight:bold;font-size:13pt">5.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Exempt and out of scope output transactions: cases leading up to <span style="font-style:italic">SKF</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:13pt">52.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The main area of contention between the parties is whether it matters that the share sale in this case was exempt rather than out of scope. HMRC&#8217;s argument on this point can be summarised as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">HLT supplied management services to its subsidiary HLTB for remuneration and those services were a taxable economic activity (leaving aside for the moment the VAT grouping point): see <span style="font-style:italic">Cibo</span>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The sale of shares in HLTB was a permanent and necessary extension of that taxable economic activity and so itself comprised part of that economic activity: see <span style="font-style:italic">Larentia + Minerva</span>. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The professional fees incurred in making that share sale are directly and immediately linked to the share sale and since that is an economic activity there is no justification for treating the input as directly and immediately linked to HLT&#8217;s general business rather than to the specific transaction. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Because the share sale is exempt, the inputs are not deductible. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:13pt">53.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">HLT however argue that the recent case law of the CJEU establishes that exempt transfers must be treated in the same way as out of scope transfers in order to comply with the principle of fiscal neutrality. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:13pt">54.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I turn now to the line of cases in which HLT asserts that this principle has been developed. These are primarily judgments of the CJEU but also the decision of this court in <span style="font-style:italic">Frank Smart</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:13pt">55.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The starting point is <span style="font-style:italic">BLP Group plc v Customs and Excise Comrs </span>(<ref href="#" uk:canonical="Case C-4/94" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-4/94</ref>) <ref href="#" uk:canonical="[1996] 1 WLR 174" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 1 WLR 174</ref>. BLP carried on business as a management and holding company and provided management services to a group of trading companies. It bought the share capital of a German company but two years later sold 95% of those shares and used the proceeds to pay off its indebtedness to its bankers. It was common ground that both the core business of BLP and the share sale fell within the scope of VAT.  BLP sought to deduct the VAT it had paid for professional services in connection with the disposal of the shares. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:13pt">56.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">BLP&#8217;s argument (as summarised by Advocate General Lenz) was that attention must not be focused on the immediate transaction by which BLP sold the shares. Instead, in the interests of fiscal neutrality, the focus must be on the wider purpose of that supply which was the discharge of BLP&#8217;s bank debts. The sale of the shares was part of its overall strategy of its core business for the making of its taxable supplies: see para 16 of the Advocate General&#8217;s Opinion.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:13pt">57.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In Advocate General Lenz&#8217;s Opinion, the facts recorded by the English High Court in the reference were that the inputs had been &#8220;used for an exempt transaction&#8221; and &#8220;supplied in connection with the disposal of the shares&#8221;. That established, he said, &#8220;that those services form a cost component precisely of the exempt supply (effected by the sale of the shares)&#8221;: para 36. That was not affected by an argument that the costs were ultimately incorporated into the price of the goods and services BLP sold by means of its taxable transactions. Nor was the High Court&#8217;s finding undermined by the fact that the sale of the shares was for the benefit of taxable activity of the taxable person because it was used to pay off the indebtedness of the business. He firmly rejected BLP&#8217;s reliance on the principle of fiscal neutrality as precluding different fiscal treatment for different ways of raising money. That argument, he said &#8220;does not hold water&#8221;: para 46. He concluded that if the inputs were used for an exempt transaction then they could not be deducted. That applied even if its purpose and result was to raise money for the discharge of the entire indebtedness of a taxable person: para 65. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:13pt">58.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU in <span style="font-style:italic">BLP </span>also concluded that the inputs were not deductible. It reiterated the direct and immediate link test for deductibility and confirmed that in general the Sixth Directive did not provide for the right to deduct VAT on goods or services used for exempt transactions. The court went on to consider BLP&#8217;s argument based on the purpose of the sale being to raise funds for the benefit of its whole business. The court rejected that saying:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;24.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Moreover, if BLP&#8217;s interpretation were accepted, the authorities, when confronted with supplies which, as in the present case, are not objectively linked to taxable transactions, would have to carry out inquiries to determine the intention of the taxable person. Such an obligation would be contrary to the VAT system&#8217;s objectives of ensuring legal certainty and facilitating application of the tax by having regard, save in  exceptional cases, to the objective character of the transaction in question.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:13pt">59.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">BLP also argued that if it had incurred professional fees in connection with taking out a loan to raise the money rather than selling shares, the input VAT on those fees would have been fully deductible. BLP argued that fiscal neutrality required the share sale to be treated in the same way as taking out a loan. The CJEU also rejected that argument. They noted in para 26 that a trader&#8217;s choice between exempt transactions and taxable transactions may be based on a range of factors, including tax considerations relating to the VAT system: &#8220;The principle of neutrality of VAT, as defined in the case law of the court, does not have the scope attributed to it by BLP.&#8221; The court&#8217;s answer was therefore that where a taxable person supplies services to another taxable person who uses them for an exempt transaction, the latter person is not entitled to deduct the input VAT paid, even if the ultimate purpose of the transaction is the carrying out of a taxable transaction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:13pt">60.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In the years following the judgment in <span style="font-style:italic">BLP </span>the CJEU considered references in which the putative specific output transaction with which the inputs might have been directly and immediately linked was an out of scope rather than an exempt transaction. I consider that the most relevant of the many cases we were referred to are <span style="font-style:italic">Abbey National plc v Customs and Excise Comrs </span>(<ref href="#" uk:canonical="Case C-408/98" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-408/98</ref>) <ref href="#" uk:canonical="[2001] 1 WLR 769" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] 1 WLR 769</ref> (&#8220;<span style="font-style:italic">Abbey National</span>&#8221;)<span style="font-style:italic"/>and <span style="font-style:italic">Kretztechnik AG v Finanzamt Linz </span>(<ref href="#" uk:canonical="Case C-465/03" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-465/03</ref>) <ref href="#" uk:canonical="[2005] 1 WLR 3755" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 1 WLR 3755</ref> (&#8220;<span style="font-style:italic">Kretztechnik</span>&#8221;). Those judgments were described in detail in the judgment of Whipple LJ in the Court of Appeal in the present case: see paras 39&#8211;46.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-size:13pt">61.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Abbey National</span>,<span style="font-style:italic"/>the issue was whether the inputs were directly and immediately linked to the taxpayer&#8217;s overall business (which was mixed taxable and exempt transactions) or to a specific transaction which was the transfer of a going concern. Article 5(8) of the Sixth Directive (now article 19 of the PVD) allowed Member States to opt to legislate to deem the transfer of a going concern not to be a supply of goods or services and the UK had exercised that option. Abbey National&#8217;s wholly owned subsidiary Scottish Mutual sold its interest in a building and conveyancing and other expenses were incurred in connection with the sale. The case is often cited because of the analysis of Advocate General Jacobs and the firm distinction he drew between exempt and out of scope transactions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:13pt">62.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">He concluded first that the sale of the lease was a transfer of &#8220;a totality of assets&#8221; within the meaning of article 5(8) of the Sixth Directive. Because the UK had exercised the option allowed by that article, the transfer was a &#8220;non-supply&#8221; rather than an exempt supply of land. Since it was not a taxable supply, it followed that it could not itself form the basis for the deduction of input tax incurred in connection with it: para 37. But it was not an exempt supply either. An exempt supply, he said, &#8220;has the effect of breaking the VAT chain&#8221;. But there was no reason to suppose that the chain was broken by a transaction which was not a supply of goods or services. He went on to hold, applying the particular provisions about transfers of going concerns, that the inputs were deductible in whole or in part depending on whether the transferee&#8217;s business comprised all or partly taxable transactions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:13pt">63.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU held in <span style="font-style:italic">Abbey National</span> that the inputs were deductible. The transfer of assets was not regarded as a supply of goods; it was not a taxable transaction for the purpose of the right to deduct under article 17(2) of the Sixth Directive. The court rejected Abbey National&#8217;s argument that under the particular regime about transfers of going concerns, it, as the transferor of the business, could treat the inputs as directly and immediately linked to the transferee&#8217;s taxable business: paras 31<span style="font-family:'Times New Roman'">&#8722;</span>32.  Inputs would only be deductible if they were directly and immediately linked to some taxable transactions of Abbey National itself. It followed that the various services acquired by Abbey National as transferor in order to effect the transfer did not have a direct and immediate link with one or more specific taxable transactions: para 34. But the court held that the costs of the services formed part of the economic activity of the business as a whole before the transfer: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;35.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">However, the costs of those services form part of the taxable person&#8217;s overheads, and as such are cost components of the products of a business. Even in the case of a transfer of a totality of assets, where the taxable person no longer effects transactions after using those services, their costs must be regarded as part of the economic activity of the business as a whole before the transfer. Any other interpretation of article 17 of the Sixth Directive would be contrary to the principle that the VAT system must be completely neutral as regards the tax burden on all the economic activities of a business provided that they are themselves subject to VAT, and would make the economic operator liable to pay VAT in the context of his economic activity without giving him the possibility of deducting it (&#8230;). An arbitrary distinction would thus be drawn between expenditure incurred for the purposes of a business before it is actually operated and that incurred during its operation, on the one hand, and, on the other hand, the expenditure incurred in order to terminate its operation.</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">36.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Thus in principle the various services used by the transferor for the purposes of the transfer of a totality of assets or part thereof have a direct and immediate link with the whole economic activity of that taxable person.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:13pt">64.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It was for the national court, the CJEU said, to decide whether the costs of the services had a direct and immediate link with a clearly defined part of Abbey National&#8217;s economic activities so that the costs of those services formed part of the overheads of a part of the business that comprised taxable transactions. If that was found to be the case, then the inputs would be deductible: paras 40<span style="font-family:'Times New Roman'">&#8722;</span>41. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:13pt">65.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In <span style="font-style:italic">Kretztechnik</span>, the taxpayer company obtained a listing on the stock exchange and issued new shares for the purpose of raising capital. Its business comprised sales of taxable goods. It sought to deduct input VAT incurred on the costs of services which assisted it with the listing and issue. The deduction was refused by the Austrian tax authority on the basis that the services were linked with share transactions which were exempt from VAT. Kretztechnik argued that the costs had been incurred not for a transfer of shares but for their creation; that fell outside the scope of VAT and the costs were therefore deductible because they formed part of the company&#8217;s economic activity as a whole. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-size:13pt">66.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In his Opinion in <span style="font-style:italic">Kretztechnik</span>,<span style="font-style:italic"/>Advocate General Jacobs noted that the referring court had determined that the services in question &#8220;were exclusively attributable&#8221; to gaining admission to the Frankfurt stock exchange and issuing new shares to be listed on that market: para 25. He said that it was common ground that the share issue was not a taxable supply. If it was an exempt supply, then there could be no right to deduct VAT on services directly and immediately attributable to that supply but, if the share issue was not a supply at all but just an increase in capital, then costs related to that formed part of the company&#8217;s general overheads and had a link to the whole of its economic activity. He concluded that the issue of new shares by a company was not a supply by the company at all and so was outside the scope of VAT: para 68. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-size:13pt">67.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">How then did that affect the referring court&#8217;s finding that the costs incurred were attributable exclusively to that transaction? He said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;73.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">For example, if a trader uses the services of a broker or valuator when acquiring a commodity, the cost of those services may be said to be directly, immediately and exclusively linked to the acquisition. That does not however determine whether the VAT on the services is deductible. The right to deduct must be determined by the output transactions for the purposes of which the services are used. The transactions in question will usually be the onward supply of the commodity or of the goods or services for which it is used or in which it is incorporated. The right to deduct will depend on whether that supply is taxed or not. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">74.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Thus, if the transaction with which the input is most closely linked is one which falls entirely outside the scope of VAT because it is in any event not a supply of goods or services, it is irrelevant for the purpose of determining deductibility. What matters is the link, if any, with such output supplies, and whether they are taxed or exempt (&#8230;).</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">75.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">The question to be asked in [Kretztechnik]&#8217;s case is therefore whether the capital raised by the share issue was used for the purposes of one or more taxed output transactions. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">76.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It seems likely that the use of the capital &#8211; and the services connected with the raising of that capital &#8211; cannot be linked to any specific output transactions, but must rather be attributed to the company&#8217;s economic activity as a whole. There can be no reasonable doubt that a commercial company which raises capital does so for the purposes of its economic activity.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-size:13pt">68.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">He therefore likened the costs to the costs expended in acquiring an input, not to the costs linked with making an output supply. His view was therefore that if the company only made taxable supplies in its general business, it appeared that all the inputs were deductible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-size:13pt">69.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU in <span style="font-style:italic">Kretztechnik </span>also held, first, that the issue of new shares to raise capital was not a supply of goods or services to the new shareholders for consideration and so did not fall within the scope of VAT: paras 22<span style="font-family:'Times New Roman'">&#8722;</span>28. Secondly, the court held that the expenses relating to the share issue could form part of the overheads of the company and so be deductible. The court said at para 36:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;36.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In this case, regard being had to the fact that, first, a share issue is an operation not falling within the scope of the Sixth Directive and, secondly, that operation was carried out by the claimant in order to increase its capital for the benefit of its economic activity in general, it must be considered that the costs of the supplies acquired by that company in connection with the operation concerned form part of its overheads and are therefore, as such, component parts of the price of its products. Those supplies have a direct and immediate link with the whole economic activity of the taxable person: see [<span style="font-style:italic">BLP</span>, para 25; <span style="font-style:italic">Midland Bank</span>, para 31, <span style="font-style:italic">Abbey National </span>paras 35 and 36, and <span style="font-style:italic">Cibo</span>, para 33]. </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-size:13pt">37.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">It follows that, under article 17(1)(2) of the Sixth Directive, the claimant is entitled to deduct all the VAT charged on the expenses incurred by that company for the various supplies which it acquired in the context of the share issue carried out by it, provided, however, that all the transactions carried out by that company in the context of its economic activity constitute taxed transactions. &#8230;&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-size:13pt">70.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Thus far, therefore, the case law establishes a clear distinction between on the one hand the principle in <span style="font-style:italic">BLP</span> that a transaction which is economic activity within scope is generally the transaction with which inputs have a direct and immediate link so that if that transaction is exempt, there is no deduction. On the other hand, the cases show that if the transaction which consumes the inputs is out of scope then the inputs can be attributed to the overall business, so that the extent of their deductibility depends on the composition of that overall business as between taxable, out of scope and exempt transactions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-size:13pt">71.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Also thus far, therefore, unless it can succeed on its VAT grouping argument (see Section 7 of the present judgment below), HLT needs also to establish that the later case law of the CJEU has elided the distinction between exempt share sales and out of scope share sales. HLT submits that the CJEU made that jump in <span style="font-style:italic">SKF</span> and that this jump was acknowledged and confirmed by this court in <span style="font-style:italic">Frank Smart</span>. The effect of those cases is, HLT submits, that the VAT incurred on fees for services acquired to assist with a share sale are directly and immediately linked with the general business of the taxable person regardless of whether the share sale is exempt or out of scope. I turn therefore to what the CJEU decided in <span style="font-style:italic">SKF</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-size:13pt">72.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">SKF, a company established in Sweden, was the parent company of an industrial group. It was actively involved in the management of its subsidiaries and supplied services to them for consideration on which it charged VAT. In the context of a planned restructuring of the group, SKF proposed to dispose of all its shares in one of its wholly owned subsidiaries and its remaining minority shareholding in another company. The reason for the disposals was to obtain funds to finance other activities of the group. SKF sought a preliminary decision from the Swedish Revenue Law Commission as to whether it would be able to deduct input VAT on the services it would need to effect the restructuring. These services would include advice on the valuation of the shares, assistance in the negotiations and legal advice: see para 20 of Advocate General Mengozzi&#8217;s Opinion. The Revenue Commission said that it could, the tax authority appealed and the appellate court referred questions to the CJEU. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-size:13pt">73.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Advocate General Mengozzi reasoned at paras 28<span style="font-family:'Times New Roman'">&#8722;</span>35 as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Although a disposal of a financial holding held by a company in other undertakings is as a general rule outside the scope of VAT, it may fall within scope if it is carried out &#8220;to achieve a direct or indirect involvement in the management of the companies concerned&#8221;. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The CJEU has held in <span style="font-style:italic">Cibo </span>(amongst other cases), in relation to the <span style="font-style:italic">acquisition</span> of holdings accompanied by involvement in the management, that such involvement does amount to economic activity where it entails carrying out transactions which are subject to VAT such as the supply by a holding company of administrative, financial, commercial and technical services to those subsidiaries.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Although the disposal of shares strictly speaking involves the termination of that economic activity, it still counts as economic activity so that that case law is still relevant. The principles of equal treatment and tax neutrality require that the reasoning as regards the acquisition of holdings be extended to the disposal of holdings. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Hence the disposal of a shareholding of a company in which the parent has taken part by providing it with services for remuneration subject to VAT is a transaction which constitutes an economic activity. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-size:13pt">74.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Having decided that the share sale was within the scope of VAT, the Advocate General then addressed the question whether the share sale was exempt or not. SKF claimed that it was not exempt because the transfer was to be treated as a complete or partial transfer of a going concern which was outside the scope of VAT and hence outside the scope of the exemption. The Advocate General rejected that argument and held that it was an exempt transaction: para 57. That then brought him to the question whether the inputs could be deducted. He was clear that the answer was no: (paras 59<span style="font-family:'Times New Roman'">&#8722;</span>81) </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The national court had found that the services acquired by SKF were directly linked to the disposal of the shares and that, he considered, was an exempt activity. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The court in <span style="font-style:italic">BLP</span> had<span style="font-style:italic"/>held that there could be no deduction in those circumstances and that the ultimate purpose of the exempt transaction was irrelevant. That conclusion could be validly transposed to the case before him so deduction of input tax should be refused because the exempt transaction &#8220;breaks the VAT chain, even where the transaction contributes to the objective of restructuring the industrial activities of the group led by SKF&#8221;: para 70.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The case law in which inputs are attributed to the overall business of the taxpayer was not relevant here. That was because those cases concerned situations where the inputs were linked with output transactions which fell entirely outside the scope of VAT because they were not considered supplies of either goods or services. In those circumstances it was permissible to look not only at the transactions with which the inputs had the closest links but also to links with the taxable person&#8217;s general economic activity. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Similarly, in <span style="font-style:italic">Kretztechnik </span>the court had stressed that the share issue was an operation falling outside the scope of the Sixth Directive. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(e)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The court had therefore accepted the distinction made by Advocate General Jacobs in <span style="font-style:italic">Kretztechnik</span> between output transactions exempted from VAT and those which entirely escape any VAT liability because they are not supplies of goods or services. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(f)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">It is true that this approach appeared to treat share disposals which fall outside the scope of VAT more favourably than those which are within scope but exempt. But allowing deduction here would mean that &#8220;a new opportunity to deduct input VAT would be created by judicial decision&#8221;: para 80. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-size:13pt">75.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Advocate General&#8217;s approach appears entirely orthodox and in line with HMRC&#8217;s submissions in this appeal. The question is whether the CJEU departed from that in its judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-size:13pt">76.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU in <span style="font-style:italic">SKF </span>first cited its earlier case law to the effect that transactions in shares are not usually economic activity. This is different where the parent has been involved in the management of the subsidiary concerned, as SKF was in this case. The share sale therefore came within the scope of VAT: para 33. They agreed with the point made by the Advocate General that the principles of equal treatment and tax neutrality required disposals of holdings to be treated in the same way as acquisitions of holdings in this regard. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-size:13pt">77.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">But the court was less sure than the Advocate General about the point as to whether the sale amounted to the total or partial disposal of the assets of an undertaking for the purpose of article 5(8) of the Sixth Directive since that did not appear to have been raised before the domestic court: para 38. The court said it was not therefore able to come to a definite conclusion as to whether the share sale was exempt or out of scope: that depended on how Sweden had exercised the option conferred by article 5(8) and how that applied to the facts of the case: para 41. The CJEU then went on to consider the position if the share sale was exempt by virtue of article 135(1)(f) of the PVD. There was a difference of view between the Commission and the Swedish government about the scope of that exemption but the CJEU held that it would cover this transaction so that the share sale must be an exempt transaction: para 53. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-size:13pt">78.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The court then turned to the third question which, it said, asked in essence whether there was a right to deduct input VAT on the ground that the costs of the services formed part of SKF&#8217;s general costs. The court set out the general principles established by <span style="font-style:italic">Midland Bank</span>, <span style="font-style:italic">Abbey National</span>, <span style="font-style:italic">Cibo </span>and <span style="font-style:italic">Kretztechnik</span> amongst other cases. However, in paras 59 onwards the court cast doubt on the clear distinction recognised by Advocates General Mengozzi and Jacobs between share disposals which are out of scope and those which are in scope and exempt.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-size:13pt">79.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">First, in para 59 the court confirmed that where goods or services acquired by a taxable person are used for the purposes of transactions which are exempt or do not fall within the scope of VAT, then no output tax can be collected and no input tax deducted. This appears, from the authorities cited in support, to be a reference simply to the point that if the overall business of the taxable person is exempt or out of scope and the inputs are directly and immediately linked with that, then there can be no deduction. It is not making a point about the distinction between a specific transaction being exempt or out of scope. Secondly, it followed that &#8220;[the] right to deduct is determined by the nature of the output transactions to which the input transactions are assigned&#8221;: para 60. There is a right to deduct if there is a direct and immediate link with one or more output transactions which give rise to the right to deduct. But if there is no such direct and immediate link, it is necessary to examine whether the costs incurred are part of the general costs linked to the taxable person&#8217;s overall economic activity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-size:13pt">80.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU noted that the referring court described the costs both as directly attributable to the disposal of the shares but also as forming part of SKF&#8217;s general costs. That was not possible. It was necessary the court said: &#8220;to ascertain whether the costs incurred are likely to be incorporated in the prices of the shares which SKF intends to sell or whether they are only among the cost components of SKF&#8217;s products&#8221;: para 62. It was the task of the national court and not the CJEU to apply that test. However, the CJEU then went on &#8220;[i]n order to give a useful answer to the referring court&#8221; to adopt a different approach from that of the Advocate General: para 64. Their reasoning proceeded as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">They recalled that the court had held on numerous occasions that there is a right to deduct VAT paid on consultancy services &#8220;used for the purposes of various financial transactions, on the ground that those services were directly attributable to the economic activities of the taxable persons&#8221;. They again cited <span style="font-style:italic">Midland Bank</span>, <span style="font-style:italic">Abbey National</span>, <span style="font-style:italic">Cibo </span>and <span style="font-style:italic">Kretztechnik</span> as such examples.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">They recognised that, admittedly, the transactions in shares in those cases were out of scope rather than exempt. That was because the main distinguishing factor between share sales which are out of scope and those which are in scope but exempt was whether the shareholding company had been involved in the management of the company in which it held the shares or not. But if the right to deduct turned on that, &#8220;that would amount to treating objectively similar transactions differently for tax purposes, and would be an infringement of the principle of fiscal neutrality&#8221;: para 66.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">It followed that if the consultancy costs relating to disposals of shareholdings are considered to form part of the taxable person&#8217;s general costs in cases where the disposal is itself outside the scope of VAT, the same tax treatment must be allowed if the disposal is classified as an exempted transaction. Otherwise, the need to secure equal treatment for taxable persons would be disregarded.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-size:13pt">81.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Then in a puzzling paragraph the CJEU said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;71.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In the case in the main proceedings, <span style="font-style:italic">while it is admittedly true</span>, as is correctly argued by the Skatteverket and by the Swedish, German and United Kingdom governments, <span style="font-style:italic">that a disposal of shares which is exempt from VAT does not give rise to a right to deduct</span>, the fact remains that that interpretation holds true only if a direct and immediate link is established between the input services and the exempted disposal of shares as an output transaction. If, on the other hand, there is no such link and the cost of the input transactions is incorporated in the prices of SKF&#8217;s products, the right to deduct VAT charged on the input services should be allowed.&#8221; (Emphasis added.)</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-size:13pt">82.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Finally, the CJEU added at para 72 that there is a right to deduct VAT in respect of services carried out &#8220;in connection with financial transactions&#8221; if the capital acquired is used in connection with the economic activities of the person concerned &#8220;in circumstances where they are solely attributable to downstream economic activities and consequently are among only the cost components of transactions within the scope of those activities&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-size:13pt">83.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The answers given by the court to the questions in the dispositif of the judgment in <span style="font-style:italic">SKF</span> were as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">a disposal by a parent company of shares in a subsidiary where it has supplied that subsidiary with taxable services is an economic activity within scope. However, if the disposal is equivalent to a transfer of the totality of assets or part thereof of an undertaking and the Member State has exercised the option provided by article 5(8) of the Sixth Directive then it does not constitute economic activity subject to VAT. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">But a disposal of shares &#8220;such as that at issue in the main proceedings&#8221; must be exempted from VAT.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">There is a right to deduct input VAT on services supplied for the purpose of a disposal of shares &#8220;if there is a direct and immediate link between the costs associated with the input services and the overall economic activities of the taxable person. It is for the referring court to take account of all the circumstances surrounding the transactions at issue in the main proceedings and to determine whether the costs incurred are likely to be incorporated in the price of the shares sold, or if they are among only the cost components of transactions within the scope of the taxable person&#8217;s economic activities&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-size:13pt">84.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">On the basis of what the CJEU said in <span style="font-style:italic">SKF</span>, HLT argues in this appeal that it is clear that the CJEU did not regard the fact that the share sale was or might be exempt as precluding the possibility that the input VAT might be directly and immediately linked with SKF&#8217;s general costs rather than with the share sale itself. On the contrary, the court held that the principle of fiscal neutrality requires exempt share sales to be treated in the same way as out of scope share sales and, further, recognised that where a share sale is out of scope, the inputs incurred to assist with that share sale are directly and immediately linked to the general business and not with the share sale itself. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-size:13pt">85.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">It is difficult to know how to interpret what the CJEU said in <span style="font-style:italic">SKF</span>. Whipple LJ was right when she said that &#8220;taken out of context, phrases and sentences can be found in the judgment to support both parties&#8217; submissions&#8221; and that it is important therefore to read the case as a whole to make sense of it: see para 75 of her judgment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-size:13pt">86.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The question for this court is whether <span style="font-style:italic">SKF</span> should be treated as authority for the propositions that (a) share sales which are exempt from VAT should be treated in the same way as share sales which are out of scope of VAT; and (b) that means in effect that inputs incurred in making the share sale are to be treated as directly and immediately linked with the taxable person&#8217;s overall business and not to the share sale itself, at least where the proceeds of the share sale are used to fund the overall taxable business. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-size:13pt">87.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">As to the first of those suggested propositions, the CJEU&#8217;s concern in <span style="font-style:italic">SKF </span>about fiscal neutrality arose from the fact that the reason why a share sale is exempt or out of scope turns on the existence of the remunerated services provided by the parent company to the subsidiary. There is no logical connection between that test and the test for when inputs are treated as directly and immediately linked with a specific transaction rather than with the taxpayer&#8217;s overall business. That was why the CJEU regarded it as contrary to the principle of fiscal neutrality always to treat an exempt share sale as precluding the deductibility of inputs, as <span style="font-style:italic">BLP</span> appeared to do.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-size:13pt">88.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">However, the CJEU was not treating fiscal neutrality as a governing principle that can justify ignoring the way the legislature has treated particular transactions as exempt or not. As Whipple LJ said in para 87 of her judgment, the principle of neutrality is a principle of interpretation and not of substantive law. That was confirmed by the CJEU in a judgment handed down after <span style="font-style:italic">SKF</span>: see <span style="font-style:italic">Finanzamt Frankfurt am Main V-H&#246;chst v Deutsche Bank AG </span>(<ref href="#" uk:canonical="Case C-44/11" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-44/11</ref>) <ref href="#" uk:canonical="[2012] STC 1951" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] STC 1951</ref> (&#8220;<span style="font-style:italic">Deutsche Bank</span>&#8221;). The issue in that case was whether the services that Deutsche Bank supplied to its customers were within the exemption in article 135(1)(f) as &#8220;negotiation but not management&#8221; of securities. Advocate General Sharpston said that although exemptions from VAT must be construed strictly &#8220;their interpretation must be consistent with the objectives pursued and must comply with the requirements of the principle of fiscal neutrality inherent in the VAT system, which precludes treating similar supplies, in competition with each other, differently for VAT purposes&#8221;: para 35. She recorded that Deutsche Bank had argued that the service they were providing was in competition with other modes of investment services which were clearly exempt so it would be disadvantaged if it had to charge VAT on its fees to clients whereas those providing competing but exempt services did not. She said at paras 58<span style="font-family:'Times New Roman'">&#8722;</span>59 that she accepted that the service Deutsche Bank was providing was in competition at least to some extent with modes of investment that were exempt under article 135(1)(f) and (g). But the Advocate General did not accept that the principle of fiscal neutrality could extend the scope of an express exemption in the absence of clear wording to that effect. She continued: para 60 </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;60.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; As the German government observed at the hearing, it is not a fundamental principle or a rule of primary law which can condition the validity of an exemption but a principle of interpretation, to be applied concurrently with&#8212;and as a limitation on&#8212;the principle of strict interpretation of exemptions. It is clear from the case law that activities which are to some extent comparable and thus to some extent in competition may be treated differently for VAT purposes where the difference in treatment is explicitly provided for. Moreover, if all activities partly in competition with each other had to receive the same VAT treatment, the final result would be&#8212;since practically every activity overlaps to some extent with another&#8212;to eliminate all differences in VAT treatment entirely. That would (presumably) lead to the elimination of all exemptions, since the VAT system exists only to tax transactions.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-size:13pt">89.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU also held in <span style="font-style:italic">Deutsche Bank </span>that the services did not fall within the exemptions in article 135(1). It went on:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;45.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">Lastly, it must be stated that that conclusion is not called into question by the principle of fiscal neutrality. As the Advocate General stated at point 60 of her opinion, that principle cannot extend the scope of an exemption in the absence of clear wording to that effect. That principle is not a rule of primary law which can condition the validity of an exemption, but a principle of interpretation, to be applied concurrently with the principle of strict interpretation of exemptions.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-size:13pt">90.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The Advocate General in <span style="font-style:italic">SKF</span> had rejected reliance on the principle of fiscal neutrality because the distinction between out of scope share sales and in scope but exempt share sales was no more &#8220;than the consequence inherent in the common system&#8221; of VAT in which the dividing line must be drawn as clearly as possible between taxable and exempt transactions: para 78. The CJEU was not satisfied with that answer but, like Whipple LJ, I do not read <span style="font-style:italic">SKF</span> as assuming that inputs assisting a share sale which is out of scope or exempt will <span style="font-style:italic">always</span> be treated as directly and immediately linked with the overall business. What <span style="font-style:italic">SKF</span> decides is that one does not argue backwards from the fact that the share sale is within scope but exempt in order to conclude that the inputs must be directly and immediately linked with the share sale. In so far as HMRC made that submission in this appeal then I do not accept it. One must still argue forwards from an analysis of the connection between the inputs and the share sale to decide whether they are directly and immediately linked to that sale or to the general business. If they are directly and immediately linked to the share sale and the share sale is exempt then the inputs are not deductible. If they are not directly and immediately linked to the share sale but to the general business then the inputs may be deductible in whole or in part depending on the tax status of that general business.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-size:13pt">91.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I agree therefore with Whipple LJ&#8217;s analysis in para 79 of her judgment that the respect in which the CJEU departed in <span style="font-style:italic">SKF</span> from the previous case law and from the approach of the Advocate General was by accepting the possibility that inputs might have a direct and immediate link with the taxable person&#8217;s general business rather than with the share sale itself even if the share sale is one which is exempt rather than out of scope. And I agree that, as she said, this possibility is not merely fanciful given that the facts of individual cases are infinitely variable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-size:13pt">92.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment, consistent with <span style="font-style:italic">SKF</span>,<span style="font-style:italic"/>the application of the direct and immediate link test could lead to a different result depending on whether the specific transaction to which the input is putatively linked is exempt or out of scope. The factual and legal background that leads to the conclusion that the specific transaction is within the scope of VAT rather than out of scope may also influence the answer to the question whether the inputs were directly and immediately linked to that specific share sale or to the general business. HMRC&#8217;s submission, which HLT accepted, was that it is more likely that inputs will be directly and immediately linked with the general business if the putative specific transaction is a supply made by a trader for which it does not charge consideration.  That much is common sense, as is apparent from <span style="font-style:italic">Sveda</span> and <span style="font-style:italic">Iberdrola</span>. The answer to the question why did Sveda go to the trouble of building a path along which the public could walk free of charge or why did Iberdrola undertake the reconstruction of the waste-water pump is clear. It was to further their business of selling refreshments to those walking the path and to enable them to complete the development of their own apartment complex in the municipality. It does not make sense to view the supply of the path or of the free waste-water pump as some separate, out of scope activity isolated from the overall in scope business operated by the taxable person. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-size:13pt">93.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">A share sale is, of course, made for consideration whether it is in scope but exempt or out of scope. That leads therefore to the question of whether the direct and immediate link test, which I consider must still be applied even though the share sale here is exempt, has been modified as it applies to share sales compared to how it is applied to other kinds of transactions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_10">
+	  <num style="font-weight:bold;font-size:13pt">6.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Fund-raising transactions and the purpose of the share sale</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-size:13pt">94.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I have concluded so far that the fact that the sale by HLT of its shares in HLTB was an exempt transaction is not the end of the matter and it is still necessary to apply the direct and immediate link test to determine whether the inputs incurred by HLT are directly and immediately linked to the share sale and hence not deductible because the share sale is exempt or whether instead they are directly and immediately linked with the overall hotel business which is taxable. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-size:13pt">95.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That brings me to HLT&#8217;s second main submission which the FTT and UT accepted, namely that the direct and immediate link test has been modified when it is applied to share sales, or other financial transactions to focus on the <span style="font-style:italic">purpose</span> of the transaction. Mr Firth argued that the objective purpose of acquiring the services was to fund HLT&#8217;s taxable economic activity. The services were in fact used for that purpose and the input VAT must therefore be deductible. As HLT put it in its written submissions: &#8220;This is part of a wider principle that transactions that are a means to an end/not an aim in themselves follow the VAT treatment of the principal matter&#8221;: para 56.4. HLT relies on references in the judgments of the CJEU to the need to establish the &#8220;exclusive reason&#8221; why the input was incurred. If the &#8220;exclusive reason&#8221; for the share sale is to fund the business comprising taxable supplies then it is directly and immediately linked with that business and not with the specific transaction. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-size:13pt">96.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I reject the submission that the CJEU&#8217;s judgments suggest that there has been such a modification. There is one set of circumstances where the purpose of the transaction &#8211; or the taxable person&#8217;s intention in entering into the transaction &#8211; is important in establishing a direct and immediate link between the transaction and the general business. That is where the taxable person is not yet carrying on any taxable activity but incurs the inputs for the purpose of a future taxable activity and claims immediate repayment of the VAT from the tax authority on that basis. The case law of the CJEU is clear that &#8220;the first investment expenditure incurred for the purposes of, and with a view to, commencing a business must be regarded as an economic activity&#8221;. That means that inputs incurred are deductible even before that business starts to yield taxable income: see eg <span style="font-style:italic">Gabalfrisa SL v Agencia Estatal de Administraci&#243;n Tributaria</span> (Joined Cases C-110/98 to C-147/98) <ref href="#" uk:canonical="[2002] STC 535" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] STC 535</ref>, para 45 and the cases cited there. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-size:13pt">97.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Beyond that, the references to the &#8220;purpose&#8221; in the wording sometimes used by the court are, in my judgment, simply a yet further formulation of the direct and immediate link test. They are not therefore departing from consistent case law that stresses that the purpose of a particular transaction cannot affect whether the inputs used in that transaction are deductible or not: see eg para 24 of <span style="font-style:italic">BLP</span> cited at para 58 above. Certainly, <span style="font-style:italic">SKF</span> itself provides no support for HLT&#8217;s submission that where the money received from the sale of the shares or other fund-raising transaction is used in the taxable person&#8217;s general business, that means that inputs into that fund-raising transaction are always directly and immediately linked to that general business and not to the specific transaction itself. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-size:13pt">98.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU does not appear in later cases to have treated <span style="font-style:italic">SKF</span> as marking a radical departure from the earlier case law which firmly rejects the need to focus on the purpose of raising funds. In <span style="font-style:italic">Chancellor, Masters and Scholars of the University of Cambridge v Revenue and Customs Cmrs </span>(<ref href="#" uk:canonical="Case C-316/18" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-316/18</ref>) <ref href="#" uk:canonical="[2019] 4 WLR 126" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 4 WLR 126</ref> (&#8220;<span style="font-style:italic">Cambridge</span>&#8221;), decided after <span style="font-style:italic">SKF</span>, the English Court of Appeal referred another question to the CJEU about the direct and immediate link test. In that case, Cambridge University sought to deduct the VAT on the fees it paid to the third party which managed the fund created by donations and its endowment. The University argued that the fees were incurred for the purposes of supporting the University&#8217;s economic activity. At para 24 the court reiterated that &#8220;transactions that do not fall within the scope of the VAT Directive or that are exempt similarly do not, in principle, give rise to a right to deduct&#8221;. The court first held that in raising and collecting donations and endowments the University was not acting as a taxable person. It followed that the input VAT paid in respect of any costs incurred in that regard was not deductible &#8220;regardless of the reason why those donations and endowments were received&#8221;: para 29. Further, the funds generated were not a cost component of any particular output transaction, on the contrary they were used to reduce the price that had to be charged for the goods and services provided by the University. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-size:13pt">99.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU in <span style="font-style:italic">Cambridge </span>seems to me to be rejecting a general rule that the purpose of the use of funds generated by a specific transaction determines whether they are directly and immediately linked to the taxable person&#8217;s overall business. I do not accept, therefore, HLT&#8217;s submission that if the objective purpose for acquiring an input is to benefit the economic activity as a whole, the direct and immediate link is with that economic activity as a whole. Any such rule or modification of the test for share sales would be a recipe for confusion as to where the monies that a company uses for a certain project come from when the company&#8217;s receipts go into a common pot, as they usually do. On the particular facts of the present case, it may be relatively clear that the money from the sale of HLTB was used to buy the Milton Keynes business. But many corporate groups have more diverse activities and to link any particular sale of shares or other fund-raising transaction with any particular expenditure would be much more problematic. It would also be an invitation for companies to manipulate their accounts or their correspondence in an attempt to make it appear that a share sale was or was not linked to a particular project depending on which suited its tax situation better. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-size:13pt">100.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That brings me finally to what this court said in <span style="font-style:italic">Frank Smart</span>. That case concerned the deductibility of the input tax incurred by a farmer, FASL, on buying units of entitlement to single farm payments. Those units entitled the farmer to receive a Government subsidy. The FTT held that the inputs were recoverable because FASL had purchased the units to raise finance for its future economic activities as a whole and that therefore there was a direct and immediate link with FASL&#8217;s future taxable supplies in its farming business. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-size:13pt">101.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The case differs from the other authorities I have been considering because the input here was not advice or professional services provided to FASL to help it decide whether or not to buy the units but the cost of the units themselves which led to the receipt of the payments. It was common ground that the receipt of the payment to which the units entitled the farmer was outside the scope of VAT. The FTT made findings of fact that the acquisition of the units was a funding exercise which related to the farm&#8217;s business overheads in its farming enterprise (see this court&#8217;s judgment, para 8) and that the units did not form a separate business activity of the farm. HMRC&#8217;s argument, summarised at para 21 of the judgment, was that the input tax incurred in acquiring the units was not recoverable because there was a direct and immediate link between those units and the receipt of the payment (which was out of scope) and no direct and immediate link between the units and the taxable output transactions of FASL&#8217;s general business. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-size:13pt">102.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In its submissions in <span style="font-style:italic">Frank Smart</span>, HMRC relied on <span style="font-style:italic">BLP</span> by analogy, recognising that <span style="font-style:italic">BLP</span> concerned an exempt, rather than an out of scope output transaction. FASL by contrast did rely on the distinction between exempt and out of scope supplies. It argued that it had a right to recover so long as (i) the finance was used to fund a business making taxable supplies and (ii) the financing exercise remained outside the scope of VAT because it did not involve the taxable person in making any taxable or exempt supplies. The court recognised that <span style="font-style:italic">BLP</span> concerned an exempt not an out of scope transaction but said that HMRC &#8220;set great store&#8221; by the case and submitted that its reasoning extended to fund-raising outside the scope of VAT. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-size:13pt">103.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">At para 49 Lord Hodge rejected HMRC&#8217;s argument that later cases had extended the reasoning in <span style="font-style:italic">BLP</span> to apply to out of scope initial transactions: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;49.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">In my view, it is clear that in <span style="font-style:italic">SKF</span> <ref href="#" uk:canonical="[2010] STC 419" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] STC 419</ref> the CJEU has not extended the reasoning of <span style="font-style:italic">BLP</span> <ref href="#" uk:canonical="[1996] 1 WLR 174" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 1 WLR 174</ref> to apply it to fund-raising transactions which are outside the scope of VAT. <span style="font-style:italic">On the contrary, in order to avoid discriminatory treatment of taxable persons, it has extended the reasoning in the cases about share disposals that are outside the scope of VAT to share disposals which are exempt</span>, by requiring an examination as to whether the costs associated with the input services are incorporated in the price of the shares sold in the initial transaction or in the prices of the taxable person&#8217;s products in downstream transactions. If the latter, the costs would be &#8216;among only the cost components of transactions within the scope of the taxable person&#8217;s economic activities&#8217;.&#8221; (Emphasis added.)</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-size:13pt">104.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That accords with what the Court of Appeal held in this case and with what I consider is correct. However, Mr Firth refers to para 59, where Lord Hodge said that the FTT had been entitled to conclude that FASL, when it acquired the units:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220; &#8230; was acting as a taxable person because of its aim of accumulating sums to develop its taxable business through capital expenditure on assets which it would use to generate taxable output transactions.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-size:13pt">105.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That, Mr Firth submitted, endorses an approach that focuses on the aim of the fundraising. Further Mr Firth points to the seventh point in Lord Hodge&#8217;s summary of the legal principles he derived from the case law at para 65. These propositions included that there must be a direct and immediate link between the inputs and the taxable supplies and this link can be either with an initial transaction or with the whole of the taxable person&#8217;s economic activity where the costs form part of the business overheads. At point (vii) Lord Hodge said that &#8220;The purpose of the taxable person in carrying out the fund-raising is a question of fact which the court determines by having regard to objective evidence&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="font-size:13pt">106.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I do not read the judgment as adopting as a general proposition that the purpose of the transaction for which the inputs are used is always relevant. Rather what was said in para 59 and in point (vii) was said in the context of the point being discussed in paras 50 onwards of Lord Hodge&#8217;s judgment. This concerned the potential time lag between the incurring of the input and the carrying on of the economic activity to which FASL said it was linked. As I have explained in para 96 above, if a taxable person is not carrying on economic activity at the time it incurs the inputs (as happened in <span style="font-style:italic">Sveda</span>) then the input can still be linked to the future economic activity and hence can still be deductible if the court determines on the basis of objective evidence that it is the taxable person&#8217;s intention to use the input in future for carrying on taxable economic activity. The authorities that Lord Hodge cites in para 60 and in support of his proposition (vii) relate to that point. In proposition (vii) he cites <span style="font-style:italic">Sveda </span>where that timing point was in issue and the two cases that the CJEU cited in <span style="font-style:italic">Sveda</span>. Those are cases in which the CJEU made clear that even if the goods acquired are not used immediately for economic activity, the right to deduct arises even if their use in an economic activity may occur sometime later: see the passages from <span style="font-style:italic">Sveda</span> cited at paras 51 and 53 of Lord Hodge&#8217;s judgment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="font-size:13pt">107.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in"> That time lag point was relevant in <span style="font-style:italic">Frank Smart</span> since FASL&#8217;s case was based in part on the fact that it was contemplating using the funds acquired on three future developments. Thus, in para 67 where Lord Hodge states that the purchase of the units was part of an exercise raising funds for economic activity, the cases he cites are again those concerning incurring of costs prior to the commencement of the economic activity. That is what prompted his comments in para 69 of the difficulties created for HMRC when a claim for deduction depends on the future behaviour of the taxable person as the claim in that case did &#8211; and the guidance he gave as to how taxable persons might help HMRC in this regard. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="font-size:13pt">108.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">That does not mean that in a case where there is no timing issue, the purpose of the inputs is relevant to the identification of the transaction with which there is a direct and immediate link. <span style="font-style:italic">Frank Smart </span>is not authority for any such broad proposition and it would be directly contrary to CJEU authority which makes clear that generally speaking the purpose for which funds are raised is irrelevant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="font-size:13pt">109.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Firth understandably relies on what was said in para 49 of <span style="font-style:italic">Frank Smart </span>quoted above. Again, Lord Hodge did not need to address whether an input which appeared to be consumed by an existing exempt initial transaction could nevertheless be directly and immediately linked to a taxable overall business. He was refuting an argument put forward by HMRC that <span style="font-style:italic">BLP </span>should be extended to cover initial transactions which are out of scope. As I have mentioned, FASL was relying on the distinction between <span style="font-style:italic">BLP</span> on the one hand and <span style="font-style:italic">Abbey National </span>and <span style="font-style:italic">Kretztechnik</span> dealing with out of scope initial transactions on the other. <span style="font-style:italic">Frank Smart</span> is therefore not authority for the proposition that <span style="font-style:italic">BLP</span> has been superseded by <span style="font-style:italic">SKF</span> and that now there is no difference between out of scope and exempt initial transactions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="font-size:13pt">110.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I therefore reject the submission that there is any modification of the direct and immediate link test in the case of a share sale. There was no error in the Court of Appeal&#8217;s conclusion in paras 98<span style="font-family:'Times New Roman'">&#8722;</span>100 of Whipple LJ&#8217;s judgment (set out at para 44, above) that on the facts as found by the FTT, the direct and immediate link test, when properly applied establishes that the relevant link in this case is the link between the inputs acquired by HLT and the sale of the shares in HLTB and not with the overall hotel business of HLT. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-weight:bold;font-size:13pt">7.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">VAT grouping</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num style="font-size:13pt">111.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I referred earlier to the case law which establishes that if the parent supplies services for consideration to its subsidiary, that is regarded as an economic activity: see paras 22 onwards above. It is because of that line of authority that the sale of shares by HLT in HLTB constitutes an economic activity within the scope of VAT and hence is an exempt transaction because of article 135 of the PVD. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="font-size:13pt">112.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">VAT grouping is an option available to Member States under article 11 of the PVD which provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="text-align:center;margin-left:1in">&#8220;<span style="font-style:italic">Article 11</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;After consulting the advisory committee on value added tax (hereafter, the &#8216;VAT Committee&#8217;), each Member State may regard as a single taxable person any persons established in the territory of that Member State who, while legally independent, are closely bound to one another by financial, economic and organisational links.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">A Member State exercising the option provided for in the first paragraph, may adopt any measures needed to prevent tax evasion or avoidance through the use of this provision.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="font-size:13pt">113.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The effect of the creation of a VAT group was described by the CJEU recently in <span style="font-style:italic">Finanzamt T v S </span>(<ref href="#" uk:canonical="Case C-184/23" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-184/23</ref>) <ref href="#" uk:canonical="[2024] STC 1391" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] STC 1391</ref>, para 38, as being that entities which have such links are &#8220;no longer to be treated as separate taxable persons for the purposes of VAT but to be treated as a single taxable person&#8221;. It therefore precludes members of the group from continuing to submit VAT declarations and from continuing to be identified, within and outside their group, as individual taxable persons, since the single taxable person alone is authorised to submit such declarations. That judgment also referred to the Communication from the Commission to the Council and the European Parliament on the VAT group option (COM(2009) 325 final) which says that transactions between members of the same VAT group &#8220;do not exist for VAT purposes&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-size:13pt">114.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The purpose of the VAT grouping option was described by the CJEU in <span style="font-style:italic">Finanzamt Kiel v Norddeutsche Gesellschaft f&#252;r Diakonie mbH </span>(<ref href="#" uk:canonical="Case C-141/20" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-141/20</ref>) ECLI:EU:C:2022:943 (&#8220;<span style="font-style:italic">Norddeutsche Gesellschaft</span>&#8221;). The option is used &#8220;either in the interests of simplifying administration or with a view to combating abuses such as the splitting-up of one undertaking among several taxable persons so that each might benefit from a special scheme, to ensure that Member States would not be obliged to treat as taxable persons those whose &#8216;independence&#8217; is purely a legal technicality&#8221;: para 49.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="font-size:13pt">115.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Article 11 was implemented in the UK by <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> of the VATA. That provides in <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/43/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(1)</ref>(a) that any supply of goods or services by a member of the group to another member of the group &#8220;shall be disregarded&#8221;. <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 43</ref>A sets out when two or more companies are eligible to be treated as members of a group. It depends, broadly, on whether one of them &#8220;controls&#8221; the others within the meaning of that term set out in detail in the subsequent sections of <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23" uk:canonical="1994 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref>B, an application may be made to HMRC for two or more persons who are eligible to be treated as members of a group or to join or leave a group and HMRC can grant or refuse that application. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-size:13pt">116.</num>
+	  <intro>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">HLT&#8217;s argument runs as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(a)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">The reason why the sale by HLT of its shares in HLTB is treated as economic activity rather than as falling outside the scope of the VAT regime is because of the management services that HLT provided to HLTB because of the <span style="font-style:italic">Larentia + Minerva </span>line of authority.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(b)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">But since HLT and HLTB were within the same VAT group at the time those services were provided, they fall to be &#8220;disregarded&#8221; under <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/43/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(1)</ref>(a). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(c)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">If one disregards the supply of those management services, there is no reason to treat the sale of shares as anything more than out of scope, non-economic activity, according to <span style="font-style:italic">Harnas.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(d)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">If the sale of shares is out of scope, then HMRC accept that on the current facts, it would be necessary to &#8220;look through&#8221; the share sale and treat the inputs acquired by HLT to carry out the share sale as being incurred for HLT&#8217;s general business. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(e)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">That general business was HLT&#8217;s supplies of hotel services which HLT carried on directly rather than through a subsidiary. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:13pt;margin-left:1in">(f)</num>
+	    <content>
+	      <p class="ParaLevel3" style="margin-left:1in;text-indent:0.5in">Those hotel supplies were all taxable supplies made by HLT and hence the input VAT it paid on services to help with carrying out the share sale are directly and immediately linked to the hotel supplies business and deductible. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-size:13pt">117.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment, that is not the effect of VAT grouping. I note first that the test for whether companies are eligible to form a VAT group is not the same as the test for whether a parent is regarded as involved in the management of its subsidiary so as to make a sale of the shares in that company a permanent and necessary extension of that economic activity. The test for determining whether a parent and subsidiary have the necessary links to justify allowing them to form a VAT group does not appear to have anything to do with the test for determining whether transactions between them are taxable activity or not. The CJEU made this clear in <span style="font-style:italic">Cibo </span>where it emphasised that &#8220;involvement&#8221; in the management of a subsidiary, for the purposes of making the share sale part of an economic activity, entails carrying out transactions which are subject to VAT such as the supply by the parent of administrative, accounting and information technology services to the subsidiary. It does not depend on the control or influence that the parent may exercise over the subsidiary&#8217;s business: para 12.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">&#8220;It follows that a pure holding company, whose activity is limited to the acquisition and holding of shares in companies and the exercise of the shareholder rights that thereby accrue to it, cannot become a taxable person &#8230; by virtue of any influence, in whatsoever form, it exercises over its subsidiaries. Thus, whether a holding company is taxable cannot depend on whether it leads the group of companies or influences its management, nor on whether it has a controlling influence on the management of the undertaking.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="font-size:13pt">118.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">By contrast the test for whether separate companies can form a VAT group was discussed in <span style="font-style:italic">Norddeutsche Gesellschaft </span>at para 78. The court said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;78.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">To establish whether such a legal relationship exists between an entity forming part of a VAT group and the other members of that group, including that group's controlling company, so that the supplies made by that entity may be liable to VAT, it is necessary to determine whether that entity carries out an independent economic activity. It is necessary in that regard to determine whether such an entity may be regarded as being independent, in that it performs its activities in its own name, on its own behalf and under its own responsibility and, in particular, in that it bears the economic risk arising from its business (&#8230;).&#8221; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="font-size:13pt">119.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The early case of <span style="font-style:italic">Polysar Investments Netherlands BV v Inspecteur der Invoerrechten en Accijnzen, Arnhem </span>(<ref href="#" uk:canonical="Case C-60/90" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-60/90</ref>) <ref href="#" uk:canonical="[1993] STC 222" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1993">[1993] STC 222</ref> discussed the interaction between the non-taxable person status of a pure holding company and its membership of a group which carried on taxable activities. It is important to note that the &#8220;group&#8221; of which Polysar formed a part does not seem to have been a group in the sense of VAT grouping then in article 4(4) of the Sixth Directive, the precursor to article 11 of the PVD. Advocate General van Gerven discussed, however, whether it would make any difference to its status as a taxable person for this purpose whether Polysar was in the same VAT group as other companies which did engage in economic activity. He therefore considered whether, if two or more persons form a VAT group pursuant to article 4(4) so as to be treated as a single taxable person, that entitles the Member State to treat one of them as a taxable person even though it does not itself engage in any economic activity within the meaning of the VAT directive. It did not. He said:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-size:13pt">&#8220;9.</num>
+		  <content>
+		    <p class="Quote" style="margin-left:1in;text-indent:0.5in">&#8230; In my view, that question must be answered in the negative. I share the Commission&#8217;s view that, in order to establish whether there is a liability to tax, it is necessary to focus on the activities of each legal person separately, and not on the activities of the concern as a whole. The [VAT group provision] does not derogate from that principle: it is a rule designed to simplify matters which enables the tax authorities to treat as a single person for the purposes of the application of VAT two or more legally independent persons who engage in economic activities on their own account as a result of the close financial, economic and organisational links between them, with the result that transactions between the two do not give rise to the charging and payment of turnover tax.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:1in">It seems to me, however, that the aforesaid provision is not aimed at amending the conditions for liability to tax which are set out in art 4(1) of the Sixth Directive.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num style="font-size:13pt">120.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">The CJEU addressed the point by making clear that article 4(4) groups, at that time, were limited to persons established in the territory of one and the same Member State: para 15. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="font-size:13pt">121.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">There is therefore nothing in the case law that says that the effect of the VAT grouping causes those supplies between the parent and its subsidiary to evaporate &#8211; the Commission&#8217;s rather hyperbolic statement in its Communication notwithstanding. The judgments in all the cases I have described dealing with the <span style="font-style:italic">Larentia + Minerva </span>issue do not appear to discuss whether the parent and subsidiary were members of a VAT group and no one has hitherto suggested that it is relevant to the application of the principles established in that case, <span style="font-style:italic">Floridienne</span>, and the many other cases discussing that aspect of the VAT regime. It certainly would be a significant blow to fiscal neutrality if those principles were disapplied and if the parent and subsidiary happened, at the time of the share sale, to be eligible to be members of the same VAT group according to whether their Member State had decided to implement article 11.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="font-size:13pt">122.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Mr Firth relies on the decision of the House of Lords in <span style="font-style:italic">Customs and Excise Comrs v Thorn Materials Supply Ltd </span><ref href="#" uk:canonical="[1998] STC 725" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] STC 725</ref> (&#8220;<span style="font-style:italic">Thorn</span>&#8221;) in which the disregard provision (then in <ref href="http://www.legislation.gov.uk/id/ukpga/1983/55/section/29" uk:canonical="1983 c. 55 s. 29" uk:origin="TNA" uk:type="legislation">section 29</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1983/55" uk:canonical="1983 c. 55" uk:origin="TNA" uk:type="legislation">Value Added Tax Act 1983</ref>) was considered when determining the time of supply for VAT purposes. In that case 90% of the payment for goods was made whilst the parties to the sale were members of the same VAT group and the remaining 10% was made after the seller had left the group. Mr Firth argues that the majority in the House of Lords in <span style="font-style:italic">Thorn </span>relied on the disregard provision to hold that the element of supply that took place when the two companies were in the same group had to be disregarded, with the result that the whole supply took place at the later date and VAT was chargeable on the whole of the purchase price. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-size:13pt">123.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">In my judgment, the Court of Appeal was right to reject this argument and to hold that the statutory fiction created by <ref href="http://www.legislation.gov.uk/id/ukpga/1994/23/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> of the VATA does not have the effect for which HLT contends: see paras 110<span style="font-family:'Times New Roman'">&#8722;</span>117 of Whipple LJ&#8217;s judgment. As Lord Nolan said in <span style="font-style:italic">Thorn</span> the disregard provision is designed to simplify and facilitate the collection of tax and not to confer exemption or relief from tax (p 733A). As Lord Hoffmann pointed out in his dissent, the majority did not entirely disregard the transaction that took place when the parties were in the same VAT group since they looked into the &#8220;black box&#8221; of the VAT group to determine the total value of consideration for the goods &#8211; including the 90% that had been paid at the earlier date: p 737. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-size:13pt">124.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">Similarly here, although they were members of the same VAT group, HLT and HLTB retained their individual identities. Economic activity was still taking place between them because HLT was engaged in managing its subsidiary and that amounts to economic activity for this purpose. I agree further that<span style="font-style:italic"> R (Northumbria Healthcare NHS Foundation Trust) v Revenue and Customs Comrs </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/874" uk:canonical="[2020] EWCA Civ 874" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 874</ref>; <ref href="#" uk:canonical="[2020] STC 1720" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] STC 1720</ref> concerning the tax treatment of cars to employees does not help HLT. The wording of that &#8220;de-supply&#8221; provision in the Value Added Tax (Treatment of Transactions) Order 1992 (SI 1992/630) is materially different, as Whipple LJ explained in para 114. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-weight:bold;font-size:13pt">8.</num>
+	  <content>
+	    <p class="Paraheading2" style="text-indent:0.5in">Conclusion</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-size:13pt">125.</num>
+	  <content>
+	    <p class="ParaApprovedLevel1" style="margin-left:0in;text-indent:0.5in">I pay tribute to the thoroughness and skill of the submissions that were made to the court by Mr Firth and Ms McArdle in this difficult and complex case and to their mastery of the dozens of authorities in which these issues have previously been debated. In the end, however, I am in no doubt that the Court of Appeal arrived at the correct result. The appeal must be dismissed because the disputed input VAT incurred by HLT is not deductible.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

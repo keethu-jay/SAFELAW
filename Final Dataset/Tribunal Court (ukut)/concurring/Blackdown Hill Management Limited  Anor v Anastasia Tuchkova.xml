@@ -1,0 +1,877 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/156"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/156"/>
+	  <FRBRdate date="2023-11-09" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="156"/>
+	  <FRBRname value="Blackdown Hill Management Limited &amp; Anor v Anastasia Tuchkova"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/156"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/156"/>
+	  <FRBRdate date="2023-11-09" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/156/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/156/data.xml"/>
+	  <FRBRdate date="2024-11-10T04:02:42" name="transform"/>
+	  <FRBRdate date="2024-11-15T02:29:53" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-11-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="blackdown-hill-management-limited" href="" showAs="BLACKDOWN HILL MANAGEMENT LIMITED"/>
+	<TLCPerson eId="timur-artemev" href="" showAs="TIMUR ARTEMEV"/>
+	<TLCPerson eId="anastasia-tuchkova" href="" showAs="ANASTASIA TUCHKOVA"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-auerbach" href="/judge-his-honour-judge-auerbach" showAs="HIS HONOUR JUDGE AUERBACH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>156</uk:number>
+	<uk:cite>[2023] EAT 156</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>2f0096ad8e496e12bc6c69cabb56d2e2fe9e7e869334051c3bfef011f90d017a</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .ListParagraph { font-size: 11pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:8pt;color:#000000">Judgment approved by the court</span><span style="color:#000000"/><marker name="tab"/><span style="font-size:6pt">Blackdown Hill Mgt Ltd v Tuchkova</span></p>
+    </coverPage>
+    <header>
+      <p class="CoverText" style="text-align:left">Neutral Citation Number: <neutralCitation>[2023] EAT 156</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>EA-2021-000126-NT</docketNumber></p>
+      <p class="CoverMain">IN THE EMPLOYMENT APPEAL TRIBUNAL</p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid">Fetter Lane, London, EC4A 1NL</span></p>
+      <p class="CoverText">Date: <docDate date="2023-11-09" refersTo="#judgment">9 November 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-auerbach">HIS HONOUR JUDGE AUERBACH</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.12in 4.03in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#blackdown-hill-management-limited" style="font-weight:bold">(1) BLACKDOWN HILL MANAGEMENT LIMITED</party></p>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#timur-artemev" style="font-weight:bold">(2) TIMUR ARTEMEV</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellants</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#anastasia-tuchkova" style="font-weight:bold">ANASTASIA TUCHKOVA</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Tim Welch </span>appeared for the <span style="font-weight:bold">Appellants</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">The Respondent</span> in person</p>
+      <p style="text-align:center">Hearing date: 9 November 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY</span></p>
+	    <p><span style="font-weight:bold">SEX DISCRIMINATION, UNFAIR DISMISSAL</span></p>
+	    <p style="text-align:justify">The tribunal found that the claimant was dismissed for the fair reason of redundancy, but that the dismissal was unfair in all the circumstances of the case.  </p>
+	    <p style="text-align:justify">The tribunal did not err in concluding that one respect in which the dismissal was unfair, was because the respondent had failed to fairly consider whether the claimant should be placed in a pool of one or in a wider pool.  Nor did it err in its conclusion on <span style="font-style:italic">Polkey</span>.</p>
+	    <p style="text-align:justify">The tribunal erred in upholding four complaints of discrimination by way of unfavourable treatment of the claimant because she had exercised her right to take maternity leave (and associated complaints of direct sex discrimination).  The tribunal failed to apply the correct legal test of causation, or, if it considered that the claimant having exercised her right to take maternity leave was more than a contextual or background matter, it failed to explain why.</p>
+	    <p><span style="font-weight:bold">HIS HONOUR JUDGE AUERBACH:</span></p>
+	    <p class="ParaLevel1" style="margin-right:-0.53in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Following a full merits hearing, the employment tribunal (EJ Siddall, Ms A Sansome and Mr A Peart, sitting at London South), upheld the claimant&#8217;s complaint of ordinary unfair dismissal and her complaints of conduct amounting to both maternity discrimination and direct discrimination because of sex, in respect of four matters.  Other complaints arising from the same factual background were dismissed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">This is the respondents&#8217; appeal against the decision on the successful complaints.  I will refer to the parties as they were in the tribunal, as claimant and respondents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in"><span style="color:#010302">There were originally 11 numbered grounds of appeal.  At a preliminary hearing in the EAT</span>, grounds 6 and 9 &#8211; 11 were dismissed upon withdrawal.  Grounds 1 &#8211; 5, 7 and 8 were permitted to proceed to a full appeal hearing.  I will continue to refer to the grounds by those numbers.  As he did before the tribunal, Mr Welch of counsel has appeared again today for the respondent.  The claimant was a litigant in person in the tribunal and is again in the EAT.  Mr Welch produced a written skeleton argument and tabled a bundle of authorities.  The claimant relied on the tribunal&#8217;s decision as correct for the reasons that it gave.  I heard oral submissions from Mr Welch and the claimant made a number of points in her oral reply. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.53in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Tribunal&#8217;s Findings and Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The first respondent is a limited company which is the vehicle for certain business activities, and manages aspects of the domestic arrangements, of the second respondent.  The claimant is a Russian-qualified lawyer, but does not hold a UK legal qualification.  Her employment with the first respondent began in January 2016, at a salary of &#163;40,000 per annum.  Although her title was Legal Project Manager she had a variety of tasks, including administration and project management.  These included liaising with Russian lawyers over certain litigation, and work related to an innovation project carried out through a separate limited company, Uniwheel Limited.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The claimant went on maternity leave on 1 March 2017.  She originally intended to return to work on 1 September 2017, but on 3 August she emailed the second respondent stating that she would like to delay her return until 1 March 2018, and that she would like to arrange keeping in touch (KIT) days.  Although a colleague initially responded asking her for dates of proposed KIT days, thereafter further emails from the claimant about that, and her proposed new return date, went unanswered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">On 14 February 2018 the claimant emailed the second respondent and others that she was looking forward to returning on 1 March and asking for an update on work matters, including tasks she had handed over to colleagues when she had gone on maternity leave.  On 15 February, Ms Stenina, who the tribunal described as the second respondent&#8217;s PA and the HR manager, replied, inviting the claimant to a meeting with her and the second respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">That meeting took place on 26 February 2018.  The discussion was in Russian.  As well as hearing from all three participants, the tribunal had an English translation of a sound recording of the meeting.  The tribunal found that, among other things, the second respondent told the claimant that &#8220;we are closing, cutting down on everything, I mean winding down&#8221; and that there was &#8220;no work&#8221;, and he advised her to look for another job.  He suggested that she could undertake the reviewing, filing and auditing of the first respondent&#8217;s legal documents in the meantime.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">On 28 February 2018 the claimant emailed asking if a redundancy consultation process was under way, about what redundancy package she would be offered, and about what she called the archiving project.  There was a brief reply from Ms Stenina on 2 March and one from the second respondent on 4 March indicating that he wanted to &#8220;discuss in person the redundancy agreement&#8221; when he was next in the office.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Following a short period of illness the claimant returned to work on 5 March 2018.  She found that she could not get access to her email accounts as she did not have the passwords.  She also discovered that her lap top had been returned to factory settings and wiped clean.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The claimant, the second respondent and Ms Stenina met again on 13 March 2018.  They discussed the so-called audit project.  The claimant asked what was happening about redundancy.  The second respondent noted that she was still being paid, and suggested that she could carry on working on a flexible basis and looking for another job at the same time.  At a certain point the claimant became upset.  The second respondent then received a call and left the meeting.  Ms Stenina then suggested that the claimant could go on working until she found another job, and then leave, although she also mentioned the possibility of a redundancy package if the claimant did not want to stay on.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">On 21 March 2018 the claimant went off sick with work-related stress.  At the same time she raised a grievance alleging discrimination because of maternity and complaining about the selection of her role for redundancy.  That led to a grievance meeting on 18 April.  On 30 April a designer working for Uniwheel Ltd, referred to as CB, resigned.  A letter of 4 May informed the claimant that her grievance was not upheld, that there was a redundancy situation, but that no final decision had been made, as there were several options.  The claimant appealed the grievance outcome.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">An email to employees of Uniwheel of 18 May 2018 stated that that company would become dormant on 18 July.<span style="color:#010302"/>A letter to the claimant sent on 31 May informed her that she was at risk of redundancy.  A grievance appeal outcome letter of 18 June reiterated that there was a genuine redundancy situation and that the claimant&#8217;s selection was not related to her maternity leave.  However, the grievance was partially upheld in relation to aspects of events following her return to work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Ms Stenina invited the claimant to a further meeting which take place on 3 July.  The claimant was provided with a proposal for a three-month fixed-term role of legal auditor and a proposed redundancy package.  On 13 July the claimant declined the alternative role as not suitable.  On 18 July Uniwheel staff were made redundant with immediate effect.  On 20 July the claimant&#8217;s employment was terminated with immediate effect for the given reason of redundancy.  The claimant appealed against that decision but her appeal was never actioned.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">In a section of its decision considering the reason for dismissal the tribunal went back over its findings as to how events had unfolded.  It concluded that by February 2018 the claimant had been forgotten about.  When she got in touch in February about her imminent return in March, Ms Stenina and the second respondent were taken by surprise.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">After reviewing, and commenting upon, how events unfolded from that point up until the point of the claimant&#8217;s dismissal, the tribunal came to the following conclusions.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;94.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">It is the conclusion of the tribunal that, had the Claimant not taken maternity leave, it is highly unlikely that she would have been advised in February 2018 that there was no longer a job for her. However we recognise that this is not the correct question to ask ourselves as it involves a &#8216;but for&#8217; analysis. We go on to consider the reason why the Claimant was dismissed in July 2018 and to give consideration to the Respondent&#8217;s assertion that a genuine redundancy situation had arisen at that point. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">95.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We accept that in the Spring of 2018 the future of the Uniwheel project was uncertain, although the Second Respondent remained committed to it for the time being. In addition the Russian litigation was not progressing. We therefore accept that the Second Respondent had reached a genuine view that some aspects of the First Respondent&#8217;s activities with which the Claimant had been involved had diminished or were likely to diminish. He set out his fears about the business to the Claimant at the meeting on 26 February 2018. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">96.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">Between March and July 2018 there were further developments within the business of the Respondents. Most significantly, CB handed in his resignation on 30 April 2018 with a departure date of 31 May 2018. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">97.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We accept the evidence of the Second Respondent that following CB&#8217;s resignation he decided to abandon his plans for the development of Uniwheel Limited. The staff were told that the company would become dormant. The remaining staff were put at risk of redundancy and were issued notice of termination with effect from 18 July 2018. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">98.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">The situation therefore by the summer of 2018 was that the Russian litigation was coming to an end. The Uniwheel project which could have led to further work for the Claimant was to be wound up. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">99.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We are satisfied therefore that certainly by the summer of 2018 the Respondents can demonstrate a reduction in the work that the Claimant was required to do. We do not necessarily accept that the reduction was as great as the Second Respondent has made out, but we accept that the definition of redundancy has been met. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">100.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We draw a distinction between the reduction in business activity and the decision that the Claimant&#8217;s job had disappeared. We have concluded that the Claimant&#8217;s return to work was very badly handled. The Respondents reached a premature conclusion that the Claimant&#8217;s role had disappeared as the result of a lack of proper assessment of the situation, lack of a handover and failure to hand previous projects back to her. An inappropriate suggestion was made that she should resign once she found a new job. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">101.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">However there had been further developments by Summer 2018. It was at this point that the Claimant was formally put on notice that she was at risk of redundancy and she then received notice of her dismissal. Although the situation was complicated, we are satisfied that ultimately the reason for her dismissal was redundancy.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal went on to find, in terms, that the reason or principal reason for dismissal was redundancy and not the fact that the claimant had taken maternity leave.  It rejected complaints of automatically unfair dismissal contrary to the <span style="font-weight:bold">Maternity and Parental Leave Etc Regulations 1999</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal went on to find that, while the dismissal was for the fair reason of redundancy, it was not fair in all the circumstances of the case under section 98(4) <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref></span>.  The tribunal discussed in this regard a number of aspects of how matters unfolded.  The first concerned the decision to place the claimant in a pool of one for selection purposes.  As to this the tribunal concluded as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;115.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We accept that the Claimant was the only person employed in the office who had a legal qualification. However in practice she had a wide-ranging role encompassing some tasks where legal knowledge may have assisted and others which were administrative or involved liaison and management with external consultants. No consideration was given to the extent to which the roles overlapped. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">116.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">In addition we find that the conclusion that the Claimant&#8217;s role was unique and had disappeared had been materially influenced by the fact that she had been on maternity leave, during which time all her work had been divided up amongst other staff members in the office. We accept that as a result of events that had occurred during her leave, the Second Respondent had reached a decision that some of his business activities with which the Claimant had been involved would diminish. However the Claimant&#8217;s selection for redundancy was pre-judged upon her return to work, before she or the Respondents had established what projects were remaining and could be taken back. It was not reasonable for the Respondents to conclude in February 2018 that her role was unique and had disappeared without carrying out further assessment. It would have been reasonable to carry out a wider analysis of who was doing what in the office and the extent to which the Claimant&#8217;s role had been absorbed. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">117.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">As stated above, we find it telling that although the Claimant was advised in February that her role had disappeared, as the process continued the First Respondent offered her a role for three days per week, albeit at least initially on a temporary basis. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">118.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We conclude that the failure to conduct an evaluation and selection exercise in the particular context of this case was not reasonable.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal went on to conclude that the 26 February 2018 meeting was not a genuine consultation meeting, because the second respondent had already formed the view that the claimant&#8217;s role had disappeared.  His suggestion at that meeting was that the claimant should look around for another position and then leave.  The second meeting on 13 March was a continuation of the first meeting; and at the second meeting the second respondent had been dismissive of points raised by the claimant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal also considered that the grievance process had not been handled fairly or reasonably.  It considered that Ms Stenina and the second respondent had in effect investigated and reached conclusions about a complaint against themselves and then repeated that process at the appeal stage.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Following that, the respondents entered what the tribunal said &#8220;appears to be a more formal redundancy process&#8221; and sent an at-risk letter.  But the procedure adopted from that point &#8220;represents an attempt to &#8216;retrofit&#8217; what had happened previously and to create the appearance that genuine consultation had taken place when in fact the redundancy decision had been taken back in February.&#8221;  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal accepted a submission from Mr Welch that there was no requirement, as such, to offer an appeal against redundancy and that there may have been a genuine misunderstanding as to whether any internal process had been overtaken by ACAS Early Conciliation.  But the tribunal observed that the failure to hold an appeal meant that a further opportunity to carry out an independent review of the entire process was lost.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal concluded:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;129.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We conclude that although we accept that at the point the employment of the Claimant was terminated a genuine redundancy situation existed, the process adopted leading up to that point had not been fair. The Respondents had failed to carry out proper consultation over the proposed redundancy situation, they did not carry out a fair selection process and the grievance was not addressed objectively or independently. We find that it was not reasonable in all the circumstances to have dismissed the Claimant in accordance with section 98(4). The Claimant&#8217;s claim for unfair dismissal succeeds.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal then went on to consider &#8220;the percentage chance that the Claimant would have kept her job, had a fair consultation and selection process been carried out.&#8221;  That is what lawyers call the <span style="font-style:italic">Polkey</span> question.  The tribunal discussed how likely it was that, in  a fair process, the claimant would still have been selected for redundancy &#8211; something that it recognised was possible but &#8220;not a certainty&#8221; &#8211; and how likely it was that she would have stayed on in some role or other.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal&#8217;s overall conclusion was:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;138.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">Nevertheless taking all the evidence into account we are not able to entirely rule out the possibility that a role might have emerged for the Claimant if the Second Respondent had carried out a proper consultation and selection exercise and had considered both the work the Claimant had been doing previously and the activities of the office as a whole. As a result of the way in which the meetings on 26 February and 13 March 2018 were conducted, trust between the parties was badly damaged and a constructive dialogue around an alternative became very difficult if not impossible. Had a proper and genuine consultation process started at an appropriate time prior to July 2018 it is possible either that the Claimant would have kept her job or that a permanent alternative role would have been offered and accepted. We assess that possibility as being reasonably low as we find that the Claimant would not have accepted a role on a considerably lower salary (in the region of &#163;24-25,000) and nor had she expressed an interest in part time hours. After considering all the evidence we put this chance at 25%.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal then went on to consider the complaints of maternity discrimination, that is, discrimination contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span>.  Specifically, <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18(4)</ref> provides that a person discriminates if they treat a woman unfavourably because, among other possibilities, she has exercised her right to ordinary or additional maternity leave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;141.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">As to the test we should apply, Mr Welch has helpfully referred us to the case of </span><span style="font-style:italic;font-weight:bold;font-size:11pt">Indigo Design Build and Management Limited and Bank v Martinez</span><span style="font-weight:bold;font-size:11pt"> [UKEAT/0020/14) in particular paragraphs 29 and 30. In each case we must ask ourselves whether, if unfavourable treatment is established it is &#8216;because of&#8217; pregnancy and maternity. We must ask ourselves &#8216;the reason why&#8217; rather than apply a &#8216;but for&#8217; test. We have this guidance in mind as we consider each allegation.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The tribunal rejected a complaint relating to the fact that the claimant&#8217;s responsibilities were divided up among colleagues during her maternity leave.  The next three complaints succeeded.  I will set out the tribunal&#8217;s reasoning in relation to them in full.</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;144.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">Failing to provide a suitable and appropriate role on her return from maternity leave </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">145.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We find that upon the Claimant&#8217;s return to work she was not able to return to her previous role. In fact on 26 February she was told that there was no job for her. This despite the fact that the Claimant&#8217;s role had been distributed to other people, no proper reply to a request for a detailed handover was provided and the Claimant, although instructed to carry out an assessment of all the legal projects that had been underway when she commenced her leave, was in practice unable to carry out this task. In the circumstances this amounted to unfavourable treatment. The reason why she was not able to return to her previous job was the fact that she had taken maternity leave and her work had been redistributed and was not returned to her. This claim succeeds against both the First and Second Respondents as it was clearly the Second Respondent&#8217;s decision that there was no job available for the Claimant upon her return. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">146.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">Failing to provide the Claimant with any meaningful work on her return or access to the First Respondent&#8217;s systems </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">147.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">The first part of this allegation is dealt with above. As to the failure to provide access, it is not unusual for there to be issues around passwords when a member of staff returns to work after a period of absence. This can be quickly rectified although we note that it took a few days in the case of the Claimant. We find that this was as a result of the First Respondent&#8217;s lack of preparation for the Claimant&#8217;s return and was not a deliberate attempt to exclude her because she had taken maternity leave. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">148.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We view the complaint about the lack of access to work folders as more serious. The Respondents have not disputed the fact that the laptop appeared to have been wiped clean upon the Claimant&#8217;s return and partially upheld her grievance upon this ground. Ms Stenina and the Second Respondent speculated as to the reasons why the laptop might have been cleaned (to protect confidential information or provide the laptop for someone else to use) without providing any clear evidence as to the reasons why this was done. We can only conclude that the folders were removed from the laptop and it was returned to factory settings because the Claimant had gone on maternity leave. This factor combined with the fact that the laptop was not restored upon her return plainly amounted to unfavourable treatment. The Claimant was not able to update herself or commence the assessment task that she had been given without it and we note that even on 20 March 2018 this information was not available to her. This significantly curtailed her ability to carry out her job. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">149.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We have noted that another member of staff had taken a copy of the folders whilst the Claimant was on leave. The Claimant had been copied into an email where this instruction was given. However it would not have been surprising if the Claimant had missed this whilst on leave. This also indicates that staff in the office were aware that the folders were available on someone else&#8217;s machine and it begs the question why the files were not restored to the Claimant&#8217;s laptop prior to or very soon after her return. By suggesting that the Claimant could have asked this other member of staff for a copy, the Respondents seem to be placing the burden on the Claimant to sort this matter out. In fact we find that the information had not been provided to the Claimant by the time she went off sick on 21 March 2018. We find that the reason why the folders had been removed was because the Claimant had gone on maternity leave. This claim succeeds against the First Respondent only. There is no suggestion that the Second Respondent ordered the laptop to be wiped clean or that he obstructed the retrieval of the files. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">150.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">The Second Respondent&#8217;s behaviour in the meetings of 26 February 2018 and 13 March 2018. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">151.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We find that the Second Respondent was a &#8216;hands off&#8217; manager who left other members of staff to deal with the detail of day to day matters. During the first meeting the Second Respondent was unaware of the date the Claimant was returning to the office; during the second meeting, he could not understand why she could not get access to her folders or start the assessment task he wanted her to do. We have noted that at points during these meetings the Second Respondent was intimidating and dismissive towards the Claimant when she raised concerns. We find that much of this was related to the Second Respondent&#8217;s management style and was not related to the fact that she had been on maternity leave. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">152.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">However for all the reasons stated above we are concerned that at the meeting on 26 February the Claimant was told there was no work for her to do and that she should look for another job and leave. We find that the Respondents appeared to be suggesting to the Claimant that she should resign within a reasonable period of her return. The Second Respondent had not given any thought to the fact that the Claimant&#8217;s work had been distributed to others whilst she was away, nor had he evaluated what parts of her job remained notwithstanding the changes in the business in the meantime. We find that the statements made to the Claimant amounted to unfavourable treatment and that the reason why these statements were made is the fact that she had been on maternity leave. The reason why the Second Respondent told the Claimant to look for another job is that she had been absent on maternity leave and she would not have been told that in any other situation including a formal redundancy consultation. This claim therefore succeeds to that extent against both the First and Second Respondents.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The next complaint was about the handling of the grievance and grievance appeal.  This failed.  The tribunal considered that the respondents would have handled any other process in the same way, and, while the claimant was treated unfairly in this regard, that was not because she had taken maternity leave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The next complaint was the fourth such complaint to succeed.  This related to not properly consulting with the claimant, not following a fair procedure and not considering ways to avoid redundancy.  The tribunal said: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:11pt">&#8220;156.</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.39in;margin-right:-0.14in;text-indent:0.11in"><span style="font-weight:bold;font-size:11pt">We take allegations 11.6 and 11.7 together and refer to our findings above in relation to unfair dismissal. We have already found that it was unfair and discriminatory to inform the Claimant on 26 February 2018 that there was no longer a job for her. The consultation that commenced at that stage contained a strong element of prejudgment of the situation. We have also found that it was unreasonable not to consider a wider selection pool in this case. The process adopted by the Respondents amounted to unfavourable treatment. We find that the reason for the consultation commencing in this way and the decision to treat her role as a stand-alone post for redundancy, ignoring the fact that work had been dispersed in her absence, is directly related to the fact that she had taken maternity leave. This claim succeeds against the First and Second Respondents.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Three further complaints of discrimination contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> failed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Applying <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Webb v EMO Air Cargo UK Limited</span> (1994) C-32/93; [1994] CIR 770 the tribunal found that the matters in respect of which the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> complaints had succeeded also succeeded as complaints of direction discrimination because of sex under section 13 <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Two complaints of harassment under section 26 of the <span style="font-weight:bold">2010 Act</span> failed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.53in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Grounds of Appeal; Discussion; Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">As I have noted, there is no appeal or cross-appeal by the claimant in respect of the matters in which she was unsuccessful.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Grounds 1 &#8211; 5 of the appeal relate solely to the decision upholding four complaints under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref>, and with that, section 13 of the <span style="font-weight:bold">2010 Act</span>.  Grounds 7 and 8 relate solely to unfair dismissal and, as I will describe, solely to matters going, in the event, to remedy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Mr Welch made an overarching submission in relation to grounds 1 &#8211; 5, that the broad context found by the tribunal was that, by the time that the claimant returned in March 2018, various business activities, in particular in relation to the Russian loan litigation and Uniwheel, were winding down; and that, as of February 2018 the second respondent was considering further winding down the activities of the first respondent.  This was not a case, submitted Mr Welch, where such a picture was painted in evidence by the respondents, but not accepted by the tribunal or found to be a sham.  As found by the tribunal, the claimant&#8217;s return to work had coincided with these developments.  This was the background against which her complaints of treatment contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">sections 18</ref> and 13 fell to be considered.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The headline of ground 1 is that the tribunal applied the wrong legal test when considering whether the less favourable or unfavourable treatment complained about by the claimant was because of maternity or sex.  Mr Welch submitted that, while the tribunal had given itself a correct self-direction as to the legal test, by reference to the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Martinez</span> case, the tribunal failed to apply that test correctly, when it came to reach its conclusions.  In particular, he submitted, it had applied a &#8220;related to&#8221; test, rather than considering, as it should have, whether the conduct in question was &#8220;because&#8221; the claimant had exercised her right to maternity leave.  It had also failed to consider whether the fact that the claimant had taken maternity leave had, whether consciously or not, materially influenced the mind of the decision-maker concerned in relation to each of these matters.  Mr Welch referred to <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Onu v Akwiwu</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/279" uk:canonical="[2014] EWCA Civ 279" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 279</ref>; <ref href="#" uk:canonical="[2014] ICR 571" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] ICR 571</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Mr Welch also submitted that although there were four matters on which the claimant had succeeded, they were all closely factually related and consideration needed to be given to the tribunal&#8217;s overall reasoning.  If it had plainly gone astray in relation to one of them, that contributed to the concern that it had also done so in relation to others.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I will take with ground 1, grounds 4 and 5, which Mr Welch acknowledged argue perversity alternatives in relation to different sub-strands of the subject matter of ground 1.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">My conclusions on these grounds are as follows.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Firstly, I note that the underlying legal principles are well established.  Both <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> and section 13 use the word &#8220;because&#8221;, and the same approach to what may be called the causation test applies in relation to both.  It is an error to apply a &#8220;but for&#8221; test.  Nor would it be sufficient that the fact that the complainant took maternity leave provides the context of, or background to, the impugned conduct.  The conduct must be &#8220;because&#8221; she exercised that right, in the sense that this must have materially influenced the decision, by operating, whether consciously or not, on the mind of the decision-maker.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 18</ref> only requires there to be unfavourable treatment, and not less favourable treatment than an actual or hypothetical comparator as required by section 13.  But that difference does not give rise to any issue in this appeal; and I note that the tribunal in any event focussed on the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> complaint, as will I.  The tribunal correctly concluded that if the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> complaint succeeded, so must the section 13 complaint, in this case.  The two also stand or fall together on appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I keep in mind that the tribunal did state the correct legal test in its own initial self-direction as to the law, and I should be slow to find that it has not then followed its own self-direction in the dispositive part of its reasoning.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I take, first, the first of the four complaints which were upheld.  I have already set out what the tribunal said at [145], in particular: &#8220;The reason why she was not able to return to her previous job was the fact that she had taken maternity leave and her work was redistributed and was not returned to her&#8221;.  This immediately poses a potential difficulty, as the tribunal had properly found that the redistribution of the claimant&#8217;s work, upon her going on maternity leave, was <span style="font-style:italic">not</span> itself a discriminatory act; and the tribunal does not further explain why it has concluded that the reason why she was not able to return to her previous job was the fact that she had taken maternity leave in a sense that would properly found liability under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref>.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Further, as Mr Welch fairly submitted, the tribunal had, in the course of its decision, in particular at [95], made a finding that the second respondent had, in the spring of 2018, reached a  &#8220;genuine view&#8221; that some aspects of the first respondent&#8217;s activities, with which the claimant had been involved, had diminished or were likely to diminish, and he set out his fears about the business at the meeting on 26 February.  Whilst he had come to this conclusion, the tribunal found, with insufficient thought, and, unfairly, without consulting the claimant, those findings would not, as such, support a finding that this conduct was &#8220;because&#8221; the claimant had exercised her right to take maternity leave in the requisite legal sense; and, I agree with Mr Welch, they would tend to point away from such a conclusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I do keep in mind that it is well-established, of course, that the &#8220;because&#8221; test does not require the matter in question to be the sole or main influence on the mind of the discriminator, so long as it is a material contributing influence.  However, for these reasons it appears to me that the tribunal did not address whether, or, if it was in fact its view, explain why, the fact that the second respondent had come to the view that there was no job available for the claimant upon her return, pointed also to the conclusion that he had done so <span style="font-style:italic">because</span> &#8211; in the requisite legal sense &#8211; the claimant had taken maternity leave.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The difficulty with the tribunal&#8217;s reasoning on this first successful complaint is compounded by how it expressed its reasoning on the fourth such complaint, at [156].  There it stated that the reason for the lack of sufficient consultation was &#8220;directly related to the fact that she had taken maternity leave&#8221;.  That is not the correct test.  The conclusion at [156] overlaps factually with, and directly draws upon, the conclusion in relation to the first successful complaint.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I do note that at [116], albeit in the context of its discussion of the unfair dismissal complaint, the tribunal referred to its conclusion that the second respondent&#8217;s conclusion that the claimant&#8217;s role was unique and had disappeared, had been materially influenced by the fact that she had been on maternity leave during which time all her work had been divided up among other staff in the office.  &#8220;Materially influenced&#8221; is a correct statement of the legal test for the purposes of discrimination law; but, once again, what this sentence refers to, in substance, is the claimant&#8217;s work having been divided up among colleagues during her maternity leave, which the tribunal properly found was not an act of discrimination.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">While, in some cases where the tribunal&#8217;s initial self-direction as to the law is correct, a degree of terminological inexactitude in restating the test in later parts of its decision may not be troubling, in this case the factual and legal distinction between something that formed the background or context to the conduct complained of, and conduct that could be, or was, found to be &#8220;because of&#8221; that something, was important and central to the dispute. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I conclude, in relation to both the first and the fourth successful complaints, that the tribunal, at worst, despite its correct self-direction, applied the wrong legal test when reaching its conclusions, or, at best, if it applied its mind to the correct test when considering the conduct in question, and decided it was satisfied, failed to explain why it found that the fact that the claimant had been on maternity leave was more than a but-for cause, or the context, or background, to the conduct in question, and was a material contributing cause.  Either way, the tribunal&#8217;s conclusions in relation to the first and fourth successful complaints under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> and section 13 cannot stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Turning to the second successful complaint under those sections, at [146] to [149], the tribunal&#8217;s conclusion in relation to the removal of the claimant&#8217;s file folders from her laptop was that this was &#8220;because the claimant had gone on maternity leave&#8221;.  While the tribunal here did use the word &#8220;because&#8221;, there is a potential ambiguity, the phrase being &#8220;because the claimant <span style="font-style:italic">had gone on</span> maternity leave&#8221;.  It would not be sufficient had the tribunal concluded that the claimant exercising her right to go on maternity leave was a &#8220;but for&#8221; cause of this conduct, but not in the requisite sense a material operative cause of it.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">On its face, the tribunal appears to have considered that it had not been given a clear explanation for why this had happened, as neither Ms&#160;Stenina nor the second respondent had personally removed the files from the claimant&#8217;s laptop.  So, in the tribunal&#8217;s view, they were only able to speculate about why this had been done.  Although the tribunal does not refer to the statutory shifting of the burden of proof, on a generous reading it might be inferred that it considered that, on this matter, the burden had shifted and not been discharged.  If so, Mr&#160;Welch&#8217;s further criticism, that the tribunal had failed to make a finding of fact about which individual it was who actually took the files off the laptop, would not matter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">However, this ground must be considered together with ground 4, which relates to the same decision and argues that it was perverse, and refers to other features of the evidence in support of that challenge.  First it is said that both Ms&#160;Stenina and the second respondent gave evidence that was not speculative, but was in terms to the effect that the reason that the claimant&#8217;s laptop had been wiped was because the files had been preserved by being copied, and the laptop was then wiped so that it was available to be used by other employees.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Secondly, reliance is placed on an email exchange that was before the tribunal, and that was in my bundle, which took place in April 2017, shortly after the claimant had begun her maternity leave, showing one of her colleagues asking for the person concerned with IT to be directed to assist in copying the files so that she could have access to them in relation to work that she was taking over from the claimant.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Thirdly, the tribunal&#8217;s conclusion is said to conflict with evidence, including documentary evidence, of other emails, and its own findings that when the claimant returned to work and discovered that her laptop had been wiped and files removed, she was given access to those files, albeit after a delay, as well as to her emails, and she was provided with the up-to-date password. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num>55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Fourthly, I was referred to evidence of a transcript of exchanges during the claimant&#8217;s internal grievance hearing, in the course of which she had said that at first her feeling was that this had been done intentionally, but that now her feeling was that it was because of what was put as being a lack of structure &#8211; the sentiment being that this was not a deliberate act, but that the slowness in dealing with the matter was the result of disorganisation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num>56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">In relation to this matter, I consider this ground to be close to the margin.  I cannot go behind the tribunal&#8217;s finding that what the second respondent and Ms&#160;Stenina had to say about this was &#8220;speculative&#8221;; and the specific email in the tribunal&#8217;s bundle that I was shown does not entirely settle the point, because that seems to be addressed to copying of the files for the use of someone else, rather than the reason why the claimant&#8217;s laptop was also wiped once that was done.  I need to be mindful of the fact that I do not have before me all of the evidence that the tribunal had on this subject, and I am not remaking the tribunal&#8217;s findings of fact. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num>57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">However, nor does the tribunal cite section 136 <span style="font-weight:bold">Equality Act</span><span/><span style="font-weight:bold">2010</span> dealing with the statutory shifting of the burden of proof, or say in terms that it is deciding the matter on the basis that the burden of proof has shifted and not been discharged.  It uses the word &#8220;burden&#8221;, but in the quite different sense of saying that the respondents seem to have put the burden on the claimant at the time to sort the matter out.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num>58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I consider that if the tribunal was considering whether the burden of proof had shifted and, upon shifting, not been discharged, it would have been incumbent upon it to engage with the features of the evidence that were pointed out to me, including the email sent in April 2017 and the evidence of what the claimant herself had said about this matter in her internal grievance and the tribunal&#8217;s own findings that, albeit after a delay, the claimant was contacted by the person dealing with IT about sorting these matters out.  The tribunal&#8217;s own findings seem to have been that this matter was put right and that the problem was merely that it was not done as quickly or efficiently as it should have been following the claimant&#8217;s return.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num>59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Having regard to all of that, and placing this finding in the context of the tribunal&#8217;s overall reasoning and the other shortcomings of it that I have described, I have concluded that this ground also succeeds in relation to this aspect of the conduct complained of, as the tribunal&#8217;s decision in relation to it is at best inadequately reasoned and explained.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num>60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Finally under this ground, challenge is made to the tribunal&#8217;s decision on the third successful complaint at [150] to [152].  Once again, the challenge is put in the alternative as perversity, this time by ground 5.  Again, regrettably, the tribunal&#8217;s reasoning is problematic in a number of respects.  At [151] the tribunal itself finds that much of the second respondent&#8217;s behaviour at the meetings on 26 February and 13&#160;March 2018 was related to his management style and <span style="font-style:italic">not</span> to the fact the claimant had been on maternity leave.  This reinforces my misgivings in relation to the conclusions on other complaints.  It also means that the tribunal needed to explain why it nevertheless considered that other aspects of his conduct on those occasions <span style="font-style:italic">were</span> because she had exercised her right to maternity leave.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num>61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Once again, however, the tribunal appears to move from its reasoned conclusion at [152] that the conduct amounted to <span style="font-style:italic">unfavourable</span> treatment, directly to the conclusion that it was <span style="font-style:italic">because</span> the claimant had been on maternity leave, but without further explaining its reasoning.  In particular, it does not explain its conclusion that she would not have been told to look for another job in any other situation, including a formal redundancy consultation; or how that conclusion fitted with its conclusion that the second respondent genuinely believed as of February, that there had been a diminution in work affecting the claimant&#8217;s position.  Once again, in the context of the overall reasoning, the tribunal&#8217;s conclusion here appears to me either to have applied the wrong legal test or to have been insufficiently explained.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num>62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I conclude that ground 1 succeeds in relation to all four of the matters on which the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref>/section 13 complaints succeeded before the tribunal.  I am not persuaded, however, by grounds 4 and 5, that those decisions were perverse.  I cannot say that it would not have been open to the tribunal, on the facts found, to have concluded that the conduct in question <span style="font-style:italic">was</span> materially influenced by the fact that the claimant had exercised her right to maternity leave, although it might fairly be said that that was an ambitious claim.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num>63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Ground 2 asserts that, in relation to the first three matters in respect of which the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> complaint succeeded, the tribunal erred by failing to give any consideration to whether those complaints, as such, were out of time; and hence, if they were, whether to extend time.  These three matters all related to what happened when, or shortly after, the claimant returned from maternity leave.  ACAS early conciliation in respect of the first respondent began on 5 August and ended on 30 August 2018 and in respect of the second respondent began and ended on 3 October.  The claim form was presented on 10 October 2018.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num>64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Mr&#160;Welch&#8217;s short point was that, on any view, the first three matters of conduct complained of occurred or concluded more than three months before not only the claim form was presented but before ACAS early conciliation began in respect of either respondent.  No extension of time to take account of the period of ACAS early conciliation therefore applied; and, as complaints in their own right, all of these matters were out of time.  The tribunal simply failed to address this at all in its decision, notwithstanding that written and oral submissions were made about it.  In any event, said Mr&#160;Welch, this was a jurisdictional question that the tribunal was obliged to consider. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num>65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">In reply, the claimant made a number of points about what was going on during this period and why she did not commence ACAS early conciliation and/or present her claim form sooner than she did.  However, whether or not the tribunal might have been persuaded by such points to extend her time or, indeed, whether or not it might have concluded that these matters, together with other treatment, formed a continuing act of discrimination over time, the difficulty is that it has not addressed the time question at all.  I therefore uphold ground 2, as a further reason why the tribunal erred with respect to the first three of the four <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref>/13 complaints that succeeded.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num>66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I turn to ground 3.  The headline of this ground asserts that the tribunal erred &#8220;by substituting its view for that of the commercial judgment of management that there was work for the claimant to do on her return to the business in February 2018&#8221;.  Mr&#160;Welch confirmed that the sense of this ground was that the tribunal had wrongly substituted its view that there was work for the claimant to do, for management&#8217;s view that there was not.  Whilst this ground uses the language of wrongful substitution, it seems to me that it is, in substance, really a perversity challenge to findings of fact made by the tribunal.  We are not concerned here, for example, with a challenge to a finding of unfair dismissal, to the effect that the tribunal has wrongly substituted its commercial business judgment for that of the respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num>67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Mr&#160;Welch confirmed that there are two places where he says that the tribunal made perverse findings.  The first is at [68] where it says that it does not accept the second respondent&#8217;s evidence that he had concluded that he no longer had a need for a legal project manager, prior to receiving the claimant&#8217;s email of 14 February 2018.  It seems to me that it was for the tribunal to decide whether it accepted the second respondent&#8217;s evidence on that point; and this finding by it is consistent with its findings elsewhere, that he had not given any thought to the claimant or her position and, indeed, had forgotten about her, prior to receiving her email of 14 February 2018, and then only gave thought to these matters thereafter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num>68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The other paragraph relied upon is [74], which discusses what conclusions the second respondent had or had not come to about the various activities of the first respondent, at the time of the meeting on 26&#160;February 2018.  Again, this was matter for the tribunal to make a finding of fact about, having heard the evidence.  [74] is a long paragraph, but the gist is that the tribunal accepted that the second respondent considered that there was a diminution, in particular in the Russian litigation activity and the Uniwheel business activity, and that he was considering further winding down the first respondent&#8217;s activities.  But what the tribunal also found was that he had not at that stage come to a definite conclusion about those activities.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num>69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The material referred to in the remainder of the paragraph was not drawn on in order to impermissibly substitute the tribunal&#8217;s own business view for that of the second respondent, but in support of its conclusions about what it believed that he was thinking at that time.  Those conclusions were properly reached and are, indeed, consistent with the tribunal&#8217;s findings elsewhere about what stage his thought processes had reached in February, and then how they developed over the succeeding months.  Ground 3 is therefore not upheld.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num>70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I turn then to grounds 7 and 8, relating to unfair dismissal.  Ground 7 states that the tribunal erred by finding that it was unfair to have placed the claimant in a pool of one.  Ostensibly that is, as such, a challenge to part of the tribunal&#8217;s reasoning on liability as to why the dismissal was unfair.  But Mr&#160;Welch accepted in argument that, because the tribunal had also found the dismissal to be unfair for other reasons not challenged by this appeal, even if ground 1 were to succeed, the finding that the dismissal was unfair, as such, would stand.  But success on ground 7 could nevertheless have potential implications for remedy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num>71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">There is overlap with ground 8, which is a challenge to the tribunal&#8217;s finding on <span style="font-style:italic">Polkey</span> which, of course, itself goes to remedy; and because the challenge is particularly to the tribunal&#8217;s <span style="font-style:italic">Polkey</span> finding in relation to the alternative scenario of what would have happened had the claimant not been treated unfairly in relation to the question of the pool and/or consideration, through consultation, of alternative employment.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num>72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">In relation to the pool, the challenge argues that there was a failure by the tribunal to take the right approach in principle, as explained by the EAT in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Wrexham Golf Club v Ingham</span> UKEAT/0190/12 and in particular at [25] where in that case it was said:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="Quote" style="margin-left:0.59in;margin-right:0.06in"><span style="font-weight:bold;font-size:10pt">&#8220;At this point the tribunal needed to stop and ask: given the nature of the job&#8230; was it reasonable for the respondent not to consider developing a wider pool of employees?&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaNoNumber" style="margin-right:-0.53in">The submission made by Mr&#160;Welch was that in the present case not only was a pool of one reasonable in the premises, but it was, in fact, the only real option open to the first respondent.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num>73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">However, it seems to me that the tribunal did, as such, give consideration to the question of the pool, as <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ingham</span> indicates that it should have done.  The submission is that the tribunal reached an impermissible <span style="font-style:italic">conclusion</span> that the pool should have been just the claimant.  I drew to Mr&#160;Welch&#8217;s attention that this question has been considered again by the EAT in two recent authorities: <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Mogane v Bradford Teaching Hospitals</span> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/139" uk:canonical="[2022] EAT 139" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 139</ref> and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Teixeira v Zaika Restaurant</span> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/171" uk:canonical="[2022] EAT 171" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 171</ref>.  The short point is that even where the claimant&#8217;s job appears to be uniquely at risk, the tribunal should be cautious before proceeding directly to conclude that it would automatically be fair to place her alone in a pool of one.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num>74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">In the present case, it was the claimant&#8217;s case that consideration should have been given to placing her in a pool with up to five other people who she identified, and the tribunal refers to in its decision, as being the five people who she said had taken on some part of the work previously done by her.  Mr&#160;Welch submits that the tribunal could not properly have so found.  That is because, of these five people, one was the finance director, two were contractors and the remaining two were in lower paid roles, and the tribunal elsewhere found that the claimant was not interested in taking a role of a PA at &#163;25,000 per annum.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num>75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">All of these matters appear to me to have been considered by the tribunal.  It said at [116] that it accepted that there had been a diminution in the work being done by the claimant, but it considered that it would have been reasonable to carry out a wider analysis of who was doing what in the office and the extent to which the claimant&#8217;s role had been absorbed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num>76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Mr&#160;Welch rightly submits that the authorities, including recent decisions of the EAT, indicate that a tribunal should not lightly interfere in the employer&#8217;s judgment on the scope of the pool.  But in the present case the unfairness identified by the tribunal, specifically at [118], was that failure to conduct an evaluation and selection exercise.  It seems to me that the tribunal was not saying that it would necessarily have been wrong for the respondent to have arrived at a pool of one, but that the unfairness lay in that question not having been considered or adequately considered.  The points made by Mr&#160;Welch, in particular about the finance director, and the question of whether the claimant would have taken a job at a lower salary, do not go to the tribunal&#8217;s criticism of the respondents having given insufficient or any attention to the formulation of the pool, as such.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num>77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">In relation to ground 8, this does specifically challenge the tribunal&#8217;s approach, in the <span style="font-style:italic">Polkey</span> section of the decision, to both the pool and suitable alternative employment, leading to its conclusion that the chance that the claimant would have remained in employment in some role, albeit on a lower salary, was 25 percent.  Mr&#160;Welch argues that, on the facts found, this was simply an untenable conclusion.  Again, this is a form of perversity challenge.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num>78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I do not accept that this ground is made out.  In the course of its <span style="font-style:italic">Polkey</span> reasoning, the tribunal made the point at [134] that consideration of the appropriate pool may have resulted in a reorganisation of the office or in a wider pool being created.  It considered the possibility that, even so, the claimant might still have been selected, but properly found that this was not a certainty.  It specifically considered the point that she was one of the highest paid staff and would not have accepted a PA role.  It properly concluded that it was unlikely that she would have accepted a job at a much lower salary.  But it considered that it was not able entirely to rule that out and noted that there was a possibility that a role might have emerged for her if there had been a proper consultation and selection exercise, considering both the work she had been doing and the activities of the office as a whole.  It noted also that the lack of a fair consultation had damaged the relationship and the possibility of constructive dialogue.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num>79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">It seems to me that all of these factors were properly taken into account in an exercise that necessarily, because it dealt with a counterfactual scenario, had an element of speculation about it.  It may at its highest be said that putting the chances as it did, of the claimant having remained in employment in a role with a considerably lower salary, at 25 percent, the tribunal&#8217;s assessment was on the generous side.  But I do not think it can be said that that assessment was one that was untenable having regard to the tribunal&#8217;s consideration of the facts found and evidence available to it.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num>80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Grounds 7 and 8 therefore fail.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1" style="text-align:center;margin-right:-0.53in"><span style="font-weight:bold">(Following further submissions)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num>81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Having upheld grounds 1 and 2 in relation to the four successful complaints under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref>/section 13, I have heard further argument as to the consequential directions that I should give.  Mr&#160;Welch conceded, having regard to my earlier reasons, including that I did not uphold the perversity challenges, that I cannot substitute my own decision that those complaints are bound, on a correct application of the law to the facts, to fail.  Indeed, nor could I substitute my own decision that they are bound to succeed.  Accordingly, they must be remitted to the employment tribunal for further consideration. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num>82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">Mr&#160;Welch submitted that I should direct that they be remitted to a different panel for four reasons.  Firstly, the passage of time is such that the same panel would not have the advantage of a fresh recollection; secondly, there were significant flaws in the decision; thirdly, it would be difficult to have confidence that the tribunal would not be tempted to have a second bite of the cherry; fourthly, Mr&#160;Welch referred to the fact that the claimant had made an application in the run-up to the liability hearing in relation to which correspondence had not been disclosed to the respondents despite further requests for such disclosure prior to the remedy decision.  He said there had also been an application by the respondents that the same tribunal should recuse itself in relation to the remedy hearing which had not been granted.  He also indicated that, were I to direct that the matter should return to the same tribunal, there would be a further application to that tribunal to recuse itself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num>83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">If I agreed that the matter should be remitted to a different tribunal, Mr Welch accepted that it would be bound by the underlying background facts found by the original tribunal, but not, of course, by its conclusions on these four complaints.  He submitted that I should direct that a rehearing of those complaints be on the basis of the same bundle and witness statements, but with a fresh opportunity for witnesses to be cross-examined.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num>84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">The claimant said that the application that she had made had raised matters to do with the intended hearing arrangements and attached sensitive medical evidence; and that, in the event, she had not pursued the application, as it proved unnecessary to do so.  She invited me to direct remission to the same panel, if possible, on the basis of their familiarity with the case, having previously conducted a hearing over four days.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num>85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I do not attach any weight to the claimant&#8217;s pre-hearing application, or the respondents&#8217; recusal application.  I have not seen all the correspondence in relation to these matters and, in any event, I was told that there has been no, or no effective, appeal in relation to the tribunal&#8217;s handling of any of those matters.  Nor would it be appropriate for me to place any weight on the intimation that, were I to direct remission to the same panel, there might be a further application to recuse.  If so, that would be a matter for the tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num>86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">However, I am persuaded for other reasons that, on balance, it would be better to remit these issues to a different tribunal.  In particular, it will be important that both parties have confidence that the tribunal has been able to come to this question afresh.  The tribunal on remission will be bound by the background findings of fact in the first tribunal&#8217;s decision, but will need to give fresh consideration to the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/18" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 18</ref> and section 13 complaints, and, potentially, the related time points.  That should be a relatively short hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num>87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.53in;text-indent:0.5in">I agree in principle that the tribunal should have the same bundles and witness statements of evidence in-chief before it as before, although I do not know whether the claimant&#8217;s evidence addressed the issue of extension of time and I do not preclude the tribunal from permitting her to adduce further evidence in relation to that.  Nor do I preclude the tribunal from permitting fresh cross-examination of the witnesses on the questions that it will need to decide.  Further case management directions will be a matter for the tribunal.  </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

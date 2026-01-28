@@ -1,0 +1,600 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/159"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/159"/>
+	  <FRBRdate date="2023-11-22" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="159"/>
+	  <FRBRname value="Roua Al Taweel v Stichting Female Journalists Network"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/159"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/159"/>
+	  <FRBRdate date="2023-11-22" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/159/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/159/data.xml"/>
+	  <FRBRdate date="2024-11-10T04:02:30" name="transform"/>
+	  <FRBRdate date="2024-11-13T00:38:33" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-11-22" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="ms-roua-al-taweel" href="" showAs="MS ROUA AL TAWEEL"/>
+	<TLCPerson eId="stichting-female-journalists-network" href="" showAs="STICHTING FEMALE JOURNALISTS NETWORK"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-shanks" href="/judge-his-honour-judge-shanks" showAs="HIS HONOUR JUDGE SHANKS"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>159</uk:number>
+	<uk:cite>[2023] EAT 159</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>56eed31a60cab0fe6b687ea5401d3548b56fa3df1e1641f2f1e6af2b175cccb6</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: Arial; font-size: 16pt; }
+#judgment .Heading3 { font-weight: bold; font-family: Arial; font-size: 13pt; }
+#judgment .CoverDesc { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .CoverMain { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .CoverText { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ParaHeading { font-size: 12pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.5in; font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Heading { font-size: 12pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 10pt; }
+#judgment .eMailBlock { text-align: center; font-weight: bold; font-size: 13pt; }
+#judgment .PlainText { font-family: 'Courier New'; font-size: 10pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 13pt; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; color: #000000; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .TitleChar { font-weight: bold; font-family: Cambria; font-size: 16pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .Mention1 { color: #2B579A; background-color: initial; }
+#judgment .PlainTextChar { font-family: 'Courier New'; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt">Judgment approved by the court</span><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Al Taweel v Stitching Female Journalists Network.</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid">[2023] EAT 159</neutralCitation></p>
+      <p class="CoverText">Case No: <docketNumber>EA-2022-001082-BA</docketNumber></p>
+      <p class="CoverMain"><courtType refersTo="#eat">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p class="CoverText">Rolls Building</p>
+      <p class="CoverText">Fetter Lane, London EC4A 1NL</p>
+      <p class="CoverText">Date: <docDate date="2023-11-22" refersTo="#judgment">22/11/2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span>:</p>
+      <p class="CoverMain" style="text-align:center"><judge refersTo="#judge-his-honour-judge-shanks">HIS HONOUR JUDGE SHANKS</judge></p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Between:</span></p>
+      <table uk:widths="1.22in 3.94in 1.19in">
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#appellant" refersTo="#ms-roua-al-taweel" style="font-weight:bold">MS ROUA AL TAWEEL</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#appellant">Appellant</role></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold">- and -</span></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><party as="#respondent" refersTo="#stichting-female-journalists-network" style="font-weight:bold">STICHTING FEMALE JOURNALISTS NETWORK</party></p>
+	  </td>
+	  <td>
+	    <p class="CoverMain" style="text-align:right"/>
+	    <p class="CoverMain" style="text-align:right"><role refersTo="#respondent">Respondent</role></p>
+	    <p class="CoverMain" style="text-align:right"/>
+	  </td>
+	</tr>
+      </table>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Boris Knezevic </span>for the <span style="font-weight:bold">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Mr Paul Smith</span> for the <span style="font-weight:bold">Respondent</span></p>
+      <p style="text-align:center">Hearing dates: 21-22 November 2023</p>
+      <p style="text-align:center">- - - - - - - - - - - - - - - - - - - - -</p>
+      <p class="CoverDesc">JUDGMENT</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY</span></p>
+	    <p><span style="font-weight:bold">TOPICS:</span></p>
+	    <p><span style="font-weight:bold">30A:</span><marker name="tab"/><span style="font-weight:bold">EMPLOYEE, WORKER OR SELF EMPLOYED </span></p>
+	    <p><span style="font-weight:bold">11:</span><marker name="tab"/><span style="font-weight:bold">UNFAIR DISMISSAL</span></p>
+	    <p><span style="font-weight:bold">The C worked for R between 1/3/18 and 30/4/20.  She brought claims of unfair dismissal under sections 98 and 104 ERA, breach of contract and race discrimination and victimisation based on the termination on 30/4/20.</span></p>
+	    <p><span style="font-weight:bold">The ET found that she was working as a self-employed consultant between 1/3/18 and 31/8/18, that there were gaps in her work between 31/8/18 and 31/12/18 which were not the result of a &#8220;temporary cessation of work&#8221;, that she was an employee of R from 1/1/19-31/12/19 and that, because her work was provided through a company she set up of which she was an employee, she ceased to be an employee of R in 2020 by reason of the rule that one employee cannot have two employers simultaneously in respect of the same work.</span></p>
+	    <p><span style="font-weight:bold">Her claims of unfair dismissal under both sections 98 and 104 and breach of contract were accordingly dismissed.  R accepted that she could maintain the claims for race discrimination and victimisation.</span></p>
+	  </content>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold">The EAT decided as follows on C&#8217;s appeal:</span></heading>
+	  <paragraph>
+	    <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold">The finding that C was an employee of her company (and therefore not of R) in 2020 did not have a proper evidential basis: her apparent &#8220;concession&#8221; on the issue was not a proper forensic concession and the ET should have analysed the position as between C and the company objectively in accordance with the usual </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ready Mixed Concrete</span><span style="font-weight:bold"> criteria and the realities on the ground; it was also arguably inconsistent with R&#8217;s concession that she could bring claims in the ET under <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">EqA 2010</ref>;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold">The finding that C was not an employee of R in 2018 but was in 2019 was open to the ET and was consistent with the overall evidence as to how the parties operated from time to time;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-weight:bold;margin-left:0.5in;text-indent:-0.25in">(c)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-weight:bold">Although the issue was not relevant given that the finding that she was not a employee in 2018 was upheld, the ET had approached the question of whether the gaps in work in 2018 were caused by &#8220;temporary cessation of work&#8221; wrongly.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <content>
+	      <p style="margin-left:0.25in"><span style="font-weight:bold">Accordingly the claims of unfair dismissal under section 104 ERA and for breach of contract remained potentially live (but not the claim for unfair dismissal under section 98 because the R had not been an employee for two years) and the question of her employment status in 2020 was remitted to the ET.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-weight:bold">HIS HONOUR JUDGE SHANKS:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">This is an appeal by the Claimant against conclusions of Employment Judge K Andrews sitting in the London South Employment Tribunal following a preliminary hearing dealing with various issues held on 22 July 2022.  In a Judgment sent out on 30 August 2022 the EJ found that the Claimant was an employee of the Respondent only during the period 1 January 2019 to 31 December 2019 and that she could not, therefore, pursue claims of unfair dismissal or breach of contract arising from a claimed dismissal on 30 April 2020. However, claims of race discrimination and victimisation based on that same dismissal and a Respondent&#8217;s Counterclaim were allowed to continue.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="ParaLevel1"><span style="font-weight:bold">THE FACTUAL BACKGROUND</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">The Respondent is a small not for profit organisation founded by Miss Assad based in the Netherlands. It supports women in the media, particularly of late in Syria. The Claimant has  impressive academic qualifications relevant to the work of the Respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">She was first engaged by a fixed term contract from 1 March 2018 to 31 August 2018. That engagement was based on a written contract which described her as a consultant and she was working on a specific pilot project relating to Syria. She was paid a fee, she had no fixed hours and she was given space, as she put it, to carry out her role. The underlying pilot project ended at the same time as the contract and the Claimant accepted in evidence that at that stage there was no obligation on the Respondent to provide any further work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">On 10 September 2018 the Claimant emailed the Respondent a so-called Action Plan that could be used in their proposed seeking of funds for the project to which the pilot related. She was not paid for producing this action plan. However, she provided further help with it and was in due course paid a lump sum for her work on 28 November 2018. Between 28 November and 31 December 2018, she did no paid work for the Respondent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">A second contract was signed covering the period 1 January 2019 to 31 December 2019. In that contract the Claimant was described as a research manager and referred to as an employee. At this stage the Claimant was, as the EJ found, somewhat more integrated into the team and the contract was one of service or employment, a conclusion which is not challenged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">In August 2019 the Claimant had with Miss Assad&#8217;s knowledge set up a company called RouaT Limited. This was on the advice of her accountants for tax purposes as a vehicle for her to provide research services to the Respondent and others. She was the sole director and shareholder of the company. As I describe in more detail below, the EJ also recorded that she was the sole employee of the company. Her tax returns submitted to HMRC showed her as self-employed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">The project she had been engaged on in 2019 continued into 2020, as did her work on it. A draft contract was prepared between the Respondent and the Claimant&#8217;s company to commence on 1 January 2020. The company was described in this draft as a service provider. That first draft was not signed and continued to be the subject of negotiation. Meanwhile nothing changed on the ground save that the compensation package was paid into the Claimant&#8217;s company&#8217;s bank account. At paragraph 36 of the EJ&#8217;s Judgment she recorded this:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">There was no substantial change to the working practices from those of 2019 except that, apart from a couple of small other projects, the Claimant worked exclusively for the Respondent and the availability spreadsheet was replaced with an App in early 2020 for all employees and consultants which recorded all meetings, tasks, etc</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.92in">She also recorded that in March 2020 the Respondent paid for training the Claimant, completed in project management and had at an unspecified date paid for business cards that showed the Claimant as the Respondent&#8217;s representative. My reading of that paragraph is that the Claimant worked more for the Respondent in 2020 than she had previously.  In March 2020 she had an employee performance evaluation, and she was referred to in the summary of the outcome as an employee.</p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">A second draft of the contract I mentioned was produced with more detailed terms which this time described the Respondent as employer and RouaT Limited as employee. Again, it was never signed.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">In response to a query on 17 April 2020 from the Claimant seeking a copy of a signed agreement a third draft was produced. This version stated the period of the contract as being 1 January 2020 to 30 April 2020 and this time described RouaT Limited as a contractor. Following expressions of disappointment from the Claimant at the end date of 30 April 2020 the Respondent confirmed in due course that the contract between the Respondent and RouaT would indeed come to an end on 30 April 2020.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">The Claimant brought proceedings against the Respondent in the ET claiming, as I have already indicated, unfair dismissal both under section 98 and under section 104. She also claimed breach of contract and race discrimination and victimisation arising out of her dismissal on 30 April 2020. It was conceded by the Respondent that she was a &#8220;worker&#8221; and that there was, therefore, jurisdiction to entertain her claims of race discrimination and victimisation under the <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">In order to bring claims of breach of contract or unfair dismissal she had to establish that she was an employee at the date of termination and in order to bring a claim of unfair dismissal under section 98 she also had to establish that she had been employed for two years at the date of termination. So, there were issues before the EJ as to her employment status from time to time and as to continuity. The EJ concluded:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1.04in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.04in;margin-right:-0.53in;text-indent:0.12in">that in 2018 the Claimant was generally self-employed and not an employee and also in any event that there was a clear break in service in late 2018 such that she could not establish two years&#8217; continuous employment;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.04in;text-indent:-0.25in">(2)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.04in;margin-right:-0.53in;text-indent:0.12in">that in 2019 and 2020 there was a contract in the nature of an employment contract between her and the Respondent; but:</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1.04in;text-indent:-0.25in">(3)</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:1.04in;margin-right:-0.53in;text-indent:0.12in">that because of the principle that an employee cannot be employed by two employers at the same time and the fact that she was also an employee of RouaT Limited and paid by it, she could not be an employee of the Respondent in 2020.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.92in">The Claimant appealed against conclusions (1) and (3) and her first four grounds were allowed to a full hearing by Judge Tucker on the sift.  I deal with those four grounds in order. </p>
+	    <p class="ParaLevel1" style="margin-left:0.5in;margin-right:-0.53in;text-indent:-0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ground 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0.5in;margin-right:-0.53in">In this ground the Claimant says that the EJ was wrong to find that she was no longer an employee of the Respondent in 2020 because of the rule recently re-stated in the EAT in a case called <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Patel v Specsavers</span> (Stacey J, 13.9.2019) that one employee cannot simultaneously have two employers. The EJ&#8217;s reasoning in this regard is set out at paragraphs 48, 50 and 51 of the Judgment as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">48.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Consequently, I find that, looking at the nature of the relationship overall between the parties in 2018, the contract between them was not one of service but it had become so in 2019 and 2020. The fact that the 2020 contract was with the Claimant&#8217;s company rather than her personally is not in itself sufficient to dislodge that finding. It does, however, have implications as per the </span><span style="font-style:italic;font-weight:bold;font-size:10pt">Patel</span><span style="font-weight:bold;font-size:10pt"> case as set out below.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:-0.14in"><span style="font-weight:bold;font-size:10pt">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">50.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">On that basis the Claimant could have been an employee of the Respondents from 1 January 2019 to 30 April 2020. However, given the principle confirmed in </span><span style="font-style:italic;font-weight:bold;font-size:10pt">Patel</span><span style="font-weight:bold;font-size:10pt"> that an individual cannot be employed by two employers at the same time in respect of the same work and the fact that the Respondent paid the Claimant&#8217;s company in respect of her work done in 2020 and at that time the Claimant was an employee of that company and paid for that work by it, she cannot also have been an employee of the Respondent during the 2020 contract in respect of the same work.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">51.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.79in;margin-right:-0.14in;text-indent:0.21in"><span style="font-weight:bold;font-size:10pt">Accordingly the Claimant was an employee of the Respondent only for the period 1 January 2019 to 31 December 2019 and only her claim for race discrimination and victimisation may continue. The remaining claims are dismissed.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-right:-0.93in;text-indent:0.5in">In relation to the EJ&#8217;s statement in paragraph 48 that the importation (my word) of the company was not in itself sufficient to dislodge a finding that there was a contract of service between her and the Respondent, Mr Smith for the Respondent very properly drew my attention to an EAT decision called <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Catamaran Cruisers v Williams</span> <ref href="#" uk:canonical="[1994] IRLR 386" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] IRLR 386</ref>. In that case the claimant had after several years as a straightforward employee at the invitation of his employer and on the advice of his accountant set up a company for tax reasons which was paid a fee in respect of his work equivalent to his gross pay. The employer maintained as recorded by the EAT at paragraph 12 of the Judgment that the formation of a limited company had the effect of creating a separate legal entity which operated between the putative employer and the claimant. He, the claimant, was, therefore, trading by means of a limited company, a special entity in law, the existence of which <span style="font-style:italic">ipso facto</span> meant that he could no longer be regarded as an employee of the respondent in the ET. At paragraph 13 the EAT went on:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">There is no rule of law that the importation of a limited company into a relationship such as existed in this case prevents the continuation of a contract of employment. If the true relationship is that of employer and employee it cannot be changed by putting a different label upon it [and then there is a quotation from Lord Denning, MR in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">Massey v Crown Life insurance]</span><span style="font-style:italic;font-weight:bold;font-size:10pt">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">14.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">In our view it is a question of fact in every case whether or not the contract in question is one of service or a contract for services. We accept that the formation of a company may be strong evidence of a change of status but that the fact has to be evaluated in the context of all the other facts as found.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <heading class="ParaLevel1">Then at paragraph 18 the EAT said this:</heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:-0.59in"><marker name="tab"/><span style="font-weight:bold;font-size:10pt">It is clear from the findings of fact that, save for the gross payments made to Mr Williams (that is the claimant) and described as a fee there was no factual change whatsoever in the terms of his employment. It was, in our view, right for the Tribunal in these circumstances to find that he worked for the employer under a contract of service.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:-0.59in"> Accordingly that ground of appeal failed.</p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">Although the EJ in our case did not refer to <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Catamaran Cruisers</span> or analyse the issue in the light of it, it seems to me that her conclusion in paragraph 48 that, absent the &#8220;dual master&#8221; point, the Claimant here would have continued to be an employee of the Respondent in 2020 was probably one that she was entitled to come to even though, as the EAT suggests in the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Catamaran</span><span style="font-style:italic"/> case, the effect of the importation of a limited company is something that requires to be considered as part of the overall factual matrix. Having reached that conclusion (which is not the subject of any appeal), however, the EJ then applied the principle that a servant cannot have two masters to find that the Claimant was no longer employed by the Respondent from the beginning of 2020.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">It had not been maintained on behalf of the Claimant that she was an employee of both the Respondent and her company but nevertheless the EJ proceeded on the basis that she was an employee of her company and, therefore, could not be an employee of the Respondent. The only findings relevant to the conclusion that she was an employee of her own company are at paragraphs 34 and 35 of the EJ&#8217;s Judgment. I have already alluded to them but to give the full picture paragraph 34 says this:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">In August 2019 with Miss Assad&#8217;s knowledge the Claimant set up a company called RouaT Limited on the advice of her accountants for tax purposes. It was a vehicle for her to provide research services as a consultant both to the Respondent and others. The Claimant was the sole director and employee of the company. The Claimant&#8217;s personal tax computations submitted to HMRC show her as self-employed</span><span style="font-size:10pt">.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <heading class="ParaLevel1" style="margin-right:-0.92in">Then paragraph 35 talks about the agreement that was prepared that remained in draft and goes on:</heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">The Claimant continued to work on the project beyond that date. It is clear that both parties had an expectation that the agreement would be finalised and worked under what they expected to be those terms. This included the Respondent paying the Claimant significantly increased compensation package to RouaT Limited&#8217;s bank account rather than her personal account. RouaT Limited then paid that compensation to the Claimant as its own employee.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in">I enquired as to what evidence had been before the ET to support the conclusion stated there twice that she was an employee of her company. It seems from what I was told that the main point relied on by the Respondent was that the company&#8217;s accounts, or Companies House returns, had stated that it had one employee and that the Claimant had accepted in the course of her cross-examination, as she was bound to do, that that was a reference to her.</p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The EJ does not refer to this evidence or to any other relevant answers apparently given by the Claimant on this general topic. Mr Knezevic for the Claimant says that the EJ should not have made a finding that his client was an employee of her company without considering the issue in the way that it is normally considered by an ET when disputed, i.e., by applying the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ready Mixed Concrete</span> criteria, looking at matters objectively and in accordance with the realities on the ground.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">For my part I am not satisfied that there was a proper forensic concession by the Claimant&#8217;s side on this point and I agree with Mr Knezevic that if the EJ was going to make a finding that the Claimant was, indeed, employed in a technical sense by her company she ought to have objectively analysed the position as between the Claimant and her company in accordance with the reality on the ground and made a positive finding on the evidence that she was, indeed, an employee of her company before reaching a conclusion that, while everything else pointed to a contract of employment with the Respondent, she was defeated by the dual employment rule. I therefore consider that the EJ made an error of law here and that the issue of whether the Claimant remained an employee of the Respondent in 2020 should be remitted to the ET to reconsider in the light of this Judgment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">There is another point which occurred to me in preparing for this hearing which I would mention here. The Respondent, as I have said, conceded that the Claimant was at all times a &#8220;worker&#8221; for the purposes of the EqA. In fact, the proper designation is that she was an &#8220;employee&#8221; under the extended definition in section 83 of the EqA which applies for the purposes of Part 5. It may be helpful if I quote section 83, or part of it, at this stage. It is headed <span style="font-style:italic;font-weight:bold">Interpretation and exceptions</span><span style="font-style:italic"/>and 83(2) says this:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">&#8220;Employment&#8221; means -</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-weight:bold;font-size:10pt">(a)</num>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">employment under a contract of employment, a contract of apprenticeship or a contract personally to do work ...</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-right:-0.92in"><marker name="tab"/>Then section 83(4) says this:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">A reference to an employer or an employee or to employing or being employed is &#8230; to be read with sub-sections (2) and (3) ... and a reference to an employer also includes reference to a person who has no employees but is seeking to employ one or more other persons.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p class="ParaLevel1" style="margin-right:-0.93in">Looking at that definition, it seems to me that if it was genuinely conceded by the Respondent that the Claimant was an &#8220;employee&#8221; (or worker) for the purposes of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span>, it would not have been open to them to maintain that she was at the same time an employee, even in the narrower technical sense, of her own company. That would itself be against the dual employer rule.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Mr Smith&#8217;s answer to this point when I put it to him was to say that, in order to come within the extended definition of an &#8220;employee&#8221;, it is not necessary for the contract &#8220;personally to do work&#8221; to be a contract between the worker and the respondent accused of discrimination. However, on considering Part 5 of the EqA, the definition in section 83 and the fact that the rights in section 39 of the EqA are rights specifically against employers as defined, it does not seem to me that that answer can be right.  A claimant under section 39 has to be, in my view, in a contractual relationship with the respondent to the claim. Thus, the Respondent&#8217;s concession that the Claimant is a &#8220;worker&#8221; (as it was put) and that she is accordingly able to make a claim of discrimination against the Respondent does involve, in my view, a concession that there was a contract between the Respondent and the Claimant that she would personally do work. It seems to me that this is arguably inconsistent with her simultaneously being an employee of her own company. I also note in this context that HH Judge Auerbach in a recent case called <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">United Taxis v Comolly </span><ref href="https://caselaw.nationalarchives.gov.uk/eat/2023/93" uk:canonical="[2023] EAT 93" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EAT 93</ref> said this at paragraph 48:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">In this case, however, the Tribunal reached a conclusion that when carrying out a job conveying a United Taxis customer, Mr Comolly was both an employee of Mr Tidman and a worker of United Taxis. It found that he was both things in respect of the same work at the same time. It erred in failing to grapple with the dual employment issue. Nor, in the light of the authorities, can I see any basis on which it could properly have found that Mr Comolly was in respect of the same work at the same time a worker (whether or not also an employee of both United Taxis and Mr Tidman.)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in">It seems to me that this point may be one that needs considering by the ET on the remittal.</p>
+	    <p class="ParaLevel1" style="margin-right:-0.93in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ground 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">Ground 2 is that the conclusion of the EJ on who was the Claimant&#8217;s employer was contrary to public policy and common sense. In light of my conclusion on Ground 1 I do not need to consider this ground in detail, but I do not think in itself it provides a proper ground for appeal. The only public policy apparently relied on is that workers should not be deprived of the protections which Parliament has intended them to receive under the <span style="font-weight:bold">Employment Rights Act</span>. As I pointed out in argument, not all workers are entitled to those protections and this is for all sorts of reasons including that they are not an employee of the person they are claiming against or that they have not been employed for long enough. Just because a worker has identified a possible respondent to claim against does not mean that she must be entitled to claim under the ERA. If the true position in this case is that, for whatever reason, the Claimant was no longer an employee of the Respondent in 2020, she cannot bring a claim of unfair dismissal against the Respondent.  Public policy does not require the Tribunal to say that she can just because there is no one else she can claim against.  I therefore dismiss ground 2.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ground 3</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">In ground 3 the Claimant challenges the EJ&#8217;s finding that whilst she was an employee of the Respondent in 2019, she was not an employee in 2018. The relevant findings of the EJ on this were at paragraphs 47a to e and 48. Paragraph 47 says this:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">a.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">Turning to other circumstances of the relationship I note in particular the terminology used in the various contracts is of limited, if any relevance, it varies from version to version but neither party had any particular understanding of its significance, nor was using it in a considered way.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">b.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">Similarly, the tax status of the Claimant in itself does not assist in determining her status;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">c.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">The Claimant was effectively paid for any sick and holiday absences throughout all the contracts, her expenses were paid and she assumed no financial risk throughout;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">d.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">In 2018 the Claimant operated in a way consistent with a genuine self-employed consultant (task based with no required hours of work);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">e.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0.41in"><span style="font-weight:bold;font-size:10pt">In 2019 and 2020, however, the Claimant progressively increased the amount of time she dedicated to the Respondent and became noticeably more integrated into the organisation in comparison to the arrangements in 2018. From 2019 onwards she became a member of the core team, attended weekly meetings, was allocated a Respondent email address, represented the Respondent externally and attended training paid for by the Respondent.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_13">
+	  <heading class="ParaLevel1" style="margin-right:-0.92in">Paragraph 48 says, as I have already quoted:</heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in;text-indent:0in"><span style="font-weight:bold;font-size:10pt">Consequently I find that, looking at the nature of the relationship overall of the parties in 2018 the contract between them was not one of service but it had become so in 2019 and 2020.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in">I also refer back to earlier factual findings.  At paragraph 21 the judge had recorded that the Claimant was engaged on a fixed term contract which was headed <span style="font-style:italic">Consultancy Agreement</span> and described her as a consultant. At paragraph 22 they recorded that she had no fixed working hours during this contract and it was &#8220;task based&#8221; and she used her personal email address for communications.  Further, at paragraph 30 the Tribunal recorded that in the 2019 agreement she was referred to as an employee. In paragraph 33 they record that she managed a team of researchers and represented the Respondent externally, both in person and on social media. In comparison to 2018 the Claimant was required to work full time fixed hours and was given the Respondent&#8217;s email address.  Those were all relevant findings.</p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-right:-0.93in;text-indent:0.5in">Mr Knezevic referred me to the case of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Nethermere v Gardner</span> <ref href="#" uk:canonical="[1984] ICR 612" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] ICR 612</ref> where at page 634 Dillon LJ, said this:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.59in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">For my part I would accept that an arrangement under which there was never any obligation on the outworkers to do work or on the company to provide work could not be a contract of service, but the mere fact that the outworkers could fix their own hours of work, could take holidays and time off when they wished and could vary how many garments they were willing to take on any day, or even to take none on a particular day, while undoubtedly factors for the Industrial Tribunal to consider in deciding whether or not there was a contract of service do not as a matter of law negative the existence of such a contract.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in">It is plain from that quotation that the matters which this EJ took into account in deciding on employment status in 2018 and 2019 respectively were, indeed, factors to consider. It seems to me that the EJ was perfectly entitled to take them and some of the other points I have mentioned into account and to reach the conclusion that the Claimant was not an employee in 2018 although that position had changed by 2019. </p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in;text-indent:0.5in">I therefore reject this ground of appeal. The result of that is that on no basis could the Claimant bring a section 98 unfair dismissal claim because she would not have the requisite two years&#8217; service.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ground 4</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in;text-indent:0.5in">Ground 4 relates to the decision on continuity and is, therefore, irrelevant in light of my decision on ground 3 but I will briefly consider it in any event. The EJ found that the Claimant was working for the Respondent from 1 March 2018 to 31 August 2018, working for the Respondent during October and November 2018, and then working for the Respondent from 1 January 2019 to 30 April 2020. Mr Smith expressly accepts that the breaks in continuity in September 2018 and December 2018 were on account of a &#8220;&#8230; cessation of work&#8221; (to quote the relevant words in section 212(3)(b) of the ERA); the issue was whether those breaks were &#8220;temporary&#8221; cessations of work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.93in;text-indent:0.5in">The relevant authority here is a case called <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sillars v Charrington</span> <ref href="#" uk:canonical="[1984] ICR 475" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] ICR 475</ref>, a decision of the Court of Appeal which itself refers to a House of Lords decision, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Ford v Warwickshire</span> <ref href="#" uk:canonical="[1983] ICR 273" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1983">[1983] ICR 273</ref> and another Court of Appeal case, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Flack v Kodak</span><span style="font-style:italic"/><ref href="#" uk:canonical="[1986] ICR 775" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] ICR 775</ref>. It is established law that the word &#8220;temporary&#8221; in section 212(3)(b) means lasting only a &#8220;relatively short time&#8221;.  Relatively in this context means relative to the whole period of work and the matter is to be judged looking back from the end of the period. In the process of looking back &#8220;all relevant factors&#8221; are to be taken into account. In the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Flack v Kodak</span> case Sir John Donaldson MR, stated that these factors would include &#8220;where this is known, the expectations of both employer and employee at the time when the absence began that the cessation of work would only be &#8216;for a relatively short time&#8217;&#8221; (see the quotation at page 484D of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Sillars</span>).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <intro>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.93in;text-indent:0.5in">The EJ in this case addressed the issue at paragraph 49 of the Judgment in these terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.5in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">Further, even if I am wrong about the nature of the 2018 contract, there was a clear break in service between the end of that on 31 August 2018 and the remunerated work done under a separate agreement in October/November 2018 and then again until 1 January 2019.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.49in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">In all the circumstances, particularly the fact that the 2018 contract related to a self-contained pilot project conditional upon specific funding and had an end date clearly specified in advance I do not find that the gaps since September to December 2018 were temporary cessations of work notwithstanding that all the Claimant&#8217;s work related to the same general theme of representation of women in the media.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_17">
+	  <heading class="ParaLevel1" style="margin-right:-0.92in">I am afraid that the fact that the 2018 contract was a fixed term contract was irrelevant given that the absence of work from the end of that fixed term contract was accepted to be on account of a cessation of work. Further, the judge failed to carry out an exercise of looking back and considering the gaps in the context of the whole of the work the Claimant had done for the Respondent. Further, if she had considered the expectations of the parties in August 2018 in this context, she should have referred back to her finding at paragraph 24 of the Judgment which was that:</heading>
+	  <paragraph>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.49in;margin-right:-0.53in"><span style="font-weight:bold;font-size:10pt">On conclusion of the 2018 contract the underlying pilot project also concluded. Although there was a hope, and perhaps even an expectation, that it would lead to a follow up, larger project, that was not a certainty and was dependent upon funding being secured. The claimant accepted in her evidence that at that stage there was no obligation on the respondent to provide further work to her.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">In all those circumstances I do not consider that the EJ approached the issue of whether the cessations of work were temporary in the correct way, and I would have allowed this ground of appeal if it were still relevant.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p class="ParaLevel1" style="margin-right:-0.92in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0in;margin-right:-0.92in;text-indent:0.5in">I therefore allow ground 1 and will remit the issue of whether the Claimant was an employee of the Respondent in 2020 to the ET.  I dismiss all the other grounds of appeal. I will hear the parties on whether the issue should be remitted to EJ K Andrews or to some other EJ and whether any further directions are required.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1482 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/27"/>
+	  <FRBRdate date="2021-07-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="27"/>
+	  <FRBRname value="A and B v Criminal Injuries Compensation Authority and another"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/27"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/27"/>
+	  <FRBRdate date="2021-07-09" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/27/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/27/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:49:41" name="transform"/>
+	  <FRBRdate date="2024-01-23T09:41:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-07-09" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-and-b" href="" showAs="A and B"/>
+	<TLCPerson eId="criminal-injuries-compensation-authority-and-another" href="" showAs="Criminal Injuries Compensation Authority and another"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2021</uk:year>
+	<uk:number>27</uk:number>
+	<uk:cite>[2021] UKSC 27</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>c73af9129aa2dae454755d05d169a87ef01a549e54ae5085536a121c34afb7a5</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Header { font-family: Univers; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .ParaHeading { font-style: italic; font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1.00in; font-weight: bold; font-size: 13pt; }
+#judgment .ParaNoNumber { text-align: justify; font-size: 13pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.00in; font-size: 13pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.49in; font-size: 13pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 0.98in; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-size: 13pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .Quote { text-align: justify; margin-left: 0.50in; margin-right: 0.50in; font-size: 13pt; }
+#judgment .NewSpeech { font-style: normal; font-weight: bold; text-transform: uppercase; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-size: 18pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .BalloonText { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .HeaderChar { font-family: Univers; font-size: 12pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .QuoteChar { font-size: 13pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .costarpage2 { font-weight: bold; color: #3C6848; }
+#judgment .UnresolvedMention1 { color: #605E5C; background-color: initial; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <block name="restriction" style="text-align:justify"><span style="font-weight:bold;font-family:Garamond;font-size:13pt;color:#FF0000">THE COURT ORDERED that no one shall publish or reveal the names or addresses of the Appellants who are the subject of these proceedings or publish or reveal any information which would be likely to lead to the identification of the Appellants or of any members of their family in connection with these proceedings.</span></block>
+      <p style="text-align:right"><img src="image1.png" style="width:1.3756944444444446in;height:1.3756944444444446in;"/></p>
+      <p style="text-align:right"><span style="font-weight:bold">Trinity Term</span></p>
+      <p style="text-align:right"><neutralCitation style="font-weight:bold">[2021] UKSC 27</neutralCitation></p>
+      <p style="text-align:right"><span style="font-style:italic">On appeal from: [2018] EWCA Civ 1534</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:20pt">JUDGMENT</span></p>
+      <table uk:widths="6.23in">
+	<tr>
+	  <td>
+	    <p class="Title1" style="margin-left:0.06in"><party as="#appellant" refersTo="#a-and-b" style="font-size:20pt">A and B</party><span style="font-size:20pt"> (</span><role refersTo="#appellant" style="font-size:20pt">Appellants</role><span style="font-size:20pt">) </span><span style="font-style:italic;font-size:20pt">v</span><span style="font-size:20pt"/><party as="#respondent" refersTo="#criminal-injuries-compensation-authority-and-another" style="font-size:20pt">Criminal Injuries Compensation Authority and another</party><span style="font-size:20pt"> (</span><role refersTo="#respondent" style="font-size:20pt">Respondents</role><span style="font-size:20pt">)</span></p>
+	    <p/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">before </span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Lloyd-Jones</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lady Arden</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Hamblen</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Burrows</span></p>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:17pt">Lord Stephens</span></p>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:18pt">JUDGMENT GIVEN ON</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><docDate date="2021-07-09" refersTo="#judgment" style="font-weight:bold;font-size:18pt">9 July 2021</docDate></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:justify"/>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-weight:bold;font-size:15pt">Heard on 11 November 2020</span></p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 1.97in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Appellants</span></p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Respondents</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Phillippa Kaufmann QC</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Ben Collins QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">Shu Shin Luh</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Robert Moretto</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center">(Instructed by Leigh Day (London))</p>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by The Government Legal Department)</p>
+	  </td>
+	</tr>
+      </table>
+      <table uk:widths="1.95in 2.00in 1.97in">
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"><span style="font-style:italic">Intervener (ATLEU)</span></p>
+	    <p style="text-align:center"><span style="font-style:italic">(written submissions only)</span></p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Karon Monaghan QC</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">James Robottom</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">Admas Habteslasie</p>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p style="text-align:center">(Instructed by Freshfields Bruckhaus Deringer LLP (London))</p>
+	  </td>
+	</tr>
+      </table>
+      <p><span style="font-weight:bold">Respondents:</span></p>
+      <p>(1)<marker name="tab"/>Criminal Injuries Compensation Authority</p>
+      <p>(2)<marker name="tab"/>Secretary of State for Justice</p>
+      <p><span style="font-weight:bold">Intervener:</span></p>
+      <p>(1)<marker name="tab"/>Anti Trafficking and Labour Exploitation Unit</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD LLOYD-JONES: (<span style="text-transform:none">with whom Lady Arden, Lord Hamblen, Lord Burrows and Lord Stephens agree)</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">1.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Supreme Court is asked to decide whether excluding the appellants, A and B, who are victims of human trafficking, from compensation under the 2012 iteration of the Criminal Injuries Compensation Scheme (&#8220;the CICS&#8221;) on the ground of their previous criminal convictions unjustifiably discriminates against them, in breach of article 14 taken with article 4 of the European Convention on Human Rights (&#8220;ECHR&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">2.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants are twin brothers and Lithuanian nationals who grew up in State care in Lithuania. The first appellant, A, was convicted of burglary in June 2010 by a Lithuanian court and was sentenced to a three-year custodial sentence. The second appellant, B, was convicted of theft in December 2011 by a Lithuanian court and was sentenced to an 11-month custodial sentence. In 2013 they were trafficked from Lithuania to the United Kingdom and subjected to labour exploitation and abuse. Their treatment between 1 June 2013 and 30 October 2013 constituted criminal offences for which, on 22 January 2016, the traffickers responsible were convicted and were each sentenced to a custodial term of three and a half years. Slavery and trafficking prevention orders were made under the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/30" uk:canonical="2015 c. 30" uk:origin="TNA" uk:type="legislation">Modern Slavery Act 2015</ref>. The appellants&#8217; status as victims of trafficking and modern slavery is not disputed and is confirmed in decisions made by the National Crime Agency on 25 and 26 November 2013.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">3.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 16 June 2016 the appellants applied to the first respondent, the Criminal Injuries Compensation Authority, for compensation under the CICS but on 7 July 2016 they were refused an award pursuant to the exclusionary rule contained in paragraph 26 and Annex D, paragraph 3 of the CICS (&#8220;the exclusionary rule&#8221;), as they each had an unspent conviction which resulted in a custodial sentence. Under the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/53" uk:canonical="1974 c. 53" uk:origin="TNA" uk:type="legislation">Rehabilitation of Offenders Act 1974</ref> neither of the appellants&#8217; convictions in Lithuania was spent at the time of their applications for compensation. A&#8217;s conviction for burglary became spent in June 2020. B&#8217;s conviction for theft became spent on 11 November 2016. The effect of the exclusionary rule was, therefore, that the appellants were automatically disqualified from receiving an award under the CICS.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">4.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 7 October 2016 the appellants brought judicial review proceedings to challenge the lawfulness of the exclusionary rule disqualifying them from receiving an award of compensation by virtue of the existence of unspent convictions which resulted in a custodial sentence or a community order.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">5.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The substantive judicial review application was heard by Wilkie J on 13 and 14 December 2017. It was heard at the same time as an application by Mr McNiece which also challenged the exclusionary rule. Mr McNiece, who was not a victim of trafficking, challenged the rule as a breach of Article 1 Protocol 1 ECHR and as discrimination in violation of article 14 ECHR when read with Article 1 Protocol 1. The appellants raised the same general grounds but also argued that the exclusionary rule was incompatible with the State&#8217;s obligations towards victims of trafficking (1) under article 17 of Parliament and Council Directive 2011/36/EU of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims (&#8220;the EU Directive&#8221;) and (2) under Article 1 Protocol 1 ECHR read with article 4 ECHR.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">6.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Wilkie J delivered his judgment on 12 January 2017 <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2017/2" uk:canonical="[2017] EWHC 2 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 2 (Admin)</ref>. He accepted for the purposes of argument that the right to compensation as a victim of a crime of violence fell within the ambit of Article 1 Protocol 1 and that a person having a relevant unspent conviction had an &#8220;other status&#8221; for the purposes of article 14 ECHR. However, he dismissed the claim that the exclusionary rule constituted discrimination contrary to article 14 against victims of crimes of violence who had unspent convictions. He also dismissed the claim that the exclusionary rule was a breach of Article 1 Protocol 1 or article 4 ECHR. In addition, the appellants&#8217; claim that the CICS constituted a violation of the EU Directive was also dismissed. He granted permission to appeal to the Court of Appeal. Only the appellants pursued an appeal. Mr McNiece did not do so.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">7.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Before the Court of Appeal, the appellants&#8217; amended grounds of appeal raised two grounds. First, they maintained that the CICS is incompatible with article 17 of the EU Directive because it mandatorily excludes some victims of trafficking from an award by virtue of their unspent convictions. Secondly, they maintained that such a rule constituted discrimination contrary to article 14 read with article 4 ECHR. On 3 July 2018, the Court of Appeal (Gross, Sharp and Flaux LJJ) dismissed the appeal on both grounds <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/1534" uk:canonical="[2018] EWCA Civ 1534" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 1534</ref>; <ref href="#" uk:canonical="[2018] 1 WLR 5361" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 1 WLR 5361</ref>. In relation to the ground alleging discrimination contrary to article 14 the Court of Appeal found it unnecessary to reach a final conclusion as to whether the terms of access to the CICS fell within the ambit of article 4 ECHR, but proceeded on the assumption that they do. The Court of Appeal held that the appellants, by reason of their unspent convictions of the relevant kind, enjoyed an &#8220;other status&#8221; for the purposes of article 14 ECHR. However, the Court of Appeal held that the discriminatory effect of the exclusionary rule was justified with the result that there was no violation of article 14 ECHR. The Court of Appeal also dismissed the claim that the CICS constituted a violation of the EU Directive.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">8.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On 6 November 2019 the Supreme Court granted the appellants permission to appeal on the ground that the exclusionary rule constitutes unjustified discrimination in breach of article 14 read with article 4 ECHR.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Legal provisions</span></p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="margin-left:0.50in">Criminal Injuries Compensation Scheme</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">9.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The CICS is a statutory scheme made by the second respondent, the Secretary of State for Justice, pursuant to the <ref href="http://www.legislation.gov.uk/id/ukpga/1995/53" uk:canonical="1995 c. 53" uk:origin="TNA" uk:type="legislation">Criminal Injuries Compensation Act 1995</ref> (&#8220;<ref href="http://www.legislation.gov.uk/id/ukpga/1995/53" uk:canonical="1995 c. 53" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref>&#8221;). <ref href="http://www.legislation.gov.uk/id/ukpga/1995/53" uk:canonical="1995 c. 53" uk:origin="TNA" uk:type="legislation">The 1995 Act</ref> was passed following the United Kingdom&#8217;s ratification of and the entry into force of the European Convention on the Compensation of Victims of Violent Crimes 1983. By article 1 contracting states undertake to take the necessary steps to give effect to the principles set out in Part I of that Convention including the following set out in article 2:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;1.<marker name="tab"/>When compensation is not fully available from other sources the state shall contribute to compensate:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">a.<marker name="tab"/>those who have sustained serious bodily injury or impairment of health directly attributable to an intentional crime of violence;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">b.<marker name="tab"/>the dependants of persons who have died as a result of such crime.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">2.<marker name="tab"/>Compensation shall be awarded in the above cases even if the offender cannot be prosecuted or punished.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Article 8 recognises that the State may reduce or refuse compensation in certain cases. It provides that:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;1.<marker name="tab"/>Compensation may be reduced or refused on account of the victim&#8217;s or the applicant&#8217;s conduct before, during or after the crime, or in relation to the injury or death.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">2.<marker name="tab"/>Compensation may also be reduced or refused on account of the victim&#8217;s or the applicant&#8217;s involvement in organised crime or his membership of an organisation which engages in crimes of violence.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">3.<marker name="tab"/>Compensation may also be reduced or refused if an award or a full award would be contrary to a sense of justice or to public policy (ordre public).&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">10.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in"><ref href="http://www.legislation.gov.uk/id/ukpga/1995/53/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 1(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/53" uk:canonical="1995 c. 53" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref> sets out the duties of the Secretary of State in respect of arrangements for a compensation scheme. It provides that the Secretary of State:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;shall make arrangements for the payment of compensation to, or in respect of, persons who have sustained one or more criminal injuries.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">By <ref href="http://www.legislation.gov.uk/id/ukpga/1995/53/section/1/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(2)</ref>:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Any such arrangements shall include the making of a scheme providing, in particular, for -</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>the circumstances in which awards may be made; and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>the categories of person to whom awards may be made.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber"><ref href="http://www.legislation.gov.uk/id/ukpga/1995/53/section/3/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 3(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/53" uk:canonical="1995 c. 53" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref> provides that the compensation scheme may, in particular, include provision &#8220;as to the circumstances in which an award may be withheld or the amount of compensation reduced&#8221;.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">11.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="background-color:#FFFFFF"><ref href="http://www.legislation.gov.uk/id/ukpga/1995/53/section/11" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 11</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1995/53" uk:canonical="1995 c. 53" uk:origin="TNA" uk:type="legislation">the 1995 Act</ref> provides:</span></p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;(1)<marker name="tab"/>Before making the Scheme, the Secretary of State shall lay a draft of it before Parliament.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">(2)<marker name="tab"/>The Secretary of State shall not make the Scheme unless the draft has been approved by a resolution of each House.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The CICS was made in accordance with this procedure, following a consultation in 2012. It came into force in November 2012.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">12.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Compensation may be awarded to victims of trafficking who have suffered a criminal injury directly attributable to a crime of violence in accordance with the terms of the CICS. The CICS provides in relevant part:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;10.<marker name="tab"/>A person is eligible for an award under this Scheme only if:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">[&#8230;]</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>one of the conditions in paragraph 13 is satisfied in relation to them on the date of their application under this Scheme.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">[&#8230;]</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">13.<marker name="tab"/>The conditions referred to in paragraph 10(c) are that the person has:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>been referred to a competent authority as a potential victim of trafficking in human beings; or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>made an application for asylum under Immigration Rules made under <ref href="http://www.legislation.gov.uk/id/ukpga/1971/77/section/3/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 3(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1971/77" uk:canonical="1971 c. 77" uk:origin="TNA" uk:type="legislation">Immigration Act 1971</ref>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">[&#8230;]</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">16.<marker name="tab"/>In paragraphs 13 and 15:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>a person is conclusively identified as a victim of trafficking in human beings when, on completion of the identification process required by article 10 of the Council of Europe Convention against Trafficking in Human Beings (CETS No 197, 2005), a competent authority concludes that the person is such a victim;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>&#8216;competent authority&#8217; means a person who is a competent authority of the United Kingdom for the purpose of that Convention; and</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>&#8216;victim of trafficking in human beings&#8217; has the same meaning as under that Convention.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">13.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Paragraph 87 of the CICS provides that claims for compensation must be made &#8220;as soon as reasonably practicable after the incident giving rise to the criminal injury to which it relates, and in any event within two years after the date of that incident.&#8221; However, under paragraph 89, a claims officer has discretion to extend the two-year time limit where the officer is satisfied that: (a) due to exceptional circumstances the applicant could not have applied earlier; and (b) the evidence presented in support of the application means that it can be determined without further extensive enquiries.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">14.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The exclusionary rule which excluded the appellants from receiving an award is to be found in paragraph 26 and Annex D of the CICS. Paragraph 26 provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Annex D sets out the circumstances in which an award under this Scheme will be withheld or reduced because the applicant to whom an award would otherwise be made has unspent convictions.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Annex D provides in relevant part:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in;margin-right:0.41in">&#8220;2.<marker name="tab"/>Paragraphs 3 to 6 do not apply to a spent conviction. &#8216;Conviction&#8217;, &#8216;service disciplinary proceedings&#8217;, and &#8216;sentence&#8217; have the same meaning as under the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/53" uk:canonical="1974 c. 53" uk:origin="TNA" uk:type="legislation">Rehabilitation of Offenders Act 1974</ref>, and whether a conviction is spent, or a sentence is excluded from rehabilitation, will be determined in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1974/53" uk:canonical="1974 c. 53" uk:origin="TNA" uk:type="legislation">that Act</ref>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">3.<marker name="tab"/>An award will not be made to an applicant who on the date of their application has a conviction for an offence which resulted in:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>a sentence excluded from rehabilitation;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>a custodial sentence;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>a sentence of service detention;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(d)<marker name="tab"/>removal from Her Majesty&#8217;s service;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(e)<marker name="tab"/>a community order;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(f)<marker name="tab"/>a youth rehabilitation order; or</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.50in">(g)<marker name="tab"/>a sentence equivalent to a sentence under sub-paragraphs (a) to (f) imposed under the law of Northern Ireland or a member state of the European Union, or such a sentence properly imposed in a country outside the European Union.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">4.<marker name="tab"/>An award will be withheld or reduced where, on the date of their application, the applicant has a conviction for an offence in respect of which a sentence other than a sentence specified in paragraph 3 was imposed unless there are exceptional reasons not to withhold or reduce it.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">5.<marker name="tab"/>Paragraph 4 does not apply to a conviction for which the only penalty imposed was one or more of an endorsement, penalty points or a fine under Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1988/53" uk:canonical="1988 c. 53" uk:origin="TNA" uk:type="legislation">Road Traffic Offenders Act 1988</ref>.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">6.<marker name="tab"/>Paragraphs 3 and 4 do not apply in relation to a sentence under the law of a country outside the United Kingdom for conduct which on the date of conviction did not constitute a criminal offence under the law of any part of the United Kingdom.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Council of Europe Convention on Action against Trafficking in Human Beings</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">15.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The Council of Europe Convention on Action against Trafficking in Human Beings, Warsaw, 16 May 2005 (&#8220;ECAT&#8221;) sets out the purposes of ECAT in article 1, as follows:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;a.<marker name="tab"/>to prevent and combat trafficking in human beings, while guaranteeing gender equality;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">b.<marker name="tab"/>to protect the human rights of the victims of trafficking, design a comprehensive framework for the protection and assistance of victims and witnesses, while guaranteeing gender equality, as well as to ensure effective investigation and prosecution;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">c.<marker name="tab"/>to promote international cooperation on action against trafficking in human beings.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Article 2 confirms that ECAT &#8220;shall apply to all forms of trafficking in human beings, whether national or transnational, whether or not connected with organised crime.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Article 3 sets out the non-discrimination principle. It provides that:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The implementation of the provisions of [ECAT] by Parties, in particular the enjoyment of measures to protect and promote the rights of victims, shall be secured without discrimination on any ground such as sex, race, colour, language, religion, political or other opinion, national or social origin, association with a national minority, property, birth or other status.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">16.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 15 of ECAT addresses compensation and legal redress. It provides in relevant part:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;3.<marker name="tab"/>Each Party shall provide, in its internal law, for the right of victims to compensation from the perpetrators.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">4.<marker name="tab"/>Each Party shall adopt such legislative or other measures as may be necessary to guarantee compensation for victims in accordance with the conditions under its internal law, for instance through the establishment of a fund for victim compensation or measures or programmes aimed at social assistance and social integration of victims, which could be funded by the assets resulting from the application of measures provided in article 23.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Article 23 addresses sanctions and other measures.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">17.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 26 is headed &#8220;Non-punishment provision&#8221; and provides:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Each Party shall, in accordance with the basic principles of its legal system, provide for the possibility of not imposing penalties on victims for their involvement in unlawful activities, to the extent that they have been compelled to do so.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">18.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 40(1) provides that ECAT &#8220;shall not affect the rights and obligations derived from other international instruments to which Parties to [ECAT] are Parties or shall become Parties and which contain provisions on matters governed by [ECAT] and which ensure greater protection and assistance for victims of trafficking.&#8221;</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading" style="text-align:justify">EU Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">19.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In April 2011, the European Union adopted the EU Directive, which builds on the obligations set out in ECAT to provide an EU framework for protecting and promoting the rights of victims of trafficking. Recital (1) records, inter alia, that human trafficking is a serious crime, a gross violation of fundamental rights and that combating trafficking is a priority for the European Union and its member states. Recital (7) notes that the EU Directive adopts &#8220;an integrated, holistic, and human rights approach&#8221; to the fight against human trafficking. Recital (18) emphasises that it is necessary for victims of human trafficking to be able to exercise their rights &#8220;effectively&#8221;:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Therefore assistance and support should be available to them before, during and for an appropriate time after criminal proceedings. Member states should provide for resources to support victim assistance, support and protection. &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Recital (19) provides that victims of trafficking should be given access without delay to legal counselling and, in accordance with the role of victims in the relevant justice systems, to legal representation, including for the purpose of claiming compensation.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">20.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 8 (Non-prosecution or non-application of penalties to the victim) provides that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Member states shall, in accordance with the basic principles of their legal systems, take the necessary measures to ensure that competent national authorities are entitled not to prosecute or impose penalties on victims of trafficking in human beings for their involvement in criminal activities which they have been compelled to commit as a direct consequence of being subjected to any of the acts referred to in article 2 [ie trafficking offences].&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Article 17 (Compensation to victims) provides:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Member states shall ensure that victims of trafficking in human beings have access to existing schemes of compensation to victims of violent crimes of intent.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">European Convention on Human Rights</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">21.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants claim that the exclusionary rule constitutes unjustified discrimination contrary to articles 4 and 14 ECHR, which provide respectively:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:0.00in">Article 4 (Prohibition of slavery and forced labour)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;1.<marker name="tab"/>No one shall be held in slavery or servitude.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">2.<marker name="tab"/>No one shall be required to perform forced or compulsory labour.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:0.00in">Article 14 (Prohibition of discrimination)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The enjoyment of the rights and freedoms set forth in this Convention shall be secured without discrimination on any ground such as sex, race, colour, language, religion, political or other opinion, national or social origin, association with a national minority, property, birth or other status.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Discrimination under article 14 ECHR</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">22.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In<span style="font-style:italic"> R (DA) v Secretary of State for Work and Pensions (Shelter Children&#8217;s Legal Services intervening)</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2019/21" uk:canonical="[2019] UKSC 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKSC 21</ref>; <ref href="#" uk:canonical="[2019] 1 WLR 3289" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 WLR 3289</ref> Lady Hale helpfully set out (at para 136) the four questions which arise in connection with a complaint of discrimination under article 14 ECHR.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In deciding complaints under article 14, four questions arise: (i) Does the subject matter of the complaint fall within the ambit of one of the substantive Convention rights? (ii) Does the ground upon which the complainants have been treated differently from others constitute a &#8216;status&#8217;? (iii) Have they been treated differently from other people not sharing that status who are similarly situated<span style="font-weight:bold"/>or, alternatively, have they been treated in the same way as other people not sharing that status whose situation is relevantly different from theirs? (iv) Does that difference or similarity in treatment have an objective and reasonable justification, in other words, does it pursue a legitimate aim and do the means employed bear &#8216;a reasonable relationship of proportionality&#8217; to the aims sought to be realised (see <span style="font-style:italic">Stec v United Kingdom</span><ref href="#" uk:canonical="(2006) 43 EHRR 47" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">(2006) 43 EHRR 47</ref>, para 51)?&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Ambit</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">23.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 14 ECHR is not a freestanding prohibition of discriminatory treatment. It prohibits discrimination only in the context of the enjoyment of the rights and freedoms set out in the ECHR. As a result, it is necessary to determine whether the subject matter of the complaint is sufficiently closely connected with one of the substantive ECHR rights so as to fall within its ambit or scope. In the present case the appellants maintain that the exclusionary rule set out in paragraph 26 and Annex D paragraph 3 of the CICS constitutes unjustified discrimination against them contrary to article 14 when read in conjunction with article 4 ECHR. In order to satisfy this requirement, they do not need to establish that the measure violates or interferes with their rights under article 4. They need only establish that it is sufficiently closely linked to article 4 to bring article 14 into play (<span style="font-style:italic">Mathieson v Secretary of State for Work and Pensions</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/47" uk:canonical="[2015] UKSC 47" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 47</ref>; <ref href="#" uk:canonical="[2015] 1 WLR 3250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 3250</ref>, para 17 per Lord Wilson.)</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">24.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On behalf of the appellants Ms Phillippa Kaufmann QC submits that the present case falls within the ambit of article 4 on the following grounds. First, she says that article 4 imposes on states a duty to make provision for compensation of victims of trafficking. Secondly, she submits in the alternative that discrimination in the enjoyment of the guarantees conferred by the CICS falls within the ambit of article 4. Here she submits that even if article 4 does not impose a duty on states to make provision for compensation for victims of trafficking, the respondent has nonetheless chosen to confer the benefits of the CICS on victims of trafficking and, as a result, discrimination in respect of the enjoyment of the guarantees under the CICS falls within the ambit of article 4.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">25.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Mr Ben Collins QC on behalf of the respondents founds his response on <span style="font-style:italic">Stuart v United Kingdom</span> (Application No 41903/98, 6 July 1999), an admissibility decision of the European Court of Human Rights (&#8220;the ECtHR&#8221;). There the applicant, who had many years earlier been a victim of child sex abuse, complained that under an earlier version of the CICS she was excluded from obtaining compensation because the injury was suffered before 1 October 1979 and the victim and assailant were living together at the time as members of the same family. The ECtHR held that the state&#8217;s positive obligation under articles 3 and 8 ECHR could not be interpreted as requiring a state to provide compensation to the victims of ill-treatment administered by private individuals. Furthermore, it held, with regard to a complaint of discrimination under article 14 taken in conjunction with articles 3, 8 and 13, that since the scope of the positive obligation under articles 3 and 8 did not extend to the payment by the state of compensation for injuries caused by the criminal acts of private persons, it followed that articles 13 and 14 were not, therefore applicable. This was because there could be no room for their application unless the facts at issue fell within the ambit of one or more of the other rights and freedoms protected under the ECHR. The respondents submit that this provides a complete answer to both limbs of the appellants&#8217; case on ambit and that the appellants&#8217; case therefore fails at the first hurdle.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">26.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is necessary to consider the way in which the Strasbourg jurisprudence in this area has developed in the two decades since the decision in <span style="font-style:italic">Stuart</span>. The two limbs of the appellants&#8217; case will be considered in turn.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">A duty on States to make provision for compensation for victims of trafficking</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">27.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="font-style:italic">Rantsev v Cyprus and Russia</span><ref href="#" uk:canonical="(2010) 51 EHRR 1" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">(2010) 51 EHRR 1</ref> is significant in that it was the first occasion on which the ECtHR acknowledged that trafficking falls within the scope of article 4. Having referred to the threat that trafficking presents to the human dignity and fundamental freedoms of its victims and having referred to the obligation to interpret the ECHR in the light of present-day conditions, the Court did not consider it necessary to identify whether such treatment constituted slavery, servitude or forced and compulsory labour. Instead it simply concluded (at para 282) that trafficking itself fell within the scope of article 4. The Court then went on to set out general principles in relation to article 4. It emphasised (at paras 284-285) that the spectrum of safeguards set out in national legislation must be adequate to ensure the practical and effective protection of the rights of victims or potential victims of trafficking. The Court reiterated that article 4 entails a specific positive obligation to penalise and prosecute effectively any act aimed at maintaining a person in a situation contrary to article 4. It observed that the Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children, supplementing the United Nations Convention against Transnational Organised Crime 2000 (&#8220;the Palermo Protocol&#8221;) and ECAT referred to the need for a comprehensive approach to combat trafficking which includes measures to prevent trafficking and to protect victims, in addition to measures to punish traffickers. It considered that it was clear from the provisions of those two instruments that only a combination of measures addressing all three aspects could be effective in the fight against trafficking. The extent of the positive obligations arising under article 4 was required to be considered within this broader context. The judgment in <span style="font-style:italic">Rantsev</span> does not, however, provide any support for the proposition that states are under an obligation to provide compensation to the victims of trafficking perpetrated by private third parties.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">28.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in"><span style="font-style:italic">Chowdury v Greece</span> (Application No 21884/15, 30 March 2017) concerned the treatment of Bangladeshi migrants working without work permits on a strawberry farm in Greece. When they asked for their wages, the Greek farmers fired on them, seriously injuring a number of them. The ECtHR (First Section) (at paras 86-89) reiterated that states have positive obligations, in particular to prevent human trafficking and protect the victims thereof and to adopt criminal law provisions which penalise such practices. It identified three strands. First, states are required to adopt a comprehensive approach and to put in place, in addition to the measures aimed at punishing the traffickers, measures to prevent trafficking and to protect the victims. Secondly, in certain circumstances, the state will be under an obligation to take operational measures to protect actual or potential victims of treatment contrary to article 4. Thirdly, article 4 imposes a procedural obligation to investigate potential trafficking situations. On behalf of the appellants Ms Kaufmann draws attention to the following passage in the judgment of the Court at para 126:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Lastly, the Court finds that, even though TA and one of the armed guards were found guilty of grievous bodily harm, the Assize Court only ordered them to pay compensation of EUR 1,500, ie EUR 43 per injured worker &#8230; However, article 15 of the Council of Europe&#8217;s Anti-Trafficking Convention obliges Contracting States, including Greece, to provide in their domestic law for the right of victims to receive compensation from the perpetrators of the offence, and to take steps to, <span style="font-style:italic">inter alia</span>, establish a victim compensation fund.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Ms Kaufmann places particular emphasis on the closing words which, she submits, are a recognition by the ECtHR that there is an obligation on states to provide compensation to victims of trafficking.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">29.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I am unable to accept this submission. It is made clear by the heading to the section of the judgment in which this passage appears that it is concerned with the State&#8217;s positive obligations in relation to the effectiveness of the investigation and judicial proceedings. As William Davis J explained in <span style="font-style:italic">R (Tirkey) v Director of Legal Aid Casework</span><ref href="#" uk:canonical="[2018] 1 WLR 2112" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 1 WLR 2112</ref>, para 43, in <span style="font-style:italic">Chowdury</span> the Court was addressing the failure of the police to investigate and the failure of the judicial system to reach appropriate findings in relation to the status of the victims. In the passage on which particular reliance is placed, the Court added the observation that this level of compensation for such serious injuries did not meet the requirements of article 15 of ECAT. The Court was not addressing any obligation on the state to pay compensation to victims of trafficking but the obligations of the perpetrators of trafficking to pay compensation and the state&#8217;s obligation to secure effective judicial remedies for the vindication of the rights of victims against perpetrators. Moreover, it is highly significant that in the earlier section of its judgment, in which it set out certain general principles relating to article 4 (at paras 86-89), the Court made no reference to a general duty on states to compensate victims of trafficking perpetrated by private third parties. Had it been the Court&#8217;s intention to recognise such a duty, such a development in the law would undoubtedly have been given considerable prominence.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">30.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">SM v Croatia</span> (Application No 60561/14, Grand Chamber, 25 June 2020) a Grand Chamber of the ECtHR stated (at para 305) that the nature and scope of the positive obligations under article 4 ECHR were set out comprehensively in <span style="font-style:italic">Rantsev</span>. The Grand Chamber then set out paras 283 to 288 of <span style="font-style:italic">Rantsev</span> and concluded at para 306:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;It follows from the above that the general framework of positive obligations under article 4 includes: (1) the duty to put in place a legislative and administrative framework to prohibit and punish trafficking; (2) the duty, in certain circumstances, to take operational measures to protect victims, or potential victims, of trafficking; and (3) a procedural obligation to investigate situations of potential trafficking. In general, the first two aspects of the positive obligations can be denoted as substantive, whereas the third aspect designates the states&#8217; (positive) procedural obligation.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Once again, there is nothing here to support the existence of a general duty to compensate victims of trafficking perpetrated by private third parties for which the appellants contend.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">31.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On behalf of the appellants it is further submitted that the state&#8217;s positive obligations under article 4 must be construed in the light of ECAT and that, as a result of article 15(4) of ECAT, article 4 imposes on states a positive obligation to provide compensation to the victims of trafficking. It is submitted that this conclusion is supported by the position of article 15 in Chapter III of ECAT, the title of which makes clear that it is directed at measures to protect and promote the rights of victims. It is correct that the ECtHR has had regard to the provisions of ECAT in its consideration of article 4 ECHR as applicable to trafficking (see, for example, <span style="font-style:italic">Rantsev</span> at paras 285-286; <span style="font-style:italic">Chowdury</span> at paras 104, 126; <span style="font-style:italic">SM v Croatia</span> at para 295) and that, as a result, ECAT has influenced the development of article 4 ECHR in certain respects. Nevertheless, there are several difficulties in the path of this submission on behalf of the appellants.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">32.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">First, article 15(4) ECAT does not impose on contracting states a general obligation of the kind for which the appellants contend. It provides that each party &#8220;shall adopt such legislative or other measures as may be necessary to guarantee compensation for victims in accordance with the conditions under its internal law&#8221;. It then goes on to give examples, stating that this may be achieved &#8220;through the establishment of a fund for victim compensation or measures or programmes aimed at social assistance and social integration of victims&#8221;. The Explanatory Report to ECAT makes clear (at para 198) that the setting up of a compensation fund is a suggestion and not an obligation. It is one option open to a contracting state. Other options, it seems, would not involve the payment of compensation but programmes of social assistance and social integration.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">33.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, although the United Kingdom is a party to ECAT and its provisions are binding on the United Kingdom in international law, they have not been incorporated into domestic law within the United Kingdom. The provisions of ECAT are, therefore, not directly applicable in this jurisdiction. They have effect here only to the extent that they are adopted and given effect by article 4 ECHR. The approach adopted by the ECtHR has not involved a wholesale adoption of the provisions of ECAT. On the contrary, the Court made clear in <span style="font-style:italic">Rantsev</span> (at para 274) that it was necessary to take account of any relevant rules and principles of international law applicable between the contracting parties and that the ECHR should so far as possible be interpreted in harmony with other rules of international law of which it forms part. Similarly, in <span style="font-style:italic">Chowdury</span> (at para 104) and <span style="font-style:italic">SM v Croatia</span> (at para 295) the Court considered that the member states&#8217; positive obligations under article 4 must be construed in the light of ECAT. It does not follow that, as a result, the obligations undertaken by contracting states in article 4 ECHR are necessarily co-extensive with those under ECAT or that obligations under ECAT may simply be read across. In this instance, I am not persuaded that the ECtHR has yet gone so far as to accept that article 4 ECHR imposes an obligation on contracting states to provide financial compensation to victims of trafficking perpetrated by private third parties. However, it is not necessary to express a concluded view on this issue because of the conclusion to which I have come on the appellants&#8217; alternative case.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Discrimination in the enjoyment of the scheme: modalities</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">34.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants submit that even if the United Kingdom is not required under article 4 ECHR to extend its compensation scheme to the victims of trafficking, the fact that the respondents have chosen to guarantee the rights under the CICS for the benefit of trafficking victims is sufficient to bring their complaint within the ambit of article 4. The United Kingdom has chosen by the application of the CICS to confer a form of protection to promote the rights of victims of trafficking and in doing so it is applying a measure that has a sufficient connection with the core values protected by article 4.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">35.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Petrovic v Austria</span><ref href="#" uk:canonical="(1998) 33 EHRR 14" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">(1998) 33 EHRR 14</ref> Mr Petrovic complained that the refusal of the Austrian authorities to grant him parental leave allowance, on the ground that the allowance was only available to mothers, amounted to discrimination against him on grounds of sex. The ECtHR considered that the refusal could not amount to a failure to respect family life, since article 8 did not impose any positive obligation on states to provide such financial assistance. Nevertheless, the allowance paid by the state was intended to promote family life.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The Court has said on many occasions that article 14 comes into play whenever &#8216;the subject-matter of the disadvantage &#8230; constitutes one of the modalities of the exercise of a right guaranteed&#8217; (<span style="font-style:italic">National Union of Belgian Police v Belgium</span> (A/19); 1 EHRR 578, para 45) or the measures complained of are &#8216;linked to the exercise of a right guaranteed&#8217; (<span style="font-style:italic">Schmidt and</span><span/><span style="font-style:italic">Dahlstr&#246;m v Sweden</span> (A/21); 1 EHRR 632, para 39).&#8221; (para 28)</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The Court considered (at para 29) that by granting parental leave allowance states are able to demonstrate their respect for family life within the meaning of article 8. The allowance therefore came within the scope of that provision and it followed that article 14 taken with article 8 was applicable. Similarly, in <span style="font-style:italic">Okpisz v Germany</span><ref href="#" uk:canonical="(2005) 42 EHRR 32" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">(2005) 42 EHRR 32</ref> the ECtHR held that, although there was no entitlement under article 8 to receive child benefits, by granting such benefits states were able to demonstrate their respect for family life within article 8 and such benefits accordingly came within the scope of that provision.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">36.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Smith v Lancashire Teaching Hospitals NHS Foundation Trust</span><ref href="#" uk:canonical="[2018] QB 804" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] QB 804</ref> Sir Terence Etherton MR cited the relevant passages from <span style="font-style:italic">Petrovic</span> at para 42 and continued at para 55:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The claim is capable of falling within article 14 even though there has been no infringement of article 8. If the state has brought into existence a positive measure which, even though not required by article 8, is a modality of the exercise of the rights guaranteed by article 8, the state will be in breach of article 14 if the measure has more than a tenuous connection with the core values protected by article 8 and is discriminatory and not justified. It is not necessary that the measure has any adverse impact on the complainant in a positive modality case other than the fact that the complainant is not entitled to the benefit of the positive measure in question.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">In <span style="font-style:italic">In re McLaughlin</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2018/48" uk:canonical="[2018] UKSC 48" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKSC 48</ref>; <ref href="#" uk:canonical="[2018] 1 WLR 4250" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] 1 WLR 4250</ref> Lady Hale observed (at para 22) that this may turn out to be too restrictive a test, pointing out that &#8220;core values&#8221; is a concept derived from the domestic rather than the Strasbourg jurisprudence.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">37.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In this regard, Mr Collins submits with some force on behalf of the respondents that <span style="font-style:italic">Stuart</span> prevents the application of such an approach to the voluntary extension of the benefit of the compensation scheme. He resists the suggestion that the law has significantly moved on since <span style="font-style:italic">Stuart</span> was decided in July 1999. In particular, the approach followed in <span style="font-style:italic">Petrovic</span>, was plainly well understood at the time <span style="font-style:italic">Stuart</span> was decided and <span style="font-style:italic">Petrovic</span> was based on earlier authority, as appears from para 28, cited above. Furthermore, although the Strasbourg jurisprudence on positive obligations has certainly developed since <span style="font-style:italic">Stuart</span> was decided in 1999, the Court in that case recognised positive obligations on the state to protect individuals from, in the context of <span style="font-style:italic">Stuart</span>, torture or inhuman or degrading treatment, or grave interferences with private life.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">38.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Nevertheless, it is apparent that this is an area where the law has moved on and the attitude of the ECtHR has changed. While &#8220;the English courts have made rather heavy weather of the ambit point&#8221; (<span style="font-style:italic">In re McLaughlin</span>, para 20 per Lady Hale) the ECtHR has taken a much more relaxed approach to the issue. This is apparent from <span style="font-style:italic">Zarb Adami v Malta</span><ref href="#" uk:canonical="(2006) 44 EHRR 3" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">(2006) 44 EHRR 3</ref>. Mr Adami complained of discrimination on grounds of sex in respect of his call for compulsory jury service. He relied, inter alia, on article 4 in conjunction with article 14. The ECtHR held that although article 4(3)(d) excludes &#8220;any work or service which forms part of normal civic obligations&#8221; from the prohibition in article 4(2) on &#8220;forced or compulsory labour&#8221;, the fact that a situation corresponded to a normal civic obligation did not preclude the applicability of article 4 in conjunction with article 14. The concurring judgment of the President, Judge Sir Nicolas Bratza, is particularly illuminating. He observed at O-I7:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The central question which arises is what constitutes &#8216;the ambit&#8217; of one of the substantive articles, in this case article 4. It has been argued that &#8216;even the most tenuous links with another provision in the Convention will suffice&#8217; for article 14 to be engaged. (See Grosz, Beatson and Duffy, <span style="font-style:italic">The 1998 Act and the European Convention</span>, &#8230;, para C14-10.) Even if this may be seen as going too far, it is indisputable that a wide interpretation has consistently been given by the Court to the term &#8216;within the ambit&#8217;. Thus, according to the constant case law of the Court, the application of article 14 not only does not presuppose the violation of one of the substantive Convention rights or a direct interference with the exercise of such right, but it does not even require that the discriminatory treatment of which complaint is made falls within the four corners of the individual rights guaranteed by the article. This is best illustrated by the fact that article 14 has been held to cover not only the enjoyment of the rights that states are obliged to safeguard under the Convention but also those rights and freedoms that a state has chosen to guarantee, even if in doing so it goes beyond the requirements of the Convention. (See, eg the <span style="font-style:italic">Belgian Linguistics Case</span><span/><span style="font-style:italic">(No 2) (Merits)</span> (A/6) (1979-80) 1 EHRR 252, at para 9; <span style="font-style:italic">Abdulaziz, Cabales and Balkandali v United Kingdom</span>, &#8230;, at para 71.) This would indicate in my view that the &#8216;ambit&#8217; of an article for this purpose must be given a significantly wider meaning than the &#8216;scope&#8217; of the particular rights defined in the article itself. Thus, in the specific context of article 4 of the Convention, the fact that work or service falling within the definition of &#8216;normal civic obligations&#8217; in para 3 are expressly excluded from the scope of the right guaranteed by para 2 of that article, in no sense means that they are also excluded from the ambit of the article seen as a whole.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">39.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the present case, while the CICS is not limited to victims of trafficking, it extends its benefits to them. In the preparation of the scheme specific attention was paid to its application to victims of trafficking and provisions included in order to accommodate them. (See paragraphs 10(c), 13-16 of the CICS.) The United Kingdom, in applying the scheme to victims of trafficking, has chosen to confer a degree of protection to promote their interests. I consider that in doing so it is applying a measure which has a more than tenuous connection with the core value of the protection of victims of trafficking under article 4. The rights voluntarily conferred in this way under the scheme on victims of trafficking fall within the general scope of article 4 and must, therefore, be made available without discrimination.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Status</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">40.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 14 ECHR provides that the enjoyment of the rights and freedoms set out in the Convention shall be secured &#8220;without discrimination on any ground such as sex, race, colour, language, religion, political or other opinion, national or social origin, association with a national minority, property, birth or other status&#8221;. It provides a list of grounds on which discrimination is prohibited. The list is non-exhaustive as appears from the words &#8220;on any ground such as&#8221; and the inclusion of &#8220;other status&#8221;. Nevertheless, the provision is clearly not intended to cover differential treatment on any ground whatsoever, because this would make the list of grounds in article 14 otiose. In the present case, the treatment of which the appellants complain does not fall within any of the specific grounds listed in article 14 and they must, therefore, demonstrate that they enjoy some &#8220;other status&#8221; for the purpose of article 14.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">41.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The concept of status in article 14 has developed through the jurisprudence of the ECtHR. In <span style="font-style:italic">Clift v United Kingdom</span> (Application No 7205/07, 13 July 2010) the ECtHR, Fourth Section observed at para 55:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Article 14 does not prohibit all differences in treatment but only those differences based on an identifiable, objective or personal characteristic, or &#8216;status&#8217;, by which persons or groups of persons are distinguishable from one another (see <span style="font-style:italic">Kjeldsen Busk Madsen and Pedersen</span>, &#8230;, para 56; <span style="font-style:italic">Berezovskiy v Ukraine (dec)</span>, no 70908/01, 15 June 2004; and <span style="font-style:italic">Carson</span>, &#8230;, paras 61 and 70). Article 14 lists specific grounds which constitute &#8216;status&#8217; including, <span style="font-style:italic">inter alia</span>, sex, race and property. However, the list set out in article 14 is illustrative and not exhaustive, as is shown by the words &#8216;any ground such as&#8217; (in French &#8216;<span style="font-style:italic">notamment</span>&#8217;) (see <span style="font-style:italic">Engel</span>, &#8230;, para 72; and <span style="font-style:italic">Carson</span>, &#8230;, para 70) and the inclusion in the list of the phrase &#8216;any other status&#8217; (in French &#8216;<span style="font-style:italic">toute autre situation</span>&#8217;).&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">42.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In that case the ECtHR gave a broad meaning to &#8220;any other status&#8221; in article 14. In particular, it rejected (at para 56) earlier notions that &#8220;any other status&#8221; must relate to innate or inherent characteristics:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The Court recalls that the words &#8216;other status&#8217; (and <span style="font-style:italic">a fortiori</span> the French &#8216;<span style="font-style:italic">toute autre situation</span>&#8217;) have generally been given a wide meaning (see <span style="font-style:italic">Carson</span>, cited above, para 70). The Government have argued for a more limited interpretation, calling in particular for the words to be construed <span style="font-style:italic">ejusdem generis</span> with the specific examples listed in article 14. The Court observes at the outset that while a number of the specific examples relate to characteristics which can be said to be &#8216;personal&#8217; in the sense that they are innate characteristics or inherently linked to the identity or the personality of the individual, such as sex, race and religion, not all of the grounds listed can be thus characterised.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">In this regard the Court drew attention to the inclusion in article 14 of property as a prohibited ground of discrimination and the fact that this ground had been broadly construed by the Court. With regard to &#8220;other status&#8221; it considered it unsurprising that this had been held to include innate or inherent characteristics such as sexual orientation or physical disabilities, but went on to point out that in finding violations of article 14 in a number of other cases the Court had accepted that status existed where the distinction could not be said to involve a characteristic which was innate or inherent. The examples it gave included military rank (<span style="font-style:italic">Engel v The Netherlands (No 1)</span><ref href="#" uk:canonical="(1976) 1 EHRR 647" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1976">(1976) 1 EHRR 647</ref>), the possession of planning permission (<span style="font-style:italic">Pine Valley Developments Ltd v Ireland</span><ref href="#" uk:canonical="(1991) 14 EHRR 319" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">(1991) 14 EHRR 319</ref>) or being a convicted prisoner (<span style="font-style:italic">Shelley</span><span/><span style="font-style:italic">v United Kingdom</span> (Application No 23800/06, 4 January 2008), (2008) 46 EHRR SE16). The Court then went on (at para 60) to address the issue of status in terms which, at the very least, suggest disapproval of an over-technical approach.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The question whether there is a difference of treatment based on a personal or identifiable characteristic in any given case is a matter to be assessed taking into consideration all of the circumstances of the case and bearing in mind that the aim of the Convention is to guarantee not rights that are theoretical or illusory but rights that are practical and effective (see <span style="font-style:italic">Artico v Italy</span>, 13 May 1980, para 33, Series A no 37; and <span style="font-style:italic">Cudak</span><span/><span style="font-style:italic">v Lithuania</span> [GC], no 15869/02, para 36, 23 March 2010). It should be recalled in this regards that the general purpose of article 14 is to ensure that where a state provides for rights falling within the ambit of the Convention which go beyond the minimum guarantees set out therein, those supplementary rights are applied fairly and consistently to all those within its jurisdiction unless a difference of treatment is objectively justified.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">43.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">R (Kaiyam) v Secretary of State for Justice</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2014/66" uk:canonical="[2014] UKSC 66" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKSC 66</ref>; <ref href="#" uk:canonical="[2015] AC 1344" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] AC 1344</ref>, para 52, Lord Mance and Lord Hughes observed of this passage that, if read literally, it might eliminate any consideration of status. However, in <span style="font-style:italic">Mathieson v Secretary of State for Work and Pensions</span> the Supreme Court accepted this aspect of the judgment in <span style="font-style:italic">Clift v United Kingdom</span>. (See further<span style="font-style:italic"> R (Stott) v Secretary of State for Justice</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2018/59" uk:canonical="[2018] UKSC 59" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKSC 59</ref>; <ref href="#" uk:canonical="[2020] AC 51" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] AC 51</ref>, para 185 per Lord Hodge). Lord Wilson observed (at para 22) that, following <span style="font-style:italic">Clift v United Kingdom</span>, it was &#8220;clear that, if the alleged discrimination falls within the scope of a Convention right, the Court of Human Rights is reluctant to conclude that nevertheless the applicant has no relevant status, with the result that the inquiry into discrimination cannot proceed&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">44.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Before us Ms Kaufmann submits that the grounds for the difference in treatment in the appellants&#8217; case can be characterised in two ways depending upon who are the comparators:</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(1)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">As against other victims of crime who, like them have unspent custodial or community sentences, their status is that they are victims of trafficking.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(2)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">As against other victims of trafficking, their status is that they have unspent custodial or community sentences.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">In the course of oral submissions, Ms Kaufmann explained that on the first basis the complaint is that the position of victims of trafficking is materially different from that of other victims of crime and that as a result they should not be caught by the provisions of paragraph 3 of Annex D. In these circumstances, she submitted, the state must justify why it is not treating victims of trafficking differently from other victims of crime. This, she maintained, was the essential basis of the appellants&#8217; claim. So far as the second basis is concerned, she explained that among victims of trafficking those falling within paragraph 3 of Annex D are treated differently from those falling within paragraph 4 of Annex D (where a residual discretionary power is capable of being exercised) and that as a result it is necessary to justify this difference in treatment. To my mind, very different consequences flow from these two different ways of putting the appellants&#8217; case and it is necessary to consider each in turn.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Victims of trafficking</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">45.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On behalf of the respondents Mr Collins draws attention to the observation of Lord Neuberger (with whom Lords Hope, Rodger, Walker and Mance agreed) in the House of Lords in <span style="font-style:italic">R (RJM) v Secretary of State for Work and Pensions (Equality and Human Rights Commission intervening)</span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/63" uk:canonical="[2008] UKHL 63" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 63</ref>; <ref href="#" uk:canonical="[2009] 1 AC 311" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] 1 AC 311</ref> at para 45 that:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;the concept of &#8216;personal characteristic&#8217; (not surprisingly, like the concept of status) generally requires one to concentrate on what somebody is, rather than what he is doing or what is being done to him.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">(See also <span style="font-style:italic">Maktouf v Bosnia and Herzegovina</span><ref href="#" uk:canonical="(2013) 58 EHRR 11" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">(2013) 58 EHRR 11</ref>, paras 40, 83; <span style="font-style:italic">Gerger v Turkey</span> (Application No 24919/94, 8 July 1999), para 69.) Mr Collins submits that to seek to define an &#8220;other status&#8221; by reference to being a victim of crime can only be a reference to what is being or has been done to the individual concerned. However, this observation by Lord Neuberger needs to be considered in the context of <span style="font-style:italic">RJM</span> where it was held (at paras 45-47) that homelessness is an &#8220;other status&#8221; within article 14, even if adopted by choice. (In this regard, I note that in <span style="font-style:italic">R (Tigere) v Secretary of State for Business, Innovation and Skills</span><span/><span style="font-style:italic">(Just For Kids Law intervening)</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/57" uk:canonical="[2015] UKSC 57" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 57</ref>; <ref href="#" uk:canonical="[2015] 1 WLR 3820" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 3820</ref> it was conceded that immigration status was an &#8220;other status&#8221; within article 14: see Lady Hale at para 26. This is consistent with the decision of the ECtHR in <span style="font-style:italic">Bah v United Kingdom</span><ref href="#" uk:canonical="(2011) 54 EHRR 21" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2011">(2011) 54 EHRR 21</ref>.) Furthermore, <span style="font-style:italic">RJM</span> was decided before the decision of the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span> indicated a relaxation of the requirement of status for this purpose which has been reflected in more recent decisions of the Supreme Court.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">46.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the light of this more generous approach to status, I have no doubt that being a victim of trafficking does constitute a status for this purpose. Although it is an acquired characteristic resulting from something done as opposed to being inherent or innate, it is plainly a personal identifiable characteristic to which many important legal consequences attach.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Persons with a relevant unspent conviction</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">47.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The question whether the appellants have status for the purposes of article 14 by virtue of being persons with relevant unspent convictions gives rise to distinct issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">48.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The first issue for consideration is whether being subject to a relevant unspent conviction can be an &#8220;other status&#8221; within article 14. The respondents submit that the fact that a person has, in the past, committed an offence and received a particular type of sentence cannot create a personal characteristic which distinguishes that person from others.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">49.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the national proceedings in<span style="font-style:italic"> Clift</span> (<span style="font-style:italic">R (Clift) v Secretary of State for the Home Department</span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/54" uk:canonical="[2006] UKHL 54" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] UKHL 54</ref>; <ref href="#" uk:canonical="[2007] 1 AC 484" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 AC 484</ref>) which concerned article 14 in conjunction with article 5, the House of Lords held that the classification of the claimant as a long-term prisoner serving a determinate sentence of 15 years or more, in contrast to life sentence prisoners or long-term prisoners serving less than 15 years, had not been recognised by ECHR jurisprudence as an &#8220;other status&#8221; within article 14. Lord Bingham stated that he came to this conclusion with some reluctance, observing at para 28:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Is his classification as a prisoner serving a determinate sentence of 15 years or more (but less than life) a personal characteristic? I find it difficult to apply so elusive a test. But I would incline to regard a life sentence as an acquired personal characteristic and a lifer as having an &#8216;other status&#8217;, and it is hard to see why the classification of Mr Clift, based on the length of his sentence and not the nature of his offences, should be differently regarded.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">He was, however, influenced by the consideration that a domestic court should hesitate to apply the ECHR in a manner not explicitly or impliedly authorised by the Strasbourg jurisprudence. Similarly, Lord Hope observed that it was &#8220;possible to regard what he has done, rather than who or what he is, as the true reason for the difference of treatment in Mr Clift&#8217;s case&#8221; (para 49). As the ECtHR had not yet addressed this question, he also considered that a measure of self-restraint was needed since the duty of national courts is to keep pace with the Strasbourg jurisprudence as it evolves over time.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">50.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">When the case reached Strasbourg, in <span style="font-style:italic">Clift v United Kingdom</span>, the ECtHR (at para 61) took a different view:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In the present case the applicant does not allege a difference of treatment based on the gravity of the offence he committed, but one based on his position as a prisoner serving a determinate sentence of more than 15 years. While sentence length bears some relationship to the perceived gravity of the offence, a number of other factors may also be relevant, including the sentencing judge&#8217;s assessment of the risk posed by the applicant to the public.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The Court observed that there was a need for careful scrutiny of differences of treatment within the ambit of article 5 ECHR and concluded that the applicant did enjoy &#8220;other status&#8221; for the purposes of article 14.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">51.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">R (Kaiyam) v Secretary of State for Justice</span> one of the claimants, a serving prisoner, invoked article 14 claiming that he had been discriminated against by the prison authorities in that they prioritised the movement to open prisons of prisoners whose tariff periods had already expired, as opposed to those prisoners whose tariff periods had not. Lord Mance and Lord Hughes, with whom the other members of the Supreme Court agreed, noted the different views taken on the issue of status by the House of Lords in <span style="font-style:italic">R (Clift)</span> and by the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span>. They observed (at para 53) that in light of the ECtHR decision, they saw &#8220;some force in the submission that the difference between pre- and post-tariff prisoners should now be taken to represent a relevant difference in status.&#8221; However, they did not need to decide the point because the difference in treatment was justified.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">52.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">More recently, in <span style="font-style:italic">R (Stott) v Secretary of State for Justice</span> the Supreme Court considered the rule that an offender serving an extended determinate sentence only became eligible for release on parole after serving two thirds of the appropriate custodial term whereas other prisoners serving determinate sentences became eligible after serving half of their sentence. It held, Lord Carnwath dissenting, that the difference in treatment of prisoners with extended determinate sentences was a difference on the ground of &#8220;other status&#8221; within article 14.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">53.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lady Black considered (at para 70) that, in the light of the decision of the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span>, the Supreme Court should depart from the determination in <span style="font-style:italic">R (Clift)</span> that different treatment on the basis that a prisoner was serving imprisonment of 15 years or more could not be said to be on the ground of &#8220;other status&#8221;. She also addressed directly the suggestion that where a distinction is based on the gravity of the offence rather than any characteristic of the individual it is not based on an &#8220;other status&#8221; within article 14. It had been submitted on behalf of the Secretary of State that <span style="font-style:italic">Clift v United Kingdom</span> was distinguishable as the complaint in <span style="font-style:italic">Stott</span> was not based on the length of the sentence imposed but on his particular sentencing regime which was dictated by the seriousness of what he did and the risk he posed. Lady Black observed at para 77:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;True it is that an extended determinate sentence will only be imposed where there is a particular combination of gravity of offence and risk, but within the category of those serving extended determinate sentences, there will be various types of offence of varying seriousness. Putting it another way, what Mr Stott did has led to him receiving an extended determinate sentence, but, once imposed, that extended determinate sentence exists independently of what he did. If a life sentence is capable of constituting an &#8216;acquired personal status&#8217;, as Lord Bingham was understandably disposed to think it was (para 28 of <span style="font-style:italic">R (Clift)</span>), and a determinate term of 15 years is also [<span style="font-style:italic">Clift v United Kingdom</span>], it is difficult to see why an extended determinate sentence should be viewed differently.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">54.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Hodge, at paras 184-185, was satisfied that Mr Stott had the requisite status for the following reasons. First, the opening words of the relevant phrase, &#8220;on any ground such as&#8221; were clearly indicative of a broad approach to status. Secondly there was ample authority in the ECtHR, the House of Lords and the Supreme Court to support the view that the words &#8220;any other status&#8221; should not be interpreted narrowly. Thirdly, the Supreme Court in <span style="font-style:italic">Mathieson</span>, para 22, had accepted the judgment in <span style="font-style:italic">Clift v United Kingdom</span>. As a result, he was persuaded that the weight of authority supported the view that Mr Stott had the required status under article 14 because he had been sentenced to a particular sentence of imprisonment, namely an extended determinate sentence.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">55.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lady Hale referred (at para 209) to the fact that the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span> had adopted a very broad approach to the question of status. In particular it had pointed out (giving property as an example) that not all the qualities listed in article 14 were personal characteristics and it had declined to give an ejusdem generis interpretation to &#8220;other status&#8221;. She had no difficulty in accepting (at para 212) the ECtHR&#8217;s holding (at para 60, cited at para 42 above) that the question whether there was a difference of treatment based on a personal or identifiable characteristic was a matter to be assessed taking into consideration all of the circumstances of the case and bearing in mind that the aim of the ECHR was to guarantee rights that are practical and effective. She concluded (at para 212) that prisoners subject to extended determinate sentences could be identified as a distinct group. They were defined by much more than the particular early release regime to which they were subjected. She considered the case much clearer than <span style="font-style:italic">Clift</span> which was simply concerned with different lengths of determinate sentence. If further support for that conclusion were required it could be found in the criteria for the imposition of an extended determinate sentence, which concentrated upon the dangerousness of the offender, itself a personal characteristic.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">56.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Lord Mance considered (at paras 235, 236) that article 14 addresses discrimination, whether deliberate or unconscious, having a &#8220;systematic&#8221; nature in the sense that it occurs on the ground of a characteristic or characteristics in some sense attributed to the victim, whether innately or as a matter of choice or against their will. He concluded without hesitation that Mr Stott possessed a relevant status. He was subject to an extended determinate sentence which was a sentence distinct from and which had characteristics differing from those of any ordinary determinate or indeterminate sentence. In his opinion (para 237) the Supreme Court should depart from <span style="font-style:italic">R (Clift)</span> and follow the clear guidance given by the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">57.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The recent jurisprudence in Strasbourg and in the Supreme Court has shown a significant shift towards taking a broad view of status under article 14 and, as a result, the concept of &#8220;other status&#8221; must now be generously interpreted. In this context, it seems to me artificial to attempt any longer to distinguish between the gravity of an offence and the characteristics of an individual offender. In this regard, I find compelling the reasoning of Lady Black at para 77 of <span style="font-style:italic">Stott</span>. No doubt, what an offender has done has led to a particular sentence being imposed which reflects the culpability of the offender&#8217;s conduct, but once imposed the sentence has a significance independent of what the offender has done. This applies with equal force to a custodial sentence and to a community sentence, each of which has its own incidents and consequences. In my view, having an unspent conviction is an identifiable, personal characteristic. Even when the custodial sentence has been served or the community sentence completed, the sentence continues to have significance. As long as a conviction remains unspent it has incidents and consequences, in particular obligations of disclosure, which continue to have far-reaching implications for those who have been convicted.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">58.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">There is, however, a second issue in relation to status which must be addressed in this context. This has been termed &#8220;the individual existence condition&#8221;. In the present case the respondents submit that the status founded on unspent convictions for which the appellants contend exists solely by reference to the terms of the legislation which they are challenging. They submit that it has no independent character so as to form any identifiable group of people, as distinct from those who are excluded by the terms of the CICS itself.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">59.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Article 14 prohibits, within the ambit of the rights and freedoms guaranteed by the ECHR, discrimination which is founded on one or more of the personal characteristics it lists &#8220;or other status&#8221;. The objection now advanced by the respondents was summed up by Lord Bingham in <span style="font-style:italic">R (Clift) v Secretary of State for the Home Department</span>, at para 28, in the following terms:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;I do not think that a personal characteristic can be defined by the differential treatment of which a person complains.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">In other words, the basis of the discrimination of which complaint is made must have an existence independent of the measure under attack. The same point was made by Lord Hope in <span style="font-style:italic">R (Clift)</span>, paras 45-47. In his view each of the specific grounds of discrimination listed in article 14 shares one feature in common, namely that they exist independently of the treatment of which complaint is made. In that sense they are personal to the complainant. He noted that the category of long-term prisoners into which Mr Clift&#8217;s case fell would not have been recognised as a separate category had it not been for the Order which treated prisoners in his group differently from others. This, he considered, raised the question whether the distinguishing feature or characteristic which enables a person or a group of persons to be singled out for separate treatment must have been identified as a personal characteristic before it is used for this purpose by the discriminator.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">60.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">When the matter came before the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span>, that court was dismissive of the point stating at para 60:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Further, the Court is not persuaded that the Government&#8217;s argument that the treatment of which the applicant complains must exist independently of the &#8216;other status&#8217; upon which it is based finds any clear support in its case law.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">It then went on to explain, in a passage cited at para 42 above, that the question whether there is a difference of treatment based on a personal or identifiable characteristic is a matter to be assessed taking into consideration all of the circumstances of the case and bearing in mind that the objective of the Convention is to guarantee practical and effective rights.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">61.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The issue is nevertheless one of importance and since <span style="font-style:italic">Clift v United Kingdom</span> it has reappeared frequently in domestic cases. The language of article 14 requires that discrimination should be on the basis of one of a number of identified grounds &#8220;or other status&#8221;. If status can be defined solely by the difference in treatment complained of, the words &#8220;on any ground such as &#8230;&#8221; would add nothing to article 14. (See <span style="font-style:italic">R (Clift)</span>, para 27 per Lord Bingham; <span style="font-style:italic">Stott</span>, para 210 per Lady Hale.) As a result, notwithstanding the judgment of the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span>, the position before domestic courts in this jurisdiction remains far from clear.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">62.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The question arose for consideration in <span style="font-style:italic">R v Docherty (Shaun)</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2016/62" uk:canonical="[2016] UKSC 62" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKSC 62</ref>; <ref href="#" uk:canonical="[2017] 1 WLR 181" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 181</ref>. Legislation repealing the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2003/44" uk:canonical="2003 c. 44" uk:origin="TNA" uk:type="legislation">Criminal Justice Act 2003</ref> which provided for sentences of imprisonment for public protection was brought into force with effect from 3 December 2012. However, the Commencement Order stated that the provision was of no effect in relation to a person convicted before that date. The appellant, who had pleaded guilty to two offences on 13 November 2012, was sentenced on 20 December 2012 to an indeterminate sentence of imprisonment for public protection. He appealed inter alia on the ground that the discrimination between him and a person convicted of identical offences after 3 December 2012 was unlawful under article 14 read with article 5. He submitted, inter alia, that this discriminated objectionably against him on grounds of &#8220;other status&#8221;, namely his status as a prisoner who is subject to an indeterminate sentence. Lord Hughes, with whom the other members of the Supreme Court agreed, considered (at para 63) that, assuming that status as a prisoner subject to a particular regime could in some circumstances amount to sufficient status to bring article 14 into question, it could not do so if the suggested status is defined entirely by the alleged discrimination. In his view, that was not the case in <span style="font-style:italic">Clift</span>. The mere imposition of an indeterminate sentence under the appropriate sentencing regime could not give Mr Docherty a different status. (See further, Lord Mance in <span style="font-style:italic">Stott</span> at para 230.) Lord Hughes left open, however, the possibility that he had a different status on the ground that he had been convicted before and not after 3 December 2012.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">63.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The issue arose once again in <span style="font-style:italic">Stott</span> where three members of the Supreme Court in the majority considered that Mr Stott satisfied the independent existence condition. (See Lady Black at para 75, Lady Hale at para 212 and Lord Mance at para 236. Lord Hodge agreed that Mr Stott had the required status but he did not discuss the independent existence condition.) However, different views were expressed in relation to it. Lady Black (at paras 72-74) drew attention to three difficulties with the independent existence condition. The first was its &#8220;uncompromising rejection&#8221; by the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span>. The second was that it made its appearance in <span style="font-style:italic">R (Clift)</span> unsupported by much, if anything, by way of explanation or supportive authority. The third was that it was &#8220;not at all easy to grasp&#8221;. She concluded at para 75:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;In all these circumstances, I would be cautious about spending too much time on an analysis of whether the proposed status has an independent existence, as opposed to considering the situation as a whole, as encouraged by the ECtHR in <span style="font-style:italic">Clift v United Kingdom</span> &#8230;&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Lady Hale considered (at paras 210-212) that the true principle is that the &#8220;status&#8221; must not be defined solely by the difference in treatment complained of, for otherwise the words &#8220;on any ground such as &#8230;&#8221; would add nothing to article 14. She drew a useful analogy with the United Nations Convention relating to the Status of Refugees (1951) (Cmd 9171). To be recognised as a refugee, a person has to have a well founded fear of persecution on one of the Convention grounds, one of which is membership of a particular social group. She drew attention to the decision of the House of Lords in <span style="font-style:italic">Fornah v Secretary of State for the Home Department</span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2006/46" uk:canonical="[2006] UKHL 46" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] UKHL 46</ref>; <ref href="#" uk:canonical="[2007] 1 AC 412" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] 1 AC 412</ref> which affirms the principle that a particular social group must exist independently of the persecution to which the group is subject, by which was meant that the group was not defined solely by the persecution it feared. Nevertheless, she had no difficulty in accepting the approach identified by the ECtHR at para 60 of <span style="font-style:italic">Clift v United Kingdom</span>, cited above at para 42. Lord Mance accepted (at para 228) the importance of status as an independent question and drew attention to the fact that there would be no point in language which requires discrimination on a particular ground if the only question were whether there had been discrimination. He continued at para 231:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;That a mere difference in treatment does not by itself constitute a difference in status is a proposition which is difficult to fault in the light of <span style="font-style:italic">Gerger v Turkey</span> and what I have already said. But problems have arisen from attempts to extend the application of such a proposition to cases beyond its scope. This is, I think, the root of the third difficulty expressed by Lady Black &#8230; [that the independent existence condition is not at all easy to grasp]. There is no reason why a person may not be identified as having a particular status when the or an aim is to discriminate against him in some respect on the ground of that status.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">64.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">More recently, <span style="font-style:italic">Docherty</span> was applied by the Court of Appeal in <span style="font-style:italic">Haringey London Borough Council v Simawi</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2019/1770" uk:canonical="[2019] EWCA Civ 1770" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWCA Civ 1770</ref>; <ref href="#" uk:canonical="[2020] PTSR 702" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] PTSR 702</ref>, a case concerning succession to a secure tenancy. Although Lewison LJ, with whom the other members of the Court agreed, considered (at para 41) that the observations of the majority on this issue in <span style="font-style:italic">Stott</span> were obiter, he also considered that, as Lady Black had observed in <span style="font-style:italic">Stott</span> (at para 63), the independent existence condition lived on in <span style="font-style:italic">Docherty</span>. The decision that Mr Docherty did not have &#8220;other status&#8221; because &#8220;the suggested status is defined entirely by the alleged discrimination&#8221; was part of the ratio decidendi of that case. The Supreme Court in <span style="font-style:italic">Stott</span> had not departed from <span style="font-style:italic">Docherty</span> in that respect and <span style="font-style:italic">Docherty</span> was therefore binding on the Court of Appeal. Mr Simawi was therefore entitled to rely on a status provided that it was not defined entirely by the alleged discrimination.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">65.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In the present appeal the Supreme Court has not been invited to depart from its earlier decision in <span style="font-style:italic">Docherty</span>. In my view, however, it is not necessary to resolve the issue in the present appeal because <span style="font-style:italic">Docherty</span> is distinguishable in this regard. In the present case, to employ the wording of Lord Hope in <span style="font-style:italic">R (Clift)</span> at paras 67-68, the distinguishing feature or characteristic which enables persons with an unspent conviction which resulted in a custodial or community sentence to be singled out for separate treatment had been identified as a personal characteristic before it was used for this purpose in the CICS. The distinction drawn by the CICS is between two groups of persons with unspent convictions. That distinction is defined by paragraphs 3 and 4 of Annex D but it does not derive entirely from that provision. There are other consequences of being an offender with an unspent conviction under paragraph 3 which derive from the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/53" uk:canonical="1974 c. 53" uk:origin="TNA" uk:type="legislation">Rehabilitation of Offenders Act 1974</ref> and other statutes which set out the differing implications of various unspent convictions. As Ms Kaufmann put it in argument, having an unspent conviction within paragraph 3 has significance independent of the CICS. The CICS simply adds a new consequence.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">66.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I should add, however, that I agree with the observations of Lord Reed on the independent existence issue in his judgment in <span style="font-style:italic">R (SC, CB and 8 children) v Secretary of State for Work and Pensions</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/26" uk:canonical="[2021] UKSC 26" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 26</ref>, paras 69-71 in which he adopted the reasoning of Leggatt LJ in the Court of Appeal in that case: <ref href="#" uk:canonical="[2019] 1 WLR 5687" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] 1 WLR 5687</ref>. Article 14 draws a distinction between relevant status and difference in treatment and the former cannot be defined solely by the latter. There must be a ground for the difference of treatment in terms of a characteristic which is something more than a mere description of the difference in treatment. In the present case the status of the appellants as persons with unspent relevant convictions does, in my view, have a significance independent of the CICS. However, I agree with Lord Reed that there is no requirement that the status should have legal or social significance for other purposes or in contexts other than the difference in treatment of which complaint is made.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">67.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For the reasons set out above, I consider that having an unspent conviction which resulted in a custodial or community sentence is a status for the purposes of article 14 considered in conjunction with article 4.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Difference of treatment</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">68.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants&#8217; case on difference of treatment is put in two ways reflecting their case on status.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(1)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">First, they submit that by treating victims of trafficking with an unspent conviction resulting in a custodial or community sentence in the same way as other victims of crime with an unspent conviction resulting in a custodial or community sentence, the CICS applies to them a rule that is not suited to their different circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;font-size:13pt;margin-left:0.49in">(2)</num>
+	  <content>
+	    <p class="ParaLevel2" style="margin-left:0.49in;text-indent:0.38in">Secondly, they submit that in excluding from the CICS victims of trafficking with an unspent conviction resulting in a custodial or community sentence but not other victims of trafficking, it discriminates on grounds of other status.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Victims of trafficking</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">69.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Discrimination may arise where the state fails to treat differently persons whose situations are significantly different. In <span style="font-style:italic">Thlimmenos v Greece</span><ref href="#" uk:canonical="(2000) 31 EHRR 15" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">(2000) 31 EHRR 15</ref> the ECtHR explained at para 44:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The Court has so far considered that the right under article 14 not to be discriminated against in the enjoyment of the rights guaranteed under the Convention is violated when States treat differently persons in analogous situations without providing an objective and reasonable justification. However, the Court considers that this is not the only facet of the prohibition of discrimination in article 14. The right not to be discriminated against in the enjoyment of the rights guaranteed under the Convention is also violated when states without an objective and reasonable justification fail to treat differently persons whose situations are significantly different.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The appellants say that, as victims of trafficking with relevant unspent convictions, they must be treated differently from victims of other crimes who have relevant unspent convictions.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">70.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants argue that victims of trafficking must be treated differently from other victims of crime because they are not in an analogous position. They submit that victims of trafficking form a special and distinct group as victims of crime and that differences between them and other victims of crime require any distinction drawn amongst them as a group or any failure to treat them differently from other victims of crime to be justified. They submit that in the context of the CICS, a scheme which is intended to aid blameless victims of crime in their recovery, there is a need to afford more generous treatment to victims of trafficking than to other victims of crime, with respect to an exclusionary rule based on the commission of offences, because of the particular status and vulnerability of victims of trafficking.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">71.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I readily accept that people trafficking is a particularly grave crime and that its victims, who are often vulnerable, can suffer grievously. However, many other crimes are no less serious, their victims equally vulnerable and the consequences they suffer at least as grievous. I am unable to identify any feature of the offence of people trafficking which could require preferential treatment to be accorded in the present context to victims of trafficking over victims of other serious crime. It is, of course, the case that the crime of people trafficking is recognised by a number of international instruments including ECAT and the EU Directive. Furthermore, it has now been accepted that it falls within the prohibition in article 4 ECHR. However, none of these instruments requires more favourable treatment to be accorded to victims of trafficking so far as compensation by the state is concerned. As indicated earlier in this judgment, the ECtHR has not yet accepted that article 4 confers on victims of trafficking any right to compensation from the state. To the extent that article 15(4) ECAT may require a contracting state to provide a compensation scheme for victims of trafficking, it is to be &#8220;in accordance with the conditions under its internal law&#8221;. Moreover, there is nothing in EU law which affords to victims of trafficking a more favourable entitlement to compensation for criminal injuries than that granted to other victims of crime. Article 17 of the EU Directive requires member states to ensure that victims of trafficking &#8220;have access to existing schemes of compensation to victims of violent crimes of intent&#8221;. As Gross LJ explained in the Court of Appeal in the present proceedings (at para 41), neither ECAT nor EU law calls for victims of trafficking to enjoy rights under national compensation schemes free of any limiting or exclusionary terms and not enjoyed by other potential applicants for compensation who are not victims of trafficking.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">72.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">At this stage of the argument, the appellants&#8217; submissions shift into a rather different point. They draw attention to the fact that victims of people trafficking are themselves liable to commit crimes arising from their own trafficking for which they are blameless. For example, a victim of trafficking may be forced to commit immigration offences, to work in a cannabis farm or to use false documentation in order to work. The appellants point to the fact that, in recognition of the injustice of punishing victims of trafficking for crimes committed arising from their trafficking, states are obliged to provide for the possibility of not imposing penalties on victims of trafficking for their involvement in unlawful activities, to the extent that they have been compelled to do so as a result of their trafficking. (See article 26 of ECAT and article 8 of the EU Directive.) They also draw attention to the fact that here no distinction is drawn on the basis of the gravity of the offences which the victim of trafficking might have committed.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">73.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In this important respect, victims of trafficking are treated differently from others who commit criminal offences. Domestic law in this jurisdiction does provide safeguards intended to ensure that victims of trafficking are not punished for their involvement in unlawful activities which they were compelled to carry out. <ref href="http://www.legislation.gov.uk/id/ukpga/2015/30/section/45" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 45</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2015/30" uk:canonical="2015 c. 30" uk:origin="TNA" uk:type="legislation">Modern Slavery Act 2015</ref> provides a defence to trafficking victims compelled to commit an offence. The Crown Prosecution Service has a discretion not to prosecute. Furthermore, the court has power to protect victims of trafficking in respect of offences which they have been compelled to commit by staying a prosecution or, if a person is identified as a victim of trafficking only after conviction, by quashing a conviction as an abuse of process. (See, for example, <span style="font-style:italic">R v L (C)</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2013/991" uk:canonical="[2013] EWCA Crim 991" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] EWCA Crim 991</ref>; <ref href="#" uk:canonical="[2014] 1 All ER 113" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 1 All ER 113</ref>; <span style="font-style:italic">R v Joseph (Verna)</span><span/><span style="font-style:italic">(Anti-Slavery International intervening) (Practice Note)</span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2017/36" uk:canonical="[2017] EWCA Crim 36" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Crim 36</ref>; <ref href="#" uk:canonical="[2017] 1 WLR 3153" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] 1 WLR 3153</ref>.)</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">74.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants accept that these non-punishment provisions provide vital safeguards for victims of trafficking and may ensure that some who have committed offences connected to their having been trafficked may avoid a criminal penalty or may have a penalty quashed with the result that they are able to access the CICS. However, they point to certain alleged practical deficiencies or limitations in the non-punishment arrangements. In particular, they observe that the operation of these provisions is dependent on the correct identification of the victim of trafficking as such and the victim&#8217;s status being known to the prosecuting authorities and the court. They state that there are practical obstacles in the path of overturning on appeal a conviction of a victim of trafficking. Furthermore, they point out that these protections apply only to offences committed in the United Kingdom; victims of trafficking who are convicted abroad in connection with their trafficking may find it impossible to have their convictions overturned. They submit, therefore, that the protection afforded by these measures may not be sufficient for every victim of trafficking with the result that victims of trafficking should be treated for the purpose of the CICS more favourably than victims of other serious crimes.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">75.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For present purposes, I am willing to assume that it is arguable that victims of people trafficking who have committed criminal offences in connection with their being trafficked - who might be termed &#8220;nexus offenders&#8221; - are entitled to be treated differently in certain respects from other offenders. However, the difficulty faced by the appellants in the present case is that nexus offenders form a sub-group of victims of trafficking who have unspent convictions, and the appellants do not fall within that sub-group. The relevant conviction of each of the appellants relates to an offence committed long before the appellant became a victim of trafficking. Each had been convicted and had completed his prison sentence before being trafficked. The offending on the part of these appellants is totally unconnected with their being victims of trafficking. As a result, their arguments as to the alleged inadequacies of the non-punishment provisions applicable to nexus offenders have no application to their case. Whatever inadequacies in that regime there might be, they cannot say that it puts them in a different position from a non-trafficked offender, because that regime did not and could not apply to their earlier offending. The fact that some victims of trafficking who have committed offences will be nexus offenders cannot provide a basis for requiring differential treatment for all victims of trafficking who have committed offences, including those who like the appellants are not nexus offenders. To my mind, this is a complete answer to the appellants&#8217; case that they have been subjected to discrimination founded on their status as victims of people trafficking.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">76.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">It is relevant to point out that, in the courts below, the case in relation to discrimination was put on the basis of the impact of the exclusionary rule on victims of trafficking generally. Although submissions were made in relation to the position of nexus offenders and although both Wilkie J (at para 131) and the Court of Appeal (at paras 40-44, 94-102) addressed this specific issue, the evidence did not focus on this issue in any detail. In particular, there was no evidence before the court as to the effectiveness of the anti-punishment measures. In the Court of Appeal the appellants argued that blameless nexus offenders would have been prevented from claiming compensation under the CICS because of the exclusionary rule, while the respondents argued that nexus offenders would have been protected by the existing non-prosecution measures and so would not have been caught by the exclusionary rule. There was no clear evidence on the point either way. Before this court, the interveners made submissions on the issue in support of the appellants, but the court refused an application by the interveners to adduce evidence on this issue, on the ground that it was inappropriate to introduce such evidence at this stage of the proceedings and that, in any event, A and B did not fall within the category of nexus offenders.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">77.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In these circumstances, it is not necessary to address the observations of Gross LJ in the Court of Appeal (at para 95), criticised by Ms Kaufmann in her submissions, to the effect that if a victim of trafficking was for some reason unable to benefit from any of the non-punishment protections, the circumstances of the offending would likely be so divorced from the trafficking as to point to his or her not being a blameless victim of a crime of violence. I express no view in relation to that. The efficacy of the non-punishment protections is not a question which arises in the present case. I do note, however, that the appellants, when addressing justification in their written case, state that &#8220;[g]iven the non-punishment provisions, it is inconceivable that the number of victims of trafficking caught by [the exclusionary rule in] paragraph 3 will be substantial in number, certainly not significant enough to make any meaningful dent in the scheme&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">78.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For these reasons, I consider that the appellants&#8217; case on unlawful discrimination founded on the fact that they are victims of people trafficking is not made out.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading">Victims of trafficking with relevant unspent convictions</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">79.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">On this alternative basis the appellants submit that in excluding from the CICS victims of trafficking with an unspent conviction which resulted in a custodial or community sentence, but not other victims of trafficking, the scheme discriminates on grounds of other status. Clearly, there is a difference in treatment between those who have relevant unspent convictions and who are therefore excluded from compensation, and those who do not and are therefore not excluded from compensation. Insofar as both may be victims of crimes of violence and therefore otherwise potentially eligible for compensation, the issue is whether the difference in treatment is justified.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Justification</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">80.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">What requires to be justified is the difference in treatment arising from the provisions of Annex D. The issue for consideration is whether the exclusion from the CICS of victims of trafficking with an unspent conviction which resulted in a custodial or community sentence, as opposed to other victims of trafficking, is justified.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">81.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In <span style="font-style:italic">Stec v United Kingdom</span><ref href="#" uk:canonical="(2006) 43 EHRR 47" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">(2006) 43 EHRR 47</ref> the ECtHR described justification in the following terms:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;51.<marker name="tab"/>&#8230; A difference of treatment is &#8230; discriminatory if it has no objective and reasonable justification; in other words, if it does not pursue a legitimate aim or if there is not a reasonable relationship of proportionality between the means employed and the aim sought to be realised. The contracting state enjoys a margin of appreciation in assessing whether and to what extent differences in otherwise similar situations justify a different treatment.</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">52.<marker name="tab"/>The scope of this margin will vary according to the circumstances, the subject matter and the background. As a general rule, very weighty reasons would have to be put forward before the Court could regard a difference in treatment based exclusively on the ground of sex as compatible with the Convention. On the other hand, a wide margin is usually allowed to the State under the Convention when it comes to general measures of economic or social strategy. Because of their direct knowledge of their society and its needs, the national authorities are in principle better placed than the international judge to appreciate what is in the public interest on social or economic grounds, and the Court will generally respect the legislature&#8217;s policy choice unless it is &#8216;manifestly without reasonable foundation&#8217;.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">82.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">As Lord Reed has demonstrated in his judgment in <span style="font-style:italic">R (SC, CB and 8 children) v Secretary of State for Work and Pensions</span> at paras 98-142 the ECtHR employs a flexible approach when deciding what standard is to be applied when considering justification. In general, unless one factor is of overriding significance, it is necessary for the court to make a balanced overall assessment. In the present case the appellants have accepted, correctly in my view, that the applicable test here is whether the decision to adopt the measure under challenge (ie the CICS) was manifestly without reasonable foundation. A number of features of this case strongly support this conclusion.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">83.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">First, the CICS operates in the field of social welfare policy where courts should normally be slow to substitute their view for that of the decision maker (<span style="font-style:italic">R (RJM) v Secretary of State for Work and Pensions</span> at para 56). Furthermore, this is an area where the ECtHR usually accords a wide margin of appreciation to national courts as it explained in <span style="font-style:italic">Stec</span>, paras 51, 52, cited at para 82 above and in <span class="cohidesearchterm" style="font-style:italic">F&#225;bi&#225;n v Hungary</span><span class="cohidesearchterm"><ref href="#" uk:canonical="(2017) 66 EHRR 26" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">(2017) 66 EHRR 26</ref>, paras 114, 115</span><span class="cohidesearchterm" style="font-size:12pt">. </span>The question whether and, if so to what extent, the state should pay compensation to victims of crimes of violence who have themselves committed crimes is essentially a question of moral and political judgement. Furthermore, it requires the exercise of political judgement in relation to the allocation of finite public resources. This is, therefore, a field in which the courts should accord a considerable degree of respect to the decision maker.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">84.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Secondly, the reasons for judicial restraint are greater where, as in the present case, the statutory instrument has been reviewed by Parliament. In <span style="font-style:italic">Bank Mellat v Her Majesty&#8217;s Treasury (No 2)</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/39" uk:canonical="[2013] UKSC 39" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 39</ref>; <ref href="#" uk:canonical="[2014] AC 700" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] AC 700</ref> Lord Sumption expressed the matter in the following terms at p 780, para 44:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; [W]hen a statutory instrument has been reviewed by Parliament, respect for Parliament&#8217;s constitutional function calls for considerable caution before the courts will hold it to be unlawful on some ground (such as irrationality) which is within the ambit of Parliament&#8217;s review. This applies with special force to legislative instruments founded on considerations of general policy.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">85.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Thirdly, the basis of the discriminatory treatment complained of is also relevant here. The ECtHR has identified a number of suspect grounds of differential treatment which are regarded as particularly serious, such as sex, race or ethnic origin, nationality or birth status, and which will usually require very weighty reasons by way of justification, unless outweighed by other relevant considerations. In general, the rationale is the link between the characteristic on which differential treatment is founded and a history of stigmatisation, stereotyping and social exclusion. However, in the present case the status relied upon, ie being a victim of trafficking with a relevant unspent conviction, is not within the range of suspect reasons where discrimination is usually particularly difficult to justify. Accordingly, to ask whether the measure is manifestly without reasonable foundation is an entirely appropriate test.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">86.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The objective of the relevant provisions of the legislation appears from the process of consultation which preceded its adoption and which is helpfully summarised by Gross LJ (at paras 85-91) in his judgment in the Court of Appeal. The Consultation Document (Ministry of Justice Consultation Paper CP3/2012, January 2012, Getting it right for victims and witnesses (Cm 8288)) stated at para 207:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;We acknowledge that our proposals in relation to the Scheme rules on unspent convictions, although a development of the existing position, could impact in particular on those who have on their record relatively minor unspent convictions. However, we consider that tougher rules are warranted. The Scheme is a taxpayer-funded expression of public sympathy and it is reasonable that there should be strict criteria around who is deemed &#8216;blameless&#8217; for the purpose of determining who should receive a share of its limited funds. We consider that, in principle, awards should only be made to those who have themselves obeyed the law and not cost society money through their offending behaviour. Minor convictions will, under the <ref href="http://www.legislation.gov.uk/id/ukpga/1974/53" uk:canonical="1974 c. 53" uk:origin="TNA" uk:type="legislation">Rehabilitation of Offenders Act 1974</ref>, become spent (and therefore no longer count for the purpose of the Scheme) so long as the offender does not reoffend.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">87.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This is clearly a legitimate aim. Article 8(3) of the European Convention on the Compensation of Victims of Violent Crimes 1983 provides that compensation may be reduced or refused if an award or a full award would be contrary to a sense of justice or to public policy. Similarly, the Explanatory Report to the Convention (Explanatory Report to the European Convention on the Compensation of Victims of Violent Crimes, Strasbourg, 24 November 1983, ETS No 116) states at para 36c in relation to this provision:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;States which introduce compensation schemes usually want to retain some discretion in awarding compensation and to be able to refuse it in certain cases where it is clear that a gesture of solidarity would be contrary to public feeling or interests or would be contrary to the basic principles of the legislation of the State concerned. This being so, a known criminal who was the victim of a crime of violence could be refused compensation even if the crime in question was unrelated to his criminal activities.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">As Gross LJ put it in the Court of Appeal at para 92, the moral element, underlying the exclusionary rule, is internationally understood and is in any event a matter for national states.</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">88.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">The appellants do not dispute that seeking to ensure that limited funds should be directed towards those who are considered blameless and who have not inflicted loss on society through their offending behaviour is a legitimate aim. Furthermore, they do not suggest that the provisions of Annex D are not rationally connected with that aim. They do, however, complain that the exclusionary rule in paragraph 3 of Annex D is not proportionate in that it imposes a bright line rule without the possibility of the exercise of a discretion in favour of an applicant, which had been a feature of earlier iterations of the CICS.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">89.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In approaching this submission, a convenient starting point is the observation of Lord Bingham in relation to the nature of legislation, made in a very different context in <span style="font-style:italic">R (Animal Defenders International) v Secretary of State for Culture, Media and Sport</span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/15" uk:canonical="[2008] UKHL 15" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 15</ref>; <ref href="#" uk:canonical="[2008] AC 1312" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] AC 1312</ref>, para 33:</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; [L]egislation cannot be framed so as to address particular cases. It must lay down general rules: &#8230; A general rule means that a line must be drawn, and it is for Parliament to decide where. The drawing of a line inevitably means that hard cases will arise falling on the wrong side of it, but that should not be held to invalidate the rule if, judged in the round, it is beneficial.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">The drawing of dividing lines between eligibility and non-eligibility is an inevitable feature of legislation in the field of social welfare and compensation. In many cases there will be room for disagreement as to where a line should be drawn but the courts will be slow to interfere. In <span style="font-style:italic">RJM</span> Lord Neuberger, accepting that the government was entitled to adopt the policy at issue in relation to disability premium in income support, observed at para 57:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;The fact that there are grounds for criticising, or disagreeing with, these views does not mean that they must be rejected. Equally, the fact that the line may have been drawn imperfectly does not mean that the policy cannot be justified. Of course, there will come a point where the justification for a policy is so weak, or the line has been drawn in such an arbitrary position, that, even with the broad margin of appreciation accorded to the state, the court will conclude that the policy is unjustifiable. However, this is not such a case, in my judgment.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">Similarly, in <span style="font-style:italic">Mathieson v Secretary of State for Work and Pensions</span> Lord Mance stated at para 51:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;Courts should not be over-ready to criticise legislation in the area of social benefits which depends necessarily on lines drawn broadly between situations which can be distinguished relatively easily and objectively.&#8221;</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="ParaNoNumber">In this regard the courts have also acknowledged the advantages of clear rules which can be readily applied. In <span style="font-style:italic">R (Tigere) v Secretary of State for Business, Innovation and Skills</span> Lord Hughes stated at para 60, referring to rules of eligibility for student loans:</p>
+	  </content>
+	</level>
+	<level>
+	  <content>
+	    <p class="Quote" style="margin-left:1.00in">&#8220;All such rules are both inclusionary and exclusionary; if one grafts onto them a residual discretion they cease to be rules based on readily ascertainable facts and become rules based in part on an evaluative exercise. The truth is that clear rules, based on readily ascertainable facts, which are simple to state, to understand and to apply, have a merit of their own.&#8221;</p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">90.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">Can a bright line rule be justified in the context of this compensation scheme? In my view it clearly can. First, we are concerned with an area of policy in which a considerable degree of latitude is accorded to the legislator as to the form and scope of the CICS. Secondly, the object of the CICS, namely the allocation of limited resources to deserving victims of crime as an expression of public sympathy, is such that the legislator is entitled to adopt a scheme which operates by clearly defined rules. In particular, it is appropriate to lay down rules as to the seriousness of offences which will disqualify possible claimants as opposed to allowing a general discretion to be applied in individual cases by claims officers. The chosen approach has the considerable advantages of clarity and consistency. Thirdly, it is significant that the CICS was approved by Parliament following an extensive process of consultation and an equality impact assessment. The government did consider the extent to which there should be a discretion exercisable in individual cases and decided to retain such a discretion in respect of unspent convictions for minor offences within paragraph 4 of Annex D but not in respect of more serious unspent offences which resulted in a custodial or community sentence within paragraph 3. I consider that it was perfectly entitled to adopt such an approach.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">91.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">In any event, the rules adopted in Annex D are, as both Wilkie J and the Court of Appeal pointed out, nuanced rules reflecting in various ways both the seriousness and the age of a claimant&#8217;s previous conviction. The exclusionary rule in paragraph 3 applies only to unspent convictions which resulted in custodial or community sentences. Unspent convictions resulting in lesser sentences fall within paragraph 4 under which the claims officer retains some discretion: an award will be withheld or reduced unless there are exceptional reasons not to withhold or reduce it. In this way a distinction is drawn based on the seriousness of the offence, the circumstances in which it was committed, the culpability of the offender and the availability of mitigation, as reflected in the sentence imposed. The effect of paragraph 5 of Annex D is to exclude altogether from the operation of paragraphs 3 and 4, certain road traffic offences which resulted in no more than an endorsement, penalty points or a fine. Furthermore, the provisions of paragraph 3 apply only in relation to unspent convictions. The legislation on rehabilitation of offenders provides for certain convictions to become spent, depending on the gravity of the offence as reflected in the sentence imposed and the passage of time since it was committed, conditional on subsequent good conduct. This introduces a further relative scale into the operation of paragraph 3. The more serious the offence and the more recently it was committed, the more likely is the offender to be excluded from compensation. As Gross LJ expressed the matter in the Court of Appeal (at para 99), Annex D read as a whole provides a graduated approach to withholding or reducing awards of compensation, hinging on the seriousness of the offending, the circumstances of the offender and applicable mitigation, all reflected in the sentence passed and the time which has elapsed since the offending in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">92.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">I consider, therefore, that the difference in treatment on grounds of other status resulting from Annex D is justified. The measure has the legitimate objective of limiting eligibility to compensation to those deserving of it. Furthermore, the measure satisfies the requirement of proportionality. It is rationally connected to the objective. The measure is no more intrusive than it requires to be and it strikes a fair balance between the competing interests. Wilkie J and the Court of Appeal were clearly correct in concluding that it cannot be regarded as manifestly without reasonable foundation.</p>
+	  </content>
+	</paragraph>
+	<level>
+	  <content>
+	    <p class="ParaHeading"><span style="font-style:normal;text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph>
+	  <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-size:13pt;margin-left:0.00in">93.</num>
+	  <content>
+	    <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">For these reasons, I would dismiss this appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

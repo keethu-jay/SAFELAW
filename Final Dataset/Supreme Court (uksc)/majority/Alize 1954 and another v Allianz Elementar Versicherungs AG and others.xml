@@ -1,0 +1,1563 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/51"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/uksc/2021/51"/>
+	  <FRBRdate date="2021-11-10" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="51"/>
+	  <FRBRname value="Alize 1954 and another v Allianz Elementar Versicherungs AG and others"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/51"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/51"/>
+	  <FRBRdate date="2021-11-10" name="judgment"/>
+	  <FRBRauthor href="#uksc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/uksc/2021/51/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/uksc/2021/51/data.xml"/>
+	  <FRBRdate date="2022-03-16T17:49:52" name="transform"/>
+	  <FRBRdate date="2025-08-18T04:22:33" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2021-11-10" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="uksc" href="https://www.supremecourt.uk/" shortForm="Supreme Court" showAs="The UK Supreme Court"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="alize-1954-and-another" href="" showAs="Alize 1954 and another"/>
+	<TLCPerson eId="allianz-elementar-versicherungs-ag-and-others" href="" showAs="Allianz Elementar Versicherungs AG and others"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-lord-reed-president" href="/judge-lord-reed-president" showAs="Lord Reed, President"/>
+	<TLCPerson eId="judge-lord-briggs" href="/judge-lord-briggs" showAs="Lord Briggs"/>
+	<TLCPerson eId="judge-lady-arden" href="/judge-lady-arden" showAs="Lady Arden"/>
+	<TLCPerson eId="judge-lord-hamblen" href="/judge-lord-hamblen" showAs="Lord Hamblen"/>
+	<TLCPerson eId="judge-lord-leggatt" href="/judge-lord-leggatt" showAs="Lord Leggatt"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKSC</uk:court>
+	<uk:year>2021</uk:year>
+	<uk:number>51</uk:number>
+	<uk:cite>[2021] UKSC 51</uk:cite>
+	<uk:parser>0.3.1</uk:parser>
+	<uk:hash>2145471e6f6bb17b73aa899027fb22b9d3267543f8e6e40fb2904e64ff65d100</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-size: 12pt; font-family: Calibri, sans-serif; }
+#judgment .Normal { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Footer { font-family: Univers; font-size: 12pt; }
+#judgment .Caveat { text-align: justify; font-weight: bold; font-family: Calibri, sans-serif; font-size: 10pt; }
+#judgment .Header { font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .ParaHeading1 { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumber { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Quote { margin-left: 1.00in; margin-right: 0.87in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .NewSpeech { font-weight: bold; text-transform: uppercase; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading2 { font-weight: bold; font-family: Calibri, sans-serif; font-size: 12pt; }
+#judgment .Paraheading3 { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Embargo { text-align: justify; font-weight: bold; font-size: 10pt; }
+#judgment .JudgmentReferences { text-align: right; font-size: 12pt; }
+#judgment .Bulletpara { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading4 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading5 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .Paraheading6 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .CourtOrder { font-weight: bold; font-size: 13pt; color: #C00000; }
+#judgment .JudgmentTitle { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .JudgmentDetail1 { text-align: center; font-weight: bold; font-size: 20pt; }
+#judgment .ParaSubHeading1 { font-style: italic; font-weight: bold; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading2 { font-style: italic; text-decoration-line: underline; text-decoration-style: solid; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaSubHeading3 { font-style: italic; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel1 { margin-left: 0.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaApprovedLevel2 { margin-left: 0.50in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaNoNumberApproved { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .JudgmentJudges { text-align: center; font-weight: bold; font-size: 17pt; }
+#judgment .JudgmentAppRespInt { text-align: center; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.50in; font-size: 11pt; }
+#judgment .ParaLevel3 { margin-left: 1.00in; font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .ParaHeading { font-style: italic; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .Title1 { text-align: center; margin-left: 1.00in; font-weight: bold; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.48in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 1.97in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.46in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 2.95in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.45in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 3.94in; font-family: 'Times New Roman'; font-size: 13pt; }
+#judgment .WorkingDate { text-align: right; font-weight: bold; font-family: 'Times New Roman'; font-size: 18pt; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FooterChar { font-family: Univers; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QuoteChar { font-family: Calibri, sans-serif; font-size: 13pt; }
+#judgment .PageNumber { font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"/>
+      <p class="Header"/>
+    </coverPage>
+    <header>
+      <p class="JudgmentReferences"><img src="image1.png" style="width:1.3798611111111112in;height:1.3798611111111112in;"/><span style="font-weight:bold">Michaelmas Term</span><br/><neutralCitation style="font-weight:bold">[2021] UKSC 51</neutralCitation><br/><span style="font-style:italic">On appeal from: [2020] EWCA Civ 293</span></p>
+      <p class="JudgmentTitle">JUDGMENT</p>
+      <p class="JudgmentDetail1"><party as="#appellant" refersTo="#alize-1954-and-another">Alize 1954 and another</party> (<role refersTo="#appellant">Appellants</role>) <span style="font-style:italic">v</span><span/><party as="#respondent" refersTo="#allianz-elementar-versicherungs-ag-and-others">Allianz Elementar Versicherungs AG and others</party> (<role refersTo="#respondent">Respondents</role>)</p>
+      <p class="JudgmentJudges"><span style="font-weight:normal">before</span><br/><br/><judge refersTo="#judge-lord-reed-president">Lord Reed, President</judge><br/><judge refersTo="#judge-lord-briggs">Lord Briggs</judge><br/><judge refersTo="#judge-lady-arden">Lady Arden</judge><br/><judge refersTo="#judge-lord-hamblen">Lord Hamblen</judge><br/><judge refersTo="#judge-lord-leggatt">Lord Leggatt</judge></p>
+      <p class="JudgmentJudges">JUDGMENT GIVEN ON<br/><docDate date="2021-11-10" refersTo="#judgment">10 November 2021</docDate><br/><br/>Heard on 7 and 8 July 2021</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Appellants</span><br/>Timothy Hill QC<br/>Alex Carless<br/>Michal Hain<br/>(Instructed by Reed Smith LLP (London))</p>
+      <p class="JudgmentAppRespInt"><span style="font-style:italic">Respondents</span><br/>John Russell QC<br/>Benjamin Coffer<br/>(Instructed by Clyde &amp; Co LLP (Guildford))</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level class="author">
+	  <content>
+	    <p class="NewSpeech">LORD HAMBLEN: (<span style="text-transform:none">with whom Lord Reed, Lord Briggs, Lady Arden and Lord Leggatt agree)</span></p>
+	  </content>
+	</level>
+	<level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.00in">1.</num>
+	    <content>
+	      <p class="ParaLevel1" style="margin-left:0.00in;text-indent:0.50in">This appeal concerns the scope of a shipowner&#8217;s obligation to exercise due diligence to make a vessel seaworthy. The seaworthiness obligation is fundamental to all contracts of carriage of goods by sea. At common law the carrier was under an absolute obligation to provide a seaworthy vessel. Today the seaworthiness obligation is invariably governed by the terms of the parties&#8217; contract or by statute, such as the UK <ref href="http://www.legislation.gov.uk/id/ukpga/1971/19" uk:canonical="1971 c. 19" uk:origin="TNA" uk:type="legislation">Carriage of Goods by Sea Act 1971</ref>. The present case concerns the seaworthiness obligation imposed by article III rule 1 of the Hague Rules, a 1924 international convention for the unification of rules of law relating to bills of lading. It is in the same terms under the Hague Visby Rules, the Hague Rules as amended by the 1968 Brussels Protocol. The Hague or Hague Visby Rules have been ratified by more than 95 states across the world. Where not compulsorily applicable, they are widely contractually incorporated into bills of lading, charterparties and other contracts of affreightment, often through a clause paramount.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The main issue raised on the appeal is whether, as the appellants contend, the carrier&#8217;s obligation under the Hague Rules is subject to a category-based distinction between a vessel&#8217;s quality of seaworthiness or navigability and the crew&#8217;s act of navigating. It is said that there is a distinction between seaworthiness, which concerns the attributes and equipment of the vessel, and the navigation and management of the vessel, which concerns how the crew operates the vessel using those attributes and equipment. A further and related issue arises in relation to the obligation of due diligence. It is the appellants&#8217; case that so long as the carrier has equipped the vessel with all that is necessary for her to be safely navigated, including a competent crew, then the crew&#8217;s failure to navigate the vessel safely is not a lack of due diligence by the carrier.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The factual context in which these issues arise is the grounding of the appellants&#8217; container vessel CMA CGM LIBRA on leaving the port of Xiamen, China, on a voyage to Hong Kong. The Admiralty Judge, Teare J, found that the vessel&#8217;s defective passage plan was causative of the grounding and that this involved a breach of the carrier&#8217;s seaworthiness obligation under article III rule 1 of the Hague Rules. His decision was upheld by the Court of Appeal. The appellants (&#8220;the owners&#8221;) contend that the decisions of the courts below were wrong, that the vessel was not unseaworthy and/or due diligence was exercised, and that any negligence in passage planning was a navigational fault which is exempted under article IV rule 2(a) of the Hague Rules.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaHeading1">1.<marker name="tab"/>The factual background</p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <heading class="Paraheading2"><span style="font-size:13pt">Passage planning</span></heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Guidelines for Voyage Planning adopted by Resolution A893(21) of the International Maritime Organisation (&#8220;IMO&#8221;) on 25 November 1999 (&#8220;the Guidelines&#8221;) were to be brought &#8220;to the attention of masters of vessels, &#8230; shipowners, ship operators, shipping companies, maritime pilots, training institutions and all other parties &#8230; for information and action as appropriate&#8221; (2nd resolution). As the judge held (para 87), they involve recognition of the need for passage planning to be adopted by &#8220;all ships engaged on international voyages&#8221; (5th recital). They state that &#8220;the development of a plan for voyage or passage, as well as the close and continuous monitoring of the vessel&#8217;s progress and position during the execution of such a plan, are of essential importance for safety of life at sea, safety and efficiency of navigation and protection of the marine environment&#8221; (Objective 1.1). They identify four components of passage planning: appraisal, planning, execution and monitoring.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The appraisal stage requires &#8220;all information relevant to the contemplated voyage or passage&#8221; to be considered. This should include &#8220;appropriate scale, accurate and up-to-date charts to be used for the intended voyage or passage, as well as any relevant permanent or temporary notices to mariners and existing radio navigational warnings&#8221;. The appraisal &#8220;should provide a clear indication of all areas of danger&#8221; and of &#8220;those areas where it will be possible to navigate safely&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The planning stage requires a detailed berth to berth passage plan to be prepared on the basis of the &#8220;fullest possible appraisal&#8221;. The factors which should be included in the passage plan include &#8220;the plotting of the intended route or track of the voyage or passage on appropriate scale charts&#8221; with an indication of &#8220;the true direction of the planned route or track&#8221; and &#8220;all areas of danger&#8221;. The details of the passage plan &#8220;should be clearly marked and recorded, as appropriate, on charts and in a voyage plan notebook or computer disk&#8221; and its details &#8220;should be approved by the ships' master prior to the commencement of the voyage&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The execution stage involves executing the voyage in accordance with the plan or any changes made thereto and the Guidelines list various factors which should be taken into account &#8220;when executing the plan, or deciding on any departure therefrom&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The monitoring stage involves ensuring that the plan is &#8220;available at all times on the bridge to allow officers of the navigational watch immediate access and reference to the details of the plan&#8221;. The Guidelines further provide that &#8220;the progress of the vessel in accordance with the voyage and passage plan should be closely and continuously monitored&#8221; and that any &#8220;changes made to the plan should be made consistent with these Guidelines and clearly marked and recorded&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Prudent passage planning would reasonably be expected to involve due regard to the Guidelines. As the judge stated at para 3:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;Established principles with regard to seaworthiness and the duty of due diligence pursuant to article III, rule 1 of the Hague Rules fall to be applied in the context of &#8230; the recognition by the International Maritime Organisation in 1999 that voyage or passage planning should apply to all ships engaged on international voyages. The practice of passage planning was therefore well established by 2011.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">As the judge found at para 65:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;The purpose of a passage plan is to plan the passage so as to ensure that the vessel is navigated safely: see the IMO Guidelines for Passage Planning. The owners&#8217; own guidance to their masters emphasised that the information noted on the passage plan should include &#8216;the areas to be avoided&#8217; and &#8216;navigation dangers such as &#8230; shallow waters&#8217;. Captain Whyte accepted that an important goal of passage planning was to identify areas where it was unsafe for the vessel to go and to prevent &#8216;bad real-time decisions from being made&#8217;. As Captain Hart put it, &#8216;a proper passage plan operates to prevent bad ad hoc decision-making during the course of a passage&#8217;.&#8221;</p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <heading class="Paraheading2"><span style="font-size:13pt">The defects in the passage plan</span></heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In the present case, the passage plan was contained in two documents: a completed pro-forma &#8220;passage plan document&#8221; and the vessel&#8217;s working chart. For the part of the vessel&#8217;s passage involving departure from Xiamen, the relevant chart was British Admiralty chart no 3449 (&#8220;BA 3449&#8221;). The printed version of BA 3449 which the vessel had onboard was the most up-to-date printed version. The UK Hydrographic Office regularly publishes (usually on a weekly basis) Notices to Mariners that provide crews with navigational information, some of which must be marked on the chart (nowadays vessels use electronic charts which are automatically updated).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The vessel had onboard Notice to Mariners 6274(P)/10 (&#8220;NM 6274&#8221;). NM 6274 included the following warning (&#8220;the uncharted depths warning&#8221;):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;Numerous depths less than the charted exist within, and in the approaches to Xiamen Gang.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">During the passage planning process, the crew did not annotate BA 3449 to include an express reference to the uncharted depths warning, nor did they refer to it in the passage plan document. NM 6274 also included advice that the &#8220;least depth&#8221; within the buoyed fairway<span style="font-size:8pt"/>leading from the port to the open sea was 14 metres at low tide, so that it was at all times sufficiently deep for the vessel. When this advice was read together with the uncharted depths warning, the judge found (at para 53) that an ordinarily prudent mariner would consider that it was safe to navigate within the fairway (which had a sufficient depth) but not outside of the fairway (which had numerous depths less than charted).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The judge found that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;70.<marker name="tab"/>&#8230; prudent passage planning required the danger created by the presence of numerous depths less than those charted outside the fairway to be noted on the chart. Such a note, in the terms suggested by Captain Hart, would immediately remind the officer navigating the vessel that it was unsafe to navigate outside the fairway. Such a note would do that which the IMO guidance on passage planning requires, namely, it would give a clear indication of the danger in navigating outside the fairway &#8230; My conclusion, having considered the expert and other evidence, is that whilst it would of course be prudent to note the warning in the passage plan it would also be necessary (and prudent) to mark the warning on the chart since that is the primary document to which the officer navigating the vessel would refer when making navigational decisions in the course of the outward passage.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8230;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">73.<marker name="tab"/>In the present case neither the passage plan nor the chart contained the necessary warning. It was therefore defective or inadequate and imprudently so. A source of danger when leaving Xiamen was not clearly marked as it ought to have been.&#8221;</p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <heading class="Paraheading2"><span style="font-size:13pt">Causation</span></heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">On 18 May 2011, whilst leaving Xiamen, the vessel grounded on a shoal outside of the buoyed fairway. The detailed factual circumstances leading up to the grounding are set out in paras 9 to 43 of Teare J&#8217;s judgment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The then current version of BA 3449, as &#8220;updated&#8221; by the crew to take into account the latest Notices to Mariners (where required), did not indicate the shoal on which the vessel grounded (though it did show a sounding of 1.2 metres that might have been part of the shoal).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">According to the passage plan, the vessel was not meant to leave the buoyed fairway. Nonetheless, whilst underway the master decided to leave the fairway to pass west of buoy 14.1. The judge found that decision to be negligent (para 54).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The judge further found that &#8220;it is more likely than not that the defect in the passage plan was causative of the master&#8217;s decision to leave buoy 14-1 to port&#8221; (para 89). He explained that had &#8220;there been a warning on the chart about charted depths being unreliable the master would have been, as it seems to me, most unlikely to have decided to navigate beyond the buoyed fairway to the west of buoy 14-1&#8221; (para 90) and concluded that &#8220;the defective passage plan and the master&#8217;s resulting negligence in deciding to navigate outside the buoyed fairway&#8221; was &#8220;a real and effective cause of the grounding&#8221; (para 92).</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaHeading1">2.<marker name="tab"/>The legal context</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The grounding of the vessel led to its salvage at a cost of some US$9.5m. It resulted in a total claim in general average made by the owners against the cargo owners of some US$13m. General average is a principle of maritime law whereby sacrifice or expenditure, in time of danger, for the sake of all the property interests to the common maritime adventure, is to be replenished by a general contribution by all property interests whose property has been thereby brought to safety.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Most of the cargo owners paid their contribution to general average but some 8% refused to do so, leading to the general average claim made by the owners against the respondents (&#8220;the cargo interests&#8221;) in the present proceedings of approximately US$800,000.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">A shipowner is not entitled to recover general average contributions from the owners of the cargo where the loss or expenditure was caused by its &#8220;actionable fault&#8221; which includes any causative breach of the terms of the relevant contract of carriage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In the present case, the cargo was being carried pursuant to contracts of carriage contained in or evidenced by bills of lading which, as is common ground, are governed by English law. The contracts of carriage incorporated the Hague Rules.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Article II of the Hague Rules provides that &#8220;under every contract of carriage of goods by sea the carrier &#8230; shall be subject to the responsibilities and liabilities, and entitled to the rights and immunities&#8221; thereafter set out.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The responsibilities and liabilities of the carrier are set out in article III, which provides that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;1.<marker name="tab"/>The carrier shall be bound before and at the beginning of the voyage to exercise due diligence to:</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>Make the ship seaworthy.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>Properly man, equip and supply the ship.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>Make the holds, refrigerating and cool chambers, and all other parts of the ship in which goods are carried, fit and safe for their reception, carriage and preservation.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">2.<marker name="tab"/>Subject to the provisions of article 4, the carrier shall properly and carefully load, handle, stow, carry, keep, care for, and discharge the goods carried.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The rights and immunities of the carrier are set out in article IV which identifies the circumstances in which the carrier shall not be responsible for loss or damage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In relation to the obligation of seaworthiness under article III rule 1, the relevant provision is article IV rule 1 which provides as follows:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;1.<marker name="tab"/>Neither the carrier nor the ship shall be liable for loss or damage arising or resulting from unseaworthiness unless caused by want of due diligence on the part of the carrier to make the ship seaworthy, and to secure that the ship is properly manned, equipped and supplied, and to make the holds, refrigerating and cool chambers and all other parts of the ship in which goods are carried fit and safe for their reception, carriage and preservation in accordance with the provisions of paragraph 1 of article III. Whenever loss or damage has resulted from unseaworthiness the burden of proving the exercise of due diligence shall be on the carrier or other person claiming exemption under this article.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In relation to the obligation properly and carefully to care for the goods under article III rule 2, the relevant provision is article IV rule 2 which provides as follows:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;2.<marker name="tab"/>Neither the carrier nor the ship shall be responsible for loss or damage arising or resulting from:</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(a)<marker name="tab"/>Act, neglect, or default of the master, mariner, pilot, or the servants of the carrier in the navigation or in the management of the ship.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(b)<marker name="tab"/>Fire, unless caused by the actual fault or privity of the carrier.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(c)<marker name="tab"/>Perils, dangers and accidents of the sea or other navigable waters.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(d)<marker name="tab"/>Act of God.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(e)<marker name="tab"/>Act of war.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(f)<marker name="tab"/>Act of public enemies.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(g)<marker name="tab"/>Arrest or restraint of princes, rulers or people, or seizure under legal process.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(h)<marker name="tab"/>Quarantine restrictions.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(i)<marker name="tab"/>Act or omission of the shipper or owner of the goods, his agent or representative.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(j)<marker name="tab"/>Strikes or lockouts or stoppage or restraint of labour from whatever cause, whether partial or general.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(k)<marker name="tab"/>Riots and civil commotion.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(l)<marker name="tab"/>Saving or attempting to save life or property at sea.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(m)<marker name="tab"/>Wastage in bulk or weight or any other loss or damage arising from inherent defect, quality or vice of the goods.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(n)<marker name="tab"/>Insufficiency of packing.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(o)<marker name="tab"/>Insufficiency or inadequacy of marks.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(p)<marker name="tab"/>Latent defects not discoverable by due diligence.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.50in">(q)<marker name="tab"/>Any other cause arising without the actual fault or privity of the carrier, or without the fault or neglect of the agents or servants of the carrier, but the burden of proof shall be on the person claiming the benefit of this exception to show that neither the actual fault or privity of the carrier nor the fault or neglect of the agents or servants of the carrier contributed to the loss or damage.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaHeading1">3.<marker name="tab"/>The proceedings below</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In defence of the owners&#8217; claim for contribution in general average, the cargo interests alleged &#8220;actionable fault&#8221; by the owners in failing to exercise due diligence to make the ship seaworthy, in breach of their obligation under article III rule 1 of the Hague Rules, in that the passage plan was defective.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners&#8217; response to this allegation was that a passage plan records navigational decisions, a defective passage plan does not render a vessel unseaworthy, and article IV rule 2(a) exempts shipowners from liability for negligent navigational decisions. The owners&#8217; alternative case was that, even if the vessel was unseaworthy, they had exercised due diligence to make her so: they employed a competent crew and equipped the vessel with all the necessary equipment to enable the crew to navigate the vessel safely, and in particular with both the relevant up-to-date chart as well as the Notices to Mariners warning of dangers not printed on the chart.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Following a six-day trial, Teare J dismissed the owners&#8217; claim: <ref href="https://caselaw.nationalarchives.gov.uk/admlty/ch/2019/481" uk:canonical="[2019] EWHC 481 (Admlty)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] EWHC 481 (Admlty)</ref>; <ref href="#" uk:canonical="[2019] Bus LR 1453" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] Bus LR 1453</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In relation to the issue of seaworthiness, the judge applied what he described as &#8220;the usual or conventional test on unseaworthiness&#8221; (para 77), as set out <span style="font-style:italic">McFadden v Blue Star Line </span><ref href="#" uk:canonical="[1905] 1 KB 697" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1905">[1905] 1 KB 697</ref>, 706, namely &#8220;whether a prudent owner would have required the relevant defect, had he known of it, to be made good before sending his ship to sea&#8221; (&#8220;the prudent owner test&#8221;). He found that the prudent owner would have required the defective passage plan to be made good before the vessel set to sea, and indeed that it was &#8220;inconceivable&#8221; that the prudent owner would have acted otherwise:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;78.<marker name="tab"/>Given that, as stated in the IMO Resolution of 1999, a &#8216;well-planned voyage&#8217; is of &#8216;essential importance for safety of life at sea, safety of navigation and protection of the marine environment&#8217; one would expect that the prudent owner, if he had known that his vessel was about to commence a voyage with a defective passage plan, would have required the defect to be made good before the vessel set out to sea. This is particularly so where the defect in question is an absence from the passage plan and chart of a warning that numerous depths outside the fairway are less than those charted and where the owners had advised their masters of the difficulty of navigating in Xiamen waters because of, amongst other matters, &#8216;shallow waters&#8217; and urged &#8216;utmost care and diligent caution&#8217;. The appropriate warning in the passage plan and on the chart would serve to reduce the risk of poor navigational decisions during the passage. It seems to me inconceivable that the prudent owner would allow the vessel to depart from Xiamen with a passage plan which was defective in the manner which I have found.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">The judge rejected all other allegations of unseaworthiness (para 129).</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In relation to due diligence, the judge found that:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The master was competent (para 122). The master and second officer had on board everything that they needed to prepare a non-defective passage plan (para 101). No criticism was advanced by the cargo interests&#8217; expert of the owners&#8217; safety management system or auditing practices (para 110).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The owners were, however, wrong to characterise their duty of due diligence as being merely to ensure that the requisite materials were on board for a competent crew to prepare an adequate passage plan, putting in place proper systems and auditing those systems to check that they were being properly implemented (para 86).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.62in">The owners were responsible for all of the acts of the crew carried out whilst passage planning. &#8220;Due diligence &#8230; was not exercised by the owners because the master and second officer failed to exercise reasonable skill and care when preparing the passage plan&#8221; (para 129).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Court of Appeal dismissed the owners&#8217; appeal: <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/293" uk:canonical="[2020] EWCA Civ 293" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 293</ref>; <ref href="#" uk:canonical="[2020] Bus LR 1590" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] Bus LR 1590</ref>. The leading judgment in the Court of Appeal was given by Flaux LJ, with whom Males and Haddon-Cave LJJ agreed. Males LJ gave a judgment with which Haddon-Cave LJ agreed. Haddon-Cave LJ also gave a short concurring judgment. It is to be noted that all the judges below are very experienced in shipping law.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaHeading1">4.<marker name="tab"/>The approach to interpretation of the Hague Rules</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In its recent decision in <span style="font-style:italic">Nautical Challenge Ltd v Evergreen Marine (UK) Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2021/6" uk:canonical="[2021] UKSC 6" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKSC 6</ref>; <ref href="#" uk:canonical="[2021] 1 WLR 1436" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] 1 WLR 1436</ref> this court observed at para 38 that international conventions should in general &#8220;be interpreted by reference to broad and general principles of construction rather than any narrower domestic law principles&#8221;. One of the leading authorities there cited is the House of Lords decision in <span style="font-style:italic">Stag Line Ltd v Foscolo, Mango &amp; Co Ltd</span><ref href="#" uk:canonical="[1932] AC 328" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1932">[1932] AC 328</ref> which concerned the Hague Rules. In a well-known passage Lord Macmillan stated as follows at p 350:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;It is important to remember that <ref href="http://www.legislation.gov.uk/id/ukpga/1971/19" uk:canonical="1971 c. 19" uk:origin="TNA" uk:type="legislation">the Act</ref> of 1924 was the outcome of an International Conference and that the rules in the Schedule have an international currency. As these rules must come under the consideration of foreign courts it is desirable in the interests of uniformity that their interpretation should not be rigidly controlled by domestic precedents of antecedent date, but rather that the language of the rules should be construed on broad principles of general acceptation.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In the <span style="font-style:italic">Nautical Challenge </span>case the court observed (para 39) that the relevant general principles include article 31.1 of the Vienna Convention on the Law of Treaties 1969 which provides:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;A treaty shall be interpreted in good faith in accordance with the ordinary meaning to be given to the terms of the treaty in their context and in the light of its object and purpose.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">They also include article 32 of the Vienna Convention which provides that recourse may be had to &#8220;supplementary means of interpretation, including the preparatory work of the treaty and the circumstances of its conclusion&#8221; in order &#8220;to confirm the meaning&#8221; or &#8220;to determine the meaning&#8221; when it is &#8220;ambiguous or obscure&#8221; or &#8220;leads to a result which is manifestly absurd or unreasonable&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Regard may therefore be had to the travaux pr&#233;paratoires (&#8220;the travaux&#8221;) as a supplementary means of interpretation of the Hague Rules. As, however, Lord Steyn observed in <span style="font-style:italic">Effort Shipping Co Ltd v Linden Management SA (The Giannis NK) </span><ref href="#" uk:canonical="[1998] AC 605" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1998">[1998] AC 605</ref> at p 623D (a case concerning the Hague Rules):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;Although the text of a convention must be accorded primacy in matters of interpretation, it is well settled that the travaux pr&#233;paratoires of an international convention may be used as &#8216;supplementary means of interpretation&#8217;: compare article 31 of the Vienna Convention on the Law of Treaties, Vienna, 23 May 1969. Following <span style="font-style:italic">Fothergill v Monarch</span><span/><span style="font-style:italic">Airlines Ltd </span><ref href="#" uk:canonical="[1981] AC 251" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1981">[1981] AC 251</ref>, I would be quite prepared, in an appropriate case involving truly feasible alternative interpretations of a convention, to allow the evidence contained in the travaux pr&#233;paratoires to be determinative of the question of construction. But that is only possible where the court is satisfied that the travaux pr&#233;paratoires clearly and indisputably point to a definite legal intention: see <span style="font-style:italic">Fothergill v Monarch</span><span/><span style="font-style:italic">Airlines Ltd, per </span>Lord Wilberforce, at p 278C. Only a bull&#8217;s-eye counts. Nothing less will do.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Account should also be taken of the note of caution expressed by Lord Bingham of Cornhill in <span style="font-style:italic">JI MacWilliam Co Inc v Mediterranean Shipping Co SA (The Rafaela S) </span><ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2005/11" uk:canonical="[2005] UKHL 11" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] UKHL 11</ref>; <ref href="#" uk:canonical="[2005] 2 AC 423" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] 2 AC 423</ref> at para 19:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in"><span style="background-color:#FFFFFF">&#8220;It must be remembered that in a protracted negotiation such as culminated in adoption of the Hague Rules there are many participants, with differing and often competing objects, interests and concerns. It is potentially misleading to attach weight to points made in the course of discussion, even if they appear at the time to be accepted. In the present case, I do not think that either party can point to such a clear, pertinent and consensual resolution of the issue before the House as would provide a sure ground of decision.&#8221;</span></p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in"><span style="background-color:#FFFFFF">In considering the object and purpose of the Hague Rules it is appropriate to have regard to their history, origin and context. As Viscount Simonds explained in </span><span style="font-style:italic;background-color:#FFFFFF">Riverstone Meat Co Pty Ltd v Lancashire Shipping Co Ltd (The Muncaster Castle) </span><span style="background-color:#FFFFFF"><ref href="#" uk:canonical="[1961] AC 807" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1961">[1961] AC 807</ref> at p 836:</span></p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in"><span style="color:#000000;background-color:#FFFFFF">&#8220;</span>To ascertain [the Rules&#8217;] meaning it is, in my opinion, necessary to pay particular regard to their history, origin and context &#8230; The Hague Rules, as is well known, were the result of the Conferences on Maritime Law held at Brussels in 1922 and 1923. Their aim was broadly to standardise within certain limits the rights of every holder of a bill of lading against the shipowner, prescribing an irreducible minimum for the responsibilities and liabilities to be undertaken by the latter. To guide them the framers of the rules had amongst other precedents the American Harter Act of 1893, the Australian Sea Carriage of Goods Act, 1904, the Canadian Water Carriage of Goods Act, 1910, and, though they had no British Act as a model, they had decisions of the English courts in which the language of the Harter Act had fallen to be construed by virtue of its provisions being embodied in bills of lading.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber"><span style="background-color:#FFFFFF">The framers of the Rules also had as precedents decisions of the English and US courts on the meaning of seaworthiness and on a number of the article IV rule 2 exceptions, many of which mirrored the wording of provisions commonly included in bills of lading &#8211; see, for example, </span><span style="font-style:italic;background-color:#FFFFFF">Gosse Millerd</span><span style="font-style:italic"> Ltd v Canadian Govt Merchant Marine</span><span/><span style="font-style:italic">Ltd </span><ref href="#" uk:canonical="[1929] AC 223" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1929">[1929] AC 223</ref>,<span style="background-color:#FFFFFF"> p 237 (Lord Sumner) and p 230 (Lord Hailsham LC).</span></p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in"><span style="background-color:#FFFFFF">It may also be appropriate to have regard to the French text of the Rules, as this is the official and authoritative version. As explained in the Introduction to Chapter 1 of </span><span style="font-style:italic">International Maritime Conventions Vol 1: The Carriage of Goods and Passengers by Sea</span>, 1st ed (2014):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;The peculiarity of the Hague Rules is that, although they have been adopted in the French language only, they are based on a French unofficial translation of the Hague Rules 1921, the only official text of which was in English. Therefore it may look odd to base the interpretation of the Hague Rules on a French text that originates from a translation of the original English text. However, at the diplomatic conference, the text considered was that in French and the debates took place in the French language, which at that time was the unique diplomatic language. Consequently, it must be the French text that in any event prevails ...&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in"><span style="color:#000000;background-color:#FFFFFF">In </span><span style="font-style:italic">Pyrene Co Ltd v Scindia</span><span/><span style="font-style:italic">Steam Navigation Co Ltd </span><ref href="#" uk:canonical="[1954] 2 QB 402" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] 2 QB 402</ref> Devlin J had regard to the French text, explaining as follows (at p 421):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;Having regard to &#8230; the fact that the French text is the only authoritative version of the Convention, I think &#8230; that it is permissible to look at it. I agree that it is not conclusive, but it may help to solve an ambiguity if there be one. I agree also that unless the court is assisted by a French lawyer it should be looked at cautiously.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">The legitimacy of looking to the French text for assistance has been confirmed in a number of subsequent cases - see, for example, <span style="font-style:italic">The Rosa S</span><ref href="#" uk:canonical="[1989] 1 QB 419" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1989">[1989] 1 QB 419</ref>, 422-423 (Hobhouse J); <span style="font-style:italic">The Rafaela S</span> at para 44 (Lord Steyn) and para 55 (Lord Rodger of Earlsferry); <span style="font-style:italic">Kyokuyo Co Ltd</span><span/><span style="font-style:italic">v AP M&#248;ller-Maersk A/S (t/a Maersk Line) (The Maersk Tangier) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2018/778" uk:canonical="[2018] EWCA Civ 778" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] EWCA Civ 778</ref>; <ref href="#" uk:canonical="[2018] Bus LR 1481" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] Bus LR 1481</ref>, paras 60-61 (Flaux LJ).</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Finally, as stated in the <span style="font-style:italic">Nautical Challenge </span>case at para 42, international conventions should &#8220;be interpreted in a uniform manner and regard should therefore be had to how they have been interpreted by the courts of different countries&#8221;. This will be particularly important if there is shown to be a consensus among national courts in relation to the issue of interpretation.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaHeading1">5.<marker name="tab"/>Issue 1 - Did the defective passage plan render the vessel unseaworthy for the purposes of article III rule 1 of the Hague Rules?</p>
+	    </content>
+	  </level>
+	</level>
+	<level>
+	  <heading class="Paraheading2" style="margin-left:0.50in"><span style="font-size:13pt">(1)</span><marker name="tab"/><span style="font-size:13pt">The owners&#8217; case</span></heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners submitted that the Hague Rules draw a clear distinction between the navigable state of the vessel and the navigation of the vessel by the master and crew. The former is the subject matter of the carrier&#8217;s duty to make the vessel seaworthy under article III rule 1, whilst the latter is subject to the &#8220;nautical fault&#8221; exception as set out in article IV rule 2(a).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">It was submitted that the seaworthiness obligation is concerned with whether the vessel is fit in herself for the purpose of safe navigation. It is concerned with the state of the vessel and defects which are intrinsic to the vessel, rather than extrinsic or ephemeral matters. To render the vessel unseaworthy the defect must be an attribute of the vessel.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">It was said that such an approach is supported by the history of the obligation of seaworthiness, the origin, context and purpose of the Hague Rules and various English and US precedents. Reliance was also placed on the French text of the Hague Rules. Article III rule 1(a) of the French text requires the carrier to put the ship &#8220;en &#233;tat de navigabilit&#233;&#8221;, which literally means &#8220;state of navigability&#8221; or &#8220;navigable condition&#8221;. By contrast, article IV rule 2(a) covers acts, neglect or default &#8220;dans la navigation&#8221; - ie when actually navigating the vessel.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">History</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Prior to the adoption of the Hague Rules it was firmly established as a matter of English law that it was an implied term of a contract of carriage of goods by sea that the vessel be seaworthy. In <span style="font-style:italic">Kopitoff v Wilson </span>(1876) <ref href="#" uk:canonical="1 QBD 377" uk:isNeutral="false" uk:origin="TNA" uk:type="case">1 QBD 377</ref>, 380 it was said in the judgment of the court (Blackburn, Quain and Field JJ) that this implication necessarily arises from &#8220;the nature of the contract&#8221; and that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in"><span style="background-color:#FFFFFF">&#8220;For this proposition we have the high authority of Lord Tenterden, who lays it down in the first edition of his book, published in 1802, and for the correctness of which he vouches Emerigon, Roccus, and other eminent writers and commentators upon the subject; </span><span style="font-style:italic;background-color:#FFFFFF">Abbott on Shipping</span><span style="background-color:#FFFFFF">, 1st ed, [p 181]. The accuracy of the proposition thus stated in 1802 has not, that we are aware of, ever been brought into question in any of the subsequent editions, or of the numerous text books since published on the subject. In further support of the implication of such a warranty, we have the authority of Lord Ellenborough &#8230; in the case of </span><span style="font-style:italic">Lyon v Mells ...&#8221;</span></p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In <span style="font-style:italic">Lyon v Mells</span> (1804) 5 East 428, 102 ER 1134, Lord Ellenborough CJ stated at p 437 that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;It is a term of the contract on the part of the carrier &#8230; implied by law, that his vessel is tight and fit for the purpose or employment for which he offers and holds it forth to the public: it is the very foundation and immediate substratum of the contract that it is so. The law presumes a promise to that effect on the part of the carrier without any actual proof; and every reason of sound policy and public convenience requires it should be so.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The implied term involved an absolute warranty of seaworthiness. As Lord Blackburn stated in <span style="font-style:italic">Steel v State Line </span>(1877) <ref href="#" uk:canonical="3 App Cas 72" uk:isNeutral="false" uk:origin="TNA" uk:type="case">3 App Cas 72</ref> at p 86:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;I take it my Lords, to be quite clear, both in <span style="font-style:italic">England </span>and in <span style="font-style:italic">Scotland, </span>that where there is a contract to carry goods in a ship, whether that contract is in the shape of a bill of lading, or any other form, there is a duty on the part of the person who furnishes or supplies that ship, or that ship&#8217;s room, unless something be stipulated which should prevent it, that the ship shall be fit for its purpose. That is generally expressed by saying that it shall be seaworthy; and I think also in marine contracts, contracts for sea carriage, that is what is properly called a "warranty", not merely that they should do their best to make the ship fit, but that the ship should really be fit. I think it is impossible to read the opinion of Lord <span style="font-style:italic">Tenterden, </span>as early as the first edition of <span style="font-style:italic">Abbott </span>on Shipping, at the very beginning of this century, of Lord <span style="font-style:italic">Ellenborough, </span>following him, and of Baron <span style="font-style:italic">Parke, </span>also, in the case of <span style="font-style:italic">Gibson v Small</span>,<span style="font-style:italic"/>without seeing that these three great masters of marine law all concurred in that; and their opinions are spread over a period of about 40 or 50 years. I think therefore, that it may be fairly said that it is clear that there is such a warranty or such an obligation in the case of a contract to carry on board ship.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In order to mitigate the consequences of the absolute obligation of seaworthiness and their strict liability as carriers, during the course of the 19th century shipowners came to insert an increasingly wide range of exclusion clauses in their contracts of carriage. The strong bargaining position of liner shipping companies meant that such exclusions generally had to be accepted by cargo interests. This led to calls for action to be taken internationally to achieve a fairer balance between carriers and cargo interests.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Origin</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners submitted that the origin of article III rule 1 of the Hague Rules is a legislative response to carriers&#8217; largely successful attempts to contract out of the implied absolute obligation and that it reflected a compromise.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">They submitted that such a compromise was first struck in the US Harter Act 1893. Section 2 of the Harter Act imposes an obligation on the carrier to &#8220;exercise due diligence&#8221; to make the vessel seaworthy. Under section 3 of the Harter Act, if due diligence to make the vessel seaworthy has been exercised then the carrier is entitled to rely on various listed exceptions, including for &#8220;damage or loss, resulting from faults or errors in navigation or in the management of said vessel&#8221;. A balance was thereby struck between the carrier&#8217;s obligation of seaworthiness and the nautical fault exception. (In fact, the due diligence obligation was first introduced in the Conference Form Model Bill of Lading adopted by the Association for the Reform and Codification of the Law of Nations at its Liverpool Conference in 1882.)</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners submitted that the Hague Rules struck the same balance and they sought to support this submission by reference to the travaux. It was pointed out that the only difference between the wording of the Harter Act and the Hague Rules is that, at the request of Sir Norman Hill, a distinguished Liverpool maritime lawyer who was at the Hague Conference to represent British shipowners, the words &#8220;faults or errors in navigation or in the management of [the ship]&#8221; were replaced by &#8220;act, neglect, or default of the master, mariner, pilot, or the servants of the carrier in the navigation or in the management of the ship&#8221;. Sir Norman Hill <span style="color:#000000">emphasised that article IV &#8220;is the shipowners&#8217; clause&#8221; whereas article III is &#8220;the cargo interests&#8217; clause&#8221; and &#8220;our big point is the navigation point, and what we have asked is that we should have the words which from time immemorial have certainly appeared in all British bills of lading&#8221;. He also made clear that unless article IV rule 2 contained the familiar exceptions, it would not be accepted by shipowners. Similarly, Sir Leslie Scott (British delegate) said that &#8220;it is very difficult to alter article 4(2). It is a little like Moses and the tablets of stone on which the Ten Commandments were written.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Context and purpose</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners submitted that the object and purpose of the Hague Rules is to spread risk and allocate the cost of insurance amongst all participants profiting from the carriage of goods by sea. In relation to navigation specifically, the allocation of risk is that the carriers have to insure themselves against the risk of all damage to both their own ship and the property of third parties such as other vessels and the structure of ports, but cargo interests have to insure themselves against the risk of negligent navigation causing damage to their cargo.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In support of these submissions the owners again sought to rely on the travaux and the fact that it shows that the costs of insurance were firmly in mind. In this connection reference was made to Sir Norman Hill&#8217;s opening speech to the Hague Conference:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;[T]he attack [by the &#8216;agitators&#8217; amongst cargo interests] was mainly directed against the negligence clause [ie the navigational fault exception]. &#8230; We told our friends the cargo interests that if they made us assume that responsibility they would increase very substantially the cost of carriage, and that if we were to act both as underwriters and as shipowners the freights must provide the funds out of which both services were met. ...</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">[N]ow when meeting this new agitation we find that the cargo interests have practically all come round to our view and they are all now maintaining that they can effect their insurances against negligent navigation far more cheaply with the underwriters than if that responsibility is put upon shipowners. They have come round to our view on that point.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Reliance was also placed on the drafting summary provided by the chairman of the plenary session of the Brussels Convention in 1923, Mr Louis Franck, as follows:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;[T]he origins of the drafting were recalled, inspired by custom and practice. Jurisprudence ought to be guided by custom and practice. The commission considered that the text had not been produced according to any systematic drafting or a preconceived plan by drafters free to formulate their thought in a correct and elegant manner, but rather, according to formulae inserted many years ago in bills of lading that had undergone the test of practice. &#8230;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">A commentary on this article was formulated &#8230; saying that there were, in effect, three major subdivisions. The first included the case dealing with the actual faults of the captain or the agents of shipowning interests in the navigation or management of the ship, that is to say, the technical and nautical management. In such a case, there was no liability on the part of the shipowner for these faults. That was compensation for the obligation imposed on the shipowner always to accept liability in matters of the care of the cargo. The second category included a series of occurrences that could be deemed &#8216;force majeure&#8217; where the shipowner was not liable. &#8230; Finally, the third category: cases &#8230; resulting neither from the actual fault or privity of the carrier or his agents.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Precedent</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In support of their argument that a vessel is seaworthy if intrinsically and in all her attributes she is fit for purpose, t<span style="color:#000000">he owners placed particular reliance on the Court of Appeal decisions in </span><span style="font-style:italic;color:#000000">Actis Co Ltd v Sanko Steamship Co Ltd (</span><span style="font-style:italic">The Aquacharm) </span><ref href="#" uk:canonical="[1982] 1 WLR 119" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1982">[1982] 1 WLR 119</ref> and <span style="font-style:italic">A Meredith Jones &amp; Co Ltd v Vangemar Shipping Co Ltd (The Apostolis) </span><ref href="#" uk:canonical="[1997] 2 Lloyd's Rep 241" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1997">[1997] 2 Lloyd&#8217;s Rep 241</ref>. It was submitted that these authorities establish that there is an &#8220;attribute threshold&#8221;. Unseaworthiness requires there to be an attribute of the vessel which threatens the safety of the vessel or her cargo. The owners also relied on the judgment of Scrutton LJ in <span style="font-style:italic">Madras Electrical Supply Co v P&amp;O Steam Navigation Co </span>(1924) 18 Lloyd&#8217;s Rep 93 and the decision of David Steel J in <span style="font-style:italic">Owners of Cargo Lately Laden on Board the Torepo v Owners of the Torepo (The Torepo) </span><ref href="https://caselaw.nationalarchives.gov.uk/admlty/ch/2002/1481" uk:canonical="[2002] EWHC 1481 (Admlty)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWHC 1481 (Admlty)</ref>; [2002] 2 Ll L Rep 535, a case which involved an allegation of defective passage planning. These authorities will be discussed below.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners further submitted that their category-based distinction is supported by various US authorities and in particular the decision of the Federal District Court for the Eastern District of Pennsylvania in <span style="font-style:italic">The Oritani (</span>1929) 40 F 2d 522, the decision of the Court of Appeals (2nd Circuit) in <span style="font-style:italic">Middleton &amp; Co (Canada) Ltd v Ocean Dominion Steamship Corpn (The Iristo)</span> (1943) 137 F 2d 619 and the decision of the Court of Appeals (Fifth Circuit) in <span style="font-style:italic">Usinas Siderugicas de Minas Geras, Sa-Usimings v Scindia Steam Navigation Co (The Jalavihar) </span>(1997) 118 F 3d 328. These will also be addressed below.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Application to the present case</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Applying their suggested category-based distinction to passage planning, the owners submitted that: (i) passage planning is navigating; (ii) a defective passage plan does not in and of itself render a vessel unseaworthy because (a) a navigational decision is not an attribute of the ship and (b) a passage plan is a set of such navigational decisions and therefore also not an attribute of the ship; (iii) a defective passage plan does not render the underlying chart defective and a passage plan is not part of the &#8220;documentary outfit&#8221; of the vessel or a navigational tool.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In all the circumstances, on the facts of the present case the courts below should have held that the defective passage plan did not involve a breach of the obligation of seaworthiness under article III rule 1 and that it did come within the nautical fault exception in article IV rule 2(a).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2"><span style="font-size:13pt">(2)</span><marker name="tab"/><span style="font-size:13pt">The interpretation of the Hague Rules</span></heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The starting point is the ordinary meaning of the wording of the relevant rules in the context of the Hague Rules as a whole.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The scheme of the relevant Rules is clear. As foreshadowed by article II, article III sets out the responsibilities and liabilities of the carrier and article IV sets out the rights and immunities of the carrier.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The carrier&#8217;s primary responsibilities under article III are (i) before and at the beginning of the voyage to exercise due diligence to make the vessel seaworthy, as provided in article III rule 1(a)(b)(c), and (ii) to properly and carefully care for the goods, as provided in article III rule 2.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In relation to the obligation of seaworthiness, the relevant right and immunity of the carrier is set out in article IV rule 1 which defines the circumstances in which the carrier shall not be liable &#8220;for loss or damage arising or resulting from unseaworthiness&#8221;. This is limited to cases in which the carrier discharges the burden of proving that he has exercised due diligence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In relation to the obligation to properly and carefully care for the cargo, the relevant rights and immunities are set out in article IV rule 2 which provides a list of general exceptions. These include general exception (q) under which the carrier will not be responsible for loss or damage arising from a cause which he can prove arises without the actual fault or privity of the carrier or the fault or neglect of carrier&#8217;s servants or agents. They also include two exceptions which include the negligence of the carrier&#8217;s servants or agents - the nautical fault exception under rule 2(a) and the fire exception under rule 2(b).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The entirely different regimes governing the carrier&#8217;s responsibility for negligence under article IV rule 1 and article IV rule 2 confirms what is apparent from the scheme of the Hague Rules, namely that article IV rule 1 sets out the relevant right and immunity for the carrier&#8217;s responsibilities and liabilities under article III rule 1, and article IV rule 2 sets out the relevant rights and immunities for the carrier&#8217;s responsibilities and liabilities under article III rule 2.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">That this is the proper interpretation of the Hague Rules is confirmed by the decision of the Privy Council in <span style="font-style:italic">Maxine Footwear Co Ltd v Canadian Government Merchant Marine Ltd </span><ref href="#" uk:canonical="[1959] AC 589" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1959">[1959] AC 589</ref><span style="font-style:italic">. </span>In that case the vessel caught fire while in port after loading had begun and eventually had to be scuttled. The cause of the fire was the negligence of the crew in thawing out frozen scupper pipes with an acetylene torch. The carrier relied on its immunities under article IV rule 2(a) and (b). The cargo owners contended that the carrier had failed to exercise due diligence to make the vessel seaworthy, that the unseaworthiness caused the damage to their cargo and that in those circumstances the carrier could not rely on the immunities under article IV rule 2.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The first argument addressed by Lord Somervell of Harrow in giving the judgment of the Board was that the carrier can rely on the fire exception under article IV rule 2(b) even if the fire causes the vessel to be unseaworthy (p 602): </p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the first submission on behalf of the respondents was that in cases of fire article III never comes into operation even though the fire makes the ship unseaworthy. All fires and all damage from fire on this argument fall to be dealt with under article IV, rule 2(b).&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Board rejected that argument, stating as follows at pp 602-603:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;Article III, rule 1, is an overriding obligation. If it is not fulfilled and the nonfulfillment causes the damage the immunities of article IV cannot be relied on. This is the natural construction apart from the opening words of article III, rule 2. The fact that that rule is made subject to the provisions of article IV and rule 1 is not so conditioned makes the point clear beyond argument.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Board further held that before and at the beginning of the voyage &#8220;means the period from at least the beginning of the loading until the vessel starts on her voyage&#8221; so that &#8220;the obligation to exercise due diligence to make the ship seaworthy continued over the whole of the period from the beginning of loading until the ship sank&#8221; (p 603). It followed that it did not matter whether the appellant cargo owners&#8217; goods were stowed before or after the commencement of the fire. As the Board stated (p 602):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;From the time when the ship caught on fire she was unseaworthy. This unseaworthiness caused the damage to and loss of the appellants&#8217; goods. The negligence of the respondents&#8217; servants which caused the fire was a failure to exercise due diligence.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in"><span style="font-style:italic">Maxine Footwear </span>clearly establishes that where loss or damage is caused by a breach of the carrier&#8217;s obligation to exercise due diligence to make the vessel seaworthy under article III rule 1, the article IV rule 2 exceptions cannot be relied upon, including where the excepted matter is the cause of the unseaworthiness.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This established principle undermines the owners&#8217; argument that there is a category-based distinction between seaworthiness and navigation or management of the ship. They are not mutually exclusive. Negligent navigation or management of the ship may cause unseaworthiness. If it does so, then that negligence is likely to amount to a failure to exercise due diligence and the carrier will be liable for any resulting loss and damage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners criticised this approach as importing an unwarranted temporal distinction. The fact, however, that the seaworthiness obligation under article III rule 1 only applies before and at the beginning of the voyage necessarily imports temporality. The carrier will be liable for a negligent act of navigation or management which causes the vessel to become unseaworthy before and at the beginning of the voyage, but not so liable if the same act does so after the voyage has commenced. If, for example, in <span style="font-style:italic">Maxine Footwear </span>the negligent use of the acetylene torch had occurred during the course of the voyage then the carrier would be likely to have been able to rely on the exceptions under both article IV rule 2(a) and (b).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This does not mean that article IV rule 2 exceptions are inapplicable prior to the voyage. Some of them may only be relevant when the vessel is at sea (such as rule 2(l) - saving or attempting to save life or property at sea) but they can be relied upon in relation to an alleged breach of article III rule 2 which occurs at any time from when the goods come into the care of the carrier. So, for example, negligent management of the vessel that caused damage to the cargo at the loadport would be exempted, always provided that it involved a failure to take reasonable care of the ship rather than the cargo - see the dissenting judgment of Greer LJ in <span style="font-style:italic">Gosse Millerd Ltd v Canadian Government Merchant Marine Ltd </span><ref href="#" uk:canonical="[1928] 1 KB 717" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1928">[1928] 1 KB 717</ref> (CA) which was upheld in the House of Lords<span style="font-style:italic">.</span> The exceptions cannot, however, be relied upon in relation to a causative breach of article III rule 1.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This is illustrated by <span style="font-style:italic">The Aquacharm</span>, one of the cases strongly relied upon by the owners. That case concerned alleged unseaworthiness as a result of the overloading of the vessel. At first instance <ref href="#" uk:canonical="[1980] 2 Lloyd's Rep 237" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1980">[1980] 2 Lloyd&#8217;s Rep 237</ref>, Lloyd J held that the overloading was an error in the management of the vessel and that it did not matter that the error took place prior to the commencement of the voyage: &#8220;The word &#8216;management&#8217; applies equally whether the vessel is in harbour or on the high seas&#8221; (p 240). Since the vessel was found not to be unseaworthy Lloyd J held that the carrier was entitled to rely on the article IV rule 2(a) exception.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">As was recognised in the Court of Appeal, the crucial issue was whether or not the vessel was unseaworthy. If she was unseaworthy then the article IV rule 2(a) exception could not be relied upon. As Lord Denning MR stated at p 122:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;The answer depends on whether the vessel was seaworthy or not when she left Baltimore for her trip through the Panama Canal to Japan. If she was <span style="font-style:italic">unseaworthy</span>, the shipowners would be liable. They would not be able to prove that they exercised due diligence. The shipowners would be liable under articles III, r (1)(a) &#8230; and IV of The Hague Rules ... If she was <span style="font-style:italic">seaworthy</span>, the shipowners would not be liable. They would be exempted from liability by reason of article IV, r (2)(a), because the loss arose from the &#8216;neglect &#8230; of the master&#8217; in the &#8216;management&#8217; of the ship.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The &#8220;natural construction&#8221; of the Hague Rules, as confirmed by <span style="font-style:italic">Maxine Footwear</span>, is therefore that the article IV rule 2 exceptions do not apply to a causative breach of the carrier&#8217;s obligation to exercise due diligence to make the vessel seaworthy under article III rule 1.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">The travaux</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Even if there was any ambiguity about this being the correct interpretation of the Hague Rules, there is nothing in the travaux which clearly indicates otherwise. There is no &#8220;clear, pertinent and consensual resolution of the issue&#8221; which does so nor &#8220;bull&#8217;s eye&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">There is no doubt that the nautical fault exception was an important issue for the shipowners at the Conferences and that its inclusion was integral to the compromise which was struck. That compromise involved, however, various different elements including, for example, package limitation and time limits. There is, moreover, nothing in the travaux which shows that the nautical fault exception was meant to limit the shipowners&#8217; obligation to make the vessel seaworthy before the commencement of the voyage or that they were to be mutually exclusive. Indeed, there are statements made in the travaux which indicate that the nautical fault exception was not to impact upon the shipowners&#8217; obligation of seaworthiness. For example, <span style="color:#000000">on the second day of the August 1921 Conference, during a discussion as to whether the carrier would be obliged to keep the vessel seaworthy throughout the voyage or only at the start, Sir Norman Hill stated that the article IV exceptions were to apply where the shipowner had fulfilled his duty to make the vessel seaworthy before the start of the voyage:</span></p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;To begin with, before you start loading your cargo you must have a seaworthy ship, a ship worthy to take that cargo, and when she leaves on the voyage she must still be seaworthy. If you go further than that, and you say that there is an absolute obligation on the part of the shipowner to keep the ship seaworthy throughout the voyage, then, of course, you render quite valueless most of your exceptions. For instance, if, through the negligent navigation of the pilot, the ship is run on the rocks and holed, she ceases to be seaworthy. There cannot be an overriding obligation on the shipowner to keep the ship seaworthy throughout the voyage: he is excused, and we all agree, as I understand, that he should be excused, because the damage has been done through negligence in the navigation. When this was drafted, I think all of the interests clearly agreed that the obligation, and the only obligation, they wanted to put on the shipowner was that the ship shall be seaworthy when she starts loading, that she shall be seaworthy when she starts on the voyage. If he has done that, he has done his duty, and then the voyage is made under the conditions set out in No 2, and with the exemptions set out in article 4.&#8221; (<span style="font-style:italic">CMI Travaux </span>pp 145-146)</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Chairman of the Conference, the Rt. Hon. Sir Henry Duke (then President of the Probate, Divorce and Admiralty Division, later Lord Merrivale), agreed with Sir Norman Hill, stating: &#8220;That is evidently the intent of the draft&#8221; (<span style="font-style:italic">CMI Travaux </span>p 146).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Nor does the owners&#8217; reliance on the Harter Act advance their argument. While the Harter Act does link its nautical fault exception to the carrier&#8217;s obligation to exercise due diligence to make the vessel seaworthy, it does so in terms which mean that the nautical fault exception can only be relied upon if such due diligence has been exercised. As under the Rules, the nautical fault exception cannot therefore be relied upon where there has been a material failure to exercise due diligence to make the vessel seaworthy.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">The French text</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">As for the owners&#8217; reliance on the French text of the Hague Rules, the dictionary definition of &#8220;&#233;tat de navigabilit&#233;&#8221; is &#8220;seaworthiness&#8221; (see eg Collins Roberts and Larousse) so that the point may be said to be circular. Seaworthiness did have an established common law meaning at the time of the Rules and there is no hint in the travaux that some narrower meaning was intended to be adopted in the Hague Rules. The Hague Rules themselves suggest a wide meaning was intended by setting out specific aspects of seaworthiness in article III rules 1(b) and (c) as well as the general duty to make the vessel seaworthy under article III rule 1(a).</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Insurance risk</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">82.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In relation to the balance of insurance risk, shipowners and their insurers bear the risk of cargo damage or general average expenses caused by a failure to exercise due diligence to make the vessel seaworthy. That remains the case where the unseaworthiness is caused by negligent management or navigation. Most negligent navigation will occur during the voyage rather than before it and so it is correct that the main burden of resulting cargo damage or general average claims is likely to fall on cargo owners and their insurers rather than shipowners and their P &amp; I Clubs. It may be, as the owners submitted, that a decision that negligent passage planning may render the vessel unseaworthy will lead to more cargo damage or general average claims being made against shipowners and their insurers. In any such case, however, it would be necessary to prove first that the defect in the passage plan was sufficiently serious to render the vessel unseaworthy, and secondly that it was causative of the loss or damage. In many cases it will be the failure to properly and carefully navigate the vessel during the voyage that is the cause of the loss rather than any prior defect in passage planning. A different conclusion was reached on the particular facts of the present case because (i) the defect in the passage plan was found to have a decisive influence on the master&#8217;s critical decision to leave the fairway and (ii) the danger was one which was not sufficiently visible or otherwise detectable to be avoided by the exercise of due navigational care.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Other authorities</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">83.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Aside from <span style="font-style:italic">Maxine Footwear</span>, there are a number of cases in which it has been held that a vessel may be rendered unseaworthy by negligent management of the vessel, despite the nautical fault exception in article IV rule 2(a). Examples include: <span style="font-style:italic">Steel v State Line Steamship Co </span>(1877) <ref href="#" uk:canonical="3 App Cas 72" uk:isNeutral="false" uk:origin="TNA" uk:type="case">3 App Cas 72</ref> (water entered through a porthole which had not been properly fastened, and damaged a cargo of wheat); <span style="font-style:italic">Gilroy Sons &amp; Co v W R Price &amp; Co </span><ref href="#" uk:canonical="[1893] AC 56" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1893">[1893] AC 56</ref> (the master negligently failed to case a water-closet pipe before the commencement of the voyage and the pipe burst during the voyage causing damage to the ship&#8217;s cargo); <span style="font-style:italic">G E Dobell &amp; Co v Steamship Rossmore Co Ltd </span><ref href="#" uk:canonical="[1895] 2 QB 408" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1895">[1895] 2 QB 408</ref> (water ingress through porthole negligently closed by the ship&#8217;s carpenter - discussed further below); and <span style="font-style:italic">The Friso </span><ref href="#" uk:canonical="[1980] 1 Lloyd's Rep 469" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1980">[1980] 1 Lloyd&#8217;s Rep 469</ref> (the master failed before the voyage to press up three double bottom tanks so that the vessel was unstable and therefore unseaworthy).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">84.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">Whilst an act of management is more likely to render a vessel unseaworthy prior to the voyage than an act of navigation, as owners rightly accepted, the same approach must apply to both elements of the nautical fault exception. As the Court of Appeal held, there are two cases which illustrate how an act of navigation may render the vessel unseaworthy. The first is <span style="font-style:italic">Paterson Steamships Ltd v Robin Hood Mills Ltd (The Thordoc) </span>(1937)<span style="font-style:italic"/>58 Ll L Rep 33 in which the vessel was unseaworthy because a compass adjuster had negligently adjusted the vessel&#8217;s compass. The second is <span style="font-style:italic">E B Aaby&#8217;s Rederi A/S v Union of India (No 2) (The Evje) </span><ref href="#" uk:canonical="[1978] 1 Lloyd's Rep 351" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1978">[1978] 1 Lloyd&#8217;s Rep 351</ref> in which the vessel was unseaworthy because the master had miscalculated the amount of fuel required for the voyage.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">85.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners submitted that all these cases are distinguishable because they involved an act of management or navigation which caused the unseaworthiness, whilst in the present case the act of navigation is itself the unseaworthiness. This is not a principled distinction. If the vessel is unseaworthy then it can make no difference whether negligent navigation or management is the cause of the unseaworthiness or is itself the unseaworthiness. What matters is the fact of unseaworthiness. Causation is relevant to the issue of due diligence, but not to whether the relevant defect or state of affairs amounts to unseaworthiness. That will depend on its effect on the fitness of the vessel to carry the goods safely on the contractual voyage.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Is there an &#8220;attribute threshold&#8221;?</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">86.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners&#8217; argument that there is an &#8220;attribute threshold&#8221; is made in reliance upon the Court of Appeal decisions in <span style="font-style:italic">The Aquacharm </span>and <span style="font-style:italic">The Apostolis.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">87.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">In <span style="font-style:italic">The Aquacharm</span> the vessel was unable to transit through the Panama Canal because she was overloaded when she left the load port due to an error on the part of the master. The charterers argued that the vessel had been unseaworthy in breach of article III rule 1. The owners sought to rely on article IV rule (2)(a), on the basis that the master&#8217;s conduct in overloading the vessel was an error in &#8220;management&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">88.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The Court of Appeal agreed with Lloyd J and the umpire (Mr Christopher Staughton QC) that the ship was not unseaworthy because there was no risk to her safety. The owners relied in particular upon the following passages from the judgments as showing that seaworthiness concerns the inherent qualities and attributes of the vessel:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.50in">(1)<marker name="tab"/>The statement of Lord Denning MR at p 122 that &#8220;seaworthy&#8221; &#8220;means that the vessel - with her master and crew - is herself fit to encounter the perils of the voyage and also that she is fit to carry the cargo safely on that voyage&#8221;.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber" style="margin-left:0.50in">(2)<marker name="tab"/>The statement of Shaw LJ at p 126 that he wished to enter his &#8220;own caveat against any artificial extension of the concept of &#8216;seaworthiness&#8217; where that term is used in relation to the carriage of goods by sea &#8230; &#8216;Seaworthiness&#8217; connotes an inherent quality with which the unit comprising vessel and cargo is invested. So long as that unit maintains a constant character, that quality remains inherent in it. External factors cannot influence or affect the innate attribute of seaworthiness&#8221;.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">89.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners also relied on <span style="font-style:italic">The Aquacharm </span>as demonstrating that the prudent owner test is not a universal test of unseaworthiness. The prudent owner would undoubtedly have ensured that the overloading error be put right before the vessel sailed, had he known of it. The vessel was not, however, unseaworthy. Contrary to cargo interests&#8217; case, it cannot therefore be said that <span style="font-style:italic">any</span> defect is capable of rendering the vessel unseaworthy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">90.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in"><span style="font-style:italic">The Apostolis </span>concerned a fire in the holds of the vessel which occurred when a cargo of raw cotton caught fire. All of the cargo in two of the vessel&#8217;s holds was damaged either by the fire or by the water used to extinguish it. The trial judge held that the cause of the fire was sparks from welding being carried out above a hold and that this amounted to unseaworthiness. The Court of Appeal overturned that finding of fact on the basis that the evidence was so unsatisfactory that cargo interests had failed to prove that welding was a more probable cause of the fire than a cigarette discarded by a stevedore. It also held that the welding was merely an activity being carried out on board the vessel; it was not taking place in order to render the vessel seaworthy and it did not mean that the vessel was unseaworthy. In the course of his judgment, Phillips LJ also briefly considered an argument rejected by the judge that the presence of burning cargo in the holds in itself rendered the vessel unseaworthy. In a passage strongly relied upon by the owners he stated as follows at p 257:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;The judge was urged to find that the cargo was damaged by unseaworthiness on two alternative bases. First it was argued that, once the cargo caught fire, the fact of the burning cargo rendered holds Nos 4 and 5 unfit for the preservation of the cargo in those holds and thus unseaworthy. The judge rejected that contention, and I think that he was right to do so. <span style="font-style:italic">For a ship to be unseaworthy, or more strictly uncargoworthy, there must be some attribute of the ship itself which threatens the safety of the cargo. If a hold is dirty, that is properly considered as an attribute of the ship. But the fact that a hold contains cargo which threatens damage to other cargo stowed in proximity is not an attribute of the ship and does not render the ship unseaworthy</span>.&#8221; (Emphasis added)</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">91.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The owners submitted that these authorities show that there is an &#8220;attribute threshold&#8221;. Unseaworthiness requires there to be an attribute of the vessel which threatens the safety of the vessel or her cargo.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">92.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">If there is an &#8220;attribute threshold&#8221; it is clear on the authorities that it must be widely and diversely drawn. Seaworthiness is not limited to physical defects in the vessel and her equipment. It extends to documentary matters such as adequate and up-to-date charts (see, for example, <span style="font-style:italic">Grand Champion Tankers Ltd v Norpipe A/S (The Marion) </span><ref href="#" uk:canonical="[1984] AC 563" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] AC 563</ref>) and adequate piping plans (see, for example, <span style="font-style:italic">Owners of Cargo Lately Laden on Board the Makedonia v The Makedonia </span><ref href="#" uk:canonical="[1962] P 190" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1962">[1962] P 190</ref> and <span style="font-style:italic">Robin Hood Flour Mills Ltd v N M Paterson &amp; Sons Ltd (The Farrandoc) </span><ref href="#" uk:canonical="[1967] 2 Lloyd's Rep 276" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1967">[1967] 2 Lloyd&#8217;s Rep 276</ref>). It extends to the mental abilities of the crew and whether they have a &#8220;disabling want of skill&#8221; or a &#8220;disabling want of knowledge&#8221; (see <span style="font-style:italic">Papera Traders Co Ltd v Hyundai Merchant Marine Co Ltd (The Eurasian Dream) </span><ref href="#" uk:canonical="[2002] 1 Lloyd's Rep 719" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 1 Lloyd&#8217;s Rep 719</ref> at para 129). It extends to the adequacy of the vessel&#8217;s systems such as in relation to engine maintenance (see <span style="font-style:italic">CHS Inc Iberia SL v Far East Marine SA (The Devon) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/3747" uk:canonical="[2012] EWHC 3747 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWHC 3747 (Comm)</ref>) or hot works and fire safety (see <span style="font-style:italic">Various Claimants v Maersk Line A/S (The Maersk Karachi) </span><ref href="#" uk:canonical="[2020] 2 Lloyd's Rep 98" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] 2 Lloyd&#8217;s Rep 98</ref>). It may extend to the cargo on the vessel, as, for example, where it is stowed so as to endanger the vessel (see <span style="font-style:italic">Kopitoff v Wilson </span>(1876) <ref href="#" uk:canonical="1 QBD 733" uk:isNeutral="false" uk:origin="TNA" uk:type="case">1 QBD 733</ref>) or where a dangerous cargo does so (see <span style="font-style:italic">Northern Shipping Co v Deutsche Seereederei GmbH (The Kapitan Sakharov) </span><ref href="#" uk:canonical="[2000] 2 Lloyd's Rep 586" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 2 Lloyd&#8217;s Rep 586</ref>). It also extends to residues of previous cargo which render the holds of a vessel unfit for carriage (see, for example, <span style="font-style:italic">Empresa Cubana Importada de Alimentos &#8220;Alimport&#8221; v Iasmos Shipping Co SA (The Good Friend) </span><ref href="#" uk:canonical="[1984] 2 Lloyd's Rep 593" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] 2 Lloyd&#8217;s Rep 593</ref>). It even extends to the trading history of the vessel, as illustrated by <span style="font-style:italic">Ciampa v British India Steam Navigation Co </span><ref href="#" uk:canonical="[1915] 2 KB 774" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1915">[1915] 2 KB 774</ref> in which it was held that the vessel was unseaworthy at the commencement of a voyage for the carriage of lemons from Naples to Marseille because, having called at the plague port of Mombasa, she would inevitably have to undergo fumigation at Marseilles which would cause damage to the cargo. If &#8220;attribute&#8221; is to have such a wide and extended meaning as to cover all these eventualities, it is unlikely to be of definitional assistance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">93.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The suggestion that there is an attribute threshold has been criticised by some commentators - see, for example, <span style="font-style:italic">Aikens and others, Bills of Lading</span>,<span style="font-style:italic"/>3rd ed (2021), at 11.127; <span style="font-style:italic">Carver on Charterparties</span>, 2nd ed (2020), at 3.115; <span style="font-style:italic">Girvin </span>&#8220;Seaworthiness and the Hague-Visby Rules&#8221; [1997] IJOSL 201. As stated in <span style="font-style:italic">Carver on Charterparties</span>:<span style="font-style:italic"/>&#8220;a requirement that the cause of the damage must be an attribute of the ship itself rather than an extrinsic cause can be difficult to apply in practice and can lead to anomalies&#8221;. It is there suggested that any such requirement should be confined to cargoworthiness and should in any event &#8220;be regarded as illustrative rather than prescriptive&#8221;. Flaux LJ commented in the Court of Appeal that he saw &#8220;considerable force&#8221; in the submission that it involves &#8220;an unnecessary gloss&#8221; (para 61).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">94.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The authorities relied upon by Phillips LJ in <span style="font-style:italic">The Apostolis</span>, namely <span style="font-style:italic">The Thorsa </span><ref href="#" uk:canonical="[1916] P 257" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1916">[1916] P 257</ref> and <span style="font-style:italic">Elder Dempster </span>&amp; <span style="font-style:italic">Co Ltd v Paterson, Zochonis </span>&amp; <span style="font-style:italic">Co Ltd </span><ref href="#" uk:canonical="[1924] AC 522" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1924">[1924] AC 522</ref>, concerned negligent stowage of the cargo and the focus of the analysis in those cases was upon the consequences of that stowage. In circumstances where there was no defect in the vessel herself and the effect of the stowage of the cargo was to cause damage to adjacent cargo, but to pose no danger to the vessel, the cases were treated as involving merely bad stowage rather than unseaworthiness. That reasoning does not require the prescription of an attribute threshold, nor is it directly applicable to the different facts in <span style="font-style:italic">The Apostolis </span>where the fire in the cargo did pose a danger to the vessel.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">95.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">As for <span style="font-style:italic">The Aquacharm, </span>the key feature of that case was the consequence of the vessel having been overloaded, rather than the fact that the defect involved overloading of cargo. There can be no doubt that overloading of a vessel can cause a vessel to be unseaworthy, as, for example, if it renders the vessel unstable. It did not do so in <span style="font-style:italic">The Aquacharm </span>because its sole consequence was to cause some delay and expense (a &#8220;temporary or minor impediment&#8221; - per Staughton J in <span style="font-style:italic">The Good Friend </span>at p 593). That is the context in which the comments about what is meant by seaworthiness need to be considered. Indeed, Shaw LJ recognised at p 126 that unseaworthiness is not limited to the attributes of the vessel in herself when he referred to it as connoting &#8220;an inherent quality with which the unit comprising vessel <span style="font-style:italic">and cargo </span>is invested&#8221; (emphasis added).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">96.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">For all these reasons I do not consider that it is either correct or helpful to treat the concept of unseaworthiness as being subject to an attribute threshold, and I agree with the editors of <span style="font-style:italic">Carver </span>that it is best treated as an illustrative rather than a prescriptive requirement.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">The prudent owner test</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">97.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">I agree, however, with the owners that <span style="font-style:italic">The Aquacharm </span>does illustrate that the prudent owner test is not a universal test of unseaworthiness.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">98.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">The origin of the prudent owner test is a passage in <span style="font-style:italic">Carver, A Treatise on the Law relating to the Carriage of Goods by Sea </span>(first appearing in the third edition in 1900, at section 18, pp 20-21) in which it was stated that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the duty to supply a seaworthy ship is not equivalent to a duty to provide one that is <span style="font-style:italic">perfect</span>, and such as cannot break down except under extraordinary peril. What is meant is that she must have that degree of fitness which an ordinary careful and prudent owner would require his vessel to have at the commencement of her voyage, having regard to all the probable circumstances of it. To that extent the shipowner, as we have seen, undertakes absolutely that she is fit; and ignorance is no excuse. If the defect existed, the question to be put is, Would a prudent shipowner have required that it should be made good before sending his ship to sea had he known of it? If he would, the ship was not seaworthy within the meaning of the undertaking.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">99.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in">This statement of the law was approved and applied by Channell J in in <span style="font-style:italic">McFadden v Blue Star Line </span><ref href="#" uk:canonical="[1905] 1 KB 697" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1905">[1905] 1 KB 697</ref> and by Scrutton LJ in <span style="font-style:italic">F C Bradley &amp; Sons Ltd v Federal Steam Navigation Co Ltd </span>(1926) 24 Ll L Rep 446, 454. It has been applied in many cases since then - see, for example, <span style="font-style:italic">MDC Ltd v NV Zeevaart Maatshappij &#8220;Beursstraat&#8221; </span>[1962] Lloyd&#8217;s Rep 180, 186; <span style="font-style:italic">Alfred Schiffahrtsgesellschaft GmbH v Tossa Marine Co Ltd (The Derby) </span><ref href="#" uk:canonical="[1985] 2 Lloyd's Rep 325" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1985">[1985] 2 Lloyd&#8217;s Rep 325</ref>, 332; <span style="font-style:italic">Fyffes Group Ltd v Reefer Express Lines Ltd (The Kriti Rex) </span><ref href="#" uk:canonical="[1996] 2 Lloyd's Rep 171" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] 2 Lloyd&#8217;s Rep 171</ref>, 184; <span style="font-style:italic">Eridania SpA v Rudolf A Oetker (The Fjord Wind) </span>[2000] 2 All ER (Comm) 108; <ref href="#" uk:canonical="[2000] 2 Lloyd's Rep 191" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] 2 Lloyd&#8217;s Rep 191</ref>, para 18. The judge described it as &#8220;the usual or conventional test&#8221; of seaworthiness: <ref href="#" uk:canonical="[2019] Bus LR 1453" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] Bus LR 1453</ref>, para 77.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">100.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">There is no doubt that the prudent owner test has stood the test of time well and that in many cases it will be an appropriate and helpful test to apply. It is also well suited to adapt to differing and changing standards. The standards required are not absolute but are relative to the vessel, the cargo and the contemplated voyage. They are also &#8220;relative, among other things, to the state of knowledge and the standards prevailing at the material time&#8221; - <span style="font-style:italic">F C Bradley &amp; Sons Ltd v Federal Steam Navigation Co Ltd </span>(1927) 27 Ll L 395 at 396 (Viscount Sumner). Thus, the standards required may rise to reflect improvements in, for example, shipbuilding (see, for example, <span style="font-style:italic">Burgess v Wickham </span>[1863] 3 B &amp; S 669, 693-694), equipment (see, for example, <span style="font-style:italic">Mountpark Steamship Co v Grey &amp; Co</span>,<span style="font-style:italic"/>Shipping Gazette and Lloyd&#8217;s List, p 12, 12 March 1910), or navigation, as the judge observed in the present case at para 87.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">101.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">There may, however, be cases at the boundaries of seaworthiness where it is not appropriate merely to apply the prudent owner test, as <span style="font-style:italic">The Aquacharm </span>illustrates. In such cases it may be necessary to address a prior question of whether the defect or state of affairs relied upon sufficiently affects the fitness of the vessel to carry the goods safely on the contractual voyage as to engage the doctrine of seaworthiness. For reasons developed below, this is not such a case.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">Remediable defects</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">102.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">In support of their suggested category-based distinction between equipping a vessel with all that the crew may need (navigability) and the crew&#8217;s failure to make use of such equipment (negligence in navigation), the owners relied on the judgment of Scrutton LJ in <span style="font-style:italic">Madras Electrical Supply Co v P&amp;O Steam Navigation Co </span>(1924) 18 Ll L Rep 93. In that case<span style="font-style:italic"/>it was held that a failure to have an emergency guy did not amount to unseaworthiness in circumstances where the master had the requisite tackle on board to fit up the guy. In his judgment Scrutton LJ stated as follows, at pp 97-98:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;The learned judge has thought it was negligence. I am not certain that I should have gone further than thinking it was an error of judgment of the master; but whether it is negligence or whether it is error in judgment, I am quite clear it does not make the ship unseaworthy. As I understand the authorities, a ship is not unseaworthy where the defect is such that it can be remedied on the spot and in a short time by materials available. The common case is a ship with an open port-hole. If the port-hole is in a place where you can shut it at once, a ship is not unseaworthy because her port-hole happens to be open. If the port-hole is in a place where you cannot get at it during the voyage, and it is open, then the ship is unseaworthy. In the same way <span style="font-style:italic">I absolutely decline to hold that a ship is unseaworthy because, there being the materials on board to be used for the purpose for which seaworthiness is required, the officers of the ship do not use the materials which are available</span>. &#8230; [H]ere were the materials on board which the master could use; he could have used them in a quarter of an hour or ten minutes if he had fitted up the gear. He did not use either through an error of judgment or negligence. I absolutely decline to hold that that is unseaworthiness.&#8221; (Emphasis added)</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">103.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The fact that a defect is remediable may mean that a vessel is not unseaworthy. Whether or not the defect renders the vessel unseaworthy is likely to depend on whether it would reasonably be expected to be put right before any danger to vessel or cargo arose. This is illustrated by the open porthole example given by Scrutton LJ. If the port hole is inaccessible, then it would not reasonably be expected to be closed during the voyage and so the prudent owner would require the defect to be made good before sending the vessel to sea and the vessel would be unseaworthy. If, on the other hand, it is easily accessible then it would reasonably be expected to be closed by the crew as and when the need to do so arose and the vessel would not be unseaworthy. The same applies to the use of materials. It depends upon whether they would reasonably be expected to be used to remedy the defect before any danger to vessel or cargo arose. There is certainly no rule of law that remediable defects cannot make a vessel unseaworthy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">104.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">Nor does <span style="font-style:italic">Madras v P&amp;O </span>support the drawing of the suggested distinction between providing the vessel with the materials and equipment required to make the vessel seaworthy and the use made of those materials by the crew. If it is necessary to make use of those materials in order to render the vessel seaworthy for the voyage, then the carrier will be responsible for any negligent failure so to do. The non-delegable nature of the carrier&#8217;s seaworthiness obligation under article III rule 1 (as discussed under Issue 2 below) means that there are many cases where the carrier has been held responsible for the failure of the crew to use the materials and equipment provided to make the vessel seaworthy before the commencement of the voyage (see, for example, the cases referred to at paras 83 and 84 above). The distinction is also contrary to the terms of the Hague Rules. The carrier&#8217;s obligation is not merely to <span style="font-style:italic">&#8220;</span>man, equip and supply the ship&#8221; (article III rule 1(b)). It is also to <span style="font-style:italic">&#8220;</span>make the ship seaworthy&#8221;<span style="font-style:italic"/>(article III(1)(a)) and<span style="font-style:italic"/>to make &#8220;parts of the ship in which goods are carried, fit and safe for their reception, carriage and preservation&#8221;<span style="font-style:italic"/>(article III(1)(c)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">105.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The other English law authority on which the owners placed particular reliance was the decision of David Steel J in <span style="font-style:italic">The Torepo </span><ref href="https://caselaw.nationalarchives.gov.uk/admlty/ch/2002/1481" uk:canonical="[2002] EWHC 1481 (Admlty)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] EWHC 1481 (Admlty)</ref>; <ref href="#" uk:canonical="[2002] 2 Lloyd's Rep 535" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2002">[2002] 2 Lloyd&#8217;s Rep 535</ref> in which it was alleged that the grounding of the vessel was caused by unseaworthiness and one of the allegations of unseaworthiness was that there was no proper passage plan. The judge commented at para 98 that: &#8220;Passage planning is not a science. There is inevitably an element of judgment as to what annotations need to be added to the chart (or recorded elsewhere)&#8221;. He found that the passage plan was not defective but then went on make the following <span style="font-style:italic">obiter</span> observations:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;100.<marker name="tab"/>But let me assume in the claimants&#8217; favour that the passage plan was defective in one or more of the respects suggested, it was not in the event contended that this flowed from any failure of the defendants to provide a proper system in the sense that the guidance and instructions furnished by the owners were in any sense inappropriate. Section 5 of the Navigational Procedures Manual was devoted to passage planning including the requirement that the planning should include any passage through pilotage waters (5.1.1 and 5.2.8). Those instructions (taken with the additional publications furnished on board such as the Bridge Procedures Guide) were agreed to be fully appropriate and sufficient.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">106.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The owners relied on David Steel J&#8217;s emphasis on the provision of a proper system of guidance and instruction when considering the question of whether a defective passage plan would have rendered the vessel unseaworthy. This is primarily relevant to the owners&#8217; argument on due diligence and will be addressed below.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Paraheading3">US case law</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">107.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The US cases relied upon by the owners would be of assistance if they demonstrated a uniform approach. This has not, however, been shown. As cargo interests point out, the US Supreme Court decision in <span style="font-style:italic">International Navigation Co v Farr &amp; Bailey Manufacturing Co </span>(1901) 181 US 218, 21 S Ct 591, 45 L Ed 830 contradicts the owners&#8217; case as to what the US case law establishes. In that case, the vessel was found to be unseaworthy as a result of the crew&#8217;s failure to securely fasten port covers prior to the voyage. The carrier argued that the crew&#8217;s failure to close the port covers was an error in management and that it could therefore rely on the nautical exception in the Harter Act. The court rejected that argument, stating as follows at pp 225-226:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;We cannot accede to a view which so completely destroys the general rule that seaworthiness at the commencement of the voyage is a condition precedent, and that fault in management is no defence when there is lack of due diligence before the vessel breaks ground.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">We do not think that a ship owner exercises due diligence within the meaning of the act by merely furnishing proper structure and equipment, for the diligence required is diligence to make the ship <span style="font-style:italic">in all respects </span>seaworthy, and that, in our judgment, means due diligence on the part of all the owners&#8217; servants in the use of the equipment before the commencement of the voyage and until it is actually commenced.</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8230;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">We repeat that even if the loss occur through fault or error in management, the exemption cannot be availed of unless the vessel was seaworthy when she sailed, or due diligence to make her so had been exercised, and it is for the owner to establish the existence of one or the other of these conditions.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">108.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in"><span style="color:#000000">In reaching this conclusion the Supreme Court relied upon and followed the English Court of Appeal decision in </span><span style="font-style:italic;color:#000000">G E </span><span style="font-style:italic">Dobell &amp; Co v Steamship Rossmore Co Ltd </span><ref href="#" uk:canonical="[1895] 2 QB 408" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1895">[1895] 2 QB 408</ref>, a Harter Act case, in which a porthole used for loading cargo was negligently closed by the ship&#8217;s carpenter, with the result that it was not watertight. Access to the porthole was obstructed by cargo. During the voyage, water entered through the porthole and caused damage to the cargo. The argument for the shipowners was that this was &#8220;an error in navigation&#8221; and fell within the nautical fault exception. The court rejected that argument and found that the negligence of the ship&#8217;s carpenter involved a failure to exercise due diligence to make the vessel seaworthy for which the carrier was liable.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">109.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The decision of the US Supreme Court in the <span style="font-style:italic">International Navigation </span>case is entirely consonant with the English law authorities which show that a vessel may be rendered unseaworthy by negligent management of the vessel, despite the nautical fault exception in article IV rule 2(a), discussed above at para 83.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">110.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The three US decisions relied upon by the owners are<span style="font-style:italic"> The Oritani</span>, <span style="font-style:italic">The Iristo </span>and <span style="font-style:italic">The Jalavihar</span>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">111.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in"><span style="font-style:italic">The Oritani </span>concerned the Harter Act and an allegation that the vessel was unseaworthy because the compass data on board was insufficient for the safe navigation of the vessel. District Judge Kirkpatrick considered the relevant question to be whether &#8220;insufficient compass data at the commencement of the voyage is a matter affecting the seaworthiness of the vessel or whether it pertains to her navigation and management&#8221;: 40 F 2d 522, 528. He held that it was the latter, stating that:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;All authorities agree in treating the whole matter of correction of compass readings (which necessarily includes the obtaining of the requisite data) as a branch of the science of navigation. In the case of the Oritani, the master had always, from the time he left the dock, the means to obtain whatever information as to deviations was needful or advisable in order to complete the compass data. &#8230; The master of a vessel such as the Oritani is always in theory and almost always in fact an experienced navigator. Captain Anderson certainly was. The theory of the law is that the owners are justified in committing all matters of navigation to skillful and experienced navigating officers.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">In so far as the decision turned on the judge&#8217;s view that the master had the means to obtain the deviations needed to complete the compass data during the voyage, and would reasonably be expected to do so, then the conclusion that the vessel was not unseaworthy is understandable. In so far as the judge was suggesting or holding that a matter of &#8220;navigation and management&#8221; and a &#8220;matter affecting the seaworthiness of the vessel&#8221; are mutually exclusive then that is not consistent with the <span style="font-style:italic">International Navigation </span>case and the English law authorities.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">112.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">In <span style="font-style:italic">The Iristo </span>a vessel was held not to be unseaworthy in circumstances where her charts had not been corrected by reference to a notice to mariners on the grounds that the notice to mariners was available on board the vessel and &#8220;the means to correct [the chart] in good season were available&#8221;. Reference was made to an earlier decision of the same court <span style="color:#000000">in </span><span style="font-style:italic;color:#000000">United States Steel Products Co v American &amp; Foreign Ins Co</span><span style="color:#000000">, 2 Cir, 82 F2d 752 (1936) in which the vessel was found to be seaworthy &#8220;in spite of the fact that her charts had not been brought up to date, because there were records on board from which they could be readily corrected before the vessel reached the waters in which the information became necessary for proper navigation</span>&#8221;: 137 F 2d 619, 622. That conclusion is understandable at that time on the basis that the means to update the charts were available on board and such updating would reasonably be expected to be done before their use.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">113.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">This would be consistent with Lord Brandon&#8217;s general statement in <span style="font-style:italic">The Marion </span><ref href="#" uk:canonical="[1984] AC 563" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1984">[1984] AC 563</ref><span style="font-style:italic"/>as to the requirements which have to be fulfilled in relation to the vessel&#8217;s charts (at p 573):</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;It was not, and could not sensibly, have been disputed that, in order to ensure the safe navigation of a ship on the voyages undertaken by her, three requirements with regard to charts have to be fulfilled. The first requirement is that she should have on board, and available for use, the current versions of the charts necessary for such voyages. The second requirement is that any obsolete or superseded charts, which might formerly have been proper for use on such voyages, should either be destroyed, or, if not destroyed, at least segregated from the current charts in such a way as to avoid any possibility of confusion between them. The third requirement is that the current charts should either be kept corrected up-to-date at all times, <span style="font-style:italic">or at least that such</span><span/><span style="font-style:italic">corrections should be made prior to their possible use on any particular</span><span/><span style="font-style:italic">voyage.&#8221; </span>(Emphasis added)</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">114.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">As the cargo interests pointed out, nowadays paper charts would be required to be corrected so as to be up-to-date before the commencement of the voyage as the Guidelines require &#8220;berth to berth<span style="font-style:italic">&#8221; </span>passage planning to be carried out before the voyage begins.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">115.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in"><span style="font-style:italic">The Jalavihar</span> concerned a vessel which grounded while executing a turning manoeuvre when unberthing in the Mississippi. The district court held that the cause of the grounding was miscommunication between the pilot and the master of another vessel, that this was an error in the navigation or management of the vessel for which the carrier was exempted under the US Carriage of Goods by Sea Act (&#8220;COGSA&#8221;), that there had been no failure by the carrier to exercise due diligence to make the vessel seaworthy and that the cargo owners&#8217; defence of actionable fault to the carrier&#8217;s general average claim therefore failed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">116.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">On appeal, one of cargo owners&#8217; arguments was that navigational or managemental errors which occur prior to the commencement of the voyage are to be regarded as a failure to exercise due diligence so that the exception only applies to errors which occur after the voyage had commenced. The Court of Appeals rejected this argument and held that &#8220;COGSA&#8217;s exception for navigational or managemental error ... is not restricted to navigational errors occurring after the commencement of a voyage&#8221;: 118 F 3d 328, 333. It followed that the cargo owners&#8217; defence could only succeed it they could &#8220;prove that a concurrent cause of the accident was an unseaworthy condition&#8221;: p 334. The Court of Appeals upheld the district court&#8217;s finding that none of the conditions that allegedly rendered the vessel unseaworthy were concurrent causes of the grounding and the appeal was accordingly dismissed on the grounds of causation. One of the alleged unseaworthy conditions was the master&#8217;s failure to discuss the manoeuvre with the pilot, in relation to which the Court of Appeals stated, having referred to an earlier decision of the court, that &#8220;any negligence of the master concerning the movement of the vessel would be considered a navigational or managemental error, not an unseaworthy condition&#8221;: p 335. The parties&#8217; arguments were not considered further as the Court of Appeals moved on to address the causation issue. The owners nevertheless rely on the statements made in the course of the court&#8217;s judgment in relation to the application of the nautical fault exception. In so far as the court stated that the exception is capable of applying to navigational errors before the commencement of the voyage, that is unexceptionable. In so far as the court went further and suggested that navigational error and unseaworthiness are somehow mutually exclusive and that a navigational error cannot create &#8220;an unseaworthy condition&#8221;, that is contrary to the <span style="font-style:italic">International Navigation </span>case and the English law authorities.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">117.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">In summary, the decisions in the US cases relied upon by the owners are explicable on their facts. In so far as they include statements which suggest that matters of navigation or management within the nautical fault exception are necessarily distinct from and cannot cause unseaworthiness, then that is contrary to the <span style="font-style:italic">International Navigation </span>case and the English law authorities.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2"><span style="font-size:13pt">(3)</span><marker name="tab"/><span style="font-size:13pt">Application to the facts</span></heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">118.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">I would accept that the preparation of a passage plan is a matter of navigation. I would also accept that the failure to note or mark the uncharted depths warning in the passage plan and on the working chart can be regarded as an &#8220;act, neglect, or default&#8221; in &#8220;the navigation &#8230; of the ship&#8221; within the article IV rule 2(a) exception.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">119.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">On the proper interpretation of the Hague Rules, and as confirmed by <span style="font-style:italic">Maxine Footwear </span>and many other decisions, the article IV rule 2 exceptions cannot, however, be relied upon in relation to a causative breach of the carrier&#8217;s obligation to exercise due diligence to make the vessel seaworthy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">120.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">Leaving aside for the moment the issue of due diligence, the judge has found that the defects in the passage plan rendered the vessel unseaworthy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">121.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The fact, if it be a fact, that the &#8220;act, neglect, or default&#8221; in the navigation of the ship is itself the unseaworthiness makes no difference. What matters is the fact of unseaworthiness. In any event, the negligence in this case was the decision not to note or mark the uncharted depth warning in the passage plan and on the chart. The unseaworthiness was the consequent defective passage plan and working chart. This is therefore a case where the negligent navigational act has caused the unseaworthiness.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">122.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The judge found at para 85, and the Court of Appeal affirmed at para 64, that a defective passage plan is an attribute of the vessel. However, even if a defective passage plan were not considered to be an attribute of the vessel, this would make no difference as there is no attribute threshold in law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">123.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The owners sought to draw a distinction between a failure to correct a chart so that it is up-to-date (which they accepted could render a vessel unseaworthy) and a failure to annotate a chart as part of passage planning (which they contended could not do so). There is, however, no meaningful distinction between them. In both situations the end result is the same, namely an inappropriately marked up working chart. If such a chart is not safe for use for the navigation of the vessel on the voyage then it renders the vessel unseaworthy. The reason why that situation has come about makes no difference to the fact of unseaworthiness.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">124.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The owners are similarly wrong to contend that a passage plan is not part of the documentary outfit of the vessel or a navigational tool. The purpose of a passage plan is to assist in the safe navigation of the vessel. The Guidelines state that such a plan is of &#8220;essential importance&#8221; for the &#8220;safety &#8230; of navigation&#8221;. The judge found that its purpose is &#8220;to ensure that the vessel is navigated safely&#8221; (para 65) and that both chart correction and passage planning are part of the preparation for safe navigation (para 70). There can be no doubt that a vessel would be unseaworthy if she began her voyage without a passage plan. The same must be true if she did so with a defective passage plan which endangered the safety of the vessel. That is effectively what the judge has found.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">125.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The example of a vessel departing without a passage plan highlights the fallacy of the owners&#8217; suggested distinction between providing the materials and equipment for the safe navigation of the vessel and the crew&#8217;s use of such equipment and materials in navigation. In such a case the carrier would have provided the crew with everything they required to produce a passage plan, but they would have failed to deploy them. That would make no difference to the fact of unseaworthiness. The same analysis should apply where the crew fail properly to deploy the materials and equipment provided for passage planning.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">126.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The importance of passage planning as a navigational tool is particularly clear in this case as the judge found that proper passage planning required the working chart to be marked with the uncharted depths warning. The working chart is the primary document which the officer of the watch will use to navigate the vessel during the voyage. It is a critical navigational tool.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">127.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">Nor is this a case in which the prudent owner would reasonably expect the defects in the passage plan to be remedied before its use. The requisite noting and marking up ought to have been done as part of the planning stage and was unlikely to be revisited as part of the execution and monitoring stage. This is all the more so in circumstances where it related to the initial part of the voyage. The judge found (para 78) that it was &#8220;inconceivable&#8221; that a prudent owner would allow the vessel to depart on her voyage with a passage plan which was defective in the manner found.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">128.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">Given the judge&#8217;s findings as to the importance of passage planning to the safe navigation of the vessel there can be no doubt that this was an appropriate case for the judge to apply the prudent owner test of unseaworthiness. This is not a case at the boundaries of unseaworthiness. It concerns the safety of the vessel. His trenchant conclusion as to what the prudent owner would have done is unassailable, as is his consequent conclusion on unseaworthiness.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level>
+	  <heading class="Paraheading2"><span style="font-size:13pt">6.</span><marker name="tab"/><span style="font-size:13pt">ISSUE 2 &#8211; DID THE FAILURE OF THE MASTER AND SECOND OFFICER TO EXERCISE REASONABLE SKILL AND CARE WHEN PREPARING THE PASSAGE PLAN CONSITUTE WANT OF DUE DILIGENCE ON THE PART OF THE CARRIER FOR THE PURPOSES OF ARTICLE III RULE 2 OF THE HAGUE RULES?</span></heading>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">129.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The owners&#8217; alternative case is that, so long as the carrier has equipped the vessel with all that was necessary for her to be safely navigated including a competent crew, the crew&#8217;s failure to safely navigate the ship is not a lack of due diligence by the carrier. Put another way, it is outside of the carrier&#8217;s orbit of responsibility. Therefore, because the carrier has in the present case provided all the equipment and instructions to allow the crew to create a proper passage plan, a defective one caused by the crew&#8217;s failure to annotate it was not caused by the carrier&#8217;s lack of due diligence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">130.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The owners submitted that the critical question is: what steps does a carrier have to take to discharge the obligation of due diligence in respect of the relevant aspect of seaworthiness? They drew attention to the fact that the owner&#8217;s due diligence obligation in relation to the master/crew involves exercising proper care in relation to the appointment of a generally competent master/crew and the specific competence of the master/crew in relation to the vessel and voyage in question - see <span style="font-style:italic">The Eurasian Dream </span>at para 132. They submitted that a similar approach should be applied to passage planning so that due diligence required (i) employing competent navigating officers, (ii) ensuring that the navigating officers are properly instructed in respect of passage planning and (iii) auditing at regular intervals their performance to ensure that those instructions are being complied with.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">131.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">It was submitted that this approach is correct in principle, as a competent master is singularly and exclusively responsible for navigation. As Judge Kirkpatrick, sitting in the Federal District Court for the Eastern District of Pennsylvania, stated in <span style="font-style:italic">The Oritani</span>: &#8220;The theory of the law is that the owners are justified in committing all matters of navigation to skilful and experienced navigating officers&#8221;: 40 F 2d 522, 528. Navigation is accordingly not within the remit of a carrier and a carrier is right to leave such matters to the discretion of the master (subject to proper instructions and supervision).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">132.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">It was said that this is further borne out by the fact that passage planning, specifically, is not a science. It involves judgment as to what annotations to add to the chart or record elsewhere - see <span style="font-style:italic">The Torepo</span> at para 98. It would be invidious for an owner to have to second-guess the navigational decisions made by a master whenever the ship is about to leave port. Those navigational decisions often involve judgments made at the time based on prevailing nautical and environmental local conditions. More generally, the distinction between the provision of safe systems and an otherwise competent crew&#8217;s incidental failures to follow such systems gives effect to the master&#8217;s responsibility for safety, which is reinforced by applicable criminal legal provisions. This division also reflects the mandatory training received by the navigational crew and shoreside staff.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">133.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">As the owners accept, the leading authority on the nature and scope of the due diligence obligation under article III rule 1 of the Hague Rules is the decision of the House of Lords in <span style="font-style:italic">The Muncaster Castle. </span>In that case the marine superintendent employed by the carrier&#8217;s agents instructed a reputable firm of ship repairers to open up all the storm valves and inspection covers for the purpose of a special survey. After the inspection a fitter employed by the repairers failed to secure the nuts of the inspection covers sufficiently when closing them. This could not be detected by visual inspection. During the course of the voyage the inspection covers were loosened by the working of the vessel in rough weather as a result of which water entered the hold and damaged cargo. It was held that the carrier was liable for the negligence of the fitter and that it made no difference that the ship repairers were independent contractors or that technical or special knowledge and experience was called for or that the negligence was not apparent. The obligation on the carrier to exercise due diligence to make the vessel seaworthy requires that due diligence be exercised in the work of making the vessel seaworthy, regardless of who is engaged to carry out that task. As Lord Radcliffe explained at p 862:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; the question, when there has been damage to cargo and that damage is traceable to unseaworthiness of the vessel, [is] whether that unseaworthiness is due to any lack of diligence in those who have been implicated by the carriers in the work of keeping or making the vessel seaworthy. Such persons are then agents whose diligence or lack of it is attributable to the carriers. An inquiry on these lines is not concerned with distinctions between carelessness on the part of officers or servants of the carriers or their supervising agents, on the one hand, and carelessness on the part of their contractors or those contractors&#8217; contractors, on the other. The carriers must answer for anything that has been done amiss in the work. It is the work itself that delimits the area of the obligation &#8230;&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">134.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">Article III rule 1 has often been described as involving a non-delegable duty. The owners criticised this description and suggested that it masked the critical question of what steps the carrier has to take to discharge its due diligence obligation. It provides, however, a useful summary of what was decided in <span style="font-style:italic">The Muncaster Castle</span>. The carrier is responsible for any failure to exercise due diligence by those to whom he has entrusted the task of making the vessel seaworthy. It is the carrier&#8217;s contractual responsibility to ensure that due diligence is exercised in making the vessel seaworthy and he cannot contract out of that responsibility by delegation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">135.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">There are, however, limits to the responsibility of the carrier, as, for example, where the failure to exercise due diligence occurs at a time before the carrier has any responsibility for the vessel. In <span style="font-style:italic">The Muncaster </span>Castle it was held, endorsing the decision of Wright J in <span style="font-style:italic">W Angliss &amp; Co (Australia) Pty Ltd v P&amp;O Steam Navigation Co </span><ref href="#" uk:canonical="[1927] 2 KB 456" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1927">[1927] 2 KB 456</ref>, that the carrier would not be liable under article III rule 1 where the unseaworthiness is caused by non-apparent faulty workmanship by shipbuilders in circumstances where they cannot be regarded as being agents of the carrier. As Lord Radcliffe explained (at p 867), Wright J&#8217;s conclusion that the carrier is not liable in such a case:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;&#8230; turns on the consideration that the causative carelessness took place at a time before the carrier&#8217;s obligation under article III(1) had attached and in circumstances, therefore, when the builders and their men could not be described as agents for the carrier &#8216;before and at the beginning of the voyage to &#8230; make the ship seaworthy&#8217;. This is a tenable position for those who engage themselves upon the work of bringing the ship into existence. The carrier&#8217;s responsibility for the work itself does not begin until the ship comes into his orbit, and it begins then as a responsibility to make sure by careful and skilled inspection that what he is taking into his service is in fit condition for the purpose and, if there is anything lacking that is fairly discoverable, to put it right. This is recognised in the judgment. But if the bad work that has been done is &#8216;concealed&#8217; and so cannot be detected by any reasonable care, then the lack of diligence to which unseaworthiness is<span style="font-size:9pt"/>due is not to be attributed to the carrier.&#8221;</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">136.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">Just as the carrier may not be liable for lack of due diligence which occurs before the vessel &#8220;comes into his orbit&#8221;, he may equally not be liable for lack of due diligence which occurs before the cargo &#8220;comes into his orbit&#8221;, as is illustrated by <span style="font-style:italic">The Kapitan Sakharov</span>. In that case the vessel was found to be unseaworthy because of the presence on board of an undeclared dangerous containerised cargo but it was held that there was no failure to exercise due diligence as the containers had been packed by the shippers and there was nothing to put the carrier on notice of the danger. In his judgment Auld LJ (with whom the rest of the Court of Appeal agreed) stated at p 273:</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="Quote" style="margin-left:1.00in">&#8220;[T]he ratio of [<span style="font-style:italic">The Muncaster Castle</span>] was that a carrier cannot absolve itself from its personal duty of due diligence by delegating its responsibility <span style="font-style:italic">as a carrier</span> to an independent contractor. The shipper&#8217;s and the carrier&#8217;s respective orbits of responsibility are normally quite distinct and neither is agent of the other outside its own orbit ... Those responsible for the manufacture, stuffing and shipping of containers are plainly not carrying out any part of the carrier&#8217;s function for which he should be held responsible.&#8221;</p>
+	    </content>
+	  </level>
+	  <level>
+	    <content>
+	      <p class="ParaNoNumber">The carrier may nevertheless be liable if the defect or danger would be reasonably discoverable by the exercise of due diligence once the vessel or cargo has come within its control - see, for example, <span style="font-style:italic">Parsons Corpn v CV Scheepvaartonderneming Happy Ranger (The Happy Ranger) </span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2006/122" uk:canonical="[2006] EWHC 122 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] EWHC 122 (Comm)</ref>; <ref href="#" uk:canonical="[2006] 1 Lloyd's Rep 649" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] 1 Lloyd&#8217;s Rep 649</ref>.</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">137.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The owners sought to rely on these cases, in particular <span style="font-style:italic">The Kapitan Sakharov</span>, arguing that the task of preparing a passage plan is the responsibility of the master and deck officers and not part of the carrier&#8217;s function or within the carrier&#8217;s orbit of responsibility. However, the reasoning in these cases has no application to a case such as the present. At all material times the vessel was within the owners&#8217; &#8220;orbit&#8221;. The work of preparing a proper passage plan so as to make the vessel seaworthy for the voyage was entrusted to the master and deck officers, who are the owners&#8217; servants. It was they who were &#8220;implicated by the carriers in the<span style="font-style:italic"/>work of keeping or making the vessel seaworthy&#8221; in relation to passage planning. As such, the owners &#8220;must answer for anything<span style="font-style:italic"/>that has been done amiss in the work.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">138.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The failure to exercise due diligence was not that of some third party who could not at that time be regarded as an agent of the carrier, such as in the work of a shipbuilder prior to the carrier&#8217;s acquisition of the vessel, or in the work of a shipper prior to the carrier&#8217;s acquisition of control over the cargo. In such cases there is no question of delegation by the carrier. The vessel or cargo are not yet its responsibility. In the present case, the vessel was at all times under the carrier&#8217;s control and the failure to exercise due diligence was that of the carrier&#8217;s servants in the preparation of the vessel for her voyage. As Flaux LJ observed at para 75 of his judgment, &#8220;all the acts of the master and crew in preparing the vessel for the voyage are performed qua carrier&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">139.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The fact that navigation is the responsibility of the master and involves the exercise by the master and his deck officers of their specialist skill and judgment makes no difference. The same is true of much work necessary to make a vessel seaworthy, such as work carried out by specialist ship repairers, or main engine work carried out by engine manufacturers or by the chief engineer and the engineering officers. It is commonplace for a carrier to entrust the task of making the vessel seaworthy to those with particular skills and experience. The carrier nevertheless remains responsible for any lack of due diligence in the performance of that task.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">140.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The fact that the carrier&#8217;s due diligence obligation in relation to crewing the vessel relates to their competence takes matters no further. Where that duty is discharged the carrier nevertheless remains liable for a failure by a member of that competent crew to exercise due diligence to make the vessel seaworthy. The provision of a competent crew is only one aspect of the carrier&#8217;s seaworthiness obligation. This is explicitly so under the Hague Rules which include both an obligation to &#8220;properly &#8230; man &#8230; the ship&#8221; (article III rule 1(b)) and an obligation to &#8220;make the ship seaworthy&#8221; (article III rule 1(a)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">141.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">In relation to passage planning, it is undoubtedly correct that the carrier&#8217;s obligation under article III rule 1 means that there have to be systems in place to ensure that proper passage planning takes place, but it does not follow that that is the limit of the carrier&#8217;s obligation. As with the provision of a competent crew, it is an important part of the carrier&#8217;s seaworthiness obligation, but it is not definitive of it.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">142.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">If, for example, the causative negligence consisted of errors made by the master or deck officers in the execution or monitoring stage of passage planning during the voyage then <span style="font-style:italic">prima facie </span>the carrier would be able to rely on the nautical fault exception. It would not be able to do so, however, if those errors were attributable to the carrier&#8217;s failure to have proper systems in place for the execution or monitoring of passage planning as that would involve a failure to exercise due diligence to make the vessel seaworthy. The same result would follow if the errors were attributable to the carrier&#8217;s failure to exercise proper care in relation to crew competence. If, however, the causative negligence consisted of errors in passage planning which occurred at the appraisal or planning stage and rendered the vessel unseaworthy before and at the beginning of the voyage then the carrier would be liable regardless of whether it had discharged its obligations in relation to the systems for passage planning and crew competence.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">143.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">To the extent that the obiter passage at para 100 of David Steel J&#8217;s judgment in <span style="font-style:italic">The Torepo </span>suggests that the carrier&#8217;s seaworthiness obligation in relation to passage planning is limited to providing a proper system for such planning it is not a correct statement of the law. In any event, counsel in that case does not appear to have argued otherwise and, as Flaux LJ observed at para 66 of the Court of Appeal judgment: &#8220;It is difficult to see how the fact that counsel there did not run a point which would have failed on the facts in any event, so that David Steel J did not have to deal<span style="font-style:italic"/>with it, can have any bearing on the issues raised by this appeal.&#8221; It is also to be noted that the grounding in <span style="font-style:italic">The Torepo </span>occurred in 1997, which is before the Guidelines were adopted.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">144.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">For all these reasons, in agreement with the judge and the Court of Appeal, I would reject the owners&#8217; novel and unsound case on due diligence. The carrier cannot escape from its responsibilities under article III rule 1 of the Hague Rules by delegating them to its servants or agents <span style="font-style:italic">qua </span>navigators, or <span style="font-style:italic">qua</span> managers, or<span style="font-style:italic"> qua</span> engineers or <span style="font-style:italic">qua</span> ship repairers. If the task of making the vessel seaworthy has been entrusted by the carrier to those servants or agents then (if relevant) they are acting <span style="font-style:italic">qua</span> carriers and under article III rule 1 of the Hague Rules the carrier is responsible for any causative failure by them to exercise due diligence.</p>
+	    </content>
+	  </paragraph>
+	  <level>
+	    <content>
+	      <p class="ParaHeading1">7.<marker name="tab"/>Conclusion</p>
+	    </content>
+	  </level>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">145.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">The carrier&#8217;s obligation under the Hague Rules is not subject to a category-based distinction between a vessel&#8217;s quality of seaworthiness or navigability and the crew&#8217;s act of navigating. The crew&#8217;s failure to navigate the ship safely is capable of constituting a lack of due diligence by the carrier. It makes no difference that the delegated task of making the vessel seaworthy involves navigation. In particular:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(i)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">On the proper interpretation of the Hague Rules, the article IV rule 2 exception of act, neglect or default in the navigation or management of the vessel cannot be relied upon in relation to a causative breach of the carrier&#8217;s obligation to exercise due diligence to make the vessel seaworthy (see paras 70-76; 83-84; 119).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(ii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">If the vessel is unseaworthy, it makes no difference whether negligent navigation or management is the cause of the unseaworthiness or is itself the unseaworthiness (see paras 85, 121).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(iii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.62in">The concept of unseaworthiness is not subject to an attribute threshold requiring there to be an attribute of the vessel which threatens the safety of the vessel or her cargo (see paras 86-96; 122).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(iv)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">Save for exceptional cases at the boundaries of seaworthiness, the well-established prudent owner test, namely whether a prudent owner would have required the relevant defect to be made good before sending the vessel to sea had he known of it, is an appropriate test of seaworthiness, well suited to adapt to differing and changing standards (paras 97-101).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(v)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The fact that a defect is remediable may mean that a vessel is not unseaworthy. This is likely to depend on whether it would reasonably be expected to be put right before any danger to vessel or cargo arose (see paras 102-103).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(vi)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">Given the &#8220;essential importance&#8221; of passage planning for the &#8220;safety &#8230; of navigation&#8221;, applying the prudent owner test, a vessel is likely to be unseaworthy if she begins her voyage without a passage plan or if she does so with a defective passage plan which endangers the safety of the vessel (see paras 124-128).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(vii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.62in">The fact that the defective passage plan involves neglect or default in &#8220;the navigation of the ship&#8221; within the article IV rule 2(a) exception is no defence to a claim for loss or damage caused by unseaworthiness (see paras 118-119).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(viii)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.75in">The obligation on the carrier to exercise due diligence to make the vessel seaworthy requires that due diligence be exercised in the work of making the vessel seaworthy, regardless of who is engaged to carry out that task (see paras 133-134).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(ix)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The carrier may not be liable for lack of due diligence which occurs before he has responsibility for the vessel or for lack of due diligence which occurs before he has responsibility for the cargo. The carrier may nevertheless be liable if the defect or danger would be reasonably discoverable by the exercise of due diligence once the vessel or cargo has come within his control (paras 135-136).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(x)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The carrier is liable for a failure to exercise due diligence by the master and deck officers of his vessel in the preparation of a passage plan for the vessel&#8217;s voyage. The fact that navigation is the responsibility of the master and involves the exercise by the master and deck officers of their specialist skill and judgment makes no difference (paras 137-139).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.50in">(xi)</num>
+	    <content>
+	      <p class="ParaApprovedLevel2" style="margin-left:0.50in;text-indent:0.50in">The carrier&#8217;s seaworthiness obligation in relation to passage planning is not limited to providing a proper system for such planning (paras 141-143).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph>
+	    <num style="font-style:normal;font-weight:normal;text-decoration-line:none;font-family:Calibri, sans-serif;font-size:13pt;margin-left:0.25in;text-indent:-0.25in">146.</num>
+	    <content>
+	      <p class="ParaApprovedLevel1" style="margin-left:0.25in;text-indent:0.12in">In summary, the judge directed himself properly in law and the findings he made amply support the conclusion he reached that the defective passage plan involved a want of due diligence to make the vessel seaworthy. I would dismiss the appeal.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

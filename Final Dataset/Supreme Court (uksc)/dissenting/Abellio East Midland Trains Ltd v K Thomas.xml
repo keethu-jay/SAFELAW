@@ -1,0 +1,693 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/20"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2022/20"/>
+	  <FRBRdate date="2022-01-28" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="20"/>
+	  <FRBRname value="Abellio East Midland Trains Ltd v K Thomas"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/20"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/20"/>
+	  <FRBRdate date="2022-01-28" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2022/20/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2022/20/data.xml"/>
+	  <FRBRdate date="2024-11-09T01:02:55" name="transform"/>
+	  <FRBRdate date="2024-11-16T16:17:13" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2022-01-28" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="abellio-east-midlands-ltd" href="" showAs="ABELLIO EAST MIDLANDS LTD"/>
+	<TLCPerson eId="mr-k-thomas" href="" showAs="MR K THOMAS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2022</uk:year>
+	<uk:number>20</uk:number>
+	<uk:cite>[2022] EAT 20</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>8682abdc5ad23d3fcddafe4f28f2a1503554f6474ddaf895912cb0c7748fe352</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+	<uk:jurisdiction/>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .text { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Level1 { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FootnoteText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Level2 { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .FootnoteTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:6pt">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:6pt">ABELLIO EAST MIDLANDS LTD v THOMAS</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2022] EAT 20</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2020-000935-OO</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2022-01-28" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">28 January 2022</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">MICHAEL FORD QC, DEPUTY JUDGE OF THE HIGH COURT</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#abellio-east-midlands-ltd" style="font-weight:bold;font-size:12pt">ABELLIO EAST MIDLANDS LTD</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#mr-k-thomas" style="font-weight:bold;font-size:12pt">MR K THOMAS</party><marker name="tab"/><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR R FITZPATRICK </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by Kennedys Law LLP) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR K THOMAS </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">in Person</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 21 September 2021</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="text" style="margin-right:-0.28in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">SUMMARY</span></p>
+	    <p class="text" style="margin-right:-0.28in"><span style="font-weight:bold">UNLAWFUL DEDUCTION FROM WAGES</span></p>
+	    <p class="text" style="margin-right:-0.28in">The Claimant, who was employed by the respondent as Area Manager for the Leicester Area, agreed to move to a new position as Area Manager for Nottingham and was told that he would receive an increased salary to reflect the greater responsibilities in that role. The Claimant and Respondent failed to agree the increased salary and the Claimant&#8217;s employment was eventually terminated. The tribunal decided that the Claimant was entitled to a remedy in unjust enrichment, a quantum meruit payment, for the work he did in the &#8220;entirely different&#8221; position in Nottingham. It decided that he should have been paid an increased salary while in that position, and such a claim could be brought as an unlawful deductions from wages claim under Part II of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref></span>.</p>
+	    <p class="text" style="margin-right:-0.28in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Held</span><span style="font-weight:bold"> (allowing the appeal)</span>. An unjust enrichment claim for a quantum meruit could not be brought under Part II of the <span style="font-weight:bold">1996 Act</span>. Following <span style="font-weight:bold">Delaney v Staples</span> <ref href="#" uk:canonical="[1992] 1 AC 687" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1992">[1992] 1 AC 687</ref>, the essential characteristics of &#8220;wages&#8221; for the purpose of Part II are that they are work done or to be done under a subsisting contract of employment. But where an individual was engaged under a worker&#8217;s contract, and so could potentially bring a claim under Part II, a quantum meruit could only be brought in respect of additional work which went beyond the scope of the existing contract. Moreover, claims for quantum meruit with difficulty fit with the structure of a claim for unlawful deductions from wages. The appeal was therefore allowed.</p>
+	    <p class="text" style="margin-right:-0.28in">While the decision on Part II of the <span style="font-weight:bold">Act</span> resolved the appeal, the tribunal&#8217;s conclusion that the work at Nottingham was in an &#8220;entirely different position&#8221; or in an &#8220;entirely different role&#8221; was a sufficient finding that the work being done in that role, at the Respondent&#8217;s request, was necessarily outside the scope of the original contract. If the tribunal had jurisdiction under Part II of the <span style="font-weight:bold">1996 Act</span>, it would therefore have been entitled to award the claimant a quantum merit.</p>
+	    <p class="text"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">MICHAEL FORD QC, DEPUTY JUDGE OF THE HIGH COURT</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>This appeal addresses, so far as I can tell, a novel question at appeal level: can a claim be brought for a quantum meruit under the unlawful deductions from wages jurisdiction in Part II of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref></span> (&#8220;ERA&#8221;)?<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"> The issue has, it seems, been considered by another employment tribunal in addition to the one subject to this appeal which held that a claim for a quantum meruit cannot be brought as a claim for deduction from wages: see <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Fynn</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">-O&#8217;Neill v Study Group UK</span>, Case No. 1807152/2020, 12 May 2021</p>
+	      </authorialNote></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The appeal is brought by Abellio East Midland Trains Ltd against a judgment of the Employment Tribunal, sitting in Nottingham, sent to the parties on 19 January 2021. It was heard by Employment Judge (&#8220;EJ&#8221;) Hutchinson, sitting alone, on 14 August 2020. The Tribunal held that the respondent had made unauthorised deductions from the wages of Mr Thomas, the Claimant, in the period from 26 April to 12 November 2019. According to the EJ, those under-payments arose from a quantum meruit to which the Claimant was entitled while he worked as Area Manager for Nottingham.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>I shall refer to the parties as the claimant and respondent, as they were before the Tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Before me, the Respondent was represented by Mr Ruaraidh Fitzpatrick of Counsel and the Claimant appeared in person. I am grateful to both for their submissions.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The ET decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>I take the outline facts principally from the Tribunal&#8217;s written reasons, supplemented by the some of the documents referred to by the Tribunal and which I was shown.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The Claimant presented his claim on 10 March 2020. He claimed unlawful deductions from wages on basis that he had made an oral agreement with his managers that he would be paid &#163;52,000 when he took over role of Area Manager at Nottingham Station.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;text-indent:0.5in"><marker name="tab"/>The Respondent, usually known as &#8220;East Midlands Railway&#8221;, is the train operating company that runs mainline services between London St Pancras and the North of England, as well as local services in the East Midlands area. It took over that franchise from East Midlands Trains Ltd in August 2019 and all employees of East Midlands Trains, including the Claimant, transferred to the Respondent under the <span style="font-weight:bold">Transfer of Undertakings (Protection of Employment) Regulations 2006</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><span/><marker name="tab"/>The background to the claim was that the Claimant commenced employment with East Midlands Trains Ltd on 25 February 2019, working as Area Manager for the Leicester Area. His Statement of Terms of Employment, setting out his terms and conditions, commenced with a &#8220;Summary of Terms of Employment&#8221;, which recorded his role as &#8220;Area Manager&#8221;, his place of work as Leicester and his salary as &#163;42,000. Clause 3 of the subsequent terms referred to a job description, which I was told did not exist and said his job title and location of work were as set out in the Summary of Terms. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>In March 2029, following discussions with Mr Duncan Cale (the Interim General Manager East) and Mr Dan Lucas (General Manager South), the Claimant agreed to a request to take over the role of Area Manager for Nottingham from the incumbent, Mr Dan Robson. Nottingham was the biggest and most complex station in the franchise network, and the Claimant was told there would be an increase in salary to reflect the greater responsibilities in that role. There was, however, no agreement about the specific amount of the increased salary when the Claimant accepted the role (Tribunal judgment paragraphs 9-12).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>On 25 March, the Claimant began a one-month handover period in his new role. As the EJ recorded at paragraph 14, the claimant was sent an &#8220;Employee Change Form&#8221; dated 3 April 2019. It gave 1 April as the date of the changes, listed his new location/place of work as Leicester instead of Nottingham and referred to a new job title of &#8220;Area Manager - Nottingham&#8221; in place of &#8220;Area Manager - Leicester&#8221;. In relation to salary, however, it said &#8220;no change&#8221; because at that stage nothing had been agreed. The Claimant did not sign a later letter, dated 26 April 2019, agreeing to a change of location but with &#8220;all other terms and conditions&#8221; unchanged because the terms of his new role, and in particular his salary, had not been agreed (Tribunal, paragraph 16).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The EJ continued at paragraph 17:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in">On 2 May 2019, Mr Thomas met Adam Piddington (Customer Experience Director of the Respondent) and Mr Cale. Also in attendance was Ms Turner [the Interim Customer Experience Director]. I am satisfied that they had discussions about his salary and it was agreed that Mr Thomas's salary should be increased to &#163;52,000 per annum. Mr Piddington needed to obtain the agreement of HR before he would be able to confirm this increase in pay</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Following that meeting, correspondence took place between Mr Cale, Mr Piddington and Ms Grace Babawale, Head of Human Resources for the customer experience and commercial parts of the business. It seems it was agreed that the claimant would receive an initial salary increase to &#163;48,000, with the possibility of a later increase to &#163;52,000 on a review. Another employee change form was issued to that effect, dated 7 June 2019 and recording a new salary of &#163;48,000, backdated to 11 March (Tribunal judgment, paragraphs 18-22).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The Tribunal continued:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">24.</num>
+	    <content>
+	      <p class="Level1" style="margin-left:1in;text-indent:0.5in">Mr Thomas was later told by Mr Cale, also in May 2019, that the Human Resource would not agree to his request for a salary increase. He was told that they would only agree to increasing his pay to &#163;48,000 per annum even though they would have expected to pay more than &#163;52,000 that if they had recruited externally.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">25.</num>
+	    <content>
+	      <p class="Level1" style="margin-left:1in;text-indent:0.5in">Mr Thomas made it clear to Mr Cale that he was not happy about the &#163;48,000 per annum, especially after a conversation with Sarah Turner (Interim Customer Experience Director) who told him that Robson&#8217;s salary of &#163;52,000 per annum was not dependent on his achieving any KPIs and that the role had gone through the Hay assessment and had been graded at &#163;52,000 per annum in June in 2016. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">26.</num>
+	    <content>
+	      <p class="Level1" style="margin-left:1in;text-indent:0.5in">On 12th June 2019, Mr Thomas received a letter about a salary increase to &#163;48,000 per annum with effect from 11 March 2019. He was told that it would be subject to review in July 2020...He was asked to sign and return his acceptance of the offer.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">27.</num>
+	    <content>
+	      <p class="Level1" style="margin-left:1in;text-indent:0.5in">Mr Thomas wrote to Mr Cale on 16 June 2 June 2019. He said:</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="Level1" style="margin-left:1in">&#8220;<span style="font-style:italic">I would like an explanation as to why HR state that my current role of Area Manager Nottingham should be paid &#163;48K, when this role has been assessed by the company using the Hay model as paid &#163;52K more than two years ago?&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Further discussions then took place between the Claimant and Mr Cale about the increase in salary, which eventually led to Mr Cale&#8217;s handing a letter to the claimant on 11 September 2009, stating:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1in">&#8220;<span style="font-style:italic">Further to recent discussions, I am delighted to confirm your salary will increase to &#163;48,000 per annum with effect from 25 March 2019. Following successful completion of your probationary period, your salary will increase to &#163;52,000 with effect from 2 September 2019. Any outstanding pay will be backdated</span>&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The letter asked the Claimant to confirm his receipt by signing and returning a copy to HR, adding &#8220;Please note, no changes will be made until we have received your signed response&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>When the letter was handed to the Claimant, the EJ recorded him as saying he did not understand why his salary increase was conditional on passing a probationary period because this had never been mentioned before, he worked long hours and felt he deserved his increase (paragraph 33). The Claimant did not sign and return the letter. The EJ found at paragraph 35:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in">On 22 October 2019, Mr Thomas wrote to Mr Cale to tell him he was planning on raising a grievance about the unresolved pay issue. He then met with Mr Grabham [the new Customer Service Director] and Ms Babawale on 5 November 2019 and was told that they would be terminating his employment with immediate effect with one week&#8217;s pay in lieu of notice. Ultimately though, his employment did not end until 12 November 2019.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Subsequent to this, the Claimant wrote to Ms Babawale and said he would start legal proceedings if his salary issue were not resolved. She replied that she would pay him back-dated pay of &#163;48,000 but not &#163;52,000. In the event, the Claimant&#8217;s employment terminated on 12 November without agreement as to his salary.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>As for the law, the EJ referred to the central provisions of Part II of <span style="font-weight:bold">ERA</span> at paragraphs 39-41 of his written reasons, including the definition of &#8220;wages&#8221; in section 27. He briefly summarised the submissions of each party&#8217;s counsel. For the Respondent, Mr Fitzpatrick submitted there never was an agreement to increase the Claimant&#8217;s wages to any new sum, so that the wages properly payable to him were those under his existing salary, of &#163;42,000. On behalf of the Claimant, counsel submitted there was an oral agreement to pay &#163;52,000 or, in the absence of a binding agreement, the claimant had a right to a quantum meruit for the services he provided as Area Manager of Nottingham, which fell within the definition of wages in section 27 of ERA. She cited <span style="font-weight:bold">Ajar-Tec v Stak</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/543" uk:canonical="[2012] EWCA Civ 543" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 543</ref> and <span style="font-weight:bold">Benedetti v Sawiris</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1424" uk:canonical="[2010] EWCA Civ 1424" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] EWCA Civ 1424</ref>. It should be noted that <span style="font-weight:bold">Ajar-Tek</span> was a case about whether someone was a worker under an implied contract, and <span style="font-weight:bold">Benedetti</span> subsequently went to the Supreme Court, which allowed a cross-appeal against the Court of Appeal: see <ref href="#" uk:canonical="[2004] AC 938" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] AC 938</ref>. The third limb of the submissions for the Claimant was that he was entitled to a salary of &#163;48,000 </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.5in">19.</num>
+	    <content>
+	      <p class="Level1" style="text-align:justify;margin-left:1in"><marker name="tab"/>The EJ&#8217;s conclusions begin at paragraph 45. He rejected the argument that there was an express oral agreement to pay the Claimant &#163;52,000 because the Claimant knew that the &#8220;agreement&#8221; to pay him that salary had to be ratified by HR, which it never was (paragraph 50). He also rejected the submission that the Claimant was entitled to a salary of &#163;48,000 based on the letters of 1 June and 11 September 2019, because both letters required express acceptance by the Claimant to have legal effect (paragraph 51). There is no cross-appeal by the Claimant challenging those conclusions.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>However, the EJ upheld the submission based on a quantum meruit in the &#8220;very unusual circumstances&#8221; of the case. His reasons were brief. First, he said at paragraph 54:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in">Both parties realise in this case and accept that the position of Area Manager in Nottingham is an entirely different position carrying a salary with it of &#163;52,000 per annum. This is evidenced not only by what was paid to the previous incumbent, Mr Robson, but it also had been valued at that level under a Hay evaluation survey and the Respondent had advertised the position subsequently at that higher salary.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>He supplemented this as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>56.</num>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0.5in">I have no hesitation in this case in saying that Mr Thomas is entitled to payment for his labour on a quantum merit basis. This is not a difficult process in this case. It is clear from all the evidence that I have heard that he was entitled to be paid &#163;52,000 a year. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>57.</num>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0.5in">I am satisfied that this sum was payable from the time that he took up the position on 25th March 2019 and that he should have been paid that sum until his dismissal with effect from 12 November 2019. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num>58.</num>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0.5in">The non-payment of the difference in wages in this case amounts to an unlawful deduction of wages.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.59in;text-indent:-0.59in"><marker name="tab"/>The EJ concluded by noting that the Claimant was entitled to some other sums on termination, and hoped that the parties could agree the total due without the need for a further remedies hearing.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Legal Framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Claim for unlawful deductions from wages are brought under Part II of <span style="font-weight:bold">ERA,</span> which re-enacted and consolidated the provisions previously found in Part I of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1986/48" uk:canonical="1986 c. 48" uk:origin="TNA" uk:type="legislation">Wages Act 1986</ref></span>, which in turn had replaced the earlier &#8220;truck&#8221; Acts, such as the <span style="font-weight:bold">Truck Acts of 183</span>1 and <span style="font-weight:bold">1896</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Under Part II a worker has a right not to &#8220;suffer&#8221; unauthorised deductions: see the title to section 13 <span style="font-weight:bold">ERA</span>. By section 13(3):</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in">Where the total amount of wages paid on any occasion by an employer to a worker employed by him is less than the total amount of wages properly payable by him to the worker on that occasion (after deductions), the amount of the deficiency shall be treated for the purposes of this Part as a deduction made by the employer form the worker&#8217;s wages on that occasion. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>A worker may present a complaint to a tribunal that an employer has made a deduction in contravention of section 13: see section 23(1). The time limit is three months from the date of the payment of wages from which the deduction was made or the last deduction in a &#8220;series&#8221;: see section 23(2)(3). Where the tribunal upholds the complaint, it makes a declaration and orders the employer to pay the worker the amount of the deduction: section 24(1).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>For this purpose &#8220;wages&#8221; are defined in section 27 in the following terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>(1)</num>
+	    <intro>
+	      <p style="margin-left:1in;text-indent:0.5in">In this Part &#8216;wages&#8217;, in relation to a worker, means any sums payable to the worker in connection with his employment, including-</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(a)</num>
+	      <content>
+		<p style="margin-left:1.5in;text-indent:0.5in">any fee, bonus, commission, holiday pay or other emolument referable to his employment, whether payable under his contract or otherwise...</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.5in">The subsection goes on to list, at (b)-(f), certain types of payments as falling within the definition of &#8220;wages&#8221;, such as statutory sick pay, statutory maternity pay and sums paid in pursuance of an order for reinstatement. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The payments listed in section 27(2) are excluded from the statutory concept of &#8220;wages&#8221;. These include payments in respect of expenses; pensions, allowances and gratuities in connection with retirement or as compensation for loss of office; and payments &#8220;to the worker otherwise than in his capacity as a worker&#8221;. Benefits in kind are also not treated as wages, save for certain vouchers, stamps or similar documents which have a fixed monetary value and can be exchanged for money, goods or services: section 27(5).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The law on unjust enrichment is an area of some legal complexity, perhaps because it is a common law doctrine which has evolved through case-law. The elements of an unjust enrichment claim were summarised by Lord Clarke in <span style="font-weight:bold">Benedetti</span> <ref href="#" uk:canonical="[2004] AC 938" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] AC 938</ref> at [10]. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1in">It is now well-established that a court must first ask itself four questions when faced with a claim for unjust enrichment as follows. (1) Has the defendant been enriched? (2) Was the enrichment at the Claimant&#8217;s expense? (3) Was the enrichment unjust? (4) Are there any defences available to the defendant?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <intro>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Behind those deceptively simple questions lurks a good deal of difficult case law. I shall not even begin to attempt a full summary of the doctrine here, which has been illuminated by many great legal minds and continues to generate debates about its foundational principles. A leading text is Goff and Jones, <span style="font-style:italic">The Law of Unjust Enrichment </span>(9th Edition), and I have been referred to extracts from <span style="font-style:italic">Chitty on Contracts</span> (33<span style="vertical-align:super;font-size:smaller">rd</span> Edition). The following elements are relevant by way of summary.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p class="Level2" style="text-align:justify;margin-left:1in"><marker name="tab"/>The current view is against liability being based on quasi-contract or an implied contract, though the theoretical basis of the doctrine remains controversial. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p class="Level2" style="margin-left:1in"><span/><marker name="tab"/>Assessing the enrichment to the defendant is based on rules governing the identification and quantification of the benefit, shown by the leading authority, <span style="font-weight:bold">Benedetti</span>. The benefit must be valued at the time of receipt based on its objective value. Where there is a market price for the benefit, that is likely to give the relevant objective value; where there is no such market price, the court may take the parties agreed price as good evidence of the objective value of the services to a person in the defendant&#8217;s position: see <span style="font-weight:bold">Benedetti</span> per Lord Clarke at [15]-[17], Lord Neuberger at [168].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p class="Level2" style="margin-left:1in"><marker name="tab"/>The cases clarify when an enrichment at another&#8217;s expense will be held to be unjust. The decision is not for each individual judge to take based on his or her own conception of what is &#8220;just&#8221;. Rather, in accordance with the incremental approach of the common law, a claimant must show the claim falls within or is analogous to an existing category where recovery has been allowed: see Laws LJ in <span style="font-weight:bold">Gibbs v Maidstone and Tunbridge Wells NHS Trust</span> <ref href="#" uk:canonical="[2010] IRLR 786" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] IRLR 786</ref> at [26]-[27].</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.5in">(4)</num>
+	    <content>
+	      <p class="Level2" style="margin-left:1in"><marker name="tab"/>The case-law includes reasonably clear principles for resolving the circumstances in which the presence of an existing contract means that a claim for unjust enrichment is excluded, displaced or restricted (or that the defendant has a defence to a claim because of the existence of a contract). For example, the general rule is that no claim can be made for benefits under a subsisting contract because this would detract from how the parties have decided to allocate risk: see Lord Reed in <span style="font-weight:bold">Bendetti</span> at [91] and the authorities and the summary of the principles in <span style="font-weight:bold">Diamandis v Wills</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2015/312" uk:canonical="[2015] EWHC 312 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWHC 312 (Ch)</ref> per Sir Stephen Morris QC, sitting as a Deputy High Court Judge, at [84]. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.5in">(5)</num>
+	    <content>
+	      <p class="Level2" style="margin-left:1in"><marker name="tab"/>However, there are two relevant exceptions to the above principle: a quantum meruit may be recoverable for the provision of services (a) which go beyond the scope of the those provided for in the existing contract or (b) in anticipation of a contract which does not materialise: see <span style="font-weight:bold">Diamandis</span>, above, <span style="font-style:italic">Chitty</span> at [29-076]-[29-077] and <span style="font-weight:bold">Cooke v Hopper</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2012/175" uk:canonical="[2012] EWCA Civ 175" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] EWCA Civ 175</ref>, which I discuss further below. The first of these exceptions is of particular relevance to the discussion on Part II of <span style="font-weight:bold">ERA</span>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;margin-left:1in;text-indent:-0.5in">(6)</num>
+	    <content>
+	      <p class="Level2" style="margin-left:1in"><marker name="tab"/>There are special rules on how the claims for unjust enrichment must be pleaded.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Grounds of Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Against that background, I consider each of the grounds of appeal, though not in order. The Notice of &#8216;appeal originally included three grounds but at the outset of the hearing Mr Fitzpatrick indicated that he would not pursue the third ground, that the Tribunal made perverse findings about the nature of the Claimant&#8217;s role at Nottingham and the salary attached to it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Ground (2). This ground is that the EJ erred in deciding that a quantum meruit claim could be brought under Part II of ERA. As Mr Fitzpatrick accepted, the logic of his argument was not confined to this case. It was that any quantum meruit claim does not properly fall within the scope of Part II.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The starting point is that the provisions of Part II should, I consider, be given a broad and inclusive interpretation. They should be construed in light of the statutory purpose, of protecting workers against arbitrary deductions which deprive them of the substance of their earnings: see the long title to <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48" uk:canonical="1986 c. 48" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> and Revenue and Customs Comrs v Stringer <ref href="#" uk:canonical="[2009] ICR 985" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] ICR 985</ref> per Lord Rodger at [2]. The purpose of protecting vulnerable workers against being paid too little by their employers for work they do, viewed by Lord Legatt in Uber BV v Aslam <ref href="#" uk:canonical="[2021] ICR 657" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] ICR 657</ref> at [71]-[75] as one of the general purposes of employment legislation, points in the same direction.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>An additional support for a wide construction to Part II is the wording of section 27 itself, in which wages are defined in broad and inclusive language, as &#8220;any sums payable to the worker in connection with his employment&#8230;whether payable under his contract or otherwise&#8221;.  In  Delaney v Staples <ref href="#" uk:canonical="[1992] 1 AC 687" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1992">[1992] 1 AC 687</ref>, which the parties agreed I should look at for the purpose of this appeal even though neither referred to it, Lord Browne-Wilkinson described the words &#8220;in connection with employment&#8221; as &#8220;very wide&#8221;: 694H.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Thus, while the individual must be or have been a &#8220;worker&#8221; within the meaning of section 230 ERA and so have a contractual relationship to bring a claim in the first place, the source of the payment itself need not be contractual.  In New Century Cleaning v Church <ref href="#" uk:canonical="[2000] IRLR 27" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2000">[2000] IRLR 27</ref>, a majority of the Court of Appeal (Morritt LJ and Beldam LJ) held that words &#8220;payable&#8221; in section 27, and &#8220;properly payable&#8221; in section 13  connoted a legal entitlement to the payment but were not restricted to contractual entitlements (Morritt LJ at [43], Beldam LJ at [62]). An example in this category are the sums due as payments for annual leave under the <span style="font-weight:bold">Working Time Regulations 1998</span>, which arise by virtue of the regulations rather than contract, and which were held in <span style="font-weight:bold">Stringer</span> to fall within the definition of wages in s.27.<authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"> In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">New Century</span>, Beldam LJ at [62] gave the examples of a minimum wage ordered by a wage council or customary payments due under collective agreements. With respect, it is not clear he was correct on this. Under the <ref href="http://www.legislation.gov.uk/id/ukpga/1979/12" uk:canonical="1979 c. 12" uk:origin="TNA" uk:type="legislation">Wage Council Act 1979</ref>, for example, a wage council order had the effect of modifying the worker&#8217;s contract if it provided for payment of less than the statutory minimum (see section 15); and a collective agreement is generally not enforceable between the collective parties, so that the only means of payments giving rise to a legal entitlement is via the conduit of the individual contract of employment.</p>
+	      </authorialNote></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>These considerations provide support for an argument that unjust enrichment claims potentially fall within the scope of Part II of <span style="font-weight:bold">ERA</span>: a quantum meruit award compensates a worker for work done for which he has been paid nothing or too little; it  arises from a legal entitlement, though not from contract; and the sum(s) will be paid &#8220;in connection with... employment&#8221;  because the individual claimant must be or have been a &#8220;worker&#8221; and the payment must have been made to the worker in that capacity. There may also be something to be said as a matter of policy for enabling such claims to be brought in the relative informality of the employment tribunal, together with the other common types of claims brought by workers, rather than in the ordinary courts where the costs are likely to be higher and often prohibitive. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>But Part II is not indefinitely elastic, and the authorities provide some guidance on where the boundary line is to be drawn.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The first important restriction on the scope of Part II is the ordinary meaning of the word &#8220;wages&#8221;. In<span style="font-weight:bold"> Delaney v Staples</span>, the House of Lords held that a payment in lieu of notice did not fall within the meaning of &#8220;wages&#8221; in section 7 of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1986/48" uk:canonical="1986 c. 48" uk:origin="TNA" uk:type="legislation">Wages Act 1986</ref></span>, the predecessor of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> of ERA, even though the wording of &#8220;in connection with employment&#8221; was broad enough to embrace such payments. Lord Browne-Wilkinson, who gave the only speech, accepted it would be &#8220;convenient&#8221; if the dispute could be dealt with in the (then) industrial tribunals rather than the ordinary courts:  691H.<authorialNote class="footnote" marker="3">
+		<p class="FootnoteText"> At the time, industrial tribunals had no jurisdiction to hear complaints of breach of contract.</p>
+	      </authorialNote> But the critical limiting factor was the ordinary meaning of wages. According to Lord Browne-Wilkinson at 692A-C:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1in">&#8220;The proper answer to this case turns on the special definition of &#8216;wages&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48" uk:canonical="1986 c. 48" uk:origin="TNA" uk:type="legislation">the Act</ref>. I agree with the Court of Appeal that the essential characteristics of wages is that they are consideration for work done or to be done under a contract of employment. If a payment is not referable to an obligation on the employer under a subsisting contract of employment to render his services it does not in my judgment fall within the ordinary meaning of &#8216;wages&#8217;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt">37.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Lord Browne-Wilkinson considered that no help in answering the issue was obtained from the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7</ref>, the items included in the list in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/7/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7(1)</ref>, or those excluded by <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/7/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7(2)</ref> &#8211; now replicated and up-dated in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(1)</ref> and (2): 694G-D. But he held that the provisions of the <span style="font-weight:bold">1986 Act</span> could not work if payments in lieu of notice were treated as wages. This was because, first, there was no &#8220;occasion&#8221; on which a payment in lieu was properly payable, inconsistent with section 8(3) of the <span style="font-weight:bold">1986 Act</span> (now section 13(3) of <span style="font-weight:bold">ERA</span>): see 696F-G. Nor, second, was such an amount then &#8220;properly&#8221; payable within the meaning of that s.8(3), because the amount due would be reduced if the worker obtained employment during the notice period, so that it would be impossible to quantify the amount due at the point of dismissal: 696H-697A.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt">38.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Third, it was not possible to identify a precise date when the payment in lieu should have been made for the purpose of the time limits in section 5(2) of the <span style="font-weight:bold">1986</span>, now replicated in section 23(2) of <span style="font-weight:bold">ERA</span>: 697B. Fourth, if a claim for a payment in lieu could be brought in the tribunal, the employer would not be able to exercise its common law right of set-off, a result which parliament could not have intended: 697C-E.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt">39.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Having concluded that the structure of the <span style="font-weight:bold">Act</span> was against including a payment in lieu as &#8220;wages&#8221; in circumstances where an employee was wrongfully and summarily dismissed, Lord Browne-Wilkinson returned to clarifying the boundary of wages claims at 697E-H. The context was his earlier identification of four categories of payments in lieu of notice, namely (1) a payment while an employee was on &#8220;garden leave&#8221; after being given notice; (2) a payment made pursuant to a contractual provision which permits summary dismissal on payment of a sum in lieu of notice; (3) a payment made pursuant to an agreement that the employment would terminate forthwith on payment of a such a sum; and (4), the most common example, where an employer terminates summarily in breach of contract and makes a payment in lieu on account of the employee&#8217;s potential claim for damages (at 692D-H). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt">40.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;text-indent:0.5in"><marker name="tab"/>In respect of the four categories, Lord Browne-Wilkinson said this at 697E-H:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1in">&#8220;Where then in the dividing line to be drawn? In my judgment one is thrown back on the basic concept of wages as being payments in respect of the rendering of services during employment, so as to exclude all payments in respect of termination of that contract save to the extent that such latter payments are expressly included in the definition in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/7/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 7(1)</ref>. It follows that payments in respect of &#8220;garden leave&#8221; (my category (1)) are &#8220;wages&#8221; within the meaning of the act since they are advance payments of wages falling due under a subsisting contract of employment. But all other payments in lieu whether or not contractually payable are not within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48" uk:canonical="1986 c. 48" uk:origin="TNA" uk:type="legislation">the Act</ref> since they are payments relating to the termination of services under the employment. To draw a distinction between those cases where the payment in lieu is contractually based and the normal payment in lieu which consists of liquidated damages would be to invite numerous disputes as to the jurisdiction of the industrial tribunal which cannot have been Parliament&#8217;s intention&#8221;.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt">41.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Some further elucidation of the boundary was provided by the Court of Appeal in <span style="font-weight:bold">Coors Brewers v Adcock</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid"/><ref href="#" uk:canonical="[2007] ICR 983" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] ICR 983</ref>, on which Mr Fitzpatrick relied.  The issue was whether an announcement, following a take-over, that an employer would put in place a replacement bonus scheme, replicating the benefits in the bonus scheme which existed prior to the take-over, gave rise to claims which could be brought under Part II of <span style="font-weight:bold">ERA</span>. The Court of Appeal assumed that the employer owed an obligation put in place a scheme which, properly and fairly operated, was capable of replicating the benefits of the previous scheme (Wall LJ at [52]; Chadwick LJ at [68]). The Court of Appeal held, however, that such a claim could not be brought under Part II of <span style="font-weight:bold">ERA</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt">42.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>According to Wall LJ the &#8220;paradigm&#8221; case of a claim under Part II was that the employee was owed a specific sum of money which has not been paid: see [46], referring to the Nicholls LJ in the Court of Appeal in <span style="font-weight:bold">Delaney v Staples</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid"/><ref href="#" uk:canonical="[1991] ICR 331" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] ICR 331</ref>. In the case before him, however, the claims for benefits were:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1in"> &#8220;incapable of quantification in the <span style="font-weight:bold">Delaney v Staples </span>sense. None of the claimants could properly say that on any given date in 2004, let alone the March date operated under the previous scheme, Coors had made an unlawful deduction of a quantified amount from their wages.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	    <p style="margin-left:0.5in">Wall LJ went on at [54]-[55] to contrast claims for a &#8220;specified amount&#8221; or which were &#8220;quantifiable&#8221; (for example as a percentage of salary) which would fall within Part II of <span style="font-weight:bold">ERA</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt">43.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Chadwick LJ  held that a number of different schemes could meet the relevant obligation of replicating the benefits of the previous scheme [69]. In those circumstances, it was &#8220;impossible to say by how much the amount of wages actually paid was less than the amount that would have been payable if the employer company had put in place a substitute scheme&#8221; [70]. The claims were, in essence, claims for damages for loss of a chance which could not be brought under Part II even if they might be brought by way of a claim for breach of contract [71].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt">44.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>I have not found the <span style="font-weight:bold">Coors</span> judgment as helpful as <span style="font-weight:bold">Delaney</span> in tracing the boundary line of Part II. Many claims which fall within Part II involve factual or legal questions meaning that no precisely specified sum is due: examples are payments during garden leave (Lord Browne-Wilkinson&#8217;s category (1)) in circumstances where an employee is paid as a function of results instead of a fixed salary (e.g. commission); claims for holiday pay of the sort brought following <span style="font-weight:bold">Stringer</span>; and even some elements in claims for a &#8220;week&#8217;s pay&#8221; in Chapter II of Part XIV of ERA (see e.g. section 228). The distinction, to me at least, between a claim which is &#8220;quantified&#8221; and &#8220;quantifiable&#8221; is elusive and Wall LJ accepted that claims under Part II may involve issues of fact [56]. The <span style="font-weight:bold">Coors</span> case does illustrate, however, that there may come a point where damages are at large and must be assessed by the court, so that there insufficient parameters to determine what is &#8220;properly payable&#8221; on any occasion. Damages for the loss of a chance, which is how Chadwick LJ analysed the claims in <span style="font-weight:bold">Coors</span>, are not properly &#8220;quantifiable&#8221; at the time at all. In the same vein, in <span style="font-weight:bold">New Century Cleaning</span>, where the amount to be paid to each window cleaner in a team depended on how the team members agreed to split the sum paid by the employer for each job, Morritt LJ held that the amount to be paid to each individual window cleaner by the employer was not &#8220;objectively ascertainable&#8221; [46]. Unless and until the agreement was reached within the team, there were no objective parameters for determining what sum was due to each individual.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt">45.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>In light of those authorities, I return to the issue of whether a quantum meruit falls within Part II. The first, and principal, difficulty is that a quantum meruit does not fit readily into Lord Browne-Wilkinson&#8217;s conception of &#8220;wages&#8221; for the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48" uk:canonical="1986 c. 48" uk:origin="TNA" uk:type="legislation">the 1986 Act</ref> and its descendant in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> of <span style="font-weight:bold">ERA</span>. While Lord Browne-Wilkinson referred at 697F to the &#8220;basic concept of wages as being payments in respect of the rendering of services during employment&#8221;, which might be read as capturing services for which a quantum meruit is payable, his words must be read in context. Lord Browne-Wilkinson was clearly referring back to his early explanation- &#8220;one is thrown back to the basic concept&#8221; - where he said that the &#8220;essential characteristic of wages is that they are consideration for work done or to be done under a contract of employment&#8221; (at 692B). To underline that point, in both paragraphs he spoke of wages being referable to an obligation under a subsisting contract: see 692B-C, 697G.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt">46.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The typical operation of an unjust enrichment claim will be where there is no contract or where claims for payments due under it are barred by common law illegality or because the contract is void due to statutory illegality.<authorialNote class="footnote" marker="4">
+		<p class="FootnoteText"> Lord Toulson hinted in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Patel v Mirza </span><ref href="#" uk:canonical="[2017] AC 467" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] AC 467</ref> at [74] that unjust enrichment may provide a means for compensating workers who are paid no or derisory wages in circumstances where claims based on contract, such as unlawful deduction from wages, are barred because the contract of employment is unlawful.  </p>
+	      </authorialNote> Many such claims will be excluded from Part II at the outset because the individual will not meet the &#8220;worker&#8221; definition. But where there is a subsisting worker&#8217;s contract, the doctrine will only bite when the sums claimed are for work which falls outside and goes beyond the scope of that contract: see <span style="font-weight:bold">Cooke v Hopper</span>. To echo Lord Brown Wilkinson&#8217;s words in <span style="font-weight:bold">Delaney</span>, the sums payable are not due under a subsisting contract at all, even if it is a pre-condition of a wages claim that the sums are paid to a worker in that capacity: see <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(2)</ref>(e). They are entitlements arising from a another legal source, distinct from the subsisting contract and which is no longer analysed or understood as derived from an implied term of that subsisting contract.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt">47.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>On one view that is not necessarily fatal to the claim. Claims for sums due under regulations 14 or 16 of the <span style="font-weight:bold">Working Time Regulations</span> are, strictly, not due under contract. In <span style="font-weight:bold">Stringer</span>, however, Lord Rodger held that such payments were consideration for work done under the contract of employment and so met the essential characteristics of wages identified by Lord Browne-Wilkinson in <span style="font-weight:bold">Delaney</span> [24]-[25]. In the alternative, they fell within the ambit of &#8220;holiday pay&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.27(1)</ref>(a): Lord Rodger [29], Lord Neuberger at [68]-[69]. (Lord Walker considered they fell within the &#8220;very wide&#8221; language of <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>, and were similar to other types of payments due under contract: [50]-[55]). A quantum meruit, on the other hand, falls outside the <span style="font-weight:bold">Delaney</span> core conception of wages, does not appear to fall within any of the items listed in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27(1)</ref>(a)-(f), and appears to be dissimilar to the other types of payments listed in that subsection. I therefore consider it does not fall within the statutory concept of &#8220;wages&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt">48.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Reinforcing the view that a quantum meruit claim cannot be brought under Part II are the following. First, it will frequently be very difficult to identify the &#8220;occasion&#8221; on which such sums were &#8220;properly payable&#8221;. In the present case, it appears the EJ decided that the quantum meruit was payable at the same time as the claimant&#8217;s existing salary was paid (paragraph 57). This was probably a consequence of his decision that the sum due was the higher salary, of &#163;52,000. But in many claims for a quantum meruit there will be no fixed date on which payment should be made, making the statutory scheme unworkable or workable only with difficulty: see Lord Browne-Wilkison in <span style="font-weight:bold">Delaney</span> at 696F-H. By the same token, there will then be no date for the purpose of the limitation provisions in section 23(2).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt">49.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Second, the amount which is due by way of a quantum meruit will call for assessment by the court of the of the value of services at the time they were provided to the respondent: see <span style="font-weight:bold">Benedetti</span>, above. A court will often require objective evidence relating to the market value of the service: see Coulson J. in <span style="font-weight:bold">MacInnes v Gross</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2017/46" uk:canonical="[2017] EWHC 46 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWHC 46 (QB)</ref> at [163]-[166]. As a result, it will typically be difficult to identify any quantifiable sum which is &#8220;properly payable&#8221; prior to its quantification by the court based on <span style="font-style:italic">ex post facto </span>evidence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt">50.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><span/><marker name="tab"/>Third, to hold that unjust enrichment claims could be brought under Part II would take tribunals and EJs into, for them, uncharted waters. The doctrine involves much case law, may require expert evidence and has special pleading rules. In the absence of any express reference to unjust enrichment claims in <ref href="http://www.legislation.gov.uk/id/ukpga/1986/48/section/27" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 27</ref> of <span style="font-weight:bold">ERA</span>, I doubt that parliament, when it enacted  the predecessor provisions in the W<span style="font-weight:bold">age Act 1986</span>, intended or contemplated that tribunals would deal with such matters.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt">51.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The EJ did not grapple with the issue of whether a claim for a quantum meruit could fall within Part II, but assumed that it could. He can hardly be criticised for that assumption since it seems there was scant exploration of the difficult law on unjust enrichment before him. But, for the reasons set out above, I consider that assumption was wrong in law. I therefore allow the appeal on ground (2).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt">52.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-weight:bold">Ground (1)</span>. This ground is that the tribunal erred in deciding that the Claimant was entitled on the facts to a quantum meruit because, Mr Fitzpatrick argues, there was a subsisting contract which itself governed the remuneration payable. In light of my conclusion on ground (2), this ground is strictly unnecessary to determine the appeal. But I heard full argument on it and so I consider I should decide the issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt">53.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Mr Fitzpatrick relied on various cases which, he said, established that a quantum meruit claim only exists in the absence of a contractual term governing remuneration, such as <span style="font-weight:bold">Diamandis</span> at [83]. Here, he submitted, there was an existing contract which provided for remuneration, in the sum of an annual salary of &#163;42,000. Although in his written skeleton he said that for a quantum meruit to be payable the additional work &#8220;must be in no way attributable to the existing contract&#8221;, in oral argument he accepted that test was not reflected in the authorities. Rather, he submitted, a claim for a quantum meruit would only be available if the work done went beyond the scope of the existing contract. Nonetheless, he maintained that the work done by the claimant as Area Manager of Nottingham fell within the scope of his existing contract or that the Tribunal did not properly consider the applicable principles.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt">54.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>I consider Mr Fitzpatrick was correct to reformulate the principle in the way he did by reference to the scope of the contract. In <span style="font-weight:bold">Powell v Braun</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid"/><ref href="#" uk:canonical="[1954] 1 WLR 401" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1954">[1954] 1 WLR 401</ref> the plaintiff employed the defendant as his secretary and, after she had worked for him for two years, in 1946 he wrote to her promising to pay her a bonus each year based on trading results. The plaintiff agreed to his proposal and, relying on his offer, undertook additional responsibilities to those she had performed or would have performed under her existing contract. The Court of Appeal, overruling the judge below, held the plaintiff was entitled to a quantum meruit for the additional work she had done. The defendant had agreed to pay something, so that he did not have an unfettered discretion to pay nothing. It was no objection to awarding the plaintiff a reasonable sum that the remuneration was additional to her fixed salary: Evershed MR at 405, Denning LJ at 406, Romer LJ at 406-7. The analogy with the present claim is obvious, and the Court of Appeal did not consider whether the additional work was, in some sense, attributable to the existing contract. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt">55.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Although in <span style="font-weight:bold">Powell</span> the court did not formulate the underlying principle that a quantum meruit may be payable where work goes beyond the scope of the existing contract, that was the basis of the judgment of the Court of Appeal in <span style="font-weight:bold">Cooke</span>. There the defendant inherited land and engaged the claimants as &#8220;property consultants&#8221; to sell the property. Under the terms of the contract the claimants were entitled to commission if the property were sold for more than &#163;2 million as a result of their assistance. The claim for breach of contract failed, but the Court of Appeal upheld the judge&#8217;s finding that the claimants were entitled to a quantum meruit for additional work they had done at the defendant&#8217;s request, investigating the value of gravel on the land. Lloyd LJ held that such work &#8220;was not in reality done under the contract&#8221;; rather, it was &#8220;something done at [the defendant&#8217;s] express request, which went beyond the scope of the contract. That is a proper basis for an award on a quantum meruit basis&#8221; [34]. He repeated that test in dismissing the defendant&#8217;s appeal at [42], stating that the extra work was &#8220;done outside the scope of the contract for which no price or remuneration had been fixed under the contract&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt">56.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The authors of <span style="font-style:italic">Chitty</span>, on which Mr Fitzpatrick relied, also state that a claim may be brought for a quantum meruit claim in respect of additional remuneration for work performed which goes beyond the scope of an existing contract, referring to <span style="font-weight:bold">Powell</span> and <span style="font-weight:bold">Cooke</span>: see [29-076].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt">57.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Mr Fitzpatrick submitted that the proper conclusion here was that the Claimant&#8217;s work was within the scope of the subsisting contract because he continued to work in the role of Area Manager, his work was done under that contract, and the wage payments were made pursuant to that existing contract. Alternatively, the EJ had failed to direct himself to consider whether the work in the Nottingham role fell within the scope of the original contract.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt">58.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>I do not accept those submissions. Their logic appears to be inconsistent with <span style="font-weight:bold">Powell</span>, where the plaintiff continued in the same role under her existing contract. Here, the tribunal decided that the post of Area Manager in Nottingham was an &#8220;entirely different role&#8221; or &#8220;an entirely different position&#8221; (see paragraphs 46 and 54). The EJ had earlier held that Nottingham was the &#8220;biggest and most complex&#8221; station on the respondent&#8217;s network, with many performance issues, so that the new role involved greater responsibilities (paragraphs 11, 12). His conclusion that the role was &#8220;entirely different&#8221;  was supported, further, by the claimant&#8217;s &#8220;Summary of Terms of Employment&#8221; which gave his place of work as &#8220;Leicester&#8221;, and which were referred to in the subsequent terms as setting out his &#8220;job title and location&#8221;; the heading of each page of the Statement of Terms which read &#8220;Kev Thomas - Area Manager - Leicester&#8221;; and his offer letter of 18 January 2019 which referred to an offer of &#8220;the role of Area Manager based at Leicester&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt">59.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Although clause 3 in the Statement of Terms, under the heading &#8220;Job Definition&#8221;, said that the claimant might &#8220;be required to at any location within the Company&#8221;, Mr Fitzpatrick did not rely on this clause as the means by which the claimant moved to the Nottingham post. I consider he was right not to do so. Not only would that argument be inconsistent with how the claimant&#8217;s job was described in the various contractual documents, but it would also fail to accord with the Employee Change Forms dated 3 April 2019 and 7 June 2019 issued by the Respondent because they indicated that the Claimant had a new place of work and a new job title - &#8220;Area Manager - Nottingham&#8221; (and the second indicated that as a result he was entitled to an increased salary, even if this was never agreed).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-size:12pt">60.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>In those circumstances, in my view the tribunal was correct to decide that the Claimant was entitled to a quantum meruit for the work he did following his working in the Nottingham post. It is correct that the EJ did not expressly ask himself whether the work done by the Claimant fell outside the scope of his existing contract. But he can hardly be criticised for that, because it seems he was not referred to the key cases or principles applying where a quantum meruit is claimed for work which is additional to that done under an existing contract. His conclusion that the work at Nottingham was in an &#8220;entirely different position&#8221; or in an &#8220;entirely different role&#8221; was a sufficient finding that the work being done in that role was necessarily outside the scope of the original, subsisting contract. Moreover, it appears to have been the only correct finding on the evidence. The claimant was still working as an Area Manager but, at the respondent&#8217;s request, in a different position at a different location and with additional responsibilities which entailed changes to his existing terms and conditions. There was no appeal against the quantum of the award made by the EJ. Accordingly, in those circumstances, if the tribunal had jursidiction under Part II of ERA, I would have dismissed the appeal on ground (1).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_61">
+	  <num style="font-size:12pt">61.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>My conclusion is that the tribunal erred in holding it had jurisdiction to permit a quantum meruit claim to be brought under Part II of ERA. It follows that the Respondent&#8217;s appeal is allowed and the Tribunal judgment cannot stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-size:12pt">62.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"/>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-size:12pt">63.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>The consequence of my judgment is that that any claim for a quantum meruit could be, and should have been, brought in the ordinary courts but not in the employment tribunal. I have already indicated that I consider the tribunal was right to uphold the claimant&#8217;s claim for a quantum meruit. In the circumstances, I hope that the parties are able to resolve this matter without the need for further litigation and expense.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-size:12pt">64.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"/>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-size:12pt">65.</num>
+	  <content>
+	    <p class="Level1" style="text-align:justify;margin-left:0.5in"><marker name="tab"/>Finally, I regret the time taken to produce this judgment which was due to administrative problems beyond my control.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,545 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/52"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2025/52"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="52"/>
+	  <FRBRname value="A E Madu v Loughborough College"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/52"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/52"/>
+	  <FRBRdate date="2025-04-16" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2025/52/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2025/52/data.xml"/>
+	  <FRBRdate date="2025-04-16T09:43:33" name="transform"/>
+	  <FRBRdate date="2025-04-16T14:12:47" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-04-16" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="a-e-madu" href="" showAs="A E Madu"/>
+	<TLCPerson eId="loughborough-college" href="" showAs="Loughborough College"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-his-honour-judge-james-tayler" href="/judge-his-honour-judge-james-tayler" showAs="HIS HONOUR JUDGE JAMES TAYLER"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>52</uk:number>
+	<uk:cite>[2025] EAT 52</uk:cite>
+	<uk:parser>0.26.19</uk:parser>
+	<uk:hash>398a9e49b0a146aa3746a7aa4a69e00277609ed64f832b32dd5b6f971d0798eb</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .Heading1 { font-weight: bold; text-transform: uppercase; font-size: 14pt; }
+#judgment .Heading2 { font-weight: bold; font-size: 14pt; }
+#judgment .Heading3 { font-size: 12pt; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; }
+#judgment .Heading5 { font-weight: bold; }
+#judgment .Heading6 { font-style: italic; font-weight: bold; }
+#judgment .Heading7 { font-style: italic; }
+#judgment .Heading8 { font-weight: bold; }
+#judgment .Heading9 { font-style: italic; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Caption { font-weight: bold; font-size: 9pt; }
+#judgment .Title { text-align: center; font-weight: bold; font-size: 24pt; }
+#judgment .Subtitle { text-align: center; font-size: 12pt; }
+#judgment .NoSpacing { }
+#judgment .Quote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-size: 12pt; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.65in; margin-right: 0.65in; font-size: 13pt; }
+#judgment .TOCHeading { font-weight: bold; text-transform: uppercase; font-size: 14pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .Heading1Char { font-weight: bold; text-transform: uppercase; font-size: 14pt; }
+#judgment .Heading2Char { font-weight: bold; font-size: 14pt; }
+#judgment .Heading3Char { font-size: 12pt; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; }
+#judgment .Heading5Char { font-weight: bold; }
+#judgment .Heading6Char { font-style: italic; font-weight: bold; }
+#judgment .Heading7Char { font-style: italic; }
+#judgment .Heading8Char { font-weight: bold; }
+#judgment .Heading9Char { font-style: italic; }
+#judgment .TitleChar { font-weight: bold; font-size: 24pt; }
+#judgment .SubtitleChar { font-size: 12pt; }
+#judgment .Strong { font-weight: bold; color: initial; }
+#judgment .Emphasis { font-style: italic; color: initial; }
+#judgment .QuoteChar { font-style: italic; font-size: 12pt; }
+#judgment .IntenseQuoteChar { font-size: 13pt; }
+#judgment .SubtleEmphasis { font-style: italic; color: initial; }
+#judgment .IntenseEmphasis { font-style: italic; font-weight: bold; color: initial; }
+#judgment .SubtleReference { text-decoration-line: underline; text-decoration-style: solid; font-variant: small-caps; color: initial; }
+#judgment .IntenseReference { font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; font-variant: small-caps; color: initial; }
+#judgment .BookTitle { font-weight: bold; font-variant: small-caps; color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Mr A E Madu v Loughborough College</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2025] EAT 52</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2023-000382-LA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2025-04-16" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">16 April 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">:</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-his-honour-judge-james-tayler" style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#a-e-madu" style="font-weight:bold;font-size:12pt">Mr A E Madu</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and -</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#loughborough-college" style="font-weight:bold;font-size:12pt">Loughborough College</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr L Ogilvy, Consultant, for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr C Crow</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by rradar Limited) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 21 January 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+      <p><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Practice and Procedure</span></p>
+      <p><span style="font-family:'Times New Roman';color:#010302">The Employment Tribunal erred in law in its analysis of an application for costs against the claimant.</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">HIS HONOUR JUDGE JAMES TAYLER</span></p>
+	    <p style="margin-right:3.7in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The issue</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Should costs applications in discrimination complaints be treated differently to costs applications in other types of complaint? In one sense, obviously no, but in another sense, the answer will often be yes. Let me explain. The legal test for an award of costs is the same whatever the complaint. But there are features about many, but not all, discrimination complaints, and other similar complaints, that require special consideration when that legal test is applied. There are also policy considerations that may be relevant to discrimination and similar complaints.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This issue arises in the context of a claim asserting race discrimination commenced by the claimant acting as a litigant in person. The claimant later obtained legal representation. The Employment Tribunal, Employment Judge Adkinson, sitting with members, concluded that the claimant should have realised when acting in person that the claim had no reasonable prospect of success and that after he obtained legal representation, he must have received advice to that effect. After a hearing on 27 February 2023, the Employment Tribunal awarded &#163;20,000 in costs against the claimant in a judgment that was sent to the parties on 11 March 2023.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is necessary to consider a little of the history of the claim. The respondent is a further education college. On 5 September 2018, the claimant applied for the role of part-time lecturer in health and social care. Two other candidates also applied, identified as AB, a white British person, and DW, a white Irish person.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">On 24 October 2018, the claimant was invited to an interview to be held on 6 November 2018 at 11.30 a.m. at the respondent&#8217;s premises in Loughborough.  On </span><span style="font-family:'Times New Roman';font-size:12pt">4 November 2018, the claimant asked if the interview could be moved to later in the day so that he could buy a cheaper train ticket. He was told that was not possible. The interviewing panel had commitments in the afternoon.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant attended for interview on 6 November 2018. He discovered that DW&#8217;s interview had been postponed to the morning of the next day.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant was unsuccessful at interview. The candidates were scored on their answers to set questions. AB scored highest (107 points), and was offered the role. The claimant came second (72 points) and DW third (68 points). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt">7.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claimant submitted a claim that was received by the Employment Tribunal on 27 March 2019. The claim was considered at a Preliminary Hearing for Case Management before Employment Judge M Butler on 13 November 2019. The claimant was unrepresented. Employment Judge Butler identified the issues as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(i)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Was the Claimant treated less favourably than a white Irish candidate in that he was denied the opportunity to move his interview time and the other candidate was granted that opportunity? Was this action of the Respondent justified or was the Claimant treated less favourably because of his race or ethnicity?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Was the Claimant treated less favourably than the white British candidate who was appointed in that, due to a lack of diversity or the presence of bias or for any other reason, the Claimant was not appointed? Was any such less favourable treatment because of the Claimant's race or ethnicity?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Was the Claimant treated less favourably in going through the request for feedback and his various complaints than a white British candidate would have been treated because of the Claimant's race or ethnicity?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt">8.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Employment Judge Butler recorded that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The successful candidate in the interview process was the white British male. The Claimant again claims to have been treated &#8220;differently&#8221; because of his ethnicity. This was evidenced by the fact that only 2.9% of staff at the Respondent are non-white.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The claim was heard on 1, 2, 3 November 2021 and 25 and 26 May 2022. The claim failed. The respondent applied for costs. The application was heard on 27 February 2023. The Employment Tribunal awarded &#163;20,000 in costs against the claimant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">By a Notice of Appeal received by the Employment Appeal Tribunal on 19 April 2024 the claimant appealed against that decision. The grounds of appeal were lengthy and discursive. The appeal was considered at the sift stage by Judge Stout who was of the opinion that there were no reasonable grounds for bringing the appeal. The claimant challenged that decision at a Rule 3(10) hearing before me. I allowed grounds set out in my reasons to proceed and dismissed all other grounds. The respondent asserts that insofar as any grounds in my reasons go beyond the original grounds of appeal they are not properly before the EAT. I accept that is correct in the circumstances of this case. As I noted recently in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Robinson v Nottingham Healthcare NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2025/39" uk:canonical="[2025] EAT 39" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EAT 39</ref> &#8220;it is good practice, where further grounds have been identified, for them to be the subject of an amendment to the grounds of appeal&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt">11.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">After hearing the parties arguments I have analysed only the grounds of appeal necessary to determine the appeal and dealt with them in a different order to how they were set out in my reasons.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal applied Rule 76 of the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Employment Tribunal Rules 2013</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (now Rule 74 </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Employment Tribunal Rules 2024</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">) which provided, so far as is relevant:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">When a costs order or a preparation time order may or shall be made </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">76.&#8212; (1) A Tribunal may make a costs order or a preparation time order, and shall consider whether to do so, where it considers that&#8212; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">a party (or that party&#8217;s representative) has acted vexatiously, abusively, disruptively or otherwise unreasonably in either the bringing of the proceedings (or part) or the way that the proceedings (or part) have been conducted; or </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">any claim or response had no reasonable prospect of success. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This legal test applies whatever the complaint. The Employment Tribunal must determine whether one of the threshold criteria apply, such as the claim having no reasonable prospects of success or that a party has acted unreasonably, and then decide whether to exercise the discretion to award costs: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Robinson v Hall Gregory Recruitment Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2014] IRLR 761" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] IRLR 761</ref>. These are two separate stages of the decision making process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The fact that a party is a litigant in person will often be relevant to determining an application for costs: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">AQ Ltd v Holden</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2012] IRLR 648" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] IRLR 648</ref>, EAT [32]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A tribunal cannot and should not judge a litigant in person by the standards of a professional representative. Lay people are entitled to represent themselves in tribunals; and, since legal aid is not available and they will not usually recover costs if they are successful, it is inevitable that many lay people will represent themselves. Justice requires that tribunals do not apply professional standards to lay people, who may be involved in legal proceedings for the only time in their life. As [counsel for the claimant] submitted, lay people are likely to lack the objectivity and knowledge of law and practice brought by a professional adviser. Tribunals must bear this in mind when assessing the threshold tests &#8230; . Further, even if the threshold tests for an order of costs are met, the tribunal has discretion whether to make an order. This discretion will be exercised having regard to all the circumstances. It is not irrelevant that a lay person may have brought proceedings with little or no access to specialist help and advice.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The question of whether a complaint had no reasonable prospects of success is wholly objective. However, the fact that a litigant acts in person may be relevant to whether he has acted unreasonably in pursuing the complaint. Whatever the threshold conduct, the fact that a litigant acts in person will generally be relevant to the discretionary question of whether to make an award of costs. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In many discrimination complaints the outcome turns on the Employment Tribunal deciding whether the claimant&#8217;s treatment was materially influenced by the relevant protected characteristic. Much may turn on the performance of the person(s) alleged to have discriminated against the claimant under cross-examination. It can be difficult for a claimant, especially if acting in person, to form a clear view of the likely prospects of success prior to the hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In this case the Employment Tribunal directed itself:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">26.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The paying party cannot hide behind their assertion that their belief they had been discriminated against is sincere to suggest it is reasonable to pursue them, or to show that a costs order would be inappropriate in relation to them (particularly where a tribunal has found that there was &#8220;virtually nothing to support them&#8221;): </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Keskar v Governors of All Saints School</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[1991] ICR 493" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1991">[1991] ICR 493</ref>;  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Keskar </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the Employment Tribunal had found:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> While we consider that the applicant has throughout given every sign of sincere belief in his allegations of racial discrimination, his motive in bringing these proceedings has been to hit back at his headmaster and the governors over the latter's failure to appoint</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">him as headmaster and the former's taking of disciplinary action against him which the governors endorsed. It is our view that the applicant has been motivated by resentment and spite in bringing these proceedings. We also consider that, as there was virtually</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">nothing to support his allegations of racial discrimination he has acted unreasonably in bringing them. Accordingly, we consider that this is a proper case in which to make an order for costs against him.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The EAT in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Keskar </span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">concluded that the analysis of the Employment Tribunal involved no error of law. However, key to the decision was the fact that the Employment Tribunal concluded that the claim was motivated by animus against the headmaster. The case is not authority for a proposition of law that a claimant&#8217;s sincere belief that he has been subject to race discrimination is irrelevant to the question of whether costs should be awarded.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The challenges that face claimants bringing discrimination claims often will be relevant to a decision whether to award costs. In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Saka v Fitzroy Robinson Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> EAT/0241/00 at paragraph 10 the EAT referred to the &#8220;very real difficulties which face a claimant in a discrimination claim&#8221;, that there is often a lack of overt evidence and so &#8220;it may be and often is very difficult for the claimant to know whether or not he has real prospects of success until the explanation of the employer&#8217;s conduct which is the subject of complaint is heard, seen and tested&#8221;. See also the comments of Cox J in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Oko-Jaja v London Borough of Lewisham</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, UKEAT/417/00 at paragraph 20 to 21.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">None of this means that litigants in person bringing complaints of discrimination are immune from costs orders, but the difficulties that can face claimants bringing discrimination complaints, and the specific challenges that face litigants in person, will often be relevant to deciding whether to award costs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Advancing a complaint that has no reasonable prospects of success and/or acting unreasonably in bringing or proceeding with such a complaint can result in strike out. The approached adopted to strike out in discrimination claims is potentially relevant when applying the similar test for costs, including the analysis by Lord Steyn in  </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Anyanwu v South Bank Student Union</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> [2001] UKHL/14, <ref href="#" uk:canonical="[2001] ICR 391" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] ICR 391</ref>:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Discrimination cases are generally fact-sensitive, and their proper determination is </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">always vital in our pluralistic society. In this field perhaps more than any other the bias </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">in favour of a claim being examined on the merits or demerits of its particular facts is a </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">matter of high public interest.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt">23.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">As HHJ Auerbach stated in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Iyieke v Bearing Point Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2025/25" uk:canonical="[2025] EAT 25" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] EAT 25</ref>:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In the strike-out jurisdiction, the tribunal is, in the nature of things, usually called upon to make a judgment of this kind ahead of trial on the basis of the material currently then available.  In the costs jurisdiction, in the nature of things, the exercise is usually carried out in point of time after a trial, by which time the tribunal has itself been exposed to all of the evidence and reached its conclusions.  But nevertheless what the tribunal has to decide in a case of this type is whether the claimant ought at the relevant time </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">pre-trial</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> to have appreciated that their claim had no reasonable prospect of success on the information </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">then</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> available.  The tribunal therefore needs to be wary when making such a costs decision, of being influenced by the hindsight of how the evidence in fact unfolded at trial.  Nevertheless, there can be cases where the tribunal can properly conclude that what the claimant knew pre-trial should have made the position reasonably clear to them at that point. (See: </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Radia v Jefferies International Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2020] IRLR 431" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] IRLR 431</ref> at [61] &#8211; [67].)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">Where an Employment Tribunal exercises the discretion to award costs because of unreasonable conduct it is not required to precisely align the unreasonable conduct with the costs caused by it, but it is generally necessary to have regard to the nature, gravity and effect of the unreasonable conduct: </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">McPherson v BNP Paribas (London Branch)</span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302"/><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"><ref href="#" uk:canonical="[2004] ICR 1398" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] ICR 1398</ref>, CA. In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Yerrakalva   v   Barnsley Metropolitan Borough Council</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="#" uk:canonical="[2012] ICR 420" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] ICR 420</ref>, Mummery LJ returned to the issue he had discussed in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">McPherson</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">40  The actual words of rule 40 are clear enough to be applied without the need to add layers of interpretation, which may themselves be open to differing interpretations.  Unfortunately, the leading judgment in </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">McPherson v BNP Paribas</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> (London Branch) delivered by me has created some confusion in the employment tribunal, Employment Appeal Tribunal and in this court.  I say &#8220;unfortunately&#8221; because it was never my intention to re-write the rule, or to add a gloss to it, either by disregarding questions of causation or by requiring the employment tribunal to dissect a case in detail and compartmentalise the relevant conduct under separate headings, such as &#8220;nature&#8221;, &#8220;gravity&#8221; and &#8220;effect&#8221;.  Perhaps I should have said less and simply kept to the actual words of the rule.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">41  The vital point in exercising the discretion to order costs is to look at the whole picture of what happened in the case and to ask whether there has been unreasonable conduct by the claimant in bringing and conducting the case and, in doing so, to identify the conduct, what was unreasonable about it and what effects it had.  The main thrust of the passages cited above from my judgment in McPherson&#8217;s case was to reject as erroneous the submission to the court that, in deciding whether to make a costs order, the employment tribunal had to determine whether or not there was a precise causal link between the unreasonable conduct in question and the specific costs being claimed.  In rejecting that submission I had no intention of giving birth to erroneous notions, such as that causation was irrelevant or that the circumstances had to be separated into sections and each section to be analysed separately so as to lose sight of the totality of the relevant circumstances.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The grounds of appeal</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in;text-indent:-0.49in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Assuming that when the claimant obtained legal representation he was advised that his claim had no reasonable prospects of success</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal stated repeatedly that it assumed that once the claimant was legally represented he was advised that there were no reasonable prospects of success in the claim:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">19.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">He represented himself when he began his claim. However on 23 September 2020 and for the remainder of the case he was represented by solicitors. There is no evidence to suggest they gave him anything except competent advice. He has not waived privilege. We assume therefore that he was advised that his claim had no reasonable prospect of success. It follows he chose to continue his claim despite that competent advice from solicitors. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">A deposit would have not stopped him or made him think twice. This is evidenced by the fact that once he had solicitors, who we assume advised him competently, he continued with his claim. &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">31.2.2</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">However once he became represented by a solicitor, we are certain that he would have been aware that his case lacked merit since we infer he would have been competently advised about the merits of his claim and that it had no reasonable prospect of success (and no evidence has been adduced to suggest that either he was badly advised or he refused to receive advice).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent conceded that the Employment Tribunal erred in law in holding that the claimant must have been advised that his claim had no reasonable prospects of success, which involved making assumptions about what would have been privileged advice. That assumption was a significant component of the decision to award costs. The respondent contends that the judgment should be upheld notwithstanding this error of law because the Employment Tribunal also concluded that the claim was misconceived in the sense that it had no reasonable prospects of success. Having decided that two of the thresholds for awarding costs were met, that the claim was misconceived and the claimant had acted unreasonably in pursuing it, the Employment Tribunal then exercised the discretion to award costs. It is not clear to what extent that exercise of discretion was as a result of the Employment Tribunal concluding that the claim was misconceived and/or that the claimant should have realised that was the case prior to having legal representation, as opposed to continuing with the claim once he had legal representation based on the assumption about the advice that he would have been given. Accordingly, this error alone undermines the entirety of the judgment.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">The period during which the claimant was unrepresented</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt">27.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In my reasons for permitting the appeal to proceed at the Rule 3(10) Hearing I summarised this ground as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">the Employment Tribunal failed to take into account the substantial period during which the claimant was unrepresented including whether he did or should have realised that the claim had no reasonable prospects of success in that period having regard to the particular challenges of bringing discrimination claims</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">I accept the respondent&#8217;s contention that the Employment Tribunal did take account of the period during which the claimant was unrepresented. However, I do not accept that the Employment Tribunal took account of the difficulties that face a claimant in determining whether a discrimination claim has no reasonable prospect of success prior to the hearing. The authorities set out above make it clear this is a factor that should have been taken into account.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">This links with the decision of the Employment Tribunal that it was not relevant that the respondent had not sought strike out, a deposit order or given a costs warning:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The respondent did not warn the claimant they might seeks costs. The respondent never applied for the claim to be struck out or that the claimant pay a deposit if he wanted to pursue it.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We conclude that a deposit would have made no difference in this case. It is quite apparent from the way the claimant presented and pursued his claim (particularly his comments recorded in [23]-[25] of the judgment) he would have pursued this case in any event. A deposit would have not stopped him or made him think twice. This is evidenced by the fact that once he had solicitors, who we assume advised him competently, he continued with his claim. It is also evidenced by his failure in the substantive hearing to be able to concede obvious points or accept there may be other explanations. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">We find as a fact that the respondent cannot be criticised for not giving &#8220;a costs warning&#8221; or for not seeking a deposit since they would incur more expense but not save any money since they would have no effect on the claimant.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt;color:#010302">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In light of the strict test to be satisfied before a claim for discrimination can be struck out for having no reasonable prospect of success (see </span><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#010302">Anyanwu v South Bank Students Union</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2001/14" uk:canonical="[2001] UKHL 14" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] UKHL 14</ref>), the respondent cannot in our view be criticised for not incurring the expense to pursue that possibility when the chance of success would be limited.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">It is surprising that the Employment Tribunal concluded that the claimant, while acting in person prior to the hearing, should have realised that his claim had no reasonable prospects of success while also concluding it was irrelevant that the professionally represented respondent did not apply for  strike out, which would have required the application of a very similar test, because such an application would have had very limited prospects of success. As set out above, the policy considerations that were referred to in </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Anyanwu</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">, a case to which the Employment Tribunal specifically referred, are also of potential relevance to making an award of costs at the conclusion of a discrimination claim. Strike out can prevent a discrimination complaint &#8220;being examined on the merits or demerits of its particular facts&#8221; but so could fear that an Employment Tribunal may too readily be prepared to award costs in case in which it is difficult to form a clear view of the merits of a discrimination complaint, for which there appears to be some supporting evidence, because the outcome is likely to turn on witness evidence given at the final hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Iyieke</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> HHJ Auerbach warned that when considering whether a litigant should have appreciated that a claim had no reasonable prospects of success it is important to avoid &#8220;being influenced by the hindsight of how the evidence in fact unfolded at trial&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">In this case the Employment Tribunal concluded that there &#8220;was no evidence at all that race played any part in what happened&#8221; which appears to have been a factor in the conclusion that the claimant should have appreciated this all along. The Employment Tribunal contrasted him having asked for a change of time for his interview as opposed to DW who obtained a change of date, and concluded that this could not provide any evidence to support a complaint of discrimination. The fact that the claimant asked for his interview to be moved and it was not,  but another person of a different race asked for an interview to be moved and it was, albeit to another day, was a factor that the claimant could reasonably have thought provided some limited support for his claim. The Employment Tribunal held that the claimant&#8217;s suggestion that the successful candidate was preferred by the respondent meant that race cannot have been a factor as that would have been the case whatever the claimant&#8217;s race.  However, it is not necessary that </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">the claimant&#8217;s race</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> be a reason for the treatment, it is only necessary that </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#010302">race</span><span style="font-family:'Times New Roman';font-size:12pt;color:#010302"> was a factor. It there was a preference for a white candidate that was a matter that the claimant might reasonably have thought supported his complaint of race discrimination, particularly when linked with his assertion that there was a significant under-representation of those from ethnic minorities in the respondent&#8217;s staff (a factor that the claimant raised but the Employment Tribunal  did not refer to). The claimant was also entitled to consider that the delay in dealing with his request for feedback and his grievance might support his claim, notwithstanding the fact that the Employment Tribunal accepted the respondent&#8217;s evidence explaining the delay at the full hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal erred in law in concluding that the claimant should have appreciated from the outset that the claim had no reasonable prospects of success by having no regard to the difficulties facing a claimant in ascertaining the prospects of success in a claim that essentially turned on why the decision not to appoint him was taken.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Nature, gravity and effect of any unreasonable conduct</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">For an award of costs to be made there is no requirement for a precise attribution of the costs to specific unreasonable conduct, however it is necessary to have regard to the nature, gravity and effect of any unreasonable conduct. The main form of unreasonable conduct that the Employment Tribunal relied on was the claimant pursuing a claim that he should have appreciated had no reasonable prospect of success. For the reasons set out above, I have concluded that the Employment Tribunal erred in law in so doing. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt">35.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The Employment Tribunal relied on further unreasonable conduct. The Employment Tribunal did not analyse the nature, gravity and effect of the additional unreasonable conduct. The Employment Tribunal criticised the claimant for expressing his opinions about widespread racism including &#8220;privileged and educated Caucasian professionals including Judges&#8221;. This was described as &#8220;a conspiracy of which there is no single piece of evidence&#8221;. The Employment Tribunal also criticised the claimant for being &#8220;fixed in his views that the only explanation for the things he complained of was racism&#8221; and for being &#8220;combative and argumentative in cross-examination&#8221;. The Employment Tribunal also criticised the claimant for things that he suggested he would do, but had not done, such as having &#8220;threatened to pursue the respondent for costs when the case had to be adjourned because respondent&#8217;s Counsel fell ill&#8221;, &#8220;intimated an application for costs when the hearing was postponed because of the claimant&#8217;s non-availability&#8221; and &#8220;made an application for specific disclosure that, ultimately, was not pursued&#8221;. None of these matters can have had significant effect on the costs incurred in defending the claim. The Employment Tribunal did not consider that fact and analyse the nature, gravity and effect of his conduct. The Employment Tribunal was entitled to see the claimant&#8217;s belief that there is widespread racism as being irrelevant to the case it had to determine, but it was not a reason to award costs against him for expressing that opinion.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in"><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#010302">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:12pt;color:#010302">The appeal is allowed. The Employment Tribunal expressed itself in such trenchant terms that I have decided that the matter should be remitted to a differently constituted Employment Tribunal so that the claimant can be confident that the application for costs will be determined afresh if the respondent decides to pursue it.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

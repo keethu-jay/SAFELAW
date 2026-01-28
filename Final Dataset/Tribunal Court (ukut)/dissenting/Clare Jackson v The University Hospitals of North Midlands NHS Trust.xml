@@ -1,0 +1,575 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/102"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2023/102"/>
+	  <FRBRdate date="2023-07-19" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="102"/>
+	  <FRBRname value="Clare Jackson v The University Hospitals of North Midlands NHS Trust"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/102"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/102"/>
+	  <FRBRdate date="2023-07-19" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2023/102/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2023/102/data.xml"/>
+	  <FRBRdate date="2024-11-09T22:31:08" name="transform"/>
+	  <FRBRdate date="2024-11-22T05:32:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-07-19" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="miss-clare-jackson" href="" showAs="MISS CLARE JACKSON"/>
+	<TLCPerson eId="the-university-hospitals-of-north-midlands-nhs-trust" href="" showAs="THE UNIVERSITY HOSPITALS OF NORTH MIDLANDS NHS TRUST"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2023</uk:year>
+	<uk:number>102</uk:number>
+	<uk:cite>[2023] EAT 102</uk:cite>
+	<uk:parser>0.26.10</uk:parser>
+	<uk:hash>9a2f50a4e6a519690e2f6e13e112596ed7b5b01f5e1c85c2ce6c2049f1998da8</uk:hash>
+	<uk:tna-enrichment-engine>6.0.2</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #800080; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgment approved by the court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"/><span style="font-family:'Times New Roman';font-size:6pt">Miss C Jackson v University Hospitals North Midlands MHS Trust</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2023] EAT 102</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2022-000134-LA</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Rolls Building</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Fetter Lane, London, EC4A 1NL</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2023-07-19" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">19 July 2023</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGE BARRY CLARKE</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#miss-clare-jackson"><span style="font-weight:bold;font-size:12pt">MISS CLARE JACKSON</span></party></p>
+      <p><role refersTo="#appellant"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</span></role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#the-university-hospitals-of-north-midlands-nhs-trust"><span style="font-weight:bold;font-size:12pt">THE</span><span style="font-size:12pt"/><span style="font-weight:bold;font-size:12pt">UNIVERSITY HOSPITALS OF NORTH MIDLANDS NHS TRUST</span></party></p>
+      <p><role refersTo="#respondent"><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</span></role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Ms Georgina Churchhouse </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by the Free Representation Unit) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Ms Helen Gower </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by in-house Legal Services Department) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 24 March 2023</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">CONTRACT OF EMPLOYMENT; REDUNDANCY; UNFAIR DISMISSAL</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The EAT allowed an appeal on the basis that the ET erred in law when deciding whether the respondent subjected the claimant to a dismissal of the sort described in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Hogg v. Dover College</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">, which was relevant to its assessment of whether she was entitled to a contractually enhanced redundancy payment. The EAT remitted that question to a different ET.</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGE BARRY CLARKE:</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I shall refer to the parties as the claimant and the respondent, as they were before the Employment Tribunal (ET).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">2.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">Following a four-day hearing, the ET (Employment Judge Wedderspoon, sitting without non-legal members) upheld the claimant&#8217;s complaint of unfair dismissal and her claim for statutory redundancy pay, but it rejected her complaint of breach of contract. The claimant&#8217;s complaint of breach of contract had two elements: unpaid notice pay (i.e., wrongful dismissal) and unpaid contractual redundancy pay. The claimant now appeals the ET&#8217;s decision in respect of the second of those two elements, concerning her entitlement to contractual redundancy pay. The apparently narrow scope of this appeal sits atop a complex factual matrix concerning the circumstances of the claimant&#8217;s dismissal and the case of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg v. Dover College</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[1988] ICR 39" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">[1988] ICR 39</ref>. I will adopt the expression &#8220;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal&#8221; as shorthand and discuss its meaning later in this judgment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The claimant represented herself before the ET, but has been represented in this appeal by Ms Churchhouse, who was instructed by the Free Representation Unit. The respondent was represented by Ms Gower, who did not appear before the ET. I am grateful to both of them for the clarity and concision of their submissions.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The ET&#8217;s judgment: the facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I start by setting out the facts, insofar as they are relevant to this appeal, as drawn from the ET&#8217;s judgment and with the assistance of both counsel in this appeal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">In 2010, the claimant began work for the respondent as an acute care research nurse in its Research and Development directorate. In 2013, she moved into a specialist role as a senior haematology research nurse. Her contract of employment required her to give four weeks&#8217; notice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">NHS nurses are subject to the so-called &#8220;Agenda for Change&#8221; (AfC) terms and conditions of service. AfC governs grading and pay for certain NHS roles. There are nine pay bands. The ET proceeded on the basis that the AfC terms were incorporated into her contract of employment. The claimant&#8217;s role was graded at band 6.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">In early 2018, following an external review, the respondent decided that it would restructure its Research and Development directorate with a view to achieving savings of about &#163;600,000. The restructuring would lead to the loss of specialist research nurses, and would instead mean a single team of generic nurses covering all disease specialties. It also meant a change to shift patterns. Current band 6 posts would become &#8220;senior research practitioner&#8221; posts and there would be fewer of them. Existing staff would be invited to apply for the reduced number of available band 6 posts and undergo an assessment. If unsuccessful in that assessment, they would be slotted into new band 5 posts as &#8220;research practitioners&#8221;. If that happened, their pay would reduce (after being protected for two years).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The claimant was one of the members of staff affected by the restructuring. She was unsuccessful in her assessment and so did not get one of the new band 6 posts. The respondent informed her of this outcome by letter dated 13 November 2018, an important communication to which I refer on several occasions in this judgment. In that letter, the respondent also informed the claimant that she would be slotted into one of the new band 5 roles with effect from 3 December 2018, some three weeks later. There were new terms and conditions for this role. The claimant refused to sign them. The ET found that the new role was imposed on her.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The respondent&#8217;s decision-makers, all clinicians, did not appreciate that band 6 nurses demoted in this manner should be considered as redundant, given that its requirement for them to carry out specialist research work had diminished; this was, the ET found, a genuine redundancy situation. Those decision-makers were advised in this matter by the respondent&#8217;s HR department. Having heard evidence from those involved in the process, the ET found that the erroneous approach of the HR department was not simply mistaken; it was deliberate, meaning that the claimant had been misled.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The respondent did not offer the claimant a trial period in the band 5 role, to help her decide whether it constituted suitable alternative employment. The claimant contended to the respondent that it should make her redundant on enhanced AfC terms. She told the respondent that, if it refused to make her redundant, she would consider herself to have been unfairly and constructively dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">What were those enhanced AfC terms? AfC provides that, in the event of dismissal of relevant NHS employees by reason of redundancy, their redundancy pay would not follow the statutory formula but instead be calculated on the basis of one month&#8217;s pay for each complete year of reckonable service. In the claimant&#8217;s case, this yielded a figure of &#163;36,644. This was the amount she sought from the ET in damages for breach of contract, subject to the relevant jurisdictional ceiling of &#163;25,000. The AfC definition of redundancy for the purposes of qualifying for the enhancement replicated the statutory definition at <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/139" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 139</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref>. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">It was common ground before the ET that, under section 16.20 of AfC terms, NHS employees would forfeit their redundancy pay if they left employment</span><span style="font-style:italic;font-size:12pt"/><span style="font-size:12pt">&#8220;</span><span style="font-style:italic;font-size:12pt">before expiry of notice</span><span style="font-size:12pt">&#8221;, unless an earlier release had been agreed. This provision was highly pertinent to the case before the ET and is central to this appeal. It was important for the ET to decide whether the claimant&#8217;s employment was ongoing at the point at which her notice had expired. It therefore had to identify when notice was given to her and when it had expired (that is, when her employment had terminated). This was not an easy task, for reasons I shall explain.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I referred above to the letter dated 13 November 2018 by which the respondent told the claimant that she had been unsuccessful in securing a band 6 post and that she would instead be slotted into one of the band 5 posts. The ET decided, at paragraph 35 of its judgment, that &#8220;</span><span style="font-style:italic;font-size:12pt">the only sensible reading of [this letter] was to give notice to the claimant that her existing band 6 role was to end and that she would be taking on a new contract with terms and conditions for the band 5 role on 3 December 2018</span><span style="font-size:12pt">&#8221;. This was a significant finding, as the focus of this appeal has been on whether this was a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The ET found that this letter was not a letter of dismissal, by which I think it meant it was not a letter of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">express</span><span style="font-size:12pt"> dismissal. It noted: &#8220;</span><span style="font-style:italic;font-size:12pt">There was not an intention on the part of the respondent to terminate the employment of the claimant; it wished to continue to employ the claimant having downgraded her (with two years pay protection). The respondent now accepts that this was in repudiatory breach of contract</span><span style="font-size:12pt">&#8221; (paragraph 35). I should add that the respondent did not accept at the time that this was a repudiatory breach; it was a concession it only made before the ET at the hearing. The ET adopted that concession (paragraph 81).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">A repudiation alone does not mean that there has been a constructive dismissal; the repudiation must be accepted by the employee. Although the claimant said that she considered she had been constructively dismissed, she did not resign &#8211; at least not at that point. Instead, she submitted three grievances. Of these, the only one relevant to this appeal is her second grievance. She submitted this on 19</span><span style="vertical-align:super;font-size:12pt"/><span style="font-size:12pt">November 2018 with the assistance of her trade union. As an aside, I should say that the ET did not criticise the claimant for bringing a grievance in an effort to resolve the matter, rather than resigning; it found her to be a straightforward and balanced witness who struggled to understand how the respondent could not see that she should be treated as redundant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The claimant&#8217;s grievance concerned the way the process had been managed. She contended that the band 5 post was not suitable alternative employment &#8211; essentially because it was a generic role that did not require specialist skills &#8211; and she stated again that she should be made redundant. Her grievance also sought to invoke a &#8220;</span><span style="font-style:italic;font-size:12pt">status quo</span><span style="font-size:12pt">&#8221; maintaining the present position until it had been addressed. The ET found that the status quo was maintained (paragraph 39), although this is inconsistent with its other finding that her payslip for December 2018 confirmed that she had indeed been downgraded to the band 5 role (paragraphs 50 and 88). The ET found that the claimant did or said nothing further during the grievance process to suggest that she considered herself constructively dismissed (paragraph 41).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The respondent rejected her grievance. It decided that the band 5 role did constitute suitable alternative employment for the claimant, such that she was not compulsorily redundant. As already noted, the respondent subsequently accepted that the imposition of new terms was a repudiation of her contract of employment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">On 28 December 2018, and in response to the rejection of her grievance, the claimant resigned. She said in her email to the respondent that she considered herself to have been constructively dismissed because of a &#8220;</span><span style="font-style:italic;font-size:12pt">unilateral and major change</span><span style="font-size:12pt">&#8221; to her contract of employment. This was the change implemented by the letter dated 13 November 2018, and which took effect on 3 December 2018. The ET said that, by resigning, the claimant accepted the respondent&#8217;s repudiation (paragraph 51). The claimant&#8217;s resignation did not say when her notice would end, but the ET concluded &#8211; and it recorded that it did so with the respondent&#8217;s agreement &#8211; that she was giving four weeks&#8217; notice. That would take her to 25 January 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The claimant appealed the rejection of her grievance. The respondent gave her a deadline of 4 January 2019 to decide whether she wished to resign or to withdraw her resignation. The claimant asked the respondent to extend its deadline by a week, so that her grievance appeal could be determined; in terms, the respondent agreed to this. Then, on 18 January 2019, the respondent informed her that her grievance appeal had been upheld. The officer hearing her appeal decided that the claimant had, after all, been made redundant from her band 6 role and that the band 5 role into which she was slotted on 3 December 2018 was not a suitable alternative. He decided that, if she withdrew her resignation, she should be served with eight weeks&#8217; notice of the termination of her employment by reason of redundancy and that, in the meantime, the respondent would consider if any alternative roles were available on its internal redeployment register. The ET noted that this decision &#8220;</span><span style="font-style:italic;font-size:12pt">gave the claimant what she had requested</span><span style="font-size:12pt">&#8221; (paragraph 59).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">On 21 January 2019, the claimant withdrew her resignation. That was not, however, the end of the matter. She maintained to the respondent that the effect of the letter from the appeal officer was to trigger eight weeks&#8217; notice from the respondent, but doing so </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">retrospectively</span><span style="font-size:12pt"> from 3 December 2018 (taking her to 28 January 2019). Her analysis was that notice of redundancy had been given to her on the earlier date of 13 November 2018 and that she had been serving notice given to her by the respondent since starting the band 5 role.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">On 25 January 2019, the respondent sent the claimant a letter thanking her for withdrawing her resignation. However, it did not accept her argument about the legal effect of the imposition of the new contract, and instead confirmed that her employment would terminate by reason of redundancy after a period of eight weeks&#8217; notice. This would take her to 22 March 2019. The claimant was unhappy that the respondent saw matters differently to her. She therefore said that her resignation from 28 December 2018 still stood and that she considered herself constructively dismissed, with her employment ending on 28 January 2019. On 30 January 2019, the respondent acknowledged receipt of the claimant&#8217;s resignation with effect from 28 January 2019.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The ET decided that &#8220;</span><span style="font-style:italic;font-size:12pt">the only reasonable interpretation of the offer [made by the appeal officer] was an offer to give 8 weeks&#8217; notice once the claimant had accepted his offer and withdrawn her resignation</span><span style="font-size:12pt">&#8221; (paragraph 61). The ET found that, by accepting this offer, &#8220;</span><span style="font-style:italic;font-size:12pt">the claimant affirmed the contract of employment; it was a clear express and irrevocable affirmation</span><span style="font-size:12pt">&#8221; (paragraph 62). The ET agreed with the respondent that the claimant had not yet been served with notice to terminate her contract of employment (paragraph 64).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The respondent told the claimant that, because she had left before the expiry of her notice, she had forfeited her entitlement to redundancy pay, whether statutory or contractual. The claimant presented a claim to the ET contending that she had been unfairly dismissed and that she was owed redundancy pay and notice pay. Her particulars of complaint included a range of options for when she had been unfairly dismissed, which included a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on 3 December 2018 and an express or a constructive dismissal on alternative dates.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The ET&#8217;s judgment: conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The concluding section of the ET&#8217;s judgment, at paragraphs 80 to 101, is not easy to follow, due in part to changes to font, numbering style and margins. It seems that the respondent conceded before the ET that it unfairly dismissed the claimant, but the basis of that concession is not clear from the face of the judgment. A dismissal can be unfair whether it is an express dismissal or a constructive dismissal. The ET indicated in its judgment that the respondent would have conceded unfairness regardless of whether there was a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on 3 December 2018 or an express dismissal as communicated by the letter sent on 25 January 2019 (paragraphs 70 and 71). It is not clear if the respondent conceded that this was a constructive unfair dismissal; despite acknowledging that it had repudiated the claimant&#8217;s contract by imposing the new band 5 role on her, it appears to have contended that she affirmed the contract by withdrawing her resignation. The ET found that this was indeed an affirmation, but did not analyse whether there was further repudiatory behaviour by the respondent justifying her second decision to resign, an issue on which it heard submissions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The ET did not say in its judgment whether it had rejected the claimant&#8217;s contention that she had been constructively dismissed. At paragraph 98, having repeated her 20 contentions about unfairness, it simply said this: &#8220;</span><span style="font-style:italic;font-size:12pt">The Tribunal deals with these issues proportionately. The respondent accepts that the claimant&#8217;s dismissal was unfair. The Tribunal finds that the dismissal was unfair</span><span style="font-size:12pt">&#8221;. Reading the judgment as a whole, I think that the proper interpretation is that ET concluded that the claimant was expressly and unfairly dismissed on 25 January 2019. The ET found that this dismissal was by reason of redundancy and it awarded her a statutory redundancy payment (paragraph 100).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The ET did analyse the claimant&#8217;s contention that there had been a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on 3 December 2018. It appears to have rejected that contention for four reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">26.1</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">First, because the imposition of the new contract for the band 5 role involved &#8220;</span><span style="font-style:italic;font-size:12pt">no radical change such as to entitle the claimant to regard herself as constructively dismissed</span><span style="font-size:12pt">&#8221; (paragraph 82).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">26.2</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">Second, because &#8220;</span><span style="font-style:italic;font-size:12pt">the role at band 5 with pay protection was generic and not specialist like her old band 6 role but the claimant had skills to do it</span><span style="font-size:12pt">&#8221; (paragraph 82). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">26.3</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">Third, because the claimant &#8220;</span><span style="font-style:italic;font-size:12pt">did not treat it as such and raised a grievance on 19 November</span><span style="font-size:12pt">&#8221;. The claimant&#8217;s action in bringing a grievance rather than resigning was &#8220;</span><span style="font-style:italic;font-size:12pt">inconsistent with her employment ending on 3 December 2018</span><span style="font-size:12pt">&#8221; (paragraphs 82 and 87); and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">26.4</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">Fourth, because &#8220;</span><span style="font-style:italic;font-size:12pt">there was no intention by the respondent to dismiss the claimant</span><span style="font-size:12pt">&#8221; (paragraph 87).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The judgment did not expressly identify an effective date of termination. However, the ET appears to have concluded that the claimant&#8217;s employment ended with her resignation on 25 January 2019. This is because it calculated her compensatory award on the basis that the period of her financial loss commenced on 25 January 2019. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">Having decided that the claimant was entitled to a statutory redundancy payment, how did the ET decide the claimant&#8217;s claim for the contractually enhanced amount? Paragraph 100 of the judgment stated:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">&#8230; the claimant is not entitled to a contractual redundancy payment. A NHS contractual redundancy payment is an enhancement to an employee&#8217;s statutory redundancy entitlement; the statutory payment being offset against any contractual payment. An employee is not entitled to the contractual redundancy payment if an employee leaves before expiry of notice. The claimant was given notice on 25 January 2019 to expire on 22 March 2019. The claimant resigned on 25 January prior to the expiry of her notice. She is therefore not entitled to a contractual redundancy payment. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The ET rejected applications from both parties for the judgment to be reconsidered. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">The &#8220;Hogg dismissal&#8221; doctrine</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The case of </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg v. Dover College</span><span style="font-size:12pt"> and its usual companion, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Alcan Extrusions v. Yates</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[1996] IRLR 327" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] IRLR 327</ref>, are familiar fare to employment lawyers when giving advice about the consequences of an employer&#8217;s decision to restructure its workforce. When an employer has neither sought nor achieved agreement with the affected employees, and when it does not wish to take the so-called &#8220;fire and re-hire&#8221; option, it may consider the risky option of unilaterally imposing a change to terms and conditions of employment. The options available to an employee in response are widely understood to comprise: (1) to resign and claim constructive unfair dismissal, subject to qualifying service and showing that the breach was repudiatory; (2) to waive any repudiatory breach/affirm the contract and agree to work under the new terms; (3) depending on the nature of the change, to refuse to work under the new terms and (in terms) dare the employer to dismiss; (4) to &#8220;stand and sue&#8221; by working under protest but bringing proceedings for breach of contract and/or any shortfall in wages (the classic case being </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Rigby v. Ferodo Ltd</span><span style="font-size:12pt"> 1988 ICR 29 HL); and (5) to work under the new contract but assert dismissal from the old contract, which &#8211; subject again to qualifying service &#8211; can form the basis for a complaint of unfair dismissal. The fifth option is the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt">, decided by the EAT in 1988, the employee worked for the College as a teacher and head of its history department. He became ill and was off sick for two terms. The head of the College considered that his ill health means that his departmental leadership responsibilities were outside his capabilities. Consequently, by letter dated 31 July 1987, the head teacher imposed on Mr Hogg a new contract to start the next academic term. His teaching sessions were cut by half (as was his pay) and his departmental headship passed to a colleague. Mr Hogg continued to work for the College, saying that he considered himself unfairly dismissed from his old contract. He presented a claim to an industrial tribunal. The claim could be looked at it one of two ways: either Mr Hogg had been summarily dismissed by the letter dated 31 July 1987, or he had been constructively dismissed. The tribunal decided it was neither. In respect of the constructive dismissal claim, it decided that Mr Hogg had affirmed the contract and waived the breach. In respect of the express dismissal claim, the tribunal said it knew of no case where an employee had been able to pursue an unfair dismissal claim while remaining in employment, a situation it considered contrary to reality.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">32.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">However, on appeal, </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> became that case. The EAT concluded:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">It seems to us, both as a matter of law and common sense, that [Mr Hogg] was being told that his former contract was from that moment [i.e., 31 July 1987] gone. There was no question of any continued performance of it. It is suggested, on behalf of the employers, that there was a variation, but again, it seems to us quite elementary, that you can vary by consent terms of a contract, but you simply cannot hold a pistol to somebody's head and say: &#8216;henceforth you are to be employed on wholly different terms which are in fact less than 50 per cent, of your previous contract.&#8217; We come unhesitatingly to the conclusion that there was a dismissal on 31 July; the applicant's previous contract having been wholly withdrawn from him.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">It reiterated the point at the end of its judgment:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">At the end of the day, the position seems to us perfectly clear. There was here a dismissal. If we are wrong in our view in that respect, there was clearly a constructive dismissal because the applicant accepted the employers' conduct as repudiatory and cannot, by his subsequent conduct, be said to have affirmed the original contract or any original contract as varied.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The EAT separately addressed the question of whether affirmation in such a case defeated a claim of constructive dismissal, and said this:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">Of course, one asks: affirmation of what? It could only be of a totally different contract. This is not the affirmation of the continuance of the contract where one term has been broken; this is a situation where somebody is either agreeing to be employed on totally new terms or not at all.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">35.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">And also this:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.98in;margin-right:0.39in"><span style="font-weight:bold">The question is not whether the relationship between the parties has ceased; the question is not whether there was any contract between the parties; the question is whether the particular contract under which the employee was employed by the employer at the relevant time was terminated by the employer. That seems to us to encapsulate the principle to be applied here. Was the particular contract under which the employee was employed by the employer at the relevant time terminated by the employer? That of course was a more extreme case because the entire job had gone, but it is a matter of degree; and as was observed in argument, we took the view here that at 31 July, the applicant's job was effectively withdrawn from him and given to somebody else.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">In the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Alcan Extrusions</span><span style="font-size:12pt"> case, the employees &#8211; over 60 of them &#8211; worked a 37-hour week that included starting at 6am (Monday to Saturday) and certain overtime arrangements. The employer wanted to introduce a new pattern of work: continuous rolling shifts, new hours of work, new shift premiums, reduced opportunities for overtime, and a more restrictive approach to annual leave. Having failed to reach agreement with the trade union, the employer imposed the change unilaterally. The employees continued to work, under protest, and brought complaints to an industrial tribunal for unfair dismissal and for redundancy pay. The lead claimant was Mr Yates. The tribunal upheld the claims, applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt">, and the employer appealed to the EAT.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">37.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The employer contended before the EAT that the doctrine in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> should be limited to circumstances where an employer has expressly withdrawn one contract of employment in terms that communicate, in effect, &#8220;you must go&#8221;. Anything less than that, it contended, should be analysed exclusively on the basis of whether an employer has committed a repudiatory breach of contract and whether the employee has affirmed the contract. In the case of a new shift pattern, the original contract remained in existence and so the proper analysis was that, by remaining in employment, the employees had waived the breach. The EAT rejected the employer&#8217;s argument. It held (at paragraphs 23 to 25):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">&#8230; it is only where, on an objective construction of the relevant letters or other conduct on the part of an employer, it is plain that an employer must be taken to be saying, &#8216;Your former contract has, from this moment, gone&#8217; or &#8216;Your former contract is being wholly withdrawn from you&#8217; that there can be a dismissal &#8230; other than, of course, in simple cases of direct termination of the contract of employment by such words as &#8216;You are sacked&#8217; &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">However, in our judgment, it does not follow from that that very substantial departures by an employer from the terms of an existing contract can only qualify as a potential dismissal &#8230; In our judgment, the departure may, in a given case, be so substantial as to amount to the withdrawal of the whole contract. In our judgment, with respect to him, the learned judge in </span><span style="font-style:italic;font-weight:bold">Hogg</span><span style="font-weight:bold"> was quite correct in saying that whether a letter or letters or other conduct of an employer has such an effect is a matter of degree and, we would hold accordingly, a question of fact for the industrial tribunal to decide. We fully accept that in many cases to construe letters or other conduct on the part of an employer which puts forward no more than variations in a contract of employment as amounting to a termination or withdrawal of such a contract would be quite inappropriate and wrong &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">&#8230; whether or not the action of an employer in imposing radically different terms has the effect of withdrawing and thus terminating the original contract must ultimately be a matter of fact and degree for the industrial tribunal to decide, provided always they ask themselves the correct question, namely, was the old contract being withdrawn or removed from the employee?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Bampouras &amp; others v. Edge Hill University</span><span style="font-size:12pt"> (EAT 0179/09), the employer implemented a new pay structure and grading system for university lecturers. It was concerned that its existing pay system was discriminatory on grounds of sex and age. It decided to impose a new pay system before reaching agreement with one of its recognised trade unions. A group of lecturers presented claims to the tribunal, contending that there had been a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal, and three were put forward as lead claimants. The tribunal heard evidence about the impact of the new pay system on them. Strikingly, they appeared mostly to be better off; indeed, agreement was subsequently reached with the trade union that the new pay system would be implemented in substantially the same form. As a matter of fact and degree, the ET found that there had not been a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal. On appeal, the EAT accepted that the ET had done a proper before-and-after comparison, identifying benefits in the new pay system and properly concluding that any negative aspects were insubstantial. The EAT decided that it had been open to the ET to conclude that any changes in terms were not such a wholesale departure from the previous contract of employment as to amount to its withdrawal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">More recently, the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> doctrine was applied by the High Court in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Smith v. Trafford Housing Trust</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2013] IRLR 86" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] IRLR 86</ref>. In that case, the employee was a manager who was disciplined by his employer for certain public posts on social media, with the disciplinary action taking the form of a demotion that involved a 40% cut in his pay and a loss of managerial responsibilities. Mr Smith remained in work but brought a claim for breach of contract. This was heard by the High Court, which upheld Mr Smith&#8217;s claim on the basis that his social media posts did not constitute misconduct. For our purposes, the pertinent point is that the High Court had to consider whether, despite remaining at work, Mr Smith was wrongfully dismissed from his former role. In a reversal of the usual position, Mr Smith argued that he had not been dismissed from his old role while the employer argued that he had been; this approach appears to have been driven by the consequences of how the competing propositions sounded in damages. The High Court held at paragraph 91 of its judgment that Mr Smith </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">had</span><span style="font-size:12pt"> been dismissed, a matter &#8220;</span><span style="font-style:italic;font-size:12pt">conclusively determined by the legally indistinguishable decision</span><span style="font-size:12pt">&#8221; in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt">. The High Court rejected a further attempt to distinguish </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> on the basis that Mr Hogg had considered himself dismissed whereas Mr Smith had not. It held at paragraph 93:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;margin-right:0.39in"><span style="font-weight:bold">Mr Smith accepted that his original contract was at an end, by agreeing to work in a different capacity and for a greatly reduced salary. He thereby entered into a new contract with the trust (as in the Dover College case) in substitution for the original contract, and in sensible mitigation of his loss.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The High Court further rejected the employer&#8217;s contention that Mr Smith had waived the breach by remaining in employment, noting at paragraph 95 that he had &#8220;</span><span style="font-style:italic;font-size:12pt">protested the contractual lawfulness of his demotion at every stage, and his conduct could not reasonably have been regarded as a waiver of his right to damages</span><span style="font-size:12pt">&#8221;. Further, because the demotion was done summarily and without notice, this was a wrongful dismissal. It meant that Mr Smith&#8217;s damages were limited to his period of contractual notice.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">This appeal is about whether the claimant is entitled to a contractual redundancy payment under AfC terms. In appealing the ET&#8217;s judgment, she has adopted its conclusion that this was a redundancy dismissal. There has been no cross-appeal by the respondent in respect of the ET&#8217;s finding that she was unfairly dismissed by reason of redundancy or its finding that she was entitled to a statutory redundancy payment. The only issue in this appeal is whether the ET erred in concluding that the claimant was not subjected to a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on 3 December 2018 when the new band 5 contract was imposed on her. This matters because, if there had been a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on that date, it must follow that she was still an employee when her notice expired; consequently, the provision in the AfC terms by which she forfeited her entitlement to that payment would not apply.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">42.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I intend no disservice to either counsel by summarising their arguments briefly:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">42.1</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">For the claimant, Ms Churchhouse has contended that, having correctly directed itself as to the relevant law, the ET erred by failing to follow it, and in particular by failing to recognise from its own findings of fact that what happened on 3 December 2018, properly analysed, and even while bearing in mind that it is a matter of fact and degree, could only have been a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal. Ms Churchhouse further contended that the ET failed to carry out a proper before-and-after comparison when deciding if the new role was radically different to the old role. In support of her suggestion that the judgment was not </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Meek</span><span style="font-size:12pt">-compliant, she provided a supplementary bundle to the EAT of some of the material that was before the ET, which I have agreed to consider.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">42.2</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.89in"><span style="font-size:12pt">For the respondent, Ms Gower has helpfully agreed on the respondent&#8217;s behalf that, if there was a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on 3 December 2018, the claimant would have been entitled to a redundancy payment calculated in accordance with AfC terms, because she would have been in employment when her notice ended; I am content to proceed on that basis. She has also agreed that the ET correctly directed itself as to the law. She contended that the ET did a proper before-and-after comparison and was entitled to conclude that the new arrangements applying to the claimant from 3 December 2018 were not so different as to amount to the termination of her previous contract of employment. She said that the suggestion the judgment is not </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Meek</span><span style="font-size:12pt">-compliant was really just a perversity challenge. Ms Gower submitted that the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> doctrine captures a narrow and exceptional band of cases where a repudiatory breach can be described as especially serious, and that it was open to the ET to conclude that this was not such a case. Noting that the pay cut in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> was 50% and in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Smith</span><span style="font-size:12pt"> was 40%, Ms Gower volunteered that the pay cut in this case (although the ET made no finding about it) would have been 18% after the expiry of two years of pay protection.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Discussion and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">For the purposes of claiming unfair dismissal, <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/95/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 95(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref> identifies the circumstances in which an employee is taken to have been dismissed. It does so with three limbs: limb (a) is an express dismissal; limb (b) is the expiry and non-renewal of a fixed-term contract; and limb (c) is a constructive dismissal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">A </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal is within limb (a), by which an employee is dismissed if &#8220;</span><span style="font-style:italic;font-size:12pt">the contract under which he is employed is terminated by the employer (whether with or without notice)</span><span style="font-size:12pt">&#8221;. The test in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> simply reflects that statutory provision; as the EAT said in that case, &#8220;</span><span style="font-style:italic;font-size:12pt">the question is whether the particular contract under which the employee was employed by the employer at the relevant time was terminated by the employer</span><span style="font-size:12pt">&#8221;. If the old contract has been terminated and a new contract imposed, there is no mechanism by which an employee can affirm the old contract.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">There will be clear cases where an employer expressly brings one contract to an end and offers to re-engage an employee under a replacement contract, sometimes known as &#8220;fire and re-hire&#8221;. Although also within limb (a), it is not a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal; this is because the contract has been expressly terminated. </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> will usually only come into play where a contract of employment has been varied. A </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal will occur where the purported variation of a contract, done unilaterally, is such as to amount, in reality, to a termination of one contract and its replacement by another.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">Whether variation constitutes termination is a matter of fact and degree. I reject the submission by Ms Gower that the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> doctrine only operates where a repudiatory breach is somehow more serious than a &#8220;normal&#8221; repudiatory breach. I do not think it is helpful to seek to categorise repudiatory behaviour by an employer in this way. It blurs the distinction between an express dismissal and a constructive dismissal that the EAT in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> was keen to draw by rejecting the language of affirmation. The EAT in both </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Alcan Extrusions</span><span style="font-size:12pt"> adopted various expressions that act as helpful guides to whether variation constitutes termination, such as &#8220;radically different terms&#8221;, &#8220;wholly different terms&#8221; and &#8220;totally new terms&#8221;, but they are not a proxy for the simple question, as articulated in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> and based on the statutory wording, that a tribunal must answer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I have been persuaded by Ms Churchhouse that, in this case, the ET did not properly apply the law to which it directed itself and that, as a result, it erred in law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">As I noted above, the ET gave four reasons for deciding that this was not a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal (or, as it put it at paragraph 82, for why &#8220;</span><span style="font-style:italic;font-size:12pt">it did meet the threshold of &#8216;radically different terms of employment&#8217;</span><span style="font-size:12pt">&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The first reason was that the imposition of the new contract for the band 5 role involved &#8220;</span><span style="font-style:italic;font-size:12pt">no radical change such as to entitle the claimant to regard herself as constructively dismissed</span><span style="font-size:12pt">&#8221; (paragraph 82). This was not quite the test to apply. The ET was dealing with an alleged </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal within limb (a), not a constructive dismissal within limb (c), and the role played by affirmation illustrates the dangers of conflating them. In applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt">, the ET had to consider whether the claimant&#8217;s contract of employment had been terminated and replaced by another. It had already decided on the facts that there was a new contract in place: at paragraph 35 of its judgment, it had found that &#8220;</span><span style="font-style:italic;font-size:12pt">the only sensible reading</span><span style="font-size:12pt">&#8221; of the letter dated 13 November 2018 was &#8220;</span><span style="font-style:italic;font-size:12pt">to give notice to the claimant that her existing band 6 role was to end and that she would be taking on a new contract with terms and conditions for the band 5 role on 3 December 2018</span><span style="font-size:12pt">&#8221;. In any event, its reasoning was inconsistent with the respondent&#8217;s concession, which the ET expressly adopted at paragraph 81 of the judgment, that this </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">was</span><span style="font-size:12pt"> a repudiatory breach of contract.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The second reason was that &#8220;</span><span style="font-style:italic;font-size:12pt">the role at band 5 with pay protection was generic and not specialist like her old band 6 role but the claimant had skills to do it</span><span style="font-size:12pt">&#8221;. This, also, was not the test to apply. No doubt Mr Hogg, Mr Yates and Mr Smith were each capable of doing the varied versions of their jobs.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The third reason was that the claimant did not treat it as a dismissal but raised a grievance, such action being &#8220;</span><span style="font-style:italic;font-size:12pt">inconsistent with her employment ending on 3 December 2018</span><span style="font-size:12pt">&#8221;. This was irrelevant. Mr Hogg, Mr Yates and Mr Smith all remained in employment. The question was not whether employment in the broader sense had ended, but whether the old contract had been brought to an end. In any case, it was clear from the facts as found by the ET that &#8211; just as in Mr Smith&#8217;s case &#8211; the claimant objected on multiple occasions to the manner of her treatment and that, notwithstanding that she remained in work, she continued arguing that the imposition of the new contract constituted a dismissal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The fourth reason was that &#8220;</span><span style="font-style:italic;font-size:12pt">there was no intention by the respondent to dismiss the claimant</span><span style="font-size:12pt">&#8221; (paragraph 87). In a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> scenario, there will be no such intention almost by definition; an employer who purports to vary a contract is most unlikely to desire dismissal. In any case, intention is irrelevant. What matters, as it mattered in the cases of Mr Hogg, Mr Yates and Mr Smith, was the consequence of the variation unilaterally imposed by the employer.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I am therefore satisfied that the ET&#8217;s analysis was flawed. The appeal succeeds on that basis alone.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I have also been persuaded by Ms Churchhouse that the ET&#8217;s judgment on the </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal point was inadequately reasoned and therefore not </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Meek</span><span style="font-size:12pt">-compliant. The ET needed to do a proper before-and-after comparison of the band 6 post and the band 5 post to ascertain whether the new terms were of sufficient difference to amount to a withdrawal of one contract and its replacement by another. There appears to have been documentary evidence before the ET from which it might have concluded the following: (a) that the old contract included overtime at time-and-a-half, whereas the new contract had no reference to overtime; (b) that the old contract allowed for an allowance for working unsocial hours, whereas the new contract stated specifically there would be no such allowance; and (c) under her old contract, the claimant had worked 08.30 to 16.30 Monday to Friday, whereas the new contract provided for contracted hours to be worked between 08.00 and 20.00 Monday to Friday. There were no findings about the pay differential (although Ms Gower referred to a figure of 18% once pay protection expired) or the hours the claimant would actually work under the new contract. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">Ms Churchhouse contended that I had sufficient information before me to substitute a different decision for that reached by the ET: that there was indeed a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on 3 December 2018. It is true that the EAT has the power to overturn a tribunal&#8217;s decision and substitute one of its own, but it should not do so as a matter of course. It should remit a case unless it concludes that, without the error, the result would have been different and the EAT can determine what it would have been. The fact that the EAT may be in as good a position as an ET to decide the matter itself is not sufficient to justify it doing so. If more than one outcome is possible, it must be left to the ET to decide what that outcome should be.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">I have given this issue careful consideration. On the one hand, the ET found that the proper meaning of the respondent&#8217;s letter dated 13 November 2018 was to give notice to the claimant that her band 6 role was to end and that she would be employed under new terms and conditions for the band 5 role with effect from 3 December 2018. On its own findings, this was not a variation of an existing contract but the withdrawal of one and the imposition of another. The respondent conceded that its actions were repudiatory. Applying </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt">, the claimant could not affirm a contract that had ended. On the other hand, I must be wary of making factual assumptions of my own. The ET is the fact-finding body and is best placed to carry out the before-and-after comparison exercise on issues such as pay, status, hours and benefits. Having said that the judgment was not </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Meek</span><span style="font-size:12pt">-compliant, I should be wary of filling the gaps myself when I have not heard any evidence. Although with some hesitation, I have decided not to substitute a finding that this was a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal but instead to remit the point to the ET to carry out the appropriate factual analysis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">To be clear, the remission does not reopen the question of whether the dismissal was fair or unfair (it was unfair) or whether the claimant was dismissed by reason of redundancy (she was); it only concerns the claimant&#8217;s entitlement to a contractually enhanced redundancy payment. The parties have agreed that, if there was a </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Hogg</span><span style="font-size:12pt"> dismissal on 3 December 2018, the claimant is entitled to the enhanced sum, subject to the jurisdictional cap of &#163;25,000. The parties must also have regard to <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/123/7" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 123(7)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">The final question for me to consider is whether the matter should be considered by the same ET or a differently constituted ET, having regard to the guidance in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Sinclair Roche &amp; Temperley v. Heard</span><span style="font-size:12pt"> <ref href="#" uk:canonical="[2004] IRLR 763" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] IRLR 763</ref>. While not wishing to impugn the professionalism of the judge, I think the matter should be remitted to a different ET. It would be a tall order to expect the judge to put her previous view of the matter completely out of her mind and come to it afresh.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-size:12pt;margin-left:0.49in;text-indent:-0.5in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.49in"><span style="font-size:12pt">While it is a matter for the Regional Employment Judge, it may be appropriate to list a preliminary hearing for case management purposes so that directions can be given on the limited scope of the documentary evidence the ET needs to see at the remitted hearing; indeed, it may be that no oral evidence is needed at all. The parties may also wish to take advantage of the conciliation services of Acas to see whether they can reach agreement.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

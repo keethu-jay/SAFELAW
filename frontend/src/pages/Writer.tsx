@@ -1,4 +1,5 @@
 import { useMemo, useState, useEffect, useCallback } from 'react';
+// import { useState, useEffect, useCallback } from 'react';
 import { Box, Button, Chip, Divider, Paper, Stack, Typography, CircularProgress } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
@@ -8,8 +9,11 @@ type CourtLevel = 'supreme' | 'tribunal';
 type Suggestion = {
     title: string;
     similarity: number;
+    rawSimilarity: number;
     citation: string;
     judgment: JudgmentType;
+    previousParagraph: string;
+    nextParagraph: string;
 };
 
 type SimilarityLegendItem = {
@@ -44,9 +48,11 @@ const Writer = () => {
     const [courtLevel, setCourtLevel] = useState<CourtLevel>('supreme');
     const [suggestions, setSuggestions] = useState<Suggestion[]>([]);
     const [isLoading, setIsLoading] = useState(false);
+    const [rawScoresText, setRawScoresText] = useState<string>('');
 
     const fetchSuggestions = useCallback(async (queryOverride?: string) => {
         setIsLoading(true);
+        setRawScoresText('');
         try {
             const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
             const queryToSend = queryOverride !== undefined ? queryOverride : draftText;
@@ -64,18 +70,40 @@ const Writer = () => {
             if (response.ok) {
                 const data = await response.json();
                 // Map backend response (Document objects) to frontend Suggestion type
-                const mappedSuggestions: Suggestion[] = data.map((item: any) => ({
-                    title: item.target_sentence.text,
-                    similarity: item.similarity ? Math.round(item.similarity * 100) : 0,
-                    citation: item.target_sentence.doc_id,
-                    judgment: (item.target_sentence.decision?.toLowerCase() || 'majority') as JudgmentType,
-                }));
+                // const mappedSuggestions: Suggestion[] = data.map((item: any) => ({
+                //     title: item.target_sentence.text,
+                //     similarity: item.similarity ? Math.round(item.similarity * 100) : 0,
+                //     citation: item.target_sentence.doc_id,
+                //     judgment: (item.target_sentence.decision?.toLowerCase() || 'majority') as JudgmentType,
+                const mappedSuggestions: Suggestion[] = (data || []).map((item: any) => {
+                    const similarityValue = typeof item.similarity === 'number' ? item.similarity : 0;
+                    // If backend sends percent already (>1), normalize for raw display.
+                    const rawSimilarity = similarityValue > 1 ? similarityValue / 100 : similarityValue;
+                    const similarityPercent = similarityValue > 1 ? Math.round(similarityValue) : Math.round(similarityValue * 100);
+                    return {
+                        title: item.target_sentence?.text ?? '',
+                        similarity: similarityPercent,
+                        rawSimilarity,
+                        citation: item.target_sentence?.doc_id ?? '',
+                        judgment: (item.target_sentence?.decision?.toLowerCase() || 'majority') as JudgmentType,
+                        previousParagraph: item.previous_sentence?.text ?? '',
+                        nextParagraph: item.next_sentence?.text ?? '',
+                    };
+                });
                 setSuggestions(mappedSuggestions);
+                const raw = mappedSuggestions.map((s) => s.rawSimilarity.toFixed(4)).join(', ');
+                setRawScoresText(raw || '(none)');
             } else {
                 console.error(`API Error: ${response.status} ${response.statusText}`);
+                const err = await response.text();
+                console.error(`API Error: ${response.status} ${response.statusText}`, err);
+                setSuggestions([]);
+                setRawScoresText(`Error: ${response.status}`);
             }
         } catch (error) {
             console.error('Error fetching suggestions:', error);
+            setSuggestions([]);
+            setRawScoresText('Error: fetch failed');
         } finally {
             setIsLoading(false);
         }
@@ -84,6 +112,7 @@ const Writer = () => {
     useEffect(() => {
         fetchSuggestions();
     }, [courtLevel]); // Auto-fetch when court level changes
+    // }, []); // Baseline: no auto-refetch on court change (toggle commented out)
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
         if (e.key === 'Tab') {
@@ -91,13 +120,20 @@ const Writer = () => {
             const textarea = e.currentTarget;
             const cursorPosition = textarea.selectionStart;
             const textBeforeCursor = draftText.substring(0, cursorPosition);
-            fetchSuggestions(textBeforeCursor);
+            // fetchSuggestions(textBeforeCursor);
+            // Use last 100 characters (stored in variable)
+            // const last1000 = draftText.length > 1000 ? draftText.slice(-1000) : draftText;
+            // fetchSuggestions(last1000);
+            const last100 = draftText.length > 100 ? draftText.slice(-100) : draftText;
+            fetchSuggestions(last100);
         }
     };
 
     const filteredSuggestions = useMemo(() => {
         return judgmentFilter === 'all' ? suggestions : suggestions.filter((item) => item.judgment === judgmentFilter);
     }, [suggestions, judgmentFilter]);
+    // Baseline: judgment filter commented out; always show all suggestions
+    // const filteredSuggestions = suggestions;
 
     const handleInsert = (suggestion: Suggestion) => {
         setDraftText((current) => `${current.trim()}\n\n${suggestion.title} (${suggestion.citation})`);
@@ -153,7 +189,8 @@ const Writer = () => {
                                 </Typography>
                             </div>
                             <div style={{ display: 'flex', gap: '0.4rem', background: 'rgba(255,255,255,0.08)', borderRadius: '999px', padding: '0.2rem' }}>
-                                {(['supreme', 'tribunal'] as CourtLevel[]).map((level) => (
+                                {/* Baseline: Supreme/Tribunal toggle commented out for testing */}
+                                {/* {(['supreme', 'tribunal'] as CourtLevel[]).map((level) => (
                                     <button
                                         key={level}
                                         type="button"
@@ -173,7 +210,7 @@ const Writer = () => {
                                     >
                                         {level}
                                     </button>
-                                ))}
+                                ))} */}
                             </div>
                         </div>
                     </div>
@@ -394,6 +431,29 @@ const Writer = () => {
                     </div>
                 </div>
                 <Divider style={{ margin: '1.5rem 0', borderColor: 'var(--color-text-inactive)' }} />
+                <div style={{ marginBottom: '1rem' }}>
+                    <Typography variant="caption" style={{ textTransform: 'uppercase', letterSpacing: '0.2em', color: 'var(--color-text-inactive)', display: 'block', marginBottom: '0.5rem' }}>
+                        Raw semantic scores (predictions)
+                    </Typography>
+                    <Box
+                        component="textarea"
+                        readOnly
+                        value={rawScoresText}
+                        style={{
+                            width: '100%',
+                            minHeight: '4rem',
+                            resize: 'vertical',
+                            borderRadius: '0.75rem',
+                            background: 'rgba(0,0,0,0.2)',
+                            padding: '0.75rem',
+                            fontSize: '0.85rem',
+                            fontFamily: 'monospace',
+                            color: 'var(--color-text-light)',
+                            border: '1px solid rgba(255,255,255,0.1)',
+                        }}
+                    />
+                </div>
+                <Divider style={{ margin: '1rem 0', borderColor: 'var(--color-text-inactive)' }} />
                 <div style={{ maxHeight: '28rem', overflowY: 'auto', paddingRight: '0.5rem' }}>
                     {isLoading && (
                         <Box sx={{ display: 'flex', justifyContent: 'center', padding: '2rem' }}>
@@ -401,7 +461,7 @@ const Writer = () => {
                         </Box>
                     )}
                     <Stack spacing={3}>
-                        {!isLoading && filteredSuggestions.map((suggestion) => (
+                        {/* {!isLoading && filteredSuggestions.map((suggestion) => (
                             <Box
                                 key={suggestion.title}
                                 style={{ borderRadius: '1rem', border: '1px solid var(--color-accent-secondary)', background: 'rgba(255,255,255,0.05)', padding: '1.25rem', fontSize: '1rem', color: 'var(--color-text-light)' }}
@@ -458,13 +518,102 @@ const Writer = () => {
                                         className={`similarity-pill ${getSimilarityClass(suggestion.similarity)}`}
                                     />
                                 </Stack>
-                            </Box>
+                            </Box> */}
+                        {!isLoading && filteredSuggestions.map((suggestion, idx) => (
+                            <SuggestionCard key={`${suggestion.citation}-${idx}-${suggestion.rawSimilarity}`} suggestion={suggestion} onInsert={handleInsert} />
                         ))}
                     </Stack>
                 </div>
             </Paper>
         </div>
     </div>
+    );
+};
+
+const SuggestionCard = ({ suggestion, onInsert }: { suggestion: Suggestion; onInsert: (s: Suggestion) => void }) => {
+    const [hovered, setHovered] = useState(false);
+    
+    return (
+        <Box
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+            style={{ borderRadius: '1rem', border: '1px solid var(--color-accent-secondary)', background: 'rgba(255,255,255,0.05)', padding: '1.25rem', fontSize: '1rem', color: 'var(--color-text-light)' }}
+        >
+            <Typography style={{ color: 'var(--color-text-light)', fontFamily: 'var(--font-role-body)', fontSize: '1.1rem' }}>{suggestion.title}</Typography>
+            {hovered && (
+                <>
+                    {suggestion.citation && (
+                        <Box style={{ marginTop: '0.75rem', paddingTop: '0.75rem', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+                            <Typography variant="caption" style={{ textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--color-text-inactive)' }}>Citation</Typography>
+                            <Typography style={{ fontSize: '0.95rem', color: 'var(--color-text-inactive)', marginTop: '0.25rem' }}>{suggestion.citation}</Typography>
+                        </Box>
+                    )}
+                    {suggestion.previousParagraph && (
+                        <Box style={{ marginTop: '0.5rem' }}>
+                            <Typography variant="caption" style={{ textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--color-text-inactive)' }}>Previous paragraph</Typography>
+                            <Typography style={{ fontSize: '0.95rem', color: 'var(--color-text-inactive)', marginTop: '0.25rem' }}>{suggestion.previousParagraph}</Typography>
+                        </Box>
+                    )}
+                    {suggestion.nextParagraph && (
+                        <Box style={{ marginTop: '0.5rem' }}>
+                            <Typography variant="caption" style={{ textTransform: 'uppercase', letterSpacing: '0.15em', color: 'var(--color-text-inactive)' }}>Next paragraph</Typography>
+                            <Typography style={{ fontSize: '0.95rem', color: 'var(--color-text-inactive)', marginTop: '0.25rem' }}>{suggestion.nextParagraph}</Typography>
+                        </Box>
+                    )}
+                </>
+            )}
+            <Stack
+                direction="row"
+                alignItems="center"
+                justifyContent="space-between"
+                style={{ marginTop: '1rem', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.2em', color: 'var(--color-text-inactive)' }}
+            >
+                <Stack direction="row" spacing={1.5}>
+                    <Button
+                        variant="text"
+                        style={{
+                            color: 'var(--color-accent-secondary)',
+                            fontWeight: 300,
+                            letterSpacing: '0.15em',
+                            textTransform: 'uppercase',
+                            padding: '0.45em 1.2em',
+                            fontFamily: 'var(--font-family-base)',
+                            borderRadius: '999px',
+                            transition: 'all 0.2s',
+                            position: 'relative',
+                            background: 'none',
+                            border: 'none',
+                        }}
+                    >
+                        Source
+                    </Button>
+                    <Button
+                        variant="text"
+                        style={{
+                            color: 'var(--color-accent-secondary)',
+                            fontWeight: 300,
+                            letterSpacing: '0.15em',
+                            textTransform: 'uppercase',
+                            padding: '0.45em 1.2em',
+                            fontFamily: 'var(--font-family-base)',
+                            borderRadius: '999px',
+                            transition: 'all 0.2s',
+                            position: 'relative',
+                            background: 'none',
+                            border: 'none',
+                        }}
+                        onClick={() => onInsert(suggestion)}
+                    >
+                        Insert
+                    </Button>
+                </Stack>
+                <Chip
+                    label={`Similarity ${suggestion.similarity}%`}
+                    size="small"
+                    className={`similarity-pill ${getSimilarityClass(suggestion.similarity)}`}
+                />
+            </Stack>
+        </Box>
     );
 };
 

@@ -17,6 +17,9 @@ load_dotenv(dotenv_path=env_path)
 # Add parent directory to path to import gptsm_lite
 sys.path.append(str(Path(__file__).parent.parent))
 from src.gptsm_lite import summarize_text
+from src.retriever import SentenceRetriever
+from src.stores import SupabaseSentenceStore
+from src.embedding_helper import EmbeddingModel
 
 # --- CONFIGURATION ---
 SUPABASE_URL = os.getenv("SUPABASE_URL")
@@ -30,6 +33,15 @@ if not OPENAI_API_KEY:
     raise ValueError("OPENAI_API_KEY environment variable must be set")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+# Initialize Retrieval Components
+# Using OPENAI_API_KEY as fallback if VOYAGE_API_KEY is not set, assuming the EmbeddingModel can handle it or user configures it.
+# Original:
+# embedding_model = EmbeddingModel(model_name="voyage/voyage-3-large", api_key=os.getenv("VOYAGE_API_KEY", OPENAI_API_KEY))
+# Updated: EmbeddingModel uses Isaacus; wire ISAACUS_API_KEY and canonical model name.
+embedding_model = EmbeddingModel(model_name="kanon-2-embedder", api_key=os.getenv("ISAACUS_API_KEY"))
+sentence_store = SupabaseSentenceStore(supabase)
+retriever = SentenceRetriever(embedding_model, sentence_store)
 
 app = FastAPI()
 
@@ -53,6 +65,45 @@ class SummarizeResponse(BaseModel):
     processing_time: float
     original_length: int
     summarized_length: int
+
+class RetrieveRequest(BaseModel):
+    query: str
+    court: str | None = None
+
+# --- ENDPOINT: RETRIEVAL ---
+@app.post("/api/retrieve")
+async def retrieve_suggestions(request: RetrieveRequest):
+    """
+    Retrieve similar sentences/paragraphs based on semantic score.
+    """
+    try:
+        # Query the retriever for top 10 results
+        results = await retriever.query(request.query, n_results=10)
+        
+        # Format response for Writer.tsx
+        formatted_results = []
+        for item in results:
+            target = item['target_sentence']
+            # Attempt to get similarity from retriever response; fallback to target attribute if present.
+            # Original:
+            # similarity = getattr(target, 'similarity', 0)
+            similarity = item.get("similarity", getattr(target, 'similarity', 0))
+            
+            formatted_results.append({
+                "target_sentence": {
+                    "text": target.text,
+                    "doc_id": target.doc_id,
+                    "decision": "majority" # Defaulting as decision might not be in Document model
+                },
+                "similarity": similarity,
+                "previous_sentence": {"text": item['previous_sentence'].text} if item['previous_sentence'] else None,
+                "next_sentence": {"text": item['next_sentence'].text} if item['next_sentence'] else None
+            })
+            
+        return formatted_results
+    except Exception as e:
+        print(f"Retrieval error: {e}")
+        raise HTTPException(status_code=500, detail=f"Retrieval failed: {str(e)}")
 
 # --- ENDPOINT: TEXT HIGHLIGHT SUMMARIZATION ---
 @app.post("/api/summarize-highlight", response_model=SummarizeResponse)

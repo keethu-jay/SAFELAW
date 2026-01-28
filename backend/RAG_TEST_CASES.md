@@ -1,0 +1,455 @@
+# RAG Baseline Test Cases
+
+Use these paragraphs in the Writer text box, then press **Tab** (last 1000 chars are sent). Check the **raw semantic scores** box and record the scores for each test paragraph and its prev/next.
+
+All source files are from `data/raw_xml` and are **not** in the Final Dataset (used for baseline testing only).
+
+---
+
+## Upper Tribunal / EAT — Concurring
+
+**File:** `AM v Greater Manchester Mental Health NHS Foundation Trust  Anor.xml`  
+**Opinion Type:** concurring  
+
+### Test Case 1: Beginning Paragraph
+
+**Test paragraph to paste:**
+
+```
+Upper Tribunal Case No: UA-2024-001142-HM[2024] UKUT 438 (AAC)AM v Greater Manchester Mental Health NHS Foundation Trust and Secretary of State for Justice
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+Decided following an oral hearing on 5 December 2024
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 2: Middle Paragraph
+
+**Test paragraph to paste:**
+
+```
+95.
+	    
+	      We also note the severity of the offence and the likely impact that this had on the victim and the child who witnessed the attack. We further note that the assault only stopped when a bystander came to the rescue and kicked her to the ground. One inference from this is that without such an intervention the assault may well have continued.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+The following paragraphs dealing with proportionality are also relevant. They come from the tribunal’s consideration of the substantive application:
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+We also note the severity of the offence and the likely impact that this had on the victim and the child who witnessed the attack. We further note that the assault only stopped when a bystander came to the rescue and kicked her to the ground. One inference from this is that without such an intervention the assault may well have continued.
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 3: End Paragraph
+
+**Test paragraph to paste:**
+
+```
+I agree with Mr Stark that the cases the tribunal relied were on were not directly applicable. I do, though, consider that, regardless of the legal position under Article 8, the tribunal was entitled to take into account the nature and extent to which the boundaries of the exclusion zone were imposing a restriction on AM’s ability in practice to take up an offer of work. That was a relevant consideration when considering whether to vary her conditions on discharge.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+35.
+	  
+	    I agree with Mr Stark that the cases the tribunal relied were on were not directly applicable. I do, though, consider that, regardless of the legal position under Article 8, the tribunal was entitled to take into account the nature and extent to which the boundaries of the exclusion zone were imposing a restriction on AM’s ability in practice to take up an offer of work. That was a relevant consideration when considering whether to vary her conditions on discharge. 
+	    
+	      
+		
+		  Authorised for issue on 23 December 2024
+		
+		
+		  Edward JacobsUpper Tribunal Judge
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+---
+
+## Upper Tribunal / EAT — Dissenting
+
+**File:** `A Chauhan v University of Leicester.xml`  
+**Opinion Type:** dissenting  
+
+### Test Case 1: Beginning Paragraph
+
+**Test paragraph to paste:**
+
+```
+Judgment approved by the courtChauhan v University of Leicester
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+MR C ECHENDU (Minority Advice Bureau Ltd) forthe Appellant
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 2: Middle Paragraph
+
+**Test paragraph to paste:**
+
+```
+14.
+	  
+	    Then there are some reasons and then in bold type: “The claimant should be aware his claim is at risk of being struck out.  He should therefore act without delay if it is to continue”.  That was sent out on 13th January 2021 and is headed in block capital letters: “UNLESS ORDER”.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+Of course, his order was deficient in that it required compliance by 18th January 2020 instead of what was obviously intended, 18th January 2021.  The matter therefore came back in front of EJ Adkinson on 13th January 2021 and he made an order which is at pages 68 and 69 of the core bundle.  He recited various matters including, after considering the claimant’s application of 12th January 2021, to extend time for compliance with the unless order of Regional Employment Judge Swann made on 23rd December 2020, and so on.  He ordered: “Unless by 22 January 2021 the claimant sends to the Tribunal and the respondent further and better particulars of his claim, then the claim will be struck out without further order”.
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+Then there are some reasons and then in bold type: “The claimant should be aware his claim is at risk of being struck out.  He should therefore act without delay if it is to continue”.  That was sent out on 13th January 2021 and is headed in block capital letters: “UNLESS ORDER”.
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 3: End Paragraph
+
+**Test paragraph to paste:**
+
+```
+32.
+	  
+	    So regrettably, the appeal is dismissed.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+I may have decided things differently from Judge Adkinson on 19th July 2021.  I may have tried to adopt the approach which I sometimes think may work in this kind of case, of simply listing a case for a final hearing.  However, it does not matter what I would have done or what I think in that respect.  The decision was one for the Employment Judge who has the incredibly difficult job of case-managing cases like this and then resolving these difficult disputes and I am quite clear that the judge approached the matter carefully and conscientiously and there is no error of law whatever in his approach.
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+---
+
+## Upper Tribunal / EAT — Majority
+
+**File:** `18 Langdale Road RTM Company Limited v Assethold Limited.xml`  
+**Opinion Type:** majority  
+
+### Test Case 1: Beginning Paragraph
+
+**Test paragraph to paste:**
+
+```
+UT Neutral citation number: [2022] UKUT 215 (LC)     UTLC Case Number: LC-2022-75
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+LANDLORD AND TENANT – RIGHT TO MANAGE – validity of claim notice – failure to include one paragraph of the notes to the prescribed form – importance of that paragraph within the statutory scheme – appeal allowed
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 2: Middle Paragraph
+
+**Test paragraph to paste:**
+
+```
+6.
+	    
+	      I have set out those requirements in full although most are not in issue in this appeal, in order to show what the statute expressly requires. The information is designed to demonstrate to the landlord (or other recipient of the notice) that the RTM company is properly constituted, to indicate who is participating, and to tell the landlord what it has to do if it wants to serve a counter-notice.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+And it must comply with such requirements (if any) about the form of claim notices as may be prescribed by regulations so made.”
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+I have set out those requirements in full although most are not in issue in this appeal, in order to show what the statute expressly requires. The information is designed to demonstrate to the landlord (or other recipient of the notice) that the RTM company is properly constituted, to indicate who is participating, and to tell the landlord what it has to do if it wants to serve a counter-notice.
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 3: End Paragraph
+
+**Test paragraph to paste:**
+
+```
+Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.  The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal’s decision on costs is sent to the parties).  An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.  If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+Accordingly the decision of the FTT is set aside and the Tribunal substitutes its own decision that the claim notice was valid and that the appellant acquired the right to manage on the relevant date.
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+---
+
+## UK Supreme Court — Concurring
+
+**File:** `A M Mohamud in substitution for Mr A Mohamud deceased v WM Morrison Supermarkets plc.xml`  
+**Opinion Type:** concurring  
+
+### Test Case 1: Beginning Paragraph
+
+**Test paragraph to paste:**
+
+```
+Mr A M Mohamud (in substitution for Mr A Mohamud (deceased)) (Appellant) vWM Morrison Supermarkets plc (Respondent)
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+LORD TOULSON: (with whom Lord Neuberger, Lady Hale, Lord Dyson and Lord Reed agree)
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 2: Middle Paragraph
+
+**Test paragraph to paste:**
+
+```
+I agree that it was tortuous and artificial to describe the barmaid’s conduct as a mode of performing what she was employed to do, but that does not make the result just. In a broader sense it occurred in the course of her employment. She was employed by the hotel proprietor to serve customers. She was approached in that capacity by a customer, and ordinary members of the public would surely expect the company who employed her to serve customers to have some responsibility for her conduct towards them. And it surely cannot be right that the measure of the company’s responsibility should depend on whether she was the head barmaid or an assistant. The customer would have no knowledge what were the exact limits of her responsibilities.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+30.
+	  
+	    I agree that it was tortuous and artificial to describe the barmaid’s conduct as a mode of performing what she was employed to do, but that does not make the result just. In a broader sense it occurred in the course of her employment. She was employed by the hotel proprietor to serve customers. She was approached in that capacity by a customer, and ordinary members of the public would surely expect the company who employed her to serve customers to have some responsibility for her conduct towards them. And it surely cannot be right that the measure of the company’s responsibility should depend on whether she was the head barmaid or an assistant. The customer would have no knowledge what were the exact limits of her responsibilities.
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+31.
+	  
+	    In Warren v Henlys Ltd[1948] 2 All ER 935 a customer at a petrol station had an angry confrontation with the petrol station attendant, who wrongly suspected him of trying to make off without payment. The customer became enraged at the manner in which he was spoken to by the attendant. After paying for the petrol, the customer saw a passing police car and drove off after it. He complained to the police officer about the attendant’s conduct and persuaded the officer to return with him to the petrol station. The officer listened to both men and indicated that he did not think that it was a police matter, whereupon the customer said that he would report the attendant to his employer. The officer was on the point of leaving, when the attendant punched the customer in the face, knocking him to the ground.
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 3: End Paragraph
+
+**Test paragraph to paste:**
+
+```
+For these reasons as well as those given by Lord Toulson, I would allow this appeal.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+58.
+	  
+	    For these reasons as well as those given by Lord Toulson, I would allow this appeal.
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+---
+
+## UK Supreme Court — Dissenting
+
+**File:** `A and B v Criminal Injuries Compensation Authority and another.xml`  
+**Opinion Type:** dissenting  
+
+### Test Case 1: Beginning Paragraph
+
+**Test paragraph to paste:**
+
+```
+A and B (Appellants) vCriminal Injuries Compensation Authority and another (Respondents)
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+(Instructed by Freshfields Bruckhaus Deringer LLP (London))
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 2: Middle Paragraph
+
+**Test paragraph to paste:**
+
+```
+42.
+	  
+	    In that case the ECtHR gave a broad meaning to “any other status” in article 14. In particular, it rejected (at para 56) earlier notions that “any other status” must relate to innate or inherent characteristics:
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+“Article 14 does not prohibit all differences in treatment but only those differences based on an identifiable, objective or personal characteristic, or ‘status’, by which persons or groups of persons are distinguishable from one another (see Kjeldsen Busk Madsen and Pedersen, …, para 56; Berezovskiy v Ukraine (dec), no 70908/01, 15 June 2004; and Carson, …, paras 61 and 70). Article 14 lists specific grounds which constitute ‘status’ including, inter alia, sex, race and property. However, the list set out in article 14 is illustrative and not exhaustive, as is shown by the words ‘any ground such as’ (in French ‘notamment’) (see Engel, …, para 72; and Carson, …, para 70) and the inclusion in the list of the phrase ‘any other status’ (in French ‘toute autre situation’).”
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+In that case the ECtHR gave a broad meaning to “any other status” in article 14. In particular, it rejected (at para 56) earlier notions that “any other status” must relate to innate or inherent characteristics:
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 3: End Paragraph
+
+**Test paragraph to paste:**
+
+```
+93.
+	  
+	    For these reasons, I would dismiss this appeal.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+I consider, therefore, that the difference in treatment on grounds of other status resulting from Annex D is justified. The measure has the legitimate objective of limiting eligibility to compensation to those deserving of it. Furthermore, the measure satisfies the requirement of proportionality. It is rationally connected to the objective. The measure is no more intrusive than it requires to be and it strikes a fair balance between the competing interests. Wilkie J and the Court of Appeal were clearly correct in concluding that it cannot be regarded as manifestly without reasonable foundation.
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+---
+
+## UK Supreme Court — Majority
+
+**File:** `56 Westbourne Terrace RTM Company Limited v Jeremy Polturak  Ors.xml`  
+**Opinion Type:** majority  
+
+### Test Case 1: Beginning Paragraph
+
+**Test paragraph to paste:**
+
+```
+APPEAL AGAINST A DECISION OF THE FIRST-TIER TRIBUNAL PROPERTY CHAMBER
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+LANDLORD AND TENANT – VARIATION OF LEASES – power to introduce a new administration charge to enable RTM company to recover costs of service charge proceedings from defaulting leaseholder – power to vary leases to allow costs of proceedings to be recovered through service charge – prejudice – material considerations – ss. 35, 38, Landlord and Tenant Act 1987 – appeal allowed
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 2: Middle Paragraph
+
+**Test paragraph to paste:**
+
+```
+The textbook writers and websites do not mention any relevant reported decision under Part IV between the commencement of the 1987 Act and the transfer of jurisdiction to tribunals in 2003.  Thereafter, the earliest appellate consideration of section 35 of which I am aware was by the Lands Tribunal (George Bartlett QC, President) in Gianfrancesco v Haughton (2008) LRX/10/2007 (unreported).  The unconventional lease of a flat on the two upper floors of a converted house required the leaseholder to maintain the exterior of the flat including the roof and to contribute half of the cost of repairs to the lower flat undertaken by the landlord, but it contained no mechanism to enable the leaseholder to collect a contribution towards the repairs she was obliged to carry out.  She applied for a variation to make the landlord responsible for all works subject to the leaseholder paying half the cost; other variations she proposed would have incorporated into the lease express rights of access which the Tribunal considered were already to be implied.  The FTT described the existing arrangements as “satisfactory and workable” and refused the proposed variations.  The Lands Tribunal dismissed the leaseholder’s appeal.  The President made the following observation at [21]:
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+60.
+	    
+	      The textbook writers and websites do not mention any relevant reported decision under Part IV between the commencement of the 1987 Act and the transfer of jurisdiction to tribunals in 2003.  Thereafter, the earliest appellate consideration of section 35 of which I am aware was by the Lands Tribunal (George Bartlett QC, President) in Gianfrancesco v Haughton (2008) LRX/10/2007 (unreported).  The unconventional lease of a flat on the two upper floors of a converted house required the leaseholder to maintain the exterior of the flat including the roof and to contribute half of the cost of repairs to the lower flat undertaken by the landlord, but it contained no mechanism to enable the leaseholder to collect a contribution towards the repairs she was obliged to carry out.  She applied for a variation to make the landlord responsible for all works subject to the leaseholder paying half the cost; other variations she proposed would have incorporated into the lease express rights of access which the Tribunal considered were already to be implied.  The FTT described the existing arrangements as “satisfactory and workable” and refused the proposed variations.  The Lands Tribunal dismissed the leaseholder’s appeal.  The President made the following observation at [21]:
+	      
+		  
+		    
+		      “Whether the lease fails to make satisfactory provision is one for the tribunal to judge in all the circumstances of the case. A lease does not fail to make satisfactory provision, in my judgment, simply because it could have been better or more explicitly drafted. For instance the need to imply a term is not necessarily, or even probably, an indication that the lease fails to make satisfactory provision for the matter in question.”
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+**Next paragraph:**
+
+```
+“Whether the lease fails to make satisfactory provision is one for the tribunal to judge in all the circumstances of the case. A lease does not fail to make satisfactory provision, in my judgment, simply because it could have been better or more explicitly drafted. For instance the need to imply a term is not necessarily, or even probably, an indication that the lease fails to make satisfactory provision for the matter in question.”
+```
+**Next paragraph semantic score:** `[fill after testing]`
+
+---
+
+### Test Case 3: End Paragraph
+
+**Test paragraph to paste:**
+
+```
+Any party has a right of appeal to the Court of Appeal on any point of law arising from this decision.  The right of appeal may be exercised only with permission. An application for permission to appeal to the Court of Appeal must be sent or delivered to the Tribunal so that it is received within 1 month after the date on which this decision is sent to the parties (unless an application for costs is made within 14 days of the decision being sent to the parties, in which case an application for permission to appeal must be made within 1 month of the date on which the Tribunal’s decision on costs is sent to the parties).  An application for permission to appeal must identify the decision of the Tribunal to which it relates, identify the alleged error or errors of law in the decision, and state the result the party making the application is seeking.  If the Tribunal refuses permission to appeal a further application may then be made to the Court of Appeal for permission.
+```
+**Semantic score (predictions):** Run RAG (Tab) and record the raw similarity value from the right-pane box.  
+**Expected semantic score:** `[fill after testing]`
+
+**Previous paragraph:**
+
+```
+For these reasons the appeal is allowed and I will make an order varying the leases of all leaseholders in the manner specified at [148] above.  I will also make an order under section 20C, as indicated at [146] above.  I invite the parties to agree and submit an appropriate form of order.
+```
+**Previous paragraph semantic score:** `[fill after testing]`
+
+---
+

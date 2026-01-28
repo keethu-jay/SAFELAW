@@ -14,12 +14,8 @@ from pydantic import BaseModel
 import uvicorn
 import os
 
-from corpus_studio_initialization import (
-    Document,
-    EmbeddingModel,
-    SentenceStore,
-    SupabaseSentenceStore,
-)
+from src.embedding_helper import EmbeddingModel
+from src.stores import SentenceStore, SupabaseSentenceStore
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -46,11 +42,25 @@ class SentenceRetriever:
         embedded_query = await asyncio.to_thread(self.embedding_model.embed, computed_query)
 
         # Get target documents from search
-        targets = await asyncio.to_thread(self.sentence_store.search, embedded_query, **kwargs)
+        # Original:
+        # targets = await asyncio.to_thread(self.sentence_store.search, embedded_query, **kwargs)
+        # Use a lower default match threshold to avoid empty results when similarity is modest.
+        match_threshold = kwargs.pop("match_threshold", 0.2)
+        targets = await asyncio.to_thread(self.sentence_store.search, embedded_query, match_threshold=match_threshold, **kwargs)
+
+        # Preserve similarity from search results before fetching offset sentences.
+        # Original code below fetched offsets without preserving similarity.
+        # similarity_by_id = {doc.id: (doc.similarity or 0.0) for doc in targets}
+        similarity_by_id = {doc.id: (doc.similarity or 0.0) for doc in targets}
 
         # Use asyncio.gather to execute get_offset concurrently
+        # Original:
+        # target_sentences = await asyncio.gather(*[
+        #     asyncio.to_thread(self.sentence_store.get_offset, doc.id, offset)
+        #     for doc in targets
+        # ])
         target_sentences = await asyncio.gather(*[
-            asyncio.to_thread(self.sentence_store.get_offset, doc.id, offset) 
+            asyncio.to_thread(self.sentence_store.get_offset, doc.id, offset)
             for doc in targets
         ])
 
@@ -64,11 +74,22 @@ class SentenceRetriever:
         ])
 
         # Combine results
+        # Include similarity in API response for Writer semantic scores.
+        # Original:
+        # res = [
+        #     {
+        #         "target_sentence": target_sentence,
+        #         "next_sentence": next_sentence,
+        #         "previous_sentence": prev_sentence,
+        #     }
+        #     for target_sentence, (next_sentence, prev_sentence) in zip(target_sentences, results)
+        # ]
         res = [
             {
                 "target_sentence": target_sentence,
                 "next_sentence": next_sentence,
                 "previous_sentence": prev_sentence,
+                "similarity": similarity_by_id.get(target_sentence.id, 0.0),
             }
             for target_sentence, (next_sentence, prev_sentence) in zip(target_sentences, results)
         ]

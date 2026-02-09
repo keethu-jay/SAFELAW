@@ -25,11 +25,18 @@ if env_path.exists():
                 key, value = line.split("=", 1)
                 os.environ[key] = value.strip()
 
-# Configuration (resolve relative to repo root, not CWD)
-BASE_DIR = Path(__file__).resolve().parents[2]
-INPUT_DIR = BASE_DIR / "data" / "raw_xml"
-OUTPUT_JSON = BASE_DIR / "backend" / "RAG_TEST_CASES.json"
-OUTPUT_MD = BASE_DIR / "backend" / "RAG_TEST_CASES.md"
+# Configuration
+SCRIPT_DIR = Path(__file__).resolve().parent
+# Try to locate data directory relative to script
+# Check backend/data/raw_xml
+INPUT_DIR = SCRIPT_DIR.parent / "data" / "raw_xml"
+if not INPUT_DIR.exists():
+    # Fallback: Check project_root/data/raw_xml
+    INPUT_DIR = SCRIPT_DIR.parent.parent / "data" / "raw_xml"
+
+OUTPUT_JSON = SCRIPT_DIR.parent / "RAG_TEST_CASES.json"
+OUTPUT_MD = SCRIPT_DIR.parent / "RAG_TEST_CASES.md"
+
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None

@@ -44,8 +44,9 @@ class SentenceRetriever:
         # Get target documents from search
         # Original:
         # targets = await asyncio.to_thread(self.sentence_store.search, embedded_query, **kwargs)
-        # Use a lower default match threshold to avoid empty results when similarity is modest.
-        match_threshold = kwargs.pop("match_threshold", 0.2)
+        # Use 0.0 to show all results regardless of similarity (mini corpus testing).
+        # Change back to 0.2 to filter out low-similarity results when using full corpus.
+        match_threshold = kwargs.pop("match_threshold", 0.0)
         targets = await asyncio.to_thread(self.sentence_store.search, embedded_query, match_threshold=match_threshold, **kwargs)
 
         # Preserve similarity from search results before fetching offset sentences.
@@ -75,23 +76,16 @@ class SentenceRetriever:
 
         # Combine results
         # Include similarity in API response for Writer semantic scores.
-        # Original:
-        # res = [
-        #     {
-        #         "target_sentence": target_sentence,
-        #         "next_sentence": next_sentence,
-        #         "previous_sentence": prev_sentence,
-        #     }
-        #     for target_sentence, (next_sentence, prev_sentence) in zip(target_sentences, results)
-        # ]
+        # Use targets[i].id (matched doc id) not target_sentence.id - when offset != 0,
+        # target_sentence is the context doc; similarity belongs to the match.
         res = [
             {
                 "target_sentence": target_sentence,
                 "next_sentence": next_sentence,
                 "previous_sentence": prev_sentence,
-                "similarity": similarity_by_id.get(target_sentence.id, 0.0),
+                "similarity": similarity_by_id.get(targets[i].id, 0.0),
             }
-            for target_sentence, (next_sentence, prev_sentence) in zip(target_sentences, results)
+            for i, (target_sentence, (next_sentence, prev_sentence)) in enumerate(zip(target_sentences, results))
         ]
 
         return res

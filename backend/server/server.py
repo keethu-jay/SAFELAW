@@ -10,9 +10,9 @@ from datetime import datetime, timezone
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-# Look for .env in the backend directory
-env_path = Path(__file__).parent.parent / '.env'
-load_dotenv(dotenv_path=env_path)
+# Look for .env in the backend directory; override=True so .env wins over shell
+env_path = Path(__file__).resolve().parent.parent / '.env'
+load_dotenv(dotenv_path=env_path, override=True)
 
 # Add parent directory to path to import gptsm_lite
 sys.path.append(str(Path(__file__).parent.parent))
@@ -40,7 +40,17 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 # embedding_model = EmbeddingModel(model_name="voyage/voyage-3-large", api_key=os.getenv("VOYAGE_API_KEY", OPENAI_API_KEY))
 # Updated: EmbeddingModel uses Isaacus; wire ISAACUS_API_KEY and canonical model name.
 embedding_model = EmbeddingModel(model_name="kanon-2-embedder", api_key=os.getenv("ISAACUS_API_KEY"))
-sentence_store = SupabaseSentenceStore(supabase)
+# Read RAG_CORPUS: prefer .env file (IDE run configs may override os.getenv)
+rag_corpus = ""
+if env_path.exists():
+    with open(env_path, encoding="utf-8") as f:
+        for line in f:
+            if line.strip().startswith("RAG_CORPUS="):
+                rag_corpus = line.split("=", 1)[1].strip().strip('"').strip("'").lower()
+                break
+rag_corpus = rag_corpus or os.getenv("RAG_CORPUS", "main").strip().lower() or "main"
+print(f"[RAG] env_path={env_path}, exists={env_path.exists()}, RAG_CORPUS={rag_corpus!r}")
+sentence_store = SupabaseSentenceStore(supabase, corpus=rag_corpus)
 retriever = SentenceRetriever(embedding_model, sentence_store)
 
 app = FastAPI()
@@ -70,6 +80,19 @@ class RetrieveRequest(BaseModel):
     query: str
     court: str | None = None
 
+def _safe_float(val):
+    """Convert to JSON-serializable float (replace NaN/Inf with 0.0)."""
+    if val is None:
+        return 0.0
+    try:
+        f = float(val)
+        if f != f or f == float('inf') or f == float('-inf'):  # NaN or Inf
+            return 0.0
+        return f
+    except (TypeError, ValueError):
+        return 0.0
+
+
 # --- ENDPOINT: RETRIEVAL ---
 @app.post("/api/retrieve")
 async def retrieve_suggestions(request: RetrieveRequest):
@@ -84,10 +107,8 @@ async def retrieve_suggestions(request: RetrieveRequest):
         formatted_results = []
         for item in results:
             target = item['target_sentence']
-            # Attempt to get similarity from retriever response; fallback to target attribute if present.
-            # Original:
-            # similarity = getattr(target, 'similarity', 0)
             similarity = item.get("similarity", getattr(target, 'similarity', 0))
+            similarity = _safe_float(similarity)
             
             formatted_results.append({
                 "target_sentence": {

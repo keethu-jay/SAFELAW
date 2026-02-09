@@ -89,20 +89,55 @@ class SentenceStore(ABC):
         )
 
 
+# RAG corpus: main | mini_paragraphs | mini_sentences (which data)
+# RAG_MATCH_FN: cosine | knn (which RPC - cosine uses <=>, knn uses <#>)
+RAG_CORPUS_RPC = {
+    "main": "match_corpus_documents",
+    "mini_paragraphs": "match_corpus_mini_paragraphs",
+    "mini_sentences": "match_corpus_mini_sentences",
+}
+RAG_CORPUS_RPC_KNN = {
+    "main": "match_corpus_documents",
+    "mini_paragraphs": "match_corpus_mini_paragraphs_knn",
+    "mini_sentences": "match_corpus_mini_sentences_knn",
+}
+RAG_CORPUS_TABLE = {
+    "main": "corpus_documents",
+    "mini_paragraphs": "corpus_documents_mini_paragraphs",
+    "mini_sentences": "corpus_documents_mini_sentences",
+}
+
+
 class SupabaseSentenceStore(SentenceStore):
     """
     A class that stores and retrieves sentences from a Supabase database.
-    Works with the corpus_documents table for legal judgment storage.
+    Works with corpus_documents by default; can switch to mini tables via RAG_CORPUS env.
     """
 
-    def __init__(self, supabase) -> None:
+    def __init__(self, supabase, corpus: str | None = None) -> None:
         """
         Initialize the Supabase sentence store.
         
         Args:
             supabase: A Supabase client instance
+            corpus: Override corpus source: main | mini_paragraphs | mini_sentences.
+                    If None, uses RAG_CORPUS env var (default: main).
         """
+        import os
         self.supabase = supabase
+        raw = (corpus or os.environ.get("RAG_CORPUS", "main")).strip().lower()
+        # Accept legacy combined values: mini_paragraphs_knn -> mini_paragraphs + knn
+        use_knn_override = False
+        if raw == "mini_paragraphs_knn":
+            raw, use_knn_override = "mini_paragraphs", True
+        elif raw == "mini_sentences_knn":
+            raw, use_knn_override = "mini_sentences", True
+        self._corpus = raw if raw in RAG_CORPUS_TABLE else "main"
+        use_knn = use_knn_override or (os.environ.get("RAG_MATCH_FN", "cosine") or "cosine").strip().lower() == "knn"
+        rpc_map = RAG_CORPUS_RPC_KNN if use_knn else RAG_CORPUS_RPC
+        self._rpc = rpc_map.get(self._corpus, RAG_CORPUS_RPC[self._corpus])
+        self._table = RAG_CORPUS_TABLE[self._corpus]
+        logger.info(f"RAG corpus: {self._corpus} (table={self._table}, rpc={self._rpc})")
 
     def search(self, embedding_vector: List[float], **kwargs) -> List[Document]:
         """
@@ -119,10 +154,8 @@ class SupabaseSentenceStore(SentenceStore):
         match_threshold = kwargs.get("match_threshold", 0.9)
 
         try:
-            # Changed from match_documents to match_corpus_documents RPC function
-            # to target the corpus_documents table specifically
             results = self.supabase.rpc(
-                "match_corpus_documents",
+                self._rpc,
                 {
                     "query_embedding": embedding_vector,
                     "similarity_threshold": match_threshold,
@@ -147,8 +180,7 @@ class SupabaseSentenceStore(SentenceStore):
             Document: The document at the offset, or EmptyDocument if not found
         """
         try:
-            # Changed table name from Document to corpus_documents
-            res = self.supabase.table("corpus_documents").select("*").eq("id", id).execute()
+            res = self.supabase.table(self._table).select("*").eq("id", id).execute()
 
             if len(res.data) == 0:
                 return EmptyDocument()
@@ -161,7 +193,7 @@ class SupabaseSentenceStore(SentenceStore):
 
             # Query for the document with the new sentence index
             res = (
-                self.supabase.table("corpus_documents")
+                self.supabase.table(self._table)
                 .select("*")
                 .eq("doc_id", res.data[0]["doc_id"])
                 .eq("section_title", res.data[0]["section_title"])

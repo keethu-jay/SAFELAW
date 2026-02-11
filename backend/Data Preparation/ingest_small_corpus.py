@@ -3,7 +3,7 @@
 Ingest Small Corpus (5 papers) into Supabase mini tables for specialized testing.
 
 Reads docx files from backend/Small Corpus/:
-  - *_paragraphs.docx: paragraph-level chunks
+  - *_paragraphs_reviewed.docx preferred, else *_paragraphs.docx: paragraph-level chunks
   - *_sentences.docx: sentence-level chunks
 
 Inserts into:
@@ -145,7 +145,16 @@ def main():
     BATCH_SIZE = 20
 
     # ---- Ingest paragraphs ----
-    para_files = sorted(SMALL_CORPUS_DIR.glob("*_paragraphs.docx"))
+    # Prefer *_paragraphs_reviewed.docx when present (reviewed = better paragraph size/content)
+    para_files = []
+    for stem in DOC_ID_MAP:
+        reviewed = SMALL_CORPUS_DIR / f"{stem}_paragraphs_reviewed.docx"
+        original = SMALL_CORPUS_DIR / f"{stem}_paragraphs.docx"
+        if reviewed.exists():
+            para_files.append(reviewed)
+        elif original.exists():
+            para_files.append(original)
+    para_files = sorted(para_files)
     print(f"\nIngesting {len(para_files)} paragraph files into corpus_documents_mini_paragraphs...")
 
     # Clear existing (optional - comment out to append)
@@ -157,7 +166,7 @@ def main():
 
     global_idx = 0
     for path in para_files:
-        stem = path.stem.replace("_paragraphs", "")
+        stem = path.stem.replace("_paragraphs_reviewed", "").replace("_paragraphs", "")
         doc_id = stem_to_doc_id(stem)
         chunks = extract_paragraphs_from_docx(path)
         chunks = [c for c in chunks if len(c) >= 10]

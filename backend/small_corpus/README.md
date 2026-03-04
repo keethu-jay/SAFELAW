@@ -24,7 +24,7 @@ Or use `python scripts/run_full_pipeline.py` from the backend directory.
 
 ## SQL
 
-Run these in order in the Supabase SQL Editor. Run `supabase_mini_corpus_schema.sql` first, then the migrations.
+Run these in order in the Supabase SQL Editor. **All SQL is also in [SUPABASE_SQL.md](../../SUPABASE_SQL.md)** at the project root. Run the schema first, then the migrations.
 
 ### 1. Schema (`supabase_mini_corpus_schema.sql`)
 

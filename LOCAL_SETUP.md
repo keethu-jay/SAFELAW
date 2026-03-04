@@ -1,6 +1,6 @@
 # Running SafeLaw on Your Own Machine
 
-If you've just cloned the repo or downloaded the zip from GitHub, here's everything you need to get it running on your machine.
+If you've just cloned the repo or downloaded the zip from GitHub, here's everything you need to get it running on your machine. For a walkthrough of the directory structure, see [STRUCTURE.md](STRUCTURE.md).
 
 ---
 
@@ -15,39 +15,16 @@ If you've just cloned the repo or downloaded the zip from GitHub, here's everyth
 
 ## 1. Database Setup (Supabase)
 
-You'll need a Supabase project (free tier is fine). Go to [supabase.com](https://supabase.com), create one, then head to the SQL Editor and run these in order.
+You'll need a Supabase project (free tier is fine). Go to [supabase.com](https://supabase.com), create one, then head to the SQL Editor.
 
-### Tables for the app (required)
+**All required SQL is in [SUPABASE_SQL.md](SUPABASE_SQL.md).** Run sections 1–4 in order:
 
-**text_highlights** – stores highlighted text and summaries from the Reader:
+1. **App tables** – text_highlights, profiles (Reader, auth)
+2. **Corpus schema** – mini paragraphs, sentences, KNN match functions
+3. **Classification migration** – classification columns, indiv_class table
+4. **Context migration** – context_tag, case_summary tables (for sentence comparison v2–v4)
 
-```sql
-CREATE TABLE IF NOT EXISTS text_highlights (
-    id BIGSERIAL PRIMARY KEY,
-    user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
-    original_text TEXT,
-    highlighted_text TEXT NOT NULL,
-    summarization TEXT,
-    sent_at TIMESTAMPTZ DEFAULT NOW(),
-    summarized_at TIMESTAMPTZ
-);
-
-CREATE INDEX IF NOT EXISTS idx_text_highlights_user_id ON text_highlights(user_id);
-```
-
-**profiles** – user profiles (created on first login if missing):
-
-```sql
-CREATE TABLE IF NOT EXISTS profiles (
-    id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
-    full_name TEXT,
-    role TEXT DEFAULT 'Legal User'
-);
-```
-
-### Tables for RAG retrieval (optional)
-
-If you want the Writer's "get suggestions" feature to work, you need the corpus tables. The full SQL is in `backend/small_corpus/README.md` – run the Schema, Classification Migration, and Context Migration sections in order. You'll also need to run the ingestion scripts to populate the data (details are in that README).
+After running the SQL, populate the corpus tables by running the ingestion scripts (see `backend/small_corpus/README.md`).
 
 ---
 
@@ -78,21 +55,28 @@ pip install -r requirements.txt
 
 ### Create `backend/.env`
 
-Create a file `backend/.env` with:
+Create a file `backend/.env` with (replace placeholders with your values):
 
 ```
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_KEY=your-service-role-key
-OPENAI_API_KEY=sk-your-openai-key
+# Required
+SUPABASE_URL=https://YOUR_PROJECT_ID.supabase.co
+SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+OPENAI_API_KEY=sk-proj-...
 ISAACUS_API_KEY=your-isaacus-key
+
+# Optional – corpus for RAG retrieval (default: main)
+# RAG_CORPUS=mini_paragraphs
+# RAG_CORPUS=mini_sentences
+# RAG_CORPUS=main
 ```
 
-- **SUPABASE_URL**: Project URL from Supabase Dashboard → Settings → API
-- **SUPABASE_KEY**: Use the **service role key** (not anon) for the backend
-- **OPENAI_API_KEY**: From [platform.openai.com](https://platform.openai.com) – used for summarization
-- **ISAACUS_API_KEY**: From Isaacus – used for embeddings. If you don’t have it, retrieval won’t work but the app will still start
+| Variable | Where to get it |
+|----------|-----------------|
+| **SUPABASE_URL** | Supabase Dashboard → Settings → API → Project URL |
+| **SUPABASE_KEY** | Supabase Dashboard → Settings → API → **service role key** (not anon) |
+| **OPENAI_API_KEY** | [platform.openai.com](https://platform.openai.com) – used for summarization |
+| **ISAACUS_API_KEY** | Isaacus – used for embeddings. Without it, retrieval fails but the app starts |
 
-Optional: `RAG_CORPUS=mini_paragraphs` or `main` to switch corpus. Default is `main`.
 
 ---
 
@@ -107,17 +91,19 @@ npm install
 
 ### Create `frontend/.env`
 
-Create `frontend/.env` with:
+Create `frontend/.env` with (replace placeholders with your values):
 
 ```
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key
+VITE_SUPABASE_URL=https://YOUR_PROJECT_ID.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 VITE_API_URL=http://localhost:8000
 ```
 
-- **VITE_SUPABASE_URL**: Same as backend
-- **VITE_SUPABASE_ANON_KEY**: The **anon/public** key (not service role) – safe for the browser
-- **VITE_API_URL**: Backend URL. `http://localhost:8000` is fine for local dev.
+| Variable | Where to get it |
+|----------|-----------------|
+| **VITE_SUPABASE_URL** | Same as backend SUPABASE_URL |
+| **VITE_SUPABASE_ANON_KEY** | Supabase Dashboard → Settings → API → **anon/public** key (not service role) |
+| **VITE_API_URL** | Backend URL; `http://localhost:8000` for local dev |
 
 ---
 
@@ -177,4 +163,71 @@ Add it to `backend/.env` and restart the backend.
 You need the corpus tables and data. See `backend/small_corpus/README.md`. You also need `ISAACUS_API_KEY` set.
 
 **Port 8000 already in use**  
-Change the port in `server/server.py` (last line) or stop whatever’s using 8000.
+Change the port in `server/server.py` (last line) or stop whatever's using 8000.
+
+---
+
+## Adding Your Own Vector Database (e.g. Weaviate)
+
+The retrieval layer uses a **store abstraction** (`SentenceStore` in `backend/src/stores.py`). You can plug in Weaviate, Pinecone, Qdrant, or any other vector DB by implementing this interface.
+
+### 1. Implement the `SentenceStore` interface
+
+Create a new class that subclasses `SentenceStore` and implements:
+
+| Method | Purpose |
+|--------|---------|
+| `search(embedding_vector, n_results=10, match_threshold=0.0)` | Return a list of `Document` objects (id, doc_id, text, section_title, section_number, sentence_index, global_index, court, decision, similarity) ordered by similarity |
+| `get_offset(id, offset)` | Return the `Document` at `sentence_index + offset` within the same doc_id/section_title, or `EmptyDocument()` if not found |
+
+The `Document` model has: `id`, `doc_id`, `text`, `section_title`, `section_number`, `sentence_index`, `global_index`, `court`, `decision`, `similarity`.
+
+### 2. Example: Weaviate store
+
+Create `backend/src/weaviate_store.py`:
+
+```python
+from weaviate import Client
+from src.stores import SentenceStore, Document, EmptyDocument
+
+class WeaviateSentenceStore(SentenceStore):
+    def __init__(self, client: Client, collection: str = "CorpusDocument"):
+        self.client = client
+        self.collection = collection
+
+    def search(self, embedding_vector, n_results=10, match_threshold=0.0, **kwargs):
+        result = self.client.query.get(self.collection, ["doc_id", "text", "section_title", ...]) \
+            .with_near_vector({"vector": embedding_vector}) \
+            .with_limit(n_results) \
+            .do()
+        return [Document(id=r["id"], doc_id=r["doc_id"], ..., similarity=r["_additional"]["distance"]) for r in result["data"]["Get"][self.collection]]
+
+    def get_offset(self, id: int, offset: int):
+        # Fetch doc by id, then query for doc_id + section_title + (sentence_index + offset)
+        ...
+```
+
+### 3. Wire it in the server
+
+In `backend/server/server.py`, replace the Supabase store with your store:
+
+```python
+# Instead of:
+from src.stores import SupabaseSentenceStore
+sentence_store = SupabaseSentenceStore(supabase, corpus=rag_corpus)
+
+# Use:
+from src.weaviate_store import WeaviateSentenceStore
+from weaviate import Client
+weaviate_client = Client(os.getenv("WEAVIATE_URL"))
+sentence_store = WeaviateSentenceStore(weaviate_client)
+```
+
+### 4. Add env vars and ingestion
+
+- Add your DB URL/API key to `backend/.env` (e.g. `WEAVIATE_URL`, `WEAVIATE_API_KEY`).
+- You'll need an ingestion script to populate your DB from the classified corpus (paragraphs/sentences with embeddings). The existing ingestion scripts write to Supabase; adapt them or write a new one that inserts into Weaviate.
+
+### 5. Embedding dimension
+
+Embeddings use **1792 dimensions** (kanon-2-embedder). Configure your vector DB schema to match.

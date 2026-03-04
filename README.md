@@ -61,6 +61,8 @@ So it’s usually transient (cold start, timeout, race) rather than a bug in ord
 
 ## Repository Layout
 
+See **[STRUCTURE.md](STRUCTURE.md)** for a full directory walkthrough.
+
 - `frontend/` – Vite + React client, Tailwind + Material UI
 - `backend/` – data prep, server, scripts
 - `References/` – CorpusStudios, GP-TSM docs

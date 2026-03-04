@@ -1,73 +1,88 @@
-# React + TypeScript + Vite
+# SafeLaw Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview of the frontend app: structure, tech stack, theme, layout, and auth.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What's in the Frontend
 
-## React Compiler
+- **Pages**: Home, Login, Writer, Reader, Profile
+- **Layout**: Shared header + footer wrapping all routes; main content area uses React Router `Outlet`
+- **Auth**: Supabase email/password; `AuthContext` exposes `user`, `login`, `logout` to the app
+- **Data**: Supabase client (`supabaseClient.ts`) for auth and backend API calls
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+| Technology | Purpose |
+|------------|---------|
+| **React 19** | UI components and state |
+| **TypeScript** | Typed JS for components and logic |
+| **Vite** | Dev server, HMR, production build |
+| **React Router DOM** | Client-side routing |
+| **Tailwind CSS** | Utility classes for spacing, layout, responsive |
+| **Material UI (MUI)** | Components (Box, CircularProgress, etc.), icons |
+| **Emotion** | CSS-in-JS used by MUI |
+| **Supabase** | Auth (email/password) and backend API client |
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Style Libraries
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Tailwind CSS** – Utility-first CSS for layout, margins, padding, responsive breakpoints
+- **Material UI** – Layout primitives (Box, Paper), form controls, icons (`@mui/icons-material`)
+- **styleguide.css** – Design tokens: colors, fonts, similarity pills, button styles
+- **index.css** – Base styles, font imports (Lexend, Merriweather, Open Sans), Tailwind directives
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Theme and Layout
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Theme
+
+- **Background**: Deep blue-black (`#091325`) for main UI; warm off-white (`#F5F2EF`) for editor/text areas
+- **Text**: Light gray (`#C5D2DE`) on dark; dark gray (`#333333`) on light
+- **Accents**: Teal (`#008C99`) primary, copper (`#C4623C`) secondary; WCAG AA compliant
+- **Font**: Lexend for headings and body; Merriweather/Open Sans for specific content
+- **Similarity pills**: Color-coded (red → orange → yellow → green) for relevance scores
+
+### Layout
+
+- **Header**: Logo, nav (Workspace when logged in, Login when not), profile icon
+- **Main**: Full-width content area with padding; `Outlet` renders the active route
+- **Footer**: Copyright
+- **Structure**: `Layout` wraps all routes; `min-height: 100vh`, flex column, sticky header/footer
+
+---
+
+## Pages (5)
+
+| Route | Page | Description |
+|-------|------|-------------|
+| `/` | Home | Landing: hero, Writing Tool / Reader links |
+| `/login` | Login | Email/password form; redirects to Profile on success |
+| `/writer` | Writer | Drafting workspace with RAG suggestions |
+| `/reader` | Reader | Structured reading mode for case text |
+| `/profile` | Profile | User profile (post-login destination) |
+
+---
+
+## Auth
+
+- **Provider**: Supabase Auth (email + password)
+- **Client**: `@supabase/supabase-js`; env vars `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`
+- **Context**: `AuthContext` wraps the app; `useAuth()` returns `user`, `loading`, `login`, `logout`
+- **Session**: `supabase.auth.getSession()` on load; `onAuthStateChange` keeps state in sync
+- **UI**: Header shows Workspace + profile icon when logged in; Login link when not
+
+---
+
+## Scripts
+
+```bash
+npm run dev      # Start dev server (Vite)
+npm run build    # TypeScript check + production build
+npm run lint     # ESLint
+npm run preview  # Preview production build
 ```

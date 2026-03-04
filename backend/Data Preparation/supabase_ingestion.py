@@ -54,6 +54,7 @@ class ParsedParagraph:
     level_heading: Optional[str] = None
 
 
+# PARSING: XML TO PARAGRAPHS
 def extract_text_from_element(element: ET.Element) -> str:
     """
     Recursively extract all text from an XML element and its children.
@@ -140,6 +141,7 @@ def get_court_type(court_folder: str) -> str:
     return COURT_TYPE_MAPPING.get(court_folder, "UNKNOWN")
 
 
+# EMBEDDING & BATCH INSERT
 def process_final_dataset(supabase_client) -> None:
     """
     Process all documents in Final Dataset and insert into Supabase corpus_documents table.

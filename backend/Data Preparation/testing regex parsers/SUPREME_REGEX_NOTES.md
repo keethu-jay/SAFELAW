@@ -1,6 +1,6 @@
 # Supreme Court Regex Parser – Quick Test Notes
 
-This folder is for **one-off testing** of the UK Supreme Court (seriatim) regex parser defined in `cenral_parser.py` and `court_config.yaml`.
+This folder was for **one-off testing** of the UK Supreme Court (seriatim) regex parser defined in `cenral_parser.py` and `court_config.yaml`.
 
 Goal: run the parser on a few real XML judgments and see if regex expressions can be succesfully used and applied.
 
@@ -32,4 +32,4 @@ Goal: run the parser on a few real XML judgments and see if regex expressions ca
 
 ## Results
 
-I ran `supreme_parser_text.py` and the json outputs were not very accurate and the main issue was correctly identifying the content of the paragraphs. This also looks like a nightmare to maintain and update as it seems the structure of supreme court judments change frequently and is not standardized.
+I ran `supreme_parser_test.py` and the JSON outputs were not very accurate – the main issue was correctly identifying the content of the paragraphs. This also looks like a pain to maintain and update since the structure of Supreme Court judgments changes frequently and isn't standardized. Therefore I'm no longer looking into regex parsers to separate sections of UK judgments.

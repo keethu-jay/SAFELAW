@@ -11,6 +11,7 @@ postgrest>=0.13.0
 
 # AI/ML
 openai>=1.0.0
+google-generativeai>=0.8.0
 numpy>=1.24.0
 
 # Environment Variables
@@ -27,5 +28,8 @@ isaacus>=0.1.0
 
 # Document conversion (convert_docs_to_xml.py)
 python-docx>=1.0.0
+
+# BAILII HTML parsing (convert_bailii_additional_cases.py)
+beautifulsoup4>=4.12.0
 striprtf>=0.0.26
 

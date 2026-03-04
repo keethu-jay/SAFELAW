@@ -1,21 +1,26 @@
-
 #!/usr/bin/env python3
+"""
+Samples HTML files from a folder, extracts text (optionally with structure), and
+writes .txt outputs plus a log.csv. Use for batch extraction from Dropbox or
+local folders.
+"""
 import argparse
 import csv
 import os
 import random
-from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from pathlib import Path
 
 from bs4 import BeautifulSoup
 
 DEFAULT_SELECTORS_TO_STRIP = ["script", "style", "nav", "footer", "noscript"]
 
 
+# EXTRACTION: HTML TO TEXT
 def extract_text_from_html(html: str, structured: bool = False) -> str:
+    """Strips scripts/styles/nav and returns plain text or structured (headings, paras, lists)."""
     soup = BeautifulSoup(html, "html.parser")
 
-    # remove noisy blocks
     for tag in DEFAULT_SELECTORS_TO_STRIP:
         for el in soup.find_all(tag):
             el.decompose()
@@ -48,11 +53,11 @@ def extract_text_from_html(html: str, structured: bool = False) -> str:
 from typing import Optional
 
 def process_file(path: Path, out_dir: Path, structured: bool = False, rel_root: Optional[Path] = None) -> dict:
+    """Extracts text from one HTML file and writes to out_dir, mirroring dir structure."""
     try:
         raw = path.read_text(encoding="utf-8", errors="ignore")
         text = extract_text_from_html(raw, structured=structured)
 
-        # mirror relative directory structure in out_dir
         rel = path.relative_to(rel_root) if rel_root else path.name
         if isinstance(rel, Path):
             out_path = out_dir / rel.with_suffix(".txt")
@@ -71,6 +76,7 @@ def process_file(path: Path, out_dir: Path, structured: bool = False, rel_root: 
         return {"file": str(path), "out_text": "", "chars": 0, "status": f"error: {e}"}
 
 
+# MAIN
 def main():
     ap = argparse.ArgumentParser(description="Sample ~N HTML files and extract text to .txt files.")
     ap.add_argument("--input-dir", required=True, help="Path to local folder containing .html/.htm files (e.g., your synced Dropbox folder)")
@@ -86,7 +92,6 @@ def main():
     out_dir = Path(args.out_dir).expanduser().resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Discover files
     patterns = [p.strip() for p in args.pattern.split(",") if p.strip()]
     files = []
     for pat in patterns:
@@ -115,7 +120,6 @@ def main():
             status = res["status"]
             print(f"[{status}] {res['file']}")
 
-    # Write log
     log_path = out_dir / "log.csv"
     with log_path.open("w", newline="", encoding="utf-8") as fh:
         writer = csv.DictWriter(fh, fieldnames=["file", "out_text", "chars", "status"])

@@ -1,15 +1,20 @@
+"""
+Standalone test for the UK Supreme Court regex parser. Built to show how brittle
+regex-only parsing is on real XML judgments. Does NOT use YAML or cenral_parser –
+self-contained for quick experiments.
+"""
 import json
 import re
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 
-
 JUDGE_HEADER_REGEX = re.compile(r"^(LORD|LADY)\s+[A-Z\- ]+:\s*$", re.MULTILINE)
 PARAGRAPH_SPLIT_REGEX = re.compile(r"\n\s*(\d+)\.\s+")
 CITATION_REGEX = re.compile(r"\[\d{4}\]\s+UKSC\s+\d+")
 
 
+# PARSING: XML TO TEXT
 def strip_xml_tags(text: str) -> str:
     """Very naive XML/HTML stripper just for this experiment."""
     return re.sub(r"<[^>]+>", " ", text)
@@ -18,20 +23,17 @@ def strip_xml_tags(text: str) -> str:
 def classify_section(para_num: int, content: str, is_lead: bool) -> str:
     """Heuristic labelling of paragraph section type. Intentionally brittle."""
     first_line = content.split("\n", 1)[0]
-    # Facts – early paragraphs of the lead opinion with typical headings.
     if is_lead and para_num <= 25 and re.search(
         r"(?i)(background|facts|introduction|procedural history)", first_line
     ):
         return "facts"
 
-    # History of lower court – looks for mentions of lower courts.
     if re.search(
         r"(?i)(court of appeal|high court|judge at first instance|tribunal below|lower court)",
         content,
     ):
         return "history_lower_court"
 
-    # Conclusions – end-of-judgment style phrases.
     if re.search(
         r"(?i)(for (all )?these reasons|i (would|will) (allow|dismiss) the appeal|"
         r"the appeal (is|should be) (allowed|dismissed))",
@@ -47,11 +49,10 @@ def extract_citations(text: str):
 
 
 def split_into_paragraphs(text_block: str, author: str, opinion_type: str, is_lead: bool):
-    """Split a judge's block into paragraphs with metadata."""
+    """I split a judge's block into paragraphs and attach metadata."""
     chunks = []
     parts = re.split(PARAGRAPH_SPLIT_REGEX, text_block)
 
-    # [pre, num, text, num, text, ...]
     for idx in range(1, len(parts), 2):
         try:
             para_num = int(parts[idx])
@@ -86,11 +87,11 @@ def split_into_paragraphs(text_block: str, author: str, opinion_type: str, is_le
     return chunks
 
 
+# DOCUMENT PROCESSING
 def process_document(raw_text: str, filename: str):
     """
-    Extremely simplified Supreme Court parser, contained entirely in this file.
-    It ignores YAML and tries to do everything with regex heuristics to show
-    how brittle this approach is on real XML judgments.
+    Extremely simplified Supreme Court parser – no YAML, just regex heuristics.
+    Built to show how brittle this approach is on real XML.
     """
     text = strip_xml_tags(raw_text)
 
@@ -134,14 +135,12 @@ def process_document(raw_text: str, filename: str):
     return case_data
 
 
+# MAIN
 def run_supreme_tests():
     """
-    Test harness for the Supreme Court (seriatim) regex parser.
-
-    - Reads XML sample files from `supreme_samples/`
-    - Runs them through the local `process_document`
-    - Writes JSON outputs to `output_json/`
-    - Prints a short summary so you can inspect how brittle the metadata is
+    Runs the parser on all XML files in supreme_samples/, writes JSON to
+    output_json/, and prints a short summary. Use to inspect how brittle the
+    metadata is.
     """
     samples_dir = BASE_DIR / "supreme_samples"
     output_dir = BASE_DIR / "output_json"
@@ -156,7 +155,7 @@ def run_supreme_tests():
         return
 
     for path in sample_files:
-        print("\n==============================")
+        print("\n---")
         print(f"Running parser on: {path.name}")
         raw_text = path.read_text(encoding="utf-8", errors="ignore")
 
@@ -180,7 +179,7 @@ def run_supreme_tests():
             json.dump(result, f, indent=2, ensure_ascii=False)
 
         print(f"- JSON written to: {output_path.relative_to(BASE_DIR)}")
-        print("Open this JSON to see how often the regex heuristics mislabel or miss metadata.")
+        print("Open the JSON to see how often the regex heuristics mislabel or miss metadata.")
 
 
 if __name__ == "__main__":

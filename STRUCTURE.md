@@ -14,8 +14,41 @@ SAFELAW/
 ├── STRUCTURE.md        # This file – directory walkthrough
 ├── backend/            # Data pipelines, server, retrieval, testing
 ├── frontend/           # Vite + React app (Reader, Writer, auth)
-└── References/         # CorpusStudios and GP-TSM documentation
+├── References/        # CorpusStudios and GP-TSM documentation
+├── Final Dataset/     # Processed UK court XML (Supreme Court, Tribunal)
+└── data/              # Raw data (gitignored); raw_xml from TNA API
 ```
+
+---
+
+## Data Directories (project root)
+
+### `Final Dataset/`
+
+Processed UK court case XML used for main corpus ingestion, baselines, and sentence comparison. Created by `dataset_processing.py` from raw XML.
+
+| Path | Contents |
+|------|----------|
+| `Supreme Court (uksc)/` | UK Supreme Court cases |
+| `Tribunal Court (ukut)/` | Upper Tribunal cases |
+| `Tribunal Court (eat)/` | Employment Appeal Tribunal (if present) |
+
+Each court folder has subfolders: `majority/`, `concurring/`, `dissenting/` – one XML file per case.
+
+**Used by:** `main_corpus/scripts/supabase_ingestion.py`, `run_baseline_corpus_studio.py`, `run_baseline_for_test_files.py`, `run_classification_comparison.py`, `compare_case_similarity.py`, sentence comparison `_runner` (Classification_Comparison TSV).
+
+**Path note:** Some scripts resolve `Final Dataset` from project root (`BACKEND_DIR.parent`), others from `backend/` (`BACKEND_DIR`). Ensure the folder exists where your script expects it.
+
+### `data/`
+
+Raw data (gitignored). Created when running TNA API ingestion.
+
+| Path | Contents |
+|------|----------|
+| `raw_xml/` | Raw XML from TNA API – UK Supreme Court and Tribunal cases before processing |
+
+**Used by:** `tna_api_ingestion.py` (writes here), `dataset_processing.py` (reads, processes into Final Dataset), `extract_test_cases.py`, baseline scripts.
+
 
 ---
 
@@ -219,9 +252,9 @@ Documentation for CorpusStudios and GP-TSM.
 ## Data Flow (High Level)
 
 1. **Small corpus**: BAILII HTML → extract → classify (LLM) → ingest to Supabase (paragraphs, sentences, context_tag, case_summary).
-2. **Main corpus**: TNA API → process → ingest to Supabase.
+2. **Main corpus**: TNA API → `data/raw_xml/` → `dataset_processing.py` → `Final Dataset/` → ingest to Supabase.
 3. **Retrieval**: User query → embed → vector search (KNN) → return top matches.
-4. **Testing**: Sentence comparison scripts (v1–v4) compare retrieval variants; output TSVs in `testing_scripts/output/`.
+4. **Testing**: Sentence comparison scripts (v1–v4) compare retrieval variants; output TSVs in `testing_scripts/output/`. Baselines read from `Final Dataset/` and `Classification_Comparison` TSV.
 
 ---
 

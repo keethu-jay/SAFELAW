@@ -2,7 +2,7 @@
 
 Skill-Augmenting Framework for Enhanced Legal Analysis & Writing
 
-This tool combines the logic behind CorpusStudios and GP-TSM (Grammar-Preserving Text Saliency Modulation) to support current workflows in the legal field. Built as a Major Qualifying Project at Worcester Polytechnic Institute by Brett Gerlach, Keerthana Jayamoorthy, and Julian Mariscal, under the guidance of Professor Erin Solovey (WPI) and Chelse Swoopes (Harvard).
+This tool combines the logic behind CorpusStudios and GP-TSM (Grammar-Preserving Text Saliency Modulation) to support current workflows in the legal field. Built as a Major Qualifying Project at Worcester Polytechnic Institute by Brett Gerlach, Keerthana Jayamoorthy, and Julian Mariscal, under the guidance of Professor Erin Solovey (WPI), Professor Brian Flanagan (Maynooth), Professor Elena Glassman (Harvard), and Chelse Swoopes (Harvard).
 
 ---
 
